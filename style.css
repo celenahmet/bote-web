@@ -2857,20 +2857,20 @@ input[type=submit]:focus {
   }
 }
 .home-banner .image-overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   opacity: 0.1;
   background-repeat: no-repeat;
   background-position: top right;
 }
 .home-banner .image-overlay-oval {
-  background-image: url(https://bote.web.tr/assets/img/educator-img2.png);
+  background-image: url(/assets/img/educator-img2.png);
   opacity: 0.8;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
 }
 .home-banner .overlay-image {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   opacity: 0.5;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -2891,7 +2891,7 @@ input[type=submit]:focus {
   }
 }
 .home-service .pattern-overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-size: 11% auto;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -2902,7 +2902,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .home-service .service-wrapper .pattern-circle {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.2;
@@ -3019,7 +3019,7 @@ input[type=submit]:focus {
   }
 }
 .home-about-us .pattern-overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 17% auto;
@@ -3141,7 +3141,7 @@ input[type=submit]:focus {
 >>> Home progress section  
 ----------------------------------------------------------------*/
 .home-progress-section {
-  background-image: url(https://bote.web.tr/assets/img/educator-img12.jpg);
+  background-image: url(/assets/img/educator-img12.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3271,7 +3271,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .home-team-section .container .overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 15% auto;
@@ -3349,7 +3349,7 @@ input[type=submit]:focus {
 ----------------------------------------------------------------*/
 .home-fact-section {
   margin-bottom: 130px;
-  background-image: url(https://bote.web.tr/assets/img/educator-img12.jpg);
+  background-image: url(/assets/img/educator-img12.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -3475,13 +3475,13 @@ input[type=submit]:focus {
   }
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .fact-content .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: top center;
   background-repeat: no-repeat;
   opacity: 0.3;
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .fact-content .circle-c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: top right;
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -3514,11 +3514,11 @@ input[type=submit]:focus {
   }
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .top-right-image {
-  background-image: url(https://bote.web.tr/assets/img/educator-img27.jpg);
+  background-image: url(/assets/img/educator-img27.jpg);
   background-position: center right;
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .bottom-left-image {
-  background-image: url(https://bote.web.tr/assets/img/educator-img28.jpg);
+  background-image: url(/assets/img/educator-img28.jpg);
   background-position: center left;
 }
 .home-fact-section .fact-right-inner-wrap .fact-inner-box .bottom-right-content {
@@ -3572,7 +3572,7 @@ input[type=submit]:focus {
   padding: 50px;
   border-radius: 25px;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
-  background-image: url(https://bote.web.tr/assets/img/educator-img1.png);
+  background-image: url(/assets/img/educator-img1.png);
   background-position: 32% 70%;
   background-repeat: no-repeat;
   position: relative;
@@ -3603,7 +3603,7 @@ input[type=submit]:focus {
   }
 }
 .home-testimonial-section .client-content .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: bottom left;
   background-repeat: no-repeat;
   opacity: 0.15;
@@ -3677,7 +3677,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .home-blog-section .overlay-wrapper .c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: 100% 15%;
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -3940,7 +3940,7 @@ input[type=submit]:focus {
   }
 }
 .home-goal-section .goal-content .pattern-overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img7.png);
+  background-image: url(/assets/img/educator-img7.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -3966,13 +3966,13 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .home-course-section .overlay-wrapper .pattern-overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img6.png);
+  background-image: url(/assets/img/educator-img6.png);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 12% auto;
 }
 .home-course-section .overlay-wrapper .overlay-circle {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-repeat: no-repeat;
   background-position: 100% 10%;
   opacity: 0.4;
@@ -4141,7 +4141,7 @@ input[type=submit]:focus {
 >>> Main Footer  
 ----------------------------------------------------------------*/
 .site-footer {
-  background-image: url(https://bote.web.tr/assets/img/educator-img12.jpg);
+  background-image: url(/assets/img/educator-img12.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
@@ -4519,7 +4519,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .course-result-section .left-content .zigzag-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-position: calc(100% - 50px) 100%;
   background-repeat: no-repeat;
   background-size: 22% auto;
@@ -4574,13 +4574,13 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .course-result-section .feature-right-content .c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: top left;
   background-repeat: no-repeat;
   opacity: 0.5;
 }
 .course-result-section .feature-right-content .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: 100% 98%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -5641,7 +5641,7 @@ input[type=submit]:focus {
   }
 }
 .team-detail-section .zigzag-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-position: 100% 43%;
   background-repeat: no-repeat;
   background-size: 12% auto;
@@ -5708,7 +5708,7 @@ input[type=submit]:focus {
   }
 }
 .team-detail-section .author-bio-date .c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: top center;
   background-repeat: no-repeat;
   opacity: 0.2;
@@ -5799,7 +5799,7 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .team-detail-section .experience-wrappered .c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: center bottom;
   background-repeat: no-repeat;
   opacity: 0.2;
@@ -5958,13 +5958,13 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .vacancy-content .zigzag-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.2;
 }
 .vacancy-content .c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.2;
@@ -6000,7 +6000,7 @@ input[type=submit]:focus {
   }
 }
 .about-service-wrap .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: center right;
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -6281,7 +6281,7 @@ input[type=submit]:focus {
   }
 }
 .course-detail-section .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.7;
@@ -6610,7 +6610,7 @@ input[type=submit]:focus {
   /* Firefox */
 }
 .qsn-form-container .zigzag-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.3;
@@ -6682,13 +6682,13 @@ input[type=submit]:focus {
   z-index: 1;
 }
 .faq-testimonial .faq-image .c-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img3.png);
+  background-image: url(/assets/img/educator-img3.png);
   background-position: top left;
   background-repeat: no-repeat;
   opacity: 0.3;
 }
 .faq-testimonial .faq-image .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: center right;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -6908,7 +6908,7 @@ input[type=submit]:focus {
 }
 
 .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: 20% 110px;
   background-repeat: no-repeat;
   opacity: 0.2;
@@ -6920,7 +6920,7 @@ input[type=submit]:focus {
   z-index: 2;
 }
 .no-content-wrap .zigzag-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 15% auto;
@@ -7218,7 +7218,7 @@ input[type=submit]:focus {
   margin-top: 100px;
 }
 .contact-page-section .contact-form-inner .zigzag-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 20% auto;
@@ -7304,7 +7304,7 @@ input[type=submit]:focus {
   }
 }
 .contact-page-section .contact-form-inner .contact-from-wrap .circle-patten {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: bottom right;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -8393,7 +8393,7 @@ product slider range for price css
   }
 }
 .categories-section .pattern-overlay {
-  background-image: url(https://bote.web.tr/assets/img/educator-img5.png);
+  background-image: url(/assets/img/educator-img5.png);
   background-size: 11% auto;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -8404,7 +8404,7 @@ product slider range for price css
   z-index: 1;
 }
 .categories-section .service-wrapper .pattern-circle {
-  background-image: url(https://bote.web.tr/assets/img/educator-img4.png);
+  background-image: url(/assets/img/educator-img4.png);
   background-position: center center;
   background-repeat: no-repeat;
   opacity: 0.2;
