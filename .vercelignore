@@ -1,3 +1,17 @@
+# Yayina CIKMAYAN dosyalar. Depoda dururlar, Vercel'e yuklenmezler.
+# 20.09: Vercel Hobby "Deployment Storage" 10 GB kotasi asildi (11,03 GB);
+# bu siteden her dagitimda ~490 MB yukleniyordu.
+
+# Eski WordPress agaci (213 MB): vercel.json /blog ve /blog/:path* adreslerini
+# zaten ana sayfaya yonlendiriyor, tek dosyasi bile sunulmuyordu.
+# Depoda duruyor: ileride yazilar markdown'a tasinacak.
+blog/
+
+# Eski hata sayfalari (15 MB): /error/404 -> /404 yonlendirmesi var,
+# 404.html artik kendi kendine yeten tek dosya.
+error/
+
+# Orijinal gorsel kopyalari ve ders dosyalari
 originals/
 Ek_odev.docx
 word.pdf

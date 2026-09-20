@@ -4,31 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon -->
-    <link rel="icon" type="image/png" href="/error/404/assets/img/educator-fabicon-300x300.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/error/404/assets/vendors/bootstrap/css/bootstrap.min.css" media="all">
-    <!-- Fonts Awesome CSS -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/fontawesome/css/all.min.css">
-    <!-- Elmentkit Icon CSS -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
-    <!-- progress bar CSS -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/progressbar-fill-visible/css/progressBar.css">
-    <!-- jquery-ui css -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/jquery-ui/jquery-ui.min.css">
-    <!-- modal video css -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/modal-video/modal-video.min.css">
-    <!-- light box css -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/fancybox/dist/jquery.fancybox.min.css">
-    <!-- slick slider css -->
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="/error/404/assets/vendors/slick/slick-theme.css">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&amp;family=Poppins:ital,wght@0,100;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&amp;display=swap" rel="stylesheet">
-    <!-- css -->
-    <link rel="stylesheet" type="text/css" href="/error/404/style.css">
+    <link rel="icon" href="/assets/img/educator-fabicon-300x300.png" type="image/png">
     <title>BÖTE : 404 Not Found</title>
     <meta name="robots" content="noindex,nofollow">
+    <meta name="description" content="Aradığınız sayfa bulunamadı.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="BÖTE">
     <meta property="og:locale" content="tr_TR">
@@ -39,131 +18,54 @@
     <meta name="twitter:title" content="BÖTE : 404 Not Found">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&family=Poppins:wght@500;700&display=swap">
+    <!--
+      Kendi kendine yeten hata sayfasi: eski surum /error/404/assets altindaki
+      ~7 MB'lik vendor CSS yiginini (bootstrap, fontawesome, slick, jquery-ui...)
+      yukluyordu. Tek dosya, dis bagimliliksiz; /error/ klasoru artik yayina
+      cikmiyor (.vercelignore).
+    -->
+    <style>
+        :root { --mor: #41246D; --pembe: #F24080; --metin: #414141; --zemin: #ffffff; }
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: Mulish, system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--metin); background: var(--zemin); }
+        .kutu { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 48px 20px; gap: 18px; }
+        .logo { width: 180px; height: auto; }
+        .kod { font-family: Poppins, Mulish, sans-serif; font-size: clamp(64px, 18vw, 140px); font-weight: 700; line-height: 1; color: var(--mor); margin: 0; }
+        h1 { font-family: Poppins, Mulish, sans-serif; font-size: clamp(22px, 5vw, 30px); font-weight: 700; margin: 0; color: #111111; }
+        p { max-width: 52ch; margin: 0; font-size: 16px; line-height: 1.6; }
+        .baglantilar { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 8px; }
+        a.dugme { display: inline-block; padding: 12px 24px; border-radius: 999px; font-weight: 700; text-decoration: none; font-size: 15px; }
+        a.birincil { background: var(--mor); color: #ffffff; }
+        a.birincil:hover { background: #2f1a50; }
+        a.ikincil { border: 2px solid var(--pembe); color: var(--pembe); }
+        a.ikincil:hover { background: var(--pembe); color: #ffffff; }
+        .alt { font-size: 14px; color: #6b6b6b; }
+        .alt a { color: var(--mor); }
+        @media (prefers-color-scheme: dark) {
+            :root { --zemin: #111111; --metin: #d8d8d8; }
+            h1 { color: #ffffff; }
+            .kod { color: #b79bea; }
+            a.birincil { background: #b79bea; color: #111111; }
+            .alt { color: #9a9a9a; }
+            .alt a { color: #b79bea; }
+        }
+    </style>
 </head>
 
-<body class="home">
-    <div id="siteLoader" class="site-loader ">
-        <div class="preloader-content">
-            <img width="200" height="200" src="/error/404/assets/img/loader1.gif" alt="">
+<body>
+    <main class="kutu">
+        <a href="/"><img class="logo" src="/assets/img/educator-logo1.png" width="180" height="50" alt="BÖTE"></a>
+        <p class="kod">404</p>
+        <h1>Sayfa bulunamadı</h1>
+        <p>Aradığınız sayfa taşınmış ya da adresi değişmiş olabilir. Aşağıdan ana sayfaya dönebilir veya bölüm sayfalarına göz atabilirsiniz.</p>
+        <div class="baglantilar">
+            <a class="dugme birincil" href="/">Ana sayfa</a>
+            <a class="dugme ikincil" href="/curriculum">Ders programı</a>
+            <a class="dugme ikincil" href="/contact">İletişim</a>
         </div>
-    </div>
-    <div id="page" class="full-page">
-        <!-- coming soon start -->
-        <div class="comming-soon-section" style="background-image: url(assets/img/educator-img12.jpg);">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="comming-soon-wrap">
-                    <section class="site-identity">
-                        <h1 class="site-title">
-                            <a href="/">
-                                <img width="180" height="50" class="white-logo" src="/assets/img/educator-logo1.png" alt="logo">
-                            </a>
-                        </h1>
-                    </section>
-                    <article class="comming-soon-content">
-                        <h2 class="section-title">
-                            CODE : 404
-                        </h2>
-                        <h6>Page is not found. Sayfa bulunamadı.</h6>
-                    </article>
-                    <!-- Time count down html -->
-                    <div class="time-counter-wrap">
-                        <div class="time-counter" data-date="2025-01-01 00:00:00">
-                            <!-- Date Formate Input yyyy-mm-dd hh:mm:ss -->
-                            <div class="counter-time">
-                                <span class="counter-days">39</span>
-                                <span class="label-text">Days</span>
-                            </div>
-                            <div class="counter-time">
-                                <span class="counter-hours">10</span>
-                                <span class="label-text">Hours</span>
-                            </div>
-                            <div class="counter-time">
-                                <span class="counter-minutes">60</span>
-                                <span class="label-text">Minutes</span>
-                            </div>
-                            <div class="counter-time">
-                                <span class="counter-seconds">60</span>
-                                <span class="label-text">Seconds</span>
-                            </div>
-
-                            <br>
-                            <br>
-
-                        <center><p>Zaman geçiyor. Yeni yıla kadar kendinizi ne kadar geliştireceksiniz?</p></center>
-
-                        <center><p>Time is passing. What will be the difference between you and the old you until the new year?</p></center>
-                        </div>
-                    </div>
-
-                    <div class="comming-soon-footer">
-                        <div class="row align-items-center">
-                            <div class="col-lg-8">
-                                <div class="com-contact-info">
-                                    <ul>
-                                        <li>
-                                            <a href="mailto:ahmetcelen@hacettepe.edu.tr"><i class="fas fa-envelope"></i> 
-                                        ahmetcelen@hacettepe.edu.tr</span></a>
-                                        </li>
-                                        <li>
-                                            <i class="fas fa-map-marker-alt"></i> Ankara, Turkey
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="social-icons">
-                                    <ul>
-                                        <li>
-                                            <a href="/media" target="_blank">
-                                                <i class="fab fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/media" target="_blank">
-                                                <i class="fab fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/media" target="_blank">
-                                                <i class="fab fa-google"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/media" target="_blank">
-                                                <i class="fab fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/" target="_blank">
-                                                <i class="fab fa-youtube"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="overlay"></div>
-        </div>
-        <!-- coming soon end -->
-    </div>
-    <!-- JavaScript -->
-    <script src="/error/404/assets/vendors/jquery/jquery.js"></script>
-    <script src="/error/404/assets/vendors/waypoint/jquery.waypoints.min.js"></script>
-    <script src="/error/404/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-    <script src="/error/404/assets/vendors/jquery-ui/jquery-ui.min.js"></script>
-    <script src="/error/404/assets/vendors/progressbar-fill-visible/js/progressBar.min.js"></script>
-    <script src="/error/404/assets/vendors/countdown-date-loop-counter/loopcounter.js"></script>
-    <script src="/error/404/assets/vendors/counterup/jquery.counterup.js"></script>
-    <script src="/error/404/assets/vendors/modal-video/jquery-modal-video.min.js"></script>
-    <script src="/error/404/assets/vendors/masonry/masonry.pkgd.min.js"></script>
-    <script src="/error/404/assets/vendors/fancybox/dist/jquery.fancybox.min.js"></script>
-    <script src="/error/404/assets/vendors/slick/slick.min.js"></script>
-    <script src="/error/404/assets/vendors/slick-nav/jquery.slicknav.js"></script>
-    <script src="/error/404/assets/js/custom.js"></script>
+        <p class="alt">Bir bağlantının kırık olduğunu düşünüyorsanız <a href="mailto:ahmetcelen@hacettepe.edu.tr">ahmetcelen@hacettepe.edu.tr</a> adresine yazabilirsiniz.</p>
+    </main>
 </body>
 
 </html>
