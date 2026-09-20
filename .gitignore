@@ -24,6 +24,8 @@ node_modules/
 *.p12
 
 blog/
+# Ahmet (20.09): 48 MB'lik sunum yayinda olmasin, yerelde dursun.
+bte432.pptx
 uni/**/index.php
 en/uni/**/index.php
 wp-config.php
