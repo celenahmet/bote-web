@@ -1,0 +1,2050 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EGT350 — Eğitimde Program Geliştirme | Final Premium Ders Notu + Soru Bankası</title>
+  <meta name="description" content="EGT350 final için premium ders notu, kavram bankası ve interaktif soru bankası (test, doğru/yanlış, boşluk doldurma, eşleştirme)." />
+  <style>
+    :root{
+      --bg0:#070A12;
+      --bg1:#0B1020;
+      --card:#0E1630;
+      --card2:#0A1227;
+      --text:#EAF0FF;
+      --muted:#A8B3D1;
+      --muted2:#7E89A9;
+      --line:rgba(255,255,255,.10);
+      --line2:rgba(255,255,255,.14);
+      --accent:#7C5CFF;
+      --accent2:#22D3EE;
+      --good:#35D07F;
+      --bad:#FF5C7A;
+      --warn:#FFC857;
+      --shadow: 0 16px 50px rgba(0,0,0,.45);
+      --shadow2: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 18px;
+      --radius2: 14px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+    }
+
+    /* Light mode */
+    [data-theme="light"]{
+      --bg0:#F6F8FF;
+      --bg1:#EEF2FF;
+      --card:#FFFFFF;
+      --card2:#F6F7FF;
+      --text:#121828;
+      --muted:#4E5B7A;
+      --muted2:#6C7692;
+      --line:rgba(18,24,40,.10);
+      --line2:rgba(18,24,40,.14);
+      --shadow: 0 18px 55px rgba(18,24,40,.12);
+      --shadow2: 0 12px 35px rgba(18,24,40,.10);
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:var(--sans);
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 15% -10%, rgba(124,92,255,.20), transparent 60%),
+        radial-gradient(900px 600px at 90% 0%, rgba(34,211,238,.15), transparent 55%),
+        radial-gradient(900px 700px at 30% 120%, rgba(255,200,87,.08), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      overflow-x:hidden;
+    }
+
+    a{color:inherit}
+    .container{max-width:1180px;margin:0 auto;padding:22px 18px 70px}
+
+    /* Top bar */
+    .topbar{
+      position:sticky;top:0;z-index:50;
+      backdrop-filter: blur(14px);
+      background: linear-gradient(180deg, rgba(10,14,26,.82), rgba(10,14,26,.45));
+      border-bottom: 1px solid var(--line);
+    }
+    [data-theme="light"] .topbar{
+      background: linear-gradient(180deg, rgba(246,248,255,.82), rgba(246,248,255,.55));
+    }
+
+    .topbar-inner{
+      max-width:1180px;margin:0 auto;
+      padding:14px 18px;
+      display:flex;gap:12px;align-items:center;justify-content:space-between;
+    }
+    .brand{
+      display:flex;align-items:center;gap:10px;min-width:250px;
+    }
+    .logo{
+      width:42px;height:42px;border-radius:14px;
+      background:
+        radial-gradient(24px 24px at 30% 30%, rgba(255,255,255,.85), transparent 60%),
+        linear-gradient(135deg, rgba(124,92,255,.95), rgba(34,211,238,.75));
+      box-shadow: var(--shadow2);
+      border:1px solid rgba(255,255,255,.14);
+    }
+    [data-theme="light"] .logo{
+      border:1px solid rgba(18,24,40,.12);
+    }
+    .brand h1{
+      margin:0;font-size:14px;line-height:1.2;font-weight:800;
+      letter-spacing:.2px;
+    }
+    .brand p{
+      margin:2px 0 0;font-size:12px;color:var(--muted);font-weight:600;
+    }
+
+    .search{
+      flex:1;display:flex;align-items:center;gap:10px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding:10px 14px;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.08);
+      max-width:520px;
+    }
+    [data-theme="light"] .search{background: rgba(18,24,40,.04)}
+    .search input{
+      width:100%;
+      border:0;outline:0;background:transparent;
+      color:var(--text);
+      font-weight:600;
+    }
+    .search input::placeholder{color:var(--muted2);font-weight:600}
+    .kbd{
+      font-family:var(--mono);
+      font-size:11px;color:var(--muted2);
+      padding:4px 8px;border-radius:10px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      user-select:none;
+    }
+    .actions{
+      display:flex;align-items:center;gap:10px;
+    }
+    .btn{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      color:var(--text);
+      padding:10px 12px;
+      border-radius: 12px;
+      font-weight:800;
+      cursor:pointer;
+      transition: transform .12s ease, background .12s ease, border-color .12s ease;
+      display:inline-flex;gap:10px;align-items:center;
+      box-shadow: 0 10px 22px rgba(0,0,0,.18);
+    }
+    [data-theme="light"] .btn{background: rgba(18,24,40,.03); box-shadow:none}
+    .btn:hover{transform: translateY(-1px); border-color: var(--line2)}
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(124,92,255,.95), rgba(34,211,238,.70));
+      border-color: rgba(255,255,255,.18);
+      box-shadow: 0 16px 40px rgba(124,92,255,.18);
+    }
+    .btn.ghost{background:transparent; box-shadow:none}
+    .chip{
+      padding:6px 10px;border-radius:999px;
+      border:1px solid var(--line);
+      color:var(--muted);
+      font-size:12px;font-weight:800;
+      background: rgba(255,255,255,.04);
+    }
+
+    /* Progress bar */
+    .progress-wrap{height:3px;background:transparent}
+    .progress{
+      height:3px;width:0%;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      box-shadow: 0 0 20px rgba(124,92,255,.55);
+    }
+
+    /* Hero */
+    .hero{
+      display:grid;grid-template-columns: 1.4fr .9fr;
+      gap:16px;align-items:stretch;
+      margin-top:18px;
+    }
+    @media (max-width: 980px){ .hero{grid-template-columns:1fr; } .brand{min-width:auto} .search{max-width:none} }
+    .card{
+      border:1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      position:relative;
+    }
+    [data-theme="light"] .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.85));
+    }
+    .card .inner{padding:18px}
+    .headline{
+      display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;
+    }
+    .title{
+      margin:0;
+      font-size:22px;
+      line-height:1.15;
+      font-weight:900;
+      letter-spacing:.2px;
+    }
+    .subtitle{margin:10px 0 0;color:var(--muted);font-weight:650;line-height:1.5}
+    .badges{display:flex;gap:8px;flex-wrap:wrap}
+    .badge{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.04);
+      color:var(--muted);
+      padding:8px 10px;border-radius:999px;
+      font-weight:900;font-size:12px;
+      display:inline-flex;gap:8px;align-items:center;
+    }
+    .badge strong{color:var(--text)}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+    @media (max-width: 640px){ .grid2{grid-template-columns:1fr} }
+
+    .mini{
+      border:1px solid var(--line);
+      border-radius: var(--radius2);
+      background: rgba(255,255,255,.03);
+      padding:14px;
+    }
+    [data-theme="light"] .mini{background: rgba(18,24,40,.02)}
+    .mini h3{margin:0 0 8px;font-size:13px;font-weight:900}
+    .mini p{margin:0;color:var(--muted);line-height:1.55;font-weight:650;font-size:13px}
+    .mini ul{margin:10px 0 0;padding-left:18px;color:var(--muted);font-weight:650;font-size:13px;line-height:1.6}
+
+    /* Navigation */
+    .nav{
+      margin-top:16px;
+      display:flex;gap:10px;flex-wrap:wrap;
+      align-items:center;
+    }
+    .nav a{
+      text-decoration:none;
+      border:1px solid var(--line);
+      padding:10px 12px;border-radius: 999px;
+      color:var(--muted);
+      font-weight:900;
+      background: rgba(255,255,255,.04);
+      transition: transform .12s ease, border-color .12s ease;
+    }
+    .nav a:hover{transform: translateY(-1px); border-color: var(--line2); color:var(--text)}
+    .nav a.active{color:var(--text); border-color: rgba(124,92,255,.55); background: rgba(124,92,255,.12)}
+
+    /* Sections */
+    section{margin-top:18px}
+    .section-head{
+      display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;
+      margin-bottom:12px;
+    }
+    .section-head h2{
+      margin:0;font-size:16px;font-weight:950;letter-spacing:.2px;
+    }
+    .section-head p{
+      margin:0;color:var(--muted);font-weight:650;
+    }
+    .panel{
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.03);
+      overflow:hidden;
+    }
+    [data-theme="light"] .panel{background: rgba(18,24,40,.02)}
+    details{
+      border-top:1px solid var(--line);
+      padding:0;
+    }
+    details:first-child{border-top:0}
+    summary{
+      list-style:none;
+      cursor:pointer;
+      padding:14px 16px;
+      display:flex;align-items:center;justify-content:space-between;gap:12px;
+      font-weight:950;
+    }
+    summary::-webkit-details-marker{display:none}
+    .sum-left{display:flex;gap:10px;align-items:center}
+    .pill{
+      font-family:var(--mono);
+      font-size:11px;
+      padding:4px 8px;border-radius:999px;
+      border:1px solid var(--line);
+      color:var(--muted2);
+      background: rgba(255,255,255,.04);
+      font-weight:800;
+    }
+    .chev{
+      width:10px;height:10px;border-right:2px solid var(--muted2);border-bottom:2px solid var(--muted2);
+      transform: rotate(-45deg);
+      transition: transform .15s ease;
+      margin-left:auto;
+    }
+    details[open] .chev{transform: rotate(45deg)}
+    .content{
+      padding:0 16px 14px;
+      color:var(--muted);
+      line-height:1.7;
+      font-weight:650;
+    }
+    .content h4{margin:14px 0 8px;color:var(--text);font-size:13px}
+    .content ul{margin:8px 0 0;padding-left:18px}
+    .content li{margin:6px 0}
+    .callout{
+      margin-top:10px;
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background: linear-gradient(135deg, rgba(124,92,255,.14), rgba(34,211,238,.10));
+      color: var(--text);
+      font-weight:800;
+    }
+    .callout small{display:block;color:var(--muted);font-weight:700;margin-top:4px;line-height:1.5}
+
+    .def-grid{
+      display:grid;grid-template-columns: 1fr 1fr;gap:12px;
+    }
+    @media (max-width: 900px){ .def-grid{grid-template-columns:1fr} }
+    .def{
+      border:1px solid var(--line);
+      border-radius: var(--radius2);
+      background: rgba(255,255,255,.03);
+      padding:14px;
+    }
+    .def .k{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+    .def .k strong{font-size:14px;font-weight:950}
+    .def .k .tag{font-family:var(--mono);font-size:11px;color:var(--muted2);border:1px solid var(--line);padding:4px 8px;border-radius:999px}
+    .def p{margin:10px 0 0;color:var(--muted);font-weight:650;line-height:1.7}
+    .def .hint{margin-top:10px;color:var(--muted2);font-weight:800;font-size:12px}
+
+    /* Quiz */
+    .quiz{
+      display:grid;grid-template-columns: 1.1fr .9fr;gap:14px;
+    }
+    @media (max-width: 980px){ .quiz{grid-template-columns:1fr} }
+    .quiz-left,.quiz-right{border:1px solid var(--line);border-radius: var(--radius);background: rgba(255,255,255,.03);overflow:hidden}
+    [data-theme="light"] .quiz-left,[data-theme="light"] .quiz-right{background: rgba(18,24,40,.02)}
+    .quiz-head{padding:14px 16px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .quiz-head h3{margin:0;font-size:14px;font-weight:950}
+    .quiz-head .meta{color:var(--muted);font-weight:800;font-size:12px}
+    .quiz-body{padding:14px 16px}
+    .q-card{
+      border:1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,.03);
+      padding:14px;
+      margin-bottom:12px;
+    }
+    .q-card:last-child{margin-bottom:0}
+    .q-type{font-family:var(--mono);font-size:11px;color:var(--muted2);margin-bottom:8px;font-weight:800}
+    .q-text{font-weight:950;line-height:1.35;margin:0 0 12px}
+    .opts{display:grid;gap:8px}
+    .opt{
+      display:flex;gap:10px;align-items:flex-start;
+      border:1px solid var(--line);
+      border-radius: 14px;
+      padding:10px 10px;
+      cursor:pointer;
+      user-select:none;
+      transition: transform .10s ease, border-color .10s ease, background .10s ease;
+      background: rgba(255,255,255,.02);
+    }
+    .opt:hover{transform: translateY(-1px); border-color: var(--line2)}
+    .opt input{margin-top:2px}
+    .opt .t{color:var(--muted);font-weight:750;line-height:1.5}
+    .fill{
+      display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+      border:1px solid var(--line);
+      border-radius: 14px;
+      padding:10px;
+      background: rgba(255,255,255,.02);
+    }
+    .fill input{
+      flex:1;min-width:200px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color:var(--text);
+      padding:10px 12px;border-radius:12px;
+      outline:none;
+      font-weight:800;
+    }
+
+    .match-grid{
+      display:grid;grid-template-columns:1fr 1fr;gap:10px;
+    }
+    @media (max-width: 780px){ .match-grid{grid-template-columns:1fr} }
+    .match-col{
+      border:1px solid var(--line);
+      border-radius: 14px;
+      padding:10px;
+      background: rgba(255,255,255,.02);
+    }
+    .match-col h4{margin:0 0 10px;font-size:13px;font-weight:950}
+    .match-item{
+      display:flex;gap:10px;align-items:center;justify-content:space-between;
+      border:1px solid var(--line);
+      border-radius: 12px;
+      padding:10px;margin-bottom:8px;
+      background: rgba(255,255,255,.02);
+    }
+    .match-item:last-child{margin-bottom:0}
+    select{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      color:var(--text);
+      padding:8px 10px;border-radius:12px;
+      font-weight:850;
+      outline:none;
+      min-width:200px;
+    }
+    .score{
+      padding:14px 16px;
+      display:grid;gap:10px;
+    }
+    .stat{
+      border:1px solid var(--line);
+      border-radius: 16px;
+      padding:12px;
+      background: rgba(255,255,255,.03);
+      display:flex;align-items:center;justify-content:space-between;gap:10px;
+    }
+    .stat strong{font-weight:950}
+    .stat span{color:var(--muted);font-weight:800}
+    .note{
+      border:1px dashed rgba(124,92,255,.45);
+      background: rgba(124,92,255,.08);
+      padding:12px;border-radius:16px;
+      color:var(--text);
+      font-weight:850;
+      line-height:1.6;
+    }
+
+    .toast{
+      position: fixed;
+      left:50%;
+      bottom:18px;
+      transform: translateX(-50%);
+      padding:12px 14px;
+      border-radius: 14px;
+      border:1px solid var(--line);
+      background: rgba(10,14,26,.85);
+      color:var(--text);
+      font-weight:900;
+      box-shadow: var(--shadow);
+      display:none;
+      z-index:100;
+    }
+    [data-theme="light"] .toast{background: rgba(255,255,255,.88)}
+    .hr{height:1px;background:var(--line);margin:14px 0}
+    .muted{color:var(--muted);font-weight:650}
+    .small{font-size:12px}
+    .mono{font-family:var(--mono)}
+    .footer{
+      margin-top:18px;
+      padding:16px;
+      border-radius: var(--radius);
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.03);
+      display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;
+      color:var(--muted);font-weight:800;
+    }
+    .highlight{
+      background: rgba(255,200,87,.14);
+      border: 1px solid rgba(255,200,87,.22);
+      padding:2px 6px;border-radius:10px;
+      color: var(--text);
+      font-weight:900;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <h1>EGT350 — Eğitimde Program Geliştirme</h1>
+          <p>Final Premium Not + Kavram Bankası + Soru Bankası</p>
+        </div>
+      </div>
+
+      <div class="search" title="Sayfa içinde ara (Ctrl /)">
+        <span class="mono" style="color:var(--muted2);font-weight:900;">⌕</span>
+        <input id="searchInput" placeholder="Kavram, model, süreç, Tyler, CIPP, TTKB..." />
+        <span class="kbd">Ctrl /</span>
+      </div>
+
+      <div class="actions">
+        <span class="chip" id="modeChip">Mod: Çalışma</span>
+        <button class="btn" id="themeBtn" type="button" title="Tema değiştir">🌓 Tema</button>
+        <button class="btn primary" id="openAllBtn" type="button" title="Tüm başlıkları aç/kapat">⚡ Hepsini Aç</button>
+      </div>
+    </div>
+    <div class="progress-wrap"><div class="progress" id="progress"></div></div>
+  </div>
+
+  <div class="container">
+    <!-- HERO -->
+    <div class="hero">
+      <div class="card">
+        <div class="inner">
+          <div class="headline">
+            <div>
+              <h2 class="title">Finale “%100” Notu: Omurga + Detay + Soru Tipleri</h2>
+              <p class="subtitle">
+                Bu sayfa; <span class="highlight">kuramsal temeller</span>, <span class="highlight">program geliştirme süreci</span>,
+                <span class="highlight">tasarım</span>, <span class="highlight">uygulama</span>, <span class="highlight">ölçme-değerlendirme</span>
+                ve <span class="highlight">program değerlendirme modellerini</span> tek yerde, sınav cevabı yazdıracak şekilde toplar.
+              </p>
+            </div>
+            <div class="badges">
+              <div class="badge">🧠 <strong>Tanım Bankası</strong> <span>tam puan formatı</span></div>
+              <div class="badge">📌 <strong>Omurga</strong> <span>hocanın %90 sorduğu yer</span></div>
+              <div class="badge">🧪 <strong>Quiz</strong> <span>test + d/y + boşluk + eşleştirme</span></div>
+            </div>
+          </div>
+
+          <div class="grid2">
+            <div class="mini">
+              <h3>🔴 Finalde yazma kuralın (4 adım)</h3>
+              <p>Her açık uçlu soru cevabında şu düzeni kullan:</p>
+              <ul>
+                <li><b>Tanım</b> (1–2 cümle)</li>
+                <li><b>Madde madde</b> açıklama</li>
+                <li><b>İlişki/Tutarlılık</b> (tek cümle)</li>
+                <li><b>Mini örnek</b> (1 cümle)</li>
+              </ul>
+            </div>
+
+            <div class="mini">
+              <h3>🟣 “Program” = 4 öğe / 4 soru</h3>
+              <p><b>Niçin?</b> Hedef • <b>Ne?</b> İçerik • <b>Nasıl?</b> Eğitim durumları • <b>Ne kadar?</b> Sınama/değerlendirme</p>
+              <div class="hr"></div>
+              <p class="small muted">İpucu: Bu eşleştirmeyi yazan öğrenci genelde tanımdan puan kırdırmaz.</p>
+            </div>
+          </div>
+
+          <div class="nav" id="nav">
+            <a href="#omurga" class="active">🔴 Finalin Omurgası</a>
+            <a href="#kavramlar">📚 Kavram Bankası</a>
+            <a href="#kuramsal">🧭 Kuramsal Temeller</a>
+            <a href="#surec">🔁 PG Süreci</a>
+            <a href="#tasarim">🧩 Tasarım</a>
+            <a href="#olcme">📏 Ölçme & Değ.</a>
+            <a href="#pd">🧪 Program Değerlendirme</a>
+            <a href="#quiz">✅ Soru Bankası</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="inner">
+          <h2 class="title" style="font-size:18px">Hızlı Kontrol Paneli</h2>
+          <p class="subtitle" style="margin-top:8px">
+            Çalışırken “mod” değiştirebilir, quiz skorlarını kaydedebilir, en çok çıkan başlıklara odaklanabilirsin.
+          </p>
+
+          <div class="hr"></div>
+
+          <div class="mini">
+            <h3>🎯 Bugün hedefin</h3>
+            <p>
+              <b>1)</b> Omurga’yı bitir <br/>
+              <b>2)</b> Tanım bankasını oku <br/>
+              <b>3)</b> Quiz → 80%+ yap
+            </p>
+          </div>
+
+          <div class="hr"></div>
+
+          <div class="mini">
+            <h3>⚙️ Çalışma modu</h3>
+            <p class="small muted">“Çalışma” modunda içerikler açık kalır; “Sınav” modunda kendini test edersin.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:10px">
+              <button class="btn" type="button" id="studyModeBtn">📖 Çalışma Modu</button>
+              <button class="btn" type="button" id="examModeBtn">📝 Sınav Modu</button>
+              <button class="btn ghost" type="button" id="resetBtn" title="Yerel verileri sıfırla">♻️ Sıfırla</button>
+            </div>
+          </div>
+
+          <div class="hr"></div>
+
+          <div class="mini">
+            <h3>📌 Not</h3>
+            <p class="small muted">
+              Bu sayfa <span class="mono">localStorage</span> ile tema/mod/quiz kayıtlarını tarayıcında saklar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OMURGA -->
+    <section id="omurga">
+      <div class="section-head">
+        <div>
+          <h2>🔴 FİNALİN OMURGASI (Hoca %90 buradan sorar)</h2>
+          <p>Bu bölüm: “çıkma olasılığı yüksek + cevabı puan getirir” başlıklarının tam not formatı.</p>
+        </div>
+        <div class="chip">Odak: Açık uçlu + uzun cevap</div>
+      </div>
+
+      <div class="panel" id="omurgaPanel">
+        <details open>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-01</span>
+              Eğitim Programı Nedir? (Program ≠ sadece müfredat)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <div class="callout">
+              💯 Tam puan tanım:
+              <small>
+                Eğitim programı; öğrencilere okul içinde ve okul dışında planlanmış etkinlikler yoluyla kazandırılan <b>tüm öğrenme yaşantılarının</b>
+                düzenlenmiş bütünüdür. Program yalnızca ders konuları değildir; <b>hedef, içerik, eğitim durumları ve değerlendirme</b> öğelerini kapsar.
+              </small>
+            </div>
+
+            <h4>Hocanın sevdiği vuruş cümleleri</h4>
+            <ul>
+              <li><b>“Program eğitimin can damarıdır.”</b> (nitelik belirleyici)</li>
+              <li>“Ne, niçin, nasıl, ne zaman ve ne kadar?” sorularına sistematik cevap verir.</li>
+              <li>Program; ideal birey ve toplum profilini yetiştirmede yol haritasıdır.</li>
+            </ul>
+
+            <h4>Sık düşülen hata</h4>
+            <ul>
+              <li>Programı “konu listesi” diye daraltmak (bu müfredat yaklaşımıdır). Program daha geniştir.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-02</span>
+              4 Öğeyi yaz + 4 soru kelimesiyle eşleştir
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <div class="callout">
+              💯 Altın eşleştirme:
+              <small>
+                <b>Hedefler</b> → Niçin/Neden? • <b>İçerik</b> → Ne? • <b>Eğitim Durumları</b> → Nasıl? • <b>Sınama/Değerlendirme</b> → Ne kadar?
+              </small>
+            </div>
+            <h4>Her öğe için 1 cümle</h4>
+            <ul>
+              <li><b>Hedefler:</b> öğrencide kazandırılacak istendik özellikler.</li>
+              <li><b>İçerik:</b> hedeflere ulaştıracak konu/kavram/beceri seçimi ve düzeni.</li>
+              <li><b>Eğitim durumları:</b> yöntem–teknik–etkinlik–materyal düzeni.</li>
+              <li><b>Sınama durumları:</b> hedeflere ulaşılıp ulaşılmadığını belirleme.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-03</span>
+              Program Geliştirme Süreci (Planlama → Tasarım → Uygulama → Değerlendirme)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <div class="callout">
+              💯 Tam puan cümlesi:
+              <small>
+                Program geliştirme; programın <b>tasarlanması, uygulanması, değerlendirilmesi</b> ve değerlendirme verilerine göre <b>yeniden düzenlenmesi</b> sürecidir.
+                Süreç <b>döngüseldir</b> (revizyon/güncelleme) ve işbirliğine dayalıdır.
+              </small>
+            </div>
+
+            <h4>Akış (sınavda şema gibi yaz)</h4>
+            <ul>
+              <li><b>Planlama:</b> çalışma grupları, çalışma planı, ihtiyaç analizi</li>
+              <li><b>Tasarım:</b> hedefler, içerik, eğitim durumları, sınama durumları</li>
+              <li><b>Uygulama:</b> pilot → revizyon → asıl uygulama</li>
+              <li><b>Değerlendirme:</b> program değerlendirme + karara dayalı iyileştirme</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-04</span>
+              Planlama: Çalışma Grupları (KKG–PG Grubu–Danışma + alternatifler)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <h4>1) Karar ve Koordinasyon Grubu (KKG)</h4>
+            <ul>
+              <li><b>Üst düzey karar</b> yetkisi (kapsam, bütçe, takvim, hedef kitle, uygulama genişliği)</li>
+              <li>Yasal/formal liderlik (Bakanlık, TTKB, genel müdürlük, daire başkanlığı)</li>
+            </ul>
+
+            <h4>2) Program Geliştirme Grubu (PG Grubu)</h4>
+            <ul>
+              <li>Programın planlanması, tasarının geliştirilmesi, uygulanması, değerlendirilmesi, revizyon/güncelleme</li>
+              <li>PG uzmanı, ölçme-değerlendirme uzmanı, alan uzmanı akademisyen, alan öğretmenleri</li>
+            </ul>
+
+            <h4>3) Danışma Grubu (DG)</h4>
+            <ul>
+              <li>İhtiyaç duyulan konularda danışmanlık (eğitim felsefesi, sosyolojisi, psikolojisi, ekonomisi, teknolojisi, hukuku…)</li>
+            </ul>
+
+            <h4>Alternatif gruplar (hocanın bonus alanı)</h4>
+            <ul>
+              <li><b>Gözden geçirme grubu:</b> taslak programa dönüt (STK, iş dünyası, okul aile birliği vb.)</li>
+              <li><b>Alan onay grubu:</b> pilot uygulamada kuram–uygulama dengesi ve etkililik</li>
+              <li><b>Güncelleme grubu:</b> yeni ihtiyaçlara göre güncelleme</li>
+            </ul>
+
+            <div class="callout">
+              🔥 Sınav cümlesi:
+              <small>
+                Planlama aşamasının doğru yürütülmemesi kaynakların işlevsiz kullanımına ve yeni sorunlara yol açabilir; bu nedenle paydaş katılımı ve koordinasyon kritik önemdedir.
+              </small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-05</span>
+              Kuramsal Temeller (Felsefi–Tarihi–Psikolojik–Toplumsal–Ekonomik–Politik–Hukuki)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <div class="callout">
+              💯 Tam puan mantık:
+              <small>
+                Program geliştirme kararları; “hangi insan tipi”, “hangi bilgi değerli”, “nasıl öğrenilir”, “toplum ne ister”, “kaynak/bütçe”, “politik/yasal sınırlılıklar” gibi temellere dayanır.
+                Bu temeller programın <b>tüm öğelerini</b> etkiler.
+              </small>
+            </div>
+
+            <h4>Felsefi temeller (kısa ama vurucu)</h4>
+            <ul>
+              <li>Okul ne içindir, kim içindir?</li>
+              <li>Hangi konular değerlidir?</li>
+              <li>Hedefler toplum ve bireyle ne kadar tutarlı?</li>
+            </ul>
+
+            <h4>Tarihi temeller (çok sorulur)</h4>
+            <ul>
+              <li>Program anlayışı her dönemin sosyo-politik koşullarına göre evrilir.</li>
+              <li>Comenius → Dewey → Bobbitt/Charters → Tyler → Taba akışı mantık kurar.</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-06</span>
+              Tarihsel Şahıslar: Comenius–Dewey–Bobbitt–Charters–Tyler–Taba (+ Türkiye öncüleri)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <h4>Dünya</h4>
+            <ul>
+              <li><b>Comenius:</b> Didactica Magna; resim/somut materyal; öğrencinin doğasına uygun öğretim</li>
+              <li><b>Dewey:</b> Laboratuvar okulu; “bugünün çocuklarını dünün yöntemleriyle…”; deneyim/yaşantı</li>
+              <li><b>Bobbitt & Charters:</b> ihtiyaç analizi vurgusu; işlevsel hedefler; modern PG temeli</li>
+              <li><b>Tyler (1949):</b> amaç–içerik–öğrenme yaşantısı–değerlendirme tutarlılığı; hedeflerin kaynakları: öğrenci–toplum–konu alanı</li>
+              <li><b>Taba (1962):</b> tümevarım; öğretmen merkezli; süreç sınıf uygulamalarından başlar</li>
+            </ul>
+
+            <h4>Türkiye</h4>
+            <ul>
+              <li><b>Selahattin Ertürk:</b> “program” yerine “yetişek” terimi</li>
+              <li><b>Özcan Demirel</b> ve diğer öncüler (ders kaynaklarında geçer)</li>
+            </ul>
+
+            <div class="callout">
+              🎯 Sınavda yaz:
+              <small>Tyler: “tutarlılık” • Taba: “tümevarım/öğretmen” • Bobbitt: “işlevsellik/ölçülebilirlik”</small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-07</span>
+              Tasarım: Hedefler (tanımlar + düzeyler + alanlar)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <div class="callout">
+              💯 Tanım:
+              <small>
+                Hedef; öğrenciye eğitim yoluyla kazandırılması planlanan, bilgi/beceri/tutum gibi <b>istendik özelliklerdir</b>.
+                Hedefler gözlenebilir/ölçülebilir biçimde yazıldığında değerlendirme güçlenir.
+              </small>
+            </div>
+
+            <h4>Hedef düzeyleri</h4>
+            <ul>
+              <li><b>Uzak hedef:</b> ülke/toplum düzeyinde genel yön (ör. 1739’a dayalı amaçlar)</li>
+              <li><b>Genel hedef:</b> okul/kademe düzeyi</li>
+              <li><b>Özel hedef/Kazanım:</b> ders/ünite düzeyi, daha somut</li>
+            </ul>
+
+            <h4>Hedef alanları</h4>
+            <ul>
+              <li><b>Bilişsel</b> (bilgi–anlama–uygulama…)</li>
+              <li><b>Duyuşsal</b> (tutum–değer–ilgi…)</li>
+              <li><b>Psikomotor</b> (beceri–devinim…)</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left">
+              <span class="pill">OM-08</span>
+              Program Değerlendirme: Merit–Worth + Modeller (Tyler / Provus / Stake / CIPP)
+            </div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <h4>Program değerlendirme (tanım)</h4>
+            <ul>
+              <li>Programın etkililiği hakkında karar verme; niteliği belirleme ve geliştirme amaçlı sistematik bilgi toplama süreci</li>
+              <li><b>Merit:</b> programın iç niteliği (tasarım kalitesi, kapsamın iyi belirlenmesi, amaç–içerik uyumu)</li>
+              <li><b>Worth:</b> bağlamsal/toplumsal değer (paydaş ihtiyaçları, çağın gerekleri, hedef kitleye etki)</li>
+            </ul>
+
+            <h4>Modeller (çok klasik)</h4>
+            <ul>
+              <li><b>Tyler Hedefe Dayalı:</b> hedefleri belirle/sınıfla/davranışsal yaz; veri topla; hedeflerle karşılaştır</li>
+              <li><b>Provus Farklar Yaklaşımı:</b> standart–performans karşılaştır; farkı belirle; karara dönüştür</li>
+              <li><b>Stake Uygunluk-Olasılık:</b> beklenen–gözlenen uyumu; girdi–süreç–çıktı</li>
+              <li><b>Stufflebeam CIPP:</b> bağlam–girdi–süreç–ürün değerlendirmesi (karar odaklı)</li>
+            </ul>
+
+            <div class="callout">
+              💯 Hoca cümlesi:
+              <small>Değerlendirme, program geliştirme için “başlangıç noktasıdır”; elde edilen veriler revizyonu yönlendirir.</small>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- KAVRAM BANKASI -->
+    <section id="kavramlar">
+      <div class="section-head">
+        <div>
+          <h2>📚 Kavram Bankası (Tanımlar — sınavda birebir yaz)</h2>
+          <p>Tanım sorularında puan kaybettiren şey: “yakın ama eksik” tanım. Buradakiler sınav formatıdır.</p>
+        </div>
+        <div class="chip">Odak: Ölçme ≠ Değerlendirme</div>
+      </div>
+
+      <div class="def-grid" id="defGrid">
+        <div class="def">
+          <div class="k">
+            <strong>Eğitim Programı (Curriculum)</strong>
+            <span class="tag">Geniş çerçeve</span>
+          </div>
+          <p>
+            Öğrencilere okul içinde ve okul dışında planlanmış etkinlikler yoluyla sağlanan <b>tüm öğrenme yaşantıları düzeni</b>;
+            hedef–içerik–eğitim durumları–değerlendirme öğelerini kapsayan bütün.
+          </p>
+          <div class="hint">İpucu: “Program sadece konu listesi değildir.” cümlesi yaz.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Öğretim Programı</strong>
+            <span class="tag">Ders/alan düzeyi</span>
+          </div>
+          <p>
+            Eğitim programının amaçları doğrultusunda <b>belirli bir ders/alan</b> için ne öğretileceğini, nasıl öğretileceğini ve nasıl değerlendirileceğini gösteren daha dar kapsamlı program.
+          </p>
+          <div class="hint">İpucu: Eğitim programı → şemsiye, öğretim programı → ders düzeyi.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Müfredat</strong>
+            <span class="tag">İçerik ağırlıklı</span>
+          </div>
+          <p>
+            Çoğunlukla derslerin <b>konu/kazanım içeriklerini</b> ifade eden kavram. “Ne öğretilecek?” boyutu güçlüdür; programın tüm öğelerini kapsamaz.
+          </p>
+          <div class="hint">İpucu: Müfredat = içerik listesi yaklaşımı.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Program Geliştirme</strong>
+            <span class="tag">Döngüsel süreç</span>
+          </div>
+          <p>
+            Programların planlanması, tasarlanması, uygulanması, değerlendirilmesi ve değerlendirme verileriyle yeniden düzenlenmesine ilişkin kuramsal ve uygulamalı bilimsel çalışmalar bütünü.
+          </p>
+          <div class="hint">İpucu: “Sürekli, işbirliğine dayalı, Ar-Ge” de.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Ölçme</strong>
+            <span class="tag">Sayı/simge</span>
+          </div>
+          <p>
+            Bir niteliği gözleyerek sonucu <b>sayı veya sembollerle ifade etme</b> işlemidir. Tek başına karar içermez.
+          </p>
+          <div class="hint">Örn: “70 aldı” = ölçme sonucu.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Değerlendirme</strong>
+            <span class="tag">Karar/yargı</span>
+          </div>
+          <p>
+            Ölçme sonuçlarını <b>ölçütlerle karşılaştırarak</b> bir yargıya/karara varma sürecidir.
+            (Ölçme + Ölçüt + Karar)
+          </p>
+          <div class="hint">Örn: “70 geçti” = değerlendirme.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Program Değerlendirme</strong>
+            <span class="tag">Etkililik</span>
+          </div>
+          <p>
+            Programın etkililiği hakkında karar verme; niteliğini belirleme ve geliştirme amacıyla sistematik veri toplama, ölçütlerle karşılaştırma ve yorumlama süreci.
+          </p>
+          <div class="hint">İpucu: “Geliştirme için başlangıç noktası” diye bitir.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Merit / Worth</strong>
+            <span class="tag">Kalite / Değer</span>
+          </div>
+          <p>
+            <b>Merit</b>: programın iç niteliği (tasarım kalitesi, amaç–içerik uyumu). <br/>
+            <b>Worth</b>: bağlamsal değeri (paydaş ihtiyaçlarına yanıt, topluma etkisi).
+          </p>
+          <div class="hint">Sınavda ikisini karşılaştırmalı yaz.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Tanılayıcı / Biçimlendirici / Düzey Belirleyici</strong>
+            <span class="tag">Baş–Süreç–Son</span>
+          </div>
+          <p>
+            <b>Tanılayıcı</b>: öğretim öncesi hazırbulunuşluk. <br/>
+            <b>Biçimlendirici</b>: süreçte dönüt–düzeltme. <br/>
+            <b>Düzey belirleyici</b>: öğretim sonunda ulaşılan düzey.
+          </p>
+          <div class="hint">Bu üçlü çok sorulur.</div>
+        </div>
+
+        <div class="def">
+          <div class="k">
+            <strong>Örtük Program / Ekstra Program</strong>
+            <span class="tag">Görünmeyen / Ders dışı</span>
+          </div>
+          <p>
+            <b>Örtük</b>: yazılı olmayan; okul kültürü ve ikliminden doğan değer/tutum öğrenmeleri. <br/>
+            <b>Ekstra</b>: kulüp, spor, sosyal etkinlik gibi ders dışı planlı yaşantılar.
+          </p>
+          <div class="hint">Örtük program örneği yazman puan getirir.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KURAMSAL TEMELLER -->
+    <section id="kuramsal">
+      <div class="section-head">
+        <div>
+          <h2>🧭 Kuramsal Temeller (Neden bu temeller programın her öğesini etkiler?)</h2>
+          <p>Bu bölüm “yorum sorusu” üretir. Kısa değil; sınavda paragraf yazdırır.</p>
+        </div>
+        <div class="chip">Odak: Felsefe her öğeyi kapsar</div>
+      </div>
+
+      <div class="panel">
+        <details open>
+          <summary>
+            <div class="sum-left"><span class="pill">KT-01</span> Felsefi Temeller (Neden kritik?)</div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <div class="callout">
+              💯 Ana mantık:
+              <small>
+                Felsefe; hedeflerin seçiminde, hedeflerin birey/toplumla uygunluğunda ve hedefler arası tutarlılıkta belirleyicidir.
+                “Felsefe program geliştirmede başlangıç noktasıdır ve sonraki kararlar için temel oluşturur.”
+              </small>
+            </div>
+
+            <h4>Felsefi temellerin yönelttiği sorular</h4>
+            <ul>
+              <li>Okul ne içindir, kim içindir?</li>
+              <li>Hangi bilgi değerlidir? (içerik seçimi)</li>
+              <li>Öğretmen/öğrenci rolleri nedir? (süreç tasarımı)</li>
+              <li>Değerlendirme nasıl olmalı? (ölçüt anlayışı)</li>
+            </ul>
+
+            <h4>Felsefi akımlar (adını yazmak bile puan getirir)</h4>
+            <ul>
+              <li>İdealizm • Realizm • Pragmatizm • Varoluşçuluk</li>
+              <li>Daimicilik (Perennialism) • Esasicilik (Essentialism) • İlerlemecilik (Progressivism) • Yeniden Kurmacılık</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left"><span class="pill">KT-02</span> Tarihi Temeller (en çok sorulan zincir)</div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <h4>Niye sorulur?</h4>
+            <ul>
+              <li>Tarihsel temeller, programın “nereden geldiğini” anlamadan “nereye gideceğini” tartışamayacağımızı vurgular.</li>
+              <li>Her dönemin sosyo-politik koşulları program anlayışını dönüştürür.</li>
+            </ul>
+
+            <h4>Önemli isimler (sınavda mini tablo gibi yaz)</h4>
+            <ul>
+              <li><b>Comenius:</b> somut materyal, evrensel öğretim</li>
+              <li><b>Dewey:</b> deneyim/yaşantı, laboratuvar okulu</li>
+              <li><b>Bobbitt & Charters:</b> ihtiyaç analizi, işlevsellik</li>
+              <li><b>Tyler:</b> tutarlılık, ölçülebilir hedef</li>
+              <li><b>Taba:</b> tümevarım, öğretmen merkezli yaklaşım</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary>
+            <div class="sum-left"><span class="pill">KT-03</span> Toplumsal / Ekonomik / Politik / Hukuki Temeller</div>
+            <div class="chev"></div>
+          </summary>
+          <div class="content">
+            <h4>Toplumsal</h4>
+            <ul>
+              <li>Toplumun beklentileri, kültürel değerler, bölgesel ihtiyaçlar programın amaç ve içeriğini etkiler.</li>
+            </ul>
+            <h4>Ekonomik</h4>
+            <ul>
+              <li>Kaynaklar, bütçe, zaman ve maliyet programın uygulanabilirliğini belirler.</li>
+            </ul>
+            <h4>Politik</h4>
+            <ul>
+              <li>Eğitim politikaları, dönemsel öncelikler ve yönetim anlayışı program kararlarını etkiler.</li>
+            </ul>
+            <h4>Hukuki</h4>
+            <ul>
+              <li>Yasal düzenlemeler ve mevzuat; hedeflerin ve uygulamanın sınırlarını çizer.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- SÜREÇ -->
+    <section id="surec">
+      <div class="section-head">
+        <div>
+          <h2>🔁 Program Geliştirme Süreci (Planlama → Tasarım → Uygulama → Değerlendirme)</h2>
+          <p>Sınavda bu bölüm “şema + açıklama + örnek” ister.</p>
+        </div>
+        <div class="chip">Odak: Döngüsellik & revizyon</div>
+      </div>
+
+      <div class="panel">
+        <details open>
+          <summary><div class="sum-left"><span class="pill">PG-01</span> Planlama (başlangıç noktası)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Çalışma gruplarını belirleme</li>
+              <li>Çalışma ilkeleri, takvim, bütçe</li>
+              <li>İhtiyaç analizi (ne öğretileceğine “analiz olmadan” karar verilmez)</li>
+            </ul>
+            <div class="callout">
+              💯 Cümle:
+              <small>Planlama aşaması belirleyicidir; doğru yürütülmezse kaynaklar işlevsiz kullanılır ve yeni sorunlar doğar.</small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">PG-02</span> Tasarım (4 öğe tasarlanır)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Hedefler / kazanımlar</li>
+              <li>İçerik</li>
+              <li>Eğitim durumları (öğrenme-öğretme süreci)</li>
+              <li>Sınama durumları (ölçme-değerlendirme)</li>
+            </ul>
+            <div class="callout">
+              🔥 İpucu:
+              <small>Bu öğeler arasında <b>mantıksal tutarlılık</b> kurulması Tyler’la birlikte klasikleşmiştir.</small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">PG-03</span> Uygulama (pilot → revizyon → asıl uygulama)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li><b>Pilot uygulama:</b> taslağın gerçek ortamda denenmesi</li>
+              <li><b>Revizyon:</b> pilot verilerine göre düzenleme</li>
+              <li><b>Asıl uygulama:</b> geniş ölçekli yürütme</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">PG-04</span> Değerlendirme (iyileştirme kararları)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Programın etkililiğini belirlemek için veri toplama</li>
+              <li>Ölçütlerle karşılaştırma ve yorumlama</li>
+              <li>Karar verme → geliştirme ve güncelleme</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- TASARIM -->
+    <section id="tasarim">
+      <div class="section-head">
+        <div>
+          <h2>🧩 Tasarım Aşaması Detay (Hedef–İçerik–Eğitim Durumları–Sınama)</h2>
+          <p>Bu bölümde genelde “tanımla + sınıflandır + örnekle” sorulur.</p>
+        </div>
+        <div class="chip">Odak: Hedef yazma</div>
+      </div>
+
+      <div class="panel">
+        <details open>
+          <summary><div class="sum-left"><span class="pill">TS-01</span> Hedefler: tanım + düzey + alan</div><div class="chev"></div></summary>
+          <div class="content">
+            <h4>Tanım</h4>
+            <ul>
+              <li>Hedef: öğrenciye kazandırılmak üzere seçilen <b>istendik özellikler</b> (bilgi, beceri, tutum, alışkanlık…)</li>
+            </ul>
+
+            <h4>Düzeyler</h4>
+            <ul>
+              <li><b>Uzak</b> → ülke düzeyi</li>
+              <li><b>Genel</b> → kademe/okul</li>
+              <li><b>Özel</b> → ders/ünite kazanımı</li>
+            </ul>
+
+            <h4>Alanlar</h4>
+            <ul>
+              <li><b>Bilişsel</b> • <b>Duyuşsal</b> • <b>Psikomotor</b></li>
+            </ul>
+
+            <div class="callout">
+              💯 Sınav bitirişi:
+              <small>Hedefler, ölçme-değerlendirmeyi yönlendirir; hedefler net değilse değerlendirme kararı zayıflar.</small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">TS-02</span> İçerik: ne seçilir, nasıl düzenlenir?</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Hedeflere ulaşmak için konu/kavram/beceri seçimi</li>
+              <li>Düzenleme mantıkları: basitten karmaşığa, somuttan soyuta, yakından uzağa (klasik yazılır)</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">TS-03</span> Eğitim Durumları: yöntem–teknik–etkinlik–materyal</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Öğretim yöntem/teknikleri seçilir</li>
+              <li>Materyal ve öğrenme ortamı düzenlenir</li>
+              <li>Öğrenci katılımı ve etkileşim tasarlanır</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">TS-04</span> Sınama Durumları: “Ne kadar?”</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Ölçme araçları seçilir veya geliştirilir</li>
+              <li>Veri toplanır → ölçütle karşılaştırılır → karar verilir</li>
+            </ul>
+            <div class="callout">
+              🔥 Kısa formül:
+              <small><b>Ölçme</b> = sayı/simge • <b>Değerlendirme</b> = ölçüt + karar</small>
+            </div>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- ÖLÇME -->
+    <section id="olcme">
+      <div class="section-head">
+        <div>
+          <h2>📏 Ölçme ve Değerlendirme (hocanın net tanım beklediği alan)</h2>
+          <p>Bu bölümde kavram karıştıran öğrenciden puan kırılır. Burada kırdırmayız.</p>
+        </div>
+        <div class="chip">Odak: Türler + örnek</div>
+      </div>
+
+      <div class="panel">
+        <details open>
+          <summary><div class="sum-left"><span class="pill">OD-01</span> Ölçme nedir? Değerlendirme nedir?</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li><b>Ölçme:</b> niteliği gözleyip sayı/simgeyle ifade etme.</li>
+              <li><b>Değerlendirme:</b> ölçme sonuçlarını ölçütle karşılaştırıp karar verme.</li>
+            </ul>
+            <div class="callout">
+              💯 Örnek:
+              <small>“Ali 70 aldı.” = ölçme • “Ali geçti.” = değerlendirme</small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">OD-02</span> Değerlendirme türleri (Baş–Süreç–Son)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li><b>Tanılayıcı:</b> hazırbulunuşluk</li>
+              <li><b>Biçimlendirici:</b> süreçte dönüt, düzeltme</li>
+              <li><b>Düzey belirleyici:</b> sonuç/düzey</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">OD-03</span> Bağıl (Norm) vs Mutlak (Kriter)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li><b>Norm:</b> öğrenci öğrencilerle karşılaştırılır</li>
+              <li><b>Kriter:</b> standartla karşılaştırılır</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- PROGRAM DEĞERLENDİRME -->
+    <section id="pd">
+      <div class="section-head">
+        <div>
+          <h2>🧪 Program Değerlendirme (Yaklaşımlar + Modeller)</h2>
+          <p>Finalde “model açıklama” soruları çok puan kazandırır.</p>
+        </div>
+        <div class="chip">Odak: Tyler–Provus–Stake–CIPP</div>
+      </div>
+
+      <div class="panel">
+        <details open>
+          <summary><div class="sum-left"><span class="pill">PD-01</span> Program değerlendirme nedir? Amaçları nelerdir?</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li>Programın etkililiği hakkında karar verme</li>
+              <li>Niteliği belirleme ve geliştirme</li>
+              <li>Hangi hedeflere ulaşıldığını ve maliyeti tespit etme</li>
+              <li>İyileştirme/güncelleme kararlarına zemin</li>
+            </ul>
+            <div class="callout">
+              💯 Cümle:
+              <small>Program değerlendirme, program geliştirme için başlangıç noktasıdır; veri → yorum → karar → geliştirme.</small>
+            </div>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">PD-02</span> Merit & Worth (iç kalite / bağlamsal değer)</div><div class="chev"></div></summary>
+          <div class="content">
+            <ul>
+              <li><b>Merit:</b> tasarım kalitesi (kapsam, sıralama, amaç–içerik–süreç uyumu)</li>
+              <li><b>Worth:</b> hedef kitleye/topluma etkisi; paydaş ihtiyaçları; çağın gerekleri</li>
+            </ul>
+          </div>
+        </details>
+
+        <details>
+          <summary><div class="sum-left"><span class="pill">PD-03</span> Modeller: Tyler / Provus / Stake / CIPP (özet + anahtar)</div><div class="chev"></div></summary>
+          <div class="content">
+            <h4>Tyler — Hedefe Dayalı Model</h4>
+            <ul>
+              <li>Hedefleri belirle → sınıfla → davranışsal yaz</li>
+              <li>Ortamlar yarat → ölçme tekniği seç/geliştir</li>
+              <li>Veri topla → hedeflerle karşılaştır → etkililik kararı</li>
+            </ul>
+
+            <h4>Provus — Farklar Yaklaşımı</h4>
+            <ul>
+              <li>Standartları belirle</li>
+              <li>Performansı belirle</li>
+              <li>Standart–performans farkını bul</li>
+              <li>Farklara göre karar/veriyle yönet</li>
+            </ul>
+
+            <h4>Stake — Uygunluk-Olasılık</h4>
+            <ul>
+              <li>Beklenen–gözlenen arasındaki uygunluk</li>
+              <li>Girdi–Süreç–Çıktı boyutları</li>
+              <li>Katılımcı odaklı yaklaşım</li>
+            </ul>
+
+            <h4>Stufflebeam — CIPP</h4>
+            <ul>
+              <li><b>Bağlam:</b> ihtiyaçlar/sorunlar</li>
+              <li><b>Girdi:</b> kaynaklar/plan</li>
+              <li><b>Süreç:</b> uygulama izleme</li>
+              <li><b>Ürün:</b> çıktılar/sonuçlar</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz">
+      <div class="section-head">
+        <div>
+          <h2>✅ Soru Bankası (Test + Doğru/Yanlış + Boşluk + Eşleştirme)</h2>
+          <p>Bu bölüm “sınav modunda” kendini test etsin diye interaktif.</p>
+        </div>
+        <div class="chip">Skor kaydı açık</div>
+      </div>
+
+      <div class="quiz">
+        <div class="quiz-left">
+          <div class="quiz-head">
+            <h3>Quiz</h3>
+            <div class="meta" id="quizMeta">Hazır</div>
+          </div>
+          <div class="quiz-body" id="quizRoot"></div>
+        </div>
+
+        <div class="quiz-right">
+          <div class="quiz-head">
+            <h3>Skor & Kontrol</h3>
+            <div class="meta mono" id="saveMeta">local</div>
+          </div>
+          <div class="score">
+            <div class="stat">
+              <strong>Toplam Soru</strong>
+              <span id="statTotal">—</span>
+            </div>
+            <div class="stat">
+              <strong>Doğru</strong>
+              <span id="statCorrect">—</span>
+            </div>
+            <div class="stat">
+              <strong>Yanlış</strong>
+              <span id="statWrong">—</span>
+            </div>
+            <div class="stat">
+              <strong>Skor</strong>
+              <span id="statScore">—</span>
+            </div>
+
+            <div class="note" id="coachNote">
+              🧠 İpucu: Quiz’i bitirince “Açıklamaları göster” ile yanlışlarına dön.  
+              Finalde en çok puanı <b>tanım + madde + örnek</b> getirir.
+            </div>
+
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <button class="btn primary" type="button" id="gradeBtn">✅ Değerlendir</button>
+              <button class="btn" type="button" id="showKeyBtn">🔍 Cevap Anahtarı</button>
+              <button class="btn" type="button" id="shuffleBtn">🔀 Karıştır</button>
+            </div>
+
+            <div class="hr"></div>
+            <div class="mini">
+              <h3>🎯 Mini hedef</h3>
+              <p class="small muted">Skorun 80% altındaysa: Kavram bankasına dön → OM-04 (gruplar) + PD-03 (modeller) tekrar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div>© EGT350 Final Premium Not — “reis modu” aktif ✅</div>
+      <div class="small">Kısayol: <span class="mono">Ctrl /</span> arama • Tema/Mod/Skor tarayıcıda saklanır</div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Kaydedildi</div>
+
+  <script>
+    // ---------------------------
+    // Utilities
+    // ---------------------------
+    const $ = (q, root=document) => root.querySelector(q);
+    const $$ = (q, root=document) => Array.from(root.querySelectorAll(q));
+    const clamp = (n,min,max)=>Math.max(min,Math.min(max,n));
+
+    function toast(msg){
+      const t = $("#toast");
+      t.textContent = msg;
+      t.style.display = "block";
+      clearTimeout(window.__toastT);
+      window.__toastT = setTimeout(()=>{t.style.display="none";}, 1600);
+    }
+
+    // ---------------------------
+    // Theme + Mode (localStorage)
+    // ---------------------------
+    const LS = {
+      theme: "egt350_theme",
+      mode: "egt350_mode",
+      openAll: "egt350_openall",
+      quiz: "egt350_quiz_state",
+      quizOrder: "egt350_quiz_order"
+    };
+
+    function setTheme(theme){
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem(LS.theme, theme);
+      toast(theme === "light" ? "Açık tema" : "Koyu tema");
+    }
+    function toggleTheme(){
+      const cur = localStorage.getItem(LS.theme) || "dark";
+      setTheme(cur === "dark" ? "light" : "dark");
+    }
+
+    function setMode(mode){
+      localStorage.setItem(LS.mode, mode);
+      $("#modeChip").textContent = "Mod: " + (mode === "exam" ? "Sınav" : "Çalışma");
+      // Exam mode: collapse most sections (except Omurga first)
+      if(mode === "exam"){
+        // Close all details except the first in each panel
+        $$("#omurgaPanel details").forEach((d,i)=> d.open = (i===0));
+        $$("#surec details, #tasarim details, #olcme details, #pd details, #kuramsal details").forEach(d=> d.open = false);
+        toast("Sınav modu: kendini test et");
+      }else{
+        // Study mode: keep many open
+        $$("#omurgaPanel details").forEach(d=> d.open = true);
+        toast("Çalışma modu: notlar açık");
+      }
+    }
+
+    function resetAll(){
+      if(!confirm("Tema/mod/quiz kayıtları sıfırlansın mı?")) return;
+      Object.values(LS).forEach(k=> localStorage.removeItem(k));
+      location.reload();
+    }
+
+    // ---------------------------
+    // Search (Ctrl /)
+    // ---------------------------
+    function highlightSearch(term){
+      // Simple highlight by toggling a CSS mark-ish span in content
+      // We'll do non-destructive: just scroll to first match and show toast.
+      if(!term || term.trim().length < 2){
+        toast("Arama: en az 2 karakter");
+        return;
+      }
+      const t = term.trim().toLowerCase();
+      const nodes = $$("section, .def, details");
+      let found = null;
+      for(const n of nodes){
+        const txt = (n.innerText || "").toLowerCase();
+        if(txt.includes(t)){
+          found = n;
+          break;
+        }
+      }
+      if(found){
+        // Open parent detail if needed
+        const detail = found.closest("details");
+        if(detail) detail.open = true;
+        found.scrollIntoView({behavior:"smooth", block:"center"});
+        toast("Bulundu: " + term);
+      }else{
+        toast("Bulunamadı: " + term);
+      }
+    }
+
+    // ---------------------------
+    // Scroll progress
+    // ---------------------------
+    function updateProgress(){
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const height = (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+      const pct = height <= 0 ? 0 : (scrollTop / height) * 100;
+      $("#progress").style.width = pct.toFixed(2) + "%";
+    }
+    window.addEventListener("scroll", updateProgress, {passive:true});
+
+    // ---------------------------
+    // Nav active state
+    // ---------------------------
+    const navLinks = $$("#nav a");
+    const sections = navLinks.map(a => $(a.getAttribute("href"))).filter(Boolean);
+
+    const observer = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{
+        if(e.isIntersecting){
+          navLinks.forEach(l=> l.classList.remove("active"));
+          const id = "#" + e.target.id;
+          const link = navLinks.find(l=> l.getAttribute("href")===id);
+          if(link) link.classList.add("active");
+        }
+      });
+    }, {root:null, threshold:0.25});
+    sections.forEach(s=> observer.observe(s));
+
+    // ---------------------------
+    // Open all details toggle
+    // ---------------------------
+    let openAll = false;
+    function setOpenAll(v){
+      openAll = v;
+      localStorage.setItem(LS.openAll, v ? "1" : "0");
+      const allDetails = $$("details");
+      allDetails.forEach(d=> d.open = v);
+      $("#openAllBtn").textContent = v ? "⚡ Hepsini Kapat" : "⚡ Hepsini Aç";
+      toast(v ? "Tümü açıldı" : "Tümü kapandı");
+    }
+
+    // ---------------------------
+    // Quiz Data
+    // ---------------------------
+    const quizData = [
+      // TEST
+      {
+        id:"mc1",
+        type:"TEST",
+        text:"Eğitim programının 4 temel öğesi aşağıdakilerden hangisinde doğru verilmiştir?",
+        options:[
+          "Hedefler – İçerik – Eğitim durumları – Sınama/Değerlendirme",
+          "Konu listesi – Ders kitabı – Sınav – Etkinlik",
+          "Ödev – Proje – Sunum – Sınav",
+          "Okul binası – Öğretmen – Öğrenci – Yönetim"
+        ],
+        answer:0,
+        explain:"Program; hedef, içerik, öğrenme-öğretme süreci (eğitim durumları) ve değerlendirme (sınama) öğelerinden oluşur."
+      },
+      {
+        id:"mc2",
+        type:"TEST",
+        text:"Planlama aşamasında aşağıdakilerden hangisi yer almaz?",
+        options:[
+          "Çalışma gruplarının belirlenmesi",
+          "Çalışma takvimi ve bütçenin oluşturulması",
+          "İhtiyaç analizinin yapılması",
+          "Kazanımların bilişsel/duyuşsal alanlara göre sınıflanması"
+        ],
+        answer:3,
+        explain:"Kazanımların sınıflanması tasarım aşamasıyla daha ilişkilidir; planlama, grup–takvim–bütçe–ihtiyaç analizi odaklıdır."
+      },
+      {
+        id:"mc3",
+        type:"TEST",
+        text:"Tyler yaklaşımında programın etkililiğini belirlemede temel ölçüt aşağıdakilerden hangisidir?",
+        options:[
+          "Öğrencilerin program hedeflerine ulaşma derecesi",
+          "Programın maliyeti",
+          "Okulun fiziksel koşulları",
+          "Öğretmenin kişisel görüşleri"
+        ],
+        answer:0,
+        explain:"Tyler hedefe dayalı değerlendirmede hedeflere ulaşma derecesini merkeze alır."
+      },
+
+      // DOĞRU-YANLIŞ
+      {
+        id:"tf1",
+        type:"DOĞRU/YANLIŞ",
+        text:"Ölçme, ölçme sonuçlarını ölçütlerle karşılaştırıp karar verme sürecidir.",
+        answer:false,
+        explain:"Bu tanım değerlendirmeye aittir. Ölçme; sonucu sayı/simgeyle ifade etmektir."
+      },
+      {
+        id:"tf2",
+        type:"DOĞRU/YANLIŞ",
+        text:"Program değerlendirme, programın geliştirilmesi için bir başlangıç noktasıdır.",
+        answer:true,
+        explain:"Değerlendirme verileri revizyon ve iyileştirme kararlarını besler."
+      },
+
+      // BOŞLUK DOLDURMA
+      {
+        id:"fb1",
+        type:"BOŞLUK DOLDURMA",
+        text:"Değerlendirme = Ölçme + ______ + Karar",
+        answer:"ölçüt",
+        explain:"Değerlendirme; ölçme sonuçlarının ölçütlerle karşılaştırılıp karar verilmesidir."
+      },
+      {
+        id:"fb2",
+        type:"BOŞLUK DOLDURMA",
+        text:"Program geliştirme süreci genellikle Planlama → Tasarım → ______ → Değerlendirme şeklinde döngüseldir.",
+        answer:"uygulama",
+        explain:"Uygulamada pilot, revizyon ve asıl uygulama adımları görülür."
+      },
+
+      // EŞLEŞTİRME
+      {
+        id:"mt1",
+        type:"EŞLEŞTİRME",
+        text:"Aşağıdaki program değerlendirme modellerini anahtar kavramlarıyla eşleştiriniz.",
+        left:[
+          "Tyler (Hedefe Dayalı)",
+          "Provus (Farklar Yaklaşımı)",
+          "Stake (Uygunluk-Olasılık)",
+          "Stufflebeam (CIPP)"
+        ],
+        right:[
+          "Hedeflerle karşılaştırma",
+          "Standart–performans farkı",
+          "Beklenen–gözlenen uygunluk (girdi-süreç-çıktı)",
+          "Bağlam–Girdi–Süreç–Ürün"
+        ],
+        answerMap:{
+          0:"Hedeflerle karşılaştırma",
+          1:"Standart–performans farkı",
+          2:"Beklenen–gözlenen uygunluk (girdi-süreç-çıktı)",
+          3:"Bağlam–Girdi–Süreç–Ürün"
+        },
+        explain:"Modellerin anahtar kelimelerini hatırlamak, model sorularında hızlı puan getirir."
+      }
+    ];
+
+    // ---------------------------
+    // Quiz Rendering
+    // ---------------------------
+    function getOrder(){
+      const saved = localStorage.getItem(LS.quizOrder);
+      if(saved){
+        try{
+          const arr = JSON.parse(saved);
+          if(Array.isArray(arr) && arr.length === quizData.length) return arr;
+        }catch(e){}
+      }
+      return quizData.map(q=>q.id);
+    }
+
+    function setOrder(order){
+      localStorage.setItem(LS.quizOrder, JSON.stringify(order));
+    }
+
+    function shuffleQuiz(){
+      const ids = quizData.map(q=>q.id);
+      for(let i=ids.length-1;i>0;i--){
+        const j=Math.floor(Math.random()*(i+1));
+        [ids[i],ids[j]]=[ids[j],ids[i]];
+      }
+      setOrder(ids);
+      renderQuiz();
+      toast("Sorular karıştırıldı");
+    }
+
+    function loadState(){
+      const saved = localStorage.getItem(LS.quiz);
+      if(!saved) return {};
+      try{
+        const obj = JSON.parse(saved);
+        return obj && typeof obj === "object" ? obj : {};
+      }catch(e){ return {}; }
+    }
+
+    function saveState(state){
+      localStorage.setItem(LS.quiz, JSON.stringify(state));
+      $("#saveMeta").textContent = "local ✓";
+    }
+
+    function renderQuiz(){
+      const root = $("#quizRoot");
+      root.innerHTML = "";
+      const order = getOrder();
+      const state = loadState();
+
+      const orderedQuestions = order.map(id=> quizData.find(q=>q.id===id)).filter(Boolean);
+      $("#statTotal").textContent = String(orderedQuestions.length);
+      $("#quizMeta").textContent = "Soru sayısı: " + orderedQuestions.length;
+
+      orderedQuestions.forEach((q, idx)=>{
+        const card = document.createElement("div");
+        card.className = "q-card";
+        card.dataset.qid = q.id;
+
+        const type = document.createElement("div");
+        type.className = "q-type";
+        type.textContent = `${q.type} • #${idx+1}`;
+        card.appendChild(type);
+
+        const text = document.createElement("p");
+        text.className = "q-text";
+        text.textContent = q.text;
+        card.appendChild(text);
+
+        if(q.type === "TEST"){
+          const opts = document.createElement("div");
+          opts.className = "opts";
+          q.options.forEach((optText, i)=>{
+            const label = document.createElement("label");
+            label.className = "opt";
+            const input = document.createElement("input");
+            input.type = "radio";
+            input.name = q.id;
+            input.value = String(i);
+            input.checked = (state[q.id] != null && String(state[q.id]) === String(i));
+            input.addEventListener("change", ()=>{
+              state[q.id] = i;
+              saveState(state);
+              $("#saveMeta").textContent = "local ✓";
+            });
+            const t = document.createElement("div");
+            t.className = "t";
+            t.textContent = optText;
+            label.appendChild(input);
+            label.appendChild(t);
+            opts.appendChild(label);
+          });
+          card.appendChild(opts);
+        }
+
+        if(q.type === "DOĞRU/YANLIŞ"){
+          const opts = document.createElement("div");
+          opts.className = "opts";
+          ["Doğru","Yanlış"].forEach((optText, i)=>{
+            const val = (optText === "Doğru");
+            const label = document.createElement("label");
+            label.className = "opt";
+            const input = document.createElement("radio");
+            input.type="radio";
+            input.name = q.id;
+            input.value = String(val);
+            input.checked = (state[q.id] != null && String(state[q.id]) === String(val));
+            input.addEventListener("change", ()=>{
+              state[q.id] = val;
+              saveState(state);
+            });
+            const t = document.createElement("div");
+            t.className = "t";
+            t.textContent = optText;
+            label.appendChild(input);
+            label.appendChild(t);
+            opts.appendChild(label);
+          });
+          card.appendChild(opts);
+        }
+
+        if(q.type === "BOŞLUK DOLDURMA"){
+          const wrap = document.createElement("div");
+          wrap.className = "fill";
+          const span = document.createElement("span");
+          span.className = "muted";
+          span.textContent = "Cevap:";
+          const input = document.createElement("input");
+          input.placeholder = "Buraya yaz…";
+          input.value = state[q.id] ?? "";
+          input.addEventListener("input", ()=>{
+            state[q.id] = input.value;
+            saveState(state);
+          });
+          wrap.appendChild(span);
+          wrap.appendChild(input);
+          card.appendChild(wrap);
+        }
+
+        if(q.type === "EŞLEŞTİRME"){
+          const grid = document.createElement("div");
+          grid.className = "match-grid";
+
+          const leftCol = document.createElement("div");
+          leftCol.className = "match-col";
+          const hL = document.createElement("h4");
+          hL.textContent = "Sol";
+          leftCol.appendChild(hL);
+
+          const rightCol = document.createElement("div");
+          rightCol.className = "match-col";
+          const hR = document.createElement("h4");
+          hR.textContent = "Seçenekler";
+          rightCol.appendChild(hR);
+
+          // Build options list
+          const rightOpts = q.right.slice();
+
+          q.left.forEach((leftText, i)=>{
+            const row = document.createElement("div");
+            row.className = "match-item";
+
+            const l = document.createElement("div");
+            l.className = "t";
+            l.style.fontWeight = "900";
+            l.style.color = "var(--text)";
+            l.textContent = leftText;
+
+            const sel = document.createElement("select");
+            const opt0 = document.createElement("option");
+            opt0.value = "";
+            opt0.textContent = "Seç…";
+            sel.appendChild(opt0);
+            rightOpts.forEach(r=>{
+              const o = document.createElement("option");
+              o.value = r;
+              o.textContent = r;
+              sel.appendChild(o);
+            });
+
+            const key = q.id + "::" + i;
+            if(state[key]) sel.value = state[key];
+
+            sel.addEventListener("change", ()=>{
+              state[key] = sel.value;
+              saveState(state);
+            });
+
+            row.appendChild(l);
+            row.appendChild(sel);
+            leftCol.appendChild(row);
+          });
+
+          // Show options as list on right
+          rightOpts.forEach(r=>{
+            const item = document.createElement("div");
+            item.className = "match-item";
+            item.innerHTML = `<div class="t">${r}</div><div class="pill">Seçenek</div>`;
+            rightCol.appendChild(item);
+          });
+
+          grid.appendChild(leftCol);
+          grid.appendChild(rightCol);
+          card.appendChild(grid);
+        }
+
+        root.appendChild(card);
+      });
+
+      // update score UI (if graded earlier, keep)
+      updateScoreUI({total: orderedQuestions.length, correct:0, wrong:0, score:0, graded:false});
+      $("#saveMeta").textContent = "local";
+    }
+
+    function normalizeText(s){
+      return String(s || "")
+        .trim()
+        .toLowerCase()
+        .replaceAll("ı","i")
+        .replaceAll("İ","i")
+        .replace(/\s+/g," ");
+    }
+
+    function gradeQuiz(showToast=true){
+      const order = getOrder();
+      const state = loadState();
+      const ordered = order.map(id=> quizData.find(q=>q.id===id)).filter(Boolean);
+
+      let correct=0, wrong=0;
+      const details = [];
+
+      ordered.forEach(q=>{
+        if(q.type==="TEST"){
+          const val = state[q.id];
+          const ok = (val != null && Number(val) === q.answer);
+          if(ok) correct++; else wrong++;
+          details.push({id:q.id, ok, correctAnswer:q.options[q.answer], explain:q.explain});
+        }
+        if(q.type==="DOĞRU/YANLIŞ"){
+          const val = state[q.id];
+          const ok = (val != null && Boolean(val) === q.answer);
+          if(ok) correct++; else wrong++;
+          details.push({id:q.id, ok, correctAnswer: q.answer ? "Doğru" : "Yanlış", explain:q.explain});
+        }
+        if(q.type==="BOŞLUK DOLDURMA"){
+          const val = state[q.id] ?? "";
+          const ok = normalizeText(val) === normalizeText(q.answer);
+          if(ok) correct++; else wrong++;
+          details.push({id:q.id, ok, correctAnswer:q.answer, explain:q.explain});
+        }
+        if(q.type==="EŞLEŞTİRME"){
+          // each pair counts as 1 question (for simplicity)
+          let pairsOk = 0;
+          q.left.forEach((_, i)=>{
+            const key = q.id + "::" + i;
+            const val = state[key] ?? "";
+            if(val && val === q.answerMap[i]) pairsOk++;
+          });
+          const ok = pairsOk === q.left.length;
+          if(ok) correct++; else wrong++;
+          details.push({id:q.id, ok, correctAnswer:"Tüm eşleşmeler doğru", explain:q.explain});
+        }
+      });
+
+      const total = ordered.length;
+      const score = total ? Math.round((correct/total)*100) : 0;
+
+      updateScoreUI({total, correct, wrong, score, graded:true, details});
+      localStorage.setItem("egt350_last_score", String(score));
+      if(showToast) toast("Değerlendirildi: " + score + "%");
+      return {total, correct, wrong, score, details};
+    }
+
+    function updateScoreUI({total, correct, wrong, score, graded, details}){
+      $("#statTotal").textContent = String(total);
+      $("#statCorrect").textContent = String(correct);
+      $("#statWrong").textContent = String(wrong);
+      $("#statScore").textContent = (graded ? (String(score) + "%") : "—");
+
+      const note = $("#coachNote");
+      if(!graded){
+        note.innerHTML = `🧠 İpucu: Quiz’i bitirince “Açıklamaları göster” ile yanlışlarına dön. <br/>Finalde en çok puanı <b>tanım + madde + örnek</b> getirir.`;
+        return;
+      }
+      if(score >= 80){
+        note.innerHTML = `🔥 Skorun <b>${score}%</b>. Bu seviye final için güçlü. <br/>Şimdi: <b>OM-04 (Çalışma grupları)</b> ve <b>PD-03 (Modeller)</b> bölümünü 1 kez daha hızlı tekrar.`;
+      }else{
+        note.innerHTML = `⚠️ Skorun <b>${score}%</b>. Panik yok. <br/>Şimdi: <b>Kavram Bankası</b> (ölçme/değerlendirme) + <b>PD-03</b> (Tyler/Provus/Stake/CIPP) tekrar, sonra quiz’i tekrar çöz.`;
+      }
+
+      // If graded, annotate cards borders
+      if(details && Array.isArray(details)){
+        details.forEach(d=>{
+          const card = document.querySelector(`.q-card[data-qid="${d.id}"]`);
+          if(!card) return;
+          card.style.borderColor = d.ok ? "rgba(53,208,127,.55)" : "rgba(255,92,122,.55)";
+        });
+      }
+    }
+
+    function showAnswerKey(){
+      const order = getOrder();
+      const ordered = order.map(id=> quizData.find(q=>q.id===id)).filter(Boolean);
+
+      // Create a small modal-like alert in-page using toast + scroll
+      toast("Cevap anahtarı: kartların altına eklendi");
+      ordered.forEach(q=>{
+        const card = document.querySelector(`.q-card[data-qid="${q.id}"]`);
+        if(!card) return;
+
+        // avoid duplicate
+        if(card.querySelector(".answerKey")) return;
+
+        const box = document.createElement("div");
+        box.className = "answerKey";
+        box.style.marginTop = "12px";
+        box.style.padding = "12px";
+        box.style.borderRadius = "14px";
+        box.style.border = "1px solid var(--line)";
+        box.style.background = "rgba(255,255,255,.03)";
+
+        let ans = "";
+        if(q.type==="TEST"){
+          ans = q.options[q.answer];
+        }else if(q.type==="DOĞRU/YANLIŞ"){
+          ans = q.answer ? "Doğru" : "Yanlış";
+        }else if(q.type==="BOŞLUK DOLDURMA"){
+          ans = q.answer;
+        }else if(q.type==="EŞLEŞTİRME"){
+          ans = q.left.map((l, i)=> `${l} → ${q.answerMap[i]}`).join("<br/>");
+        }
+
+        box.innerHTML = `
+          <div class="mono" style="font-weight:900;color:var(--muted2);margin-bottom:8px">CEVAP & AÇIKLAMA</div>
+          <div style="font-weight:950;line-height:1.6;color:var(--text)">${ans}</div>
+          <div style="margin-top:8px;color:var(--muted);font-weight:700;line-height:1.65">${q.explain}</div>
+        `;
+        card.appendChild(box);
+      });
+    }
+
+    // ---------------------------
+    // Init
+    // ---------------------------
+    (function init(){
+      // Theme
+      const savedTheme = localStorage.getItem(LS.theme) || "dark";
+      setTheme(savedTheme);
+
+      // Mode
+      const savedMode = localStorage.getItem(LS.mode) || "study";
+      setMode(savedMode);
+
+      // Open all flag
+      const savedOpen = localStorage.getItem(LS.openAll);
+      if(savedOpen === "1"){
+        setOpenAll(true);
+      }else{
+        // Keep current button label
+        $("#openAllBtn").textContent = "⚡ Hepsini Aç";
+      }
+
+      // Render quiz
+      renderQuiz();
+
+      // Bind buttons
+      $("#themeBtn").addEventListener("click", toggleTheme);
+      $("#openAllBtn").addEventListener("click", ()=> setOpenAll(!openAll));
+      $("#studyModeBtn").addEventListener("click", ()=> setMode("study"));
+      $("#examModeBtn").addEventListener("click", ()=> setMode("exam"));
+      $("#resetBtn").addEventListener("click", resetAll);
+
+      $("#gradeBtn").addEventListener("click", ()=> gradeQuiz(true));
+      $("#showKeyBtn").addEventListener("click", showAnswerKey);
+      $("#shuffleBtn").addEventListener("click", shuffleQuiz);
+
+      // Search behavior
+      const searchInput = $("#searchInput");
+      searchInput.addEventListener("keydown", (e)=>{
+        if(e.key === "Enter"){
+          highlightSearch(searchInput.value);
+        }
+      });
+
+      window.addEventListener("keydown", (e)=>{
+        if((e.ctrlKey || e.metaKey) && e.key === "/"){
+          e.preventDefault();
+          searchInput.focus();
+          searchInput.select();
+        }
+        if(e.key === "Escape"){
+          searchInput.blur();
+        }
+      });
+
+      // Smooth anchor scroll
+      $$("#nav a").forEach(a=>{
+        a.addEventListener("click", (e)=>{
+          e.preventDefault();
+          const target = $(a.getAttribute("href"));
+          if(!target) return;
+          target.scrollIntoView({behavior:"smooth", block:"start"});
+        });
+      });
+
+      // initial progress
+      updateProgress();
+    })();
+  </script>
+</body>
+</html>

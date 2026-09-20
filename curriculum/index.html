@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="https://bote.web.tr/assets/img/educator-fabicon-300x300.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://bote.web.tr/assets/vendors/bootstrap/css/bootstrap.min.css" media="all">
+    <!-- Fonts Awesome CSS -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/fontawesome/css/all.min.css">
+    <!-- Elmentkit Icon CSS -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/elementskit-icon-pack/assets/css/ekiticons.css">
+    <!-- progress bar CSS -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/progressbar-fill-visible/css/progressBar.css">
+    <!-- jquery-ui css -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/jquery-ui/jquery-ui.min.css">
+    <!-- modal video css -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/modal-video/modal-video.min.css">
+    <!-- light box css -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/fancybox/dist/jquery.fancybox.min.css">
+    <!-- slick slider css -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/assets/vendors/slick/slick-theme.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="https://bote.web.tr/style.css">
+    <title>BÖTE Müfredat</title>
+</head>
+
+<body class="home">
+    <div id="siteLoader" class="site-loader ">
+        <div class="preloader-content">
+            <img src="https://bote.web.tr/assets/img/loader1.gif" alt="">
+        </div>
+    </div>
+    <div id="page" class="full-page">
+        <header class="site-header site-header-transparent">
+            <!-- header html start -->
+            <div class="top-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-8 d-none d-lg-block">
+                            <div class="header-contact-info">
+                                <ul>
+                                    <li>
+                                        <a href="https://bote.web.tr/media/wp" target="_blank"><i class="fab fa-whatsapp"></i> +90 (850) 307 8810</a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:ahmetcelen@hacettepe.edu.tr" target="_blank"><i class="fas fa-envelope"></i> ahmetcelen@hacettepe.edu.tr</a>
+
+                                      </span></a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-map-marker-alt"></i> Hacettepe Üniversitesi, Ankara
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/en/"target="_blank"><i class="fa fa-language"></i> English</a>
+                                    </li>                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-lg-end justify-content-between">
+                            <div class="header-social social-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="header-search-icon">
+                                <button class="search-icon">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-header" id="masthead">
+                <div class="container">
+                    <div class="hb-group d-flex align-items-center justify-content-between">
+                        <div class="site-identity col-lg-3">
+                            <p class="site-title">
+                                <a href="https://bote.web.tr">
+                                    <img src="https://bote.web.tr/assets/img/educator-logo1.png" alt="logo">
+                                </a>
+                            </p>
+                        </div>
+                        <div class="main-navigation col-lg-9 justify-content-between d-flex align-items-center">
+                            <nav id="navigation" class="navigation d-none d-lg-inline-block">
+                                <ul>
+
+
+                                    <li>
+                                        <a href="https://bote.web.tr">ANA SAYFA</a>
+                                    </li>
+
+
+                                    <li class="menu-item-has-children">
+                                        <a href="#">BÖLÜM</a>
+                                        <ul>    
+                                            <li>
+                                                <a href="https://bote.web.tr/about" target="_blank">BÖTE Hakkında</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="https://bote.web.tr/graduation" target="_blank">MEZUNLAR</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="https://bote.web.tr/curriculum" target="_blank">MÜFREDAT</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/jobtitle" target="_blank">MESLEK UNVANLARI</a>
+                                            </li>                                            <li>
+                                                <a href="https://bote.web.tr/accreditation" target="_blank">AKREDİTASYON</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/internship" target="_blank">STAJ İMKANLARI</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/faq" target="_blank">SIK SORULAN SORULAR</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="menu-item-has-children">
+                                        <a href="#">ÜNİVERSİTELER</a>
+                                        <ul>
+                                            <li>
+                                                <a href="https://bote.web.tr/uni/hacettepe" target="_blank">HACETTEPE</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/uni/metu" target="_blank">ODTÜ-METU</a>
+                                            </li>
+                                            <li>
+                                                <a href=https://bote.web.tr/uni/bogazici target="_blank">BOĞAZİÇİ</a>
+                                            </li>
+                                            <li>
+                                                <a href=https://bote.web.tr/uni/ytu target="_blank">YILDIZ TEKNİK</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/uni/marmara" target="_blank">MARMARA</a>
+                                            </li>   
+                                            <li>
+                                                <a href="https://bote.web.tr/uni/ege" target="_blank">EGE ÜNİVERSİTESİ</a>
+                                            </li>     
+
+                                                 <li>
+                                                <a href="https://bote.web.tr/uni/deu" target="_blank">DOKUZ EYLÜL</a>
+                                            </li>                                            
+
+
+                                             <li>
+                                                <a href="https://bote.web.tr/uni/ankara" target="_blank">ANKARA</a>
+                                            </li>
+                                             <li>
+                                                <a href="https://bote.web.tr/uni/gazi" target="_blank">GAZİ ÜNİVERSİTESİ</a>
+                                            </li>  
+
+                                               <li>
+                                                <a href="https://bote.web.tr/uni/bahcesehir" target="_blank">BAHÇEŞEHİR</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/uni/yeditepe" target="_blank">YEDİTEPE</a>
+                                            </li>                                   
+
+                                              </ul>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#">BRANŞ</a>
+                                        <ul>
+                                            <li>
+                                                <a href="https://bote.web.tr/ebit/online" target="_blank">UZAKTAN EĞİTİM</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/ebit/literacy" target="_blank">OKURYAZARLIKLAR</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/ebit/ai" target="_blank">EĞİTİMDE YAPAY ZEKA</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/ebit/game" target="_blank">OYUNLAŞTIRMA</a>
+                                            </li>                                     
+                                            <li>
+                                                <a href="https://bote.web.tr/ebit/lifelong-learning" target="_blank">HAYAT BOYU ÖĞRENME</a>
+                                            </li>  
+                                              </ul>
+                                    </li>
+ 
+                                    <li class="menu-item-has-children">
+                                        <a href="#">İLETİŞİM</a>
+                                        <ul>
+                                            <li>
+                                                <a href="https://bote.web.tr/contact/" target="_blank">İLETİŞİM</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://bote.web.tr/about/" target="_blank">HAKKIMIZDA</a>
+                                            </li>                                            <li>
+                                                <a href="https://bote.web.tr/crew/" target="_blank">EKİP ÜYELERİ</a>
+                                            </li>                                  
+                                            <li>
+                                                <a href="https://bote.web.tr/en/" target="_blank">ENGLISH</a>
+                                            </li>     
+                                              </ul>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                            <div class="header-btn d-inline-block">
+                                <a href="https://bote.web.tr/blog" class="button-round-secondary"target="_blank">BLOG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-menu-container"></div>
+        </header>
+        <!-- main part -->
+        <main id="content" class="site-main">
+            <!-- Inner Banner html start-->
+            <section class="inner-banner-wrap ">
+                <div class="inner-baner-container" style="background-image: url(https://bote.web.tr/assets/img/educator-img12.jpg);">
+                    <div class="container">
+                        <div class="inner-banner-content">
+                            <h1 class="inner-title">Müfredat / Curriculum</h1>
+                        </div>
+
+                    </div>
+                </div>
+                           <!-- legal notice archive start -->
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h3>
+                            Güncel müfredat : 2018 ve sonrası
+                        </h3>
+                        <p>
+                            2006 yılından beri kullanılan müfredat 2018 yılında tekrar revize edilerek öğrencilere sunuldu. 
+                        </p>
+                        <p>
+                            Müfredat değişikliği yapıldığı zaman dersleri alttan alan öğrenciler eski kodlarıyla denk dersleri almaya devam etmektedir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- legal notice archive end -->
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Inner Banner html end-->
+            <!-- legal notice archive start -->
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            1.SINIF GÜZ
+                        </h4>
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Bilişim ve Matematik</td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Eğitimde Bilgi Teknolojileri    </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Öğretim Teknolojilerinin Temelleri  </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitime Giriş</td>
+    <td>C text</td>
+  </tr>
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitim Felsefesi</td>
+    <td>C text</td></tr>
+
+    <td>Tüm Üniversite Ortak Ders</td>
+    <td>Türk Dili I</td>
+    <td>C text</td></tr>
+
+    <td>Tüm Üniversite Ortak Ders</td>
+    <td>Atatürk İlkeleri ve İnkılap Tarihi I   </td>
+    <td>C text</td></tr>
+
+    <td>Yabancı Diller Yüksekokulu Ortak Ders</td>
+    <td>Yabancı DİL I</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>                 
+                      </div>
+                </div>
+            </div>
+</div></div></div>
+
+
+
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            1.SINIF BAHAR
+                        </h4>
+                        <p>
+
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Elektronik Devre Elemanları    </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Algoritma Tasarımı ve Geliştirme </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Programlama Öğretimi Yaklaşımları    </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitim Psikolojisi</td>
+    <td>C text</td>
+  </tr>
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitim Sosyolojisi</td>
+    <td>C text</td></tr>
+
+    <td>Tüm Üniversite Ortak Ders</td>
+    <td>Türk Dili II</td>
+    <td>C text</td></tr>
+
+    <td>Tüm Üniversite Ortak Ders</td>
+    <td>Atatürk İlkeleri ve İnkılap Tarihi II   </td>
+    <td>C text</td></tr>
+
+    <td>Yabancı Diller Yüksekokulu Ortak Ders</td>
+    <td>Yabancı DİL II</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>
+
+                    </div>
+                </div>
+            </div>
+
+</div></div></div>
+
+
+
+
+
+
+
+
+
+
+           <!-- legal notice archive start -->
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            2.SINIF GÜZ
+                        </h4>
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Temel Programlama   </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Eğitimde Grafik ve Canlandırma     </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Bilişim Sistemleri Donanımı 
+  </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Öğretim Tasarımı   </td>
+    <td>C text</td>
+  </tr>
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Öğretim İlke ve Yöntemleri</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Alan Eğitimi </td>
+    <td>Seçmeli AE</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Meslek Bilgisi </td>
+    <td>Seçmeli MB</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Genel Kültür </td>
+    <td>Seçmeli GK</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>                 
+                      </div>
+                </div>
+            </div>
+</div></div></div>
+
+
+
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            2.SINIF BAHAR
+                        </h4>
+                        <p>
+
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Veri Tabanı Yönetim Sistemleri</td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Bilişim Etiği ve Güvenliği  </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Bilişimde Öğrenme ve Öğretim Yaklaşımları   </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Türk Eğitim Tarihi  </td>
+    <td>C text</td>
+  </tr>
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitimde Araştırma Yöntemleri   </td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Alan Eğitimi </td>
+    <td>Seçmeli AE</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Meslek Bilgisi </td>
+    <td>Seçmeli MB</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Genel Kültür </td>
+    <td>Seçmeli GK</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>
+
+                    </div>
+                </div>
+            </div>
+</div></div></div>
+
+
+            <!-- legal notice archive start -->
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            3.SINIF GÜZ
+                        </h4>
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Web Tabanlı Programlama </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Eğitimde Modelleme ve Tasarım      </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Bilişim Öğretim Programları  </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitimde Ahlâk ve Etik  </td>
+    <td>C text</td>
+  </tr>
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Sınıf Yönetimi </td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Alan Eğitimi </td>
+    <td>Seçmeli AE</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Meslek Bilgisi </td>
+    <td>Seçmeli MB</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Genel Kültür </td>
+    <td>Seçmeli GK</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>                 
+                      </div>
+                </div>
+            </div>
+</div></div></div>
+
+
+
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            3.SINIF BAHAR
+                        </h4>
+                        <p>
+
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Bilgisayar Ağları      </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>İşletim Sistemleri</td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Açık ve Uzaktan Öğrenme    </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Eğitimde Ölçme ve Değerlendirme </td>
+    <td>C text</td>
+  </tr>
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Türk Eğitim Sistemi ve Okul Yönetimi    </td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Alan Eğitimi </td>
+    <td>Seçmeli AE</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Meslek Bilgisi </td>
+    <td>Seçmeli MB</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Genel Kültür </td>
+    <td>Seçmeli GK</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>
+
+                    </div>
+                </div>
+            </div>
+
+</div></div></div>
+
+
+
+
+
+           <!-- legal notice archive start -->
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            4.SINIF GÜZ
+                        </h4>
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>Öğretmenlik Uygulaması- STAJ</td>
+    <td>Öğretmenlik Uygulaması I  
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Fiziksel Programlama       </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Teknoloji Planlaması ve Uygulamaları  </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Özel Eğitim ve Kaynaştırma  </td>
+    <td>C text</td>
+  </tr>
+
+    <td>Seçmeli Alan Eğitimi </td>
+    <td>Seçmeli AE</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Meslek Bilgisi </td>
+    <td>Seçmeli MB</td>
+    <td>C text</td></tr>
+
+</tr></table></center></p>                 
+                      </div>
+                </div>
+            </div>
+</div></div></div>
+
+
+
+            <div class="policy-page-section">
+                <div class="container">
+                    <div class="policy-inner">
+                        <h4>
+                            4.SINIF BAHAR
+                        </h4>
+                        <p>
+
+
+ <table height="200px" width="100px" border=1>
+
+  <tr>
+    <center>
+    <th>Ders Alanı</th>
+    <th>Ders</th>
+    <th>Açıklama</th>
+  </tr>
+
+    <td>Öğretmenlik Uygulaması- STAJ</td>
+    <td>Öğretmenlik Uygulaması II    
+   </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Mobil Programlama    </td>
+    <td>C text</td></tr>
+
+    <td>BÖTE Bölüm Alan Dersi</td>
+    <td>Proje Geliştirme ve Yönetimi        </td>
+    <td>C text</td></tr>
+
+    <tr>
+    <td>Eğitim Fakültesi ortak Öğretmenlik Dersi</td>
+    <td>Okullarda Rehberlik 
+</td>
+    <td>C text</td>
+  </tr>
+
+    <td>Seçmeli Alan Eğitimi </td>
+    <td>Seçmeli AE</td>
+    <td>C text</td></tr>
+
+    <td>Seçmeli Meslek Bilgisi </td>
+    <td>Seçmeli MB</td>
+    <td>C text</td></tr>
+
+
+</tr></table></center></p>
+
+                    </div>
+                </div>
+            </div>
+
+</div></div></div>            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- legal notice archive end -->
+        </main>
+        <!-- footer part -->
+        <footer id="colophon" class="site-footer">
+            <div class="footer-overlay"></div>
+            <div class="subscribe-section">
+                <div class="container">
+                    <div class="subscribe-content">
+                        <div class="overlay"></div>
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <h3 class="subscribe-title">Bültenimize abone olun!</h3>
+                                <p class="subscribe-info">Bültenimize abone olarak blog ve içeriklerden anında haberdar olabilirsiniz.</p>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="form-content">
+                                    <input type="email" name="email" placeholder="Enter Email Address">
+                                    <button type="submit" class="button-round-primary">ABONE OL</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <aside class="widget widget_text img-textwidget">
+                                <div class="footer-logo">
+                                    <a href="https://bote.web.tr/"><img src="https://bote.web.tr/assets/img/educator-logo1.png" alt="logo"></a>
+                                </div>
+                                <div class="textwidget widget-text">
+                                    CEIT : Computer Education and Instructional Teaching
+                                </div>
+                            </aside>
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/media" target="_blank">
+                                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <aside class="widget">
+                                <h5 class="widget-title">Kariyer</h5>
+                                <ul>
+                                    <li>
+                                        <a href="https://bote.web.tr/internship" target="_blank">Staj</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/accreditation" target="_blank">Akreditasyon</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/graduation" target="_blank">Mezunlar</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/jobtitle" target="_blank">Meslek Unvanları</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <aside class="widget">
+                                <h5 class="widget-title">Hızlı Linkler</h5>
+                                <ul>
+                                    <li>
+                                        <a href="https://bote.web.tr/about" target="_blank">Bölüm Sayfası</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/crew" target="_blank">Ekibimiz</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/site-map" target="_blank">Site Haritası</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/faq" target="_blank">Sıkça Sorulan Sorular</a>
+                                    </li>
+                                </ul>
+                            </aside>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <aside class="widget widget_text school-time">
+                                <h5 class="widget-title">BÖTE Blog</h5>
+                                <span>
+                                    <i aria-hidden="true" class="fas fa-globe"></i>
+                                    Gelişen Teknoloji ve Adaptasyon
+                                </span>
+                                <p>Blog sayfamızda bülteni ve yazılarımızı takip edebilirsiniz.</p>
+                                <a href="https://bote.web.tr/blog" class="button-round-secondary"target="_blank">Blog</a>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="copy-right">Copyright &copy; 2024  Tüm Hakları Saklıdır.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="legal-list">
+                                <ul>
+                                    <li>
+                                        <a href="https://bote.web.tr/about/" target="_blank">HAKKIMIZDA</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/contact/" target="_blank">İLETİŞİM</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bote.web.tr/en/" target="_blank">ENGLISH</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- back to top -->
+        <a id="backTotop" href="#" class="to-top-icon">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+        <!-- custom search field html -->
+        <div class="header-search-form">
+            <div class="container">
+                <div class="header-search-container">
+                    <form class="search-form" role="search" method="get">
+                        <input type="text" name="s" placeholder="Enter your text...">
+                    </form>
+                    <a href="#" class="search-close">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript -->
+    <script data-cfasync="false" src="https://bote.web.tr/assets/js/cloudflare.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/jquery/jquery.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/waypoint/jquery.waypoints.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/progressbar-fill-visible/js/progressBar.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/countdown-date-loop-counter/loopcounter.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/counterup/jquery.counterup.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/modal-video/jquery-modal-video.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/slick/slick.min.js"></script>
+    <script src="https://bote.web.tr/assets/vendors/slick-nav/jquery.slicknav.js"></script>
+    <script src="https://bote.web.tr/assets/js/custom.js"></script>
+<script>(function(){var js = "window['__CF$cv$params']={r:'864447330d6590d7',t:'MTcxMDQxOTQ1OS4wNjcwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='https://demo.bosathemes.com/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+
+
+</html>

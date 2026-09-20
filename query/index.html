@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aysel Doğum Günün Kutlu Olsun</title>
+  <style>
+    :root {
+      --bg: #0f1221;
+      --fg: #ffffff;
+      --accent: #7E57C2; /* ACM moru */
+      --accent-2: #FF6B6B;
+      --muted: #b8b8c7;
+    }
+    * { box-sizing: border-box }
+    html, body { height: 100%; margin: 0; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--fg);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, #1b1f3a 0%, transparent 60%),
+        radial-gradient(900px 500px at 110% 10%, #1a1432 0%, transparent 60%),
+        linear-gradient(180deg, #0b0e1a, var(--bg));
+      overflow: hidden;
+    }
+    .screen {
+      position: absolute; inset: 0;
+      display: grid; place-items: center;
+      padding: 24px;
+      transition: opacity .6s ease, visibility .6s ease;
+    }
+    .hidden { opacity: 0; visibility: hidden; pointer-events: none; }
+
+    /* Kart */
+    .card {
+      width: min(820px, 92vw);
+      background: #151a33cc;
+      backdrop-filter: blur(6px);
+      border: 1px solid #262b4d;
+      border-radius: 24px;
+      padding: clamp(20px, 4vw, 36px);
+      box-shadow: 0 10px 40px #00000055, inset 0 0 0 1px #ffffff08;
+    }
+    h1, h2 { margin: 0 0 .6rem 0; line-height: 1.15 }
+    h1 { font-size: clamp(28px, 5vw, 42px); }
+    h2 { font-size: clamp(22px, 4vw, 28px); color: #e7e7ff }
+    p  { color: var(--muted); font-size: clamp(15px, 2.5vw, 18px); }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: #ffffff10;
+      border: 1px solid #ffffff22;
+      color: #dcdcff;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .question {
+      font-size: clamp(18px, 3vw, 22px);
+      background: #0f1330;
+      border: 1px solid #293068;
+      padding: 16px;
+      border-radius: 16px;
+      color: #e6e9ff;
+    }
+    .options { display: grid; gap: 10px; margin-top: 14px; }
+    .opt {
+      padding: 12px 14px;
+      border: 1px dashed #3b4288;
+      border-radius: 12px;
+      color: #cfd4ff;
+      background: #111642;
+      user-select: none;
+    }
+
+    .countdown {
+      margin-top: 16px;
+      font-variant-numeric: tabular-nums;
+      color: #c7cdfa;
+    }
+
+    .center {
+      text-align: center;
+    }
+    .big {
+      font-size: clamp(34px, 7vw, 64px);
+      line-height: 1.05;
+      background: linear-gradient(90deg, #fff, #e7ddff, #ffd3e0);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .sub {
+      font-size: clamp(18px, 3.5vw, 22px);
+      color: #d6d9ff;
+      margin-top: 8px;
+    }
+    .chips { margin-top: 16px; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .chip {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: #ffffff12;
+      border: 1px solid #ffffff24;
+      font-size: 14px;
+    }
+
+    /* Balon/konfeti sahne */
+    #confetti { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+
+    /* Ufak yüzen baloncuklar */
+    .floaty {
+      position: absolute;
+      width: 10px; height: 10px; border-radius: 50%;
+      background: radial-gradient(circle at 30% 30%, #fff, #ffffff00 65%);
+      opacity: .12;
+      animation: float 12s linear infinite;
+    }
+    @keyframes float {
+      from { transform: translateY(0) translateX(0) }
+      to   { transform: translateY(-120vh) translateX(20vw) }
+    }
+
+    .btn {
+      margin-top: 18px;
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, var(--accent), #9B5DE5);
+      color: white; text-decoration: none; border: none; cursor: pointer;
+      box-shadow: 0 8px 24px #7e57c266;
+    }
+
+    .foot {
+      margin-top: 16px; color: #aab0ff; font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1) “Dümenden” kimya sorusu ekranı -->
+  <section id="quiz" class="screen">
+    <div class="card">
+      <div class="badge">Mini Kimya Kontrolü</div>
+      <h1>Hızlı Soru ⏱️</h1>
+
+      <div class="question">
+        Suya bir asit eklendiğinde pH nasıl değişir?
+        <div class="options">
+          <div class="opt">A) Artar (daha bazik olur)</div>
+          <div class="opt">B) Değişmez</div>
+          <div class="opt">C) Azalır (daha asidik olur) ✅</div>
+          <div class="opt">D) Sıcaklıkla aynı şeydir</div>
+        </div>
+      </div>
+
+      <div class="countdown">
+        Geçiş için geri sayım: <span id="t">15</span> sn
+      </div>
+    </div>
+  </section>
+
+  <!-- 2) Doğum günü ekranı -->
+  <section id="bday" class="screen hidden center">
+    <div class="card">
+      <h2>🎈 Sürpriz! 🎂</h2>
+      <div class="big">Aysel Doğum Günün Kutlu Olsun!</div>
+      <div class="sub">Yeni yaşın sağlık, mutluluk ve başarı getirsin. İyi ki varsın! 💜</div>
+      <div class="chips">
+        <span class="chip">🎉 Nice mutlu senelere</span>
+        <span class="chip">🌟 Dileklerin gerçek olsun</span>
+        <span class="chip">💫 Bol kahkahalı günler</span>
+      </div>
+      <button class="btn" onclick="replay()">Sürprizi Tekrarla</button>
+      <div class="foot">— küçük bir jest —</div>
+    </div>
+    <div id="confetti" aria-hidden="true"></div>
+  </section>
+
+  <!-- Arka planda yüzen noktalar -->
+  <div id="floaties"></div>
+
+  <script>
+    const quiz = document.getElementById('quiz');
+    const bday = document.getElementById('bday');
+    const tEl  = document.getElementById('t');
+    let timerId, left = 15;
+
+    function startCountdown() {
+      left = 15;
+      tEl.textContent = left;
+      timerId = setInterval(() => {
+        left--;
+        tEl.textContent = left;
+        if (left <= 0) {
+          clearInterval(timerId);
+          revealBirthday();
+        }
+      }, 1000);
+    }
+
+    function revealBirthday() {
+      quiz.classList.add('hidden');
+      bday.classList.remove('hidden');
+      burstConfetti(200);
+    }
+
+    function replay() {
+      // Reset
+      bday.classList.add('hidden');
+      quiz.classList.remove('hidden');
+      clearConfetti();
+      startCountdown();
+    }
+
+    // Basit konfeti
+    const confettiBox = document.getElementById('confetti');
+    function burstConfetti(n = 150) {
+      const colors = ['#FF6B6B', '#FFD93D', '#6BCB77', '#4D96FF', '#B98AFF', '#F97393'];
+      for (let i = 0; i < n; i++) {
+        const p = document.createElement('div');
+        const size = 6 + Math.random() * 6;
+        p.style.position = 'absolute';
+        p.style.width = size + 'px';
+        p.style.height = size + 'px';
+        p.style.left = (Math.random() * 100) + 'vw';
+        p.style.top  = '-10px';
+        p.style.background = colors[(Math.random()*colors.length)|0];
+        p.style.opacity = 0.9;
+        p.style.transform = `rotate(${Math.random()*360}deg)`;
+        p.style.borderRadius = Math.random() < 0.4 ? '50%' : '2px';
+
+        const fall = 6 + Math.random() * 5;    // saniye
+        const drift = (Math.random() * 40 - 20); // sağ/sol
+        p.animate([
+          { transform: `translate(0, 0) rotate(0deg)` },
+          { transform: `translate(${drift}vw, 100vh) rotate(${720*Math.random()}deg)` }
+        ], { duration: fall * 1000, easing: 'linear', fill: 'forwards' });
+
+        confettiBox.appendChild(p);
+        // Temizle
+        setTimeout(() => p.remove(), fall * 1000 + 500);
+      }
+    }
+    function clearConfetti() {
+      confettiBox.innerHTML = '';
+    }
+
+    // Arka plan “floaty” noktalar
+    (function spawnFloaties() {
+      const host = document.getElementById('floaties');
+      for (let i = 0; i < 24; i++) {
+        const f = document.createElement('div');
+        f.className = 'floaty';
+        const s = 6 + Math.random()*10;
+        f.style.left = Math.random()*100 + 'vw';
+        f.style.bottom = Math.random()*-40 + 'vh';
+        f.style.width = s + 'px';
+        f.style.height = s + 'px';
+        f.style.animationDuration = (8 + Math.random()*10) + 's';
+        f.style.animationDelay = (Math.random()*-12) + 's';
+        host.appendChild(f);
+      }
+    })();
+
+    // Başlat
+    startCountdown();
+  </script>
+</body>
+</html>

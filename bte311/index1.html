@@ -1,0 +1,1546 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>BTE311 Web Çalışma Alanı - HTML / CSS / JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    :root {
+      --bg: #050816;
+      --bg-card: #0f172a;
+      --bg-soft: #020617;
+      --accent: #7e57c2;
+      --accent-soft: rgba(126, 87, 194, 0.22);
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --danger: #f97373;
+      --success: #4ade80;
+      --border-soft: #1e293b;
+      --radius-lg: 16px;
+      --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.55);
+    }
+
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #111827 0, #020617 45%, #000 100%);
+      color: var(--text);
+    }
+
+    /* Üst navbar */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(18px);
+      background: linear-gradient(to right, rgba(15,23,42,0.92), rgba(17,24,39,0.92));
+      border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+      padding: 10px 20px;
+    }
+
+    .navbar-inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .brand-badge {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 20% 0, #a855f7, #7e57c2 40%, #1d4ed8 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 700;
+      color: #f9fafb;
+      box-shadow: 0 0 25px rgba(129, 140, 248, 0.65);
+    }
+
+    .brand-text {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .brand-title {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #e5e7eb;
+    }
+
+    .brand-sub {
+      font-size: 11px;
+      color: #9ca3af;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .nav-link {
+      font-size: 13px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      color: var(--muted);
+      text-decoration: none;
+      transition: all 0.18s ease-out;
+    }
+
+    .nav-link:hover {
+      color: #e5e7eb;
+      border-color: rgba(148, 163, 184, 0.6);
+      background: rgba(15,23,42,0.85);
+    }
+
+    .nav-link-primary {
+      border-color: rgba(126, 87, 194, 0.7);
+      background: radial-gradient(circle at 0 0, rgba(248,250,252,0.06), rgba(126,87,194,0.35));
+      color: #e5e7eb;
+      box-shadow: 0 0 22px rgba(126, 87, 194, 0.7);
+    }
+
+    .nav-link-primary:hover {
+      background: radial-gradient(circle at 0 0, rgba(248,250,252,0.11), rgba(126,87,194,0.55));
+    }
+
+    /* Layout */
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 16px 60px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.5fr);
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: 880px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    .hero-left {
+      padding-right: 10px;
+    }
+
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.85);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      margin-bottom: 14px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .hero-tag span {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: rgba(55, 65, 81, 0.9);
+      font-size: 11px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(26px, 4vw, 32px);
+      letter-spacing: 0.03em;
+      color: #f9fafb;
+    }
+
+    .hero-subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      max-width: 580px;
+      line-height: 1.7;
+    }
+
+    .hero-subtitle strong {
+      color: #e5e7eb;
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .hero-badge {
+      font-size: 11px;
+      padding: 5px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      color: var(--muted);
+      background: rgba(15, 23, 42, 0.8);
+    }
+
+    .hero-badge span {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .exam-info {
+      margin-top: 14px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px dashed rgba(148, 163, 184, 0.5);
+      background: linear-gradient(145deg, rgba(15,23,42,0.96), rgba(30,64,175,0.25));
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .exam-info strong {
+      color: #e5e7eb;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 999px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(148, 163, 184, 0.5);
+      font-size: 11px;
+      margin-top: 4px;
+    }
+
+    .hero-right {
+      position: relative;
+    }
+
+    .floating-card {
+      position: relative;
+      border-radius: 18px;
+      padding: 16px 16px 18px;
+      background: radial-gradient(circle at 0 0, rgba(126,87,194,0.2), rgba(15,23,42,0.98));
+      box-shadow: var(--shadow-soft);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      overflow: hidden;
+    }
+
+    .floating-card::before {
+      content: "";
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, rgba(129,140,248,0.4), transparent 70%);
+      top: -90px;
+      right: -90px;
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .floating-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .floating-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #e5e7eb;
+    }
+
+    .floating-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: #22c55e;
+      box-shadow: 0 0 15px rgba(52, 211, 153, 0.9);
+    }
+
+    .floating-body {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 10px;
+    }
+
+    .floating-code {
+      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 11px;
+      border-radius: 10px;
+      padding: 10px;
+      background: rgba(15,23,42,0.92);
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      color: #e5e7eb;
+      overflow-x: auto;
+      white-space: pre;
+    }
+
+    .floating-footer {
+      margin-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    .tag-mini {
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      background: rgba(15,23,42,0.9);
+    }
+
+    /* Section headings */
+    section {
+      margin-top: 32px;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-title span.icon {
+      font-size: 18px;
+    }
+
+    .section-sub {
+      font-size: 12px;
+      color: var(--muted);
+      max-width: 360px;
+    }
+
+    /* Cards grid */
+    .grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    @media (min-width: 720px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+      .grid-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    .card {
+      border-radius: var(--radius-lg);
+      background: linear-gradient(145deg, var(--bg-card), #020617);
+      border: 1px solid var(--border-soft);
+      padding: 14px 14px 12px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.55);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .card-title-pill {
+      font-size: 10px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #e5e7eb;
+      border: 1px solid rgba(126, 87, 194, 0.6);
+    }
+
+    .card-body {
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .card-body ul {
+      padding-left: 18px;
+      margin: 6px 0;
+    }
+
+    .card-body li {
+      margin-bottom: 2px;
+    }
+
+    code, .code-inline {
+      font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 11px;
+      background: rgba(15,23,42,0.9);
+      padding: 1px 4px;
+      border-radius: 4px;
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      color: #e5e7eb;
+    }
+
+    pre {
+      margin: 6px 0;
+      padding: 8px;
+      border-radius: 8px;
+      background: rgba(15,23,42,0.95);
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      overflow-x: auto;
+    }
+
+    /* Quiz alanı */
+    .quiz-layout {
+      display: grid;
+      gap: 16px;
+    }
+
+    @media (min-width: 880px) {
+      .quiz-layout {
+        grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+      }
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .chip {
+      font-size: 11px;
+      padding: 3px 7px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      color: var(--muted);
+      background: rgba(15,23,42,0.9);
+    }
+
+    .question {
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed rgba(31,41,55,0.85);
+    }
+
+    .question:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .q-title {
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 3px;
+      color: #e5e7eb;
+    }
+
+    .q-text {
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .q-options {
+      font-size: 12px;
+      margin-left: 10px;
+      margin-bottom: 4px;
+    }
+
+    .q-options div {
+      margin-bottom: 2px;
+    }
+
+    .btn-sm {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.7);
+      background: rgba(15,23,42,1);
+      color: var(--muted);
+      font-size: 11px;
+      cursor: pointer;
+      transition: all 0.16s ease-out;
+    }
+
+    .btn-sm:hover {
+      color: #e5e7eb;
+      border-color: rgba(126, 87, 194, 0.8);
+      box-shadow: 0 0 15px rgba(126, 87, 194, 0.5);
+    }
+
+    .btn-sm.primary {
+      border-color: rgba(126, 87, 194, 0.8);
+      background: radial-gradient(circle at 0 0, rgba(248,250,252,0.09), rgba(79,70,229,0.55));
+      color: #f9fafb;
+    }
+
+    .answer {
+      display: none;
+      margin-top: 4px;
+      font-size: 11px;
+      padding: 5px 7px;
+      border-radius: 6px;
+      background: rgba(15,23,42, 0.95);
+      border: 1px solid rgba(55, 65, 81, 0.85);
+    }
+
+    .answer.correct {
+      border-left: 3px solid var(--success);
+    }
+
+    .answer.info {
+      border-left: 3px solid var(--accent);
+    }
+
+    .blank-input {
+      width: 120px;
+      padding: 3px 6px;
+      border-radius: 6px;
+      border: 1px solid rgba(55, 65, 81, 0.9);
+      background: rgba(15,23,42,0.95);
+      color: var(--text);
+      font-size: 12px;
+      outline: none;
+    }
+
+    .blank-input::placeholder {
+      color: rgba(148, 163, 184, 0.65);
+    }
+
+    .badge-soft {
+      display: inline-block;
+      margin-left: 4px;
+      padding: 1px 6px;
+      border-radius: 999px;
+      font-size: 10px;
+      background: rgba(15,23,42,0.9);
+      border: 1px solid rgba(55,65,81,0.9);
+      color: var(--muted);
+    }
+
+    .footer-note {
+      margin-top: 32px;
+      font-size: 11px;
+      color: var(--muted);
+      text-align: center;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <div class="brand">
+        <div class="brand-badge">&lt;/&gt;</div>
+        <div class="brand-text">
+          <div class="brand-title">BTE311 WEB LAB ÇALIŞMA ALANI</div>
+          <div class="brand-sub">HTML • CSS • JavaScript • Sınav Modu</div>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#html" class="nav-link">HTML</a>
+        <a href="#css" class="nav-link">CSS</a>
+        <a href="#js" class="nav-link">JavaScript</a>
+        <a href="#quiz" class="nav-link nav-link-primary">Test &amp; Boşluk Doldurma</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="hero-tag">
+          <span>💻</span>
+          <div>Vize yerine geçen <strong>lab sınavı</strong> için konsantre alan</div>
+        </div>
+        <h1>HTML • CSS • JavaScript Özet + Sınav Stili Soru Alanı</h1>
+        <p class="hero-subtitle">
+          Bu sayfa, derste işlenen içeriklere göre (HTML5 yapı, formlar, tablolar, CSS animasyon &amp; Bootstrap,
+          JavaScript temel yapılar &amp; Canvas) hızlı tekrar yapman ve
+          <strong>test &amp; boşluk doldurma</strong> formatına alışman için hazırlandı.
+        </p>
+        <div class="hero-badges">
+          <div class="hero-badge">📌 Konular: <span>HTML • CSS • JS</span> (Flexbox <b>hariç</b>)</div>
+          <div class="hero-badge">🧪 Soru tipi: <span>Test ağırlıklı + boşluk doldurma</span></div>
+        </div>
+        <div class="exam-info">
+          <div><strong>Sınav formatına benzet:</strong> Testler alt taraftaki bölümde, teorik özetler üst kısımda.</div>
+          <div>Önce kartlardan hızlı oku, sonra <span class="pill">Test &amp; Boşluk Doldurma</span> alanına geç.</div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="floating-card">
+          <div class="floating-card-header">
+            <div class="floating-title">Mini tarayıcı görünümü</div>
+            <div class="floating-dot"></div>
+          </div>
+          <div class="floating-body">
+            HTML + CSS + JavaScript aynı sayfada. Yapıyı anlamak için incele:
+          </div>
+          <div class="floating-code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="tr"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;title&gt;Web Çalışma Alanı&lt;/title&gt;
+    &lt;style&gt;
+      /* CSS kuralları buraya */
+    &lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;!-- HTML içerik --&gt;
+
+    &lt;script&gt;
+      // JavaScript kodları
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </div>
+          <div class="floating-footer">
+            <span class="tag-mini">Modern HTML5 iskeleti</span>
+            <span>⏱ 15 dk tekrar = büyük rahatlık</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HTML -->
+    <section id="html">
+      <div class="section-header">
+        <div class="section-title">
+          <span class="icon">📚</span>
+          HTML Özet Alanı
+        </div>
+        <div class="section-sub">
+          HTML5 iskelet, semantik etiketler, listeler, tablolar, medya, formlar ve temel DOM kavramları.
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- HTML5 Temel iskelet -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              HTML5 Temel İskelet
+              <span class="card-title-pill">zorunlu yapı</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="tr"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;Başlık&lt;/title&gt;
+    &lt;meta name="viewport" 
+          content="width=device-width, initial-scale=1"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Sayfa içeriği
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+            <ul>
+              <li><span class="code-inline">&lt;!DOCTYPE html&gt;</span> → HTML5 olduğunu belirtir.</li>
+              <li><span class="code-inline">lang="tr"</span> → dil bilgisini ayarlar.</li>
+              <li><span class="code-inline">meta charset="utf-8"</span> → Türkçe karakterler için.</li>
+              <li><span class="code-inline">meta name="viewport"</span> → mobil uyum için.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Semantik etiketler -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              HTML5 Semantik Etiketler
+              <span class="card-title-pill">section / article / nav</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;header&gt;Üst kısım&lt;/header&gt;
+&lt;nav&gt;Site menüsü&lt;/nav&gt;
+&lt;article&gt;
+  &lt;section&gt;Makale bölümü&lt;/section&gt;
+&lt;/article&gt;
+&lt;aside&gt;Yan bilgi&lt;/aside&gt;
+&lt;footer&gt;Alt bilgi&lt;/footer&gt;</code></pre>
+            <ul>
+              <li><b>&lt;header&gt;</b> → sayfa / bölüm başlığı.</li>
+              <li><b>&lt;nav&gt;</b> → gezinme menüsü.</li>
+              <li><b>&lt;article&gt;</b> → bağımsız içerik (blog, haber).</li>
+              <li><b>&lt;section&gt;</b> → mantıksal bölüm.</li>
+              <li><b>&lt;footer&gt;</b> → telif, iletişim vb.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Listeler & bağlantılar -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Listeler &amp; Bağlantılar
+              <span class="card-title-pill">ol / ul / a</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;ul&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol type="A"&gt;
+  &lt;li&gt;Kahve&lt;/li&gt;
+  &lt;li&gt;Çay&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;a href="https://huzem.hacettepe.edu.tr"&gt;
+  HÜZEM
+&lt;/a&gt;</code></pre>
+            <ul>
+              <li><b>&lt;ul&gt;</b> → sırasız liste (bullet).</li>
+              <li><b>&lt;ol&gt;</b> → sıralı liste (1, A, I...).</li>
+              <li><b>&lt;a&gt;</b> → <span class="code-inline">href</span>, <span class="code-inline">mailto:</span>, <span class="code-inline">tel:</span> ile kullanılabilir.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Tablolar -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Tablolar
+              <span class="card-title-pill">tr / td / th</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Kurs&lt;/th&gt;
+    &lt;th&gt;Öğrenci&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Web&lt;/td&gt;
+    &lt;td&gt;60&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+            <ul>
+              <li><b>&lt;tr&gt;</b> satır, <b>&lt;td&gt;</b> hücre, <b>&lt;th&gt;</b> başlık.</li>
+              <li><span class="code-inline">colspan</span> → sütun birleştirme.</li>
+              <li><span class="code-inline">rowspan</span> → satır birleştirme.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Formlar -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Formlar &amp; Gönderim Yöntemleri
+              <span class="card-title-pill">GET / POST</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;form action="/action_page.php" 
+      method="post"&gt;
+  &lt;label for="email"&gt;E-posta&lt;/label&gt;
+  &lt;input type="email" id="email" name="email"&gt;
+
+  &lt;label for="pass"&gt;Parola&lt;/label&gt;
+  &lt;input type="password" id="pass" name="pass"&gt;
+
+  &lt;input type="submit" value="Gönder"&gt;
+&lt;/form&gt;</code></pre>
+            <ul>
+              <li><b>GET</b> → adres çubuğunda görünür, cache’lenir, hassas veri için <b>kullanılmaz</b>.</li>
+              <li><b>POST</b> → gövde üzerinden gider, URL’de görünmez, form için daha güvenli.</li>
+              <li><span class="code-inline">label for="id"</span> → erişilebilirlik &amp; tıklanabilirlik.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- DOM Kavramları -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              DOM Temelleri
+              <span class="card-title-pill">Node / Element / Attribute</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><b>Node</b> → DOM içindeki her bir öğe (element, text, attribute...).</li>
+              <li><b>Element Node</b> → HTML etiketinin kendisi (ör. <span class="code-inline">&lt;div&gt;</span>).</li>
+              <li><b>Text Node</b> → etiket içindeki düz metin.</li>
+              <li><b>Parent / Child</b> → ebeveyn &amp; çocuk ilişki.</li>
+              <li><b>Attribute</b> → etiket özellikleri (ör. <span class="code-inline">src</span>, <span class="code-inline">href</span>).</li>
+              <li><b>DOM Manipülasyonu</b> → JavaScript ile HTML yapısını değiştirme.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CSS -->
+    <section id="css">
+      <div class="section-header">
+        <div class="section-title">
+          <span class="icon">🎨</span>
+          CSS Özet Alanı
+        </div>
+        <div class="section-sub">
+          Temel seçiciler, kutu modeli, basit animasyon ve Bootstrap ile responsive yapı. (Flexbox <b>dahil değil</b>!)
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- Temel CSS kuralı -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Temel CSS Kuralı
+              <span class="card-title-pill">selector { }</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>p {
+  color: #e5e7eb;
+  font-size: 14px;
+}
+
+.highlight {
+  background-color: #7e57c2;
+  color: white;
+}
+
+#ana-baslik {
+  font-size: 32px;
+}</code></pre>
+            <ul>
+              <li><b>Seçici türleri</b>: etiket (<span class="code-inline">p</span>), sınıf (<span class="code-inline">.class</span>), id (<span class="code-inline">#id</span>).</li>
+              <li>Birden fazla özellik, <span class="code-inline">;</span> ile ayrılır.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Kutu modeli -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Kutu Modeli
+              <span class="card-title-pill">margin / border / padding</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>.kutu {
+  width: 200px;
+  padding: 12px;    /* içerik ile kenar arası */
+  border: 2px solid #7e57c2;
+  margin: 10px auto; /* dış boşluk */
+}</code></pre>
+            <ul>
+              <li><b>content</b> → asıl içerik alanı.</li>
+              <li><b>padding</b> → içerik ile border arası.</li>
+              <li><b>border</b> → çerçeve.</li>
+              <li><b>margin</b> → dış boşluk.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- CSS Animasyon -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              CSS Animasyon
+              <span class="card-title-pill">@keyframes</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>@keyframes kutu1 {
+  0%   { background-color: red; }
+  50%  { background-color: yellow; }
+  100% { background-color: green; }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  animation-name: kutu1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}</code></pre>
+            <ul>
+              <li><span class="code-inline">@keyframes</span> ile zaman içindeki durumlar tanımlanır.</li>
+              <li><span class="code-inline">animation-duration</span> → süresi.</li>
+              <li><span class="code-inline">animation-delay</span> → başlangıç gecikmesi.</li>
+              <li><span class="code-inline">animation-iteration-count</span> → tekrar sayısı / <span class="code-inline">infinite</span>.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Bootstrap temel -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Bootstrap Temeli
+              <span class="card-title-pill">CDN + grid</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;head&gt;
+  &lt;meta name="viewport"
+        content="width=device-width, initial-scale=1"&gt;
+  &lt;link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"&gt;
+&lt;/head&gt;
+
+&lt;div class="container"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="col-md-4"&gt;Sol&lt;/div&gt;
+    &lt;div class="col-md-8"&gt;Sağ&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            <ul>
+              <li><span class="code-inline">container</span> → ortalanmış, sabit genişlik.</li>
+              <li><span class="code-inline">row</span> → satır.</li>
+              <li><span class="code-inline">col-sm-*</span>, <span class="code-inline">col-md-*</span> → responsive kolonlar.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Bootstrap card -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Bootstrap Card Yapısı
+              <span class="card-title-pill">card component</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;div class="card" style="width: 18rem;"&gt;
+  &lt;img class="card-img-top" src="..." alt="..."&gt;
+  &lt;div class="card-body"&gt;
+    &lt;h5 class="card-title"&gt;Başlık&lt;/h5&gt;
+    &lt;p class="card-text"&gt;İçerik...&lt;/p&gt;
+    &lt;a href="#" class="btn btn-primary"&gt;Tıkla&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+            <ul>
+              <li><span class="code-inline">card</span>, <span class="code-inline">card-header</span>, <span class="code-inline">card-body</span>, <span class="code-inline">card-footer</span> sınıflarıyla kart yapısı kurulabilir.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Text & renk sınıfları -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Bootstrap Tipografi &amp; Renk
+              <span class="card-title-pill">.text-* / .bg-*</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;p class="text-primary"&gt;Mavi yazı&lt;/p&gt;
+&lt;p class="text-white-50 bg-dark"&gt;
+  Koyu arka planda yarı saydam beyaz
+&lt;/p&gt;
+
+&lt;button class="btn btn-success"&gt;Onay&lt;/button&gt;
+&lt;button class="btn btn-danger"&gt;Sil&lt;/button&gt;</code></pre>
+            <ul>
+              <li><span class="code-inline">.text-primary, .text-success, .text-danger</span></li>
+              <li><span class="code-inline">.bg-dark, .bg-light</span></li>
+              <li><span class="code-inline">.btn, .btn-primary, .btn-secondary, ...</span></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- JavaScript -->
+    <section id="js">
+      <div class="section-header">
+        <div class="section-title">
+          <span class="icon">⚙️</span>
+          JavaScript Özet Alanı
+        </div>
+        <div class="section-sub">
+          Değişkenler, output yöntemleri, koşullar, döngüler, diziler, DOM ile etkileşim ve Canvas temeli.
+        </div>
+      </div>
+
+      <div class="grid grid-3">
+        <!-- JS çıktı yöntemleri -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              JS Çıktı Yöntemleri
+              <span class="card-title-pill">innerHTML / console.log</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>// 1) innerHTML
+document.getElementById("metin").innerHTML = 
+  "Merhaba JS!";
+
+// 2) console.log
+console.log("Debug mesajı");
+
+// 3) alert
+alert("Uyarı!");
+
+// 4) document.write (genelde tavsiye edilmez)
+document.write(5 + 6);</code></pre>
+            <ul>
+              <li><span class="code-inline">innerHTML</span> → sayfadaki bir etikete yazı basar.</li>
+              <li><span class="code-inline">console.log</span> → geliştirici konsoluna çıktı.</li>
+              <li><span class="code-inline">alert</span> → popup uyarı.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Değişkenler -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Değişkenler &amp; Veri Türleri
+              <span class="card-title-pill">var / let / const</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>var isim = "Ahmet";
+let yas = 21;
+const okul = "Hacettepe";
+
+let sayi = 3.14;      // Number
+let aktif = true;     // Boolean
+let liste = [1, 2, 3]; // Array
+let ogrenci = { ad: "Ali", sinif: 3 }; // Object</code></pre>
+            <ul>
+              <li><b>var</b> → eski, function scope.</li>
+              <li><b>let</b> → block scope, modern kullanım.</li>
+              <li><b>const</b> → değeri değişmez referans.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Koşullar & Ternary -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Koşullar &amp; Ternary
+              <span class="card-title-pill">if / else / ? :</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>let saat = 15;
+let greeting;
+
+if (saat &lt; 10) {
+  greeting = "Günaydın";
+} else if (saat &lt; 20) {
+  greeting = "İyi günler";
+} else {
+  greeting = "İyi akşamlar";
+}
+
+// Ternary
+let ehliyet = (yas &lt; 18) ? "Alamaz" : "Alabilir";</code></pre>
+            <ul>
+              <li><b>if / else if / else</b> → çoklu koşullar.</li>
+              <li><b>ternary</b> → kısa if (?:).</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Döngüler -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Döngüler
+              <span class="card-title-pill">for / while</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>for (let i = 0; i &lt; 5; i++) {
+  console.log("Sayı " + i);
+}
+
+const sehirler = ["ANKARA", "İSTANBUL", "İZMİR"];
+
+for (let x of sehirler) {
+  console.log(x);
+}</code></pre>
+            <ul>
+              <li><span class="code-inline">for</span> → klasik sayaç döngüsü.</li>
+              <li><span class="code-inline">for...of</span> → dizi elemanları için idealdir.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- DOM + Event -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              DOM ile Etkileşim
+              <span class="card-title-pill">getElementById</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;p id="metin" 
+   onmouseover="degistir()"
+   onmouseout="geriAl()"&gt;
+  Merhaba
+&lt;/p&gt;
+
+&lt;script&gt;
+function degistir() {
+  document.getElementById("metin").innerHTML =
+    "Yeni metin";
+}
+
+function geriAl() {
+  document.getElementById("metin").innerHTML =
+    "Merhaba";
+}
+&lt;/script&gt;</code></pre>
+            <ul>
+              <li><span class="code-inline">onclick</span>, <span class="code-inline">onmouseover</span>, <span class="code-inline">onmouseout</span> gibi event’ler etkileşim sağlar.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Canvas Temel -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Canvas Temel Yapı
+              <span class="card-title-pill">2D çizim</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <pre><code>&lt;canvas id="can1" width="200" height="100"
+        style="border:1px solid #000"&gt;&lt;/canvas&gt;
+
+&lt;script&gt;
+  const c = document.getElementById("can1");
+  const ctx = c.getContext("2d"); // 2D bağlam
+  ctx.fillStyle = "#FF0000";
+  ctx.fillRect(0, 0, 150, 75);
+&lt;/script&gt;</code></pre>
+            <ul>
+              <li>Canvas → piksel tabanlı çizim alanı, çizilen nesneler DOM’un normal elemanları gibi değildir.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz">
+      <div class="section-header">
+        <div class="section-title">
+          <span class="icon">🧪</span>
+          Test &amp; Boşluk Doldurma Alanı
+        </div>
+        <div class="section-sub">
+          Sınav formatında: çoktan seçmeli (test ağırlıklı) + boşluk doldurma. Cevapları gizli, butonla açılıyor.
+        </div>
+      </div>
+
+      <div class="quiz-layout">
+        <!-- Test soruları -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Test Soruları (HTML / CSS / JS)
+              <span class="card-title-pill">Kendini yoklama</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chip-row">
+              <span class="chip">🔎 Her sorunun altında "Cevabı Göster" var.</span>
+              <button class="btn-sm" type="button" onclick="showAllAnswers('test')">
+                Tüm test cevaplarını göster
+              </button>
+            </div>
+
+            <!-- Q1 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 1 (HTML)</div>
+              <div class="q-text">
+                Aşağıdaki etiketlerden hangisi <strong>HTML5 semantik etiketlerinden</strong> değildir?
+              </div>
+              <div class="q-options">
+                <div>A) &lt;section&gt;</div>
+                <div>B) &lt;article&gt;</div>
+                <div>C) &lt;nav&gt;</div>
+                <div>D) &lt;center&gt;</div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a1')">
+                Cevabı Göster
+              </button>
+              <div id="a1" class="answer correct">
+                ✅ Doğru cevap: <b>D) &lt;center&gt;</b>  
+                &lt;center&gt; eski (deprecated) bir etikettir, semantik HTML5 etiketi değildir.
+              </div>
+            </div>
+
+            <!-- Q2 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 2 (Formlar)</div>
+              <div class="q-text">
+                Hangisi <strong>GET</strong> methodu için doğrudur?
+              </div>
+              <div class="q-options">
+                <div>A) Gönderilen veriler adres çubuğunda görünmez.</div>
+                <div>B) Tarayıcı geçmişinde ve cache’te saklanabilir.</div>
+                <div>C) Hassas veriler için her zaman önerilir.</div>
+                <div>D) Bir HTTP metodu değildir.</div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a2')">
+                Cevabı Göster
+              </button>
+              <div id="a2" class="answer correct">
+                ✅ Doğru cevap: <b>B)</b>  
+                GET istekleri URL’de görünür, tarayıcı önbelleğine alınabilir ve geçmişte saklanır. Hassas veriler için tercih edilmez.
+              </div>
+            </div>
+
+            <!-- Q3 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 3 (CSS)</div>
+              <div class="q-text">
+                Aşağıdaki CSS özelliklerinden hangisi <strong>içerik ile border arasındaki boşluğu</strong> ayarlar?
+              </div>
+              <div class="q-options">
+                <div>A) margin</div>
+                <div>B) border</div>
+                <div>C) padding</div>
+                <div>D) outline</div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a3')">
+                Cevabı Göster
+              </button>
+              <div id="a3" class="answer correct">
+                ✅ Doğru cevap: <b>C) padding</b>  
+                Margin dış boşluk, padding iç boşluktur.
+              </div>
+            </div>
+
+            <!-- Q4 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 4 (Bootstrap)</div>
+              <div class="q-text">
+                Bootstrap’te <span class="code-inline">col-md-4</span> sınıfı ne anlama gelir?
+              </div>
+              <div class="q-options">
+                <div>A) Orta ve üstü ekranlarda 12 kolonluk sistemde genişliği 4 kolon olan sütun.</div>
+                <div>B) Tüm ekran boyutlarında 4 piksel margin.</div>
+                <div>C) Sadece mobilde görünür.</div>
+                <div>D) Sütunun yüksekliğini belirler.</div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a4')">
+                Cevabı Göster
+              </button>
+              <div id="a4" class="answer correct">
+                ✅ Doğru cevap: <b>A)</b>  
+                <span class="code-inline">col-md-4</span>, orta (≥768px) ve üzeri ekranlarda 12’lik grid sisteminde 4 kolon genişliğinde sütun oluşturur.
+              </div>
+            </div>
+
+            <!-- Q5 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 5 (JavaScript değişken)</div>
+              <div class="q-text">
+                Aşağıdaki ifadelerden hangisi <strong>let</strong> ile ilgili doğrudur?
+              </div>
+              <div class="q-options">
+                <div>A) Function scope’tur, blok dışında da erişilebilir.</div>
+                <div>B) Block scope’tur, tanımlandığı süslü parantez dışında kullanılamaz.</div>
+                <div>C) Sadece sayısal değer alabilir.</div>
+                <div>D) Tarayıcı konsolunda kullanılamaz.</div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a5')">
+                Cevabı Göster
+              </button>
+              <div id="a5" class="answer correct">
+                ✅ Doğru cevap: <b>B)</b>  
+                <span class="code-inline">let</span> block scope’tur; tanımlandığı blok dışına sızması istenmez.
+              </div>
+            </div>
+
+            <!-- Q6 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 6 (JS Output)</div>
+              <div class="q-text">
+                Bir paragrafın içeriğini JavaScript ile değiştirmek için aşağıdaki kodlardan hangisi doğrudur? (id="p1")
+              </div>
+              <div class="q-options">
+                <div>A) <span class="code-inline">document.p1.innerHTML = "Merhaba";</span></div>
+                <div>B) <span class="code-inline">getElementById("p1") = "Merhaba";</span></div>
+                <div>C) <span class="code-inline">document.getElementById("p1").innerHTML = "Merhaba";</span></div>
+                <div>D) <span class="code-inline">innerHTML("p1") = "Merhaba";</span></div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a6')">
+                Cevabı Göster
+              </button>
+              <div id="a6" class="answer correct">
+                ✅ Doğru cevap: <b>C)</b>  
+                Doğru kullanım: <span class="code-inline">document.getElementById("p1").innerHTML = "Merhaba";</span>
+              </div>
+            </div>
+
+            <!-- Q7 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 7 (Canvas)</div>
+              <div class="q-text">
+                Canvas’ta 2D çizim bağlamını almak için hangi satır kullanılır?
+              </div>
+              <div class="q-options">
+                <div>A) <span class="code-inline">const ctx = canvas.getContext("2d");</span></div>
+                <div>B) <span class="code-inline">const ctx = getContext("2d");</span></div>
+                <div>C) <span class="code-inline">const ctx = document.context("2d");</span></div>
+                <div>D) <span class="code-inline">const ctx = "2d";</span></div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a7')">
+                Cevabı Göster
+              </button>
+              <div id="a7" class="answer correct">
+                ✅ Doğru cevap: <b>A)</b>  
+                Önce canvas elementi alınır, sonra <span class="code-inline">getContext("2d")</span> ile çizim bağlamı elde edilir.
+              </div>
+            </div>
+
+            <!-- Q8 -->
+            <div class="question" data-group="test">
+              <div class="q-title">Soru 8 (DOM kavramları)</div>
+              <div class="q-text">
+                Aşağıdakilerden hangisi <strong>Text Node</strong> tanımına en uygundur?
+              </div>
+              <div class="q-options">
+                <div>A) HTML etiketlerinin kendisi.</div>
+                <div>B) HTML etiketleri içindeki düz metin içeriği.</div>
+                <div>C) CSS kurallarını içeren node.</div>
+                <div>D) JavaScript kodlarını içeren node.</div>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('a8')">
+                Cevabı Göster
+              </button>
+              <div id="a8" class="answer correct">
+                ✅ Doğru cevap: <b>B)</b>  
+                Text Node, bir etiketin içindeki yazı kısmıdır.
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Boşluk doldurma -->
+        <article class="card">
+          <div class="card-header">
+            <div class="card-title">
+              Boşluk Doldurma Soruları
+              <span class="card-title-pill">kısa ve net</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chip-row">
+              <span class="chip">✏️ Cevapları önce kendin yaz, sonra kontrol et.</span>
+              <button class="btn-sm primary" type="button" onclick="showAllAnswers('blank')">
+                Tüm boşluk cevaplarını göster
+              </button>
+            </div>
+
+            <!-- B1 -->
+            <div class="question" data-group="blank">
+              <div class="q-title">
+                B1 (HTML5 yapısı)
+                <span class="badge-soft">HTML</span>
+              </div>
+              <div class="q-text">
+                Bir HTML belgesinin en üstünde yer alan ve tarayıcıya sayfanın HTML5 standardında olduğunu söyleyen ifade:
+              </div>
+              <div class="q-text">
+                <input class="blank-input" placeholder="cevabı yaz" /> →
+                <span class="badge-soft">İpucu: &lt;!...&gt;</span>
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('b1')">
+                Cevabı Göster
+              </button>
+              <div id="b1" class="answer info">
+                ✅ Cevap: <span class="code-inline">&lt;!DOCTYPE html&gt;</span>
+              </div>
+            </div>
+
+            <!-- B2 -->
+            <div class="question" data-group="blank">
+              <div class="q-title">
+                B2 (Form yöntemi)
+                <span class="badge-soft">Form</span>
+              </div>
+              <div class="q-text">
+                Hassas veriler (şifre vb.) gönderilirken URL’de görünmemesi için formda 
+                <input class="blank-input" placeholder="..."> yöntemi tercih edilmelidir.
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('b2')">
+                Cevabı Göster
+              </button>
+              <div id="b2" class="answer info">
+                ✅ Cevap: <b>POST</b>
+              </div>
+            </div>
+
+            <!-- B3 -->
+            <div class="question" data-group="blank">
+              <div class="q-title">
+                B3 (CSS animasyon süresi)
+                <span class="badge-soft">CSS</span>
+              </div>
+              <div class="q-text">
+                Bir CSS animasyonunun ne kadar sürede tamamlanacağını belirleyen özellik:
+              </div>
+              <div class="q-text">
+                <input class="blank-input" placeholder="animation-..." />
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('b3')">
+                Cevabı Göster
+              </button>
+              <div id="b3" class="answer info">
+                ✅ Cevap: <span class="code-inline">animation-duration</span> özelliği.
+              </div>
+            </div>
+
+            <!-- B4 -->
+            <div class="question" data-group="blank">
+              <div class="q-title">
+                B4 (JavaScript çıktı yöntemi)
+                <span class="badge-soft">JS</span>
+              </div>
+              <div class="q-text">
+                Bir paragrafın içeriğini (id="metin") değiştirmek için kullanılan JavaScript komutunda 
+                DOM elemanına erişmek için 
+                <input class="blank-input" placeholder="..." /> fonksiyonu kullanılır.
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('b4')">
+                Cevabı Göster
+              </button>
+              <div id="b4" class="answer info">
+                ✅ Cevap: <span class="code-inline">document.getElementById()</span>
+              </div>
+            </div>
+
+            <!-- B5 -->
+            <div class="question" data-group="blank">
+              <div class="q-title">
+                B5 (Bootstrap temel sınıf)
+                <span class="badge-soft">Bootstrap</span>
+              </div>
+              <div class="q-text">
+                Bootstrap grid sisteminde satırları sarmalayan kapsayıcı sınıf:
+                <input class="blank-input" placeholder="class=&quot;...?&quot;" />
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('b5')">
+                Cevabı Göster
+              </button>
+              <div id="b5" class="answer info">
+                ✅ Cevap: <span class="code-inline">container</span> (veya sayfanın tamamını kaplayan <span class="code-inline">container-fluid</span>).
+              </div>
+            </div>
+
+            <!-- B6 -->
+            <div class="question" data-group="blank">
+              <div class="q-title">
+                B6 (Değişmeyen JS değişken)
+                <span class="badge-soft">JS</span>
+              </div>
+              <div class="q-text">
+                JavaScript’te değeri sonradan değiştirilemeyen sabit bir değişken tanımlamak için kullanılan anahtar kelime:
+              </div>
+              <div class="q-text">
+                <input class="blank-input" placeholder="..." />
+              </div>
+              <button class="btn-sm" type="button" onclick="toggleAnswer('b6')">
+                Cevabı Göster
+              </button>
+              <div id="b6" class="answer info">
+                ✅ Cevap: <span class="code-inline">const</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="footer-note">
+      Bu sayfayı yerelinde kaydet → tarayıcıda aç → kartları okuyup testleri çözerek
+      3 Aralık’taki sınav öncesi genel prova gibi kullan. Başlığı kendine göre değiştirebilirsin.
+    </div>
+  </main>
+
+  <script>
+    function toggleAnswer(id) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const isHidden = el.style.display === "" || el.style.display === "none";
+      el.style.display = isHidden ? "block" : "none";
+    }
+
+    function showAllAnswers(group) {
+      const questions = document.querySelectorAll('.question[data-group="' + group + '"] .answer');
+      questions.forEach(q => {
+        q.style.display = "block";
+      });
+    }
+  </script>
+</body>
+</html>

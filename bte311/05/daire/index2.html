@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Görev 2 – 3 div ile daireler</title>
+  <style>
+    /* Sayfayı ortala ve sade bir arka plan ver */
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: grid;
+      place-items: center;
+      background: #f5f5f7;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    }
+
+    /* ÜÇ DAİRE = ÜÇ DIV */
+    .c {
+      position: absolute;            /* Ortayı referans alacağız */
+      left: 50%;
+      top: 50%;
+      width: 260px;
+      height: 260px;
+      border-radius: 50%;
+      opacity: 0.75;                 /* Şeffaflık */
+      mix-blend-mode: multiply;      /* Kesişimleri belirginleştirir */
+      box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    }
+
+    /* Renkler (görseldeki gibi turuncu, mavi, sarı) */
+    .c1 { background: #c74a2b; transform: translate(-180px, -70px); } /* sol/üst */
+    .c2 { background: #263fbb; transform: translate( -20px, -70px); } /* sağ/üst */
+    .c3 { background: #c2a10b; transform: translate(-100px,  60px); } /* alt/orta */
+  </style>
+</head>
+<body>
+  <div class="c c1"></div>
+  <div class="c c2"></div>
+  <div class="c c3"></div>
+</body>
+</html>

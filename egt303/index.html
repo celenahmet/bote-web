@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>EGT350 – Öğretmenlikte Etik & Meslek Kanunu | Çalışma Sayfası</title>
+<style>
+  :root{
+    --bg:#0f1220; --card:#161a2b; --muted:#9aa0b4; --ink:#eef1ff; --accent:#7E57C2;
+    --ok:#22c55e; --warn:#f59e0b; --bad:#ef4444; --link:#93c5fd;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;scroll-behavior:smooth;background:linear-gradient(180deg,#0d1020,#121634 35%,#0f1220)}
+  body{color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial}
+  a{color:var(--link);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{
+    position:sticky;top:0;z-index:50;background:rgba(15,18,32,.85);backdrop-filter:blur(8px);
+    border-bottom:1px solid #222642
+  }
+  .wrap{max-width:1100px;margin:0 auto;padding:20px}
+  h1{margin:6px 0 2px;font-size:28px;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:14px}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .toolbar button,.chip{
+    background:var(--card);border:1px solid #2a2f4a;color:var(--ink);padding:8px 12px;border-radius:12px;cursor:pointer
+  }
+  .toolbar button:hover{border-color:#3a4063}
+  .grid{display:grid;grid-template-columns:280px 1fr;gap:18px}
+  @media (max-width:900px){.grid{grid-template-columns:1fr}}
+  nav{
+    position:sticky;top:92px;align-self:start;background:var(--card);border:1px solid #232744;border-radius:14px;padding:14px;
+  }
+  nav h3{margin:0 0 8px;font-size:14px;color:var(--muted);font-weight:600;letter-spacing:.3px}
+  nav a{display:block;padding:6px 8px;border-radius:8px;color:var(--ink)}
+  nav a:hover{background:#1d2140}
+  .toc-search{width:100%;padding:8px 10px;margin-bottom:8px;border-radius:10px;border:1px solid #2a2f4a;background:#101328;color:var(--ink)}
+  section{background:var(--card);border:1px solid #232744;border-radius:16px;padding:18px;margin-bottom:16px}
+  section h2{margin:0 0 10px;font-size:22px}
+  .pill{display:inline-block;background:#1d2140;border:1px solid #2a2f4a;color:var(--ink);padding:2px 8px;border-radius:999px;font-size:12px;margin-right:6px}
+  details{border:1px dashed #323a68;border-radius:12px;padding:10px 12px;background:#11142a}
+  details+details{margin-top:8px}
+  summary{cursor:pointer;font-weight:700}
+  .key{color:#c0caf5}
+  .muted{color:var(--muted)}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .card{border:1px solid #2a2f4a;background:#11142a;border-radius:14px;padding:12px}
+  .flash{cursor:pointer;min-height:120px;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:600}
+  .flash.flipped{background:#0f1220;border-color:#3b82f6}
+  .badge{font-size:12px;padding:2px 6px;border:1px solid #37406b;border-radius:8px;background:#1b1f3b;color:#cbd5ff}
+  .list{padding-left:18px}
+  .list li{margin:4px 0}
+  .cite{margin-top:8px;font-size:12px;color:#a3a7be}
+  .code{font-family:ui-monospace,Menlo,Consolas,monospace;background:#0f1220;border:1px solid #2a2f4a;border-radius:8px;padding:10px}
+  .quiz{border:1px solid #2a2f4a;background:#0f1220;border-radius:14px;padding:12px}
+  .q{margin-bottom:12px}
+  .q h4{margin:0 0 6px}
+  .opt{display:block;margin:4px 0;padding:8px;border:1px solid #2a2f4a;border-radius:10px;background:#11142a;cursor:pointer}
+  .opt.correct{border-color:var(--ok)}
+  .opt.wrong{border-color:var(--bad)}
+  .score{font-weight:700}
+  footer{opacity:.85;margin:30px 0;color:var(--muted);font-size:13px}
+  .hl{color:#fff;background:linear-gradient(90deg,rgba(126,87,194,.25),rgba(126,87,194,.05));padding:2px 6px;border-radius:8px}
+  .kbd{border:1px solid #404769;border-radius:6px;padding:0 6px;font-family:ui-monospace; background:#0f1220}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>EGT350 – Öğretmenlikte Etik • <span class="hl">100’lük Çalışma Sayfası</span></h1>
+    <div class="sub">Slaytlar ağırlıklı, mevzuat ve temel kaynaklarla destekli interaktif özet</div>
+    <div class="toolbar">
+      <button onclick="window.print()">📄 Yazdır / PDF</button>
+      <button onclick="expandAll()">🔽 Tümünü Aç</button>
+      <button onclick="collapseAll()">🔼 Tümünü Kapat</button>
+      <span class="chip">Klavye: <span class="kbd">/</span> Ara • <span class="kbd">F</span> Flashcard • <span class="kbd">N</span> Sonraki soru</span>
+    </div>
+  </div>
+</header>
+
+<div class="wrap grid">
+  <!-- TOC -->
+  <nav>
+    <h3>İçindekiler</h3>
+    <input id="tocSearch" class="toc-search" placeholder="Başlıklarda ara…" oninput="filterTOC(this.value)">
+    <div id="toc">
+      <a href="#kavramlar">1) Etik–Ahlak ve Temel Kavramlar</a>
+      <a href="#etik-yasa">2) Etik–Yasa–İlke–Kural–Standart</a>
+      <a href="#meslek-etik">3) Meslek & Öğretmenlikte Etik Sorumluluk</a>
+      <a href="#meb-genelge">4) 2015/21 MEB Mesleki Etik İlkeler</a>
+      <a href="#kacinilacak">5) Kaçınılması Beklenen Etik Dışı Davranışlar</a>
+      <a href="#kanun-2024">6) 2024 Öğretmenlik Mesleği Kanunu (7528)</a>
+      <a href="#inayet">7) İnayet Aydın’dan Kilit Çıkarımlar</a>
+      <a href="#afet-etik">8) Afet & Acil Durumlarda Etik İlkeler (Kurul 2025/42)</a>
+      <a href="#flashcards">⚡ Flashcards</a>
+      <a href="#quiz">🧪 Mini-Quiz</a>
+      <a href="#kaynak">Kaynaklar</a>
+    </div>
+  </nav>
+
+  <!-- CONTENT -->
+  <main>
+    <section id="kavramlar">
+      <h2>1) Etik–Ahlak ve Temel Kavramlar</h2>
+      <p>
+        <span class="pill">Tanımlar</span>
+        <strong>Etik</strong>, insan davranışlarını <em>iyi–kötü</em> ve <em>doğru–yanlış</em> açısından değerlendiren, ilke ve değerlerle yol gösteren alandır.
+        <strong>Ahlak</strong> ise toplum içindeki davranış ölçütleri, gelenek ve kurallar bütünüdür. Kısaca: ahlak <em>fiilî kurallar</em>, etik bu kuralların <em>felsefi temeli ve muhakemesi</em>dir. :contentReference[oaicite:0]{index=0}
+      </p>
+      <details open>
+        <summary>Temel kavramlar</summary>
+        <ul class="list">
+          <li><span class="key">Erdem</span>: Değerlerle uyumlu iyi alışkanlıklar.</li>
+          <li><span class="key">Sorumluluk</span>: Eylemin sonuçlarını üstlenme bilinci.</li>
+          <li><span class="key">Vicdan</span>: Ahlaki muhakemenin içsel dayanağı. :contentReference[oaicite:1]{index=1}</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="etik-yasa">
+      <h2>2) Etik–Yasa–İlke–Kural–Standart</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="badge">Fark 1</div>
+          Yasalar niyeti yargılamaz; etik, <em>niyeti</em> ve <em>gerekçeyi</em> sorgular. :contentReference[oaicite:2]{index=2}
+        </div>
+        <div class="card">
+          <div class="badge">Fark 2</div>
+          Yasal olan her davranış etik olmayabilir (ör. çıkar çatışması yaratacak hediye). :contentReference[oaicite:3]{index=3}
+        </div>
+        <div class="card">
+          <div class="badge">Fark 3</div>
+          Etik olan durumlar yasada düzenlenmemiş olabilir; yaptırımı toplumsal kınamadır. :contentReference[oaicite:4]{index=4}
+        </div>
+      </div>
+      <details>
+        <summary>İlke–Kural–Standart</summary>
+        <ul class="list">
+          <li><strong>İlke</strong>: Eylemleri yönlendiren temel düşünce (adalet, eşitlik…).</li>
+          <li><strong>Kural</strong>: İlkelere uygun eylem yolu; belirsizliği azaltır, kalkan etkisi sağlar (ör. hediye reddi). </li>
+          <li><strong>Standart</strong>: Beklenen davranış için rehber ölçütler. :contentReference[oaicite:5]{index=5}</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="meslek-etik">
+      <h2>3) Meslek & Öğretmenlikte Etik Sorumluluk</h2>
+      <p>
+        Meslek etiği; mesleği <em>iyi ve doğruya</em> yönlendiren, ilkesiz üyeleri dışlayan bir ilkeler dizgesidir (Durkheim atfıyla). Öğretmenlikte
+        öğrenci küçük olduğu için <strong>özen</strong>, <strong>saygı</strong>, <strong>gözetim</strong> sorumluluğu güçlenir; güvene dayalı konum doğar. :contentReference[oaicite:6]{index=6}
+      </p>
+      <details>
+        <summary>Öğretmenlikte sık görülen etik sorun örnekleri</summary>
+        <ul class="list">
+          <li>Özel ders–çıkar ilişkisi,</li>
+          <li>Kayırma ve mazeretsiz devamsızlık,</li>
+          <li>Atama/yükselmede kişisel ilişkiler,</li>
+          <li>Kamu görevlilerine çıkar sağlama. :contentReference[oaicite:7]{index=7}</li>
+        </ul>
+      </details>
+    </section>
+
+    <section id="meb-genelge">
+      <h2>4) 2015/21 – Eğitimciler için Mesleki Etik İlkeler (MEB)</h2>
+      <div class="cards">
+        <div class="card"><strong>Öğrenciyle ilişkiler</strong>: Sevgi–saygı, iyi örnek olma, adalet–eşitlik, gelişimi gözetme, gizliliğe riayet. :contentReference[oaicite:8]{index=8}</div>
+        <div class="card"><strong>Mesleğe ilişkin</strong>: Mesleki yeterlilik, güvenli ortam, mesai–ders saatlerine uyma vb. :contentReference[oaicite:9]{index=9}</div>
+        <div class="card"><strong>Kurum kültürü</strong>: İşbirliği, saydamlık, hesap verebilirlik, etik kurallara bağlılık. :contentReference[oaicite:10]{index=10}</div>
+      </div>
+      <p class="cite">Ayrıntılı maddeler için genelge: 2015/21 – MEB Etik Komisyonu. :contentReference[oaicite:11]{index=11}</p>
+    </section>
+
+    <section id="kacinilacak">
+      <h2>5) Kaçınılması Beklenen Etik Dışı Behavi̇yorlar</h2>
+      <ul class="list">
+        <li>Ayrımcılık, kayırma, hediye alma, kaytarma, özel ders–çıkar çatışması, öğretim zamanını kötüye kullanma, güç/yetkiyi aşırı kullanma, mesleki güncelliği ihmal. :contentReference[oaicite:12]{index=12} :contentReference[oaicite:13]{index=13}</li>
+      </ul>
+    </section>
+
+    <section id="kanun-2024">
+      <h2>6) 2024 Öğretmenlik Mesleği Kanunu (No. 7528) – Özet</h2>
+      <details open>
+        <summary>Amacı & Kapsamı</summary>
+        <p>Öğretmenlerin seçimi, yetiştirilmesi, atanması; hak–ödev–sorumlulukları; kariyer basamakları; <strong>Millî Eğitim Akademisi</strong>nin kuruluş ve işleyişini düzenler. (Madde 1–3) :contentReference[oaicite:14]{index=14}</p>
+      </details>
+      <details>
+        <summary>Hak, ödev ve sorumluluklar (Madde 5–6)</summary>
+        <ul class="list">
+          <li>Öğrencilerin çok yönlü gelişimini gözetme; kişilik haklarına saygı; olumsuz söz ve davranışlardan koruma.</li>
+          <li>Programlara uygun planlama–yürütme; okul içi/dışı imkânları kullanma; meslektaş işbirliği; <em>kendini geliştirme</em>.</li>
+          <li>Meslek dışı görevlendirmeye rıza dışı sınırlama (istisnalar hariç). :contentReference[oaicite:15]{index=15}</li>
+        </ul>
+      </details>
+      <details>
+        <summary>Seçim & Hazırlık Eğitimi (Madde 7–9)</summary>
+        <p>Öğretmenlik; genel kültür–alan bilgisi–meslek bilgisi birleşik yeterlikleri gerektiren özel bir ihtisas mesleğidir. Hazırlık eğitimi teorik+uygulamalı, Akademi tarafından verilir. :contentReference[oaicite:16]{index=16}</p>
+      </details>
+    </section>
+
+    <section id="inayet">
+      <h2>7) İnayet Aydın – Öğretmenlik Meslek Etiği (Kilit Çıkarımlar)</h2>
+      <div class="cards">
+        <div class="card">
+          <strong>Etik karar verme</strong>: Etik ikilemlerde <em>bilinçli seçim</em> ve gerekçelendirme şart; bilgi ve kavramsal netlik temelidir. :contentReference[oaicite:17]{index=17}
+        </div>
+        <div class="card">
+          <strong>Teoriler</strong>: Faydacılık (sonuç), Ödev etiği (niyet/ödev), Erdem etiği (karakter/alışkanlık). :contentReference[oaicite:18]{index=18}
+        </div>
+        <div class="card">
+          <strong>Etik–Yasa</strong>: Yasal olan ≠ etik olan; yaptırımların doğası farklıdır. :contentReference[oaicite:19]{index=19}
+        </div>
+      </div>
+    </section>
+
+    <section id="afet-etik">
+      <h2>8) Afet & Acil Durumlarda Etik İlkeler (Kamu Görevlileri Etik Kurulu – İlke Kararı 2025/42)</h2>
+      <p>
+        Afet öncesi, sırası ve sonrasında sunulan kamu hizmetlerinde <strong>insan onuru</strong>, <strong>tarafsızlık</strong>, <strong>eşitlik</strong>, <strong>şeffaflık</strong>,
+        <strong>katılımcılık</strong> ve <strong>hesap verebilirlik</strong> temel ilkeler olarak düzenlenmiştir. (Karar: 25.03.2025) :contentReference[oaicite:20]{index=20}
+      </p>
+      <details open>
+        <summary>I. Afet Öncesi – Risk & Zarar Azaltma</summary>
+        <ul class="list">
+          <li>İmar–altyapı süreçlerinde afet risklerine göre planlama; riskli yapıların güçlendirilmesi/dönüşümü. :contentReference[oaicite:21]{index=21}</li>
+          <li>Uluslararası standartlar + yerel örf–adet ve kültürel değerler dikkate alınarak hazırlık. :contentReference[oaicite:22]{index=22}</li>
+          <li>Arama–kurtarma, sağlık, psikolojik ilk yardım ve <em>etik eğitimi</em> dâhil düzenli eğitim/tatbikat. :contentReference[oaicite:23]{index=23}</li>
+          <li>Toplumun bilgilendirilmesi, kentsel dönüşüm farkındalığı, tahliye tatbikatları. :contentReference[oaicite:24]{index=24}</li>
+        </ul>
+      </details>
+      <details>
+        <summary>II. Afet Anı – Hızlı, Etkili ve Haklara Saygılı Hizmet</summary>
+        <ul class="list">
+          <li>Planlara uygun hızlı müdahale ve etkin koordinasyon. :contentReference[oaicite:25]{index=25}</li>
+          <li><strong>İnsan onuruna saygı</strong>: Özellikle dezavantajlı gruplara uygun, saygılı, destekleyici yaklaşım. :contentReference[oaicite:26]{index=26}</li>
+          <li><strong>Yardım alma hakkı</strong>: Ayrımcılık yapılmadan, ihtiyaca göre adil dağıtım ve önceliklendirme. :contentReference[oaicite:27]{index=27}</li>
+          <li><strong>Gizlilik–mahremiyet</strong>: Kişisel verilerin korunması; yetkisiz görüntü/bilgi paylaşmama. :contentReference[oaicite:28]{index=28}</li>
+          <li>Medya ve sosyal medyada doğru, sükûneti koruyan, onura saygılı içerik. :contentReference[oaicite:29]{index=29}</li>
+        </ul>
+      </details>
+      <details>
+        <summary>III. Afet Sonrası – İyileştirme & Hesap Verebilirlik</summary>
+        <ul class="list">
+          <li>Kamu kaynaklarının adil–şeffaf yönetimi ve zamanında bilgilendirme. :contentReference[oaicite:30]{index=30}</li>
+          <li>Çevresel iyileştirme, yeniden inşa ve paydaş katılımı; halk sağlığını koruma. :contentReference[oaicite:31]{index=31}</li>
+          <li>Kararların temellendirilmesi, belgelenmesi ve bilgi edinme yollarının açık tutulması. :contentReference[oaicite:32]{index=32}</li>
+        </ul>
+      </details>
+      <details>
+        <summary>IV. Yetkili Yöneticilerin Sorumlulukları</summary>
+        <ul class="list">
+          <li>Nezaket–saygı çerçevesinde toplumu bilgilendirme; kamu yararını ve etik ilkeleri gözetme. :contentReference[oaicite:33]{index=33}</li>
+          <li>Fonların adil, hızlı, şeffaf yönetimi ve lojistik ihtiyaçların karşılanması. :contentReference[oaicite:34]{index=34}</li>
+        </ul>
+      </details>
+      <p class="cite">Kaynak: Kamu Görevlileri Etik Kurulu “Afet ve Acil Durumlarda… İlkeler” – İlke Kararı, 25.03.2025. :contentReference[oaicite:35]{index=35}</p>
+    </section>
+
+    <section id="flashcards">
+      <h2>⚡ Flashcards – Hızlı Tekrar</h2>
+      <div class="cards">
+        <div class="card flash" data-front="Etik–Ahlak farkı?" data-back="Ahlak: toplumsal kurallar; Etik: kuralların felsefi temeli ve muhakemesi.">Etik–Ahlak farkı?</div>
+        <div class="card flash" data-front="İlke–Kural–Standart?" data-back="İlke: temel düşünce; Kural: ilkeye uygun yol; Standart: beklenen davranış ölçütü."></div>
+        <div class="card flash" data-front="Öğretmen–öğrenci ilişkisinin temeli?" data-back="Özen, saygı, gözetim; güvene dayalı konum."></div>
+        <div class="card flash" data-front="2015/21’de 3 kilit başlık?" data-back="Sevgi–saygı, adalet–eşitlik, gizlilik."></div>
+        <div class="card flash" data-front="7528’in yeniliği?" data-back="Millî Eğitim Akademisi ve hazırlık eğitimi çerçevesi."></div>
+        <div class="card flash" data-front="Afet anında 3 ilke?" data-back="Hızlı-etkili müdahale; insan onuruna saygı; gizlilik/mahremiyet."></div>
+      </div>
+      <p class="muted">İpucu: Kartlara tıkla ya da <span class="kbd">F</span> ile sıradaki kartı çevir.</p>
+    </section>
+
+    <section id="quiz">
+      <h2>🧪 Mini-Quiz (Slayt + Mevzuat Ağırlıklı)</h2>
+      <div class="quiz" id="quizBox"></div>
+      <div class="score" id="scoreBox">Skor: 0/12</div>
+      <div class="muted">Kısayol: <span class="kbd">N</span> sonraki soru</div>
+    </section>
+
+    <section id="kaynak">
+      <h2>Kaynaklar (Sınavda Referans Alınanlar)</h2>
+      <ul class="list">
+        <li>İnayet Aydın – Öğretmenlik Meslek Etiği ve Etkinlik Kitabı. :contentReference[oaicite:36]{index=36}</li>
+        <li>Öğretmenlik Mesleği Kanunu No. 7528 (RG 18.10.2024/32696). :contentReference[oaicite:37]{index=37}</li>
+        <li>MEB – Eğitimciler için Mesleki Etik İlkeler (Genelge 2015/21). :contentReference[oaicite:38]{index=38} :contentReference[oaicite:39]{index=39}</li>
+        <li>MEB – Kamu Görevlileri Etik Sözleşmesi. :contentReference[oaicite:40]{index=40}</li>
+        <li>EGT slaytları – Etik–Ahlak; Etik–Yasa–İlke–Kural–Standart; Uyulması beklenen ilkeler. :contentReference[oaicite:41]{index=41} :contentReference[oaicite:42]{index=42} :contentReference[oaicite:43]{index=43}</li>
+        <li>KGEK – Afet & Acil Durumlarda Kamu Görevlilerince Uyulması Gereken Etik İlkeleri (İlke Kararı 2025/42). :contentReference[oaicite:44]{index=44}</li>
+      </ul>
+    </section>
+
+    <footer>
+      Hazırlayan: Çalışma sayfası – slayt ağırlıklı özet, mevzuat ve temel kaynaklarla uyumludur.
+      <br/>Not: Eklemek istediğin diğer belgeleri gönderdiğinde ilgili bölümleri ve soru havuzunu genişletirim.
+    </footer>
+  </main>
+</div>
+
+<script>
+  // TOC filtre
+  function filterTOC(v){
+    const q=v.toLowerCase(); const links=[...document.querySelectorAll('#toc a')];
+    links.forEach(a=>{ a.style.display = a.textContent.toLowerCase().includes(q)?'block':'none'; });
+  }
+  window.addEventListener('keydown',e=>{
+    if(e.key==='/'){e.preventDefault();document.getElementById('tocSearch').focus();}
+  });
+
+  function expandAll(){ document.querySelectorAll('details').forEach(d=>d.open=true); }
+  function collapseAll(){ document.querySelectorAll('details').forEach(d=>d.open=false); }
+
+  // Flashcards
+  const flashes = [...document.querySelectorAll('.flash')];
+  let fIndex=0;
+  flashes.forEach((el,i)=>{
+    if(!el.textContent.trim()) el.textContent=el.dataset.front;
+    el.addEventListener('click',()=>flip(el));
+  });
+  function flip(el){
+    if(el.classList.toggle('flipped')) el.textContent = el.dataset.back;
+    else el.textContent = el.dataset.front;
+  }
+  function nextFlash(){ fIndex=(fIndex+1)%flashes.length; flip(flashes[fIndex]); }
+  window.addEventListener('keydown',e=>{ if(e.key.toLowerCase()==='f') nextFlash(); });
+
+  // Quiz (12 soru)
+  const QUESTIONS = [
+    {q:"Etik ile ahlak arasındaki temel fark nedir?",
+     a:["Etik toplumsal kurallar, ahlak felsefi temeldir",
+        "Ahlak toplumsal kurallar, etik felsefi temeldir",
+        "İkisi eşanlamlıdır","Ahlak yalnızca yasalara dayanır"], correct:1, ref:":contentReference[oaicite:45]{index=45}"},
+    {q:"‘Yasal olan her şey etik olmayabilir’ vurgusu hangi başlıkta ele alınır?",
+     a:["Standart","İlke","Etik–Yasa farkı","Ahlak türleri"], correct:2, ref:":contentReference[oaicite:46]{index=46}"},
+    {q:"Öğretmenlikte güvene dayalı konumun kaynağı aşağıdakilerden hangisidir?",
+     a:["Öğrencilerin küçük olması ve gözetim sorumluluğu","Velilerin beklentileri","Okul yönetmelikleri","Sınav sonuçları"], correct:0, ref:":contentReference[oaicite:47]{index=47}"},
+    {q:"2015/21’e göre öğrenciyle ilişkilerde hangi ilke yer alır?",
+     a:["Hediye kabulü","Sevgi–saygı ve gizlilik","Performansa göre kayırma","Kişisel bilgileri paylaşma"], correct:1, ref:":contentReference[oaicite:48]{index=48}"},
+    {q:"Aşağıdakilerden hangisi ‘kaçınılması beklenen’ davranışlardandır?",
+     a:["Eşitlik","Kayırma","Mahremiyet","Tarafsızlık"], correct:1, ref:":contentReference[oaicite:49]{index=49}"},
+    {q:"7528 sayılı Kanun’a göre öğretmenlik…",
+     a:["Yalnızca alan bilgisine dayalıdır",
+        "Hazırlık eğitimi gerektirmeyen bir memuriyettir",
+        "Genel kültür, alan ve meslek bilgisi gerektiren ihtisas mesleğidir",
+        "Akademi ile ilişkisi yoktur"], correct:2, ref:":contentReference[oaicite:50]{index=50}"},
+    {q:"Ödev etiği hangi unsuru merkeze alır?",
+     a:["Sonuç","Niyet/ödev","Alışkanlık","Yasa"], correct:1, ref:":contentReference[oaicite:51]{index=51}"},
+    {q:"Kuralların ‘kalkan etkisi’ hangi duruma örnektir?",
+     a:["Öğretmenin hediye reddi için veliyi kurala atıfla bilgilendirmesi",
+        "Öğrencinin notunu yükseltmesi", "Veliyi okula davet etmemesi","Öğrenciye ceza vermesi"], correct:0, ref:":contentReference[oaicite:52]{index=52}"},
+    {q:"Erdem etiği odak noktası:",
+     a:["Karakter ve iyi alışkanlıklar","Hukuki yaptırım","Fayda ençoklaştırma","Yönetmelik"], correct:0, ref:":contentReference[oaicite:53]{index=53}"},
+    {q:"Afet anında gizlilik/mahremiyet ilkesinin gereği aşağıdakilerden hangisidir?",
+     a:["Yetkisiz görüntü paylaşımından kaçınmak","Sosyal medyada her bilgiyi hızla duyurmak","Kişisel verileri herkese açmak","Gizlilik yalnızca sağlık verileri içindir"], correct:0, ref:":contentReference[oaicite:54]{index=54}"},
+    {q:"Afet öncesi risk azaltmada hangi yaklaşım esastır?",
+     a:["Sadece kriz olunca müdahale","Uluslararası standartlar + yerel kültüre duyarlı hazırlık","Tek kurum sorumluluğu","Eğitimsiz gönüllülerle müdahale"], correct:1, ref:":contentReference[oaicite:55]{index=55}"},
+    {q:"Afet sonrası kamu kaynaklarının yönetiminde temel ilke kombinasyonu hangisidir?",
+     a:["Hız–gizlilik","Adalet–şeffaflık–zamanında bilgilendirme","Sadece hız","Sadece güvenlik"], correct:1, ref:":contentReference[oaicite:56]{index=56}"},
+  ];
+  let qi=0, score=0;
+  const box=document.getElementById('quizBox'), scoreBox=document.getElementById('scoreBox');
+  function renderQ(){
+    const it=QUESTIONS[qi];
+    box.innerHTML = `
+      <div class="q">
+        <h4>${qi+1}. ${it.q}</h4>
+        ${it.a.map((t,i)=>`<label class="opt"><input type="radio" name="q${qi}" value="${i}" style="display:none" />${t}</label>`).join("")}
+        <div class="muted">Kaynak: ${it.ref}</div>
+      </div>
+      <div class="toolbar"><button onclick="nextQ()">Sonraki</button></div>
+    `;
+    [...box.querySelectorAll('.opt')].forEach((el,i)=>{
+      el.addEventListener('click',()=>{
+        const correct= i===it.correct;
+        el.classList.add(correct?'correct':'wrong');
+        if(correct){ score++; updateScore(); }
+        [...box.querySelectorAll('.opt')].forEach(o=>o.style.pointerEvents='none');
+      });
+    });
+  }
+  function updateScore(){ scoreBox.textContent = `Skor: ${score}/${QUESTIONS.length}`; }
+  function nextQ(){ qi = (qi+1)%QUESTIONS.length; renderQ(); }
+  window.addEventListener('keydown',e=>{ if(e.key.toLowerCase()==='n') nextQ(); });
+  renderQ(); updateScore();
+</script>
+</body>
+</html>

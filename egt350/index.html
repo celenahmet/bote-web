@@ -1,0 +1,659 @@
+
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EGT350 Vize Çalışma Defteri – İnteraktif (Ahmet Çelen)</title>
+<style>
+  :root{
+    --bg:#0b1020;
+    --panel:#111833;
+    --panel-2:#0f1a3a;
+    --text:#e9eefc;
+    --muted:#9fb3ff;
+    --accent:#7e57c2; /* ACM moru */
+    --accent-2:#2c70d6;
+    --ok:#2ecc71;
+    --warn:#ffb74d;
+    --danger:#ff6b6b;
+    --chip:#274B7A;
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;}
+  body{
+    margin:0;
+    font-family: ui-sans-serif, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+    background: radial-gradient(1200px 600px at 80% -10%, rgba(44,112,214,.15), transparent),
+                radial-gradient(1000px 700px at -10% 120%, rgba(126,87,194,.18), transparent),
+                var(--bg);
+    color: var(--text);
+    overflow-x:hidden;
+  }
+
+  /* Animated floating emojis background */
+  .float-emoji{
+    position:fixed; inset:0; pointer-events:none; z-index:0;
+  }
+  .float-emoji span{
+    position:absolute; font-size:28px; opacity:.14; filter: blur(.2px);
+    animation: drift linear infinite;
+  }
+  @keyframes drift{
+    from{ transform: translate3d(var(--sx), 110vh,0) rotate(0deg);}
+    to  { transform: translate3d(calc(var(--sx) + var(--dx)), -20vh,0) rotate(360deg);}
+  }
+
+  /* Layout */
+  .app{
+    display:grid; grid-template-columns: 280px 1fr; gap:16px; min-height:100vh; position:relative; z-index:1;
+  }
+  aside{
+    background: linear-gradient(180deg, var(--panel), var(--panel-2));
+    padding:18px 16px; border-right:1px solid rgba(255,255,255,.06);
+    position:sticky; top:0; height:100vh; overflow:auto;
+  }
+  main{padding:24px 24px 120px;}
+
+  .brand{display:flex; align-items:center; gap:10px; margin-bottom:12px}
+  .logo{
+    width:36px;height:36px;border-radius:10px;
+    background: conic-gradient(from 0deg,var(--accent),var(--accent-2),var(--accent));
+    box-shadow:0 0 0 3px rgba(255,255,255,.06) inset, 0 6px 16px rgba(0,0,0,.4);
+  }
+  .brand h1{font-size:16px; margin:0; letter-spacing:.4px}
+  .tag{font-size:12px; color:var(--muted)}
+  nav{margin-top:10px}
+  nav a{
+    display:block; padding:10px 12px; margin:6px 0; border-radius:10px; text-decoration:none;
+    color:var(--text); border:1px solid rgba(255,255,255,.06); background: rgba(255,255,255,.02);
+  }
+  nav a:hover{background: rgba(255,255,255,.05)}
+  nav a.active{background: linear-gradient(180deg, rgba(44,112,214,.25), rgba(126,87,194,.3)); border-color: rgba(126,87,194,.6)}
+
+  .topbar{
+    display:flex; align-items:center; gap:12px; justify-content:space-between; margin-bottom:14px;
+  }
+  .search{flex:1; position:relative}
+  .search input{
+    width:100%; background:#0d1430; border:1px solid rgba(255,255,255,.08);
+    color:var(--text); border-radius:12px; padding:12px 14px 12px 40px; outline:none;
+  }
+  .search svg{position:absolute; top:10px; left:10px; opacity:.7}
+  .pill{
+    border:1px solid rgba(255,255,255,.1); border-radius:999px; padding:8px 12px; background:rgba(255,255,255,.04);
+    cursor:pointer; user-select:none;
+  }
+
+  section{margin:18px 0; border:1px solid rgba(255,255,255,.08); border-radius:16px; overflow:hidden; background: rgba(10,16,40,.65)}
+  section header{
+    padding:14px 16px; display:flex; gap:10px; align-items:center; background: linear-gradient(180deg,rgba(255,255,255,.05), transparent);
+  }
+  section header h2{margin:0; font-size:18px}
+  .content{padding:16px 16px 6px}
+  .grid{display:grid; gap:12px}
+  @media(min-width:900px){ .grid.cols-2{grid-template-columns: 1fr 1fr} .grid.cols-3{grid-template-columns: repeat(3,1fr)} }
+
+  .card{
+    background: rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.08); border-radius:14px; padding:12px 14px;
+  }
+  .callout{
+    border-left:4px solid var(--accent); background: rgba(126,87,194,.13); padding:12px 14px; border-radius:10px;
+  }
+  .chip{display:inline-block; padding:4px 8px; border-radius:999px; background: rgba(126,87,194,.22); border:1px solid rgba(126,87,194,.5); margin:2px 6px 2px 0; font-size:12px}
+  .kbd{font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: rgba(0,0,0,.4); padding:2px 6px; border-radius:6px; border:1px solid rgba(255,255,255,.12)}
+
+  /* Accordion */
+  .acc .item{border:1px solid rgba(255,255,255,.08); border-radius:10px; overflow:hidden; background: rgba(255,255,255,.03)}
+  .acc button{
+    width:100%; text-align:left; padding:12px; background:none; border:none; color:var(--text); cursor:pointer; display:flex; justify-content:space-between; align-items:center;
+  }
+  .acc .panel{max-height:0; overflow:hidden; transition: max-height .3s ease}
+  .acc .item.open .panel{max-height:600px}
+  .acc .item.open button{background: rgba(255,255,255,.05)}
+
+  /* Flashcards */
+  .flashcards{display:grid; gap:12px}
+  @media(min-width:800px){ .flashcards{grid-template-columns: repeat(3, 1fr)} }
+  .card3d{
+    perspective: 900px; cursor:pointer;
+  }
+  .card3d .inner{
+    position:relative; transform-style:preserve-3d; transition: transform .6s; border-radius:14px; border:1px solid rgba(255,255,255,.1);
+    background:linear-gradient(180deg, rgba(44,112,214,.18), rgba(126,87,194,.12));
+    min-height:150px; display:flex; align-items:center; justify-content:center; padding:14px;
+  }
+  .card3d.flipped .inner{ transform: rotateY(180deg); }
+  .card3d .front, .card3d .back{
+    position:absolute; inset:0; backface-visibility:hidden; display:flex; align-items:center; justify-content:center; text-align:center; padding:16px;
+  }
+  .card3d .back{ transform: rotateY(180deg); }
+
+  /* Quiz */
+  .quiz-item{padding:12px; border:1px solid rgba(255,255,255,.08); border-radius:12px; background: rgba(255,255,255,.03); margin:10px 0}
+  .quiz-item h4{margin:4px 0 10px}
+  .opt{display:block; margin:6px 0; padding:8px 10px; border-radius:10px; border:1px solid rgba(255,255,255,.1); cursor:pointer; background: rgba(0,0,0,.15)}
+  .opt.correct{border-color: rgba(46,204,113,.8); background: rgba(46,204,113,.14)}
+  .opt.wrong{border-color: rgba(255,107,107,.8); background: rgba(255,107,107,.14)}
+  .score{font-weight:700}
+
+  /* Footer tips */
+  footer{opacity:.8; font-size:12px; padding:24px; text-align:center;}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div class="float-emoji" aria-hidden="true" id="float">
+  <!-- emojis injected by JS -->
+</div>
+
+<div class="app">
+  <aside>
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <h1>EGT350 Vize Çalışma Defteri</h1>
+        <div class="tag">İnteraktif • Ahmet Çelen</div>
+      </div>
+    </div>
+    <nav id="nav">
+      <a href="#intro" class="active">Giriş & Strateji</a>
+      <a href="#elements">Temel Kavramlar & Öğeler</a>
+      <a href="#theory">Kuramsal Temeller (AĞIR)</a>
+      <a href="#process">PG Süreci</a>
+      <a href="#models">Modeller & Öncüler</a>
+      <a href="#turkey">Türkiye'de PG: MEB • TTKB</a>
+      <a href="#cheats">Ezber Kutuları</a>
+      <a href="#flash">Flashcard Oyunu</a>
+      <a href="#quiz">Mini Quiz</a>
+    </nav>
+  </aside>
+
+  <main>
+    <div class="topbar">
+      <div class="search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 21l-4.35-4.35m1.35-4.65a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <input id="search" placeholder="Bu sayfada ara (örn. Maslow, Tyler, PERT) — ⌘/Ctrl+F gibi" />
+      </div>
+      <div class="pill" id="theme">🌙 Koyu/Açık</div>
+      <div class="pill" id="reset">🔄 İlerlemeyi Sıfırla</div>
+    </div>
+
+    <!-- INTRO -->
+    <section id="intro">
+      <header><h2>Giriş & Çalışma Stratejisi</h2><span class="chip">vize odaklı</span></header>
+      <div class="content grid cols-2">
+        <div class="card">
+          <b>Bu defter nasıl çalışılır?</b>
+          <ul>
+            <li>Soldaki menüden sırayla git. Her bölüm açıldığında ilerlemen <span class="kbd">localStorage</span> ile kaydedilir.</li>
+            <li><b>Kuramsal Temeller</b> bölümü (felsefi & psikolojik) daha detaylıdır — sınavda yüksek ağırlık.</li>
+            <li>Her kutunun sağ üstünde <span class="kbd">✓</span> düğmesi var; tamamlayınca işaretle.</li>
+            <li>Altta “Flashcard Oyunu” ve “Mini Quiz” ile kendini test et.</li>
+          </ul>
+        </div>
+        <div class="callout">
+          <b>Altın Öneri:</b> Her başlık için <i>tanım → ayırt edici ilke → örnek → sınav cümlesi</i> üçlüsünü ezberle.
+          <div style="margin-top:8px">
+            <span class="chip">Tanım</span>
+            <span class="chip">İlke</span>
+            <span class="chip">Örnek</span>
+            <span class="chip">Sınav ipucu</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ELEMENTS -->
+    <section id="elements">
+      <header><h2>Temel Kavramlar & Öğeler</h2><span class="chip">Amaç–İçerik–Süreç–Değerlendirme</span></header>
+      <div class="content">
+        <div class="acc">
+          <div class="item">
+            <button><span>1) Eğitim Programının Öğeleri (NİÇİN–NE–NASIL–NE KADAR?)</span><span>▼</span></button>
+            <div class="panel">
+              <div class="grid cols-2" style="padding:12px">
+                <div class="card">
+                  <b>Öğeler</b>
+                  <ul>
+                    <li><b>Amaç/Hedefler</b> (NİÇİN)</li>
+                    <li><b>İçerik</b> (NE)</li>
+                    <li><b>Öğretim Süreçleri</b> (NASIL)</li>
+                    <li><b>Değerlendirme</b> (NE KADAR)</li>
+                  </ul>
+                  <small>Kılavuz: öğeler arası dinamik ilişkiyi kur; tutarlılık şart.</small>
+                </div>
+                <div class="card">
+                  <b>Program Geliştirme</b>
+                  <p>Alternatifler arasında seçim gerektiren, hiç bitmeyen, işbirliğine dayalı bir <i>Ar‑Ge</i> sürecidir.</p>
+                  <ul>
+                    <li>Planlama → Tasarım → Uygulama → Değerlendirme</li>
+                    <li>İhtiyaç analizi → hedefler → içerik → eğitim durumları → sınama</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button><span>2) Program – Öğretim – Ders Farkları</span><span>▼</span></button>
+            <div class="panel">
+              <div class="grid cols-3" style="padding:12px">
+                <div class="card"><b>Eğitim Programı</b><p>Bir sistemde hedef–içerik–süreç–değerlendirme bütünlüğü.</p></div>
+                <div class="card"><b>Öğretim Programı</b><p>Ders/alan bazında standartlar, kazanımlar ve uygulama kılavuzu.</p></div>
+                <div class="card"><b>Ders</b><p>Belirli sürede yürütülen öğretim etkinliği.</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button><span>3) İlkeler: Değişim, Sistem, Tutarlılık, İşlevsellik</span><span>▼</span></button>
+            <div class="panel">
+              <div class="content">
+                <div class="callout">“Eğitim programı zamanının ürünüdür; değişim kaçınılmazdır.”</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THEORY -->
+    <section id="theory">
+      <header><h2>Kuramsal Temeller (AĞIR)</h2><span class="chip">Felsefi • Psikolojik • Sosyolojik • Tarihi</span></header>
+      <div class="content">
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>Felsefi Temeller</h3>
+            <p>Felsefe, hedef seçiminden değerlendirmeye kadar <b>her öğeyi</b> etkiler. Program kararlarının başlangıç noktasıdır.</p>
+            <ul>
+              <li><b>İdealizm:</b> Değerler ve zihinsel yetiler öncelikli; klasik eserler.</li>
+              <li><b>Realizm:</b> Gözlem, deney ve nesnel gerçeklik; fen ve matematik vurgusu.</li>
+              <li><b>Pragmatizm:</b> Değişim ve deneyim; problem çözme, proje, işbirliği.</li>
+              <li><b>Varoluşçuluk:</b> Özgür seçim, bireysel sorumluluk; otantik öğrenme.</li>
+            </ul>
+            <div class="callout"><b>Eğitimde akımlar:</b> Daimicilik, Esasicilik, İlerlemecilik, Yeniden Kurmacılık.</div>
+          </div>
+
+          <div class="card">
+            <h3>Psikolojik Temeller</h3>
+            <ul>
+              <li><b>Davranışçılık:</b> Gözlenebilir hedefler, pekiştirme, davranış değişimi.</li>
+              <li><b>Bilişselcilik:</b> Şema, yapılandırma; Piaget aşamaları, Bruner temsil düzeyleri.</li>
+              <li><b>Hümanistik:</b> <b>Maslow</b> (ihtiyaçlar) ve <b>Rogers</b> (öğrenci merkezli, koşulsuz kabul).</li>
+              <li><b>Sosyal Öğrenme:</b> Gözlem yoluyla öğrenme, model alma (Bandura).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="acc" style="margin-top:12px">
+          <div class="item open">
+            <button><span>Maslow’un İhtiyaçlar Hiyerarşisi → Program Kararlarına Yansıması</span><span>▼</span></button>
+            <div class="panel">
+              <div class="grid cols-3" style="padding:12px">
+                <div class="card">
+                  <b>Basamaklar</b>
+                  <ol>
+                    <li>Fizyolojik</li>
+                    <li>Güvenlik</li>
+                    <li>Ait Olma/Sevgi</li>
+                    <li>Saygı (Özgüven)</li>
+                    <li>Kendini Gerçekleştirme</li>
+                  </ol>
+                </div>
+                <div class="card">
+                  <b>Program Tasarımında</b>
+                  <ul>
+                    <li><u>Hedefler:</u> Ön koşul ihtiyaçlar karşılanmadan üst düzey hedef beklenmez.</li>
+                    <li><u>İçerik & Süreç:</u> Aidiyet ve işbirliğini besleyen etkinlikler; öğrenci seçimi/sesi.</li>
+                    <li><u>Değerlendirme:</u> Öz-değerlendirme, yansıtma, bireysel ilerleme.</li>
+                  </ul>
+                </div>
+                <div class="card">
+                  <b>Örnekler</b>
+                  <ul>
+                    <li>Beslenme/kaynak erişimi, güvenli ortam → devamsızlık azalır.</li>
+                    <li>Takım projeleri, akran mentörlüğü → ait olma.</li>
+                    <li>Portfolyo, proje sunumu → saygı ve öz-yeterlik.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="content">
+                <div class="callout"><b>Sınav cümlesi:</b> “Maslow’a göre <i>alt düzey ihtiyaçlar karşılanmadan</i> üst düzey hedeflere (analiz/sentez) yönelik kazanımlar gerçekçi değildir; PG hedef- içerik-süreç kararı buna göre uyarlanır.”</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button><span>Felsefi Akımların Karşılaştırması (Kısa Ezber)</span><span>▼</span></button>
+            <div class="panel">
+              <div class="grid cols-4" style="padding:12px">
+                <div class="card"><b>Daimicilik</b><p>Değişmez evrenseller, beşeri bilimler, büyük kitaplar.</p></div>
+                <div class="card"><b>Esasicilik</b><p>Temel bilgi, disiplin, öğretmen otoritesi, soyut ve ezber.</p></div>
+                <div class="card"><b>İlerlemecilik</b><p>Deneyim, problem çözme, yaşamın kendisi.</p></div>
+                <div class="card"><b>Yeniden Kurmacılık</b><p>Toplumu dönüştürme, eleştirel pedagoji, sosyal adalet.</p></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <button><span>Tarihsel Akış (M.Ö. → Modern)</span><span>▼</span></button>
+            <div class="panel">
+              <div class="content">
+                <ul>
+                  <li>Comenius → modern didaktik temeller</li>
+                  <li>Bobbit & Charters → hedefler ve ihtiyaç analizi</li>
+                  <li>Tyler → amaç‑içerik‑yaşantı‑değerlendirme tutarlılığı</li>
+                  <li>Taba → öğretmen merkezli, tümevarımcı geliştirme</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section id="process">
+      <header><h2>Program Geliştirme Süreci</h2><span class="chip">Planlama → Tasarım → Uygulama → Değerlendirme</span></header>
+      <div class="content grid cols-2">
+        <div class="card">
+          <b>Planlama</b>
+          <ul>
+            <li>Çalışma grupları (KKG, PG, DG)</li>
+            <li>Çalışma planı (kim-ne-zaman-nerede-nasıl)</li>
+            <li>İhtiyaç analizi (olması gereken − mevcut = ihtiyaç)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <b>Tasarım</b>
+          <ul>
+            <li>Hedefler → İçerik → Eğitim durumları → Sınama durumları</li>
+            <li>Tutarlılık ve ölçülebilirlik</li>
+          </ul>
+        </div>
+        <div class="card">
+          <b>Uygulama</b>
+          <ul>
+            <li>Pilot → dönüt → revizyon</li>
+            <li>Kaynak ve zaman yönetimi</li>
+          </ul>
+        </div>
+        <div class="card">
+          <b>Değerlendirme</b>
+          <ul>
+            <li>Program değerlendirme komisyonu</li>
+            <li>Veriye dayalı iyileştirme, güncelleme</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODELS -->
+    <section id="models">
+      <header><h2>Modeller & Öncüler</h2><span class="chip">Tyler • Taba • Bobbitt • Charters • Dewey</span></header>
+      <div class="content grid cols-2">
+        <div class="card">
+          <b>Tyler Modeli</b>
+          <ul>
+            <li>Hedefler: öğrenci, toplum, konu alanı kaynaklı</li>
+            <li>Ölçülebilir davranışlar</li>
+            <li>Öğretim yaşantısı – hedef uygunluğu</li>
+            <li>Değerlendirme ile tutarlılık</li>
+          </ul>
+        </div>
+        <div class="card">
+          <b>Taba Modeli</b>
+          <ul>
+            <li>Öğretmen merkezli, sınıftan başlar (tümevarım)</li>
+            <li>İhtiyaç → amaç → içerik → öğrenme yaşantıları → değerlendirme</li>
+          </ul>
+        </div>
+        <div class="card">
+          <b>Bobbitt & Charters</b>
+          <p>Davranış değişimi, görev analizi, toplumsal ihtiyaçlar, hedef kavramı.</p>
+        </div>
+        <div class="card">
+          <b>Dewey</b>
+          <p>Okul yaşamın kendisidir; deneyim merkezli, laboratuvar okulu mirası.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TURKEY -->
+    <section id="turkey">
+      <header><h2>Türkiye'de Program Geliştirme</h2><span class="chip">MEB • TTKB • Daire Başkanlıkları</span></header>
+      <div class="content grid cols-2">
+        <div class="card">
+          <b>Kurumsal Yapı</b>
+          <ul>
+            <li>TTKB: öğretim programlarının onayı ve koordinasyonu</li>
+            <li>Daire başkanlıkları: Temel Eğitim & Ortaöğretim Programları</li>
+            <li>Görevler: program hazırlama, güncelleme, materyal standartları</li>
+          </ul>
+        </div>
+        <div class="card">
+          <b>Çalışma Grupları</b>
+          <ul>
+            <li><b>KKG:</b> Üst düzey karar, kapsam-bütçe-takvim</li>
+            <li><b>PG:</b> Planlama, uygulama, izleme, revizyon</li>
+            <li><b>DG:</b> Uzman danışmanlık (felsefe, sosyoloji, psikoloji…)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHEATS -->
+    <section id="cheats">
+      <header><h2>Ezber Kutuları</h2><span class="chip">boşluk doldurma kurtarıcı</span></header>
+      <div class="content grid cols-3">
+        <div class="card">
+          <b>Tanım (PG)</b>
+          <p>Hedef‑içerik‑süreç‑değerlendirme öğeleri arasındaki dinamik ilişkiler bütününü geliştiren, planlama‑tasarım‑uygulama‑değerlendirme döngüsüne dayalı Ar‑Ge süreci.</p>
+        </div>
+        <div class="card">
+          <b>Öğeler</b>
+          <p>Amaç/Hedef – İçerik – Öğretim Süreci – Değerlendirme.</p>
+        </div>
+        <div class="card">
+          <b>Tyler</b>
+          <p>Hedefler üç kaynak: öğrenci, toplum, konu alanı; ölçülebilirlik ve tutarlılık.</p>
+        </div>
+        <div class="card">
+          <b>Taba</b>
+          <p>Öğretmen merkezli, sınıftan başlar; tümevarım.</p>
+        </div>
+        <div class="card">
+          <b>Maslow</b>
+          <p>Alt düzey ihtiyaçlar karşılanmadan üst düzey hedefler gerçekçi değildir.</p>
+        </div>
+        <div class="card">
+          <b>İlerlemecilik</b>
+          <p>Pragmatizm; yaşamın kendisi, problem çözme ve işbirliği.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLASHCARDS -->
+    <section id="flash">
+      <header><h2>Flashcard Oyunu</h2><span class="chip">tıkla/çevir</span></header>
+      <div class="content flashcards" id="cards">
+        <!-- cards injected by JS -->
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz">
+      <header><h2>Mini Quiz</h2><span class="chip">10 soru</span></header>
+      <div class="content" id="quizBox"></div>
+      <div class="content">
+        <button class="pill" id="submitQuiz">Sonuçları Göster</button>
+        <span class="score" id="score"></span>
+      </div>
+    </section>
+
+    <footer>
+      Bu dosya yerel olarak çalışır. İlerlemen tarayıcıda saklanır. Tasarım: ACM moru.
+    </footer>
+  </main>
+</div>
+
+<script>
+  // THEME
+  const themeBtn = document.getElementById('theme');
+  const resetBtn = document.getElementById('reset');
+  themeBtn.onclick = ()=>{
+    const dark = document.documentElement.dataset.theme !== 'light';
+    if(dark){
+      document.documentElement.dataset.theme = 'light';
+      document.documentElement.style.setProperty('--bg', '#f5f7ff');
+      document.documentElement.style.setProperty('--panel', '#ffffff');
+      document.documentElement.style.setProperty('--panel-2', '#eef2ff');
+      document.documentElement.style.setProperty('--text', '#0a0f2a');
+      document.documentElement.style.setProperty('--muted', '#44518a');
+    }else{
+      document.documentElement.dataset.theme = 'dark';
+      document.documentElement.style.cssText = '';
+    }
+    localStorage.setItem('egt350-theme', document.documentElement.dataset.theme || 'dark');
+  }
+  // load theme
+  const savedTheme = localStorage.getItem('egt350-theme');
+  if(savedTheme==='light'){ themeBtn.click(); }
+
+  // NAV
+  const links = document.querySelectorAll('nav a');
+  function setActive(){
+    links.forEach(a=> a.classList.toggle('active', a.hash === location.hash));
+    localStorage.setItem('egt350-last', location.hash || '#intro');
+  }
+  links.forEach(a=> a.onclick = setActive);
+  window.addEventListener('hashchange', setActive);
+  if(location.hash===''){ location.hash = localStorage.getItem('egt350-last') || '#intro'; }
+  setActive();
+
+  // SEARCH (simple client filter highlight)
+  const search = document.getElementById('search');
+  search.addEventListener('input', ()=>{
+    const q = search.value.toLowerCase();
+    document.querySelectorAll('section').forEach(sec=>{
+      if(!q){ sec.style.outline='none'; return; }
+      const hit = sec.textContent.toLowerCase().includes(q);
+      sec.style.outline = hit ? '2px solid rgba(126,87,194,.6)' : 'none';
+    });
+  });
+
+  // Accordion open/close + checkmarks
+  document.querySelectorAll('.acc .item button').forEach((btn,i)=>{
+    btn.addEventListener('click', e=>{
+      const it = btn.closest('.item');
+      it.classList.toggle('open');
+    });
+  });
+
+  // Flashcards data
+  const flashData = [
+    {q:'Program Geliştirme tanımı', a:'Hedef‑içerik‑süreç‑değerlendirme arasındaki dinamik ilişkileri geliştiren, planlama‑tasarım‑uygulama‑değerlendirme döngüsüne dayalı Ar‑Ge süreci.'},
+    {q:'Öğeler (4)', a:'Amaç/Hedef – İçerik – Öğretim Süreci – Değerlendirme.'},
+    {q:'Tyler modelinin 3 hedef kaynağı', a:'Öğrenci – Toplum – Konu alanı.'},
+    {q:'Taba yaklaşımı', a:'Öğretmen merkezli, sınıftan başlar, tümevarım.'},
+    {q:'Maslow basamakları', a:'Fizyolojik, Güvenlik, Ait olma, Saygı, Kendini gerçekleştirme.'},
+    {q:'İlerlemecilik', a:'Pragmatizm; deneyim, problem çözme, işbirliği, okul yaşamın kendisi.'},
+    {q:'Esasicilik', a:'Temel bilgi, disiplin, öğretmen merkezli, soyut ve ezber.'},
+    {q:'Yeniden Kurmacılık', a:'Toplumu dönüştürme, sosyal adalet, eleştirel pedagoji.'},
+    {q:'İhtiyaç analizi formülü', a:'Olması gereken − mevcut = ihtiyaç.'},
+    {q:'KKG – PG – DG', a:'Karar & Koordinasyon; Program Geliştirme; Danışma grubu.'}
+  ];
+  const cards = document.getElementById('cards');
+  flashData.forEach((f,idx)=>{
+    const el = document.createElement('div');
+    el.className='card3d';
+    el.innerHTML = `<div class="inner"><div class="front"><b>${f.q}</b></div><div class="back">${f.a}</div></div>`;
+    el.onclick = ()=> el.classList.toggle('flipped');
+    cards.appendChild(el);
+  });
+
+  // QUIZ
+  const quiz = [
+    {t:'Aşağıdakilerden hangisi Tyler modelinde hedeflerin kaynaklarından <b>değildir</b>?',
+     o:['Öğrenci','Toplum','Konu alanı','Bütçe'],
+     a:3},
+    {t:'Maslow’a göre üst düzey hedefler için ön koşul nedir?',
+     o:['Davranışçı pekiştirme','Alt düzey ihtiyaçların karşılanması','Sınav başarısı','Soyut içerik'],
+     a:1},
+    {t:'Taba yaklaşımının çıkış noktası nedir?',
+     o:['Bakanlık düzenlemeleri','Sınıf uygulamaları/öğretmen deneyimi','Uluslararası standartlar','Sınav sonuçları'],
+     a:1},
+    {t:'“Okul yaşamın kendisidir” görüşü en çok hangi akımla ilişkilidir?',
+     o:['Esasicilik','İlerlemecilik','Daimicilik','Varoluşçuluk'],
+     a:1},
+    {t:'İhtiyaç analizi hangi farkı ölçer?',
+     o:['Öğretmen-öğrenci','Planlanan-uygulanan','Olması gereken – mevcut','Bireysel – toplumsal'],
+     a:2},
+    {t:'Esasicilikte öğretim rolü daha çok …',
+     o:['Öğrencide','Ailede','Öğretmende','Toplumda'],
+     a:2},
+    {t:'PG sürecinde sıralama aşağıdakilerin hangisidir?',
+     o:['Tasarım → Planlama → Değerlendirme → Uygulama',
+        'Planlama → Tasarım → Uygulama → Değerlendirme',
+        'Planlama → Uygulama → Tasarım → Değerlendirme',
+        'Değerlendirme → Planlama → Tasarım → Uygulama'],
+     a:1},
+    {t:'Bandura’nın vurguladığı öğrenme türü:',
+     o:['Keşfetme','Gözlem yoluyla öğrenme','Deneme-yanılma','Edimsel koşullanma'],
+     a:1},
+    {t:'KKG’nin temel rolü nedir?',
+     o:['Pilot uygulama yapmak','Üst düzey karar ve onay','Ders kitabı yazmak','Okul aile birliğiyle görüşmek'],
+     a:1},
+    {t:'Dewey’in yaklaşımı en çok hangi özelliği vurgular?',
+     o:['Ezber ve tekrar','Büyük kitaplar','Deneyim ve problem çözme','Soyut düşünme'],
+     a:2}
+  ];
+  const box = document.getElementById('quizBox');
+  quiz.forEach((q,i)=>{
+    const wrap = document.createElement('div');
+    wrap.className='quiz-item';
+    wrap.innerHTML = `<h4>${i+1}. ${q.t}</h4>` + q.o.map((opt,idx)=>`<label class="opt"><input type="radio" name="q${i}" value="${idx}"> ${opt}</label>`).join('');
+    box.appendChild(wrap);
+  });
+
+  document.getElementById('submitQuiz').onclick = ()=>{
+    let correct=0;
+    quiz.forEach((q,i)=>{
+      const selected = document.querySelector(`input[name="q${i}"]:checked`);
+      const labels = document.querySelectorAll(`input[name="q${i}"]`).forEach((inp,idx)=>{
+        const parent = inp.closest('label');
+        parent.classList.remove('correct','wrong');
+        if(Number(inp.value)===q.a) parent.classList.add('correct');
+        if(selected && inp===selected && Number(inp.value)!==q.a) parent.classList.add('wrong');
+      });
+      if(selected && Number(selected.value)===q.a) correct++;
+    });
+    const score = document.getElementById('score');
+    score.textContent = `Skor: ${correct}/${quiz.length} — ${Math.round(correct/quiz.length*100)}%`;
+  };
+
+  // Floating emojis
+  const ems = ['🧬','🧪','🧠','📚','📐','🔬','🧲','⚙️','🔭','🧮'];
+  const float = document.getElementById('float');
+  for(let i=0;i<40;i++){
+    const s=document.createElement('span');
+    s.textContent = ems[Math.floor(Math.random()*ems.length)];
+    s.style.left = Math.random()*100+'vw';
+    s.style.setProperty('--sx', Math.random()*100+'vw');
+    s.style.setProperty('--dx', (Math.random()*60-30)+'vw');
+    s.style.animationDuration = (20+Math.random()*30)+'s';
+    s.style.animationDelay = (-Math.random()*30)+'s';
+    float.appendChild(s);
+  }
+
+  // Reset
+  resetBtn.onclick = ()=>{
+    localStorage.clear();
+    alert('İlerleme verilerin temizlendi. Sayfa yenileniyor.');
+    location.reload();
+  };
+</script>
+</body>
+</html>

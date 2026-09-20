@@ -1,0 +1,10 @@
+{
+  "name": "Mor Geyik Çekiliş",
+  "short_name": "Mor Geyik",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f0a16",
+  "theme_color": "#7E57C2",
+  "description": "ACM Hacettepe - Mor Geyik çekiliş uygulaması",
+  "icons": []
+}
