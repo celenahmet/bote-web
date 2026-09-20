@@ -3,59 +3,238 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/index-2.html", "destination": "/", "permanent": true },
-    { "source": "/index1.html", "destination": "/", "permanent": true },
-    { "source": "/about.html", "destination": "/about", "permanent": true },
-    { "source": "/contact.html", "destination": "/contact", "permanent": true },
-    { "source": "/contact-2.html", "destination": "/contact", "permanent": true },
-    { "source": "/faq.html", "destination": "/faq", "permanent": true },
-    { "source": "/team.html", "destination": "/crew", "permanent": true },
-    { "source": "/team-detail.html", "destination": "/crew", "permanent": true },
-    { "source": "/course-detail.html", "destination": "/curriculum", "permanent": true },
-    { "source": "/feature-course.html", "destination": "/curriculum", "permanent": true },
-    { "source": "/career.html", "destination": "/jobtitle", "permanent": true },
-    { "source": "/career-detail.html", "destination": "/jobtitle", "permanent": true },
-    { "source": "/gallery.html", "destination": "/media", "permanent": true },
-    { "source": "/blog-archive.html", "destination": "/", "permanent": true },
-    { "source": "/single-blog.html", "destination": "/", "permanent": true },
-    { "source": "/single-post.html", "destination": "/", "permanent": true },
-    { "source": "/single-page.html", "destination": "/", "permanent": true },
-    { "source": "/categories.html", "destination": "/", "permanent": true },
-    { "source": "/search.html", "destination": "/", "permanent": true },
-    { "source": "/comming-soon.html", "destination": "/", "permanent": true },
-    { "source": "/legal-notice.html", "destination": "/", "permanent": true },
-    { "source": "/facility.html", "destination": "/", "permanent": true },
-    { "source": "/testimonial.html", "destination": "/", "permanent": true },
-    { "source": "/product-:path*", "destination": "/", "permanent": true },
-    { "source": "/ceit/:path*", "destination": "/", "permanent": true },
-    { "source": "/en/index.html", "destination": "/en", "permanent": true },
-    { "source": "/error/404", "destination": "/404", "permanent": false },
-    { "source": "/blog", "destination": "/", "permanent": false },
-    { "source": "/blog/:path*", "destination": "/", "permanent": false }
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index-2.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index1.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/contact-2.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/faq.html",
+      "destination": "/faq",
+      "permanent": true
+    },
+    {
+      "source": "/team.html",
+      "destination": "/crew",
+      "permanent": true
+    },
+    {
+      "source": "/team-detail.html",
+      "destination": "/crew",
+      "permanent": true
+    },
+    {
+      "source": "/course-detail.html",
+      "destination": "/curriculum",
+      "permanent": true
+    },
+    {
+      "source": "/feature-course.html",
+      "destination": "/curriculum",
+      "permanent": true
+    },
+    {
+      "source": "/career.html",
+      "destination": "/jobtitle",
+      "permanent": true
+    },
+    {
+      "source": "/career-detail.html",
+      "destination": "/jobtitle",
+      "permanent": true
+    },
+    {
+      "source": "/gallery.html",
+      "destination": "/media",
+      "permanent": true
+    },
+    {
+      "source": "/blog-archive.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/single-blog.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/single-post.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/single-page.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/categories.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/search.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/comming-soon.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/legal-notice.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/facility.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/testimonial.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/ceit/:path*",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/en/index.html",
+      "destination": "/en",
+      "permanent": true
+    },
+    {
+      "source": "/error/404",
+      "destination": "/404",
+      "permanent": false
+    },
+    {
+      "source": "/blog",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/blog/:path*",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/product-archive.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product-cart.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product-checkout.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product-detail.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/product-right.html",
+      "destination": "/",
+      "permanent": true
+    }
   ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()" },
-        { "key": "Cross-Origin-Opener-Policy", "value": "same-origin-allow-popups" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin-allow-popups"
+        }
       ]
     },
     {
       "source": "/assets/vendors/(.*)",
-      "headers": [ { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" } ]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     },
     {
       "source": "/assets/(img|images|fonts)/(.*)",
-      "headers": [ { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" } ]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
     },
     {
-      "source": "/(style.css|assets/js/(.*))",
-      "headers": [ { "key": "Cache-Control", "value": "public, max-age=3600, stale-while-revalidate=86400" } ]
+      "source": "/style.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/assets/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
     }
   ]
 }
