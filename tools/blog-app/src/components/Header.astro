@@ -1,0 +1,31 @@
+---
+import SearchPalette from '../islands/SearchPalette.jsx';
+import ThemeToggle from '../islands/ThemeToggle.jsx';
+import ReadingProgress from '../islands/ReadingProgress.jsx';
+import { loadBlog } from '../lib.js';
+const { progress = false, current = '' } = Astro.props;
+const blog = loadBlog();
+const cats = blog.categories.filter((c) => c.count);
+---
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="/blog" aria-label="BÖTE Blog ana sayfası"><span class="brand-mark">BÖTE<b>.</b></span><span class="brand-sub">blog</span></a>
+    <nav class="topnav" aria-label="Blog kategorileri">
+      <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}>Tüm yazılar</a>
+      {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}>{c.name}</a>)}
+    </nav>
+    <div class="top-actions">
+      <SearchPalette client:idle />
+      <ThemeToggle client:idle />
+      <a class="to-site" href="/">bote.web.tr ↗</a>
+    </div>
+  </div>
+  {progress && <ReadingProgress client:idle target=".prose" />}
+</header>
+{cats.length > 0 && (
+  <nav class="chipbar" aria-label="Kategoriler (mobil)">
+    <a href="/blog">Tümü</a>
+    {cats.map((c) => <a href={c.url}>{c.name}</a>)}
+    <a href="/">Ana site</a>
+  </nav>
+)}

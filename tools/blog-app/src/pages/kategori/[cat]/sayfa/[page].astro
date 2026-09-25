@@ -1,0 +1,14 @@
+---
+import ListPage from '../../../../components/ListPage.astro';
+import { categoryProps, pageCount } from '../../../_list.js';
+import { loadBlog } from '../../../../lib.js';
+export function getStaticPaths() {
+  const blog = loadBlog();
+  return blog.categories.filter((c) => c.count).flatMap((c) => {
+    const n = pageCount(c.count);
+    return Array.from({ length: Math.max(0, n - 1) }, (_, i) => ({ params: { cat: c.slug, page: String(i + 2) } }));
+  });
+}
+const { cat, page } = Astro.params;
+---
+<ListPage {...categoryProps(cat, Number(page))} />

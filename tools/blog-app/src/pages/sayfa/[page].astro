@@ -1,0 +1,11 @@
+---
+import ListPage from '../../components/ListPage.astro';
+import { blogIndexProps, pageCount } from '../_list.js';
+import { loadBlog } from '../../lib.js';
+export function getStaticPaths() {
+  const n = pageCount(loadBlog().indexList.length);
+  return Array.from({ length: Math.max(0, n - 1) }, (_, i) => ({ params: { page: String(i + 2) } }));
+}
+const { page } = Astro.params;
+---
+<ListPage {...blogIndexProps(Number(page))} />

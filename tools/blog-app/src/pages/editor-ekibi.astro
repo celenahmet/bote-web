@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Widgets from '../components/Widgets.astro';
+import { loadBlog, teamLd, orgLd, breadcrumbLd } from '../lib.js';
+const blog = loadBlog();
+const { author } = blog;
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: author.name, url: author.url }];
+const ld = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'AboutPage', '@id': `${blog.abs(author.url)}#sayfa`, url: blog.abs(author.url), name: `${author.name} ve Yayın İlkeleri`, inLanguage: 'tr-TR', mainEntity: { '@id': author.id }, isPartOf: { '@id': `${blog.SITE}/blog#blog` } },
+  teamLd(blog), orgLd(blog), breadcrumbLd(blog, trail),
+] };
+---
+<Base title={`${author.name} ve Yayın İlkeleri | BÖTE Blog`} description="BÖTE Blog yazılarını hazırlayan editör ekibi, kaynak ve doğrulama ilkeleri, düzeltme politikası, reklam ve gizlilik yaklaşımı."
+  path={author.url} image={blog.blogImage} ld={ld}>
+  <section class="wrap index-head">
+    <Crumbs items={trail} />
+    <h1>{author.name}</h1>
+    <p class="dek">BÖTE Blog yazılarını kimin, nasıl hazırladığını ve hangi ilkelere bağlı kaldığımızı açıklıyoruz.</p>
+  </section>
+  <div class="wrap index-grid">
+    <div class="page-prose">
+      <h2>Biz kimiz?</h2>
+      <p>{author.name}, bote.web.tr'deki blog içeriklerini hazırlayan, kaynaklarını doğrulayan ve güncel tutan ekiptir. Sitenin kurucusu ve ekip üyeleri <a href="/crew">Ekibimiz</a> sayfasında yer alır.</p>
+      <h2>Ne yazıyoruz?</h2>
+      <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmen yetiştirme ve eğitim teknolojileri üzerine; aday öğrencilere, öğrencilere, mezunlara ve velilere yol gösteren rehber yazılar yayımlıyoruz.</p>
+      <h2>Kaynak ilkemiz</h2>
+      <ul>
+        <li>Her yazı <strong>en az iki uluslararası (yabancı) kaynağa</strong> dayanır.</li>
+        <li>Mümkün olduğunca birincil kaynak kullanırız: YÖK, MEB ve ÖSYM gibi resmî kurumların belgeleri; UNESCO, OECD ve Avrupa Komisyonu gibi uluslararası kuruluşların raporları; hakemli akademik yayınlar.</li>
+        <li>Türk akademisyenlerin tanım ve çalışmalarına da yer veririz.</li>
+        <li>Metindeki her önemli bilgi numaralı bir kaynağa bağlanır. Kaynakça, kaynağa son erişim tarihiyle birlikte yazının sonunda yer alır; geniş ekranlarda kaynak, metnin yanında kenar notu olarak da görünür.</li>
+      </ul>
+      <h2>Doğrulama ve denge</h2>
+      <p>Yazılar yayından önce kaynaklarıyla birlikte okunur ve doğrulanır; doğrulanamayan bilgi yayımlanmaz. Tartışmalı konularda farklı görüşlere yer verir, bölümleri ya da kurumları reklam diliyle anlatmayız.</p>
+      <h2>Güncelleme ve düzeltme</h2>
+      <p>Yazılar düzenli olarak gözden geçirilir; son güncelleme tarihi yazının başında gösterilir. Bir hata görürseniz <a href="/contact">İletişim</a> sayfasından bildirebilirsiniz; düzeltmeleri yazıya işleriz.</p>
+      <h2>Yapay zekâ kullanımı</h2>
+      <p>Taslak hazırlarken yapay zekâ destekli araçlardan yararlanabiliriz. Her yazı yayından önce editör tarafından kaynaklarıyla birlikte okunur, doğrulanır ve onaylanır.</p>
+      <h2>Reklam ve bağımsızlık</h2>
+      <p>Reklam alanları “Reklam” etiketiyle gösterilir ve yazı içeriğini etkilemez. Sponsorlu bağlantılar arama motorları için <code>rel="sponsored"</code> ile işaretlenir.</p>
+      <h2>Gizlilik</h2>
+      <p>Görüntülenme sayacı çerez kullanmaz ve IP adresi saklamaz; tekrar sayımı önlemek için kısa süreli (30 dakika) anonim bir özet tutulur. “Son okuduğun yazılar” listesi ve tema tercihi yalnızca kendi tarayıcınızda saklanır.</p>
+    </div>
+    <Widgets mode="sidebar" />
+  </div>
+</Base>

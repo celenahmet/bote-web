@@ -1,0 +1,40 @@
+---
+import { loadBlog, NAV_MAIN } from '../lib.js';
+const blog = loadBlog();
+const cats = blog.categories.filter((c) => c.count);
+---
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <section>
+        <h2>BÖTE Blog</h2>
+        <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış yazılar. Her yazı en az iki uluslararası kaynağa dayanır.</p>
+      </section>
+      <section>
+        <h2>Bölüm</h2>
+        <ul>{NAV_MAIN.map(([t, h]) => <li><a href={h}>{t}</a></li>)}</ul>
+      </section>
+      <section>
+        <h2>Blog</h2>
+        <ul>
+          <li><a href="/blog">Tüm yazılar</a></li>
+          {cats.map((c) => <li><a href={c.url}>{c.name}</a></li>)}
+          <li><a href={blog.author.url}>Editör Ekibi ve Yayın İlkeleri</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Makineler için</h2>
+        <ul>
+          <li><a href="/blog/feed.xml">RSS beslemesi</a></li>
+          <li><a href="/blog/feed.json">JSON Feed</a></li>
+          <li><a href="/llms.txt">llms.txt (yapay zekâ özeti)</a></li>
+          <li><a href="/sitemap.xml">Site haritası (XML)</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="foot-bottom">
+      <span>© {blog.newest.slice(0, 4)} BÖTE · bote.web.tr</span>
+      <span><a href="/about">Hakkımızda</a> · <a href="/contact">İletişim</a> · <a href="/en" hreflang="en" lang="en">English</a></span>
+    </div>
+  </div>
+</footer>

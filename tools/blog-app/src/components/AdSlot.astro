@@ -1,0 +1,26 @@
+---
+import { loadBlog } from '../lib.js';
+const { slot } = Astro.props;
+const ads = loadBlog().cfg.ads;
+const client = ads.adsense.client;
+const slotId = ads.adsense.slots?.[slot];
+const house = (ads.house || []).find((h) => (h.slots || []).includes(slot));
+---
+{client && slotId ? (
+  <aside class="ad" data-ad-slot={slot} aria-label="Reklam">
+    <span class="ad-label">Reklam</span>
+    <ins class="adsbygoogle" style="display:block" data-ad-client={client} data-ad-slot={slotId} data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </aside>
+) : house ? (
+  <aside class="ad" data-ad-slot={slot} aria-label="Reklam">
+    <span class="ad-label">Reklam</span>
+    <div class="ad-card">
+      <span class="ad-brand">{house.brand}</span>
+      <p class="ad-title">{house.title}</p>
+      <p class="ad-text">{house.text}</p>
+      <a class="ad-cta" href={house.url} rel="sponsored noopener" target="_blank">{house.cta}</a>
+      {house.stores?.length > 0 && <div class="ad-stores">{house.stores.map((s) => <a href={s.url} rel="sponsored noopener" target="_blank">{s.name}</a>)}</div>}
+    </div>
+  </aside>
+) : null}

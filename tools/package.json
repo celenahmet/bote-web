@@ -8,13 +8,19 @@
     "serve": "node serve.mjs",
     "test": "node build-blog.mjs --check && node check-site.mjs",
     "lighthouse": "node lighthouse.mjs",
-    "preview": "node preview-drafts.mjs"
+    "preview": "node preview-drafts.mjs",
+    "dev": "astro dev --root blog-app"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
+    "@astrojs/react": "^7.0.0",
+    "@fontsource-variable/bricolage-grotesque": "^5.3.0",
+    "@fontsource-variable/jetbrains-mono": "^5.3.0",
+    "@fontsource-variable/literata": "^5.3.0",
     "@fontsource/poppins": "^5.3.0",
+    "astro": "^7.3.5",
     "chrome-launcher": "^1.2.1",
     "fast-xml-parser": "^5.11.1",
     "ignore": "^7.0.10",
@@ -22,6 +28,8 @@
     "marked": "^18.0.14",
     "node-html-parser": "^7.1.0",
     "puppeteer-core": "^25.12.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "robots-parser": "^3.0.1",
     "yaml": "^2.9.1"
   }

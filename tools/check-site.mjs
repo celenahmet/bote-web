@@ -20,7 +20,7 @@ async function get(pathOrUrl, opts = {}) {
   const key = `${opts.method || 'GET'} ${url} ${opts.ua || ''}`;
   if (!opts.body && cache.has(key)) return cache.get(key);
   const res = await fetch(url, { redirect: 'manual', method: opts.method || 'GET', body: opts.body,
-    headers: { 'user-agent': opts.ua || 'Mozilla/5.0 bote-check', ...(opts.body ? { 'content-type': 'application/json' } : {}) } });
+    headers: { 'user-agent': opts.ua || 'Mozilla/5.0 (X11; Linux x86_64) site-denetimi', ...(opts.body ? { 'content-type': 'application/json' } : {}) } });
   const out = { status: res.status, location: res.headers.get('location'), type: res.headers.get('content-type') || '', text: await res.text() };
   if (!opts.body) cache.set(key, out);
   return out;

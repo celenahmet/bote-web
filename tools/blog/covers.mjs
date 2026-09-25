@@ -1,72 +1,125 @@
-// Yazi kapak/paylasim gorselleri (1200x630 JPEG). Bir kez uretilir ve
-// content/blog/covers/ altinda saklanir; yeniden uretmek icin dosyayi silin
-// ya da `npm run build -- --covers` kullanin.
+// Yazi gorselleri; bir kez uretilip content/blog/covers/ altinda saklanir:
+//   <slug>.jpg      1200x630 paylasim gorseli (baslik + kaynak seridi), og:image ve JSON-LD icin
+//   <slug>-art.jpg  1200x400 sayfa gorseli (basliksiz "kaynak takimyildizi"), yazi ve kartlarda
+// Yeniden uretmek icin dosyayi silin ya da `npm run build -- --covers` kullanin.
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { esc } from './util.mjs';
 
 function findChrome() {
   if (process.env.CHROME_PATH) return process.env.CHROME_PATH;
-  const cands = [
+  return [
     '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
     '/usr/bin/google-chrome', '/usr/bin/chromium', '/usr/bin/chromium-browser',
     '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
     'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
-  ];
-  return cands.find((c) => fs.existsSync(c));
+  ].find((c) => fs.existsSync(c));
 }
 
-function coverHtml({ title, label, fontDir, icon }) {
-  const f = (w, sub) => `url("file://${fontDir}/poppins-${sub}-${w}-normal.woff2")`;
-  const faces = [400, 600, 700]
-    .flatMap((w) => ['latin', 'latin-ext'].map((s) => `@font-face{font-family:P;font-weight:${w};src:${f(w, s)}}`))
-    .join('');
-  const size = title.length > 70 ? 54 : title.length > 45 ? 62 : 70;
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${faces}
+function fontFaces(fontDir) {
+  const f = (name) => `url("file://${name.startsWith('jetbrains') ? path.join(fontDir, '../../../node_modules/@fontsource-variable/jetbrains-mono/files') : fontDir}/${name}")`;
+  return `@font-face{font-family:B;font-weight:200 800;src:${f('bricolage-grotesque-latin-wght-normal.woff2')};unicode-range:U+0000-00FF,U+0131,U+2000-206F}
+@font-face{font-family:B;font-weight:200 800;src:${f('bricolage-grotesque-latin-ext-wght-normal.woff2')};unicode-range:U+0100-02BA,U+02BD-02C5,U+1E00-1EFF}
+@font-face{font-family:M;font-weight:100 800;src:${f('jetbrains-mono-latin-wght-normal.woff2')};unicode-range:U+0000-00FF,U+0131,U+2000-206F}
+@font-face{font-family:M;font-weight:100 800;src:${f('jetbrains-mono-latin-ext-wght-normal.woff2')};unicode-range:U+0100-02BA,U+02BD-02C5,U+1E00-1EFF}`;
+}
+
+const BG = `background:radial-gradient(80% 120% at 100% 0%,rgba(185,161,255,.28),transparent 55%),radial-gradient(70% 110% at 0% 100%,rgba(255,126,173,.30),transparent 55%),#140E1F`;
+
+// Yaziya ozgu, tekrarlanabilir yerlesim (slug'dan turetilen sozde rastgele sayilar)
+function rng(seed) {
+  let h = crypto.createHash('sha256').update(seed).digest();
+  let i = 0;
+  return () => {
+    if (i >= h.length - 4) { h = crypto.createHash('sha256').update(h).digest(); i = 0; }
+    const v = h.readUInt32BE(i) / 0xffffffff;
+    i += 4;
+    return v;
+  };
+}
+
+function constellation({ slug, langs, w, h, cx, cy, spread }) {
+  const r = rng(slug);
+  const nodes = langs.map((lang, i) => {
+    const a = (i / langs.length) * Math.PI * 2 + r() * 0.6;
+    const d = spread * (0.55 + r() * 0.45);
+    return { x: cx + Math.cos(a) * d * 1.9, y: cy + Math.sin(a) * d, lang, n: i + 1 };
+  }).map((p) => ({ ...p, x: Math.max(40, Math.min(w - 40, p.x)), y: Math.max(36, Math.min(h - 36, p.y)) }));
+  const dust = Array.from({ length: 70 }, () => ({ x: r() * w, y: r() * h, s: 0.6 + r() * 1.6, o: 0.15 + r() * 0.35 }));
+  const color = (l) => (l === 'tr' ? '#F2B266' : '#5ED3BE');
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0">
+  ${dust.map((d) => `<circle cx="${d.x.toFixed(1)}" cy="${d.y.toFixed(1)}" r="${d.s.toFixed(2)}" fill="#fff" opacity="${d.o.toFixed(2)}"/>`).join('')}
+  ${nodes.map((p) => `<line x1="${cx}" y1="${cy}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="${color(p.lang)}" stroke-opacity=".45" stroke-width="1.2"/>`).join('')}
+  <circle cx="${cx}" cy="${cy}" r="30" fill="none" stroke="#FF7EAD" stroke-opacity=".35" stroke-width="10"/>
+  <circle cx="${cx}" cy="${cy}" r="11" fill="#FF7EAD"/>
+  ${nodes.map((p) => `<g><circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="7" fill="${color(p.lang)}"/><text x="${(p.x + 13).toFixed(1)}" y="${(p.y + 4).toFixed(1)}" font-family="M" font-size="13" font-weight="600" fill="${color(p.lang)}">[${p.n}] ${p.lang.toUpperCase()}</text></g>`).join('')}
+</svg>`;
+}
+
+function ogHtml({ title, label, langs, fontDir }) {
+  const size = title.length > 70 ? 56 : title.length > 45 ? 64 : 72;
+  const foreign = langs.filter((l) => l !== 'tr').length;
+  const strip = langs.map((l) => `<span class="b ${l === 'tr' ? 'tr' : 'en'}">${esc(l.toUpperCase())}</span>`).join('');
+  return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>${fontFaces(fontDir)}
   *{margin:0;box-sizing:border-box}
-  body{width:1200px;height:630px;font-family:P,sans-serif;color:#fff;overflow:hidden;
-    background:radial-gradient(circle at 88% 12%,rgba(242,64,128,.55),transparent 42%),radial-gradient(circle at 8% 110%,rgba(242,64,128,.35),transparent 40%),linear-gradient(140deg,#41246D,#2E1850 70%)}
-  .ring{position:absolute;right:-90px;top:-90px;width:420px;height:420px;border-radius:50%;border:48px solid rgba(255,255,255,.07)}
-  .icon{position:absolute;right:70px;bottom:70px;width:210px;height:210px;opacity:.16}
-  .box{position:absolute;left:80px;top:78px;right:300px;bottom:80px;display:flex;flex-direction:column}
-  .zig{width:120px;height:16px;background:linear-gradient(135deg,#F24080 25%,transparent 25%) -8px 0/16px 16px,linear-gradient(225deg,#F24080 25%,transparent 25%) -8px 0/16px 16px;margin-bottom:26px}
-  .chip{align-self:flex-start;background:#F24080;border-radius:999px;padding:8px 22px;font-weight:600;font-size:24px;letter-spacing:.04em;text-transform:uppercase}
-  h1{font-weight:700;font-size:${size}px;line-height:1.14;margin-top:28px;letter-spacing:-.01em}
-  .foot{margin-top:auto;display:flex;align-items:center;gap:18px;font-size:26px;color:#EDE6F7}
-  .foot b{color:#fff;font-weight:700}
-  </style></head><body><div class="ring"></div><img class="icon" src="${icon}" alt="">
-  <div class="box"><div class="zig"></div>${label ? `<span class="chip">${esc(label)}</span>` : ''}<h1>${esc(title)}</h1>
-  <div class="foot"><b>BÖTE Blog</b><span>bote.web.tr/blog</span></div></div></body></html>`;
+  body{width:1200px;height:630px;${BG};color:#F1ECF8;font-family:B,sans-serif;overflow:hidden;position:relative}
+  .in{position:absolute;inset:72px 80px 64px;display:flex;flex-direction:column}
+  .k{font:600 22px M,monospace;letter-spacing:.08em;text-transform:uppercase;color:#FF7EAD}
+  h1{font-weight:750;font-size:${size}px;line-height:1.06;letter-spacing:-.03em;margin-top:26px;max-width:1000px}
+  .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+  .brand{font:800 34px B;letter-spacing:-.02em}.brand b{color:#FF7EAD}.brand i{font:500 20px M;font-style:normal;color:#A197B5;margin-left:8px}
+  .strip{display:flex;gap:8px;align-items:center;font:600 16px M}
+  .strip .c{color:#A197B5;margin-right:6px;font-weight:500}
+  .b{border:2px solid currentColor;border-radius:8px;padding:4px 7px}.b.en{color:#5ED3BE}.b.tr{color:#F2B266}
+  </style></head><body><div class="in">
+  <div class="k">${esc(label)}</div><h1>${esc(title)}</h1>
+  <div class="foot"><div class="brand">BÖTE<b>.</b><i>blog</i></div>
+  ${langs.length ? `<div class="strip"><span class="c">${langs.length} kaynak · ${foreign} yabancı</span>${strip}</div>` : '<div class="strip"><span class="c">bote.web.tr/blog</span></div>'}</div>
+  </div></body></html>`;
 }
 
-// items: [{ slug, title, label }]
+function artHtml({ slug, label, langs, fontDir }) {
+  const w = 1200, h = 400;
+  const all = langs.length ? langs : ['en', 'en', 'tr', 'en', 'tr', 'en'];
+  return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>${fontFaces(fontDir)}
+  *{margin:0}body{width:${w}px;height:${h}px;${BG};overflow:hidden;position:relative;font-family:M,monospace}
+  .k{position:absolute;left:44px;top:36px;font:600 15px M;letter-spacing:.1em;text-transform:uppercase;color:#FF7EAD}
+  .u{position:absolute;left:44px;bottom:32px;font:500 14px M;color:#A197B5}
+  </style></head><body>${constellation({ slug, langs: all, w, h, cx: w * 0.62, cy: h * 0.52, spread: 150 })}
+  <div class="k">${esc(label)}</div><div class="u">bote.web.tr/blog · kaynak takımyıldızı</div></body></html>`;
+}
+
+// items: [{ slug, title, label, langs }]
 export async function makeCovers(items, { root, outDir, force = false }) {
-  const todo = items.filter((it) => force || !fs.existsSync(path.join(outDir, `${it.slug}.jpg`)));
-  if (!todo.length) return [];
+  const jobs = [];
+  for (const it of items) {
+    if (force || !fs.existsSync(path.join(outDir, `${it.slug}.jpg`))) jobs.push({ file: `${it.slug}.jpg`, w: 1200, h: 630, html: (fd) => ogHtml({ ...it, fontDir: fd }) });
+    if (force || !fs.existsSync(path.join(outDir, `${it.slug}-art.jpg`))) jobs.push({ file: `${it.slug}-art.jpg`, w: 1200, h: 400, html: (fd) => artHtml({ ...it, fontDir: fd }) });
+  }
+  if (!jobs.length) return [];
   const chrome = findChrome();
   if (!chrome) {
-    console.warn(`! Kapak gorseli uretilemedi (Chrome bulunamadi, CHROME_PATH verin): ${todo.map((t) => t.slug).join(', ')}`);
+    console.warn(`! Gorsel uretilemedi (Chrome bulunamadi, CHROME_PATH verin): ${jobs.map((j) => j.file).join(', ')}`);
     return [];
   }
   const { default: puppeteer } = await import('puppeteer-core');
-  const fontDir = path.join(root, 'tools/node_modules/@fontsource/poppins/files');
-  const icon = `data:image/png;base64,${fs.readFileSync(path.join(root, 'assets/img/educator-fabicon-300x300.png')).toString('base64')}`;
+  const fontDir = path.join(root, 'tools/blog-app/public/fonts');
   fs.mkdirSync(outDir, { recursive: true });
   const browser = await puppeteer.launch({ executablePath: chrome, args: ['--no-sandbox', '--allow-file-access-from-files'] });
   try {
     const page = await browser.newPage();
-    await page.setViewport({ width: 1200, height: 630, deviceScaleFactor: 1 });
-    for (const it of todo) {
-      const tmp = path.join(outDir, `.${it.slug}.html`);
-      fs.writeFileSync(tmp, coverHtml({ ...it, fontDir, icon }));
+    for (const j of jobs) {
+      await page.setViewport({ width: j.w, height: j.h, deviceScaleFactor: 1 });
+      const tmp = path.join(outDir, `.${j.file}.html`);
+      fs.writeFileSync(tmp, j.html(fontDir));
       await page.goto(`file://${tmp}`, { waitUntil: 'load' });
       await page.evaluate(() => document.fonts.ready);
-      await page.screenshot({ path: path.join(outDir, `${it.slug}.jpg`), type: 'jpeg', quality: 86 });
+      await page.screenshot({ path: path.join(outDir, j.file), type: 'jpeg', quality: 86 });
       fs.unlinkSync(tmp);
-      console.log(`  kapak: ${it.slug}.jpg`);
     }
   } finally {
     await browser.close();
   }
-  return todo.map((t) => t.slug);
+  return jobs.map((j) => j.file);
 }

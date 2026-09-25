@@ -42,3 +42,9 @@ phpinfo.php
 
 # Taslak onizlemeleri
 tools/.preview/
+
+# Astro onbellek ve ara ciktilar
+tools/.astro/
+tools/blog-app/.astro/
+tools/blog-app/.astro-cache/
+tools/blog-app/dist/

@@ -31,5 +31,10 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   sağ kenar çubuğu (popüler yazılar, reklam alanları, kategoriler, son görüntülenen
   yazılar). Yerleşim referansı: uniconnectly.com/blog.
 - Reklam alanları AdSense'e hazır; şimdilik UniConnectly tanıtımı gösterilir.
+- Blog arayüzü **Astro + React adaları** (`tools/blog-app/`): sayfalar derlemede statik
+  HTML olur (SEO ve yapay zekâ erişimi için içerik JS'siz okunur); sayaç, arama (⌘K),
+  tema, okuma ilerlemesi, popüler/son okunan yazılar ve mobil kaynak önizlemesi React
+  adası olarak çalışır. Tasarım: "kaynak odaklı okuma" — atıflar geniş ekranda metnin
+  yanında kenar notu, mor-pembe palet, açık/koyu tema; ana sitenin görünümünü taklit etmez.
 - Blog kaynağı `content/blog/`, üretilen çıktı `blog/` (commit'lenir):
-  `cd tools && npm run build`.
+  `cd tools && npm run build` (Astro + kök dosyalar: sitemap, llms.txt, site haritaları).

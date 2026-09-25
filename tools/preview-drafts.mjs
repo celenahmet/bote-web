@@ -104,6 +104,7 @@ td.num{white-space:nowrap;font-variant-numeric:tabular-nums}
 .table-wrap{overflow-x:auto;margin:1.2em 0;border:1px solid var(--line);border-radius:10px}
 .body table th{background:var(--soft)}
 .cite{font-size:.72em;line-height:0}
+.sidenote{display:none}
 .cite a{text-decoration:none;font-weight:700}
 .sources ol{padding-left:22px;font-size:14.5px}
 .sources li{margin:8px 0;overflow-wrap:anywhere}

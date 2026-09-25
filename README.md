@@ -15,12 +15,13 @@ The former `/blog` WordPress/PHP application is intentionally excluded. If the o
 
 ## Blog and tools
 
-Blog sources live in `content/blog/` (Markdown with YAML front matter); the generated site is written to `blog/` and committed. Drafts in `content/blog/drafts/` are never published until moved to `content/blog/posts/`.
+Blog sources live in `content/blog/` (Markdown with YAML front matter). The blog UI is an Astro project with React islands in `tools/blog-app/`; pages are pre-rendered to static HTML (readable without JavaScript) and written to `blog/`, which is committed. `tools/build-blog.mjs` runs Astro and also generates the root files (`sitemap.xml`, `llms.txt`, `llms-full.txt`, HTML site maps, `api/_lib/posts.json`). Drafts in `content/blog/drafts/` are never published until moved to `content/blog/posts/`.
 
 ```sh
 cd tools
 npm install
-npm run build          # content/blog -> blog/, sitemap.xml, llms.txt, llms-full.txt, site-map pages
+npm run build          # Astro -> blog/, plus sitemap.xml, llms.txt, llms-full.txt, site-map pages
+npm run dev            # Astro dev server for the blog UI (http://localhost:4321/blog)
 npm run build -- --drafts   # local preview including drafts (do not commit; run `npm run build` again)
 npm run preview        # single-page review of all drafts -> tools/.preview/taslaklar.html
 npm run serve          # local server emulating vercel.json + .vercelignore (http://localhost:4173)
@@ -28,4 +29,4 @@ npm test               # outputs up to date + links, SEO tags, JSON-LD, hreflang
 npm run lighthouse     # Lighthouse (SEO must be 100 on every page); add --perf for performance
 ```
 
-Every post needs at least two foreign-language sources, cited in the text as `[@source-id]`; the builder refuses to build otherwise. Cover/social images are generated once into `content/blog/covers/` (needs a local Chrome; set `CHROME_PATH` if it is not found).
+Every post needs at least two foreign-language sources, cited in the text as `[@source-id]`; the builder refuses to build otherwise. Per post, two images are generated once into `content/blog/covers/`: `<slug>.jpg` (1200×630 social/OG image with title and source strip) and `<slug>-art.jpg` (the on-page "source constellation"). This needs a local Chrome; set `CHROME_PATH` if it is not found.

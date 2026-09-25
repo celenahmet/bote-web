@@ -1,0 +1,45 @@
+---
+// Kenar cubugu (liste sayfalari) ya da yazi sonundaki bant: populer, reklam, kategoriler, son okunanlar.
+import PopularPosts from '../islands/PopularPosts.jsx';
+import RecentlyViewed from '../islands/RecentlyViewed.jsx';
+import AdSlot from './AdSlot.astro';
+import { loadBlog } from '../lib.js';
+const { mode = 'sidebar', current = '' } = Astro.props;
+const blog = loadBlog();
+const lite = blog.posts.map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes }));
+const fallback = [...blog.posts].filter((p) => p.slug !== current)
+  .sort((a, b) => (b.featured - a.featured) || b.date.localeCompare(a.date)).slice(0, 5)
+  .map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes }));
+const cats = blog.categories.filter((c) => c.count);
+---
+{mode === 'sidebar' ? (
+  <aside class="sidebar" aria-label="Blog kenar çubuğu">
+    <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />
+    <AdSlot slot="sidebar-top" />
+    {cats.length > 0 && (
+      <section class="widget" aria-labelledby="w-cats">
+        <h2 class="widget-title" id="w-cats">Kategoriler</h2>
+        <ul class="cats">{cats.map((c) => <li><a href={c.url}>{c.name}</a><span>{c.count}</span></li>)}</ul>
+      </section>
+    )}
+    <RecentlyViewed client:visible posts={lite} current={current} />
+    <section class="widget note-box" aria-labelledby="w-team">
+      <h2 class="widget-title" id="w-team">{blog.author.name}</h2>
+      <p>Yazılarımız en az iki uluslararası kaynağa dayanır; her bilgi numaralı bir kaynağa bağlanır.</p>
+      <a href={blog.author.url}>Yayın ilkelerimiz →</a>
+    </section>
+    <div class="sticky"><AdSlot slot="sidebar-bottom" /></div>
+  </aside>
+) : (
+  <section class="band" aria-label="Diğer içerikler">
+    <div class="wrap band-grid">
+      <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />
+      <AdSlot slot="article-end" />
+      <section class="widget" aria-labelledby="w-cats">
+        <h2 class="widget-title" id="w-cats">Kategoriler</h2>
+        <ul class="cats">{cats.map((c) => <li><a href={c.url}>{c.name}</a><span>{c.count}</span></li>)}</ul>
+      </section>
+      <RecentlyViewed client:visible posts={lite} current={current} />
+    </div>
+  </section>
+)}

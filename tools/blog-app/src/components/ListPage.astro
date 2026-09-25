@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import Crumbs from './Crumbs.astro';
+import PostCard from './PostCard.astro';
+import Widgets from './Widgets.astro';
+import { loadBlog, trDate } from '../lib.js';
+const { list, page, pages, base, trail, title, h1, lead, description, ld, current, empty, stats = false } = Astro.props;
+const blog = loadBlog();
+const pathUrl = page === 1 ? base : `${base}/sayfa/${page}`;
+const [first, ...rest] = page === 1 ? list : [null, ...list];
+const href = (n) => (n === 1 ? base : `${base}/sayfa/${n}`);
+const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pathUrl }];
+---
+<Base title={page === 1 ? title : `${title} (Sayfa ${page})`} description={page === 1 ? description : `${description} Sayfa ${page}.`}
+  path={pathUrl} image={blog.blogImage} ld={ld} current={current}>
+  <section class="wrap index-head">
+    <Crumbs items={crumbs} />
+    <h1 set:html={h1} />
+    <p class="dek">{lead}</p>
+    {stats && blog.posts.length > 0 && (
+      <p class="ledger"><span><b>{blog.posts.length}</b> yazı</span><span><b>{blog.totals.sources}</b> kaynak</span><span><b>{blog.totals.foreign}</b> yabancı kaynak</span><span>son güncelleme {trDate(blog.newest)}</span></p>
+    )}
+  </section>
+  <div class="wrap index-grid">
+    <div class="feed">
+      {list.length === 0 ? (
+        <div class="empty" set:html={empty} />
+      ) : (
+        <>
+          {first && <PostCard post={first} variant="feature" eager level={2} />}
+          {rest.length > 0 && <h2 class="feed-title">{page === 1 ? 'Son yazılar' : `Sayfa ${page}`}</h2>}
+          {rest.length > 0 && <ol class="rows">{rest.map((p) => <li><PostCard post={p} /></li>)}</ol>}
+          {pages > 1 && (
+            <nav class="pagination" aria-label="Sayfalar"><ul>
+              {page > 1 && <li><a href={href(page - 1)} rel="prev">Önceki sayfa</a></li>}
+              {Array.from({ length: pages }, (_, i) => i + 1).map((n) => n === page ? <li><span aria-current="page">{n}</span></li> : <li><a href={href(n)}>{n}. sayfa</a></li>)}
+              {page < pages && <li><a href={href(page + 1)} rel="next">Sonraki sayfa</a></li>}
+            </ul></nav>
+          )}
+        </>
+      )}
+    </div>
+    <Widgets mode="sidebar" />
+  </div>
+</Base>

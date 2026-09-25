@@ -1,0 +1,10 @@
+---
+import ListPage from '../../../components/ListPage.astro';
+import { categoryProps } from '../../_list.js';
+import { loadBlog } from '../../../lib.js';
+export function getStaticPaths() {
+  return loadBlog().categories.filter((c) => c.count).map((c) => ({ params: { cat: c.slug } }));
+}
+const { cat } = Astro.params;
+---
+<ListPage {...categoryProps(cat, 1)} />

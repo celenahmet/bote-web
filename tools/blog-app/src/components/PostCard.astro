@@ -1,0 +1,39 @@
+---
+import ViewCount from '../islands/ViewCount.jsx';
+import SourcePill from './SourcePill.astro';
+import { trDate } from '../lib.js';
+const { post, variant = 'row', eager = false, level = 3 } = Astro.props;
+const H = `h${level}`;
+---
+{variant === 'feature' ? (
+  <article class="feature">
+    <a class="feature-img" href={post.url} tabindex="-1" aria-hidden="true">
+      <img src={(post.art || post.image).src} width={(post.art || post.image).width} height={(post.art || post.image).height} alt="" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async" style={`view-transition-name: c-${post.slug}`} />
+    </a>
+    <div class="feature-body">
+      <p class="kicker"><a href={post.category.url}>{post.category.name}</a> · Öne çıkan</p>
+      <H class="feature-title"><a href={post.url} style={`view-transition-name: t-${post.slug}`}>{post.title}</a></H>
+      <p class="dek">{post.description}</p>
+      <div class="meta">
+        <time datetime={post.date}>{trDate(post.date)}</time>
+        <span>{post.minutes} dk okuma</span>
+        <ViewCount client:visible slug={post.slug} />
+        <SourcePill post={post} />
+      </div>
+    </div>
+  </article>
+) : (
+  <article class="row">
+    <div class="row-date"><time datetime={post.date}>{trDate(post.date)}</time></div>
+    <div class="row-body">
+      <p class="kicker"><a href={post.category.url}>{post.category.name}</a></p>
+      <H><a href={post.url} style={`view-transition-name: t-${post.slug}`}>{post.title}</a></H>
+      <p class="dek">{post.description}</p>
+      <div class="meta">
+        <span>{post.minutes} dk okuma</span>
+        <ViewCount client:visible slug={post.slug} />
+        <SourcePill post={post} />
+      </div>
+    </div>
+  </article>
+)}

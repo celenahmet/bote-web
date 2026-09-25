@@ -8,6 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
+import zlib from 'node:zlib';
 import ignore from 'ignore';
 
 const require = createRequire(import.meta.url);
@@ -129,6 +130,13 @@ export function createServer(opts = {}) {
     if (!res.getHeader('Content-Type')) res.setHeader('Content-Type', TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream');
     res.statusCode = 200;
     if (req.method === 'HEAD') return res.end();
+    // Vercel gibi metin dosyalarini sikistir (Lighthouse olcumleri uretime yakin olsun)
+    const type = String(res.getHeader('Content-Type') || '');
+    if (/text|javascript|json|xml|svg/.test(type) && /\bbr\b/.test(req.headers['accept-encoding'] || '')) {
+      res.setHeader('Content-Encoding', 'br');
+      res.setHeader('Vary', 'Accept-Encoding');
+      return res.end(zlib.brotliCompressSync(fs.readFileSync(path.join(root, file))));
+    }
     fs.createReadStream(path.join(root, file)).pipe(res);
   };
   return opts.tls ? https.createServer(opts.tls, handler) : http.createServer(handler);

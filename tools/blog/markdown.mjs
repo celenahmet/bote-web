@@ -34,11 +34,15 @@ export function renderMarkdown(src, { sources, root, file }) {
           if (m) return { type: 'cite', raw: m[0], keys: m[1].split(/\s*;\s*@?/).map((k) => k.replace(/^@/, '')) };
         },
         renderer(t) {
+          const notes = [];
           const links = t.keys.map((k) => {
+            const first = ids.has(k) && !citeOrder.includes(k);
             const n = numberOf(k);
-            return `<a href="#kaynak-${n}" aria-label="Kaynak ${n}">${n}</a>`;
+            // Kenar notu: kaynagin ilk atfinda bir kez; genis ekranda metnin yaninda gorunur.
+            if (first) notes.push(sidenote(n, ids.get(k)));
+            return `<a class="cite-link" href="#kaynak-${n}" aria-label="Kaynak ${n}">${n}</a>`;
           });
-          return `<sup class="cite">[${links.join(', ')}]</sup>`;
+          return `<sup class="cite">[${links.join(', ')}]</sup>${notes.join('')}`;
         },
       },
     ],
@@ -89,6 +93,12 @@ export function renderMarkdown(src, { sources, root, file }) {
   const html = marked.parse(src);
   if (errors.length) throw new Error(`${file}:\n  - ${[...new Set(errors)].join('\n  - ')}`);
   return { html, headings, citeOrder };
+}
+
+function sidenote(n, s) {
+  const who = s.author || s.publisher;
+  const lang = String(s.lang || '').toUpperCase();
+  return `<span class="sidenote" role="note"><span class="sn-n">${n}</span> ${esc(who)} (${esc(s.year)}). <em>${esc(s.title)}</em>. <span class="sn-lang ${lang === 'TR' ? 'tr' : 'en'}" title="Kaynak dili">${esc(lang)}</span></span>`;
 }
 
 // Satir ici markdown (ozet maddeleri, SSS cevaplari icin).
