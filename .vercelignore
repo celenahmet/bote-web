@@ -2,10 +2,17 @@
 # 20.09: Vercel Hobby "Deployment Storage" 10 GB kotasi asildi (11,03 GB);
 # bu siteden her dagitimda ~490 MB yukleniyordu.
 
-# Eski WordPress agaci (213 MB): vercel.json /blog ve /blog/:path* adreslerini
-# zaten ana sayfaya yonlendiriyor, tek dosyasi bile sunulmuyordu.
-# Depoda duruyor: ileride yazilar markdown'a tasinacak.
-blog/
+# Eski WordPress agaci (213 MB) yerel diskte blog/ altindaysa yine de yuklenmesin.
+# Yeni blog da blog/ altinda uretiliyor (tools/build-blog.mjs); sadece WP dosyalari
+# disarida kalir.
+blog/wp-*
+blog/*.php
+blog/.htaccess
+blog/license.txt
+blog/readme.html
+blog/error_log
+blog/.user.ini
+blog/cgi-bin/
 
 # Eski hata sayfalari (15 MB): /error/404 -> /404 yonlendirmesi var,
 # 404.html artik kendi kendine yeten tek dosya.
@@ -17,3 +24,39 @@ bte432.pptx
 Ek_odev.docx
 word.pdf
 .imunify_patch_id
+
+# 25.09: Siteden baglanti verilmeyen (menu/sayfalardan ulasilamayan) bolumler
+# yayindan kaldirildi; dosyalar depoda duruyor.
+/blogger
+/bte202
+/bte304
+/bte311
+/bte432
+/bte432.pdf
+/egt301
+/egt303
+/egt350
+/egt351
+/person
+/query
+/tunaemektar
+/ebit/ai/ai
+/en/ebit/ai/ai
+# 25.09: Yalnizca "yapim asamasinda" sayaci iceren brans sayfalari (ince icerik);
+# konulari blog yazisina donusecek. Menulerden de kaldirildi.
+/ebit/ai
+/ebit/game
+/ebit/lifelong-learning
+/en/ebit
+/en/blog
+# Universite ve WhatsApp sayfalari artik vercel.json yonlendirmesi (meta refresh yerine).
+/media/wp
+/uni
+/en/uni
+
+# Gelistirme dosyalari
+/README.md
+/CLAUDE.md
+/content
+/tools
+/node_modules

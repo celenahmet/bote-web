@@ -23,10 +23,22 @@ node_modules/
 *.key
 *.p12
 
-blog/
+# Eski WordPress agaci yerelde blog/ altinda durabilir; depoya girmesin.
+# (Yeni blog ciktisi blog/ altinda uretilir ve depoya girer.)
+blog/wp-*
+blog/*.php
+blog/.htaccess
+blog/license.txt
+blog/readme.html
+blog/error_log
+blog/.user.ini
+blog/cgi-bin/
 # Ahmet (20.09): 48 MB'lik sunum yayinda olmasin, yerelde dursun.
 bte432.pptx
 uni/**/index.php
 en/uni/**/index.php
 wp-config.php
 phpinfo.php
+
+# Taslak onizlemeleri
+tools/.preview/

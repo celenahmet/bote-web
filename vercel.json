@@ -139,16 +139,6 @@
       "permanent": false
     },
     {
-      "source": "/blog",
-      "destination": "/",
-      "permanent": false
-    },
-    {
-      "source": "/blog/:path*",
-      "destination": "/",
-      "permanent": false
-    },
-    {
       "source": "/product-archive.html",
       "destination": "/",
       "permanent": true
@@ -172,6 +162,176 @@
       "source": "/product-right.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/en/blog",
+      "destination": "/blog",
+      "permanent": false
+    },
+    {
+      "source": "/blog/wp-admin/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wp-content/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wp-includes/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/wp-login.php",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.php",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/category/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tag/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/author/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:year(\\d{4})/:path*",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/feed",
+      "destination": "/blog/feed.xml",
+      "permanent": true
+    },
+    {
+      "source": "/uni/metu",
+      "destination": "https://ceit.metu.edu.tr/?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/bogazici",
+      "destination": "https://bogazici.edu.tr/tr_TR/Content/Akademik/Lisans_Katalogu/Egitim_Fakultesi/Bilgisayar_Egitim_Teknolojileri?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/ytu",
+      "destination": "https://bote.yildiz.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/marmara",
+      "destination": "http://bote.aef.marmara.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/ege",
+      "destination": "https://egitim.ege.edu.tr/tr-3494/bilgisayar_ve_ogretim_teknolojileri_egitimi_bolumu.html?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/deu",
+      "destination": "https://bef.deu.edu.tr/bote/?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/ankara",
+      "destination": "http://bote.education.ankara.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/gazi",
+      "destination": "https://gef-bote.gazi.edu.tr/?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/bahcesehir",
+      "destination": "https://bau.edu.tr/icerik/3312-bilgisayar-ve-ogretim-teknolojileri-egitimi?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/yeditepe",
+      "destination": "https://egitim.yeditepe.edu.tr/tr/bilgisayar-ve-ogretim-teknolojileri-ogretmenligi-programi?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/hacettepe",
+      "destination": "https://ebit.hacettepe.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/metu",
+      "destination": "https://ceit.metu.edu.tr/en?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/bogazici",
+      "destination": "https://bogazici.edu.tr/tr_TR/Content/Akademik/Lisans_Katalogu/Egitim_Fakultesi/Bilgisayar_Egitim_Teknolojileri?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/ytu",
+      "destination": "https://bote.yildiz.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/marmara",
+      "destination": "http://bote.aef.marmara.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/ege",
+      "destination": "https://egitim.ege.edu.tr/tr-3494/bilgisayar_ve_ogretim_teknolojileri_egitimi_bolumu.html?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/deu",
+      "destination": "https://bef.deu.edu.tr/bote/?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/ankara",
+      "destination": "http://bote.education.ankara.edu.tr?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/gazi",
+      "destination": "https://gef-bote.gazi.edu.tr/?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/bahcesehir",
+      "destination": "https://bau.edu.tr/icerik/3312-bilgisayar-ve-ogretim-teknolojileri-egitimi?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/yeditepe",
+      "destination": "https://egitim.yeditepe.edu.tr/en/computer-education-instructional-technology-program?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/hacettepe",
+      "destination": "https://ebit.hacettepe.edu.tr/eng?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/media/wp",
+      "destination": "https://api.whatsapp.com/send/?phone=908503078810",
+      "permanent": false
     }
   ],
   "headers": [
@@ -233,6 +393,50 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(robots.txt|llms.txt|llms-full.txt)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    },
+    {
+      "source": "/blog/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/blog/(.*)\\.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
         }
       ]
     }
