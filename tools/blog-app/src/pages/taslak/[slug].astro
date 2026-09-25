@@ -1,0 +1,12 @@
+---
+// Onay bekleyen taslaklarin onizlemesi (noindex; sitemap, besleme ve menulerde yok).
+import PostView from '../../components/PostView.astro';
+import { loadBlog } from '../../lib.js';
+
+export function getStaticPaths() {
+  const blog = loadBlog();
+  return blog.previews.map((p) => ({ params: { slug: p.slug }, props: { post: p } }));
+}
+const { post } = Astro.props;
+---
+<PostView post={post} list={loadBlog().previews} preview />

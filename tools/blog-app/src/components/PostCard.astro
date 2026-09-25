@@ -17,7 +17,7 @@ const H = `h${level}`;
       <div class="meta">
         <time datetime={post.date}>{trDate(post.date)}</time>
         <span>{post.minutes} dk okuma</span>
-        <ViewCount client:visible slug={post.slug} />
+        {!post.preview && <ViewCount client:visible slug={post.slug} />}
         <SourcePill post={post} />
       </div>
     </div>
@@ -31,7 +31,7 @@ const H = `h${level}`;
       <p class="dek">{post.description}</p>
       <div class="meta">
         <span>{post.minutes} dk okuma</span>
-        <ViewCount client:visible slug={post.slug} />
+        {!post.preview && <ViewCount client:visible slug={post.slug} />}
         <SourcePill post={post} />
       </div>
     </div>

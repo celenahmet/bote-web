@@ -117,7 +117,11 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
   };
   const fallbackImg = { src: '/assets/img/educator-img14.jpg', ...imageSize(path.join(ROOT, 'assets/img/educator-img14.jpg')) };
   const blogImage = cover('_blog') || fallbackImg;
-  for (const p of posts) {
+  // Onay bekleyen taslaklarin onizlemesi: /blog/taslak/<yazi> (noindex, baglantisiz, sitemap disi).
+  const previews = withDrafts ? [] : drafts.map((d) => ({
+    ...d, preview: true, url: `/blog/taslak/${d.slug}`, category: { ...d.category, url: '/blog/taslak' },
+  })).sort((a, b) => (b.featured - a.featured) || b.date.localeCompare(a.date) || a.title.localeCompare(b.title, 'tr'));
+  for (const p of [...posts, ...previews]) {
     p.image = p.imageSrc ? { src: p.imageSrc, ...imageSize(path.join(ROOT, p.imageSrc)) } : cover(p.slug) || blogImage;
     p.art = cover(`${p.slug}-art`); // sayfa ici basliksiz gorsel (yoksa gosterilmez)
   }
@@ -126,7 +130,7 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
   const indexList = lead ? [lead, ...posts.filter((p) => p !== lead)] : posts;
   const newest = posts.reduce((m, p) => (p.updated > m ? p.updated : m), '2026-09-25');
 
-  cache = { withDrafts, cfg, SITE, abs, author, categories, catBy, posts, drafts, indexList, blogImage, newest, errors, warnings,
+  cache = { withDrafts, cfg, SITE, abs, author, categories, catBy, posts, drafts, previews, indexList, blogImage, newest, errors, warnings,
     totals: { sources: posts.reduce((n, p) => n + p.sources.length, 0), foreign: posts.reduce((n, p) => n + p.foreign, 0) } };
   return cache;
 }

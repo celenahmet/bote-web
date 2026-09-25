@@ -1,0 +1,12 @@
+---
+// Taslak onizleme listesi: yalnizca editor onayi icin; noindex ve baglantisiz.
+import ListPage from '../../components/ListPage.astro';
+import { loadBlog } from '../../lib.js';
+const blog = loadBlog();
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Taslak önizleme', url: '/blog/taslak' }];
+const ld = { '@context': 'https://schema.org', '@type': 'WebPage', url: blog.abs('/blog/taslak'), name: 'Taslak önizleme | BÖTE Blog', inLanguage: 'tr-TR' };
+---
+<ListPage list={blog.previews} page={1} pages={1} base="/blog/taslak" trail={trail} title="Taslak önizleme | BÖTE Blog"
+  h1="Taslak <span>önizleme</span>" lead="Editör onayı bekleyen yazılar. Bu sayfa arama motorlarına kapalıdır ve siteden bağlantı almaz; onaylanan yazı gerçek adresinde yayımlanır."
+  description="BÖTE Blog'da editör onayı bekleyen taslak yazıların önizlemesi." ld={ld} current="" noindex pool={blog.previews}
+  empty="<h2>Onay bekleyen taslak yok</h2><p>Yeni taslaklar hazırlandığında burada görünür.</p>" />

@@ -4,7 +4,7 @@ import Crumbs from './Crumbs.astro';
 import PostCard from './PostCard.astro';
 import Widgets from './Widgets.astro';
 import { loadBlog, trDate } from '../lib.js';
-const { list, page, pages, base, trail, title, h1, lead, description, ld, current, empty, stats = false } = Astro.props;
+const { list, page, pages, base, trail, title, h1, lead, description, ld, current, empty, stats = false, noindex = false, pool } = Astro.props;
 const blog = loadBlog();
 const pathUrl = page === 1 ? base : `${base}/sayfa/${page}`;
 const [first, ...rest] = page === 1 ? list : [null, ...list];
@@ -12,7 +12,7 @@ const href = (n) => (n === 1 ? base : `${base}/sayfa/${n}`);
 const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pathUrl }];
 ---
 <Base title={page === 1 ? title : `${title} (Sayfa ${page})`} description={page === 1 ? description : `${description} Sayfa ${page}.`}
-  path={pathUrl} image={blog.blogImage} ld={ld} current={current}>
+  path={pathUrl} image={blog.blogImage} ld={ld} current={current} noindex={noindex}>
   <section class="wrap index-head">
     <Crumbs items={crumbs} />
     <h1 set:html={h1} />
@@ -40,6 +40,6 @@ const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pat
         </>
       )}
     </div>
-    <Widgets mode="sidebar" />
+    <Widgets mode="sidebar" pool={pool} />
   </div>
 </Base>

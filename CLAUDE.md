@@ -26,7 +26,9 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   kaynağıdır); doğrulanamayan iddia yazılmaz.
 - Yazar imzası: "BÖTE Editör Ekibi".
 - Yazılar önce taslak olarak (`content/blog/drafts/`) kullanıcının onayına sunulur;
-  onaylanmadan `content/blog/posts/`'a taşınmaz ve yayınlanmaz.
+  onaylanmadan `content/blog/posts/`'a taşınmaz ve yayınlanmaz. Taslaklar yalnızca
+  inceleme için `/blog/taslak` altında önizlenir: noindex, robots.txt ile kapalı,
+  sitemap/besleme/llms.txt dışı ve siteden bağlantı almaz.
 - Özellikler: görüntülenme sayısı (Upstash Redis, `/api/views`), okuma süresi,
   sağ kenar çubuğu (popüler yazılar, reklam alanları, kategoriler, son görüntülenen
   yazılar). Yerleşim referansı: uniconnectly.com/blog.
@@ -35,6 +37,7 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   HTML olur (SEO ve yapay zekâ erişimi için içerik JS'siz okunur); sayaç, arama (⌘K),
   tema, okuma ilerlemesi, popüler/son okunan yazılar ve mobil kaynak önizlemesi React
   adası olarak çalışır. Tasarım: "kaynak odaklı okuma" — atıflar geniş ekranda metnin
-  yanında kenar notu, mor-pembe palet, açık/koyu tema; ana sitenin görünümünü taklit etmez.
+  yanında kenar notu, mor-pembe palet; varsayılan açık tema (koyu tema yalnızca düğmeyle
+  seçilir); ana sitenin görünümünü taklit etmez.
 - Blog kaynağı `content/blog/`, üretilen çıktı `blog/` (commit'lenir):
   `cd tools && npm run build` (Astro + kök dosyalar: sitemap, llms.txt, site haritaları).

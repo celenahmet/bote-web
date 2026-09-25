@@ -39,7 +39,7 @@ const warnings = [...blog.warnings];
 if (!CHECK) {
   const made = await makeCovers(
     [{ slug: '_blog', title: 'Bölüm, eğitim fakültesi ve öğretmenlik üzerine kaynaklı yazılar', label: 'BÖTE Blog', langs: [] },
-      ...posts.filter((p) => !p.imageSrc).map((p) => ({ slug: p.slug, title: p.title, label: p.category.name, langs: p.sources.map((s) => s.lang) }))],
+      ...[...posts, ...blog.previews].filter((p) => !p.imageSrc).map((p) => ({ slug: p.slug, title: p.title, label: p.category.name, langs: p.sources.map((s) => s.lang) }))],
     { root: ROOT, outDir: COVER_DIR, force: FORCE_COVERS },
   );
   if (made.length) {
@@ -94,7 +94,8 @@ for (const rel of deployedFiles(ROOT).filter((f) => f.endsWith('.html') && !f.st
   legacy.push(info);
 }
 
-const blogPages = [...out.keys()].filter((k) => /^blog\/(.+\/)?index\.html$/.test(k)).map((k) => `/${k.replace(/\/index\.html$/, '')}`);
+// Taslak onizlemeleri (blog/taslak) noindex'tir; sitemap'e girmez.
+const blogPages = [...out.keys()].filter((k) => /^blog\/(.+\/)?index\.html$/.test(k) && !k.startsWith('blog/taslak/')).map((k) => `/${k.replace(/\/index\.html$/, '')}`);
 const urls = [
   ...legacy.map((l) => ({ loc: l.canonical, alternates: l.alternates })),
   ...blogPages.map((u) => {

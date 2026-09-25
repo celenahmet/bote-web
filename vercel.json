@@ -457,6 +457,15 @@
           "value": "public, max-age=2592000, stale-while-revalidate=86400"
         }
       ]
+    },
+    {
+      "source": "/blog/taslak(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
     }
   ]
 }

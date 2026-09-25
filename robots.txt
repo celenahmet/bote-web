@@ -1,10 +1,12 @@
 # bote.web.tr
 # Arama motorlari ve yapay zeka araclari/ajanlari siteyi tarayabilir.
 # Blog yazilarinin Markdown surumleri: /blog/<yazi>.md  |  Ozet: /llms.txt
+# /blog/taslak: editor onayi bekleyen taslaklarin onizlemesi (yayinda degil).
 
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /blog/taslak
 
 # Yapay zeka tarayicilari ve kullanici adina calisan ajanlar (acikca izinli)
 User-agent: GPTBot
@@ -30,5 +32,6 @@ User-agent: cohere-ai
 User-agent: Amazonbot
 Allow: /
 Disallow: /api/
+Disallow: /blog/taslak
 
 Sitemap: https://www.bote.web.tr/sitemap.xml

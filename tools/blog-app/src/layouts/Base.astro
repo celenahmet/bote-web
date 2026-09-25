@@ -23,8 +23,7 @@ const adsense = blog.cfg.ads.adsense.client;
 <link rel="alternate" type="application/feed+json" title={blog.cfg.title} href="/blog/feed.json">
 {mdAlt && <link rel="alternate" type="text/markdown" title="Markdown sürümü" href={mdAlt}>}
 <link rel="icon" type="image/png" href="/assets/img/educator-fabicon-300x300.png">
-<meta name="theme-color" content="#FBFAFD" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#0E0A14" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#FBFAFD">
 <link rel="preload" href="/blog/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/blog/fonts/literata-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <meta property="og:type" content={type}>
@@ -42,7 +41,7 @@ const adsense = blog.cfg.ads.adsense.client;
 <meta name="twitter:description" content={description}>
 <meta name="twitter:image" content={img}>
 <slot name="head" />
-<script is:inline>(function(){try{var t=localStorage.getItem('bote-theme');if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}})();</script>
+<script is:inline>(function(){try{if(localStorage.getItem('bote-theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}})();</script>
 {adsense && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsense}`} crossorigin="anonymous"></script>}
 <script type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />
 </head>

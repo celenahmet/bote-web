@@ -190,6 +190,25 @@ for (const p of posts) {
   if (md.status !== 200 || !md.text.includes('## Kaynaklar')) err(`${p.url}.md`, 'Markdown surumu yok ya da kaynakca eksik');
 }
 
+// ------------------------------------------------------------------ taslak onizlemeleri
+{
+  const r = await get('/blog/taslak');
+  if (r.status === 200) {
+    const root = parse(r.text);
+    if (!/noindex/.test(root.querySelector('meta[name="robots"]')?.getAttribute('content') || '')) err('/blog/taslak', 'onizleme noindex degil');
+    for (const a of root.querySelectorAll('a[href^="/blog/taslak/"]')) {
+      const href = a.getAttribute('href').split('#')[0];
+      const pr = await get(href);
+      const robotsMeta = parse(pr.text).querySelector('meta[name="robots"]')?.getAttribute('content') || '';
+      if (pr.status !== 200 || !/noindex/.test(robotsMeta)) err(href, `onizleme ${pr.status}, robots="${robotsMeta}"`);
+    }
+    if (smUrls.some((u) => u.includes('/blog/taslak'))) err('sitemap.xml', 'taslak onizlemesi sitemap icinde');
+    if (/\/blog\/taslak/.test(llms.text)) err('llms.txt', 'taslak onizlemesi llms.txt icinde');
+    if (robots.isAllowed(`${SITE}/blog/taslak/ornek`, 'GPTBot')) err('robots.txt', '/blog/taslak yapay zeka botlarina acik');
+    for (const [p] of pages) if (p.startsWith('/blog/taslak')) err(p, 'onizleme sitedeki bir sayfadan baglanti aliyor');
+  }
+}
+
 // ------------------------------------------------------------------ yayindan kaldirilanlar
 for (const p of ['/egt303', '/bte311', '/bte304', '/ebit/ai', '/en/ebit/online', '/person', '/query', '/tools/package.json', '/content/blog/blog.yml', '/CLAUDE.md', '/README.md']) {
   const r = await get(p);
