@@ -3,8 +3,16 @@
   <url><loc>https://www.bote.web.tr/</loc><xhtml:link rel="alternate" hreflang="tr" href="https://www.bote.web.tr/"/><xhtml:link rel="alternate" hreflang="en" href="https://www.bote.web.tr/en"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.bote.web.tr/"/></url>
   <url><loc>https://www.bote.web.tr/about</loc><xhtml:link rel="alternate" hreflang="tr" href="https://www.bote.web.tr/about"/><xhtml:link rel="alternate" hreflang="en" href="https://www.bote.web.tr/en/about"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.bote.web.tr/about"/></url>
   <url><loc>https://www.bote.web.tr/accreditation</loc><xhtml:link rel="alternate" hreflang="tr" href="https://www.bote.web.tr/accreditation"/><xhtml:link rel="alternate" hreflang="en" href="https://www.bote.web.tr/en/accreditation"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.bote.web.tr/accreditation"/></url>
-  <url><loc>https://www.bote.web.tr/blog</loc></url>
+  <url><loc>https://www.bote.web.tr/blog</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar</loc><lastmod>2026-09-25</lastmod><image:image><image:loc>https://www.bote.web.tr/blog/assets/covers/bote-mezunlari-ne-is-yapar.jpg</image:loc></image:image></url>
+  <url><loc>https://www.bote.web.tr/blog/bote-nedir</loc><lastmod>2026-09-25</lastmod><image:image><image:loc>https://www.bote.web.tr/blog/assets/covers/bote-nedir.jpg</image:loc></image:image></url>
+  <url><loc>https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi</loc><lastmod>2026-09-25</lastmod><image:image><image:loc>https://www.bote.web.tr/blog/assets/covers/bote-ogrenci-alimi-ve-gelecegi.jpg</image:loc></image:image></url>
   <url><loc>https://www.bote.web.tr/blog/editor-ekibi</loc></url>
+  <url><loc>https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme</loc><lastmod>2026-09-25</lastmod><image:image><image:loc>https://www.bote.web.tr/blog/assets/covers/egitim-fakultesi-ve-ogretmen-yetistirme.jpg</image:loc></image:image></url>
+  <url><loc>https://www.bote.web.tr/blog/kategori/bolum-rehberi</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://www.bote.web.tr/blog/kategori/egitim-fakultesi</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://www.bote.web.tr/blog/kategori/kariyer</loc><lastmod>2026-09-25</lastmod></url>
+  <url><loc>https://www.bote.web.tr/blog/kategori/yuksekogretim</loc><lastmod>2026-09-25</lastmod></url>
   <url><loc>https://www.bote.web.tr/contact</loc><xhtml:link rel="alternate" hreflang="tr" href="https://www.bote.web.tr/contact"/><xhtml:link rel="alternate" hreflang="en" href="https://www.bote.web.tr/en/contact"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.bote.web.tr/contact"/></url>
   <url><loc>https://www.bote.web.tr/crew</loc><xhtml:link rel="alternate" hreflang="tr" href="https://www.bote.web.tr/crew"/><xhtml:link rel="alternate" hreflang="en" href="https://www.bote.web.tr/en/crew"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.bote.web.tr/crew"/></url>
   <url><loc>https://www.bote.web.tr/curriculum</loc><xhtml:link rel="alternate" hreflang="tr" href="https://www.bote.web.tr/curriculum"/><xhtml:link rel="alternate" hreflang="en" href="https://www.bote.web.tr/en/curriculum"/><xhtml:link rel="alternate" hreflang="x-default" href="https://www.bote.web.tr/curriculum"/></url>

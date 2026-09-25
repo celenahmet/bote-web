@@ -9,6 +9,10 @@
 ## Blog
 
 - [BÖTE Blog](https://www.bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar.
+- [BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar.md): BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım. (Kariyer, 2026-09-25)
+- [BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi](https://www.bote.web.tr/blog/bote-nedir.md): BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber. (Bölüm Rehberi, 2026-09-25)
+- [BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi.md): BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz. (Yükseköğretim ve Politika, 2026-09-25)
+- [Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi](https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme.md): Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma. (Eğitim Fakültesi, 2026-09-25)
 
 ## Bölüm sayfaları
 
@@ -21,7 +25,7 @@
 - [Okuryazarlıklar: P21 ve 21. Yüzyıl Becerileri | BÖTE](https://www.bote.web.tr/ebit/literacy): P21 çerçevesinde 21. yüzyıl okuryazarlıkları: bilgi ve teknoloji okuryazarlığı, eleştirel düşünme, iletişim ve iş birliği becerileri üzerine BÖTE rehberi.
 - [Uzaktan Eğitim Nedir? | BÖTE](https://www.bote.web.tr/ebit/online): Uzaktan eğitim nedir, nasıl işler? Dijital platformlarla zaman ve mekândan bağımsız öğrenmenin özellikleri, avantajları ve sınırlılıkları üzerine BÖTE rehberi.
 - [BÖTE - Sıkça Sorulan Sorular](https://www.bote.web.tr/faq): Sıkça sorulan sorulara buradan ulaşabilirsiniz. Bölümle ilgili çok daha fazla şey öğrenmek için soru ve yanıtlarına bakabilirsiniz. Tercih yapılmadan...
-- [BÖTE - Mezunlar](https://www.bote.web.tr/graduation): BÖTE mezunlarının kamu ve özel sektörde çalışabildiği alanlar: eğitim teknoloğu, bilişim teknolojileri uzmanı, yazılım uzmanı, akademisyen ve daha fazlası.
+- [BÖTE Mezunları: Mezuniyet Sonrası Yol Haritası](https://www.bote.web.tr/graduation): BÖTE mezunları için yol haritası: diplomanın anlamı, AGS ve Millî Eğitim Akademisi, lisansüstü eğitim, Erasmus+ yeni mezun stajı ve sürekli mesleki gelişim.
 - [BÖTE - Staj İmkanları](https://www.bote.web.tr/internship): Staj, eğitim hayatı boyunca edinilen teorik bilgileri uygulamaya dökme imkanını sağlayan, iş hayatına ilk adımın atıldığı hazırlık dönemidir. Kariyer...
 - [BÖTE - Meslek Unvanları](https://www.bote.web.tr/jobtitle): BÖTE meslek unvanları: eğitim teknoloğu, bilişim teknolojileri uzmanı, yazılım uzmanı, bilgi işlem, akademisyen ve sosyal medya uzmanı gibi kamu ve özel sektör rolleri.
 - [BÖTE - Sosyal Medya](https://www.bote.web.tr/media): BÖTE&#x27;nin Instagram, YouTube ve LinkedIn hesapları: bölüm duyurularını, etkinlikleri ve paylaşımları sosyal medyadan takip edin.
@@ -36,7 +40,7 @@
 - [CEIT - Our Crew](https://www.bote.web.tr/en/crew): Meet the team behind bote.web.tr, the site introducing Computer Education and Instructional Technology (CEIT/BÖTE): founder Ahmet Çelen and contributors.
 - [CEIT - Curriculum](https://www.bote.web.tr/en/curriculum): The curriculum, which has been used since 2006, was revised again in 2018 and presented to students.
 - [CEIT - Frequently Asked Questions](https://www.bote.web.tr/en/faq): You can find frequently asked questions here. You can look at the questions and answers to learn more about the episode. It contains questions that are...
-- [CEIT - Graduation](https://www.bote.web.tr/en/graduation): Graduates of Computer Education and Instructional Technology (CEIT/BÖTE): job titles and career areas in the public and private sectors.
+- [CEIT Graduates: A Roadmap After Graduation](https://www.bote.web.tr/en/graduation): A roadmap for CEIT (BÖTE) graduates: the degree, AGS and the National Education Academy, graduate studies, Erasmus+ traineeships and professional development.
 - [BÖTE - Internship](https://www.bote.web.tr/en/internship): Internship is the preparatory period in which the first step into business life is taken, providing the opportunity to put the theoretical knowledge...
 - [CEIT - Job Titles](https://www.bote.web.tr/en/jobtitle): With the training they receive, they have knowledge in many fields and have a well-equipped career.
 - [CEIT - Social Media](https://www.bote.web.tr/en/media): Follow CEIT (BÖTE) on Instagram, YouTube and LinkedIn for department news, events and updates.

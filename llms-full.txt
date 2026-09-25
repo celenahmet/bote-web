@@ -2,4 +2,451 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar. Kaynak: https://www.bote.web.tr/blog
 
-Henüz yayımlanmış yazı yok.
+# BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer
+
+> BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
+
+## Kısaca
+
+- BÖTE mezunlarının ana yolu öğretmenliktir. 2025'te genel okullar için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.
+- Öğretmen ataması 7528 sayılı Öğretmenlik Mesleği Kanunu ile değişti. İlk **Akademi Giriş Sınavı (AGS)** 13 Temmuz 2025'te yapıldı.
+- Öğretmenlik dışında öğretim tasarımı, e-öğrenme içeriği geliştirme, kurumsal eğitim ve yazılım alanlarında da iş bulunabilir.
+- Uluslararası veriler, öğretmenlerin teknoloji kullanımında desteğe ihtiyaç duyduğunu gösteriyor. Bu durum eğitim teknolojisi uzmanlığına alan açıyor, ancak iş bulmak garanti değildir.
+
+"BÖTE okuyup ne olacaksın?" sorusu, bölüm öğrencilerinin belki de en sık duyduğu soru. Kısa cevap şu: BÖTE bir öğretmenlik programıdır ve mezunların ana yolu öğretmenliktir. Ancak programın kazandırdığı bilişim ve öğretim tasarımı becerileri başka kapıları da açar.
+
+Bu yazıda her yolu fırsatları ve zorluklarıyla birlikte ele alıyoruz. Amacımız bir bölümü övmek ya da yermek değil, gerçekçi bir tablo çizmek.
+
+## 1. Öğretmenlik: MEB okulları, özel okullar ve kurslar
+
+### Hangi alanda atanılır?
+
+Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[1] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Haberlere göre mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[2]
+
+Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri ve Yazılım**'dır. MEB Talim ve Terbiye Kurulunun haftalık ders çizelgesine göre bu ders 5. ve 6. sınıflarda haftada 2 saat zorunlu olarak okutulur.[3]
+
+### Nasıl atanılır?
+
+Öğretmen ataması 2024'te köklü biçimde değişti. 7528 sayılı **Öğretmenlik Mesleği Kanunu**'na göre öğretmen olacak kişiler, öğretmenliğe kaynak olan bir lisans programından mezun olanlar ve **Millî Eğitim Akademisi**'nin hazırlık eğitimini başarıyla tamamlayanlar arasından seçilir.[4] Akademiye kabulün ilk basamağı olan **MEB Akademi Giriş Sınavı (AGS)** ilk kez 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[5]
+
+**Artıları:** Kamu öğretmenliği iş güvencesi sunar. Ayrıca bölüm adıyla örtüşen yeni bir atama alanı artık tanımlı.
+
+**Zorlukları:** Atama sayıları her yıl MEB'in ihtiyacına göre belirlenir ve yıldan yıla büyük farklılık gösterebilir. Yeni sistemin BÖTE mezunlarına kaç kadro ayıracağı henüz netleşmiş değil. Bu nedenle adayların yalnızca atamaya bağlı bir plan yapmaması, aşağıdaki seçenekleri de gözetmesi akıllıca olur.
+
+Özel okullar, kurslar ve kodlama/robotik eğitimi veren kurumlar da BÖTE mezunlarının sık çalıştığı yerlerdir. Bu kurumlarda işe alım genellikle doğrudan başvuru ve mülakatla yapılır.
+
+## 2. Öğretim tasarımı ve e-öğrenme
+
+Öğretim tasarımcısı, bir eğitimin hedeflerini belirler, içeriğini ve etkinliklerini planlar ve öğrenmenin nasıl ölçüleceğini tasarlar. E-öğrenme uzmanı ise bu tasarımı dijital ortama taşır: etkileşimli içerik, video, öğrenme yönetim sistemi (LMS) kurulumu ve raporlama bu işin parçalarıdır.
+
+BÖTE, Türkiye'de bu rollere en doğrudan hazırlayan lisans programlarından biridir. Alan yazısı da BÖTE'yi öğretim sistemleri tasarımı ve insan performans teknolojisi ile birlikte tanımlar.[6]
+
+Uluslararası tablo bu yöndeki talebi destekliyor. ABD Çalışma İstatistikleri Bürosu (BLS), kurum içi eğitim programları tasarlayan ve yürüten **eğitim ve gelişim uzmanlarının** istihdamının önümüzdeki on yılda tüm meslekler ortalamasından hızlı artmasını bekliyor.[7] Okul sistemlerinde öğretim programlarını ve materyallerini geliştiren **öğretim koordinatörleri** için ise genellikle yüksek lisans ve öğretmenlik ya da yöneticilik deneyimi aranıyor.[8] Bu veriler ABD'ye aittir ve Türkiye'ye birebir uyarlanamaz. Yine de meslek gruplarının içeriğini ve gerektirdiği yetkinlikleri anlamak için iyi bir başvuru noktasıdır.
+
+## 3. Kurumsal eğitim ve insan kaynakları
+
+Bankalar, holdingler, kamu kurumları ve teknoloji şirketleri çalışanları için sürekli eğitim programları yürütür. BÖTE mezunları bu birimlerde eğitim uzmanı, içerik geliştirici ya da LMS yöneticisi olarak çalışabilir. Bu rollerde pedagojik bilginin, yetişkin eğitimine ve performans hedeflerine uyarlanabilmesi beklenir.
+
+## 4. Yazılım ve bilişim sektörü
+
+Programlama, veri tabanı ve ağ dersleri, bazı mezunları yazılım geliştirme, test, teknik destek ya da sistem yönetimi gibi rollere yönlendirir. Eğitim teknolojisi (EdTech) girişimleri, hem kod yazabilen hem de öğrenme sürecini anlayan kişiler için ayrıca uygun bir ortam olabilir.
+
+Burada dürüst olmak gerekir. Saf yazılım pozisyonlarında BÖTE mezunları bilgisayar ve yazılım mühendisliği mezunlarıyla yarışır. Bu yarışta diplomadan çok **portfolyo** belirleyicidir: GitHub'daki projeler, staj deneyimleri ve katkı verilen açık kaynak çalışmaları. Sitemizdeki [staj imkânları](https://www.bote.web.tr/internship) sayfası bu açıdan bir başlangıç sunabilir.
+
+## 5. Akademik kariyer
+
+Eğitim teknolojisi alanında yüksek lisans ve doktora yapan mezunlar araştırmacı ya da öğretim üyesi olabilir. Uzaktan eğitim, öğrenme analitiği ve eğitimde yapay zekâ gibi konular son yıllarda araştırmacılara geniş bir çalışma alanı açtı.
+
+## Hangi beceriler fark yaratıyor?
+
+Hangi yolu seçerseniz seçin, işverenlerin ve okulların aradığı beceriler büyük ölçüde örtüşür:
+
+- **Öğretim tasarımı:** Bir öğrenme hedefinden yola çıkıp etkinlik ve ölçme tasarlayabilmek.
+- **Dijital pedagoji:** ISTE'nin eğitimciler için tanımladığı tasarımcı, kolaylaştırıcı ve analist rollerini üstlenebilmek.[9]
+- **Teknik yetkinlik:** En az bir programlama dili, web teknolojileri ve temel veri analizi.
+- **Öğretmenlere destek:** Öğretmenlerin teknolojiyi etkili kullanmasına yardım etmek.
+
+Son madde özellikle önemli. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerindeki öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde bilgi ve iletişim teknolojileri kullanımı üzerine eğitim almıştı. Kendini bu konuda iyi ya da çok iyi hazırlanmış hissedenlerin oranı ise %43'te kalıyordu.[10] UNESCO'nun 2023 Küresel Eğitim İzleme Raporu da öğretmenlerin teknolojiyle öğretimde kendilerini çoğu zaman hazırlıksız hissettiğini vurguluyor. Rapora göre ülkelerin yalnızca yarısında öğretmenlerin bilgi ve iletişim teknolojileri becerilerini geliştirmeye yönelik standartlar bulunuyor.[11]
+
+Aynı rapor önemli bir uyarı da yapıyor: Eğitim teknolojilerinin öğrenmeye katkısına dair sağlam ve tarafsız kanıt sınırlıdır. Teknoloji, insan etkileşimine dayalı eğitimin yerine geçmek için değil onu desteklemek için kullanılmalıdır.[11] İyi bir BÖTE mezununu "her derde teknoloji" diyen birinden ayıran da bu eleştirel bakıştır.
+
+## Özet tablo
+
+| Kariyer yolu | Öne çıkan artı | Dikkat edilmesi gereken |
+|---|---|---|
+| MEB öğretmenliği | İş güvencesi, bölümle örtüşen yeni atama alanı | Kontenjanlar yıldan yıla değişir, AGS ve akademi süreci |
+| Özel okul / kurs | Daha hızlı işe giriş | Sözleşme koşulları kurumdan kuruma değişir |
+| Öğretim tasarımı / e-öğrenme | Uluslararası talep, uzaktan çalışma imkânı | Portfolyo ve deneyim beklenir |
+| Kurumsal eğitim | Yetişkin eğitimi, kariyer basamakları | İş hayatı ve performans odaklı dil |
+| Yazılım / EdTech | Geniş iş piyasası | Mühendislik mezunlarıyla rekabet |
+| Akademi | Araştırma özgürlüğü | Uzun ve rekabetçi lisansüstü süreç |
+
+## Sonuç
+
+BÖTE mezunlarının önünde tek bir yol yok, birbirine bağlanan bir yollar ağı var. 2025'teki yeni atama alanı öğretmenlik yolunu netleştirdi. Öğretim tasarımı ve kurumsal eğitim ise uluslararası ölçekte büyüyen alanlar. Yine de hiçbir yol kendiliğinden açılmıyor: Staj, portfolyo ve sürekli öğrenme, diplomanın değerini belirleyen asıl etkenler. Bölümün genel tanıtımı için [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) yazımıza, mesleki unvanlar için [meslek unvanları](https://www.bote.web.tr/jobtitle) sayfamıza göz atabilirsiniz.
+
+## Sık Sorulan Sorular
+
+### BÖTE mezunu hangi derslere girer?
+
+Genel okullarda ağırlıklı olarak ortaokuldaki Bilişim Teknolojileri ve Yazılım dersi ile bilişim ağırlıklı derslere girer. Hangi alanın hangi dersi okutacağı MEB'in Öğretmenlik Alanları, Atama ve Ders Okutma Esasları ile belirlenir. Bu esaslar değişebildiği için güncel metni kontrol edin.
+
+### Öğretmen olmak için KPSS yeterli mi?
+
+7528 sayılı Kanun'la birlikte öğretmen adaylarının Millî Eğitim Akademisi hazırlık eğitimine kabulü, ÖSYM'nin yaptığı MEB Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılmaktadır. Başvuru koşulları için MEB ve ÖSYM duyurularını takip edin.
+
+### Öğretim tasarımcısı olmak için yüksek lisans gerekir mi?
+
+Şart değildir ama bazı pozisyonlarda avantaj sağlar. Örneğin ABD'de okul sistemlerindeki öğretim koordinatörlüğü pozisyonları genellikle yüksek lisans ve öğretmenlik deneyimi ister. Kurumsal eğitim rollerinde ise portfolyo ve deneyim öne çıkar.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
+2. Memurlar.net (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı. https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html (TR, erişim: 2026-09-25)
+3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4. https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf (TR, erişim: 2026-09-25)
+4. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
+6. Çakır, H., Çebi, A. ve Özcan, S. (2013). BÖTE Nedir? Nasıl Tanımlanır? Okul Müzesiyle Başlayan Serüvenden İnsan Performans Teknolojilerine Uzanan Yolculuk. Eğitim Teknolojisi Kuram ve Uygulama, 3(2), 102–111. https://dergipark.org.tr/tr/pub/etku/issue/6269/84217 (TR, erişim: 2026-09-25)
+7. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
+8. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
+9. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards (EN, erişim: 2026-09-25)
+10. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+11. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
+
+---
+
+# BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi
+
+> BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-nedir
+
+## Kısaca
+
+- BÖTE, eğitim fakültelerinde okutulan dört yıllık **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği** lisans programının kısa adıdır; bölüm 1998'de eğitim fakültelerinin yeniden yapılandırılmasıyla kuruldu.
+- Program teknik bilişim derslerini (programlama, ağlar, veri tabanı, çoklu ortam) öğretim tasarımı ve eğitim bilimleriyle birleştirir.
+- Uluslararası çerçeveler (ISTE, UNESCO ICT-CFT, DigCompEdu, TPACK) BÖTE mezunundan yalnızca bilgisayar öğretmek değil, teknolojinin öğrenmeye nasıl hizmet edeceğini tasarlamayı da bekler.
+- 2025'te MEB, genel okullar için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** öğretmenlik alanı oluşturdu.
+
+"BÖTE" kısaltmasını tercih döneminde, öğretmen atama haberlerinde ya da okulunuzdaki bilişim dersinde duymuş olabilirsiniz. Açılımı **Bilgisayar ve Öğretim Teknolojileri Eğitimi**. YÖK Atlas'ta program **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği** adıyla yer alıyor.[1] İngilizce kaynaklarda bölüm çoğunlukla *Computer Education and Instructional Technology* (CEIT) adıyla anılır.
+
+Bu rehberde bölümün ne olduğunu, nereden geldiğini, neler öğrettiğini ve kimler için doğru bir seçim olabileceğini anlatıyoruz. Olumlu ve olumsuz yönleri birlikte ele almaya çalıştık.
+
+## Öğretim teknolojisi ne demek?
+
+BÖTE'yi anlamak için önce bölümün dayandığı alanı tanımlamak gerekiyor. Alanın uluslararası meslek kuruluşlarından Association for Educational Communications and Technology (AECT), eğitim teknolojisini şöyle tanımlar: "uygun teknolojik süreç ve kaynakları oluşturarak, kullanarak ve yöneterek öğrenmeyi kolaylaştırma ve performansı artırmaya yönelik çalışma ve etik uygulama."[2] Tanımın özgün hâli şöyledir: *"the study and ethical practice of facilitating learning and improving performance by creating, using, and managing appropriate technological processes and resources."*
+
+Bu tanımda iki nokta öne çıkıyor:
+
+- **Teknoloji yalnızca cihaz demek değildir.** Tanım "süreç ve kaynaklardan" söz eder. Bir dersin planlanması, öğretim materyalinin tasarlanması ve öğrenmenin değerlendirilmesi de bu kapsamdadır.
+- **Amaç öğrenmedir.** Bilgisayar, yazılım ya da yapay zekâ aracı öğrenmeye hizmet ettiği ölçüde değerlidir.
+
+Türkiye'de alanı tanıtan çalışmalar da benzer bir çerçeve çizer. Çakır, Çebi ve Özcan, BÖTE'yi anlatırken eğitim ve öğretim teknolojisi tanımlarını, öğretim sistemleri tasarımını ve zamanla alanı kapsayacak kadar genişleyen **insan performans teknolojisi** kavramını birlikte ele alır.[3] Alanın Türkçe temel kaynaklarından biri, 27 üniversiteden 65 yazarın katkısıyla hazırlanan *Öğretim Teknolojilerinin Temelleri* kitabıdır.[4]
+
+## BÖTE'nin kısa tarihi
+
+BÖTE bölümleri **1998 yılında**, YÖK'ün yürüttüğü "Eğitim Fakültelerinin Yeniden Yapılandırılması" sürecinde kuruldu ve 1998–1999 öğretim yılında eğitime başladı.[5] Bu yeniden yapılanma, 1990'ların ortasında başlayıp 1998'de tamamlanan YÖK/Dünya Bankası öğretmen eğitimi projesinin bir parçasıydı.[6]
+
+Bölümün kuruluş gerekçesi o dönemin koşullarını yansıtır. Okullarda bilgisayar kullanımı yaygınlaşırken öğretmenlerin ve öğrencilerin bu teknolojileri yeterince tanımadığı düşünülüyordu. Uzun süre farklı branşlardaki öğretmenlere yaz kurslarıyla kazandırılmaya çalışılan beceriler için ayrı bir öğretmenlik programı açıldı. Bölümün temel amacı ilk ve ortaöğretime bilgisayar ve öğretim teknolojileri öğretmeni yetiştirmek olarak tanımlandı.[5]
+
+Program o günden bu yana birkaç kez güncellendi. YÖK'ün 2018'de yenilediği öğretmen yetiştirme lisans programları arasında Bilgisayar ve Öğretim Teknolojileri Öğretmenliği için de ayrı bir program belgesi yayımlandı.[7]
+
+## Bölümde neler öğretilir?
+
+YÖK'ün öğretmenlik programları üç ana bileşenden oluşur: **alan eğitimi**, **meslek bilgisi** ve **genel kültür**.[7] BÖTE'de bu bileşenler kabaca şöyle karşılık bulur:
+
+| Bileşen | BÖTE'deki karşılığı (örnek konu alanları) |
+|---|---|
+| Alan eğitimi | Programlama, algoritmalar, veri tabanları, bilgisayar ağları, web ve çoklu ortam tasarımı, öğretim tasarımı, uzaktan eğitim |
+| Meslek bilgisi | Eğitim psikolojisi, öğretim ilke ve yöntemleri, ölçme ve değerlendirme, sınıf yönetimi, öğretmenlik uygulaması |
+| Genel kültür | Dil, tarih, bilim ve toplum gibi konularda ortak dersler |
+
+Ders adları ve sıralaması üniversiteden üniversiteye değişebilir. Güncel ders listesini YÖK'ün program belgesinden ve üniversitelerin ders bilgi paketlerinden kontrol etmek en doğrusudur. Sitemizdeki [müfredat sayfası](https://www.bote.web.tr/curriculum) da genel bir fikir verir.
+
+BÖTE'yi bilgisayar bölümlerinden ayıran nokta, teknik bilginin her zaman **öğretme ve öğrenme** bağlamında ele alınmasıdır. Örneğin bir BÖTE öğrencisi bir web uygulaması geliştirirken şu soruları da sorar: Bu uygulama kime, neyi, nasıl öğretecek? Öğrenmenin gerçekleştiğini nasıl anlayacağız?
+
+## Uluslararası çerçeveler bir BÖTE mezunundan ne bekliyor?
+
+Dünyada öğretmenlerin dijital yetkinlikleri için yaygın kullanılan birkaç çerçeve var. Bu çerçeveler, BÖTE'nin neden yalnızca "bilgisayar dersi öğretmenliği" olmadığını da gösterir.
+
+- **ISTE Standartları (Eğitimciler için):** Uluslararası Eğitimde Teknoloji Derneği (ISTE), eğitimcilerden öğrenen, lider, dijital vatandaş, iş birlikçi, tasarımcı, kolaylaştırıcı ve analist rollerini üstlenmelerini bekler.[8]
+- **UNESCO ICT-CFT (3. sürüm):** UNESCO'nun öğretmenler için bilgi ve iletişim teknolojileri yetkinlik çerçevesi 18 yetkinlik ve 64 hedef tanımlar. Çerçeve hem hizmet öncesi hem hizmet içi öğretmen eğitimine rehberlik etmek için tasarlanmıştır.[9]
+- **DigCompEdu:** Avrupa Komisyonu Ortak Araştırma Merkezi'nin eğitimciler için dijital yetkinlik çerçevesi, yetkinlikleri altı alanda toplar. Bu alanlar mesleki katılımdan öğrencilerin dijital yetkinliklerini geliştirmeye kadar uzanır.[10]
+- **TPACK:** Mishra ve Koehler'in modeline göre etkili teknoloji kullanımı teknoloji, pedagoji ve içerik bilgisinin **birlikte** düşünülmesini gerektirir. Bu bilgiler ayrı ayrı yeterli değildir.[11]
+
+Bu çerçevelerin ortak mesajı şu: Teknolojiyi iyi bilmek tek başına yetmez. Öğretmen, teknolojiyi öğrenme hedefine ve öğrencisine göre seçip tasarlayabilmelidir. BÖTE programı da tam olarak bu kesişim noktasında konumlanır.
+
+## Güncel gelişmeler: 2025'te ne değişti?
+
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[12] Haberlere göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[13]
+
+Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
+
+## BÖTE kimler için uygun bir seçim?
+
+Program sayısal (SAY) puan türüyle öğrenci alır. Programın açık olduğu üniversiteler ve kontenjanlar yıldan yıla değiştiği için güncel listeyi YÖK Atlas'tan kontrol edin.[1]
+
+BÖTE şu profildeki adaylar için güçlü bir seçenek olabilir:
+
+- Hem teknolojiye hem de **öğretmeye ve insanlarla çalışmaya** ilgi duyanlar,
+- Kodlamayı bir amaç değil, bir **öğrenme deneyimi tasarlama aracı** olarak görenler,
+- Öğretmenlik yanında öğretim tasarımı, e-öğrenme ya da kurumsal eğitim gibi alanlara açık olmak isteyenler.
+
+Öte yandan göz önünde bulundurulması gereken noktalar da var:
+
+- Yalnızca yazılım geliştirici olmak istiyorsanız, doğrudan bilgisayar ya da yazılım mühendisliği programları daha odaklı bir yol sunar.
+- Öğretmen olarak atanma, bölümden bağımsız olarak kontenjanlara ve merkezi sınav sonuçlarına bağlıdır. Atama sayıları yıllara göre büyük farklılık gösterebilir.
+- Programın sunulduğu üniversite sayısı sınırlıdır. Bu yüzden tercih listesini dikkatle hazırlamak gerekir.
+
+## Sonuç
+
+BÖTE, bilişim bilgisini eğitim bilimleriyle birleştiren, çeyrek asrı aşkın geçmişe sahip bir öğretmenlik programıdır. Uluslararası çerçeveler, teknolojiyi öğrenmeye hizmet edecek biçimde tasarlayabilen öğretmenlere duyulan ihtiyacı açıkça ortaya koyuyor. Türkiye'de ise bölüm, kontenjan tartışmalarıyla 2025'te oluşturulan yeni öğretmenlik alanı arasında yeni bir döneme giriyor. Karar vermeden önce hem ilgi alanlarınızı hem de YÖK Atlas'taki güncel verileri birlikte değerlendirmenizi öneririz.
+
+## Sık Sorulan Sorular
+
+### BÖTE ile bilgisayar mühendisliği arasındaki fark nedir?
+
+Bilgisayar mühendisliği yazılım ve donanım sistemlerinin tasarımına odaklanır. BÖTE ise bilişim bilgisini öğretme, öğrenme ortamı tasarlama ve eğitimde teknoloji kullanımıyla birleştiren bir öğretmenlik programıdır.
+
+### BÖTE hangi puan türüyle öğrenci alır?
+
+YÖK Atlas'ta program sayısal (SAY) puan türüyle listelenir. Kontenjanlar ve programın açık olduğu üniversiteler her yıl değişebildiği için tercih döneminde YÖK Atlas'ı ve ÖSYM kılavuzunu kontrol edin.
+
+### BÖTE mezunu yalnızca öğretmen mi olabilir?
+
+Hayır. Öğretmenlik ana hedef olsa da mezunlar öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım gibi alanlarda da çalışabilir. Ayrıntılar için kariyer yazımıza bakabilirsiniz.
+
+## Kaynaklar
+
+1. Yükseköğretim Kurulu (2026). YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler. https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101 (TR, erişim: 2026-09-25)
+2. Januszewski, A. ve Molenda, M. (Ed.) (2008). Educational Technology: A Definition with Commentary. Routledge (AECT için). https://www.routledge.com/Educational-Technology-A-Definition-with-Commentary/Januszewski-Molenda/p/book/9780805858617 (EN, erişim: 2026-09-25)
+3. Çakır, H., Çebi, A. ve Özcan, S. (2013). BÖTE Nedir? Nasıl Tanımlanır? Okul Müzesiyle Başlayan Serüvenden İnsan Performans Teknolojilerine Uzanan Yolculuk. Eğitim Teknolojisi Kuram ve Uygulama, 3(2), 102–111. https://dergipark.org.tr/tr/pub/etku/issue/6269/84217 (TR, erişim: 2026-09-25)
+4. Çağıltay, K. ve Göktaş, Y. (Ed.) (2016). Öğretim Teknolojilerinin Temelleri: Teoriler, Araştırmalar, Eğilimler (2. baskı). Pegem Akademi. https://pegem.net/ogretim-teknolojilerinin-temelleri (TR, erişim: 2026-09-25)
+5. Anadolu Üniversitesi Eğitim Fakültesi (t.y.). Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü: Bölüm Genel Bilgi. https://www.anadolu.edu.tr/akademik/fakulteler/180/bilgisayar-ve-ogretim-teknolojileri-egitimi-bolumu/bolum-genel-bilgi (TR, erişim: 2026-09-25)
+6. Yükseköğretim Kurulu (2007). Öğretmen Yetiştirme ve Eğitim Fakülteleri (1982-2007). https://www.yok.gov.tr/documents/documents/68f1dc9129d3a.pdf (TR, erişim: 2026-09-25)
+7. Yükseköğretim Kurulu (2018). Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Lisans Programı. https://egitim.yok.gov.tr/tr/document/2432 (TR, erişim: 2026-09-25)
+8. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards (EN, erişim: 2026-09-25)
+9. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
+10. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+11. Mishra, P. ve Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. Teachers College Record, 108(6), 1017–1054. https://doi.org/10.1111/j.1467-9620.2006.00684.x (EN, erişim: 2026-09-25)
+12. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
+13. Memurlar.net (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı. https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html (TR, erişim: 2026-09-25)
+
+---
+
+# BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış
+
+> BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+
+## Kısaca
+
+- Son yıllarda BÖTE programlarının açık olduğu üniversite sayısı ve kontenjanlar belirgin biçimde azaldı. Güncel liste için başvurulacak resmî kaynak YÖK Atlas'tır.
+- Azalmanın başlıca gerekçesi, öğretmen yetiştirme kapasitesini MEB'in ihtiyacıyla uyumlu hâle getirme politikasıdır.
+- Alan akademisyenleri bölümün sorunları ve çözümleri konusunda farklı görüşler taşıyor.
+- Pandemi, öğretmenlerin dijital yetkinlik ihtiyacını görünür kıldı. 2025'te oluşturulan yeni öğretmenlik alanı ise bölüm için yeni bir dönemin işareti olabilir.
+
+"BÖTE kapanıyor mu?" sorusu, tercih dönemlerinde forumlarda ve sosyal medyada sıkça soruluyor. Sorunun arkasında gerçek bir değişim var: BÖTE programına öğrenci alan üniversite sayısı ve kontenjanlar son yıllarda belirgin biçimde azaldı. Güncel program listesi ve kontenjanlar için başvurulacak resmî kaynak YÖK Atlas'tır.[1]
+
+Bu yazıda azalmanın gerekçelerini, alanın içinden gelen farklı görüşleri ve 2025'ten itibaren değişen koşulları ele alıyoruz. Konunun tartışmalı olduğunu biliyoruz. Bu yüzden her görüşü dayandığı kaynakla birlikte aktarmaya özen gösterdik.
+
+## Kontenjanlar nasıl belirleniyor?
+
+Lisans kontenjanları üniversitelerin önerileri doğrultusunda YÖK tarafından belirlenir ve her yıl ÖSYM'nin tercih kılavuzunda yayımlanır. Öğretmenlik programlarında bu kararlara bir etken daha eklenir: **MEB'in öğretmen ihtiyacı**.
+
+Bu politikanın gerekçesi, dönemin Millî Eğitim Bakanı İsmet Yılmaz'ın YÖK'te eğitim fakültesi yöneticileriyle yaptığı toplantıda açıkça dile getirildi. MEB'in açıklamasına göre bakanlığın yaklaşık 70 bin öğretmen ihtiyacına karşılık öğretmen olarak atanmak için yapılan başvuru sayısı 350 bin civarındaydı. Bu tablo, eğitim fakültesi kontenjanlarının ülkenin ihtiyacına göre yeniden düzenlenmesi gerektiği yönünde değerlendirildi.[2]
+
+Aynı dönemde YÖK 25 öğretmenlik lisans programını güncelledi ve güncellemeler 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[3] Kontenjanların ihtiyaca göre planlanması, BÖTE gibi mezun sayısının atama sayısını aştığı alanlarda doğrudan etkili oldu.
+
+## Neden azaldı? Farklı açıklamalar
+
+### 1. Atama ile mezun sayısı arasındaki dengesizlik
+
+En sık dile getirilen açıklama budur. Her yıl atanabilecek bilişim öğretmeni sayısı sınırlı olduğunda, yüksek kontenjanlar mezunları uzun süre atama bekleyen bir gruba dönüştürür. Bu açıdan bakıldığında kontenjan azaltımı, mezunları işsizlikten korumaya yönelik bir önlemdir.
+
+### 2. Alanın kimliği ve rolü üzerine tartışma
+
+Bölümün sorunları yalnızca sayılardan ibaret değil. Bakar Çörez ve Geçer'in BÖTE bölümlerinde görev yapan ve doktora derecesine sahip 43 akademisyenle yaptığı çalışma, alanın sorunları ve bunların nasıl çözülebileceği konusunda akademisyenlerin **farklı görüşler** taşıdığını ortaya koyuyor.[4] Başka bir deyişle, "BÖTE nereye gitmeli?" sorusuna alanın içinden de tek bir cevap gelmiyor.
+
+### 3. "Her öğretmen teknoloji kullanmalı" yaklaşımı
+
+Bir diğer görüşe göre eğitim teknolojisi artık tek bir branşın değil, bütün öğretmenlerin ortak yetkinliği hâline geldi. Avrupa Komisyonu'nun DigCompEdu çerçevesi de dijital yetkinliği branştan bağımsız olarak **tüm eğitimciler** için tanımlar.[5] Bu bakış açısı, ayrı bir "teknoloji öğretmeni" yetiştirme ihtiyacını sorgular.
+
+Karşı görüş ise şunu savunur: Tüm öğretmenlerin temel yetkinlik kazanması, bu yetkinliği geliştirecek, okulda liderlik edecek ve öğretmenlere destek olacak **uzmanlara** duyulan ihtiyacı ortadan kaldırmaz, aksine artırır. Uluslararası Eğitimde Teknoloji Derneği'nin (ISTE) öğretmenlerden ayrı olarak **eğitim teknolojisi koçları** için standartlar yayımlaması bu görüşe örnek gösterilebilir. Bu standartlara göre koçların görevi, öğretmenlerin teknolojiyi derslerine etkili biçimde entegre etmesine yardım etmektir.[6]
+
+## Pandemi ve yapay zekâ: tartışma neden yeniden alevlendi?
+
+2020'deki acil uzaktan eğitim dönemi tabloyu değiştirdi. İlic'in farklı bölgelerdeki devlet üniversitelerinde görev yapan öğretim elemanlarıyla yaptığı nitel çalışma iki sonuca ulaştı. Birincisi, yükseköğretim kurumları uzaktan eğitim sürecini yönetmekte zorlandı. İkincisi, bu süreçte BÖTE öğretim elemanlarının iş yükü, büyük ölçüde teknik işler nedeniyle arttı.[7] Kısacası, "eğitim teknolojisi uzmanına kimin ihtiyacı var?" sorusu pandemide somut bir cevap buldu.
+
+Uluslararası veriler de benzer bir ihtiyaca işaret ediyor:
+
+- OECD'nin TALIS 2018 araştırmasında öğretmenlerin yalnızca %43'ü öğretimde bilgi ve iletişim teknolojileri kullanımına kendini iyi ya da çok iyi hazırlanmış hissettiğini belirtti. Yaklaşık %18'i ise bu alanda yüksek düzeyde mesleki gelişim ihtiyacı bildirdi.[8]
+- UNESCO'nun 2023 Küresel Eğitim İzleme Raporu, ülkelerin yalnızca yarısında öğretmenlerin bilgi ve iletişim teknolojileri becerilerini geliştirmeye yönelik standartlar bulunduğunu belirtiyor.[9]
+
+Aynı rapor bir uyarı da içeriyor: Eğitim teknolojilerinin öğrenmeye katkısına dair sağlam ve tarafsız kanıt sınırlıdır ve teknoloji her durumda doğru çözüm değildir.[9] Bu uyarı iki yöne de okunabilir. Bir yandan "her şey dijitale" iyimserliğine karşı dikkatli olmak gerekir. Öte yandan, hangi teknolojinin hangi koşulda işe yaradığını değerlendirebilecek uzmanlara ihtiyaç vardır.
+
+Küresel ölçekte öğretmen açığı da gündemde. UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var.[10] Ancak bu rakamın büyük kısmı Sahra Altı Afrika gibi bölgelerden kaynaklanıyor ve Türkiye'deki branş bazlı tabloyu doğrudan yansıtmıyor. Bu yüzden küresel açık, Türkiye'deki BÖTE kontenjanları için doğrudan bir gerekçe olarak kullanılmamalıdır.
+
+## 2025 sonrası: yeni bir sayfa mı?
+
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[11][12]
+
+Bu değişiklik iki farklı biçimde yorumlanabilir:
+
+- **İyimser yorum:** Bölüm adıyla birebir örtüşen bir öğretmenlik alanının tanımlanması, BÖTE'nin okullardaki rolünü netleştiriyor. Uzun vadede kontenjan planlamasına da daha sağlam bir zemin sağlayabilir.
+- **Temkinli yorum:** Alanın tanımlanması, kadro ve kontenjan artışı anlamına gelmiyor. Atama sayıları ve lisans kontenjanları her yıl ayrı kararlarla belirleniyor.
+
+## Aday öğrenciler ne yapmalı?
+
+1. **Güncel veriyi resmî kaynaktan kontrol edin.** Programın açık olduğu üniversiteleri, kontenjanları ve taban sıralamaları YÖK Atlas'tan inceleyin.[1]
+2. **Tek bir kariyer yoluna bağlı kalmayın.** Öğretmenlik yanında öğretim tasarımı, e-öğrenme ve kurumsal eğitim seçeneklerini de değerlendirin. Ayrıntılar [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda.
+3. **Bölümün içeriğini tanıyın.** Programın neyi amaçladığını [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) yazımızda anlattık.
+
+## Sonuç
+
+BÖTE'deki kontenjan azalması, bölümün "gereksiz" olduğunun değil, öğretmen yetiştirme politikasının ihtiyaç odaklı planlamaya yönelmesinin bir sonucu olarak okunabilir. Aynı dönemde alanın kimliğine dair tartışmalar da sürüyor. Pandemi ve yapay zekâ, eğitim teknolojisi uzmanlığına duyulan ihtiyacı yeniden görünür kıldı. 2025'teki yeni atama alanı ise bölüm için yeni bir dönemin işareti olabilir. Bu işaretin kontenjanlara ve atamalara nasıl yansıyacağını izleyip bu yazıyı güncellemeye devam edeceğiz.
+
+## Sık Sorulan Sorular
+
+### BÖTE kapandı mı?
+
+Hayır. Program hâlâ bazı üniversitelerde öğrenci alıyor, ancak programın açık olduğu üniversite sayısı geçmişe göre çok az. Güncel durum için YÖK Atlas'taki program listesini kontrol edin.
+
+### Kontenjanları kim belirler?
+
+Lisans kontenjanları üniversitelerin önerileri doğrultusunda YÖK tarafından belirlenir ve ÖSYM kılavuzunda yayımlanır. Öğretmenlik programlarında MEB'in öğretmen ihtiyacı da belirleyici bir etkendir.
+
+### Yeni atama alanı kontenjanları artırır mı?
+
+Bunu şimdiden söylemek mümkün değil. Yeni alan, BÖTE mezunlarının genel okullardaki rolünü netleştiriyor. Ancak lisans kontenjanları ve atama sayıları ayrı kararlarla belirlenir.
+
+## Kaynaklar
+
+1. Yükseköğretim Kurulu (2026). YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler. https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101 (TR, erişim: 2026-09-25)
+2. Millî Eğitim Bakanlığı (t.y.). Bakan Yılmaz, YÖK'te Eğitim Fakültelerinin Yöneticileriyle Bir Araya Geldi. https://www.meb.gov.tr/bakan-yilmaz-yokte-egitim-fakultelerinin-yoneticileriyle-bir-araya-geldi/haber/11969/tr (TR, erişim: 2026-09-25)
+3. Memurlar.net (2018). 25 Öğretmenlik Lisans Programı Güncellendi. https://www.memurlar.net/haber/749268/25-ogretmenlik-lisans-programi-guncellendi.html (TR, erişim: 2026-09-25)
+4. Bakar Çörez, A. ve Geçer, A. (2020). Akademisyenlerin Gözünden Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü'ne Bakış. Kastamonu Eğitim Dergisi, 28(1), 17–35. https://dergipark.org.tr/tr/pub/kefdergi/issue/52233/678517 (TR, erişim: 2026-09-25)
+5. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+6. International Society for Technology in Education (ISTE) (2019). ISTE Standards: For Coaches. https://iste.org/standards/coaches (EN, erişim: 2026-09-25)
+7. İlic, U. (2020). Yükseköğretimde Uzaktan Eğitim Sürecinde Eski-Yeni Bir Bölüm: BÖTE. Batı Anadolu Eğitim Bilimleri Dergisi, 11(2), 395–409. https://dergipark.org.tr/tr/pub/baebd/article/763512 (TR, erişim: 2026-09-25)
+8. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+9. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
+10. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
+11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
+12. Memurlar.net (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı. https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html (TR, erişim: 2026-09-25)
+
+---
+
+# Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi
+
+> Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
+
+## Kısaca
+
+- Türkiye'de öğretmen yetiştirme 1982'den beri üniversitelerin görevidir. Ana model, alan ve öğretmenlik eğitiminin birlikte verildiği eğitim fakülteleridir.
+- Fakülteler 1998'de yeniden yapılandırıldı. Öğretmenlik lisans programları 2018'de güncellendi.
+- 7528 sayılı Kanun'la öğretmenliğe giriş değişti: Önce AGS, ardından Millî Eğitim Akademisi'nde hazırlık eğitimi. İlk hazırlık eğitimi 13 Nisan 2026'da başladı.
+- Aralık 2025'te pedagojik formasyona ilişkin hüküm esaslardan çıkarıldı. Bu değişiklik, eğitim fakültelerinin rolü üzerine yeni bir tartışma başlattı.
+
+Öğretmen olmak isteyen birinin aklına gelen ilk adres genellikle eğitim fakültesidir. Peki eğitim fakülteleri nasıl bir yapıya sahip, bugünkü hâline nasıl geldi ve 2024'ten itibaren değişen öğretmen atama sisteminde nerede duruyor? Bu yazıda Türkiye'deki öğretmen yetiştirme sistemini tarihçesiyle, güncel değişiklikleriyle ve dünyadaki örneklerle birlikte anlatıyoruz.
+
+## Eğitim fakültesi nedir?
+
+Eğitim fakültesi, okul öncesinden ortaöğretime kadar farklı kademe ve branşlarda öğretmen yetiştiren yükseköğretim birimidir. Avrupa Komisyonu'nun eğitim sistemleri bilgi ağı Eurydice'e göre Türkiye'de öğretmen yetiştirme **1982'den beri üniversiteler tarafından** yürütülüyor. Uygulanan ana model **eşzamanlı (concurrent) model**, ana kurumlar da eğitim fakülteleridir.[1]
+
+Eşzamanlı modelde öğrenci, lisans eğitimi boyunca hem öğreteceği alanın bilgisini hem de öğretmenlik mesleğinin bilgisini birlikte alır. Buna karşılık **ardışık (consecutive) modelde** önce bir alanda lisans tamamlanır, öğretmenlik eğitimi sonradan eklenir. Türkiye'de pedagojik formasyon uzun yıllar bu ikinci yolun karşılığı oldu.
+
+Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, fen ve dil öğretmenliklerine, rehberlik ve özel eğitimden [Bilgisayar ve Öğretim Teknolojileri Öğretmenliği](https://www.bote.web.tr/blog/bote-nedir)'ne kadar pek çok program bulunur.
+
+## Kısa bir tarihçe
+
+- **1982:** Öğretmen yetiştirme görevi üniversitelere devredildi.[1]
+- **1994–1998:** YÖK/Dünya Bankası hizmet öncesi öğretmen eğitimi projesi kapsamında eğitim fakülteleri yeniden yapılandırıldı. Bölümler, millî eğitimin okul yapısına uygun öğretmen yetiştirecek biçimde düzenlendi. BÖTE gibi yeni bölümler de bu süreçte açıldı.[2]
+- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[3] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Geliştirme" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[4]
+- **2024:** 7528 sayılı Öğretmenlik Mesleği Kanunu yayımlandı. Kanun, öğretmenlerin seçilmesini, yetiştirilmesini ve atanmasını yeniden düzenledi ve **Millî Eğitim Akademisi**'ni kurdu.[5]
+- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[6] Aralık 2025'te pedagojik formasyona ilişkin hüküm öğretmenlik esaslarından çıkarıldı.[7][8]
+- **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[9]
+
+## Programlar nasıl yapılandırılmış?
+
+YÖK'ün öğretmenlik lisans programları üç ana ders grubundan oluşur:
+
+- **Alan eğitimi:** Öğretilecek alanın bilgisi ve o alanın öğretim yöntemleri.
+- **Meslek bilgisi:** Eğitim psikolojisi, öğretim ilke ve yöntemleri, ölçme ve değerlendirme, sınıf yönetimi, öğretim teknolojileri.
+- **Genel kültür:** Farklı disiplinlerden ortak dersler.
+
+Programların son yılında öğretmen adayları MEB okullarında **öğretmenlik uygulaması** yapar. Eşzamanlı modelin en güçlü yanı da budur: Kuram ve uygulama lisans boyunca birlikte ilerler.
+
+## 2024 sonrası: öğretmenliğe giden yeni yol
+
+7528 sayılı Kanun'a göre öğretmen olacak kişiler, öğretmenliğe kaynak olan en az lisans düzeyindeki bir programdan mezun olan ve Millî Eğitim Akademisi'nin hazırlık eğitiminde başarılı olan adaylar arasından seçilir.[5] Yeni süreç özetle şöyle işler:
+
+1. Öğretmenliğe kaynak olan bir lisans programından mezun olmak,
+2. ÖSYM'nin yaptığı **MEB Akademi Giriş Sınavı'na (AGS)** girmek,[6]
+3. Millî Eğitim Akademisi'nin **hazırlık eğitimini** tamamlamak.
+
+MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[9]
+
+Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. MEB Talim ve Terbiye Kurulunun kararıyla pedagojik formasyona ilişkin madde öğretmenlik esaslarından çıkarıldı. Akademi hazırlık eğitimine kabul edilen adaylardan artık formasyon koşulu aranmıyor.[7] Haberlere göre bu değişiklikle fen-edebiyat fakültesi mezunları da eğitim fakültesi mezunlarıyla birlikte öğretmen atamasına başvurabilir hâle geldi.[8]
+
+## Tartışma: Eğitim fakülteleri hâlâ gerekli mi?
+
+Formasyon düzenlemesi, eğitim fakültelerinin rolü üzerine yeni bir tartışma başlattı. Tartışmayı iki tarafıyla aktarmak gerekiyor.
+
+**Değişikliği destekleyenler,** alan bilgisi güçlü mezunların öğretmenliğe erişiminin kolaylaşacağını söylüyor. Mesleki hazırlığın akademide ortak bir standartla verileceğini, bunun da öğretmen adayları arasındaki farkları azaltacağını düşünüyorlar.
+
+**Eşzamanlı modeli savunanlar** ise öğretmenliğin dört yıl boyunca kuram ve okul uygulamasıyla birlikte olgunlaşan bir mesleki kimlik gerektirdiğini hatırlatıyor. Birkaç dönemlik bir hazırlık eğitiminin bunu tam olarak karşılayıp karşılayamayacağını soruyorlar.
+
+Uluslararası araştırmalar bu tartışmaya net bir "tek model" cevabı vermiyor, ama önemli ipuçları sunuyor. Linda Darling-Hammond, öğretmen yetiştirmede güçlü sistemlere sahip Finlandiya, Singapur, Kanada (Alberta ve Ontario) ve Avustralya'yı (Victoria ve Yeni Güney Galler) inceledi. Çalışmasında bu sistemlerin öğretmen seçimi, hizmet öncesi hazırlık, mesleğe uyum (induction) ve sürekli mesleki gelişimi bir bütün olarak ele aldığını gösteriyor.[10] Başka bir deyişle, belirleyici olan tek başına fakültenin adı değil, bu aşamaların birbirine ne kadar iyi bağlandığıdır.
+
+Öğretmenlerin hazır bulunuşluğuna dair veriler de dikkat çekici. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerinde öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde teknoloji kullanımına dair eğitim almıştı. Bu konuda kendini iyi hazırlanmış hissedenlerin oranı ise %43'tü.[11] Hangi model seçilirse seçilsin, hizmet öncesi eğitimin içeriği ve kalitesi belirleyici olmaya devam ediyor.
+
+## Dünyadaki tablo: öğretmen açığı ve mesleğin cazibesi
+
+UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var. Bu ihtiyacın önemli bir kısmı Sahra Altı Afrika'dan kaynaklanıyor. Yüksek gelirli ülkelerde ise asıl sorun, öğretmenliğin cazibesinin azalması ve öğretmenleri meslekte tutmak.[12] Rapor çözüm olarak öğretmenliğin iş birliğine dayalı bir meslek olarak yeniden kurgulanmasını, yaşam boyu mesleki gelişimi ve öğretmenlerin karar süreçlerine katılımını öneriyor.[12]
+
+Türkiye'nin durumu bu tablodan farklı. Türkiye'de öğretmen adayı sayısı, uzun süredir atama sayısının üzerinde seyrediyor. Bu nedenle tartışma "yeterli öğretmen" sorusundan çok "doğru hazırlanmış öğretmen" sorusu etrafında dönüyor.
+
+## Aday öğrenciler için öneriler
+
+- **Mezuniyetin atama anlamına gelmediğini** bilin. AGS ve akademi sürecini baştan planlayın.
+- **Öğretmenlik uygulamasını ciddiye alın.** Eşzamanlı modelin en büyük avantajı, okul deneyimini lisans boyunca edinmenizdir.
+- **Mevzuatı takip edin.** Öğretmenlik alanları ve atama esasları son iki yılda sık değişti. Güncel metinler için MEB ve YÖK duyurularını kontrol edin.
+
+## Sonuç
+
+Eğitim fakülteleri kırk yılı aşkın süredir Türkiye'de öğretmen yetiştirmenin merkezinde yer alıyor. 7528 sayılı Kanun, Millî Eğitim Akademisi ve formasyon düzenlemesi, bu merkezi rolün yeniden tanımlandığı bir döneme işaret ediyor. Uluslararası deneyim, iyi öğretmen yetiştirmenin tek bir kurumdan değil, seçimden mesleki gelişime uzanan tutarlı bir sistemden geçtiğini gösteriyor. Türkiye'deki yeni sistemin bu tutarlılığı ne ölçüde sağlayacağını gelişmeleri izleyerek bu yazıda güncellemeye devam edeceğiz.
+
+## Sık Sorulan Sorular
+
+### Eğitim fakültesi mezunu doğrudan öğretmen olur mu?
+
+Hayır. Mezuniyet öğretmenliğe başvurma hakkı verir. MEB'e öğretmen olarak atanmak için AGS'ye girmek, Millî Eğitim Akademisi'nin hazırlık eğitimine kabul edilmek ve bu eğitimi başarıyla tamamlamak gerekir.
+
+### Pedagojik formasyon tamamen kalktı mı?
+
+MEB Talim ve Terbiye Kurulunun 19 Aralık 2025 tarihli kararıyla pedagojik formasyona ilişkin madde esaslardan çıkarıldı. Akademi hazırlık eğitimine kabul edilen adaylardan formasyon koşulu aranmıyor. Ayrıntılar için güncel mevzuatı kontrol edin.
+
+### Eşzamanlı ve ardışık model ne demek?
+
+Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte verilir; eğitim fakülteleri bu modeli uygular. Ardışık modelde ise önce alan lisansı tamamlanır, öğretmenlik eğitimi sonradan alınır.
+
+## Kaynaklar
+
+1. European Commission, Eurydice (2026). Türkiye: Initial Education for Teachers Working in Early Childhood and School Education. https://eurydice.eacea.ec.europa.eu/eurypedia/turkiye/initial-education-teachers-working-early-childhood-and-school-education (EN, erişim: 2026-09-25)
+2. Yükseköğretim Kurulu (2007). Öğretmen Yetiştirme ve Eğitim Fakülteleri (1982-2007). https://www.yok.gov.tr/documents/documents/68f1dc9129d3a.pdf (TR, erişim: 2026-09-25)
+3. Memurlar.net (2018). 25 Öğretmenlik Lisans Programı Güncellendi. https://www.memurlar.net/haber/749268/25-ogretmenlik-lisans-programi-guncellendi.html (TR, erişim: 2026-09-25)
+4. Çetin, A. vd. (2021). 2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 52. https://dergipark.org.tr/tr/pub/deubefd/article/904931 (TR, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
+6. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
+7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
+8. Memurlar.net (2025). Eğitim ile Fen-Edebiyat Fakülteleri Öğretmen Atamada Eşitlendi. https://www.memurlar.net/haber/1155352/egitim-ile-fen-edebiyat-fakulteleri-ogretmen-atamada-esitlendi.html (TR, erişim: 2026-09-25)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-09-25)
+10. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
+11. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+12. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)

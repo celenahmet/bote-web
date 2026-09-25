@@ -10,6 +10,8 @@ import { spawnSync } from 'node:child_process';
 import { deployedFiles } from './serve.mjs';
 import { loadBlog, postMarkdown, ROOT, COVER_DIR } from './blog/content.mjs';
 import { UNIVERSITIES } from './blog/site-nav.mjs';
+import YAML from 'yaml';
+import { renderMarkdown } from './blog/markdown.mjs';
 import { makeCovers } from './blog/covers.mjs';
 import { esc, xmlEsc } from './blog/util.mjs';
 
@@ -71,6 +73,56 @@ const out = new Map(); // depo yolu -> icerik
 fs.rmSync(astroOut, { recursive: true, force: true });
 out.set('api/_lib/posts.json', `${JSON.stringify(posts.map((p) => p.slug))}\n`);
 
+// Markdown kaynakli ana site sayfalari (content/pages): isaretler arasi ve bas etiketleri yenilenir.
+{
+  const pagesSrc = [
+    ['graduation/index.html', 'content/pages/mezunlar.md', 'tr'],
+    ['en/graduation/index.html', 'content/pages/en-graduates.md', 'en'],
+  ];
+  const pageErrors = [];
+  for (const [file, srcRel, lang] of pagesSrc) {
+    const raw = fs.readFileSync(path.join(ROOT, srcRel), 'utf8');
+    const m = /^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/.exec(raw);
+    const fm = YAML.parse(m[1]);
+    const sources = fm.sources.map((s) => ({ ...s, year: String(s.year), lang: String(s.lang).toLowerCase(), accessed: String(s.accessed) }));
+    const foreign = sources.filter((s) => s.lang !== 'tr').length;
+    if (foreign < cfg.minForeignSources) pageErrors.push(`${srcRel}: en az ${cfg.minForeignSources} yabanci kaynak zorunlu (su an ${foreign})`);
+    const desc = String(fm.description).trim();
+    if (desc.length < 70 || desc.length > 165) pageErrors.push(`${srcRel}: description 70-165 karakter olmali (su an ${desc.length})`);
+    let rendered;
+    try { rendered = renderMarkdown(m[2], { sources, root: ROOT, file: srcRel }); } catch (err) { pageErrors.push(err.message); continue; }
+    for (const s of sources) if (!rendered.citeOrder.includes(s.id)) pageErrors.push(`${srcRel}: kaynak metinde atif almamis: [@${s.id}]`);
+    const ordered = [...rendered.citeOrder.map((id) => sources.find((s) => s.id === id)), ...sources.filter((s) => !rendered.citeOrder.includes(s.id))];
+    const body = rendered.html
+      .replace(/<span class="sidenote"[\s\S]*?<\/span><\/span>/g, '')
+      .replace(/href="#kaynak-(\d+)"/g, 'href="#kaynak-$1"');
+    const accessedLabel = lang === 'en' ? 'accessed' : 'erişim';
+    const srcHtml = `<section class="page-sources" id="kaynaklar"><h2>${lang === 'en' ? 'Sources' : 'Kaynaklar'}</h2><ol>${ordered.map((s, i) => {
+      const who = s.author ? `${esc(s.author)} (${esc(s.year)}). ` : `${esc(s.publisher)} (${esc(s.year)}). `;
+      const pub = s.author && s.publisher ? ` ${esc(s.publisher)}.` : '';
+      return `<li id="kaynak-${i + 1}">${who}<cite>${esc(s.title)}</cite>.${pub} <a href="${esc(s.url)}" rel="noopener" target="_blank">${esc(s.url.replace(/^https?:\/\//, '').replace(/\/$/, ''))}</a><span class="lang">${esc(s.lang.toUpperCase())}</span> ${accessedLabel} ${esc(s.accessed)}</li>`;
+    }).join('')}</ol></section>`;
+    let cur = fs.readFileSync(path.join(ROOT, file), 'utf8');
+    const re = /(<!-- page:md:start -->)[\s\S]*?(<!-- page:md:end -->)/;
+    if (!re.test(cur)) { pageErrors.push(`${file}: page:md isaretleri yok`); continue; }
+    const t = esc(fm.title);
+    const d = esc(desc);
+    cur = cur.replace(re, `$1\n${body}${srcHtml}\n$2`)
+      .replace(/<title>[\s\S]*?<\/title>/, `<title>${t}</title>`)
+      .replace(/(<meta name="description" content=")[^"]*"/, `$1${d}"`)
+      .replace(/(<meta property="og:title" content=")[^"]*"/, `$1${t}"`)
+      .replace(/(<meta name="twitter:title" content=")[^"]*"/, `$1${t}"`)
+      .replace(/(<meta property="og:description" content=")[^"]*"/, `$1${d}"`)
+      .replace(/(<meta name="twitter:description" content=")[^"]*"/, `$1${d}"`)
+      .replace(/("@type": "WebPage", "url": "[^"]+", "name": ")[^"]*"/, `$1${fm.title.replace(/"/g, '\\"')}"`);
+    out.set(file, cur);
+  }
+  if (pageErrors.length) {
+    console.error(`Sayfa dogrulama hatalari:\n- ${pageErrors.join('\n- ')}`);
+    process.exit(1);
+  }
+}
+
 // ---------------------------------------------------------------- eski sayfalar (sitemap, llms.txt)
 const decode = (s) => s.replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
 function pageInfo(rel, html) {
@@ -87,7 +139,8 @@ function pageInfo(rel, html) {
 }
 const legacy = [];
 for (const rel of deployedFiles(ROOT).filter((f) => f.endsWith('.html') && !f.startsWith('blog/') && f !== '404.html' && !/^google[0-9a-f]+\.html$/.test(f))) {
-  const info = pageInfo(rel, fs.readFileSync(path.join(ROOT, rel), 'utf8'));
+  // Bu derlemede uretilen sayfa varsa guncel hali okunur (--check kararli kalsin)
+  const info = pageInfo(rel, out.has(rel) ? String(out.get(rel)) : fs.readFileSync(path.join(ROOT, rel), 'utf8'));
   if (/noindex/i.test(info.robots)) continue;
   if (!info.canonical) { warnings.push(`${rel}: canonical yok; sitemap'e alinmadi`); continue; }
   if (info.canonical !== abs(info.served)) { warnings.push(`${rel}: canonical (${info.canonical}) sayfa adresiyle ayni degil; sitemap'e alinmadi`); continue; }
@@ -176,7 +229,7 @@ ${live.map((p) => postMarkdown(blog, p, false)).join('\n---\n\n') || 'Henüz yay
 if (cfg.ads.adsense.client) out.set('ads.txt', `google.com, ${cfg.ads.adsense.client.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0\n`);
 
 // ---------------------------------------------------------------- yaz / denetle
-const managedRoot = ['sitemap.xml', 'llms.txt', 'llms-full.txt', 'api/_lib/posts.json', 'site-map/index.html', 'en/site-map/index.html'];
+const managedRoot = ['sitemap.xml', 'llms.txt', 'llms-full.txt', 'api/_lib/posts.json', 'site-map/index.html', 'en/site-map/index.html', 'graduation/index.html', 'en/graduation/index.html'];
 function existingBlogFiles() {
   const res = [];
   if (!fs.existsSync(path.join(ROOT, 'blog'))) return res;

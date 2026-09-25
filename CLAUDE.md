@@ -39,5 +39,6 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   adası olarak çalışır. Tasarım: "kaynak odaklı okuma" — atıflar geniş ekranda metnin
   yanında kenar notu, mor-pembe palet; varsayılan açık tema (koyu tema yalnızca düğmeyle
   seçilir); ana sitenin görünümünü taklit etmez.
+- Mezunlar sayfası içeriği `content/pages/mezunlar.md` ve `en-graduates.md`'den üretilir.
 - Blog kaynağı `content/blog/`, üretilen çıktı `blog/` (commit'lenir):
   `cd tools && npm run build` (Astro + kök dosyalar: sitemap, llms.txt, site haritaları).

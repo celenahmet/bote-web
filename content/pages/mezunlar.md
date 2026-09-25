@@ -1,6 +1,4 @@
 ---
-# /graduation (Mezunlar) sayfasi icin ozgun icerik taslagi. Onaylaninca sayfaya islenir;
-# ardindan /en/graduation icin Ingilizce ceviri hazirlanir.
 title: "BÖTE Mezunları: Mezuniyet Sonrası Yol Haritası"
 description: "BÖTE mezunları için yol haritası: diplomanın anlamı, AGS ve Millî Eğitim Akademisi, lisansüstü eğitim, Erasmus+ yeni mezun stajı ve sürekli mesleki gelişim."
 sources:
