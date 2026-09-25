@@ -1,0 +1,65 @@
+# BÖTE Blog ayarlari. Uretici: cd tools && npm run blog
+siteUrl: https://www.bote.web.tr
+title: BÖTE Blog
+tagline: Bölüm, eğitim fakültesi ve öğretmen yetiştirme üzerine kaynaklı yazılar
+description: >-
+  Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve
+  öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar.
+perPage: 12
+
+# Yazar imzasi (E-E-A-T): profil ve yayin ilkeleri /blog/editor-ekibi sayfasinda.
+author:
+  name: BÖTE Editör Ekibi
+  slug: editor-ekibi
+
+# Yazi zorunlulugu: en az bu kadar yabanci (lang != tr) kaynak.
+minForeignSources: 2
+
+categories:
+  - slug: bolum-rehberi
+    name: Bölüm Rehberi
+    description: BÖTE bölümünü tanımak isteyen aday öğrenciler ve veliler için bölümün yapısı, dersleri ve kazanımları.
+  - slug: kariyer
+    name: Kariyer
+    description: BÖTE mezunlarının çalışma alanları, öğretmenlik ve öğretmenlik dışı kariyer yolları.
+  - slug: yuksekogretim
+    name: Yükseköğretim ve Politika
+    description: YÖK kararları, kontenjanlar ve öğretmen yetiştirme politikalarına dair gelişmeler.
+  - slug: egitim-fakultesi
+    name: Eğitim Fakültesi
+    description: Eğitim fakültelerinin yapısı, bölümleri ve öğretmen yetiştirme sistemi.
+  - slug: egitim-teknolojileri
+    name: Eğitim Teknolojileri
+    description: Öğretim teknolojileri, dijital yetkinlikler ve eğitimde yapay zekâ üzerine yazılar.
+
+# Reklam alanlari. adsense.client doldurulursa (ca-pub-...) ilgili alanlarda AdSense
+# gosterilir ve kok dizine ads.txt uretilir; bos ise site ici tanitim (house) gosterilir.
+ads:
+  adsense:
+    client: ""
+    slots:
+      sidebar-top: ""
+      sidebar-bottom: ""
+      article-end: ""
+  house:
+    - id: uniconnectly-etkinlik
+      slots: [sidebar-top, article-end]
+      brand: UniConnectly
+      title: Topluluğunun etkinliklerini tek yerden yönet
+      text: >-
+        Topluluk sayfanı oluştur, etkinliğini duyur, katılımcı kayıtlarını topla.
+        Üniversite toplulukları için UniConnectly.
+      cta: UniConnectly'yi keşfet
+      url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog
+      # Magaza baglantilari (App Store, Google Play vb.) eklenince rozet olarak gosterilir.
+      stores: []
+    - id: uniconnectly-rehber
+      slots: [sidebar-bottom]
+      brand: UniConnectly
+      title: Öğrencilere özel fırsatlar tek yerde
+      text: >-
+        GitHub Student Developer Pack'ten TÜBİTAK 2209-A'ya, öğrenci
+        topluluklarına yönelik rehberler UniConnectly Blog'da.
+      cta: Rehberleri incele
+      url: https://uniconnectly.com/blog?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-rehber
+      stores: []

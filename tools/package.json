@@ -1,0 +1,28 @@
+{
+  "name": "bote-web-tools",
+  "private": true,
+  "type": "module",
+  "description": "bote.web.tr blog uretici, yerel sunucu ve testler (Vercel'e yuklenmez)",
+  "scripts": {
+    "build": "node build-blog.mjs",
+    "serve": "node serve.mjs",
+    "test": "node build-blog.mjs --check && node check-site.mjs",
+    "lighthouse": "node lighthouse.mjs",
+    "preview": "node preview-drafts.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fontsource/poppins": "^5.3.0",
+    "chrome-launcher": "^1.2.1",
+    "fast-xml-parser": "^5.11.1",
+    "ignore": "^7.0.10",
+    "lighthouse": "^13.5.0",
+    "marked": "^18.0.14",
+    "node-html-parser": "^7.1.0",
+    "puppeteer-core": "^25.12.0",
+    "robots-parser": "^3.0.1",
+    "yaml": "^2.9.1"
+  }
+}

@@ -1,0 +1,49 @@
+# BÖTE — Bilgisayar ve Öğretim Teknolojileri Eğitimi
+
+> bote.web.tr, Türkiye'deki Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan Türkçe/İngilizce bilgi sitesidir. Bölümün müfredatı, meslek unvanları, staj ve akreditasyon bilgileri ile BÖTE, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış blog yazıları içerir.
+
+- Blog yazıları en az iki uluslararası kaynağa dayanır; her yazının sonunda numaralı kaynakça vardır.
+- Her blog yazısının Markdown sürümü, yazı adresine `.md` eklenerek alınabilir. Tüm yazıların tam metni: https://www.bote.web.tr/llms-full.txt
+- İçerik kaynak gösterilerek alıntılanabilir. Yayın ilkeleri: https://www.bote.web.tr/blog/editor-ekibi
+
+## Blog
+
+- [BÖTE Blog](https://www.bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar.
+
+## Bölüm sayfaları
+
+- [BÖTE : Bilgisayar ve Öğretim Teknolojileri Eğitimi](https://www.bote.web.tr/): CEIT (Computer Education and Instructional Teaching), bölümü eğitim fakültelerinin yeniden yapılandırılma sürecinde 1998 yılında kurulmuştur. Bölüm...
+- [BÖTE - Hakkımızda](https://www.bote.web.tr/about): 1998 yılında eğitim fakültelerinin yeniden yapılandırılması sürecinde Bilgisayar öğretmenliğine olan ihtiyaçtan olmuştur. Bilgisayarın ülkemize entegre...
+- [BÖTE - Akreditasyon](https://www.bote.web.tr/accreditation): Akreditasyon; bir akreditasyon kuruluşu tarafından belirli bir alanda önceden belirlenmiş, akademik ve alana özgü standartların bir yükseköğretim...
+- [BÖTE - İletişim](https://www.bote.web.tr/contact): BÖTE tanıtım sitesiyle iletişime geçin: e-posta, WhatsApp hattı ve adres bilgileri. Soru, öneri ve yazılardaki hata bildirimleriniz için bize yazın.
+- [BÖTE - Ekibimiz](https://www.bote.web.tr/crew): bote.web.tr&#x27;yi hazırlayan ekip: kurucu Ahmet Çelen ve BÖTE tanıtım sitesinin arkasındaki çalışmalar hakkında bilgi.
+- [BÖTE Müfredat](https://www.bote.web.tr/curriculum): 2006 yılından beri kullanılan müfredat 2018 yılında tekrar revize edilerek öğrencilere sunuldu.
+- [Okuryazarlıklar: P21 ve 21. Yüzyıl Becerileri | BÖTE](https://www.bote.web.tr/ebit/literacy): P21 çerçevesinde 21. yüzyıl okuryazarlıkları: bilgi ve teknoloji okuryazarlığı, eleştirel düşünme, iletişim ve iş birliği becerileri üzerine BÖTE rehberi.
+- [Uzaktan Eğitim Nedir? | BÖTE](https://www.bote.web.tr/ebit/online): Uzaktan eğitim nedir, nasıl işler? Dijital platformlarla zaman ve mekândan bağımsız öğrenmenin özellikleri, avantajları ve sınırlılıkları üzerine BÖTE rehberi.
+- [BÖTE - Sıkça Sorulan Sorular](https://www.bote.web.tr/faq): Sıkça sorulan sorulara buradan ulaşabilirsiniz. Bölümle ilgili çok daha fazla şey öğrenmek için soru ve yanıtlarına bakabilirsiniz. Tercih yapılmadan...
+- [BÖTE - Mezunlar](https://www.bote.web.tr/graduation): BÖTE mezunlarının kamu ve özel sektörde çalışabildiği alanlar: eğitim teknoloğu, bilişim teknolojileri uzmanı, yazılım uzmanı, akademisyen ve daha fazlası.
+- [BÖTE - Staj İmkanları](https://www.bote.web.tr/internship): Staj, eğitim hayatı boyunca edinilen teorik bilgileri uygulamaya dökme imkanını sağlayan, iş hayatına ilk adımın atıldığı hazırlık dönemidir. Kariyer...
+- [BÖTE - Meslek Unvanları](https://www.bote.web.tr/jobtitle): BÖTE meslek unvanları: eğitim teknoloğu, bilişim teknolojileri uzmanı, yazılım uzmanı, bilgi işlem, akademisyen ve sosyal medya uzmanı gibi kamu ve özel sektör rolleri.
+- [BÖTE - Sosyal Medya](https://www.bote.web.tr/media): BÖTE&#x27;nin Instagram, YouTube ve LinkedIn hesapları: bölüm duyurularını, etkinlikleri ve paylaşımları sosyal medyadan takip edin.
+- [BÖTE - Site Haritası](https://www.bote.web.tr/site-map): bote.web.tr site haritası: bölüm tanıtımı, müfredat, meslek unvanları, staj, akreditasyon, üniversiteler, blog ve İngilizce sayfalara tek yerden ulaşın.
+
+## English pages
+
+- [CEIT : Computer Education and Instructional Teaching](https://www.bote.web.tr/en): Computer Education and Instructional Teaching, It was established in 1998 during the restructuring process of education faculties. Graduates of the...
+- [CEIT - About](https://www.bote.web.tr/en/about): The year is 1998, education faculties are being restructured. In a sense, the cards are being redistributed. With the digitalizing world, it is...
+- [CEIT - Accreditation](https://www.bote.web.tr/en/accreditation): Accreditation; It refers to the evaluation and external quality assurance process that measures whether a higher education program meets the academic...
+- [CEIT - Contact](https://www.bote.web.tr/en/contact): Contact the CEIT (BÖTE) information site: email, WhatsApp line and address. Write to us with questions, suggestions or corrections.
+- [CEIT - Our Crew](https://www.bote.web.tr/en/crew): Meet the team behind bote.web.tr, the site introducing Computer Education and Instructional Technology (CEIT/BÖTE): founder Ahmet Çelen and contributors.
+- [CEIT - Curriculum](https://www.bote.web.tr/en/curriculum): The curriculum, which has been used since 2006, was revised again in 2018 and presented to students.
+- [CEIT - Frequently Asked Questions](https://www.bote.web.tr/en/faq): You can find frequently asked questions here. You can look at the questions and answers to learn more about the episode. It contains questions that are...
+- [CEIT - Graduation](https://www.bote.web.tr/en/graduation): Graduates of Computer Education and Instructional Technology (CEIT/BÖTE): job titles and career areas in the public and private sectors.
+- [BÖTE - Internship](https://www.bote.web.tr/en/internship): Internship is the preparatory period in which the first step into business life is taken, providing the opportunity to put the theoretical knowledge...
+- [CEIT - Job Titles](https://www.bote.web.tr/en/jobtitle): With the training they receive, they have knowledge in many fields and have a well-equipped career.
+- [CEIT - Social Media](https://www.bote.web.tr/en/media): Follow CEIT (BÖTE) on Instagram, YouTube and LinkedIn for department news, events and updates.
+- [CEIT - Site Map](https://www.bote.web.tr/en/site-map): Site map of bote.web.tr: all English pages about Computer Education and Instructional Technology (CEIT), plus Turkish pages and the blog.
+
+## Optional
+
+- [RSS beslemesi](https://www.bote.web.tr/blog/feed.xml)
+- [JSON Feed](https://www.bote.web.tr/blog/feed.json)
+- [Site haritası (XML)](https://www.bote.web.tr/sitemap.xml)
