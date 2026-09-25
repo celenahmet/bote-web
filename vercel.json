@@ -75,17 +75,17 @@
     },
     {
       "source": "/blog-archive.html",
-      "destination": "/",
+      "destination": "/blog",
       "permanent": true
     },
     {
       "source": "/single-blog.html",
-      "destination": "/",
+      "destination": "/blog",
       "permanent": true
     },
     {
       "source": "/single-post.html",
-      "destination": "/",
+      "destination": "/blog",
       "permanent": true
     },
     {
@@ -95,12 +95,12 @@
     },
     {
       "source": "/categories.html",
-      "destination": "/",
+      "destination": "/blog",
       "permanent": true
     },
     {
       "source": "/search.html",
-      "destination": "/",
+      "destination": "/blog",
       "permanent": true
     },
     {
@@ -125,7 +125,7 @@
     },
     {
       "source": "/ceit/:path*",
-      "destination": "/",
+      "destination": "/en",
       "permanent": true
     },
     {
@@ -166,7 +166,7 @@
     {
       "source": "/en/blog",
       "destination": "/blog",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/blog/wp-admin/:path*",
@@ -326,6 +326,36 @@
     {
       "source": "/en/uni/hacettepe",
       "destination": "https://ebit.hacettepe.edu.tr/eng?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/anadolu",
+      "destination": "https://www.anadolu.edu.tr/akademik/fakulteler/180/bilgisayar-ve-ogretim-teknolojileri-egitimi-bolumu?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/cukurova",
+      "destination": "https://egitim.cu.edu.tr/cu/bolumler/bilgisayar-ogretim-teknolojileri/bilgisayar-ve-ogretim-teknolojileri-egitimi-bolumu?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/uni/uludag",
+      "destination": "https://uludag.edu.tr/bilveogrtekegtabd?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/anadolu",
+      "destination": "https://www.anadolu.edu.tr/akademik/fakulteler/180/bilgisayar-ve-ogretim-teknolojileri-egitimi-bolumu?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/cukurova",
+      "destination": "https://egitim.cu.edu.tr/cu/bolumler/bilgisayar-ogretim-teknolojileri/bilgisayar-ve-ogretim-teknolojileri-egitimi-bolumu?utm_source=bote.web.tr&utm_medium=referral",
+      "permanent": false
+    },
+    {
+      "source": "/en/uni/uludag",
+      "destination": "https://uludag.edu.tr/bilveogrtekegtabd?utm_source=bote.web.tr&utm_medium=referral",
       "permanent": false
     },
     {
