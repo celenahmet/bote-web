@@ -1,10 +1,11 @@
 ---
+import Icon from './Icon.astro';
 const { items } = Astro.props;
 ---
 <nav class="crumbs" aria-label="Sayfa yolu">
   <ol>
     {items.map((it, i) => (i === items.length - 1
-      ? <li aria-current="page">{it.name}</li>
-      : <li><a href={it.url}>{it.name}</a></li>))}
+      ? <li aria-current="page"><span class="cur">{it.name}</span></li>
+      : <li><a href={it.url}>{i === 0 ? <><Icon name="house" size={16} /><span class="sr-only">{it.name}</span></> : it.name}</a></li>))}
   </ol>
 </nav>

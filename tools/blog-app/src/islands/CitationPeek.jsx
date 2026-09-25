@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react';
 
-// Dar ekranlarda kenar notlari gizlidir: atif numarasina dokununca kaynak alttan acilir.
+// Atif numaralari acikken (Kaynakca ayarlari) numaraya tiklayinca kaynak sayfadan ayrilmadan acilir.
 export default function CitationPeek() {
   const [peek, setPeek] = useState(null);
   useEffect(() => {
-    const narrow = window.matchMedia('(max-width: 1179px)');
     const onClick = (e) => {
       const a = e.target.closest?.('a.cite-link');
-      if (!a || !narrow.matches) return;
+      if (!a) return;
       const li = document.querySelector(a.getAttribute('href'));
       if (!li) return;
       e.preventDefault();

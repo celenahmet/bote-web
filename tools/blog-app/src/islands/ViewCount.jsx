@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { countView, getViews, fmt } from './views-client.js';
 
 // Yazi sayfasinda (count) goruntulenmeyi bir kez sayar; listelerde yalnizca okur.
-export default function ViewCount({ slug, count = false }) {
+export default function ViewCount({ slug, count = false, icon = '' }) {
   const [views, setViews] = useState(null);
   useEffect(() => {
     let alive = true;
@@ -15,5 +15,10 @@ export default function ViewCount({ slug, count = false }) {
     return () => { alive = false; };
   }, [slug, count]);
   if (!views) return null;
-  return <span className="views">{fmt(views)} görüntülenme</span>;
+  return (
+    <span className={icon ? 'views m' : 'views'}>
+      {icon && <span className="ico-wrap" aria-hidden="true" dangerouslySetInnerHTML={{ __html: icon }} />}
+      {fmt(views)} görüntülenme
+    </span>
+  );
 }

@@ -5,13 +5,17 @@ import { slugify, esc, imageSize } from './util.mjs';
 
 // Markdown -> HTML. Ek soz dizimi:
 //   [@kaynak-id]  veya  [@a; @b]  -> numarali kaynak atfi (Kaynaklar bolumune baglanir)
-// Donus: { html, headings, citeOrder }
+// Atfin destekledigi cumle <span class="cited" id="atif-N"> ile sarilir; kaynakcadaki
+// "metinde" baglantilari bu kimliklere gider ve cumleyi isaretler (:target).
+// Donus: { html, headings, citeOrder, refs }  (refs: kaynak id -> ['atif-1', ...])
 export function renderMarkdown(src, { sources, root, file }) {
   const ids = new Map(sources.map((s) => [s.id, s]));
   const citeOrder = [];
   const headings = [];
   const usedIds = new Set();
   const errors = [];
+  const refs = new Map();
+  let occ = 0;
 
   const numberOf = (id) => {
     if (!ids.has(id)) {
@@ -34,21 +38,28 @@ export function renderMarkdown(src, { sources, root, file }) {
           if (m) return { type: 'cite', raw: m[0], keys: m[1].split(/\s*;\s*@?/).map((k) => k.replace(/^@/, '')) };
         },
         renderer(t) {
-          const notes = [];
+          t.occ = `atif-${++occ}`;
           const links = t.keys.map((k) => {
-            const first = ids.has(k) && !citeOrder.includes(k);
             const n = numberOf(k);
-            // Kenar notu: kaynagin ilk atfinda bir kez; genis ekranda metnin yaninda gorunur.
-            if (first) notes.push(sidenote(n, ids.get(k)));
+            if (!refs.has(k)) refs.set(k, []);
+            refs.get(k).push(t.occ);
             return `<a class="cite-link" href="#kaynak-${n}" aria-label="Kaynak ${n}">${n}</a>`;
           });
-          return `<sup class="cite">[${links.join(', ')}]</sup>${notes.join('')}`;
+          return `<sup class="cite">[${links.join(', ')}]</sup>`;
         },
       },
     ],
     renderer: {
+      paragraph(t) {
+        return `<p>${cited(this.parser, t.tokens)}</p>\n`;
+      },
+      text(t) {
+        // Siki listelerdeki madde metni (ic belirtecli blok metin); digerleri varsayilan
+        return t.tokens ? cited(this.parser, t.tokens) : false;
+      },
       heading(t) {
         const inner = this.parser.parseInline(t.tokens);
+        if (t.tokens.some((x) => x.type === 'cite')) errors.push('baslikta kaynak atfi kullanilmaz; atfi cumleye koyun');
         if (t.depth === 1) {
           errors.push('yazi govdesinde # (h1) kullanilmaz; baslik front matter title alanindan gelir');
         }
@@ -83,7 +94,7 @@ export function renderMarkdown(src, { sources, root, file }) {
       table(t) {
         const head = t.header.map((c) => `<th scope="col">${this.parser.parseInline(c.tokens)}</th>`).join('');
         const rows = t.rows
-          .map((r) => `<tr>${r.map((c) => `<td>${this.parser.parseInline(c.tokens)}</td>`).join('')}</tr>`)
+          .map((r) => `<tr>${r.map((c) => `<td>${cited(this.parser, c.tokens)}</td>`).join('')}</tr>`)
           .join('\n');
         return `<div class="table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table></div>\n`;
       },
@@ -92,13 +103,47 @@ export function renderMarkdown(src, { sources, root, file }) {
 
   const html = marked.parse(src);
   if (errors.length) throw new Error(`${file}:\n  - ${[...new Set(errors)].join('\n  - ')}`);
-  return { html, headings, citeOrder };
+  return { html, headings, citeOrder, refs };
 }
 
-function sidenote(n, s) {
-  const who = s.author || s.publisher;
-  const lang = String(s.lang || '').toUpperCase();
-  return `<span class="sidenote" role="note"><span class="sn-n">${n}</span> ${esc(who)} (${esc(s.year)}). <em>${esc(s.title)}</em>. <span class="sn-lang ${lang === 'TR' ? 'tr' : 'en'}" title="Kaynak dili">${esc(lang)}</span></span>`;
+// Satir ici belirtecleri isler; her atiftan onceki cumleyi (son cumle sonundan atfa kadar)
+// <span class="cited" id="atif-N"> ile sarar. Bitisik atiflar ([@a][@b]) ayni cumleyi
+// ic ice sarar. Cumle sonu yalnizca duz metinde aranir; kalin/baglanti gibi ic belirtecler
+// bolunmez, boylece HTML her zaman dengeli kalir.
+const BOUNDARY = /[.!?…]["”’)]?\s+(?=[A-ZÇĞİÖŞÜ0-9"“])/g;
+function cited(parser, tokens) {
+  let out = '';
+  let pend = '';
+  let last = -1; // son sarmalayicinin out icindeki baslangici (bitisik atif icin)
+  for (const tok of tokens) {
+    if (tok.type === 'cite') {
+      const mark = parser.parseInline([tok]);
+      if (!pend.trim() && last >= 0) {
+        out = `${out.slice(0, last)}<span class="cited" id="${tok.occ}">${out.slice(last)}${mark}</span>`;
+      } else {
+        const lead = pend.match(/^\s*/)[0];
+        out += lead;
+        last = out.length;
+        out += `<span class="cited" id="${tok.occ}">${pend.slice(lead.length)}${mark}</span>`;
+      }
+      pend = '';
+      continue;
+    }
+    const html = parser.parseInline([tok]);
+    if (tok.type === 'text' || tok.type === 'escape') {
+      let cut = 0;
+      for (const m of html.matchAll(BOUNDARY)) cut = m.index + m[0].length;
+      if (cut) {
+        out += pend + html.slice(0, cut);
+        pend = html.slice(cut);
+        last = -1;
+        continue;
+      }
+    }
+    pend += html;
+    if (pend.trim()) last = -1;
+  }
+  return out + pend;
 }
 
 // Satir ici markdown (ozet maddeleri, SSS cevaplari icin).

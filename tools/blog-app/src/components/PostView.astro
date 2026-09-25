@@ -3,10 +3,12 @@ import Base from '../layouts/Base.astro';
 import Crumbs from './Crumbs.astro';
 import PostCard from './PostCard.astro';
 import Widgets from './Widgets.astro';
+import SourceList from './SourceList.astro';
+import Icon from './Icon.astro';
 import ViewCount from '../islands/ViewCount.jsx';
 import ShareBar from '../islands/ShareBar.jsx';
 import CitationPeek from '../islands/CitationPeek.jsx';
-import { loadBlog, sourceLine, orgLd, teamLd, breadcrumbLd, trDate, isoDate } from '../lib.js';
+import { loadBlog, orgLd, teamLd, breadcrumbLd, trDate, isoDate, icon } from '../lib.js';
 import { renderInline } from '../../../blog/markdown.mjs';
 import { stripHtml } from '../../../blog/util.mjs';
 
@@ -23,8 +25,8 @@ const trail = preview
   ? [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Taslak önizleme', url: '/blog/taslak' }, { name: post.title, url: post.url }]
   : [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: post.category.name, url: post.category.url }, { name: post.title, url: post.url }];
 const lastCheck = post.sources.reduce((m, s) => (s.accessed > m ? s.accessed : m), post.date);
-const h2s = post.headings.filter((h) => h.depth === 2);
-const tocItems = [...(post.summary.length ? [{ id: 'kisaca', text: 'Kısaca' }] : []), ...h2s, ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular' }] : []), { id: 'kaynaklar', text: 'Kaynaklar' }];
+const tocItems = [...(post.summary.length ? [{ id: 'kisaca', text: 'Kısaca', depth: 2 }] : []), ...post.headings,
+  ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 }];
 const url = blog.abs(post.url);
 const ld = { '@context': 'https://schema.org', '@graph': [
   {
@@ -54,94 +56,121 @@ const ld = { '@context': 'https://schema.org', '@graph': [
     <meta property="article:modified_time" content={isoDate(post.updated)}>
     <meta property="article:section" content={post.category.name}>
   </Fragment>
-  <article aria-labelledby="yazi-basligi">
-    <div class="post-top"><header class="post-head">
+  <div class="wrap post-layout">
+  <article class="post-main" aria-labelledby="yazi-basligi">
+    <header class="post-head">
       <Crumbs items={trail} />
-      <p class="kicker"><a href={post.category.url}>{post.category.name}</a> · <time datetime={post.date}>{trDate(post.date)}</time>{post.updated !== post.date && <> · güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></>}</p>
+      <a class="badge" href={post.category.url}>{post.category.name}</a>
       <h1 id="yazi-basligi" style={`view-transition-name: t-${post.slug}`}>{post.title}</h1>
       <p class="dek">{post.description}</p>
       <div class="byline">
-        <span>Yazan <a href={blog.author.url} rel="author">{blog.author.name}</a></span>
-        <span>{post.minutes} dk okuma</span>
-        {!preview && <ViewCount client:idle slug={post.slug} count />}
-        <a class="src-pill" href="#kaynaklar">{post.sources.length} kaynak · <i>{post.foreign} yabancı</i></a>
+        <a class="author" href={blog.author.url} rel="author">
+          <span class="avatar"><Icon name="user-round" size={18} /></span>
+          <span class="who"><b>{blog.author.name}</b><small>{post.sources.length} kaynak · {post.foreign} yabancı</small></span>
+        </a>
+        <span class="m"><Icon name="calendar" size={16} /><time datetime={post.date}>{trDate(post.date)}</time></span>
+        {post.updated !== post.date && <span class="m"><Icon name="refresh-cw" size={16} />güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></span>}
+        <span class="m"><Icon name="clock" size={16} />{post.minutes} dk okuma</span>
+        {!preview && <ViewCount client:idle slug={post.slug} count icon={icon('eye', { size: 16 })} />}
       </div>
-      <div class="strip" aria-label="Kaynak dilleri">
-        <span class="strip-label">Kaynaklar</span>
-        {post.sources.map((s) => <a class={s.lang === 'tr' ? 'tr' : 'en'} href={`#kaynak-${s.n}`} title={`${s.n}. ${s.title}`}>{s.lang.toUpperCase()}</a>)}
-      </div>
-    </header></div>
+    </header>
     {post.art && (
       <figure class="post-art">
         <img src={post.art.src} width={post.art.width} height={post.art.height} alt={`Kaynak takımyıldızı: bu yazının ${post.sources.length} kaynağı, ${post.foreign} tanesi yabancı dilde`} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
       </figure>
     )}
-    <div class="reading">
-      <nav class="toc-rail toc" aria-label="İçindekiler">
-        <p class="toc-title">İçindekiler</p>
-        <ol>{tocItems.map((h) => <li><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
-      </nav>
-      <div class="prose">
-        {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
-        {post.summary.length > 0 && (
-          <section class="tldr" aria-labelledby="kisaca">
-            <h2 id="kisaca">Kısaca</h2>
-            <ul>{post.summary.map((s) => <li set:html={renderInline(s)} />)}</ul>
-          </section>
-        )}
-        <details class="toc-inline toc">
-          <summary>İçindekiler</summary>
-          <ol>{tocItems.map((h) => <li><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
-        </details>
-        <Fragment set:html={post.html} />
-        {post.faq.length > 0 && (
-          <section class="faq" aria-labelledby="sss">
-            <h2 id="sss">Sık sorulan sorular</h2>
-            {post.faq.map((f) => <><h3>{f.q}</h3><p set:html={renderInline(f.a)} /></>)}
-          </section>
-        )}
-        <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
-          <h2 id="kaynaklar-baslik">Kaynaklar</h2>
-          <p class="bib-note">{post.sources.length} kaynak, {post.foreign} tanesi yabancı dilde. Metindeki numaralar bu listeye bağlanır.</p>
-          <ol>
-            {post.sources.map((s) => {
-              const l = sourceLine(s);
-              return (
-                <li id={`kaynak-${s.n}`}>
-                  <span class="n">{s.n}</span>
-                  <div class="src-body">
-                    {l.lead} <cite>{l.title}</cite>.{l.pub}
-                    <div class="src-meta">
-                      <span class={`lang ${s.lang === 'tr' ? 'tr' : 'en'}`}>{s.lang.toUpperCase()}</span>
-                      <a href={s.url} rel="noopener" target="_blank">{s.url.replace(/^https?:\/\//, '').replace(/\/$/, '').slice(0, 60)}{s.url.replace(/^https?:\/\//, '').length > 60 ? '…' : ''}</a>
-                      <span>erişim {trDate(s.accessed)}</span>
-                    </div>
-                  </div>
-                </li>
-              );
-            })}
-          </ol>
+    <div class="prose">
+      {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
+      {post.summary.length > 0 && (
+        <section class="tldr" aria-labelledby="kisaca">
+          <h2 id="kisaca">Kısaca</h2>
+          <ul>{post.summary.map((s) => <li set:html={renderInline(s)} />)}</ul>
         </section>
-        <aside class="editorial" aria-label="Editör notu">
-          Bu yazı <a href={blog.author.url}>{blog.author.name}</a> tarafından hazırlandı; kaynaklar en son {trDate(lastCheck)} tarihinde kontrol edildi.
-          Bir hata mı gördünüz? <a href="/contact">İletişim sayfasından</a> bildirin, düzeltmeyi tarihiyle yazıya işleyelim.
-        </aside>
-        <ShareBar client:visible url={url} title={post.title} />
-      </div>
+      )}
+      <details class="toc-inline toc">
+        <summary>Bu yazıda neler var?</summary>
+        <ol>{tocItems.map((h) => <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
+      </details>
+      <Fragment set:html={post.html} />
+      {post.faq.length > 0 && (
+        <section class="faq" aria-labelledby="sss">
+          <h2 id="sss">Sık sorulan sorular</h2>
+          {post.faq.map((f) => <details class="qa"><summary><h3>{f.q}</h3></summary><p set:html={renderInline(f.a)} /></details>)}
+        </section>
+      )}
+      <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
+        <div class="bib-head">
+          <h2 id="kaynaklar-baslik">Kaynaklar</h2>
+          <details class="bib-settings" data-bib-settings hidden>
+            <summary><Icon name="settings-2" size={16} />Kaynakça ayarları</summary>
+            <div class="bib-settings-body">
+              <label class="switch"><input type="checkbox" data-cites-toggle /><span>Metinde atıf numaralarını göster</span></label>
+              <p>Varsayılan olarak kapalıdır; seçiminiz bu tarayıcıda hatırlanır.</p>
+            </div>
+          </details>
+        </div>
+        <p class="bib-note">{post.sources.length} kaynak, {post.foreign} tanesi yabancı dilde. “Metinde” bağlantısı, kaynağa dayanan cümleyi yazıda işaretler.</p>
+        {post.sources.length > 2 ? (
+          <details class="bib-list" open>
+            <summary>Kaynak listesi ({post.sources.length})</summary>
+            <SourceList sources={post.sources} />
+          </details>
+        ) : <SourceList sources={post.sources} />}
+      </section>
+      <aside class="editorial" aria-label="Editör notu">
+        Bu yazı <a href={blog.author.url}>{blog.author.name}</a> tarafından hazırlandı; kaynaklar en son {trDate(lastCheck)} tarihinde kontrol edildi.
+        Bir hata mı gördünüz? <a href="/contact">İletişim sayfasından</a> bildirin, düzeltmeyi tarihiyle yazıya işleyelim.
+      </aside>
+      <ShareBar client:visible url={url} title={post.title} />
     </div>
+    {(newer || older) && (
+      <nav class="prevnext" aria-label="Diğer yazılar">
+        {older ? <a href={older.url}><span>← Önceki yazı</span>{older.title}</a> : <span />}
+        {newer && <a class="next" href={newer.url}><span>Sonraki yazı →</span>{newer.title}</a>}
+      </nav>
+    )}
+    {related.length > 0 && (
+      <section class="related" aria-labelledby="ilgili">
+        <h2 id="ilgili">İlgili yazılar</h2>
+        <ol class="rows">{related.map((p) => <li><PostCard post={p} /></li>)}</ol>
+      </section>
+    )}
   </article>
-  {(newer || older) && (
-    <nav class="prevnext" aria-label="Diğer yazılar">
-      {older ? <a href={older.url}><span>← Önceki yazı</span>{older.title}</a> : <span />}
-      {newer && <a class="next" href={newer.url}><span>Sonraki yazı →</span>{newer.title}</a>}
-    </nav>
-  )}
+  <Widgets mode="post" current={post.slug} pool={list} toc={tocItems} />
+  </div>
   <Widgets mode="band" current={post.slug} pool={list} />
-  {related.length > 0 && (
-    <section class="wrap related" aria-labelledby="ilgili">
-      <h2 id="ilgili">İlgili yazılar</h2>
-      <ol class="rows">{related.map((p) => <li><PostCard post={p} /></li>)}</ol>
-    </section>
-  )}
   <CitationPeek client:idle />
+  <script>
+    // Kaynakca ayarlari: atif numaralari varsayilan kapali (html[data-cites="on"] ile acilir).
+    const root = document.documentElement;
+    const box = document.querySelector('[data-bib-settings]');
+    const toggle = box?.querySelector('input[data-cites-toggle]');
+    if (box && toggle) {
+      box.hidden = false;
+      toggle.checked = root.dataset.cites === 'on';
+      toggle.addEventListener('change', () => {
+        root.dataset.cites = toggle.checked ? 'on' : 'off';
+        try { localStorage.setItem('bote-cites', root.dataset.cites); } catch {}
+      });
+    }
+    // Kapali bir listedeki hedefe (#kaynak-3, #sss ...) gidilirse listeyi ac.
+    const reveal = () => {
+      const el = location.hash ? document.getElementById(decodeURIComponent(location.hash.slice(1))) : null;
+      const d = el?.closest('details');
+      if (d && !d.open) { d.open = true; el.scrollIntoView(); }
+    };
+    addEventListener('hashchange', reveal);
+    reveal();
+    // Icindekiler: okunan bolumu isaretle.
+    const links = [...document.querySelectorAll('.side-toc a')];
+    const heads = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
+    let active = -1, raf = 0;
+    const mark = () => {
+      raf = 0;
+      let i = 0;
+      heads.forEach((h, k) => { if (h.getBoundingClientRect().top < 140) i = k; });
+      if (i !== active) { links[active]?.removeAttribute('aria-current'); links[i]?.setAttribute('aria-current', 'true'); active = i; }
+    };
+    if (heads.length) { addEventListener('scroll', () => { raf ||= requestAnimationFrame(mark); }, { passive: true }); mark(); }
+  </script>
 </Base>

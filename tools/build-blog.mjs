@@ -93,9 +93,7 @@ out.set('api/_lib/posts.json', `${JSON.stringify(posts.map((p) => p.slug))}\n`);
     try { rendered = renderMarkdown(m[2], { sources, root: ROOT, file: srcRel }); } catch (err) { pageErrors.push(err.message); continue; }
     for (const s of sources) if (!rendered.citeOrder.includes(s.id)) pageErrors.push(`${srcRel}: kaynak metinde atif almamis: [@${s.id}]`);
     const ordered = [...rendered.citeOrder.map((id) => sources.find((s) => s.id === id)), ...sources.filter((s) => !rendered.citeOrder.includes(s.id))];
-    const body = rendered.html
-      .replace(/<span class="sidenote"[\s\S]*?<\/span><\/span>/g, '')
-      .replace(/href="#kaynak-(\d+)"/g, 'href="#kaynak-$1"');
+    const body = rendered.html;
     const accessedLabel = lang === 'en' ? 'accessed' : 'erişim';
     const srcHtml = `<section class="page-sources" id="kaynaklar"><h2>${lang === 'en' ? 'Sources' : 'Kaynaklar'}</h2><ol>${ordered.map((s, i) => {
       const who = s.author ? `${esc(s.author)} (${esc(s.year)}). ` : `${esc(s.publisher)} (${esc(s.year)}). `;

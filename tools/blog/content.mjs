@@ -81,22 +81,25 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
       const foreign = sources.filter((s) => s.lang && s.lang !== 'tr').length;
       if (foreign < cfg.minForeignSources) e(`en az ${cfg.minForeignSources} yabanci kaynak zorunlu (su an ${foreign})`);
 
-      let html = '', headings = [], citeOrder = [];
-      try { ({ html, headings, citeOrder } = renderMarkdown(body, { sources, root: ROOT, file: rel })); } catch (err) { e(err.message); }
+      let html = '', headings = [], citeOrder = [], refs = new Map();
+      try { ({ html, headings, citeOrder, refs } = renderMarkdown(body, { sources, root: ROOT, file: rel })); } catch (err) { e(err.message); }
       for (const s of sources) if (!citeOrder.includes(s.id)) e(`kaynak metinde hic atif almamis: [@${s.id}]`);
       const ordered = [...citeOrder.map((id) => sources.find((s) => s.id === id)), ...sources.filter((s) => !citeOrder.includes(s.id))];
-      ordered.forEach((s, i) => (s.n = i + 1));
+      ordered.forEach((s, i) => { s.n = i + 1; s.refs = refs.get(s.id) || []; });
 
-      const { words, minutes } = readingMinutes(stripHtml(html.replace(/<span class="sidenote"[\s\S]*?<\/span><\/span>/g, '')));
+      const { words, minutes } = readingMinutes(stripHtml(html.replace(/<sup class="cite">.*?<\/sup>/g, '')));
       if (words < 600) w(`govde kisa (${words} kelime)`);
       if (headings.filter((h) => h.depth === 2).length < 2) w('en az 2 ara baslik (##) onerilir');
+      const faq = fm.faq || [];
+      if (faq.length !== cfg.faqCount) e(`SSS (faq) tam ${cfg.faqCount} soru olmali (su an ${faq.length}); sorular arama niyetine gore secilir`);
+      for (const [i, f] of faq.entries()) if (!f.q || !f.a) e(`faq[${i}]: q ve a zorunlu`);
       const summary = fm.summary || [];
       if (summary.length < 3) w('summary (Kisaca) icin en az 3 madde onerilir');
 
       return {
         slug, file: rel, draft, title: fm.title, description: desc, date, updated,
         category: catBy[fm.category] || { name: '?', url: '/blog', slug: '?' },
-        tags: fm.tags || [], featured: !!fm.featured, summary, faq: fm.faq || [],
+        tags: fm.tags || [], featured: !!fm.featured, summary, faq,
         sources: ordered, foreign, html, headings, body, words, minutes,
         url: `/blog/${slug}`, imageAlt: fm.imageAlt || `${fm.title} kapak görseli`, imageSrc: fm.image || null,
       };

@@ -10,10 +10,16 @@ summary:
   - "Öğretmenlik dışında öğretim tasarımı, e-öğrenme içeriği geliştirme, kurumsal eğitim ve yazılım alanlarında da iş bulunabilir."
   - "Uluslararası veriler, öğretmenlerin teknoloji kullanımında desteğe ihtiyaç duyduğunu gösteriyor. Bu durum eğitim teknolojisi uzmanlığına alan açıyor, ancak iş bulmak garanti değildir."
 faq:
+  - q: "BÖTE mezunu ne iş yapar?"
+    a: "Ana yol öğretmenliktir: MEB okulları, özel okullar ve kurslar. Bunun yanında öğretim tasarımı, e-öğrenme içeriği geliştirme, kurumsal eğitim, yazılım ve akademik kariyer de mezunların yöneldiği alanlardır."
   - q: "BÖTE mezunu hangi derslere girer?"
     a: "Genel okullarda ağırlıklı olarak ortaokuldaki Bilişim Teknolojileri ve Yazılım dersi ile bilişim ağırlıklı derslere girer. Hangi alanın hangi dersi okutacağı MEB'in Öğretmenlik Alanları, Atama ve Ders Okutma Esasları ile belirlenir. Bu esaslar değişebildiği için güncel metni kontrol edin."
+  - q: "Bilişim teknolojileri öğretmeni nasıl olunur?"
+    a: "Öğretmenliğe kaynak olan bir lisans programından (genel okullar için Bilgisayar ve Öğretim Teknolojileri Öğretmenliği) mezun olmak, MEB Akademi Giriş Sınavı'na (AGS) girmek ve Millî Eğitim Akademisi'nin hazırlık eğitimini başarıyla tamamlamak gerekir. Alan eşleştirmeleri için MEB'in güncel esaslarına bakın."
   - q: "Öğretmen olmak için KPSS yeterli mi?"
     a: "7528 sayılı Kanun'la birlikte öğretmen adaylarının Millî Eğitim Akademisi hazırlık eğitimine kabulü, ÖSYM'nin yaptığı MEB Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılmaktadır. Başvuru koşulları için MEB ve ÖSYM duyurularını takip edin."
+  - q: "BÖTE mezunu özel sektörde çalışabilir mi?"
+    a: "Evet. Öğretim tasarımı, e-öğrenme içeriği geliştirme ve kurumsal eğitim rolleri eğitim teknolojisi bilgisini doğrudan kullanır; bu rollerde portfolyo ve deneyim öne çıkar. İş bulma koşulları sektöre ve döneme göre değişir."
   - q: "Öğretim tasarımcısı olmak için yüksek lisans gerekir mi?"
     a: "Şart değildir ama bazı pozisyonlarda avantaj sağlar. Örneğin ABD'de okul sistemlerindeki öğretim koordinatörlüğü pozisyonları genellikle yüksek lisans ve öğretmenlik deneyimi ister. Kurumsal eğitim rollerinde ise portfolyo ve deneyim öne çıkar."
 sources:
@@ -59,11 +65,11 @@ sources:
     url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
     lang: tr
     accessed: 2026-09-25
-  - id: memurlar2025
-    publisher: "Memurlar.net"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı"
+  - id: ttkb-esaslar
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
+    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     year: 2025
-    url: "https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html"
+    url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
   - id: ttkb-cizelge
@@ -105,7 +111,7 @@ Bu yazıda her yolu fırsatları ve zorluklarıyla birlikte ele alıyoruz. Amac�
 
 ### Hangi alanda atanılır?
 
-Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[@ttkb2025] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Haberlere göre mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@memurlar2025]
+Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[@ttkb2025] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Esasların güncel metnine göre **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@ttkb-esaslar]
 
 Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri ve Yazılım**'dır. MEB Talim ve Terbiye Kurulunun haftalık ders çizelgesine göre bu ders 5. ve 6. sınıflarda haftada 2 saat zorunlu olarak okutulur.[@ttkb-cizelge]
 

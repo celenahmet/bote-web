@@ -8,12 +8,18 @@ summary:
   - "Türkiye'de öğretmen yetiştirme 1982'den beri üniversitelerin görevidir. Ana model, alan ve öğretmenlik eğitiminin birlikte verildiği eğitim fakülteleridir."
   - "Fakülteler 1998'de yeniden yapılandırıldı. Öğretmenlik lisans programları 2018'de güncellendi."
   - "7528 sayılı Kanun'la öğretmenliğe giriş değişti: Önce AGS, ardından Millî Eğitim Akademisi'nde hazırlık eğitimi. İlk hazırlık eğitimi 13 Nisan 2026'da başladı."
-  - "Aralık 2025'te pedagojik formasyona ilişkin hüküm esaslardan çıkarıldı. Bu değişiklik, eğitim fakültelerinin rolü üzerine yeni bir tartışma başlattı."
+  - "Aralık 2025'te, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü getirildi. Bu değişiklik, eğitim fakültelerinin rolü üzerine yeni bir tartışma başlattı."
 faq:
+  - q: "Eğitim fakültesi nedir?"
+    a: "Öğretmen yetiştiren yükseköğretim birimidir. Türkiye'de öğretmen yetiştirme 1982'den beri üniversitelerin görevidir; eğitim fakülteleri alan bilgisini ve öğretmenlik meslek bilgisini lisans boyunca birlikte verir."
   - q: "Eğitim fakültesi mezunu doğrudan öğretmen olur mu?"
     a: "Hayır. Mezuniyet öğretmenliğe başvurma hakkı verir. MEB'e öğretmen olarak atanmak için AGS'ye girmek, Millî Eğitim Akademisi'nin hazırlık eğitimine kabul edilmek ve bu eğitimi başarıyla tamamlamak gerekir."
-  - q: "Pedagojik formasyon tamamen kalktı mı?"
-    a: "MEB Talim ve Terbiye Kurulunun 19 Aralık 2025 tarihli kararıyla pedagojik formasyona ilişkin madde esaslardan çıkarıldı. Akademi hazırlık eğitimine kabul edilen adaylardan formasyon koşulu aranmıyor. Ayrıntılar için güncel mevzuatı kontrol edin."
+  - q: "AGS nedir?"
+    a: "MEB Akademi Giriş Sınavı'dır. ÖSYM tarafından yapılır; Millî Eğitim Akademisi hazırlık eğitimine kabul bu sınavın sonuçlarına göre yapılır. İlk AGS 13 Temmuz 2025'te yapıldı."
+  - q: "Millî Eğitim Akademisi nedir?"
+    a: "7528 sayılı Öğretmenlik Mesleği Kanunu ile öğretmenliğe giriş sürecine eklenen hazırlık eğitimini veren yapıdır. MEB'e öğretmen olarak atanabilmek için bu eğitimi başarıyla tamamlamak gerekir; ilk hazırlık eğitimi 13 Nisan 2026'da başladı."
+  - q: "Pedagojik formasyon kalktı mı?"
+    a: "Aralık 2025'te öğretmenlik esaslarında yapılan değişiklikle, Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor. Ayrıntılar için MEB'in güncel esaslarını kontrol edin."
   - q: "Eşzamanlı ve ardışık model ne demek?"
     a: "Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte verilir; eğitim fakülteleri bu modeli uygular. Ardışık modelde ise önce alan lisansı tamamlanır, öğretmenlik eğitimi sonradan alınır."
 sources:
@@ -53,11 +59,11 @@ sources:
     url: "https://www.yok.gov.tr/documents/documents/68f1dc9129d3a.pdf"
     lang: tr
     accessed: 2026-09-25
-  - id: memurlar2018
-    publisher: "Memurlar.net"
-    title: "25 Öğretmenlik Lisans Programı Güncellendi"
+  - id: yok2018
+    publisher: "Yükseköğretim Kurulu"
+    title: "Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı"
     year: 2018
-    url: "https://www.memurlar.net/haber/749268/25-ogretmenlik-lisans-programi-guncellendi.html"
+    url: "https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx"
     lang: tr
     accessed: 2026-09-25
   - id: program2018
@@ -96,11 +102,11 @@ sources:
     url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
     lang: tr
     accessed: 2026-09-25
-  - id: memurlar-formasyon
-    publisher: "Memurlar.net"
-    title: "Eğitim ile Fen-Edebiyat Fakülteleri Öğretmen Atamada Eşitlendi"
+  - id: ttkb-esaslar
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
+    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     year: 2025
-    url: "https://www.memurlar.net/haber/1155352/egitim-ile-fen-edebiyat-fakulteleri-ogretmen-atamada-esitlendi.html"
+    url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
 ---
@@ -119,9 +125,9 @@ Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, f
 
 - **1982:** Öğretmen yetiştirme görevi üniversitelere devredildi.[@eurydice]
 - **1994–1998:** YÖK/Dünya Bankası hizmet öncesi öğretmen eğitimi projesi kapsamında eğitim fakülteleri yeniden yapılandırıldı. Bölümler, millî eğitimin okul yapısına uygun öğretmen yetiştirecek biçimde düzenlendi. BÖTE gibi yeni bölümler de bu süreçte açıldı.[@yok2007]
-- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[@memurlar2018] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Geliştirme" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[@program2018]
+- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[@yok2018] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Geliştirme" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[@program2018]
 - **2024:** 7528 sayılı Öğretmenlik Mesleği Kanunu yayımlandı. Kanun, öğretmenlerin seçilmesini, yetiştirilmesini ve atanmasını yeniden düzenledi ve **Millî Eğitim Akademisi**'ni kurdu.[@meb-kanun]
-- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[@meb-ags] Aralık 2025'te pedagojik formasyona ilişkin hüküm öğretmenlik esaslarından çıkarıldı.[@ttkb2025][@memurlar-formasyon]
+- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[@meb-ags] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[@ttkb2025][@ttkb-esaslar]
 - **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[@mea-takvim]
 
 ## Programlar nasıl yapılandırılmış?
@@ -144,7 +150,7 @@ Programların son yılında öğretmen adayları MEB okullarında **öğretmenli
 
 MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[@mea-takvim]
 
-Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. MEB Talim ve Terbiye Kurulunun kararıyla pedagojik formasyona ilişkin madde öğretmenlik esaslarından çıkarıldı. Akademi hazırlık eğitimine kabul edilen adaylardan artık formasyon koşulu aranmıyor.[@ttkb2025] Haberlere göre bu değişiklikle fen-edebiyat fakültesi mezunları da eğitim fakültesi mezunlarıyla birlikte öğretmen atamasına başvurabilir hâle geldi.[@memurlar-formasyon]
+Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[@ttkb2025][@ttkb-esaslar]
 
 ## Tartışma: Eğitim fakülteleri hâlâ gerekli mi?
 

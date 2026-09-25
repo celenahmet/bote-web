@@ -12,10 +12,16 @@ summary:
 faq:
   - q: "BÖTE kapandı mı?"
     a: "Hayır. Program hâlâ bazı üniversitelerde öğrenci alıyor, ancak programın açık olduğu üniversite sayısı geçmişe göre çok az. Güncel durum için YÖK Atlas'taki program listesini kontrol edin."
+  - q: "BÖTE hangi üniversitelerde var?"
+    a: "Programın açık olduğu üniversiteler ve kontenjanlar her yıl değişir. Güncel ve resmî liste için YÖK Atlas'taki Bilgisayar ve Öğretim Teknolojileri Öğretmenliği sayfasına ve o yılın ÖSYM tercih kılavuzuna bakın."
+  - q: "BÖTE'ye neden öğrenci alımı azaldı?"
+    a: "Başlıca gerekçe, öğretmen yetiştirme kapasitesini MEB'in öğretmen ihtiyacıyla uyumlu hâle getirme politikasıdır. Mezun sayısının atama sayısını aştığı alanlarda kontenjanlar azaltıldı. Alan akademisyenleri bu kararın gerekçeleri ve sonuçları hakkında farklı görüşler dile getiriyor."
   - q: "Kontenjanları kim belirler?"
     a: "Lisans kontenjanları üniversitelerin önerileri doğrultusunda YÖK tarafından belirlenir ve ÖSYM kılavuzunda yayımlanır. Öğretmenlik programlarında MEB'in öğretmen ihtiyacı da belirleyici bir etkendir."
   - q: "Yeni atama alanı kontenjanları artırır mı?"
     a: "Bunu şimdiden söylemek mümkün değil. Yeni alan, BÖTE mezunlarının genel okullardaki rolünü netleştiriyor. Ancak lisans kontenjanları ve atama sayıları ayrı kararlarla belirlenir."
+  - q: "BÖTE tercih edilir mi?"
+    a: "Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine ilgi duyan adaylar için program güçlü bir temel sunar; ancak açık program sayısının az olduğunu ve atamaların ayrı kararlarla belirlendiğini göz önünde bulundurun. Tercihten önce YÖK Atlas verilerini inceleyin."
 sources:
   - id: gem2023
     publisher: "UNESCO"
@@ -83,18 +89,18 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/baebd/article/763512"
     lang: tr
     accessed: 2026-09-25
-  - id: memurlar2018
-    publisher: "Memurlar.net"
-    title: "25 Öğretmenlik Lisans Programı Güncellendi"
+  - id: yok2018
+    publisher: "Yükseköğretim Kurulu"
+    title: "Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı"
     year: 2018
-    url: "https://www.memurlar.net/haber/749268/25-ogretmenlik-lisans-programi-guncellendi.html"
+    url: "https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx"
     lang: tr
     accessed: 2026-09-25
-  - id: memurlar2025
-    publisher: "Memurlar.net"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı"
+  - id: ttkb-esaslar
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
+    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     year: 2025
-    url: "https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html"
+    url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
   - id: ttkb2025
@@ -116,7 +122,7 @@ Lisans kontenjanları üniversitelerin önerileri doğrultusunda YÖK tarafında
 
 Bu politikanın gerekçesi, dönemin Millî Eğitim Bakanı İsmet Yılmaz'ın YÖK'te eğitim fakültesi yöneticileriyle yaptığı toplantıda açıkça dile getirildi. MEB'in açıklamasına göre bakanlığın yaklaşık 70 bin öğretmen ihtiyacına karşılık öğretmen olarak atanmak için yapılan başvuru sayısı 350 bin civarındaydı. Bu tablo, eğitim fakültesi kontenjanlarının ülkenin ihtiyacına göre yeniden düzenlenmesi gerektiği yönünde değerlendirildi.[@meb-yilmaz]
 
-Aynı dönemde YÖK 25 öğretmenlik lisans programını güncelledi ve güncellemeler 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[@memurlar2018] Kontenjanların ihtiyaca göre planlanması, BÖTE gibi mezun sayısının atama sayısını aştığı alanlarda doğrudan etkili oldu.
+Aynı dönemde YÖK 25 öğretmenlik lisans programını güncelledi ve güncellemeler 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[@yok2018] Kontenjanların ihtiyaca göre planlanması, BÖTE gibi mezun sayısının atama sayısını aştığı alanlarda doğrudan etkili oldu.
 
 ## Neden azaldı? Farklı açıklamalar
 
@@ -149,7 +155,7 @@ Küresel ölçekte öğretmen açığı da gündemde. UNESCO'nun 2024 Küresel �
 
 ## 2025 sonrası: yeni bir sayfa mı?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[@ttkb2025][@memurlar2025]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[@ttkb2025][@ttkb-esaslar]
 
 Bu değişiklik iki farklı biçimde yorumlanabilir:
 

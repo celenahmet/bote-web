@@ -1,10 +1,23 @@
 ---
+// Reklam alani. AdSense (blog.yml > ads.adsense) doluysa AdSense, degilse site ici tanitim karti.
+import fs from 'node:fs';
+import path from 'node:path';
+import Icon from './Icon.astro';
 import { loadBlog } from '../lib.js';
+import { ROOT } from '../../../blog/content.mjs';
 const { slot } = Astro.props;
 const ads = loadBlog().cfg.ads;
 const client = ads.adsense.client;
 const slotId = ads.adsense.slots?.[slot];
 const house = (ads.house || []).find((h) => (h.slots || []).includes(slot));
+// Logo dosyasi public/ altinda varsa kullanilir; yoksa yazi logosu.
+const logoFile = house?.logo && path.join(ROOT, 'tools/blog-app/public', house.logo.replace(/^\/blog\//, ''));
+const logo = logoFile && fs.existsSync(logoFile) ? house.logo : null;
+const STORES = {
+  appstore: { icon: 'apple', top: 'Download on the', name: 'App Store', label: "App Store'dan indir" },
+  googleplay: { icon: 'googleplay', top: 'GET IT ON', name: 'Google Play', label: "Google Play'den indir" },
+  appgallery: { icon: 'appgallery', top: 'EXPLORE IT ON', name: 'AppGallery', label: "AppGallery'den indir" },
+};
 ---
 {client && slotId ? (
   <aside class="ad" data-ad-slot={slot} aria-label="Reklam">
@@ -13,14 +26,24 @@ const house = (ads.house || []).find((h) => (h.slots || []).includes(slot));
     <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
   </aside>
 ) : house ? (
-  <aside class="ad" data-ad-slot={slot} aria-label="Reklam">
-    <span class="ad-label">Reklam</span>
+  <aside class="ad" data-ad-slot={slot} aria-label={`Reklam: ${house.brand}`}>
     <div class="ad-card">
-      <span class="ad-brand">{house.brand}</span>
-      <p class="ad-title">{house.title}</p>
+      <span class="ad-label">Reklam</span>
+      <a class="ad-logo" href={house.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand} web sitesi`}>
+        {logo ? <img src={logo} alt={house.brand} width="160" height="44" loading="lazy" decoding="async" /> : <span class="ad-wordmark">Uni<b>Connectly</b></span>}
+      </a>
       <p class="ad-text">{house.text}</p>
       <a class="ad-cta" href={house.url} rel="sponsored noopener" target="_blank">{house.cta}</a>
-      {house.stores?.length > 0 && <div class="ad-stores">{house.stores.map((s) => <a href={s.url} rel="sponsored noopener" target="_blank">{s.name}</a>)}</div>}
+      {house.stores?.length > 0 && (
+        <div class="ad-stores">
+          {house.stores.filter((s) => STORES[s.id]).map((s) => (
+            <a class="store" href={s.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand}: ${STORES[s.id].label}`}>
+              <Icon name={STORES[s.id].icon} brand size={17} />
+              <span><small>{STORES[s.id].top}</small><b>{STORES[s.id].name}</b></span>
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   </aside>
 ) : null}

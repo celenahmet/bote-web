@@ -1,10 +1,14 @@
 ---
-// Kenar cubugu (liste sayfalari) ya da yazi sonundaki bant: populer, reklam, kategoriler, son okunanlar.
+// Kenar cubugu ve yazi sonu bandi.
+//   post:    yazi sayfasi sag sutunu -> reklam > kategoriler > son yazilar > bu yazida neler var (yapiskan)
+//   sidebar: liste sayfalari -> reklam > kategoriler > populer > son okunanlar > yayin ilkeleri
+//   band:    yazi sonu -> populer > son okunanlar > reklam
 import PopularPosts from '../islands/PopularPosts.jsx';
 import RecentlyViewed from '../islands/RecentlyViewed.jsx';
 import AdSlot from './AdSlot.astro';
-import { loadBlog } from '../lib.js';
-const { mode = 'sidebar', current = '', pool: poolProp } = Astro.props;
+import Icon from './Icon.astro';
+import { loadBlog, trDate } from '../lib.js';
+const { mode = 'sidebar', current = '', pool: poolProp, toc = [] } = Astro.props;
 const blog = loadBlog();
 // pool: widget'larin kullandigi yazilar (varsayilan: yayindakiler; onizlemede taslaklar)
 const pool = poolProp || blog.posts;
@@ -13,38 +17,60 @@ const lite = pool.map((p) => ({ slug: p.slug, title: p.title, url: p.url, minute
 const fallback = [...pool].filter((p) => p.slug !== current)
   .sort((a, b) => (b.featured - a.featured) || b.date.localeCompare(a.date)).slice(0, 5)
   .map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes }));
+const latest = [...pool].filter((p) => p.slug !== current).sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title, 'tr')).slice(0, 5);
 const cats = isPreview
   ? blog.categories.map((c) => ({ ...c, url: '/blog/taslak', count: pool.filter((p) => p.category.slug === c.slug).length })).filter((c) => c.count)
   : blog.categories.filter((c) => c.count);
+const curCat = pool.find((p) => p.slug === current)?.category.slug;
 ---
-{mode === 'sidebar' ? (
+{mode === 'band' ? (
+  <section class="band" aria-label="Diğer içerikler">
+    <div class="wrap band-grid">
+      {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
+      {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
+      <AdSlot slot="article-end" />
+    </div>
+  </section>
+) : (
   <aside class="sidebar" aria-label="Blog kenar çubuğu">
-    {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
     <AdSlot slot="sidebar-top" />
     {cats.length > 0 && (
       <section class="widget" aria-labelledby="w-cats">
         <h2 class="widget-title" id="w-cats">Kategoriler</h2>
-        <ul class="cats">{cats.map((c) => <li><a href={c.url}>{c.name}</a><span>{c.count}</span></li>)}</ul>
+        <ul class="cats">{cats.map((c) => (
+          <li><a href={c.url} aria-current={c.slug === curCat ? 'true' : undefined}><Icon name={c.icon || 'folder'} size={17} /><span>{c.name}</span><span class="count" aria-label={`${c.count} yazı`}>{c.count}</span></a></li>
+        ))}</ul>
       </section>
     )}
-    {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
-    <section class="widget note-box" aria-labelledby="w-team">
-      <h2 class="widget-title" id="w-team">{blog.author.name}</h2>
-      <p>Yazılarımız en az iki uluslararası kaynağa dayanır; her bilgi numaralı bir kaynağa bağlanır.</p>
-      <a href={blog.author.url}>Yayın ilkelerimiz →</a>
-    </section>
-    <div class="sticky"><AdSlot slot="sidebar-bottom" /></div>
+    {mode === 'post' ? (
+      <>
+        {latest.length > 0 && (
+          <section class="widget" aria-labelledby="w-latest">
+            <h2 class="widget-title" id="w-latest">Son yazılar</h2>
+            <ol class="mini plain">{latest.map((p) => (
+              <li><div><a href={p.url}>{p.title}</a><small><time datetime={p.date}>{trDate(p.date)}</time> · {p.minutes} dk okuma</small></div></li>
+            ))}</ol>
+          </section>
+        )}
+        {toc.length > 0 && (
+          <nav class="widget side-toc" aria-labelledby="w-toc">
+            <h2 class="widget-title" id="w-toc">Bu yazıda neler var?</h2>
+            <ol>{toc.map((h) => (
+              <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}>{h.text}</a></li>
+            ))}</ol>
+          </nav>
+        )}
+      </>
+    ) : (
+      <>
+        {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
+        {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
+        <section class="widget note-box" aria-labelledby="w-team">
+          <h2 class="widget-title" id="w-team">{blog.author.name}</h2>
+          <p>Yazılarımız en az iki uluslararası kaynağa dayanır; her bilgi numaralı bir kaynağa bağlanır.</p>
+          <a href={blog.author.url}>Yayın ilkelerimiz →</a>
+        </section>
+      </>
+    )}
   </aside>
-) : (
-  <section class="band" aria-label="Diğer içerikler">
-    <div class="wrap band-grid">
-      {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
-      <AdSlot slot="article-end" />
-      <section class="widget" aria-labelledby="w-cats">
-        <h2 class="widget-title" id="w-cats">Kategoriler</h2>
-        <ul class="cats">{cats.map((c) => <li><a href={c.url}>{c.name}</a><span>{c.count}</span></li>)}</ul>
-      </section>
-      {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
-    </div>
-  </section>
 )}

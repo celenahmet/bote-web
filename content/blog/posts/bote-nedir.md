@@ -11,8 +11,14 @@ summary:
   - "Uluslararası çerçeveler (ISTE, UNESCO ICT-CFT, DigCompEdu, TPACK) BÖTE mezunundan yalnızca bilgisayar öğretmek değil, teknolojinin öğrenmeye nasıl hizmet edeceğini tasarlamayı da bekler."
   - "2025'te MEB, genel okullar için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** öğretmenlik alanı oluşturdu."
 faq:
+  - q: "BÖTE nedir, açılımı ne?"
+    a: "BÖTE, Bilgisayar ve Öğretim Teknolojileri Eğitimi'nin kısaltmasıdır. Eğitim fakültelerinde okutulan dört yıllık Bilgisayar ve Öğretim Teknolojileri Öğretmenliği lisans programını ifade eder. Bölüm 1998'de eğitim fakültelerinin yeniden yapılandırılmasıyla kuruldu."
+  - q: "Bilgisayar öğretmenliği ile BÖTE aynı bölüm mü?"
+    a: "Günlük dilde bilgisayar öğretmenliği denildiğinde çoğunlukla BÖTE kastedilir; lisans programının adı Bilgisayar ve Öğretim Teknolojileri Öğretmenliği'dir. MEB'de 2025'ten itibaren genel okullar için Bilgisayar ve Öğretim Teknolojileri, mesleki ve teknik eğitim kurumları için Bilişim Teknolojileri atama alanı bulunuyor."
   - q: "BÖTE ile bilgisayar mühendisliği arasındaki fark nedir?"
     a: "Bilgisayar mühendisliği yazılım ve donanım sistemlerinin tasarımına odaklanır. BÖTE ise bilişim bilgisini öğretme, öğrenme ortamı tasarlama ve eğitimde teknoloji kullanımıyla birleştiren bir öğretmenlik programıdır."
+  - q: "BÖTE'de hangi dersler var?"
+    a: "Program; programlama, bilgisayar ağları, veri tabanı ve çoklu ortam gibi teknik bilişim derslerini öğretim tasarımı ve eğitim bilimleri dersleriyle birleştirir. Güncel ders listesi için tercih edeceğiniz üniversitenin ders kataloğunu inceleyin."
   - q: "BÖTE hangi puan türüyle öğrenci alır?"
     a: "YÖK Atlas'ta program sayısal (SAY) puan türüyle listelenir. Kontenjanlar ve programın açık olduğu üniversiteler her yıl değişebildiği için tercih döneminde YÖK Atlas'ı ve ÖSYM kılavuzunu kontrol edin."
   - q: "BÖTE mezunu yalnızca öğretmen mi olabilir?"
@@ -85,14 +91,6 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/etku/issue/6269/84217"
     lang: tr
     accessed: 2026-09-25
-  - id: cagiltay2016
-    author: "Çağıltay, K. ve Göktaş, Y. (Ed.)"
-    title: "Öğretim Teknolojilerinin Temelleri: Teoriler, Araştırmalar, Eğilimler (2. baskı)"
-    publisher: "Pegem Akademi"
-    year: 2016
-    url: "https://pegem.net/ogretim-teknolojilerinin-temelleri"
-    lang: tr
-    accessed: 2026-09-25
   - id: yokatlas
     publisher: "Yükseköğretim Kurulu"
     title: "YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler"
@@ -107,11 +105,11 @@ sources:
     url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
     lang: tr
     accessed: 2026-09-25
-  - id: memurlar2025
-    publisher: "Memurlar.net"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı"
+  - id: ttkb-esaslar
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
+    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     year: 2025
-    url: "https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html"
+    url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
 ---
@@ -129,7 +127,7 @@ Bu tanımda iki nokta öne çıkıyor:
 - **Teknoloji yalnızca cihaz demek değildir.** Tanım "süreç ve kaynaklardan" söz eder. Bir dersin planlanması, öğretim materyalinin tasarlanması ve öğrenmenin değerlendirilmesi de bu kapsamdadır.
 - **Amaç öğrenmedir.** Bilgisayar, yazılım ya da yapay zekâ aracı öğrenmeye hizmet ettiği ölçüde değerlidir.
 
-Türkiye'de alanı tanıtan çalışmalar da benzer bir çerçeve çizer. Çakır, Çebi ve Özcan, BÖTE'yi anlatırken eğitim ve öğretim teknolojisi tanımlarını, öğretim sistemleri tasarımını ve zamanla alanı kapsayacak kadar genişleyen **insan performans teknolojisi** kavramını birlikte ele alır.[@cakir2013] Alanın Türkçe temel kaynaklarından biri, 27 üniversiteden 65 yazarın katkısıyla hazırlanan *Öğretim Teknolojilerinin Temelleri* kitabıdır.[@cagiltay2016]
+Türkiye'de alanı tanıtan çalışmalar da benzer bir çerçeve çizer. Çakır, Çebi ve Özcan, BÖTE'yi anlatırken eğitim ve öğretim teknolojisi tanımlarını, öğretim sistemleri tasarımını ve zamanla alanı kapsayacak kadar genişleyen **insan performans teknolojisi** kavramını birlikte ele alır.[@cakir2013]
 
 ## BÖTE'nin kısa tarihi
 
@@ -166,7 +164,7 @@ Bu çerçevelerin ortak mesajı şu: Teknolojiyi iyi bilmek tek başına yetmez.
 
 ## Güncel gelişmeler: 2025'te ne değişti?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[@ttkb2025] Haberlere göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@memurlar2025]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[@ttkb2025] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@ttkb-esaslar]
 
 Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
 

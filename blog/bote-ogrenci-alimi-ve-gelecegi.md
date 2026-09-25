@@ -12,7 +12,7 @@ description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğret
 
 > BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 
 ## Kısaca
 
@@ -87,6 +87,14 @@ BÖTE'deki kontenjan azalması, bölümün "gereksiz" olduğunun değil, öğret
 
 Hayır. Program hâlâ bazı üniversitelerde öğrenci alıyor, ancak programın açık olduğu üniversite sayısı geçmişe göre çok az. Güncel durum için YÖK Atlas'taki program listesini kontrol edin.
 
+### BÖTE hangi üniversitelerde var?
+
+Programın açık olduğu üniversiteler ve kontenjanlar her yıl değişir. Güncel ve resmî liste için YÖK Atlas'taki Bilgisayar ve Öğretim Teknolojileri Öğretmenliği sayfasına ve o yılın ÖSYM tercih kılavuzuna bakın.
+
+### BÖTE'ye neden öğrenci alımı azaldı?
+
+Başlıca gerekçe, öğretmen yetiştirme kapasitesini MEB'in öğretmen ihtiyacıyla uyumlu hâle getirme politikasıdır. Mezun sayısının atama sayısını aştığı alanlarda kontenjanlar azaltıldı. Alan akademisyenleri bu kararın gerekçeleri ve sonuçları hakkında farklı görüşler dile getiriyor.
+
 ### Kontenjanları kim belirler?
 
 Lisans kontenjanları üniversitelerin önerileri doğrultusunda YÖK tarafından belirlenir ve ÖSYM kılavuzunda yayımlanır. Öğretmenlik programlarında MEB'in öğretmen ihtiyacı da belirleyici bir etkendir.
@@ -95,11 +103,15 @@ Lisans kontenjanları üniversitelerin önerileri doğrultusunda YÖK tarafında
 
 Bunu şimdiden söylemek mümkün değil. Yeni alan, BÖTE mezunlarının genel okullardaki rolünü netleştiriyor. Ancak lisans kontenjanları ve atama sayıları ayrı kararlarla belirlenir.
 
+### BÖTE tercih edilir mi?
+
+Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine ilgi duyan adaylar için program güçlü bir temel sunar; ancak açık program sayısının az olduğunu ve atamaların ayrı kararlarla belirlendiğini göz önünde bulundurun. Tercihten önce YÖK Atlas verilerini inceleyin.
+
 ## Kaynaklar
 
 1. Yükseköğretim Kurulu (2026). YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler. https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101 (TR, erişim: 2026-09-25)
 2. Millî Eğitim Bakanlığı (t.y.). Bakan Yılmaz, YÖK'te Eğitim Fakültelerinin Yöneticileriyle Bir Araya Geldi. https://www.meb.gov.tr/bakan-yilmaz-yokte-egitim-fakultelerinin-yoneticileriyle-bir-araya-geldi/haber/11969/tr (TR, erişim: 2026-09-25)
-3. Memurlar.net (2018). 25 Öğretmenlik Lisans Programı Güncellendi. https://www.memurlar.net/haber/749268/25-ogretmenlik-lisans-programi-guncellendi.html (TR, erişim: 2026-09-25)
+3. Yükseköğretim Kurulu (2018). Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı. https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx (TR, erişim: 2026-09-25)
 4. Bakar Çörez, A. ve Geçer, A. (2020). Akademisyenlerin Gözünden Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü'ne Bakış. Kastamonu Eğitim Dergisi, 28(1), 17–35. https://dergipark.org.tr/tr/pub/kefdergi/issue/52233/678517 (TR, erişim: 2026-09-25)
 5. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
 6. International Society for Technology in Education (ISTE) (2019). ISTE Standards: For Coaches. https://iste.org/standards/coaches (EN, erişim: 2026-09-25)
@@ -108,4 +120,4 @@ Bunu şimdiden söylemek mümkün değil. Yeni alan, BÖTE mezunlarının genel 
 9. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
 10. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
 11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-12. Memurlar.net (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı. https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html (TR, erişim: 2026-09-25)
+12. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)

@@ -1,0 +1,30 @@
+---
+// Kaynakca maddeleri. Her maddede "Metinde" baglantilari atfin destekledigi cumleye gider
+// ve onu isaretler (.cited:target).
+import { sourceLine, trDate } from '../lib.js';
+const { sources } = Astro.props;
+const letters = 'abcçdefgğhıijklmnoöprsştuüvyz';
+const short = (u) => { const x = u.replace(/^https?:\/\//, '').replace(/\/$/, ''); return x.length > 60 ? `${x.slice(0, 60)}…` : x; };
+---
+<ol class="src-list">
+  {sources.map((s) => {
+    const l = sourceLine(s);
+    return (
+      <li id={`kaynak-${s.n}`}>
+        <span class="n">{s.n}</span>
+        <div class="src-body">
+          {l.lead} <cite>{l.title}</cite>.{l.pub}
+          <div class="src-meta">
+            <span class={`lang ${s.lang === 'tr' ? 'tr' : 'en'}`}>{s.lang.toUpperCase()}</span>
+            <a href={s.url} rel="noopener" target="_blank">{short(s.url)}</a>
+            <span>erişim {trDate(s.accessed)}</span>
+            {s.refs.length === 1 && <a class="backref" href={`#${s.refs[0]}`}>↑ Metinde göster</a>}
+            {s.refs.length > 1 && (
+              <span class="backref">↑ Metinde: {s.refs.map((r, i) => <a href={`#${r}`} aria-label={`Metindeki ${i + 1}. atıf`}>{letters[i] || i + 1}</a>)}</span>
+            )}
+          </div>
+        </div>
+      </li>
+    );
+  })}
+</ol>

@@ -29,7 +29,7 @@ Bu yazıda her yolu fırsatları ve zorluklarıyla birlikte ele alıyoruz. Amac�
 
 ### Hangi alanda atanılır?
 
-Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[1] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Haberlere göre mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[2]
+Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[1] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Esasların güncel metnine göre **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[2]
 
 Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri ve Yazılım**'dır. MEB Talim ve Terbiye Kurulunun haftalık ders çizelgesine göre bu ders 5. ve 6. sınıflarda haftada 2 saat zorunlu olarak okutulur.[3]
 
@@ -95,13 +95,25 @@ BÖTE mezunlarının önünde tek bir yol yok, birbirine bağlanan bir yollar a�
 
 ## Sık Sorulan Sorular
 
+### BÖTE mezunu ne iş yapar?
+
+Ana yol öğretmenliktir: MEB okulları, özel okullar ve kurslar. Bunun yanında öğretim tasarımı, e-öğrenme içeriği geliştirme, kurumsal eğitim, yazılım ve akademik kariyer de mezunların yöneldiği alanlardır.
+
 ### BÖTE mezunu hangi derslere girer?
 
 Genel okullarda ağırlıklı olarak ortaokuldaki Bilişim Teknolojileri ve Yazılım dersi ile bilişim ağırlıklı derslere girer. Hangi alanın hangi dersi okutacağı MEB'in Öğretmenlik Alanları, Atama ve Ders Okutma Esasları ile belirlenir. Bu esaslar değişebildiği için güncel metni kontrol edin.
 
+### Bilişim teknolojileri öğretmeni nasıl olunur?
+
+Öğretmenliğe kaynak olan bir lisans programından (genel okullar için Bilgisayar ve Öğretim Teknolojileri Öğretmenliği) mezun olmak, MEB Akademi Giriş Sınavı'na (AGS) girmek ve Millî Eğitim Akademisi'nin hazırlık eğitimini başarıyla tamamlamak gerekir. Alan eşleştirmeleri için MEB'in güncel esaslarına bakın.
+
 ### Öğretmen olmak için KPSS yeterli mi?
 
 7528 sayılı Kanun'la birlikte öğretmen adaylarının Millî Eğitim Akademisi hazırlık eğitimine kabulü, ÖSYM'nin yaptığı MEB Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılmaktadır. Başvuru koşulları için MEB ve ÖSYM duyurularını takip edin.
+
+### BÖTE mezunu özel sektörde çalışabilir mi?
+
+Evet. Öğretim tasarımı, e-öğrenme içeriği geliştirme ve kurumsal eğitim rolleri eğitim teknolojisi bilgisini doğrudan kullanır; bu rollerde portfolyo ve deneyim öne çıkar. İş bulma koşulları sektöre ve döneme göre değişir.
 
 ### Öğretim tasarımcısı olmak için yüksek lisans gerekir mi?
 
@@ -110,7 +122,7 @@ Genel okullarda ağırlıklı olarak ortaokuldaki Bilişim Teknolojileri ve Yaz�
 ## Kaynaklar
 
 1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-2. Memurlar.net (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında Değişiklik Yapıldı. https://www.memurlar.net/haber/1132794/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslarinda-degisiklik-yapildi.html (TR, erişim: 2026-09-25)
+2. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
 3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4. https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf (TR, erişim: 2026-09-25)
 4. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
 5. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)

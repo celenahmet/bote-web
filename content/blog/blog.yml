@@ -14,21 +14,28 @@ author:
 
 # Yazi zorunlulugu: en az bu kadar yabanci (lang != tr) kaynak.
 minForeignSources: 2
+# Her yazida tam bu kadar SSS; sorular arama niyetine (Trends / Search Console) gore secilir.
+faqCount: 6
 
 categories:
   - slug: bolum-rehberi
+    icon: compass
     name: Bölüm Rehberi
     description: BÖTE bölümünü tanımak isteyen aday öğrenciler ve veliler için bölümün yapısı, dersleri ve kazanımları.
   - slug: kariyer
+    icon: briefcase
     name: Kariyer
     description: BÖTE mezunlarının çalışma alanları, öğretmenlik ve öğretmenlik dışı kariyer yolları.
   - slug: yuksekogretim
+    icon: landmark
     name: Yükseköğretim ve Politika
     description: YÖK kararları, kontenjanlar ve öğretmen yetiştirme politikalarına dair gelişmeler.
   - slug: egitim-fakultesi
+    icon: graduation-cap
     name: Eğitim Fakültesi
     description: Eğitim fakültelerinin yapısı, bölümleri ve öğretmen yetiştirme sistemi.
   - slug: egitim-teknolojileri
+    icon: monitor-cog
     name: Eğitim Teknolojileri
     description: Öğretim teknolojileri, dijital yetkinlikler ve eğitimde yapay zekâ üzerine yazılar.
 
@@ -41,25 +48,24 @@ ads:
       sidebar-top: ""
       sidebar-bottom: ""
       article-end: ""
+  # Site ici tanitim (AdSense yokken). Kart: logo, tek cumlelik tanim, CTA ve magaza rozetleri.
   house:
-    - id: uniconnectly-etkinlik
+    - id: uniconnectly
       slots: [sidebar-top, article-end]
       brand: UniConnectly
-      title: Topluluğunun etkinliklerini tek yerden yönet
+      # uniconnectly.com'daki logo dosyasi tools/blog-app/public/ads/ altina bu adla konunca
+      # kullanilir; yoksa yazi logosu (wordmark) gosterilir.
+      logo: /blog/ads/uniconnectly-logo.svg
       text: >-
-        Topluluk sayfanı oluştur, etkinliğini duyur, katılımcı kayıtlarını topla.
-        Üniversite toplulukları için UniConnectly.
-      cta: UniConnectly'yi keşfet
+        Üniversite topluluklarını, etkinlikleri ve şirketleri tek uygulamada
+        buluşturan ücretsiz kampüs platformu.
+      cta: Ücretsiz keşfet
       url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog
-      # Magaza baglantilari (App Store, Google Play vb.) eklenince rozet olarak gosterilir.
-      stores: []
-    - id: uniconnectly-rehber
-      slots: [sidebar-bottom]
-      brand: UniConnectly
-      title: Öğrencilere özel fırsatlar tek yerde
-      text: >-
-        GitHub Student Developer Pack'ten TÜBİTAK 2209-A'ya, öğrenci
-        topluluklarına yönelik rehberler UniConnectly Blog'da.
-      cta: Rehberleri incele
-      url: https://uniconnectly.com/blog?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-rehber
-      stores: []
+      # Magaza sayfalarinin adresleri gelince url alanlari guncellenir (simdilik site).
+      stores:
+        - id: appstore
+          url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=appstore
+        - id: googleplay
+          url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=googleplay
+        - id: appgallery
+          url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=appgallery
