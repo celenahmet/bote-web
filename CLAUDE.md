@@ -113,6 +113,11 @@ de sayı ve kaynakla (atama, istihdam, mevzuat) verilir, yoğunluk düşürülme
 - Her kaynak açılır ve künyesi doğrulanır: yazar, yıl, başlık, dergi, cilt, sayı, sayfa, DOI
   çalışıyor mu. Açılamayan kaynak kullanılmaz; ağ kısıtı yüzünden erişilemiyorsa o iddia
   yazılmaz ve kullanıcıya bildirilir. Arama motoru özeti ya da hafıza doğrulama sayılmaz.
+- Ağ kısıtlı oturum istisnası (kullanıcı izni, 26.09.2026): kaynak açılamıyorsa künye ve sayılar
+  yalnızca arama dizininin kayıt sayfalarıyla (ERIC, yayınevi, DergiPark, kurum deposu) çapraz
+  denetlenebilir; doğrulama notlarında "dizin düzeyi" yazılır, DOI'nin kaynağı (dizin / hafıza)
+  belirtilir, yazının değişiklik günlüğünde "tam metin denetimi sürüyor" denir ve ağ açılınca
+  tam metin denetimi tamamlanır. Sayısı çelişkili ya da tek dizinde görülen değer yazılmaz.
 - Her sayı kaynağındaki tablo ya da sayfadan alınır; `content/blog/dogrulama-notlari/<slug>.md`
   dosyasına kaynak, sayfa ve erişim tarihiyle yazılır (şablon: klasördeki README).
 - Yayından önce hakem okuması: yazı BÖTE'de doçent bir hakem gözüyle baştan okunur; eksik
