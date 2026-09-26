@@ -171,6 +171,7 @@ out.set('llms.txt', `# BÖTE — Bilgisayar ve Öğretim Teknolojileri Eğitimi
 
 - Blog yazılarının sonunda numaralı kaynakça vardır.
 - Her blog yazısının Markdown sürümü, yazı adresine \`.md\` eklenerek alınabilir. Tüm yazıların tam metni: ${SITE}/llms-full.txt
+- Yazıların Markdown dizini (kategoriye göre): ${SITE}/blog/yazilar.md
 - İçerik kaynak gösterilerek alıntılanabilir. Her yazının atıf verisi (APA 7, BibTeX): ${SITE}/blog/atif/<yazi>.json. Editör ekibi: ${SITE}/blog/${cfg.author.slug}
 
 ## Blog

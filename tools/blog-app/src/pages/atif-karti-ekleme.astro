@@ -1,0 +1,85 @@
+---
+// Yardim sayfasi (Ahmet 27.09): "Sitene gom" panelindeki "Nasil eklenir?" buraya gelir.
+// Yazi degil sayfa: kaynak/derinlik standardi disinda, akista ve beslemelerde yok.
+import Base from '../layouts/Base.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Widgets from '../components/Widgets.astro';
+import { loadBlog, orgLd, breadcrumbLd } from '../lib.js';
+const blog = loadBlog();
+const path = '/blog/atif-karti-ekleme';
+const title = 'Atıf kartını sitenize ekleme';
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: title, url: path }];
+const ld = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'WebPage', '@id': `${blog.abs(path)}#sayfa`, url: blog.abs(path), name: title, inLanguage: 'tr-TR', isPartOf: { '@id': `${blog.SITE}/blog#blog` } },
+  orgLd(blog), breadcrumbLd(blog, trail),
+] };
+const example = blog.posts[0];
+---
+<Base title={`${title} | BÖTE Blog`} description="Blog yazılarının atıf kartını WordPress, Blogger, Google Sites, Moodle, Wix, Notion, React ya da LaTeX'e adım adım ekleme ve sorun giderme rehberi."
+  path={path} image={blog.blogImage} ld={ld}>
+  <section class="wrap index-head">
+    <Crumbs items={trail} />
+    <h1>{title}</h1>
+    <p class="dek">Her yazının sonundaki "Sitene göm" bölümüyle atıf kartını bir web sitesine, ders sayfasına ya da belgeye birkaç adımda ekleyebilirsiniz.</p>
+  </section>
+  <div class="wrap index-grid">
+    <div class="page-prose">
+      <h2>Üç adımda</h2>
+      <ol>
+        <li>Yazının sonundaki <strong>Atıf</strong> bölümünde <strong>Sitene göm</strong>'ü açın.</li>
+        <li><strong>Biçim</strong> listesinden sitenize uygun olanı seçin (aşağıdaki tabloya bakın). <strong>Önizleme</strong>, kartın sitenizde nasıl görüneceğini gösterir.</li>
+        <li><strong>Kodu kopyala</strong> düğmesine basın ve kodu sitenizin HTML ya da kod düzenleyicisine yapıştırın.</li>
+      </ol>
+      <p>Kodu kendiniz eklemeyecekseniz <strong>Yazılımcıya gönder</strong> düğmesini kullanın. Düğme; kodun nereye konacağını, kartın önizleme adresini, bu rehberin bağlantısını ve kodun kendisini tek bir yönergede hazırlar. Telefonda paylaşım menüsü açılır, bilgisayarda yönerge panoya kopyalanır; e-postaya ya da mesaja yapıştırıp göndermeniz yeterlidir.</p>
+
+      <h2>Hangi biçimi seçmeliyim?</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Nerede kullanacaksınız?</th><th>Biçim</th></tr></thead>
+          <tbody>
+            <tr><td>WordPress, Blogger, Wix, Google Sites, Moodle, kendi HTML sayfanız</td><td>HTML</td></tr>
+            <tr><td>Yazı güncellendiğinde kendiliğinden güncellenen kart</td><td>iframe</td></tr>
+            <tr><td>GitHub README, Notion, Hugo, Jekyll</td><td>Markdown</td></tr>
+            <tr><td>React ya da Next.js, Vue ya da Nuxt, Svelte</td><td>İlgili bileşen</td></tr>
+            <tr><td>Kendi betiğiniz</td><td>JavaScript ya da Python</td></tr>
+            <tr><td>LaTeX ya da Overleaf</td><td>LaTeX</td></tr>
+            <tr><td>Word, Google Dokümanlar, sunum</td><td>Gömme gerekmez</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><strong>HTML ile iframe farkı:</strong> HTML biçimi kartın metnini sitenizin içine yazar; JavaScript gerektirmez, arama motorları bağlantıyı görür ve kart sitenizin yazı tipini alır. iframe biçimi kartı bote.web.tr'den yükler; yazı güncellendiğinde kart da güncellenir, ancak bazı siteler ve kurumlar iframe'e izin vermez.</p>
+
+      <h2>Platforma göre</h2>
+      <h3>WordPress</h3>
+      <p>Blok düzenleyicide <strong>+</strong> düğmesiyle <strong>Özel HTML</strong> bloğu ekleyin, kodu yapıştırın ve bloğun önizlemesiyle kontrol edin. Bazı barındırma planları iframe'i kaldırabilir; kart görünmezse HTML biçimini kullanın.</p>
+      <h3>Blogger</h3>
+      <p>Yayın düzenleyicisinde görünümü <strong>HTML görünümü</strong> olarak değiştirin, kodu kartın görüneceği yere yapıştırın ve ardından oluşturma görünümüne dönün.</p>
+      <h3>Google Sites</h3>
+      <p>Sağdaki <strong>Ekle</strong> panelinden gömme (Embed) seçeneğini açın ve kodu, kod yapıştırma sekmesine yapıştırın.</p>
+      <h3>Moodle</h3>
+      <p>Sayfa ya da etkinlik düzenleyicisinde metin düzenleyicinin kaynak kodu (HTML) görünümüne geçip kodu yapıştırın. Kurumunuz iframe'i kapatmış olabilir; bu durumda HTML biçimi çalışır.</p>
+      <h3>Wix</h3>
+      <p><strong>Ekle</strong> menüsündeki kod gömme (Embed Code) bölümünden HTML gömme öğesini ekleyin ve kodu yapıştırın. Wix bu öğeyi bir çerçeve içinde gösterir; kart kesik görünürse öğenin yüksekliğini artırın.</p>
+      <h3>Notion ve GitHub</h3>
+      <p>Markdown biçimini kopyalayıp sayfaya yapıştırın; Notion yapıştırılan Markdown'ı biçimli metne çevirir. GitHub'daki README dosyalarında da aynı kod çalışır.</p>
+      <h3>React, Vue ve Svelte</h3>
+      <p>Bileşeni ayrı bir dosya olarak kaydedin (<code>BoteAtif.jsx</code>, <code>BoteAtif.vue</code> ya da <code>BoteAtif.svelte</code>), kartın görüneceği sayfada içe aktarıp <code>&lt;BoteAtif /&gt;</code> olarak kullanın.</p>
+      <h3>LaTeX ve Overleaf</h3>
+      <p>BibTeX kaydını <code>kaynaklar.bib</code> dosyasına ekleyin. Koddaki APA 7 biçemi biblatex paketinin <code>apa</code> biçemidir ve biber ile derlenir; Overleaf bu adımı kendisi yürütür.</p>
+      <h3>Word ve Google Dokümanlar</h3>
+      <p>Gömmeye gerek yoktur. Atıf bölümündeki <strong>APA'yı kopyala</strong> düğmesiyle kaynakça girdisini kopyalayıp belgenize yapıştırın. Zotero kullanıyorsanız BibTeX kaydını kopyalayıp Zotero'nun File menüsündeki Import from Clipboard komutuyla kitaplığınıza ekleyebilirsiniz.</p>
+
+      <h2>Sorun giderme</h2>
+      <ul>
+        <li><strong>Kod sayfada düz metin olarak görünüyor:</strong> Kod, görsel düzenleyiciye yapıştırılmıştır. Düzenleyicinin HTML ya da kaynak kodu görünümüne geçip yeniden yapıştırın.</li>
+        <li><strong>iframe boş görünüyor:</strong> Site çerçeveye izin vermiyor olabilir. HTML biçimini kullanın.</li>
+        <li><strong>Kartın yazı tipi ve renkleri farklı:</strong> HTML biçimi sitenizin yazı tipini ve renklerini alır; bu beklenen bir durumdur.</li>
+        <li><strong>JavaScript kodu çalışmıyor:</strong> Kodun <code>&lt;script type="module"&gt;</code> içinde olduğundan ve sayfada <code>id="bote-atif"</code> olan bir öğe bulunduğundan emin olun.</li>
+      </ul>
+
+      <h2>Atıf verisi</h2>
+      <p>Her yazının atıf bilgisi JSON olarak da yayımlanır: başlık, adres, yazar, yayın tarihi, APA 7 metni, BibTeX kaydı ve gömme adresi. Adres, yazının adının sonuna <code>.json</code> eklenmiş hâlidir{example && <>; örneğin <a href={`/blog/atif/${example.slug}.json`} target="_blank" rel="noopener">{`/blog/atif/${example.slug}.json`}</a></>}.</p>
+    </div>
+    <Widgets mode="sidebar" />
+  </div>
+</Base>

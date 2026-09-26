@@ -154,23 +154,41 @@ const ld = { '@context': 'https://schema.org', '@graph': [
               <pre data-copy-src="bibtex">{cite.bibtex}</pre>
               <button type="button" class="cite-btn" data-copy="bibtex" hidden><Icon name="copy" size={15} /><span>BibTeX'i kopyala</span></button>
             </details>
+            {/* Sitene gom (Ahmet 27.09): az yer kaplar. Bicim tek listede; varsayilan kucuk onizleme, kod
+                istenince acilir. "Yazilimciya gonder" yapilacaklari ve kodu tek yonergede paylasir ya da
+                kopyalar. JS yoksa denetimler gizli kalir, HTML kodu gorunur ve secilip kopyalanabilir. */}
             <details class="cite-bib cite-embed">
               <summary><Icon name="code-xml" size={15} />Sitene göm</summary>
-              <p class="emb-lead">Bu atıf kartını kendi sitenize, ders sayfanıza ya da belgenize ekleyin. Tüm biçimler APA 7 ve BibTeX kaydını birlikte içerir; atıf verisi <a href={cite.jsonUrl}>JSON</a> olarak da alınabilir.</p>
-              <div class="emb-tabs">
+              <div class="emb" data-emb data-title={post.title} data-url={cite.url} data-embed={cite.embedUrl} data-guide={blog.abs('/blog/atif-karti-ekleme')}>
+                <p class="emb-lead">Atıf kartını kendi sitenize ya da ders sayfanıza ekleyin. Kart APA 7 ve BibTeX kaydını birlikte taşır.</p>
+                <div class="emb-bar" hidden>
+                  <label class="emb-fmt"><span>Biçim</span>
+                    <select data-emb-fmt aria-label="Kod biçimi">
+                      {cite.snippets.map((sn) => <option value={sn.id}>{sn.label}</option>)}
+                    </select>
+                  </label>
+                  <div class="emb-view" role="group" aria-label="Görünüm">
+                    <button type="button" data-emb-view="preview" aria-pressed="true">Önizleme</button>
+                    <button type="button" data-emb-view="code" aria-pressed="false">Kod</button>
+                  </div>
+                </div>
+                <p class="emb-note" data-emb-note>{cite.snippets[0].note}</p>
+                <div class="emb-preview" data-emb-preview hidden>
+                  <p class="emb-cap">Sitenizde böyle görünür; kart, eklendiği sitenin yazı tipini alır.</p>
+                  <div class="emb-frame" data-emb-card set:html={cite.snippets[0].code} />
+                  <div class="emb-frame emb-iframe" data-emb-live hidden></div>
+                </div>
                 {cite.snippets.map((sn, i) => (
-                  <>
-                    <input type="radio" name="emb-tab" id={`emb-${sn.id}`} class="emb-radio sr-only" checked={i === 0} />
-                    <label for={`emb-${sn.id}`}>{sn.label}</label>
-                    <div class="emb-panel">
-                      <p class="emb-note">{sn.note}</p>
-                      <div class="emb-code" data-copy-src={`emb-${sn.id}`}>
-                        <Code code={sn.code} lang={sn.lang} themes={{ light: 'github-light', dark: 'github-dark' }} defaultColor={false} wrap />
-                      </div>
-                      <button type="button" class="cite-btn" data-copy={`emb-${sn.id}`} hidden><Icon name="copy" size={15} /><span>{sn.label} kodunu kopyala</span></button>
-                    </div>
-                  </>
+                  <div class="emb-code" data-emb-code={sn.id} data-label={sn.label} data-note={sn.note} data-how={sn.how} data-copy-src={`emb-${sn.id}`} hidden={i === 0 ? undefined : true}>
+                    <Code code={sn.code} lang={sn.lang} themes={{ light: 'github-light', dark: 'github-dark' }} defaultColor={false} wrap />
+                  </div>
                 ))}
+                <div class="emb-actions">
+                  <button type="button" class="cite-btn cite-btn-main" data-emb-copy hidden><Icon name="copy" size={15} /><span>Kodu kopyala</span></button>
+                  <button type="button" class="cite-btn" data-emb-send hidden><Icon name="send" size={15} /><span>Yazılımcıya gönder</span></button>
+                  <a class="cite-link" href="/blog/atif-karti-ekleme">Nasıl eklenir?</a>
+                  <a class="cite-link" href={cite.jsonUrl} target="_blank" rel="noopener">JSON verisi <Icon name="external-link" size={13} /></a>
+                </div>
               </div>
             </details>
           </div>
@@ -273,6 +291,69 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         catch { label.textContent = 'Kopyalanamadı'; }
         setTimeout(() => { label.textContent = text; }, 1800);
       });
+    }
+    // Sitene gom: bicim secimi, onizleme/kod, kopyala, yazilimciya gonder.
+    const emb = document.querySelector('[data-emb]');
+    if (emb) {
+      const $ = (s) => emb.querySelector(s);
+      const codes = [...emb.querySelectorAll('[data-emb-code]')];
+      const sel = $('[data-emb-fmt]');
+      const note = $('[data-emb-note]');
+      const prev = $('[data-emb-preview]');
+      const card = $('[data-emb-card]');
+      const live = $('[data-emb-live]');
+      const views = [...emb.querySelectorAll('[data-emb-view]')];
+      // onizlemesi olmayan bicimler (cikti sayfa degil) dogrudan kodla acilir
+      const noPreview = new Set(['py', 'latex']);
+      let view = 'preview';
+      const cur = () => codes.find((c) => c.dataset.embCode === sel.value) || codes[0];
+      const render = () => {
+        const c = cur();
+        const v = noPreview.has(c.dataset.embCode) ? 'code' : view;
+        note.textContent = c.dataset.note;
+        codes.forEach((x) => { x.hidden = !(v === 'code' && x === c); });
+        prev.hidden = v !== 'preview';
+        const isFrame = c.dataset.embCode === 'iframe';
+        if (isFrame && !live.firstChild) {
+          const f = document.createElement('iframe');
+          f.src = emb.dataset.embed; f.title = 'Atıf kartı önizlemesi'; f.loading = 'lazy';
+          live.append(f);
+        }
+        live.hidden = !isFrame; card.hidden = isFrame;
+        views.forEach((b) => {
+          b.setAttribute('aria-pressed', String(b.dataset.embView === v));
+          b.disabled = b.dataset.embView === 'preview' && noPreview.has(c.dataset.embCode);
+        });
+      };
+      $('.emb-bar').hidden = false;
+      sel.addEventListener('change', render);
+      views.forEach((b) => b.addEventListener('click', () => { view = b.dataset.embView; render(); }));
+      const flash = (btn, msg) => {
+        const label = btn.querySelector('span'); const text = label.textContent;
+        label.textContent = msg; setTimeout(() => { label.textContent = text; }, 2200);
+      };
+      const codeText = () => cur().innerText.trim();
+      if (navigator.clipboard) {
+        const copyBtn = $('[data-emb-copy]'); copyBtn.hidden = false;
+        copyBtn.addEventListener('click', async () => {
+          try { await navigator.clipboard.writeText(codeText()); flash(copyBtn, 'Kopyalandı'); } catch { flash(copyBtn, 'Kopyalanamadı'); }
+        });
+      }
+      const sendBtn = $('[data-emb-send]');
+      if (navigator.share || navigator.clipboard) {
+        sendBtn.hidden = false;
+        sendBtn.addEventListener('click', async () => {
+          const c = cur(); const d = emb.dataset;
+          const text = `Merhaba,\n\nbote.web.tr'deki "${d.title}" yazısının atıf kartını sitemize eklemek istiyoruz.\n\nBiçim: ${c.dataset.label} (${c.dataset.note})\n\nYapılacaklar:\n1. ${c.dataset.how}\n2. Sayfayı kaydedip önizleyin; kart yazının başlığını, APA 7 atfını ve BibTeX kaydını gösterir.\n3. Ayrıntılı anlatım ve sorun giderme: ${d.guide}\n\nKartın görünümü: ${d.embed}\nYazı: ${d.url}\n\n${c.dataset.label} kodu:\n\n${codeText()}\n`;
+          if (navigator.share) {
+            try { await navigator.share({ title: `Atıf kartı: ${d.title}`, text }); return; }
+            catch (e) { if (e && e.name === 'AbortError') return; }
+          }
+          try { await navigator.clipboard.writeText(text); flash(sendBtn, 'Yönerge kopyalandı, e-postaya yapıştırın'); }
+          catch { flash(sendBtn, 'Kopyalanamadı'); }
+        });
+      }
+      render();
     }
     // Bilgi penceresindeki bir bolume gidilince pencereyi kapat.
     for (const a of document.querySelectorAll('.src-pop a[href^="#"]')) {

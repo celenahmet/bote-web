@@ -110,16 +110,18 @@ Ayrıntı için bkz. \\parencite{${key}}.
 \\printbibliography
 \\end{document}`;
 
+  // how: "Yazilimciya gonder" yonergesindeki ilk adim (kodun nereye konacagi).
+  const htmlHow = 'Kodu, kartın görüneceği sayfanın HTML düzenleyicisine yapıştırın (WordPress: Özel HTML bloğu; Blogger: HTML görünümü; Moodle: metin düzenleyicinin kaynak kodu görünümü).';
   const snippets = [
-    { id: 'html', label: 'HTML', lang: 'html', code: html, note: 'JavaScript gerektirmez; bağlantı arama motorlarınca da görülür.' },
-    { id: 'iframe', label: 'iframe', lang: 'html', code: iframe, note: 'Hazır atıf kartı; içerik güncellendiğinde kart da güncellenir.' },
-    { id: 'md', label: 'Markdown', lang: 'markdown', code: markdown, note: 'README, GitHub, Notion ve statik site üreticileri için.' },
-    { id: 'react', label: 'React', lang: 'jsx', code: react, note: 'React ve Next.js bileşeni.' },
-    { id: 'vue', label: 'Vue', lang: 'vue', code: vue, note: 'Vue 3 tek dosya bileşeni (Nuxt ile de çalışır).' },
-    { id: 'svelte', label: 'Svelte', lang: 'svelte', code: svelte, note: 'Svelte ve SvelteKit bileşeni.' },
-    { id: 'js', label: 'JavaScript', lang: 'javascript', code: js, note: 'Atıf verisini JSON olarak çekip sayfaya ekler.' },
-    { id: 'py', label: 'Python', lang: 'python', code: python, note: 'APA 7 metnini yazdırır, BibTeX kaydını .bib dosyasına ekler.' },
-    { id: 'latex', label: 'LaTeX', lang: 'latex', code: latex, note: 'biblatex ile APA 7 biçeminde kaynakça.' },
+    { id: 'html', label: 'HTML', lang: 'html', code: html, note: 'Her sitede çalışır, JavaScript gerektirmez; bağlantı arama motorlarınca da görülür.', how: htmlHow },
+    { id: 'iframe', label: 'iframe', lang: 'html', code: iframe, note: 'Hazır atıf kartı; yazı güncellendiğinde kart da kendiliğinden güncellenir.', how: `${htmlHow} Site iframe'e izin vermiyorsa HTML biçimini kullanın.` },
+    { id: 'md', label: 'Markdown', lang: 'markdown', code: markdown, note: 'README, GitHub, Notion ve statik site üreticileri için.', how: 'Kodu Markdown dosyasına (README, Notion sayfası, Hugo ya da Jekyll yazısı) olduğu gibi yapıştırın.' },
+    { id: 'react', label: 'React', lang: 'jsx', code: react, note: 'React ve Next.js bileşeni.', how: 'Kodu BoteAtif.jsx dosyası olarak kaydedin; kartın görüneceği sayfada import edip <BoteAtif /> olarak kullanın.' },
+    { id: 'vue', label: 'Vue', lang: 'vue', code: vue, note: 'Vue 3 tek dosya bileşeni (Nuxt ile de çalışır).', how: 'Kodu BoteAtif.vue dosyası olarak kaydedin; kartın görüneceği sayfada import edip <BoteAtif /> olarak kullanın.' },
+    { id: 'svelte', label: 'Svelte', lang: 'svelte', code: svelte, note: 'Svelte ve SvelteKit bileşeni.', how: 'Kodu BoteAtif.svelte dosyası olarak kaydedin; kartın görüneceği sayfada import edip <BoteAtif /> olarak kullanın.' },
+    { id: 'js', label: 'JavaScript', lang: 'javascript', code: js, note: 'Atıf verisini JSON olarak çekip sayfaya ekler.', how: 'Sayfaya <div id="bote-atif"></div> ekleyin; kodu bir <script type="module"> içinde çalıştırın (kod üst düzey await kullanır).' },
+    { id: 'py', label: 'Python', lang: 'python', code: python, note: 'APA 7 metnini yazdırır, BibTeX kaydını .bib dosyasına ekler.', how: 'Kodu Python 3 ile çalıştırın; requests paketi gerekir (pip install requests).' },
+    { id: 'latex', label: 'LaTeX', lang: 'latex', code: latex, note: 'biblatex ile APA 7 biçeminde kaynakça.', how: 'BibTeX kaydını kaynaklar.bib dosyasına ekleyin; belgeyi biber ile derleyin (Overleaf bunu kendisi yapar).' },
   ];
 
   return { url, embedUrl, jsonUrl, key, apa, apaHtml, bibtex, snippets,

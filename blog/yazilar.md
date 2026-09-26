@@ -1,0 +1,72 @@
+# BÖTE Blog: yazı dizini
+
+> Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
+
+- Her yazının Markdown sürümü aşağıdaki bağlantılardadır; yazı adresinin sonuna `.md` eklenerek de alınabilir.
+- Tüm yazıların tam metni tek dosyada: https://bote.web.tr/llms-full.txt
+- Atıf verisi (APA 7, BibTeX): https://bote.web.tr/blog/atif/<yazi>.json
+
+## Bölüm Rehberi
+
+- [Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi.md): Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber. (2026-09-25)
+- [BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi](https://bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi.md): BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma. (2026-09-25)
+- [BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi](https://bote.web.tr/blog/bote-nedir.md): BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber. (2026-09-25)
+
+## Kariyer
+
+- [Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası](https://bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur.md): Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası. (2026-09-25)
+- [BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar.md): BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım. (2026-09-25)
+- [BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme](https://bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi.md): BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar. (2026-09-25)
+- [Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu](https://bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar.md): Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı. (2026-09-25)
+
+## Yükseköğretim ve Politika
+
+- [BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış](https://bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi.md): BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz. (2026-09-25)
+- [Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?](https://bote.web.tr/blog/dunyada-ogretmen-acigi.md): UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo. (2026-09-25)
+- [Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?](https://bote.web.tr/blog/ogretmenlik-meslegi-sayginligi.md): Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar. (2026-09-25)
+
+## Eğitim Fakültesi
+
+- [AGS Nedir? MEB Akademi Giriş Sınavı Rehberi](https://bote.web.tr/blog/ags-nedir.md): AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber. (2026-09-25)
+- [Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?](https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad.md): Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber. (2026-09-25)
+- [Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları](https://bote.web.tr/blog/egitim-fakultesi-bolumleri.md): Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar. (2026-09-25)
+- [Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol](https://bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi.md): Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol. (2026-09-25)
+- [Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi](https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme.md): Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma. (2026-09-25)
+- [Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi](https://bote.web.tr/blog/egitim-fakultesi-erasmus.md): Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler. (2026-09-25)
+- [Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler](https://bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli.md): Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler. (2026-09-25)
+- [Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi.md): Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler. (2026-09-25)
+- [Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin](https://bote.web.tr/blog/ogretim-teknolojileri-dersi.md): Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir? (2026-09-25)
+- [Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?](https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528.md): 7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz. (2026-09-25)
+- [Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?](https://bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri.md): Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte. (2026-09-25)
+- [Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım](https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir.md): Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık. (2026-09-25)
+- [Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi.md): Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo. (2026-09-25)
+- [Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik.md): Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz. (2026-09-25)
+
+## Eğitim Teknolojileri
+
+- [Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir.md): Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber. (2026-09-25)
+- [Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri.md): Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı: tanımlar, tarihçe, meta-analizlerde etki büyüklükleri, eleştiriler ve Türkiye'deki çalışmalar. (2026-09-25)
+- [DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi](https://bote.web.tr/blog/digcompedu-nedir.md): DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme. (2026-09-25)
+- [Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber](https://bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin.md): Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış. (2026-09-25)
+- [ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri](https://bote.web.tr/blog/iste-standartlari-nedir.md): ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber. (2026-09-25)
+- [Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları](https://bote.web.tr/blog/oyunlastirma-nedir.md): Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz. (2026-09-25)
+- [Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım](https://bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir.md): Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları. (2026-09-25)
+- [Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli.md): Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, IPISD'den SAM'e tarihçe, aşamalar, eleştiriler, Türkiye'deki çalışmalar ve açık sorular. (2026-09-25)
+- [TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı](https://bote.web.tr/blog/tpack-modeli-nedir.md): TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilgisine gelişimi, meta-analiz bulguları, eleştiriler ve Türkiye'deki TPAB ölçekleri. (2026-09-25)
+- [Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi](https://bote.web.tr/blog/uzaktan-egitim-nedir.md): Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi. (2026-09-25)
+
+## Eğitim Bilimleri ve Kuramlar
+
+- [Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik](https://bote.web.tr/blog/bandura-sosyal-bilissel-kuram.md): Bobo bebek deneyinin özgün bulguları, gözlem yoluyla öğrenme, karşılıklı belirleyicilik, öz yeterliğin kaynakları, meta-analiz kanıtı, Türkiye verisi ve AGS. (2026-09-26)
+- [Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği](https://bote.web.tr/blog/bilgiyi-isleme-kurami.md): Çok depolu bellek modeli, çalışma belleği, işlem düzeyi, bilişsel yük kuramı, test etkisi ve aralıklı tekrar kanıtı, Türkiye çalışmaları ve AGS'de sık hatalar. (2026-09-26)
+- [Bloom Taksonomisi ve Yenilenmiş Taksonomi](https://bote.web.tr/blog/bloom-taksonomisi.md): Bloom taksonomisinin 1956 el kitabındaki özgün amacı, yenilenmiş taksonomi, hiyerarşi varsayımını sınayan kanıt, Türkiye'de sınav ve kazanım analizleri, AGS. (2026-09-26)
+- [Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ](https://bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami.md): Bronfenbrenner'in ekolojik sistemler kuramı: beş sistem, biyoekolojik model, dijital mikrosistem, okul-aile kanıtı, eleştiriler, Türkiye verisi ve AGS hataları. (2026-09-26)
+- [Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları](https://bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari.md): Buluş yoluyla öğrenme, sunuş yoluyla öğretim ve öğretim durumları: özgün metinler, rehberli ve saf buluş tartışması, meta-analizler, Türkiye verisi ve AGS. (2026-09-26)
+- [Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari.md): Klasik ve edimsel koşullanma, Thorndike'ın yasaları, pekiştirme tarifeleri, programlı öğretim, ödül ve ceza üzerine kanıt, eleştiriler ve AGS'de sık hatalar. (2026-09-26)
+- [Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar](https://bote.web.tr/blog/erikson-psikososyal-gelisim-kurami.md): Erikson'un psikososyal gelişim kuramı: sekiz evre, kimlik ve Marcia'nın statüleri, boylamsal kanıtlar, eleştiriler, Türkiye çalışmaları ve AGS'de sık hatalar. (2026-09-26)
+- [Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler](https://bote.web.tr/blog/coklu-zeka-kurami.md): Çoklu zekâ kuramının iddiası, genel zekâ ile farkı, Waterhouse ve Gardner tartışması, öğrenme stilleri karışıklığı, Türkiye'de meta-analiz ve ders kitapları, AGS. (2026-09-26)
+- [Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri](https://bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami.md): Kohlberg'in ahlak gelişimi kuramı: altı evre, boylamsal ve kültürler arası kanıt, Türkiye çalışması, Gilligan eleştirisi, ahlak eğitimi ve AGS'de sık hatalar. (2026-09-26)
+- [Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami.md): Piaget'nin bilişsel gelişim kuramı: şema, dengeleme ve dört evre; deneysel kanıtlar, eleştiriler, öğretmen adaylarından Türkiye verisi ve AGS'de sık yapılan hatalar. (2026-09-26)
+- [Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri](https://bote.web.tr/blog/tam-ogrenme-modeli.md): Carroll'un zaman modeli, Bloom'un tam öğrenme ve okulda öğrenme modeli, 2 sigma problemi, meta-analizler, Türkiye'deki deneyler ve AGS'de sık yapılan hatalar. (2026-09-26)
+- [Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram.md): Vygotsky'nin sosyokültürel kuramı: aracılık, özel konuşma, yakınsak gelişim alanının asıl anlamı, iskele kurmanın kanıtı, eleştiriler ve AGS'de sık yapılan hatalar. (2026-09-26)
+- [Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar](https://bote.web.tr/blog/yapilandirmacilik.md): Yapılandırmacılığın bilgi kuramı, bilişsel ve sosyal yapılandırmacılık, kavramsal değişim, rehberlik tartışması, Türkiye'de programlar, TALIS ve sınav gerçeği, AGS. (2026-09-26)
