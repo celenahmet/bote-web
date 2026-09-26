@@ -51,7 +51,7 @@ ads:
   # Site ici tanitim (AdSense yokken). Kart: logo, tek cumlelik tanim, CTA ve magaza rozetleri.
   house:
     - id: uniconnectly
-      slots: [sidebar-top, article-end]
+      slots: [sidebar-top]
       brand: UniConnectly
       # Logo: tam adres ya da tools/blog-app/public/ads/ altindaki dosya (/blog/ads/...).
       # Gecici olarak uniconnectly.com'daki logo kullaniliyor.
@@ -69,3 +69,52 @@ ads:
           url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=googleplay
         - id: appgallery
           url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=appgallery
+  # Yazi sonundaki UniConnectly paneli (AdSense yokken article-end alaninda gosterilir).
+  showcase:
+    kicker: "Ücretsiz indir ve kaydol"
+    title: "Sınavdan sonra kampüs hayatı başlıyor"
+    text: >-
+      UniConnectly, üniversite öğrencilerini toplulukları, etkinlikleri ve şirketlerle aynı
+      uygulamada buluşturur. Üniversitendeki toplulukları keşfeder, etkinliklere QR ile katılır,
+      katıldıklarını ve sertifikalarını dijital portföyünde herkese açık paylaşırsın.
+    steps:
+      - { title: "Kaydol", text: "Uygulamayı indir, üniversiteni seç" }
+      - { title: "Katıl", text: "Toplulukları takip et, etkinliklere başvur" }
+      - { title: "Paylaş", text: "Doğrulanmış katılımların ve sertifikaların portföyünde; tek bağlantıyla paylaş" }
+    tabs:
+      - label: "Öğrenciler"
+        question: "Öğrenciye ne kazandırır?"
+        items:
+          - { title: "Dijital portföy", text: "uniconnectly.com/@kullanıcıadı adresiyle herkese açık paylaş; CV'ne ve LinkedIn'e sertifika doğrulama bağlantısı olarak ekle.", example: "@nursena", exampleUrl: "https://uniconnectly.com/@nursena" }
+          - { title: "Doğrulanabilir katılım", text: "QR ile giriş yaptığın etkinlikler portföyünde doğrulanmış listelenir." }
+          - { title: "Sertifikalar", text: "Platformda verilen sertifikalar doğrulanmış işaretli, edu.tr e-postan onaylı." }
+          - { title: "Anlık fırsatlar", text: "Staj, iş ve burs duyuruları akışına düşer; şirket ilanlarına uygulamadan başvur." }
+          - { title: "Topluluklar ve etkinlikler", text: "Üniversitendeki toplulukları ve takvimi tek ekranda gör, başvurulu etkinliklere katıl." }
+          - { title: "Üye kartı indirimleri", text: "Takip ettiğin toplulukların anlaşmalı işletme indirimlerinden yararlan." }
+      - label: "Topluluklar"
+        question: "Öğrenci topluluklarına ne kazandırır?"
+        items:
+          - { title: "Ücretsiz web sitesi", text: "uniconnectly.com/@topluluk: etkinlikler, duyurular ve yönetim kurulu herkese açık, Google'da bulunur.", example: "@uludag_emt", exampleUrl: "https://uniconnectly.com/@uludag_emt" }
+          - { title: "Podyum ile sponsor bulma", text: "Etkinliğini yayınlamadan önce hazırlık aşamasında şirketlere sun, sponsor ve iş birliği görüşmesini uygulamada yürüt." }
+          - { title: "İş birliği ortamı", text: "Şirketler ve diğer topluluklarla mesajlaşma, ortak etkinlik ve sponsorluk iletişimi tek kanalda." }
+          - { title: "QR ile katılım takibi", text: "Kapıda QR okut, katılımcı istatistiklerini ve geçmiş etkinlik raporlarını gör." }
+          - { title: "Başvurulu etkinlik ve bilet", text: "Başvuru al, onayla, görevli üye ata; harici biletli etkinliklerde kapı yönetimi." }
+          - { title: "Üye kartı fırsatları", text: "Üyelerine özel anlaşmalı işletme indirimleri tanımla." }
+      - label: "Şirketler"
+        question: "Şirkete ne kazandırır?"
+        items:
+          - { title: "Kampüs elçisi programı", text: "Üniversitelere elçi ilanı aç, başvuruları değerlendir, her kampüste elçi ekibi kur." }
+          - { title: "Markanı kampüse taşı", text: "Etkinlik ve sponsorluk fırsatlarını Podyum'da gör, topluluklarla doğrudan görüş." }
+          - { title: "Staj ve iş ilanları", text: "İlanların öğrenci akışında ve İş İlanları bölümünde görünür, başvurular uygulamadan gelir." }
+          - { title: "İş birliği fırsatları", text: "Topluluklarla mesajlaş, ortak etkinlik ve marka iş birliklerini tek yerden yönet." }
+          - { title: "Etki ölçümü", text: "Markanın kampüslerdeki toplulaştırılmış, anonim etkileşim raporu." }
+      - label: "Akademisyenler"
+        question: "Akademisyene ne kazandırır?"
+        items:
+          - { title: "Bilime destek", text: "Anket ve araştırma çağrını UniConnectly ağındaki doğru öğrenci kitlesine ulaştır, katılımcı topla." }
+          - { title: "Etkinlik ve seminer duyurusu", text: "Bölüm topluluklarıyla seminer, atölye ve konferans duyurularını öğrencilere ulaştır." }
+          - { title: "Öğrenci topluluklarına erişim", text: "Danışmanı olduğun topluluğun etkinlik takvimi ve katılım verileri tek ekranda." }
+          - { title: "Blog ile anlık fırsat takibi", text: "Hibe, araştırma programı, burs ve etkinlik çağrılarını UniConnectly blogundan takipte kal." }
+    blog: "https://uniconnectly.com/blog?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel"
+    url: "https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel"
+

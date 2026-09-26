@@ -63,7 +63,9 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   yollarını ve somut sınıf örneklerini birlikte verir; yüzeysel özetle yetinilmez.
 - Özellikler: görüntülenme sayısı (Upstash Redis, `/api/views`), okuma süresi, arama (⌘K),
   popüler/son okunan yazılar, SSS akordeonu, paylaşım. Yerleşim referansı: uniconnectly.com/blog.
-- Reklam alanları AdSense'e hazır; şimdilik UniConnectly kartı gösterilir: logo
+- Yazı sonunda solda öne çıkan yazılar, sağda UniConnectly paneli (tanıtım, 3 adım, hedef kitle
+  sekmeleri; içerik `blog.yml > ads.showcase`). Reklam alanları AdSense'e hazır; şimdilik
+  kenar çubuğunda UniConnectly kartı gösterilir: logo
   (`tools/blog-app/public/ads/uniconnectly-logo.svg`, uniconnectly.com'dan), tek cümlelik
   tanım, "Ücretsiz keşfet" ve App Store / Google Play / AppGallery rozetleri.
 - Blog arayüzü **Astro + React adaları** (`tools/blog-app/`): sayfalar derlemede statik

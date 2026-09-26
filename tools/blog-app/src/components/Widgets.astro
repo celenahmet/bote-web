@@ -6,10 +6,12 @@
 import PopularPosts from '../islands/PopularPosts.jsx';
 import RecentlyViewed from '../islands/RecentlyViewed.jsx';
 import AdSlot from './AdSlot.astro';
+import UniPanel from './UniPanel.astro';
 import Icon from './Icon.astro';
 import { loadBlog, trDate } from '../lib.js';
 const { mode = 'sidebar', current = '', pool: poolProp, toc = [] } = Astro.props;
 const blog = loadBlog();
+const adsense = blog.cfg.ads.adsense.client && blog.cfg.ads.adsense.slots?.['article-end'];
 // pool: widget'larin kullandigi yazilar (varsayilan: yayindakiler; onizlemede taslaklar)
 const pool = poolProp || blog.posts;
 const isPreview = pool.some((p) => p.preview);
@@ -26,9 +28,11 @@ const curCat = pool.find((p) => p.slug === current)?.category.slug;
 {mode === 'band' ? (
   <section class="band" aria-label="Diğer içerikler">
     <div class="wrap band-grid">
-      {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
-      {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
-      <AdSlot slot="article-end" />
+      <div class="band-posts">
+        {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
+        {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
+      </div>
+      {adsense ? <AdSlot slot="article-end" /> : <UniPanel />}
     </div>
   </section>
 ) : (
