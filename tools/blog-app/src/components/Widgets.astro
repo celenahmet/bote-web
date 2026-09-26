@@ -1,11 +1,13 @@
 ---
 // Kenar cubugu ve yazi sonu bandi.
-//   post:    yazi sayfasi sag sutunu -> reklam > icindekiler (yalniz icindekiler yapisir, kendi icinde kayar;
-//            Ahmet 26.09: tum sutun alttan yapisinca yukari cikmak zorlasiyordu)
+//   post:    yazi sayfasi sag sutunu -> reklam > kategoriler > Populer/Yeni sekmeleri > icindekiler
+//            (yalniz icindekiler yapisir, kendi icinde kayar; Ahmet 26.09: tum sutun alttan yapisinca
+//            yukari cikmak zorlasiyordu. Kategoriler ve sekmeler Ahmet'in istegiyle geri geldi.)
 //   sidebar: liste sayfalari -> reklam > kategoriler > populer > son okunanlar > yayin ilkeleri
 //   band:    yazi sonu -> populer > son okunanlar > reklam
 import PopularPosts from '../islands/PopularPosts.jsx';
 import RecentlyViewed from '../islands/RecentlyViewed.jsx';
+import PostTabs from '../islands/PostTabs.jsx';
 import AdSlot from './AdSlot.astro';
 import UniPanel from './UniPanel.astro';
 import Icon from './Icon.astro';
@@ -26,6 +28,9 @@ const fallback = [...pool].filter((p) => p.slug !== current)
 const cats = isPreview
   ? blog.categories.map((c) => ({ ...c, url: '/blog/taslak', count: pool.filter((p) => p.category.slug === c.slug).length })).filter((c) => c.count)
   : blog.categories.filter((c) => c.count);
+const latest = [...pool].filter((p) => p.slug !== current)
+  .sort((a, b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title, 'tr')).slice(0, 5)
+  .map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes, img: thumb(p), dateText: trDate(p.date) }));
 const curCat = (cat && cat !== 'blog' ? cat : '') || pool.find((p) => p.slug === current)?.category.slug;
 const total = cats.reduce((n, c) => n + c.count, 0);
 ---
@@ -42,7 +47,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
 ) : (
   <aside class={`sidebar${mode === 'post' ? ' sidebar-post' : ''}`} aria-label="Blog kenar çubuğu" data-sticky-side={mode === 'post' ? undefined : true}>
     <AdSlot slot="sidebar-top" />
-    {mode !== 'post' && !noCats && cats.length > 0 && (
+    {!noCats && cats.length > 0 && (
       <section class="widget" aria-labelledby="w-cats">
         <h2 class="widget-title" id="w-cats">Kategoriler</h2>
         <ul class="cats">
@@ -55,6 +60,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
     )}
     {mode === 'post' ? (
       <>
+        {isPreview ? <PostTabs posts={[]} latest={latest} fallback={fallback} current={current} /> : <PostTabs client:visible posts={lite} latest={latest} fallback={fallback} current={current} />}
         {toc.length > 0 && (
           <nav class="widget side-toc" aria-labelledby="w-toc">
             <h2 class="widget-title" id="w-toc">İçindekiler</h2>

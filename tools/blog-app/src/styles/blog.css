@@ -227,6 +227,12 @@ p{margin:0}
 /* yazi sayfasi: yalniz icindekiler yapisir ve kendi icinde kayar; sayfa zorla kaydirilmaz (Ahmet 26.09) */
 .sidebar-post .side-toc{position:sticky;top:calc(var(--top) + 24px);max-height:calc(100vh - var(--top) - 48px);display:flex;flex-direction:column}
 .sidebar-post .side-toc ol{overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding-right:4px}
+/* Populer / Yeni sekmeleri */
+.wtabs{display:flex;gap:4px;padding:4px;border-radius:12px;background:var(--raised)}
+.wtabs button{flex:1;min-height:38px;border:0;border-radius:9px;background:transparent;color:var(--muted);font:600 14.5px var(--display);cursor:pointer}
+.wtabs button:hover{color:var(--ink)}
+.wtabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(20,10,40,.10)}
+.wtabs button:focus-visible{outline:2px solid var(--violet);outline-offset:1px}
 .side-toc a:hover{color:var(--violet)}
 .side-toc a[aria-current]{border-left-color:var(--pink);color:var(--ink);font-weight:600}
 
@@ -632,7 +638,7 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 
 /* liste kenar cubugu: widget'lar kutu icinde */
 .index-grid>.sidebar{gap:24px}
-.index-grid>.sidebar .widget{padding:20px 20px 22px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+.index-grid>.sidebar .widget,.sidebar-post .widget:not(.side-toc){padding:20px 20px 22px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
 .index-grid>.sidebar .widget-title{padding-bottom:12px}
 .feed-title::after{display:none}
 

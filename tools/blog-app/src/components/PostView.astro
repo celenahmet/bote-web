@@ -40,7 +40,7 @@ const ending = html.slice(cut);
 const bodyHeads = post.headings.flatMap((h) => (recap && h === recap ? [recapItem, h] : [h]));
 const tocItems = [...bodyHeads, ...(post.summary.length && !recap ? [recapItem] : []),
   ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: 'Kaynaklar', depth: 2 },
-  { id: 'atif', text: 'Bu yazıya atıf', depth: 2 }];
+  { id: 'atif', text: 'Atıf', depth: 2 }];
 // Icindekiler karti: ana bolumler numarali, alt bolumler kendi ana bolumunun altinda (Ahmet 26.09:
 // iki sutunda alt basliklar kopup kayiyordu). Baglanti sirasi tocItems ile ayni kalir (okuma isareti).
 const tocGroups = [];
@@ -147,7 +147,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           <SourceList sources={post.sources} />
         </section>
         <section class="cite-box" id="atif" aria-labelledby="atif-baslik">
-          <h2 id="atif-baslik">Bu yazıya atıf</h2>
+          <h2 id="atif-baslik">Atıf</h2>
           <p class="cite-fmt">APA 7</p>
           <p class="cite-apa" data-copy-src="apa" set:html={cite.apaHtml} />
           <div class="cite-actions">
