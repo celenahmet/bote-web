@@ -115,7 +115,10 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         )}
         <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
           <div class="bib-head">
+            <div class="bib-title">
             <h2 id="kaynaklar-baslik">Kaynaklar <span class="bib-count">{post.sources.length}</span></h2>
+            {post.sources.length > 2 && <button type="button" class="bib-less" data-bib-less hidden>Daha az göster</button>}
+          </div>
             <details class="bib-settings" data-bib-settings hidden>
               <summary><Icon name="settings-2" size={16} />Kaynakça ayarları</summary>
               <div class="bib-settings-body">
@@ -162,6 +165,16 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           try { localStorage.setItem(`bote-${key}`, root.dataset[key]); } catch {}
         });
       }
+    }
+    // Kaynak listesi acikken "Daha az goster" baslikta, sayinin yaninda durur.
+    const more = document.querySelector('.src-more');
+    const less = document.querySelector('[data-bib-less]');
+    if (more && less) {
+      document.getElementById('kaynaklar')?.classList.add('js-less');
+      const sync = () => { less.hidden = !more.open; };
+      more.addEventListener('toggle', sync);
+      less.addEventListener('click', () => { more.open = false; document.getElementById('kaynaklar')?.scrollIntoView({ block: 'start' }); });
+      sync();
     }
     // Bilgi penceresindeki bir bolume gidilince pencereyi kapat.
     for (const a of document.querySelectorAll('.src-pop a[href^="#"]')) {

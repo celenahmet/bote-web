@@ -308,6 +308,10 @@ p{margin:0}
 .bib h2{font:700 22px var(--display);margin:0!important;display:flex;align-items:center;gap:10px}
 .bib-count{font:600 12px/1 var(--mono);color:var(--muted);background:var(--raised);border-radius:999px;padding:5px 9px}
 .bib-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.bib-title{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.bib-less{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font:600 13px var(--display);color:var(--violet);cursor:pointer}
+.bib-less:hover{border-color:var(--violet)}
+.js-less .src-more[open]>summary{display:none}
 .bib-settings{position:relative;font:400 14px/1.5 var(--display)}
 .bib-settings summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:7px;min-height:36px;padding:0 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink-2)}
 .bib-settings summary::-webkit-details-marker{display:none}
@@ -401,6 +405,7 @@ p{margin:0}
 .foot-grid{display:grid;gap:28px;grid-template-columns:minmax(0,1fr)}
 @media (min-width:760px){.foot-grid{grid-template-columns:1.4fr 1fr 1fr 1fr}}
 .foot h2{font:600 12.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+.foot-note{font-size:13.5px;line-height:1.5;color:var(--muted);margin:0 0 10px}
 .foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
 .foot a{color:var(--ink-2);text-decoration:none}
 .foot a:hover{color:var(--pink)}
