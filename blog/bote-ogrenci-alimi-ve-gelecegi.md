@@ -1,6 +1,6 @@
 ---
 title: "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış"
-url: https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+url: https://bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğret
 
 > BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 
-## Kısaca
+## Özet
 
 - Son yıllarda BÖTE programlarının açık olduğu üniversite sayısı ve kontenjanlar belirgin biçimde azaldı. Güncel liste için başvurulacak resmî kaynak YÖK Atlas'tır.
 - Azalmanın başlıca gerekçesi, öğretmen yetiştirme kapasitesini MEB'in ihtiyacıyla uyumlu hâle getirme politikasıdır.
@@ -74,8 +74,8 @@ Bu değişiklik iki farklı biçimde yorumlanabilir:
 ## Aday öğrenciler ne yapmalı?
 
 1. **Güncel veriyi resmî kaynaktan kontrol edin.** Programın açık olduğu üniversiteleri, kontenjanları ve taban sıralamaları YÖK Atlas'tan inceleyin.[1]
-2. **Tek bir kariyer yoluna bağlı kalmayın.** Öğretmenlik yanında öğretim tasarımı, e-öğrenme ve kurumsal eğitim seçeneklerini de değerlendirin. Ayrıntılar [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda.
-3. **Bölümün içeriğini tanıyın.** Programın neyi amaçladığını [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) yazımızda anlattık.
+2. **Tek bir kariyer yoluna bağlı kalmayın.** Öğretmenlik yanında öğretim tasarımı, e-öğrenme ve kurumsal eğitim seçeneklerini de değerlendirin. Ayrıntılar [BÖTE mezunları ne iş yapar?](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda.
+3. **Bölümün içeriğini tanıyın.** Programın neyi amaçladığını [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) yazımızda anlattık.
 
 ## Sonuç
 

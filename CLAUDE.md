@@ -47,12 +47,14 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   siteden bağlantı almaz.
 - Yazı sayfası: sol metin, sağ kenar çubuğu; sağ blok kapak görselinin hizasından başlar ve
   kaydırırken içerikle uyumlu ilerler (sonu ekrana gelince sabitlenir). Girişten hemen sonra
-  numaralı, iki sütunlu "İçindekiler" kartı yer alır. "Kısaca" özeti sonucu önden
+  numaralı, iki sütunlu "İçindekiler" kartı yer alır. "Özet" bölümü sonucu önden
   vermemek için yazının sonunda, kontrol listesinden ya da "Sonuç"tan hemen önce durur. Başlık altında yazar,
   tarih, okuma süresi, görüntülenme (kelime sayısı gösterilmez). Kenar çubuğu sırası:
-  reklam > kategoriler (ikon + sayı) > son yazılar > "Bu yazıda neler var?" (yapışkan
-  içindekiler, tıklanınca ilgili bölüme gider). Liste sayfalarında reklam > kategoriler >
-  popüler > son görüntülenenler.
+  reklam > kategoriler ("Tüm yazılar" toplamı + ikon + sayı) > Popüler/Yeni sekmeleri >
+  "İçindekiler" (yalnız bu yapışır ve kendi içinde kayar; tıklanınca ilgili bölüme gider).
+  Yazı sonunda önceki/sonraki bağlantısı yoktur; 4 görselli "Bunlar da ilginizi çekebilir"
+  bölümü vardır. Liste sayfalarında reklam > kategoriler > popüler > son görüntülenenler.
+  Site adresi www'suz `https://bote.web.tr` (www 27.09'dan beri buraya yönlenir).
 - Atıflar ve kaynakça: metindeki atıf numaraları ve kaynakçadaki "Metinde göster"
   bağlantıları varsayılan **kapalı**; her yazıdaki "Kaynakça ayarları"ndan ayrı ayrı açılır.
   Kaynakça sade: kısa künye (başlık kaynağa bağlı), dil etiketi ve erişim tarihi gösterilmez;

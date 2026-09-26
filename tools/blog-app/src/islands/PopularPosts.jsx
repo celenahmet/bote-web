@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { getTop, fmt } from './views-client.js';
 
 // Sunucuda "One cikanlar" listesi olarak basilir; sayac verisi varsa "Populer" olur.
-export default function PopularPosts({ fallback, posts, current = '' }) {
+export default function PopularPosts({ fallback, posts, current = '', wide = false }) {
   const [top, setTop] = useState(null);
   useEffect(() => {
     getTop(8).then((list) => {
@@ -17,10 +17,10 @@ export default function PopularPosts({ fallback, posts, current = '' }) {
   return (
     <section className="widget" aria-labelledby="w-popular">
       <h2 className="widget-title" id="w-popular">{top ? 'Popüler yazılar' : 'Öne çıkan yazılar'}</h2>
-      <ol className="mini mini-thumbs mini-num">
+      <ol className={`mini mini-thumbs mini-num${wide ? ' mini-wide' : ''}`}>
         {rows.map((p) => (
           <li key={p.slug}>
-            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="64" height="64" loading="lazy" decoding="async" /></a>}
+            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width={wide ? 160 : 64} height={wide ? 84 : 64} loading="lazy" decoding="async" /></a>}
             <div>
               <a href={p.url}>{p.title}</a>
               <small>{p.views ? `${fmt(p.views)} görüntülenme · ` : ''}{p.minutes} dk okuma</small>

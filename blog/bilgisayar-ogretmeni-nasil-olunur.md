@@ -1,6 +1,6 @@
 ---
 title: "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası"
-url: https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
+url: https://bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Mi
 
 > Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 
-## Kısaca
+## Özet
 
 - Genel okullarda bilgisayar öğretmenliğinin lisans karşılığı **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği** (BÖTE) programıdır.
 - 7528 sayılı Kanun'la yol değişti: lisans, ardından **AGS**, ardından Millî Eğitim Akademisi'nde dört dönemlik hazırlık eğitimi.
@@ -27,7 +27,7 @@ Bilgisayar öğretmenliği, BÖTE bölümüyle ilgili en çok merak edilen konul
 
 Öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir. Esasların güncel metnine göre genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı bulunuyor. **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[1]
 
-Genel okullara bilgisayar öğretmeni yetiştiren lisans programı bu nedenle **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği**dir. YÖK Atlas, programın hangi üniversitelerde açık olduğunu ve sayısal (SAY) puan türüyle öğrenci aldığını gösterir.[2] Programın neler öğrettiğini merak ediyorsanız [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) rehberimize bakabilirsiniz.
+Genel okullara bilgisayar öğretmeni yetiştiren lisans programı bu nedenle **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği**dir. YÖK Atlas, programın hangi üniversitelerde açık olduğunu ve sayısal (SAY) puan türüyle öğrenci aldığını gösterir.[2] Programın neler öğrettiğini merak ediyorsanız [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) rehberimize bakabilirsiniz.
 
 ## 2. Lisans yılları: alan, meslek bilgisi ve uygulama
 
@@ -77,7 +77,7 @@ Bu üç katman, BÖTE programlarının neden teknik derslerin yanında öğretim
 
 ## Sonuç
 
-Bilgisayar öğretmenliğine giden yol artık daha uzun ama daha tanımlı: BÖTE lisansı, AGS ve akademi hazırlık eğitimi. Kurallar değişebildiği için her adımda MEB ve ÖSYM'nin güncel duyurularını esas alın. Öğretmenlik dışındaki seçenekleri de görmek için [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımıza göz atabilirsiniz.
+Bilgisayar öğretmenliğine giden yol artık daha uzun ama daha tanımlı: BÖTE lisansı, AGS ve akademi hazırlık eğitimi. Kurallar değişebildiği için her adımda MEB ve ÖSYM'nin güncel duyurularını esas alın. Öğretmenlik dışındaki seçenekleri de görmek için [BÖTE mezunları ne iş yapar?](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımıza göz atabilirsiniz.
 
 ## Sık Sorulan Sorular
 

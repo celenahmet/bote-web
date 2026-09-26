@@ -238,7 +238,7 @@ description: ${JSON.stringify(p.description)}
 > ${p.description}
 
 Yazan: ${author.name} · Yayın: ${p.date} · Güncelleme: ${p.updated} · ${p.minutes} dk okuma · ${abs(p.url)}
-${p.summary.length ? `\n## Kısaca\n\n${p.summary.map((s) => `- ${s}`).join('\n')}\n` : ''}
+${p.summary.length ? `\n## Özet\n\n${p.summary.map((s) => `- ${s}`).join('\n')}\n` : ''}
 ${bodyMd}
 ${p.faq.length ? `\n## Sık Sorulan Sorular\n\n${p.faq.map((f) => `### ${f.q}\n\n${f.a}`).join('\n\n')}\n` : ''}
 ## Kaynaklar

@@ -1,6 +1,6 @@
 ---
 title: "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner"
-url: https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari
+url: https://bote.web.tr/blog/davranisci-ogrenme-kuramlari
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Klasik ve edimsel koşullanma, Thorndike'ın yasaları, pekiştirm
 
 > Klasik ve edimsel koşullanma, Thorndike'ın yasaları, pekiştirme tarifeleri, programlı öğretim, ödül ve ceza üzerine kanıt, eleştiriler ve AGS'de sık hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 16 dk okuma · https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 16 dk okuma · https://bote.web.tr/blog/davranisci-ogrenme-kuramlari
 
-## Kısaca
+## Özet
 
 - Davranışçı kuramlar öğrenmeyi **gözlenebilir davranıştaki değişme** olarak ele alır ve açıklamayı çevrede arar: davranıştan önce gelen uyarıcılar ve davranışı izleyen sonuçlar.
 - Pavlov'un derslerinde sönme, **kendiliğinden geri gelme** ve genelleme sistematik olarak tanımlanır; Watson ve Rayner'ın Küçük Albert çalışması ise ders kitaplarında sık sık **çarpıtılarak** aktarılmıştır.
@@ -109,7 +109,7 @@ Bu çalışma bugünden bakıldığında sınırlılıklarıyla birlikte okunmal
 
 **Uluslararası kanıt.** Davranışçı ilkelerin yükseköğretimdeki bilinen uygulamalarından biri Keller'in **kişiselleştirilmiş öğretim sistemidir** (PSI). Kulik ve arkadaşlarının 75 karşılaştırmalı çalışmayı birleştiren meta-analizine göre PSI genel olarak daha yüksek öğrenci başarısı, başarıda daha az değişkenlik ve daha yüksek öğrenci değerlendirmesi sağladı.[14]
 
-Günümüzde uyarlanabilir öğrenme ortamlarında anında dönüt, küçük adımlarla ilerleme ve öğrencinin kendi hızında ilerlemesi gibi ilkelerin sürdüğü görülür; [oyunlaştırmadaki](https://www.bote.web.tr/blog/oyunlastirma-nedir) puan ve rozetler de pekiştirme mantığıyla birlikte düşünülebilir. Bu benzerlik, aşağıda ele alınan ödül ve iç motivasyon tartışmasını çağdaş eğitim teknolojileri için de geçerli kılar. Öğretim tasarımının sonraki gelişimi için [ADDIE modeli](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazısına bakabilirsiniz.
+Günümüzde uyarlanabilir öğrenme ortamlarında anında dönüt, küçük adımlarla ilerleme ve öğrencinin kendi hızında ilerlemesi gibi ilkelerin sürdüğü görülür; [oyunlaştırmadaki](https://bote.web.tr/blog/oyunlastirma-nedir) puan ve rozetler de pekiştirme mantığıyla birlikte düşünülebilir. Bu benzerlik, aşağıda ele alınan ödül ve iç motivasyon tartışmasını çağdaş eğitim teknolojileri için de geçerli kılar. Öğretim tasarımının sonraki gelişimi için [ADDIE modeli](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazısına bakabilirsiniz.
 
 ## Ödül, ceza ve iç motivasyon: kanıt ne diyor?
 
@@ -196,7 +196,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[3, 2
 4. **Dijital ortamlardaki puan ve rozetler iç motivasyonu nasıl etkiliyor?** Deci ve arkadaşlarının ödül türü ve koşulu ayrımı, oyunlaştırılmış öğrenme ortamlarında ayrı ayrı sınanmaya değer.[16]
 5. **Pekiştireç belirleme yöntemleri genel eğitim sınıflarına taşınabilir mi?** Özel eğitimde geliştirilen sistematik yöntemlerin kalabalık sınıflarda uygulanabilirliği sınanmaya değer bir sorudur.[9]
 
-Öğrenme ve gelişim kuramlarının öteki yazıları için [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky'nin sosyokültürel kuramı](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [Kohlberg'in ahlak gelişimi kuramı](https://www.bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami) yazılarına bakabilirsiniz.
+Öğrenme ve gelişim kuramlarının öteki yazıları için [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky'nin sosyokültürel kuramı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [Kohlberg'in ahlak gelişimi kuramı](https://bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

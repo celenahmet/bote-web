@@ -1,6 +1,6 @@
 ---
 title: "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları"
-url: https://www.bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari
+url: https://bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Buluş yoluyla öğrenme, sunuş yoluyla öğretim ve öğretim du
 
 > Buluş yoluyla öğrenme, sunuş yoluyla öğretim ve öğretim durumları: özgün metinler, rehberli ve saf buluş tartışması, meta-analizler, Türkiye verisi ve AGS.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 13 dk okuma · https://www.bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 13 dk okuma · https://bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari
 
-## Kısaca
+## Özet
 
 - Bruner, Ausubel ve Gagné aynı soruya üç farklı cevap verir: öğrenci bilgiyi **kendisi mi keşfetmeli**, öğretmen onu **anlamlı bir yapı içinde mi sunmalı**, yoksa öğretim **öğrenme türüne göre basamaklandırılmış olaylar** dizisi mi olmalı?
 - Bruner'in 1960 kitabındaki ünlü hipotez, her konunun her çocuğa gelişimin her evresinde **düşünsel olarak dürüst bir biçimde** etkili olarak öğretilebileceğidir; sarmal program bu hipotezin program karşılığıdır.
@@ -48,7 +48,7 @@ Türkiye'de bu ilke öğretim programlarının tasarımında açıkça kullanıl
 
 **Temsil biçimleri.** Bruner'in sonraki çalışmalarıyla ilişkilendirilen ve Türkçe alanyazında "zihinsel gelişim ilkeleri" olarak anılan üç temsil biçimi, **eylemsel** (yaparak), **imgesel** (görsel imgelerle) ve **sembolik** (dil ve simgelerle) temsildir. Türkdoğan ve arkadaşları, 2019-2020'de okutulan bir 6. sınıf matematik ders kitabındaki etkinlikleri bu üç temsil biçimine göre inceledi. Etkinliklerin %60'ı yalnızca sembolik, %34'ü imgesel ve sembolik, %3'ü eylemsel ve %3'ü imgesel temsile dayanıyordu; eylemsel temsili öteki temsil biçimleriyle birleştiren etkinlik ise yalnızca iki taneydi.[5] Tek bir kitaptan gelen bu bulgu, "yapıyı çocuğun bakış biçimine çevirme" ilkesinin ders kitabı düzeyinde ne ölçüde uygulandığını sorgulamak için dikkat çekici bir başlangıç noktasıdır.
 
-**Bruner ve öğretme makineleri.** BÖTE açısından kitabın öğretim araçları bölümü özellikle ilginçtir. Woods Hole'da filmler, televizyon, görsel-işitsel araçlar ve öğretme makineleri üzerine uzlaşma çıkmamıştı; ama katılımcıların neredeyse tamamı öğretimin asıl öznesinin araçlar değil **öğretmenler** olduğunda birleşiyordu. Bruner, öğretme makinelerinin öğretmenin yükünün bir kısmını alabileceğini ve öğrenciye öğrenme anında düzeltme ve **dönüt** verebileceğini, ama bu araçları değerlendirmek için henüz çok erken olduğunu ve hem savunucuların hem karşıtların abartılı iddialarda bulunduğunu yazar; makine öğretmenin yerini almayacak, belki de daha fazla ve daha iyi öğretmene ihtiyaç doğuracaktır.[1] Bu değerlendirme, programlı öğretimden yapay zekâya kadar her yeni eğitim teknolojisi tartışmasında şaşırtıcı ölçüde güncel kalmıştır. Programlı öğretimin davranışçı kökleri için [davranışçı öğrenme kuramları](https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari) yazısına bakabilirsiniz.
+**Bruner ve öğretme makineleri.** BÖTE açısından kitabın öğretim araçları bölümü özellikle ilginçtir. Woods Hole'da filmler, televizyon, görsel-işitsel araçlar ve öğretme makineleri üzerine uzlaşma çıkmamıştı; ama katılımcıların neredeyse tamamı öğretimin asıl öznesinin araçlar değil **öğretmenler** olduğunda birleşiyordu. Bruner, öğretme makinelerinin öğretmenin yükünün bir kısmını alabileceğini ve öğrenciye öğrenme anında düzeltme ve **dönüt** verebileceğini, ama bu araçları değerlendirmek için henüz çok erken olduğunu ve hem savunucuların hem karşıtların abartılı iddialarda bulunduğunu yazar; makine öğretmenin yerini almayacak, belki de daha fazla ve daha iyi öğretmene ihtiyaç doğuracaktır.[1] Bu değerlendirme, programlı öğretimden yapay zekâya kadar her yeni eğitim teknolojisi tartışmasında şaşırtıcı ölçüde güncel kalmıştır. Programlı öğretimin davranışçı kökleri için [davranışçı öğrenme kuramları](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari) yazısına bakabilirsiniz.
 
 ## Rehberli mi, saf buluş mu? Kanıt ne diyor?
 
@@ -60,7 +60,7 @@ Buluş yoluyla öğrenme, Bruner'den sonra en çok tartışılan öğretim yakla
 
 **Rehberlik tartışması.** Kirschner, Sweller ve Clark, en az rehberlikli öğretim yaklaşımlarının sezgisel olarak çekici olmakla birlikte insan bilişsel mimarisini göz ardı ettiğini ve yarım yüzyıllık araştırmaların bu yaklaşımların rehberliğe güçlü vurgu yapan yöntemlerden daha az etkili ve verimli olduğunu tutarlı biçimde gösterdiğini savundu; onlara göre rehberliğin üstünlüğü ancak öğrencinin kendi "içsel rehberliğini" sağlayacak kadar ön bilgisi olduğunda azalır.[8] Hmelo-Silver, Duncan ve Chinn ise bu eleştirinin probleme dayalı ve sorgulamaya dayalı öğrenmeyi rehberliksiz buluşla hatalı biçimde aynı kefeye koyduğunu, bu yaklaşımların yoğun **iskele** kullanarak bilişsel yükü azalttığını ve içerik bilgisinin yanında epistemik uygulamalar, iş birliği ve öz yönetimli öğrenme gibi hedefleri de gözettiğini savundu.[9]
 
-İki taraf birlikte okunduğunda tartışmanın "buluş mu, sunuş mu" değil, **ne kadar ve ne tür rehberlik** sorusu olduğu görülür. Bilişsel yük kuramının uzmanlığın tersine çevirme etkisi bu cevabı daha da inceltir: yeni başlayanlara yarayan çözümlü örnekler gibi yüksek rehberlikli yöntemler, bilgisi arttıkça öğrenci için etkisini yitirebilir ve problem çözme alıştırması daha yararlı hâle gelebilir.[10] Bilişsel yükün öteki boyutları için [bilgiyi işleme kuramı](https://www.bote.web.tr/blog/bilgiyi-isleme-kurami) yazısına bakabilirsiniz.
+İki taraf birlikte okunduğunda tartışmanın "buluş mu, sunuş mu" değil, **ne kadar ve ne tür rehberlik** sorusu olduğu görülür. Bilişsel yük kuramının uzmanlığın tersine çevirme etkisi bu cevabı daha da inceltir: yeni başlayanlara yarayan çözümlü örnekler gibi yüksek rehberlikli yöntemler, bilgisi arttıkça öğrenci için etkisini yitirebilir ve problem çözme alıştırması daha yararlı hâle gelebilir.[10] Bilişsel yükün öteki boyutları için [bilgiyi işleme kuramı](https://bote.web.tr/blog/bilgiyi-isleme-kurami) yazısına bakabilirsiniz.
 
 **Türkiye'den bir deney.** Kablan ve arkadaşları, 51 sekizinci sınıf öğrencisiyle (23 kontrol, 28 deney) sekiz ders saatlik yarı deneysel bir çalışmada matematikte buluş yoluyla öğrenmeyi düz anlatımla karşılaştırdı. İki yöntem arasında **rutin problemlerde** anlamlı fark bulunmazken **rutin olmayan problemlerde** buluş yoluyla öğrenme lehine anlamlı bir fark bulundu. Araştırmacılar buluşu, kural ezberletmek yerine kuralın anlamının kavratıldığı bir yöntem olarak tanımladı.[11] Bu bulgu küçük bir örneklemden gelir, ama buluşun yararının ölçülen çıktıya bağlı olabileceğine işaret eder: rutin uygulamada fark yaratmayan bir yöntem, transfer gerektiren problemlerde fark yaratabilir.
 
@@ -96,7 +96,7 @@ Bu dizinin sık gözden kaçan bir özelliği vardır: Gagné'ye göre öğretim
 
 **Sekiz öğrenme türü.** Gagné öğrenmeyi en basitten en karmaşığa doğru birbirine bağlı sekiz tür olarak sıralar: işaret öğrenme, uyarıcı-tepki bağı, zincirleme, sözel ilişkilendirme, ayırt etme, kavram öğrenme, ilke öğrenme ve problem çözme. Derlemeye göre ilk tür klasik koşullanma, ikincisi edimsel koşullanma düzeyinde bir öğrenmedir.[3] Bu hiyerarşi, bir üst düzey öğrenmenin alt düzeydeki ön koşul öğrenmelere dayandığı fikrini somutlaştırır ve Gagné'nin davranışçılık ile bilişsel psikoloji arasındaki köprü konumunu gösterir.
 
-**Beş öğrenme ürünü.** Model sözel bilgi, zihinsel beceriler, bilişsel stratejiler, tutumlar ve motor becerileri ayırır; ilk üçü bilişsel, tutumlar duyuşsal, motor beceriler devinişsel alanı temsil eder.[3] Her ürünün farklı öğrenme koşulları gerektirmesi, "tek bir en iyi yöntem" arayışına karşı Gagné'nin temel cevabıdır. Öğretim tasarımı süreçleri için [ADDIE modeli](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazısına bakabilirsiniz.
+**Beş öğrenme ürünü.** Model sözel bilgi, zihinsel beceriler, bilişsel stratejiler, tutumlar ve motor becerileri ayırır; ilk üçü bilişsel, tutumlar duyuşsal, motor beceriler devinişsel alanı temsil eder.[3] Her ürünün farklı öğrenme koşulları gerektirmesi, "tek bir en iyi yöntem" arayışına karşı Gagné'nin temel cevabıdır. Öğretim tasarımı süreçleri için [ADDIE modeli](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazısına bakabilirsiniz.
 
 Yeşilyurt, alanyazındaki pek çok kaynakta modele yer verilmediğini ya da modelin kuramsal temellerinin yüzeysel ele alındığını ve modelin etkililiğini sınayan Türkiye çalışmalarının oldukça az olduğunu belirtir.[3] Yazarın çalışmayı bir "öğretmen el kitabı" niteliğinde hazırlamasının gerekçesi de budur.
 
@@ -162,7 +162,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[3, 5
 4. **Gagné modeli Türkiye'de sınanmış mı?** Modelin etkililiğini sınayan deneysel çalışmaların azlığı açık bir araştırma alanı sunuyor.[3]
 5. **Yerel meta-analizlerdeki yüksek etki büyüklükleri neyi yansıtıyor?** Ölçme aracının türüne, örneklem büyüklüğüne ve yayın türüne göre ayrıştırılmış yeniden analizler, Türkiye'deki etki büyüklüklerinin uluslararası kanıtla karşılaştırılabilirliğini artırabilir.[17]
 
-Öğrenme kuramlarının öteki yazıları için [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky'nin sosyokültürel kuramı](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [bilgiyi işleme kuramı](https://www.bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
+Öğrenme kuramlarının öteki yazıları için [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky'nin sosyokültürel kuramı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [bilgiyi işleme kuramı](https://bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

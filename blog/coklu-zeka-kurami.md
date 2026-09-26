@@ -1,6 +1,6 @@
 ---
 title: "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler"
-url: https://www.bote.web.tr/blog/coklu-zeka-kurami
+url: https://bote.web.tr/blog/coklu-zeka-kurami
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Çoklu zekâ kuramının iddiası, genel zekâ ile farkı, Waterho
 
 > Çoklu zekâ kuramının iddiası, genel zekâ ile farkı, Waterhouse ve Gardner tartışması, öğrenme stilleri karışıklığı, Türkiye'de meta-analiz ve ders kitapları, AGS.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://www.bote.web.tr/blog/coklu-zeka-kurami
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://bote.web.tr/blog/coklu-zeka-kurami
 
-## Kısaca
+## Özet
 
 - Gardner'a göre zekâ, bir ya da daha fazla kültürel ortamda değer verilen **problemleri çözme ya da ürünler ortaya koyma kapasitesidir**; kuram başlangıçta birbirinden görece bağımsız **yedi** zekâ önerdi, sonraki listeler sekiz ve dokuza çıktı.
 - Kuram, Spearman'ın 1904'te bütün zihinsel etkinliklerin ortak bir temel işlevi paylaştığını öne süren **genel zekâ** görüşüne karşı bir alternatif olarak konumlanır.
@@ -148,7 +148,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[4, 7
 4. **Ders kitaplarındaki dağılım öğrenmeyi etkiliyor mu?** Kitaplardaki zekâ türü dağılımının öğrenci öğrenmesiyle ilişkisi, doküman analizinin ötesine geçen çalışmalar gerektirir.[7, 6]
 5. **Genel ve özgül yetenekler öğretimde nasıl birlikte ele alınır?** Spearman'ın genel ve özgül işlev ayrımı ile çoklu zekâ kuramının vurguları arasındaki ilişki, sınıf uygulaması açısından yeniden düşünülebilir.[2, 9]
 
-Öğrenme kuramlarının öteki yazıları için [yapılandırmacılık](https://www.bote.web.tr/blog/yapilandirmacilik), [tam öğrenme](https://www.bote.web.tr/blog/tam-ogrenme-modeli) ve [bilgiyi işleme kuramı](https://www.bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
+Öğrenme kuramlarının öteki yazıları için [yapılandırmacılık](https://bote.web.tr/blog/yapilandirmacilik), [tam öğrenme](https://bote.web.tr/blog/tam-ogrenme-modeli) ve [bilgiyi işleme kuramı](https://bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

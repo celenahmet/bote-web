@@ -1,6 +1,6 @@
 ---
 title: "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ"
-url: https://www.bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami
+url: https://bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Bronfenbrenner'in ekolojik sistemler kuramı: beş sistem, biyoeko
 
 > Bronfenbrenner'in ekolojik sistemler kuramı: beş sistem, biyoekolojik model, dijital mikrosistem, okul-aile kanıtı, eleştiriler, Türkiye verisi ve AGS hataları.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://www.bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami
 
-## Kısaca
+## Özet
 
 - Bronfenbrenner gelişimi, bireyi saran ve birbirine gömülü **beş sistemle** (mikro, mezo, ekzo, makro, krono) etkileşimi içinde açıklar; laboratuvar yerine gerçek yaşam ortamlarını inceler.
 - Kuramın olgun hâli **biyoekolojik modeldir**: gelişimin motoru, birey ile yakın çevresi arasındaki düzenli ve giderek karmaşıklaşan etkileşimler, yani **yakın süreçlerdir**; model Süreç-Kişi-Bağlam-Zaman (PPCT) olarak özetlenir.
@@ -58,7 +58,7 @@ Bronfenbrenner'in kuramı internetten önce yazıldı. Bugün bir çocuğun en y
 
 Navarro ve Tudge daha kapsamlı bir uyarlama önerdi: **yeni ekolojik kuram** (neo-ecological theory). Bu kurama göre iki tür mikrosistem vardır: **fiziksel** ve **sanal**. Ergenler için sanal mikrosistemler, yakın süreçlerin gerçekleştiği merkezi bağlamlardır; bu yüzden yazarlar, araştırma konusu ne olursa olsun bütün gelişim araştırmacılarının dijital bağlamların etkisini hesaba katması gerektiğini savunur. Yeni kuram, dijital çağda gelişimi anlamak için makrosistemin, yani kültürün ve toplum içindeki alt kültürel farklılıkların önemini de öne çıkarır.[7]
 
-Eğitim teknolojisi açısından bu uzantılar iki soru doğurur. Birincisi, bir öğrencinin çevrim içi öğrenme ortamı, çevrim içi akran grubu ya da oyun topluluğu hangi yakın süreçleri barındırıyor? İkincisi, ev ile okul arasındaki ilişki (mezosistem) artık öğrenme yönetim sistemleri, okul uygulamaları ve mesajlaşma grupları üzerinden kurulurken, bu dijital mezosistem öğrencinin gelişimini nasıl etkiliyor? Bu sorular, [öğrenme yönetim sistemleri](https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) ve [uzaktan eğitim](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) çalışmaları için güçlü bir kuramsal çerçeve sunar.[7, 6]
+Eğitim teknolojisi açısından bu uzantılar iki soru doğurur. Birincisi, bir öğrencinin çevrim içi öğrenme ortamı, çevrim içi akran grubu ya da oyun topluluğu hangi yakın süreçleri barındırıyor? İkincisi, ev ile okul arasındaki ilişki (mezosistem) artık öğrenme yönetim sistemleri, okul uygulamaları ve mesajlaşma grupları üzerinden kurulurken, bu dijital mezosistem öğrencinin gelişimini nasıl etkiliyor? Bu sorular, [öğrenme yönetim sistemleri](https://bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) ve [uzaktan eğitim](https://bote.web.tr/blog/uzaktan-egitim-nedir) çalışmaları için güçlü bir kuramsal çerçeve sunar.[7, 6]
 
 ## Kanıt: mezosistem ve okul-aile ilişkisi
 
@@ -153,7 +153,7 @@ Terimler kaynak eserlerden ve Türkçe çalışmalardan derlenmiştir.[2, 9]
 4. **Sanal mikrosistemlerde hangi yakın süreçler var?** Çevrim içi öğrenme ortamlarında düzenli ve karmaşıklaşan etkileşimlerin gözlem ve iz verisiyle incelenmesi, yeni ekolojik kuramı sınamanın bir yolu olabilir.[7]
 5. **Teknolojinin etkisi hangi bağlamda büyüyor?** Türkiye meta-analizinde etkinin ortama ve eğitim düzeyine göre değişmesi, bağlamsal düzenleyicileri önceden kaydedilmiş çalışmalarla incelemeyi gerektiriyor.[14]
 
-Öteki gelişim kuramları için [Piaget](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram), [Erikson](https://www.bote.web.tr/blog/erikson-psikososyal-gelisim-kurami) ve [Kohlberg](https://www.bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami) yazılarına bakabilirsiniz.
+Öteki gelişim kuramları için [Piaget](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram), [Erikson](https://bote.web.tr/blog/erikson-psikososyal-gelisim-kurami) ve [Kohlberg](https://bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

@@ -1,6 +1,6 @@
 ---
 title: "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi"
-url: https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
+url: https://bote.web.tr/blog/egitim-fakultesi-erasmus
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuy
 
 > Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://bote.web.tr/blog/egitim-fakultesi-erasmus
 
-## Kısaca
+## Özet
 
 - Erasmus+ ile yükseköğretim öğrencileri her öğrenim kademesinde toplam 12 aya kadar yurt dışında öğrenim ve staj yapabilir.
 - Öğrenim hareketliliği en az 2 ay sürer; kısa süreli karma hareketlilik seçenekleri de vardır.
@@ -42,18 +42,18 @@ Yükseköğretim öğrencileri, üniversiteleri arasında ikili anlaşma bulunan
 
 Erasmus+ yalnızca ders almayı değil, yurt dışında staj yapmayı da destekler. Staj hareketliliği okullar dahil birçok kurumda yapılabilir. Yeni mezunlar da stajdan yararlanabilir: staj mezuniyetten sonraki 12 ay içinde tamamlanmalı ve en az 2 ay sürmelidir. Başvurunun ise **henüz öğrenciyken**, üniversitenin Erasmus+ ofisi üzerinden yapılması gerekir. Staj yerini bulmak genellikle öğrencinin sorumluluğundadır.[4]
 
-Öğretmen adayları için yurt dışında bir okulda staj yapmak, farklı bir eğitim sistemini içeriden gözlemlemenin en doğrudan yoludur. Mezuniyet sonrası seçenekler için sitemizdeki [BÖTE mezunları](https://www.bote.web.tr/graduation) sayfasına da göz atabilirsiniz.
+Öğretmen adayları için yurt dışında bir okulda staj yapmak, farklı bir eğitim sistemini içeriden gözlemlemenin en doğrudan yoludur. Mezuniyet sonrası seçenekler için sitemizdeki [BÖTE mezunları](https://bote.web.tr/graduation) sayfasına da göz atabilirsiniz.
 
 ## Öğretmen adayları için neden değerli?
 
-- **Karşılaştırmalı bakış:** Farklı bir ülkenin okul sistemini görmek, kendi sisteminizin güçlü ve zayıf yanlarını daha net görmenizi sağlar. Örneğin [Finlandiya öğretmen yetiştirme modeli](https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli) gibi örnekleri yerinde gözlemlemek mümkün olabilir.
+- **Karşılaştırmalı bakış:** Farklı bir ülkenin okul sistemini görmek, kendi sisteminizin güçlü ve zayıf yanlarını daha net görmenizi sağlar. Örneğin [Finlandiya öğretmen yetiştirme modeli](https://bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli) gibi örnekleri yerinde gözlemlemek mümkün olabilir.
 - **Çok kültürlü sınıflar:** Farklı dil ve kültürlerden öğrencilerle çalışma deneyimi, giderek çeşitlenen sınıflarda işe yarar.
 - **Yabancı dil:** Özellikle yabancı dil öğretmenliği programları için dilin kullanıldığı ortamda yaşamak doğrudan mesleki bir kazanımdır.
 - **Mesleki ağ:** Yurt dışındaki öğretmenler ve öğretmen adaylarıyla kurulan bağlantılar, ileride ortak projelerin kapısını açabilir.
 
 ## Zamanlama: öğretmenlik uygulamasıyla çakışma
 
-Eğitim fakültesi öğrencilerinin dikkat etmesi gereken özel bir nokta var: öğretmenlik uygulaması. Öğretmenlik Uygulaması I ve II dersleri son sınıfta, 7. ve 8. yarıyılda yer alır.[5] Bu dersler Türkiye'deki okullarda yürütüldüğü için, son sınıfta öğrenim hareketliliğine çıkmak planlamayı zorlaştırabilir. Pek çok öğrenci için ikinci ya da üçüncü sınıf daha uygun bir dönem olabilir. Öğretmenlik uygulamasını [bu yazıda](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) anlattık.
+Eğitim fakültesi öğrencilerinin dikkat etmesi gereken özel bir nokta var: öğretmenlik uygulaması. Öğretmenlik Uygulaması I ve II dersleri son sınıfta, 7. ve 8. yarıyılda yer alır.[5] Bu dersler Türkiye'deki okullarda yürütüldüğü için, son sınıfta öğrenim hareketliliğine çıkmak planlamayı zorlaştırabilir. Pek çok öğrenci için ikinci ya da üçüncü sınıf daha uygun bir dönem olabilir. Öğretmenlik uygulamasını [bu yazıda](https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) anlattık.
 
 ## AKTS ve derslerin tanınması
 

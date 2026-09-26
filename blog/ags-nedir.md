@@ -1,6 +1,6 @@
 ---
 title: "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi"
-url: https://www.bote.web.tr/blog/ags-nedir
+url: https://bote.web.tr/blog/ags-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar
 
 > AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ags-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/ags-nedir
 
-## Kısaca
+## Özet
 
 - **AGS**, Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın kısaltmasıdır; Millî Eğitim Akademisi hazırlık eğitimine kabul bu sınavla yapılır.
 - Sınavı ÖSYM yapar. İlk AGS 13 Temmuz 2025'te uygulandı.
@@ -44,7 +44,7 @@ AGS'nin kapsamında sözel ve sayısal yetenek, tarih, Türkiye coğrafyası, e�
 
 ## Sınavdan sonra: akademi süreci
 
-AGS bir atama sınavı değil, akademiye kabul sınavıdır. Kabul edilen adaylar Millî Eğitim Akademisi'nde onar haftalık dört dönemden oluşan hazırlık eğitimine başlar.[5] Hazırlık eğitimini başarıyla tamamlamak, MEB'e öğretmen olarak atanmanın ön koşuludur. Bu süreci [Millî Eğitim Akademisi hazırlık eğitimi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazımızda ayrıntılı anlattık.
+AGS bir atama sınavı değil, akademiye kabul sınavıdır. Kabul edilen adaylar Millî Eğitim Akademisi'nde onar haftalık dört dönemden oluşan hazırlık eğitimine başlar.[5] Hazırlık eğitimini başarıyla tamamlamak, MEB'e öğretmen olarak atanmanın ön koşuludur. Bu süreci [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazımızda ayrıntılı anlattık.
 
 ## ÖABT nedir?
 

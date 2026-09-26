@@ -1,6 +1,6 @@
 ---
 title: "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?"
-url: https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
+url: https://bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi ders
 
 > Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
 
-## Kısaca
+## Özet
 
 - Öğretmenlik lisans programları alan eğitimi, **meslek bilgisi** ve genel kültür olmak üzere üç ders grubundan oluşur.
 - 2018 güncellemesiyle Eğitim Sosyolojisi, Türk Eğitim Tarihi ve Eğitim Felsefesi tüm programlarda zorunlu oldu; Eğitimde Ahlak ve Etik dersi eklendi.
@@ -85,13 +85,13 @@ Bir yıl sonra Shulman öğretmenin bilgi tabanını yedi kategoride topladı: a
 
 ## Uluslararası bakış
 
-Darling-Hammond, güçlü öğretmen eğitimi programlarının ortak özellikleri arasında öğrenme ve gelişim bilgisine dayalı sağlam bir kuramsal temel ile bu temeli sınıf uygulamasına bağlayan kapsamlı uygulama deneyimini sayar.[6] Meslek bilgisi derslerinin öğretmenlik uygulamasıyla bağlantısı bu nedenle önemlidir. Uygulama sürecini [öğretmenlik uygulaması nedir?](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) yazımızda anlattık.
+Darling-Hammond, güçlü öğretmen eğitimi programlarının ortak özellikleri arasında öğrenme ve gelişim bilgisine dayalı sağlam bir kuramsal temel ile bu temeli sınıf uygulamasına bağlayan kapsamlı uygulama deneyimini sayar.[6] Meslek bilgisi derslerinin öğretmenlik uygulamasıyla bağlantısı bu nedenle önemlidir. Uygulama sürecini [öğretmenlik uygulaması nedir?](https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) yazımızda anlattık.
 
 ## Öğrenciler için öneriler
 
 - **Dersleri birbirine bağlayın:** Eğitim psikolojisinde öğrendiğiniz bir gelişim kuramını, öğretim ilke ve yöntemleri dersinde hazırladığınız bir ders planına uygulayın.
 - **Uygulamada gözlem yapın:** Okulda gözlemlediğiniz bir sınıf yönetimi sorununu derste öğrendiğiniz stratejilerle karşılaştırın.
-- **AGS'yi düşünün:** AGS'nin eğitimin temelleri bölümü bu derslerle doğrudan ilişkilidir; [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) yazımıza göz atabilirsiniz.
+- **AGS'yi düşünün:** AGS'nin eğitimin temelleri bölümü bu derslerle doğrudan ilişkilidir; [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazımıza göz atabilirsiniz.
 
 ## Sonuç
 

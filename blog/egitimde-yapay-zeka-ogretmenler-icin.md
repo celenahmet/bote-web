@@ -1,6 +1,6 @@
 ---
 title: "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber"
-url: https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
+url: https://bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehbe
 
 > Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
 
-## Kısaca
+## Özet
 
 - UNESCO'nun 2023 rehberi, üretken yapay zekânın eğitimde insan merkezli ve düzenlenmiş biçimde kullanılmasını önerir; sınıfta kullanım için alt yaş sınırı olarak 13'ü önerir.
 - UNESCO'nun 2024 tarihli çerçevesi öğretmenler için beş boyutta 15 yapay zekâ yetkinliği tanımlar.
@@ -94,7 +94,7 @@ Bu hataların ortak noktası, yapay zekâyı pedagojik bir karar yerine teknik b
 
 ## BÖTE'nin rolü
 
-Yapay zekâ, eğitim teknolojisi alanının güncel gündeminin merkezinde. BÖTE mezunları hem kendi derslerinde hem de okuldaki diğer öğretmenlere destek verirken bu konunun doğal muhatabı. Öğretmenlerin teknolojiyi pedagojik amaçlara bağlamasını anlatan [TPACK modeli](https://www.bote.web.tr/blog/tpack-modeli-nedir) yazımız, yapay zekâ araçlarını değerlendirmek için de kullanışlı bir çerçeve sunuyor.
+Yapay zekâ, eğitim teknolojisi alanının güncel gündeminin merkezinde. BÖTE mezunları hem kendi derslerinde hem de okuldaki diğer öğretmenlere destek verirken bu konunun doğal muhatabı. Öğretmenlerin teknolojiyi pedagojik amaçlara bağlamasını anlatan [TPACK modeli](https://bote.web.tr/blog/tpack-modeli-nedir) yazımız, yapay zekâ araçlarını değerlendirmek için de kullanışlı bir çerçeve sunuyor.
 
 ## Sonuç
 

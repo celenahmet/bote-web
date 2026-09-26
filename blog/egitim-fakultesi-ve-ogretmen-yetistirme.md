@@ -1,6 +1,6 @@
 ---
 title: "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi"
-url: https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
+url: https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişi
 
 > Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
 
-## Kısaca
+## Özet
 
 - Türkiye'de öğretmen yetiştirme 1982'den beri üniversitelerin görevidir. Ana model, alan ve öğretmenlik eğitiminin birlikte verildiği eğitim fakülteleridir.
 - Fakülteler 1998'de yeniden yapılandırıldı. Öğretmenlik lisans programları 2018'de güncellendi.
@@ -29,7 +29,7 @@ Eğitim fakültesi, okul öncesinden ortaöğretime kadar farklı kademe ve bran
 
 Eşzamanlı modelde öğrenci, lisans eğitimi boyunca hem öğreteceği alanın bilgisini hem de öğretmenlik mesleğinin bilgisini birlikte alır. Buna karşılık **ardışık (consecutive) modelde** önce bir alanda lisans tamamlanır, öğretmenlik eğitimi sonradan eklenir. Türkiye'de pedagojik formasyon uzun yıllar bu ikinci yolun karşılığı oldu.
 
-Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, fen ve dil öğretmenliklerine, rehberlik ve özel eğitimden [Bilgisayar ve Öğretim Teknolojileri Öğretmenliği](https://www.bote.web.tr/blog/bote-nedir)'ne kadar pek çok program bulunur.
+Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, fen ve dil öğretmenliklerine, rehberlik ve özel eğitimden [Bilgisayar ve Öğretim Teknolojileri Öğretmenliği](https://bote.web.tr/blog/bote-nedir)'ne kadar pek çok program bulunur.
 
 ## Kısa bir tarihçe
 
@@ -86,14 +86,14 @@ Bu yazıda genel hatlarını çizdiğimiz sistemin her parçasını ayrı yazıl
 
 | Konu | Yazı |
 |---|---|
-| Fakültelerdeki programlar ve puan türleri | [Eğitim fakültesi bölümleri](https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri) |
-| Tüm programlarda ortak dersler | [Öğretmenlik meslek bilgisi dersleri](https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) |
-| Son sınıftaki okul deneyimi | [Öğretmenlik uygulaması](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) |
-| Mezuniyet sonrası sınav | [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) |
-| Atama öncesi hazırlık dönemi | [Millî Eğitim Akademisi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) |
-| Formasyondaki değişiklik | [Pedagojik formasyon kalktı mı?](https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) |
-| Yasal çerçeve ve kariyer | [7528 sayılı Kanun](https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) |
-| Kalite güvencesi | [Akreditasyon ve EPDAD](https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) |
+| Fakültelerdeki programlar ve puan türleri | [Eğitim fakültesi bölümleri](https://bote.web.tr/blog/egitim-fakultesi-bolumleri) |
+| Tüm programlarda ortak dersler | [Öğretmenlik meslek bilgisi dersleri](https://bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) |
+| Son sınıftaki okul deneyimi | [Öğretmenlik uygulaması](https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) |
+| Mezuniyet sonrası sınav | [AGS nedir?](https://bote.web.tr/blog/ags-nedir) |
+| Atama öncesi hazırlık dönemi | [Millî Eğitim Akademisi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) |
+| Formasyondaki değişiklik | [Pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) |
+| Yasal çerçeve ve kariyer | [7528 sayılı Kanun](https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) |
+| Kalite güvencesi | [Akreditasyon ve EPDAD](https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) |
 
 ## Aday öğrenciler için öneriler
 

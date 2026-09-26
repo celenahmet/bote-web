@@ -1,6 +1,6 @@
 ---
 title: "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler"
-url: https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
+url: https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, 
 
 > Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, IPISD'den SAM'e tarihçe, aşamalar, eleştiriler, Türkiye'deki çalışmalar ve açık sorular.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 
-## Kısaca
+## Özet
 
 - **ADDIE**, tek bir yazarın geliştirdiği bir model değil, sistemli öğretim tasarımı modelleri ailesine sözlü gelenekle yerleşmiş bir etikettir; en yakın atası 1975 tarihli askerî IPISD modelidir.
 - Beş aşama (analiz, tasarım, geliştirme, uygulama, değerlendirme) bir sıra değil, tasarım kararlarını denetleyen bir çerçeve olarak kullanıldığında işe yarar.
@@ -114,7 +114,7 @@ Bir ortaokul bilişim teknolojileri ve yazılım dersi öğretmeni "güvenli par
 
 ### Araştırma örneği: desen seçimi
 
-ADDIE ile çalışan bir lisansüstü araştırma için iki yol öne çıkar. Birincisi **tasarım ve geliştirme** çalışmasıdır: amaç bir ürün ya da ders geliştirmekse, her aşamanın kararları ve gerekçeleri raporlanmalı, geliştirme aşamasında biçimlendirici değerlendirme (birebir deneme, küçük grup denemesi, alan denemesi) yapılmalıdır. Dick, Carey ve Carey'nin biçimlendirici değerlendirme yaklaşımı bu raporlama için ayrıntılı bir yol sunar.[7] İkincisi **etki** çalışmasıdır: tasarlanan dersin etkisi ölçülecekse, yukarıda tartışılan nedenle sınanan şeyin ADDIE değil tasarımın içerdiği öğretim stratejileri olduğu açıkça yazılmalı ve kontrol grubuna aynı içeriğin farklı bir stratejiyle sunulduğu bir karşılaştırma kurulmalıdır. Yinelemeli bir sürecin doğrusal sürece üstünlüğü sınanacaksa, aynı içeriğin ADDIE ve hızlı prototipleme ya da SAM ile geliştirildiği iki ekibin süreç ve ürün verileriyle karşılaştırılması özgün bir desen olur.[8, 12] Öğretim tasarımının meslek boyutu için [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazısına bakılabilir.
+ADDIE ile çalışan bir lisansüstü araştırma için iki yol öne çıkar. Birincisi **tasarım ve geliştirme** çalışmasıdır: amaç bir ürün ya da ders geliştirmekse, her aşamanın kararları ve gerekçeleri raporlanmalı, geliştirme aşamasında biçimlendirici değerlendirme (birebir deneme, küçük grup denemesi, alan denemesi) yapılmalıdır. Dick, Carey ve Carey'nin biçimlendirici değerlendirme yaklaşımı bu raporlama için ayrıntılı bir yol sunar.[7] İkincisi **etki** çalışmasıdır: tasarlanan dersin etkisi ölçülecekse, yukarıda tartışılan nedenle sınanan şeyin ADDIE değil tasarımın içerdiği öğretim stratejileri olduğu açıkça yazılmalı ve kontrol grubuna aynı içeriğin farklı bir stratejiyle sunulduğu bir karşılaştırma kurulmalıdır. Yinelemeli bir sürecin doğrusal sürece üstünlüğü sınanacaksa, aynı içeriğin ADDIE ve hızlı prototipleme ya da SAM ile geliştirildiği iki ekibin süreç ve ürün verileriyle karşılaştırılması özgün bir desen olur.[8, 12] Öğretim tasarımının meslek boyutu için [öğretim tasarımcısı ne iş yapar?](https://bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazısına bakılabilir.
 
 ## Araştırmacılar için açık sorular
 

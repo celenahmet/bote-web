@@ -1,6 +1,6 @@
 ---
 title: "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri"
-url: https://www.bote.web.tr/blog/iste-standartlari-nedir
+url: https://bote.web.tr/blog/iste-standartlari-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim t
 
 > ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/iste-standartlari-nedir
 
-## Kısaca
+## Özet
 
 - **ISTE**, eğitimde teknoloji kullanımına yönelik standartlar yayımlayan uluslararası bir kuruluştur.
 - Öğrenci standartları yedi rol tanımlar: güçlenmiş öğrenen, dijital vatandaş, bilgi inşa eden, yenilikçi tasarımcı, bilgi işlemsel düşünen, yaratıcı iletişimci ve küresel iş birlikçi.
@@ -41,7 +41,7 @@ International Society for Technology in Education (ISTE), eğitimde teknoloji ku
 | Yaratıcı iletişimci | Amaca ve hedef kitleye uygun dijital içerik üretir |
 | Küresel iş birlikçi | Farklı bakış açılarına sahip kişilerle birlikte çalışır |
 
-Bu listede programlama yalnızca bir rolün parçasıdır. Standartların ağırlığı öğrencinin öğrenme sürecini yönetmesine, bilgiyi eleştirel değerlendirmesine ve etik davranmasına verilmiştir. "Bilgi işlemsel düşünen" rolünü [bilgi işlemsel düşünme nedir?](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızda ayrıntılı ele aldık.
+Bu listede programlama yalnızca bir rolün parçasıdır. Standartların ağırlığı öğrencinin öğrenme sürecini yönetmesine, bilgiyi eleştirel değerlendirmesine ve etik davranmasına verilmiştir. "Bilgi işlemsel düşünen" rolünü [bilgi işlemsel düşünme nedir?](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızda ayrıntılı ele aldık.
 
 ## Öğretmen standartları: yedi rol
 
@@ -95,7 +95,7 @@ Bu örnekte teknoloji dersin konusu değil, öğrenmenin aracıdır. Öğretmeni
 
 ## Sonuç
 
-ISTE standartları, teknolojiyi bir araç listesi olarak değil, öğrencinin ve öğretmenin üstlendiği roller üzerinden tanımlar. Bu yaklaşım, hızla değişen araçlara rağmen standartların uzun ömürlü olmasını sağlar. Avrupa çerçevesini merak ediyorsanız [DigCompEdu nedir?](https://www.bote.web.tr/blog/digcompedu-nedir) yazımızı okuyabilirsiniz.
+ISTE standartları, teknolojiyi bir araç listesi olarak değil, öğrencinin ve öğretmenin üstlendiği roller üzerinden tanımlar. Bu yaklaşım, hızla değişen araçlara rağmen standartların uzun ömürlü olmasını sağlar. Avrupa çerçevesini merak ediyorsanız [DigCompEdu nedir?](https://bote.web.tr/blog/digcompedu-nedir) yazımızı okuyabilirsiniz.
 
 ## Sık Sorulan Sorular
 

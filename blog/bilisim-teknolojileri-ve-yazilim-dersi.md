@@ -1,6 +1,6 @@
 ---
 title: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
-url: https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+url: https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
-## Kısaca
+## Özet
 
 - **Bilişim Teknolojileri ve Yazılım** (BTY) dersi ortaokul 5. ve 6. sınıflarda zorunlu, 7. ve 8. sınıflarda seçmelidir.
 - Öğretim programı ünite temellidir; problem çözme ve programlama programın merkezindedir.
@@ -51,7 +51,7 @@ MEB, **Türkiye Yüzyılı Maarif Modeli** kapsamında öğretim programlarını
 
 ## Dersi kim okutur?
 
-Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[6] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
+Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[6] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](https://bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
 
 ## Avrupa'da durum ne?
 
@@ -86,7 +86,7 @@ Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken 
 
 ## Sonuç
 
-BTY, ortaokuldaki tek zorunlu bilişim dersi olarak öğrencilerin dijital dünyaya ilk sistemli girişini sağlar. Dersin başarısı, alanında yetişmiş öğretmenlere bağlıdır. Dersin temelindeki düşünme becerisini merak ediyorsanız [bilgi işlemsel düşünme nedir?](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızı okuyabilirsiniz.
+BTY, ortaokuldaki tek zorunlu bilişim dersi olarak öğrencilerin dijital dünyaya ilk sistemli girişini sağlar. Dersin başarısı, alanında yetişmiş öğretmenlere bağlıdır. Dersin temelindeki düşünme becerisini merak ediyorsanız [bilgi işlemsel düşünme nedir?](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızı okuyabilirsiniz.
 
 ## Sık Sorulan Sorular
 

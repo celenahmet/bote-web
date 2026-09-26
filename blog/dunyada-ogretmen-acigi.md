@@ -1,6 +1,6 @@
 ---
 title: "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?"
-url: https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
+url: https://bote.web.tr/blog/dunyada-ogretmen-acigi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Ö
 
 > UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://bote.web.tr/blog/dunyada-ogretmen-acigi
 
-## Kısaca
+## Özet
 
 - UNESCO ve Öğretmen Görev Gücü'nün 2024 raporuna göre 2030 hedeflerine ulaşmak için dünyada **44 milyon** ek öğretmen gerekiyor.
 - Bu ihtiyacın yaklaşık üçte biri, 15 milyon öğretmen, Sahra altı Afrika'da.
@@ -62,7 +62,7 @@ OECD'nin öğretmen politikalarına ilişkin raporu, bu alanların birbirinden b
 
 ## Türkiye'de farklı bir tablo
 
-Türkiye'de öğretmen arzı ile ihtiyaç arasındaki ilişki, küresel tablodan farklı bir görünüm sunuyor. Bazı alanlarda eğitim fakültelerinden mezun olanların sayısı, yapılan atama sayısının belirgin biçimde üzerinde. Öğretmen yetiştirme kapasitesinin MEB'in ihtiyacıyla uyumlu hâle getirilmesi, MEB ile YÖK'ün uzun süredir gündeminde yer alıyor.[6] Bu politika, bazı öğretmenlik programlarında kontenjanların azaltılmasıyla sonuçlandı. BÖTE bu durumun en belirgin örneklerinden biri; konuyu [BÖTE'ye öğrenci alımı neden azaldı?](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
+Türkiye'de öğretmen arzı ile ihtiyaç arasındaki ilişki, küresel tablodan farklı bir görünüm sunuyor. Bazı alanlarda eğitim fakültelerinden mezun olanların sayısı, yapılan atama sayısının belirgin biçimde üzerinde. Öğretmen yetiştirme kapasitesinin MEB'in ihtiyacıyla uyumlu hâle getirilmesi, MEB ile YÖK'ün uzun süredir gündeminde yer alıyor.[6] Bu politika, bazı öğretmenlik programlarında kontenjanların azaltılmasıyla sonuçlandı. BÖTE bu durumun en belirgin örneklerinden biri; konuyu [BÖTE'ye öğrenci alımı neden azaldı?](https://bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
 
 Bununla birlikte "Türkiye'de öğretmen fazlası var" demek de eksik bir değerlendirme olur. İhtiyaç alana, kademeye ve bölgeye göre değişir. Bir alanda mezun fazlası varken başka bir alanda ya da belirli bölgelerde öğretmen bulmakta güçlük çekilebilir. Bu nedenle sağlıklı bir değerlendirme, genel sayılardan çok alan ve bölge bazındaki verilere dayanmalıdır.
 

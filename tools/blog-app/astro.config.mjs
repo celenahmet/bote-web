@@ -4,7 +4,7 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 
 export default defineConfig({
-  site: 'https://www.bote.web.tr',
+  site: 'https://bote.web.tr',
   base: '/blog',
   trailingSlash: 'never',
   outDir: process.env.BLOG_OUT_DIR || './dist',

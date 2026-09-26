@@ -1,6 +1,6 @@
 ---
 title: "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler"
-url: https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
+url: https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi b
 
 > Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
 
-## Kısaca
+## Özet
 
 - **Bilgi işlemsel düşünme**, problemleri bir bilgisayarın da uygulayabileceği adımlarla çözmeye yönelik bir düşünme biçimidir.
 - Kavramı 2006'da Jeannette Wing yaygınlaştırdı: ona göre bu beceri yalnızca bilgisayar bilimcilere değil herkese gereklidir.
@@ -59,7 +59,7 @@ Bilgi işlemsel düşünmenin öğretimi için bilgisayar şart değildir. Yeni 
 
 ## Okullarda nasıl öğretiliyor?
 
-Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin bazı sistemlerde ayrı ders, bazılarında ise matematik ve fen gibi derslere entegre biçimde öğretildiğini gösteriyor. Sistemlerin üçte ikisinden fazlası programlarını güncelleyen reformlar yürütüyor.[7] Türkiye'de ise ortaokuldaki **Bilişim Teknolojileri ve Yazılım** dersinin öğretim programı, problem çözme ve programlamaya ayrı bir yer verir.[8] Ders hakkında ayrıntı için [BTY dersi rehberimize](https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi) bakabilirsiniz.
+Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin bazı sistemlerde ayrı ders, bazılarında ise matematik ve fen gibi derslere entegre biçimde öğretildiğini gösteriyor. Sistemlerin üçte ikisinden fazlası programlarını güncelleyen reformlar yürütüyor.[7] Türkiye'de ise ortaokuldaki **Bilişim Teknolojileri ve Yazılım** dersinin öğretim programı, problem çözme ve programlamaya ayrı bir yer verir.[8] Ders hakkında ayrıntı için [BTY dersi rehberimize](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi) bakabilirsiniz.
 
 ## Sınıfta örnek bir etkinlik: sandviç algoritması
 
@@ -87,7 +87,7 @@ Kavramın popülerliği bazı soru işaretlerini de beraberinde getirdi. Grover 
 
 ## BÖTE ile ilişkisi
 
-Bilgi işlemsel düşünme, BÖTE programlarının hem alan hem de öğretim boyutunu birleştiren konulardan biridir. BÖTE mezunu bir öğretmenden yalnızca programlama bilmesi değil, bu beceriyi farklı yaş gruplarına uygun etkinliklerle öğretebilmesi beklenir. Bölümün bu yönünü [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) yazımızda ayrıntılı ele aldık.
+Bilgi işlemsel düşünme, BÖTE programlarının hem alan hem de öğretim boyutunu birleştiren konulardan biridir. BÖTE mezunu bir öğretmenden yalnızca programlama bilmesi değil, bu beceriyi farklı yaş gruplarına uygun etkinliklerle öğretebilmesi beklenir. Bölümün bu yönünü [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) yazımızda ayrıntılı ele aldık.
 
 ## Sonuç
 

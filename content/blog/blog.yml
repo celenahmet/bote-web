@@ -1,5 +1,5 @@
 # BÖTE Blog ayarlari. Uretici: cd tools && npm run blog
-siteUrl: https://www.bote.web.tr
+siteUrl: https://bote.web.tr
 title: BÖTE Blog
 tagline: Bilgisayar ve Öğretim Teknolojileri Eğitimi bölümü, eğitim fakülteleri ve öğretmenlik üzerine yazılar
 description: >-

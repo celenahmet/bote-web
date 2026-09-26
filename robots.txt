@@ -34,4 +34,4 @@ Allow: /
 Disallow: /api/
 Disallow: /blog/taslak
 
-Sitemap: https://www.bote.web.tr/sitemap.xml
+Sitemap: https://bote.web.tr/sitemap.xml

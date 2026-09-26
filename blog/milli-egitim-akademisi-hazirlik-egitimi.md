@@ -1,6 +1,6 @@
 ---
 title: "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?"
-url: https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
+url: https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, n
 
 > Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
 
-## Kısaca
+## Özet
 
 - **Millî Eğitim Akademisi**, 7528 sayılı Kanun'la öğretmenliğe giriş sürecine eklenen hazırlık eğitimini verir.
 - Hazırlık eğitimi **onar haftalık dört dönemden** oluşur: ilk üç dönem ortak dersler, dördüncü dönem uygulama.
@@ -29,9 +29,9 @@ Türkiye'de öğretmenliğe giden yolun en yeni durağı **Millî Eğitim Akadem
 
 ## Akademiye kabul
 
-Akademiye kabul, ÖSYM'nin yaptığı Millî Eğitim Bakanlığı Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılır. İlk AGS 13 Temmuz 2025'te uygulandı.[4] Sınavın yapısını [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) yazımızda anlattık.
+Akademiye kabul, ÖSYM'nin yaptığı Millî Eğitim Bakanlığı Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılır. İlk AGS 13 Temmuz 2025'te uygulandı.[4] Sınavın yapısını [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazımızda anlattık.
 
-Aralık 2025'te öğretmenlik esaslarına eklenen hükümle, hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[5] Bu değişikliğin ayrıntılarını [pedagojik formasyon kalktı mı?](https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) yazımızda ele aldık.
+Aralık 2025'te öğretmenlik esaslarına eklenen hükümle, hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[5] Bu değişikliğin ayrıntılarını [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) yazımızda ele aldık.
 
 ## Hazırlık eğitiminin yapısı
 
@@ -58,12 +58,12 @@ Türkiye'deki modelin ayırt edici yanı, bu hazırlığın atamadan **önce** v
 
 ## Açık sorular
 
-Yeni model bazı soruları da beraberinde getiriyor. Lisansın ardından eklenen yaklaşık on aylık hazırlık dönemi, öğretmen olarak göreve başlama süresini uzatıyor. Eğitim fakülteleri ile akademi arasındaki görev paylaşımının nasıl şekilleneceği, fakültelerdeki öğretmenlik uygulaması ile akademideki uygulama döneminin birbirini nasıl tamamlayacağı henüz uygulama içinde netleşecek konular arasında. Bu soruların cevabı, ilk dönemlerden elde edilecek verilere ve bu verilerin şeffaf biçimde paylaşılmasına bağlı. Eğitim fakültelerinin geleceğine ilişkin tartışmayı [eğitim fakültesi nedir?](https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımızda ele aldık.
+Yeni model bazı soruları da beraberinde getiriyor. Lisansın ardından eklenen yaklaşık on aylık hazırlık dönemi, öğretmen olarak göreve başlama süresini uzatıyor. Eğitim fakülteleri ile akademi arasındaki görev paylaşımının nasıl şekilleneceği, fakültelerdeki öğretmenlik uygulaması ile akademideki uygulama döneminin birbirini nasıl tamamlayacağı henüz uygulama içinde netleşecek konular arasında. Bu soruların cevabı, ilk dönemlerden elde edilecek verilere ve bu verilerin şeffaf biçimde paylaşılmasına bağlı. Eğitim fakültelerinin geleceğine ilişkin tartışmayı [eğitim fakültesi nedir?](https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımızda ele aldık.
 
 ## Adaylar için pratik öneriler
 
 - **Takvimi önceden planlayın:** Hazırlık eğitimi yaklaşık on ay süren yoğun bir dönemdir; iş ve yaşam planlarınızı buna göre yapın.
-- **Uygulama dönemini önemseyin:** Dördüncü dönem, lisanstaki öğretmenlik uygulamasının devamı ve derinleşmesi olarak görülebilir. Lisanstaki uygulama deneyiminiz bu dönemde işinize yarar; bu deneyimi [öğretmenlik uygulaması](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) yazımızda ele aldık.
+- **Uygulama dönemini önemseyin:** Dördüncü dönem, lisanstaki öğretmenlik uygulamasının devamı ve derinleşmesi olarak görülebilir. Lisanstaki uygulama deneyiminiz bu dönemde işinize yarar; bu deneyimi [öğretmenlik uygulaması](https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) yazımızda ele aldık.
 - **Resmî duyuruları izleyin:** Yeni bir sistem olduğu için program, takvim ve koşullar güncellenebilir.
 
 ## Sonuç

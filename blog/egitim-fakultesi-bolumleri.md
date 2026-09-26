@@ -1,6 +1,6 @@
 ---
 title: "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları"
-url: https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
+url: https://bote.web.tr/blog/egitim-fakultesi-bolumleri
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik progr
 
 > Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/egitim-fakultesi-bolumleri
 
-## Kısaca
+## Özet
 
 - Eğitim fakülteleri; okul öncesi ve sınıf öğretmenliğinden alan öğretmenliklerine, rehberlik ve özel eğitime kadar çok sayıda öğretmenlik programı sunar.
 - Programlar alan eğitimi, meslek bilgisi ve genel kültür derslerini birlikte veren **eşzamanlı** modeli izler.
@@ -27,7 +27,7 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4
 
 Türkiye'de öğretmen yetiştirmenin ana modeli, alan bilgisi ile öğretmenlik meslek bilgisinin lisans boyunca birlikte verildiği **eşzamanlı** modeldir. Avrupa'nın eğitim sistemleri veri tabanı Eurydice, Türkiye'deki öğretmen yetiştirmeyi bu çerçevede tanımlar.[1] YÖK'ün 2018'de güncellediği öğretmenlik lisans programları 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[2] Programlar üç ders grubundan oluşur: alan eğitimi, öğretmenlik meslek bilgisi ve genel kültür.[3]
 
-Bu ortak yapı, hangi bölümü seçerseniz seçin öğretmenlik meslek bilgisi derslerinin benzer olacağı anlamına gelir. Farkı yaratan, alan eğitimi dersleri ve hedeflenen okul kademesidir. Meslek bilgisi derslerini [öğretmenlik meslek bilgisi dersleri](https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) yazımızda ayrıntılı ele aldık.
+Bu ortak yapı, hangi bölümü seçerseniz seçin öğretmenlik meslek bilgisi derslerinin benzer olacağı anlamına gelir. Farkı yaratan, alan eğitimi dersleri ve hedeflenen okul kademesidir. Meslek bilgisi derslerini [öğretmenlik meslek bilgisi dersleri](https://bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) yazımızda ayrıntılı ele aldık.
 
 ## Programlar: gruplar hâlinde
 
@@ -59,11 +59,11 @@ Bölüm seçerken en güvenilir veri kaynağı YÖK Atlas'tır.[4] Ancak sayfala
 | Yerleşenlerin profili | Adayların geldiği iller ve lise türleri | Programın kimlere hitap ettiğini gösterir |
 | Tercih eğilimleri | Adayların programı kaçıncı sırada tercih ettiği | Programın adaylar için ilk seçenek olup olmadığını gösterir |
 
-Bu verilere ek olarak programın öğretim kadrosunu, uygulama okullarıyla ilişkilerini ve varsa akreditasyon durumunu incelemek, yalnızca sıralamaya bakarak verilen kararlardan daha sağlıklı bir tercih sağlar. Akreditasyonu [EPDAD yazımızda](https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) ele aldık.
+Bu verilere ek olarak programın öğretim kadrosunu, uygulama okullarıyla ilişkilerini ve varsa akreditasyon durumunu incelemek, yalnızca sıralamaya bakarak verilen kararlardan daha sağlıklı bir tercih sağlar. Akreditasyonu [EPDAD yazımızda](https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) ele aldık.
 
 ## Mezuniyetten sonra ne olur?
 
-Eğitim fakültesinden mezun olmak doğrudan öğretmen olmak anlamına gelmez. 7528 sayılı Öğretmenlik Mesleği Kanunu'yla birlikte adaylar önce ÖSYM'nin yaptığı Akademi Giriş Sınavı'na (AGS) girer, ardından Millî Eğitim Akademisi'nde hazırlık eğitimi alır.[5] Hangi lisans programının hangi atama alanına kaynak olduğu ise MEB'in öğretmenlik esaslarındaki çizelgelerle belirlenir.[6] Bu süreci [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) ve [Millî Eğitim Akademisi hazırlık eğitimi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazılarımızda ayrıntılı anlattık.
+Eğitim fakültesinden mezun olmak doğrudan öğretmen olmak anlamına gelmez. 7528 sayılı Öğretmenlik Mesleği Kanunu'yla birlikte adaylar önce ÖSYM'nin yaptığı Akademi Giriş Sınavı'na (AGS) girer, ardından Millî Eğitim Akademisi'nde hazırlık eğitimi alır.[5] Hangi lisans programının hangi atama alanına kaynak olduğu ise MEB'in öğretmenlik esaslarındaki çizelgelerle belirlenir.[6] Bu süreci [AGS nedir?](https://bote.web.tr/blog/ags-nedir) ve [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazılarımızda ayrıntılı anlattık.
 
 ## Dünyadan bir bakış
 
@@ -75,12 +75,12 @@ Bu açıdan bakıldığında bölüm seçimi yalnızca "hangi dersi öğreteceğ
 
 - **Kademeyi düşünün:** Küçük çocuklarla mı, ergenlerle mi çalışmak istiyorsunuz? Okul öncesi ile lise arasında hem içerik hem de sınıf yönetimi açısından büyük fark vardır.
 - **Atama alanını kontrol edin:** Mezun olacağınız programın hangi alanlara kaynak olduğunu esaslardan öğrenin.
-- **Kontenjan ve istihdam dengesine bakın:** Bazı alanlarda mezun sayısı atama sayısının belirgin biçimde üzerindedir. Bu durumu BÖTE örneğinde [öğrenci alımı yazımızda](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) ele aldık.
+- **Kontenjan ve istihdam dengesine bakın:** Bazı alanlarda mezun sayısı atama sayısının belirgin biçimde üzerindedir. Bu durumu BÖTE örneğinde [öğrenci alımı yazımızda](https://bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) ele aldık.
 - **Öğretmenlik dışı seçenekleri de düşünün:** Rehberlik, özel eğitim ve öğretim teknolojileri gibi alanların okul dışında da çalışma olanakları vardır.
 
 ## Sonuç
 
-Eğitim fakülteleri, ortak bir meslek bilgisi çekirdeği etrafında çok farklı alanlarda öğretmen yetiştirir. Doğru bölüm; ilgi duyduğunuz alana, çalışmak istediğiniz yaş grubuna ve o alandaki atama koşullarına göre seçilir. Fakültelerin genel yapısı için [eğitim fakültesi nedir?](https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımıza göz atabilirsiniz.
+Eğitim fakülteleri, ortak bir meslek bilgisi çekirdeği etrafında çok farklı alanlarda öğretmen yetiştirir. Doğru bölüm; ilgi duyduğunuz alana, çalışmak istediğiniz yaş grubuna ve o alandaki atama koşullarına göre seçilir. Fakültelerin genel yapısı için [eğitim fakültesi nedir?](https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımıza göz atabilirsiniz.
 
 ## Sık Sorulan Sorular
 

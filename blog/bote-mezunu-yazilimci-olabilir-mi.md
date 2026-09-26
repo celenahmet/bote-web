@@ -1,6 +1,6 @@
 ---
 title: "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme"
-url: https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
+url: https://bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde v
 
 > BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 
-## Kısaca
+## Özet
 
 - BÖTE programı programlama, veri tabanı, ağlar ve web gibi dersler içerir; ancak amacı yazılım mühendisi değil, bilişim öğretmeni yetiştirmektir.
 - Yazılım sektöründe işe alımda diploma kadar **portfolyo** ve kanıtlanmış beceri de belirleyicidir.
@@ -27,7 +27,7 @@ BÖTE öğrencilerinin ve adaylarının en sık sorduğu sorulardan biri: "Bu b�
 
 YÖK'ün Bilgisayar ve Öğretim Teknolojileri Öğretmenliği programı, bilişim alan derslerini eğitim bilimleri ve öğretmenlik uygulamasıyla birleştirir.[1] Programlama, algoritmalar, veri tabanları, bilgisayar ağları, web ve çoklu ortam tasarımı gibi dersler bu programın alan eğitimi bileşenini oluşturur. Yani BÖTE mezunu kod yazmayı bilen, en az bir programlama dilini kullanabilen ve web teknolojilerine aşina biridir.
 
-Ancak programın amacı açıktır: **bilişim öğretmeni yetiştirmek**. Derslerin önemli bir kısmı öğretmenlik meslek bilgisine ve okul uygulamasına ayrılır. Bu nedenle alan derslerinin derinliği, doğrudan yazılım mühendisi yetiştirmeyi amaçlayan programlarla aynı değildir. Farkları [BÖTE mi bilgisayar mühendisliği mi?](https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi) yazımızda ayrıntılı karşılaştırdık.
+Ancak programın amacı açıktır: **bilişim öğretmeni yetiştirmek**. Derslerin önemli bir kısmı öğretmenlik meslek bilgisine ve okul uygulamasına ayrılır. Bu nedenle alan derslerinin derinliği, doğrudan yazılım mühendisi yetiştirmeyi amaçlayan programlarla aynı değildir. Farkları [BÖTE mi bilgisayar mühendisliği mi?](https://bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi) yazımızda ayrıntılı karşılaştırdık.
 
 ## Sektör ne bekliyor?
 
@@ -66,7 +66,7 @@ Açıklar kadar avantajlar da gerçektir. BÖTE mezunu kullanıcıyı ve öğren
 - **Kullanıcı deneyimi ve dokümantasyon:** Karmaşık bir sistemi anlaşılır kılmak, öğretmenlik becerisinin başka bir biçimidir.
 - **Kurumsal eğitim ve teknik eğitmenlik:** Yazılım şirketleri müşterilerine ve çalışanlarına eğitim verecek kişilere ihtiyaç duyar.
 
-Bu alanlardaki roller için [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazımız da fikir verebilir.
+Bu alanlardaki roller için [öğretim tasarımcısı ne iş yapar?](https://bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazımız da fikir verebilir.
 
 ## Dört yıllık bir yol haritası
 
@@ -83,7 +83,7 @@ Bu plan öğretmenlik yolunu kapatmaz. Aksine, gerçek projeler geliştirmiş bi
 
 1. **Her dönem bir proje bitirin.** Küçük ama tamamlanmış bir proje, yarım kalmış büyük bir projeden daha değerlidir.
 2. **Kodunuzu paylaşın.** Herkese açık bir depo, özgeçmişteki "programlama bilirim" cümlesinden daha ikna edicidir.
-3. **Staj yapın.** Sitemizdeki [staj imkânları](https://www.bote.web.tr/internship) sayfası bir başlangıç noktası olabilir.
+3. **Staj yapın.** Sitemizdeki [staj imkânları](https://bote.web.tr/internship) sayfası bir başlangıç noktası olabilir.
 4. **Öğretmenlik seçeneğini kapatmayın.** Yazılım deneyimi, bilişim öğretmenliğinde de güçlü bir artıdır.
 
 ## Sonuç

@@ -1,6 +1,6 @@
 ---
 title: "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi"
-url: https://www.bote.web.tr/blog/bote-nedir
+url: https://bote.web.tr/blog/bote-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimler
 
 > BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 6 dk okuma · https://bote.web.tr/blog/bote-nedir
 
-## Kısaca
+## Özet
 
 - BÖTE, eğitim fakültelerinde okutulan dört yıllık **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği** lisans programının kısa adıdır; bölüm 1998'de eğitim fakültelerinin yeniden yapılandırılmasıyla kuruldu.
 - Program teknik bilişim derslerini (programlama, ağlar, veri tabanı, çoklu ortam) öğretim tasarımı ve eğitim bilimleriyle birleştirir.
@@ -54,7 +54,7 @@ YÖK'ün öğretmenlik programları üç ana bileşenden oluşur: **alan eğitim
 | Meslek bilgisi | Eğitim psikolojisi, öğretim ilke ve yöntemleri, ölçme ve değerlendirme, sınıf yönetimi, öğretmenlik uygulaması |
 | Genel kültür | Dil, tarih, bilim ve toplum gibi konularda ortak dersler |
 
-Ders adları ve sıralaması üniversiteden üniversiteye değişebilir. Güncel ders listesini YÖK'ün program belgesinden ve üniversitelerin ders bilgi paketlerinden kontrol etmek en doğrusudur. Sitemizdeki [müfredat sayfası](https://www.bote.web.tr/curriculum) da genel bir fikir verir.
+Ders adları ve sıralaması üniversiteden üniversiteye değişebilir. Güncel ders listesini YÖK'ün program belgesinden ve üniversitelerin ders bilgi paketlerinden kontrol etmek en doğrusudur. Sitemizdeki [müfredat sayfası](https://bote.web.tr/curriculum) da genel bir fikir verir.
 
 BÖTE'yi bilgisayar bölümlerinden ayıran nokta, teknik bilginin her zaman **öğretme ve öğrenme** bağlamında ele alınmasıdır. Örneğin bir BÖTE öğrencisi bir web uygulaması geliştirirken şu soruları da sorar: Bu uygulama kime, neyi, nasıl öğretecek? Öğrenmenin gerçekleştiğini nasıl anlayacağız?
 
@@ -73,7 +73,7 @@ Bu çerçevelerin ortak mesajı şu: Teknolojiyi iyi bilmek tek başına yetmez.
 
 2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[11] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[11]
 
-Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
+Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](https://bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
 
 ## Alanın temel kavramları
 
@@ -82,12 +82,12 @@ BÖTE'de ve bu blogda sık karşılaşacağınız kavramları kısaca tanımlaya
 | Kavram | Kısaca | Ayrıntı |
 |---|---|---|
 | Eğitim teknolojisi | Uygun teknolojik süreç ve kaynakları oluşturarak, kullanarak ve yöneterek öğrenmeyi kolaylaştırma çalışması | Bu yazı |
-| Öğretim tasarımı | Öğrenme ihtiyacından yola çıkarak öğretimi sistemli biçimde planlama | [ADDIE modeli](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) |
-| TPACK | Alan, pedagoji ve teknoloji bilgisinin kesişiminde oluşan öğretmen bilgisi | [TPACK modeli](https://www.bote.web.tr/blog/tpack-modeli-nedir) |
-| Bilgi işlemsel düşünme | Problemleri bir bilgisayarın da uygulayabileceği adımlarla çözme biçimi | [Bilgi işlemsel düşünme](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) |
-| Çoklu ortam öğrenme | Sözcük ve görselin birlikte, bilişsel yükü gözeterek kullanılması | [Mayer'in ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) |
-| Uzaktan eğitim | Öğrenen ile öğretenin fiziksel olarak ayrı olduğu eğitim | [Uzaktan eğitim](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) |
-| Oyunlaştırma | Oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılması | [Oyunlaştırma](https://www.bote.web.tr/blog/oyunlastirma-nedir) |
+| Öğretim tasarımı | Öğrenme ihtiyacından yola çıkarak öğretimi sistemli biçimde planlama | [ADDIE modeli](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) |
+| TPACK | Alan, pedagoji ve teknoloji bilgisinin kesişiminde oluşan öğretmen bilgisi | [TPACK modeli](https://bote.web.tr/blog/tpack-modeli-nedir) |
+| Bilgi işlemsel düşünme | Problemleri bir bilgisayarın da uygulayabileceği adımlarla çözme biçimi | [Bilgi işlemsel düşünme](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) |
+| Çoklu ortam öğrenme | Sözcük ve görselin birlikte, bilişsel yükü gözeterek kullanılması | [Mayer'in ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) |
+| Uzaktan eğitim | Öğrenen ile öğretenin fiziksel olarak ayrı olduğu eğitim | [Uzaktan eğitim](https://bote.web.tr/blog/uzaktan-egitim-nedir) |
+| Oyunlaştırma | Oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılması | [Oyunlaştırma](https://bote.web.tr/blog/oyunlastirma-nedir) |
 | İnsan performans teknolojisi | Performans sorunlarını yalnızca eğitimle değil, çevresel ve örgütsel etkenlerle birlikte ele alan yaklaşım | Aşağıda |
 
 Son kavram BÖTE'nin sınırlarını anlamak için önemlidir. Çakır, Çebi ve Özcan'ın belirttiği gibi alan, öğretim sistemleri tasarımından başlayıp zamanla bir kurumdaki insan performansını bütüncül biçimde ele alan bir yaklaşıma doğru genişledi.[3] Bu nedenle bir BÖTE mezunu yalnızca "ders hazırlayan" değil, "öğrenme ve performans sorununu çözen" biri olarak da düşünülebilir.

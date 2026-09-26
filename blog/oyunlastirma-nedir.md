@@ -1,6 +1,6 @@
 ---
 title: "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları"
-url: https://www.bote.web.tr/blog/oyunlastirma-nedir
+url: https://bote.web.tr/blog/oyunlastirma-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, 
 
 > Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 7 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 7 dk okuma · https://bote.web.tr/blog/oyunlastirma-nedir
 
-## Kısaca
+## Özet
 
 - **Oyunlaştırma**, oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılmasıdır; tam bir oyun tasarlamak anlamına gelmez.
 - Öz belirleme kuramına göre iyi bir tasarım üç ihtiyacı birlikte gözetir: **özerklik, yeterlik ve ilişkililik**.
@@ -135,7 +135,7 @@ Bu örnekte oyun öğeleri aynı; değişen, öğelerin hangi davranışa bağla
 
 ## Sonuç
 
-Oyunlaştırma, doğru kullanıldığında öğrencilerin motivasyonunu ve katılımını artırabilen bir tasarım aracıdır. Ancak etkisi kendiliğinden gelmez: öğeler öğrenme hedefine bağlanmalı, öğrenci grubuna uygun seçilmeli ve sonuçları izlenmelidir. Tasarım sürecinin genel çerçevesi için [öğretim tasarımı ve ADDIE](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazımıza bakabilirsiniz.
+Oyunlaştırma, doğru kullanıldığında öğrencilerin motivasyonunu ve katılımını artırabilen bir tasarım aracıdır. Ancak etkisi kendiliğinden gelmez: öğeler öğrenme hedefine bağlanmalı, öğrenci grubuna uygun seçilmeli ve sonuçları izlenmelidir. Tasarım sürecinin genel çerçevesi için [öğretim tasarımı ve ADDIE](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazımıza bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

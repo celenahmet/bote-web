@@ -1,4 +1,4 @@
-// Lighthouse denetimi: yerel sunucu https://www.bote.web.tr adresine eslenir, boylece
+// Lighthouse denetimi: yerel sunucu https://bote.web.tr adresine eslenir, boylece
 // canonical/robots/hreflang denetimleri uretimdeki gibi calisir.
 //   node lighthouse.mjs                 -> sitemap'teki tum sayfalar (SEO, erisilebilirlik, en iyi uygulamalar)
 //   node lighthouse.mjs --perf          -> performans da olculur (yavas)
@@ -12,7 +12,7 @@ import lighthouse from 'lighthouse';
 import * as chromeLauncher from 'chrome-launcher';
 import { listen, ROOT } from './serve.mjs';
 
-const HOST = 'www.bote.web.tr';
+const HOST = 'bote.web.tr';
 const args = process.argv.slice(2);
 const PERF = args.includes('--perf');
 const only = args.filter((a) => a.startsWith('/'));

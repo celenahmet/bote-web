@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { store } from './views-client.js';
 
 // Bu tarayicida son okunan yazilar (sunucuya gonderilmez).
-export default function RecentlyViewed({ posts, current = '' }) {
+export default function RecentlyViewed({ posts, current = '', wide = false }) {
   const [items, setItems] = useState([]);
   useEffect(() => {
     const by = Object.fromEntries(posts.map((p) => [p.slug, p]));
@@ -17,10 +17,10 @@ export default function RecentlyViewed({ posts, current = '' }) {
   return (
     <section className="widget" aria-labelledby="w-recent">
       <h2 className="widget-title" id="w-recent">Son okuduğun yazılar</h2>
-      <ul className="mini plain mini-thumbs">
+      <ul className={`mini plain mini-thumbs${wide ? ' mini-wide' : ''}`}>
         {items.map((p) => (
           <li key={p.slug}>
-            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="64" height="64" loading="lazy" decoding="async" /></a>}
+            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width={wide ? 160 : 64} height={wide ? 84 : 64} loading="lazy" decoding="async" /></a>}
             <div><a href={p.url}>{p.title}</a><small>{p.minutes} dk okuma</small></div>
           </li>
         ))}

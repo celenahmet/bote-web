@@ -1,6 +1,6 @@
 ---
 title: "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları"
-url: https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
+url: https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Uzman öğretmen ve başöğretmen olmak için hangi koşullar ger
 
 > Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
 
-## Kısaca
+## Özet
 
 - 7528 sayılı Kanun'a göre öğretmenlik mesleği **öğretmen, uzman öğretmen ve başöğretmen** basamaklarından oluşur.
 - Uzman öğretmenlik için en az on yıllık hizmet, kademe ilerlemesinin durdurulması cezası almamış olmak ve akademinin uzman öğretmenlik eğitimini tamamlamak gerekir.
@@ -51,7 +51,7 @@ Kanundaki süreler esas alındığında bir öğretmenin kariyer yolu şöyle ö
 
 ## Akademinin rolü
 
-Kariyer basamaklarında dikkat çeken nokta, Millî Eğitim Akademisi'nin yalnızca öğretmen adaylarının hazırlık eğitiminde değil, öğretmenlerin meslek içindeki ilerlemesinde de merkezî bir rol üstlenmesidir. Akademinin hazırlık eğitimini [bu yazıda](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) anlattık. Aynı kurumun uzman öğretmenlik ve başöğretmenlik eğitimlerini de düzenlemesi, öğretmenliğe hazırlık ile mesleki gelişimin tek bir yapı altında ele alındığını gösteriyor.
+Kariyer basamaklarında dikkat çeken nokta, Millî Eğitim Akademisi'nin yalnızca öğretmen adaylarının hazırlık eğitiminde değil, öğretmenlerin meslek içindeki ilerlemesinde de merkezî bir rol üstlenmesidir. Akademinin hazırlık eğitimini [bu yazıda](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) anlattık. Aynı kurumun uzman öğretmenlik ve başöğretmenlik eğitimlerini de düzenlemesi, öğretmenliğe hazırlık ile mesleki gelişimin tek bir yapı altında ele alındığını gösteriyor.
 
 ## Uluslararası bakış
 
@@ -81,7 +81,7 @@ Uzman öğretmenlik ve başöğretmenlik birer **kariyer unvanı**dır; okul mü
 
 ## Sonuç
 
-Uzman öğretmenlik ve başöğretmenlik basamakları, öğretmenlikte uzun süredir tartışılan "meslek içinde ilerleme" sorusuna bir cevap getiriyor. Yapının başarısı, basamakların sınıftaki öğretim niteliğiyle ne kadar ilişkilendirileceğine bağlı olacak. Kanunun bütününü [Öğretmenlik Mesleği Kanunu (7528)](https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) yazımızda özetledik.
+Uzman öğretmenlik ve başöğretmenlik basamakları, öğretmenlikte uzun süredir tartışılan "meslek içinde ilerleme" sorusuna bir cevap getiriyor. Yapının başarısı, basamakların sınıftaki öğretim niteliğiyle ne kadar ilişkilendirileceğine bağlı olacak. Kanunun bütününü [Öğretmenlik Mesleği Kanunu (7528)](https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) yazımızda özetledik.
 
 ## Sık Sorulan Sorular
 

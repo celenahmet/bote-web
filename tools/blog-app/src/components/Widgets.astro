@@ -22,6 +22,8 @@ const isPreview = pool.some((p) => p.preview);
 // kucuk liste gorseli: basliksiz kapak (kategori rengi + ikon); kucukte okunmayan yazili kapak yerine
 const thumb = (p) => p.art?.src || p.image?.src;
 const lite = pool.map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes, img: thumb(p) }));
+// yazi sonu bandi genis: burada yazili kapak (1200x630) okunur, Ahmet 27.09 "solda fotograflar"
+const wide = (arr) => arr.map((p) => ({ ...p, img: pool.find((q) => q.slug === p.slug)?.image?.src || p.img }));
 const fallback = [...pool].filter((p) => p.slug !== current)
   .sort((a, b) => (b.featured - a.featured) || b.date.localeCompare(a.date)).slice(0, 5)
   .map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes, img: thumb(p) }));
@@ -38,8 +40,8 @@ const total = cats.reduce((n, c) => n + c.count, 0);
   <section class="band" aria-label="Diğer içerikler">
     <div class="wrap band-grid">
       <div class="band-posts">
-        {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
-        {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
+        {isPreview ? <PopularPosts fallback={wide(fallback)} posts={[]} current={current} wide /> : <PopularPosts client:visible fallback={wide(fallback)} posts={wide(lite)} current={current} wide />}
+        {!isPreview && <RecentlyViewed client:visible posts={wide(lite)} current={current} wide />}
       </div>
       {adsense ? <AdSlot slot="article-end" /> : <UniPanel />}
     </div>

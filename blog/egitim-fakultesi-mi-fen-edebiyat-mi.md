@@ -1,6 +1,6 @@
 ---
 title: "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol"
-url: https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
+url: https://bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı oku
 
 > Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
 
-## Kısaca
+## Özet
 
 - Türkiye'de öğretmenliğe iki ana yol var: alan ve meslek bilgisini birlikte veren **eğitim fakültesi** (eşzamanlı model) ve önce alan lisansı, sonra meslek bilgisi (ardışık model).
 - YÖK kararıyla formasyon dersleri, formasyon alınabilen alanlardaki örgün öğrencilere üçüncü yarıyıldan itibaren seçmeli olarak verilebiliyor.
@@ -31,7 +31,7 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4
 
 YÖK, pedagojik formasyon eğitimi kapsamındaki derslerin formasyon alınabilen alanlardaki örgün öğrencilere **üçüncü yarıyıldan itibaren seçmeli ders** olarak verilmesine karar verdi. Üniversiteler bu derslerde son sınıf öğrencilerine öncelik tanıyabiliyor.[2]
 
-Aralık 2025'te ise MEB'in öğretmenlik esaslarına eklenen hükümle, Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[3] Bu değişikliğin ayrıntılarını [pedagojik formasyon kalktı mı?](https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) yazımızda ele aldık.
+Aralık 2025'te ise MEB'in öğretmenlik esaslarına eklenen hükümle, Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[3] Bu değişikliğin ayrıntılarını [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) yazımızda ele aldık.
 
 ## Yeni sistemde ortak noktalar
 
@@ -79,7 +79,7 @@ Bu soruların dürüst cevapları, "hangi yol daha iyi?" sorusundan çok daha an
 
 ## Sonuç
 
-Eğitim fakültesi ile fen-edebiyat fakültesi arasındaki seçim, bir "doğru-yanlış" meselesi değil, farklı önceliklerin tercihi. Yeni sistemde iki yol AGS ve akademide buluşuyor; farkı lisans yıllarında edinilen meslek bilgisi ve uygulama deneyimi belirliyor. Eğitim fakültelerindeki programlara genel bir bakış için [eğitim fakültesi bölümleri](https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri) yazımıza göz atabilirsiniz.
+Eğitim fakültesi ile fen-edebiyat fakültesi arasındaki seçim, bir "doğru-yanlış" meselesi değil, farklı önceliklerin tercihi. Yeni sistemde iki yol AGS ve akademide buluşuyor; farkı lisans yıllarında edinilen meslek bilgisi ve uygulama deneyimi belirliyor. Eğitim fakültelerindeki programlara genel bir bakış için [eğitim fakültesi bölümleri](https://bote.web.tr/blog/egitim-fakultesi-bolumleri) yazımıza göz atabilirsiniz.
 
 ## Sık Sorulan Sorular
 

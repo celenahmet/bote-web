@@ -1,6 +1,6 @@
 ---
 title: "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük"
-url: https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
+url: https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı
 
 > Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı: tanımlar, tarihçe, meta-analizlerde etki büyüklükleri, eleştiriler ve Türkiye'deki çalışmalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 10 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 10 dk okuma · https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 
-## Kısaca
+## Özet
 
 - **Çoklu ortam öğrenme kuramı** iki kanal, sınırlı kapasite ve etkin işleme varsayımlarına; **bilişsel yük kuramı** ise çalışma belleğinin sınırlı olduğu ve dışsal yükün öğrenmeyi engellediği fikrine dayanır.
 - 29 derleme ve 1.189 çalışmayı birleştiren derlemelerin derlemesinde 11 tasarım ilkesinin öğrenmeye anlamlı ve olumlu etkisi bulunmuştur; en büyük kazançlar yakınlık ve işaretleme ilkelerindedir.

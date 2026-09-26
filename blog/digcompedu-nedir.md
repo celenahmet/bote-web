@@ -1,6 +1,6 @@
 ---
 title: "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi"
-url: https://www.bote.web.tr/blog/digcompedu-nedir
+url: https://bote.web.tr/blog/digcompedu-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den
 
 > DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/digcompedu-nedir
 
-## Kısaca
+## Özet
 
 - **DigCompEdu**, Avrupa Komisyonu'nun eğitimciler için geliştirdiği dijital yetkinlik çerçevesidir.
 - Çerçeve **altı alanda 22 yetkinlik** tanımlar ve A1'den (Yeni başlayan) C2'ye (Öncü) uzanan altı düzeyli bir gelişim modeli sunar.
@@ -99,7 +99,7 @@ Avrupa Komisyonu, DigCompEdu'ya dayanan ücretsiz bir öz değerlendirme aracı 
 
 ## Diğer çerçevelerle karşılaştırma
 
-DigCompEdu tek çerçeve değildir. UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır ve eğitim politikalarıyla bağlantıyı öne çıkarır.[4] ISTE standartları ise öğretmeni öğrenen, lider, tasarımcı ve analist gibi rollerle tanımlar.[5] Bu çerçeveleri [ISTE standartları nedir?](https://www.bote.web.tr/blog/iste-standartlari-nedir) yazımızda karşılaştırdık. DigCompEdu'nun ayırt edici yanı, ayrıntılı gelişim düzeyleri ve bunlara bağlı ücretsiz bir öz değerlendirme aracı sunmasıdır.
+DigCompEdu tek çerçeve değildir. UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır ve eğitim politikalarıyla bağlantıyı öne çıkarır.[4] ISTE standartları ise öğretmeni öğrenen, lider, tasarımcı ve analist gibi rollerle tanımlar.[5] Bu çerçeveleri [ISTE standartları nedir?](https://bote.web.tr/blog/iste-standartlari-nedir) yazımızda karşılaştırdık. DigCompEdu'nun ayırt edici yanı, ayrıntılı gelişim düzeyleri ve bunlara bağlı ücretsiz bir öz değerlendirme aracı sunmasıdır.
 
 ## Sonuç
 

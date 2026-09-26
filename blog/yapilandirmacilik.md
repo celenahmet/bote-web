@@ -1,6 +1,6 @@
 ---
 title: "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar"
-url: https://www.bote.web.tr/blog/yapilandirmacilik
+url: https://bote.web.tr/blog/yapilandirmacilik
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Yapılandırmacılığın bilgi kuramı, bilişsel ve sosyal yapı
 
 > Yapılandırmacılığın bilgi kuramı, bilişsel ve sosyal yapılandırmacılık, kavramsal değişim, rehberlik tartışması, Türkiye'de programlar, TALIS ve sınav gerçeği, AGS.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://www.bote.web.tr/blog/yapilandirmacilik
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://bote.web.tr/blog/yapilandirmacilik
 
-## Kısaca
+## Özet
 
 - Yapılandırmacılık bir öğretim yöntemi değil, bir **bilgi kuramıdır**: bilginin aktarılamayacağını, öğrencinin zihinsel etkinliğiyle **yapılandırılması** gerektiğini savunur. Bu kuramdan tek bir öğretim yöntemi kendiliğinden çıkmaz.
 - Kuramın iki ana geleneği vardır: öğrenmeyi bireyin bilişsel süreçleriyle açıklayan **bilişsel (kişisel) yapılandırmacılık** ve bilginin sosyal etkileşim içinde kurulduğunu vurgulayan **sosyal yapılandırmacılık**; fen öğrenmesini anlamak için ikisi birlikte gereklidir.
@@ -45,7 +45,7 @@ Driver ve arkadaşları, fen öğrenmesini açıklayan iki büyük geleneği ay�
 | Anahtar süreç | Şemaların yeniden düzenlenmesi | Birlikte anlam kurma, iskele |
 | Öğretmenin rolü | Bilişsel çatışma yaratan ortam düzenlemek | Tartışmayı ve ortak etkinliği yönlendirmek |
 
-Tablo iki geleneğin vurgusunu gösterir; Driver ve arkadaşlarının vurguladığı gibi sınıfta ikisi birbirini dışlamaz.[4] Kuramların ayrıntıları için [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami) ve [Vygotsky'nin sosyokültürel kuramı](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) yazılarına bakabilirsiniz.
+Tablo iki geleneğin vurgusunu gösterir; Driver ve arkadaşlarının vurguladığı gibi sınıfta ikisi birbirini dışlamaz.[4] Kuramların ayrıntıları için [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami) ve [Vygotsky'nin sosyokültürel kuramı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) yazılarına bakabilirsiniz.
 
 **Radikal yapılandırmacılık.** Von Glasersfeld'in bilginin nesnel bir gerçekliği yansıtmadığını, organizmanın deneyimine uyum sağlayan bir yapı olduğunu vurgulayan görüşü, alanyazında genellikle radikal yapılandırmacılık olarak anılır. Von Glasersfeld makalesini bu bilgi kuramı değişikliğinin öğretim uygulaması için doğurabileceği sonuçlarla bitirir; bu sonuçlardan biri, öğretmenin kendi anlamını doğrudan aktarmak yerine öğrencinin anlam kurmasını mümkün kılan durumlar düzenlemesi olarak yorumlanabilir.[3]
 
@@ -71,7 +71,7 @@ Yapılandırmacılığın öğretimdeki en büyük yanlış anlaşılması, onun
 
 **Meta-analitik kanıt.** Alfieri ve arkadaşlarının 164 çalışmayı birleştiren meta-analizinde yardımsız buluş, çoğu koşulda açık öğretimden daha düşük sonuç verdi (d = −0,38); dönüt, çözümlü örnekler, iskele ve açıklama isteme ile desteklenmiş buluş ise öteki öğretim biçimlerinden daha iyi sonuç verdi (d = 0,30).[13]
 
-**Tartışmanın iki yanı.** Kirschner, Sweller ve Clark, yapılandırmacı, buluş, probleme dayalı, deneyimsel ve sorgulamaya dayalı öğretimin en az rehberlikli biçimlerinin insan bilişsel mimarisini göz ardı ettiğini ve daha az etkili olduğunu savundu; rehberliğin üstünlüğü ancak ön bilgisi yüksek öğrencilerde azalıyordu.[14] Hmelo-Silver, Duncan ve Chinn ise probleme ve sorgulamaya dayalı öğrenmenin yoğun iskele kullandığını ve rehberliksiz buluşla aynı kefeye konamayacağını gösterdi.[15] İki görüş birlikte okunduğunda yapılandırmacılığın rehberlikle çelişmediği, asıl sorunun rehberliğin **türü ve dozu** olduğu görülür. Buluş yoluyla öğrenme tartışmasının ayrıntıları için [Bruner, Ausubel ve Gagné](https://www.bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari) yazısına bakabilirsiniz.
+**Tartışmanın iki yanı.** Kirschner, Sweller ve Clark, yapılandırmacı, buluş, probleme dayalı, deneyimsel ve sorgulamaya dayalı öğretimin en az rehberlikli biçimlerinin insan bilişsel mimarisini göz ardı ettiğini ve daha az etkili olduğunu savundu; rehberliğin üstünlüğü ancak ön bilgisi yüksek öğrencilerde azalıyordu.[14] Hmelo-Silver, Duncan ve Chinn ise probleme ve sorgulamaya dayalı öğrenmenin yoğun iskele kullandığını ve rehberliksiz buluşla aynı kefeye konamayacağını gösterdi.[15] İki görüş birlikte okunduğunda yapılandırmacılığın rehberlikle çelişmediği, asıl sorunun rehberliğin **türü ve dozu** olduğu görülür. Buluş yoluyla öğrenme tartışmasının ayrıntıları için [Bruner, Ausubel ve Gagné](https://bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari) yazısına bakabilirsiniz.
 
 ## Durumlu öğrenme ve abartılan iddialar
 
@@ -85,7 +85,7 @@ Windschitl'e göre sınıf öğretmenleri yapılandırmacı öğretimi uygulamay
 
 Öğrencilerin algıları da benzer bir tablo çizer. Polat, Muş'ta 2011-2014 arasında 2.526 ortaokul öğrencisini Yapılandırmacı Öğrenme Ortamı Ölçeği'nin Türkçe uyarlamasıyla izledi. 5 ve 6. sınıf öğrencileri okullarını 7 ve 8. sınıf öğrencilerinden daha yapılandırmacı bir öğrenme ortamı olarak algıladı; kız öğrencilerin algısı erkeklerden yüksekti; öngörülenin aksine 2011'deki algı sonraki yıllardan daha yüksekti.[18] Üst sınıflarda algının düşmesi, merkezî sınava yaklaşan sınıflarda öğretimin değiştiğine dair öğretmen anlatılarıyla uyumludur; ancak Polat'ın çalışması bu nedeni doğrudan sınamamıştır.[18, 2]
 
-**TALIS 2018.** Baş, OECD'nin TALIS 2018 verisiyle Türkiye'de 196 okuldan 3.952 ortaokul öğretmeninin yapılandırmacı öğretim uygulamalarını iki düzeyli hiyerarşik doğrusal modelle inceledi. Demografik değişkenlerden yalnızca **mesleki deneyim** anlamlıydı; öğretmenlerin **öz yeterliği**, öğretmeye yönelik **sosyal fayda motivasyonu** ve **öğretmen-öğrenci ilişkileri** yapılandırmacı uygulamaları olumlu yönde yordadı. Buna karşılık okul liderliği, okulun akademik başarı vurgusu ve okuldaki suç ve şiddet gibi **okul düzeyindeki etkenlerin hiçbiri** anlamlı değildi.[19] Bu bulgu, yapılandırmacı uygulamanın büyük ölçüde öğretmenin kendisine bağlı olduğunu düşündürür; öğretmen öz yeterliğinin rolü için [Bandura'nın sosyal bilişsel kuramı](https://www.bote.web.tr/blog/bandura-sosyal-bilissel-kuram) yazısına bakabilirsiniz.
+**TALIS 2018.** Baş, OECD'nin TALIS 2018 verisiyle Türkiye'de 196 okuldan 3.952 ortaokul öğretmeninin yapılandırmacı öğretim uygulamalarını iki düzeyli hiyerarşik doğrusal modelle inceledi. Demografik değişkenlerden yalnızca **mesleki deneyim** anlamlıydı; öğretmenlerin **öz yeterliği**, öğretmeye yönelik **sosyal fayda motivasyonu** ve **öğretmen-öğrenci ilişkileri** yapılandırmacı uygulamaları olumlu yönde yordadı. Buna karşılık okul liderliği, okulun akademik başarı vurgusu ve okuldaki suç ve şiddet gibi **okul düzeyindeki etkenlerin hiçbiri** anlamlı değildi.[19] Bu bulgu, yapılandırmacı uygulamanın büyük ölçüde öğretmenin kendisine bağlı olduğunu düşündürür; öğretmen öz yeterliğinin rolü için [Bandura'nın sosyal bilişsel kuramı](https://bote.web.tr/blog/bandura-sosyal-bilissel-kuram) yazısına bakabilirsiniz.
 
 **2024 programları.** Türkiye Yüzyılı Maarif Modeli ile yenilenen programlar, en azından incelenen Türkçe dersi programı açısından, yapılandırmacı çizgiyi büsbütün terk etmiş görünmüyor. Kaya ve Aydın, 2019 ve 2024 Türkçe dersi öğretim programlarını karşılaştırdığında iki programın da ölçme ve değerlendirme açısından yapılandırmacı ve süreç odaklı olduğunu buldu; 2024 programında ise kazanım yerine **öğrenme çıktısı** ifadesi, **görev odaklı** ölçme ve değerlendirme ve üretim atölyeleri yer alıyordu.[20]
 
@@ -148,7 +148,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[1, 8
 4. **Dijital araçlar kavramsal değişimi nasıl destekler?** Teknoloji destekli kavramsal değişim etkinliklerinin öğrenci düzeyinde ve karşılaştırmalı desenlerle sınanması, BÖTE için verimli bir alandır.[10]
 5. **2024 programlarındaki görev odaklı ölçme sınıfa nasıl yansıyor?** Programın ölçme anlayışı ile merkezî sınavların yapısı arasındaki uyum, program uygulamasının kilit sorusudur.[20]
 
-Öğrenme kuramlarının öteki yazıları için [Piaget](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [bilgiyi işleme kuramı](https://www.bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
+Öğrenme kuramlarının öteki yazıları için [Piaget](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [bilgiyi işleme kuramı](https://bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

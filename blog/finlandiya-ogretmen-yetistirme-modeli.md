@@ -1,6 +1,6 @@
 ---
 title: "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler"
-url: https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
+url: https://bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans
 
 > Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
 
-## Kısaca
+## Özet
 
 - Finlandiya'da okul öncesi dışındaki öğretmenlerin büyük çoğunluğundan **yüksek lisans derecesi** beklenir.
 - Öğretmen eğitimi 1970'lerin sonundaki reformla üniversitelere bağlandı ve **araştırmaya dayalı** bir yaklaşım benimsendi.
@@ -66,13 +66,13 @@ Finlandiya'nın başarısını tek bir politikaya bağlamak yanıltıcı olur. O
 
 Bu nedenle Türkiye için verimli soru "Finlandiya gibi olmak için ne yapmalıyız?" değil, "Finlandiya deneyiminin hangi unsurları bizim bağlamımızda işe yarar?" olmalıdır. Öne çıkan üç unsur şöyle sıralanabilir:
 
-1. **Güçlü uygulama okulları:** Üniversiteyle sıkı iş birliği içinde çalışan okullar, kuram ile uygulama arasındaki kopukluğu azaltır. Uygulama sürecini [öğretmenlik uygulaması nedir?](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) yazımızda ele aldık.
+1. **Güçlü uygulama okulları:** Üniversiteyle sıkı iş birliği içinde çalışan okullar, kuram ile uygulama arasındaki kopukluğu azaltır. Uygulama sürecini [öğretmenlik uygulaması nedir?](https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) yazımızda ele aldık.
 2. **Araştırma okuryazarlığı:** Öğretmen adaylarının araştırma kanıtlarını okuyup yorumlayabilmesi, uzun vadede sınıf kararlarının niteliğini artırır.
 3. **Mesleki özerklik ve güven:** Öğretmenlere kendi sınıflarında profesyonel karar alma alanı tanımak, modelin görünmeyen ama belirleyici unsurudur.
 
 ## Sonuç
 
-Finlandiya'nın öğretmen yetiştirme modeli yüksek lisans düzeyinde, araştırmaya dayalı ve uygulama okullarıyla bütünleşik bir yapıya sahip. Türkiye'nin yeni modeli de lisans sonrasına bir hazırlık dönemi ekleyerek öğretmen yetiştirmeyi uzatıyor. İki model arasındaki asıl fark sürede değil, bu sürenin nasıl bir mesleki kimlik oluşturduğunda aranmalı. Türkiye'deki sistemin genel yapısı için [eğitim fakültesi nedir?](https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımıza bakabilirsiniz.
+Finlandiya'nın öğretmen yetiştirme modeli yüksek lisans düzeyinde, araştırmaya dayalı ve uygulama okullarıyla bütünleşik bir yapıya sahip. Türkiye'nin yeni modeli de lisans sonrasına bir hazırlık dönemi ekleyerek öğretmen yetiştirmeyi uzatıyor. İki model arasındaki asıl fark sürede değil, bu sürenin nasıl bir mesleki kimlik oluşturduğunda aranmalı. Türkiye'deki sistemin genel yapısı için [eğitim fakültesi nedir?](https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımıza bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

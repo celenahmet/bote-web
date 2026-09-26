@@ -1,6 +1,6 @@
 ---
 title: "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım"
-url: https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
+url: https://bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl se
 
 > Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
 
-## Kısaca
+## Özet
 
 - **Öğrenme yönetim sistemi (LMS)**, çevrim içi derslerin içerik, etkinlik, değerlendirme ve öğrenci takibini tek bir ortamda yönetmeye yarayan yazılımdır.
 - LMS ile içerik yönetim sistemleri farklıdır: LMS öğrenme sürecini ve öğrenciyi, içerik sistemleri ise içeriğin kendisini yönetir.
@@ -77,7 +77,7 @@ LMS'lerin topladığı veriler, **öğrenme analitiği** adı verilen bir alanı
 
 ## LMS iyi bir ders demek değildir
 
-Pandemi döneminde birçok kurum hızla LMS'ye geçti, ancak derslerin kalitesi aynı hızla artmadı. Hodges ve arkadaşlarının vurguladığı gibi, krize yanıt olarak çevrim içine taşınan dersler ile baştan planlanmış çevrim içi öğrenme deneyimleri farklıdır.[9] LMS bir altyapıdır; etkileşimi, geri bildirimi ve öğrenme topluluğunu tasarlamak öğretim elemanının ve öğretim tasarımcısının işidir. Bu tasarım ilkelerini [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) yazımızda ele aldık.
+Pandemi döneminde birçok kurum hızla LMS'ye geçti, ancak derslerin kalitesi aynı hızla artmadı. Hodges ve arkadaşlarının vurguladığı gibi, krize yanıt olarak çevrim içine taşınan dersler ile baştan planlanmış çevrim içi öğrenme deneyimleri farklıdır.[9] LMS bir altyapıdır; etkileşimi, geri bildirimi ve öğrenme topluluğunu tasarlamak öğretim elemanının ve öğretim tasarımcısının işidir. Bu tasarım ilkelerini [uzaktan eğitim nedir?](https://bote.web.tr/blog/uzaktan-egitim-nedir) yazımızda ele aldık.
 
 ## Sonuç
 

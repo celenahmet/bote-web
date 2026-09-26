@@ -1,6 +1,6 @@
 ---
 title: "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler"
-url: https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami
+url: https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Piaget'nin bilişsel gelişim kuramı: şema, dengeleme ve dört e
 
 > Piaget'nin bilişsel gelişim kuramı: şema, dengeleme ve dört evre; deneysel kanıtlar, eleştiriler, öğretmen adaylarından Türkiye verisi ve AGS'de sık yapılan hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 12 dk okuma · https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 12 dk okuma · https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami
 
-## Kısaca
+## Özet
 
 - Piaget'ye göre çocuk bilgiyi hazır almaz, **şemalarını özümleme ve uyma ile yeniden kurar**; bu süreci yöneten mekanizma **dengelemedir**.
 - Dört evrenin asıl iddiası yaşlar değil **sıranın değişmezliğidir**; yaş aralıkları yaklaşıktır ve kültüre, okullaşmaya, göreve göre değişir.
@@ -70,7 +70,7 @@ Bu ilkelerin gerçekten işe yarayıp yaramadığı sorusu ancak müdahale çal�
 
 Bu çalışma iki şey söyler. Birincisi, soyut işlemsel düşünme öğretimle desteklenebilir; Piaget'nin "gelişimi hızlandırmak" konusundaki kuşkusu tümüyle doğrulanmamıştır. İkincisi, etki grup, cinsiyet ve yaşa göre değişir ve ders başarısına hemen yansımayabilir. Yazarlar bu yüzden müdahalenin öğretmenlerin artan düşünme kapasitesine göre derslerini uyarlamasını sağlayan hizmet içi eğitimle birlikte yürütülmesi gerektiği sonucuna varmıştır.[5]
 
-BÖTE açısından en somut uygulama alanı programlama öğretimidir. Değişken, döngü ve koşul gibi kavramlar soyut yapılardır. Blok tabanlı ortamlarla ya da fiziksel nesnelerle başlayıp metin tabanlı dillere geçen öğretim sırası, somuttan soyuta ilerleme ilkesinin bugünkü karşılığıdır. Bu yaklaşımın ayrıntıları için [bilgi işlemsel düşünme](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazısına bakabilirsiniz.
+BÖTE açısından en somut uygulama alanı programlama öğretimidir. Değişken, döngü ve koşul gibi kavramlar soyut yapılardır. Blok tabanlı ortamlarla ya da fiziksel nesnelerle başlayıp metin tabanlı dillere geçen öğretim sırası, somuttan soyuta ilerleme ilkesinin bugünkü karşılığıdır. Bu yaklaşımın ayrıntıları için [bilgi işlemsel düşünme](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazısına bakabilirsiniz.
 
 ## Ampirik kanıt: kuram nerede tuttu, nerede sarsıldı?
 
@@ -127,7 +127,7 @@ Müdahale çalışmaları da vardır, ama desenleri genellikle zayıftır. Kara 
 
 ## AGS'de Piaget: sınav nasıl sorar, hangi kavramlar karıştırılır?
 
-Öğretmen ataması artık Millî Eğitim Akademisine giriş için yapılan **Akademi Giriş Sınavı** (AGS) ile yapılıyor. MEB'in 8 Ocak 2026 tarihli duyurusuna göre 12 Temmuz 2026'da uygulanacak AGS 80 soru ve 110 dakikadan oluşuyor ve "Eğitim Bilimleri ve Türk Millî Eğitim Sistemi" başlığı açıkça **gelişim psikolojisini** ve **öğrenme psikolojisini** kapsıyor.[17] Sınavın genel yapısını [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) yazısında anlattık.
+Öğretmen ataması artık Millî Eğitim Akademisine giriş için yapılan **Akademi Giriş Sınavı** (AGS) ile yapılıyor. MEB'in 8 Ocak 2026 tarihli duyurusuna göre 12 Temmuz 2026'da uygulanacak AGS 80 soru ve 110 dakikadan oluşuyor ve "Eğitim Bilimleri ve Türk Millî Eğitim Sistemi" başlığı açıkça **gelişim psikolojisini** ve **öğrenme psikolojisini** kapsıyor.[17] Sınavın genel yapısını [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazısında anlattık.
 
 Gelişim psikolojisi sorularında Piaget genellikle doğrudan tanım olarak değil, bir sınıf ya da çocuk gözlemi senaryosu üzerinden sorulur. Aday, senaryodaki davranışın hangi kavrama ya da evreye karşılık geldiğini bulmalıdır. Aşağıdaki kavram çiftleri, bu tür senaryolarda en sık karıştırılanlardır:
 
@@ -170,7 +170,7 @@ Piaget'nin kuramı bugün bütünüyle kabul ya da reddedilen bir sistem değil,
 4. **Evreler mi, stratejiler mi?** Örtüşen dalgalar modelinin önerdiği mikrogenetik yöntem, yani aynı çocukları kısa aralıklarla tekrar tekrar gözlemek, Türkiye'de programlama ve matematik öğrenimi bağlamında az kullanılmıştır.[10]
 5. **Cinsiyet farkı gerçek mi, örneklem mi?** Yüzüak ve Dökme'nin bulduğu cinsiyet farkı, dengesiz örneklemde elde edildi; dengeli örneklemlerle yapılacak tekrar çalışmaları bu farkın kaynağını netleştirebilir.[15]
 
-Gelişim ve öğrenme kuramlarının öğretmenlik programındaki yeri için [öğretmenlik meslek bilgisi dersleri](https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) yazısına, bilişsel sınırların öğretim materyali tasarımına etkisi için [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına bakabilirsiniz.
+Gelişim ve öğrenme kuramlarının öğretmenlik programındaki yeri için [öğretmenlik meslek bilgisi dersleri](https://bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) yazısına, bilişsel sınırların öğretim materyali tasarımına etkisi için [çoklu ortam öğrenme ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

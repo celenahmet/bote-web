@@ -1,6 +1,6 @@
 ---
 title: "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik"
-url: https://www.bote.web.tr/blog/bandura-sosyal-bilissel-kuram
+url: https://bote.web.tr/blog/bandura-sosyal-bilissel-kuram
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Bobo bebek deneyinin özgün bulguları, gözlem yoluyla öğrenme
 
 > Bobo bebek deneyinin özgün bulguları, gözlem yoluyla öğrenme, karşılıklı belirleyicilik, öz yeterliğin kaynakları, meta-analiz kanıtı, Türkiye verisi ve AGS.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 14 dk okuma · https://www.bote.web.tr/blog/bandura-sosyal-bilissel-kuram
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 14 dk okuma · https://bote.web.tr/blog/bandura-sosyal-bilissel-kuram
 
-## Kısaca
+## Özet
 
 - Bandura, öğrenmenin yalnızca kişinin kendi davranışının pekiştirilmesiyle değil, **başkalarını gözlemleyerek** de gerçekleştiğini gösterdi ve öğrenme ile performansı birbirinden ayırdı.
 - 1961 Bobo bebek deneyinde saldırgan bir yetişkini izleyen okul öncesi çocuklar, model yokken de onun **özgün saldırgan davranışlarını** yeniden üretti; saldırgan olmayan modeli izleyenler genel olarak kontrol grubundan daha az saldırgan davrandı.
@@ -48,7 +48,7 @@ Bobo bebek deneyi psikolojinin en çok anılan çalışmalarından biridir, ama 
 
 Bandura'nın 1965 deneyinde çocuklar, filmdeki bir modelin saldırgan davranışlarını izledi. Bir grupta model ödüllendirildi, bir grupta cezalandırıldı, bir grupta davranışının hiçbir sonucu olmadı. İlk testte modeli cezalandırılan çocuklar, öteki iki gruptan anlamlı düzeyde daha az taklit davranışı sergiledi. Ardından bütün gruplara, modelin davranışlarını yeniden üretmeleri karşılığında çekici ödüller önerildi. Olumlu teşvik, gruplar arasındaki performans farklarını **tamamen ortadan kaldırdı**: üç gruptaki çocuklar eşit miktarda öğrenmişti.[3]
 
-Bu sonuç kuramın merkezindeki ayrımı ortaya koyar. Modelin aldığı pekiştirme ya da ceza, davranışın **öğrenilmesini** değil **sergilenmesini** etkiler. Modelin ödüllendirildiğini görmek **dolaylı pekiştirme**, cezalandırıldığını görmek **dolaylı cezadır**. Bayrakçı'nın ifadesiyle sosyal öğrenme kuramcıları, geleneksel davranışçıların yapmadığı biçimde öğrenme ile performans arasında ayrım yapar: insanlar bir davranışı öğrendikleri hâlde o an sergilememeyi seçebilir.[1] Davranışçı gelenek içinde Tolman'ın gizil öğrenme bulguları da benzer bir ayrıma işaret etmişti; bu bağlantı için [davranışçı öğrenme kuramları](https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari) yazısına bakabilirsiniz.
+Bu sonuç kuramın merkezindeki ayrımı ortaya koyar. Modelin aldığı pekiştirme ya da ceza, davranışın **öğrenilmesini** değil **sergilenmesini** etkiler. Modelin ödüllendirildiğini görmek **dolaylı pekiştirme**, cezalandırıldığını görmek **dolaylı cezadır**. Bayrakçı'nın ifadesiyle sosyal öğrenme kuramcıları, geleneksel davranışçıların yapmadığı biçimde öğrenme ile performans arasında ayrım yapar: insanlar bir davranışı öğrendikleri hâlde o an sergilememeyi seçebilir.[1] Davranışçı gelenek içinde Tolman'ın gizil öğrenme bulguları da benzer bir ayrıma işaret etmişti; bu bağlantı için [davranışçı öğrenme kuramları](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari) yazısına bakabilirsiniz.
 
 Sınıf için sonuç açıktır: kopya çeken bir öğrencinin cezalandırıldığını gören sınıf, kopya çekmeyi **öğrenmemiş** olmaz; yalnızca o koşullarda sergileme olasılığı azalır. Gözlenen ceza öğrenmeyi değil, sergilemeyi bastırır.
 
@@ -173,7 +173,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[1, 8
 4. **BÖTE adaylarının teknoloji öz yeterliği bugün ne durumda?** Hacettepe'deki 2003 çalışmasının güncel ölçeklerle ve boylamsal bir desenle tekrarı, program değişikliklerinin etkisini görünür kılabilir.[21]
 5. **Dijital sembolik modeller nasıl işliyor?** Eğitim videoları ve sosyal medya içeriklerindeki modellerin dikkat ve motivasyon süreçlerine etkisi, sosyal bilişsel kuramın çağdaş sınamaları için verimli bir alandır.[1, 6]
 
-Öğrenme ve gelişim kuramlarının öteki yazıları için [davranışçı öğrenme kuramları](https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari), [Vygotsky'nin sosyokültürel kuramı](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami) yazılarına bakabilirsiniz.
+Öğrenme ve gelişim kuramlarının öteki yazıları için [davranışçı öğrenme kuramları](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari), [Vygotsky'nin sosyokültürel kuramı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

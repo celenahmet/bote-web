@@ -1,6 +1,6 @@
 ---
 title: "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi"
-url: https://www.bote.web.tr/blog/uzaktan-egitim-nedir
+url: https://bote.web.tr/blog/uzaktan-egitim-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'
 
 > Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/uzaktan-egitim-nedir
 
-## Kısaca
+## Özet
 
 - **Uzaktan eğitim**, öğrenen ile öğretenin fiziksel olarak ayrı olduğu ve öğretimin bir iletişim ortamı üzerinden yürütüldüğü eğitim biçimidir.
 - Moore'a göre uzaktan eğitimde üç etkileşim türü vardır: öğrenen–içerik, öğrenen–öğretici ve öğrenen–öğrenen.
@@ -90,7 +90,7 @@ Kuramlardan çıkan pratik ilkeler şöyle özetlenebilir:
 - **Topluluk oluşturun:** Tartışma soruları ve grup etkinlikleri, öğrencinin kendini yalnız hissetmesini önler.
 - **Erişilebilirliği düşünün:** Altyazı, indirilebilir materyal ve düşük bant genişliğinde çalışan seçenekler sunun.
 
-Bu ilkelerin uygulandığı ortamlardan biri olan öğrenme yönetim sistemlerini [LMS nedir?](https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) yazımızda ele aldık.
+Bu ilkelerin uygulandığı ortamlardan biri olan öğrenme yönetim sistemlerini [LMS nedir?](https://bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) yazımızda ele aldık.
 
 ## Sonuç
 

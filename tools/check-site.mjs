@@ -6,7 +6,7 @@ import { XMLParser } from 'fast-xml-parser';
 import robotsParser from 'robots-parser';
 import { listen } from './serve.mjs';
 
-const SITE = 'https://www.bote.web.tr';
+const SITE = 'https://bote.web.tr';
 const errors = [];
 const warnings = [];
 const err = (where, msg) => errors.push(`${where}: ${msg}`);

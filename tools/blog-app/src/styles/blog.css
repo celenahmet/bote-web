@@ -133,7 +133,7 @@ p{margin:0}
 .sidebar{display:flex;flex-direction:column;gap:28px;min-width:0}
 .band{border-top:1px solid var(--line);background:var(--raised);padding-block:40px}
 .band-grid{display:grid;gap:32px;grid-template-columns:minmax(0,1fr)}
-@media (min-width:1100px){.band-grid{grid-template-columns:minmax(240px,290px) minmax(0,1fr);align-items:start}}
+@media (min-width:1100px){.band-grid{grid-template-columns:minmax(330px,390px) minmax(0,1fr);align-items:start}}
 .band-posts{display:flex;flex-direction:column;gap:28px;min-width:0}
 /* UniConnectly is birligi paneli: yatay yerlesim */
 .uc{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:20px 24px;box-shadow:var(--shadow);min-width:0}
@@ -444,14 +444,19 @@ p{margin:0}
 .share a,.share button{display:inline-flex;align-items:center;min-height:38px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);text-decoration:none;font:500 13.5px var(--display);cursor:pointer}
 .share a:hover,.share button:hover{border-color:var(--violet);color:var(--violet)}
 
-.prevnext{display:grid;gap:14px}
-@media (min-width:700px){.prevnext{grid-template-columns:1fr 1fr}}
-.prevnext a{display:flex;flex-direction:column;gap:4px;padding:18px 20px;border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink);font:600 17px/1.35 var(--display);background:var(--surface)}
-.prevnext a:hover{border-color:var(--violet)}
-.prevnext span{font:500 13.5px var(--display);color:var(--muted)}
-.prevnext .next{text-align:right}
 .related{padding-top:8px}
 .related h2{font:700 20px/1.3 var(--display);letter-spacing:-.015em;color:var(--ink);margin-bottom:18px}
+/* ilginizi cekebilir: 4 kisa kart (gorsel + kategori + baslik); genis ekranda tek satir */
+.related .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (min-width:1100px){.related .cards{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.related .card .dek{display:none}
+.related .card-body{padding:14px 16px 16px;gap:8px}
+.related .card-title{font-size:15.5px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+/* kategori gorselde zaten var; kisa kartta rozet ve tarih gizli, okuma suresi kalir */
+.related .card-body>p:first-child{display:none}
+.related .card .meta{font-size:12.5px;margin-top:auto}
+.related .card .meta time{display:none}
+@media (max-width:480px){.related .cards{gap:12px}.related .card-body{padding:12px 12px 14px}.related .card-title{font-size:14.5px}}
 
 /* kaynak onizleme (mobil) */
 .peek{position:fixed;inset:auto 0 0 0;margin-inline:auto;max-width:640px;z-index:60;background:var(--surface);border-top:1px solid var(--line);border-radius:18px 18px 0 0;box-shadow:0 -12px 40px rgba(0,0,0,.18);padding:18px var(--gutter) calc(18px + env(safe-area-inset-bottom,0px));font:400 15px/1.55 var(--display);max-height:60vh;overflow:auto}
@@ -496,7 +501,7 @@ p{margin:0}
 .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font:500 13.5px var(--display);color:var(--muted)}
 
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
-@media print{.topbar,.chipbar,.band,.foot,.share,.prevnext,.related,.sidebar,.toc-card,.ad,.promo,.uc,.bib-settings{display:none!important}.post-layout{display:block}}
+@media print{.topbar,.chipbar,.band,.foot,.share,.related,.sidebar,.toc-card,.ad,.promo,.uc,.bib-settings{display:none!important}.post-layout{display:block}}
 
 /* Resmi magaza rozetleri (26.09, Ahmet: "magaza reklam linkleri zayif"): yazili hap
    dugmeler yerine App Store / Google Play / AppGallery rozet gorselleri. */
@@ -682,6 +687,11 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .mini.mini-num{counter-reset:n}
 /* numara kucuk kapagin kosesinde; baslik icin genis alan kalir */
 .mini.mini-num li{position:relative;grid-template-columns:64px minmax(0,1fr);gap:14px}
+/* yazi sonu bandi: yatay yazili kapak */
+.mini.mini-wide li{grid-template-columns:128px minmax(0,1fr);gap:16px}
+.mini-wide .mini-img{aspect-ratio:1200/630;border-radius:10px}
+.mini-wide .mini-img img{object-position:center}
+@media (max-width:480px){.mini.mini-wide li{grid-template-columns:112px minmax(0,1fr)}}
 .mini.mini-num li::before{content:counter(n);counter-increment:n;position:absolute;left:-7px;top:-7px;z-index:1;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--bg);font:700 12px/1 var(--display);box-shadow:0 0 0 2px var(--surface)}
 /* ust bar: arama kutusu gorunumu (genis ekranda) */
 .top-search{justify-content:flex-start;color:var(--muted)}

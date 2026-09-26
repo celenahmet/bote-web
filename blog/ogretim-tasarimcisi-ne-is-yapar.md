@@ -1,6 +1,6 @@
 ---
 title: "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu"
-url: https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
+url: https://bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç d
 
 > Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
 
-## Kısaca
+## Özet
 
 - **Öğretim tasarımcısı**, bir kurumun öğrenme ihtiyacını analiz edip buna uygun eğitim programları ve materyalleri tasarlayan uzmandır.
 - Rol kurumsal eğitimde, üniversitelerin uzaktan eğitim birimlerinde ve e-öğrenme şirketlerinde karşılık bulur.
@@ -48,7 +48,7 @@ ABD Çalışma İstatistikleri Bürosu, kurumlarda çalışanların beceri ve bi
 | Öğretimin ilk ilkeleri | Tasarımı gerçek bir problem etrafında kurmak | Merrill[6] |
 | Çoklu ortam ilkeleri | Video ve görselleri bilişsel yükü azaltacak biçimde tasarlamak | Mayer[7] |
 
-Bu çerçevelerin her birini blogda ayrı yazılarda ele aldık: [öğretim tasarımı ve ADDIE](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) ile [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri). Tasarımcının günlük işinde bunlar ayrı ayrı değil, aynı proje içinde birlikte kullanılır.
+Bu çerçevelerin her birini blogda ayrı yazılarda ele aldık: [öğretim tasarımı ve ADDIE](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) ile [çoklu ortam öğrenme ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri). Tasarımcının günlük işinde bunlar ayrı ayrı değil, aynı proje içinde birlikte kullanılır.
 
 ## Nerede çalışır?
 
@@ -63,7 +63,7 @@ Bu çerçevelerin her birini blogda ayrı yazılarda ele aldık: [öğretim tasa
 
 **Analiz ve tasarım:** Mesleğin çekirdeği budur. İyi bir öğretim tasarımcısı her performans sorununun eğitimle çözülmeyeceğini bilir ve doğru soruları sorar. Merrill'in öğretimin ilk ilkeleri, tasarlanan öğretimin kalitesini sınamak için kullanışlı bir çerçeve sunar: gerçek bir problem, ön bilginin harekete geçirilmesi, gösterme, uygulama ve bütünleştirme.[6]
 
-**Çoklu ortam tasarımı:** Video, görsel ve etkileşimli içeriklerin öğrenmeyi desteklemesi için bilişsel yükü yöneten tasarım ilkeleri gerekir. Bu ilkeleri [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazımızda özetledik.
+**Çoklu ortam tasarımı:** Video, görsel ve etkileşimli içeriklerin öğrenmeyi desteklemesi için bilişsel yükü yöneten tasarım ilkeleri gerekir. Bu ilkeleri [çoklu ortam öğrenme ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazımızda özetledik.
 
 **Teknik araçlar:** E-öğrenme içerik geliştirme araçları, video düzenleme ve öğrenme yönetim sistemleri günlük işin parçasıdır. Araçlar hızla değişir; bu yüzden tek bir araca bağlı kalmak yerine yeni araçları hızla öğrenebilmek daha değerlidir.
 
@@ -86,7 +86,7 @@ Bu meslekte işe alımda en güçlü kanıt, tamamlanmış işlerdir. Öğrencil
 
 ## BÖTE ile bağlantısı
 
-BÖTE programları öğretim tasarımı, çoklu ortam, uzaktan eğitim ve programlama derslerini tek çatı altında sunar. Bu birleşim, öğretim tasarımcılığı için güçlü bir başlangıç sağlar. Tasarım sürecinin ayrıntıları için [öğretim tasarımı ve ADDIE](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazımıza, diğer kariyer seçenekleri için ise [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımıza bakabilirsiniz.
+BÖTE programları öğretim tasarımı, çoklu ortam, uzaktan eğitim ve programlama derslerini tek çatı altında sunar. Bu birleşim, öğretim tasarımcılığı için güçlü bir başlangıç sağlar. Tasarım sürecinin ayrıntıları için [öğretim tasarımı ve ADDIE](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) yazımıza, diğer kariyer seçenekleri için ise [BÖTE mezunları ne iş yapar?](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımıza bakabilirsiniz.
 
 ## Sonuç
 

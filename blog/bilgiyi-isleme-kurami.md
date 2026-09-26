@@ -1,6 +1,6 @@
 ---
 title: "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği"
-url: https://www.bote.web.tr/blog/bilgiyi-isleme-kurami
+url: https://bote.web.tr/blog/bilgiyi-isleme-kurami
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Çok depolu bellek modeli, çalışma belleği, işlem düzeyi, bi
 
 > Çok depolu bellek modeli, çalışma belleği, işlem düzeyi, bilişsel yük kuramı, test etkisi ve aralıklı tekrar kanıtı, Türkiye çalışmaları ve AGS'de sık hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 13 dk okuma · https://www.bote.web.tr/blog/bilgiyi-isleme-kurami
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 13 dk okuma · https://bote.web.tr/blog/bilgiyi-isleme-kurami
 
-## Kısaca
+## Özet
 
 - Bilgiyi işleme kuramı zihni, bilginin **duyusal bellek, kısa süreli bellek ve uzun süreli bellek** arasında denetim süreçleriyle aktarıldığı bir sistem olarak modeller; Atkinson ve Shiffrin'in 1968 modeli bu çerçevenin klasik biçimidir.
 - Kısa süreli belleğin sınırı Miller'ın ünlü **yedi artı eksi iki** ölçüsünden daha dardır: Cowan'a göre saf kapasite ortalama **dört öbek** civarındadır.
@@ -76,7 +76,7 @@ Kuram üç yük türünü ayırır:[2]
 - **Dışsal yük** bilginin karmaşıklığından değil, nasıl sunulduğundan ve öğretim yönteminin öğrenciden ne yapmasını istediğinden kaynaklanır; öğretim yöntemi değiştirilerek azaltılabilir.
 - **Etkili (ilgili) yük** öğrenme için gereken yüktür. 2019 tanımında etkili yük toplam yüke eklenen ayrı bir yük değil, çalışma belleği kaynaklarının dışsal işlemlerden öğrenmeyle doğrudan ilgili işlemlere **yeniden dağıtılmasıdır**. Yazarlar bunun 1998'deki tanımdan bir ayrılış olduğunu açıkça belirtir.
 
-**Kuramdan türeyen etkiler.** Kuram, deneysel olarak sınanmış bir dizi öğretim etkisi üretmiştir. **Çözümlü örnek etkisinde** tam bir çözümü dikkatle incelemek, yeni başlayanlar için alışılmış problem çözmeden daha etkilidir; bu etki ilk kez cebirde gösterilmiştir. **Tamamlama problemi etkisi** bilgisayar programlamaya giriş alanında önerilmiştir: öğrenci kısmen çözülmüş bir programı tamamlar.[2] BÖTE öğrencileri için bu, programlama öğretiminde doğrudan uygulanabilir bir tasarım ilkesidir. Çoklu ortam tasarımına dair ilkeler için [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına bakabilirsiniz.
+**Kuramdan türeyen etkiler.** Kuram, deneysel olarak sınanmış bir dizi öğretim etkisi üretmiştir. **Çözümlü örnek etkisinde** tam bir çözümü dikkatle incelemek, yeni başlayanlar için alışılmış problem çözmeden daha etkilidir; bu etki ilk kez cebirde gösterilmiştir. **Tamamlama problemi etkisi** bilgisayar programlamaya giriş alanında önerilmiştir: öğrenci kısmen çözülmüş bir programı tamamlar.[2] BÖTE öğrencileri için bu, programlama öğretiminde doğrudan uygulanabilir bir tasarım ilkesidir. Çoklu ortam tasarımına dair ilkeler için [çoklu ortam öğrenme ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına bakabilirsiniz.
 
 **Uzmanlığın tersine çevirme etkisi.** Kuramın en önemli uyarılarından biri budur. Yeni başlayanlar için tasarlanmış öğretim yöntemleri, uzmanlık arttıkça ve etkileşen ögeler uzun süreli bellekteki bilgi yapılarına yerleştikçe verimsiz hâle gelebilir. Uzmanlık arttıkça bu etkiler önce küçülür, sonra kaybolur ve sonunda tersine dönebilir: çözümlü örnekler yeni başlayanlara yararken, bilgisi artan öğrenciler için problem çözme alıştırması daha yararlı hâle gelir.[2] Bu, "herkes için en iyi materyal" arayışının neden yanıltıcı olduğunu gösterir.
 
@@ -176,7 +176,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[18, 
 4. **Bilişsel yük türleri Türkçe ölçeklerle ayrıştırılabilir mi?** Yeni uyarlanan ölçeğin deneysel çalışmalarda yük türlerindeki değişime duyarlılığı henüz sınanmayı bekliyor.[20]
 5. **Çalışma belleği ölçümü okuma güçlüğünde erken tanıya nasıl katkı sağlar?** İlişkisel bulguların boylamsal ve müdahale çalışmalarıyla sınanması gerekiyor.[19, 18]
 
-Öğrenme kuramlarının öteki yazıları için [davranışçı öğrenme kuramları](https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari), [Bandura'nın sosyal bilişsel kuramı](https://www.bote.web.tr/blog/bandura-sosyal-bilissel-kuram) ve [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami) yazılarına bakabilirsiniz.
+Öğrenme kuramlarının öteki yazıları için [davranışçı öğrenme kuramları](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari), [Bandura'nın sosyal bilişsel kuramı](https://bote.web.tr/blog/bandura-sosyal-bilissel-kuram) ve [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

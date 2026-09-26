@@ -1,6 +1,6 @@
 ---
 title: "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı"
-url: https://www.bote.web.tr/blog/tpack-modeli-nedir
+url: https://bote.web.tr/blog/tpack-modeli-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilg
 
 > TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilgisine gelişimi, meta-analiz bulguları, eleştiriler ve Türkiye'deki TPAB ölçekleri.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://bote.web.tr/blog/tpack-modeli-nedir
 
-## Kısaca
+## Özet
 
 - **TPACK**, öğretmenin alan, pedagoji ve teknoloji bilgisini ve bunların etkileşimini tanımlar; ancak bu etkileşimin yeni bir bilgi türü mü (dönüştürücü görüş) yoksa bileşenlerin birleşimi mi (bütünleştirici görüş) olduğu hâlâ tartışmalıdır.
 - Öğretmen eğitimi müdahalelerinin TPACK'e genel etkisi 59 çalışmalık bir meta-analizde **d = 0,839** bulunmuştur; ölçmenin büyük ölçüde öz-bildirime dayanması bu sonucun yorumunu sınırlar.
@@ -41,7 +41,7 @@ Bu tartışma, aşağıdaki yedi bileşenin nasıl okunacağını da belirler. T
 | TPK | Teknolojik pedagojik bilgi | Teknolojinin öğretme biçimini nasıl değiştirdiği |
 | TPACK | Teknolojik pedagojik alan bilgisi | Üçünün bağlama duyarlı, bütünleşik kullanımı |
 
-TPACK bir **bilgi modeli**dir; öğretmenin ne bilmesi gerektiğini açıklar ama bir yetkinlik listesi sunmaz. Avrupa Komisyonu'nun DigCompEdu çerçevesi ise eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlik ve A1'den C2'ye uzanan düzeylerle tanımlar.[6] UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi de yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır.[7] Araştırmacı açısından bu ayrım önemlidir: TPACK ölçekleri bir bilgi yapısını, yetkinlik çerçeveleri ise gözlemlenebilir davranışları hedefler. Çerçeve ayrıntıları için [DigCompEdu nedir?](https://www.bote.web.tr/blog/digcompedu-nedir) yazısına bakılabilir.
+TPACK bir **bilgi modeli**dir; öğretmenin ne bilmesi gerektiğini açıklar ama bir yetkinlik listesi sunmaz. Avrupa Komisyonu'nun DigCompEdu çerçevesi ise eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlik ve A1'den C2'ye uzanan düzeylerle tanımlar.[6] UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi de yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır.[7] Araştırmacı açısından bu ayrım önemlidir: TPACK ölçekleri bir bilgi yapısını, yetkinlik çerçeveleri ise gözlemlenebilir davranışları hedefler. Çerçeve ayrıntıları için [DigCompEdu nedir?](https://bote.web.tr/blog/digcompedu-nedir) yazısına bakılabilir.
 
 ### Terimler
 
@@ -129,7 +129,7 @@ Türkiye'de model çoğunlukla **teknolojik pedagojik alan bilgisi (TPAB)** adı
 
 ### Sınıf örneği: bilişim teknolojileri dersinde döngüler
 
-Bir bilişim teknolojileri ve yazılım dersi öğretmenini düşünelim. Öğretmen, öğrencilerinin döngü içindeki bir değişkenin her adımda nasıl değiştiğini zihinde izlemekte zorlandığını gözlemliyor; bu gözlem **pedagojik alan bilgisi**dir. Zorluğu aşmak için öğrencilerin önce kodun çıktısını tahmin ettiği, sonra çalıştırıp tahminini sınadığı, en son kodu değiştirip sonucu yeniden yorumladığı bir sıra kuruyor; bu **pedagojik bir karardır**. Son olarak programı adım adım çalıştırıp değişkenin değerini her adımda gösteren blok tabanlı bir ortam seçiyor; bu **teknolojik bir karardır** ve teknoloji burada konunun kendisini, yani program durumunu görünür kılarak bir teknolojik alan bilgisi işlevi görür. Sıralama önemlidir: teknoloji başlangıç noktası değil, belirlenmiş bir öğrenme güçlüğüne hizmet eden araçtır ve aynı tasarım her sınıfta aynı biçimde işlemeyebilir.[3] Okulun bilgisayar laboratuvarına erişim süresi ya da öğrencilerin evde bilgisayar bulunup bulunmaması tasarımı değiştirir; bu, Mishra'nın bağlam bilgisi dediği katmandır.[15] BÖTE mezunlarının bu dersteki rolü için [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) yazısına bakılabilir.
+Bir bilişim teknolojileri ve yazılım dersi öğretmenini düşünelim. Öğretmen, öğrencilerinin döngü içindeki bir değişkenin her adımda nasıl değiştiğini zihinde izlemekte zorlandığını gözlemliyor; bu gözlem **pedagojik alan bilgisi**dir. Zorluğu aşmak için öğrencilerin önce kodun çıktısını tahmin ettiği, sonra çalıştırıp tahminini sınadığı, en son kodu değiştirip sonucu yeniden yorumladığı bir sıra kuruyor; bu **pedagojik bir karardır**. Son olarak programı adım adım çalıştırıp değişkenin değerini her adımda gösteren blok tabanlı bir ortam seçiyor; bu **teknolojik bir karardır** ve teknoloji burada konunun kendisini, yani program durumunu görünür kılarak bir teknolojik alan bilgisi işlevi görür. Sıralama önemlidir: teknoloji başlangıç noktası değil, belirlenmiş bir öğrenme güçlüğüne hizmet eden araçtır ve aynı tasarım her sınıfta aynı biçimde işlemeyebilir.[3] Okulun bilgisayar laboratuvarına erişim süresi ya da öğrencilerin evde bilgisayar bulunup bulunmaması tasarımı değiştirir; bu, Mishra'nın bağlam bilgisi dediği katmandır.[15] BÖTE mezunlarının bu dersteki rolü için [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) yazısına bakılabilir.
 
 ### Araştırma örneği: desen ve ölçek seçimi
 

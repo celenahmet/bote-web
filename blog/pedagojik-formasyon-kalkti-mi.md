@@ -1,6 +1,6 @@
 ---
 title: "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı"
-url: https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
+url: https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçm
 
 > Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
 
-## Kısaca
+## Özet
 
 - **Pedagojik formasyon**, eğitim fakültesi dışındaki lisans mezunlarına öğretmenlik meslek bilgisi kazandıran eğitimdir.
 - YÖK, formasyonu örgün öğrencilere lisans sırasında üçüncü yarıyıldan itibaren **seçmeli dersler** olarak verme kararı aldı.
@@ -69,7 +69,7 @@ Bu çerçevede asıl soru "formasyon var mı, yok mu?" değil, meslek bilgisinin
 
 ## Eğitim fakülteleri açısından
 
-Değişiklik, eğitim fakültelerinin rolü üzerine yeni bir tartışma başlattı. Bir görüşe göre akademi eğitimi, fakülte dışından gelen adayların meslek bilgisi eksiğini kapatacak ve öğretmen havuzunu genişletecek. Diğer görüşe göre ise dört yıl boyunca alan ve meslek bilgisini birlikte veren eğitim fakültelerinin özgün katkısı daha görünmez hâle gelebilir. Tartışmanın arka planını [eğitim fakültesi nedir?](https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımızda, iki yolu karşılaştırmayı ise [eğitim fakültesi mi fen-edebiyat mı?](https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi) yazımızda ele aldık.
+Değişiklik, eğitim fakültelerinin rolü üzerine yeni bir tartışma başlattı. Bir görüşe göre akademi eğitimi, fakülte dışından gelen adayların meslek bilgisi eksiğini kapatacak ve öğretmen havuzunu genişletecek. Diğer görüşe göre ise dört yıl boyunca alan ve meslek bilgisini birlikte veren eğitim fakültelerinin özgün katkısı daha görünmez hâle gelebilir. Tartışmanın arka planını [eğitim fakültesi nedir?](https://bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme) yazımızda, iki yolu karşılaştırmayı ise [eğitim fakültesi mi fen-edebiyat mı?](https://bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi) yazımızda ele aldık.
 
 ## Sık karşılaşılan yanlış anlamalar
 

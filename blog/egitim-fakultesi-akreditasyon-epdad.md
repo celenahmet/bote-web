@@ -1,6 +1,6 @@
 ---
 title: "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?"
-url: https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
+url: https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, 
 
 > Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
 
-## Kısaca
+## Özet
 
 - **Akreditasyon**, bir programın belirlenmiş kalite standartlarını karşıladığının bağımsız bir kuruluş tarafından değerlendirilip onaylanmasıdır.
 - Türkiye'de öğretmenlik programlarını akredite eden kuruluş **EPDAD**'dır; YÖKAK tarafından tescil edilen ulusal akreditasyon kuruluşları arasındadır.
@@ -41,7 +41,7 @@ Bu liste, akreditasyonun neden yalnızca "müfredata bakmak" olmadığını gös
 
 Türkiye'de öğretmen yetiştiren lisans programlarını akredite eden kuruluş **Öğretmenlik Eğitim Programları Değerlendirme ve Akreditasyon Derneği (EPDAD)**'dır. EPDAD'ın resmî kuruluş süreci, Ocak 2012'de Marmara Üniversitesi Atatürk Eğitim Fakültesinin ev sahipliğinde yapılan bir çalıştayla başladı. Dernek, Yükseköğretim Kalite Kurulu (YÖKAK) tarafından tescil edilen ulusal akreditasyon kuruluşları arasında yer alır.[2]
 
-EPDAD, programları kendi **program değerlendirme standartlarına** göre inceler.[3] Akredite edilen programların listesi ve değerlendirme ayrıntıları derneğin internet sitesinde yayımlanır.[4] Sitemizdeki [akreditasyon](https://www.bote.web.tr/accreditation) sayfası da BÖTE programları açısından konuya bir giriş sunar.
+EPDAD, programları kendi **program değerlendirme standartlarına** göre inceler.[3] Akredite edilen programların listesi ve değerlendirme ayrıntıları derneğin internet sitesinde yayımlanır.[4] Sitemizdeki [akreditasyon](https://bote.web.tr/accreditation) sayfası da BÖTE programları açısından konuya bir giriş sunar.
 
 ## Neden önemli?
 
@@ -70,7 +70,7 @@ Akreditasyonun eleştirilen yanları da var. Süreç, programlar için ciddi bir
 
 **Akreditasyonun süresine bakın.** Bir programın geçmişte akredite edilmiş olması, bugün de akredite olduğu anlamına gelmez. Güncel durumu EPDAD'ın listesinden kontrol edin.
 
-**Diğer verilerle birlikte değerlendirin.** Akreditasyonu YÖK Atlas'taki yerleşme verileri, programın öğretim kadrosu ve uygulama okullarıyla ilişkileri gibi bilgilerle birlikte düşünün. Eğitim fakültesi programlarına genel bir bakış için [eğitim fakültesi bölümleri](https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri) yazımıza göz atabilirsiniz.
+**Diğer verilerle birlikte değerlendirin.** Akreditasyonu YÖK Atlas'taki yerleşme verileri, programın öğretim kadrosu ve uygulama okullarıyla ilişkileri gibi bilgilerle birlikte düşünün. Eğitim fakültesi programlarına genel bir bakış için [eğitim fakültesi bölümleri](https://bote.web.tr/blog/egitim-fakultesi-bolumleri) yazımıza göz atabilirsiniz.
 
 ## Sonuç
 

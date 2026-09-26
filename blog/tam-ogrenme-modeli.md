@@ -1,6 +1,6 @@
 ---
 title: "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri"
-url: https://www.bote.web.tr/blog/tam-ogrenme-modeli
+url: https://bote.web.tr/blog/tam-ogrenme-modeli
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Carroll'un zaman modeli, Bloom'un tam öğrenme ve okulda öğrenm
 
 > Carroll'un zaman modeli, Bloom'un tam öğrenme ve okulda öğrenme modeli, 2 sigma problemi, meta-analizler, Türkiye'deki deneyler ve AGS'de sık yapılan hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://www.bote.web.tr/blog/tam-ogrenme-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://bote.web.tr/blog/tam-ogrenme-modeli
 
-## Kısaca
+## Özet
 
 - Carroll'a göre öğrenme derecesi, öğrenmeye **harcanan zamanın** öğrenme için **gereken zamana** oranının bir fonksiyonudur; yetenek, ne kadar öğrenilebileceğini değil, öğrenmenin **ne kadar süreceğini** belirler.
 - Bloom 1968'de, yeterli zaman ve uygun yardım verildiğinde öğrencilerin **%95'inin** bir konuyu yüksek bir ustalık düzeyinde öğrenebileceğini savundu ve normal dağılım beklentisini kendini gerçekleştiren bir kehanet olarak eleştirdi.
@@ -154,7 +154,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[6, 5
 4. **Tam öğrenme duyuşsal çıktıları nasıl etkiliyor?** Uluslararası meta-analizin gösterdiği duyuşsal etkilerin Türkiye'deki deneylerde ayrıca ölçülmesi değerli olurdu.[11]
 5. **Birebir öğretimin etkisi Türkiye'de ne kadar?** Özel ders ve etüt yaygınlığına karşın birebir öğretimin etkisine dair kontrollü yerel kanıt, 2 sigma tartışmasına önemli bir katkı sağlayabilir.[7, 8]
 
-Öğretim kuramlarının öteki yazıları için [Bloom taksonomisi](https://www.bote.web.tr/blog/bloom-taksonomisi), [Bruner, Ausubel ve Gagné](https://www.bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari) ve [davranışçı öğrenme kuramları](https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari) yazılarına bakabilirsiniz.
+Öğretim kuramlarının öteki yazıları için [Bloom taksonomisi](https://bote.web.tr/blog/bloom-taksonomisi), [Bruner, Ausubel ve Gagné](https://bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari) ve [davranışçı öğrenme kuramları](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

@@ -1,6 +1,6 @@
 ---
 title: "Bloom Taksonomisi ve Yenilenmiş Taksonomi"
-url: https://www.bote.web.tr/blog/bloom-taksonomisi
+url: https://bote.web.tr/blog/bloom-taksonomisi
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Bloom taksonomisinin 1956 el kitabındaki özgün amacı, yenilenm
 
 > Bloom taksonomisinin 1956 el kitabındaki özgün amacı, yenilenmiş taksonomi, hiyerarşi varsayımını sınayan kanıt, Türkiye'de sınav ve kazanım analizleri, AGS.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://www.bote.web.tr/blog/bloom-taksonomisi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://bote.web.tr/blog/bloom-taksonomisi
 
-## Kısaca
+## Özet
 
 - Bloom taksonomisi bir öğrenme kuramı olarak değil, 1948'de üniversite sınav uzmanlarının **birbirleriyle iletişim kurmasını** ve sınav materyali paylaşmasını kolaylaştıracak bir sınıflama olarak doğdu.
 - 1956 el kitabı bir taksonomideki sıranın olgular arasındaki **gerçek bir sırayı** yansıtması ve araştırma bulgularıyla doğrulanması gerektiğini kendisi yazar; yazarlar bu sırayı temellendirecek tek bir psikolojik kuram bulamadıklarını da açıkça belirtir.
@@ -58,7 +58,7 @@ Bu açıklık önemlidir: taksonomi, basamakların gerçek bir psikolojik sıray
 
 Taksonominin eğitimde en yaygın yorumu, üst düzey düşünmeden önce sağlam bir olgusal bilgi temeli kurulması gerektiğidir. Agarwal bu varsayımı doğrudan sınadı. Ortaokul ve üniversite öğrencileri, yalnızca olgu sorularıyla, yalnızca üst düzey sorularla ya da karışık sorularla **geri getirme alıştırması** yaptı. Laboratuvarda ve okul ortamında geri getirme alıştırması, yeniden okumaya ya da hiç sınanmamaya göre gecikmeli test performansını tutarlı biçimde artırdı. Belirleyici bulgu şuydu: üst düzey ve karışık sınavlar üst düzey test performansını artırırken, **olgu sınavları artırmadı**.[3]
 
-Agarwal'a göre, Bloom taksonomisine dair yaygın sezginin aksine, olgusal geri getirme alıştırmasıyla bilgi temeli kurmak, doğrudan üst düzey geri getirme alıştırması yapmaktan daha az etkili olabilir.[3] Bu bulgu taksonominin değersiz olduğunu göstermez; basamakların **öğretim sırası** olarak yorumlanmasının kanıta dayanmadığını gösterir. Taksonomi hedefleri ve soruları sınıflamak için bir araçtır; öğrencinin hangi sırayla öğrenmesi gerektiğine dair bir reçete değildir. Geri getirme alıştırmasının genel etkisi için [bilgiyi işleme kuramı](https://www.bote.web.tr/blog/bilgiyi-isleme-kurami) yazısına bakabilirsiniz.
+Agarwal'a göre, Bloom taksonomisine dair yaygın sezginin aksine, olgusal geri getirme alıştırmasıyla bilgi temeli kurmak, doğrudan üst düzey geri getirme alıştırması yapmaktan daha az etkili olabilir.[3] Bu bulgu taksonominin değersiz olduğunu göstermez; basamakların **öğretim sırası** olarak yorumlanmasının kanıta dayanmadığını gösterir. Taksonomi hedefleri ve soruları sınıflamak için bir araçtır; öğrencinin hangi sırayla öğrenmesi gerektiğine dair bir reçete değildir. Geri getirme alıştırmasının genel etkisi için [bilgiyi işleme kuramı](https://bote.web.tr/blog/bilgiyi-isleme-kurami) yazısına bakabilirsiniz.
 
 ## Yenilenmiş taksonomi: iki boyutlu bir tablo
 
@@ -160,7 +160,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[5, 6
 4. **Üstbilişsel bilgi kazanımlarda nerede?** Kazanım analizlerinde kavramsal ve işlemsel bilginin ağırlığı, üstbilişsel bilginin programlarda nasıl temsil edildiği sorusunu açık bırakıyor.[10]
 5. **Duyuşsal kazanımlar nasıl ölçülmeli?** Duyuşsal taksonominin sınırlılıkları, programlardaki değer ve tutum kazanımlarının güncel motivasyon ve inanç araştırmalarıyla ilişkilendirilmesini gerektiriyor.[9]
 
-Öğretim tasarımı ve öğrenme kuramlarının öteki yazıları için [Bruner, Ausubel ve Gagné](https://www.bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari), [ADDIE modeli](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) ve [bilgiyi işleme kuramı](https://www.bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
+Öğretim tasarımı ve öğrenme kuramlarının öteki yazıları için [Bruner, Ausubel ve Gagné](https://bote.web.tr/blog/bruner-ausubel-gagne-bilissel-ogretim-kuramlari), [ADDIE modeli](https://bote.web.tr/blog/ogretim-tasarimi-addie-modeli) ve [bilgiyi işleme kuramı](https://bote.web.tr/blog/bilgiyi-isleme-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

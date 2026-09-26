@@ -1,6 +1,6 @@
 ---
 title: "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri"
-url: https://www.bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami
+url: https://bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Kohlberg'in ahlak gelişimi kuramı: altı evre, boylamsal ve kül
 
 > Kohlberg'in ahlak gelişimi kuramı: altı evre, boylamsal ve kültürler arası kanıt, Türkiye çalışması, Gilligan eleştirisi, ahlak eğitimi ve AGS'de sık hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://www.bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami
 
-## Kısaca
+## Özet
 
 - Kohlberg ahlaki gelişimi verilen kararın içeriğiyle değil, **kararın gerekçesinin yapısıyla** tanımlar ve bu yapıyı **üç düzeyde altı evreye** ayırır.
 - 20 yıl süren boylamsal çalışmada 50 erkek katılımcı altı kez görüşmeye alınmış ve evreleri **öngörülen sırayla** geçmiştir; 45 çalışmayı inceleyen kültürler arası derleme de sıranın evrenselliğini desteklemiş, ancak ölçütlerin kentli orta sınıf yanlılığını göstermiştir.
@@ -150,7 +150,7 @@ Terimler kaynak çalışmalardan ve Türkçe kullanımlardan derlenmiştir.[1, 5
 4. **Yargı davranışa ne zaman dönüşür?** Okul ortamında gerçek ahlaki kararlar (kopya, zorbalık, akran yardımı) ile ahlaki yargı düzeyinin ilişkisi az incelenmiş bir alan.[12]
 5. **Sezgi ve akıl yürütme birlikte nasıl ölçülür?** Sosyal sezgici modelin eğitim bağlamında sınanması, değerler eğitiminin hedeflerini yeniden düşünmeyi sağlayabilir.[13]
 
-Gelişim kuramlarının öteki yazıları için [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky'nin sosyokültürel kuramı](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [Erikson'un psikososyal gelişim kuramı](https://www.bote.web.tr/blog/erikson-psikososyal-gelisim-kurami) yazılarına bakabilirsiniz.
+Gelişim kuramlarının öteki yazıları için [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [Vygotsky'nin sosyokültürel kuramı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) ve [Erikson'un psikososyal gelişim kuramı](https://bote.web.tr/blog/erikson-psikososyal-gelisim-kurami) yazılarına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

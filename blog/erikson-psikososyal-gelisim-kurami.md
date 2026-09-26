@@ -1,6 +1,6 @@
 ---
 title: "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar"
-url: https://www.bote.web.tr/blog/erikson-psikososyal-gelisim-kurami
+url: https://bote.web.tr/blog/erikson-psikososyal-gelisim-kurami
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Erikson'un psikososyal gelişim kuramı: sekiz evre, kimlik ve Mar
 
 > Erikson'un psikososyal gelişim kuramı: sekiz evre, kimlik ve Marcia'nın statüleri, boylamsal kanıtlar, eleştiriler, Türkiye çalışmaları ve AGS'de sık hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://www.bote.web.tr/blog/erikson-psikososyal-gelisim-kurami
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 10 dk okuma · https://bote.web.tr/blog/erikson-psikososyal-gelisim-kurami
 
-## Kısaca
+## Özet
 
 - Erikson gelişimi yaşam boyu süren **sekiz psikososyal evre** olarak tanımlar; her evrede bireyin toplumla ilişkisinden doğan bir **gelişim görevi (kriz)** vardır ve olumlu çözüm bir **erdem** kazandırır.
 - Kuramın en çok araştırılan kısmı ergenlikteki **kimliğe karşı rol karmaşası** evresidir; Marcia bu evreyi araştırma ve bağlanma boyutlarıyla **dört kimlik statüsüne** dönüştürmüştür.
@@ -158,7 +158,7 @@ Terimler kaynak eserlerden ve Türkçe çalışmalardan derlenmiştir.[1, 10]
 4. **Okul çağında yeterlik duygusu öğretmen uygulamalarıyla nasıl ilişkili?** Çalışkanlık evresi, geri bildirim ve karşılaştırma uygulamalarıyla birlikte incelenmesi gereken ama az çalışılmış bir alan.[1]
 5. **Yetişkin evreleri öğretmen gelişimini açıklıyor mu?** Üretkenlik evresi, deneyimli öğretmenlerin mentorluk ve mesleki bağlılığını anlamak için az kullanılmış bir çerçeve.[8]
 
-Bilişsel gelişim kuramlarıyla karşılaştırma için [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami) ve [Vygotsky'nin sosyokültürel kuramı](https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram) yazılarına, AGS'nin genel yapısı için [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) yazısına bakabilirsiniz.
+Bilişsel gelişim kuramlarıyla karşılaştırma için [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami) ve [Vygotsky'nin sosyokültürel kuramı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram) yazılarına, AGS'nin genel yapısı için [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazısına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 

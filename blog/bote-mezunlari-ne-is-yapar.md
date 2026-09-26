@@ -1,6 +1,6 @@
 ---
 title: "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer"
-url: https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
+url: https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025
 
 > BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar
 
-## Kısaca
+## Özet
 
 - BÖTE mezunlarının ana yolu öğretmenliktir. 2025'te genel okullar için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.
 - Öğretmen ataması 7528 sayılı Öğretmenlik Mesleği Kanunu ile değişti. İlk **Akademi Giriş Sınavı (AGS)** 13 Temmuz 2025'te yapıldı.
@@ -59,7 +59,7 @@ Bankalar, holdingler, kamu kurumları ve teknoloji şirketleri çalışanları i
 
 Programlama, veri tabanı ve ağ dersleri, bazı mezunları yazılım geliştirme, test, teknik destek ya da sistem yönetimi gibi rollere yönlendirir. Eğitim teknolojisi (EdTech) girişimleri, hem kod yazabilen hem de öğrenme sürecini anlayan kişiler için ayrıca uygun bir ortam olabilir.
 
-Burada dürüst olmak gerekir. Saf yazılım pozisyonlarında BÖTE mezunları bilgisayar ve yazılım mühendisliği mezunlarıyla yarışır. Bu yarışta diplomadan çok **portfolyo** belirleyicidir: GitHub'daki projeler, staj deneyimleri ve katkı verilen açık kaynak çalışmaları. Sitemizdeki [staj imkânları](https://www.bote.web.tr/internship) sayfası bu açıdan bir başlangıç sunabilir.
+Burada dürüst olmak gerekir. Saf yazılım pozisyonlarında BÖTE mezunları bilgisayar ve yazılım mühendisliği mezunlarıyla yarışır. Bu yarışta diplomadan çok **portfolyo** belirleyicidir: GitHub'daki projeler, staj deneyimleri ve katkı verilen açık kaynak çalışmaları. Sitemizdeki [staj imkânları](https://bote.web.tr/internship) sayfası bu açıdan bir başlangıç sunabilir.
 
 ## 5. Akademik kariyer
 
@@ -69,10 +69,10 @@ Eğitim teknolojisi alanında yüksek lisans ve doktora yapan mezunlar araştır
 
 Bu yazı mezunların önündeki yolları genel hatlarıyla anlatıyor. Her yolu ayrıntılı ele aldığımız rehberler şunlar:
 
-- **Öğretmenlik:** Lisans tercihinden AGS ve Millî Eğitim Akademisi'ne kadar adımlar için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) ve [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir)
-- **Öğretim tasarımı:** Mesleğin gündelik işi, araç seti ve portfolyo önerileri için [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar)
-- **Yazılım:** Kapatılması gereken açıklar ve dört yıllık yol haritası için [BÖTE mezunu yazılımcı olabilir mi?](https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi)
-- **Çevrim içi eğitim:** Kurumların uzaktan eğitim altyapısında çalışmak için [LMS nedir?](https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) ve [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir)
+- **Öğretmenlik:** Lisans tercihinden AGS ve Millî Eğitim Akademisi'ne kadar adımlar için [bilgisayar öğretmeni nasıl olunur?](https://bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) ve [AGS nedir?](https://bote.web.tr/blog/ags-nedir)
+- **Öğretim tasarımı:** Mesleğin gündelik işi, araç seti ve portfolyo önerileri için [öğretim tasarımcısı ne iş yapar?](https://bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar)
+- **Yazılım:** Kapatılması gereken açıklar ve dört yıllık yol haritası için [BÖTE mezunu yazılımcı olabilir mi?](https://bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi)
+- **Çevrim içi eğitim:** Kurumların uzaktan eğitim altyapısında çalışmak için [LMS nedir?](https://bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) ve [uzaktan eğitim nedir?](https://bote.web.tr/blog/uzaktan-egitim-nedir)
 
 Rehberlerin ortak mesajı şu: hangi yolu seçerseniz seçin, diploma kadar **somut kanıt** önemli. Öğretmen adayı için bu, uygulama dönemindeki ders planları ve materyaller; öğretim tasarımcısı için tamamlanmış bir e-öğrenme modülü; yazılımcı için ise herkese açık bir proje deposudur.
 
@@ -102,7 +102,7 @@ Aynı rapor önemli bir uyarı da yapıyor: Eğitim teknolojilerinin öğrenmeye
 
 ## Sonuç
 
-BÖTE mezunlarının önünde tek bir yol yok, birbirine bağlanan bir yollar ağı var. 2025'teki yeni atama alanı öğretmenlik yolunu netleştirdi. Öğretim tasarımı ve kurumsal eğitim ise uluslararası ölçekte büyüyen alanlar. Yine de hiçbir yol kendiliğinden açılmıyor: Staj, portfolyo ve sürekli öğrenme, diplomanın değerini belirleyen asıl etkenler. Bölümün genel tanıtımı için [BÖTE nedir?](https://www.bote.web.tr/blog/bote-nedir) yazımıza, mesleki unvanlar için [meslek unvanları](https://www.bote.web.tr/jobtitle) sayfamıza göz atabilirsiniz.
+BÖTE mezunlarının önünde tek bir yol yok, birbirine bağlanan bir yollar ağı var. 2025'teki yeni atama alanı öğretmenlik yolunu netleştirdi. Öğretim tasarımı ve kurumsal eğitim ise uluslararası ölçekte büyüyen alanlar. Yine de hiçbir yol kendiliğinden açılmıyor: Staj, portfolyo ve sürekli öğrenme, diplomanın değerini belirleyen asıl etkenler. Bölümün genel tanıtımı için [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) yazımıza, mesleki unvanlar için [meslek unvanları](https://bote.web.tr/jobtitle) sayfamıza göz atabilirsiniz.
 
 ## Sık Sorulan Sorular
 

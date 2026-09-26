@@ -1,6 +1,6 @@
 ---
 title: "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?"
-url: https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
+url: https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, nel
 
 > 7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
 
-## Kısaca
+## Özet
 
 - **7528 sayılı Öğretmenlik Mesleği Kanunu** 10 Ekim 2024'te kabul edildi ve 18 Ekim 2024'te Resmî Gazete'de yayımlandı.
 - Kanun öğretmenliğe girişi yeniden düzenledi: AGS ile seçim, ardından Millî Eğitim Akademisi'nde hazırlık eğitimi.
@@ -35,11 +35,11 @@ Türkiye'de öğretmenliğin yasal çerçevesi uzun yıllar boyunca ağırlıkl�
 
 Kanunun en görünür değişikliği öğretmenliğe giriş sürecindedir. Yeni sistemde öğretmen adayları önce ÖSYM'nin yaptığı **Millî Eğitim Bakanlığı Akademi Giriş Sınavı'na (AGS)** girer. İlk AGS 13 Temmuz 2025'te yapıldı.[4] Başarılı olan adaylar **Millî Eğitim Akademisi**'nde hazırlık eğitimine alınır. MEB'in yayımladığı programa göre bu eğitim onar haftalık dört dönemden oluşur ve son dönem tamamen uygulamaya ayrılır.[5]
 
-Bu değişikliğin anlamı şudur: öğretmenliğe kaynak olan bir lisans programından mezun olmak artık tek başına yeterli değildir; akademinin hazırlık eğitimini başarıyla tamamlamak da gerekir. Süreci [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) ve [Millî Eğitim Akademisi hazırlık eğitimi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazılarımızda ayrıntılı anlattık.
+Bu değişikliğin anlamı şudur: öğretmenliğe kaynak olan bir lisans programından mezun olmak artık tek başına yeterli değildir; akademinin hazırlık eğitimini başarıyla tamamlamak da gerekir. Süreci [AGS nedir?](https://bote.web.tr/blog/ags-nedir) ve [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazılarımızda ayrıntılı anlattık.
 
 ## 2. Kariyer basamakları
 
-Kanun, öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlar. Uzman öğretmenlik için en az on yıllık hizmet, başöğretmenlik için ise uzman öğretmen olarak en az on yıllık hizmet gibi koşullar aranır ve her iki basamakta da akademinin ilgili eğitimini tamamlamak gerekir.[3] Ayrıntıları [uzman öğretmenlik ve başöğretmenlik](https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik) yazımızda ele aldık.
+Kanun, öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlar. Uzman öğretmenlik için en az on yıllık hizmet, başöğretmenlik için ise uzman öğretmen olarak en az on yıllık hizmet gibi koşullar aranır ve her iki basamakta da akademinin ilgili eğitimini tamamlamak gerekir.[3] Ayrıntıları [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik) yazımızda ele aldık.
 
 ## 3. Mevzuatın öğretmen adaylarına yansıması
 

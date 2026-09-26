@@ -20,17 +20,14 @@ import IFADELER from '../../../../api/_lib/ifadeler.json';
 // (yayindakiler ya da taslak onizlemeleri). preview: noindex taslak onizlemesi.
 const { post, list, preview = false } = Astro.props;
 const blog = loadBlog();
-const i = list.indexOf(post);
-const newer = list[i - 1];
-const older = list[i + 1];
 const related = [...list.filter((p) => p !== post && p.category.slug === post.category.slug),
   ...list.filter((p) => p !== post && p.category.slug !== post.category.slug)].slice(0, 4);
 const trail = preview
   ? [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Taslak önizleme', url: '/blog/taslak' }, { name: post.title, url: post.url }]
   : [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: post.category.name, url: post.category.url }, { name: post.title, url: post.url }];
-// "Kisaca" ozeti yazinin sonuna, kontrol listesinden ya da Sonuc'tan hemen once yerlesir.
+// "Ozet" (Ahmet 27.09'a kadar "Kisaca") yazinin sonuna, kontrol listesinden ya da Sonuc'tan hemen once yerlesir.
 const recap = post.summary.length ? post.headings.find((h) => h.depth === 2 && /kontrol listesi|^sonuç/i.test(h.text)) : null;
-const recapItem = { id: 'kisaca', text: 'Kısaca', depth: 2 };
+const recapItem = { id: 'ozet', text: 'Özet', depth: 2 };
 const html = post.html;
 const firstH2 = html.indexOf('<h2 ');
 const cut = recap ? html.indexOf(`<h2 id="${recap.id}">`) : html.length;
@@ -117,8 +114,8 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         </nav>
         <Fragment set:html={middle} />
         {post.summary.length > 0 && (
-          <section class="tldr" aria-labelledby="kisaca">
-            <h2 id="kisaca">Kısaca</h2>
+          <section class="tldr" aria-labelledby="ozet">
+            <h2 id="ozet">Özet</h2>
             <ul>{post.summary.map((s) => <li set:html={renderInline(s)} />)}</ul>
           </section>
         )}
@@ -226,15 +223,9 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         </section>
         <script is:inline src="/blog/etkilesim.js" defer></script>
       </div>
-      {(newer || older) && (
-        <nav class="prevnext" aria-label="Diğer yazılar">
-          {older ? <a href={older.url}><span>← Önceki yazı</span>{older.title}</a> : <span />}
-          {newer && <a class="next" href={newer.url}><span>Sonraki yazı →</span>{newer.title}</a>}
-        </nav>
-      )}
       {related.length > 0 && (
         <section class="related" aria-labelledby="ilgili">
-          <h2 id="ilgili">İlgili yazılar</h2>
+          <h2 id="ilgili">Bunlar da ilginizi çekebilir</h2>
           <ol class="cards">{related.map((p) => <li><PostCard post={p} variant="card" /></li>)}</ol>
         </section>
       )}

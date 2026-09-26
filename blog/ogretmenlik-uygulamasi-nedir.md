@@ -1,6 +1,6 @@
 ---
 title: "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım"
-url: https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
+url: https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğre
 
 > Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
 
-## Kısaca
+## Özet
 
 - **Öğretmenlik Uygulaması I ve II** dersleri eğitim fakültesi programlarının son sınıfında, 7. ve 8. yarıyılda yer alır.
 - MEB yönergesine göre uygulama her dönem 72 saat, toplam 144 ders saatidir; aday her dönem en az dört kez fiilen ders anlatır.
@@ -82,7 +82,7 @@ Uygulama öğretmeni, adayın mesleğe ilk rol modelidir. Adayı yalnızca değe
 
 ## Sonuç
 
-Öğretmenlik uygulaması, eğitim fakültesindeki dört yılın en kritik halkası. Resmî çerçeve süre ve ders anlatım sayısını belirliyor; ancak deneyimin niteliğini adayın hazırlığı, uygulama öğretmeninin rehberliği ve alınan geri bildirim belirliyor. Mezuniyet sonrasında bu deneyim, [Millî Eğitim Akademisi'nin uygulama dönemiyle](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) devam ediyor.
+Öğretmenlik uygulaması, eğitim fakültesindeki dört yılın en kritik halkası. Resmî çerçeve süre ve ders anlatım sayısını belirliyor; ancak deneyimin niteliğini adayın hazırlığı, uygulama öğretmeninin rehberliği ve alınan geri bildirim belirliyor. Mezuniyet sonrasında bu deneyim, [Millî Eğitim Akademisi'nin uygulama dönemiyle](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) devam ediyor.
 
 ## Sık Sorulan Sorular
 

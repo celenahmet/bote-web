@@ -1,6 +1,6 @@
 ---
 title: "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?"
-url: https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
+url: https://bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
 updated: 2026-09-25
@@ -12,9 +12,9 @@ description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu
 
 > Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 
-## Kısaca
+## Özet
 
 - OECD'nin TALIS 2018 araştırmasında katılan OECD ülkelerindeki öğretmenlerin ortalama yalnızca **yüzde 26**'sı mesleklerinin toplumda değer gördüğünü düşünüyor.
 - Türkiye, bu algıda genç ve deneyimli öğretmenler arasındaki farkın en belirgin olduğu ülkeler arasında yer alıyor.
@@ -57,7 +57,7 @@ OECD'nin öğretmen politikalarını değerlendiren raporu, öğretmenliği cazi
 
 ## Küresel bağlam: öğretmen açığı
 
-Mesleğin saygınlığı küresel öğretmen açığıyla doğrudan bağlantılı. UNESCO ve Öğretmen Görev Gücü'nün 2024 raporu, 2030'a kadar dünyada 44 milyon ek öğretmene ihtiyaç olduğunu ve bu açığın ancak öğretmenlik mesleğinin dönüştürülmesiyle kapatılabileceğini vurguluyor.[5] Bu konuyu [dünyada öğretmen açığı](https://www.bote.web.tr/blog/dunyada-ogretmen-acigi) yazımızda ele aldık.
+Mesleğin saygınlığı küresel öğretmen açığıyla doğrudan bağlantılı. UNESCO ve Öğretmen Görev Gücü'nün 2024 raporu, 2030'a kadar dünyada 44 milyon ek öğretmene ihtiyaç olduğunu ve bu açığın ancak öğretmenlik mesleğinin dönüştürülmesiyle kapatılabileceğini vurguluyor.[5] Bu konuyu [dünyada öğretmen açığı](https://bote.web.tr/blog/dunyada-ogretmen-acigi) yazımızda ele aldık.
 
 ## Öğretmen adayları için ne anlama geliyor?
 
@@ -65,7 +65,7 @@ Bu tablo öğretmen adaylarını karamsarlığa itmemeli; aksine mesleğin hangi
 
 ## Türkiye'de son düzenlemeler
 
-Türkiye'de 2024'te çıkarılan 7528 sayılı Öğretmenlik Mesleği Kanunu, MEB tarafından öğretmenlik mesleğinin itibarını güçlendirmeye yönelik bir adım olarak sunuldu.[6] Kanun, öğretmenliğe giriş için akademide hazırlık eğitimi ve öğretmen, uzman öğretmen, başöğretmen basamaklarından oluşan bir kariyer yapısı getirdi. Bu düzenlemelerin mesleğin toplumsal algısı üzerindeki etkisi ise ancak zaman içinde ve yeni araştırma verileriyle değerlendirilebilecek. Kariyer basamaklarını [bu yazıda](https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik) ele aldık.
+Türkiye'de 2024'te çıkarılan 7528 sayılı Öğretmenlik Mesleği Kanunu, MEB tarafından öğretmenlik mesleğinin itibarını güçlendirmeye yönelik bir adım olarak sunuldu.[6] Kanun, öğretmenliğe giriş için akademide hazırlık eğitimi ve öğretmen, uzman öğretmen, başöğretmen basamaklarından oluşan bir kariyer yapısı getirdi. Bu düzenlemelerin mesleğin toplumsal algısı üzerindeki etkisi ise ancak zaman içinde ve yeni araştırma verileriyle değerlendirilebilecek. Kariyer basamaklarını [bu yazıda](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik) ele aldık.
 
 ## Sonuç
 

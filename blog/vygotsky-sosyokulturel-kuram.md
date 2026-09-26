@@ -1,6 +1,6 @@
 ---
 title: "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı"
-url: https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram
+url: https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram
 author: BÖTE Editör Ekibi
 published: 2026-09-26
 updated: 2026-09-26
@@ -12,9 +12,9 @@ description: "Vygotsky'nin sosyokültürel kuramı: aracılık, özel konuşma, 
 
 > Vygotsky'nin sosyokültürel kuramı: aracılık, özel konuşma, yakınsak gelişim alanının asıl anlamı, iskele kurmanın kanıtı, eleştiriler ve AGS'de sık yapılan hatalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://www.bote.web.tr/blog/vygotsky-sosyokulturel-kuram
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-26 · Güncelleme: 2026-09-26 · 11 dk okuma · https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram
 
-## Kısaca
+## Özet
 
 - Vygotsky'ye göre üst düzey zihinsel işlevler önce insanlar arasında, sonra bireyin içinde ortaya çıkar; dil ve kültürel araçlar bu dönüşümün **aracıdır**.
 - **Yakınsak gelişim alanı**, çocuğun tek başına çözebildiği ile yardımla çözebildiği arasındaki uzaklıktır; Vygotsky'nin metinlerinde küçük bir tartışmayken sonradan kuramın merkezine yerleştirilmiştir.
@@ -117,7 +117,7 @@ Bu değer, Rosenshine ve Meister'ın standart testlerle bulduğu medyan etkinin 
 | Evreler | Evrensel ve sıralı dört evre | Evre kuramı değil, kültürel-tarihsel süreç |
 | Öğretmenin rolü | Keşfe uygun ortam hazırlayan | Rehberlik eden, yakınsak alanda çalışan |
 
-Piaget'nin kuramını ayrıntılı olarak [Piaget'nin bilişsel gelişim kuramı](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami) yazısında ele aldık.
+Piaget'nin kuramını ayrıntılı olarak [Piaget'nin bilişsel gelişim kuramı](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami) yazısında ele aldık.
 
 ## AGS'de Vygotsky: sık karıştırılan kavramlar
 
@@ -158,7 +158,7 @@ Türkçe alanyazında Vygotsky'nin kavramları için farklı çeviriler kullanı
 4. **Bilimsel kavramlar programda nasıl yer almalı?** Vygotsky'nin bilimsel ve gündelik kavram ayrımı, Türkiye'deki öğretim programlarının kavram yapısını çözümlemek için az kullanılmış bir çerçeve.[6]
 5. **Özel konuşma programlama öğreniminde nasıl işliyor?** Kendi kendine konuşmanın öz düzenlemedeki rolü, algoritma geliştirme sırasında sesli düşünme verisiyle incelenebilir.[1, 4]
 
-Bilgisayar tabanlı öğretim materyallerinde bilişsel yükün yönetimi için [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına, AGS'nin genel yapısı için [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) yazısına bakabilirsiniz.
+Bilgisayar tabanlı öğretim materyallerinde bilişsel yükün yönetimi için [çoklu ortam öğrenme ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına, AGS'nin genel yapısı için [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazısına bakabilirsiniz.
 
 ## Sık Sorulan Sorular
 
