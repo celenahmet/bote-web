@@ -53,14 +53,12 @@ function constellation({ slug, langs, w, h, cx, cy, spread }) {
   ${nodes.map((p) => `<line x1="${cx}" y1="${cy}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="${color(p.lang)}" stroke-opacity=".45" stroke-width="1.2"/>`).join('')}
   <circle cx="${cx}" cy="${cy}" r="30" fill="none" stroke="#FF7EAD" stroke-opacity=".35" stroke-width="10"/>
   <circle cx="${cx}" cy="${cy}" r="11" fill="#FF7EAD"/>
-  ${nodes.map((p) => `<g><circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="7" fill="${color(p.lang)}"/><text x="${(p.x + 13).toFixed(1)}" y="${(p.y + 4).toFixed(1)}" font-family="M" font-size="13" font-weight="600" fill="${color(p.lang)}">[${p.n}] ${p.lang.toUpperCase()}</text></g>`).join('')}
+  ${nodes.map((p) => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="7" fill="${color(p.lang)}"/>`).join('')}
 </svg>`;
 }
 
 function ogHtml({ title, label, langs, fontDir }) {
   const size = title.length > 70 ? 56 : title.length > 45 ? 64 : 72;
-  const foreign = langs.filter((l) => l !== 'tr').length;
-  const strip = langs.map((l) => `<span class="b ${l === 'tr' ? 'tr' : 'en'}">${esc(l.toUpperCase())}</span>`).join('');
   return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>${fontFaces(fontDir)}
   *{margin:0;box-sizing:border-box}
   body{width:1200px;height:630px;${BG};color:#F1ECF8;font-family:B,sans-serif;overflow:hidden;position:relative}
@@ -75,7 +73,7 @@ function ogHtml({ title, label, langs, fontDir }) {
   </style></head><body><div class="in">
   <div class="k">${esc(label)}</div><h1>${esc(title)}</h1>
   <div class="foot"><div class="brand">BÖTE<b>.</b><i>blog</i></div>
-  ${langs.length ? `<div class="strip"><span class="c">${langs.length} kaynak · ${foreign} yabancı</span>${strip}</div>` : '<div class="strip"><span class="c">bote.web.tr/blog</span></div>'}</div>
+  <div class="strip"><span class="c">bote.web.tr/blog</span></div></div>
   </div></body></html>`;
 }
 
@@ -87,7 +85,7 @@ function artHtml({ slug, label, langs, fontDir }) {
   .k{position:absolute;left:44px;top:36px;font:600 15px M;letter-spacing:.1em;text-transform:uppercase;color:#FF7EAD}
   .u{position:absolute;left:44px;bottom:32px;font:500 14px M;color:#A197B5}
   </style></head><body>${constellation({ slug, langs: all, w, h, cx: w * 0.62, cy: h * 0.52, spread: 150 })}
-  <div class="k">${esc(label)}</div><div class="u">bote.web.tr/blog · kaynak takımyıldızı</div></body></html>`;
+  <div class="k">${esc(label)}</div><div class="u">bote.web.tr/blog</div></body></html>`;
 }
 
 // items: [{ slug, title, label, langs }]

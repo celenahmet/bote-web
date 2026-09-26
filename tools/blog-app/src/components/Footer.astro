@@ -7,8 +7,8 @@ const cats = blog.categories.filter((c) => c.count);
   <div class="wrap">
     <div class="foot-grid">
       <section>
-        <h2>BÖTE Blog</h2>
-        <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış yazılar. Her yazı en az iki uluslararası kaynağa dayanır.</p>
+        <h2>BÖTE</h2>
+        <p>bote.web.tr, Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan bir bilgi sitesidir. Bölümün programı, mezunların çalışma alanları ve öğretmenliğe giden yol hakkında bilgi sunar.</p>
       </section>
       <section>
         <h2>Bölüm</h2>
@@ -19,7 +19,7 @@ const cats = blog.categories.filter((c) => c.count);
         <ul>
           <li><a href="/blog">Tüm yazılar</a></li>
           {cats.map((c) => <li><a href={c.url}>{c.name}</a></li>)}
-          <li><a href={blog.author.url}>Editör Ekibi ve Yayın İlkeleri</a></li>
+          <li><a href={blog.author.url}>Editör Ekibi</a></li>
         </ul>
       </section>
       <section>

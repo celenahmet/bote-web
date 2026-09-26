@@ -65,7 +65,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       <div class="byline">
         <a class="author" href={blog.author.url} rel="author">
           <span class="avatar"><Icon name="user-round" size={18} /></span>
-          <span class="who"><b>{blog.author.name}</b><small>{post.sources.length} kaynak · {post.foreign} yabancı</small></span>
+          <span class="who"><b>{blog.author.name}</b><small>Yazar</small></span>
         </a>
         <span class="m"><Icon name="calendar" size={16} /><time datetime={post.date}>{trDate(post.date)}</time></span>
         {post.updated !== post.date && <span class="m"><Icon name="refresh-cw" size={16} />güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></span>}
@@ -75,7 +75,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
     </header>
     {post.art && (
       <figure class="post-art">
-        <img src={post.art.src} width={post.art.width} height={post.art.height} alt={`Kaynak takımyıldızı: bu yazının ${post.sources.length} kaynağı, ${post.foreign} tanesi yabancı dilde`} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
+        <img src={post.art.src} width={post.art.width} height={post.art.height} alt={`${post.title} yazısının kapak görseli`} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
       </figure>
     )}
     <div class="prose">

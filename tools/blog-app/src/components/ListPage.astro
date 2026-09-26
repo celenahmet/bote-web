@@ -18,7 +18,7 @@ const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pat
     <h1 set:html={h1} />
     <p class="dek">{lead}</p>
     {stats && blog.posts.length > 0 && (
-      <p class="ledger"><span><b>{blog.posts.length}</b> yazı</span><span><b>{blog.totals.sources}</b> kaynak</span><span><b>{blog.totals.foreign}</b> yabancı kaynak</span><span>son güncelleme {trDate(blog.newest)}</span></p>
+      <p class="ledger"><span><b>{blog.posts.length}</b> yazı</span><span>son güncelleme {trDate(blog.newest)}</span></p>
     )}
   </section>
   <div class="wrap index-grid">

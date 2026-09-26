@@ -1,6 +1,5 @@
 ---
 import ViewCount from '../islands/ViewCount.jsx';
-import SourcePill from './SourcePill.astro';
 import { trDate } from '../lib.js';
 const { post, variant = 'row', eager = false, level = 3 } = Astro.props;
 const H = `h${level}`;
@@ -18,7 +17,6 @@ const H = `h${level}`;
         <time datetime={post.date}>{trDate(post.date)}</time>
         <span>{post.minutes} dk okuma</span>
         {!post.preview && <ViewCount client:visible slug={post.slug} />}
-        <SourcePill post={post} />
       </div>
     </div>
   </article>
@@ -32,7 +30,6 @@ const H = `h${level}`;
       <div class="meta">
         <span>{post.minutes} dk okuma</span>
         {!post.preview && <ViewCount client:visible slug={post.slug} />}
-        <SourcePill post={post} />
       </div>
     </div>
   </article>

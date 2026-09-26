@@ -65,10 +65,10 @@ const curCat = pool.find((p) => p.slug === current)?.category.slug;
       <>
         {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
         {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
-        <section class="widget note-box" aria-labelledby="w-team">
-          <h2 class="widget-title" id="w-team">{blog.author.name}</h2>
-          <p>Yazılarımız en az iki uluslararası kaynağa dayanır; her bilgi numaralı bir kaynağa bağlanır.</p>
-          <a href={blog.author.url}>Yayın ilkelerimiz →</a>
+        <section class="widget note-box" aria-labelledby="w-about">
+          <h2 class="widget-title" id="w-about">BÖTE hakkında</h2>
+          <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi; bilişim bilgisini öğretmenlik ve eğitim teknolojileriyle birleştiren dört yıllık bir lisans programıdır.</p>
+          <a href="/about">Bölümü tanıyın →</a>
         </section>
       </>
     )}

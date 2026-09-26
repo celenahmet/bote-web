@@ -40,7 +40,7 @@ const warnings = [...blog.warnings];
 
 if (!CHECK) {
   const made = await makeCovers(
-    [{ slug: '_blog', title: 'Bölüm, eğitim fakültesi ve öğretmenlik üzerine kaynaklı yazılar', label: 'BÖTE Blog', langs: [] },
+    [{ slug: '_blog', title: 'Bölüm, eğitim fakültesi ve öğretmenlik üzerine yazılar', label: 'BÖTE Blog', langs: [] },
       ...[...posts, ...blog.previews].filter((p) => !p.imageSrc).map((p) => ({ slug: p.slug, title: p.title, label: p.category.name, langs: p.sources.map((s) => s.lang) }))],
     { root: ROOT, outDir: COVER_DIR, force: FORCE_COVERS },
   );
@@ -167,11 +167,11 @@ const enPages = legacy.filter((l) => l.served.startsWith('/en')).sort((a, b) => 
 const line = (l) => `- [${l.title}](${l.canonical})${l.description ? `: ${l.description}` : ''}`;
 out.set('llms.txt', `# BÖTE — Bilgisayar ve Öğretim Teknolojileri Eğitimi
 
-> bote.web.tr, Türkiye'deki Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan Türkçe/İngilizce bilgi sitesidir. Bölümün müfredatı, meslek unvanları, staj ve akreditasyon bilgileri ile BÖTE, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış blog yazıları içerir.
+> bote.web.tr, Türkiye'deki Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan Türkçe/İngilizce bilgi sitesidir. Bölümün müfredatı, meslek unvanları, staj ve akreditasyon bilgileri ile BÖTE, eğitim fakülteleri ve öğretmen yetiştirme üzerine blog yazıları içerir.
 
-- Blog yazıları en az iki uluslararası kaynağa dayanır; her yazının sonunda numaralı kaynakça vardır.
+- Blog yazılarının sonunda numaralı kaynakça vardır.
 - Her blog yazısının Markdown sürümü, yazı adresine \`.md\` eklenerek alınabilir. Tüm yazıların tam metni: ${SITE}/llms-full.txt
-- İçerik kaynak gösterilerek alıntılanabilir. Yayın ilkeleri: ${SITE}/blog/${cfg.author.slug}
+- İçerik kaynak gösterilerek alıntılanabilir. Editör ekibi: ${SITE}/blog/${cfg.author.slug}
 
 ## Blog
 

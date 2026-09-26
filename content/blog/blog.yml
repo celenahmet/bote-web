@@ -1,10 +1,10 @@
 # BÖTE Blog ayarlari. Uretici: cd tools && npm run blog
 siteUrl: https://www.bote.web.tr
 title: BÖTE Blog
-tagline: Bölüm, eğitim fakültesi ve öğretmen yetiştirme üzerine kaynaklı yazılar
+tagline: Bilgisayar ve Öğretim Teknolojileri Eğitimi bölümü, eğitim fakülteleri ve öğretmenlik üzerine yazılar
 description: >-
-  Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve
-  öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar.
+  Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri,
+  öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
 perPage: 12
 
 # Yazar imzasi (E-E-A-T): profil ve yayin ilkeleri /blog/editor-ekibi sayfasinda.

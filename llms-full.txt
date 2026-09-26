@@ -1,6 +1,6 @@
 # BÖTE Blog — tüm yazılar
 
-> Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar. Kaynak: https://www.bote.web.tr/blog
+> Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://www.bote.web.tr/blog
 
 # AGS Nedir? MEB Akademi Giriş Sınavı Rehberi
 

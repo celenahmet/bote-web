@@ -1,14 +1,14 @@
 # BÖTE — Bilgisayar ve Öğretim Teknolojileri Eğitimi
 
-> bote.web.tr, Türkiye'deki Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan Türkçe/İngilizce bilgi sitesidir. Bölümün müfredatı, meslek unvanları, staj ve akreditasyon bilgileri ile BÖTE, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış blog yazıları içerir.
+> bote.web.tr, Türkiye'deki Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan Türkçe/İngilizce bilgi sitesidir. Bölümün müfredatı, meslek unvanları, staj ve akreditasyon bilgileri ile BÖTE, eğitim fakülteleri ve öğretmen yetiştirme üzerine blog yazıları içerir.
 
-- Blog yazıları en az iki uluslararası kaynağa dayanır; her yazının sonunda numaralı kaynakça vardır.
+- Blog yazılarının sonunda numaralı kaynakça vardır.
 - Her blog yazısının Markdown sürümü, yazı adresine `.md` eklenerek alınabilir. Tüm yazıların tam metni: https://www.bote.web.tr/llms-full.txt
-- İçerik kaynak gösterilerek alıntılanabilir. Yayın ilkeleri: https://www.bote.web.tr/blog/editor-ekibi
+- İçerik kaynak gösterilerek alıntılanabilir. Editör ekibi: https://www.bote.web.tr/blog/editor-ekibi
 
 ## Blog
 
-- [BÖTE Blog](https://www.bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri ve öğretmen yetiştirme üzerine kaynakları doğrulanmış, dengeli rehber yazılar.
+- [BÖTE Blog](https://www.bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
 - [AGS Nedir? MEB Akademi Giriş Sınavı Rehberi](https://www.bote.web.tr/blog/ags-nedir.md): AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber. (Eğitim Fakültesi, 2026-09-26)
 - [Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir.md): Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber. (Eğitim Teknolojileri, 2026-09-26)
 - [Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur.md): Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası. (Kariyer, 2026-09-26)
