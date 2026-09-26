@@ -9,6 +9,7 @@
 ## Blog
 
 - [BÖTE Blog](https://www.bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
+- [Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ](https://www.bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami.md): Bronfenbrenner'in ekolojik sistemler kuramı: beş sistem, biyoekolojik model, dijital mikrosistem, okul-aile kanıtı, eleştiriler, Türkiye verisi ve AGS hataları. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
 - [Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar](https://www.bote.web.tr/blog/erikson-psikososyal-gelisim-kurami.md): Erikson'un psikososyal gelişim kuramı: sekiz evre, kimlik ve Marcia'nın statüleri, boylamsal kanıtlar, eleştiriler, Türkiye çalışmaları ve AGS'de sık hatalar. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
 - [Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri](https://www.bote.web.tr/blog/kohlberg-ahlak-gelisimi-kurami.md): Kohlberg'in ahlak gelişimi kuramı: altı evre, boylamsal ve kültürler arası kanıt, Türkiye çalışması, Gilligan eleştirisi, ahlak eğitimi ve AGS'de sık hatalar. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
 - [Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler](https://www.bote.web.tr/blog/piaget-bilissel-gelisim-kurami.md): Piaget'nin bilişsel gelişim kuramı: şema, dengeleme ve dört evre; deneysel kanıtlar, eleştiriler, öğretmen adaylarından Türkiye verisi ve AGS'de sık yapılan hatalar. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
