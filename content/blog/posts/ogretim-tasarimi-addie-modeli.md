@@ -27,6 +27,8 @@ faq:
     a: "Bir öğrenme ihtiyacından yola çıkarak hedefleri, öğretim etkinliklerini, materyalleri ve değerlendirmeyi sistemli biçimde planlama, geliştirme ve değerlendirme sürecidir. İngilizcede instructional design olarak geçer."
 changes:
   - date: 2026-09-26
+    text: "Kaynaklar gerçek ağdan doğrulandı: DOI'ler Crossref kaydıyla, ERIC ve DergiPark künyeleri kaynağın kendi kaydıyla karşılaştırıldı; Kenny ve arkadaşları, Li ve arkadaşları (PROSPERO kaydı), Özerbaş ve Kaya ile Palabıyık ve Oral'ın sayıları özgün özetlerle teyit edildi. Özerbaş ve Kaya'nın oranları (%71 ve %90) eklendi."
+  - date: 2026-09-26
     text: "Akademik okura göre yeniden yazıldı: öğretim tasarımı ve ADDIE için tanım tartışması, IPISD'den SAM'e tarihsel çizelge ve köken tartışması (Molenda, 2003), tasarımcıların uygulamasına dair kanıt, ayrı eleştiriler bölümü, Türkiye'deki içerik analizleri, araştırma desenleri, açık sorular ve terim tablosu eklendi; kariyer bölümü öğretim tasarımcısı yazısına bırakıldı. Kaynak sayısı 7'den 20'ye çıktı. Künyeler dizin kayıtlarıyla (ERIC, yayınevi ve DergiPark kayıtları) çapraz denetlendi; tam metin denetimi sürüyor."
 sources:
   - id: molenda2003
@@ -309,7 +311,7 @@ Son yıllarda ADDIE'nin bir etki değişkeni olarak değil, **çözümleme çer�
 
 ## Türkiye'de öğretim tasarımı alanyazını
 
-Türkiye'de ADDIE en çok teknoloji destekli öğretim tasarımlarında kullanılır. Özerbaş ve Kaya, 2009-2015 arasında ADDIE'yi temel alarak yapılan çalışmaları içerik analiziyle incelemiş; çalışmaların 16 farklı alanda ve 9 farklı ülkede yürütüldüğünü, uzaktan eğitim, eğitsel çoklu ortam aracı ve eğitsel web sitesi geliştirme gibi teknolojik süreçlerle yüksek düzeyde ilişkili olduğunu bulmuştur.[@ozerbas2017] Palabıyık ve Oral ise 2008-2021 arasında uzaktan eğitim sürecinde ADDIE ile geliştirilen tasarımları incelemiştir.[@palabiyik2023] İki içerik analizi birlikte okunduğunda, ADDIE'nin Türkiye'de sınıf içi ders planlamasından çok çevrim içi ve çoklu ortam ürünlerinin geliştirilmesinde başvurulan bir çerçeve olarak yerleştiği görülür.
+Türkiye'de ADDIE en çok teknoloji destekli öğretim tasarımlarında kullanılır. Özerbaş ve Kaya, 2009-2015 arasında ADDIE'yi temel alarak yapılan çalışmaları içerik analiziyle incelemiş; çalışmaların 16 farklı alanda ve 9 farklı ülkede yürütüldüğünü, uzaktan eğitim, eğitsel çoklu ortam aracı ve eğitsel web sitesi geliştirme gibi teknolojik süreçlerle yüksek düzeyde ilişkili olduğunu (çalışmaların %71'i) ve %90'ının ders destek materyallerinin sınıfta ya da çevrimiçi kullanımı ile öğrenme ortamlarının tümüyle çevrimiçine taşınmasıyla ilgili olduğunu bulmuştur.[@ozerbas2017] Palabıyık ve Oral ise 2008-2021 arasında uzaktan eğitim sürecinde ADDIE ile geliştirilen tasarımları incelemiştir.[@palabiyik2023] İki içerik analizi birlikte okunduğunda, ADDIE'nin Türkiye'de sınıf içi ders planlamasından çok çevrim içi ve çoklu ortam ürünlerinin geliştirilmesinde başvurulan bir çerçeve olarak yerleştiği görülür.
 
 Sistem yaklaşımlı modellerin öğretmen eğitiminde denenmesine dair çalışmalar da vardır. Esmer, Dick, Carey ve Carey modelinin basamaklarına uygun bir uygulamayı sınıf öğretmenliği programı öğrencileriyle yürütmüş ve modelin öğrenci başarısına etkisini incelemiştir.[@esmer2017] Tıp eğitimi alanında yayımlanan bir Türkçe derleme ise 4C/ID'den ASSURE'a uzanan modelleri öğretim tasarımının program geliştirmeyle ilişkisi üzerinden tartışarak, öğretim tasarımının eğitim fakülteleri dışında da bir çalışma alanı olduğunu gösterir.[@kiyak2020]
 

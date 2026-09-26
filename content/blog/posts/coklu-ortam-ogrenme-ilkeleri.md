@@ -27,6 +27,8 @@ faq:
     a: "Hayır. Uzmanlığın ters etkisine göre yeni başlayanlara yarayan destekler, konuyu bilen öğrencilerde gereksiz hâle gelip öğrenmeyi zorlaştırabilir. İlkelerin çoğu ön bilgisi düşük öğrenenlerde ve karmaşık materyallerde daha güçlü etki gösterir."
 changes:
   - date: 2026-09-26
+    text: "Kaynaklar gerçek ağdan doğrulandı: DOI'ler Crossref kaydıyla, meta-analiz sayıları özgün özetlerle karşılaştırıldı (Noetel ve arkadaşları: 29 derleme, 1.189 çalışma, 78.177 katılımcı; Schneider ve arkadaşları: g+ = 0,53 ve 0,33; Ginns: 43 ve 50 bağımsız etki; Rey: 39 deneysel etki). Çoşğun ve Satıcı künyesine cilt ve sayı eklendi."
+  - date: 2026-09-26
     text: "Akademik okura göre yeniden yazıldı: üç kuramsal tanım (çoklu ortam öğrenme kuramı, ikili kodlama, bilişsel yük), tarihsel çizelge, ilke bazında meta-analiz bulguları ve derlemelerin derlemesi, yayın yanlılığı ve ölçme eleştirileri, Türkiye'deki deneysel çalışma, EBA değerlendirmesi ve Türkçe bilişsel yük ölçeği, araştırma desenleri, açık sorular ve terim tablosu eklendi. Kaynak sayısı 6'dan 17'ye çıktı. Künyeler dizin kayıtlarıyla (ERIC, yayınevi ve DergiPark kayıtları) çapraz denetlendi; tam metin denetimi sürüyor."
 sources:
   - id: mayer2020
@@ -173,7 +175,7 @@ sources:
     kind: makale
     author: "Çoşğun, V. ve Satıcı, A. F."
     title: "Çoklu ortam öğrenmede konu dışı işlemenin azaltılması ilkelerinin öğrenenlerin bilişsel yük, geri getirme ve transfer performanslarına etkisi"
-    publisher: "Mustafa Kemal Üniversitesi Eğitim Fakültesi Dergisi, 1–14"
+    publisher: "Mustafa Kemal Üniversitesi Eğitim Fakültesi Dergisi, 1(1), 1–14"
     year: 2017
     url: "https://dergipark.org.tr/tr/pub/mkuefder/article/364878"
     lang: tr

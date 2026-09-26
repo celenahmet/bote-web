@@ -60,3 +60,11 @@ kayıt sayfalarıyla çapraz denetlendi (CLAUDE.md > Doğrulama kapısı > ağ k
 2. Li ve ark. (2025) tam metninden k ve birleştirilmiş SMD değerlerini, Spatioti ve ark. (2022)'den çalışma sayısını al.
 3. Özerbaş ve Kaya ile Palabıyık ve Oral'dan incelenen çalışma sayılarını ve yöntem dağılımlarını al; Türkiye bölümüne ekle.
 4. Branson ve ark. (1975) yazar listesini tamamla.
+
+
+## Terminal turu (26.09.2026, gerçek ağ)
+- Bütün DOI'ler Crossref'te açıldı; başlık, ilk yazar, cilt, sayı ve sayfa kayıtla karşılaştırıldı. "Hafızadan/kalıptan" işaretli DOI'lerin hepsi doğru çıktı. Yıl farkları çevrimiçi ilk yayın ile basılı sayı yılı farkıdır; künyelerde basılı sayı yılı kullanılır (APA 7).
+- ERIC künyeleri ERIC API'den, DergiPark künyeleri makale sayfasının citation meta etiketlerinden doğrulandı.
+- Yazıdaki sayılar özgün özetlerle (ERIC, DergiPark, yayıncı sayfası, LearnTechLib) ya da açık erişimli tam metinle karşılaştırıldı; uyuşmazlık bulunmadı.
+- Ders: ikincil arama özetleri sayıları yanlış aktarabiliyor (Schneider ve ark. 2018 için arama özeti g = 0,52 [0,44; 0,60] dedi; özgün özet g+ = 0,53 [0,42; 0,64]). Sayı her zaman birincil kayıttan alınır.
+- ScienceDirect otomatik erişimde captcha istiyor; Elsevier özetleri ERIC ya da LearnTechLib'den okunur.
