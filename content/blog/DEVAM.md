@@ -42,3 +42,22 @@ Bu üç yazının kaynakları açılamadı (sandbox ağı 403). Her birinin
 ## Komutlar
 `cd tools && npm run build && npm test` · `node lighthouse.mjs /blog/<yazı>` ·
 push: `git push -u origin claude/vigilant-noether-o6k450 && git push origin claude/vigilant-noether-o6k450:main`
+
+## 26.09.2026 terminal turu (proje: Ahmet + terminal ajanı; yol haritası: YOL_HARITASI.md)
+- Ağ açık. TPACK, ADDIE ve çoklu ortam yazılarının bütün DOI'leri Crossref'le, sayıları özgün
+  özet ve tam metinlerle doğrulandı (bkz. dogrulama-notlari/*.md "Terminal turu"). Uyuşmazlık yok.
+- Site: gövde başlık fontunda; liste satırlarında geçici kapak; resmî mağaza rozetleri ve gerçek
+  mağaza adresleri; yazı sonunda faydalı mı + 6 ifade + paylaş tek kart, onaylı yorumlar
+  (api/etkilesim.js, api/yonetim.js, /yonetim; anahtarlar bote: önekli, Upstash math ile ortak).
+- Yeni kategoriler: egitim-bilimleri (Kuramlar), uluslararasi-egitim (Uluslararası).
+- Yeni yazılar: piaget-bilissel-gelisim-kurami, vygotsky-sosyokulturel-kuram.
+
+### Yazı üretim yöntemi (her yazıda)
+1. Aday kaynakların DOI'leri Crossref'ten (künye), sayılar Semantic Scholar / ERIC özetinden;
+   Elsevier özetleri ERIC ya da LearnTechLib'den; açık erişimli tam metin tarayıcıyla
+   (ScienceDirect ve SAGE captcha istiyor). Arama özetindeki sayıya güvenilmez.
+2. Türkçe hakemli kaynaklar OpenAlex'te bulunur (DergiPark araması captcha istiyor), künye ve özet
+   DergiPark makale sayfasının citation meta etiketlerinden okunur.
+3. AGS kapsamı: MEB 08.01.2026 duyurusu (haber/39480). KPSS için özel iddia yazılmaz.
+4. Başlık en çok 60, açıklama 70-165 karakter. Başlık değişirse kapak silinip yeniden üretilir.
+5. Sıradaki kuramlar: Erikson, Kohlberg, Bronfenbrenner, davranışçı öğrenme, Bandura, bilgiyi işleme.
