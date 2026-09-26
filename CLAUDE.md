@@ -106,6 +106,10 @@ de sayı ve kaynakla (atama, istihdam, mevzuat) verilir, yoğunluk düşürülme
 - Kaynaksız genelleme yok; her sayı yıl ve kaynakla.
 - Yazı sonunda "Bu yazıya atıf" kutusu (APA 7 + BibTeX; üretilir, isteğe bağlı `citeTitle` ile
   APA cümle düzeni) ve "Son güncelleme" altında değişiklik günlüğü (`changes: [{date, text}]`).
+  Kutuda "Sitene göm" sekmeleri vardır: HTML, iframe, Markdown, React, Vue, Svelte, JavaScript,
+  Python, LaTeX; her biçim APA 7 ve BibTeX'i birlikte taşır (kaynak: `tools/blog/cite.mjs`).
+  iframe kartı `/blog/embed/<yazı>` (noindex, çerçeveye açık), atıf verisi `/blog/atif/<yazı>.json`
+  (CORS açık). Tüm yazılara otomatik uygulanır; derinleştirilen yazıda `citeTitle` yazılır.
 - Yazar ya da hakem adı uydurulmaz. Yayın ilkeleri (kaynak politikası, doğrulama yöntemi,
   düzeltme yolu) `/blog/editor-ekibi` sayfasındadır.
 

@@ -4,7 +4,7 @@
 
 - Blog yazılarının sonunda numaralı kaynakça vardır.
 - Her blog yazısının Markdown sürümü, yazı adresine `.md` eklenerek alınabilir. Tüm yazıların tam metni: https://www.bote.web.tr/llms-full.txt
-- İçerik kaynak gösterilerek alıntılanabilir. Editör ekibi: https://www.bote.web.tr/blog/editor-ekibi
+- İçerik kaynak gösterilerek alıntılanabilir. Her yazının atıf verisi (APA 7, BibTeX): https://www.bote.web.tr/blog/atif/<yazi>.json. Editör ekibi: https://www.bote.web.tr/blog/editor-ekibi
 
 ## Blog
 

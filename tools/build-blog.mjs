@@ -145,8 +145,8 @@ for (const rel of deployedFiles(ROOT).filter((f) => f.endsWith('.html') && !f.st
   legacy.push(info);
 }
 
-// Taslak onizlemeleri (blog/taslak) noindex'tir; sitemap'e girmez.
-const blogPages = [...out.keys()].filter((k) => /^blog\/(.+\/)?index\.html$/.test(k) && !k.startsWith('blog/taslak/')).map((k) => `/${k.replace(/\/index\.html$/, '')}`);
+// Taslak onizlemeleri (blog/taslak) ve iframe atif kartlari (blog/embed) noindex'tir; sitemap'e girmez.
+const blogPages = [...out.keys()].filter((k) => /^blog\/(.+\/)?index\.html$/.test(k) && !k.startsWith('blog/taslak/') && !k.startsWith('blog/embed/')).map((k) => `/${k.replace(/\/index\.html$/, '')}`);
 const urls = [
   ...legacy.map((l) => ({ loc: l.canonical, alternates: l.alternates })),
   ...blogPages.map((u) => {
@@ -171,7 +171,7 @@ out.set('llms.txt', `# BÖTE — Bilgisayar ve Öğretim Teknolojileri Eğitimi
 
 - Blog yazılarının sonunda numaralı kaynakça vardır.
 - Her blog yazısının Markdown sürümü, yazı adresine \`.md\` eklenerek alınabilir. Tüm yazıların tam metni: ${SITE}/llms-full.txt
-- İçerik kaynak gösterilerek alıntılanabilir. Editör ekibi: ${SITE}/blog/${cfg.author.slug}
+- İçerik kaynak gösterilerek alıntılanabilir. Her yazının atıf verisi (APA 7, BibTeX): ${SITE}/blog/atif/<yazi>.json. Editör ekibi: ${SITE}/blog/${cfg.author.slug}
 
 ## Blog
 

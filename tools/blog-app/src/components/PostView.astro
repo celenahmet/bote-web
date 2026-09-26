@@ -11,6 +11,8 @@ import CitationPeek from '../islands/CitationPeek.jsx';
 import { loadBlog, orgLd, teamLd, breadcrumbLd, trDate, isoDate, icon } from '../lib.js';
 import { renderInline } from '../../../blog/markdown.mjs';
 import { stripHtml } from '../../../blog/util.mjs';
+import { citation } from '../../../blog/cite.mjs';
+import { Code } from 'astro:components';
 
 // Yazi sayfasi. list: onceki/sonraki ve ilgili yazilarin secildigi liste
 // (yayindakiler ya da taslak onizlemeleri). preview: noindex taslak onizlemesi.
@@ -38,19 +40,8 @@ const tocItems = [...bodyHeads, ...(post.summary.length && !recap ? [recapItem] 
   ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 },
   { id: 'atif', text: 'Bu yazıya atıf', depth: 2 }];
 const url = blog.abs(post.url);
-// "Bu yaziya atif": APA 7 (grup yazar, blog yazisi; tarih = son guncelleme) ve BibTeX.
-const AY = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
-const [cy, cm, cd] = post.updated.split('-').map(Number);
-const apaHtml = `${blog.author.name}. (${cy}, ${cd} ${AY[cm - 1]}). ${post.citeTitle}. <i>BÖTE Blog</i>. ${url}`;
-const bibtex = `@online{bote-${post.slug},
-  author       = {{${blog.author.name}}},
-  title        = {${post.title}},
-  organization = {BÖTE Blog},
-  year         = {${cy}},
-  date         = {${post.updated}},
-  url          = {${url}},
-  langid       = {turkish}
-}`;
+// "Bu yaziya atif" ve "Sitene gom" (APA 7 + BibTeX; tum bicimler tek kaynaktan).
+const cite = citation(post, blog);
 const ld = { '@context': 'https://schema.org', '@graph': [
   {
     '@type': 'BlogPosting', '@id': `${url}#yazi`, mainEntityOfPage: url, url,
@@ -147,13 +138,32 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         <section class="cite-box" id="atif" aria-labelledby="atif-baslik">
           <h2 id="atif-baslik">Bu yazıya atıf</h2>
           <p class="cite-fmt">APA 7</p>
-          <p class="cite-apa" data-copy-src="apa" set:html={apaHtml} />
+          <p class="cite-apa" data-copy-src="apa" set:html={cite.apaHtml} />
           <div class="cite-actions">
             <button type="button" class="cite-btn" data-copy="apa" hidden><Icon name="copy" size={15} /><span>APA'yı kopyala</span></button>
             <details class="cite-bib">
               <summary>BibTeX</summary>
-              <pre data-copy-src="bibtex">{bibtex}</pre>
+              <pre data-copy-src="bibtex">{cite.bibtex}</pre>
               <button type="button" class="cite-btn" data-copy="bibtex" hidden><Icon name="copy" size={15} /><span>BibTeX'i kopyala</span></button>
+            </details>
+            <details class="cite-bib cite-embed">
+              <summary><Icon name="code-xml" size={15} />Sitene göm</summary>
+              <p class="emb-lead">Bu atıf kartını kendi sitenize, ders sayfanıza ya da belgenize ekleyin. Tüm biçimler APA 7 ve BibTeX kaydını birlikte içerir; atıf verisi <a href={cite.jsonUrl}>JSON</a> olarak da alınabilir.</p>
+              <div class="emb-tabs">
+                {cite.snippets.map((sn, i) => (
+                  <>
+                    <input type="radio" name="emb-tab" id={`emb-${sn.id}`} class="emb-radio sr-only" checked={i === 0} />
+                    <label for={`emb-${sn.id}`}>{sn.label}</label>
+                    <div class="emb-panel">
+                      <p class="emb-note">{sn.note}</p>
+                      <div class="emb-code" data-copy-src={`emb-${sn.id}`}>
+                        <Code code={sn.code} lang={sn.lang} themes={{ light: 'github-light', dark: 'github-dark' }} defaultColor={false} wrap />
+                      </div>
+                      <button type="button" class="cite-btn" data-copy={`emb-${sn.id}`} hidden><Icon name="copy" size={15} /><span>{sn.label} kodunu kopyala</span></button>
+                    </div>
+                  </>
+                ))}
+              </div>
             </details>
           </div>
           <div class="changelog">

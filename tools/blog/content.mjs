@@ -61,7 +61,7 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
   const author = { name: cfg.author.name, url: `/blog/${cfg.author.slug}`, id: `${SITE}/blog/${cfg.author.slug}#ekip` };
   const categories = cfg.categories.map((c) => ({ ...c, url: `/blog/kategori/${c.slug}`, count: 0 }));
   const catBy = Object.fromEntries(categories.map((c) => [c.slug, c]));
-  const reserved = ['sayfa', 'kategori', 'assets', 'fonts', '_astro', 'feed', 'search', cfg.author.slug];
+  const reserved = ['sayfa', 'kategori', 'assets', 'fonts', '_astro', 'feed', 'search', 'embed', 'atif', 'taslak', cfg.author.slug];
 
   function loadDir(dir, draft) {
     if (!fs.existsSync(dir)) return [];
