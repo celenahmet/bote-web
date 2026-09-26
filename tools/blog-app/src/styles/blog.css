@@ -206,6 +206,10 @@ p{margin:0}
 .cats{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
 .cats a{display:flex;align-items:center;gap:12px;padding:9px 10px;margin-inline:-10px;border-radius:10px;color:var(--ink-2);text-decoration:none;font-size:15.5px}
 .cats a .ico{color:var(--violet)}
+/* toplam satiri: kategorilerden ince bir cizgiyle ayrilir, sayi rozeti koyu */
+.cats .cats-all{padding-bottom:6px;margin-bottom:6px;border-bottom:1px solid var(--line)}
+.cats .cats-all a{font-weight:600;color:var(--ink)}
+.cats .cats-all .count{background:var(--ink);color:var(--bg)}
 .cats a>span:first-of-type{flex:1;min-width:0}
 .cats a:hover,.cats a[aria-current]{background:var(--violet-soft);color:var(--violet)}
 .cats a[aria-current]{font-weight:600}

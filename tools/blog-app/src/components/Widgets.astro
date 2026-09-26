@@ -26,6 +26,7 @@ const cats = isPreview
   ? blog.categories.map((c) => ({ ...c, url: '/blog/taslak', count: pool.filter((p) => p.category.slug === c.slug).length })).filter((c) => c.count)
   : blog.categories.filter((c) => c.count);
 const curCat = pool.find((p) => p.slug === current)?.category.slug;
+const total = cats.reduce((n, c) => n + c.count, 0);
 ---
 {mode === 'band' ? (
   <section class="band" aria-label="Diğer içerikler">
@@ -43,9 +44,12 @@ const curCat = pool.find((p) => p.slug === current)?.category.slug;
     {mode !== 'post' && !noCats && cats.length > 0 && (
       <section class="widget" aria-labelledby="w-cats">
         <h2 class="widget-title" id="w-cats">Kategoriler</h2>
-        <ul class="cats">{cats.map((c) => (
+        <ul class="cats">
+          <li class="cats-all"><a href={isPreview ? '/blog/taslak' : '/blog'}><Icon name="book-open" size={17} /><span>Tüm yazılar</span><span class="count" aria-label={`${total} yazı`}>{total}</span></a></li>
+          {cats.map((c) => (
           <li><a href={c.url} aria-current={c.slug === curCat ? 'true' : undefined}><Icon name={c.icon || 'folder'} size={17} /><span>{c.name}</span><span class="count" aria-label={`${c.count} yazı`}>{c.count}</span></a></li>
-        ))}</ul>
+        ))}
+        </ul>
       </section>
     )}
     {mode === 'post' ? (
