@@ -46,7 +46,9 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   altında önizlenir: noindex, robots.txt ile kapalı, sitemap/besleme/llms.txt dışı ve
   siteden bağlantı almaz.
 - Yazı sayfası: sol metin, sağ kenar çubuğu; sağ blok kapak görselinin hizasından başlar ve
-  kaydırırken içerikle uyumlu ilerler (sonu ekrana gelince sabitlenir). Başlık altında yazar,
+  kaydırırken içerikle uyumlu ilerler (sonu ekrana gelince sabitlenir). Girişten hemen sonra
+  numaralı, iki sütunlu "İçindekiler" kartı yer alır. "Kısaca" özeti sonucu önden
+  vermemek için yazının sonunda, kontrol listesinden ya da "Sonuç"tan hemen önce durur. Başlık altında yazar,
   tarih, okuma süresi, görüntülenme (kelime sayısı gösterilmez). Kenar çubuğu sırası:
   reklam > kategoriler (ikon + sayı) > son yazılar > "Bu yazıda neler var?" (yapışkan
   içindekiler, tıklanınca ilgili bölüme gider). Liste sayfalarında reklam > kategoriler >

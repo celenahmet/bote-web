@@ -24,7 +24,17 @@ const related = [...list.filter((p) => p !== post && p.category.slug === post.ca
 const trail = preview
   ? [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Taslak önizleme', url: '/blog/taslak' }, { name: post.title, url: post.url }]
   : [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: post.category.name, url: post.category.url }, { name: post.title, url: post.url }];
-const tocItems = [...(post.summary.length ? [{ id: 'kisaca', text: 'Kısaca', depth: 2 }] : []), ...post.headings,
+// "Kisaca" ozeti yazinin sonuna, kontrol listesinden ya da Sonuc'tan hemen once yerlesir.
+const recap = post.summary.length ? post.headings.find((h) => h.depth === 2 && /kontrol listesi|^sonuç/i.test(h.text)) : null;
+const recapItem = { id: 'kisaca', text: 'Kısaca', depth: 2 };
+const html = post.html;
+const firstH2 = html.indexOf('<h2 ');
+const cut = recap ? html.indexOf(`<h2 id="${recap.id}">`) : html.length;
+const intro = firstH2 > 0 ? html.slice(0, firstH2) : '';
+const middle = html.slice(Math.max(firstH2, 0), cut);
+const ending = html.slice(cut);
+const bodyHeads = post.headings.flatMap((h) => (recap && h === recap ? [recapItem, h] : [h]));
+const tocItems = [...bodyHeads, ...(post.summary.length && !recap ? [recapItem] : []),
   ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 }];
 const url = blog.abs(post.url);
 const ld = { '@context': 'https://schema.org', '@graph': [
@@ -81,17 +91,22 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       )}
       <div class="prose">
         {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
+        <Fragment set:html={intro} />
+        <nav class="toc-card" aria-labelledby="icindekiler">
+          <div class="toc-card-head">
+            <h2 id="icindekiler" class="toc-card-title"><Icon name="list" size={16} />İçindekiler</h2>
+            <span class="toc-card-count">{tocItems.length} bölüm</span>
+          </div>
+          <ol>{tocItems.map((h, i) => <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}><span class="num">{String(i + 1).padStart(2, '0')}</span><span>{h.text}</span></a></li>)}</ol>
+        </nav>
+        <Fragment set:html={middle} />
         {post.summary.length > 0 && (
           <section class="tldr" aria-labelledby="kisaca">
             <h2 id="kisaca">Kısaca</h2>
             <ul>{post.summary.map((s) => <li set:html={renderInline(s)} />)}</ul>
           </section>
         )}
-        <details class="toc-inline toc">
-          <summary>Bu yazıda neler var?</summary>
-          <ol>{tocItems.map((h) => <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
-        </details>
-        <Fragment set:html={post.html} />
+        <Fragment set:html={ending} />
         {post.faq.length > 0 && (
           <section class="faq" aria-labelledby="sss">
             <h2 id="sss">Sık sorulan sorular</h2>
@@ -161,14 +176,19 @@ const ld = { '@context': 'https://schema.org', '@graph': [
     addEventListener('hashchange', reveal);
     reveal();
     // Icindekiler: okunan bolumu isaretle.
+    // Icindekiler karti ve kenar cubugu ayni bolumleri gosterir; okunan bolum ikisinde de isaretlenir.
     const links = [...document.querySelectorAll('.side-toc a')];
+    const cardLinks = [...document.querySelectorAll('.toc-card a')];
     const heads = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
     let active = -1, raf = 0;
     const mark = () => {
       raf = 0;
       let i = 0;
       heads.forEach((h, k) => { if (h.getBoundingClientRect().top < 140) i = k; });
-      if (i !== active) { links[active]?.removeAttribute('aria-current'); links[i]?.setAttribute('aria-current', 'true'); active = i; }
+      if (i !== active) {
+        for (const set of [links, cardLinks]) { set[active]?.removeAttribute('aria-current'); set[i]?.setAttribute('aria-current', 'true'); }
+        active = i;
+      }
     };
     if (heads.length) { addEventListener('scroll', () => { raf ||= requestAnimationFrame(mark); }, { passive: true }); mark(); }
   </script>

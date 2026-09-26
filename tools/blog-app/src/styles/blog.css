@@ -237,14 +237,21 @@ p{margin:0}
 .tldr h2{font:600 12.5px var(--mono)!important;letter-spacing:.08em;text-transform:uppercase;color:var(--pink)!important;margin:0 0 10px!important}
 .tldr ul{margin:0;padding-left:1.1em}
 .tldr li+li{margin-top:.5em}
-.toc-inline{border:1px solid var(--line);border-radius:14px;padding:4px 18px;font:400 15.5px/1.6 var(--display);background:var(--surface)}
-.toc-inline summary{cursor:pointer;padding:10px 0;font:600 12.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.toc ol{list-style:none;margin:0;padding:0 0 12px;display:flex;flex-direction:column;gap:6px;counter-reset:t}
-.toc li{display:block}
-.toc li.sub{padding-left:18px}
-.toc a{color:var(--ink-2);text-decoration:none;font:400 15px/1.5 var(--display)}
-.toc a:hover{color:var(--violet)}
-@media (min-width:1080px){.toc-inline{display:none}}
+/* yazi ici icindekiler karti: girisin hemen ardindan, genis ekranda iki sutun */
+.toc-card{border:1px solid var(--line);border-radius:18px;background:var(--surface);padding:16px 18px 14px;font:400 15px/1.4 var(--display)}
+.toc-card-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.prose .toc-card-title{display:flex;align-items:center;gap:8px;margin:0;font:700 13px var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--ink)}
+.toc-card-title .ico{color:var(--violet)}
+.toc-card-count{font:600 12px var(--mono);color:var(--muted)}
+.toc-card ol{list-style:none;margin:0;padding:0}
+@media (min-width:700px){.toc-card ol{columns:2;column-gap:24px}}
+.toc-card li{break-inside:avoid;margin:0!important}
+.toc-card a{display:flex;align-items:baseline;gap:10px;padding:5px 8px;margin-inline:-8px;border-radius:8px;color:var(--ink-2);text-decoration:none}
+.toc-card .num{flex:none;min-width:18px;font:600 11.5px var(--mono);color:var(--muted)}
+.toc-card li.sub a{padding-left:22px;font-size:14px;color:var(--muted)}
+.toc-card a:hover{color:var(--violet)}
+.toc-card a[aria-current]{background:var(--violet-soft);color:var(--violet);font-weight:600}
+.toc-card a[aria-current] .num{color:var(--violet)}
 
 .faq{display:flex;flex-direction:column;gap:10px}
 .faq h2{margin-bottom:6px}
@@ -358,4 +365,4 @@ p{margin:0}
 .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font:500 12.5px var(--mono);color:var(--muted)}
 
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
-@media print{.topbar,.chipbar,.band,.foot,.share,.prevnext,.related,.sidebar,.toc-inline,.ad,.promo,.bib-settings{display:none!important}.post-layout{display:block}}
+@media print{.topbar,.chipbar,.band,.foot,.share,.prevnext,.related,.sidebar,.toc-card,.ad,.promo,.bib-settings{display:none!important}.post-layout{display:block}}
