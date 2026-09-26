@@ -44,7 +44,7 @@ AGS/KPSS'de nasıl sorulur ve kavram tuzakları, araştırmacılar için açık 
 | 14 | Güdülenme Kuramları: Maslow, Weiner, Öz Belirleme | yükleme kuramı, öz belirleme kuramı |
 | 15 | Freud, Marcia ve Selman: kişilik, kimlik, sosyal bakış açısı | kimlik statüleri, psikoseksüel gelişim |
 
-İlerleme (26.09): 1-12 yayında (piaget, vygotsky, erikson, kohlberg, bronfenbrenner, davranisci-ogrenme-kuramlari, bandura-sosyal-bilissel-kuram, bilgiyi-isleme-kurami, bruner-ausubel-gagne-bilissel-ogretim-kuramlari, bloom-taksonomisi, tam-ogrenme-modeli, yapilandirmacilik). Sıradaki: 13. Not: MEB AGS duyurusu kapsamı: tarihî/felsefi/toplumsal/ekonomik/politik temeller, eğitim ve öğretim teknolojileri, öğretim yöntem ve teknikleri, sınıf yönetimi, program okuryazarlığı, ölçme ve değerlendirme, öğrenme ve gelişim psikolojisi, rehberlik, TMES genel yapısı, Türkiye Yüzyılı Maarif Modeli.
+İlerleme (26.09): 1-13 yayında (piaget, vygotsky, erikson, kohlberg, bronfenbrenner, davranisci-ogrenme-kuramlari, bandura-sosyal-bilissel-kuram, bilgiyi-isleme-kurami, bruner-ausubel-gagne-bilissel-ogretim-kuramlari, bloom-taksonomisi, tam-ogrenme-modeli, yapilandirmacilik, coklu-zeka-kurami). Sıradaki: 14. Not: MEB AGS duyurusu kapsamı: tarihî/felsefi/toplumsal/ekonomik/politik temeller, eğitim ve öğretim teknolojileri, öğretim yöntem ve teknikleri, sınıf yönetimi, program okuryazarlığı, ölçme ve değerlendirme, öğrenme ve gelişim psikolojisi, rehberlik, TMES genel yapısı, Türkiye Yüzyılı Maarif Modeli.
 
 ## Öncelik 2: Eğitim teknolojileri ve yapay zekâ
 | Sıra | Çalışma başlığı |
