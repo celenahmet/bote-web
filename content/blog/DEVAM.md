@@ -41,7 +41,9 @@ Bu üç yazının kaynakları açılamadı (sandbox ağı 403). Her birinin
 
 ## Komutlar
 `cd tools && npm run build && npm test` · `node lighthouse.mjs /blog/<yazı>` ·
-push: `git push -u origin claude/vigilant-noether-o6k450 && git push origin claude/vigilant-noether-o6k450:main`
+push: `git push origin main` (Vercel main'i yayına alır; `npx vercel ls bote-web --scope ahmet-celen` ile "Ready" beklenir) ·
+yayından sonra arama motorlarına bildirim: `node tools/indexnow.mjs` (son commit'teki yazılar + listeler; ayrıntı betiğin başında).
+Google IndexNow kullanmaz: sitemap.xml robots.txt'te; Search Console'da https://bote.web.tr mülkü ve site haritası kayıtlı olmalı.
 
 ## 26.09.2026 terminal turu (proje: Ahmet + terminal ajanı; yol haritası: YOL_HARITASI.md)
 - Ağ açık. TPACK, ADDIE ve çoklu ortam yazılarının bütün DOI'leri Crossref'le, sayıları özgün
