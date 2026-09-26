@@ -9,6 +9,7 @@
 ## Blog
 
 - [BÖTE Blog](https://www.bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
+- [Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik](https://www.bote.web.tr/blog/bandura-sosyal-bilissel-kuram.md): Bobo bebek deneyinin özgün bulguları, gözlem yoluyla öğrenme, karşılıklı belirleyicilik, öz yeterliğin kaynakları, meta-analiz kanıtı, Türkiye verisi ve AGS. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
 - [Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ](https://www.bote.web.tr/blog/bronfenbrenner-ekolojik-sistemler-kurami.md): Bronfenbrenner'in ekolojik sistemler kuramı: beş sistem, biyoekolojik model, dijital mikrosistem, okul-aile kanıtı, eleştiriler, Türkiye verisi ve AGS hataları. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
 - [Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner](https://www.bote.web.tr/blog/davranisci-ogrenme-kuramlari.md): Klasik ve edimsel koşullanma, Thorndike'ın yasaları, pekiştirme tarifeleri, programlı öğretim, ödül ve ceza üzerine kanıt, eleştiriler ve AGS'de sık hatalar. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)
 - [Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar](https://www.bote.web.tr/blog/erikson-psikososyal-gelisim-kurami.md): Erikson'un psikososyal gelişim kuramı: sekiz evre, kimlik ve Marcia'nın statüleri, boylamsal kanıtlar, eleştiriler, Türkiye çalışmaları ve AGS'de sık hatalar. (Eğitim Bilimleri ve Kuramlar, 2026-09-26)

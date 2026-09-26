@@ -44,6 +44,8 @@ AGS/KPSS'de nasıl sorulur ve kavram tuzakları, araştırmacılar için açık 
 | 14 | Güdülenme Kuramları: Maslow, Weiner, Öz Belirleme | yükleme kuramı, öz belirleme kuramı |
 | 15 | Freud, Marcia ve Selman: kişilik, kimlik, sosyal bakış açısı | kimlik statüleri, psikoseksüel gelişim |
 
+İlerleme (26.09): 1-7 yayında (piaget, vygotsky, erikson, kohlberg, bronfenbrenner, davranisci-ogrenme-kuramlari, bandura-sosyal-bilissel-kuram). Sıradaki: 8.
+
 ## Öncelik 2: Eğitim teknolojileri ve yapay zekâ
 | Sıra | Çalışma başlığı |
 |---|---|
