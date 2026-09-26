@@ -15,6 +15,25 @@ const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pat
 // sagda kategori kutucuklari. Metinler mevcut baslik ve aciklamadan gelir.
 const cats = noindex ? [] : blog.categories.filter((c) => c.count);
 const count = current && current !== 'blog' ? (blog.catBy[current]?.count ?? list.length) : blog.posts.length;
+// Vitrin (Ahmet 26.09: "sag tarafin hareketli oldugu belli degil"): ilk sayfada 4 yazi doner.
+// Ilk kart akista yoktur; digerleri akista da durur, bu yuzden view-transition adlari yalniz ilkinde.
+const slides = page === 1 && first ? list.slice(0, 4) : [];
+// Solda "one cikan konular": listedeki yazilarin ilk ozgul etiketi, kategoriler arasinda sirayla
+// (ana sayfada tek kategoriye yigilmasin). Genel etiketler (BOTE, AGS...) konu sayilmaz.
+const GENEL = new Set(['böte', 'ags', 'kpss', 'kariyer', 'öğretmenlik', 'eğitim fakültesi', 'tercih']);
+const cap = (s) => s.charAt(0).toLocaleUpperCase('tr') + s.slice(1);
+const topicSrc = noindex ? [] : current && current !== 'blog' ? blog.posts.filter((p) => p.category.slug === current) : blog.posts;
+const byCat = new Map();
+for (const p of topicSrc) byCat.set(p.category.slug, [...(byCat.get(p.category.slug) || []), p]);
+const queue = [];
+for (let i = 0; queue.length < topicSrc.length; i++) for (const g of byCat.values()) if (g[i]) queue.push(g[i]);
+const topics = [];
+for (const p of queue) {
+  const tag = (p.tags || []).slice(0, 2).find((t) => !GENEL.has(t.toLocaleLowerCase('tr')));
+  if (!tag || topics.some((x) => x.key === tag.toLocaleLowerCase('tr'))) continue;
+  topics.push({ key: tag.toLocaleLowerCase('tr'), label: cap(tag), url: p.url });
+  if (topics.length === 8) break;
+}
 ---
 <Base title={page === 1 ? title : `${title} (Sayfa ${page})`} description={page === 1 ? description : `${description} Sayfa ${page}.`}
   path={pathUrl} image={blog.blogImage} ld={ld} current={current} noindex={noindex}>
@@ -33,8 +52,37 @@ const count = current && current !== 'blog' ? (blog.catBy[current]?.count ?? lis
         {blog.posts.length > 0 && (
           <p class="ledger"><span><b>{count}</b> yazı</span><span>Son yazı {trDate(blog.newest)}</span></p>
         )}
+        {page === 1 && topics.length >= 3 && (
+          <div class="topics">
+            <p class="topics-label">Öne çıkan konular</p>
+            <ul>{topics.map((t) => <li><a href={t.url}>{t.label}</a></li>)}</ul>
+          </div>
+        )}
       </div>
-      {first && <PostCard post={first} variant="hero" eager level={2} />}
+      {slides.length > 0 && (
+        <div class="hero-slider" data-slider aria-roledescription="carousel" aria-label="Öne çıkan yazılar">
+          <div class="slides">
+            {slides.map((p, i) => (
+              <div class="slide" role="group" aria-roledescription="slide" aria-label={`${i + 1} / ${slides.length}`}
+                data-active={i === 0 ? '' : undefined} aria-hidden={i === 0 ? undefined : 'true'} inert={i === 0 ? undefined : true}>
+                <PostCard post={p} variant="hero" eager={i === 0} level={2} vt={i === 0} />
+              </div>
+            ))}
+          </div>
+          {slides.length > 1 && (
+            <div class="sl-nav">
+              <button type="button" class="sl-btn" data-prev aria-label="Önceki yazı"><Icon name="chevron-left" size={18} /></button>
+              <div class="sl-dots">
+                {slides.map((p, i) => (
+                  <button type="button" class="sl-dot" data-dot={i} aria-label={`${i + 1}. yazı: ${p.title}`} aria-current={i === 0 ? 'true' : undefined}><span class="bar"><i></i></span></button>
+                ))}
+              </div>
+              <button type="button" class="sl-btn" data-next aria-label="Sonraki yazı"><Icon name="chevron-right" size={18} /></button>
+              <button type="button" class="sl-btn sl-toggle" data-toggle aria-label="Otomatik geçişi durdur"><span class="i-pause"><Icon name="pause" size={16} /></span><span class="i-play"><Icon name="play" size={16} /></span></button>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   </section>
   {cats.length > 0 && (
@@ -70,3 +118,51 @@ const count = current && current !== 'blog' ? (blog.catBy[current]?.count ?? lis
     <Widgets mode="sidebar" pool={pool} cat={current} />
   </div>
 </Base>
+<script>
+  // Vitrin: etkin noktanin ilerleme cubugu animasyonu sureyi belirler, bitince sonraki yaziya gecilir.
+  // Fare ustundeyken, klavye odagi icerideyken ya da sekme gizliyken durur. Hareket azaltma tercihinde
+  // otomatik gecis kapali baslar; durdur/baslat dugmesi her durumda var (WCAG 2.2.2).
+  for (const root of document.querySelectorAll('[data-slider]')) {
+    const slides = [...root.querySelectorAll('.slide')];
+    const dots = [...root.querySelectorAll('[data-dot]')];
+    const toggle = root.querySelector('[data-toggle]');
+    if (slides.length < 2 || !toggle) continue;
+    let cur = 0;
+    const setAuto = (on) => {
+      root.toggleAttribute('data-auto', on);
+      toggle.setAttribute('aria-label', on ? 'Otomatik geçişi durdur' : 'Otomatik geçişi başlat');
+    };
+    const go = (n) => {
+      cur = (n + slides.length) % slides.length;
+      slides.forEach((s, i) => {
+        const on = i === cur;
+        s.toggleAttribute('data-active', on);
+        s.toggleAttribute('inert', !on);
+        if (on) s.removeAttribute('aria-hidden'); else s.setAttribute('aria-hidden', 'true');
+      });
+      dots.forEach((d, i) => (i === cur ? d.setAttribute('aria-current', 'true') : d.removeAttribute('aria-current')));
+    };
+    root.querySelector('[data-prev]')?.addEventListener('click', () => go(cur - 1));
+    root.querySelector('[data-next]')?.addEventListener('click', () => go(cur + 1));
+    dots.forEach((d, i) => d.addEventListener('click', () => go(i)));
+    toggle.addEventListener('click', () => setAuto(!root.hasAttribute('data-auto')));
+    root.addEventListener('animationend', (e) => { if (e.animationName === 'sl-fill') go(cur + 1); });
+    const hold = () => root.toggleAttribute('data-hold', document.hidden || root.matches(':hover') || root.contains(document.activeElement));
+    root.addEventListener('pointerenter', hold);
+    root.addEventListener('pointerleave', hold);
+    root.addEventListener('focusin', hold);
+    root.addEventListener('focusout', () => setTimeout(hold));
+    document.addEventListener('visibilitychange', hold);
+    // dokunmatikte yatay kaydirma (40 pikselden uzun)
+    const area = root.querySelector('.slides');
+    let x0 = null;
+    area.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') x0 = e.clientX; });
+    area.addEventListener('pointerup', (e) => {
+      if (x0 === null) return;
+      const dx = e.clientX - x0; x0 = null;
+      if (Math.abs(dx) > 40) go(cur + (dx < 0 ? 1 : -1));
+    });
+    area.addEventListener('pointercancel', () => { x0 = null; });
+    setAuto(!matchMedia('(prefers-reduced-motion: reduce)').matches);
+  }
+</script>

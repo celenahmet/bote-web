@@ -586,6 +586,42 @@ p{margin:0}
 .hcard-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;margin-top:4px}
 .round-go{flex:none;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);color:var(--ink);background:var(--surface)}
 .round-go:hover{border-color:var(--violet);color:var(--violet)}
+/* karsilama solu: one cikan konular (tiklanabilir etiketler) */
+.topics{display:flex;flex-direction:column;gap:12px;width:100%;margin-top:4px;padding-top:20px;border-top:1px solid var(--line)}
+.topics-label{font:600 13.5px var(--display);color:var(--muted)}
+.topics ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.topics a{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink-2);font:500 14px var(--display);text-decoration:none;transition:border-color .15s,color .15s,transform .15s}
+.topics a:hover{border-color:var(--violet);color:var(--violet);transform:translateY(-1px)}
+/* telefonda etiketler tek satirda yana kayar; vitrin asagi itilmesin */
+@media (max-width:759px){.topics ul{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-inline:calc(-1 * var(--gutter));padding:2px var(--gutter);scroll-padding-inline:var(--gutter)}.topics ul::-webkit-scrollbar{display:none}.topics li{flex:none}}
+/* karsilama sagi: donen vitrin */
+.hero-slider{display:flex;flex-direction:column;gap:12px;min-width:0}
+.slides{display:grid;touch-action:pan-y}
+.slide{grid-area:1/1;display:flex;min-width:0;opacity:0;visibility:hidden;transform:translateX(18px);transition:opacity .5s ease,transform .5s ease,visibility 0s linear .5s}
+.slide[data-active]{opacity:1;visibility:visible;transform:none;transition:opacity .5s ease,transform .5s ease,visibility 0s}
+.slide>.hcard{flex:1}
+.slide .hcard-body{flex:1}
+.slide .hcard-foot{margin-top:auto}
+@media (prefers-reduced-motion:reduce){.slide,.slide[data-active]{transition:none;transform:none}}
+.sl-nav{display:flex;align-items:center;justify-content:center;gap:8px}
+.sl-btn{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.sl-btn:hover{border-color:var(--violet);color:var(--violet)}
+.sl-toggle{margin-left:6px}
+.sl-toggle .i-pause{display:grid}
+.sl-toggle .i-play{display:none}
+.hero-slider:not([data-auto]) .sl-toggle .i-play{display:grid}
+.hero-slider:not([data-auto]) .sl-toggle .i-pause{display:none}
+.sl-dots{display:flex;align-items:center;gap:2px;padding-inline:4px}
+.sl-dot{display:grid;place-items:center;min-width:24px;height:32px;padding:0 3px;border:0;background:none;cursor:pointer}
+.sl-dot .bar{position:relative;display:block;width:10px;height:10px;border-radius:999px;background:color-mix(in srgb,var(--muted) 35%,transparent);overflow:hidden;transition:width .3s ease,background-color .3s}
+.sl-dot:hover .bar{background:color-mix(in srgb,var(--violet) 45%,transparent)}
+.sl-dot[aria-current] .bar{width:36px;background:color-mix(in srgb,var(--violet) 22%,transparent)}
+.sl-dot i{position:absolute;inset:0 auto 0 0;width:0;border-radius:inherit;background:var(--violet)}
+.sl-dot[aria-current] i{width:100%}
+.hero-slider[data-auto] .sl-dot[aria-current] i{animation:sl-fill 7s linear both}
+.hero-slider[data-hold] .sl-dot[aria-current] i{animation-play-state:paused}
+@keyframes sl-fill{from{width:0}to{width:100%}}
+.sl-dot:focus-visible,.sl-btn:focus-visible{outline:2px solid var(--violet);outline-offset:2px}
 .pill{display:inline-flex;align-items:center;padding:5px 12px;border-radius:999px;background:var(--cs,var(--pink-soft));color:var(--c,var(--pink));font:650 13px/1.3 var(--display);text-decoration:none}
 a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 /* kategori renkleri: rozet ve kategori kartlari */
