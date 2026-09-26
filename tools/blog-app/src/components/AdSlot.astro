@@ -28,16 +28,21 @@ const STORES = {
     <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
   </aside>
 ) : house ? (
-  <aside class="ad" data-ad-slot={slot} aria-label={`Reklam: ${house.brand}`}>
-    <div class="ad-card">
-      <span class="ad-label">Reklam</span>
-      <a class="ad-logo" href={house.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand} web sitesi`}>
-        {logo ? <img src={logo} alt={house.brand} height="40" loading="lazy" decoding="async" /> : <span class="ad-wordmark">Uni<b>Connectly</b></span>}
+  <aside class="promo" aria-label={`${house.brand} tanıtımı`}>
+    <div class="promo-card">
+      <span class="promo-tag">Reklam</span>
+      <a class="promo-logo" href={house.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand} web sitesi`}>
+        {logo ? (
+          <>
+            <img src={logo} alt={house.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+            <span class="promo-wordmark" hidden>Uni<b>Connectly</b></span>
+          </>
+        ) : <span class="promo-wordmark">Uni<b>Connectly</b></span>}
       </a>
-      <p class="ad-text">{house.text}</p>
-      <a class="ad-cta" href={house.url} rel="sponsored noopener" target="_blank">{house.cta}</a>
+      <p class="promo-text">{house.text}</p>
+      <a class="promo-cta" href={house.url} rel="sponsored noopener" target="_blank">{house.cta}</a>
       {house.stores?.length > 0 && (
-        <div class="ad-stores">
+        <div class="promo-stores">
           {house.stores.filter((s) => STORES[s.id]).map((s) => (
             <a class="store" href={s.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand}: ${STORES[s.id].label}`}>
               <Icon name={STORES[s.id].icon} brand size={17} />

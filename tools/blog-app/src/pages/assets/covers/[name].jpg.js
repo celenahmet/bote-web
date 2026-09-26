@@ -6,7 +6,7 @@ export function getStaticPaths() {
   const blog = loadBlog();
   const used = new Map();
   for (const img of [blog.blogImage, ...[...blog.posts, ...blog.previews].flatMap((p) => [p.image, p.art]).filter(Boolean)]) {
-    if (img.file && img.src.startsWith('/blog/assets/covers/')) used.set(img.src.split('/').pop().replace(/\.jpg$/, ''), img.file);
+    if (img.file && img.src.startsWith('/blog/assets/covers/')) used.set(img.src.split('?')[0].split('/').pop().replace(/\.jpg$/, ''), img.file);
   }
   return [...used].map(([name, file]) => ({ params: { name }, props: { file } }));
 }

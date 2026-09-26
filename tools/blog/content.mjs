@@ -1,6 +1,7 @@
 // Blog icerigi: ayarlar, yazilarin yuklenmesi/dogrulanmasi ve ortak yardimcilar.
 // Hem Astro sayfalari (tools/blog-app) hem kok dosya ureticisi (build-blog.mjs) bunu kullanir.
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
@@ -129,7 +130,10 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
 
   const cover = (slug) => {
     const f = path.join(COVER_DIR, `${slug}.jpg`);
-    return fs.existsSync(f) ? { src: `/blog/assets/covers/${slug}.jpg`, file: f, ...imageSize(f) } : null;
+    if (!fs.existsSync(f)) return null;
+    // Icerik ozeti adrese eklenir: gorsel yeniden uretilince tarayici ve CDN onbellegi eskiyi gostermez.
+    const v = crypto.createHash('sha1').update(fs.readFileSync(f)).digest('hex').slice(0, 8);
+    return { src: `/blog/assets/covers/${slug}.jpg?v=${v}`, file: f, ...imageSize(f) };
   };
   const fallbackImg = { src: '/assets/img/educator-img14.jpg', ...imageSize(path.join(ROOT, 'assets/img/educator-img14.jpg')) };
   const blogImage = cover('_blog') || fallbackImg;

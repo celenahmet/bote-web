@@ -28,6 +28,7 @@
 html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--top) + 16px)}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--display);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 img{max-width:100%;height:auto;display:block}
+[hidden]{display:none!important}
 a{color:var(--violet);text-decoration-thickness:1px;text-underline-offset:3px}
 a:hover{color:var(--pink)}
 :focus-visible{outline:2px solid var(--pink);outline-offset:3px;border-radius:4px}
@@ -153,19 +154,21 @@ p{margin:0}
 
 /* reklam karti: sabit alan, sayfa kaymasi yok */
 .ad{display:flex;flex-direction:column;min-height:250px}
+.promo{display:flex;flex-direction:column}
+.promo-tag{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);align-self:flex-end}
 .ad-label{font:500 10.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);align-self:flex-end}
-.ad-card{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;padding:14px 16px 18px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:var(--shadow)}
-.ad-logo{display:inline-flex;text-decoration:none;margin-top:-4px}
-.ad-logo{min-height:44px;align-items:center}
-.ad-logo img{height:40px;width:auto;max-width:200px}
-:root[data-theme="dark"] .ad-logo img{background:#fff;border-radius:10px;padding:4px 10px;box-sizing:content-box}
-.ad-wordmark{font:800 25px/1.1 var(--display);letter-spacing:-.02em;color:#3B2A8F}
-.ad-wordmark b{font-weight:800;background:linear-gradient(90deg,#7B3FE4,#E0409A);-webkit-background-clip:text;background-clip:text;color:transparent}
-:root[data-theme="dark"] .ad-wordmark{color:#CFC3FF}
-.ad-text{font:400 14.5px/1.55 var(--display);color:var(--muted)}
-.ad-cta{align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:12px;background:var(--cta);color:var(--cta-ink);font:650 15px var(--display);text-decoration:none}
-.ad-cta:hover{filter:brightness(1.08);color:var(--cta-ink)}
-.ad-stores{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;align-self:stretch}
+.promo-card{min-height:250px;flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;padding:14px 16px 18px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:var(--shadow)}
+.promo-logo{display:inline-flex;text-decoration:none;margin-top:-4px}
+.promo-logo{min-height:44px;align-items:center}
+.promo-logo img{height:40px;width:auto;max-width:200px}
+:root[data-theme="dark"] .promo-logo img{background:#fff;border-radius:10px;padding:4px 10px;box-sizing:content-box}
+.promo-wordmark{font:800 25px/1.1 var(--display);letter-spacing:-.02em;color:#3B2A8F}
+.promo-wordmark b{font-weight:800;background:linear-gradient(90deg,#7B3FE4,#E0409A);-webkit-background-clip:text;background-clip:text;color:transparent}
+:root[data-theme="dark"] .promo-wordmark{color:#CFC3FF}
+.promo-text{font:400 14.5px/1.55 var(--display);color:var(--muted)}
+.promo-cta{align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:12px;background:var(--cta);color:var(--cta-ink);font:650 15px var(--display);text-decoration:none}
+.promo-cta:hover{filter:brightness(1.08);color:var(--cta-ink)}
+.promo-stores{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;align-self:stretch}
 .store{display:flex;align-items:center;justify-content:center;gap:4px;min-height:38px;padding:4px;border-radius:7px;background:#000;color:#fff;text-decoration:none;border:1px solid #444}
 .store:hover{color:#fff;background:#1b1b1b}
 .store span{display:flex;flex-direction:column;align-items:flex-start;line-height:1;text-align:left;min-width:0}
@@ -349,4 +352,4 @@ p{margin:0}
 .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font:500 12.5px var(--mono);color:var(--muted)}
 
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
-@media print{.topbar,.chipbar,.band,.foot,.share,.prevnext,.related,.sidebar,.toc-inline,.ad,.bib-settings{display:none!important}.post-layout{display:block}}
+@media print{.topbar,.chipbar,.band,.foot,.share,.prevnext,.related,.sidebar,.toc-inline,.ad,.promo,.bib-settings{display:none!important}.post-layout{display:block}}
