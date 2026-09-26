@@ -10,6 +10,7 @@ import RecentlyViewed from '../islands/RecentlyViewed.jsx';
 import PostTabs from '../islands/PostTabs.jsx';
 import AdSlot from './AdSlot.astro';
 import UniPanel from './UniPanel.astro';
+import Newsletter from './Newsletter.astro';
 import Icon from './Icon.astro';
 import { loadBlog, trDate } from '../lib.js';
 const { mode = 'sidebar', current = '', pool: poolProp, toc = [], noCats = false, cat = '' } = Astro.props;
@@ -63,6 +64,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
     {mode === 'post' ? (
       <>
         {isPreview ? <PostTabs posts={[]} latest={latest} fallback={fallback} current={current} /> : <PostTabs client:visible posts={lite} latest={latest} fallback={fallback} current={current} />}
+        {!isPreview && <Newsletter id="bulten-yan" />}
         {toc.length > 0 && (
           <nav class="widget side-toc" aria-labelledby="w-toc">
             <h2 class="widget-title" id="w-toc">İçindekiler</h2>
@@ -74,6 +76,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
       </>
     ) : (
       <>
+        {!isPreview && <Newsletter id="bulten-yan" />}
         {isPreview ? <PopularPosts fallback={fallback} posts={[]} current={current} /> : <PopularPosts client:visible fallback={fallback} posts={lite} current={current} />}
         {!isPreview && <RecentlyViewed client:visible posts={lite} current={current} />}
         <section class="widget note-box" aria-labelledby="w-about">

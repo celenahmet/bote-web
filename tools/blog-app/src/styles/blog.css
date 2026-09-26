@@ -233,6 +233,17 @@ p{margin:0}
 .wtabs button:hover{color:var(--ink)}
 .wtabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(20,10,40,.10)}
 .wtabs button:focus-visible{outline:2px solid var(--violet);outline-offset:1px}
+/* bulten kutusu (blog.yml > newsletter.action doluysa) */
+.nl .widget-title{display:flex;align-items:center;gap:8px}
+.nl .widget-title .ico{color:var(--violet)}
+.nl-lead{margin:0;font-size:14.5px;line-height:1.55;color:var(--ink-2)}
+.nl-form{display:flex;flex-direction:column;gap:8px}
+.nl-form input{min-height:44px;padding:0 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:400 15px var(--display)}
+.nl-form input:focus-visible{outline:2px solid var(--violet);outline-offset:1px;border-color:var(--violet)}
+.nl-form button{min-height:44px;border:0;border-radius:12px;background:var(--ink);color:var(--bg);font:650 15px var(--display);cursor:pointer}
+.nl-form button:hover{background:var(--violet);color:#fff}
+.nl-note{margin:0;font-size:12.5px;line-height:1.5;color:var(--muted)}
+.nl-note a{color:var(--violet)}
 .side-toc a:hover{color:var(--violet)}
 .side-toc a[aria-current]{border-left-color:var(--pink);color:var(--ink);font-weight:600}
 

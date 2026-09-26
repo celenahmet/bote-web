@@ -1,0 +1,24 @@
+---
+// Bulten kutusu (Ahmet 27.09): blog.yml > newsletter.action doluysa basilir, bossa hic basilmaz.
+// Form hazir servisin (orn. MailerLite) gomulu form adresine gider; onay e-postasi, liste ve
+// abonelikten cikma servistedir. Sitede e-posta saklanmaz.
+import { loadBlog } from '../lib.js';
+import Icon from './Icon.astro';
+const blog = loadBlog();
+const nl = blog.cfg.newsletter || {};
+const on = /^https:\/\//.test(nl.action || '');
+const { id = 'bulten' } = Astro.props;
+---
+{on && (
+  <section class="widget nl" aria-labelledby={`${id}-baslik`}>
+    <h2 class="widget-title" id={`${id}-baslik`}><Icon name="mail" size={17} />Bülten</h2>
+    <p class="nl-lead">Yeni yazılar yayımlandığında e‑postanıza gelsin.</p>
+    <form class="nl-form" action={nl.action} method="post" target="_blank">
+      <label class="sr-only" for={`${id}-eposta`}>E-posta adresiniz</label>
+      <input id={`${id}-eposta`} type="email" name={nl.emailField || 'email'} required autocomplete="email" placeholder="E-posta adresiniz" />
+      {Object.entries(nl.hidden || {}).map(([k, v]) => <input type="hidden" name={k} value={String(v)} />)}
+      <button type="submit">Abone ol</button>
+    </form>
+    <p class="nl-note">Onay e-postasındaki bağlantıya tıklayınca abonelik başlar; her e-postada çıkış bağlantısı vardır. <a href={nl.privacy || '/blog/editor-ekibi#gizlilik'}>Gizlilik</a></p>
+  </section>
+)}

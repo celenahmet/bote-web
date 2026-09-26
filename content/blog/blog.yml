@@ -60,6 +60,16 @@ categories:
 
 # Reklam alanlari. adsense.client doldurulursa (ca-pub-...) ilgili alanlarda AdSense
 # gosterilir ve kok dizine ads.txt uretilir; bos ise site ici tanitim (house) gosterilir.
+# Bulten (Ahmet 27.09: hazir servis, orn. MailerLite). Hesap acilip gomulu form olusturulunca
+# action (formun gonderildigi tam adres) ve gizli alanlar buraya yazilir. action bos kaldikca
+# kutu hic basilmaz. Etkinlestirmeden once Editor Ekibi > Gizlilik bolumune bulten maddesi eklenir
+# (hangi servis, hangi veri, amac, cikis yolu).
+newsletter:
+  action: ""
+  emailField: "fields[email]"
+  hidden: {}
+  privacy: /blog/editor-ekibi#gizlilik
+
 ads:
   adsense:
     client: ""
