@@ -32,7 +32,7 @@ const curCat = pool.find((p) => p.slug === current)?.category.slug;
     </div>
   </section>
 ) : (
-  <aside class="sidebar" aria-label="Blog kenar çubuğu">
+  <aside class="sidebar" aria-label="Blog kenar çubuğu" data-sticky-side>
     <AdSlot slot="sidebar-top" />
     {cats.length > 0 && (
       <section class="widget" aria-labelledby="w-cats">
@@ -74,3 +74,19 @@ const curCat = pool.find((p) => p.slug === current)?.category.slug;
     )}
   </aside>
 )}
+<script>
+  // Kenar cubugu icerikle birlikte akar; sonu ekrana gelince sabitlenir (uzun kenar cubugu icin
+  // "alttan yapiskan"). Kisa kenar cubugu ust bara yapisir. Dar ekranda normal akis.
+  const side = document.querySelector('[data-sticky-side]');
+  if (side) {
+    const wide = matchMedia('(min-width: 1000px)');
+    const fit = () => {
+      if (!wide.matches) { side.style.top = ''; return; }
+      const bar = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--top')) || 64;
+      side.style.top = `${Math.min(bar + 20, innerHeight - side.offsetHeight - 20)}px`;
+    };
+    new ResizeObserver(fit).observe(side);
+    addEventListener('resize', fit);
+    fit();
+  }
+</script>

@@ -16,12 +16,12 @@
   --display:"Bricolage Grotesque",ui-sans-serif,"Segoe UI",Helvetica,Arial,sans-serif;
   --serif:"Literata",Georgia,"Times New Roman",serif;
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono","DejaVu Sans Mono",monospace;
-  --gutter:16px; --measure:72ch; --side:320px; --top:64px; --cta:#1F63F0; --cta-ink:#fff;
+  --gutter:16px; --measure:72ch; --side:320px; --top:64px;
 }
 :root[data-theme="dark"]{color-scheme:dark;
   --bg:#0E0A14; --surface:#151020; --raised:#1D1629; --ink:#F1ECF8; --ink-2:#D4CBE2; --muted:#A197B5; --line:#2B2338;
   --violet:#B9A1FF; --violet-soft:#221A37; --pink:#FF7EAD; --pink-soft:#35152A; --en:#5ED3BE; --tr:#F2B266;
-  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35); --cta:#4C86FF; --cta-ink:#0B0714}
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35)}
 
 @view-transition{navigation:auto}
 *,*::before,*::after{box-sizing:border-box}
@@ -145,7 +145,7 @@ p{margin:0}
 .cats .count{flex:none;min-width:28px;text-align:center;font:600 12px/1 var(--mono);color:var(--muted);background:var(--raised);border-radius:999px;padding:5px 8px}
 .note-box p{font:400 15.5px/1.6 var(--serif);color:var(--ink-2)}
 .sticky{position:sticky;top:calc(var(--top) + 20px)}
-.side-toc{position:sticky;top:calc(var(--top) + 20px);max-height:calc(100vh - var(--top) - 40px);overflow:auto;scrollbar-width:thin}
+.side-toc{min-width:0}
 .side-toc ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;border-left:2px solid var(--line)}
 .side-toc a{display:block;padding:6px 0 6px 14px;margin-left:-2px;border-left:2px solid transparent;color:var(--ink-2);text-decoration:none;font:400 14.5px/1.4 var(--display)}
 .side-toc .sub a{padding-left:28px;font-size:13.5px;color:var(--muted)}
@@ -160,26 +160,32 @@ p{margin:0}
 .promo-card{min-height:250px;flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;padding:14px 16px 18px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:var(--shadow)}
 .promo-logo{display:inline-flex;text-decoration:none;margin-top:-4px}
 .promo-logo{min-height:44px;align-items:center}
-.promo-logo img{height:40px;width:auto;max-width:200px}
+.promo-logo img{height:48px;width:auto;max-width:210px}
 :root[data-theme="dark"] .promo-logo img{background:#fff;border-radius:10px;padding:4px 10px;box-sizing:content-box}
 .promo-wordmark{font:800 25px/1.1 var(--display);letter-spacing:-.02em;color:#3B2A8F}
 .promo-wordmark b{font-weight:800;background:linear-gradient(90deg,#7B3FE4,#E0409A);-webkit-background-clip:text;background-clip:text;color:transparent}
 :root[data-theme="dark"] .promo-wordmark{color:#CFC3FF}
 .promo-text{font:400 14.5px/1.55 var(--display);color:var(--muted)}
-.promo-cta{align-self:stretch;display:flex;align-items:center;justify-content:center;min-height:44px;border-radius:12px;background:var(--cta);color:var(--cta-ink);font:650 15px var(--display);text-decoration:none}
-.promo-cta:hover{filter:brightness(1.08);color:var(--cta-ink)}
+.promo-cta{align-self:stretch;display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;border-radius:999px;background:linear-gradient(90deg,var(--violet),var(--pink));color:#fff;font:650 15px var(--display);text-decoration:none;box-shadow:0 6px 18px color-mix(in srgb,var(--violet) 28%,transparent)}
+.promo-cta:hover{color:#fff;filter:brightness(1.06)}
+:root[data-theme="dark"] .promo-cta{color:#0E0A14}
 .promo-stores{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;align-self:stretch}
-.store{display:flex;align-items:center;justify-content:center;gap:4px;min-height:38px;padding:4px;border-radius:7px;background:#000;color:#fff;text-decoration:none;border:1px solid #444}
-.store:hover{color:#fff;background:#1b1b1b}
-.store span{display:flex;flex-direction:column;align-items:flex-start;line-height:1;text-align:left;min-width:0}
-.store small{font:500 6.5px/1.1 var(--display);letter-spacing:.02em;white-space:nowrap}
-.store b{font:600 10.5px/1.15 var(--display);white-space:nowrap;letter-spacing:-.01em}
-.store .ico{width:15px;height:15px}
+.store{display:flex;align-items:center;justify-content:center;gap:5px;min-height:36px;padding:0 6px;border-radius:999px;background:var(--surface);color:var(--ink-2);border:1px solid var(--line);text-decoration:none;font:600 12px var(--display);white-space:nowrap}
+.store:hover{border-color:var(--violet);color:var(--violet)}
+.store .ico{width:14px;height:14px;flex:none}
 
 /* --- yazi: sol metin, sag kenar cubugu (ust hizalari ayni) --- */
 .post-layout{display:grid;grid-template-columns:minmax(0,1fr);gap:40px;padding-block:28px 56px}
-@media (min-width:1080px){.post-layout{grid-template-columns:minmax(0,1fr) var(--side);gap:48px;align-items:start}.post-layout>.sidebar{position:relative;height:100%}}
-.post-main{min-width:0;display:flex;flex-direction:column;gap:28px}
+.post-main,.post-body{min-width:0;display:flex;flex-direction:column;gap:28px}
+/* genis ekran: baslik sol ust satirda; sag blok ikinci satirda, kapak gorseliyle ayni hizada baslar */
+@media (min-width:1080px){
+  .post-layout{grid-template-columns:minmax(0,1fr) var(--side);grid-template-rows:auto auto;column-gap:48px;row-gap:28px}
+  .post-main{grid-column:1;grid-row:1 / span 2;display:grid;grid-template-rows:subgrid;row-gap:28px}
+  .post-main>.post-head{grid-row:1}
+  .post-main>.post-body{grid-row:2}
+  .post-layout>.sidebar{grid-column:2;grid-row:2;position:sticky;top:calc(var(--top) + 20px);align-self:start}
+}
+@media (min-width:1000px){.index-grid>.sidebar{position:sticky;top:calc(var(--top) + 20px);align-self:start}}
 .post-head{display:flex;flex-direction:column;align-items:flex-start;gap:16px;min-width:0}
 .badge{display:inline-flex;align-items:center;padding:5px 12px;border-radius:8px;background:var(--violet);color:#fff;font:650 13px/1.2 var(--display);text-decoration:none}
 .badge:hover{color:#fff;background:var(--pink)}

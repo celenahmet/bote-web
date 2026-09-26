@@ -73,58 +73,60 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         {!preview && <ViewCount client:idle slug={post.slug} count icon={icon('eye', { size: 16 })} />}
       </div>
     </header>
-    {post.art && (
-      <figure class="post-art">
-        <img src={post.art.src} width={post.art.width} height={post.art.height} alt={`${post.title} yazısının kapak görseli`} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
-      </figure>
-    )}
-    <div class="prose">
-      {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
-      {post.summary.length > 0 && (
-        <section class="tldr" aria-labelledby="kisaca">
-          <h2 id="kisaca">Kısaca</h2>
-          <ul>{post.summary.map((s) => <li set:html={renderInline(s)} />)}</ul>
+    <div class="post-body">
+      {post.art && (
+        <figure class="post-art">
+          <img src={post.art.src} width={post.art.width} height={post.art.height} alt={`${post.title} yazısının kapak görseli`} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
+        </figure>
+      )}
+      <div class="prose">
+        {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
+        {post.summary.length > 0 && (
+          <section class="tldr" aria-labelledby="kisaca">
+            <h2 id="kisaca">Kısaca</h2>
+            <ul>{post.summary.map((s) => <li set:html={renderInline(s)} />)}</ul>
+          </section>
+        )}
+        <details class="toc-inline toc">
+          <summary>Bu yazıda neler var?</summary>
+          <ol>{tocItems.map((h) => <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
+        </details>
+        <Fragment set:html={post.html} />
+        {post.faq.length > 0 && (
+          <section class="faq" aria-labelledby="sss">
+            <h2 id="sss">Sık sorulan sorular</h2>
+            {post.faq.map((f) => <details class="qa"><summary><h3>{f.q}</h3></summary><p set:html={renderInline(f.a)} /></details>)}
+          </section>
+        )}
+        <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
+          <div class="bib-head">
+            <h2 id="kaynaklar-baslik">Kaynaklar <span class="bib-count">{post.sources.length}</span></h2>
+            <details class="bib-settings" data-bib-settings hidden>
+              <summary><Icon name="settings-2" size={16} />Kaynakça ayarları</summary>
+              <div class="bib-settings-body">
+                <label class="switch"><input type="checkbox" data-pref="cites" /><span>Metinde atıf numaralarını göster</span></label>
+                <label class="switch"><input type="checkbox" data-pref="backrefs" /><span>Kaynakçada “Metinde göster” bağlantıları</span></label>
+                <p>İkisi de varsayılan olarak kapalıdır; seçiminiz bu tarayıcıda hatırlanır.</p>
+              </div>
+            </details>
+          </div>
+          <SourceList sources={post.sources} />
+        </section>
+        <ShareBar client:visible url={url} title={post.title} />
+      </div>
+      {(newer || older) && (
+        <nav class="prevnext" aria-label="Diğer yazılar">
+          {older ? <a href={older.url}><span>← Önceki yazı</span>{older.title}</a> : <span />}
+          {newer && <a class="next" href={newer.url}><span>Sonraki yazı →</span>{newer.title}</a>}
+        </nav>
+      )}
+      {related.length > 0 && (
+        <section class="related" aria-labelledby="ilgili">
+          <h2 id="ilgili">İlgili yazılar</h2>
+          <ol class="rows">{related.map((p) => <li><PostCard post={p} /></li>)}</ol>
         </section>
       )}
-      <details class="toc-inline toc">
-        <summary>Bu yazıda neler var?</summary>
-        <ol>{tocItems.map((h) => <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}>{h.text}</a></li>)}</ol>
-      </details>
-      <Fragment set:html={post.html} />
-      {post.faq.length > 0 && (
-        <section class="faq" aria-labelledby="sss">
-          <h2 id="sss">Sık sorulan sorular</h2>
-          {post.faq.map((f) => <details class="qa"><summary><h3>{f.q}</h3></summary><p set:html={renderInline(f.a)} /></details>)}
-        </section>
-      )}
-      <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
-        <div class="bib-head">
-          <h2 id="kaynaklar-baslik">Kaynaklar <span class="bib-count">{post.sources.length}</span></h2>
-          <details class="bib-settings" data-bib-settings hidden>
-            <summary><Icon name="settings-2" size={16} />Kaynakça ayarları</summary>
-            <div class="bib-settings-body">
-              <label class="switch"><input type="checkbox" data-pref="cites" /><span>Metinde atıf numaralarını göster</span></label>
-              <label class="switch"><input type="checkbox" data-pref="backrefs" /><span>Kaynakçada “Metinde göster” bağlantıları</span></label>
-              <p>İkisi de varsayılan olarak kapalıdır; seçiminiz bu tarayıcıda hatırlanır.</p>
-            </div>
-          </details>
-        </div>
-        <SourceList sources={post.sources} />
-      </section>
-      <ShareBar client:visible url={url} title={post.title} />
     </div>
-    {(newer || older) && (
-      <nav class="prevnext" aria-label="Diğer yazılar">
-        {older ? <a href={older.url}><span>← Önceki yazı</span>{older.title}</a> : <span />}
-        {newer && <a class="next" href={newer.url}><span>Sonraki yazı →</span>{newer.title}</a>}
-      </nav>
-    )}
-    {related.length > 0 && (
-      <section class="related" aria-labelledby="ilgili">
-        <h2 id="ilgili">İlgili yazılar</h2>
-        <ol class="rows">{related.map((p) => <li><PostCard post={p} /></li>)}</ol>
-      </section>
-    )}
   </article>
   <Widgets mode="post" current={post.slug} pool={list} toc={tocItems} />
   </div>

@@ -46,7 +46,7 @@ const STORES = {
           {house.stores.filter((s) => STORES[s.id]).map((s) => (
             <a class="store" href={s.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand}: ${STORES[s.id].label}`}>
               <Icon name={STORES[s.id].icon} brand size={17} />
-              <span><small>{STORES[s.id].top}</small><b>{STORES[s.id].name}</b></span>
+              <span>{STORES[s.id].name}</span>
             </a>
           ))}
         </div>
