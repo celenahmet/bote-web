@@ -14,7 +14,8 @@
   --violet:#5A2BC4; --violet-soft:#EEE8FC; --pink:#C8205F; --pink-soft:#FCE9F1; --en:#0B6E5E; --tr:#8A4B00;
   --shadow:0 1px 2px rgba(27,20,38,.06),0 8px 24px rgba(27,20,38,.06);
   --display:"Bricolage Grotesque",ui-sans-serif,"Segoe UI",Helvetica,Arial,sans-serif;
-  --serif:"Literata",Georgia,"Times New Roman",serif;
+  /* Ahmet 26.09: Literata (tırnaklı) uzun metinde göz yoruyordu; gövde metni de başlık fontunda. */
+  --serif:var(--display);
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono","DejaVu Sans Mono",monospace;
   --gutter:16px; --measure:72ch; --side:320px; --top:64px;
 }
@@ -255,7 +256,7 @@ p{margin:0}
 .post-art img{width:100%;border-radius:18px;aspect-ratio:3/1;object-fit:cover;background:#140E1F}
 .draft-banner{font:600 14px var(--mono);color:var(--tr);background:var(--pink-soft);border-radius:10px;padding:10px 14px}
 
-.prose{min-width:0;max-width:var(--measure);width:100%;font:400 18.5px/1.75 var(--serif);color:var(--ink);display:flex;flex-direction:column;gap:0}
+.prose{min-width:0;max-width:var(--measure);width:100%;font:400 18px/1.72 var(--serif);color:var(--ink);display:flex;flex-direction:column;gap:0}
 .prose>*+*{margin-top:1.05em}
 .prose h2{font-size:clamp(25px,3vw,31px);font-weight:700;margin-top:1.9em;scroll-margin-top:calc(var(--top) + 20px)}
 .prose h3{font-size:clamp(20px,2.4vw,23px);font-weight:650;margin-top:1.5em}
