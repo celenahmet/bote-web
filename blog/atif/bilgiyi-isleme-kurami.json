@@ -1,0 +1,11 @@
+{
+  "title": "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği",
+  "url": "https://www.bote.web.tr/blog/bilgiyi-isleme-kurami",
+  "author": "BÖTE Editör Ekibi",
+  "datePublished": "2026-09-26",
+  "dateModified": "2026-09-26",
+  "apa": "BÖTE Editör Ekibi. (2026, 26 Eylül). Bilgiyi işleme kuramı: Bellek modelleri ve çalışma belleği. BÖTE Blog. https://www.bote.web.tr/blog/bilgiyi-isleme-kurami",
+  "apaHtml": "BÖTE Editör Ekibi. (2026, 26 Eylül). Bilgiyi işleme kuramı: Bellek modelleri ve çalışma belleği. <i>BÖTE Blog</i>. https://www.bote.web.tr/blog/bilgiyi-isleme-kurami",
+  "bibtex": "@online{bote-bilgiyi-isleme-kurami,\n  author       = {{BÖTE Editör Ekibi}},\n  title        = {Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği},\n  organization = {BÖTE Blog},\n  year         = {2026},\n  date         = {2026-09-26},\n  url          = {https://www.bote.web.tr/blog/bilgiyi-isleme-kurami},\n  langid       = {turkish}\n}",
+  "embed": "https://www.bote.web.tr/blog/embed/bilgiyi-isleme-kurami"
+}
