@@ -459,3 +459,53 @@ p{margin:0}
 .store img{display:block;width:100%;height:auto}
 .store:hover{opacity:.85}
 .uc-get .store img{width:auto;height:38px}
+
+/* ── yazı sonu: faydalı mı, ifadeler, paylaş, yorumlar (26.09) ─────────────
+   ahmetcelen.com.tr'deki sistemin taşınması. Tek kart: üstte "faydalı mı" ve
+   ifadeler, altta paylaş. Depo bağlı değilse üst bölüm gizli, kart yalnız
+   paylaş satırıdır. Yorumlar kartın hemen altında. */
+.bs-son{margin-top:2.2em!important;padding:18px 22px;background:var(--surface);border:1px solid var(--line);border-radius:16px;font:400 15px/1.5 var(--display)}
+.bs-son .share{margin-top:0!important}
+/* ShareBar bir React adasi (astro-island ile sarili); ayirici sarmalayici div'e verilir. */
+.bs-son>.bs-etk:not([hidden])+.bs-son-paylas{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+.bs-etk[hidden],.bs-yorumlar[hidden],.bs-etk-geri[hidden],.bs-yorum-form[hidden],.bs-yorum-bos[hidden],.bs-yorum-ac[hidden]{display:none!important}
+.bs-etk-ust{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.prose .bs-etk-soru{margin:0;font:650 16px var(--display);color:var(--ink)}
+.bs-etk-oy{display:flex;gap:8px}
+.bs-etk button,.bs-yorumlar button{cursor:pointer}
+.bs-etk-oy button,.bs-dugme-ikincil{display:inline-flex;align-items:center;gap:7px;min-height:38px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:500 14px var(--display)}
+.bs-etk-oy button:hover,.bs-dugme-ikincil:hover{border-color:var(--violet);color:var(--violet)}
+.bs-etk-oy button[aria-pressed="true"],.bs-etk-ifade button[aria-pressed="true"]{background:var(--violet-soft);border-color:var(--violet);color:var(--violet)}
+.bs-etk-n{font-weight:700;font-variant-numeric:tabular-nums}
+.bs-etk-n:empty{display:none}
+.bs-etk-ifade{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.bs-etk-ifade button{display:inline-flex;align-items:center;gap:6px;min-height:36px;padding:0 12px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);font:600 13.5px var(--display);line-height:1}
+.bs-etk-ifade button:hover{border-color:var(--violet)}
+.bs-etk-ifade button>span{font-size:18px;line-height:1}
+.bs-etk[aria-busy="true"] button{cursor:progress}
+.bs-etk-geri,.bs-yorum-form{display:grid;gap:12px}
+.bs-etk-geri{margin-top:14px}
+.bs-etk-geri label,.bs-yorum-form label{display:grid;gap:6px;font:600 14px var(--display);color:var(--ink)}
+.bs-son textarea,.bs-yorum-form textarea,.bs-yorum-form input{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:400 15px/1.55 var(--display);resize:vertical}
+.bs-son textarea:focus,.bs-yorum-form textarea:focus,.bs-yorum-form input:focus{outline:2px solid var(--violet);outline-offset:1px;border-color:var(--violet);background:var(--surface)}
+.bs-etk-geri-alt{display:flex;flex-wrap:wrap;gap:8px}
+.bs-dugme-ana{display:inline-flex;align-items:center;min-height:38px;padding:0 18px;border-radius:999px;border:1px solid var(--violet);background:var(--violet);color:#fff;font:600 14px var(--display)}
+.bs-dugme-ana:hover{filter:brightness(1.08)}
+.bs-dugme-ana:disabled{opacity:.6;cursor:progress}
+.prose .bs-etk-durum,.prose .bs-yorum-durum{margin:10px 0 0;font:400 14px var(--display);color:var(--muted)}
+.bs-etk-durum:empty,.bs-yorum-durum:empty{display:none}
+.bs-yorumlar{scroll-margin-top:calc(var(--top) + 20px)}
+.prose .bs-yorum-baslik{display:flex;align-items:center;gap:10px;margin-top:1.6em}
+.bs-yorum-baslik em{font:600 13px var(--display);font-style:normal;color:var(--muted);background:var(--raised);border-radius:20px;padding:2px 10px}
+.bs-yorum-baslik em:empty{display:none}
+.prose .bs-yorum-liste{list-style:none;margin:0 0 16px;padding:0;display:grid;gap:12px}
+.bs-yorum-liste li{padding:14px 16px;background:var(--surface);border:1px solid var(--line);border-radius:12px;font:400 16px/1.6 var(--display)}
+.prose .bs-yorum-ust{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px;margin:0 0 6px}
+.bs-yorum-ust strong{color:var(--ink);font-size:15px}
+.bs-yorum-ust time{font:500 12.5px var(--mono);color:var(--muted)}
+.prose .bs-yorum-metin{margin:0;white-space:pre-line;overflow-wrap:anywhere}
+.prose .bs-yorum-bos{color:var(--muted);margin:0 0 14px;font:400 16px var(--display)}
+.bs-yorum-form{margin-top:4px;padding:18px;background:var(--surface);border:1px solid var(--line);border-radius:16px}
+.prose .bs-yorum-not{margin:0;font:400 13px/1.55 var(--display);color:var(--muted)}
+.bs-bal{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+@media (max-width:480px){.bs-son{padding:16px}.bs-etk-oy{width:100%}.bs-etk-oy button{flex:1;justify-content:center}}

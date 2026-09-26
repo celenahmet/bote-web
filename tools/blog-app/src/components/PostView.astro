@@ -13,6 +13,8 @@ import { renderInline } from '../../../blog/markdown.mjs';
 import { stripHtml } from '../../../blog/util.mjs';
 import { citation } from '../../../blog/cite.mjs';
 import { Code } from 'astro:components';
+// Ifade listesi TEK kaynaktan: sunucu da ayni dosyayi okur (api/_lib/etkilesim-core.js).
+import IFADELER from '../../../../api/_lib/ifadeler.json';
 
 // Yazi sayfasi. list: onceki/sonraki ve ilgili yazilarin secildigi liste
 // (yayindakiler ya da taslak onizlemeleri). preview: noindex taslak onizlemesi.
@@ -173,7 +175,47 @@ const ld = { '@context': 'https://schema.org', '@graph': [
             )}
           </div>
         </section>
-        <ShareBar client:visible url={url} title={post.title} />
+        {/* Yazi sonu (26.09, ahmetcelen.com.tr'deki sistemin tasinmasi): faydali mi + ifadeler +
+            paylas TEK kartta, hemen altinda yorumlar. Depo bagli degilse ya da adres yayindaki
+            bir yazi degilse (taslak) bolumler gizli kalir; kart yalniz paylas satiri olur.
+            Okura donuk metinler VARSAYILAN; son hali Ahmet'in. */}
+        <div class="bs-son">
+          <section class="bs-etk" data-yol={post.url} aria-label="Bu yazı hakkında" hidden>
+            <div class="bs-etk-ust">
+              <p class="bs-etk-soru">Bu yazı faydalı oldu mu?</p>
+              <div class="bs-etk-oy">
+                <button type="button" data-oy="begeni" aria-pressed="false"><Icon name="thumbs-up" size={17} /><span>Evet</span><b class="bs-etk-n" data-n="begeni"></b></button>
+                <button type="button" data-oy="begenmeme" aria-pressed="false"><Icon name="thumbs-down" size={17} /><span>Hayır</span><b class="bs-etk-n" data-n="begenmeme"></b></button>
+              </div>
+            </div>
+            <form class="bs-etk-geri" hidden>
+              <label>Neyi eksik buldunuz?<textarea name="metin" rows="3" minlength="3" maxlength="1000" required></textarea></label>
+              <div class="bs-etk-geri-alt"><button type="submit" class="bs-dugme-ana">Gönder</button><button type="button" class="bs-dugme-ikincil bs-etk-vazgec">Vazgeç</button></div>
+            </form>
+            <div class="bs-etk-ifade" role="group" aria-label="İfade bırakın">
+              {IFADELER.map(([a, e, ad]) => (
+                <button type="button" data-ifade={a} aria-pressed="false" aria-label={ad} title={ad}><span aria-hidden="true">{e}</span><b class="bs-etk-n" data-n={`i:${a}`}></b></button>
+              ))}
+            </div>
+            <p class="bs-etk-durum" role="status" aria-live="polite"></p>
+          </section>
+          <div class="bs-son-paylas"><ShareBar client:visible url={url} title={post.title} /></div>
+        </div>
+        <section class="bs-yorumlar" id="yorumlar" data-yol={post.url} hidden>
+          <h2 class="bs-yorum-baslik">Yorumlar<em class="bs-yorum-sayi"></em></h2>
+          <ol class="bs-yorum-liste"></ol>
+          <p class="bs-yorum-bos" hidden>Henüz yorum yok.</p>
+          <button type="button" class="bs-dugme-ikincil bs-yorum-ac" aria-expanded="false" aria-controls="yorum-form"><Icon name="message-square" size={17} />Yorum yazın</button>
+          <form class="bs-yorum-form" id="yorum-form" hidden>
+            <label>Ad soyad ya da rumuz<input name="rumuz" minlength="2" maxlength="40" required autocomplete="nickname" /></label>
+            <label>Yorumunuz<textarea name="metin" rows="4" minlength="3" maxlength="1500" required></textarea></label>
+            <div class="bs-bal" aria-hidden="true"><label>Web sitesi<input name="web" tabindex="-1" autocomplete="off" /></label></div>
+            <p class="bs-yorum-not">Yorumlar onaylandıktan sonra yayımlanır. Yalnız yazdığınız ad ya da rumuz ile yorumunuz saklanır, e-posta istenmez. Aynı tepkinin tekrarlanmaması için tarayıcınıza yalnız bu işe ait bir çerez bırakılır; IP adresiniz saklanmaz.</p>
+            <div class="bs-etk-geri-alt"><button type="submit" class="bs-dugme-ana">Gönder</button><button type="button" class="bs-dugme-ikincil bs-yorum-vazgec">Vazgeç</button></div>
+          </form>
+          <p class="bs-yorum-durum" role="status" aria-live="polite"></p>
+        </section>
+        <script is:inline src="/blog/etkilesim.js" defer></script>
       </div>
       {(newer || older) && (
         <nav class="prevnext" aria-label="Diğer yazılar">
