@@ -24,7 +24,6 @@ const related = [...list.filter((p) => p !== post && p.category.slug === post.ca
 const trail = preview
   ? [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Taslak önizleme', url: '/blog/taslak' }, { name: post.title, url: post.url }]
   : [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: post.category.name, url: post.category.url }, { name: post.title, url: post.url }];
-const lastCheck = post.sources.reduce((m, s) => (s.accessed > m ? s.accessed : m), post.date);
 const tocItems = [...(post.summary.length ? [{ id: 'kisaca', text: 'Kısaca', depth: 2 }] : []), ...post.headings,
   ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 }];
 const url = blog.abs(post.url);
@@ -100,27 +99,18 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       )}
       <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
         <div class="bib-head">
-          <h2 id="kaynaklar-baslik">Kaynaklar</h2>
+          <h2 id="kaynaklar-baslik">Kaynaklar <span class="bib-count">{post.sources.length}</span></h2>
           <details class="bib-settings" data-bib-settings hidden>
             <summary><Icon name="settings-2" size={16} />Kaynakça ayarları</summary>
             <div class="bib-settings-body">
-              <label class="switch"><input type="checkbox" data-cites-toggle /><span>Metinde atıf numaralarını göster</span></label>
-              <p>Varsayılan olarak kapalıdır; seçiminiz bu tarayıcıda hatırlanır.</p>
+              <label class="switch"><input type="checkbox" data-pref="cites" /><span>Metinde atıf numaralarını göster</span></label>
+              <label class="switch"><input type="checkbox" data-pref="backrefs" /><span>Kaynakçada “Metinde göster” bağlantıları</span></label>
+              <p>İkisi de varsayılan olarak kapalıdır; seçiminiz bu tarayıcıda hatırlanır.</p>
             </div>
           </details>
         </div>
-        <p class="bib-note">{post.sources.length} kaynak, {post.foreign} tanesi yabancı dilde. “Metinde” bağlantısı, kaynağa dayanan cümleyi yazıda işaretler.</p>
-        {post.sources.length > 2 ? (
-          <details class="bib-list" open>
-            <summary>Kaynak listesi ({post.sources.length})</summary>
-            <SourceList sources={post.sources} />
-          </details>
-        ) : <SourceList sources={post.sources} />}
+        <SourceList sources={post.sources} />
       </section>
-      <aside class="editorial" aria-label="Editör notu">
-        Bu yazı <a href={blog.author.url}>{blog.author.name}</a> tarafından hazırlandı; kaynaklar en son {trDate(lastCheck)} tarihinde kontrol edildi.
-        Bir hata mı gördünüz? <a href="/contact">İletişim sayfasından</a> bildirin, düzeltmeyi tarihiyle yazıya işleyelim.
-      </aside>
       <ShareBar client:visible url={url} title={post.title} />
     </div>
     {(newer || older) && (
@@ -141,17 +131,24 @@ const ld = { '@context': 'https://schema.org', '@graph': [
   <Widgets mode="band" current={post.slug} pool={list} />
   <CitationPeek client:idle />
   <script>
-    // Kaynakca ayarlari: atif numaralari varsayilan kapali (html[data-cites="on"] ile acilir).
+    // Kaynakca ayarlari: atif numaralari ve "Metinde goster" baglantilari varsayilan kapali
+    // (html[data-cites="on"], html[data-backrefs="on"] ile acilir, tarayicida hatirlanir).
     const root = document.documentElement;
     const box = document.querySelector('[data-bib-settings]');
-    const toggle = box?.querySelector('input[data-cites-toggle]');
-    if (box && toggle) {
+    if (box) {
       box.hidden = false;
-      toggle.checked = root.dataset.cites === 'on';
-      toggle.addEventListener('change', () => {
-        root.dataset.cites = toggle.checked ? 'on' : 'off';
-        try { localStorage.setItem('bote-cites', root.dataset.cites); } catch {}
-      });
+      for (const input of box.querySelectorAll('input[data-pref]')) {
+        const key = input.dataset.pref;
+        input.checked = root.dataset[key] === 'on';
+        input.addEventListener('change', () => {
+          root.dataset[key] = input.checked ? 'on' : 'off';
+          try { localStorage.setItem(`bote-${key}`, root.dataset[key]); } catch {}
+        });
+      }
+    }
+    // Bilgi penceresindeki bir bolume gidilince pencereyi kapat.
+    for (const a of document.querySelectorAll('.src-pop a[href^="#"]')) {
+      a.addEventListener('click', () => a.closest('[popover]')?.hidePopover?.());
     }
     // Kapali bir listedeki hedefe (#kaynak-3, #sss ...) gidilirse listeyi ac.
     const reveal = () => {

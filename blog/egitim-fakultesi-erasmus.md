@@ -3,7 +3,7 @@ title: "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi"
 url: https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler."
 ---
@@ -12,7 +12,7 @@ description: "Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuy
 
 > Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
 
 ## Kısaca
 
@@ -54,6 +54,12 @@ Erasmus+ yalnızca ders almayı değil, yurt dışında staj yapmayı da destekl
 ## Zamanlama: öğretmenlik uygulamasıyla çakışma
 
 Eğitim fakültesi öğrencilerinin dikkat etmesi gereken özel bir nokta var: öğretmenlik uygulaması. Öğretmenlik Uygulaması I ve II dersleri son sınıfta, 7. ve 8. yarıyılda yer alır.[5] Bu dersler Türkiye'deki okullarda yürütüldüğü için, son sınıfta öğrenim hareketliliğine çıkmak planlamayı zorlaştırabilir. Pek çok öğrenci için ikinci ya da üçüncü sınıf daha uygun bir dönem olabilir. Öğretmenlik uygulamasını [bu yazıda](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) anlattık.
+
+## AKTS ve derslerin tanınması
+
+Erasmus+ hareketliliğinde en çok sorulan konu, yurt dışında alınan derslerin kendi programında nasıl sayılacağıdır. Bu işlemin ortak dili **AKTS**'dir (Avrupa Kredi Transfer ve Biriktirme Sistemi). Avrupa Komisyonu'nun kullanıcı rehberine göre 60 AKTS, tam zamanlı bir akademik yılın öğrenci iş yüküne karşılık gelir; bir dönem genellikle 30 AKTS'dir.[6] Kredi, yalnızca derste geçirilen süreyi değil, öğrencinin ders dışı çalışması da dahil toplam iş yükünü ifade eder.
+
+Hareketlilikten önce imzalanan **öğrenim anlaşması**, hangi derslerin alınacağını ve kendi programınızda hangi derslerin yerine sayılacağını belirler. Öğretmen adayları için dikkat edilmesi gereken nokta, meslek bilgisi ve öğretmenlik uygulaması gibi derslerin karşılığının yurt dışında her zaman bulunamayabileceğidir. Bu nedenle anlaşmayı hazırlarken bölüm koordinatörüyle hangi derslerin eşleşebileceğini önceden netleştirmek gerekir.
 
 ## Hibe ve destekler
 
@@ -104,3 +110,4 @@ Hareketlilik öncesinde imzalanan öğrenim anlaşmasındaki dersler, başarıyl
 3. European Commission, Erasmus+ (2026). Opportunities for individuals: Students. https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students (EN, erişim: 2026-09-25)
 4. European Commission, Erasmus+ (2026). Opportunities for individuals: Trainees. https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/trainees (EN, erişim: 2026-09-25)
 5. Yükseköğretim Kurulu (2018). Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Lisans Programı. https://egitim.yok.gov.tr/tr/document/2432 (TR, erişim: 2026-09-25)
+6. European Commission (2015). ECTS Users' Guide 2015. Publications Office of the European Union. https://doi.org/10.2766/87192 (EN, erişim: 2026-09-25)

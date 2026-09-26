@@ -3,7 +3,7 @@ title: "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi"
 url: https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma."
 ---
@@ -12,7 +12,7 @@ description: "Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişi
 
 > Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
 
 ## Kısaca
 
@@ -35,10 +35,10 @@ Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, f
 
 - **1982:** Öğretmen yetiştirme görevi üniversitelere devredildi.[1]
 - **1994–1998:** YÖK/Dünya Bankası hizmet öncesi öğretmen eğitimi projesi kapsamında eğitim fakülteleri yeniden yapılandırıldı. Bölümler, millî eğitimin okul yapısına uygun öğretmen yetiştirecek biçimde düzenlendi. BÖTE gibi yeni bölümler de bu süreçte açıldı.[2]
-- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[3] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Geliştirme" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[4]
+- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[3] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Tasarımı" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[4]
 - **2024:** 7528 sayılı Öğretmenlik Mesleği Kanunu yayımlandı. Kanun, öğretmenlerin seçilmesini, yetiştirilmesini ve atanmasını yeniden düzenledi ve **Millî Eğitim Akademisi**'ni kurdu.[5]
-- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[6] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[7][8]
-- **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[9]
+- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[6] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[7]
+- **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[8]
 
 ## Programlar nasıl yapılandırılmış?
 
@@ -58,9 +58,9 @@ Programların son yılında öğretmen adayları MEB okullarında **öğretmenli
 2. ÖSYM'nin yaptığı **MEB Akademi Giriş Sınavı'na (AGS)** girmek,[6]
 3. Millî Eğitim Akademisi'nin **hazırlık eğitimini** tamamlamak.
 
-MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[9]
+MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[8]
 
-Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[7][8]
+Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[7]
 
 ## Tartışma: Eğitim fakülteleri hâlâ gerekli mi?
 
@@ -70,15 +70,30 @@ Formasyon düzenlemesi, eğitim fakültelerinin rolü üzerine yeni bir tartış
 
 **Eşzamanlı modeli savunanlar** ise öğretmenliğin dört yıl boyunca kuram ve okul uygulamasıyla birlikte olgunlaşan bir mesleki kimlik gerektirdiğini hatırlatıyor. Birkaç dönemlik bir hazırlık eğitiminin bunu tam olarak karşılayıp karşılayamayacağını soruyorlar.
 
-Uluslararası araştırmalar bu tartışmaya net bir "tek model" cevabı vermiyor, ama önemli ipuçları sunuyor. Linda Darling-Hammond, öğretmen yetiştirmede güçlü sistemlere sahip Finlandiya, Singapur, Kanada (Alberta ve Ontario) ve Avustralya'yı (Victoria ve Yeni Güney Galler) inceledi. Çalışmasında bu sistemlerin öğretmen seçimi, hizmet öncesi hazırlık, mesleğe uyum (induction) ve sürekli mesleki gelişimi bir bütün olarak ele aldığını gösteriyor.[10] Başka bir deyişle, belirleyici olan tek başına fakültenin adı değil, bu aşamaların birbirine ne kadar iyi bağlandığıdır.
+Uluslararası araştırmalar bu tartışmaya net bir "tek model" cevabı vermiyor, ama önemli ipuçları sunuyor. Linda Darling-Hammond, öğretmen yetiştirmede güçlü sistemlere sahip Finlandiya, Singapur, Kanada (Alberta ve Ontario) ve Avustralya'yı (Victoria ve Yeni Güney Galler) inceledi. Çalışmasında bu sistemlerin öğretmen seçimi, hizmet öncesi hazırlık, mesleğe uyum (induction) ve sürekli mesleki gelişimi bir bütün olarak ele aldığını gösteriyor.[9] Başka bir deyişle, belirleyici olan tek başına fakültenin adı değil, bu aşamaların birbirine ne kadar iyi bağlandığıdır.
 
-Öğretmenlerin hazır bulunuşluğuna dair veriler de dikkat çekici. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerinde öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde teknoloji kullanımına dair eğitim almıştı. Bu konuda kendini iyi hazırlanmış hissedenlerin oranı ise %43'tü.[11] Hangi model seçilirse seçilsin, hizmet öncesi eğitimin içeriği ve kalitesi belirleyici olmaya devam ediyor.
+Öğretmenlerin hazır bulunuşluğuna dair veriler de dikkat çekici. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerinde öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde teknoloji kullanımına dair eğitim almıştı. Bu konuda kendini iyi hazırlanmış hissedenlerin oranı ise %43'tü.[10] Hangi model seçilirse seçilsin, hizmet öncesi eğitimin içeriği ve kalitesi belirleyici olmaya devam ediyor.
 
 ## Dünyadaki tablo: öğretmen açığı ve mesleğin cazibesi
 
-UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var. Bu ihtiyacın önemli bir kısmı Sahra Altı Afrika'dan kaynaklanıyor. Yüksek gelirli ülkelerde ise asıl sorun, öğretmenliğin cazibesinin azalması ve öğretmenleri meslekte tutmak.[12] Rapor çözüm olarak öğretmenliğin iş birliğine dayalı bir meslek olarak yeniden kurgulanmasını, yaşam boyu mesleki gelişimi ve öğretmenlerin karar süreçlerine katılımını öneriyor.[12]
+UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var. Bu ihtiyacın önemli bir kısmı Sahra Altı Afrika'dan kaynaklanıyor. Yüksek gelirli ülkelerde ise asıl sorun, öğretmenliğin cazibesinin azalması ve öğretmenleri meslekte tutmak.[11] Rapor çözüm olarak öğretmenliğin iş birliğine dayalı bir meslek olarak yeniden kurgulanmasını, yaşam boyu mesleki gelişimi ve öğretmenlerin karar süreçlerine katılımını öneriyor.[11]
 
 Türkiye'nin durumu bu tablodan farklı. Türkiye'de öğretmen adayı sayısı, uzun süredir atama sayısının üzerinde seyrediyor. Bu nedenle tartışma "yeterli öğretmen" sorusundan çok "doğru hazırlanmış öğretmen" sorusu etrafında dönüyor.
+
+## Bu konuda ayrıntılı rehberler
+
+Bu yazıda genel hatlarını çizdiğimiz sistemin her parçasını ayrı yazılarda ele aldık:
+
+| Konu | Yazı |
+|---|---|
+| Fakültelerdeki programlar ve puan türleri | [Eğitim fakültesi bölümleri](https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri) |
+| Tüm programlarda ortak dersler | [Öğretmenlik meslek bilgisi dersleri](https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) |
+| Son sınıftaki okul deneyimi | [Öğretmenlik uygulaması](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) |
+| Mezuniyet sonrası sınav | [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) |
+| Atama öncesi hazırlık dönemi | [Millî Eğitim Akademisi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) |
+| Formasyondaki değişiklik | [Pedagojik formasyon kalktı mı?](https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) |
+| Yasal çerçeve ve kariyer | [7528 sayılı Kanun](https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) |
+| Kalite güvencesi | [Akreditasyon ve EPDAD](https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) |
 
 ## Aday öğrenciler için öneriler
 
@@ -124,9 +139,8 @@ Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte veril
 4. Çetin, A. vd. (2021). 2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 52. https://dergipark.org.tr/tr/pub/deubefd/article/904931 (TR, erişim: 2026-09-25)
 5. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
 6. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
-7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-8. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-09-25)
-10. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
-11. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
-12. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
+7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-09-25)
+9. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
+10. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+11. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)

@@ -1,30 +1,14 @@
 ---
-// Kaynakca maddeleri. Her maddede "Metinde" baglantilari atfin destekledigi cumleye gider
-// ve onu isaretler (.cited:target).
-import { sourceLine, trDate } from '../lib.js';
+// Kaynakca: ilk iki kaynak gorunur; fazlasi "Tumunu gor" ile acilir (JS'siz <details>).
+import SourceItem from './SourceItem.astro';
 const { sources } = Astro.props;
-const letters = 'abcçdefgğhıijklmnoöprsştuüvyz';
-const short = (u) => { const x = u.replace(/^https?:\/\//, '').replace(/\/$/, ''); return x.length > 60 ? `${x.slice(0, 60)}…` : x; };
+const head = sources.slice(0, 2);
+const rest = sources.slice(2);
 ---
-<ol class="src-list">
-  {sources.map((s) => {
-    const l = sourceLine(s);
-    return (
-      <li id={`kaynak-${s.n}`}>
-        <span class="n">{s.n}</span>
-        <div class="src-body">
-          {l.lead} <cite>{l.title}</cite>.{l.pub}
-          <div class="src-meta">
-            <span class={`lang ${s.lang === 'tr' ? 'tr' : 'en'}`}>{s.lang.toUpperCase()}</span>
-            <a href={s.url} rel="noopener" target="_blank">{short(s.url)}</a>
-            <span>erişim {trDate(s.accessed)}</span>
-            {s.refs.length === 1 && <a class="backref" href={`#${s.refs[0]}`}>↑ Metinde göster</a>}
-            {s.refs.length > 1 && (
-              <span class="backref">↑ Metinde: {s.refs.map((r, i) => <a href={`#${r}`} aria-label={`Metindeki ${i + 1}. atıf`}>{letters[i] || i + 1}</a>)}</span>
-            )}
-          </div>
-        </div>
-      </li>
-    );
-  })}
-</ol>
+<ol class="src-list">{head.map((s) => <SourceItem s={s} />)}</ol>
+{rest.length > 0 && (
+  <details class="src-more">
+    <summary><span class="more">Tümünü gör · {rest.length} kaynak daha</span><span class="less">Daha az göster</span></summary>
+    <ol class="src-list" start="3">{rest.map((s) => <SourceItem s={s} />)}</ol>
+  </details>
+)}

@@ -41,7 +41,7 @@ const adsense = blog.cfg.ads.adsense.client;
 <meta name="twitter:description" content={description}>
 <meta name="twitter:image" content={img}>
 <slot name="head" />
-<script is:inline>(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');if(localStorage.getItem('bote-cites')==='on')d.setAttribute('data-cites','on')}catch(e){}})();</script>
+<script is:inline>(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');if(localStorage.getItem('bote-cites')==='on')d.setAttribute('data-cites','on');if(localStorage.getItem('bote-backrefs')==='on')d.setAttribute('data-backrefs','on')}catch(e){}})();</script>
 {adsense && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsense}`} crossorigin="anonymous"></script>}
 <script type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />
 </head>

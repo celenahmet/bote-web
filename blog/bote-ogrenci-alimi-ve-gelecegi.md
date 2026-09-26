@@ -3,7 +3,7 @@ title: "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli
 url: https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Yükseköğretim ve Politika
 description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğret
 
 > BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 
 ## Kısaca
 
@@ -64,7 +64,7 @@ Küresel ölçekte öğretmen açığı da gündemde. UNESCO'nun 2024 Küresel �
 
 ## 2025 sonrası: yeni bir sayfa mı?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[11][12]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[11]
 
 Bu değişiklik iki farklı biçimde yorumlanabilir:
 
@@ -119,5 +119,4 @@ Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine i
 8. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
 9. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
 10. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
-11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-12. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)

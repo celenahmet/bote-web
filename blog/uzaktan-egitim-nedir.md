@@ -3,7 +3,7 @@ title: "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi"
 url: https://www.bote.web.tr/blog/uzaktan-egitim-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi."
 ---
@@ -12,7 +12,7 @@ description: "Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'
 
 > Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
 
 ## Kısaca
 
@@ -26,6 +26,18 @@ Uzaktan eğitim, 2020'deki pandemiyle birlikte herkesin hayatına girdi. Ancak a
 ## Uzaktan eğitim nedir?
 
 Uzaktan eğitim, öğrenen ile öğretenin fiziksel olarak ayrı olduğu ve öğretimin bir iletişim ortamı üzerinden yürütüldüğü eğitim biçimidir. Bu ortam tarih boyunca değişti: mektupla eğitim, radyo, televizyon ve bugün internet. **Çevrim içi öğrenme** ise uzaktan eğitimin internet üzerinden yürütülen biçimidir. Yani her çevrim içi ders uzaktan eğitimdir, ama her uzaktan eğitim çevrim içi değildir.
+
+## Eşzamanlı, eşzamansız, harmanlanmış
+
+Uzaktan eğitimi anlamanın en pratik yolu, öğrenme etkinliklerinin zamanlamasına bakmaktır:
+
+| Biçim | Tanım | Güçlü yanı | Zayıf yanı |
+|---|---|---|---|
+| Eşzamanlı | Öğretici ve öğrenciler aynı anda çevrim içidir (canlı ders) | Anlık etkileşim ve soru-cevap | Zaman esnekliği yok, bağlantı sorunlarına duyarlı |
+| Eşzamansız | Öğrenciler içerik ve etkinliklere kendi zamanlarında erişir | Esneklik, düşünerek yanıt verme | Yalnızlık hissi, öz düzenleme gerektirir |
+| Harmanlanmış | Yüz yüze ve çevrim içi etkinlikler birlikte planlanır | İki biçimin güçlü yanlarını birleştirme | Dikkatli tasarım ve planlama gerektirir |
+
+Bu ayrım, "uzaktan eğitim" başlığı altında birbirinden çok farklı deneyimlerin bulunduğunu gösteriyor. Canlı derslerden oluşan bir program ile kendi hızında ilerlenen bir program aynı sonuçları vermez.
 
 ## Moore'un üç etkileşim türü
 
@@ -49,15 +61,23 @@ Garrison, Anderson ve Archer, çevrim içi yükseköğretimde anlamlı öğrenme
 
 Bu ayrım, pandemi deneyimine dayanarak "uzaktan eğitim işe yaramıyor" demenin neden aceleci bir yargı olduğunu gösteriyor. Aynı zamanda iyi bir uzaktan eğitimin ciddi bir tasarım emeği gerektirdiğini de hatırlatıyor.
 
+## Araştırmalar ne söylüyor?
+
+Uzaktan eğitimin yüz yüze eğitimle karşılaştırılması, eğitim araştırmalarının en çok çalışılan sorularından biri. Bernard ve arkadaşlarının geniş kapsamlı meta-analizi, ortalamada iki biçim arasında başarı açısından belirgin bir fark bulmadı; ancak çalışmalar arasındaki farklılık çok büyüktü. Bazı uzaktan eğitim uygulamaları sınıf içi öğretimden çok daha iyi, bazıları çok daha kötü sonuç veriyordu. Araştırmacılar eşzamansız uygulamaların başarı açısından görece daha olumlu, eşzamanlı uygulamaların ise daha olumsuz sonuçlar verdiğini bildirdi.[4]
+
+Means ve arkadaşlarının daha sonraki meta-analizi ise çevrim içi öğrenmenin ortalamada yüz yüze öğretimle en az eşit, harmanlanmış öğrenmenin ise yüz yüze öğretimden daha etkili olduğunu gösterdi. Araştırmacılar bu avantajın kısmen harmanlanmış derslerde öğrencilere ayrılan ek öğrenme süresinden ve materyallerden kaynaklanabileceği uyarısını da yaptı.[5]
+
+İki çalışmanın ortak mesajı şudur: sonucu belirleyen ortam değil, tasarımdır. "Uzaktan mı, yüz yüze mi?" sorusu yerine "hangi tasarım, hangi öğrenciler için?" sorusu sorulmalıdır.
+
 ## Türkiye'de açıköğretim
 
-Türkiye'de çağdaş anlamda uzaktan yükseköğretimin başlangıcı **Anadolu Üniversitesi Açıköğretim Fakültesi**dir. Fakülte, 20 Temmuz 1982 tarihli Resmî Gazete'de yayımlanan kararnameyle kuruldu. 1981'de yürürlüğe giren 2547 sayılı Yükseköğretim Kanunu, üniversitelere sürekli ve açıköğretim yapma hakkı tanımıştı. Açıköğretim sistemi 1982–1983 öğretim yılında iktisat ve işletme alanlarındaki iki programla eğitime başladı ve zamanla hizmet alanlarını genişletti.[4]
+Türkiye'de çağdaş anlamda uzaktan yükseköğretimin başlangıcı **Anadolu Üniversitesi Açıköğretim Fakültesi**dir. Fakülte, 20 Temmuz 1982 tarihli Resmî Gazete'de yayımlanan kararnameyle kuruldu. 1981'de yürürlüğe giren 2547 sayılı Yükseköğretim Kanunu, üniversitelere sürekli ve açıköğretim yapma hakkı tanımıştı. Açıköğretim sistemi 1982–1983 öğretim yılında iktisat ve işletme alanlarındaki iki programla eğitime başladı ve zamanla hizmet alanlarını genişletti.[6]
 
 Televizyon yayınları ve basılı kitaplarla başlayan bu model, bugün internet tabanlı hizmetlerle sürüyor. Bu tarihçe, uzaktan eğitimin Türkiye'de pandemiyle birlikte ortaya çıkan yeni bir olgu olmadığını, kırk yılı aşkın bir birikime dayandığını gösteriyor.
 
 ## Güçlü ve zayıf yanlar
 
-Uzaktan eğitimi tartışırken iki uç görüşten kaçınmak gerekir. Güçlü yanları gerçektir: coğrafi ve zamansal esneklik sunar, çalışan yetişkinlerin eğitime erişmesini kolaylaştırır ve iyi tasarlanmış materyaller çok sayıda öğrenciye ulaşabilir. Açıköğretim sisteminin kırk yılı aşkın geçmişi bu erişim avantajının somut bir örneğidir.[4]
+Uzaktan eğitimi tartışırken iki uç görüşten kaçınmak gerekir. Güçlü yanları gerçektir: coğrafi ve zamansal esneklik sunar, çalışan yetişkinlerin eğitime erişmesini kolaylaştırır ve iyi tasarlanmış materyaller çok sayıda öğrenciye ulaşabilir. Açıköğretim sisteminin kırk yılı aşkın geçmişi bu erişim avantajının somut bir örneğidir.[6]
 
 Zayıf yanları da göz ardı edilemez. Öz düzenleme becerisi zayıf öğrenciler geride kalabilir; internet ve cihaz erişimindeki eşitsizlikler öğrenme farklarını büyütebilir; uygulama gerektiren beceriler ekran başında tam olarak kazanılamayabilir. Araştırma topluluğu modelinin sosyal ve öğretimsel bulunuşluğa verdiği önem, bu risklerin tasarımla azaltılabileceğini gösterir.[2] Sonuç olarak soru "uzaktan eğitim iyi mi, kötü mü?" değil, "hangi öğrenci, hangi hedef ve hangi tasarım için uygun?" olmalıdır.
 
@@ -107,4 +127,6 @@ Etkililik, eğitimin nasıl tasarlandığına bağlıdır. Planlı, etkileşimli
 1. Moore, M. G. (1989). Three Types of Interaction. American Journal of Distance Education, 3(2), 1–7. https://doi.org/10.1080/08923648909526659 (EN, erişim: 2026-09-25)
 2. Garrison, D. R., Anderson, T. ve Archer, W. (2000). Critical Inquiry in a Text-Based Environment: Computer Conferencing in Higher Education. The Internet and Higher Education, 2(2–3), 87–105. https://doi.org/10.1016/S1096-7516(00)00016-6 (EN, erişim: 2026-09-25)
 3. Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A. (2020). The Difference Between Emergency Remote Teaching and Online Learning. EDUCAUSE Review. https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (EN, erişim: 2026-09-25)
-4. Anadolu Üniversitesi (t.y.). Açıköğretim Sistemi: Tarihçe. https://www.anadolu.edu.tr/acikogretim/acikogretim-sistemi/tarihce (TR, erişim: 2026-09-25)
+4. Bernard, R. M. vd. (2004). How Does Distance Education Compare With Classroom Instruction? A Meta-Analysis of the Empirical Literature. Review of Educational Research, 74(3), 379–439. https://doi.org/10.3102/00346543074003379 (EN, erişim: 2026-09-25)
+5. Means, B., Toyama, Y., Murphy, R. ve Baki, M. (2013). The Effectiveness of Online and Blended Learning: A Meta-Analysis of the Empirical Literature. Teachers College Record, 115(3). https://doi.org/10.1177/016146811311500307 (EN, erişim: 2026-09-25)
+6. Anadolu Üniversitesi (t.y.). Açıköğretim Sistemi: Tarihçe. https://www.anadolu.edu.tr/acikogretim/acikogretim-sistemi/tarihce (TR, erişim: 2026-09-25)

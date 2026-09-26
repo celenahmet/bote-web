@@ -2,6 +2,7 @@
 title: "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?"
 description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar."
 date: 2026-09-25
+updated: 2026-09-26
 category: yuksekogretim
 tags: [öğretmenlik mesleği, TALIS, OECD, mesleğin saygınlığı, öğretmen politikaları]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin TALIS 2018 raporunun birinci cildi. Araştırmanın yaşam boyu öğrenme odağını tanıtmak için kullanıldı."
   - id: talis2018v2
     title: "TALIS 2018 Results (Volume II): Teachers and School Leaders as Valued Professionals"
     publisher: "OECD"
@@ -37,6 +39,7 @@ sources:
     url: "https://doi.org/10.1787/19cf08df-en"
     lang: en
     accessed: 2026-09-25
+    note: "TALIS 2018'in ikinci cildi. Yüzde 26 bulgusu, Türkiye'deki yaş farkı ve iş doyumu verileri bu kaynaktan."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -44,6 +47,7 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Mesleğin cazibesini etkileyen alanlar tablosunun dayanağı."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -52,6 +56,7 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü eğitim sistemlerinin öğretmenlere nasıl yatırım yaptığını gösteren karşılaştırmalı çalışma."
   - id: ttf2024
     author: "UNESCO ve International Task Force on Teachers for Education 2030"
     title: "Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession"
@@ -60,6 +65,7 @@ sources:
     url: "https://teachertaskforce.org/sites/default/files/2024-02/2024_TTF-UNESCO-Global-Report-on-Teachers_EN.pdf"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun 2024 Küresel Öğretmen Raporu. Mesleğin saygınlığını küresel öğretmen açığıyla ilişkilendirmek için kullanıldı."
   - id: meb-kanun
     title: "Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -67,8 +73,8 @@ sources:
     url: "https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "7528 sayılı Kanun'un yayımlandığını duyuran MEB haberi. Türkiye'deki son düzenlemelerin kaynağı."
 ---
-
 Öğretmenlik birçok toplumda "en kutsal meslek" olarak anılır. Peki öğretmenler de mesleklerinin değer gördüğünü düşünüyor mu? OECD'nin uluslararası öğretmen araştırması bu soruya şaşırtıcı bir cevap veriyor. Bu yazıda TALIS verilerini, mesleğin cazibesini etkileyen etkenleri ve politika önerilerini ele alıyoruz.
 
 ## TALIS nedir?
@@ -84,6 +90,12 @@ Dikkat çekici bir ayrıntı daha var: rapor, bu algıda genç ve deneyimli öğ
 ## İş doyumu ile saygınlık algısı farklı şeyler
 
 TALIS verileri önemli bir ayrıma da işaret ediyor: öğretmenlerin büyük çoğunluğu işlerinden genel olarak memnun olduğunu belirtirken, mesleğin toplumda değer gördüğünü düşünenlerin oranı çok daha düşük.[@talis2018v2] Başka bir deyişle öğretmenler sınıftaki işlerini seviyor, ama toplumun bu işe yeterince değer vermediğini düşünüyor. Bu ayrım, mesleğin cazibesini artırmaya yönelik politikaların yalnızca okul içi koşullara değil, mesleğin toplumsal konumuna da odaklanması gerektiğini gösteriyor.
+
+## Özerklik ve iş birliği
+
+TALIS'in ikinci cildi, öğretmenlerin mesleklerine ilişkin algısını etkileyen okul içi etkenlere de odaklanır. Rapor, öğretmenlerin ders içeriği, yöntem ve değerlendirme gibi konularda karar verme özerkliğini ve meslektaşlarıyla iş birliği yapma fırsatlarını ayrıntılı biçimde inceler; bu etkenleri öğretmenlerin iş doyumu ve mesleki öz yeterlik algısıyla ilişkilendirir.[@talis2018v2]
+
+Bu bulgunun pratik anlamı şudur: mesleğin saygınlığı yalnızca toplumsal algıyla ya da ücretle belirlenmez; öğretmenin okulda profesyonel olarak güvenilip güvenilmediğiyle de ilgilidir. Birlikte ders planlayan, birbirinin dersini gözlemleyen ve kararlara katılan öğretmenlerin olduğu okullar, mesleğin değerini içeriden de güçlendirir.
 
 ## Mesleğin cazibesini ne etkiler?
 

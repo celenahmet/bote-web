@@ -3,7 +3,7 @@ title: "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım"
 url: https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları."
 ---
@@ -12,7 +12,7 @@ description: "Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl se
 
 > Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
 
 ## Kısaca
 
@@ -50,10 +50,16 @@ LMS'ler lisans modeline göre ikiye ayrılabilir. Açık kaynak sistemlerin en y
 
 Hiçbir LMS her ihtiyacı tek başına karşılamaz. Kurumlar sanal laboratuvar, kodlama ortamı ya da intihal denetim aracı gibi dış araçları derslerine eklemek ister. **Learning Tools Interoperability (LTI)** standardı bu entegrasyonu sağlar: bir dış araç, LMS içinden güvenli biçimde başlatılabilir ve kullanıcı bilgisi bu araçla paylaşılabilir.[4] LTI desteği, bir LMS seçerken sorulması gereken ilk teknik sorulardan biridir.
 
+## İçerik standartları: SCORM ve xAPI
+
+LTI araçları bağlarken, içerik standartları da hazırlanan e-öğrenme modüllerinin farklı sistemlerde çalışmasını sağlar. ABD Savunma Bakanlığı bünyesindeki Advanced Distributed Learning (ADL) girişiminin geliştirdiği **SCORM**, bir e-öğrenme paketinin herhangi bir uyumlu LMS'ye yüklenip çalıştırılabilmesini ve öğrencinin ilerleme bilgisinin sisteme iletilmesini tanımlar.[5] Böylece bir kurum, içeriklerini yeniden üretmeden LMS değiştirebilir.
+
+Daha yeni bir standart olan **xAPI** (Experience API) ise öğrenmenin yalnızca LMS içinde gerçekleşmediği fikrinden yola çıkar. Bir simülasyonda, mobil uygulamada ya da iş başında gerçekleşen öğrenme deneyimleri de "kim, ne yaptı, neyle" biçiminde kayıt altına alınabilir.[6] Kurum için pratik soru şudur: İçeriklerim bu standartlarla uyumlu mu ve LMS bu standartları destekliyor mu?
+
 ## Kurum için LMS seçerken
 
 1. **Pedagojik ihtiyaçla başlayın:** Hangi tür dersler yürütülecek? Eşzamanlı mı, eşzamansız mı? Proje mi, sınav mı ağırlıkta?
-2. **Erişilebilirliği sınayın:** Ekran okuyucu uyumu, altyazı desteği ve mobil kullanım test edilmelidir.
+2. **Erişilebilirliği sınayın:** Ekran okuyucu uyumu, altyazı desteği ve mobil kullanım test edilmelidir. Uluslararası ölçüt W3C'nin Web İçeriği Erişilebilirlik Yönergeleri'dir (WCAG); sistemin ve üretilen içeriklerin bu yönergelere uygunluğu sorulmalıdır.[7]
 3. **Veri gizliliğini sorgulayın:** Öğrenci verileri nerede tutuluyor, kimlerle paylaşılıyor?
 4. **Birlikte çalışabilirliğe bakın:** LTI ve içerik standartları desteği, ileride sistem değiştirmeyi de kolaylaştırır.
 5. **Toplam maliyeti hesaplayın:** Lisansın yanında barındırma, bakım, eğitim ve teknik destek maliyetlerini de ekleyin.
@@ -65,9 +71,13 @@ LMS'lerin en güçlü yanlarından biri, öğrencinin hangi materyali ne zaman a
 
 Ancak veriyi yorumlarken dikkatli olmak gerekir. Bir videonun açılmış olması izlendiği anlamına gelmez; forumda az yazan bir öğrenci konuyu anlamamış değil, yalnızca çekingen olabilir. Tıklama verisi öğrenmenin kendisi değil, dolaylı bir göstergesidir. Ayrıca bu verilerin kimler tarafından görüleceği ve ne kadar süre saklanacağı öğrencilere açıkça bildirilmelidir.
 
+## Öğrenme analitiği
+
+LMS'lerin topladığı veriler, **öğrenme analitiği** adı verilen bir alanın konusudur. Siemens ve Long, öğrenme analitiğini öğrenmeyi ve öğrenmenin gerçekleştiği ortamları anlamak ve iyileştirmek amacıyla öğrenciler ve bağlamları hakkındaki verilerin ölçülmesi, toplanması, analiz edilmesi ve raporlanması olarak tanımlar.[8] Tanımdaki vurgu önemlidir: amaç öğrencileri izlemek değil, öğrenmeyi iyileştirmektir. Bu nedenle analitik uygulamaları, hangi verinin toplandığını ve nasıl kullanıldığını öğrencilere açıkça anlatan bir veri politikasıyla birlikte yürütülmelidir.
+
 ## LMS iyi bir ders demek değildir
 
-Pandemi döneminde birçok kurum hızla LMS'ye geçti, ancak derslerin kalitesi aynı hızla artmadı. Hodges ve arkadaşlarının vurguladığı gibi, krize yanıt olarak çevrim içine taşınan dersler ile baştan planlanmış çevrim içi öğrenme deneyimleri farklıdır.[5] LMS bir altyapıdır; etkileşimi, geri bildirimi ve öğrenme topluluğunu tasarlamak öğretim elemanının ve öğretim tasarımcısının işidir. Bu tasarım ilkelerini [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) yazımızda ele aldık.
+Pandemi döneminde birçok kurum hızla LMS'ye geçti, ancak derslerin kalitesi aynı hızla artmadı. Hodges ve arkadaşlarının vurguladığı gibi, krize yanıt olarak çevrim içine taşınan dersler ile baştan planlanmış çevrim içi öğrenme deneyimleri farklıdır.[9] LMS bir altyapıdır; etkileşimi, geri bildirimi ve öğrenme topluluğunu tasarlamak öğretim elemanının ve öğretim tasarımcısının işidir. Bu tasarım ilkelerini [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) yazımızda ele aldık.
 
 ## Sonuç
 
@@ -105,4 +115,8 @@ Learning Tools Interoperability (LTI), 1EdTech'in geliştirdiği bir standarttı
 2. Moore, M. G. (1989). Three Types of Interaction. American Journal of Distance Education, 3(2), 1–7. https://doi.org/10.1080/08923648909526659 (EN, erişim: 2026-09-25)
 3. Moodle Documentation (t.y.). About Moodle. https://docs.moodle.org/en/About_Moodle (EN, erişim: 2026-09-25)
 4. 1EdTech Consortium (2019). Learning Tools Interoperability Core Specification 1.3. https://www.imsglobal.org/spec/lti/v1p3/ (EN, erişim: 2026-09-25)
-5. Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A. (2020). The Difference Between Emergency Remote Teaching and Online Learning. EDUCAUSE Review. https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (EN, erişim: 2026-09-25)
+5. Advanced Distributed Learning (ADL) Initiative (t.y.). Sharable Content Object Reference Model (SCORM). https://adlnet.gov/projects/scorm/ (EN, erişim: 2026-09-25)
+6. Advanced Distributed Learning (ADL) Initiative (t.y.). Experience API (xAPI). https://adlnet.gov/projects/xapi/ (EN, erişim: 2026-09-25)
+7. W3C (2023). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/ (EN, erişim: 2026-09-25)
+8. Siemens, G. ve Long, P. (2011). Penetrating the Fog: Analytics in Learning and Education. EDUCAUSE Review, 46(5), 30–40. https://er.educause.edu/articles/2011/9/penetrating-the-fog-analytics-in-learning-and-education (EN, erişim: 2026-09-25)
+9. Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A. (2020). The Difference Between Emergency Remote Teaching and Online Learning. EDUCAUSE Review. https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (EN, erişim: 2026-09-25)

@@ -3,7 +3,7 @@ title: "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi"
 url: https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Bölüm Rehberi
 description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? 
 
 > BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
 
 ## Kısaca
 
@@ -49,6 +49,12 @@ BÖTE mezununun temel yolu öğretmenliktir. 2025'ten itibaren genel okullar iç
 Bilgisayar mühendisliği mezunları ise ağırlıklı olarak yazılım geliştirme ve sistem tasarımı alanlarında çalışır. Aynı kaynak, yazılım geliştiricilerin genellikle bilgisayar ve bilişim teknolojileri ya da ilgili bir alanda lisans derecesine sahip olduğunu belirtir.[6]
 
 Bu iki yol kesin çizgilerle ayrılmaz. BÖTE mezunları yazılım sektöründe çalışabilir; ancak bunun için ek çalışma gerekir. Bu konuyu [BÖTE mezunu yazılımcı olabilir mi?](https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi) yazımızda ayrıntılı ele aldık.
+
+## Mezuniyetten sonra hangi süreç bekliyor?
+
+İki bölüm arasındaki fark mezuniyetten sonra da sürer. BÖTE mezunu MEB'e öğretmen olmak isterse 7528 sayılı Öğretmenlik Mesleği Kanunu'nun öngördüğü süreçten geçer: önce Akademi Giriş Sınavı (AGS), ardından Millî Eğitim Akademisi'nde hazırlık eğitimi.[7] Bu süreç, lisanstan sonra yaklaşık bir yıllık ek bir hazırlık dönemi anlamına gelir. Bilgisayar mühendisliği mezunu ise özel sektörde doğrudan iş başvurusu yapar; işe alımda teknik mülakatlar ve projeler belirleyicidir. Kamu kurumlarındaki mühendis alımları ise kurumların kendi ilan ve sınav koşullarına bağlıdır.
+
+Bu fark, tercih yaparken yalnızca dört yıllık lisansı değil, mezuniyet sonrasındaki ilk birkaç yılı da düşünmek gerektiğini gösteriyor.
 
 ## Kime hangisi uygun?
 
@@ -109,3 +115,4 @@ BÖTE'de matematik ağırlığı bilgisayar mühendisliğine göre daha azdır; 
 4. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
 5. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
 6. U.S. Bureau of Labor Statistics (2025). Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers. https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm (EN, erişim: 2026-09-25)
+7. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-09-25)

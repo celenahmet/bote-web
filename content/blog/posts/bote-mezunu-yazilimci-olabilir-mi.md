@@ -2,6 +2,7 @@
 title: "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme"
 description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar."
 date: 2026-09-25
+updated: 2026-09-26
 category: kariyer
 tags: [BÖTE, yazılımcı, yazılım geliştirici, kariyer, bilgisayar mühendisliği]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün BÖTE lisans programı belgesi. Programın yazılım açısından sunduğu derslerin resmî kaynağı."
   - id: bls-sd
     title: "Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin yazılım geliştiriciler, kalite güvence analistleri ve test uzmanları sayfası. Sektörün eğitim beklentisine ilişkin bilgi buradan."
   - id: acm-cs2023
     author: "ACM, IEEE Computer Society ve AAAI"
     title: "Computer Science Curricula 2023 (CS2023)"
@@ -45,8 +48,8 @@ sources:
     url: "https://csed.acm.org/"
     lang: en
     accessed: 2026-09-25
+    note: "Bilgisayar biliminin uluslararası müfredat rehberi CS2023. BÖTE mezunlarının kapatması gereken bilgi alanlarını belirlemek için kullanıldı."
 ---
-
 BÖTE öğrencilerinin ve adaylarının en sık sorduğu sorulardan biri: "Bu bölümden yazılımcı olunur mu?" Kısa cevap evet, ama bu kendiliğinden gerçekleşmiyor. Bu yazıda BÖTE programının yazılım açısından neler sunduğunu, nerelerde eksik kaldığını ve bu açığın nasıl kapatılabileceğini gerçekçi biçimde ele alıyoruz.
 
 ## BÖTE programı ne sunuyor?
@@ -69,6 +72,20 @@ Bilgisayar biliminin uluslararası müfredat rehberi CS2023, bir bilgisayar bili
 | Yazılım mühendisliği pratikleri | Ekip içinde çalışmanın ön koşuludur | Sürüm kontrolü, kod incelemesi, test yazma |
 | Bir alanda derinleşme | Genel bilgi yerine uzmanlık aranır | Web, mobil ya da veri alanlarından birini seçip proje üretmek |
 | Portfolyo | Becerinin kanıtıdır | Kodları herkese açık depolarda paylaşmak |
+
+## Hangi alanda uzmanlaşılabilir?
+
+Yazılım sektörü tek bir iş değildir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi bile yazılım geliştiricileri, kalite güvence analistlerini ve test uzmanlarını aynı aile içinde ama ayrı görevlerle tanımlar.[@bls-sd] BÖTE mezunu için bu çeşitlilik bir fırsattır: programdaki derslerden birini temel alıp o yönde derinleşmek mümkündür.
+
+| Alan | BÖTE'deki başlangıç noktası | Derinleşmek için |
+|---|---|---|
+| Web geliştirme | Web tasarımı ve programlama dersleri | Bir ön yüz ve bir arka yüz teknolojisinde tam proje |
+| Mobil uygulama | Programlama dersleri | Bir mobil platformda yayımlanmış küçük bir uygulama |
+| Veri ve analitik | Veri tabanı dersleri | Veri analizi ve görselleştirme projeleri |
+| Eğitim teknolojisi ürünleri | Öğretim tasarımı, çoklu ortam | Etkileşimli öğrenme uygulaması ya da eklenti |
+| Test ve kalite güvence | Programlama, sistem analizi | Otomatik test yazma pratiği |
+
+Son iki satır, BÖTE mezununun rakiplerinden ayrıştığı alanlardır: kullanıcıyı ve öğrenme sürecini anlamak, eğitim teknolojisi ürünlerinde doğrudan değer yaratır; dikkatli ve sistematik düşünme alışkanlığı ise test ve kalite güvence işlerinde işe yarar.
 
 ## BÖTE mezununun avantajları
 

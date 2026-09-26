@@ -3,7 +3,7 @@ title: "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları"
 url: https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar."
 ---
@@ -12,7 +12,7 @@ description: "Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik progr
 
 > Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
 
 ## Kısaca
 
@@ -47,6 +47,19 @@ Bazı alanlarda öğretmen yetiştiren programlar eğitim fakültesi dışındak
 ## Puan türleri
 
 Öğretmenlik programlarının puan türü alana göre değişir. Matematik ve fen alanları genellikle sayısal (SAY), Türkçe ve sosyal alanlar sözel (SÖZ), sınıf ve okul öncesi öğretmenliği eşit ağırlık (EA), yabancı dil öğretmenlikleri ise dil (DİL) puan türüyle öğrenci alır. Bu genel eğilime karşın kesin bilgi her yıl YÖK Atlas'ta ve ÖSYM kılavuzunda yayımlanır.[4]
+
+## YÖK Atlas'ta hangi verilere bakılmalı?
+
+Bölüm seçerken en güvenilir veri kaynağı YÖK Atlas'tır.[4] Ancak sayfalardaki verilerin ne anlattığını bilmek gerekir:
+
+| Veri | Ne anlatır? | Dikkat edilecek nokta |
+|---|---|---|
+| Kontenjan ve yerleşen sayısı | Programın büyüklüğü ve talep | Kontenjanlar yıldan yıla değişebilir |
+| Başarı sırası | Son yerleşen adayın sıralaması | Tek başına programın niteliğini göstermez |
+| Yerleşenlerin profili | Adayların geldiği iller ve lise türleri | Programın kimlere hitap ettiğini gösterir |
+| Tercih eğilimleri | Adayların programı kaçıncı sırada tercih ettiği | Programın adaylar için ilk seçenek olup olmadığını gösterir |
+
+Bu verilere ek olarak programın öğretim kadrosunu, uygulama okullarıyla ilişkilerini ve varsa akreditasyon durumunu incelemek, yalnızca sıralamaya bakarak verilen kararlardan daha sağlıklı bir tercih sağlar. Akreditasyonu [EPDAD yazımızda](https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) ele aldık.
 
 ## Mezuniyetten sonra ne olur?
 

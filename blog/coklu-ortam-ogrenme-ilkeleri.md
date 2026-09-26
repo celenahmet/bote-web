@@ -3,7 +3,7 @@ title: "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük"
 url: https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "Etkili sunum ve eğitim videosu nasıl hazırlanır? Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramıyla, öğretmenler için uygulanabilir tasarım rehberi."
 ---
@@ -12,7 +12,7 @@ description: "Etkili sunum ve eğitim videosu nasıl hazırlanır? Mayer'in çok
 
 > Etkili sunum ve eğitim videosu nasıl hazırlanır? Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramıyla, öğretmenler için uygulanabilir tasarım rehberi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 
 ## Kısaca
 
@@ -39,6 +39,22 @@ Bu varsayımların arkasında John Sweller'in **bilişsel yük kuramı** vardır
 
 Mayer ve Moreno bu fikri çoklu ortama uyarlayarak bilişsel yükü azaltmanın dokuz yolunu tanımladı. İçeriği parçalara bölmek, önemli yerleri işaretlemek, ilgisiz ayrıntıyı ayıklamak ve gereksiz tekrarı kaldırmak bu yollardan bazılarıdır.[3]
 
+## Bilişsel yükün üç türü
+
+Sweller, van Merriënboer ve Paas, öğrenme sırasında çalışma belleğine binen yükü üç türe ayırır:[4]
+
+| Yük türü | Kaynağı | Tasarımcı ne yapmalı? |
+|---|---|---|
+| İçsel yük | Konunun kendi karmaşıklığı | Konuyu parçalara bölmek, ön bilgiyi hazırlamak |
+| Dışsal yük | Kötü tasarım: dağınık yerleşim, gereksiz ayrıntı | En aza indirmek |
+| Etkili yük | Anlamlı öğrenmeye harcanan çaba | Desteklemek ve yönlendirmek |
+
+Bu ayrım tasarım kararlarını netleştirir. Kuantum fiziği içsel olarak karmaşıktır; bu yük ortadan kaldırılamaz, ancak iyi sıralanarak yönetilebilir. Buna karşılık bir şemanın açıklamasının ayrı bir sayfada verilmesi tamamen dışsal yüktür ve tasarımla sıfırlanabilir. İyi bir materyal dışsal yükü azaltarak zihinsel kapasiteyi etkili yüke ayırır.
+
+## Neden sözcük ve resim birlikte? İkili kodlama kuramı
+
+Mayer'in iki kanal varsayımının arkasında Allan Paivio'nun **ikili kodlama kuramı** vardır. Clark ve Paivio'ya göre zihin, sözel bilgi ve görsel imgeler için birbiriyle bağlantılı iki ayrı sistem kullanır. Bir kavram hem sözcükle hem de imgeyle kodlandığında hatırlanması için iki ayrı yol oluşur ve bu, öğrenmeyi güçlendirir.[5] "Kalp bir pompadır" cümlesi, pompalama hareketini gösteren basit bir animasyonla birlikte sunulduğunda daha kalıcı olmasının nedeni budur.
+
 ## Temel ilkeler
 
 | İlke | Kısaca | Uygulama |
@@ -53,7 +69,7 @@ Mayer ve Moreno bu fikri çoklu ortama uyarlayarak bilişsel yükü azaltmanın 
 | Kip | Görselle birlikte metin yerine sözlü anlatım kullanın | Karmaşık şemayı sesli anlatımla açıklayın |
 | Kişiselleştirme | Resmî yerine konuşma dili kullanın | "Şimdi birlikte bakalım" gibi ifadeler |
 
-Bu ilkelerin ayrıntılı gerekçeleri ve araştırma kanıtları Mayer'in *Multimedia Learning* kitabında yer alır.[1]
+Mayer bu ilkeleri üç amaca göre gruplar: **gereksiz işlemeyi azaltmak** (tutarlılık, işaretleme, gereksiz tekrar, mekânsal ve zamansal yakınlık), **zorunlu işlemeyi yönetmek** (bölümleme, ön alıştırma, kip) ve **üretken işlemeyi desteklemek** (çoklu ortam, kişiselleştirme). İlkelerin ayrıntılı gerekçeleri ve araştırma kanıtları Mayer'in *Multimedia Learning* kitabında yer alır.[1]
 
 ## Örnek: bir slaytı yeniden tasarlamak
 
@@ -75,7 +91,7 @@ Bir sunumu ya da videoyu yayımlamadan önce şu soruları sorun:
 
 ## Sınırlılıklar
 
-Çoklu ortam ilkeleri evrensel reçeteler değildir. Etkileri öğrencinin ön bilgisine göre değişebilir: konuya yeni başlayan bir öğrenci için yararlı olan ayrıntılı açıklamalar, konuyu bilen bir öğrenci için gereksiz yük hâline gelebilir. Ayrıca ilkelerin çoğu kısa süreli, laboratuvar ortamındaki deneylerden türetilmiştir. Bu nedenle ilkeleri körü körüne uygulamak yerine hedef kitleye göre uyarlamak gerekir.
+Çoklu ortam ilkeleri evrensel reçeteler değildir. Kalyuga ve arkadaşları bunu **uzmanlığın ters etkisi** olarak adlandırdı: konuya yeni başlayanlar için yararlı olan ayrıntılı açıklamalar ve yönlendirmeler, konuyu bilen öğrenciler için gereksiz yük hâline gelebilir ve öğrenmeyi yavaşlatabilir.[6] Bu yüzden aynı materyal farklı düzeydeki öğrencilere farklı destek düzeyleriyle sunulmalıdır. Ayrıca ilkelerin çoğu kısa süreli, laboratuvar ortamındaki deneylerden türetilmiştir. Bu nedenle ilkeleri körü körüne uygulamak yerine hedef kitleye göre uyarlamak gerekir.
 
 ## BÖTE ile ilişkisi
 
@@ -112,3 +128,6 @@ Etkiler öğrencinin ön bilgisine göre değişebilir. Örneğin konuya yeni ba
 1. Mayer, R. E. (2020). Multimedia Learning (3. baskı). Cambridge University Press. https://doi.org/10.1017/9781316941355 (EN, erişim: 2026-09-25)
 2. Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285. https://doi.org/10.1207/s15516709cog1202_4 (EN, erişim: 2026-09-25)
 3. Mayer, R. E. ve Moreno, R. (2003). Nine Ways to Reduce Cognitive Load in Multimedia Learning. Educational Psychologist, 38(1), 43–52. https://doi.org/10.1207/S15326985EP3801_6 (EN, erişim: 2026-09-25)
+4. Sweller, J., van Merriënboer, J. J. G. ve Paas, F. G. W. C. (1998). Cognitive Architecture and Instructional Design. Educational Psychology Review, 10(3), 251–296. https://doi.org/10.1023/A:1022193728205 (EN, erişim: 2026-09-25)
+5. Clark, J. M. ve Paivio, A. (1991). Dual Coding Theory and Education. Educational Psychology Review, 3(3), 149–210. https://doi.org/10.1007/BF01320076 (EN, erişim: 2026-09-25)
+6. Kalyuga, S., Ayres, P., Chandler, P. ve Sweller, J. (2003). The Expertise Reversal Effect. Educational Psychologist, 38(1), 23–31. https://doi.org/10.1207/S15326985EP3801_4 (EN, erişim: 2026-09-25)

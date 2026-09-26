@@ -3,7 +3,7 @@ title: "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin"
 url: https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?"
 ---
@@ -12,7 +12,7 @@ description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaç
 
 > Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
 
 ## Kısaca
 
@@ -40,6 +40,23 @@ Dersin temel sorusu şudur: Teknoloji, öğretmenin öğretim kararlarına nası
 ## Yeni gündem: yapay zekâ
 
 Üretken yapay zekâ araçlarının yaygınlaşması, Öğretim Teknolojileri dersine yeni bir boyut ekledi. UNESCO'nun 2024'te yayımladığı öğretmenler için yapay zekâ yetkinlik çerçevesi; insan merkezli bakış, yapay zekâ etiği, yapay zekâ temelleri ve uygulamaları, yapay zekâ pedagojisi ve mesleki gelişim için yapay zekâ olmak üzere beş boyutta 15 yetkinlik tanımlar.[6] Türkiye'de de MEB'in 2025'te yürürlüğe giren **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı**, öğretmen eğitimini eylem alanları arasında sayıyor.[7] Bu gelişmeler, öğretmen adaylarının teknolojiyi yalnızca kullanmayı değil, etik ve pedagojik açıdan değerlendirmeyi de öğrenmesini gerektiriyor. Konuyu [eğitimde yapay zekâ](https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin) yazımızda ele aldık.
+
+## Örnek bir dönem akışı
+
+Dersin içeriği üniversiteye ve öğretim elemanına göre değişir. Aşağıdaki akış, yazıda anlattığımız çerçevelere dayanan **örnek** bir planlamadır; resmî bir program değildir:
+
+| Hafta | Konu | Çıktı |
+|---|---|---|
+| 1–2 | Öğretim teknolojisinin tanımı ve tarihçesi | Kavram haritası |
+| 3–4 | TPACK: alan, pedagoji ve teknolojinin kesişimi | Kendi alanından bir TPACK analizi |
+| 5–6 | Dijital kaynakları seçme ve değerlendirme | Kaynak değerlendirme ölçütleri listesi |
+| 7–8 | Çoklu ortam tasarım ilkeleri | Yeniden tasarlanmış bir sunum |
+| 9–10 | Çevrim içi ve harmanlanmış öğrenme | Kısa bir çevrim içi etkinlik |
+| 11–12 | Ölçme-değerlendirmede teknoloji | Dijital bir değerlendirme aracı |
+| 13 | Yapay zekâ: olanaklar, riskler, etik | Sınıf için yapay zekâ kullanım ilkeleri |
+| 14 | Erişilebilirlik ve kapsayıcılık | Erişilebilirlik kontrol listesi |
+
+Bu akışın ortak noktası, her haftanın somut bir ürünle bitmesidir. Dönem sonunda öğretmen adayının elinde, öğretmenlik uygulamasında ve mesleğin ilk yıllarında doğrudan kullanabileceği küçük bir portfolyo birikir.
 
 ## Dersten en iyi nasıl yararlanılır?
 

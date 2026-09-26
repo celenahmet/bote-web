@@ -3,7 +3,7 @@ title: "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu"
 url: https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Kariyer
 description: "Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı."
 ---
@@ -12,7 +12,7 @@ description: "Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç d
 
 > Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
 
 ## Kısaca
 
@@ -36,6 +36,20 @@ BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği mesleklerden b
 
 ABD Çalışma İstatistikleri Bürosu, kurumlarda çalışanların beceri ve bilgisini geliştirmek için eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[2] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur ve genellikle yüksek lisans ile öğretmenlik deneyimi ister.[3]
 
+## Tasarımcının araç seti
+
+İyi bir öğretim tasarımcısını "e-öğrenme aracı kullanabilen" birinden ayıran, arka plandaki kuramsal araç setidir. Bu araç setinin temel parçaları şunlardır:
+
+| Araç | Ne işe yarar? | Kaynağı |
+|---|---|---|
+| ADDIE süreci | Projeyi analizden değerlendirmeye kadar sistemli yönetmek | Branch[1] |
+| Güncellenmiş Bloom taksonomisi | Ölçülebilir öğrenme hedefleri yazmak | Krathwohl[4] |
+| Yapıcı hizalama | Hedef, etkinlik ve sınavın aynı şeyi istemesini sağlamak | Biggs[5] |
+| Öğretimin ilk ilkeleri | Tasarımı gerçek bir problem etrafında kurmak | Merrill[6] |
+| Çoklu ortam ilkeleri | Video ve görselleri bilişsel yükü azaltacak biçimde tasarlamak | Mayer[7] |
+
+Bu çerçevelerin her birini blogda ayrı yazılarda ele aldık: [öğretim tasarımı ve ADDIE](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) ile [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri). Tasarımcının günlük işinde bunlar ayrı ayrı değil, aynı proje içinde birlikte kullanılır.
+
 ## Nerede çalışır?
 
 | Kurum türü | Tipik görevler |
@@ -47,7 +61,7 @@ ABD Çalışma İstatistikleri Bürosu, kurumlarda çalışanların beceri ve bi
 
 ## Hangi beceriler gerekir?
 
-**Analiz ve tasarım:** Mesleğin çekirdeği budur. İyi bir öğretim tasarımcısı her performans sorununun eğitimle çözülmeyeceğini bilir ve doğru soruları sorar. Merrill'in öğretimin ilk ilkeleri, tasarlanan öğretimin kalitesini sınamak için kullanışlı bir çerçeve sunar: gerçek bir problem, ön bilginin harekete geçirilmesi, gösterme, uygulama ve bütünleştirme.[4]
+**Analiz ve tasarım:** Mesleğin çekirdeği budur. İyi bir öğretim tasarımcısı her performans sorununun eğitimle çözülmeyeceğini bilir ve doğru soruları sorar. Merrill'in öğretimin ilk ilkeleri, tasarlanan öğretimin kalitesini sınamak için kullanışlı bir çerçeve sunar: gerçek bir problem, ön bilginin harekete geçirilmesi, gösterme, uygulama ve bütünleştirme.[6]
 
 **Çoklu ortam tasarımı:** Video, görsel ve etkileşimli içeriklerin öğrenmeyi desteklemesi için bilişsel yükü yöneten tasarım ilkeleri gerekir. Bu ilkeleri [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazımızda özetledik.
 
@@ -109,4 +123,7 @@ Zorunlu değildir ama bazı roller için avantaj sağlar. ABD'de okul sistemleri
 1. Branch, R. M. (2009). Instructional Design: The ADDIE Approach. Springer. https://doi.org/10.1007/978-0-387-09506-6 (EN, erişim: 2026-09-25)
 2. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
 3. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
-4. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
+4. Krathwohl, D. R. (2002). A Revision of Bloom's Taxonomy: An Overview. Theory Into Practice, 41(4), 212–218. https://doi.org/10.1207/s15430421tip4104_2 (EN, erişim: 2026-09-25)
+5. Biggs, J. (1996). Enhancing Teaching Through Constructive Alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871 (EN, erişim: 2026-09-25)
+6. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
+7. Mayer, R. E. (2020). Multimedia Learning (3. baskı). Cambridge University Press. https://doi.org/10.1017/9781316941355 (EN, erişim: 2026-09-25)

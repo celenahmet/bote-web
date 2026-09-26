@@ -2,6 +2,7 @@
 title: "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?"
 description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo."
 date: 2026-09-25
+updated: 2026-09-26
 category: yuksekogretim
 tags: [öğretmen açığı, UNESCO, öğretmenlik mesleği, TALIS, öğretmen politikaları]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://teachertaskforce.org/sites/default/files/2024-02/2024_TTF-UNESCO-Global-Report-on-Teachers_EN.pdf"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO ve Öğretmen Görev Gücü'nün 2024 Küresel Öğretmen Raporu. 44 milyon ve 15 milyon verilerinin asıl kaynağı."
   - id: unesco-teachers2024
     title: "Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession"
     publisher: "UNESCO ve International Task Force on Teachers for Education 2030"
@@ -38,6 +40,7 @@ sources:
     url: "https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun raporu tanıttığı sayfa. Mesleğin dönüştürülmesi vurgusunun kaynağı."
   - id: talis2018v2
     title: "TALIS 2018 Results (Volume II): Teachers and School Leaders as Valued Professionals"
     publisher: "OECD"
@@ -45,6 +48,7 @@ sources:
     url: "https://doi.org/10.1787/19cf08df-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin TALIS 2018 raporunun ikinci cildi. Öğretmenlerin yüzde 26'sının mesleğin değer gördüğünü düşündüğü bulgusu buradan."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -52,6 +56,7 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Öğretmenliği cazip kılmanın bütünlüklü politika gerektirdiği vurgusu buradan."
   - id: ingersoll2011
     author: "Ingersoll, R. M. ve Strong, M."
     title: "The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research"
@@ -60,6 +65,7 @@ sources:
     url: "https://doi.org/10.3102/0034654311403323"
     lang: en
     accessed: 2026-09-25
+    note: "Mesleğe uyum ve mentorluk programlarını inceleyen derleme. Öğretmenleri meslekte tutmanın yollarına ilişkin bulgular buradan."
   - id: meb-yilmaz
     title: "Bakan Yılmaz, YÖK'te Eğitim Fakültelerinin Yöneticileriyle Bir Araya Geldi"
     publisher: "Millî Eğitim Bakanlığı"
@@ -67,8 +73,8 @@ sources:
     url: "https://www.meb.gov.tr/bakan-yilmaz-yokte-egitim-fakultelerinin-yoneticileriyle-bir-araya-geldi/haber/11969/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmen yetiştirme kapasitesinin ihtiyaca göre düzenlenmesine ilişkin haberi. Türkiye'deki farklı tabloyu açıklamak için kullanıldı."
 ---
-
 Dünya genelinde okullar giderek büyüyen bir sorunla karşı karşıya: yeterli sayıda öğretmen bulmak ve onları meslekte tutmak. Bu yazıda UNESCO'nun küresel öğretmen raporundaki verileri, sorunun nedenlerini ve Türkiye'deki farklı tabloyu dengeli bir bakışla ele alıyoruz.
 
 ## 44 milyon öğretmen
@@ -80,6 +86,19 @@ UNESCO ve Eğitim 2030 için Uluslararası Öğretmen Görev Gücü'nün 2024'te
 Rapor, öğretmen açığını tek bir nedene bağlamaz. Bazı bölgelerde okul çağındaki nüfusun hızla artması, bazı bölgelerde ise öğretmenlerin emekliliği ve meslekten ayrılması belirleyici. Yüksek gelirli ülkelerde sorun, yeni öğretmen yetiştirmekten çok mevcut öğretmenleri meslekte tutmakla ilgili.[@ttf2024]
 
 Bu tablo, öğretmenlik mesleğinin cazibesiyle doğrudan bağlantılı. OECD'nin TALIS 2018 araştırmasına göre katılan OECD ülkelerindeki öğretmenlerin yalnızca yüzde 26'sı mesleklerinin toplumda değer gördüğünü düşünüyor.[@talis2018v2] Mesleğin değer görmediğini düşünen öğretmenlerin oranının yüksek olması, yeni kuşakların öğretmenliği tercih etmesini de zorlaştırıyor.
+
+## Açık nasıl ölçülür?
+
+Öğretmen açığı tek bir sayıyla ölçülmez. Raporlarda en sık kullanılan göstergeler şunlardır:
+
+| Gösterge | Ne anlatır? |
+|---|---|
+| Öğrenci–öğretmen oranı | Bir öğretmene düşen ortalama öğrenci sayısı; açığın ilk göstergesi |
+| Nitelikli öğretmen oranı | Gerekli asgari eğitimi almış öğretmenlerin payı |
+| Meslekten ayrılma oranı | Her yıl mesleği bırakan öğretmenlerin payı |
+| Emeklilik projeksiyonları | Önümüzdeki yıllarda emekliye ayrılacak öğretmen sayısı |
+
+UNESCO raporunun 44 milyonluk tahmini bu göstergelerin birlikte değerlendirilmesine dayanır: yeni açılacak öğretmen kadrolarının yanında meslekten ayrılanların yerine alınması gereken öğretmenleri de kapsar.[@ttf2024] Bu nedenle açık yalnızca "yeni öğretmen yetiştirme" sorunu değil, aynı zamanda "mevcut öğretmeni tutma" sorunudur.
 
 ## Çözüm önerileri
 

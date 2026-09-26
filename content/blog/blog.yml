@@ -53,9 +53,9 @@ ads:
     - id: uniconnectly
       slots: [sidebar-top, article-end]
       brand: UniConnectly
-      # uniconnectly.com'daki logo dosyasi tools/blog-app/public/ads/ altina bu adla konunca
-      # kullanilir; yoksa yazi logosu (wordmark) gosterilir.
-      logo: /blog/ads/uniconnectly-logo.svg
+      # Logo: tam adres ya da tools/blog-app/public/ads/ altindaki dosya (/blog/ads/...).
+      # Gecici olarak uniconnectly.com'daki logo kullaniliyor.
+      logo: https://uniconnectly.com/brand/light-logo-navbar.avif
       text: >-
         Üniversite topluluklarını, etkinlikleri ve şirketleri tek uygulamada
         buluşturan ücretsiz kampüs platformu.

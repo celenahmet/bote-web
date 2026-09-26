@@ -3,7 +3,7 @@ title: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
 url: https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Bölüm Rehberi
 description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber."
 ---
@@ -12,7 +12,7 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
 ## Kısaca
 
@@ -33,13 +33,35 @@ MEB'in öğretim programı BTY'yi ortaokul ve imam hatip ortaokulu 5. ve 6. sın
 
 Bu yaklaşım uluslararası çerçevelerle uyumludur. ABD'de hazırlanan K–12 Bilgisayar Bilimi Çerçevesi, okul düzeyindeki bilgisayar biliminin temel kavramlarını bilgisayar sistemleri, ağlar ve internet, veri ve analiz, algoritmalar ve programlama ile bilişimin etkileri olarak sıralar.[3] Programlama çoğu zaman blok tabanlı araçlarla başlar. MIT'de geliştirilen Scratch, bu yaklaşımın en bilinen örneklerinden biridir ve programlamayı gençlerin kendi projelerini üretebileceği bir etkinlik olarak tasarlar.[4]
 
+## Ünite ünite içerik
+
+2018 öğretim programı her sınıf düzeyinde beş üniteden oluşur:[1]
+
+| Ünite | Neleri kapsar? |
+|---|---|
+| Bilişim Teknolojileri | Bilgi ve iletişim teknolojilerinin günlük yaşamdaki önemi ve etkileri, bilgisayar bileşenlerinin çalışma ilkeleri, dosya işlemleri, güncel teknolojiler |
+| Etik ve Güvenlik | Bilgi gizliliği ve güvenliği, etik değerler, dijital vatandaşlık |
+| İletişim, Araştırma ve İş Birliği | Etkili arama yapma, doğru bilgiye ulaşma ve paylaşma, iletişim teknolojileriyle iş birliği |
+| Ürün Oluşturma | Farklı yazılımlarla dijital ürünler tasarlama ve geliştirme |
+| Problem Çözme ve Programlama | Algoritma tasarlama; değişken, atama, sıralı mantık, karar yapısı, döngü ve fonksiyon kullanma |
+
+Tablo, dersin neden "kodlama dersi" olarak anılmasının eksik kaldığını gösteriyor: programlama beş üniteden yalnızca biri. Diğer dört ünite öğrencinin teknolojiyi anlaması, güvenli kullanması, onunla araştırma yapması ve ürün ortaya koyması üzerine kurulu.
+
+MEB, **Türkiye Yüzyılı Maarif Modeli** kapsamında öğretim programlarını yeniledi; dersin güncel programı ve kazanımları bakanlığın program sayfasında yayımlanıyor.[5] Okulunuzda hangi programın uygulandığını ve güncel kazanımları bu sayfadan takip etmenizi öneririz.
+
 ## Dersi kim okutur?
 
-Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[5] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
+Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[6] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
 
 ## Avrupa'da durum ne?
 
-Eurydice ağının 2022 raporu, Türkiye dahil 39 eğitim sisteminde okul bilişim eğitimini karşılaştırır. Rapora göre bilişim bazı sistemlerde ayrı bir ders olarak, bazılarında ise diğer derslerin içine yerleştirilerek öğretiliyor. Sistemlerin üçte ikisinden fazlası bilişim programlarını güncelleyen reformlar geliştiriyor ya da uyguluyor; bu reformlar sıklıkla yeni ve ayrı bir ders getiriyor.[6] Rapor aynı zamanda bilişim öğretmenlerinin nitelikleri ve yetiştirilmesine de odaklanır. Bu, BÖTE gibi alan programlarının neden önemli olduğunu gösteren bir veridir.
+Eurydice ağının 2022 raporu, Türkiye dahil 39 eğitim sisteminde okul bilişim eğitimini karşılaştırır. Rapora göre bilişim bazı sistemlerde ayrı bir ders olarak, bazılarında ise diğer derslerin içine yerleştirilerek öğretiliyor. Sistemlerin üçte ikisinden fazlası bilişim programlarını güncelleyen reformlar geliştiriyor ya da uyguluyor; bu reformlar sıklıkla yeni ve ayrı bir ders getiriyor.[7] Rapor aynı zamanda bilişim öğretmenlerinin nitelikleri ve yetiştirilmesine de odaklanır. Bu, BÖTE gibi alan programlarının neden önemli olduğunu gösteren bir veridir.
+
+## Dünyadan bir örnek: İngiltere
+
+Okullarda bilişim eğitimini zorunlu hâle getiren ülkelerin en bilinen örneklerinden biri İngiltere'dir. 2013'te yayımlanan ve 2014'ten itibaren uygulanan ulusal program, **computing** dersini ilkokuldan ortaöğretimin sonuna kadar dört anahtar evrede zorunlu kıldı. Program; öğrencilerin soyutlama, mantık, algoritmalar ve veri gösterimi gibi bilgisayar biliminin temel ilkelerini anlamasını, problemleri bilgi işlemsel olarak çözümlemesini ve bilgi teknolojilerini sorumlu, yetkin ve yaratıcı biçimde kullanmasını hedefler.[8]
+
+İngiltere örneğinin Türkiye için ilginç yanı, programın bilgisayar bilimini, bilgi teknolojilerini ve dijital okuryazarlığı tek bir ders çatısı altında birleştirmesidir. BTY dersinin beş ünitesi de benzer biçimde bu üç alanı birlikte kapsar.
 
 ## Ders sınıfta nasıl işlenir?
 
@@ -54,7 +76,7 @@ Bu akış, dersin yalnızca bir araç kullanımı eğitimi olmadığını, aynı
 
 ## Etik ve güvenlik neden bu derste?
 
-Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken yaşta tanışıyor. Bu nedenle dersin güvenlik boyutu en az programlama kadar önemlidir. Avrupa Birliği'nin vatandaşlar için dijital yetkinlik çerçevesi DigComp 2.2, güvenliği ayrı bir yetkinlik alanı olarak tanımlar: cihazları korumak, kişisel verileri ve mahremiyeti korumak, sağlığı ve iyi oluşu korumak ve çevreyi korumak.[7] BTY'deki etik ve güvenlik konuları bu yaklaşımla örtüşür. Öğrencinin güçlü bir parola oluşturmayı, kişisel bilgilerini paylaşmadan önce düşünmeyi ve ekran süresini dengelemeyi öğrenmesi, ileride kazanacağı teknik becerilerin de zeminini oluşturur.
+Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken yaşta tanışıyor. Bu nedenle dersin güvenlik boyutu en az programlama kadar önemlidir. Avrupa Birliği'nin vatandaşlar için dijital yetkinlik çerçevesi DigComp 2.2, güvenliği ayrı bir yetkinlik alanı olarak tanımlar: cihazları korumak, kişisel verileri ve mahremiyeti korumak, sağlığı ve iyi oluşu korumak ve çevreyi korumak.[9] BTY'deki etik ve güvenlik konuları bu yaklaşımla örtüşür. Öğrencinin güçlü bir parola oluşturmayı, kişisel bilgilerini paylaşmadan önce düşünmeyi ve ekran süresini dengelemeyi öğrenmesi, ileride kazanacağı teknik becerilerin de zeminini oluşturur.
 
 ## Veliler ve öğrenciler için öneriler
 
@@ -98,6 +120,8 @@ Evet. Eurydice'nin 2022 raporu, bilişimin bazı ülkelerde ayrı bir ders olara
 2. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4. https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf (TR, erişim: 2026-09-25)
 3. K–12 Computer Science Framework Steering Committee (2016). K–12 Computer Science Framework. https://k12cs.org (EN, erişim: 2026-09-25)
 4. Resnick, M. vd. (2009). Scratch: Programming for All. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779 (EN, erişim: 2026-09-25)
-5. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-6. European Commission / EACEA / Eurydice (2022). Informatics Education at School in Europe. Publications Office of the European Union. https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en (EN, erişim: 2026-09-25)
-7. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (t.y.). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (Türkiye Yüzyılı Maarif Modeli). https://tymm.meb.gov.tr/ogretim-programlari/ders/bilisim-teknolojileri-ve-yazilim-dersi (TR, erişim: 2026-09-25)
+6. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+7. European Commission / EACEA / Eurydice (2022). Informatics Education at School in Europe. Publications Office of the European Union. https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en (EN, erişim: 2026-09-25)
+8. Department for Education (Birleşik Krallık) (2013). National Curriculum in England: Computing Programmes of Study. https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study (EN, erişim: 2026-09-25)
+9. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-09-25)

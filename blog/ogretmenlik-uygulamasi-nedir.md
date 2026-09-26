@@ -3,7 +3,7 @@ title: "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım"
 url: https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık."
 ---
@@ -12,7 +12,7 @@ description: "Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğre
 
 > Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
 
 ## Kısaca
 
@@ -53,6 +53,12 @@ Bu çerçevede üç taraf bulunur: üniversitedeki **uygulama öğretim elemanı
 Uygulama deneyimi, dünyada öğretmen eğitiminin en çok tartışılan bileşenlerinden biri. Darling-Hammond, güçlü öğretmen eğitimi programlarının ortak özellikleri arasında kapsamlı ve iyi denetlenen uygulama deneyimini ve fakültedeki derslerle okul deneyimi arasındaki sıkı bağı sayar.[4] Zeichner ise üniversitedeki dersler ile okul deneyimi arasındaki kopukluğun öğretmen eğitiminin temel sorunlarından biri olduğunu, bu iki dünyayı buluşturan hibrit alanlara ihtiyaç duyulduğunu savunur.[5]
 
 Bu bulgular, uygulamanın yalnızca "saat doldurmak" olarak görülmemesi gerektiğini gösteriyor. Asıl değer, adayın kuramsal bilgisini gerçek sınıf durumlarıyla karşılaştırıp düzenli geri bildirimle geliştirebilmesinde yatıyor.
+
+## İyi geri bildirim nasıl olur?
+
+Öğretmenlik uygulamasının en değerli çıktısı, ders anlatımından sonra alınan geri bildirimdir. Hattie ve Timperley, etkili geri bildirimin üç soruyu yanıtlaması gerektiğini savunur: **Nereye gidiyorum?** (hedef), **Nasıl gidiyorum?** (mevcut durum) ve **Sırada ne var?** (bir sonraki adım). Yazarlar ayrıca kişiliğe yönelik genel övgünün ("çok iyi bir öğretmen olacaksın") öğrenmeye pek katkı sağlamadığını, göreve ve sürece yönelik somut geri bildirimin ise çok daha etkili olduğunu vurgular.[6]
+
+Uygulama bağlamında bu, şu tür bir geri bildirim anlamına gelir: "Dersin hedefi öğrencilerin kesirleri karşılaştırmasıydı (hedef). Görsel model iyi işledi ama arka sıradakiler katılmadı (durum). Bir sonraki derste soruları rastgele seçilen öğrencilere yöneltmeyi dene (sonraki adım)." Adaylar da geri bildirim isterken bu üç soruyu uygulama öğretmenine yöneltebilir.
 
 ## Adaylar için öneriler
 
@@ -111,3 +117,4 @@ Gözlemleri yapılandırılmış notlarla kaydetmek, her ders anlatımından son
 3. Millî Eğitim Bakanlığı (t.y.). Uygulama Öğrencilerinin Millî Eğitim Bakanlığına Bağlı Eğitim Öğretim Kurumlarında Yapacakları Öğretmenlik Uygulamasına İlişkin Yönerge. https://mevzuat.meb.gov.tr/dosyalar/2066.pdf (TR, erişim: 2026-09-25)
 4. Darling-Hammond, L. (2006). Constructing 21st-Century Teacher Education. Journal of Teacher Education, 57(3), 300–314. https://doi.org/10.1177/0022487105285962 (EN, erişim: 2026-09-25)
 5. Zeichner, K. (2010). Rethinking the Connections Between Campus Courses and Field Experiences in College- and University-Based Teacher Education. Journal of Teacher Education, 61(1–2), 89–99. https://doi.org/10.1177/0022487109347671 (EN, erişim: 2026-09-25)
+6. Hattie, J. ve Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81–112. https://doi.org/10.3102/003465430298487 (EN, erişim: 2026-09-25)

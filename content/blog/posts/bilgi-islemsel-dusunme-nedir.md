@@ -2,6 +2,7 @@
 title: "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler"
 description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-teknolojileri
 tags: [bilgi işlemsel düşünme, computational thinking, kodlama, problem çözme, bilgisayar bilimi]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://doi.org/10.1145/1118178.1118215"
     lang: en
     accessed: 2026-09-25
+    note: "Kavramı geniş kitlelere tanıtan üç sayfalık ünlü makale. 'Herkes için temel beceri' iddiası ve tanımın özü buradan."
   - id: grover2013
     author: "Grover, S. ve Pea, R."
     title: "Computational Thinking in K–12: A Review of the State of the Field"
@@ -39,6 +41,7 @@ sources:
     url: "https://doi.org/10.3102/0013189X12463051"
     lang: en
     accessed: 2026-09-25
+    note: "Okullarda bilgi işlemsel düşünme araştırmalarını derleyen etkili bir inceleme. Bileşenler listesi ve 'tanım konusunda uzlaşı yok' uyarısı bu kaynaktan."
   - id: k12cs
     title: "K–12 Computer Science Framework"
     publisher: "K–12 Computer Science Framework Steering Committee"
@@ -46,6 +49,7 @@ sources:
     url: "https://k12cs.org"
     lang: en
     accessed: 2026-09-25
+    note: "ABD'de okul bilgisayar bilimi için hazırlanan çerçeve. Temel kavramlar ve uygulamalar yazıda okul düzeyindeki karşılığı göstermek için kullanıldı."
   - id: eurydice-inf
     author: "European Commission / EACEA / Eurydice"
     title: "Informatics Education at School in Europe"
@@ -54,6 +58,7 @@ sources:
     url: "https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en"
     lang: en
     accessed: 2026-09-25
+    note: "Türkiye dahil Avrupa'daki okul bilişim eğitimini karşılaştıran 2022 raporu. Avrupa'daki güncel durumun resmî kaynağı."
   - id: bty-program
     title: "Ortaokul ve İmam Hatip Ortaokulu Bilişim Teknolojileri ve Yazılım Dersi (5 ve 6. Sınıflar) Öğretim Programı"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -61,6 +66,7 @@ sources:
     url: "https://mufredat.meb.gov.tr/Dosyalar/2018124103559587-Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%205-6.%20S%C4%B1n%C4%B1flar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in Bilişim Teknolojileri ve Yazılım dersi öğretim programı. Kavramın Türkiye'deki okul programındaki karşılığını göstermek için kullanıldı."
   - id: resnick2009
     author: "Resnick, M. vd."
     title: "Scratch: Programming for All"
@@ -69,13 +75,57 @@ sources:
     url: "https://doi.org/10.1145/1592761.1592779"
     lang: en
     accessed: 2026-09-25
+    note: "Scratch'in tasarım felsefesini anlatan makale. Blok tabanlı programlamanın sınıftaki rolüne örnek olarak verildi."
+  - id: brennan2012
+    author: "Brennan, K. ve Resnick, M."
+    title: "New Frameworks for Studying and Assessing the Development of Computational Thinking"
+    publisher: "AERA Yıllık Toplantısı, Vancouver"
+    year: 2012
+    url: "https://web.media.mit.edu/~kbrennan/files/Brennan_Resnick_AERA2012_CT.pdf"
+    lang: en
+    accessed: 2026-09-25
+    note: "Scratch ekibinin kavramları, uygulamaları ve bakış açılarını ayıran üç boyutlu çerçevesi. Yazıdaki ayrıntılı çerçeve tablosunun kaynağı."
+  - id: papert1996
+    author: "Papert, S."
+    title: "An Exploration in the Space of Mathematics Educations"
+    publisher: "International Journal of Computers for Mathematical Learning, 1(1), 95–123"
+    year: 1996
+    url: "https://doi.org/10.1007/BF00191473"
+    lang: en
+    accessed: 2026-09-25
+    note: "'Computational thinking' ifadesinin Papert tarafından kullanıldığı erken dönem makale. Kavramın Wing'den önceki kökenini göstermek için kullanıldı."
+  - id: shute2017
+    author: "Shute, V. J., Sun, C. ve Asbell-Clarke, J."
+    title: "Demystifying Computational Thinking"
+    publisher: "Educational Research Review, 22, 142–158"
+    year: 2017
+    url: "https://doi.org/10.1016/j.edurev.2017.09.003"
+    lang: en
+    accessed: 2026-09-25
+    note: "Kavramı tanımlama ve ölçme çalışmalarını derleyen inceleme. Altı bileşenli tanımı ve ölçme bölümü bu kaynağa dayanıyor."
+  - id: csunplugged
+    title: "CS Unplugged"
+    publisher: "University of Canterbury CS Education Research Group"
+    year: "t.y."
+    url: "https://www.csunplugged.org"
+    lang: en
+    accessed: 2026-09-25
+    note: "Bilgisayarsız bilgisayar bilimi etkinlikleri sunan açık kaynak proje. Sınıfta bilgisayar olmadan öğretim örneklerinin dayanağı."
+  - id: korkmaz2017
+    author: "Korkmaz, Ö., Çakır, R. ve Özden, M. Y."
+    title: "A Validity and Reliability Study of the Computational Thinking Scales (CTS)"
+    publisher: "Computers in Human Behavior, 72, 558–569"
+    year: 2017
+    url: "https://doi.org/10.1016/j.chb.2017.01.005"
+    lang: en
+    accessed: 2026-09-25
+    note: "Türk araştırmacıların geliştirdiği bilgi işlemsel düşünme ölçeği. Kavramın Türkiye'de nasıl ölçüldüğünü gösteren yerli katkı."
 ---
-
 "Kodlama öğrenmek" son yıllarda eğitimin en popüler hedeflerinden biri oldu. Ancak eğitim araştırmacıları kodlamanın arkasındaki daha genel bir beceriye dikkat çekiyor: **bilgi işlemsel düşünme** (*computational thinking*). Bu yazıda kavramın ne olduğunu, hangi bileşenlerden oluştuğunu ve okullarda nasıl öğretildiğini açıklıyoruz.
 
 ## Kavramın kısa hikâyesi
 
-Kavramı geniş kitlelere tanıtan metin, Jeannette Wing'in 2006'da *Communications of the ACM* dergisinde yayımlanan kısa makalesidir. Wing'e göre bilgi işlemsel düşünme yalnızca bilgisayar bilimcilerin değil herkesin kullanabileceği temel bir beceridir. Okuma, yazma ve aritmetiğin yanına her çocuğun analitik yeteneği olarak eklenmelidir.[@wing2006] Wing bu düşünme biçimini programlamayla sınırlamaz: bir problemi yeniden formüle etmek, uygun soyutlamayı seçmek ve karmaşık bir sistemi parçalarına ayırmak da bu kapsamdadır.
+İfadenin ilk kullanımlarından biri, çocukların bilgisayarla düşünmeyi öğrenmesi üzerine çalışan Seymour Papert'e aittir. Papert 1996'da matematik eğitimi üzerine yazdığı bir makalede "computational thinking" ifadesini kullanarak bilgisayarın öğrencilere yeni düşünme biçimleri kazandırabileceğini savundu.[@papert1996] Ancak kavramı geniş kitlelere tanıtan metin, Jeannette Wing'in 2006'da *Communications of the ACM* dergisinde yayımlanan kısa makalesidir. Wing'e göre bilgi işlemsel düşünme yalnızca bilgisayar bilimcilerin değil herkesin kullanabileceği temel bir beceridir. Okuma, yazma ve aritmetiğin yanına her çocuğun analitik yeteneği olarak eklenmelidir.[@wing2006] Wing bu düşünme biçimini programlamayla sınırlamaz: bir problemi yeniden formüle etmek, uygun soyutlamayı seçmek ve karmaşık bir sistemi parçalarına ayırmak da bu kapsamdadır.
 
 ## Bileşenler
 
@@ -90,6 +140,22 @@ Grover ve Pea'nın okul öncesinden liseye kadar olan alanyazını derleyen çal
 | Hata ayıklama | Yanlışı bulup düzeltmek | Beklenmeyen sonucu adım adım izlemek |
 
 ABD'deki K–12 Bilgisayar Bilimi Çerçevesi de benzer bir yaklaşımla soyutlama geliştirme, hesaplamalı ürünler oluşturma ve bu ürünleri test edip iyileştirme gibi uygulamaları öne çıkarır.[@k12cs]
+
+## Brennan ve Resnick'in üç boyutlu çerçevesi
+
+Beceri listeleri kavramı tanımlar, ama sınıfta neyin gözlemleneceğini tam söylemez. Scratch'i geliştiren ekipten Brennan ve Resnick, öğrencilerin Scratch projelerini inceleyerek bilgi işlemsel düşünmeyi üç boyutta ele alan bir çerçeve önerdi:[@brennan2012]
+
+| Boyut | Kapsamı | Örnekler |
+|---|---|---|
+| Kavramlar | Programlama yaparken kullanılan temel yapılar | Sıralı adımlar, döngüler, olaylar, eşzamanlılık, koşullar, işleçler, veri |
+| Uygulamalar | Problem çözme sürecinde geliştirilen alışkanlıklar | Adım adım ve yinelemeli ilerleme, test etme ve hata ayıklama, yeniden kullanma ve uyarlama, soyutlama ve modülleştirme |
+| Bakış açıları | Öğrencinin kendisi ve dünya hakkındaki görüşlerinin değişmesi | Kendini ifade etme, başkalarıyla bağlantı kurma, teknolojiyi sorgulama |
+
+Bu çerçevenin değeri, bilgi işlemsel düşünmeyi yalnızca teknik bir beceri olarak görmemesidir. Üçüncü boyut, öğrencinin teknolojiyi tüketen değil, onunla kendini ifade eden ve onu sorgulayan biri hâline gelmesini hedefler.
+
+## Bilgisayarsız öğretim
+
+Bilgi işlemsel düşünmenin öğretimi için bilgisayar şart değildir. Yeni Zelanda'daki Canterbury Üniversitesi'nden çıkan **CS Unplugged** projesi, ikili sayılardan sıralama algoritmalarına kadar bilgisayar biliminin temel fikirlerini kartlar, iplerle ve oyunlarla öğreten ücretsiz etkinlikler sunar.[@csunplugged] Bu yaklaşım özellikle bilgisayar erişimi sınırlı okullarda ve küçük yaş gruplarında değerlidir; bilgisayarlı etkinliklerden önce kavramsal bir zemin oluşturur.
 
 ## Okullarda nasıl öğretiliyor?
 
@@ -108,6 +174,12 @@ Değerlendirmede yalnızca çalışan ürüne bakmak yanıltıcı olabilir. Bir 
 - **Düşünme günlükleri:** Öğrenci problemi nasıl parçalara ayırdığını ve nerede takıldığını yazar.
 - **Kod okuma soruları:** Verilen kısa bir programın ne yapacağını tahmin etmek, yazmaktan farklı bir beceri ölçer.
 - **Eşli çalışma gözlemi:** Öğrencilerin hatayı nasıl tartıştığı, bilgi işlemsel düşünmenin en görünür göstergelerinden biridir.
+
+## Nasıl ölçülür?
+
+Shute, Sun ve Asbell-Clarke, alandaki tanım ve ölçme çalışmalarını derledikleri incelemede bilgi işlemsel düşünmeyi altı bileşenle tanımlar: **ayrıştırma, soyutlama, algoritma tasarımı, hata ayıklama, yineleme ve genelleme**. Yazarlar ölçmede tek bir yöntemin yetmediğini; proje analizi, performans görevleri ve ölçeklerin birlikte kullanılması gerektiğini vurgular.[@shute2017]
+
+Türkiye'den bu alana önemli bir katkı Korkmaz, Çakır ve Özden'in geliştirdiği **Bilgi İşlemsel Düşünme Beceri Ölçeği**dir. Ölçek beceriyi yaratıcılık, algoritmik düşünme, iş birliği, eleştirel düşünme ve problem çözme boyutlarıyla ele alır.[@korkmaz2017] Ölçeğin bu yapısı, kavramın Türkiye'deki araştırmalarda programlamadan daha geniş bir düşünme becerisi olarak ele alındığını gösteriyor.
 
 ## Tartışmalı noktalar
 

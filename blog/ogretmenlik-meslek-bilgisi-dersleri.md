@@ -3,7 +3,7 @@ title: "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?"
 url: https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte."
 ---
@@ -12,7 +12,7 @@ description: "Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi ders
 
 > Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
 
 ## Kısaca
 
@@ -42,6 +42,24 @@ Meslek bilgisi dersleri tüm öğretmenlik programlarında ortaktır. Bir fen bi
 | Uygulama | Öğretmenlik Uygulaması I ve II |
 
 Programlarda ayrıca öğrencinin kendi ilgi alanına göre seçebileceği meslek bilgisi seçmeli dersleri de bulunur.
+
+## Her ders ne kazandırır?
+
+Ders adları tek başına içeriği anlatmayabilir. Program belgelerindeki ders tanımlarına dayanarak derslerin öğretmen adayına kazandırdıklarını şöyle özetleyebiliriz:[1]
+
+| Ders | Öğretmen adayına kazandırdığı |
+|---|---|
+| Eğitim Psikolojisi | Gelişim dönemlerini ve öğrenme kuramlarını tanıyıp öğrenciyi anlamak |
+| Öğretim İlke ve Yöntemleri | Hedefe uygun yöntem ve teknik seçmek, ders planlamak |
+| Sınıf Yönetimi | Öğrenme ortamını düzenlemek, kuralları ve iletişimi yönetmek |
+| Eğitimde Ölçme ve Değerlendirme | Geçerli ve güvenilir ölçme araçları hazırlamak, sonuçları yorumlamak |
+| Öğretim Teknolojileri | Teknolojiyi öğretim hedeflerine hizmet edecek biçimde kullanmak |
+| Özel Eğitim ve Kaynaştırma | Özel gereksinimli öğrencileri tanımak, sınıf içi uyarlamalar yapmak |
+| Okullarda Rehberlik | Öğrencinin gelişimini desteklemek, rehberlik servisiyle iş birliği yapmak |
+| Eğitimde Ahlak ve Etik | Mesleki etik ilkeleri tanımak ve etik ikilemleri tartışabilmek |
+| Eğitimde Araştırma Yöntemleri | Eğitim araştırmalarını okuyup değerlendirmek |
+
+Tablodaki derslerin çoğu, sınıfa girildiği ilk gün doğrudan kullanılan bilgiler sunar. Özellikle ölçme-değerlendirme ve sınıf yönetimi, yeni öğretmenlerin en çok zorlandığını ifade ettiği alanlar arasında sayılır; bu dersleri öğretmenlik uygulamasıyla ilişkilendirerek çalışmak büyük fark yaratır.
 
 ## 2018'de ne değişti?
 

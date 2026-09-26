@@ -2,6 +2,7 @@
 title: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
 description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: bolum-rehberi
 tags: [Bilişim Teknolojileri ve Yazılım, BTY dersi, bilişim öğretmeni, ortaokul, kodlama]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://mufredat.meb.gov.tr/Dosyalar/2018124103559587-Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%205-6.%20S%C4%B1n%C4%B1flar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in dersin 5. ve 6. sınıflar için öğretim programı. Dersin amaçları ve beş ünitenin içeriği bu belgeden."
   - id: ttkb-cizelge
     title: "İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -37,6 +39,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in ilkokul ve ortaokul haftalık ders çizelgesi. Dersin hangi sınıflarda zorunlu olduğu ve haftalık saati buradan."
   - id: k12cs
     title: "K–12 Computer Science Framework"
     publisher: "K–12 Computer Science Framework Steering Committee"
@@ -44,6 +47,7 @@ sources:
     url: "https://k12cs.org"
     lang: en
     accessed: 2026-09-25
+    note: "ABD'de okul bilgisayar bilimi için hazırlanan çerçeve. Dersin uluslararası karşılığını göstermek için kullanıldı."
   - id: resnick2009
     author: "Resnick, M. vd."
     title: "Scratch: Programming for All"
@@ -52,6 +56,7 @@ sources:
     url: "https://doi.org/10.1145/1592761.1592779"
     lang: en
     accessed: 2026-09-25
+    note: "Blok tabanlı programlama aracı Scratch'in tasarım felsefesini anlatan makale. Derste programlamanın nasıl başladığına örnek."
   - id: ttkb-esaslar
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -59,6 +64,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik alanları ve ders okutma esasları. Dersi hangi alandaki öğretmenin okutacağı sorusunun resmî cevabı."
   - id: eurydice-inf
     author: "European Commission / EACEA / Eurydice"
     title: "Informatics Education at School in Europe"
@@ -67,6 +73,7 @@ sources:
     url: "https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa'daki okul bilişim eğitimini karşılaştıran 2022 Eurydice raporu. Avrupa'daki durum bölümünün kaynağı."
   - id: digcomp22
     author: "Vuorikari, R., Kluzer, S. ve Punie, Y."
     title: "DigComp 2.2: The Digital Competence Framework for Citizens"
@@ -75,8 +82,24 @@ sources:
     url: "https://doi.org/10.2760/115376"
     lang: en
     accessed: 2026-09-25
+    note: "AB'nin vatandaşlar için dijital yetkinlik çerçevesi. Dersin etik ve güvenlik boyutunu uluslararası çerçeveyle ilişkilendirmek için kullanıldı."
+  - id: tymm-bty
+    title: "Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (Türkiye Yüzyılı Maarif Modeli)"
+    publisher: "Millî Eğitim Bakanlığı"
+    year: "t.y."
+    url: "https://tymm.meb.gov.tr/ogretim-programlari/ders/bilisim-teknolojileri-ve-yazilim-dersi"
+    lang: tr
+    accessed: 2026-09-25
+    note: "Türkiye Yüzyılı Maarif Modeli kapsamında güncellenen öğretim programının resmî sayfası. Güncel programı takip etmek isteyenler için eklendi."
+  - id: uk-computing
+    title: "National Curriculum in England: Computing Programmes of Study"
+    publisher: "Department for Education (Birleşik Krallık)"
+    year: 2013
+    url: "https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study"
+    lang: en
+    accessed: 2026-09-25
+    note: "İngiltere'nin okullarda zorunlu bilişim (computing) dersi programı. Dünyadan karşılaştırmalı örnek olarak eklendi."
 ---
-
 Ortaokula başlayan her öğrencinin karşılaştığı derslerden biri **Bilişim Teknolojileri ve Yazılım** (BTY). Veliler dersi çoğu zaman "kodlama dersi" olarak biliyor. Bu yazıda dersin yapısını, kimin okuttuğunu ve Avrupa'daki bilişim eğitimiyle nasıl karşılaştırılabileceğini ele alıyoruz.
 
 ## Ders hangi sınıflarda var?
@@ -89,6 +112,22 @@ MEB'in öğretim programı BTY'yi ortaokul ve imam hatip ortaokulu 5. ve 6. sın
 
 Bu yaklaşım uluslararası çerçevelerle uyumludur. ABD'de hazırlanan K–12 Bilgisayar Bilimi Çerçevesi, okul düzeyindeki bilgisayar biliminin temel kavramlarını bilgisayar sistemleri, ağlar ve internet, veri ve analiz, algoritmalar ve programlama ile bilişimin etkileri olarak sıralar.[@k12cs] Programlama çoğu zaman blok tabanlı araçlarla başlar. MIT'de geliştirilen Scratch, bu yaklaşımın en bilinen örneklerinden biridir ve programlamayı gençlerin kendi projelerini üretebileceği bir etkinlik olarak tasarlar.[@resnick2009]
 
+## Ünite ünite içerik
+
+2018 öğretim programı her sınıf düzeyinde beş üniteden oluşur:[@bty-program]
+
+| Ünite | Neleri kapsar? |
+|---|---|
+| Bilişim Teknolojileri | Bilgi ve iletişim teknolojilerinin günlük yaşamdaki önemi ve etkileri, bilgisayar bileşenlerinin çalışma ilkeleri, dosya işlemleri, güncel teknolojiler |
+| Etik ve Güvenlik | Bilgi gizliliği ve güvenliği, etik değerler, dijital vatandaşlık |
+| İletişim, Araştırma ve İş Birliği | Etkili arama yapma, doğru bilgiye ulaşma ve paylaşma, iletişim teknolojileriyle iş birliği |
+| Ürün Oluşturma | Farklı yazılımlarla dijital ürünler tasarlama ve geliştirme |
+| Problem Çözme ve Programlama | Algoritma tasarlama; değişken, atama, sıralı mantık, karar yapısı, döngü ve fonksiyon kullanma |
+
+Tablo, dersin neden "kodlama dersi" olarak anılmasının eksik kaldığını gösteriyor: programlama beş üniteden yalnızca biri. Diğer dört ünite öğrencinin teknolojiyi anlaması, güvenli kullanması, onunla araştırma yapması ve ürün ortaya koyması üzerine kurulu.
+
+MEB, **Türkiye Yüzyılı Maarif Modeli** kapsamında öğretim programlarını yeniledi; dersin güncel programı ve kazanımları bakanlığın program sayfasında yayımlanıyor.[@tymm-bty] Okulunuzda hangi programın uygulandığını ve güncel kazanımları bu sayfadan takip etmenizi öneririz.
+
 ## Dersi kim okutur?
 
 Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[@ttkb-esaslar] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
@@ -96,6 +135,12 @@ Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Ata
 ## Avrupa'da durum ne?
 
 Eurydice ağının 2022 raporu, Türkiye dahil 39 eğitim sisteminde okul bilişim eğitimini karşılaştırır. Rapora göre bilişim bazı sistemlerde ayrı bir ders olarak, bazılarında ise diğer derslerin içine yerleştirilerek öğretiliyor. Sistemlerin üçte ikisinden fazlası bilişim programlarını güncelleyen reformlar geliştiriyor ya da uyguluyor; bu reformlar sıklıkla yeni ve ayrı bir ders getiriyor.[@eurydice-inf] Rapor aynı zamanda bilişim öğretmenlerinin nitelikleri ve yetiştirilmesine de odaklanır. Bu, BÖTE gibi alan programlarının neden önemli olduğunu gösteren bir veridir.
+
+## Dünyadan bir örnek: İngiltere
+
+Okullarda bilişim eğitimini zorunlu hâle getiren ülkelerin en bilinen örneklerinden biri İngiltere'dir. 2013'te yayımlanan ve 2014'ten itibaren uygulanan ulusal program, **computing** dersini ilkokuldan ortaöğretimin sonuna kadar dört anahtar evrede zorunlu kıldı. Program; öğrencilerin soyutlama, mantık, algoritmalar ve veri gösterimi gibi bilgisayar biliminin temel ilkelerini anlamasını, problemleri bilgi işlemsel olarak çözümlemesini ve bilgi teknolojilerini sorumlu, yetkin ve yaratıcı biçimde kullanmasını hedefler.[@uk-computing]
+
+İngiltere örneğinin Türkiye için ilginç yanı, programın bilgisayar bilimini, bilgi teknolojilerini ve dijital okuryazarlığı tek bir ders çatısı altında birleştirmesidir. BTY dersinin beş ünitesi de benzer biçimde bu üç alanı birlikte kapsar.
 
 ## Ders sınıfta nasıl işlenir?
 

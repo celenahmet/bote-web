@@ -2,6 +2,7 @@
 title: "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber"
 description: "Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-teknolojileri
 tags: [eğitimde yapay zekâ, üretken yapay zekâ, UNESCO, öğretmen yetkinlikleri, MEB]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://unesdoc.unesco.org/ark:/48223/pf0000386693"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun eğitim ve araştırmada üretken yapay zekâ için ilk küresel rehberi. Yaş sınırı önerisi, veri gizliliği uyarıları ve kavram tanımları buradan."
   - id: unesco-aicft
     author: "Miao, F. ve Cukurova, M."
     title: "AI Competency Framework for Teachers"
@@ -39,6 +41,7 @@ sources:
     url: "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun öğretmenler için yapay zekâ yetkinlik çerçevesi. Beş boyut ve 15 yetkinlik tablosunun kaynağı."
   - id: oecd-deo2023
     title: "OECD Digital Education Outlook 2023: Towards an Effective Digital Education Ecosystem"
     publisher: "OECD"
@@ -46,6 +49,7 @@ sources:
     url: "https://doi.org/10.1787/c74f03de-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin ülkelerin dijital eğitim ekosistemlerini karşılaştırdığı raporu. Yapay zekâyı okul düzeyinden sistem düzeyine taşıyan bakış açısı için kullanıldı."
   - id: meb-yz
     title: "Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı Yürürlüğe Girdi"
     publisher: "Millî Eğitim Bakanlığı"
@@ -53,6 +57,7 @@ sources:
     url: "https://www.meb.gov.tr/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-yururluge-girdi/haber/37531/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı'nın yürürlüğe girdiğini duyuran resmî haber. Türkiye'deki politika çerçevesinin kaynağı."
   - id: yegitek-yz
     title: "Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı (2025–2029) İngilizce Olarak Yayımlandı"
     publisher: "MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü"
@@ -60,9 +65,31 @@ sources:
     url: "https://yegitek.meb.gov.tr/www/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-20252029-ingilizce-olarak-yayimlandi/icerik/3846"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB YEĞİTEK'in politika belgesinin yapısını (4 amaç, 15 politika, 40 eylem) ve etik kurulunu anlatan duyurusu."
+  - id: eu-aiact
+    title: "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)"
+    publisher: "Official Journal of the European Union"
+    year: 2024
+    url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    lang: en
+    accessed: 2026-09-25
+    note: "Avrupa Birliği'nin Yapay Zekâ Yasası. Eğitimdeki bazı yapay zekâ kullanımlarının 'yüksek riskli' sayılmasına ilişkin bölümün resmî kaynağı."
 ---
-
 Üretken yapay zekâ araçları birkaç yıl içinde öğrencilerin ödevlerinden öğretmenlerin ders hazırlığına kadar eğitimin her alanına girdi. Bu hız, okulları ve öğretmenleri "yasaklamak mı, kullanmak mı?" ikilemine soktu. Bu yazıda uluslararası kuruluşların ve MEB'in yaklaşımını özetliyor, öğretmenler için uygulanabilir ilkeler çıkarıyoruz.
+
+## Temel kavramlar
+
+Tartışmaya girmeden önce sık karıştırılan birkaç kavramı netleştirmek gerekiyor:
+
+| Kavram | Kısaca | Eğitimdeki örnek |
+|---|---|---|
+| Yapay zekâ | Algılama, tahmin, sınıflandırma, karar verme gibi işleri yerine getiren bilgisayar sistemlerinin genel adı | Uyarlanabilir alıştırma sistemleri |
+| Makine öğrenmesi | Sistemin kuralları açıkça programlanmadan, veriden örüntü öğrenmesi | Öğrencinin hatalarından zorlanacağı konuyu tahmin etme |
+| Üretken yapay zekâ | Metin, görsel, ses ya da kod gibi yeni içerik üreten yapay zekâ | Ders planı taslağı, farklı düzeylerde soru üretme |
+| Büyük dil modeli | Çok büyük metin verisiyle eğitilmiş, bir sonraki sözcüğü tahmin ederek metin üreten model | Sohbet tabanlı asistanlar |
+| Halüsinasyon | Modelin gerçekte olmayan bilgi ya da kaynağı kendinden emin biçimde üretmesi | Var olmayan bir makaleye atıf yapması |
+
+UNESCO'nun rehberi, üretken yapay zekânın metni "anlayarak" değil, eğitildiği verideki örüntülere dayanarak ürettiğini vurgular. Bu nedenle üretilen içerik akıcı ve ikna edici olsa da doğru olmak zorunda değildir.[@unesco-genai] Öğretmenler için en önemli kavram belki de halüsinasyondur: akıcılık, doğruluğun kanıtı değildir.
 
 ## UNESCO'nun üretken yapay zekâ rehberi
 
@@ -87,6 +114,12 @@ Bu tablo, yapay zekâ okuryazarlığının yalnızca bir aracı kullanabilmek ol
 ## OECD'nin bakışı: ekosistem olarak dijital eğitim
 
 OECD'nin *Dijital Eğitim Görünümü 2023* raporu, tek tek araçlardan çok ülkelerin dijital eğitim ekosistemlerini ele alır: altyapı, yönetişim ve bu ekosistemi yönlendiren politikalar.[@oecd-deo2023] Bu bakış açısı önemlidir. Bir okulun yapay zekâdan yararlanabilmesi, öğretmenin bireysel çabasından çok veri politikalarına, altyapıya ve mesleki gelişim desteğine bağlıdır.
+
+## Avrupa'da yasal çerçeve: Yapay Zekâ Yasası
+
+Avrupa Birliği 2024'te yapay zekâya ilişkin kapsamlı bir düzenleme kabul etti. **Yapay Zekâ Yasası**, yapay zekâ sistemlerini risk düzeylerine göre sınıflandırır. Eğitim, yasada özel olarak anılan alanlardan biridir: öğrencilerin eğitim kurumlarına kabulünü belirleyen, öğrenme çıktılarını değerlendiren, öğrencinin alacağı eğitim düzeyini belirleyen ya da sınav sırasında yasaklanmış davranışları izleyen sistemler **yüksek riskli** sayılır. Yasa ayrıca eğitim kurumlarında duygu tanıma sistemlerinin kullanımını, tıbbi ve güvenlik amaçlı istisnalar dışında yasaklar.[@eu-aiact]
+
+Bu düzenleme Türkiye'de doğrudan uygulanmasa da önemli bir işaret veriyor: yapay zekânın öğrenci hakkında karar veren kullanımları, içerik üreten kullanımlarından çok daha sıkı güvenceler gerektiriyor. Öğretmenlerin bir aracı değerlendirirken sorması gereken ilk soru da budur: Bu araç yalnızca bana yardım mı ediyor, yoksa öğrenci hakkında bir karar mı veriyor?
 
 ## Türkiye: MEB'in politika belgesi
 

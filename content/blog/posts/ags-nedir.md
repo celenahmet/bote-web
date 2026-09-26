@@ -2,6 +2,7 @@
 title: "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi"
 description: "AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [AGS, Akademi Giriş Sınavı, ÖABT, öğretmen ataması, ÖSYM]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm"
     lang: tr
     accessed: 2026-09-25
+    note: "7528 sayılı Kanun'un Resmî Gazete'deki ilk yayımı. AGS'nin dayandığı yeni öğretmenlik sisteminin yasal kaynağı."
   - id: meb-ags
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu"
     publisher: "Millî Eğitim Bakanlığı"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in AGS'nin ayrıntılarını ilk kez açıkladığı duyuru. İlk sınav tarihinin kaynağı."
   - id: meb-ags-konu
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı Konu Dağılımları Açıklandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -44,6 +47,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavi-konu-dagilimlari-aciklandi/haber/39480/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in AGS konu dağılımını açıkladığı duyuru. Soru sayıları, süre ve konu başlıklarının resmî kaynağı."
   - id: osym-ags
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular"
     publisher: "ÖSYM"
@@ -51,6 +55,7 @@ sources:
     url: "https://www.osym.gov.tr/TR,33032/milli-egitim-bakanligi-akademi-giris-sinavi-meb-ags-ornek-sorular-24022025.html"
     lang: tr
     accessed: 2026-09-25
+    note: "ÖSYM'nin AGS örnek sorularını yayımladığı sayfa. Hazırlık için en güvenilir örnek kaynak."
   - id: mea-program
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -58,6 +63,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Millî Eğitim Akademisi hazırlık eğitimi programının MEB duyurusu. Sınav sonrası sürecin yapısı buradan."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -65,6 +71,7 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Öğretmen seçimini uluslararası bağlama yerleştirmek için kullanıldı."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -73,8 +80,8 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü eğitim sistemlerinin öğretmen seçimine ve hazırlığına nasıl yatırım yaptığını gösteren karşılaştırmalı çalışma."
 ---
-
 Öğretmen adaylarının gündemindeki en yeni kavramlardan biri **AGS**. 2024'te çıkarılan Öğretmenlik Mesleği Kanunu ile birlikte öğretmenliğe giden yolun ilk sınavı değişti. Bu yazıda AGS'nin ne olduğunu, yapısını ve hazırlık sürecinde dikkat edilmesi gerekenleri resmî kaynaklara dayanarak özetliyoruz.
 
 ## AGS nedir?
@@ -99,6 +106,19 @@ AGS'nin kapsamında sözel ve sayısal yetenek, tarih, Türkiye coğrafyası, e�
 ## Sınavdan sonra: akademi süreci
 
 AGS bir atama sınavı değil, akademiye kabul sınavıdır. Kabul edilen adaylar Millî Eğitim Akademisi'nde onar haftalık dört dönemden oluşan hazırlık eğitimine başlar.[@mea-program] Hazırlık eğitimini başarıyla tamamlamak, MEB'e öğretmen olarak atanmanın ön koşuludur. Bu süreci [Millî Eğitim Akademisi hazırlık eğitimi](/blog/milli-egitim-akademisi-hazirlik-egitimi) yazımızda ayrıntılı anlattık.
+
+## ÖABT nedir?
+
+AGS'nin ikinci oturumu olan **Öğretmenlik Alan Bilgisi Testi (ÖABT)**, adayın öğreteceği alana ilişkin bilgisini ölçer. Test yalnızca alanın akademik bilgisini değil, o alanın nasıl öğretileceğine ilişkin **alan eğitimi** bilgisini de kapsar. Örneğin bir matematik öğretmeni adayı hem matematik bilgisinden hem de öğrencilerin matematikte sık yaptığı hatalar ve öğretim yaklaşımlarından sorumludur. MEB'in açıkladığı konu dağılımına göre ÖABT 50 sorudan oluşur.[@meb-ags-konu] Hangi alanlarda ÖABT uygulanacağı ve alan bazındaki konu dağılımları ise ÖSYM kılavuzunda yayımlanır.
+
+## Güvenilir hazırlık kaynakları
+
+Yeni bir sınav etrafında çok sayıda yorum ve "tahmin" üretilir. Hazırlıkta şu sıralamayı izlemek en güvenlisidir:
+
+1. **Resmî belgeler:** ÖSYM kılavuzu, MEB'in konu dağılımı duyurusu ve ÖSYM'nin yayımladığı örnek sorular.[@osym-ags]
+2. **Mevzuat metinlerinin kendisi:** Kanunları özetlerden değil, Resmî Gazete ve Mevzuat Bilgi Sistemi'ndeki metinlerinden okumak.
+3. **Lisans ders notları ve ders kitapları:** Özellikle ÖABT için lisanstaki alan ve alan eğitimi dersleri.
+4. **Öğretim programları:** MEB'in ilgili dersin öğretim programı, alan eğitimi soruları için doğrudan kaynaktır.
 
 ## Uluslararası bağlamda öğretmen seçimi
 

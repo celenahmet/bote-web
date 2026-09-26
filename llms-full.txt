@@ -6,7 +6,7 @@
 
 > AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ags-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ags-nedir
 
 ## Kısaca
 
@@ -39,6 +39,19 @@ AGS'nin kapsamında sözel ve sayısal yetenek, tarih, Türkiye coğrafyası, e�
 ## Sınavdan sonra: akademi süreci
 
 AGS bir atama sınavı değil, akademiye kabul sınavıdır. Kabul edilen adaylar Millî Eğitim Akademisi'nde onar haftalık dört dönemden oluşan hazırlık eğitimine başlar.[5] Hazırlık eğitimini başarıyla tamamlamak, MEB'e öğretmen olarak atanmanın ön koşuludur. Bu süreci [Millî Eğitim Akademisi hazırlık eğitimi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazımızda ayrıntılı anlattık.
+
+## ÖABT nedir?
+
+AGS'nin ikinci oturumu olan **Öğretmenlik Alan Bilgisi Testi (ÖABT)**, adayın öğreteceği alana ilişkin bilgisini ölçer. Test yalnızca alanın akademik bilgisini değil, o alanın nasıl öğretileceğine ilişkin **alan eğitimi** bilgisini de kapsar. Örneğin bir matematik öğretmeni adayı hem matematik bilgisinden hem de öğrencilerin matematikte sık yaptığı hatalar ve öğretim yaklaşımlarından sorumludur. MEB'in açıkladığı konu dağılımına göre ÖABT 50 sorudan oluşur.[3] Hangi alanlarda ÖABT uygulanacağı ve alan bazındaki konu dağılımları ise ÖSYM kılavuzunda yayımlanır.
+
+## Güvenilir hazırlık kaynakları
+
+Yeni bir sınav etrafında çok sayıda yorum ve "tahmin" üretilir. Hazırlıkta şu sıralamayı izlemek en güvenlisidir:
+
+1. **Resmî belgeler:** ÖSYM kılavuzu, MEB'in konu dağılımı duyurusu ve ÖSYM'nin yayımladığı örnek sorular.[4]
+2. **Mevzuat metinlerinin kendisi:** Kanunları özetlerden değil, Resmî Gazete ve Mevzuat Bilgi Sistemi'ndeki metinlerinden okumak.
+3. **Lisans ders notları ve ders kitapları:** Özellikle ÖABT için lisanstaki alan ve alan eğitimi dersleri.
+4. **Öğretim programları:** MEB'in ilgili dersin öğretim programı, alan eğitimi soruları için doğrudan kaynaktır.
 
 ## Uluslararası bağlamda öğretmen seçimi
 
@@ -106,7 +119,7 @@ Başvuru koşulları ÖSYM ve MEB'in sınav kılavuzlarında yayımlanır. Genel
 
 > Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
 
 ## Kısaca
 
@@ -119,11 +132,11 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3
 
 ## Kavramın kısa hikâyesi
 
-Kavramı geniş kitlelere tanıtan metin, Jeannette Wing'in 2006'da *Communications of the ACM* dergisinde yayımlanan kısa makalesidir. Wing'e göre bilgi işlemsel düşünme yalnızca bilgisayar bilimcilerin değil herkesin kullanabileceği temel bir beceridir. Okuma, yazma ve aritmetiğin yanına her çocuğun analitik yeteneği olarak eklenmelidir.[1] Wing bu düşünme biçimini programlamayla sınırlamaz: bir problemi yeniden formüle etmek, uygun soyutlamayı seçmek ve karmaşık bir sistemi parçalarına ayırmak da bu kapsamdadır.
+İfadenin ilk kullanımlarından biri, çocukların bilgisayarla düşünmeyi öğrenmesi üzerine çalışan Seymour Papert'e aittir. Papert 1996'da matematik eğitimi üzerine yazdığı bir makalede "computational thinking" ifadesini kullanarak bilgisayarın öğrencilere yeni düşünme biçimleri kazandırabileceğini savundu.[1] Ancak kavramı geniş kitlelere tanıtan metin, Jeannette Wing'in 2006'da *Communications of the ACM* dergisinde yayımlanan kısa makalesidir. Wing'e göre bilgi işlemsel düşünme yalnızca bilgisayar bilimcilerin değil herkesin kullanabileceği temel bir beceridir. Okuma, yazma ve aritmetiğin yanına her çocuğun analitik yeteneği olarak eklenmelidir.[2] Wing bu düşünme biçimini programlamayla sınırlamaz: bir problemi yeniden formüle etmek, uygun soyutlamayı seçmek ve karmaşık bir sistemi parçalarına ayırmak da bu kapsamdadır.
 
 ## Bileşenler
 
-Grover ve Pea'nın okul öncesinden liseye kadar olan alanyazını derleyen çalışması, bilgi işlemsel düşünmenin öğelerini şöyle sıralar: soyutlama ve örüntü genellemesi, bilginin sistemli işlenmesi, sembol sistemleri, algoritmik akış kontrolü, yapılandırılmış problem ayrıştırma, yinelemeli düşünme, koşullu mantık, verimlilik ve hata ayıklama.[2] Okullarda bu liste genellikle beş temel beceriye indirgenir:
+Grover ve Pea'nın okul öncesinden liseye kadar olan alanyazını derleyen çalışması, bilgi işlemsel düşünmenin öğelerini şöyle sıralar: soyutlama ve örüntü genellemesi, bilginin sistemli işlenmesi, sembol sistemleri, algoritmik akış kontrolü, yapılandırılmış problem ayrıştırma, yinelemeli düşünme, koşullu mantık, verimlilik ve hata ayıklama.[3] Okullarda bu liste genellikle beş temel beceriye indirgenir:
 
 | Beceri | Ne demek? | Sınıf örneği |
 |---|---|---|
@@ -133,17 +146,33 @@ Grover ve Pea'nın okul öncesinden liseye kadar olan alanyazını derleyen çal
 | Algoritma | Adım adım çözüm yazmak | Bir robotu labirentten çıkaracak komut dizisi |
 | Hata ayıklama | Yanlışı bulup düzeltmek | Beklenmeyen sonucu adım adım izlemek |
 
-ABD'deki K–12 Bilgisayar Bilimi Çerçevesi de benzer bir yaklaşımla soyutlama geliştirme, hesaplamalı ürünler oluşturma ve bu ürünleri test edip iyileştirme gibi uygulamaları öne çıkarır.[3]
+ABD'deki K–12 Bilgisayar Bilimi Çerçevesi de benzer bir yaklaşımla soyutlama geliştirme, hesaplamalı ürünler oluşturma ve bu ürünleri test edip iyileştirme gibi uygulamaları öne çıkarır.[4]
+
+## Brennan ve Resnick'in üç boyutlu çerçevesi
+
+Beceri listeleri kavramı tanımlar, ama sınıfta neyin gözlemleneceğini tam söylemez. Scratch'i geliştiren ekipten Brennan ve Resnick, öğrencilerin Scratch projelerini inceleyerek bilgi işlemsel düşünmeyi üç boyutta ele alan bir çerçeve önerdi:[5]
+
+| Boyut | Kapsamı | Örnekler |
+|---|---|---|
+| Kavramlar | Programlama yaparken kullanılan temel yapılar | Sıralı adımlar, döngüler, olaylar, eşzamanlılık, koşullar, işleçler, veri |
+| Uygulamalar | Problem çözme sürecinde geliştirilen alışkanlıklar | Adım adım ve yinelemeli ilerleme, test etme ve hata ayıklama, yeniden kullanma ve uyarlama, soyutlama ve modülleştirme |
+| Bakış açıları | Öğrencinin kendisi ve dünya hakkındaki görüşlerinin değişmesi | Kendini ifade etme, başkalarıyla bağlantı kurma, teknolojiyi sorgulama |
+
+Bu çerçevenin değeri, bilgi işlemsel düşünmeyi yalnızca teknik bir beceri olarak görmemesidir. Üçüncü boyut, öğrencinin teknolojiyi tüketen değil, onunla kendini ifade eden ve onu sorgulayan biri hâline gelmesini hedefler.
+
+## Bilgisayarsız öğretim
+
+Bilgi işlemsel düşünmenin öğretimi için bilgisayar şart değildir. Yeni Zelanda'daki Canterbury Üniversitesi'nden çıkan **CS Unplugged** projesi, ikili sayılardan sıralama algoritmalarına kadar bilgisayar biliminin temel fikirlerini kartlar, iplerle ve oyunlarla öğreten ücretsiz etkinlikler sunar.[6] Bu yaklaşım özellikle bilgisayar erişimi sınırlı okullarda ve küçük yaş gruplarında değerlidir; bilgisayarlı etkinliklerden önce kavramsal bir zemin oluşturur.
 
 ## Okullarda nasıl öğretiliyor?
 
-Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin bazı sistemlerde ayrı ders, bazılarında ise matematik ve fen gibi derslere entegre biçimde öğretildiğini gösteriyor. Sistemlerin üçte ikisinden fazlası programlarını güncelleyen reformlar yürütüyor.[4] Türkiye'de ise ortaokuldaki **Bilişim Teknolojileri ve Yazılım** dersinin öğretim programı, problem çözme ve programlamaya ayrı bir yer verir.[5] Ders hakkında ayrıntı için [BTY dersi rehberimize](https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi) bakabilirsiniz.
+Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin bazı sistemlerde ayrı ders, bazılarında ise matematik ve fen gibi derslere entegre biçimde öğretildiğini gösteriyor. Sistemlerin üçte ikisinden fazlası programlarını güncelleyen reformlar yürütüyor.[7] Türkiye'de ise ortaokuldaki **Bilişim Teknolojileri ve Yazılım** dersinin öğretim programı, problem çözme ve programlamaya ayrı bir yer verir.[8] Ders hakkında ayrıntı için [BTY dersi rehberimize](https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi) bakabilirsiniz.
 
 ## Sınıfta örnek bir etkinlik: sandviç algoritması
 
 Bilgi işlemsel düşünmeyi öğretmek için her zaman bilgisayar gerekmez. Sık kullanılan bir etkinlikte öğrencilerden bir sandviç hazırlamanın adımlarını yazmaları istenir. Öğretmen yazılan adımları harfiyen uygular: "Ekmeğe peynir koy" denildiğinde paketi açmadan peyniri ekmeğin üzerine bırakır. Sınıf gülerken önemli bir ders çıkar: bir algoritma, uygulayıcının hiçbir şeyi tahmin etmesine gerek bırakmayacak kadar açık olmalıdır.
 
-Etkinlik sonrasında öğrenciler adımlarını yeniden yazar. Bu sırada farkında olmadan beş beceriyi birlikte kullanırlar. Görevi alt adımlara ayırırlar (ayrıştırma), gereksiz ayrıntıyı atarlar (soyutlama), tekrar eden işleri fark ederler (örüntü tanıma), adımları sıralarlar (algoritma) ve hataları düzeltirler (hata ayıklama). Aynı mantık daha sonra blok tabanlı programlama araçlarına taşınabilir; Scratch gibi araçlar öğrencilerin kendi fikirlerini proje hâline getirmesine olanak tanır.[6]
+Etkinlik sonrasında öğrenciler adımlarını yeniden yazar. Bu sırada farkında olmadan beş beceriyi birlikte kullanırlar. Görevi alt adımlara ayırırlar (ayrıştırma), gereksiz ayrıntıyı atarlar (soyutlama), tekrar eden işleri fark ederler (örüntü tanıma), adımları sıralarlar (algoritma) ve hataları düzeltirler (hata ayıklama). Aynı mantık daha sonra blok tabanlı programlama araçlarına taşınabilir; Scratch gibi araçlar öğrencilerin kendi fikirlerini proje hâline getirmesine olanak tanır.[9]
 
 ## Nasıl değerlendirilir?
 
@@ -153,9 +182,15 @@ Değerlendirmede yalnızca çalışan ürüne bakmak yanıltıcı olabilir. Bir 
 - **Kod okuma soruları:** Verilen kısa bir programın ne yapacağını tahmin etmek, yazmaktan farklı bir beceri ölçer.
 - **Eşli çalışma gözlemi:** Öğrencilerin hatayı nasıl tartıştığı, bilgi işlemsel düşünmenin en görünür göstergelerinden biridir.
 
+## Nasıl ölçülür?
+
+Shute, Sun ve Asbell-Clarke, alandaki tanım ve ölçme çalışmalarını derledikleri incelemede bilgi işlemsel düşünmeyi altı bileşenle tanımlar: **ayrıştırma, soyutlama, algoritma tasarımı, hata ayıklama, yineleme ve genelleme**. Yazarlar ölçmede tek bir yöntemin yetmediğini; proje analizi, performans görevleri ve ölçeklerin birlikte kullanılması gerektiğini vurgular.[10]
+
+Türkiye'den bu alana önemli bir katkı Korkmaz, Çakır ve Özden'in geliştirdiği **Bilgi İşlemsel Düşünme Beceri Ölçeği**dir. Ölçek beceriyi yaratıcılık, algoritmik düşünme, iş birliği, eleştirel düşünme ve problem çözme boyutlarıyla ele alır.[11] Ölçeğin bu yapısı, kavramın Türkiye'deki araştırmalarda programlamadan daha geniş bir düşünme becerisi olarak ele alındığını gösteriyor.
+
 ## Tartışmalı noktalar
 
-Kavramın popülerliği bazı soru işaretlerini de beraberinde getirdi. Grover ve Pea, tanım konusunda tam bir uzlaşı olmadığını ve bu becerinin nasıl ölçüleceğinin hâlâ açık bir araştırma sorusu olduğunu vurgular.[2] Kodlama etkinliklerinin kendiliğinden genel problem çözme becerisine dönüşeceğini varsaymak da doğru değildir. Öğretmenin rolü burada belirleyicidir: etkinliği yalnızca çalışan bir kodla bitirmek yerine öğrencinin nasıl düşündüğünü görünür kılmak gerekir.
+Kavramın popülerliği bazı soru işaretlerini de beraberinde getirdi. Grover ve Pea, tanım konusunda tam bir uzlaşı olmadığını ve bu becerinin nasıl ölçüleceğinin hâlâ açık bir araştırma sorusu olduğunu vurgular.[3] Kodlama etkinliklerinin kendiliğinden genel problem çözme becerisine dönüşeceğini varsaymak da doğru değildir. Öğretmenin rolü burada belirleyicidir: etkinliği yalnızca çalışan bir kodla bitirmek yerine öğrencinin nasıl düşündüğünü görünür kılmak gerekir.
 
 ## BÖTE ile ilişkisi
 
@@ -193,12 +228,17 @@ Günlük problemleri adımlara bölmek, blok tabanlı programlama araçlarıyla 
 
 ## Kaynaklar
 
-1. Wing, J. M. (2006). Computational Thinking. Communications of the ACM, 49(3), 33–35. https://doi.org/10.1145/1118178.1118215 (EN, erişim: 2026-09-25)
-2. Grover, S. ve Pea, R. (2013). Computational Thinking in K–12: A Review of the State of the Field. Educational Researcher, 42(1), 38–43. https://doi.org/10.3102/0013189X12463051 (EN, erişim: 2026-09-25)
-3. K–12 Computer Science Framework Steering Committee (2016). K–12 Computer Science Framework. https://k12cs.org (EN, erişim: 2026-09-25)
-4. European Commission / EACEA / Eurydice (2022). Informatics Education at School in Europe. Publications Office of the European Union. https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en (EN, erişim: 2026-09-25)
-5. MEB Talim ve Terbiye Kurulu Başkanlığı (2018). Ortaokul ve İmam Hatip Ortaokulu Bilişim Teknolojileri ve Yazılım Dersi (5 ve 6. Sınıflar) Öğretim Programı. https://mufredat.meb.gov.tr/Dosyalar/2018124103559587-Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%205-6.%20S%C4%B1n%C4%B1flar.pdf (TR, erişim: 2026-09-25)
-6. Resnick, M. vd. (2009). Scratch: Programming for All. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779 (EN, erişim: 2026-09-25)
+1. Papert, S. (1996). An Exploration in the Space of Mathematics Educations. International Journal of Computers for Mathematical Learning, 1(1), 95–123. https://doi.org/10.1007/BF00191473 (EN, erişim: 2026-09-25)
+2. Wing, J. M. (2006). Computational Thinking. Communications of the ACM, 49(3), 33–35. https://doi.org/10.1145/1118178.1118215 (EN, erişim: 2026-09-25)
+3. Grover, S. ve Pea, R. (2013). Computational Thinking in K–12: A Review of the State of the Field. Educational Researcher, 42(1), 38–43. https://doi.org/10.3102/0013189X12463051 (EN, erişim: 2026-09-25)
+4. K–12 Computer Science Framework Steering Committee (2016). K–12 Computer Science Framework. https://k12cs.org (EN, erişim: 2026-09-25)
+5. Brennan, K. ve Resnick, M. (2012). New Frameworks for Studying and Assessing the Development of Computational Thinking. AERA Yıllık Toplantısı, Vancouver. https://web.media.mit.edu/~kbrennan/files/Brennan_Resnick_AERA2012_CT.pdf (EN, erişim: 2026-09-25)
+6. University of Canterbury CS Education Research Group (t.y.). CS Unplugged. https://www.csunplugged.org (EN, erişim: 2026-09-25)
+7. European Commission / EACEA / Eurydice (2022). Informatics Education at School in Europe. Publications Office of the European Union. https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en (EN, erişim: 2026-09-25)
+8. MEB Talim ve Terbiye Kurulu Başkanlığı (2018). Ortaokul ve İmam Hatip Ortaokulu Bilişim Teknolojileri ve Yazılım Dersi (5 ve 6. Sınıflar) Öğretim Programı. https://mufredat.meb.gov.tr/Dosyalar/2018124103559587-Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%205-6.%20S%C4%B1n%C4%B1flar.pdf (TR, erişim: 2026-09-25)
+9. Resnick, M. vd. (2009). Scratch: Programming for All. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779 (EN, erişim: 2026-09-25)
+10. Shute, V. J., Sun, C. ve Asbell-Clarke, J. (2017). Demystifying Computational Thinking. Educational Research Review, 22, 142–158. https://doi.org/10.1016/j.edurev.2017.09.003 (EN, erişim: 2026-09-25)
+11. Korkmaz, Ö., Çakır, R. ve Özden, M. Y. (2017). A Validity and Reliability Study of the Computational Thinking Scales (CTS). Computers in Human Behavior, 72, 558–569. https://doi.org/10.1016/j.chb.2017.01.005 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -206,7 +246,7 @@ Günlük problemleri adımlara bölmek, blok tabanlı programlama araçlarıyla 
 
 > Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 
 ## Kısaca
 
@@ -246,6 +286,18 @@ Aralık 2025'te esaslarda yapılan değişiklikle, akademi hazırlık eğitimine
 7528 sayılı Kanun, öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak da tanımlar. Uzman öğretmenlik için en az on yıllık hizmet ve akademinin eğitimini tamamlamak gerekir.[10] Yani bugün atanan bir bilgisayar öğretmeninin önünde, mesleki gelişime dayalı uzun bir kariyer yolu vardır.
 
 Hazırlık eğitimini başarıyla tamamlamak, atamanın ön koşuludur. Mesleğe ilk adım ise işin sonu değil, başlangıcıdır. Yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleki gelişimi kariyerin bütününe yayar.[12]
+
+## Okulda bilgisayar öğretmeninin rolü
+
+Bilgisayar öğretmeninin işi haftalık ders saatleriyle sınırlı değildir. Uluslararası çerçeveler bu rolü üç katmanda tanımlar:
+
+**Öğretmen olarak:** Bilişim derslerini okutur ve öğrencilerin bilgi işlemsel düşünme, dijital içerik üretme ve güvenli teknoloji kullanımı becerilerini geliştirir. DigCompEdu'nun altıncı alanı, öğretmenin öğrencilerin bilgi ve medya okuryazarlığı, dijital iletişimi, içerik üretimi, sorumlu kullanımı ve dijital problem çözme becerilerini desteklemesini bir yetkinlik olarak tanımlar.[13]
+
+**Meslektaş olarak:** Okuldaki diğer branş öğretmenlerinin teknolojiyi derslerine anlamlı biçimde yerleştirmesine destek olur. ISTE'nin eğitim teknolojisi koçları için yayımladığı standartlar bu rolü öğrenme tasarımcısı, mesleki öğrenme kolaylaştırıcısı ve değişim ajanı olarak tarif eder.[14]
+
+**Rol model olarak:** Öğrencilerin ve velilerin dijital güvenlik, mahremiyet ve ekran süresi konularında başvurduğu kişi çoğu zaman bilgisayar öğretmenidir.
+
+Bu üç katman, BÖTE programlarının neden teknik derslerin yanında öğretim tasarımı ve eğitim bilimlerine de ağırlık verdiğini açıklıyor.
 
 ## Kısa kontrol listesi
 
@@ -301,6 +353,8 @@ AGS ve akademi süreci MEB'e bağlı resmî okullara öğretmen olarak atanmayı
 10. Mevzuat Bilgi Sistemi (2024). Öğretmenlik Mesleği Kanunu (Kanun No. 7528, güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-09-25)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-09-25)
 12. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+13. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+14. International Society for Technology in Education (ISTE) (2019). ISTE Standards: For Coaches. https://iste.org/standards/coaches (EN, erişim: 2026-09-25)
 
 ---
 
@@ -308,7 +362,7 @@ AGS ve akademi süreci MEB'e bağlı resmî okullara öğretmen olarak atanmayı
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
 ## Kısaca
 
@@ -329,13 +383,35 @@ MEB'in öğretim programı BTY'yi ortaokul ve imam hatip ortaokulu 5. ve 6. sın
 
 Bu yaklaşım uluslararası çerçevelerle uyumludur. ABD'de hazırlanan K–12 Bilgisayar Bilimi Çerçevesi, okul düzeyindeki bilgisayar biliminin temel kavramlarını bilgisayar sistemleri, ağlar ve internet, veri ve analiz, algoritmalar ve programlama ile bilişimin etkileri olarak sıralar.[3] Programlama çoğu zaman blok tabanlı araçlarla başlar. MIT'de geliştirilen Scratch, bu yaklaşımın en bilinen örneklerinden biridir ve programlamayı gençlerin kendi projelerini üretebileceği bir etkinlik olarak tasarlar.[4]
 
+## Ünite ünite içerik
+
+2018 öğretim programı her sınıf düzeyinde beş üniteden oluşur:[1]
+
+| Ünite | Neleri kapsar? |
+|---|---|
+| Bilişim Teknolojileri | Bilgi ve iletişim teknolojilerinin günlük yaşamdaki önemi ve etkileri, bilgisayar bileşenlerinin çalışma ilkeleri, dosya işlemleri, güncel teknolojiler |
+| Etik ve Güvenlik | Bilgi gizliliği ve güvenliği, etik değerler, dijital vatandaşlık |
+| İletişim, Araştırma ve İş Birliği | Etkili arama yapma, doğru bilgiye ulaşma ve paylaşma, iletişim teknolojileriyle iş birliği |
+| Ürün Oluşturma | Farklı yazılımlarla dijital ürünler tasarlama ve geliştirme |
+| Problem Çözme ve Programlama | Algoritma tasarlama; değişken, atama, sıralı mantık, karar yapısı, döngü ve fonksiyon kullanma |
+
+Tablo, dersin neden "kodlama dersi" olarak anılmasının eksik kaldığını gösteriyor: programlama beş üniteden yalnızca biri. Diğer dört ünite öğrencinin teknolojiyi anlaması, güvenli kullanması, onunla araştırma yapması ve ürün ortaya koyması üzerine kurulu.
+
+MEB, **Türkiye Yüzyılı Maarif Modeli** kapsamında öğretim programlarını yeniledi; dersin güncel programı ve kazanımları bakanlığın program sayfasında yayımlanıyor.[5] Okulunuzda hangi programın uygulandığını ve güncel kazanımları bu sayfadan takip etmenizi öneririz.
+
 ## Dersi kim okutur?
 
-Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[5] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
+Bir öğretmenin hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'ndaki çizelgelerle belirlenir. 2025'te yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu; **Bilişim Teknolojileri** alanı ise mesleki ve teknik eğitim kurumlarıyla ilişkilendirildi.[6] Bu alanlara öğretmen yetiştiren lisans programı hakkında daha fazla bilgi için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) yazımıza bakabilirsiniz.
 
 ## Avrupa'da durum ne?
 
-Eurydice ağının 2022 raporu, Türkiye dahil 39 eğitim sisteminde okul bilişim eğitimini karşılaştırır. Rapora göre bilişim bazı sistemlerde ayrı bir ders olarak, bazılarında ise diğer derslerin içine yerleştirilerek öğretiliyor. Sistemlerin üçte ikisinden fazlası bilişim programlarını güncelleyen reformlar geliştiriyor ya da uyguluyor; bu reformlar sıklıkla yeni ve ayrı bir ders getiriyor.[6] Rapor aynı zamanda bilişim öğretmenlerinin nitelikleri ve yetiştirilmesine de odaklanır. Bu, BÖTE gibi alan programlarının neden önemli olduğunu gösteren bir veridir.
+Eurydice ağının 2022 raporu, Türkiye dahil 39 eğitim sisteminde okul bilişim eğitimini karşılaştırır. Rapora göre bilişim bazı sistemlerde ayrı bir ders olarak, bazılarında ise diğer derslerin içine yerleştirilerek öğretiliyor. Sistemlerin üçte ikisinden fazlası bilişim programlarını güncelleyen reformlar geliştiriyor ya da uyguluyor; bu reformlar sıklıkla yeni ve ayrı bir ders getiriyor.[7] Rapor aynı zamanda bilişim öğretmenlerinin nitelikleri ve yetiştirilmesine de odaklanır. Bu, BÖTE gibi alan programlarının neden önemli olduğunu gösteren bir veridir.
+
+## Dünyadan bir örnek: İngiltere
+
+Okullarda bilişim eğitimini zorunlu hâle getiren ülkelerin en bilinen örneklerinden biri İngiltere'dir. 2013'te yayımlanan ve 2014'ten itibaren uygulanan ulusal program, **computing** dersini ilkokuldan ortaöğretimin sonuna kadar dört anahtar evrede zorunlu kıldı. Program; öğrencilerin soyutlama, mantık, algoritmalar ve veri gösterimi gibi bilgisayar biliminin temel ilkelerini anlamasını, problemleri bilgi işlemsel olarak çözümlemesini ve bilgi teknolojilerini sorumlu, yetkin ve yaratıcı biçimde kullanmasını hedefler.[8]
+
+İngiltere örneğinin Türkiye için ilginç yanı, programın bilgisayar bilimini, bilgi teknolojilerini ve dijital okuryazarlığı tek bir ders çatısı altında birleştirmesidir. BTY dersinin beş ünitesi de benzer biçimde bu üç alanı birlikte kapsar.
 
 ## Ders sınıfta nasıl işlenir?
 
@@ -350,7 +426,7 @@ Bu akış, dersin yalnızca bir araç kullanımı eğitimi olmadığını, aynı
 
 ## Etik ve güvenlik neden bu derste?
 
-Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken yaşta tanışıyor. Bu nedenle dersin güvenlik boyutu en az programlama kadar önemlidir. Avrupa Birliği'nin vatandaşlar için dijital yetkinlik çerçevesi DigComp 2.2, güvenliği ayrı bir yetkinlik alanı olarak tanımlar: cihazları korumak, kişisel verileri ve mahremiyeti korumak, sağlığı ve iyi oluşu korumak ve çevreyi korumak.[7] BTY'deki etik ve güvenlik konuları bu yaklaşımla örtüşür. Öğrencinin güçlü bir parola oluşturmayı, kişisel bilgilerini paylaşmadan önce düşünmeyi ve ekran süresini dengelemeyi öğrenmesi, ileride kazanacağı teknik becerilerin de zeminini oluşturur.
+Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken yaşta tanışıyor. Bu nedenle dersin güvenlik boyutu en az programlama kadar önemlidir. Avrupa Birliği'nin vatandaşlar için dijital yetkinlik çerçevesi DigComp 2.2, güvenliği ayrı bir yetkinlik alanı olarak tanımlar: cihazları korumak, kişisel verileri ve mahremiyeti korumak, sağlığı ve iyi oluşu korumak ve çevreyi korumak.[9] BTY'deki etik ve güvenlik konuları bu yaklaşımla örtüşür. Öğrencinin güçlü bir parola oluşturmayı, kişisel bilgilerini paylaşmadan önce düşünmeyi ve ekran süresini dengelemeyi öğrenmesi, ileride kazanacağı teknik becerilerin de zeminini oluşturur.
 
 ## Veliler ve öğrenciler için öneriler
 
@@ -394,9 +470,11 @@ Evet. Eurydice'nin 2022 raporu, bilişimin bazı ülkelerde ayrı bir ders olara
 2. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4. https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf (TR, erişim: 2026-09-25)
 3. K–12 Computer Science Framework Steering Committee (2016). K–12 Computer Science Framework. https://k12cs.org (EN, erişim: 2026-09-25)
 4. Resnick, M. vd. (2009). Scratch: Programming for All. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779 (EN, erişim: 2026-09-25)
-5. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-6. European Commission / EACEA / Eurydice (2022). Informatics Education at School in Europe. Publications Office of the European Union. https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en (EN, erişim: 2026-09-25)
-7. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (t.y.). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (Türkiye Yüzyılı Maarif Modeli). https://tymm.meb.gov.tr/ogretim-programlari/ders/bilisim-teknolojileri-ve-yazilim-dersi (TR, erişim: 2026-09-25)
+6. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+7. European Commission / EACEA / Eurydice (2022). Informatics Education at School in Europe. Publications Office of the European Union. https://op.europa.eu/en/publication-detail/-/publication/c2fcfd3c-438e-11ed-92ed-01aa75ed71a1/language-en (EN, erişim: 2026-09-25)
+8. Department for Education (Birleşik Krallık) (2013). National Curriculum in England: Computing Programmes of Study. https://www.gov.uk/government/publications/national-curriculum-in-england-computing-programmes-of-study (EN, erişim: 2026-09-25)
+9. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -404,7 +482,7 @@ Evet. Eurydice'nin 2022 raporu, bilişimin bazı ülkelerde ayrı bir ders olara
 
 > BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
 
 ## Kısaca
 
@@ -421,13 +499,13 @@ Bu yazıda her yolu fırsatları ve zorluklarıyla birlikte ele alıyoruz. Amac�
 
 ### Hangi alanda atanılır?
 
-Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[1] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Esasların güncel metnine göre **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[2]
+Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[1] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Esasların güncel metnine göre **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[1]
 
-Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri ve Yazılım**'dır. MEB Talim ve Terbiye Kurulunun haftalık ders çizelgesine göre bu ders 5. ve 6. sınıflarda haftada 2 saat zorunlu olarak okutulur.[3]
+Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri ve Yazılım**'dır. MEB Talim ve Terbiye Kurulunun haftalık ders çizelgesine göre bu ders 5. ve 6. sınıflarda haftada 2 saat zorunlu olarak okutulur.[2]
 
 ### Nasıl atanılır?
 
-Öğretmen ataması 2024'te köklü biçimde değişti. 7528 sayılı **Öğretmenlik Mesleği Kanunu**'na göre öğretmen olacak kişiler, öğretmenliğe kaynak olan bir lisans programından mezun olanlar ve **Millî Eğitim Akademisi**'nin hazırlık eğitimini başarıyla tamamlayanlar arasından seçilir.[4] Akademiye kabulün ilk basamağı olan **MEB Akademi Giriş Sınavı (AGS)** ilk kez 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[5]
+Öğretmen ataması 2024'te köklü biçimde değişti. 7528 sayılı **Öğretmenlik Mesleği Kanunu**'na göre öğretmen olacak kişiler, öğretmenliğe kaynak olan bir lisans programından mezun olanlar ve **Millî Eğitim Akademisi**'nin hazırlık eğitimini başarıyla tamamlayanlar arasından seçilir.[3] Akademiye kabulün ilk basamağı olan **MEB Akademi Giriş Sınavı (AGS)** ilk kez 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[4]
 
 **Artıları:** Kamu öğretmenliği iş güvencesi sunar. Ayrıca bölüm adıyla örtüşen yeni bir atama alanı artık tanımlı.
 
@@ -439,9 +517,9 @@ Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri v
 
 Öğretim tasarımcısı, bir eğitimin hedeflerini belirler, içeriğini ve etkinliklerini planlar ve öğrenmenin nasıl ölçüleceğini tasarlar. E-öğrenme uzmanı ise bu tasarımı dijital ortama taşır: etkileşimli içerik, video, öğrenme yönetim sistemi (LMS) kurulumu ve raporlama bu işin parçalarıdır.
 
-BÖTE, Türkiye'de bu rollere en doğrudan hazırlayan lisans programlarından biridir. Alan yazısı da BÖTE'yi öğretim sistemleri tasarımı ve insan performans teknolojisi ile birlikte tanımlar.[6]
+BÖTE, Türkiye'de bu rollere en doğrudan hazırlayan lisans programlarından biridir. Alan yazısı da BÖTE'yi öğretim sistemleri tasarımı ve insan performans teknolojisi ile birlikte tanımlar.[5]
 
-Uluslararası tablo bu yöndeki talebi destekliyor. ABD Çalışma İstatistikleri Bürosu (BLS), kurum içi eğitim programları tasarlayan ve yürüten **eğitim ve gelişim uzmanlarının** istihdamının önümüzdeki on yılda tüm meslekler ortalamasından hızlı artmasını bekliyor.[7] Okul sistemlerinde öğretim programlarını ve materyallerini geliştiren **öğretim koordinatörleri** için ise genellikle yüksek lisans ve öğretmenlik ya da yöneticilik deneyimi aranıyor.[8] Bu veriler ABD'ye aittir ve Türkiye'ye birebir uyarlanamaz. Yine de meslek gruplarının içeriğini ve gerektirdiği yetkinlikleri anlamak için iyi bir başvuru noktasıdır.
+Uluslararası tablo bu yöndeki talebi destekliyor. ABD Çalışma İstatistikleri Bürosu (BLS), kurum içi eğitim programları tasarlayan ve yürüten **eğitim ve gelişim uzmanlarının** istihdamının önümüzdeki on yılda tüm meslekler ortalamasından hızlı artmasını bekliyor.[6] Okul sistemlerinde öğretim programlarını ve materyallerini geliştiren **öğretim koordinatörleri** için ise genellikle yüksek lisans ve öğretmenlik ya da yöneticilik deneyimi aranıyor.[7] Bu veriler ABD'ye aittir ve Türkiye'ye birebir uyarlanamaz. Yine de meslek gruplarının içeriğini ve gerektirdiği yetkinlikleri anlamak için iyi bir başvuru noktasıdır.
 
 ## 3. Kurumsal eğitim ve insan kaynakları
 
@@ -457,18 +535,29 @@ Burada dürüst olmak gerekir. Saf yazılım pozisyonlarında BÖTE mezunları b
 
 Eğitim teknolojisi alanında yüksek lisans ve doktora yapan mezunlar araştırmacı ya da öğretim üyesi olabilir. Uzaktan eğitim, öğrenme analitiği ve eğitimde yapay zekâ gibi konular son yıllarda araştırmacılara geniş bir çalışma alanı açtı.
 
+## Her yol için ayrıntılı rehberler
+
+Bu yazı mezunların önündeki yolları genel hatlarıyla anlatıyor. Her yolu ayrıntılı ele aldığımız rehberler şunlar:
+
+- **Öğretmenlik:** Lisans tercihinden AGS ve Millî Eğitim Akademisi'ne kadar adımlar için [bilgisayar öğretmeni nasıl olunur?](https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur) ve [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir)
+- **Öğretim tasarımı:** Mesleğin gündelik işi, araç seti ve portfolyo önerileri için [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar)
+- **Yazılım:** Kapatılması gereken açıklar ve dört yıllık yol haritası için [BÖTE mezunu yazılımcı olabilir mi?](https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi)
+- **Çevrim içi eğitim:** Kurumların uzaktan eğitim altyapısında çalışmak için [LMS nedir?](https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir) ve [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir)
+
+Rehberlerin ortak mesajı şu: hangi yolu seçerseniz seçin, diploma kadar **somut kanıt** önemli. Öğretmen adayı için bu, uygulama dönemindeki ders planları ve materyaller; öğretim tasarımcısı için tamamlanmış bir e-öğrenme modülü; yazılımcı için ise herkese açık bir proje deposudur.
+
 ## Hangi beceriler fark yaratıyor?
 
 Hangi yolu seçerseniz seçin, işverenlerin ve okulların aradığı beceriler büyük ölçüde örtüşür:
 
 - **Öğretim tasarımı:** Bir öğrenme hedefinden yola çıkıp etkinlik ve ölçme tasarlayabilmek.
-- **Dijital pedagoji:** ISTE'nin eğitimciler için tanımladığı tasarımcı, kolaylaştırıcı ve analist rollerini üstlenebilmek.[9]
+- **Dijital pedagoji:** ISTE'nin eğitimciler için tanımladığı tasarımcı, kolaylaştırıcı ve analist rollerini üstlenebilmek.[8]
 - **Teknik yetkinlik:** En az bir programlama dili, web teknolojileri ve temel veri analizi.
 - **Öğretmenlere destek:** Öğretmenlerin teknolojiyi etkili kullanmasına yardım etmek.
 
-Son madde özellikle önemli. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerindeki öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde bilgi ve iletişim teknolojileri kullanımı üzerine eğitim almıştı. Kendini bu konuda iyi ya da çok iyi hazırlanmış hissedenlerin oranı ise %43'te kalıyordu.[10] UNESCO'nun 2023 Küresel Eğitim İzleme Raporu da öğretmenlerin teknolojiyle öğretimde kendilerini çoğu zaman hazırlıksız hissettiğini vurguluyor. Rapora göre ülkelerin yalnızca yarısında öğretmenlerin bilgi ve iletişim teknolojileri becerilerini geliştirmeye yönelik standartlar bulunuyor.[11]
+Son madde özellikle önemli. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerindeki öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde bilgi ve iletişim teknolojileri kullanımı üzerine eğitim almıştı. Kendini bu konuda iyi ya da çok iyi hazırlanmış hissedenlerin oranı ise %43'te kalıyordu.[9] UNESCO'nun 2023 Küresel Eğitim İzleme Raporu da öğretmenlerin teknolojiyle öğretimde kendilerini çoğu zaman hazırlıksız hissettiğini vurguluyor. Rapora göre ülkelerin yalnızca yarısında öğretmenlerin bilgi ve iletişim teknolojileri becerilerini geliştirmeye yönelik standartlar bulunuyor.[10]
 
-Aynı rapor önemli bir uyarı da yapıyor: Eğitim teknolojilerinin öğrenmeye katkısına dair sağlam ve tarafsız kanıt sınırlıdır. Teknoloji, insan etkileşimine dayalı eğitimin yerine geçmek için değil onu desteklemek için kullanılmalıdır.[11] İyi bir BÖTE mezununu "her derde teknoloji" diyen birinden ayıran da bu eleştirel bakıştır.
+Aynı rapor önemli bir uyarı da yapıyor: Eğitim teknolojilerinin öğrenmeye katkısına dair sağlam ve tarafsız kanıt sınırlıdır. Teknoloji, insan etkileşimine dayalı eğitimin yerine geçmek için değil onu desteklemek için kullanılmalıdır.[10] İyi bir BÖTE mezununu "her derde teknoloji" diyen birinden ayıran da bu eleştirel bakıştır.
 
 ## Özet tablo
 
@@ -513,17 +602,16 @@ Evet. Öğretim tasarımı, e-öğrenme içeriği geliştirme ve kurumsal eğiti
 
 ## Kaynaklar
 
-1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-2. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4. https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf (TR, erişim: 2026-09-25)
-4. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
-5. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
-6. Çakır, H., Çebi, A. ve Özcan, S. (2013). BÖTE Nedir? Nasıl Tanımlanır? Okul Müzesiyle Başlayan Serüvenden İnsan Performans Teknolojilerine Uzanan Yolculuk. Eğitim Teknolojisi Kuram ve Uygulama, 3(2), 102–111. https://dergipark.org.tr/tr/pub/etku/issue/6269/84217 (TR, erişim: 2026-09-25)
-7. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
-8. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
-9. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards (EN, erişim: 2026-09-25)
-10. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
-11. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+2. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4. https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf (TR, erişim: 2026-09-25)
+3. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
+4. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
+5. Çakır, H., Çebi, A. ve Özcan, S. (2013). BÖTE Nedir? Nasıl Tanımlanır? Okul Müzesiyle Başlayan Serüvenden İnsan Performans Teknolojilerine Uzanan Yolculuk. Eğitim Teknolojisi Kuram ve Uygulama, 3(2), 102–111. https://dergipark.org.tr/tr/pub/etku/issue/6269/84217 (TR, erişim: 2026-09-25)
+6. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
+7. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
+8. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards (EN, erişim: 2026-09-25)
+9. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+10. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
 
 ---
 
@@ -531,7 +619,7 @@ Evet. Öğretim tasarımı, e-öğrenme içeriği geliştirme ve kurumsal eğiti
 
 > BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 
 ## Kısaca
 
@@ -562,6 +650,20 @@ Bilgisayar biliminin uluslararası müfredat rehberi CS2023, bir bilgisayar bili
 | Yazılım mühendisliği pratikleri | Ekip içinde çalışmanın ön koşuludur | Sürüm kontrolü, kod incelemesi, test yazma |
 | Bir alanda derinleşme | Genel bilgi yerine uzmanlık aranır | Web, mobil ya da veri alanlarından birini seçip proje üretmek |
 | Portfolyo | Becerinin kanıtıdır | Kodları herkese açık depolarda paylaşmak |
+
+## Hangi alanda uzmanlaşılabilir?
+
+Yazılım sektörü tek bir iş değildir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi bile yazılım geliştiricileri, kalite güvence analistlerini ve test uzmanlarını aynı aile içinde ama ayrı görevlerle tanımlar.[2] BÖTE mezunu için bu çeşitlilik bir fırsattır: programdaki derslerden birini temel alıp o yönde derinleşmek mümkündür.
+
+| Alan | BÖTE'deki başlangıç noktası | Derinleşmek için |
+|---|---|---|
+| Web geliştirme | Web tasarımı ve programlama dersleri | Bir ön yüz ve bir arka yüz teknolojisinde tam proje |
+| Mobil uygulama | Programlama dersleri | Bir mobil platformda yayımlanmış küçük bir uygulama |
+| Veri ve analitik | Veri tabanı dersleri | Veri analizi ve görselleştirme projeleri |
+| Eğitim teknolojisi ürünleri | Öğretim tasarımı, çoklu ortam | Etkileşimli öğrenme uygulaması ya da eklenti |
+| Test ve kalite güvence | Programlama, sistem analizi | Otomatik test yazma pratiği |
+
+Son iki satır, BÖTE mezununun rakiplerinden ayrıştığı alanlardır: kullanıcıyı ve öğrenme sürecini anlamak, eğitim teknolojisi ürünlerinde doğrudan değer yaratır; dikkatli ve sistematik düşünme alışkanlığı ise test ve kalite güvence işlerinde işe yarar.
 
 ## BÖTE mezununun avantajları
 
@@ -633,7 +735,7 @@ Düzenli olarak gerçek projeler geliştirmek, kodunu herkese açık bir depoda 
 
 > BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
 
 ## Kısaca
 
@@ -670,6 +772,12 @@ BÖTE mezununun temel yolu öğretmenliktir. 2025'ten itibaren genel okullar iç
 Bilgisayar mühendisliği mezunları ise ağırlıklı olarak yazılım geliştirme ve sistem tasarımı alanlarında çalışır. Aynı kaynak, yazılım geliştiricilerin genellikle bilgisayar ve bilişim teknolojileri ya da ilgili bir alanda lisans derecesine sahip olduğunu belirtir.[6]
 
 Bu iki yol kesin çizgilerle ayrılmaz. BÖTE mezunları yazılım sektöründe çalışabilir; ancak bunun için ek çalışma gerekir. Bu konuyu [BÖTE mezunu yazılımcı olabilir mi?](https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi) yazımızda ayrıntılı ele aldık.
+
+## Mezuniyetten sonra hangi süreç bekliyor?
+
+İki bölüm arasındaki fark mezuniyetten sonra da sürer. BÖTE mezunu MEB'e öğretmen olmak isterse 7528 sayılı Öğretmenlik Mesleği Kanunu'nun öngördüğü süreçten geçer: önce Akademi Giriş Sınavı (AGS), ardından Millî Eğitim Akademisi'nde hazırlık eğitimi.[7] Bu süreç, lisanstan sonra yaklaşık bir yıllık ek bir hazırlık dönemi anlamına gelir. Bilgisayar mühendisliği mezunu ise özel sektörde doğrudan iş başvurusu yapar; işe alımda teknik mülakatlar ve projeler belirleyicidir. Kamu kurumlarındaki mühendis alımları ise kurumların kendi ilan ve sınav koşullarına bağlıdır.
+
+Bu fark, tercih yaparken yalnızca dört yıllık lisansı değil, mezuniyet sonrasındaki ilk birkaç yılı da düşünmek gerektiğini gösteriyor.
 
 ## Kime hangisi uygun?
 
@@ -730,6 +838,7 @@ BÖTE'de matematik ağırlığı bilgisayar mühendisliğine göre daha azdır; 
 4. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
 5. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
 6. U.S. Bureau of Labor Statistics (2025). Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers. https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm (EN, erişim: 2026-09-25)
+7. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-09-25)
 
 ---
 
@@ -737,7 +846,7 @@ BÖTE'de matematik ağırlığı bilgisayar mühendisliğine göre daha azdır; 
 
 > BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
 
 ## Kısaca
 
@@ -796,9 +905,26 @@ Bu çerçevelerin ortak mesajı şu: Teknolojiyi iyi bilmek tek başına yetmez.
 
 ## Güncel gelişmeler: 2025'te ne değişti?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[11] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[12]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[11] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[11]
 
 Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
+
+## Alanın temel kavramları
+
+BÖTE'de ve bu blogda sık karşılaşacağınız kavramları kısaca tanımlayalım. Her birini ayrıntılı ele aldığımız yazılara bağlantı verdik:
+
+| Kavram | Kısaca | Ayrıntı |
+|---|---|---|
+| Eğitim teknolojisi | Uygun teknolojik süreç ve kaynakları oluşturarak, kullanarak ve yöneterek öğrenmeyi kolaylaştırma çalışması | Bu yazı |
+| Öğretim tasarımı | Öğrenme ihtiyacından yola çıkarak öğretimi sistemli biçimde planlama | [ADDIE modeli](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) |
+| TPACK | Alan, pedagoji ve teknoloji bilgisinin kesişiminde oluşan öğretmen bilgisi | [TPACK modeli](https://www.bote.web.tr/blog/tpack-modeli-nedir) |
+| Bilgi işlemsel düşünme | Problemleri bir bilgisayarın da uygulayabileceği adımlarla çözme biçimi | [Bilgi işlemsel düşünme](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) |
+| Çoklu ortam öğrenme | Sözcük ve görselin birlikte, bilişsel yükü gözeterek kullanılması | [Mayer'in ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) |
+| Uzaktan eğitim | Öğrenen ile öğretenin fiziksel olarak ayrı olduğu eğitim | [Uzaktan eğitim](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) |
+| Oyunlaştırma | Oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılması | [Oyunlaştırma](https://www.bote.web.tr/blog/oyunlastirma-nedir) |
+| İnsan performans teknolojisi | Performans sorunlarını yalnızca eğitimle değil, çevresel ve örgütsel etkenlerle birlikte ele alan yaklaşım | Aşağıda |
+
+Son kavram BÖTE'nin sınırlarını anlamak için önemlidir. Çakır, Çebi ve Özcan'ın belirttiği gibi alan, öğretim sistemleri tasarımından başlayıp zamanla bir kurumdaki insan performansını bütüncül biçimde ele alan bir yaklaşıma doğru genişledi.[3] Bu nedenle bir BÖTE mezunu yalnızca "ders hazırlayan" değil, "öğrenme ve performans sorununu çözen" biri olarak da düşünülebilir.
 
 ## BÖTE kimler için uygun bir seçim?
 
@@ -858,8 +984,7 @@ Hayır. Öğretmenlik ana hedef olsa da mezunlar öğretim tasarımı, e-öğren
 8. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
 9. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
 10. Mishra, P. ve Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. Teachers College Record, 108(6), 1017–1054. https://doi.org/10.1111/j.1467-9620.2006.00684.x (EN, erişim: 2026-09-25)
-11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-12. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
 
 ---
 
@@ -867,7 +992,7 @@ Hayır. Öğretmenlik ana hedef olsa da mezunlar öğretim tasarımı, e-öğren
 
 > BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 
 ## Kısaca
 
@@ -919,7 +1044,7 @@ Küresel ölçekte öğretmen açığı da gündemde. UNESCO'nun 2024 Küresel �
 
 ## 2025 sonrası: yeni bir sayfa mı?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[11][12]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[11]
 
 Bu değişiklik iki farklı biçimde yorumlanabilir:
 
@@ -974,8 +1099,7 @@ Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine i
 8. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
 9. UNESCO (2023). Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?. https://www.unesco.org/gem-report/en/publication/technology (EN, erişim: 2026-09-25)
 10. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
-11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-12. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
 
 ---
 
@@ -983,7 +1107,7 @@ Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine i
 
 > Etkili sunum ve eğitim videosu nasıl hazırlanır? Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramıyla, öğretmenler için uygulanabilir tasarım rehberi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 
 ## Kısaca
 
@@ -1010,6 +1134,22 @@ Bu varsayımların arkasında John Sweller'in **bilişsel yük kuramı** vardır
 
 Mayer ve Moreno bu fikri çoklu ortama uyarlayarak bilişsel yükü azaltmanın dokuz yolunu tanımladı. İçeriği parçalara bölmek, önemli yerleri işaretlemek, ilgisiz ayrıntıyı ayıklamak ve gereksiz tekrarı kaldırmak bu yollardan bazılarıdır.[3]
 
+## Bilişsel yükün üç türü
+
+Sweller, van Merriënboer ve Paas, öğrenme sırasında çalışma belleğine binen yükü üç türe ayırır:[4]
+
+| Yük türü | Kaynağı | Tasarımcı ne yapmalı? |
+|---|---|---|
+| İçsel yük | Konunun kendi karmaşıklığı | Konuyu parçalara bölmek, ön bilgiyi hazırlamak |
+| Dışsal yük | Kötü tasarım: dağınık yerleşim, gereksiz ayrıntı | En aza indirmek |
+| Etkili yük | Anlamlı öğrenmeye harcanan çaba | Desteklemek ve yönlendirmek |
+
+Bu ayrım tasarım kararlarını netleştirir. Kuantum fiziği içsel olarak karmaşıktır; bu yük ortadan kaldırılamaz, ancak iyi sıralanarak yönetilebilir. Buna karşılık bir şemanın açıklamasının ayrı bir sayfada verilmesi tamamen dışsal yüktür ve tasarımla sıfırlanabilir. İyi bir materyal dışsal yükü azaltarak zihinsel kapasiteyi etkili yüke ayırır.
+
+## Neden sözcük ve resim birlikte? İkili kodlama kuramı
+
+Mayer'in iki kanal varsayımının arkasında Allan Paivio'nun **ikili kodlama kuramı** vardır. Clark ve Paivio'ya göre zihin, sözel bilgi ve görsel imgeler için birbiriyle bağlantılı iki ayrı sistem kullanır. Bir kavram hem sözcükle hem de imgeyle kodlandığında hatırlanması için iki ayrı yol oluşur ve bu, öğrenmeyi güçlendirir.[5] "Kalp bir pompadır" cümlesi, pompalama hareketini gösteren basit bir animasyonla birlikte sunulduğunda daha kalıcı olmasının nedeni budur.
+
 ## Temel ilkeler
 
 | İlke | Kısaca | Uygulama |
@@ -1024,7 +1164,7 @@ Mayer ve Moreno bu fikri çoklu ortama uyarlayarak bilişsel yükü azaltmanın 
 | Kip | Görselle birlikte metin yerine sözlü anlatım kullanın | Karmaşık şemayı sesli anlatımla açıklayın |
 | Kişiselleştirme | Resmî yerine konuşma dili kullanın | "Şimdi birlikte bakalım" gibi ifadeler |
 
-Bu ilkelerin ayrıntılı gerekçeleri ve araştırma kanıtları Mayer'in *Multimedia Learning* kitabında yer alır.[1]
+Mayer bu ilkeleri üç amaca göre gruplar: **gereksiz işlemeyi azaltmak** (tutarlılık, işaretleme, gereksiz tekrar, mekânsal ve zamansal yakınlık), **zorunlu işlemeyi yönetmek** (bölümleme, ön alıştırma, kip) ve **üretken işlemeyi desteklemek** (çoklu ortam, kişiselleştirme). İlkelerin ayrıntılı gerekçeleri ve araştırma kanıtları Mayer'in *Multimedia Learning* kitabında yer alır.[1]
 
 ## Örnek: bir slaytı yeniden tasarlamak
 
@@ -1046,7 +1186,7 @@ Bir sunumu ya da videoyu yayımlamadan önce şu soruları sorun:
 
 ## Sınırlılıklar
 
-Çoklu ortam ilkeleri evrensel reçeteler değildir. Etkileri öğrencinin ön bilgisine göre değişebilir: konuya yeni başlayan bir öğrenci için yararlı olan ayrıntılı açıklamalar, konuyu bilen bir öğrenci için gereksiz yük hâline gelebilir. Ayrıca ilkelerin çoğu kısa süreli, laboratuvar ortamındaki deneylerden türetilmiştir. Bu nedenle ilkeleri körü körüne uygulamak yerine hedef kitleye göre uyarlamak gerekir.
+Çoklu ortam ilkeleri evrensel reçeteler değildir. Kalyuga ve arkadaşları bunu **uzmanlığın ters etkisi** olarak adlandırdı: konuya yeni başlayanlar için yararlı olan ayrıntılı açıklamalar ve yönlendirmeler, konuyu bilen öğrenciler için gereksiz yük hâline gelebilir ve öğrenmeyi yavaşlatabilir.[6] Bu yüzden aynı materyal farklı düzeydeki öğrencilere farklı destek düzeyleriyle sunulmalıdır. Ayrıca ilkelerin çoğu kısa süreli, laboratuvar ortamındaki deneylerden türetilmiştir. Bu nedenle ilkeleri körü körüne uygulamak yerine hedef kitleye göre uyarlamak gerekir.
 
 ## BÖTE ile ilişkisi
 
@@ -1083,6 +1223,9 @@ Etkiler öğrencinin ön bilgisine göre değişebilir. Örneğin konuya yeni ba
 1. Mayer, R. E. (2020). Multimedia Learning (3. baskı). Cambridge University Press. https://doi.org/10.1017/9781316941355 (EN, erişim: 2026-09-25)
 2. Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285. https://doi.org/10.1207/s15516709cog1202_4 (EN, erişim: 2026-09-25)
 3. Mayer, R. E. ve Moreno, R. (2003). Nine Ways to Reduce Cognitive Load in Multimedia Learning. Educational Psychologist, 38(1), 43–52. https://doi.org/10.1207/S15326985EP3801_6 (EN, erişim: 2026-09-25)
+4. Sweller, J., van Merriënboer, J. J. G. ve Paas, F. G. W. C. (1998). Cognitive Architecture and Instructional Design. Educational Psychology Review, 10(3), 251–296. https://doi.org/10.1023/A:1022193728205 (EN, erişim: 2026-09-25)
+5. Clark, J. M. ve Paivio, A. (1991). Dual Coding Theory and Education. Educational Psychology Review, 3(3), 149–210. https://doi.org/10.1007/BF01320076 (EN, erişim: 2026-09-25)
+6. Kalyuga, S., Ayres, P., Chandler, P. ve Sweller, J. (2003). The Expertise Reversal Effect. Educational Psychologist, 38(1), 23–31. https://doi.org/10.1207/S15326985EP3801_4 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -1090,7 +1233,7 @@ Etkiler öğrencinin ön bilgisine göre değişebilir. Örneğin konuya yeni ba
 
 > DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
 
 ## Kısaca
 
@@ -1120,11 +1263,41 @@ DigCompEdu, Avrupa Komisyonu Ortak Araştırma Merkezi (JRC) tarafından 2017'de
 
 İlk alan öğretmenin mesleki çevresini, ikinci ile beşinci alanlar arası öğretmenin pedagojik yetkinliklerini, altıncı alan ise öğrencinin kazanımlarını kapsar. Altıncı alan, çerçeveyi yalnızca "öğretmen teknoloji kullanıyor mu?" sorusunun ötesine taşır: öğretmen öğrencilerinin dijital yetkinliğini de geliştirmekle sorumludur.
 
+## 22 yetkinliğin tamamı
+
+Çerçeveyi kullanışlı kılan, her alanın somut yetkinliklere ayrılmasıdır. Yetkinliklerin tamamı şöyledir:[1]
+
+| Alan | Yetkinlikler |
+|---|---|
+| 1. Mesleki katılım | Kurumsal iletişim · Mesleki iş birliği · Yansıtıcı uygulama · Dijital sürekli mesleki gelişim |
+| 2. Dijital kaynaklar | Seçme · Oluşturma ve düzenleme · Yönetme, koruma ve paylaşma |
+| 3. Öğretme ve öğrenme | Öğretim · Rehberlik · İş birlikli öğrenme · Öz düzenlemeli öğrenme |
+| 4. Değerlendirme | Değerlendirme stratejileri · Kanıtları analiz etme · Geri bildirim ve planlama |
+| 5. Öğrenenleri güçlendirme | Erişilebilirlik ve kapsayıcılık · Farklılaştırma ve kişiselleştirme · Öğrencileri etkin katılıma yöneltme |
+| 6. Öğrenenlerin dijital yetkinliğini kolaylaştırma | Bilgi ve medya okuryazarlığı · Dijital iletişim ve iş birliği · Dijital içerik üretimi · Sorumlu kullanım · Dijital problem çözme |
+
+Listede dikkat çeken iki nokta var. Birincisi, **yansıtıcı uygulama** ve **sürekli mesleki gelişim** birinci alanda yer alıyor: dijital yetkinlik, öğretmenin kendi pratiğini sorgulamasıyla başlıyor. İkincisi, altıncı alandaki **sorumlu kullanım** yetkinliği öğretmeni, öğrencilerin dijital ortamda sağlıklarını ve iyi oluşlarını korumalarına yardım etmekle sorumlu tutuyor. Bu, dijital yetkinliğin yalnızca teknik değil, etik ve pedagojik bir kavram olduğunu gösteriyor.
+
 ## A1'den C2'ye: gelişim modeli
 
 DigCompEdu, dil yeterliliğindeki Avrupa ortak çerçevesine benzer altı düzeyli bir gelişim modeli kullanır: A1 Yeni başlayan, A2 Keşfeden, B1 Bütünleştiren, B2 Uzman, C1 Lider ve C2 Öncü.[1] İlk iki düzeyde öğretmen dijital teknolojileri keşfeder ve temel uygulamalar yapar. B düzeylerinde teknolojiyi farklı bağlamlarda bilinçli ve eleştirel biçimde kullanır. C düzeylerinde ise deneyimini meslektaşlarıyla paylaşır ve yeni uygulamalar geliştirir.
 
 Bu model bir not sistemi değildir. Bir öğretmenin değerlendirme alanında B2, dijital kaynaklar alanında A2 düzeyinde olması olağandır. Çerçevenin değeri, öğretmene hangi alanda gelişmesi gerektiğini göstermesindedir.
+
+## Düzeyler ne anlama geliyor?
+
+Çerçeve her düzeyi bir rolle tanımlar:[1]
+
+| Düzey | Rol | Kısaca |
+|---|---|---|
+| A1 | Yeni başlayan | Dijital teknolojilerin potansiyelinin farkındadır ama çok az kullanır |
+| A2 | Keşfeden | Bazı alanlarda kullanmaya başlamıştır, tutarlı bir yaklaşımı yoktur |
+| B1 | Bütünleştiren | Farklı bağlamlarda dener, hangi aracın ne zaman işe yaradığını anlamaya çalışır |
+| B2 | Uzman | Teknolojiyi güvenle, yaratıcı ve eleştirel biçimde kullanır |
+| C1 | Lider | Tutarlı ve kapsamlı bir yaklaşımı vardır, deneyimini meslektaşlarıyla paylaşır |
+| C2 | Öncü | Mevcut uygulamaları sorgular, yenilikçi yaklaşımlara öncülük eder |
+
+Bu tablo, çerçevenin bir "not" değil, bir **gelişim yolu** sunduğunu gösterir. Çoğu öğretmenin farklı alanlarda farklı düzeylerde olması doğaldır; önemli olan bir sonraki adımı görebilmektir.
 
 ## DigComp 2.2 ile ilişkisi
 
@@ -1193,7 +1366,7 @@ DigCompEdu bir AB çerçevesidir; ancak herkese açık ve ücretsizdir. Türkiye
 
 > UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
 
 ## Kısaca
 
@@ -1213,6 +1386,19 @@ UNESCO ve Eğitim 2030 için Uluslararası Öğretmen Görev Gücü'nün 2024'te
 Rapor, öğretmen açığını tek bir nedene bağlamaz. Bazı bölgelerde okul çağındaki nüfusun hızla artması, bazı bölgelerde ise öğretmenlerin emekliliği ve meslekten ayrılması belirleyici. Yüksek gelirli ülkelerde sorun, yeni öğretmen yetiştirmekten çok mevcut öğretmenleri meslekte tutmakla ilgili.[1]
 
 Bu tablo, öğretmenlik mesleğinin cazibesiyle doğrudan bağlantılı. OECD'nin TALIS 2018 araştırmasına göre katılan OECD ülkelerindeki öğretmenlerin yalnızca yüzde 26'sı mesleklerinin toplumda değer gördüğünü düşünüyor.[3] Mesleğin değer görmediğini düşünen öğretmenlerin oranının yüksek olması, yeni kuşakların öğretmenliği tercih etmesini de zorlaştırıyor.
+
+## Açık nasıl ölçülür?
+
+Öğretmen açığı tek bir sayıyla ölçülmez. Raporlarda en sık kullanılan göstergeler şunlardır:
+
+| Gösterge | Ne anlatır? |
+|---|---|
+| Öğrenci–öğretmen oranı | Bir öğretmene düşen ortalama öğrenci sayısı; açığın ilk göstergesi |
+| Nitelikli öğretmen oranı | Gerekli asgari eğitimi almış öğretmenlerin payı |
+| Meslekten ayrılma oranı | Her yıl mesleği bırakan öğretmenlerin payı |
+| Emeklilik projeksiyonları | Önümüzdeki yıllarda emekliye ayrılacak öğretmen sayısı |
+
+UNESCO raporunun 44 milyonluk tahmini bu göstergelerin birlikte değerlendirilmesine dayanır: yeni açılacak öğretmen kadrolarının yanında meslekten ayrılanların yerine alınması gereken öğretmenleri de kapsar.[1] Bu nedenle açık yalnızca "yeni öğretmen yetiştirme" sorunu değil, aynı zamanda "mevcut öğretmeni tutma" sorunudur.
 
 ## Çözüm önerileri
 
@@ -1289,7 +1475,7 @@ OECD'nin TALIS 2018 araştırmasında, katılan OECD ülkelerindeki öğretmenle
 
 > Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
 
 ## Kısaca
 
@@ -1307,6 +1493,12 @@ Akreditasyon, bir yükseköğretim programının belirlenmiş kalite standartlar
 ## Avrupa çerçevesi: ESG
 
 Türkiye'nin de parçası olduğu Avrupa Yükseköğretim Alanı'nda kalite güvencesi, **ESG** olarak bilinen ortak standart ve ilkelerle yürütülür. ESG, yükseköğretim kurumlarının iç kalite güvencesi, dış kalite güvencesi ve kalite güvencesi kuruluşları olmak üzere üç bölümden oluşur.[1] Bu yapı, akreditasyonun yalnızca dışarıdan yapılan bir denetim olmadığını, kurumun kendi iç kalite süreçleriyle birlikte işleyen bir sistem olduğunu gösterir.
+
+## İç kalite güvencesi: ESG'nin on standardı
+
+ESG'nin birinci bölümü, bir yükseköğretim kurumunun kendi içinde sağlaması gereken kalite güvencesini on standartla tanımlar: kalite güvencesi politikası; programların tasarımı ve onayı; öğrenci merkezli öğrenme, öğretme ve değerlendirme; öğrenci kabulü, ilerlemesi, tanınması ve belgelendirilmesi; öğretim kadrosu; öğrenme kaynakları ve öğrenci desteği; bilgi yönetimi; kamuoyunun bilgilendirilmesi; programların sürekli izlenmesi ve dönemsel gözden geçirilmesi; ve düzenli dış kalite güvencesi.[1]
+
+Bu liste, akreditasyonun neden yalnızca "müfredata bakmak" olmadığını gösteriyor. Bir öğretmenlik programı değerlendirilirken öğrencinin nasıl değerlendirildiği, öğretim kadrosunun yeterliliği, uygulama okullarının ve öğrenme kaynaklarının durumu ve programın kendini nasıl izlediği de sorgulanır. Tercih yapan bir aday da benzer soruları sorabilir: Program öğrencilerden geri bildirim alıyor mu? Mezunlarının durumunu izliyor mu? Bu bilgileri kamuoyuyla paylaşıyor mu?
 
 ## Türkiye'de öğretmenlik programları: EPDAD
 
@@ -1387,7 +1579,7 @@ Akredite bir programda eğitimin belirli standartlara göre düzenli olarak değ
 
 > Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
 
 ## Kısaca
 
@@ -1422,6 +1614,19 @@ Bazı alanlarda öğretmen yetiştiren programlar eğitim fakültesi dışındak
 ## Puan türleri
 
 Öğretmenlik programlarının puan türü alana göre değişir. Matematik ve fen alanları genellikle sayısal (SAY), Türkçe ve sosyal alanlar sözel (SÖZ), sınıf ve okul öncesi öğretmenliği eşit ağırlık (EA), yabancı dil öğretmenlikleri ise dil (DİL) puan türüyle öğrenci alır. Bu genel eğilime karşın kesin bilgi her yıl YÖK Atlas'ta ve ÖSYM kılavuzunda yayımlanır.[4]
+
+## YÖK Atlas'ta hangi verilere bakılmalı?
+
+Bölüm seçerken en güvenilir veri kaynağı YÖK Atlas'tır.[4] Ancak sayfalardaki verilerin ne anlattığını bilmek gerekir:
+
+| Veri | Ne anlatır? | Dikkat edilecek nokta |
+|---|---|---|
+| Kontenjan ve yerleşen sayısı | Programın büyüklüğü ve talep | Kontenjanlar yıldan yıla değişebilir |
+| Başarı sırası | Son yerleşen adayın sıralaması | Tek başına programın niteliğini göstermez |
+| Yerleşenlerin profili | Adayların geldiği iller ve lise türleri | Programın kimlere hitap ettiğini gösterir |
+| Tercih eğilimleri | Adayların programı kaçıncı sırada tercih ettiği | Programın adaylar için ilk seçenek olup olmadığını gösterir |
+
+Bu verilere ek olarak programın öğretim kadrosunu, uygulama okullarıyla ilişkilerini ve varsa akreditasyon durumunu incelemek, yalnızca sıralamaya bakarak verilen kararlardan daha sağlıklı bir tercih sağlar. Akreditasyonu [EPDAD yazımızda](https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) ele aldık.
 
 ## Mezuniyetten sonra ne olur?
 
@@ -1487,7 +1692,7 @@ Tercih eğilimleri yıldan yıla değişir ve bölüm seçiminde tek başına be
 
 > Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
 
 ## Kısaca
 
@@ -1535,6 +1740,16 @@ Bu açıdan eşzamanlı modelin güçlü yanı, öğretmen kimliğinin ve okul d
 **"Fen-edebiyat mezunu öğretmenliğe hazır değildir."** Meslek bilgisi ve uygulama deneyimi daha sınırlı olabilir, ancak yeni sistemde tüm adaylar akademide hazırlık eğitimi alıyor. Bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[4]
 
 **"Hangi yolu seçersem seçeyim sonuç aynı."** Kaynak program koşulu nedeniyle her lisans programı her öğretmenlik alanına açılmaz. Bu koşulu tercih yapmadan önce kontrol etmek, yıllar sonra karşılaşılabilecek bir engeli baştan görmeyi sağlar.[3]
+
+## Karar vermeden önce sorulacak beş soru
+
+1. **Hangi öğretmenlik alanını hedefliyorum?** Bu alana hangi lisans programlarının kaynak olduğunu esaslardaki çizelgeden kontrol edin.[3]
+2. **Okul deneyimini ne zaman kazanmak istiyorum?** Eğitim fakültesinde uygulama lisansın parçasıdır; ardışık yolda ise ağırlıklı olarak sonradan gelir.
+3. **Alanda ne kadar derinleşmek istiyorum?** Akademik kariyer ya da araştırma ilgisi varsa alan programının derinliği avantaj olabilir.
+4. **Öğretmenlik dışında hangi seçenekleri açık tutmak istiyorum?** Fen-edebiyat programları farklı sektörlere, eğitim fakülteleri ise eğitim alanındaki farklı rollere daha doğrudan yol açar.
+5. **Hangi süreyi göze alıyorum?** Her iki yolda da lisans sonrasında AGS ve yaklaşık on aylık akademi hazırlık eğitimi var.[4]
+
+Bu soruların dürüst cevapları, "hangi yol daha iyi?" sorusundan çok daha anlamlı bir karar zemini sunar.
 
 ## Kime hangisi?
 
@@ -1587,7 +1802,7 @@ Her iki yoldan gelen adaylar AGS'ye girer ve akademinin hazırlık eğitimini ta
 
 > Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
 
 ## Kısaca
 
@@ -1610,10 +1825,10 @@ Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, f
 
 - **1982:** Öğretmen yetiştirme görevi üniversitelere devredildi.[1]
 - **1994–1998:** YÖK/Dünya Bankası hizmet öncesi öğretmen eğitimi projesi kapsamında eğitim fakülteleri yeniden yapılandırıldı. Bölümler, millî eğitimin okul yapısına uygun öğretmen yetiştirecek biçimde düzenlendi. BÖTE gibi yeni bölümler de bu süreçte açıldı.[2]
-- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[3] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Geliştirme" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[4]
+- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[3] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Tasarımı" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[4]
 - **2024:** 7528 sayılı Öğretmenlik Mesleği Kanunu yayımlandı. Kanun, öğretmenlerin seçilmesini, yetiştirilmesini ve atanmasını yeniden düzenledi ve **Millî Eğitim Akademisi**'ni kurdu.[5]
-- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[6] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[7][8]
-- **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[9]
+- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[6] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[7]
+- **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[8]
 
 ## Programlar nasıl yapılandırılmış?
 
@@ -1633,9 +1848,9 @@ Programların son yılında öğretmen adayları MEB okullarında **öğretmenli
 2. ÖSYM'nin yaptığı **MEB Akademi Giriş Sınavı'na (AGS)** girmek,[6]
 3. Millî Eğitim Akademisi'nin **hazırlık eğitimini** tamamlamak.
 
-MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[9]
+MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[8]
 
-Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[7][8]
+Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[7]
 
 ## Tartışma: Eğitim fakülteleri hâlâ gerekli mi?
 
@@ -1645,15 +1860,30 @@ Formasyon düzenlemesi, eğitim fakültelerinin rolü üzerine yeni bir tartış
 
 **Eşzamanlı modeli savunanlar** ise öğretmenliğin dört yıl boyunca kuram ve okul uygulamasıyla birlikte olgunlaşan bir mesleki kimlik gerektirdiğini hatırlatıyor. Birkaç dönemlik bir hazırlık eğitiminin bunu tam olarak karşılayıp karşılayamayacağını soruyorlar.
 
-Uluslararası araştırmalar bu tartışmaya net bir "tek model" cevabı vermiyor, ama önemli ipuçları sunuyor. Linda Darling-Hammond, öğretmen yetiştirmede güçlü sistemlere sahip Finlandiya, Singapur, Kanada (Alberta ve Ontario) ve Avustralya'yı (Victoria ve Yeni Güney Galler) inceledi. Çalışmasında bu sistemlerin öğretmen seçimi, hizmet öncesi hazırlık, mesleğe uyum (induction) ve sürekli mesleki gelişimi bir bütün olarak ele aldığını gösteriyor.[10] Başka bir deyişle, belirleyici olan tek başına fakültenin adı değil, bu aşamaların birbirine ne kadar iyi bağlandığıdır.
+Uluslararası araştırmalar bu tartışmaya net bir "tek model" cevabı vermiyor, ama önemli ipuçları sunuyor. Linda Darling-Hammond, öğretmen yetiştirmede güçlü sistemlere sahip Finlandiya, Singapur, Kanada (Alberta ve Ontario) ve Avustralya'yı (Victoria ve Yeni Güney Galler) inceledi. Çalışmasında bu sistemlerin öğretmen seçimi, hizmet öncesi hazırlık, mesleğe uyum (induction) ve sürekli mesleki gelişimi bir bütün olarak ele aldığını gösteriyor.[9] Başka bir deyişle, belirleyici olan tek başına fakültenin adı değil, bu aşamaların birbirine ne kadar iyi bağlandığıdır.
 
-Öğretmenlerin hazır bulunuşluğuna dair veriler de dikkat çekici. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerinde öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde teknoloji kullanımına dair eğitim almıştı. Bu konuda kendini iyi hazırlanmış hissedenlerin oranı ise %43'tü.[11] Hangi model seçilirse seçilsin, hizmet öncesi eğitimin içeriği ve kalitesi belirleyici olmaya devam ediyor.
+Öğretmenlerin hazır bulunuşluğuna dair veriler de dikkat çekici. OECD'nin TALIS 2018 araştırmasına göre OECD ülkelerinde öğretmenlerin yalnızca %56'sı hizmet öncesi eğitimlerinde öğretimde teknoloji kullanımına dair eğitim almıştı. Bu konuda kendini iyi hazırlanmış hissedenlerin oranı ise %43'tü.[10] Hangi model seçilirse seçilsin, hizmet öncesi eğitimin içeriği ve kalitesi belirleyici olmaya devam ediyor.
 
 ## Dünyadaki tablo: öğretmen açığı ve mesleğin cazibesi
 
-UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var. Bu ihtiyacın önemli bir kısmı Sahra Altı Afrika'dan kaynaklanıyor. Yüksek gelirli ülkelerde ise asıl sorun, öğretmenliğin cazibesinin azalması ve öğretmenleri meslekte tutmak.[12] Rapor çözüm olarak öğretmenliğin iş birliğine dayalı bir meslek olarak yeniden kurgulanmasını, yaşam boyu mesleki gelişimi ve öğretmenlerin karar süreçlerine katılımını öneriyor.[12]
+UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var. Bu ihtiyacın önemli bir kısmı Sahra Altı Afrika'dan kaynaklanıyor. Yüksek gelirli ülkelerde ise asıl sorun, öğretmenliğin cazibesinin azalması ve öğretmenleri meslekte tutmak.[11] Rapor çözüm olarak öğretmenliğin iş birliğine dayalı bir meslek olarak yeniden kurgulanmasını, yaşam boyu mesleki gelişimi ve öğretmenlerin karar süreçlerine katılımını öneriyor.[11]
 
 Türkiye'nin durumu bu tablodan farklı. Türkiye'de öğretmen adayı sayısı, uzun süredir atama sayısının üzerinde seyrediyor. Bu nedenle tartışma "yeterli öğretmen" sorusundan çok "doğru hazırlanmış öğretmen" sorusu etrafında dönüyor.
+
+## Bu konuda ayrıntılı rehberler
+
+Bu yazıda genel hatlarını çizdiğimiz sistemin her parçasını ayrı yazılarda ele aldık:
+
+| Konu | Yazı |
+|---|---|
+| Fakültelerdeki programlar ve puan türleri | [Eğitim fakültesi bölümleri](https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri) |
+| Tüm programlarda ortak dersler | [Öğretmenlik meslek bilgisi dersleri](https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri) |
+| Son sınıftaki okul deneyimi | [Öğretmenlik uygulaması](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) |
+| Mezuniyet sonrası sınav | [AGS nedir?](https://www.bote.web.tr/blog/ags-nedir) |
+| Atama öncesi hazırlık dönemi | [Millî Eğitim Akademisi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) |
+| Formasyondaki değişiklik | [Pedagojik formasyon kalktı mı?](https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) |
+| Yasal çerçeve ve kariyer | [7528 sayılı Kanun](https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) |
+| Kalite güvencesi | [Akreditasyon ve EPDAD](https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad) |
 
 ## Aday öğrenciler için öneriler
 
@@ -1699,12 +1929,11 @@ Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte veril
 4. Çetin, A. vd. (2021). 2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi. Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi Dergisi, 52. https://dergipark.org.tr/tr/pub/deubefd/article/904931 (TR, erişim: 2026-09-25)
 5. Millî Eğitim Bakanlığı (2024). Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı. https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr (TR, erişim: 2026-09-25)
 6. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
-7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-8. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-09-25)
-10. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
-11. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
-12. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
+7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-09-25)
+9. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
+10. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+11. UNESCO ve International Task Force on Teachers for Education 2030 (2024). Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession. https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession (EN, erişim: 2026-09-25)
 
 ---
 
@@ -1712,7 +1941,7 @@ Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte veril
 
 > Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
 
 ## Kısaca
 
@@ -1754,6 +1983,12 @@ Erasmus+ yalnızca ders almayı değil, yurt dışında staj yapmayı da destekl
 ## Zamanlama: öğretmenlik uygulamasıyla çakışma
 
 Eğitim fakültesi öğrencilerinin dikkat etmesi gereken özel bir nokta var: öğretmenlik uygulaması. Öğretmenlik Uygulaması I ve II dersleri son sınıfta, 7. ve 8. yarıyılda yer alır.[5] Bu dersler Türkiye'deki okullarda yürütüldüğü için, son sınıfta öğrenim hareketliliğine çıkmak planlamayı zorlaştırabilir. Pek çok öğrenci için ikinci ya da üçüncü sınıf daha uygun bir dönem olabilir. Öğretmenlik uygulamasını [bu yazıda](https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir) anlattık.
+
+## AKTS ve derslerin tanınması
+
+Erasmus+ hareketliliğinde en çok sorulan konu, yurt dışında alınan derslerin kendi programında nasıl sayılacağıdır. Bu işlemin ortak dili **AKTS**'dir (Avrupa Kredi Transfer ve Biriktirme Sistemi). Avrupa Komisyonu'nun kullanıcı rehberine göre 60 AKTS, tam zamanlı bir akademik yılın öğrenci iş yüküne karşılık gelir; bir dönem genellikle 30 AKTS'dir.[6] Kredi, yalnızca derste geçirilen süreyi değil, öğrencinin ders dışı çalışması da dahil toplam iş yükünü ifade eder.
+
+Hareketlilikten önce imzalanan **öğrenim anlaşması**, hangi derslerin alınacağını ve kendi programınızda hangi derslerin yerine sayılacağını belirler. Öğretmen adayları için dikkat edilmesi gereken nokta, meslek bilgisi ve öğretmenlik uygulaması gibi derslerin karşılığının yurt dışında her zaman bulunamayabileceğidir. Bu nedenle anlaşmayı hazırlarken bölüm koordinatörüyle hangi derslerin eşleşebileceğini önceden netleştirmek gerekir.
 
 ## Hibe ve destekler
 
@@ -1804,6 +2039,7 @@ Hareketlilik öncesinde imzalanan öğrenim anlaşmasındaki dersler, başarıyl
 3. European Commission, Erasmus+ (2026). Opportunities for individuals: Students. https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students (EN, erişim: 2026-09-25)
 4. European Commission, Erasmus+ (2026). Opportunities for individuals: Trainees. https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/trainees (EN, erişim: 2026-09-25)
 5. Yükseköğretim Kurulu (2018). Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Lisans Programı. https://egitim.yok.gov.tr/tr/document/2432 (TR, erişim: 2026-09-25)
+6. European Commission (2015). ECTS Users' Guide 2015. Publications Office of the European Union. https://doi.org/10.2766/87192 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -1811,7 +2047,7 @@ Hareketlilik öncesinde imzalanan öğrenim anlaşmasındaki dersler, başarıyl
 
 > Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
 
 ## Kısaca
 
@@ -1821,6 +2057,20 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4
 - Yapay zekâ öğretmenin yerini almaz; ancak ölçme, etik ve veri gizliliği konularında öğretmenden yeni beceriler bekler.
 
 Üretken yapay zekâ araçları birkaç yıl içinde öğrencilerin ödevlerinden öğretmenlerin ders hazırlığına kadar eğitimin her alanına girdi. Bu hız, okulları ve öğretmenleri "yasaklamak mı, kullanmak mı?" ikilemine soktu. Bu yazıda uluslararası kuruluşların ve MEB'in yaklaşımını özetliyor, öğretmenler için uygulanabilir ilkeler çıkarıyoruz.
+
+## Temel kavramlar
+
+Tartışmaya girmeden önce sık karıştırılan birkaç kavramı netleştirmek gerekiyor:
+
+| Kavram | Kısaca | Eğitimdeki örnek |
+|---|---|---|
+| Yapay zekâ | Algılama, tahmin, sınıflandırma, karar verme gibi işleri yerine getiren bilgisayar sistemlerinin genel adı | Uyarlanabilir alıştırma sistemleri |
+| Makine öğrenmesi | Sistemin kuralları açıkça programlanmadan, veriden örüntü öğrenmesi | Öğrencinin hatalarından zorlanacağı konuyu tahmin etme |
+| Üretken yapay zekâ | Metin, görsel, ses ya da kod gibi yeni içerik üreten yapay zekâ | Ders planı taslağı, farklı düzeylerde soru üretme |
+| Büyük dil modeli | Çok büyük metin verisiyle eğitilmiş, bir sonraki sözcüğü tahmin ederek metin üreten model | Sohbet tabanlı asistanlar |
+| Halüsinasyon | Modelin gerçekte olmayan bilgi ya da kaynağı kendinden emin biçimde üretmesi | Var olmayan bir makaleye atıf yapması |
+
+UNESCO'nun rehberi, üretken yapay zekânın metni "anlayarak" değil, eğitildiği verideki örüntülere dayanarak ürettiğini vurgular. Bu nedenle üretilen içerik akıcı ve ikna edici olsa da doğru olmak zorunda değildir.[1] Öğretmenler için en önemli kavram belki de halüsinasyondur: akıcılık, doğruluğun kanıtı değildir.
 
 ## UNESCO'nun üretken yapay zekâ rehberi
 
@@ -1846,9 +2096,15 @@ Bu tablo, yapay zekâ okuryazarlığının yalnızca bir aracı kullanabilmek ol
 
 OECD'nin *Dijital Eğitim Görünümü 2023* raporu, tek tek araçlardan çok ülkelerin dijital eğitim ekosistemlerini ele alır: altyapı, yönetişim ve bu ekosistemi yönlendiren politikalar.[3] Bu bakış açısı önemlidir. Bir okulun yapay zekâdan yararlanabilmesi, öğretmenin bireysel çabasından çok veri politikalarına, altyapıya ve mesleki gelişim desteğine bağlıdır.
 
+## Avrupa'da yasal çerçeve: Yapay Zekâ Yasası
+
+Avrupa Birliği 2024'te yapay zekâya ilişkin kapsamlı bir düzenleme kabul etti. **Yapay Zekâ Yasası**, yapay zekâ sistemlerini risk düzeylerine göre sınıflandırır. Eğitim, yasada özel olarak anılan alanlardan biridir: öğrencilerin eğitim kurumlarına kabulünü belirleyen, öğrenme çıktılarını değerlendiren, öğrencinin alacağı eğitim düzeyini belirleyen ya da sınav sırasında yasaklanmış davranışları izleyen sistemler **yüksek riskli** sayılır. Yasa ayrıca eğitim kurumlarında duygu tanıma sistemlerinin kullanımını, tıbbi ve güvenlik amaçlı istisnalar dışında yasaklar.[4]
+
+Bu düzenleme Türkiye'de doğrudan uygulanmasa da önemli bir işaret veriyor: yapay zekânın öğrenci hakkında karar veren kullanımları, içerik üreten kullanımlarından çok daha sıkı güvenceler gerektiriyor. Öğretmenlerin bir aracı değerlendirirken sorması gereken ilk soru da budur: Bu araç yalnızca bana yardım mı ediyor, yoksa öğrenci hakkında bir karar mı veriyor?
+
 ## Türkiye: MEB'in politika belgesi
 
-MEB'in **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı** 2025'te yürürlüğe girdi. Belge, yapay zekâ teknolojilerinin eğitimde etik, etkili ve kapsayıcı kullanımı için stratejik amaçlar belirler ve öğretim programlarının güncellenmesinden öğretmen eğitimine ve veri analitiğine kadar somut adımlar içerir.[4] Belge 4 amaç, 15 politika ve 40 eylem adımından oluşur; eylem planı kapsamında yapay zekâ projelerini etik açıdan değerlendirecek bir **Yapay Zekâ Uygulamaları Etik Kurulu** da oluşturuldu.[5]
+MEB'in **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı** 2025'te yürürlüğe girdi. Belge, yapay zekâ teknolojilerinin eğitimde etik, etkili ve kapsayıcı kullanımı için stratejik amaçlar belirler ve öğretim programlarının güncellenmesinden öğretmen eğitimine ve veri analitiğine kadar somut adımlar içerir.[5] Belge 4 amaç, 15 politika ve 40 eylem adımından oluşur; eylem planı kapsamında yapay zekâ projelerini etik açıdan değerlendirecek bir **Yapay Zekâ Uygulamaları Etik Kurulu** da oluşturuldu.[6]
 
 ## Sınıfta uygulanabilir ilkeler
 
@@ -1910,8 +2166,9 @@ Uluslararası rehberler yapay zekâyı öğretmenin yerine geçen değil, onu de
 1. Miao, F. ve Holmes, W. (2023). Guidance for Generative AI in Education and Research. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000386693 (EN, erişim: 2026-09-25)
 2. Miao, F. ve Cukurova, M. (2024). AI Competency Framework for Teachers. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000391104 (EN, erişim: 2026-09-25)
 3. OECD (2023). OECD Digital Education Outlook 2023: Towards an Effective Digital Education Ecosystem. https://doi.org/10.1787/c74f03de-en (EN, erişim: 2026-09-25)
-4. Millî Eğitim Bakanlığı (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı Yürürlüğe Girdi. https://www.meb.gov.tr/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-yururluge-girdi/haber/37531/tr (TR, erişim: 2026-09-25)
-5. MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı (2025–2029) İngilizce Olarak Yayımlandı. https://yegitek.meb.gov.tr/www/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-20252029-ingilizce-olarak-yayimlandi/icerik/3846 (TR, erişim: 2026-09-25)
+4. Official Journal of the European Union (2024). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). https://eur-lex.europa.eu/eli/reg/2024/1689/oj (EN, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı Yürürlüğe Girdi. https://www.meb.gov.tr/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-yururluge-girdi/haber/37531/tr (TR, erişim: 2026-09-25)
+6. MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı (2025–2029) İngilizce Olarak Yayımlandı. https://yegitek.meb.gov.tr/www/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-20252029-ingilizce-olarak-yayimlandi/icerik/3846 (TR, erişim: 2026-09-25)
 
 ---
 
@@ -1919,7 +2176,7 @@ Uluslararası rehberler yapay zekâyı öğretmenin yerine geçen değil, onu de
 
 > Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
 
 ## Kısaca
 
@@ -1956,6 +2213,12 @@ Finlandiya'da öğretmen adaylarının uygulama deneyimi, üniversitelerle yakı
 | Öne çıkan ilke | Araştırmaya dayalı öğretmen eğitimi | Alan ve meslek bilgisinin birlikte verilmesi |
 
 Türkiye'de öğretmen yetiştirmenin ana modeli, alan ve meslek bilgisinin lisans boyunca birlikte verildiği eşzamanlı modeldir.[3] 7528 sayılı Kanun'la mezuniyet sonrasına Millî Eğitim Akademisi'nde onar haftalık dört dönemlik bir hazırlık eğitimi eklendi.[4] Yani iki ülke de öğretmen adaylarına lisans sonrasında ek bir hazırlık sunuyor; ancak Finlandiya bunu üniversitede yüksek lisans düzeyinde, Türkiye ise merkezî bir akademide yapıyor.
+
+## Türkiye için uygulanabilir bir fikir: araştırma temelli bitirme projesi
+
+Finlandiya modelinin en kolay uyarlanabilecek unsurlarından biri araştırma okuryazarlığıdır. Finlandiya'da öğretmen adayları yüksek lisans düzeyinde bir tez hazırlar.[2] Türkiye'de öğretmenlik programları lisans düzeyinde olsa da benzer bir amaç, son sınıfta öğretmenlik uygulamasıyla birleştirilen küçük ölçekli bir **eylem araştırmasıyla** gerçekleştirilebilir: aday, uygulama okulunda gözlemlediği bir öğrenme sorununu tanımlar, bir çözüm dener, sonuçları toplar ve yorumlar.
+
+Bu tür bir proje hem Finlandiya modelindeki "kanıta dayalı karar" alışkanlığını kazandırır hem de adayın portfolyosuna güçlü bir çalışma ekler. Uygulamanın başarısı ise uygulama okullarıyla fakülteler arasındaki iş birliğinin gücüne bağlıdır; Finlandiya'daki üniversiteye bağlı uygulama okulları tam da bu iş birliğinin kurumsallaşmış hâlidir.[1]
 
 ## Finlandiya'da da her şey yolunda değil
 
@@ -2016,7 +2279,7 @@ Türkiye'de ana model dört yıllık eşzamanlı lisanstır ve 7528 sayılı Kan
 
 > ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
 
 ## Kısaca
 
@@ -2049,13 +2312,31 @@ Bu listede programlama yalnızca bir rolün parçasıdır. Standartların ağır
 
 ## Öğretmen standartları: yedi rol
 
-Öğretmen standartları öğretmeni de yedi rolle tanımlar: **öğrenen, lider, vatandaş, iş birlikçi, tasarımcı, kolaylaştırıcı ve analist**.[1] Bu rollerin bir kısmı teknolojiye doğrudan bağlı değildir. Örneğin "öğrenen" rolü öğretmenin kendi mesleki gelişimini sürdürmesini, "analist" rolü ise veriyi öğretimini iyileştirmek için kullanmasını ifade eder. Standartlar, teknolojinin öğretmenin mesleki kimliğinin bir parçası olduğunu, ayrı bir beceri olmadığını vurgular.
+Öğretmen standartları öğretmeni de yedi rolle tanımlar:[1]
+
+| Rol | Öğretmenden beklenen |
+|---|---|
+| Öğrenen | Başkalarından ve başkalarıyla öğrenerek, kanıtlanmış uygulamaları keşfederek pratiğini sürekli geliştirir |
+| Lider | Öğrencilerin güçlenmesini ve başarısını destekleyecek liderlik fırsatları arar |
+| Vatandaş | Öğrencileri dijital dünyaya olumlu katkı sunmaya ve sorumlu katılmaya teşvik eder |
+| İş birlikçi | Meslektaşları ve öğrencileriyle birlikte çalışmaya zaman ayırır |
+| Tasarımcı | Öğrenci farklılıklarını gözeten, öğrenci merkezli etkinlikler ve ortamlar tasarlar |
+| Kolaylaştırıcı | Öğrenci başarısını teknolojiyle destekleyerek öğrenmeyi kolaylaştırır |
+| Analist | Veriyi öğretimi yönlendirmek ve öğrencileri desteklemek için anlar ve kullanır |
+
+Bu rollerin bir kısmı teknolojiye doğrudan bağlı değildir. Örneğin "öğrenen" rolü öğretmenin kendi mesleki gelişimini sürdürmesini, "analist" rolü ise veriyi öğretimini iyileştirmek için kullanmasını ifade eder. Standartlar, teknolojinin öğretmenin mesleki kimliğinin bir parçası olduğunu, ayrı bir beceri olmadığını vurgular.
 
 ## Koç standartları: okuldaki teknoloji uzmanı
 
 ISTE, okullarda öğretmenlere teknoloji entegrasyonu konusunda destek veren **eğitim teknolojisi koçları** için ayrı standartlar yayımlar. Bu standartlar koçu değişim ajanı, bağlantılı öğrenen, iş birlikçi, öğrenme tasarımcısı, mesleki öğrenme kolaylaştırıcısı, veriye dayalı karar veren ve dijital vatandaşlık savunucusu olarak tanımlar.[3]
 
 Bu rol, BÖTE mezunlarının okullardaki potansiyel görevlerine oldukça yakındır. Bir BÖTE mezunu kendi dersini okuttuğu gibi, okuldaki diğer branş öğretmenlerinin teknolojiyi pedagojik amaçlarla kullanmasına da destek verebilir. Türkiye'de bu rol ayrı bir kadro olarak tanımlanmış değildir; ancak okullardaki uygulamada bilişim öğretmenleri çoğu zaman bu işlevi üstlenir.
+
+## Yönetici standartları
+
+Teknoloji entegrasyonu yalnızca öğretmenlerin çabasıyla gerçekleşmez; okul yönetiminin vizyonu ve desteği belirleyicidir. ISTE bu nedenle eğitim yöneticileri için de standartlar yayımlar. Bu standartlar yöneticiyi **eşitlik ve dijital vatandaşlık savunucusu, vizyoner planlayıcı, güçlendiren lider, sistem tasarımcısı ve bağlantılı öğrenen** olarak tanımlar.[4] Örneğin "sistem tasarımcısı" rolü, altyapının, veri gizliliği politikalarının ve teknik desteğin okulun öğrenme hedeflerine hizmet edecek biçimde kurulmasını ifade eder.
+
+Öğrenci, öğretmen, koç ve yönetici standartlarının birlikte okunması, ISTE'nin teknoloji entegrasyonunu okulun bütününe yayılan bir sistem olarak gördüğünü ortaya koyar.
 
 ## Diğer çerçevelerle karşılaştırma
 
@@ -2065,7 +2346,7 @@ Bu rol, BÖTE mezunlarının okullardaki potansiyel görevlerine oldukça yakın
 | DigCompEdu | Avrupa Komisyonu | 6 alan, 22 yetkinlik, 6 düzey | Ayrıntılı gelişim düzeyleri ve öz değerlendirme aracı |
 | BİT Yetkinlik Çerçevesi | UNESCO | 3 düzeyde yetkinlikler | Eğitim politikalarıyla bağlantı |
 
-DigCompEdu eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlikle tanımlar ve A1'den C2'ye bir gelişim modeli sunar.[4] UNESCO'nun çerçevesi ise yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır.[5] Üç çerçeve farklı dillerle benzer bir şeyi söyler: teknoloji kullanımı, pedagojik amaçlara ve etik ilkelere bağlandığında anlam kazanır.
+DigCompEdu eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlikle tanımlar ve A1'den C2'ye bir gelişim modeli sunar.[5] UNESCO'nun çerçevesi ise yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır.[6] Üç çerçeve farklı dillerle benzer bir şeyi söyler: teknoloji kullanımı, pedagojik amaçlara ve etik ilkelere bağlandığında anlam kazanır.
 
 ## Standartlar derse nasıl yansır? Bir örnek
 
@@ -2114,8 +2395,9 @@ ISTE standartları öğretmeni rollerle tanımlar ve öğrenci, öğretmen, koç
 1. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards (EN, erişim: 2026-09-25)
 2. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-09-25)
 3. International Society for Technology in Education (ISTE) (2019). ISTE Standards: For Coaches. https://iste.org/standards/coaches (EN, erişim: 2026-09-25)
-4. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
-5. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
+4. International Society for Technology in Education (ISTE) (2018). ISTE Standards: For Education Leaders. https://iste.org/standards/education-leaders (EN, erişim: 2026-09-25)
+5. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+6. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -2123,7 +2405,7 @@ ISTE standartları öğretmeni rollerle tanımlar ve öğrenci, öğretmen, koç
 
 > Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
 
 ## Kısaca
 
@@ -2159,7 +2441,7 @@ MEB'in yayımladığı programa göre hazırlık eğitimi **onar haftalık dört
 
 ## Dünyada benzer uygulamalar
 
-Mesleğe yeni başlayan öğretmenlere yapılandırılmış destek sunmak dünyada yaygın bir uygulama. Bu programlar İngilizce alanyazında genellikle *induction* (mesleğe uyum) ve *mentoring* (mentorluk) başlıkları altında ele alınır. Ingersoll ve Strong'un bu programlara ilişkin araştırmaları derleyen çalışması, programların öğretmenlerin mesleğe bağlılığı ve meslekte kalması, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[9] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleğe başlangıçtaki destekleri bu sürekliliğin ilk halkası olarak görür.[10]
+Mesleğe yeni başlayan öğretmenlere yapılandırılmış destek sunmak dünyada yaygın bir uygulama. Bu programlar İngilizce alanyazında genellikle *induction* (mesleğe uyum) ve *mentoring* (mentorluk) başlıkları altında ele alınır. Ingersoll ve Strong'un bu programlara ilişkin araştırmaları derleyen çalışması, programların öğretmenlerin mesleğe bağlılığı ve meslekte kalması, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[9] Derlemedeki çalışmalar, uyum programlarının tek bir etkinlikten değil birbirini tamamlayan bileşenlerden oluştuğunu gösterir: deneyimli bir öğretmenin mentorluğu, meslektaşlarla ortak planlama ve iş birliği fırsatları ve mesleğe yeni başlayanın gelişimini izleyen düzenli geri bildirim. Bir hazırlık programının niteliğini değerlendirirken sorulması gereken soru da budur: Aday yalnızca ders mi dinliyor, yoksa deneyimli bir meslektaşın rehberliğinde gerçek sınıflarda mı çalışıyor? OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleğe başlangıçtaki destekleri bu sürekliliğin ilk halkası olarak görür.[10]
 
 Türkiye'deki modelin ayırt edici yanı, bu hazırlığın atamadan **önce** ve merkezî bir yapı tarafından verilmesidir. Birçok ülkede mesleğe uyum programları ise öğretmen okulda göreve başladıktan sonra, okul temelli mentorlukla yürütülür. İki yaklaşımın güçlü ve zayıf yanları farklıdır: merkezî model standartlaşma sağlarken, okul temelli model gerçek sınıf bağlamına daha yakındır. Dördüncü dönemin tamamen uygulamaya ayrılması, Türkiye'deki modelin bu dengeyi kurmaya çalıştığını gösteriyor.
 
@@ -2227,14 +2509,15 @@ Aralık 2025'te öğretmenlik esaslarında yapılan değişiklikle, akademi haz�
 
 > Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
 
 ## Kısaca
 
 - **Oyunlaştırma**, oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılmasıdır; tam bir oyun tasarlamak anlamına gelmez.
-- Araştırma derlemeleri oyunlaştırmanın çoğunlukla olumlu etkiler gösterdiğini, ancak etkinin bağlama ve kullanıcıya göre değiştiğini bildiriyor.
-- Bir meta-analiz, bilişsel, motivasyonel ve davranışsal öğrenme çıktılarında küçük ile orta arasında olumlu etkiler buldu.
-- Puan ve liderlik tablosu gibi öğeler dikkatsiz kullanıldığında bazı öğrencilerin motivasyonunu düşürebilir.
+- Öz belirleme kuramına göre iyi bir tasarım üç ihtiyacı birlikte gözetir: **özerklik, yeterlik ve ilişkililik**.
+- Rozet ve liderlik tabloları yeterlik duygusunu, **avatarlar, hikâye ve takımlar** ise sosyal bağı destekler.
+- Öğrenciler farklı öğelerden etkilenir: Bartle'ın dört oyuncu tipi ve Hexad'ın altı kullanıcı tipi bu farkı açıklar.
+- Meta-analizler küçük ile orta düzeyde olumlu etkiler gösteriyor; ama beklenen somut ödüller içsel motivasyonu azaltabilir.
 
 Uygulamalardaki rozetler, dil öğrenme platformlarındaki seri sayaçları, sınıfta puan tabloları... **Oyunlaştırma** son yıllarda eğitimin en popüler kavramlarından biri oldu. Peki gerçekten işe yarıyor mu? Bu yazıda kavramın tanımını, araştırma bulgularını ve sınıfta dikkat edilmesi gereken noktaları ele alıyoruz.
 
@@ -2248,25 +2531,77 @@ Alanda en sık alıntılanan tanımı Deterding ve arkadaşları yaptı: oyunla�
 | Oyun tabanlı öğrenme | Eğitsel amaçlı bir oyun oynuyor | Kesirleri öğreten bir strateji oyunu |
 | Oyunsu tasarım | Serbest, keşfe dayalı bir etkinlikte bulunuyor | Açık uçlu bir simülasyon |
 
+## Neden işe yarar? Öz belirleme kuramı
+
+Oyun öğelerinin motivasyonu nasıl etkilediğini açıklamak için en sık başvurulan kuram, Ryan ve Deci'nin **öz belirleme kuramı**dır. Kurama göre insanlar üç temel psikolojik ihtiyaç karşılandığında içsel olarak güdülenir:[2]
+
+| İhtiyaç | Anlamı | Oyunlaştırmadaki karşılığı |
+|---|---|---|
+| Özerklik | Kendi seçimini yapabilmek | Görev seçenekleri, kendi avatarını belirlemek |
+| Yeterlik | Başarabildiğini hissetmek | Seviyeler, anında geri bildirim, ilerleme çubukları |
+| İlişkililik | Başkalarıyla bağ kurmak | Takımlar, ortak görevler, anlatıdaki roller |
+
+Bu tablo iyi bir oyunlaştırmanın mantığını özetler: öğeler rastgele eklenmez, belirli bir ihtiyacı desteklemek için seçilir. Yalnızca puan ve sıralama kullanan bir tasarım yeterlik ihtiyacına hitap eder, ama özerklik ve ilişkililiği boş bırakır.
+
+## Tasarımcının gözünden: MDA çerçevesi
+
+Oyun tasarımında yaygın kullanılan **MDA** çerçevesi, bir oyunu üç katmanda inceler: **mekanikler** (kurallar ve bileşenler), **dinamikler** (mekaniklerin oyuncu davranışıyla birleşince ortaya çıkan işleyiş) ve **estetik** (oyuncuda uyanan duygusal deneyim). Hunicke, LeBlanc ve Zubek, tasarımcının oyunu mekaniklerden başlayarak kurduğunu, oyuncunun ise estetikten başlayarak deneyimlediğini vurgular.[3]
+
+Sınıfa uyarlandığında bu ayrım şunu söyler: öğretmen "rozet vereceğim" (mekanik) diye düşünür; öğrenci ise "birbirimizle yarışıyoruz" ya da "yeni bir şey keşfediyorum" (dinamik ve estetik) diye deneyimler. Aynı mekanik, sınıfın dinamiğine göre bambaşka bir deneyime dönüşebilir. Tasarım bu nedenle hedeflenen deneyimden geriye doğru düşünülmelidir: öğrencinin ne hissetmesini istiyorum ve bunu hangi mekanik sağlar?
+
+## Oyuncu ve kullanıcı tipleri
+
+Her öğrenci aynı öğeden aynı ölçüde etkilenmez. Oyun araştırmacısı Richard Bartle, çevrim içi oyunlardaki oyuncuları dört tipe ayırdı: hedeflere ulaşmaktan keyif alan **başarıcılar**, oyun dünyasını keşfetmeyi seven **kaşifler**, diğer oyuncularla etkileşimi öne çıkaran **sosyalleşenler** ve başkalarını alt etmekten hoşlanan **rakipler**.[4]
+
+Bartle'ın sınıflaması oyunlar için geliştirildi. Oyun dışı bağlamlar için Andrzej Marczewski'nin önerdiği **Hexad** modeli daha çok kullanılır. Tondello ve arkadaşları bu modeli ölçen bir ölçek geliştirerek altı kullanıcı tipini sınadı:[5]
+
+| Hexad tipi | Neyle güdülenir? | Sınıfta işe yarayabilecek öğeler |
+|---|---|---|
+| Hayırsever | Amaç, başkalarına yardım | Akran yardımı, bilgi paylaşımı rolleri |
+| Sosyalleşen | İlişki kurmak | Takım görevleri, grup avatarları |
+| Özgür ruh | Özerklik, keşif | Seçmeli görevler, gizli içerikler |
+| Başarıcı | Ustalaşmak | Seviyeler, zorlaşan görevler |
+| Oyuncu | Dışsal ödüller | Puanlar, rozetler |
+| Bozguncu | Değişim yaratmak | Kuralları birlikte geliştirme, geri bildirim kanalları |
+
+Bu tablonun sınıf için anlamı açık: yalnızca puan ve rozete dayanan bir tasarım esas olarak "oyuncu" tipine hitap eder. Farklı öğrencilere ulaşmak için farklı ihtiyaçlara yanıt veren öğeleri birlikte kullanmak gerekir.
+
 ## Araştırmalar ne diyor?
 
-Hamari, Koivisto ve Sarsa, oyunlaştırma üzerine yapılan ampirik çalışmaları derledikleri incelemede, çalışmaların çoğunda olumlu etkiler bulunduğunu, ancak bu etkilerin büyük ölçüde **bağlama ve kullanıcılara bağlı** olduğunu bildirdi.[2] Yani aynı rozet sistemi bir grupta işe yararken başka bir grupta etkisiz kalabilir.
+Hamari, Koivisto ve Sarsa, oyunlaştırma üzerine yapılan ampirik çalışmaları derledikleri incelemede, çalışmaların çoğunda olumlu etkiler bulunduğunu, ancak bu etkilerin büyük ölçüde **bağlama ve kullanıcılara bağlı** olduğunu bildirdi.[6] Yani aynı rozet sistemi bir grupta işe yararken başka bir grupta etkisiz kalabilir.
 
-Daha sonra Sailer ve Homner, eğitimde oyunlaştırmanın etkisini inceleyen deneysel çalışmaların meta-analizini yaptı. Oyunlaştırmanın bilişsel (g = 0,49), motivasyonel (g = 0,36) ve davranışsal (g = 0,25) öğrenme çıktıları üzerinde anlamlı ve olumlu etkileri bulundu. Ancak araştırmacılar etkilerin kararlılığının çıktılar arasında farklılaştığını ve sonuçların çalışmaların yöntemsel kalitesine göre değiştiğini de vurguladı.[3]
+Daha sonra Sailer ve Homner, eğitimde oyunlaştırmanın etkisini inceleyen deneysel çalışmaların meta-analizini yaptı. Oyunlaştırmanın bilişsel (g = 0,49), motivasyonel (g = 0,36) ve davranışsal (g = 0,25) öğrenme çıktıları üzerinde anlamlı ve olumlu etkileri bulundu. Ancak araştırmacılar etkilerin kararlılığının çıktılar arasında farklılaştığını ve sonuçların çalışmaların yöntemsel kalitesine göre değiştiğini de vurguladı.[7]
 
 Bu bulgular iki uç görüşü de dengeliyor: oyunlaştırma bir mucize değil, ama iyi tasarlandığında öğrenmeye gerçek bir katkı sağlayabiliyor.
 
-## Hangi öğe ne işe yarar?
+## Öğe öğe: ne işe yarar?
 
 - **Puanlar:** Anlık geri bildirim sağlar. Ancak her şeyi puanlamak, öğrenmenin kendisini değil puanı hedef hâline getirebilir.
 - **Rozetler:** Belirli bir başarıyı görünür kılar. Rozetin neyi temsil ettiği açık olduğunda anlamlıdır.
 - **Liderlik tabloları:** Rekabeti artırır. Üst sıralardakileri motive edebilir, alt sıralarda kalanları ise yıldırabilir.
 - **İlerleme çubukları ve seviyeler:** Uzun bir öğrenme yolunu küçük adımlara böler; öz düzenlemeyi destekler.
 - **Görevler ve anlatı:** Etkinliğe bir amaç ve bağlam kazandırır; özellikle küçük yaş gruplarında güçlüdür.
+- **Avatarlar ve karakterler:** Öğrencinin kendini temsil eden bir karakter seçmesi ya da tasarlaması, etkinliğe kişisel bir bağ ve kimlik katar. Takım içinde farklı rollere sahip karakterler (örneğin "araştırmacı", "yazar", "sunucu") iş birliğini de yapılandırır.
+- **Takım arkadaşları:** Ortak hedefe birlikte ilerlemek, rekabetin yarattığı baskıyı iş birliğine dönüştürür.
+- **Performans grafikleri:** Öğrencinin kendi zaman içindeki ilerlemesini gösterir; başkalarıyla değil kendi geçmişiyle kıyaslamayı sağlar.
+
+Sailer ve arkadaşlarının deneysel çalışması bu ayrımın önemini gösteriyor. Rozetler, liderlik tabloları ve performans grafikleri katılımcıların **yeterlik** ihtiyacını ve görevin anlamlı algılanmasını desteklerken; avatarlar, anlamlı hikâyeler ve takım arkadaşları **sosyal ilişkililik** duygusunu besledi.[8] Yani "hangi öğe?" sorusunun cevabı, hangi ihtiyacı desteklemek istediğinize bağlıdır.
+
+## Ödül paradoksu
+
+Oyunlaştırmanın en eski ve en ciddi eleştirisi, motivasyon araştırmalarından gelir. Deci, Koestner ve Ryan, dışsal ödüllerin içsel motivasyona etkisini inceleyen deneyleri meta-analizle birleştirdi. Sonuç çarpıcıydı: önceden beklenen somut ödüller, kişinin etkinliği serbest zamanında kendiliğinden yapma isteğini anlamlı biçimde azaltıyordu. Buna karşılık olumlu sözel geri bildirim içsel motivasyonu artırıyordu.[9]
+
+Oyunlaştırma açısından bu bulgu şu anlama gelir: öğrencinin zaten severek yaptığı bir etkinliğe puan eklemek, ödül kalktığında ilgisini azaltabilir. Oyun öğeleri, öğrenciye yaptığı işin kontrol edildiği değil, ilerlediği ve yetkinleştiği mesajını verdiğinde daha güvenlidir.
+
+## Oyunlaştırma öğrenmeyi nasıl etkiler?
+
+Landers, oyunlaştırmanın öğrenmeyi doğrudan artırmadığını, belirli **öğrenci davranışlarını** değiştirerek dolaylı yoldan etkilediğini öne süren bir model geliştirdi. Örneğin oyunlaştırma öğrencinin alıştırmalara ayırdığı zamanı artırırsa ve bu alıştırmalar öğrenmeyi destekliyorsa, öğrenme de artar. Ancak öğretimin kendisi zayıfsa, oyunlaştırmanın artırdığı davranış öğrenmeye dönüşmez.[10]
+
+Bu model tasarım için pratik bir soru sunar: Oyunlaştırmayla hangi davranışı değiştirmek istiyorum ve bu davranış öğrenmeyle gerçekten ilişkili mi? Bu sorunun cevabı net değilse, en parlak rozet sistemi bile öğrenmeye katkı sağlamayabilir.
 
 ## Riskler
 
-Oyunlaştırmanın en sık eleştirilen yanı, öğrencinin dışsal ödüllere odaklanmasıdır. Öğrenci konuyu merak ettiği için değil rozet kazanmak için çalışmaya başlarsa, ödül ortadan kalktığında ilgi de kaybolabilir. Liderlik tabloları ise her zaman aynı öğrencileri öne çıkararak sınıftaki başarı farklarını görünür ve kalıcı hâle getirebilir. Hamari ve arkadaşlarının bağlama bağlılık vurgusu, bu risklerin tasarımla yönetilmesi gerektiğini gösteriyor.[2]
+Oyunlaştırmanın en sık eleştirilen yanı, öğrencinin dışsal ödüllere odaklanmasıdır. Öğrenci konuyu merak ettiği için değil rozet kazanmak için çalışmaya başlarsa, ödül ortadan kalktığında ilgi de kaybolabilir. Liderlik tabloları ise her zaman aynı öğrencileri öne çıkararak sınıftaki başarı farklarını görünür ve kalıcı hâle getirebilir. Hamari ve arkadaşlarının bağlama bağlılık vurgusu, bu risklerin tasarımla yönetilmesi gerektiğini gösteriyor.[6]
 
 ## Örnek: okuma alışkanlığı için oyunlaştırma
 
@@ -2274,7 +2609,7 @@ Bir ortaokul Türkçe öğretmeni, öğrencilerin düzenli kitap okumasını des
 
 İkinci denemede tasarımı değiştiriyor. Her öğrenci kendi haftalık hedefini belirliyor ve bir ilerleme çubuğuyla izliyor. Rozetler sayfa sayısı için değil, farklı türlerde kitap okumak ya da bir kitabı arkadaşına önermek gibi davranışlar için veriliyor. Sınıf ayrıca ortak bir hedefe doğru ilerliyor: dönem sonunda sınıf kütüphanesine eklenecek kitapları birlikte seçmek.
 
-Bu örnekte oyun öğeleri aynı; değişen, öğelerin hangi davranışa bağlandığı. Araştırmaların bağlama bağlılık vurgusu da tam olarak bunu anlatır.[2]
+Bu örnekte oyun öğeleri aynı; değişen, öğelerin hangi davranışa bağlandığı. Araştırmaların bağlama bağlılık vurgusu da tam olarak bunu anlatır.[6]
 
 ## Sınıf için tasarım ilkeleri
 
@@ -2292,7 +2627,7 @@ Oyunlaştırma, doğru kullanıldığında öğrencilerin motivasyonunu ve katı
 
 ### Oyunlaştırma nedir?
 
-Deterding ve arkadaşlarının yaygın kabul gören tanımına göre oyunlaştırma, oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılmasıdır. Puan, rozet, seviye ve görevler en bilinen öğelerdir.
+Deterding ve arkadaşlarının yaygın kabul gören tanımına göre oyunlaştırma, oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılmasıdır. Puan, rozet, seviye, görev, avatar ve anlatı en bilinen öğelerdir.
 
 ### Oyunlaştırma ile oyun tabanlı öğrenme arasındaki fark nedir?
 
@@ -2302,23 +2637,30 @@ Oyun tabanlı öğrenmede öğrenci eğitsel amaçlı tam bir oyun oynar. Oyunla
 
 Araştırmalar genel olarak olumlu ama sınırlı etkiler gösteriyor. Sailer ve Homner'in meta-analizi bilişsel, motivasyonel ve davranışsal çıktılarda küçük ile orta düzeyde olumlu etkiler buldu; etkinin büyüklüğü tasarıma ve bağlama göre değişiyor.
 
-### Oyunlaştırma öğeleri nelerdir?
+### Oyuncu tipleri nelerdir?
 
-En sık kullanılanlar puanlar, rozetler, liderlik tabloları, seviyeler, görevler, ilerleme çubukları ve anlatı öğeleridir. Hangisinin uygun olduğu hedeflenen davranışa ve öğrenci grubuna bağlıdır.
+Bartle oyuncuları başarıcılar, kaşifler, sosyalleşenler ve rakipler olarak dört tipe ayırır. Oyun dışı bağlamlarda kullanılan Hexad modeli ise hayırsever, sosyalleşen, özgür ruh, başarıcı, oyuncu ve bozguncu olmak üzere altı tip tanımlar.
+
+### Oyunlaştırmada avatar ve karakterler ne işe yarar?
+
+Avatarlar ve karakterler öğrencinin etkinliğe kişisel bir bağ kurmasını sağlar. Deneysel çalışmalar avatar, anlamlı hikâye ve takım arkadaşı gibi öğelerin özellikle sosyal ilişkililik duygusunu desteklediğini gösteriyor.
 
 ### Oyunlaştırmanın olumsuz yanları var mı?
 
-Evet. Dışsal ödüllere aşırı odaklanmak, liderlik tablolarında hep geride kalan öğrencilerin motivasyonunu düşürebilir. Öğeler öğrenme hedefine bağlanmadığında yenilik etkisi geçince ilgi azalabilir.
-
-### Sınıfta oyunlaştırma nasıl uygulanır?
-
-Önce desteklemek istediğiniz davranış belirlenir, örneğin düzenli tekrar. Sonra buna uygun öğe seçilir: ilerleme çubuğu, kişisel hedef rozetleri ya da takım görevleri. Rekabeti değil kişisel gelişimi ödüllendirmek genellikle daha güvenlidir.
+Evet. Beklenen somut ödüller içsel motivasyonu azaltabilir; liderlik tablolarında hep geride kalan öğrencilerin motivasyonu düşebilir. Öğeler öğrenme hedefine bağlanmadığında yenilik etkisi geçince ilgi azalır.
 
 ## Kaynaklar
 
 1. Deterding, S., Dixon, D., Khaled, R. ve Nacke, L. (2011). From Game Design Elements to Gamefulness: Defining "Gamification". Proceedings of the 15th International Academic MindTrek Conference, 9–15. https://doi.org/10.1145/2181037.2181040 (EN, erişim: 2026-09-25)
-2. Hamari, J., Koivisto, J. ve Sarsa, H. (2014). Does Gamification Work? A Literature Review of Empirical Studies on Gamification. 47th Hawaii International Conference on System Sciences, 3025–3034. https://doi.org/10.1109/HICSS.2014.377 (EN, erişim: 2026-09-25)
-3. Sailer, M. ve Homner, L. (2020). The Gamification of Learning: A Meta-analysis. Educational Psychology Review, 32, 77–112. https://doi.org/10.1007/s10648-019-09498-w (EN, erişim: 2026-09-25)
+2. Ryan, R. M. ve Deci, E. L. (2000). Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being. American Psychologist, 55(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68 (EN, erişim: 2026-09-25)
+3. Hunicke, R., LeBlanc, M. ve Zubek, R. (2004). MDA: A Formal Approach to Game Design and Game Research. AAAI Workshop on Challenges in Game AI. https://users.cs.northwestern.edu/~hunicke/MDA.pdf (EN, erişim: 2026-09-25)
+4. Bartle, R. (1996). Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs. Journal of MUD Research, 1(1). https://mud.co.uk/richard/hcds.htm (EN, erişim: 2026-09-25)
+5. Tondello, G. F., Wehbe, R. R., Diamond, L., Busch, M., Marczewski, A. ve Nacke, L. E. (2016). The Gamification User Types Hexad Scale. Proceedings of CHI PLAY 2016, 229–243. https://doi.org/10.1145/2967934.2968082 (EN, erişim: 2026-09-25)
+6. Hamari, J., Koivisto, J. ve Sarsa, H. (2014). Does Gamification Work? A Literature Review of Empirical Studies on Gamification. 47th Hawaii International Conference on System Sciences, 3025–3034. https://doi.org/10.1109/HICSS.2014.377 (EN, erişim: 2026-09-25)
+7. Sailer, M. ve Homner, L. (2020). The Gamification of Learning: A Meta-analysis. Educational Psychology Review, 32, 77–112. https://doi.org/10.1007/s10648-019-09498-w (EN, erişim: 2026-09-25)
+8. Sailer, M., Hense, J. U., Mayr, S. K. ve Mandl, H. (2017). How Gamification Motivates: An Experimental Study of the Effects of Specific Game Design Elements on Psychological Need Satisfaction. Computers in Human Behavior, 69, 371–380. https://doi.org/10.1016/j.chb.2016.12.033 (EN, erişim: 2026-09-25)
+9. Deci, E. L., Koestner, R. ve Ryan, R. M. (1999). A Meta-Analytic Review of Experiments Examining the Effects of Extrinsic Rewards on Intrinsic Motivation. Psychological Bulletin, 125(6), 627–668. https://doi.org/10.1037/0033-2909.125.6.627 (EN, erişim: 2026-09-25)
+10. Landers, R. N. (2014). Developing a Theory of Gamified Learning: Linking Serious Games and Gamification of Learning. Simulation & Gaming, 45(6), 752–768. https://doi.org/10.1177/1046878114563660 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -2326,7 +2668,7 @@ Evet. Dışsal ödüllere aşırı odaklanmak, liderlik tablolarında hep geride
 
 > Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
 
 ## Kısaca
 
@@ -2364,10 +2706,16 @@ LMS'ler lisans modeline göre ikiye ayrılabilir. Açık kaynak sistemlerin en y
 
 Hiçbir LMS her ihtiyacı tek başına karşılamaz. Kurumlar sanal laboratuvar, kodlama ortamı ya da intihal denetim aracı gibi dış araçları derslerine eklemek ister. **Learning Tools Interoperability (LTI)** standardı bu entegrasyonu sağlar: bir dış araç, LMS içinden güvenli biçimde başlatılabilir ve kullanıcı bilgisi bu araçla paylaşılabilir.[4] LTI desteği, bir LMS seçerken sorulması gereken ilk teknik sorulardan biridir.
 
+## İçerik standartları: SCORM ve xAPI
+
+LTI araçları bağlarken, içerik standartları da hazırlanan e-öğrenme modüllerinin farklı sistemlerde çalışmasını sağlar. ABD Savunma Bakanlığı bünyesindeki Advanced Distributed Learning (ADL) girişiminin geliştirdiği **SCORM**, bir e-öğrenme paketinin herhangi bir uyumlu LMS'ye yüklenip çalıştırılabilmesini ve öğrencinin ilerleme bilgisinin sisteme iletilmesini tanımlar.[5] Böylece bir kurum, içeriklerini yeniden üretmeden LMS değiştirebilir.
+
+Daha yeni bir standart olan **xAPI** (Experience API) ise öğrenmenin yalnızca LMS içinde gerçekleşmediği fikrinden yola çıkar. Bir simülasyonda, mobil uygulamada ya da iş başında gerçekleşen öğrenme deneyimleri de "kim, ne yaptı, neyle" biçiminde kayıt altına alınabilir.[6] Kurum için pratik soru şudur: İçeriklerim bu standartlarla uyumlu mu ve LMS bu standartları destekliyor mu?
+
 ## Kurum için LMS seçerken
 
 1. **Pedagojik ihtiyaçla başlayın:** Hangi tür dersler yürütülecek? Eşzamanlı mı, eşzamansız mı? Proje mi, sınav mı ağırlıkta?
-2. **Erişilebilirliği sınayın:** Ekran okuyucu uyumu, altyazı desteği ve mobil kullanım test edilmelidir.
+2. **Erişilebilirliği sınayın:** Ekran okuyucu uyumu, altyazı desteği ve mobil kullanım test edilmelidir. Uluslararası ölçüt W3C'nin Web İçeriği Erişilebilirlik Yönergeleri'dir (WCAG); sistemin ve üretilen içeriklerin bu yönergelere uygunluğu sorulmalıdır.[7]
 3. **Veri gizliliğini sorgulayın:** Öğrenci verileri nerede tutuluyor, kimlerle paylaşılıyor?
 4. **Birlikte çalışabilirliğe bakın:** LTI ve içerik standartları desteği, ileride sistem değiştirmeyi de kolaylaştırır.
 5. **Toplam maliyeti hesaplayın:** Lisansın yanında barındırma, bakım, eğitim ve teknik destek maliyetlerini de ekleyin.
@@ -2379,9 +2727,13 @@ LMS'lerin en güçlü yanlarından biri, öğrencinin hangi materyali ne zaman a
 
 Ancak veriyi yorumlarken dikkatli olmak gerekir. Bir videonun açılmış olması izlendiği anlamına gelmez; forumda az yazan bir öğrenci konuyu anlamamış değil, yalnızca çekingen olabilir. Tıklama verisi öğrenmenin kendisi değil, dolaylı bir göstergesidir. Ayrıca bu verilerin kimler tarafından görüleceği ve ne kadar süre saklanacağı öğrencilere açıkça bildirilmelidir.
 
+## Öğrenme analitiği
+
+LMS'lerin topladığı veriler, **öğrenme analitiği** adı verilen bir alanın konusudur. Siemens ve Long, öğrenme analitiğini öğrenmeyi ve öğrenmenin gerçekleştiği ortamları anlamak ve iyileştirmek amacıyla öğrenciler ve bağlamları hakkındaki verilerin ölçülmesi, toplanması, analiz edilmesi ve raporlanması olarak tanımlar.[8] Tanımdaki vurgu önemlidir: amaç öğrencileri izlemek değil, öğrenmeyi iyileştirmektir. Bu nedenle analitik uygulamaları, hangi verinin toplandığını ve nasıl kullanıldığını öğrencilere açıkça anlatan bir veri politikasıyla birlikte yürütülmelidir.
+
 ## LMS iyi bir ders demek değildir
 
-Pandemi döneminde birçok kurum hızla LMS'ye geçti, ancak derslerin kalitesi aynı hızla artmadı. Hodges ve arkadaşlarının vurguladığı gibi, krize yanıt olarak çevrim içine taşınan dersler ile baştan planlanmış çevrim içi öğrenme deneyimleri farklıdır.[5] LMS bir altyapıdır; etkileşimi, geri bildirimi ve öğrenme topluluğunu tasarlamak öğretim elemanının ve öğretim tasarımcısının işidir. Bu tasarım ilkelerini [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) yazımızda ele aldık.
+Pandemi döneminde birçok kurum hızla LMS'ye geçti, ancak derslerin kalitesi aynı hızla artmadı. Hodges ve arkadaşlarının vurguladığı gibi, krize yanıt olarak çevrim içine taşınan dersler ile baştan planlanmış çevrim içi öğrenme deneyimleri farklıdır.[9] LMS bir altyapıdır; etkileşimi, geri bildirimi ve öğrenme topluluğunu tasarlamak öğretim elemanının ve öğretim tasarımcısının işidir. Bu tasarım ilkelerini [uzaktan eğitim nedir?](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) yazımızda ele aldık.
 
 ## Sonuç
 
@@ -2419,7 +2771,11 @@ Learning Tools Interoperability (LTI), 1EdTech'in geliştirdiği bir standarttı
 2. Moore, M. G. (1989). Three Types of Interaction. American Journal of Distance Education, 3(2), 1–7. https://doi.org/10.1080/08923648909526659 (EN, erişim: 2026-09-25)
 3. Moodle Documentation (t.y.). About Moodle. https://docs.moodle.org/en/About_Moodle (EN, erişim: 2026-09-25)
 4. 1EdTech Consortium (2019). Learning Tools Interoperability Core Specification 1.3. https://www.imsglobal.org/spec/lti/v1p3/ (EN, erişim: 2026-09-25)
-5. Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A. (2020). The Difference Between Emergency Remote Teaching and Online Learning. EDUCAUSE Review. https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (EN, erişim: 2026-09-25)
+5. Advanced Distributed Learning (ADL) Initiative (t.y.). Sharable Content Object Reference Model (SCORM). https://adlnet.gov/projects/scorm/ (EN, erişim: 2026-09-25)
+6. Advanced Distributed Learning (ADL) Initiative (t.y.). Experience API (xAPI). https://adlnet.gov/projects/xapi/ (EN, erişim: 2026-09-25)
+7. W3C (2023). Web Content Accessibility Guidelines (WCAG) 2.2. https://www.w3.org/TR/WCAG22/ (EN, erişim: 2026-09-25)
+8. Siemens, G. ve Long, P. (2011). Penetrating the Fog: Analytics in Learning and Education. EDUCAUSE Review, 46(5), 30–40. https://er.educause.edu/articles/2011/9/penetrating-the-fog-analytics-in-learning-and-education (EN, erişim: 2026-09-25)
+9. Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A. (2020). The Difference Between Emergency Remote Teaching and Online Learning. EDUCAUSE Review. https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (EN, erişim: 2026-09-25)
 
 ---
 
@@ -2427,7 +2783,7 @@ Learning Tools Interoperability (LTI), 1EdTech'in geliştirdiği bir standarttı
 
 > Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
 
 ## Kısaca
 
@@ -2451,6 +2807,20 @@ BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği mesleklerden b
 
 ABD Çalışma İstatistikleri Bürosu, kurumlarda çalışanların beceri ve bilgisini geliştirmek için eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[2] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur ve genellikle yüksek lisans ile öğretmenlik deneyimi ister.[3]
 
+## Tasarımcının araç seti
+
+İyi bir öğretim tasarımcısını "e-öğrenme aracı kullanabilen" birinden ayıran, arka plandaki kuramsal araç setidir. Bu araç setinin temel parçaları şunlardır:
+
+| Araç | Ne işe yarar? | Kaynağı |
+|---|---|---|
+| ADDIE süreci | Projeyi analizden değerlendirmeye kadar sistemli yönetmek | Branch[1] |
+| Güncellenmiş Bloom taksonomisi | Ölçülebilir öğrenme hedefleri yazmak | Krathwohl[4] |
+| Yapıcı hizalama | Hedef, etkinlik ve sınavın aynı şeyi istemesini sağlamak | Biggs[5] |
+| Öğretimin ilk ilkeleri | Tasarımı gerçek bir problem etrafında kurmak | Merrill[6] |
+| Çoklu ortam ilkeleri | Video ve görselleri bilişsel yükü azaltacak biçimde tasarlamak | Mayer[7] |
+
+Bu çerçevelerin her birini blogda ayrı yazılarda ele aldık: [öğretim tasarımı ve ADDIE](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) ile [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri). Tasarımcının günlük işinde bunlar ayrı ayrı değil, aynı proje içinde birlikte kullanılır.
+
 ## Nerede çalışır?
 
 | Kurum türü | Tipik görevler |
@@ -2462,7 +2832,7 @@ ABD Çalışma İstatistikleri Bürosu, kurumlarda çalışanların beceri ve bi
 
 ## Hangi beceriler gerekir?
 
-**Analiz ve tasarım:** Mesleğin çekirdeği budur. İyi bir öğretim tasarımcısı her performans sorununun eğitimle çözülmeyeceğini bilir ve doğru soruları sorar. Merrill'in öğretimin ilk ilkeleri, tasarlanan öğretimin kalitesini sınamak için kullanışlı bir çerçeve sunar: gerçek bir problem, ön bilginin harekete geçirilmesi, gösterme, uygulama ve bütünleştirme.[4]
+**Analiz ve tasarım:** Mesleğin çekirdeği budur. İyi bir öğretim tasarımcısı her performans sorununun eğitimle çözülmeyeceğini bilir ve doğru soruları sorar. Merrill'in öğretimin ilk ilkeleri, tasarlanan öğretimin kalitesini sınamak için kullanışlı bir çerçeve sunar: gerçek bir problem, ön bilginin harekete geçirilmesi, gösterme, uygulama ve bütünleştirme.[6]
 
 **Çoklu ortam tasarımı:** Video, görsel ve etkileşimli içeriklerin öğrenmeyi desteklemesi için bilişsel yükü yöneten tasarım ilkeleri gerekir. Bu ilkeleri [çoklu ortam öğrenme ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazımızda özetledik.
 
@@ -2524,7 +2894,10 @@ Zorunlu değildir ama bazı roller için avantaj sağlar. ABD'de okul sistemleri
 1. Branch, R. M. (2009). Instructional Design: The ADDIE Approach. Springer. https://doi.org/10.1007/978-0-387-09506-6 (EN, erişim: 2026-09-25)
 2. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
 3. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
-4. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
+4. Krathwohl, D. R. (2002). A Revision of Bloom's Taxonomy: An Overview. Theory Into Practice, 41(4), 212–218. https://doi.org/10.1207/s15430421tip4104_2 (EN, erişim: 2026-09-25)
+5. Biggs, J. (1996). Enhancing Teaching Through Constructive Alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871 (EN, erişim: 2026-09-25)
+6. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
+7. Mayer, R. E. (2020). Multimedia Learning (3. baskı). Cambridge University Press. https://doi.org/10.1017/9781316941355 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -2532,7 +2905,7 @@ Zorunlu değildir ama bazı roller için avantaj sağlar. ABD'de okul sistemleri
 
 > Öğretim tasarımı nedir, ADDIE modelinin beş aşaması nasıl işler ve etkili öğretimin ilkeleri nelerdir? Okuldan kurumsal eğitime uygulanabilir rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 
 ## Kısaca
 
@@ -2549,9 +2922,32 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3
 
 Tasarımın temel sorusu basittir: Öğrenci bu öğretimin sonunda neyi yapabilir hâle gelmeli ve bunu nasıl anlayacağız? Hedef, etkinlik ve değerlendirme arasındaki tutarlılık, iyi tasarımın ilk göstergesidir.
 
+## Öğrenme hedefi nasıl yazılır?
+
+Tasarımın merkezinde **ölçülebilir öğrenme hedefi** vardır. "Öğrenci fotosentezi öğrenir" bir hedef değil, bir niyettir: neyin gözlemleneceğini söylemez. "Öğrenci fotosentez denklemini kullanarak bir bitkinin ışıksız ortamda neden büyüyemediğini açıklar" ise gözlemlenebilir bir davranış tanımlar.
+
+Hedef yazarken en sık başvurulan araç, Bloom taksonomisinin güncellenmiş hâlidir. Krathwohl'un özetlediği bu sürüm bilişsel süreçleri altı düzeyde sıralar: **hatırlama, anlama, uygulama, çözümleme, değerlendirme ve yaratma**. Taksonomi ayrıca bilgiyi olgusal, kavramsal, işlemsel ve üstbilişsel olmak üzere dört türe ayırır.[2]
+
+| Düzey | Örnek eylem | Örnek hedef |
+|---|---|---|
+| Hatırlama | Listeler, tanımlar | Öğrenci bilgisayarın temel bileşenlerini listeler |
+| Anlama | Açıklar, örnekler | Öğrenci RAM ile depolama arasındaki farkı örnekle açıklar |
+| Uygulama | Kullanır, uygular | Öğrenci bir döngü yapısını kullanarak çarpım tablosu üretir |
+| Çözümleme | Karşılaştırır, ayırt eder | Öğrenci iki algoritmanın verimliliğini karşılaştırır |
+| Değerlendirme | Savunur, eleştirir | Öğrenci bir web sitesinin güvenilirliğini ölçütlerle değerlendirir |
+| Yaratma | Tasarlar, üretir | Öğrenci okul için basit bir etkinlik kayıt uygulaması tasarlar |
+
+Tablodaki hedeflerin ortak özelliği, her birinin nasıl değerlendirileceğinin de açık olmasıdır. Hedef yazmak, değerlendirmeyi tasarlamanın ilk adımıdır.
+
+## Yapıcı hizalama
+
+John Biggs, iyi bir öğretimin üç öğenin birbirine **hizalanmasıyla** ortaya çıktığını savunur: hedeflenen öğrenme çıktıları, öğretim etkinlikleri ve değerlendirme. Öğrenciler, değerlendirildikleri şeye göre çalıştığı için değerlendirme hedeflerle uyumlu değilse öğretim ne kadar iyi olursa olsun öğrenci farklı bir şey öğrenir.[3]
+
+Bir örnek: hedef "öğrenci bir problemi çözmek için algoritma tasarlar" ise ama sınav yalnızca tanım soruları içeriyorsa, öğrenciler tanımları ezberlemeyi seçer. Yapıcı hizalama, ADDIE'nin tasarım aşamasında sorulması gereken en temel kontrol sorusunu sağlar: Hedefim, etkinliğim ve sınavım aynı şeyi mi istiyor?
+
 ## ADDIE: beş aşamalı süreç
 
-Öğretim tasarımında en yaygın kullanılan süreç modeli **ADDIE**'dir. Branch, ADDIE'yi belirli bir tasarım modelinden çok, öğretim ürünleri geliştirmek için kullanılan genel bir süreç olarak ele alır.[2]
+Öğretim tasarımında en yaygın kullanılan süreç modeli **ADDIE**'dir. Branch, ADDIE'yi belirli bir tasarım modelinden çok, öğretim ürünleri geliştirmek için kullanılan genel bir süreç olarak ele alır.[4]
 
 | Aşama | Temel soru | Örnek çıktı |
 |---|---|---|
@@ -2565,7 +2961,7 @@ Uygulamada bu aşamalar nadiren düz bir çizgide ilerler. Değerlendirmede orta
 
 ## Merrill'in öğretimin ilk ilkeleri
 
-Süreç modelleri "nasıl çalışmalıyız?" sorusunu yanıtlar; ancak "iyi bir öğretim nasıl olmalı?" sorusunu tam yanıtlamaz. David Merrill, farklı öğretim kuramlarını inceleyerek hepsinde ortak olan beş ilke belirledi. Merrill'e göre öğrenme şu durumlarda kolaylaşır:[3]
+Süreç modelleri "nasıl çalışmalıyız?" sorusunu yanıtlar; ancak "iyi bir öğretim nasıl olmalı?" sorusunu tam yanıtlamaz. David Merrill, farklı öğretim kuramlarını inceleyerek hepsinde ortak olan beş ilke belirledi. Merrill'e göre öğrenme şu durumlarda kolaylaşır:[5]
 
 1. **Problem merkezlilik:** Öğrenciler gerçek dünyaya ait problemler üzerinde çalışır.
 2. **Harekete geçirme:** Öğrencinin ön bilgisi yeni öğrenmenin temeli olarak kullanılır.
@@ -2579,7 +2975,7 @@ Bu ilkeler ADDIE'nin tasarım aşamasında bir kalite kontrol listesi olarak kul
 
 Öğretim tasarımının en kritik ama en çok atlanan aşaması analizdir. Kurumlar bir performans sorunuyla karşılaştığında çoğu zaman doğrudan "eğitim verelim" kararı alır. Oysa sorunun kaynağı bilgi ya da beceri eksikliği olmayabilir. Çalışanlar doğru yöntemi biliyor ama gerekli araçlara sahip değilse ya da iş süreci hatayı kolaylaştırıyorsa, en iyi tasarlanmış eğitim bile sorunu çözmez.
 
-Bu nedenle iyi bir analiz şu soruları sorar: Kişiler ne yapmalı, şu anda ne yapıyor? Aradaki fark bilgi eksikliğinden mi, motivasyondan mı, çevresel koşullardan mı kaynaklanıyor? Eğitim yalnızca ilk durumda doğru çözümdür. Branch'in ADDIE'yi yalnızca bir ürün geliştirme süreci olarak değil, sistemli bir karar verme süreci olarak ele alması bu yüzden önemlidir.[2]
+Bu nedenle iyi bir analiz şu soruları sorar: Kişiler ne yapmalı, şu anda ne yapıyor? Aradaki fark bilgi eksikliğinden mi, motivasyondan mı, çevresel koşullardan mı kaynaklanıyor? Eğitim yalnızca ilk durumda doğru çözümdür. Branch'in ADDIE'yi yalnızca bir ürün geliştirme süreci olarak değil, sistemli bir karar verme süreci olarak ele alması bu yüzden önemlidir.[4]
 
 ## Örnek: bir e-öğrenme modülü
 
@@ -2589,7 +2985,7 @@ Bu örnekte Merrill'in ilkeleri de görülebilir: modül gerçek bir iş problem
 
 ## Kariyer boyutu
 
-Öğretim tasarımı, BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği alanlardan biridir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi, kurumlarda eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[4] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur.[5] Bu rolleri [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazımızda ayrıntılı ele aldık.
+Öğretim tasarımı, BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği alanlardan biridir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi, kurumlarda eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[6] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur.[7] Bu rolleri [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazımızda ayrıntılı ele aldık.
 
 ## Sonuç
 
@@ -2624,10 +3020,12 @@ Evet. Bir ders planı hazırlamak da küçük ölçekli bir öğretim tasarımı
 ## Kaynaklar
 
 1. Januszewski, A. ve Molenda, M. (Ed.) (2008). Educational Technology: A Definition with Commentary. Routledge (AECT için). https://www.routledge.com/Educational-Technology-A-Definition-with-Commentary/Januszewski-Molenda/p/book/9780805858617 (EN, erişim: 2026-09-25)
-2. Branch, R. M. (2009). Instructional Design: The ADDIE Approach. Springer. https://doi.org/10.1007/978-0-387-09506-6 (EN, erişim: 2026-09-25)
-3. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
-4. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
-5. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
+2. Krathwohl, D. R. (2002). A Revision of Bloom's Taxonomy: An Overview. Theory Into Practice, 41(4), 212–218. https://doi.org/10.1207/s15430421tip4104_2 (EN, erişim: 2026-09-25)
+3. Biggs, J. (1996). Enhancing Teaching Through Constructive Alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871 (EN, erişim: 2026-09-25)
+4. Branch, R. M. (2009). Instructional Design: The ADDIE Approach. Springer. https://doi.org/10.1007/978-0-387-09506-6 (EN, erişim: 2026-09-25)
+5. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
+6. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
+7. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
 
 ---
 
@@ -2635,7 +3033,7 @@ Evet. Bir ders planı hazırlamak da küçük ölçekli bir öğretim tasarımı
 
 > Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
 
 ## Kısaca
 
@@ -2663,6 +3061,23 @@ Dersin temel sorusu şudur: Teknoloji, öğretmenin öğretim kararlarına nası
 ## Yeni gündem: yapay zekâ
 
 Üretken yapay zekâ araçlarının yaygınlaşması, Öğretim Teknolojileri dersine yeni bir boyut ekledi. UNESCO'nun 2024'te yayımladığı öğretmenler için yapay zekâ yetkinlik çerçevesi; insan merkezli bakış, yapay zekâ etiği, yapay zekâ temelleri ve uygulamaları, yapay zekâ pedagojisi ve mesleki gelişim için yapay zekâ olmak üzere beş boyutta 15 yetkinlik tanımlar.[6] Türkiye'de de MEB'in 2025'te yürürlüğe giren **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı**, öğretmen eğitimini eylem alanları arasında sayıyor.[7] Bu gelişmeler, öğretmen adaylarının teknolojiyi yalnızca kullanmayı değil, etik ve pedagojik açıdan değerlendirmeyi de öğrenmesini gerektiriyor. Konuyu [eğitimde yapay zekâ](https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin) yazımızda ele aldık.
+
+## Örnek bir dönem akışı
+
+Dersin içeriği üniversiteye ve öğretim elemanına göre değişir. Aşağıdaki akış, yazıda anlattığımız çerçevelere dayanan **örnek** bir planlamadır; resmî bir program değildir:
+
+| Hafta | Konu | Çıktı |
+|---|---|---|
+| 1–2 | Öğretim teknolojisinin tanımı ve tarihçesi | Kavram haritası |
+| 3–4 | TPACK: alan, pedagoji ve teknolojinin kesişimi | Kendi alanından bir TPACK analizi |
+| 5–6 | Dijital kaynakları seçme ve değerlendirme | Kaynak değerlendirme ölçütleri listesi |
+| 7–8 | Çoklu ortam tasarım ilkeleri | Yeniden tasarlanmış bir sunum |
+| 9–10 | Çevrim içi ve harmanlanmış öğrenme | Kısa bir çevrim içi etkinlik |
+| 11–12 | Ölçme-değerlendirmede teknoloji | Dijital bir değerlendirme aracı |
+| 13 | Yapay zekâ: olanaklar, riskler, etik | Sınıf için yapay zekâ kullanım ilkeleri |
+| 14 | Erişilebilirlik ve kapsayıcılık | Erişilebilirlik kontrol listesi |
+
+Bu akışın ortak noktası, her haftanın somut bir ürünle bitmesidir. Dönem sonunda öğretmen adayının elinde, öğretmenlik uygulamasında ve mesleğin ilk yıllarında doğrudan kullanabileceği küçük bir portfolyo birikir.
 
 ## Dersten en iyi nasıl yararlanılır?
 
@@ -2730,7 +3145,7 @@ AGS'nin kapsamı eğitimin temellerini içerir ve öğretim teknolojileri bu kap
 
 > 7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
 
 ## Kısaca
 
@@ -2763,11 +3178,22 @@ Kanun, öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen
 
 Kanun, AGS'nin mevzuat bölümünde de doğrudan yer alıyor. MEB'in açıkladığı konu dağılımına göre sınav; Anayasa, 1739 sayılı Millî Eğitim Temel Kanunu ve 222 sayılı İlköğretim ve Eğitim Kanunu ile birlikte 7528 sayılı Öğretmenlik Mesleği Kanunu'nu da kapsar.[6] Öğretmen adaylarının kanunu yalnızca bir sınav konusu olarak değil, mesleklerinin çerçevesi olarak okuması bu yüzden önemli.
 
+## Önce ve sonra: bir bakışta
+
+| Aşama | 7528 öncesi | 7528 sonrası |
+|---|---|---|
+| Giriş sınavı | KPSS ağırlıklı atama sistemi | ÖSYM'nin yaptığı Akademi Giriş Sınavı (AGS) ve ÖABT[6] |
+| Atama öncesi hazırlık | Yok; hazırlık lisansla sınırlıydı | Millî Eğitim Akademisi'nde dört dönemlik hazırlık eğitimi[5] |
+| Pedagojik formasyon | Fakülte dışı mezunlar için başvuru koşulu | Akademi adaylarında aranmıyor (Aralık 2025)[7] |
+| Kariyer | Belirgin bir basamak yapısı yoktu | Öğretmen, uzman öğretmen, başöğretmen[3] |
+
+Tablonun gösterdiği gibi kanun, öğretmenliğe girişin ağırlık merkezini sınavdan hazırlığa doğru kaydırıyor. Sınav hâlâ ilk kapı; ancak atamayı belirleyen, akademideki hazırlık eğitiminin başarıyla tamamlanması.
+
 ## Uluslararası öğretmen politikalarıyla karşılaştırma
 
-OECD'nin öğretmen politikalarını değerlendiren kapsamlı raporu, ülkelerin öğretmenliği cazip bir meslek hâline getirmesi, öğretmenleri etkili biçimde seçip geliştirmesi ve meslekte tutması gerektiğini vurgular. Rapor, öğretmen yetiştirmenin mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimden oluşan bir süreç olarak ele alınmasını önerir.[7] 7528 sayılı Kanun'un seçim (AGS), hazırlık (akademi) ve kariyer gelişimi (basamaklar) boyutlarını birlikte düzenlemesi bu yaklaşımla örtüşüyor.
+OECD'nin öğretmen politikalarını değerlendiren kapsamlı raporu, ülkelerin öğretmenliği cazip bir meslek hâline getirmesi, öğretmenleri etkili biçimde seçip geliştirmesi ve meslekte tutması gerektiğini vurgular. Rapor, öğretmen yetiştirmenin mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimden oluşan bir süreç olarak ele alınmasını önerir.[8] 7528 sayılı Kanun'un seçim (AGS), hazırlık (akademi) ve kariyer gelişimi (basamaklar) boyutlarını birlikte düzenlemesi bu yaklaşımla örtüşüyor.
 
-Mesleğe başlangıçtaki yapılandırılmış destek programlarına ilişkin araştırmalar da bu tür düzenlemelerin potansiyelini gösteriyor. Ingersoll ve Strong'un derlemesi, mesleğe uyum ve mentorluk programlarının öğretmenlerin meslekte kalması, sınıf uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[8] Ancak araştırmalar etkinin programın niteliğine bağlı olduğunu da vurgular; bu nedenle kanunun sonuçları, uygulamanın niteliğiyle birlikte değerlendirilmelidir.
+Mesleğe başlangıçtaki yapılandırılmış destek programlarına ilişkin araştırmalar da bu tür düzenlemelerin potansiyelini gösteriyor. Ingersoll ve Strong'un derlemesi, mesleğe uyum ve mentorluk programlarının öğretmenlerin meslekte kalması, sınıf uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[9] Ancak araştırmalar etkinin programın niteliğine bağlı olduğunu da vurgular; bu nedenle kanunun sonuçları, uygulamanın niteliğiyle birlikte değerlendirilmelidir.
 
 ## Tartışmalı noktalar
 
@@ -2776,7 +3202,7 @@ Her büyük reform gibi 7528 sayılı Kanun da farklı değerlendirmelere konu o
 ## Öğretmen adayları için ne anlama geliyor?
 
 - **Süreyi planlayın:** Lisans sonrasına AGS hazırlığı ve yaklaşık on aylık hazırlık eğitimi eklendi.
-- **Kaynak program koşulunu kontrol edin:** Hangi lisans programının hangi alana kaynak olduğunu MEB'in öğretmenlik esaslarındaki çizelgeler belirler.[9]
+- **Kaynak program koşulunu kontrol edin:** Hangi lisans programının hangi alana kaynak olduğunu MEB'in öğretmenlik esaslarındaki çizelgeler belirler.[7]
 - **Kanunu kaynağından okuyun:** Özetler ve yorumlar yerine güncel metni Mevzuat Bilgi Sistemi'nden takip edin.
 
 ## Sonuç
@@ -2817,9 +3243,9 @@ Kanunun ilk yayımlanan hâli Resmî Gazete'nin internet sitesinde, değişiklik
 4. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
 5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
 6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı Konu Dağılımları Açıklandı. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavi-konu-dagilimlari-aciklandi/haber/39480/tr (TR, erişim: 2026-09-25)
-7. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
-8. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-09-25)
-9. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+8. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
+9. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -2827,7 +3253,7 @@ Kanunun ilk yayımlanan hâli Resmî Gazete'nin internet sitesinde, değişiklik
 
 > Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 
 ## Kısaca
 
@@ -2851,6 +3277,12 @@ Dikkat çekici bir ayrıntı daha var: rapor, bu algıda genç ve deneyimli öğ
 ## İş doyumu ile saygınlık algısı farklı şeyler
 
 TALIS verileri önemli bir ayrıma da işaret ediyor: öğretmenlerin büyük çoğunluğu işlerinden genel olarak memnun olduğunu belirtirken, mesleğin toplumda değer gördüğünü düşünenlerin oranı çok daha düşük.[2] Başka bir deyişle öğretmenler sınıftaki işlerini seviyor, ama toplumun bu işe yeterince değer vermediğini düşünüyor. Bu ayrım, mesleğin cazibesini artırmaya yönelik politikaların yalnızca okul içi koşullara değil, mesleğin toplumsal konumuna da odaklanması gerektiğini gösteriyor.
+
+## Özerklik ve iş birliği
+
+TALIS'in ikinci cildi, öğretmenlerin mesleklerine ilişkin algısını etkileyen okul içi etkenlere de odaklanır. Rapor, öğretmenlerin ders içeriği, yöntem ve değerlendirme gibi konularda karar verme özerkliğini ve meslektaşlarıyla iş birliği yapma fırsatlarını ayrıntılı biçimde inceler; bu etkenleri öğretmenlerin iş doyumu ve mesleki öz yeterlik algısıyla ilişkilendirir.[2]
+
+Bu bulgunun pratik anlamı şudur: mesleğin saygınlığı yalnızca toplumsal algıyla ya da ücretle belirlenmez; öğretmenin okulda profesyonel olarak güvenilip güvenilmediğiyle de ilgilidir. Birlikte ders planlayan, birbirinin dersini gözlemleyen ve kararlara katılan öğretmenlerin olduğu okullar, mesleğin değerini içeriden de güçlendirir.
 
 ## Mesleğin cazibesini ne etkiler?
 
@@ -2921,7 +3353,7 @@ TALIS 2018 verilerine göre öğretmenlerin büyük çoğunluğu işlerinden gen
 
 > Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
 
 ## Kısaca
 
@@ -2951,6 +3383,24 @@ Meslek bilgisi dersleri tüm öğretmenlik programlarında ortaktır. Bir fen bi
 | Uygulama | Öğretmenlik Uygulaması I ve II |
 
 Programlarda ayrıca öğrencinin kendi ilgi alanına göre seçebileceği meslek bilgisi seçmeli dersleri de bulunur.
+
+## Her ders ne kazandırır?
+
+Ders adları tek başına içeriği anlatmayabilir. Program belgelerindeki ders tanımlarına dayanarak derslerin öğretmen adayına kazandırdıklarını şöyle özetleyebiliriz:[1]
+
+| Ders | Öğretmen adayına kazandırdığı |
+|---|---|
+| Eğitim Psikolojisi | Gelişim dönemlerini ve öğrenme kuramlarını tanıyıp öğrenciyi anlamak |
+| Öğretim İlke ve Yöntemleri | Hedefe uygun yöntem ve teknik seçmek, ders planlamak |
+| Sınıf Yönetimi | Öğrenme ortamını düzenlemek, kuralları ve iletişimi yönetmek |
+| Eğitimde Ölçme ve Değerlendirme | Geçerli ve güvenilir ölçme araçları hazırlamak, sonuçları yorumlamak |
+| Öğretim Teknolojileri | Teknolojiyi öğretim hedeflerine hizmet edecek biçimde kullanmak |
+| Özel Eğitim ve Kaynaştırma | Özel gereksinimli öğrencileri tanımak, sınıf içi uyarlamalar yapmak |
+| Okullarda Rehberlik | Öğrencinin gelişimini desteklemek, rehberlik servisiyle iş birliği yapmak |
+| Eğitimde Ahlak ve Etik | Mesleki etik ilkeleri tanımak ve etik ikilemleri tartışabilmek |
+| Eğitimde Araştırma Yöntemleri | Eğitim araştırmalarını okuyup değerlendirmek |
+
+Tablodaki derslerin çoğu, sınıfa girildiği ilk gün doğrudan kullanılan bilgiler sunar. Özellikle ölçme-değerlendirme ve sınıf yönetimi, yeni öğretmenlerin en çok zorlandığını ifade ettiği alanlar arasında sayılır; bu dersleri öğretmenlik uygulamasıyla ilişkilendirerek çalışmak büyük fark yaratır.
 
 ## 2018'de ne değişti?
 
@@ -3029,7 +3479,7 @@ Evet. AGS'nin kapsamındaki eğitimin temelleri ile Türk millî eğitim sistemi
 
 > Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
 
 ## Kısaca
 
@@ -3070,6 +3520,12 @@ Bu çerçevede üç taraf bulunur: üniversitedeki **uygulama öğretim elemanı
 Uygulama deneyimi, dünyada öğretmen eğitiminin en çok tartışılan bileşenlerinden biri. Darling-Hammond, güçlü öğretmen eğitimi programlarının ortak özellikleri arasında kapsamlı ve iyi denetlenen uygulama deneyimini ve fakültedeki derslerle okul deneyimi arasındaki sıkı bağı sayar.[4] Zeichner ise üniversitedeki dersler ile okul deneyimi arasındaki kopukluğun öğretmen eğitiminin temel sorunlarından biri olduğunu, bu iki dünyayı buluşturan hibrit alanlara ihtiyaç duyulduğunu savunur.[5]
 
 Bu bulgular, uygulamanın yalnızca "saat doldurmak" olarak görülmemesi gerektiğini gösteriyor. Asıl değer, adayın kuramsal bilgisini gerçek sınıf durumlarıyla karşılaştırıp düzenli geri bildirimle geliştirebilmesinde yatıyor.
+
+## İyi geri bildirim nasıl olur?
+
+Öğretmenlik uygulamasının en değerli çıktısı, ders anlatımından sonra alınan geri bildirimdir. Hattie ve Timperley, etkili geri bildirimin üç soruyu yanıtlaması gerektiğini savunur: **Nereye gidiyorum?** (hedef), **Nasıl gidiyorum?** (mevcut durum) ve **Sırada ne var?** (bir sonraki adım). Yazarlar ayrıca kişiliğe yönelik genel övgünün ("çok iyi bir öğretmen olacaksın") öğrenmeye pek katkı sağlamadığını, göreve ve sürece yönelik somut geri bildirimin ise çok daha etkili olduğunu vurgular.[6]
+
+Uygulama bağlamında bu, şu tür bir geri bildirim anlamına gelir: "Dersin hedefi öğrencilerin kesirleri karşılaştırmasıydı (hedef). Görsel model iyi işledi ama arka sıradakiler katılmadı (durum). Bir sonraki derste soruları rastgele seçilen öğrencilere yöneltmeyi dene (sonraki adım)." Adaylar da geri bildirim isterken bu üç soruyu uygulama öğretmenine yöneltebilir.
 
 ## Adaylar için öneriler
 
@@ -3128,6 +3584,7 @@ Gözlemleri yapılandırılmış notlarla kaydetmek, her ders anlatımından son
 3. Millî Eğitim Bakanlığı (t.y.). Uygulama Öğrencilerinin Millî Eğitim Bakanlığına Bağlı Eğitim Öğretim Kurumlarında Yapacakları Öğretmenlik Uygulamasına İlişkin Yönerge. https://mevzuat.meb.gov.tr/dosyalar/2066.pdf (TR, erişim: 2026-09-25)
 4. Darling-Hammond, L. (2006). Constructing 21st-Century Teacher Education. Journal of Teacher Education, 57(3), 300–314. https://doi.org/10.1177/0022487105285962 (EN, erişim: 2026-09-25)
 5. Zeichner, K. (2010). Rethinking the Connections Between Campus Courses and Field Experiences in College- and University-Based Teacher Education. Journal of Teacher Education, 61(1–2), 89–99. https://doi.org/10.1177/0022487109347671 (EN, erişim: 2026-09-25)
+6. Hattie, J. ve Timperley, H. (2007). The Power of Feedback. Review of Educational Research, 77(1), 81–112. https://doi.org/10.3102/003465430298487 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -3135,7 +3592,7 @@ Gözlemleri yapılandırılmış notlarla kaydetmek, her ders anlatımından son
 
 > Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
 
 ## Kısaca
 
@@ -3158,9 +3615,9 @@ Bu düzenleme formasyonu mezuniyet sonrası ayrı bir sertifika programı olmakt
 
 ## Aralık 2025: akademi adaylarında formasyon şartı
 
-Asıl büyük değişiklik Aralık 2025'te geldi. MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'na eklenen hükme göre, Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacak adaylarda **pedagojik formasyonla ilgili şartlar aranmıyor**.[4][5]
+Asıl büyük değişiklik Aralık 2025'te geldi. MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'na eklenen hükme göre, Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacak adaylarda **pedagojik formasyonla ilgili şartlar aranmıyor**.[4]
 
-Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yatıyor. Öğretmen adayları artık AGS ile seçilip akademide dört dönemlik bir hazırlık eğitiminden geçiyor; bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[6] Başka bir deyişle öğretmenlik meslek bilgisinin bir kısmı artık akademide kazandırılıyor.
+Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yatıyor. Öğretmen adayları artık AGS ile seçilip akademide dört dönemlik bir hazırlık eğitiminden geçiyor; bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[5] Başka bir deyişle öğretmenlik meslek bilgisinin bir kısmı artık akademide kazandırılıyor.
 
 ## Kimleri etkiliyor?
 
@@ -3172,9 +3629,21 @@ Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yat�
 
 Önemli bir ayrıntı: formasyon şartının aranmaması, her lisans programının her öğretmenlik alanına kaynak olduğu anlamına gelmez. Hangi programın hangi alana kaynak olduğunu esaslardaki çizelgeler belirler.[4]
 
+## Üç örnek durum
+
+Değişikliğin somut anlamını üç farklı aday üzerinden görmek mümkün:
+
+**Elif, eğitim fakültesinde Türkçe öğretmenliği son sınıf öğrencisi.** Onun için pek bir şey değişmedi: meslek bilgisi dersleri ve öğretmenlik uygulaması zaten programının parçası. Mezun olduktan sonra AGS'ye girecek ve kabul edilirse akademide hazırlık eğitimi alacak.
+
+**Mert, fen-edebiyat fakültesinde tarih bölümü üçüncü sınıf öğrencisi.** Üniversitesi formasyon derslerini seçmeli olarak açıyorsa bu dersleri lisans sırasında alabilir.[3] Öğretmenliğe başvurmak için ise önce tarih lisans programının ilgili öğretmenlik alanına kaynak olup olmadığını esaslardaki çizelgeden kontrol etmesi gerekiyor.[4]
+
+**Zeynep, beş yıl önce mezun olmuş ve formasyon almamış bir matematik mezunu.** Akademi başvurusunda formasyon şartı aranmıyor; ancak o da kaynak program koşulunu kontrol etmeli ve AGS'ye hazırlanmalı. Meslek bilgisini akademinin hazırlık eğitiminde kazanacak.
+
+Üç durumun ortak noktası şu: formasyon şartının kalkması süreci ortadan kaldırmadı, yalnızca meslek bilgisinin kazanıldığı yeri değiştirdi.
+
 ## Uluslararası tartışma
 
-Öğretmenlerin nasıl yetiştirileceği dünyada da tartışılıyor. Darling-Hammond'un yüksek performanslı eğitim sistemlerini karşılaştıran çalışması, güçlü sistemlerin modelden bağımsız olarak öğretmen adaylarına araştırmaya dayalı pedagojik eğitim ve nitelikli, rehberli uygulama deneyimi sunduğunu gösterir.[7] OECD de öğretmen politikalarını değerlendiren raporunda, öğretmen yetiştirmenin tek seferlik bir eğitimle değil, mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimi birbirine bağlayan bir süreç olarak ele alınması gerektiğini vurgular.[8]
+Öğretmenlerin nasıl yetiştirileceği dünyada da tartışılıyor. Darling-Hammond'un yüksek performanslı eğitim sistemlerini karşılaştıran çalışması, güçlü sistemlerin modelden bağımsız olarak öğretmen adaylarına araştırmaya dayalı pedagojik eğitim ve nitelikli, rehberli uygulama deneyimi sunduğunu gösterir.[6] OECD de öğretmen politikalarını değerlendiren raporunda, öğretmen yetiştirmenin tek seferlik bir eğitimle değil, mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimi birbirine bağlayan bir süreç olarak ele alınması gerektiğini vurgular.[7]
 
 Bu çerçevede asıl soru "formasyon var mı, yok mu?" değil, meslek bilgisinin **hangi aşamada, hangi nitelikte** kazandırıldığıdır.
 
@@ -3232,10 +3701,9 @@ Yeni modelde öğretmen adayları Millî Eğitim Akademisi'nde dört dönemlik h
 2. Yükseköğretim Kurulu (t.y.). Pedagojik Formasyon Eğitimi. https://egitim.yok.gov.tr/tr/page/496 (TR, erişim: 2026-09-25)
 3. Yükseköğretim Kurulu (t.y.). Pedagojik Formasyon Eğitimine İlişkin Detaylar Belirlendi. https://www.yok.gov.tr/tr/news/pedagojik-formasyon-egitimine-iliskin-detaylar-belirlendi-6PigR (TR, erişim: 2026-09-25)
 4. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-5. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
-7. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
-8. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
+6. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
+7. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
 
 ---
 
@@ -3243,7 +3711,7 @@ Yeni modelde öğretmen adayları Millî Eğitim Akademisi'nde dört dönemlik h
 
 > TPACK (teknolojik pedagojik alan bilgisi) modeli nedir, hangi bileşenlerden oluşur ve derste nasıl kullanılır? Shulman'dan DigCompEdu'ya öğretmen bilgisi rehberi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
 
 ## Kısaca
 
@@ -3278,6 +3746,28 @@ Punya Mishra ve Matthew J. Koehler, 2006'da Shulman'ın modeline üçüncü bir 
 
 Modelin temel iddiası şudur: iyi bir teknoloji entegrasyonu bu bilgi türlerinden herhangi birine tek başına indirgenemez. Belirli bir konuyu, belirli öğrencilere, belirli bir teknolojiyle öğretmenin en iyi yolu bağlama göre değişir.[3]
 
+## Bileşenler ayrıntılı
+
+Tablodaki kısaltmalar soyut görünebilir; her birini somut bir öğretmen üzerinden düşünmek daha kolaydır. Lise biyoloji öğretmeni Ayşe'yi örnek alalım:
+
+**Alan bilgisi (CK):** Ayşe hücre bölünmesinin evrelerini, mitoz ile mayoz arasındaki farkları ve bu konunun güncel araştırmalardaki yerini bilir. Bu, bir biyoloğun da sahip olduğu bilgidir.
+
+**Pedagoji bilgisi (PK):** Ayşe ergenlerin dikkatini nasıl sürdüreceğini, grup çalışmasını nasıl yöneteceğini ve öğrenmeyi nasıl değerlendireceğini bilir. Bu bilgi konudan bağımsızdır; tarih öğretmeni de kullanır.
+
+**Teknoloji bilgisi (TK):** Ayşe simülasyon yazılımlarını kurabilir, çevrim içi bir sınıf ortamını yönetebilir ve bir video düzenleyebilir.
+
+**Pedagojik alan bilgisi (PCK):** Ayşe, öğrencilerin mitoz ile mayozu sık sık karıştırdığını ve kromozom sayısının nasıl değiştiğini görselleştiremediğini bilir; bu yanılgıyı gidermek için ipliklerle bir model yaptırır. Shulman'ın tanımıyla bu, konuyu öğretilebilir kılan temsil bilgisidir.[1]
+
+**Teknolojik alan bilgisi (TCK):** Ayşe, mikroskop görüntülerinin ve hücre simülasyonlarının biyoloji bilgisinin kendisini nasıl dönüştürdüğünü bilir. Bugün biyologların hücreyi anlama biçimi de bu teknolojilerle şekillenmiştir.
+
+**Teknolojik pedagojik bilgi (TPK):** Ayşe, çevrim içi bir tartışma panosunun sessiz öğrencileri de konuşturabildiğini, ama anlık geri bildirimi zorlaştırdığını bilir. Bu bilgi, teknolojinin öğretme biçimini nasıl değiştirdiğine ilişkindir.
+
+**TPACK:** Ayşe, mitoz–mayoz yanılgısını gidermek için öğrencilerin evreleri kendilerinin sıraladığı etkileşimli bir simülasyon seçer, bunu grup çalışmasıyla birleştirir ve öğrencilerden kendi anlatımlarını kısa bir video olarak kaydetmelerini ister. Üç bilgi türü tek bir tasarım kararında buluşmuştur.
+
+## Sekizinci katman: bağlam
+
+Mishra ve Koehler'in ilk modelinde bağlam, diyagramın dış çemberinde belirsiz bir alan olarak yer alıyordu. Mishra 2019'da diyagramı güncelledi ve bu çembere **bağlam bilgisi** adını verdi: öğretmenin okulunun olanakları, öğrencilerinin özellikleri, eğitim politikaları ve kültürel koşullar hakkındaki bilgisi.[4] Güncellemenin mesajı açık: aynı teknoloji entegrasyonu internet erişimi sınırlı bir köy okulunda ve donanımlı bir şehir okulunda farklı kararlar gerektirir. İyi bir TPACK, bağlamı okuyabilmeyi de içerir.
+
 ## Sınıfta TPACK: bir örnek
 
 Ortaokulda kesirleri öğreten bir matematik öğretmeni düşünelim. Öğretmen öğrencilerin kesirlerde "payda büyüdükçe kesir büyür" yanılgısına sık düştüğünü biliyor; bu **pedagojik alan bilgisidir**. Bu yanılgıyı gidermek için öğrencilerin farklı paydaları görsel olarak karşılaştırabileceği bir etkinlik tasarlıyor; bu **pedagojik bir karardır**. Son olarak dinamik bir geometri yazılımıyla öğrencilerin şekilleri kendilerinin bölmesini sağlıyor; bu **teknolojik bir karardır**. Sıralama önemlidir: teknoloji başlangıç noktası değil, pedagojik bir amaca hizmet eden bir araçtır.
@@ -3295,9 +3785,17 @@ TPACK tek bir dersle kazanılan bir bilgi değildir; alan, pedagoji ve teknoloji
 
 Bu etkinliklerin ortak noktası, teknolojiyi soyut bir beceri olarak değil, somut bir öğretim problemine bağlı olarak ele almasıdır. Mishra ve Koehler'in modeli de tam olarak bu bağlamsal bilgiyi vurgular.[3]
 
+## TPACK nasıl ölçülür?
+
+Model yaygınlaştıkça öğretmenlerin TPACK düzeyini ölçme ihtiyacı doğdu. Schmidt ve arkadaşları, öğretmen adayları için yedi bileşenin her birini ayrı ölçen bir öz değerlendirme ölçeği geliştirdi; bu ölçek sonraki yıllarda birçok ülkede uyarlandı.[5] Ölçeği geliştiren ekipte Türk araştırmacı Evrim Baran'ın da yer alması dikkat çekicidir.
+
+Türkiye'den de önemli bir katkı var. Kabakçı Yurdakul ve arkadaşları, bileşenleri ayrı ayrı ölçmek yerine modelin merkezindeki bütünleşik bilgiye odaklanan **TPACK-deep** ölçeğini Türkiye'deki öğretmen adaylarıyla geliştirdi. Yaklaşık bin öğretmen adayıyla yapılan geçerlik ve güvenirlik çalışmasında ölçek 33 madde ve dört faktörle sonuçlandı: **tasarım, uygulama, etik ve uzmanlaşma**.[6] Etik boyutun ayrı bir faktör olarak ortaya çıkması, teknoloji entegrasyonunun yalnızca teknik bir mesele olmadığını gösteren önemli bir bulgudur.
+
+Bu ölçeklerin ortak sınırlılığı öz bildirime dayanmalarıdır: bir öğretmenin kendini yetkin görmesi, sınıfta yetkin bir tasarım yaptığı anlamına gelmez. Bu nedenle araştırmacılar ölçekleri ders planı analizi ve sınıf gözlemi gibi yöntemlerle birlikte kullanmayı önerir.
+
 ## Modelden yetkinliğe: DigCompEdu ve UNESCO
 
-TPACK öğretmen bilgisinin yapısını açıklar, ancak bir öğretmenin bu bilgiye ne ölçüde sahip olduğunu doğrudan ölçmez. Bu boşluğu dolduran çerçevelerden biri Avrupa Komisyonu'nun **DigCompEdu** çerçevesidir. Çerçeve, eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlikle tanımlar ve A1'den C2'ye uzanan bir gelişim modeli sunar.[4] UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi ise yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma olmak üzere üç düzeyde ele alır.[5] DigCompEdu'yu ayrıntılı olarak [DigCompEdu nedir?](https://www.bote.web.tr/blog/digcompedu-nedir) yazımızda inceledik.
+TPACK öğretmen bilgisinin yapısını açıklar, ancak bir öğretmenin bu bilgiye ne ölçüde sahip olduğunu doğrudan ölçmez. Bu boşluğu dolduran çerçevelerden biri Avrupa Komisyonu'nun **DigCompEdu** çerçevesidir. Çerçeve, eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlikle tanımlar ve A1'den C2'ye uzanan bir gelişim modeli sunar.[7] UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi ise yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma olmak üzere üç düzeyde ele alır.[8] DigCompEdu'yu ayrıntılı olarak [DigCompEdu nedir?](https://www.bote.web.tr/blog/digcompedu-nedir) yazımızda inceledik.
 
 ## Sınırlılıklar
 
@@ -3338,8 +3836,11 @@ TPACK öğretmen bilgisinin yapısını açıklayan kuramsal bir modeldir. DigCo
 1. Shulman, L. S. (1986). Those Who Understand: Knowledge Growth in Teaching. Educational Researcher, 15(2), 4–14. https://doi.org/10.3102/0013189X015002004 (EN, erişim: 2026-09-25)
 2. Shulman, L. S. (1987). Knowledge and Teaching: Foundations of the New Reform. Harvard Educational Review, 57(1), 1–22. https://doi.org/10.17763/haer.57.1.j463w79r56455411 (EN, erişim: 2026-09-25)
 3. Mishra, P. ve Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. Teachers College Record, 108(6), 1017–1054. https://doi.org/10.1111/j.1467-9620.2006.00684.x (EN, erişim: 2026-09-25)
-4. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
-5. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
+4. Mishra, P. (2019). Considering Contextual Knowledge: The TPACK Diagram Gets an Upgrade. Journal of Digital Learning in Teacher Education, 35(2), 76–78. https://doi.org/10.1080/21532974.2019.1588611 (EN, erişim: 2026-09-25)
+5. Schmidt, D. A., Baran, E., Thompson, A. D., Mishra, P., Koehler, M. J. ve Shin, T. S. (2009). Technological Pedagogical Content Knowledge (TPACK): The Development and Validation of an Assessment Instrument for Preservice Teachers. Journal of Research on Technology in Education, 42(2), 123–149. https://doi.org/10.1080/15391523.2009.10782544 (EN, erişim: 2026-09-25)
+6. Kabakçı Yurdakul, I., Odabaşı, H. F., Kılıçer, K., Çoklar, A. N., Birinci, G. ve Kurt, A. A. (2012). The Development, Validity and Reliability of TPACK-deep: A Technological Pedagogical Content Knowledge Scale. Computers & Education, 58(3), 964–977. https://doi.org/10.1016/j.compedu.2011.10.012 (EN, erişim: 2026-09-25)
+7. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+8. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
 
 ---
 
@@ -3347,7 +3848,7 @@ TPACK öğretmen bilgisinin yapısını açıklayan kuramsal bir modeldir. DigCo
 
 > Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
 
 ## Kısaca
 
@@ -3361,6 +3862,18 @@ Uzaktan eğitim, 2020'deki pandemiyle birlikte herkesin hayatına girdi. Ancak a
 ## Uzaktan eğitim nedir?
 
 Uzaktan eğitim, öğrenen ile öğretenin fiziksel olarak ayrı olduğu ve öğretimin bir iletişim ortamı üzerinden yürütüldüğü eğitim biçimidir. Bu ortam tarih boyunca değişti: mektupla eğitim, radyo, televizyon ve bugün internet. **Çevrim içi öğrenme** ise uzaktan eğitimin internet üzerinden yürütülen biçimidir. Yani her çevrim içi ders uzaktan eğitimdir, ama her uzaktan eğitim çevrim içi değildir.
+
+## Eşzamanlı, eşzamansız, harmanlanmış
+
+Uzaktan eğitimi anlamanın en pratik yolu, öğrenme etkinliklerinin zamanlamasına bakmaktır:
+
+| Biçim | Tanım | Güçlü yanı | Zayıf yanı |
+|---|---|---|---|
+| Eşzamanlı | Öğretici ve öğrenciler aynı anda çevrim içidir (canlı ders) | Anlık etkileşim ve soru-cevap | Zaman esnekliği yok, bağlantı sorunlarına duyarlı |
+| Eşzamansız | Öğrenciler içerik ve etkinliklere kendi zamanlarında erişir | Esneklik, düşünerek yanıt verme | Yalnızlık hissi, öz düzenleme gerektirir |
+| Harmanlanmış | Yüz yüze ve çevrim içi etkinlikler birlikte planlanır | İki biçimin güçlü yanlarını birleştirme | Dikkatli tasarım ve planlama gerektirir |
+
+Bu ayrım, "uzaktan eğitim" başlığı altında birbirinden çok farklı deneyimlerin bulunduğunu gösteriyor. Canlı derslerden oluşan bir program ile kendi hızında ilerlenen bir program aynı sonuçları vermez.
 
 ## Moore'un üç etkileşim türü
 
@@ -3384,15 +3897,23 @@ Garrison, Anderson ve Archer, çevrim içi yükseköğretimde anlamlı öğrenme
 
 Bu ayrım, pandemi deneyimine dayanarak "uzaktan eğitim işe yaramıyor" demenin neden aceleci bir yargı olduğunu gösteriyor. Aynı zamanda iyi bir uzaktan eğitimin ciddi bir tasarım emeği gerektirdiğini de hatırlatıyor.
 
+## Araştırmalar ne söylüyor?
+
+Uzaktan eğitimin yüz yüze eğitimle karşılaştırılması, eğitim araştırmalarının en çok çalışılan sorularından biri. Bernard ve arkadaşlarının geniş kapsamlı meta-analizi, ortalamada iki biçim arasında başarı açısından belirgin bir fark bulmadı; ancak çalışmalar arasındaki farklılık çok büyüktü. Bazı uzaktan eğitim uygulamaları sınıf içi öğretimden çok daha iyi, bazıları çok daha kötü sonuç veriyordu. Araştırmacılar eşzamansız uygulamaların başarı açısından görece daha olumlu, eşzamanlı uygulamaların ise daha olumsuz sonuçlar verdiğini bildirdi.[4]
+
+Means ve arkadaşlarının daha sonraki meta-analizi ise çevrim içi öğrenmenin ortalamada yüz yüze öğretimle en az eşit, harmanlanmış öğrenmenin ise yüz yüze öğretimden daha etkili olduğunu gösterdi. Araştırmacılar bu avantajın kısmen harmanlanmış derslerde öğrencilere ayrılan ek öğrenme süresinden ve materyallerden kaynaklanabileceği uyarısını da yaptı.[5]
+
+İki çalışmanın ortak mesajı şudur: sonucu belirleyen ortam değil, tasarımdır. "Uzaktan mı, yüz yüze mi?" sorusu yerine "hangi tasarım, hangi öğrenciler için?" sorusu sorulmalıdır.
+
 ## Türkiye'de açıköğretim
 
-Türkiye'de çağdaş anlamda uzaktan yükseköğretimin başlangıcı **Anadolu Üniversitesi Açıköğretim Fakültesi**dir. Fakülte, 20 Temmuz 1982 tarihli Resmî Gazete'de yayımlanan kararnameyle kuruldu. 1981'de yürürlüğe giren 2547 sayılı Yükseköğretim Kanunu, üniversitelere sürekli ve açıköğretim yapma hakkı tanımıştı. Açıköğretim sistemi 1982–1983 öğretim yılında iktisat ve işletme alanlarındaki iki programla eğitime başladı ve zamanla hizmet alanlarını genişletti.[4]
+Türkiye'de çağdaş anlamda uzaktan yükseköğretimin başlangıcı **Anadolu Üniversitesi Açıköğretim Fakültesi**dir. Fakülte, 20 Temmuz 1982 tarihli Resmî Gazete'de yayımlanan kararnameyle kuruldu. 1981'de yürürlüğe giren 2547 sayılı Yükseköğretim Kanunu, üniversitelere sürekli ve açıköğretim yapma hakkı tanımıştı. Açıköğretim sistemi 1982–1983 öğretim yılında iktisat ve işletme alanlarındaki iki programla eğitime başladı ve zamanla hizmet alanlarını genişletti.[6]
 
 Televizyon yayınları ve basılı kitaplarla başlayan bu model, bugün internet tabanlı hizmetlerle sürüyor. Bu tarihçe, uzaktan eğitimin Türkiye'de pandemiyle birlikte ortaya çıkan yeni bir olgu olmadığını, kırk yılı aşkın bir birikime dayandığını gösteriyor.
 
 ## Güçlü ve zayıf yanlar
 
-Uzaktan eğitimi tartışırken iki uç görüşten kaçınmak gerekir. Güçlü yanları gerçektir: coğrafi ve zamansal esneklik sunar, çalışan yetişkinlerin eğitime erişmesini kolaylaştırır ve iyi tasarlanmış materyaller çok sayıda öğrenciye ulaşabilir. Açıköğretim sisteminin kırk yılı aşkın geçmişi bu erişim avantajının somut bir örneğidir.[4]
+Uzaktan eğitimi tartışırken iki uç görüşten kaçınmak gerekir. Güçlü yanları gerçektir: coğrafi ve zamansal esneklik sunar, çalışan yetişkinlerin eğitime erişmesini kolaylaştırır ve iyi tasarlanmış materyaller çok sayıda öğrenciye ulaşabilir. Açıköğretim sisteminin kırk yılı aşkın geçmişi bu erişim avantajının somut bir örneğidir.[6]
 
 Zayıf yanları da göz ardı edilemez. Öz düzenleme becerisi zayıf öğrenciler geride kalabilir; internet ve cihaz erişimindeki eşitsizlikler öğrenme farklarını büyütebilir; uygulama gerektiren beceriler ekran başında tam olarak kazanılamayabilir. Araştırma topluluğu modelinin sosyal ve öğretimsel bulunuşluğa verdiği önem, bu risklerin tasarımla azaltılabileceğini gösterir.[2] Sonuç olarak soru "uzaktan eğitim iyi mi, kötü mü?" değil, "hangi öğrenci, hangi hedef ve hangi tasarım için uygun?" olmalıdır.
 
@@ -3442,7 +3963,9 @@ Etkililik, eğitimin nasıl tasarlandığına bağlıdır. Planlı, etkileşimli
 1. Moore, M. G. (1989). Three Types of Interaction. American Journal of Distance Education, 3(2), 1–7. https://doi.org/10.1080/08923648909526659 (EN, erişim: 2026-09-25)
 2. Garrison, D. R., Anderson, T. ve Archer, W. (2000). Critical Inquiry in a Text-Based Environment: Computer Conferencing in Higher Education. The Internet and Higher Education, 2(2–3), 87–105. https://doi.org/10.1016/S1096-7516(00)00016-6 (EN, erişim: 2026-09-25)
 3. Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A. (2020). The Difference Between Emergency Remote Teaching and Online Learning. EDUCAUSE Review. https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning (EN, erişim: 2026-09-25)
-4. Anadolu Üniversitesi (t.y.). Açıköğretim Sistemi: Tarihçe. https://www.anadolu.edu.tr/acikogretim/acikogretim-sistemi/tarihce (TR, erişim: 2026-09-25)
+4. Bernard, R. M. vd. (2004). How Does Distance Education Compare With Classroom Instruction? A Meta-Analysis of the Empirical Literature. Review of Educational Research, 74(3), 379–439. https://doi.org/10.3102/00346543074003379 (EN, erişim: 2026-09-25)
+5. Means, B., Toyama, Y., Murphy, R. ve Baki, M. (2013). The Effectiveness of Online and Blended Learning: A Meta-Analysis of the Empirical Literature. Teachers College Record, 115(3). https://doi.org/10.1177/016146811311500307 (EN, erişim: 2026-09-25)
+6. Anadolu Üniversitesi (t.y.). Açıköğretim Sistemi: Tarihçe. https://www.anadolu.edu.tr/acikogretim/acikogretim-sistemi/tarihce (TR, erişim: 2026-09-25)
 
 ---
 
@@ -3450,7 +3973,7 @@ Etkililik, eğitimin nasıl tasarlandığına bağlıdır. Planlı, etkileşimli
 
 > Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
 
 ## Kısaca
 
@@ -3473,6 +3996,19 @@ Birçok meslekte kariyer, unvan ve sorumlulukların zamanla arttığı bir basam
 | Başöğretmen | Uzman öğretmen olarak en az 10 yıl | Aynı disiplin koşulu; akademinin başöğretmenlik eğitimini tamamlamak | Bir derece |
 
 Tablodaki koşullar kanunda yer alır.[2] Eğitimlerin içeriği, süresi ve başvuru usulleri ise yönetmeliklerle ve Millî Eğitim Akademisi'nin duyurularıyla belirlenir. Bu nedenle kariyer planı yapan öğretmenlerin güncel yönetmelikleri takip etmesi gerekir.
+
+## Bir kariyer zaman çizelgesi
+
+Kanundaki süreler esas alındığında bir öğretmenin kariyer yolu şöyle özetlenebilir:[2]
+
+| Hizmet yılı | Aşama | Gerekenler |
+|---|---|---|
+| 0 | Öğretmen olarak atanma | AGS, akademi hazırlık eğitimi, atama |
+| 1–10 | Öğretmen | Sınıf deneyimi, mesleki gelişim |
+| 10+ | Uzman öğretmen | En az 10 yıllık hizmet, disiplin koşulu, akademinin uzman öğretmenlik eğitimi |
+| 20+ | Başöğretmen | Uzman öğretmen olarak en az 10 yıl, disiplin koşulu, akademinin başöğretmenlik eğitimi |
+
+Çizelge en erken olasılıkları gösterir; her basamak için başvuru dönemleri ve eğitimlerin açılma takvimi yönetmelik ve duyurularla belirlenir. Buna rağmen tablo önemli bir gerçeği görünür kılıyor: öğretmenlikte kariyer, yirmi yılı aşan bir mesleki gelişim yolculuğu olarak tasarlanmış durumda.
 
 ## Akademinin rolü
 

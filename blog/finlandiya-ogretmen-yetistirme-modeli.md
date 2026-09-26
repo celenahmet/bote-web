@@ -3,7 +3,7 @@ title: "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler"
 url: https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler."
 ---
@@ -12,7 +12,7 @@ description: "Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans
 
 > Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
 
 ## Kısaca
 
@@ -49,6 +49,12 @@ Finlandiya'da öğretmen adaylarının uygulama deneyimi, üniversitelerle yakı
 | Öne çıkan ilke | Araştırmaya dayalı öğretmen eğitimi | Alan ve meslek bilgisinin birlikte verilmesi |
 
 Türkiye'de öğretmen yetiştirmenin ana modeli, alan ve meslek bilgisinin lisans boyunca birlikte verildiği eşzamanlı modeldir.[3] 7528 sayılı Kanun'la mezuniyet sonrasına Millî Eğitim Akademisi'nde onar haftalık dört dönemlik bir hazırlık eğitimi eklendi.[4] Yani iki ülke de öğretmen adaylarına lisans sonrasında ek bir hazırlık sunuyor; ancak Finlandiya bunu üniversitede yüksek lisans düzeyinde, Türkiye ise merkezî bir akademide yapıyor.
+
+## Türkiye için uygulanabilir bir fikir: araştırma temelli bitirme projesi
+
+Finlandiya modelinin en kolay uyarlanabilecek unsurlarından biri araştırma okuryazarlığıdır. Finlandiya'da öğretmen adayları yüksek lisans düzeyinde bir tez hazırlar.[2] Türkiye'de öğretmenlik programları lisans düzeyinde olsa da benzer bir amaç, son sınıfta öğretmenlik uygulamasıyla birleştirilen küçük ölçekli bir **eylem araştırmasıyla** gerçekleştirilebilir: aday, uygulama okulunda gözlemlediği bir öğrenme sorununu tanımlar, bir çözüm dener, sonuçları toplar ve yorumlar.
+
+Bu tür bir proje hem Finlandiya modelindeki "kanıta dayalı karar" alışkanlığını kazandırır hem de adayın portfolyosuna güçlü bir çalışma ekler. Uygulamanın başarısı ise uygulama okullarıyla fakülteler arasındaki iş birliğinin gücüne bağlıdır; Finlandiya'daki üniversiteye bağlı uygulama okulları tam da bu iş birliğinin kurumsallaşmış hâlidir.[1]
 
 ## Finlandiya'da da her şey yolunda değil
 

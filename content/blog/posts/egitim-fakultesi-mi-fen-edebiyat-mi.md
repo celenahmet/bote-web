@@ -2,6 +2,7 @@
 title: "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol"
 description: "Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [eğitim fakültesi, fen-edebiyat fakültesi, öğretmenlik, pedagojik formasyon, tercih]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://eurydice.eacea.ec.europa.eu/eurypedia/turkiye/initial-education-teachers-working-early-childhood-and-school-education"
     lang: en
     accessed: 2026-09-25
+    note: "Eurydice'in Türkiye'deki öğretmen yetiştirme sayfası. Eşzamanlı ve ardışık model ayrımının kaynağı."
   - id: yok-formasyon
     title: "Pedagojik Formasyon Eğitimine İlişkin Detaylar Belirlendi"
     publisher: "Yükseköğretim Kurulu"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.yok.gov.tr/tr/news/pedagojik-formasyon-egitimine-iliskin-detaylar-belirlendi-6PigR"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün formasyon derslerinin lisans sırasında seçmeli olarak verilmesine ilişkin kararı. Fen-edebiyat öğrencilerinin seçeneklerini anlatan bölümün kaynağı."
   - id: ttkb-esaslar
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -44,6 +47,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik esasları. Kaynak program koşulu ve formasyon hükmünün resmî belgesi."
   - id: mea-program
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -51,6 +55,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Akademi hazırlık eğitimi programı. İki yolun buluştuğu ortak hazırlık dönemini anlatmak için kullanıldı."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -59,6 +64,7 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü sistemlerde öğretmen yetiştirmeyi karşılaştıran çalışma. Modelden bağımsız olarak niteliğin önemini göstermek için kullanıldı."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -66,8 +72,8 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Öğretmen yetiştirmeyi bir süreç olarak ele alan öneriler buradan."
 ---
-
 Öğretmen olmak isteyen adayların sık karşılaştığı sorulardan biri: eğitim fakültesinde mi okumalı, yoksa fen-edebiyat fakültesinde alanını okuyup öğretmenliğe sonradan mı yönelmeli? 2024 sonrasında öğretmenliğe giriş sisteminin değişmesiyle bu soru yeniden önem kazandı. Bu yazıda iki yolu tarafsız biçimde karşılaştırıyoruz.
 
 ## İki model: eşzamanlı ve ardışık
@@ -107,6 +113,16 @@ Bu açıdan eşzamanlı modelin güçlü yanı, öğretmen kimliğinin ve okul d
 **"Fen-edebiyat mezunu öğretmenliğe hazır değildir."** Meslek bilgisi ve uygulama deneyimi daha sınırlı olabilir, ancak yeni sistemde tüm adaylar akademide hazırlık eğitimi alıyor. Bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[@mea-program]
 
 **"Hangi yolu seçersem seçeyim sonuç aynı."** Kaynak program koşulu nedeniyle her lisans programı her öğretmenlik alanına açılmaz. Bu koşulu tercih yapmadan önce kontrol etmek, yıllar sonra karşılaşılabilecek bir engeli baştan görmeyi sağlar.[@ttkb-esaslar]
+
+## Karar vermeden önce sorulacak beş soru
+
+1. **Hangi öğretmenlik alanını hedefliyorum?** Bu alana hangi lisans programlarının kaynak olduğunu esaslardaki çizelgeden kontrol edin.[@ttkb-esaslar]
+2. **Okul deneyimini ne zaman kazanmak istiyorum?** Eğitim fakültesinde uygulama lisansın parçasıdır; ardışık yolda ise ağırlıklı olarak sonradan gelir.
+3. **Alanda ne kadar derinleşmek istiyorum?** Akademik kariyer ya da araştırma ilgisi varsa alan programının derinliği avantaj olabilir.
+4. **Öğretmenlik dışında hangi seçenekleri açık tutmak istiyorum?** Fen-edebiyat programları farklı sektörlere, eğitim fakülteleri ise eğitim alanındaki farklı rollere daha doğrudan yol açar.
+5. **Hangi süreyi göze alıyorum?** Her iki yolda da lisans sonrasında AGS ve yaklaşık on aylık akademi hazırlık eğitimi var.[@mea-program]
+
+Bu soruların dürüst cevapları, "hangi yol daha iyi?" sorusundan çok daha anlamlı bir karar zemini sunar.
 
 ## Kime hangisi?
 

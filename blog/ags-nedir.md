@@ -3,7 +3,7 @@ title: "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi"
 url: https://www.bote.web.tr/blog/ags-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber."
 ---
@@ -12,7 +12,7 @@ description: "AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar
 
 > AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ags-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ags-nedir
 
 ## Kısaca
 
@@ -45,6 +45,19 @@ AGS'nin kapsamında sözel ve sayısal yetenek, tarih, Türkiye coğrafyası, e�
 ## Sınavdan sonra: akademi süreci
 
 AGS bir atama sınavı değil, akademiye kabul sınavıdır. Kabul edilen adaylar Millî Eğitim Akademisi'nde onar haftalık dört dönemden oluşan hazırlık eğitimine başlar.[5] Hazırlık eğitimini başarıyla tamamlamak, MEB'e öğretmen olarak atanmanın ön koşuludur. Bu süreci [Millî Eğitim Akademisi hazırlık eğitimi](https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazımızda ayrıntılı anlattık.
+
+## ÖABT nedir?
+
+AGS'nin ikinci oturumu olan **Öğretmenlik Alan Bilgisi Testi (ÖABT)**, adayın öğreteceği alana ilişkin bilgisini ölçer. Test yalnızca alanın akademik bilgisini değil, o alanın nasıl öğretileceğine ilişkin **alan eğitimi** bilgisini de kapsar. Örneğin bir matematik öğretmeni adayı hem matematik bilgisinden hem de öğrencilerin matematikte sık yaptığı hatalar ve öğretim yaklaşımlarından sorumludur. MEB'in açıkladığı konu dağılımına göre ÖABT 50 sorudan oluşur.[3] Hangi alanlarda ÖABT uygulanacağı ve alan bazındaki konu dağılımları ise ÖSYM kılavuzunda yayımlanır.
+
+## Güvenilir hazırlık kaynakları
+
+Yeni bir sınav etrafında çok sayıda yorum ve "tahmin" üretilir. Hazırlıkta şu sıralamayı izlemek en güvenlisidir:
+
+1. **Resmî belgeler:** ÖSYM kılavuzu, MEB'in konu dağılımı duyurusu ve ÖSYM'nin yayımladığı örnek sorular.[4]
+2. **Mevzuat metinlerinin kendisi:** Kanunları özetlerden değil, Resmî Gazete ve Mevzuat Bilgi Sistemi'ndeki metinlerinden okumak.
+3. **Lisans ders notları ve ders kitapları:** Özellikle ÖABT için lisanstaki alan ve alan eğitimi dersleri.
+4. **Öğretim programları:** MEB'in ilgili dersin öğretim programı, alan eğitimi soruları için doğrudan kaynaktır.
 
 ## Uluslararası bağlamda öğretmen seçimi
 

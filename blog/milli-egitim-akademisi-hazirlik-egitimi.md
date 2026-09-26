@@ -3,7 +3,7 @@ title: "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?"
 url: https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler."
 ---
@@ -12,7 +12,7 @@ description: "Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, n
 
 > Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
 
 ## Kısaca
 
@@ -48,7 +48,7 @@ MEB'in yayımladığı programa göre hazırlık eğitimi **onar haftalık dört
 
 ## Dünyada benzer uygulamalar
 
-Mesleğe yeni başlayan öğretmenlere yapılandırılmış destek sunmak dünyada yaygın bir uygulama. Bu programlar İngilizce alanyazında genellikle *induction* (mesleğe uyum) ve *mentoring* (mentorluk) başlıkları altında ele alınır. Ingersoll ve Strong'un bu programlara ilişkin araştırmaları derleyen çalışması, programların öğretmenlerin mesleğe bağlılığı ve meslekte kalması, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[9] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleğe başlangıçtaki destekleri bu sürekliliğin ilk halkası olarak görür.[10]
+Mesleğe yeni başlayan öğretmenlere yapılandırılmış destek sunmak dünyada yaygın bir uygulama. Bu programlar İngilizce alanyazında genellikle *induction* (mesleğe uyum) ve *mentoring* (mentorluk) başlıkları altında ele alınır. Ingersoll ve Strong'un bu programlara ilişkin araştırmaları derleyen çalışması, programların öğretmenlerin mesleğe bağlılığı ve meslekte kalması, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[9] Derlemedeki çalışmalar, uyum programlarının tek bir etkinlikten değil birbirini tamamlayan bileşenlerden oluştuğunu gösterir: deneyimli bir öğretmenin mentorluğu, meslektaşlarla ortak planlama ve iş birliği fırsatları ve mesleğe yeni başlayanın gelişimini izleyen düzenli geri bildirim. Bir hazırlık programının niteliğini değerlendirirken sorulması gereken soru da budur: Aday yalnızca ders mi dinliyor, yoksa deneyimli bir meslektaşın rehberliğinde gerçek sınıflarda mı çalışıyor? OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleğe başlangıçtaki destekleri bu sürekliliğin ilk halkası olarak görür.[10]
 
 Türkiye'deki modelin ayırt edici yanı, bu hazırlığın atamadan **önce** ve merkezî bir yapı tarafından verilmesidir. Birçok ülkede mesleğe uyum programları ise öğretmen okulda göreve başladıktan sonra, okul temelli mentorlukla yürütülür. İki yaklaşımın güçlü ve zayıf yanları farklıdır: merkezî model standartlaşma sağlarken, okul temelli model gerçek sınıf bağlamına daha yakındır. Dördüncü dönemin tamamen uygulamaya ayrılması, Türkiye'deki modelin bu dengeyi kurmaya çalıştığını gösteriyor.
 

@@ -3,7 +3,7 @@ title: "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber"
 url: https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış."
 ---
@@ -12,7 +12,7 @@ description: "Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehbe
 
 > Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
 
 ## Kısaca
 
@@ -22,6 +22,20 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4
 - Yapay zekâ öğretmenin yerini almaz; ancak ölçme, etik ve veri gizliliği konularında öğretmenden yeni beceriler bekler.
 
 Üretken yapay zekâ araçları birkaç yıl içinde öğrencilerin ödevlerinden öğretmenlerin ders hazırlığına kadar eğitimin her alanına girdi. Bu hız, okulları ve öğretmenleri "yasaklamak mı, kullanmak mı?" ikilemine soktu. Bu yazıda uluslararası kuruluşların ve MEB'in yaklaşımını özetliyor, öğretmenler için uygulanabilir ilkeler çıkarıyoruz.
+
+## Temel kavramlar
+
+Tartışmaya girmeden önce sık karıştırılan birkaç kavramı netleştirmek gerekiyor:
+
+| Kavram | Kısaca | Eğitimdeki örnek |
+|---|---|---|
+| Yapay zekâ | Algılama, tahmin, sınıflandırma, karar verme gibi işleri yerine getiren bilgisayar sistemlerinin genel adı | Uyarlanabilir alıştırma sistemleri |
+| Makine öğrenmesi | Sistemin kuralları açıkça programlanmadan, veriden örüntü öğrenmesi | Öğrencinin hatalarından zorlanacağı konuyu tahmin etme |
+| Üretken yapay zekâ | Metin, görsel, ses ya da kod gibi yeni içerik üreten yapay zekâ | Ders planı taslağı, farklı düzeylerde soru üretme |
+| Büyük dil modeli | Çok büyük metin verisiyle eğitilmiş, bir sonraki sözcüğü tahmin ederek metin üreten model | Sohbet tabanlı asistanlar |
+| Halüsinasyon | Modelin gerçekte olmayan bilgi ya da kaynağı kendinden emin biçimde üretmesi | Var olmayan bir makaleye atıf yapması |
+
+UNESCO'nun rehberi, üretken yapay zekânın metni "anlayarak" değil, eğitildiği verideki örüntülere dayanarak ürettiğini vurgular. Bu nedenle üretilen içerik akıcı ve ikna edici olsa da doğru olmak zorunda değildir.[1] Öğretmenler için en önemli kavram belki de halüsinasyondur: akıcılık, doğruluğun kanıtı değildir.
 
 ## UNESCO'nun üretken yapay zekâ rehberi
 
@@ -47,9 +61,15 @@ Bu tablo, yapay zekâ okuryazarlığının yalnızca bir aracı kullanabilmek ol
 
 OECD'nin *Dijital Eğitim Görünümü 2023* raporu, tek tek araçlardan çok ülkelerin dijital eğitim ekosistemlerini ele alır: altyapı, yönetişim ve bu ekosistemi yönlendiren politikalar.[3] Bu bakış açısı önemlidir. Bir okulun yapay zekâdan yararlanabilmesi, öğretmenin bireysel çabasından çok veri politikalarına, altyapıya ve mesleki gelişim desteğine bağlıdır.
 
+## Avrupa'da yasal çerçeve: Yapay Zekâ Yasası
+
+Avrupa Birliği 2024'te yapay zekâya ilişkin kapsamlı bir düzenleme kabul etti. **Yapay Zekâ Yasası**, yapay zekâ sistemlerini risk düzeylerine göre sınıflandırır. Eğitim, yasada özel olarak anılan alanlardan biridir: öğrencilerin eğitim kurumlarına kabulünü belirleyen, öğrenme çıktılarını değerlendiren, öğrencinin alacağı eğitim düzeyini belirleyen ya da sınav sırasında yasaklanmış davranışları izleyen sistemler **yüksek riskli** sayılır. Yasa ayrıca eğitim kurumlarında duygu tanıma sistemlerinin kullanımını, tıbbi ve güvenlik amaçlı istisnalar dışında yasaklar.[4]
+
+Bu düzenleme Türkiye'de doğrudan uygulanmasa da önemli bir işaret veriyor: yapay zekânın öğrenci hakkında karar veren kullanımları, içerik üreten kullanımlarından çok daha sıkı güvenceler gerektiriyor. Öğretmenlerin bir aracı değerlendirirken sorması gereken ilk soru da budur: Bu araç yalnızca bana yardım mı ediyor, yoksa öğrenci hakkında bir karar mı veriyor?
+
 ## Türkiye: MEB'in politika belgesi
 
-MEB'in **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı** 2025'te yürürlüğe girdi. Belge, yapay zekâ teknolojilerinin eğitimde etik, etkili ve kapsayıcı kullanımı için stratejik amaçlar belirler ve öğretim programlarının güncellenmesinden öğretmen eğitimine ve veri analitiğine kadar somut adımlar içerir.[4] Belge 4 amaç, 15 politika ve 40 eylem adımından oluşur; eylem planı kapsamında yapay zekâ projelerini etik açıdan değerlendirecek bir **Yapay Zekâ Uygulamaları Etik Kurulu** da oluşturuldu.[5]
+MEB'in **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı** 2025'te yürürlüğe girdi. Belge, yapay zekâ teknolojilerinin eğitimde etik, etkili ve kapsayıcı kullanımı için stratejik amaçlar belirler ve öğretim programlarının güncellenmesinden öğretmen eğitimine ve veri analitiğine kadar somut adımlar içerir.[5] Belge 4 amaç, 15 politika ve 40 eylem adımından oluşur; eylem planı kapsamında yapay zekâ projelerini etik açıdan değerlendirecek bir **Yapay Zekâ Uygulamaları Etik Kurulu** da oluşturuldu.[6]
 
 ## Sınıfta uygulanabilir ilkeler
 
@@ -111,5 +131,6 @@ Uluslararası rehberler yapay zekâyı öğretmenin yerine geçen değil, onu de
 1. Miao, F. ve Holmes, W. (2023). Guidance for Generative AI in Education and Research. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000386693 (EN, erişim: 2026-09-25)
 2. Miao, F. ve Cukurova, M. (2024). AI Competency Framework for Teachers. UNESCO. https://unesdoc.unesco.org/ark:/48223/pf0000391104 (EN, erişim: 2026-09-25)
 3. OECD (2023). OECD Digital Education Outlook 2023: Towards an Effective Digital Education Ecosystem. https://doi.org/10.1787/c74f03de-en (EN, erişim: 2026-09-25)
-4. Millî Eğitim Bakanlığı (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı Yürürlüğe Girdi. https://www.meb.gov.tr/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-yururluge-girdi/haber/37531/tr (TR, erişim: 2026-09-25)
-5. MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı (2025–2029) İngilizce Olarak Yayımlandı. https://yegitek.meb.gov.tr/www/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-20252029-ingilizce-olarak-yayimlandi/icerik/3846 (TR, erişim: 2026-09-25)
+4. Official Journal of the European Union (2024). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). https://eur-lex.europa.eu/eli/reg/2024/1689/oj (EN, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı Yürürlüğe Girdi. https://www.meb.gov.tr/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-yururluge-girdi/haber/37531/tr (TR, erişim: 2026-09-25)
+6. MEB Yenilik ve Eğitim Teknolojileri Genel Müdürlüğü (2025). Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı (2025–2029) İngilizce Olarak Yayımlandı. https://yegitek.meb.gov.tr/www/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-20252029-ingilizce-olarak-yayimlandi/icerik/3846 (TR, erişim: 2026-09-25)

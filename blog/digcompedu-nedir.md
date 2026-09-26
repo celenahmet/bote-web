@@ -3,7 +3,7 @@ title: "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi"
 url: https://www.bote.web.tr/blog/digcompedu-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme."
 ---
@@ -12,7 +12,7 @@ description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den
 
 > DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
 
 ## Kısaca
 
@@ -42,11 +42,41 @@ DigCompEdu, Avrupa Komisyonu Ortak Araştırma Merkezi (JRC) tarafından 2017'de
 
 İlk alan öğretmenin mesleki çevresini, ikinci ile beşinci alanlar arası öğretmenin pedagojik yetkinliklerini, altıncı alan ise öğrencinin kazanımlarını kapsar. Altıncı alan, çerçeveyi yalnızca "öğretmen teknoloji kullanıyor mu?" sorusunun ötesine taşır: öğretmen öğrencilerinin dijital yetkinliğini de geliştirmekle sorumludur.
 
+## 22 yetkinliğin tamamı
+
+Çerçeveyi kullanışlı kılan, her alanın somut yetkinliklere ayrılmasıdır. Yetkinliklerin tamamı şöyledir:[1]
+
+| Alan | Yetkinlikler |
+|---|---|
+| 1. Mesleki katılım | Kurumsal iletişim · Mesleki iş birliği · Yansıtıcı uygulama · Dijital sürekli mesleki gelişim |
+| 2. Dijital kaynaklar | Seçme · Oluşturma ve düzenleme · Yönetme, koruma ve paylaşma |
+| 3. Öğretme ve öğrenme | Öğretim · Rehberlik · İş birlikli öğrenme · Öz düzenlemeli öğrenme |
+| 4. Değerlendirme | Değerlendirme stratejileri · Kanıtları analiz etme · Geri bildirim ve planlama |
+| 5. Öğrenenleri güçlendirme | Erişilebilirlik ve kapsayıcılık · Farklılaştırma ve kişiselleştirme · Öğrencileri etkin katılıma yöneltme |
+| 6. Öğrenenlerin dijital yetkinliğini kolaylaştırma | Bilgi ve medya okuryazarlığı · Dijital iletişim ve iş birliği · Dijital içerik üretimi · Sorumlu kullanım · Dijital problem çözme |
+
+Listede dikkat çeken iki nokta var. Birincisi, **yansıtıcı uygulama** ve **sürekli mesleki gelişim** birinci alanda yer alıyor: dijital yetkinlik, öğretmenin kendi pratiğini sorgulamasıyla başlıyor. İkincisi, altıncı alandaki **sorumlu kullanım** yetkinliği öğretmeni, öğrencilerin dijital ortamda sağlıklarını ve iyi oluşlarını korumalarına yardım etmekle sorumlu tutuyor. Bu, dijital yetkinliğin yalnızca teknik değil, etik ve pedagojik bir kavram olduğunu gösteriyor.
+
 ## A1'den C2'ye: gelişim modeli
 
 DigCompEdu, dil yeterliliğindeki Avrupa ortak çerçevesine benzer altı düzeyli bir gelişim modeli kullanır: A1 Yeni başlayan, A2 Keşfeden, B1 Bütünleştiren, B2 Uzman, C1 Lider ve C2 Öncü.[1] İlk iki düzeyde öğretmen dijital teknolojileri keşfeder ve temel uygulamalar yapar. B düzeylerinde teknolojiyi farklı bağlamlarda bilinçli ve eleştirel biçimde kullanır. C düzeylerinde ise deneyimini meslektaşlarıyla paylaşır ve yeni uygulamalar geliştirir.
 
 Bu model bir not sistemi değildir. Bir öğretmenin değerlendirme alanında B2, dijital kaynaklar alanında A2 düzeyinde olması olağandır. Çerçevenin değeri, öğretmene hangi alanda gelişmesi gerektiğini göstermesindedir.
+
+## Düzeyler ne anlama geliyor?
+
+Çerçeve her düzeyi bir rolle tanımlar:[1]
+
+| Düzey | Rol | Kısaca |
+|---|---|---|
+| A1 | Yeni başlayan | Dijital teknolojilerin potansiyelinin farkındadır ama çok az kullanır |
+| A2 | Keşfeden | Bazı alanlarda kullanmaya başlamıştır, tutarlı bir yaklaşımı yoktur |
+| B1 | Bütünleştiren | Farklı bağlamlarda dener, hangi aracın ne zaman işe yaradığını anlamaya çalışır |
+| B2 | Uzman | Teknolojiyi güvenle, yaratıcı ve eleştirel biçimde kullanır |
+| C1 | Lider | Tutarlı ve kapsamlı bir yaklaşımı vardır, deneyimini meslektaşlarıyla paylaşır |
+| C2 | Öncü | Mevcut uygulamaları sorgular, yenilikçi yaklaşımlara öncülük eder |
+
+Bu tablo, çerçevenin bir "not" değil, bir **gelişim yolu** sunduğunu gösterir. Çoğu öğretmenin farklı alanlarda farklı düzeylerde olması doğaldır; önemli olan bir sonraki adımı görebilmektir.
 
 ## DigComp 2.2 ile ilişkisi
 

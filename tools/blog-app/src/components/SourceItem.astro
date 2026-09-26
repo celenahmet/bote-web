@@ -1,0 +1,34 @@
+---
+// Tek kaynak: kisa kunye (baslik kaynaga baglanir), sagda bilgi dugmesi. Bilgi penceresi
+// (popover) kaynagin yazidaki rolunu ve kullanildigi bolumleri gosterir; JS gerektirmez.
+import Icon from './Icon.astro';
+import { sourceLine } from '../lib.js';
+const { s } = Astro.props;
+const l = sourceLine(s);
+const letters = 'abcçdefgğhıijklmnoöprsştuüvyz';
+const pop = `kaynak-bilgi-${s.n}`;
+---
+<li id={`kaynak-${s.n}`} class="src">
+  <span class="n">{s.n}</span>
+  <p class="src-text">{l.lead} <a href={s.url} rel="noopener" target="_blank"><cite>{l.title}</cite></a>.<span class="src-pub">{l.pub}</span>
+    {s.refs.length === 1 && <a class="backref" href={`#${s.refs[0]}`}>↑ Metinde göster</a>}
+    {s.refs.length > 1 && <span class="backref">↑ Metinde: {s.refs.map((r, i) => <a href={`#${r}`} aria-label={`Metindeki ${i + 1}. atıf`}>{letters[i] || i + 1}</a>)}</span>}
+  </p>
+  <button type="button" class="src-info-btn" popovertarget={pop} aria-label={`${s.n}. kaynak hakkında bilgi`}><Icon name="info" size={16} /></button>
+  <div id={pop} popover class="src-pop" role="dialog" aria-label={`${s.n}. kaynak hakkında`}>
+    <div class="pop-head">
+      <span class="pop-kicker">Kaynak {s.n}</span>
+      <button type="button" class="pop-close" popovertarget={pop} popovertargetaction="hide" aria-label="Kapat"><Icon name="x" size={16} /></button>
+    </div>
+    <p class="pop-title"><cite>{l.title}</cite></p>
+    <p class="pop-by">{l.lead}{l.pub}</p>
+    {s.note && <p class="pop-note">{s.note}</p>}
+    {s.uses.length > 0 && (
+      <>
+        <p class="pop-sub">Yazıda kullanıldığı yerler</p>
+        <ul class="pop-uses">{s.uses.map((u) => <li><a href={`#${u.occs[0]}`}>{u.text}</a>{u.occs.length > 1 && <span> · {u.occs.length} atıf</span>}</li>)}</ul>
+      </>
+    )}
+    <a class="pop-link" href={s.url} rel="noopener" target="_blank">Kaynağı aç ↗</a>
+  </div>
+</li>

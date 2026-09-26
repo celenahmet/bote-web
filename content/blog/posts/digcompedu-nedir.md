@@ -2,6 +2,7 @@
 title: "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi"
 description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-teknolojileri
 tags: [DigCompEdu, dijital yetkinlik, öğretmen yetkinlikleri, SELFIE, Avrupa Komisyonu]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://doi.org/10.2760/159770"
     lang: en
     accessed: 2026-09-25
+    note: "Çerçevenin kendisi: Avrupa Komisyonu Ortak Araştırma Merkezi'nin 2017 raporu. Altı alan, 22 yetkinlik ve A1–C2 düzeylerinin tamamı bu belgeden."
   - id: digcomp22
     author: "Vuorikari, R., Kluzer, S. ve Punie, Y."
     title: "DigComp 2.2: The Digital Competence Framework for Citizens"
@@ -39,6 +41,7 @@ sources:
     url: "https://doi.org/10.2760/115376"
     lang: en
     accessed: 2026-09-25
+    note: "Vatandaşlar için dijital yetkinlik çerçevesinin güncel sürümü. DigCompEdu'nun altıncı alanının dayandığı öğrenci yetkinliklerini açıklamak için kullanıldı."
   - id: selfie
     title: "SELFIE for TEACHERS: About"
     publisher: "European Commission"
@@ -46,6 +49,7 @@ sources:
     url: "https://selfie-in-education.ec.europa.eu/educators/about"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun öğretmenler için ücretsiz öz değerlendirme aracı. Çerçevenin pratikte nasıl kullanılacağını göstermek için başvuruldu."
   - id: unesco2018
     title: "UNESCO ICT Competency Framework for Teachers (Version 3)"
     publisher: "UNESCO"
@@ -53,6 +57,7 @@ sources:
     url: "https://unesdoc.unesco.org/ark:/48223/pf0000265721"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi. DigCompEdu'yu diğer uluslararası çerçevelerle karşılaştırmak için kullanıldı."
   - id: iste2017
     title: "ISTE Standards: For Educators"
     publisher: "International Society for Technology in Education (ISTE)"
@@ -60,8 +65,8 @@ sources:
     url: "https://iste.org/standards"
     lang: en
     accessed: 2026-09-25
+    note: "ISTE'nin öğretmen standartları. Karşılaştırma bölümünde rol temelli bir yaklaşım örneği olarak verildi."
 ---
-
 "Dijital yetkin öğretmen" ifadesi sıkça kullanılıyor, ama neyi kapsadığı çoğu zaman belirsiz kalıyor. Avrupa Komisyonu'nun **DigCompEdu** çerçevesi bu belirsizliği gidermek için hazırlandı. Bu yazıda çerçevenin yapısını, düzeylerini ve öğretmenlerin kendilerini nasıl değerlendirebileceğini anlatıyoruz.
 
 ## DigCompEdu nereden çıktı?
@@ -83,11 +88,41 @@ DigCompEdu, Avrupa Komisyonu Ortak Araştırma Merkezi (JRC) tarafından 2017'de
 
 İlk alan öğretmenin mesleki çevresini, ikinci ile beşinci alanlar arası öğretmenin pedagojik yetkinliklerini, altıncı alan ise öğrencinin kazanımlarını kapsar. Altıncı alan, çerçeveyi yalnızca "öğretmen teknoloji kullanıyor mu?" sorusunun ötesine taşır: öğretmen öğrencilerinin dijital yetkinliğini de geliştirmekle sorumludur.
 
+## 22 yetkinliğin tamamı
+
+Çerçeveyi kullanışlı kılan, her alanın somut yetkinliklere ayrılmasıdır. Yetkinliklerin tamamı şöyledir:[@digcompedu]
+
+| Alan | Yetkinlikler |
+|---|---|
+| 1. Mesleki katılım | Kurumsal iletişim · Mesleki iş birliği · Yansıtıcı uygulama · Dijital sürekli mesleki gelişim |
+| 2. Dijital kaynaklar | Seçme · Oluşturma ve düzenleme · Yönetme, koruma ve paylaşma |
+| 3. Öğretme ve öğrenme | Öğretim · Rehberlik · İş birlikli öğrenme · Öz düzenlemeli öğrenme |
+| 4. Değerlendirme | Değerlendirme stratejileri · Kanıtları analiz etme · Geri bildirim ve planlama |
+| 5. Öğrenenleri güçlendirme | Erişilebilirlik ve kapsayıcılık · Farklılaştırma ve kişiselleştirme · Öğrencileri etkin katılıma yöneltme |
+| 6. Öğrenenlerin dijital yetkinliğini kolaylaştırma | Bilgi ve medya okuryazarlığı · Dijital iletişim ve iş birliği · Dijital içerik üretimi · Sorumlu kullanım · Dijital problem çözme |
+
+Listede dikkat çeken iki nokta var. Birincisi, **yansıtıcı uygulama** ve **sürekli mesleki gelişim** birinci alanda yer alıyor: dijital yetkinlik, öğretmenin kendi pratiğini sorgulamasıyla başlıyor. İkincisi, altıncı alandaki **sorumlu kullanım** yetkinliği öğretmeni, öğrencilerin dijital ortamda sağlıklarını ve iyi oluşlarını korumalarına yardım etmekle sorumlu tutuyor. Bu, dijital yetkinliğin yalnızca teknik değil, etik ve pedagojik bir kavram olduğunu gösteriyor.
+
 ## A1'den C2'ye: gelişim modeli
 
 DigCompEdu, dil yeterliliğindeki Avrupa ortak çerçevesine benzer altı düzeyli bir gelişim modeli kullanır: A1 Yeni başlayan, A2 Keşfeden, B1 Bütünleştiren, B2 Uzman, C1 Lider ve C2 Öncü.[@digcompedu] İlk iki düzeyde öğretmen dijital teknolojileri keşfeder ve temel uygulamalar yapar. B düzeylerinde teknolojiyi farklı bağlamlarda bilinçli ve eleştirel biçimde kullanır. C düzeylerinde ise deneyimini meslektaşlarıyla paylaşır ve yeni uygulamalar geliştirir.
 
 Bu model bir not sistemi değildir. Bir öğretmenin değerlendirme alanında B2, dijital kaynaklar alanında A2 düzeyinde olması olağandır. Çerçevenin değeri, öğretmene hangi alanda gelişmesi gerektiğini göstermesindedir.
+
+## Düzeyler ne anlama geliyor?
+
+Çerçeve her düzeyi bir rolle tanımlar:[@digcompedu]
+
+| Düzey | Rol | Kısaca |
+|---|---|---|
+| A1 | Yeni başlayan | Dijital teknolojilerin potansiyelinin farkındadır ama çok az kullanır |
+| A2 | Keşfeden | Bazı alanlarda kullanmaya başlamıştır, tutarlı bir yaklaşımı yoktur |
+| B1 | Bütünleştiren | Farklı bağlamlarda dener, hangi aracın ne zaman işe yaradığını anlamaya çalışır |
+| B2 | Uzman | Teknolojiyi güvenle, yaratıcı ve eleştirel biçimde kullanır |
+| C1 | Lider | Tutarlı ve kapsamlı bir yaklaşımı vardır, deneyimini meslektaşlarıyla paylaşır |
+| C2 | Öncü | Mevcut uygulamaları sorgular, yenilikçi yaklaşımlara öncülük eder |
+
+Bu tablo, çerçevenin bir "not" değil, bir **gelişim yolu** sunduğunu gösterir. Çoğu öğretmenin farklı alanlarda farklı düzeylerde olması doğaldır; önemli olan bir sonraki adımı görebilmektir.
 
 ## DigComp 2.2 ile ilişkisi
 

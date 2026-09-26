@@ -2,6 +2,7 @@
 title: "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer"
 description: "BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım."
 date: 2026-09-25
+updated: 2026-09-26
 category: kariyer
 tags: [BÖTE, kariyer, öğretmen ataması, AGS, öğretim tasarımı, e-öğrenme]
 summary:
@@ -24,75 +25,77 @@ faq:
     a: "Şart değildir ama bazı pozisyonlarda avantaj sağlar. Örneğin ABD'de okul sistemlerindeki öğretim koordinatörlüğü pozisyonları genellikle yüksek lisans ve öğretmenlik deneyimi ister. Kurumsal eğitim rollerinde ise portfolyo ve deneyim öne çıkar."
 sources:
   - id: bls-tds
-    publisher: "U.S. Bureau of Labor Statistics"
     title: "Occupational Outlook Handbook: Training and Development Specialists"
+    publisher: "U.S. Bureau of Labor Statistics"
     year: 2026
     url: "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin eğitim ve geliştirme uzmanları sayfası. Kurumsal eğitim rollerinin tanımı ve istihdam beklentisi buradan."
   - id: bls-ic
-    publisher: "U.S. Bureau of Labor Statistics"
     title: "Occupational Outlook Handbook: Instructional Coordinators"
+    publisher: "U.S. Bureau of Labor Statistics"
     year: 2026
     url: "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin öğretim koordinatörleri sayfası. Bu rol için beklenen yüksek lisans ve deneyim bilgisinin kaynağı."
   - id: talis2018
-    publisher: "OECD"
     title: "TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners"
+    publisher: "OECD"
     year: 2019
     url: "https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin TALIS 2018 raporu. Öğretmenlerin teknoloji kullanımına hazırlığına ilişkin yüzdeler bu kaynaktan."
   - id: gem2023
-    publisher: "UNESCO"
     title: "Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?"
+    publisher: "UNESCO"
     year: 2023
     url: "https://www.unesco.org/gem-report/en/publication/technology"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun eğitimde teknoloji temalı 2023 Küresel Eğitim İzleme Raporu. Teknolojinin eğitimdeki yerine dair dengeli bakışın kaynağı."
   - id: iste2017
-    publisher: "International Society for Technology in Education (ISTE)"
     title: "ISTE Standards: For Educators"
+    publisher: "International Society for Technology in Education (ISTE)"
     year: 2017
     url: "https://iste.org/standards"
     lang: en
     accessed: 2026-09-25
-  - id: ttkb2025
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları"
-    year: 2025
-    url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
-    lang: tr
-    accessed: 2026-09-25
+    note: "ISTE'nin öğretmen standartları. Mezunlarda fark yaratan pedagojik rolleri tanımlamak için kullanıldı."
   - id: ttkb-esaslar
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     year: 2025
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik alanları ve ders okutma esasları. BÖTE mezunlarının hangi alanda atanıp hangi dersleri okuttuğunun resmî kaynağı."
   - id: ttkb-cizelge
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     title: "İlköğretim Kurumları (İlkokul ve Ortaokul) Haftalık Ders Çizelgesi, Karar No: 4"
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     year: 2025
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_05/16094742_4nolukararilkogretimkurumlariilkokulveortaokulhaftalikderscizelgesi.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in haftalık ders çizelgesi. Bilişim dersinin 5. ve 6. sınıflarda haftalık 2 saat zorunlu olduğu bilgisi buradan."
   - id: meb-kanun
-    publisher: "Millî Eğitim Bakanlığı"
     title: "Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı"
+    publisher: "Millî Eğitim Bakanlığı"
     year: 2024
     url: "https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "7528 sayılı Kanun'un yayımlandığını duyuran MEB haberi. Öğretmen seçiminin yeni koşulları bu kaynaktan."
   - id: meb-ags
-    publisher: "Millî Eğitim Bakanlığı"
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu"
+    publisher: "Millî Eğitim Bakanlığı"
     year: 2025
     url: "https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "İlk Akademi Giriş Sınavı'na ilişkin MEB duyurusu. AGS'nin ilk yapıldığı tarihin kaynağı."
   - id: cakir2013
     author: "Çakır, H., Çebi, A. ve Özcan, S."
     title: "BÖTE Nedir? Nasıl Tanımlanır? Okul Müzesiyle Başlayan Serüvenden İnsan Performans Teknolojilerine Uzanan Yolculuk"
@@ -101,8 +104,8 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/etku/issue/6269/84217"
     lang: tr
     accessed: 2026-09-25
+    note: "Türk akademisyenlerin BÖTE'yi tanımladığı makale. Mezunların öğretim tasarımı ve performans teknolojisi alanlarına uygunluğunu göstermek için kullanıldı."
 ---
-
 "BÖTE okuyup ne olacaksın?" sorusu, bölüm öğrencilerinin belki de en sık duyduğu soru. Kısa cevap şu: BÖTE bir öğretmenlik programıdır ve mezunların ana yolu öğretmenliktir. Ancak programın kazandırdığı bilişim ve öğretim tasarımı becerileri başka kapıları da açar.
 
 Bu yazıda her yolu fırsatları ve zorluklarıyla birlikte ele alıyoruz. Amacımız bir bölümü övmek ya da yermek değil, gerçekçi bir tablo çizmek.
@@ -111,7 +114,7 @@ Bu yazıda her yolu fırsatları ve zorluklarıyla birlikte ele alıyoruz. Amac�
 
 ### Hangi alanda atanılır?
 
-Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[@ttkb2025] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Esasların güncel metnine göre **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@ttkb-esaslar]
+Bir öğretmenin hangi alanda atanacağı ve hangi dersleri okutacağı MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları* ile belirlenir.[@ttkb-esaslar] 2025'te bu esaslarda BÖTE mezunlarını doğrudan ilgilendiren bir değişiklik yapıldı. Esasların güncel metnine göre **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@ttkb-esaslar]
 
 Ortaokulda BÖTE mezunlarının en çok bilinen dersi **Bilişim Teknolojileri ve Yazılım**'dır. MEB Talim ve Terbiye Kurulunun haftalık ders çizelgesine göre bu ders 5. ve 6. sınıflarda haftada 2 saat zorunlu olarak okutulur.[@ttkb-cizelge]
 
@@ -146,6 +149,17 @@ Burada dürüst olmak gerekir. Saf yazılım pozisyonlarında BÖTE mezunları b
 ## 5. Akademik kariyer
 
 Eğitim teknolojisi alanında yüksek lisans ve doktora yapan mezunlar araştırmacı ya da öğretim üyesi olabilir. Uzaktan eğitim, öğrenme analitiği ve eğitimde yapay zekâ gibi konular son yıllarda araştırmacılara geniş bir çalışma alanı açtı.
+
+## Her yol için ayrıntılı rehberler
+
+Bu yazı mezunların önündeki yolları genel hatlarıyla anlatıyor. Her yolu ayrıntılı ele aldığımız rehberler şunlar:
+
+- **Öğretmenlik:** Lisans tercihinden AGS ve Millî Eğitim Akademisi'ne kadar adımlar için [bilgisayar öğretmeni nasıl olunur?](/blog/bilgisayar-ogretmeni-nasil-olunur) ve [AGS nedir?](/blog/ags-nedir)
+- **Öğretim tasarımı:** Mesleğin gündelik işi, araç seti ve portfolyo önerileri için [öğretim tasarımcısı ne iş yapar?](/blog/ogretim-tasarimcisi-ne-is-yapar)
+- **Yazılım:** Kapatılması gereken açıklar ve dört yıllık yol haritası için [BÖTE mezunu yazılımcı olabilir mi?](/blog/bote-mezunu-yazilimci-olabilir-mi)
+- **Çevrim içi eğitim:** Kurumların uzaktan eğitim altyapısında çalışmak için [LMS nedir?](/blog/ogrenme-yonetim-sistemi-lms-nedir) ve [uzaktan eğitim nedir?](/blog/uzaktan-egitim-nedir)
+
+Rehberlerin ortak mesajı şu: hangi yolu seçerseniz seçin, diploma kadar **somut kanıt** önemli. Öğretmen adayı için bu, uygulama dönemindeki ders planları ve materyaller; öğretim tasarımcısı için tamamlanmış bir e-öğrenme modülü; yazılımcı için ise herkese açık bir proje deposudur.
 
 ## Hangi beceriler fark yaratıyor?
 

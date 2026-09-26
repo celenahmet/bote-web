@@ -2,6 +2,7 @@
 title: "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları"
 description: "Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [uzman öğretmen, başöğretmen, kariyer basamakları, 7528, öğretmen kariyeri]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm"
     lang: tr
     accessed: 2026-09-25
+    note: "Kanunun Resmî Gazete'deki ilk yayımı. Üç kariyer basamağının yasal dayanağı."
   - id: mevzuat7528
     title: "Öğretmenlik Mesleği Kanunu (Kanun No. 7528, güncel metin)"
     publisher: "Mevzuat Bilgi Sistemi"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5"
     lang: tr
     accessed: 2026-09-25
+    note: "Kanunun güncel metni. Uzman öğretmenlik ve başöğretmenlik koşulları tablosunun kaynağı."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -44,6 +47,7 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Farklılaştırılmış kariyer yapılarının mesleğin cazibesine etkisine ilişkin öneriler buradan."
   - id: talis2018v2
     title: "TALIS 2018 Results (Volume II): Teachers and School Leaders as Valued Professionals"
     publisher: "OECD"
@@ -51,8 +55,8 @@ sources:
     url: "https://doi.org/10.1787/19cf08df-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmenleri değer verilen profesyoneller olarak inceleyen TALIS 2018 raporu. Mesleğin değer gördüğünü düşünen öğretmen oranı buradan."
 ---
-
 Birçok meslekte kariyer, unvan ve sorumlulukların zamanla arttığı bir basamaklar dizisidir. Öğretmenlikte ise uzun süre böyle bir yapı belirgin değildi: yirmi yıllık bir öğretmen ile yeni başlayan bir öğretmen çoğu zaman aynı unvanı taşıyordu. 7528 sayılı Öğretmenlik Mesleği Kanunu bu durumu değiştiren düzenlemeler içeriyor. Bu yazıda **uzman öğretmenlik** ve **başöğretmenlik** basamaklarını ve bu yapının uluslararası öğretmen politikalarındaki yerini ele alıyoruz.
 
 ## Üç basamak
@@ -67,6 +71,19 @@ Birçok meslekte kariyer, unvan ve sorumlulukların zamanla arttığı bir basam
 | Başöğretmen | Uzman öğretmen olarak en az 10 yıl | Aynı disiplin koşulu; akademinin başöğretmenlik eğitimini tamamlamak | Bir derece |
 
 Tablodaki koşullar kanunda yer alır.[@mevzuat7528] Eğitimlerin içeriği, süresi ve başvuru usulleri ise yönetmeliklerle ve Millî Eğitim Akademisi'nin duyurularıyla belirlenir. Bu nedenle kariyer planı yapan öğretmenlerin güncel yönetmelikleri takip etmesi gerekir.
+
+## Bir kariyer zaman çizelgesi
+
+Kanundaki süreler esas alındığında bir öğretmenin kariyer yolu şöyle özetlenebilir:[@mevzuat7528]
+
+| Hizmet yılı | Aşama | Gerekenler |
+|---|---|---|
+| 0 | Öğretmen olarak atanma | AGS, akademi hazırlık eğitimi, atama |
+| 1–10 | Öğretmen | Sınıf deneyimi, mesleki gelişim |
+| 10+ | Uzman öğretmen | En az 10 yıllık hizmet, disiplin koşulu, akademinin uzman öğretmenlik eğitimi |
+| 20+ | Başöğretmen | Uzman öğretmen olarak en az 10 yıl, disiplin koşulu, akademinin başöğretmenlik eğitimi |
+
+Çizelge en erken olasılıkları gösterir; her basamak için başvuru dönemleri ve eğitimlerin açılma takvimi yönetmelik ve duyurularla belirlenir. Buna rağmen tablo önemli bir gerçeği görünür kılıyor: öğretmenlikte kariyer, yirmi yılı aşan bir mesleki gelişim yolculuğu olarak tasarlanmış durumda.
 
 ## Akademinin rolü
 

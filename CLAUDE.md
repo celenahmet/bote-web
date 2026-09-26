@@ -50,9 +50,14 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   reklam > kategoriler (ikon + sayı) > son yazılar > "Bu yazıda neler var?" (yapışkan
   içindekiler, tıklanınca ilgili bölüme gider). Liste sayfalarında reklam > kategoriler >
   popüler > son görüntülenenler.
-- Atıflar: metindeki atıf numaraları varsayılan **gizli**, her yazıdaki "Kaynakça
-  ayarları"ndan açılır. Kaynakçadaki "Metinde" bağlantısı atıf yapılan cümleyi işaretler.
-  2'den fazla kaynak varsa kaynak listesi açılır-kapanır (varsayılan açık).
+- Atıflar ve kaynakça: metindeki atıf numaraları ve kaynakçadaki "Metinde göster"
+  bağlantıları varsayılan **kapalı**; her yazıdaki "Kaynakça ayarları"ndan ayrı ayrı açılır.
+  Kaynakça sade: kısa künye (başlık kaynağa bağlı), dil etiketi ve erişim tarihi gösterilmez;
+  ilk 2 kaynak görünür, fazlası "Tümünü gör" ile açılır. Her kaynağın sağındaki ⓘ düğmesi,
+  kaynağın yazıdaki rolünü anlatan notu (`note`, her kaynakta zorunlu; üretici uyarır) ve
+  kullanıldığı bölümleri gösterir. Yazı sonunda editör kutusu ve kaynak sayısı notu yoktur.
+- Derinlik: kavram yazıları tanımı, kuramsal arka planı, modelleri/taksonomileri, ölçme
+  yollarını ve somut sınıf örneklerini birlikte verir; yüzeysel özetle yetinilmez.
 - Özellikler: görüntülenme sayısı (Upstash Redis, `/api/views`), okuma süresi, arama (⌘K),
   popüler/son okunan yazılar, SSS akordeonu, paylaşım. Yerleşim referansı: uniconnectly.com/blog.
 - Reklam alanları AdSense'e hazır; şimdilik UniConnectly kartı gösterilir: logo

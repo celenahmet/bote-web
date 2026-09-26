@@ -3,7 +3,7 @@ title: "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler"
 url: https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "Öğretim tasarımı nedir, ADDIE modelinin beş aşaması nasıl işler ve etkili öğretimin ilkeleri nelerdir? Okuldan kurumsal eğitime uygulanabilir rehber."
 ---
@@ -12,7 +12,7 @@ description: "Öğretim tasarımı nedir, ADDIE modelinin beş aşaması nasıl 
 
 > Öğretim tasarımı nedir, ADDIE modelinin beş aşaması nasıl işler ve etkili öğretimin ilkeleri nelerdir? Okuldan kurumsal eğitime uygulanabilir rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 
 ## Kısaca
 
@@ -29,9 +29,32 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3
 
 Tasarımın temel sorusu basittir: Öğrenci bu öğretimin sonunda neyi yapabilir hâle gelmeli ve bunu nasıl anlayacağız? Hedef, etkinlik ve değerlendirme arasındaki tutarlılık, iyi tasarımın ilk göstergesidir.
 
+## Öğrenme hedefi nasıl yazılır?
+
+Tasarımın merkezinde **ölçülebilir öğrenme hedefi** vardır. "Öğrenci fotosentezi öğrenir" bir hedef değil, bir niyettir: neyin gözlemleneceğini söylemez. "Öğrenci fotosentez denklemini kullanarak bir bitkinin ışıksız ortamda neden büyüyemediğini açıklar" ise gözlemlenebilir bir davranış tanımlar.
+
+Hedef yazarken en sık başvurulan araç, Bloom taksonomisinin güncellenmiş hâlidir. Krathwohl'un özetlediği bu sürüm bilişsel süreçleri altı düzeyde sıralar: **hatırlama, anlama, uygulama, çözümleme, değerlendirme ve yaratma**. Taksonomi ayrıca bilgiyi olgusal, kavramsal, işlemsel ve üstbilişsel olmak üzere dört türe ayırır.[2]
+
+| Düzey | Örnek eylem | Örnek hedef |
+|---|---|---|
+| Hatırlama | Listeler, tanımlar | Öğrenci bilgisayarın temel bileşenlerini listeler |
+| Anlama | Açıklar, örnekler | Öğrenci RAM ile depolama arasındaki farkı örnekle açıklar |
+| Uygulama | Kullanır, uygular | Öğrenci bir döngü yapısını kullanarak çarpım tablosu üretir |
+| Çözümleme | Karşılaştırır, ayırt eder | Öğrenci iki algoritmanın verimliliğini karşılaştırır |
+| Değerlendirme | Savunur, eleştirir | Öğrenci bir web sitesinin güvenilirliğini ölçütlerle değerlendirir |
+| Yaratma | Tasarlar, üretir | Öğrenci okul için basit bir etkinlik kayıt uygulaması tasarlar |
+
+Tablodaki hedeflerin ortak özelliği, her birinin nasıl değerlendirileceğinin de açık olmasıdır. Hedef yazmak, değerlendirmeyi tasarlamanın ilk adımıdır.
+
+## Yapıcı hizalama
+
+John Biggs, iyi bir öğretimin üç öğenin birbirine **hizalanmasıyla** ortaya çıktığını savunur: hedeflenen öğrenme çıktıları, öğretim etkinlikleri ve değerlendirme. Öğrenciler, değerlendirildikleri şeye göre çalıştığı için değerlendirme hedeflerle uyumlu değilse öğretim ne kadar iyi olursa olsun öğrenci farklı bir şey öğrenir.[3]
+
+Bir örnek: hedef "öğrenci bir problemi çözmek için algoritma tasarlar" ise ama sınav yalnızca tanım soruları içeriyorsa, öğrenciler tanımları ezberlemeyi seçer. Yapıcı hizalama, ADDIE'nin tasarım aşamasında sorulması gereken en temel kontrol sorusunu sağlar: Hedefim, etkinliğim ve sınavım aynı şeyi mi istiyor?
+
 ## ADDIE: beş aşamalı süreç
 
-Öğretim tasarımında en yaygın kullanılan süreç modeli **ADDIE**'dir. Branch, ADDIE'yi belirli bir tasarım modelinden çok, öğretim ürünleri geliştirmek için kullanılan genel bir süreç olarak ele alır.[2]
+Öğretim tasarımında en yaygın kullanılan süreç modeli **ADDIE**'dir. Branch, ADDIE'yi belirli bir tasarım modelinden çok, öğretim ürünleri geliştirmek için kullanılan genel bir süreç olarak ele alır.[4]
 
 | Aşama | Temel soru | Örnek çıktı |
 |---|---|---|
@@ -45,7 +68,7 @@ Uygulamada bu aşamalar nadiren düz bir çizgide ilerler. Değerlendirmede orta
 
 ## Merrill'in öğretimin ilk ilkeleri
 
-Süreç modelleri "nasıl çalışmalıyız?" sorusunu yanıtlar; ancak "iyi bir öğretim nasıl olmalı?" sorusunu tam yanıtlamaz. David Merrill, farklı öğretim kuramlarını inceleyerek hepsinde ortak olan beş ilke belirledi. Merrill'e göre öğrenme şu durumlarda kolaylaşır:[3]
+Süreç modelleri "nasıl çalışmalıyız?" sorusunu yanıtlar; ancak "iyi bir öğretim nasıl olmalı?" sorusunu tam yanıtlamaz. David Merrill, farklı öğretim kuramlarını inceleyerek hepsinde ortak olan beş ilke belirledi. Merrill'e göre öğrenme şu durumlarda kolaylaşır:[5]
 
 1. **Problem merkezlilik:** Öğrenciler gerçek dünyaya ait problemler üzerinde çalışır.
 2. **Harekete geçirme:** Öğrencinin ön bilgisi yeni öğrenmenin temeli olarak kullanılır.
@@ -59,7 +82,7 @@ Bu ilkeler ADDIE'nin tasarım aşamasında bir kalite kontrol listesi olarak kul
 
 Öğretim tasarımının en kritik ama en çok atlanan aşaması analizdir. Kurumlar bir performans sorunuyla karşılaştığında çoğu zaman doğrudan "eğitim verelim" kararı alır. Oysa sorunun kaynağı bilgi ya da beceri eksikliği olmayabilir. Çalışanlar doğru yöntemi biliyor ama gerekli araçlara sahip değilse ya da iş süreci hatayı kolaylaştırıyorsa, en iyi tasarlanmış eğitim bile sorunu çözmez.
 
-Bu nedenle iyi bir analiz şu soruları sorar: Kişiler ne yapmalı, şu anda ne yapıyor? Aradaki fark bilgi eksikliğinden mi, motivasyondan mı, çevresel koşullardan mı kaynaklanıyor? Eğitim yalnızca ilk durumda doğru çözümdür. Branch'in ADDIE'yi yalnızca bir ürün geliştirme süreci olarak değil, sistemli bir karar verme süreci olarak ele alması bu yüzden önemlidir.[2]
+Bu nedenle iyi bir analiz şu soruları sorar: Kişiler ne yapmalı, şu anda ne yapıyor? Aradaki fark bilgi eksikliğinden mi, motivasyondan mı, çevresel koşullardan mı kaynaklanıyor? Eğitim yalnızca ilk durumda doğru çözümdür. Branch'in ADDIE'yi yalnızca bir ürün geliştirme süreci olarak değil, sistemli bir karar verme süreci olarak ele alması bu yüzden önemlidir.[4]
 
 ## Örnek: bir e-öğrenme modülü
 
@@ -69,7 +92,7 @@ Bu örnekte Merrill'in ilkeleri de görülebilir: modül gerçek bir iş problem
 
 ## Kariyer boyutu
 
-Öğretim tasarımı, BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği alanlardan biridir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi, kurumlarda eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[4] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur.[5] Bu rolleri [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazımızda ayrıntılı ele aldık.
+Öğretim tasarımı, BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği alanlardan biridir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi, kurumlarda eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[6] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur.[7] Bu rolleri [öğretim tasarımcısı ne iş yapar?](https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar) yazımızda ayrıntılı ele aldık.
 
 ## Sonuç
 
@@ -104,7 +127,9 @@ Evet. Bir ders planı hazırlamak da küçük ölçekli bir öğretim tasarımı
 ## Kaynaklar
 
 1. Januszewski, A. ve Molenda, M. (Ed.) (2008). Educational Technology: A Definition with Commentary. Routledge (AECT için). https://www.routledge.com/Educational-Technology-A-Definition-with-Commentary/Januszewski-Molenda/p/book/9780805858617 (EN, erişim: 2026-09-25)
-2. Branch, R. M. (2009). Instructional Design: The ADDIE Approach. Springer. https://doi.org/10.1007/978-0-387-09506-6 (EN, erişim: 2026-09-25)
-3. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
-4. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
-5. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)
+2. Krathwohl, D. R. (2002). A Revision of Bloom's Taxonomy: An Overview. Theory Into Practice, 41(4), 212–218. https://doi.org/10.1207/s15430421tip4104_2 (EN, erişim: 2026-09-25)
+3. Biggs, J. (1996). Enhancing Teaching Through Constructive Alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871 (EN, erişim: 2026-09-25)
+4. Branch, R. M. (2009). Instructional Design: The ADDIE Approach. Springer. https://doi.org/10.1007/978-0-387-09506-6 (EN, erişim: 2026-09-25)
+5. Merrill, M. D. (2002). First Principles of Instruction. Educational Technology Research and Development, 50(3), 43–59. https://doi.org/10.1007/BF02505024 (EN, erişim: 2026-09-25)
+6. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Training and Development Specialists. https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm (EN, erişim: 2026-09-25)
+7. U.S. Bureau of Labor Statistics (2026). Occupational Outlook Handbook: Instructional Coordinators. https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm (EN, erişim: 2026-09-25)

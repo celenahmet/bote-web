@@ -7,7 +7,7 @@ import { slugify, esc, imageSize } from './util.mjs';
 //   [@kaynak-id]  veya  [@a; @b]  -> numarali kaynak atfi (Kaynaklar bolumune baglanir)
 // Atfin destekledigi cumle <span class="cited" id="atif-N"> ile sarilir; kaynakcadaki
 // "metinde" baglantilari bu kimliklere gider ve cumleyi isaretler (:target).
-// Donus: { html, headings, citeOrder, refs }  (refs: kaynak id -> ['atif-1', ...])
+// Donus: { html, headings, citeOrder, refs }  (refs: kaynak id -> [{ occ: 'atif-1', section }])
 export function renderMarkdown(src, { sources, root, file }) {
   const ids = new Map(sources.map((s) => [s.id, s]));
   const citeOrder = [];
@@ -16,6 +16,7 @@ export function renderMarkdown(src, { sources, root, file }) {
   const errors = [];
   const refs = new Map();
   let occ = 0;
+  let section = null; // atifin gectigi en yakin ## / ### baslik
 
   const numberOf = (id) => {
     if (!ids.has(id)) {
@@ -42,7 +43,7 @@ export function renderMarkdown(src, { sources, root, file }) {
           const links = t.keys.map((k) => {
             const n = numberOf(k);
             if (!refs.has(k)) refs.set(k, []);
-            refs.get(k).push(t.occ);
+            refs.get(k).push({ occ: t.occ, section });
             return `<a class="cite-link" href="#kaynak-${n}" aria-label="Kaynak ${n}">${n}</a>`;
           });
           return `<sup class="cite">[${links.join(', ')}]</sup>`;
@@ -66,7 +67,11 @@ export function renderMarkdown(src, { sources, root, file }) {
         let id = slugify(t.text.replace(/\[@[^\]]+\]/g, '')) || 'bolum';
         while (usedIds.has(id)) id += '-2';
         usedIds.add(id);
-        if (t.depth === 2 || t.depth === 3) headings.push({ depth: t.depth, id, text: t.text.replace(/\[@[^\]]+\]/g, '').trim() });
+        if (t.depth === 2 || t.depth === 3) {
+          const h = { depth: t.depth, id, text: t.text.replace(/\[@[^\]]+\]/g, '').trim() };
+          headings.push(h);
+          section = h;
+        }
         return `<h${t.depth} id="${id}">${inner}</h${t.depth}>\n`;
       },
       link(t) {

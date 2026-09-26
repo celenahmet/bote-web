@@ -3,7 +3,7 @@ title: "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?"
 url: https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz."
 ---
@@ -12,7 +12,7 @@ description: "7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, nel
 
 > 7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
 
 ## Kısaca
 
@@ -45,11 +45,22 @@ Kanun, öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen
 
 Kanun, AGS'nin mevzuat bölümünde de doğrudan yer alıyor. MEB'in açıkladığı konu dağılımına göre sınav; Anayasa, 1739 sayılı Millî Eğitim Temel Kanunu ve 222 sayılı İlköğretim ve Eğitim Kanunu ile birlikte 7528 sayılı Öğretmenlik Mesleği Kanunu'nu da kapsar.[6] Öğretmen adaylarının kanunu yalnızca bir sınav konusu olarak değil, mesleklerinin çerçevesi olarak okuması bu yüzden önemli.
 
+## Önce ve sonra: bir bakışta
+
+| Aşama | 7528 öncesi | 7528 sonrası |
+|---|---|---|
+| Giriş sınavı | KPSS ağırlıklı atama sistemi | ÖSYM'nin yaptığı Akademi Giriş Sınavı (AGS) ve ÖABT[6] |
+| Atama öncesi hazırlık | Yok; hazırlık lisansla sınırlıydı | Millî Eğitim Akademisi'nde dört dönemlik hazırlık eğitimi[5] |
+| Pedagojik formasyon | Fakülte dışı mezunlar için başvuru koşulu | Akademi adaylarında aranmıyor (Aralık 2025)[7] |
+| Kariyer | Belirgin bir basamak yapısı yoktu | Öğretmen, uzman öğretmen, başöğretmen[3] |
+
+Tablonun gösterdiği gibi kanun, öğretmenliğe girişin ağırlık merkezini sınavdan hazırlığa doğru kaydırıyor. Sınav hâlâ ilk kapı; ancak atamayı belirleyen, akademideki hazırlık eğitiminin başarıyla tamamlanması.
+
 ## Uluslararası öğretmen politikalarıyla karşılaştırma
 
-OECD'nin öğretmen politikalarını değerlendiren kapsamlı raporu, ülkelerin öğretmenliği cazip bir meslek hâline getirmesi, öğretmenleri etkili biçimde seçip geliştirmesi ve meslekte tutması gerektiğini vurgular. Rapor, öğretmen yetiştirmenin mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimden oluşan bir süreç olarak ele alınmasını önerir.[7] 7528 sayılı Kanun'un seçim (AGS), hazırlık (akademi) ve kariyer gelişimi (basamaklar) boyutlarını birlikte düzenlemesi bu yaklaşımla örtüşüyor.
+OECD'nin öğretmen politikalarını değerlendiren kapsamlı raporu, ülkelerin öğretmenliği cazip bir meslek hâline getirmesi, öğretmenleri etkili biçimde seçip geliştirmesi ve meslekte tutması gerektiğini vurgular. Rapor, öğretmen yetiştirmenin mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimden oluşan bir süreç olarak ele alınmasını önerir.[8] 7528 sayılı Kanun'un seçim (AGS), hazırlık (akademi) ve kariyer gelişimi (basamaklar) boyutlarını birlikte düzenlemesi bu yaklaşımla örtüşüyor.
 
-Mesleğe başlangıçtaki yapılandırılmış destek programlarına ilişkin araştırmalar da bu tür düzenlemelerin potansiyelini gösteriyor. Ingersoll ve Strong'un derlemesi, mesleğe uyum ve mentorluk programlarının öğretmenlerin meslekte kalması, sınıf uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[8] Ancak araştırmalar etkinin programın niteliğine bağlı olduğunu da vurgular; bu nedenle kanunun sonuçları, uygulamanın niteliğiyle birlikte değerlendirilmelidir.
+Mesleğe başlangıçtaki yapılandırılmış destek programlarına ilişkin araştırmalar da bu tür düzenlemelerin potansiyelini gösteriyor. Ingersoll ve Strong'un derlemesi, mesleğe uyum ve mentorluk programlarının öğretmenlerin meslekte kalması, sınıf uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[9] Ancak araştırmalar etkinin programın niteliğine bağlı olduğunu da vurgular; bu nedenle kanunun sonuçları, uygulamanın niteliğiyle birlikte değerlendirilmelidir.
 
 ## Tartışmalı noktalar
 
@@ -58,7 +69,7 @@ Her büyük reform gibi 7528 sayılı Kanun da farklı değerlendirmelere konu o
 ## Öğretmen adayları için ne anlama geliyor?
 
 - **Süreyi planlayın:** Lisans sonrasına AGS hazırlığı ve yaklaşık on aylık hazırlık eğitimi eklendi.
-- **Kaynak program koşulunu kontrol edin:** Hangi lisans programının hangi alana kaynak olduğunu MEB'in öğretmenlik esaslarındaki çizelgeler belirler.[9]
+- **Kaynak program koşulunu kontrol edin:** Hangi lisans programının hangi alana kaynak olduğunu MEB'in öğretmenlik esaslarındaki çizelgeler belirler.[7]
 - **Kanunu kaynağından okuyun:** Özetler ve yorumlar yerine güncel metni Mevzuat Bilgi Sistemi'nden takip edin.
 
 ## Sonuç
@@ -99,6 +110,6 @@ Kanunun ilk yayımlanan hâli Resmî Gazete'nin internet sitesinde, değişiklik
 4. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
 5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
 6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı Konu Dağılımları Açıklandı. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavi-konu-dagilimlari-aciklandi/haber/39480/tr (TR, erişim: 2026-09-25)
-7. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
-8. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-09-25)
-9. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+7. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+8. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
+9. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-09-25)

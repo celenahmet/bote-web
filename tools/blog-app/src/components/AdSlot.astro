@@ -10,9 +10,11 @@ const ads = loadBlog().cfg.ads;
 const client = ads.adsense.client;
 const slotId = ads.adsense.slots?.[slot];
 const house = (ads.house || []).find((h) => (h.slots || []).includes(slot));
-// Logo dosyasi public/ altinda varsa kullanilir; yoksa yazi logosu.
-const logoFile = house?.logo && path.join(ROOT, 'tools/blog-app/public', house.logo.replace(/^\/blog\//, ''));
-const logo = logoFile && fs.existsSync(logoFile) ? house.logo : null;
+// Logo: tam adres (https://...) dogrudan kullanilir; yerel yol public/ altinda varsa kullanilir;
+// ikisi de yoksa yazi logosu.
+const external = /^https:\/\//.test(house?.logo || '');
+const logoFile = house?.logo && !external && path.join(ROOT, 'tools/blog-app/public', house.logo.replace(/^\/blog\//, ''));
+const logo = external ? house.logo : logoFile && fs.existsSync(logoFile) ? house.logo : null;
 const STORES = {
   appstore: { icon: 'apple', top: 'Download on the', name: 'App Store', label: "App Store'dan indir" },
   googleplay: { icon: 'googleplay', top: 'GET IT ON', name: 'Google Play', label: "Google Play'den indir" },
@@ -30,7 +32,7 @@ const STORES = {
     <div class="ad-card">
       <span class="ad-label">Reklam</span>
       <a class="ad-logo" href={house.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand} web sitesi`}>
-        {logo ? <img src={logo} alt={house.brand} width="160" height="44" loading="lazy" decoding="async" /> : <span class="ad-wordmark">Uni<b>Connectly</b></span>}
+        {logo ? <img src={logo} alt={house.brand} height="40" loading="lazy" decoding="async" /> : <span class="ad-wordmark">Uni<b>Connectly</b></span>}
       </a>
       <p class="ad-text">{house.text}</p>
       <a class="ad-cta" href={house.url} rel="sponsored noopener" target="_blank">{house.cta}</a>

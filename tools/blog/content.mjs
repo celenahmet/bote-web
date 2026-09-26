@@ -74,6 +74,7 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
         for (const k of ['id', 'title', 'url', 'lang', 'year', 'accessed']) if (!s[k]) e(`${where}: ${k} zorunlu`);
         if (!s.author && !s.publisher) e(`${where}: author veya publisher zorunlu`);
         if (s.url && !/^https:\/\//.test(s.url)) w(`${where}: url https degil`);
+        if (!s.note) w(`${where}: note yok (kaynagin yazidaki rolunu anlatan kisa not)`);
         let accessed = s.accessed;
         if (accessed) { try { accessed = toDateString(accessed); } catch (err) { e(`${where}: ${err.message}`); } }
         return { ...s, accessed, year: String(s.year ?? ''), lang: String(s.lang || '').toLowerCase() };
@@ -85,7 +86,19 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
       try { ({ html, headings, citeOrder, refs } = renderMarkdown(body, { sources, root: ROOT, file: rel })); } catch (err) { e(err.message); }
       for (const s of sources) if (!citeOrder.includes(s.id)) e(`kaynak metinde hic atif almamis: [@${s.id}]`);
       const ordered = [...citeOrder.map((id) => sources.find((s) => s.id === id)), ...sources.filter((s) => !citeOrder.includes(s.id))];
-      ordered.forEach((s, i) => { s.n = i + 1; s.refs = refs.get(s.id) || []; });
+      ordered.forEach((s, i) => {
+        s.n = i + 1;
+        const r = refs.get(s.id) || [];
+        s.refs = r.map((x) => x.occ);
+        // Kaynagin kullanildigi bolumler (bilgi penceresi icin), yazidaki sirayla
+        s.uses = [];
+        for (const x of r) {
+          const key = x.section?.id || '';
+          let u = s.uses.find((y) => y.id === key);
+          if (!u) s.uses.push(u = { id: key, text: x.section?.text || 'Giriş', occs: [] });
+          u.occs.push(x.occ);
+        }
+      });
 
       const { words, minutes } = readingMinutes(stripHtml(html.replace(/<sup class="cite">.*?<\/sup>/g, '')));
       if (words < 600) w(`govde kisa (${words} kelime)`);

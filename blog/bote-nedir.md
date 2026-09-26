@@ -3,7 +3,7 @@ title: "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi"
 url: https://www.bote.web.tr/blog/bote-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Bölüm Rehberi
 description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimler
 
 > BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
 
 ## Kısaca
 
@@ -71,9 +71,26 @@ Bu çerçevelerin ortak mesajı şu: Teknolojiyi iyi bilmek tek başına yetmez.
 
 ## Güncel gelişmeler: 2025'te ne değişti?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[11] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[12]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[11] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[11]
 
 Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
+
+## Alanın temel kavramları
+
+BÖTE'de ve bu blogda sık karşılaşacağınız kavramları kısaca tanımlayalım. Her birini ayrıntılı ele aldığımız yazılara bağlantı verdik:
+
+| Kavram | Kısaca | Ayrıntı |
+|---|---|---|
+| Eğitim teknolojisi | Uygun teknolojik süreç ve kaynakları oluşturarak, kullanarak ve yöneterek öğrenmeyi kolaylaştırma çalışması | Bu yazı |
+| Öğretim tasarımı | Öğrenme ihtiyacından yola çıkarak öğretimi sistemli biçimde planlama | [ADDIE modeli](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) |
+| TPACK | Alan, pedagoji ve teknoloji bilgisinin kesişiminde oluşan öğretmen bilgisi | [TPACK modeli](https://www.bote.web.tr/blog/tpack-modeli-nedir) |
+| Bilgi işlemsel düşünme | Problemleri bir bilgisayarın da uygulayabileceği adımlarla çözme biçimi | [Bilgi işlemsel düşünme](https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) |
+| Çoklu ortam öğrenme | Sözcük ve görselin birlikte, bilişsel yükü gözeterek kullanılması | [Mayer'in ilkeleri](https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) |
+| Uzaktan eğitim | Öğrenen ile öğretenin fiziksel olarak ayrı olduğu eğitim | [Uzaktan eğitim](https://www.bote.web.tr/blog/uzaktan-egitim-nedir) |
+| Oyunlaştırma | Oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılması | [Oyunlaştırma](https://www.bote.web.tr/blog/oyunlastirma-nedir) |
+| İnsan performans teknolojisi | Performans sorunlarını yalnızca eğitimle değil, çevresel ve örgütsel etkenlerle birlikte ele alan yaklaşım | Aşağıda |
+
+Son kavram BÖTE'nin sınırlarını anlamak için önemlidir. Çakır, Çebi ve Özcan'ın belirttiği gibi alan, öğretim sistemleri tasarımından başlayıp zamanla bir kurumdaki insan performansını bütüncül biçimde ele alan bir yaklaşıma doğru genişledi.[3] Bu nedenle bir BÖTE mezunu yalnızca "ders hazırlayan" değil, "öğrenme ve performans sorununu çözen" biri olarak da düşünülebilir.
 
 ## BÖTE kimler için uygun bir seçim?
 
@@ -133,5 +150,4 @@ Hayır. Öğretmenlik ana hedef olsa da mezunlar öğretim tasarımı, e-öğren
 8. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
 9. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
 10. Mishra, P. ve Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. Teachers College Record, 108(6), 1017–1054. https://doi.org/10.1111/j.1467-9620.2006.00684.x (EN, erişim: 2026-09-25)
-11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-12. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
+11. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)

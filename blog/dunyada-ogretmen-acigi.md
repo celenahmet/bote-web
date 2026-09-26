@@ -3,7 +3,7 @@ title: "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?"
 url: https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Yükseköğretim ve Politika
 description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo."
 ---
@@ -12,7 +12,7 @@ description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Ö
 
 > UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
 
 ## Kısaca
 
@@ -32,6 +32,19 @@ UNESCO ve Eğitim 2030 için Uluslararası Öğretmen Görev Gücü'nün 2024'te
 Rapor, öğretmen açığını tek bir nedene bağlamaz. Bazı bölgelerde okul çağındaki nüfusun hızla artması, bazı bölgelerde ise öğretmenlerin emekliliği ve meslekten ayrılması belirleyici. Yüksek gelirli ülkelerde sorun, yeni öğretmen yetiştirmekten çok mevcut öğretmenleri meslekte tutmakla ilgili.[1]
 
 Bu tablo, öğretmenlik mesleğinin cazibesiyle doğrudan bağlantılı. OECD'nin TALIS 2018 araştırmasına göre katılan OECD ülkelerindeki öğretmenlerin yalnızca yüzde 26'sı mesleklerinin toplumda değer gördüğünü düşünüyor.[3] Mesleğin değer görmediğini düşünen öğretmenlerin oranının yüksek olması, yeni kuşakların öğretmenliği tercih etmesini de zorlaştırıyor.
+
+## Açık nasıl ölçülür?
+
+Öğretmen açığı tek bir sayıyla ölçülmez. Raporlarda en sık kullanılan göstergeler şunlardır:
+
+| Gösterge | Ne anlatır? |
+|---|---|
+| Öğrenci–öğretmen oranı | Bir öğretmene düşen ortalama öğrenci sayısı; açığın ilk göstergesi |
+| Nitelikli öğretmen oranı | Gerekli asgari eğitimi almış öğretmenlerin payı |
+| Meslekten ayrılma oranı | Her yıl mesleği bırakan öğretmenlerin payı |
+| Emeklilik projeksiyonları | Önümüzdeki yıllarda emekliye ayrılacak öğretmen sayısı |
+
+UNESCO raporunun 44 milyonluk tahmini bu göstergelerin birlikte değerlendirilmesine dayanır: yeni açılacak öğretmen kadrolarının yanında meslekten ayrılanların yerine alınması gereken öğretmenleri de kapsar.[1] Bu nedenle açık yalnızca "yeni öğretmen yetiştirme" sorunu değil, aynı zamanda "mevcut öğretmeni tutma" sorunudur.
 
 ## Çözüm önerileri
 

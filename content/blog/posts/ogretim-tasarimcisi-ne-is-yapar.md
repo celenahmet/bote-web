@@ -2,6 +2,7 @@
 title: "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu"
 description: "Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı."
 date: 2026-09-25
+updated: 2026-09-26
 category: kariyer
 tags: [öğretim tasarımcısı, instructional designer, kurumsal eğitim, e-öğrenme, kariyer]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://doi.org/10.1007/978-0-387-09506-6"
     lang: en
     accessed: 2026-09-25
+    note: "ADDIE sürecini ayrıntılı anlatan temel kitap. Öğretim tasarımcısının gündelik görevlerini sürece bağlamak için kullanıldı."
   - id: bls-tds
     title: "Occupational Outlook Handbook: Training and Development Specialists"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -38,6 +40,7 @@ sources:
     url: "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin eğitim ve geliştirme uzmanları sayfası. Mesleğin kurumsal tanımının kaynağı."
   - id: bls-ic
     title: "Occupational Outlook Handbook: Instructional Coordinators"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -45,6 +48,7 @@ sources:
     url: "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin öğretim koordinatörleri sayfası. Okul sistemlerindeki karşılığı ve yüksek lisans beklentisi buradan."
   - id: merrill2002
     author: "Merrill, M. D."
     title: "First Principles of Instruction"
@@ -53,8 +57,35 @@ sources:
     url: "https://doi.org/10.1007/BF02505024"
     lang: en
     accessed: 2026-09-25
+    note: "Etkili öğretimin beş ilkesini tanımlayan makale. Tasarımcının kalite ölçütü olarak kullanıldı."
+  - id: krathwohl2002
+    author: "Krathwohl, D. R."
+    title: "A Revision of Bloom's Taxonomy: An Overview"
+    publisher: "Theory Into Practice, 41(4), 212–218"
+    year: 2002
+    url: "https://doi.org/10.1207/s15430421tip4104_2"
+    lang: en
+    accessed: 2026-09-25
+    note: "Bloom taksonomisinin güncel hâlini özetleyen makale. Öğrenme hedefi yazma becerisinin dayanağı."
+  - id: biggs1996
+    author: "Biggs, J."
+    title: "Enhancing Teaching Through Constructive Alignment"
+    publisher: "Higher Education, 32(3), 347–364"
+    year: 1996
+    url: "https://doi.org/10.1007/BF00138871"
+    lang: en
+    accessed: 2026-09-25
+    note: "Hedef, etkinlik ve değerlendirmenin hizalanmasını anlatan makale. Tasarımcının araç setindeki tutarlılık ilkesi."
+  - id: mayer2020
+    author: "Mayer, R. E."
+    title: "Multimedia Learning (3. baskı)"
+    publisher: "Cambridge University Press"
+    year: 2020
+    url: "https://doi.org/10.1017/9781316941355"
+    lang: en
+    accessed: 2026-09-25
+    note: "Çoklu ortam öğrenme ilkelerinin temel kaynağı. Tasarımcının materyal üretirken kullandığı ilkeler için başvuruldu."
 ---
-
 BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği mesleklerden biri **öğretim tasarımcılığı**. İş ilanlarında "instructional designer", "e-öğrenme uzmanı" ya da "eğitim içerik geliştirme uzmanı" gibi farklı adlarla karşımıza çıkan bu rolün ne içerdiği ise çoğu zaman belirsiz kalıyor. Bu yazıda öğretim tasarımcısının gündelik işini, gereken becerileri ve bu mesleğe nasıl hazırlanılabileceğini ele alıyoruz.
 
 ## Öğretim tasarımcısı ne yapar?
@@ -69,6 +100,20 @@ BÖTE mezunlarının öğretmenlik dışında en sık yöneldiği mesleklerden b
 - Eğitim sonrası sonuçları ölçmek ve programı iyileştirmek (değerlendirme).
 
 ABD Çalışma İstatistikleri Bürosu, kurumlarda çalışanların beceri ve bilgisini geliştirmek için eğitim programlarını planlayan ve yürüten **eğitim ve geliştirme uzmanlarını** ayrı bir meslek olarak tanımlar.[@bls-tds] Okul sistemlerinde öğretim programlarını ve öğretim standartlarını yöneten **öğretim koordinatörleri** ise ayrı bir meslek grubudur ve genellikle yüksek lisans ile öğretmenlik deneyimi ister.[@bls-ic]
+
+## Tasarımcının araç seti
+
+İyi bir öğretim tasarımcısını "e-öğrenme aracı kullanabilen" birinden ayıran, arka plandaki kuramsal araç setidir. Bu araç setinin temel parçaları şunlardır:
+
+| Araç | Ne işe yarar? | Kaynağı |
+|---|---|---|
+| ADDIE süreci | Projeyi analizden değerlendirmeye kadar sistemli yönetmek | Branch[@branch2009] |
+| Güncellenmiş Bloom taksonomisi | Ölçülebilir öğrenme hedefleri yazmak | Krathwohl[@krathwohl2002] |
+| Yapıcı hizalama | Hedef, etkinlik ve sınavın aynı şeyi istemesini sağlamak | Biggs[@biggs1996] |
+| Öğretimin ilk ilkeleri | Tasarımı gerçek bir problem etrafında kurmak | Merrill[@merrill2002] |
+| Çoklu ortam ilkeleri | Video ve görselleri bilişsel yükü azaltacak biçimde tasarlamak | Mayer[@mayer2020] |
+
+Bu çerçevelerin her birini blogda ayrı yazılarda ele aldık: [öğretim tasarımı ve ADDIE](/blog/ogretim-tasarimi-addie-modeli) ile [çoklu ortam öğrenme ilkeleri](/blog/coklu-ortam-ogrenme-ilkeleri). Tasarımcının günlük işinde bunlar ayrı ayrı değil, aynı proje içinde birlikte kullanılır.
 
 ## Nerede çalışır?
 

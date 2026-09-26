@@ -2,6 +2,7 @@
 title: "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?"
 description: "Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [meslek bilgisi dersleri, öğretmenlik programı, eğitim fakültesi dersleri, Shulman, öğretmen bilgisi]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018 öğretmenlik programı belgelerinden biri. Meslek bilgisi derslerinin listesi, payı ve 2018'deki değişiklikler bu belgeden."
   - id: yok2018
     title: "Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı"
     publisher: "Yükseköğretim Kurulu"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018 programlarını tanıttığı duyuru. Programların uygulanmaya başladığı tarihin kaynağı."
   - id: program2018
     author: "Çetin, A. vd."
     title: "2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi"
@@ -45,6 +48,7 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/deubefd/article/904931"
     lang: tr
     accessed: 2026-09-25
+    note: "2018 programlarını inceleyen Türk akademik makalesi. Meslek bilgisi derslerindeki değişiklikleri doğrulamak için kullanıldı."
   - id: shulman1986
     author: "Shulman, L. S."
     title: "Those Who Understand: Knowledge Growth in Teaching"
@@ -53,6 +57,7 @@ sources:
     url: "https://doi.org/10.3102/0013189X015002004"
     lang: en
     accessed: 2026-09-25
+    note: "Pedagojik alan bilgisi kavramını ortaya atan makale. Meslek bilgisi derslerinin neden gerekli olduğunu açıklayan kuramsal zemin."
   - id: shulman1987
     author: "Shulman, L. S."
     title: "Knowledge and Teaching: Foundations of the New Reform"
@@ -61,6 +66,7 @@ sources:
     url: "https://doi.org/10.17763/haer.57.1.j463w79r56455411"
     lang: en
     accessed: 2026-09-25
+    note: "Öğretmen bilgisini yedi kategoride toplayan makale. Meslek bilgisi derslerini bu kategorilerle eşleştirmek için kullanıldı."
   - id: darling2006
     author: "Darling-Hammond, L."
     title: "Constructing 21st-Century Teacher Education"
@@ -69,8 +75,8 @@ sources:
     url: "https://doi.org/10.1177/0022487105285962"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü öğretmen eğitimi programlarının ortak özelliklerini inceleyen makale. Kuram ile uygulamanın bağlanmasının önemini gösteren kaynak."
 ---
-
 Bir matematikçi ile bir matematik öğretmenini ayıran nedir? İkisi de matematik bilir; ama öğretmen bu bilgiyi farklı yaşlardaki, farklı ön bilgilere sahip öğrencilere öğretilebilir hâle getirmek zorundadır. Eğitim fakültelerindeki **öğretmenlik meslek bilgisi dersleri** tam olarak bu bilgiyi kazandırmayı hedefler. Bu yazıda bu dersleri, 2018'deki değişiklikleri ve kuramsal arka planını ele alıyoruz.
 
 ## Programların üç bileşeni
@@ -92,6 +98,24 @@ Meslek bilgisi dersleri tüm öğretmenlik programlarında ortaktır. Bir fen bi
 | Uygulama | Öğretmenlik Uygulaması I ve II |
 
 Programlarda ayrıca öğrencinin kendi ilgi alanına göre seçebileceği meslek bilgisi seçmeli dersleri de bulunur.
+
+## Her ders ne kazandırır?
+
+Ders adları tek başına içeriği anlatmayabilir. Program belgelerindeki ders tanımlarına dayanarak derslerin öğretmen adayına kazandırdıklarını şöyle özetleyebiliriz:[@yokbote]
+
+| Ders | Öğretmen adayına kazandırdığı |
+|---|---|
+| Eğitim Psikolojisi | Gelişim dönemlerini ve öğrenme kuramlarını tanıyıp öğrenciyi anlamak |
+| Öğretim İlke ve Yöntemleri | Hedefe uygun yöntem ve teknik seçmek, ders planlamak |
+| Sınıf Yönetimi | Öğrenme ortamını düzenlemek, kuralları ve iletişimi yönetmek |
+| Eğitimde Ölçme ve Değerlendirme | Geçerli ve güvenilir ölçme araçları hazırlamak, sonuçları yorumlamak |
+| Öğretim Teknolojileri | Teknolojiyi öğretim hedeflerine hizmet edecek biçimde kullanmak |
+| Özel Eğitim ve Kaynaştırma | Özel gereksinimli öğrencileri tanımak, sınıf içi uyarlamalar yapmak |
+| Okullarda Rehberlik | Öğrencinin gelişimini desteklemek, rehberlik servisiyle iş birliği yapmak |
+| Eğitimde Ahlak ve Etik | Mesleki etik ilkeleri tanımak ve etik ikilemleri tartışabilmek |
+| Eğitimde Araştırma Yöntemleri | Eğitim araştırmalarını okuyup değerlendirmek |
+
+Tablodaki derslerin çoğu, sınıfa girildiği ilk gün doğrudan kullanılan bilgiler sunar. Özellikle ölçme-değerlendirme ve sınıf yönetimi, yeni öğretmenlerin en çok zorlandığını ifade ettiği alanlar arasında sayılır; bu dersleri öğretmenlik uygulamasıyla ilişkilendirerek çalışmak büyük fark yaratır.
 
 ## 2018'de ne değişti?
 

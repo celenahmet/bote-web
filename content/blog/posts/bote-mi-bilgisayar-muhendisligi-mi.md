@@ -2,6 +2,7 @@
 title: "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi"
 description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma."
 date: 2026-09-25
+updated: 2026-09-26
 category: bolum-rehberi
 tags: [BÖTE, bilgisayar mühendisliği, tercih, bölüm karşılaştırma, bilgisayar öğretmenliği]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün BÖTE lisans programı belgesi. BÖTE'nin amaç ve ders yapısına ilişkin karşılaştırmanın resmî dayanağı."
   - id: acm-cs2023
     author: "ACM, IEEE Computer Society ve AAAI"
     title: "Computer Science Curricula 2023 (CS2023)"
@@ -38,6 +40,7 @@ sources:
     url: "https://csed.acm.org/"
     lang: en
     accessed: 2026-09-25
+    note: "Bilgisayar biliminin uluslararası müfredat rehberi. Bilgisayar mühendisliği tarafının beklenen bilgi alanlarını göstermek için kullanıldı."
   - id: yokatlas
     title: "YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler"
     publisher: "Yükseköğretim Kurulu"
@@ -45,6 +48,7 @@ sources:
     url: "https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün tercih aracı. İki programın puan türüne ilişkin bilgi buradan."
   - id: ttkb-esaslar
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -52,6 +56,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik alanları ve ders okutma esasları. BÖTE mezunlarının atama alanını ve kaynak program koşulunu göstermek için kullanıldı."
   - id: bls-ic
     title: "Occupational Outlook Handbook: Instructional Coordinators"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -59,6 +64,7 @@ sources:
     url: "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin öğretim koordinatörleri sayfası. BÖTE'nin öğretmenlik dışı kariyer yoluna örnek olarak verildi."
   - id: bls-sd
     title: "Occupational Outlook Handbook: Software Developers, Quality Assurance Analysts, and Testers"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -66,8 +72,16 @@ sources:
     url: "https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin yazılım geliştiriciler sayfası. Bilgisayar mühendisliği mezunlarının temel kariyer yolunu göstermek için kullanıldı."
+  - id: rg7528
+    title: "7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete)"
+    publisher: "Resmî Gazete"
+    year: 2024
+    url: "https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm"
+    lang: tr
+    accessed: 2026-09-25
+    note: "7528 sayılı Öğretmenlik Mesleği Kanunu. BÖTE mezunlarının mezuniyet sonrası öğretmenlik sürecinin yasal dayanağı."
 ---
-
 Sayısal puanla bilişim alanında okumak isteyen adayların sık karşılaştığı ikilemlerden biri: **BÖTE mi, bilgisayar mühendisliği mi?** İki bölüm de bilgisayarla ilgilidir, ama farklı sorulara cevap verir. Bu yazıda iki programı amaç, dersler ve kariyer yolları açısından tarafsız biçimde karşılaştırıyoruz.
 
 ## Temel fark: ne yetiştiriyorlar?
@@ -96,6 +110,12 @@ BÖTE mezununun temel yolu öğretmenliktir. 2025'ten itibaren genel okullar iç
 Bilgisayar mühendisliği mezunları ise ağırlıklı olarak yazılım geliştirme ve sistem tasarımı alanlarında çalışır. Aynı kaynak, yazılım geliştiricilerin genellikle bilgisayar ve bilişim teknolojileri ya da ilgili bir alanda lisans derecesine sahip olduğunu belirtir.[@bls-sd]
 
 Bu iki yol kesin çizgilerle ayrılmaz. BÖTE mezunları yazılım sektöründe çalışabilir; ancak bunun için ek çalışma gerekir. Bu konuyu [BÖTE mezunu yazılımcı olabilir mi?](/blog/bote-mezunu-yazilimci-olabilir-mi) yazımızda ayrıntılı ele aldık.
+
+## Mezuniyetten sonra hangi süreç bekliyor?
+
+İki bölüm arasındaki fark mezuniyetten sonra da sürer. BÖTE mezunu MEB'e öğretmen olmak isterse 7528 sayılı Öğretmenlik Mesleği Kanunu'nun öngördüğü süreçten geçer: önce Akademi Giriş Sınavı (AGS), ardından Millî Eğitim Akademisi'nde hazırlık eğitimi.[@rg7528] Bu süreç, lisanstan sonra yaklaşık bir yıllık ek bir hazırlık dönemi anlamına gelir. Bilgisayar mühendisliği mezunu ise özel sektörde doğrudan iş başvurusu yapar; işe alımda teknik mülakatlar ve projeler belirleyicidir. Kamu kurumlarındaki mühendis alımları ise kurumların kendi ilan ve sınav koşullarına bağlıdır.
+
+Bu fark, tercih yaparken yalnızca dört yıllık lisansı değil, mezuniyet sonrasındaki ilk birkaç yılı da düşünmek gerektiğini gösteriyor.
 
 ## Kime hangisi uygun?
 

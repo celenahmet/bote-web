@@ -3,7 +3,7 @@ title: "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri"
 url: https://www.bote.web.tr/blog/iste-standartlari-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Teknolojileri
 description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber."
 ---
@@ -12,7 +12,7 @@ description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim t
 
 > ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
 
 ## Kısaca
 
@@ -45,13 +45,31 @@ Bu listede programlama yalnızca bir rolün parçasıdır. Standartların ağır
 
 ## Öğretmen standartları: yedi rol
 
-Öğretmen standartları öğretmeni de yedi rolle tanımlar: **öğrenen, lider, vatandaş, iş birlikçi, tasarımcı, kolaylaştırıcı ve analist**.[1] Bu rollerin bir kısmı teknolojiye doğrudan bağlı değildir. Örneğin "öğrenen" rolü öğretmenin kendi mesleki gelişimini sürdürmesini, "analist" rolü ise veriyi öğretimini iyileştirmek için kullanmasını ifade eder. Standartlar, teknolojinin öğretmenin mesleki kimliğinin bir parçası olduğunu, ayrı bir beceri olmadığını vurgular.
+Öğretmen standartları öğretmeni de yedi rolle tanımlar:[1]
+
+| Rol | Öğretmenden beklenen |
+|---|---|
+| Öğrenen | Başkalarından ve başkalarıyla öğrenerek, kanıtlanmış uygulamaları keşfederek pratiğini sürekli geliştirir |
+| Lider | Öğrencilerin güçlenmesini ve başarısını destekleyecek liderlik fırsatları arar |
+| Vatandaş | Öğrencileri dijital dünyaya olumlu katkı sunmaya ve sorumlu katılmaya teşvik eder |
+| İş birlikçi | Meslektaşları ve öğrencileriyle birlikte çalışmaya zaman ayırır |
+| Tasarımcı | Öğrenci farklılıklarını gözeten, öğrenci merkezli etkinlikler ve ortamlar tasarlar |
+| Kolaylaştırıcı | Öğrenci başarısını teknolojiyle destekleyerek öğrenmeyi kolaylaştırır |
+| Analist | Veriyi öğretimi yönlendirmek ve öğrencileri desteklemek için anlar ve kullanır |
+
+Bu rollerin bir kısmı teknolojiye doğrudan bağlı değildir. Örneğin "öğrenen" rolü öğretmenin kendi mesleki gelişimini sürdürmesini, "analist" rolü ise veriyi öğretimini iyileştirmek için kullanmasını ifade eder. Standartlar, teknolojinin öğretmenin mesleki kimliğinin bir parçası olduğunu, ayrı bir beceri olmadığını vurgular.
 
 ## Koç standartları: okuldaki teknoloji uzmanı
 
 ISTE, okullarda öğretmenlere teknoloji entegrasyonu konusunda destek veren **eğitim teknolojisi koçları** için ayrı standartlar yayımlar. Bu standartlar koçu değişim ajanı, bağlantılı öğrenen, iş birlikçi, öğrenme tasarımcısı, mesleki öğrenme kolaylaştırıcısı, veriye dayalı karar veren ve dijital vatandaşlık savunucusu olarak tanımlar.[3]
 
 Bu rol, BÖTE mezunlarının okullardaki potansiyel görevlerine oldukça yakındır. Bir BÖTE mezunu kendi dersini okuttuğu gibi, okuldaki diğer branş öğretmenlerinin teknolojiyi pedagojik amaçlarla kullanmasına da destek verebilir. Türkiye'de bu rol ayrı bir kadro olarak tanımlanmış değildir; ancak okullardaki uygulamada bilişim öğretmenleri çoğu zaman bu işlevi üstlenir.
+
+## Yönetici standartları
+
+Teknoloji entegrasyonu yalnızca öğretmenlerin çabasıyla gerçekleşmez; okul yönetiminin vizyonu ve desteği belirleyicidir. ISTE bu nedenle eğitim yöneticileri için de standartlar yayımlar. Bu standartlar yöneticiyi **eşitlik ve dijital vatandaşlık savunucusu, vizyoner planlayıcı, güçlendiren lider, sistem tasarımcısı ve bağlantılı öğrenen** olarak tanımlar.[4] Örneğin "sistem tasarımcısı" rolü, altyapının, veri gizliliği politikalarının ve teknik desteğin okulun öğrenme hedeflerine hizmet edecek biçimde kurulmasını ifade eder.
+
+Öğrenci, öğretmen, koç ve yönetici standartlarının birlikte okunması, ISTE'nin teknoloji entegrasyonunu okulun bütününe yayılan bir sistem olarak gördüğünü ortaya koyar.
 
 ## Diğer çerçevelerle karşılaştırma
 
@@ -61,7 +79,7 @@ Bu rol, BÖTE mezunlarının okullardaki potansiyel görevlerine oldukça yakın
 | DigCompEdu | Avrupa Komisyonu | 6 alan, 22 yetkinlik, 6 düzey | Ayrıntılı gelişim düzeyleri ve öz değerlendirme aracı |
 | BİT Yetkinlik Çerçevesi | UNESCO | 3 düzeyde yetkinlikler | Eğitim politikalarıyla bağlantı |
 
-DigCompEdu eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlikle tanımlar ve A1'den C2'ye bir gelişim modeli sunar.[4] UNESCO'nun çerçevesi ise yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır.[5] Üç çerçeve farklı dillerle benzer bir şeyi söyler: teknoloji kullanımı, pedagojik amaçlara ve etik ilkelere bağlandığında anlam kazanır.
+DigCompEdu eğitimcilerin dijital yetkinliğini altı alanda 22 yetkinlikle tanımlar ve A1'den C2'ye bir gelişim modeli sunar.[5] UNESCO'nun çerçevesi ise yetkinlikleri bilgi edinme, bilgiyi derinleştirme ve bilgi oluşturma düzeylerinde ele alır.[6] Üç çerçeve farklı dillerle benzer bir şeyi söyler: teknoloji kullanımı, pedagojik amaçlara ve etik ilkelere bağlandığında anlam kazanır.
 
 ## Standartlar derse nasıl yansır? Bir örnek
 
@@ -110,5 +128,6 @@ ISTE standartları öğretmeni rollerle tanımlar ve öğrenci, öğretmen, koç
 1. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards (EN, erişim: 2026-09-25)
 2. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-09-25)
 3. International Society for Technology in Education (ISTE) (2019). ISTE Standards: For Coaches. https://iste.org/standards/coaches (EN, erişim: 2026-09-25)
-4. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
-5. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)
+4. International Society for Technology in Education (ISTE) (2018). ISTE Standards: For Education Leaders. https://iste.org/standards/education-leaders (EN, erişim: 2026-09-25)
+5. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+6. UNESCO (2018). UNESCO ICT Competency Framework for Teachers (Version 3). https://unesdoc.unesco.org/ark:/48223/pf0000265721 (EN, erişim: 2026-09-25)

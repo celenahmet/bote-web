@@ -2,6 +2,7 @@
 title: "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler"
 description: "Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [Finlandiya eğitim sistemi, öğretmen yetiştirme, yüksek lisans, karşılaştırmalı eğitim, eğitim fakültesi]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://eurydice.eacea.ec.europa.eu/eurypedia/finland/initial-education-teachers-working-early-childhood-and-school-education"
     lang: en
     accessed: 2026-09-25
+    note: "Eurydice'in Finlandiya'daki öğretmen yetiştirme sistemini anlatan resmî sayfası. Yüksek lisans şartı ve uygulama okulları bilgisi buradan."
   - id: tirri2014
     author: "Tirri, K."
     title: "The Last 40 Years in Finnish Teacher Education"
@@ -38,6 +40,7 @@ sources:
     url: "https://doi.org/10.1080/02607476.2014.956545"
     lang: en
     accessed: 2026-09-25
+    note: "Finlandiya'daki öğretmen eğitiminin son kırk yılını anlatan makale. Araştırmaya dayalı öğretmen eğitimi ve mesleki özerklik vurgusu bu kaynaktan."
   - id: eurydice
     title: "Türkiye: Initial Education for Teachers Working in Early Childhood and School Education"
     publisher: "European Commission, Eurydice"
@@ -45,6 +48,7 @@ sources:
     url: "https://eurydice.eacea.ec.europa.eu/eurypedia/turkiye/initial-education-teachers-working-early-childhood-and-school-education"
     lang: en
     accessed: 2026-09-25
+    note: "Eurydice'in Türkiye sayfası. Karşılaştırma tablosunda Türkiye tarafının kaynağı."
   - id: mea-program
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -52,6 +56,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Millî Eğitim Akademisi hazırlık eğitimi programı. Türkiye'deki lisans sonrası hazırlık dönemini Finlandiya ile karşılaştırmak için kullanıldı."
   - id: pisa2022
     title: "PISA 2022 Results (Volume I): The State of Learning and Equity in Education"
     publisher: "OECD"
@@ -59,6 +64,7 @@ sources:
     url: "https://doi.org/10.1787/53f23881-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin PISA 2022 sonuçları. Finlandiya'nın uzun dönemli puan düşüşüne ilişkin bilginin kaynağı."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -66,8 +72,8 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Mesleğin cazibesinin eğitim düzeyinin ötesindeki etkenlerini göstermek için kullanıldı."
 ---
-
 Uluslararası eğitim tartışmalarında Finlandiya'nın adı çoğu zaman öğretmenlerle birlikte anılır. Peki Finlandiya'da öğretmenler gerçekte nasıl yetiştiriliyor ve Türkiye bu deneyimden ne öğrenebilir? Bu yazıda Finlandiya'nın öğretmen yetiştirme modelini resmî ve akademik kaynaklara dayanarak özetliyor, Türkiye ile dikkatli bir karşılaştırma yapıyoruz.
 
 ## Yüksek lisans şartı
@@ -96,6 +102,12 @@ Finlandiya'da öğretmen adaylarının uygulama deneyimi, üniversitelerle yakı
 | Öne çıkan ilke | Araştırmaya dayalı öğretmen eğitimi | Alan ve meslek bilgisinin birlikte verilmesi |
 
 Türkiye'de öğretmen yetiştirmenin ana modeli, alan ve meslek bilgisinin lisans boyunca birlikte verildiği eşzamanlı modeldir.[@eurydice] 7528 sayılı Kanun'la mezuniyet sonrasına Millî Eğitim Akademisi'nde onar haftalık dört dönemlik bir hazırlık eğitimi eklendi.[@mea-program] Yani iki ülke de öğretmen adaylarına lisans sonrasında ek bir hazırlık sunuyor; ancak Finlandiya bunu üniversitede yüksek lisans düzeyinde, Türkiye ise merkezî bir akademide yapıyor.
+
+## Türkiye için uygulanabilir bir fikir: araştırma temelli bitirme projesi
+
+Finlandiya modelinin en kolay uyarlanabilecek unsurlarından biri araştırma okuryazarlığıdır. Finlandiya'da öğretmen adayları yüksek lisans düzeyinde bir tez hazırlar.[@tirri2014] Türkiye'de öğretmenlik programları lisans düzeyinde olsa da benzer bir amaç, son sınıfta öğretmenlik uygulamasıyla birleştirilen küçük ölçekli bir **eylem araştırmasıyla** gerçekleştirilebilir: aday, uygulama okulunda gözlemlediği bir öğrenme sorununu tanımlar, bir çözüm dener, sonuçları toplar ve yorumlar.
+
+Bu tür bir proje hem Finlandiya modelindeki "kanıta dayalı karar" alışkanlığını kazandırır hem de adayın portfolyosuna güçlü bir çalışma ekler. Uygulamanın başarısı ise uygulama okullarıyla fakülteler arasındaki iş birliğinin gücüne bağlıdır; Finlandiya'daki üniversiteye bağlı uygulama okulları tam da bu iş birliğinin kurumsallaşmış hâlidir.[@eurydice-fi]
 
 ## Finlandiya'da da her şey yolunda değil
 

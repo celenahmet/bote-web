@@ -3,7 +3,7 @@ title: "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?"
 url: https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Yükseköğretim ve Politika
 description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar."
 ---
@@ -12,7 +12,7 @@ description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu
 
 > Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 
 ## Kısaca
 
@@ -36,6 +36,12 @@ Dikkat çekici bir ayrıntı daha var: rapor, bu algıda genç ve deneyimli öğ
 ## İş doyumu ile saygınlık algısı farklı şeyler
 
 TALIS verileri önemli bir ayrıma da işaret ediyor: öğretmenlerin büyük çoğunluğu işlerinden genel olarak memnun olduğunu belirtirken, mesleğin toplumda değer gördüğünü düşünenlerin oranı çok daha düşük.[2] Başka bir deyişle öğretmenler sınıftaki işlerini seviyor, ama toplumun bu işe yeterince değer vermediğini düşünüyor. Bu ayrım, mesleğin cazibesini artırmaya yönelik politikaların yalnızca okul içi koşullara değil, mesleğin toplumsal konumuna da odaklanması gerektiğini gösteriyor.
+
+## Özerklik ve iş birliği
+
+TALIS'in ikinci cildi, öğretmenlerin mesleklerine ilişkin algısını etkileyen okul içi etkenlere de odaklanır. Rapor, öğretmenlerin ders içeriği, yöntem ve değerlendirme gibi konularda karar verme özerkliğini ve meslektaşlarıyla iş birliği yapma fırsatlarını ayrıntılı biçimde inceler; bu etkenleri öğretmenlerin iş doyumu ve mesleki öz yeterlik algısıyla ilişkilendirir.[2]
+
+Bu bulgunun pratik anlamı şudur: mesleğin saygınlığı yalnızca toplumsal algıyla ya da ücretle belirlenmez; öğretmenin okulda profesyonel olarak güvenilip güvenilmediğiyle de ilgilidir. Birlikte ders planlayan, birbirinin dersini gözlemleyen ve kararlara katılan öğretmenlerin olduğu okullar, mesleğin değerini içeriden de güçlendirir.
 
 ## Mesleğin cazibesini ne etkiler?
 

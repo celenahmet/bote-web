@@ -2,6 +2,7 @@
 title: "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı"
 description: "Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [pedagojik formasyon, formasyon kalktı mı, öğretmenlik, Millî Eğitim Akademisi, fen-edebiyat]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://eurydice.eacea.ec.europa.eu/eurypedia/turkiye/initial-education-teachers-working-early-childhood-and-school-education"
     lang: en
     accessed: 2026-09-25
+    note: "Eurydice'in Türkiye'deki öğretmen yetiştirme sayfası. Eşzamanlı ve ardışık model ayrımının kaynağı."
   - id: yok-formasyon-sayfa
     title: "Pedagojik Formasyon Eğitimi"
     publisher: "Yükseköğretim Kurulu"
@@ -37,6 +39,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/page/496"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün pedagojik formasyon eğitimine ilişkin resmî sayfası. Formasyonun tanımı ve duyuruları için başvuru kaynağı."
   - id: yok-formasyon
     title: "Pedagojik Formasyon Eğitimine İlişkin Detaylar Belirlendi"
     publisher: "Yükseköğretim Kurulu"
@@ -44,6 +47,7 @@ sources:
     url: "https://www.yok.gov.tr/tr/news/pedagojik-formasyon-egitimine-iliskin-detaylar-belirlendi-6PigR"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün formasyon derslerinin lisans sırasında seçmeli olarak verilmesine ilişkin kararını duyuran haber."
   - id: ttkb-esaslar
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -51,13 +55,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
-  - id: ttkb2025
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları"
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
-    year: 2025
-    url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
-    lang: tr
-    accessed: 2026-09-25
+    note: "MEB'in öğretmenlik esaslarının Aralık 2025 tarihli güncel metni. Akademi adaylarında formasyon şartı aranmamasına ilişkin hükmün resmî kaynağı."
   - id: mea-program
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -65,6 +63,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Akademi hazırlık eğitimi programının MEB duyurusu. Meslek bilgisinin artık akademide de kazandırıldığını göstermek için kullanıldı."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -73,6 +72,7 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü sistemlerde öğretmen yetiştirmeyi karşılaştıran çalışma. Modelden çok niteliğin önemli olduğunu göstermek için kullanıldı."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -80,8 +80,8 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu. Öğretmen yetiştirmeyi hazırlık, uyum ve gelişimden oluşan bir süreç olarak ele alan bakış buradan."
 ---
-
 "Pedagojik formasyon kalktı mı?" Son yıllarda öğretmen adaylarının en çok aradığı sorulardan biri bu. Kısa cevap: **Aralık 2025'ten beri Millî Eğitim Akademisi'ne alınacak adaylardan formasyon şartı aranmıyor.** Ancak bu, öğretmenlik meslek bilgisinin önemini yitirdiği anlamına gelmiyor. Bu yazıda formasyonun ne olduğunu, son düzenlemeleri ve değişikliğin anlamını adım adım ele alıyoruz.
 
 ## Pedagojik formasyon nedir?
@@ -96,7 +96,7 @@ Bu düzenleme formasyonu mezuniyet sonrası ayrı bir sertifika programı olmakt
 
 ## Aralık 2025: akademi adaylarında formasyon şartı
 
-Asıl büyük değişiklik Aralık 2025'te geldi. MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'na eklenen hükme göre, Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacak adaylarda **pedagojik formasyonla ilgili şartlar aranmıyor**.[@ttkb-esaslar][@ttkb2025]
+Asıl büyük değişiklik Aralık 2025'te geldi. MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'na eklenen hükme göre, Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacak adaylarda **pedagojik formasyonla ilgili şartlar aranmıyor**.[@ttkb-esaslar]
 
 Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yatıyor. Öğretmen adayları artık AGS ile seçilip akademide dört dönemlik bir hazırlık eğitiminden geçiyor; bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[@mea-program] Başka bir deyişle öğretmenlik meslek bilgisinin bir kısmı artık akademide kazandırılıyor.
 
@@ -109,6 +109,18 @@ Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yat�
 | Akademi başvurusu yapacak adaylar | Formasyon şartı aranmıyor; kaynak program koşulu esaslardaki çizelgeye göre |
 
 Önemli bir ayrıntı: formasyon şartının aranmaması, her lisans programının her öğretmenlik alanına kaynak olduğu anlamına gelmez. Hangi programın hangi alana kaynak olduğunu esaslardaki çizelgeler belirler.[@ttkb-esaslar]
+
+## Üç örnek durum
+
+Değişikliğin somut anlamını üç farklı aday üzerinden görmek mümkün:
+
+**Elif, eğitim fakültesinde Türkçe öğretmenliği son sınıf öğrencisi.** Onun için pek bir şey değişmedi: meslek bilgisi dersleri ve öğretmenlik uygulaması zaten programının parçası. Mezun olduktan sonra AGS'ye girecek ve kabul edilirse akademide hazırlık eğitimi alacak.
+
+**Mert, fen-edebiyat fakültesinde tarih bölümü üçüncü sınıf öğrencisi.** Üniversitesi formasyon derslerini seçmeli olarak açıyorsa bu dersleri lisans sırasında alabilir.[@yok-formasyon] Öğretmenliğe başvurmak için ise önce tarih lisans programının ilgili öğretmenlik alanına kaynak olup olmadığını esaslardaki çizelgeden kontrol etmesi gerekiyor.[@ttkb-esaslar]
+
+**Zeynep, beş yıl önce mezun olmuş ve formasyon almamış bir matematik mezunu.** Akademi başvurusunda formasyon şartı aranmıyor; ancak o da kaynak program koşulunu kontrol etmeli ve AGS'ye hazırlanmalı. Meslek bilgisini akademinin hazırlık eğitiminde kazanacak.
+
+Üç durumun ortak noktası şu: formasyon şartının kalkması süreci ortadan kaldırmadı, yalnızca meslek bilgisinin kazanıldığı yeri değiştirdi.
 
 ## Uluslararası tartışma
 

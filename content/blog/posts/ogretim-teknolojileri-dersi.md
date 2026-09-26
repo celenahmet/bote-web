@@ -2,6 +2,7 @@
 title: "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin"
 description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?"
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [Öğretim Teknolojileri dersi, meslek bilgisi, eğitim fakültesi, dijital yetkinlik, TPACK]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018 öğretmenlik programı belgelerinden biri. Dersin zorunlu meslek bilgisi dersi olarak yerinin kaynağı."
   - id: program2018
     author: "Çetin, A. vd."
     title: "2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi"
@@ -38,6 +40,7 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/deubefd/article/904931"
     lang: tr
     accessed: 2026-09-25
+    note: "2018 programlarını inceleyen Türk akademik makalesi. Öğretim Teknolojileri ve Materyal Tasarımı dersinden yeni derse geçişin kaynağı."
   - id: mishra2006
     author: "Mishra, P. ve Koehler, M. J."
     title: "Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge"
@@ -46,6 +49,7 @@ sources:
     url: "https://doi.org/10.1111/j.1467-9620.2006.00684.x"
     lang: en
     accessed: 2026-09-25
+    note: "TPACK modelini tanıtan makale. Dersin kuramsal zeminini oluşturan temel çerçeve."
   - id: digcompedu
     author: "Redecker, C."
     title: "European Framework for the Digital Competence of Educators: DigCompEdu"
@@ -54,6 +58,7 @@ sources:
     url: "https://doi.org/10.2760/159770"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun eğitimciler için dijital yetkinlik çerçevesi. Dersin hedeflerini somutlaştırmak ve araç değerlendirme ölçütleri için kullanıldı."
   - id: iste2017
     title: "ISTE Standards: For Educators"
     publisher: "International Society for Technology in Education (ISTE)"
@@ -61,6 +66,7 @@ sources:
     url: "https://iste.org/standards"
     lang: en
     accessed: 2026-09-25
+    note: "ISTE'nin öğretmen standartları. Öğretmen adayının üstlenmesi beklenen rolleri tanımlamak için kullanıldı."
   - id: unesco-aicft
     author: "Miao, F. ve Cukurova, M."
     title: "AI Competency Framework for Teachers"
@@ -69,6 +75,7 @@ sources:
     url: "https://unesdoc.unesco.org/ark:/48223/pf0000391104"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun öğretmenler için yapay zekâ yetkinlik çerçevesi. Dersin yeni gündemi olan yapay zekâ boyutunun kaynağı."
   - id: meb-yz
     title: "Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı Yürürlüğe Girdi"
     publisher: "Millî Eğitim Bakanlığı"
@@ -76,8 +83,8 @@ sources:
     url: "https://www.meb.gov.tr/egitimde-yapay-zeka-politika-belgesi-ve-eylem-plani-yururluge-girdi/haber/37531/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in Eğitimde Yapay Zekâ Politika Belgesi'nin yürürlüğe girdiğini duyuran haber. Türkiye'deki politika bağlamı için kullanıldı."
 ---
-
 Eğitim fakültelerindeki meslek bilgisi dersleri arasında, teknolojinin hızla değişmesi nedeniyle içeriği en çok tartışılan derslerden biri **Öğretim Teknolojileri**. Bu yazıda dersin öğretmenlik programlarındaki yerini, 2018'deki değişikliği ve öğretmen adaylarının bu dersten nasıl en iyi şekilde yararlanabileceğini ele alıyoruz.
 
 ## Dersin programdaki yeri
@@ -97,6 +104,23 @@ Dersin temel sorusu şudur: Teknoloji, öğretmenin öğretim kararlarına nası
 ## Yeni gündem: yapay zekâ
 
 Üretken yapay zekâ araçlarının yaygınlaşması, Öğretim Teknolojileri dersine yeni bir boyut ekledi. UNESCO'nun 2024'te yayımladığı öğretmenler için yapay zekâ yetkinlik çerçevesi; insan merkezli bakış, yapay zekâ etiği, yapay zekâ temelleri ve uygulamaları, yapay zekâ pedagojisi ve mesleki gelişim için yapay zekâ olmak üzere beş boyutta 15 yetkinlik tanımlar.[@unesco-aicft] Türkiye'de de MEB'in 2025'te yürürlüğe giren **Eğitimde Yapay Zekâ Politika Belgesi ve Eylem Planı**, öğretmen eğitimini eylem alanları arasında sayıyor.[@meb-yz] Bu gelişmeler, öğretmen adaylarının teknolojiyi yalnızca kullanmayı değil, etik ve pedagojik açıdan değerlendirmeyi de öğrenmesini gerektiriyor. Konuyu [eğitimde yapay zekâ](/blog/egitimde-yapay-zeka-ogretmenler-icin) yazımızda ele aldık.
+
+## Örnek bir dönem akışı
+
+Dersin içeriği üniversiteye ve öğretim elemanına göre değişir. Aşağıdaki akış, yazıda anlattığımız çerçevelere dayanan **örnek** bir planlamadır; resmî bir program değildir:
+
+| Hafta | Konu | Çıktı |
+|---|---|---|
+| 1–2 | Öğretim teknolojisinin tanımı ve tarihçesi | Kavram haritası |
+| 3–4 | TPACK: alan, pedagoji ve teknolojinin kesişimi | Kendi alanından bir TPACK analizi |
+| 5–6 | Dijital kaynakları seçme ve değerlendirme | Kaynak değerlendirme ölçütleri listesi |
+| 7–8 | Çoklu ortam tasarım ilkeleri | Yeniden tasarlanmış bir sunum |
+| 9–10 | Çevrim içi ve harmanlanmış öğrenme | Kısa bir çevrim içi etkinlik |
+| 11–12 | Ölçme-değerlendirmede teknoloji | Dijital bir değerlendirme aracı |
+| 13 | Yapay zekâ: olanaklar, riskler, etik | Sınıf için yapay zekâ kullanım ilkeleri |
+| 14 | Erişilebilirlik ve kapsayıcılık | Erişilebilirlik kontrol listesi |
+
+Bu akışın ortak noktası, her haftanın somut bir ürünle bitmesidir. Dönem sonunda öğretmen adayının elinde, öğretmenlik uygulamasında ve mesleğin ilk yıllarında doğrudan kullanabileceği küçük bir portfolyo birikir.
 
 ## Dersten en iyi nasıl yararlanılır?
 

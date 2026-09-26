@@ -2,6 +2,7 @@
 title: "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım"
 description: "Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [öğretmenlik uygulaması, staj, uygulama öğretmeni, eğitim fakültesi, öğretmen adayı]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018 öğretmenlik programı belgelerinden biri. Öğretmenlik Uygulaması derslerinin 7. ve 8. yarıyıllardaki yeri buradan."
   - id: program2018
     author: "Çetin, A. vd."
     title: "2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi"
@@ -38,6 +40,7 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/deubefd/article/904931"
     lang: tr
     accessed: 2026-09-25
+    note: "2018 programlarını inceleyen Türk akademik makalesi. Okul Deneyimi dersinin kaldırılıp uygulamayla birleştirilmesinin kaynağı."
   - id: meb-ou
     title: "Uygulama Öğrencilerinin Millî Eğitim Bakanlığına Bağlı Eğitim Öğretim Kurumlarında Yapacakları Öğretmenlik Uygulamasına İlişkin Yönerge"
     publisher: "Millî Eğitim Bakanlığı"
@@ -45,6 +48,7 @@ sources:
     url: "https://mevzuat.meb.gov.tr/dosyalar/2066.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik uygulamasına ilişkin resmî yönergesi. Saatler, ders anlatım sayısı ve uygulama öğretmeni koşulları bu belgeden."
   - id: darling2006
     author: "Darling-Hammond, L."
     title: "Constructing 21st-Century Teacher Education"
@@ -53,6 +57,7 @@ sources:
     url: "https://doi.org/10.1177/0022487105285962"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü öğretmen eğitimi programlarının ortak özelliklerini inceleyen makale. Nitelikli uygulama deneyiminin önemini gösteren bölümün kaynağı."
   - id: zeichner2010
     author: "Zeichner, K."
     title: "Rethinking the Connections Between Campus Courses and Field Experiences in College- and University-Based Teacher Education"
@@ -61,8 +66,17 @@ sources:
     url: "https://doi.org/10.1177/0022487109347671"
     lang: en
     accessed: 2026-09-25
+    note: "Fakülte dersleri ile okul deneyimi arasındaki kopukluğu tartışan makale. Kuram-uygulama köprüsü fikrinin kaynağı."
+  - id: hattie2007
+    author: "Hattie, J. ve Timperley, H."
+    title: "The Power of Feedback"
+    publisher: "Review of Educational Research, 77(1), 81–112"
+    year: 2007
+    url: "https://doi.org/10.3102/003465430298487"
+    lang: en
+    accessed: 2026-09-25
+    note: "Geri bildirimin öğrenme üzerindeki etkisini inceleyen çok alıntılanan makale. Etkili geri bildirimin üç sorusu bu kaynaktan."
 ---
-
 Eğitim fakültesi öğrencileri için son sınıfın en heyecanlı ve en zorlu deneyimi genellikle **öğretmenlik uygulaması**dır. Dört yıl boyunca öğrenilen kuram, bu derste ilk kez gerçek bir sınıfla buluşur. Bu yazıda öğretmenlik uygulamasının resmî çerçevesini, sürecin nasıl işlediğini ve bu deneyimden en iyi nasıl yararlanılabileceğini ele alıyoruz.
 
 ## Öğretmenlik uygulamasının yeri
@@ -95,6 +109,12 @@ Bu çerçevede üç taraf bulunur: üniversitedeki **uygulama öğretim elemanı
 Uygulama deneyimi, dünyada öğretmen eğitiminin en çok tartışılan bileşenlerinden biri. Darling-Hammond, güçlü öğretmen eğitimi programlarının ortak özellikleri arasında kapsamlı ve iyi denetlenen uygulama deneyimini ve fakültedeki derslerle okul deneyimi arasındaki sıkı bağı sayar.[@darling2006] Zeichner ise üniversitedeki dersler ile okul deneyimi arasındaki kopukluğun öğretmen eğitiminin temel sorunlarından biri olduğunu, bu iki dünyayı buluşturan hibrit alanlara ihtiyaç duyulduğunu savunur.[@zeichner2010]
 
 Bu bulgular, uygulamanın yalnızca "saat doldurmak" olarak görülmemesi gerektiğini gösteriyor. Asıl değer, adayın kuramsal bilgisini gerçek sınıf durumlarıyla karşılaştırıp düzenli geri bildirimle geliştirebilmesinde yatıyor.
+
+## İyi geri bildirim nasıl olur?
+
+Öğretmenlik uygulamasının en değerli çıktısı, ders anlatımından sonra alınan geri bildirimdir. Hattie ve Timperley, etkili geri bildirimin üç soruyu yanıtlaması gerektiğini savunur: **Nereye gidiyorum?** (hedef), **Nasıl gidiyorum?** (mevcut durum) ve **Sırada ne var?** (bir sonraki adım). Yazarlar ayrıca kişiliğe yönelik genel övgünün ("çok iyi bir öğretmen olacaksın") öğrenmeye pek katkı sağlamadığını, göreve ve sürece yönelik somut geri bildirimin ise çok daha etkili olduğunu vurgular.[@hattie2007]
+
+Uygulama bağlamında bu, şu tür bir geri bildirim anlamına gelir: "Dersin hedefi öğrencilerin kesirleri karşılaştırmasıydı (hedef). Görsel model iyi işledi ama arka sıradakiler katılmadı (durum). Bir sonraki derste soruları rastgele seçilen öğrencilere yöneltmeyi dene (sonraki adım)." Adaylar da geri bildirim isterken bu üç soruyu uygulama öğretmenine yöneltebilir.
 
 ## Adaylar için öneriler
 

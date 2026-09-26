@@ -3,7 +3,7 @@ title: "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme"
 url: https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Kariyer
 description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde v
 
 > BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 
 ## Kısaca
 
@@ -43,6 +43,20 @@ Bilgisayar biliminin uluslararası müfredat rehberi CS2023, bir bilgisayar bili
 | Yazılım mühendisliği pratikleri | Ekip içinde çalışmanın ön koşuludur | Sürüm kontrolü, kod incelemesi, test yazma |
 | Bir alanda derinleşme | Genel bilgi yerine uzmanlık aranır | Web, mobil ya da veri alanlarından birini seçip proje üretmek |
 | Portfolyo | Becerinin kanıtıdır | Kodları herkese açık depolarda paylaşmak |
+
+## Hangi alanda uzmanlaşılabilir?
+
+Yazılım sektörü tek bir iş değildir. ABD Çalışma İstatistikleri Bürosu'nun meslek rehberi bile yazılım geliştiricileri, kalite güvence analistlerini ve test uzmanlarını aynı aile içinde ama ayrı görevlerle tanımlar.[2] BÖTE mezunu için bu çeşitlilik bir fırsattır: programdaki derslerden birini temel alıp o yönde derinleşmek mümkündür.
+
+| Alan | BÖTE'deki başlangıç noktası | Derinleşmek için |
+|---|---|---|
+| Web geliştirme | Web tasarımı ve programlama dersleri | Bir ön yüz ve bir arka yüz teknolojisinde tam proje |
+| Mobil uygulama | Programlama dersleri | Bir mobil platformda yayımlanmış küçük bir uygulama |
+| Veri ve analitik | Veri tabanı dersleri | Veri analizi ve görselleştirme projeleri |
+| Eğitim teknolojisi ürünleri | Öğretim tasarımı, çoklu ortam | Etkileşimli öğrenme uygulaması ya da eklenti |
+| Test ve kalite güvence | Programlama, sistem analizi | Otomatik test yazma pratiği |
+
+Son iki satır, BÖTE mezununun rakiplerinden ayrıştığı alanlardır: kullanıcıyı ve öğrenme sürecini anlamak, eğitim teknolojisi ürünlerinde doğrudan değer yaratır; dikkatli ve sistematik düşünme alışkanlığı ise test ve kalite güvence işlerinde işe yarar.
 
 ## BÖTE mezununun avantajları
 

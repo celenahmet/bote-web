@@ -2,6 +2,7 @@
 title: "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları"
 description: "Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [eğitim fakültesi bölümleri, öğretmenlik programları, tercih, YÖK Atlas, öğretmen yetiştirme]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://eurydice.eacea.ec.europa.eu/eurypedia/turkiye/initial-education-teachers-working-early-childhood-and-school-education"
     lang: en
     accessed: 2026-09-25
+    note: "Eurydice'in Türkiye'deki öğretmen yetiştirme sistemini anlatan sayfası. Eğitim fakültelerinin eşzamanlı modelini tanımlamak için kullanıldı."
   - id: yok2018
     title: "Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı"
     publisher: "Yükseköğretim Kurulu"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018 öğretmenlik programlarını tanıttığı duyuru. Programların güncellendiği ve uygulamaya başladığı tarihin kaynağı."
   - id: yokbote
     title: "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Lisans Programı"
     publisher: "Yükseköğretim Kurulu"
@@ -44,6 +47,7 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün öğretmenlik lisans programı belgelerinden biri. Programların alan eğitimi, meslek bilgisi ve genel kültürden oluşan yapısı buradan."
   - id: yokatlas
     title: "YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler"
     publisher: "Yükseköğretim Kurulu"
@@ -51,6 +55,7 @@ sources:
     url: "https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün tercih aracı. Program listesi, puan türleri ve yerleşme verileri için başvurulacak resmî kaynak."
   - id: meb-kanun
     title: "Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -58,6 +63,7 @@ sources:
     url: "https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "7528 sayılı Kanun'un yayımlandığını duyuran MEB haberi. Mezuniyet sonrasında öğretmenliğe giden yeni süreç bu kaynaktan."
   - id: ttkb-esaslar
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -65,6 +71,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik esasları. Hangi lisans programının hangi atama alanına kaynak olduğunu belirleyen resmî belge."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -73,6 +80,7 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Yüksek performanslı eğitim sistemlerinde öğretmen yetiştirmeyi karşılaştıran uluslararası çalışma. Dünyadan bakış bölümünün dayanağı."
   - id: oecd2005
     title: "Teachers Matter: Attracting, Developing and Retaining Effective Teachers"
     publisher: "OECD"
@@ -80,8 +88,8 @@ sources:
     url: "https://doi.org/10.1787/9789264018044-en"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin öğretmen politikaları raporu 'Teachers Matter'. Öğretmen yetiştirmenin okul ihtiyaçlarıyla uyumuna ilişkin ülke deneyimleri buradan."
 ---
-
 "Öğretmen olmak istiyorum ama hangi bölümü seçmeliyim?" Bu sorunun cevabı büyük ölçüde eğitim fakültelerindeki programlarda saklı. Bu yazıda eğitim fakültesi bölümlerini gruplar hâlinde tanıtıyor, programların ortak yapısını ve tercih yaparken dikkat edilmesi gerekenleri özetliyoruz.
 
 ## Eğitim fakültelerinin ortak yapısı
@@ -108,6 +116,19 @@ Bazı alanlarda öğretmen yetiştiren programlar eğitim fakültesi dışındak
 ## Puan türleri
 
 Öğretmenlik programlarının puan türü alana göre değişir. Matematik ve fen alanları genellikle sayısal (SAY), Türkçe ve sosyal alanlar sözel (SÖZ), sınıf ve okul öncesi öğretmenliği eşit ağırlık (EA), yabancı dil öğretmenlikleri ise dil (DİL) puan türüyle öğrenci alır. Bu genel eğilime karşın kesin bilgi her yıl YÖK Atlas'ta ve ÖSYM kılavuzunda yayımlanır.[@yokatlas]
+
+## YÖK Atlas'ta hangi verilere bakılmalı?
+
+Bölüm seçerken en güvenilir veri kaynağı YÖK Atlas'tır.[@yokatlas] Ancak sayfalardaki verilerin ne anlattığını bilmek gerekir:
+
+| Veri | Ne anlatır? | Dikkat edilecek nokta |
+|---|---|---|
+| Kontenjan ve yerleşen sayısı | Programın büyüklüğü ve talep | Kontenjanlar yıldan yıla değişebilir |
+| Başarı sırası | Son yerleşen adayın sıralaması | Tek başına programın niteliğini göstermez |
+| Yerleşenlerin profili | Adayların geldiği iller ve lise türleri | Programın kimlere hitap ettiğini gösterir |
+| Tercih eğilimleri | Adayların programı kaçıncı sırada tercih ettiği | Programın adaylar için ilk seçenek olup olmadığını gösterir |
+
+Bu verilere ek olarak programın öğretim kadrosunu, uygulama okullarıyla ilişkilerini ve varsa akreditasyon durumunu incelemek, yalnızca sıralamaya bakarak verilen kararlardan daha sağlıklı bir tercih sağlar. Akreditasyonu [EPDAD yazımızda](/blog/egitim-fakultesi-akreditasyon-epdad) ele aldık.
 
 ## Mezuniyetten sonra ne olur?
 

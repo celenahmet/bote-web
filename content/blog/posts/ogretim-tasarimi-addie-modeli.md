@@ -2,6 +2,7 @@
 title: "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler"
 description: "Öğretim tasarımı nedir, ADDIE modelinin beş aşaması nasıl işler ve etkili öğretimin ilkeleri nelerdir? Okuldan kurumsal eğitime uygulanabilir rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-teknolojileri
 tags: [öğretim tasarımı, ADDIE, instructional design, Merrill, e-öğrenme]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://www.routledge.com/Educational-Technology-A-Definition-with-Commentary/Januszewski-Molenda/p/book/9780805858617"
     lang: en
     accessed: 2026-09-25
+    note: "Eğitim teknolojisi alanının uluslararası meslek kuruluşunun resmî tanımı. Öğretim tasarımını alanın 'oluşturma' boyutuna yerleştirmek için kullanıldı."
   - id: branch2009
     author: "Branch, R. M."
     title: "Instructional Design: The ADDIE Approach"
@@ -39,6 +41,7 @@ sources:
     url: "https://doi.org/10.1007/978-0-387-09506-6"
     lang: en
     accessed: 2026-09-25
+    note: "ADDIE'yi genel bir öğretim geliştirme süreci olarak ele alan temel kitap. Beş aşama tablosu ve analiz bölümü bu kaynağa dayanıyor."
   - id: merrill2002
     author: "Merrill, M. D."
     title: "First Principles of Instruction"
@@ -47,6 +50,7 @@ sources:
     url: "https://doi.org/10.1007/BF02505024"
     lang: en
     accessed: 2026-09-25
+    note: "Farklı öğretim kuramlarından ortak beş ilke çıkaran etkili makale. Tasarımın kalitesini sınayan kontrol listesinin kaynağı."
   - id: bls-tds
     title: "Occupational Outlook Handbook: Training and Development Specialists"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -54,6 +58,7 @@ sources:
     url: "https://www.bls.gov/ooh/business-and-financial/training-and-development-specialists.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin eğitim ve geliştirme uzmanları sayfası. Öğretim tasarımının kurumsal karşılığını göstermek için kullanıldı."
   - id: bls-ic
     title: "Occupational Outlook Handbook: Instructional Coordinators"
     publisher: "U.S. Bureau of Labor Statistics"
@@ -61,8 +66,26 @@ sources:
     url: "https://www.bls.gov/ooh/education-training-and-library/instructional-coordinators.htm"
     lang: en
     accessed: 2026-09-25
+    note: "ABD resmî meslek rehberinin öğretim koordinatörleri sayfası. Okul sistemlerindeki tasarım rollerini göstermek için kullanıldı."
+  - id: krathwohl2002
+    author: "Krathwohl, D. R."
+    title: "A Revision of Bloom's Taxonomy: An Overview"
+    publisher: "Theory Into Practice, 41(4), 212–218"
+    year: 2002
+    url: "https://doi.org/10.1207/s15430421tip4104_2"
+    lang: en
+    accessed: 2026-09-25
+    note: "Bloom taksonomisinin güncellenmiş hâlini özetleyen makale. Ölçülebilir öğrenme hedefi yazma bölümündeki bilişsel düzeyler buradan."
+  - id: biggs1996
+    author: "Biggs, J."
+    title: "Enhancing Teaching Through Constructive Alignment"
+    publisher: "Higher Education, 32(3), 347–364"
+    year: 1996
+    url: "https://doi.org/10.1007/BF00138871"
+    lang: en
+    accessed: 2026-09-25
+    note: "Hedef, etkinlik ve değerlendirmenin birbirine hizalanması gerektiğini savunan 'yapıcı hizalama' makalesi. Tasarımın tutarlılık ilkesinin dayanağı."
 ---
-
 İyi bir ders, iyi bir e-öğrenme modülü ya da iyi bir şirket içi eğitim tesadüfen ortaya çıkmaz. Arkasında çoğu zaman görünmeyen bir planlama süreci vardır: **öğretim tasarımı**. Bu yazıda öğretim tasarımının ne olduğunu, en bilinen süreç modeli olan ADDIE'yi ve etkili öğretimin temel ilkelerini ele alıyoruz.
 
 ## Öğretim tasarımı nedir?
@@ -70,6 +93,29 @@ sources:
 Öğretim tasarımı, bir öğrenme ihtiyacından yola çıkarak hedefleri, öğretim etkinliklerini, materyalleri ve değerlendirmeyi sistemli biçimde planlama sürecidir. Eğitim teknolojisi alanının uluslararası meslek kuruluşu AECT, alanını öğrenmeyi kolaylaştırmak ve performansı artırmak için uygun teknolojik süreç ve kaynakları **oluşturma, kullanma ve yönetme** olarak tanımlar.[@aect2008] Öğretim tasarımı bu tanımdaki "oluşturma" boyutunun merkezinde yer alır.
 
 Tasarımın temel sorusu basittir: Öğrenci bu öğretimin sonunda neyi yapabilir hâle gelmeli ve bunu nasıl anlayacağız? Hedef, etkinlik ve değerlendirme arasındaki tutarlılık, iyi tasarımın ilk göstergesidir.
+
+## Öğrenme hedefi nasıl yazılır?
+
+Tasarımın merkezinde **ölçülebilir öğrenme hedefi** vardır. "Öğrenci fotosentezi öğrenir" bir hedef değil, bir niyettir: neyin gözlemleneceğini söylemez. "Öğrenci fotosentez denklemini kullanarak bir bitkinin ışıksız ortamda neden büyüyemediğini açıklar" ise gözlemlenebilir bir davranış tanımlar.
+
+Hedef yazarken en sık başvurulan araç, Bloom taksonomisinin güncellenmiş hâlidir. Krathwohl'un özetlediği bu sürüm bilişsel süreçleri altı düzeyde sıralar: **hatırlama, anlama, uygulama, çözümleme, değerlendirme ve yaratma**. Taksonomi ayrıca bilgiyi olgusal, kavramsal, işlemsel ve üstbilişsel olmak üzere dört türe ayırır.[@krathwohl2002]
+
+| Düzey | Örnek eylem | Örnek hedef |
+|---|---|---|
+| Hatırlama | Listeler, tanımlar | Öğrenci bilgisayarın temel bileşenlerini listeler |
+| Anlama | Açıklar, örnekler | Öğrenci RAM ile depolama arasındaki farkı örnekle açıklar |
+| Uygulama | Kullanır, uygular | Öğrenci bir döngü yapısını kullanarak çarpım tablosu üretir |
+| Çözümleme | Karşılaştırır, ayırt eder | Öğrenci iki algoritmanın verimliliğini karşılaştırır |
+| Değerlendirme | Savunur, eleştirir | Öğrenci bir web sitesinin güvenilirliğini ölçütlerle değerlendirir |
+| Yaratma | Tasarlar, üretir | Öğrenci okul için basit bir etkinlik kayıt uygulaması tasarlar |
+
+Tablodaki hedeflerin ortak özelliği, her birinin nasıl değerlendirileceğinin de açık olmasıdır. Hedef yazmak, değerlendirmeyi tasarlamanın ilk adımıdır.
+
+## Yapıcı hizalama
+
+John Biggs, iyi bir öğretimin üç öğenin birbirine **hizalanmasıyla** ortaya çıktığını savunur: hedeflenen öğrenme çıktıları, öğretim etkinlikleri ve değerlendirme. Öğrenciler, değerlendirildikleri şeye göre çalıştığı için değerlendirme hedeflerle uyumlu değilse öğretim ne kadar iyi olursa olsun öğrenci farklı bir şey öğrenir.[@biggs1996]
+
+Bir örnek: hedef "öğrenci bir problemi çözmek için algoritma tasarlar" ise ama sınav yalnızca tanım soruları içeriyorsa, öğrenciler tanımları ezberlemeyi seçer. Yapıcı hizalama, ADDIE'nin tasarım aşamasında sorulması gereken en temel kontrol sorusunu sağlar: Hedefim, etkinliğim ve sınavım aynı şeyi mi istiyor?
 
 ## ADDIE: beş aşamalı süreç
 

@@ -2,6 +2,7 @@
 title: "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?"
 description: "Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [akreditasyon, EPDAD, kalite güvencesi, eğitim fakültesi, öğretmenlik programları]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://www.enqa.eu/esg-standards-and-guidelines-for-quality-assurance-in-the-european-higher-education-area/"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Yükseköğretim Alanı'nın kalite güvencesi standartları (ESG). Kalite güvencesinin üç bölümü ve öğrencilerin rolü buradan."
   - id: epdad-tarihce
     title: "Tarihçe"
     publisher: "Öğretmenlik Eğitim Programları Değerlendirme ve Akreditasyon Derneği (EPDAD)"
@@ -38,6 +40,7 @@ sources:
     url: "https://epdad.org.tr/icerik/tarihce"
     lang: tr
     accessed: 2026-09-25
+    note: "EPDAD'ın resmî tarihçe sayfası. Derneğin kuruluş süreci ve YÖKAK tescili bilgisinin kaynağı."
   - id: epdad-standart
     title: "Program Değerlendirme Standartları"
     publisher: "Öğretmenlik Eğitim Programları Değerlendirme ve Akreditasyon Derneği (EPDAD)"
@@ -45,6 +48,7 @@ sources:
     url: "https://epdad.org.tr/icerik/program-degerlendirme-standartlari"
     lang: tr
     accessed: 2026-09-25
+    note: "EPDAD'ın program değerlendirme standartları sayfası. Programların neye göre değerlendirildiğini görmek için başvurulacak belge."
   - id: epdad-akredite
     title: "Akredite Edilen Programlar"
     publisher: "Öğretmenlik Eğitim Programları Değerlendirme ve Akreditasyon Derneği (EPDAD)"
@@ -52,6 +56,7 @@ sources:
     url: "https://epdad.org.tr/icerik/akredite-edilen-programlar"
     lang: tr
     accessed: 2026-09-25
+    note: "EPDAD'ın akredite edilen programlar listesi. Adayların güncel durumu kontrol edebileceği resmî liste."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -60,8 +65,8 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Güçlü eğitim sistemlerinde öğretmen yetiştirmeyi karşılaştıran çalışma. Program niteliğinin izlenmesinin önemini göstermek için kullanıldı."
 ---
-
 Tercih döneminde üniversite tanıtımlarında sıkça duyulan bir kelime var: **akreditasyon**. Mühendislik programlarında daha bilinen bu kavram, öğretmenlik programları için de giderek önem kazanıyor. Bu yazıda akreditasyonun ne olduğunu, Türkiye'de öğretmenlik programlarını kimin akredite ettiğini ve öğrenci açısından ne anlama geldiğini ele alıyoruz.
 
 ## Akreditasyon nedir?
@@ -71,6 +76,12 @@ Akreditasyon, bir yükseköğretim programının belirlenmiş kalite standartlar
 ## Avrupa çerçevesi: ESG
 
 Türkiye'nin de parçası olduğu Avrupa Yükseköğretim Alanı'nda kalite güvencesi, **ESG** olarak bilinen ortak standart ve ilkelerle yürütülür. ESG, yükseköğretim kurumlarının iç kalite güvencesi, dış kalite güvencesi ve kalite güvencesi kuruluşları olmak üzere üç bölümden oluşur.[@enqa-esg] Bu yapı, akreditasyonun yalnızca dışarıdan yapılan bir denetim olmadığını, kurumun kendi iç kalite süreçleriyle birlikte işleyen bir sistem olduğunu gösterir.
+
+## İç kalite güvencesi: ESG'nin on standardı
+
+ESG'nin birinci bölümü, bir yükseköğretim kurumunun kendi içinde sağlaması gereken kalite güvencesini on standartla tanımlar: kalite güvencesi politikası; programların tasarımı ve onayı; öğrenci merkezli öğrenme, öğretme ve değerlendirme; öğrenci kabulü, ilerlemesi, tanınması ve belgelendirilmesi; öğretim kadrosu; öğrenme kaynakları ve öğrenci desteği; bilgi yönetimi; kamuoyunun bilgilendirilmesi; programların sürekli izlenmesi ve dönemsel gözden geçirilmesi; ve düzenli dış kalite güvencesi.[@enqa-esg]
+
+Bu liste, akreditasyonun neden yalnızca "müfredata bakmak" olmadığını gösteriyor. Bir öğretmenlik programı değerlendirilirken öğrencinin nasıl değerlendirildiği, öğretim kadrosunun yeterliliği, uygulama okullarının ve öğrenme kaynaklarının durumu ve programın kendini nasıl izlediği de sorgulanır. Tercih yapan bir aday da benzer soruları sorabilir: Program öğrencilerden geri bildirim alıyor mu? Mezunlarının durumunu izliyor mu? Bu bilgileri kamuoyuyla paylaşıyor mu?
 
 ## Türkiye'de öğretmenlik programları: EPDAD
 

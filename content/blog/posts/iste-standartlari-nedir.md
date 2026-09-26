@@ -2,6 +2,7 @@
 title: "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri"
 description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-teknolojileri
 tags: [ISTE standartları, eğitim teknolojisi, dijital vatandaşlık, öğretmen yetkinlikleri, teknoloji koçu]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://iste.org/standards"
     lang: en
     accessed: 2026-09-25
+    note: "ISTE'nin öğretmen standartlarının resmî sayfası. Yedi öğretmen rolü ve her rolün açıklaması bu kaynaktan."
   - id: iste-students
     title: "ISTE Standards: For Students"
     publisher: "International Society for Technology in Education (ISTE)"
@@ -37,6 +39,7 @@ sources:
     url: "https://iste.org/standards/students"
     lang: en
     accessed: 2026-09-25
+    note: "ISTE'nin 2016 öğrenci standartları. Yedi öğrenci rolü tablosu ve sınıf örneği bu kaynağa dayanıyor."
   - id: iste-coaches
     title: "ISTE Standards: For Coaches"
     publisher: "International Society for Technology in Education (ISTE)"
@@ -44,6 +47,7 @@ sources:
     url: "https://iste.org/standards/coaches"
     lang: en
     accessed: 2026-09-25
+    note: "Okullarda öğretmenlere destek veren eğitim teknolojisi koçları için standartlar. BÖTE mezunlarının olası rolleriyle ilişkilendirildi."
   - id: digcompedu
     author: "Redecker, C."
     title: "European Framework for the Digital Competence of Educators: DigCompEdu"
@@ -52,6 +56,7 @@ sources:
     url: "https://doi.org/10.2760/159770"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun eğitimciler için dijital yetkinlik çerçevesi. Karşılaştırma tablosunda Avrupa yaklaşımı olarak kullanıldı."
   - id: unesco2018
     title: "UNESCO ICT Competency Framework for Teachers (Version 3)"
     publisher: "UNESCO"
@@ -59,8 +64,16 @@ sources:
     url: "https://unesdoc.unesco.org/ark:/48223/pf0000265721"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi. Karşılaştırma tablosunda politika odaklı yaklaşım örneği."
+  - id: iste-leaders
+    title: "ISTE Standards: For Education Leaders"
+    publisher: "International Society for Technology in Education (ISTE)"
+    year: 2018
+    url: "https://iste.org/standards/education-leaders"
+    lang: en
+    accessed: 2026-09-25
+    note: "ISTE'nin eğitim yöneticileri için standartları. Standartların okul yönetimi düzeyindeki karşılığını göstermek için eklendi."
 ---
-
 Eğitim teknolojisi alanında "standart" denildiğinde en sık başvurulan kaynaklardan biri **ISTE standartları**dır. Bu standartlar, teknolojinin okulda nasıl kullanılması gerektiğini araç listeleriyle değil, rollerle tanımlar. Bu yazıda öğrenci, öğretmen ve koç standartlarını özetliyor, Avrupa ve UNESCO çerçeveleriyle karşılaştırıyoruz.
 
 ## ISTE nedir?
@@ -85,13 +98,31 @@ Bu listede programlama yalnızca bir rolün parçasıdır. Standartların ağır
 
 ## Öğretmen standartları: yedi rol
 
-Öğretmen standartları öğretmeni de yedi rolle tanımlar: **öğrenen, lider, vatandaş, iş birlikçi, tasarımcı, kolaylaştırıcı ve analist**.[@iste2017] Bu rollerin bir kısmı teknolojiye doğrudan bağlı değildir. Örneğin "öğrenen" rolü öğretmenin kendi mesleki gelişimini sürdürmesini, "analist" rolü ise veriyi öğretimini iyileştirmek için kullanmasını ifade eder. Standartlar, teknolojinin öğretmenin mesleki kimliğinin bir parçası olduğunu, ayrı bir beceri olmadığını vurgular.
+Öğretmen standartları öğretmeni de yedi rolle tanımlar:[@iste2017]
+
+| Rol | Öğretmenden beklenen |
+|---|---|
+| Öğrenen | Başkalarından ve başkalarıyla öğrenerek, kanıtlanmış uygulamaları keşfederek pratiğini sürekli geliştirir |
+| Lider | Öğrencilerin güçlenmesini ve başarısını destekleyecek liderlik fırsatları arar |
+| Vatandaş | Öğrencileri dijital dünyaya olumlu katkı sunmaya ve sorumlu katılmaya teşvik eder |
+| İş birlikçi | Meslektaşları ve öğrencileriyle birlikte çalışmaya zaman ayırır |
+| Tasarımcı | Öğrenci farklılıklarını gözeten, öğrenci merkezli etkinlikler ve ortamlar tasarlar |
+| Kolaylaştırıcı | Öğrenci başarısını teknolojiyle destekleyerek öğrenmeyi kolaylaştırır |
+| Analist | Veriyi öğretimi yönlendirmek ve öğrencileri desteklemek için anlar ve kullanır |
+
+Bu rollerin bir kısmı teknolojiye doğrudan bağlı değildir. Örneğin "öğrenen" rolü öğretmenin kendi mesleki gelişimini sürdürmesini, "analist" rolü ise veriyi öğretimini iyileştirmek için kullanmasını ifade eder. Standartlar, teknolojinin öğretmenin mesleki kimliğinin bir parçası olduğunu, ayrı bir beceri olmadığını vurgular.
 
 ## Koç standartları: okuldaki teknoloji uzmanı
 
 ISTE, okullarda öğretmenlere teknoloji entegrasyonu konusunda destek veren **eğitim teknolojisi koçları** için ayrı standartlar yayımlar. Bu standartlar koçu değişim ajanı, bağlantılı öğrenen, iş birlikçi, öğrenme tasarımcısı, mesleki öğrenme kolaylaştırıcısı, veriye dayalı karar veren ve dijital vatandaşlık savunucusu olarak tanımlar.[@iste-coaches]
 
 Bu rol, BÖTE mezunlarının okullardaki potansiyel görevlerine oldukça yakındır. Bir BÖTE mezunu kendi dersini okuttuğu gibi, okuldaki diğer branş öğretmenlerinin teknolojiyi pedagojik amaçlarla kullanmasına da destek verebilir. Türkiye'de bu rol ayrı bir kadro olarak tanımlanmış değildir; ancak okullardaki uygulamada bilişim öğretmenleri çoğu zaman bu işlevi üstlenir.
+
+## Yönetici standartları
+
+Teknoloji entegrasyonu yalnızca öğretmenlerin çabasıyla gerçekleşmez; okul yönetiminin vizyonu ve desteği belirleyicidir. ISTE bu nedenle eğitim yöneticileri için de standartlar yayımlar. Bu standartlar yöneticiyi **eşitlik ve dijital vatandaşlık savunucusu, vizyoner planlayıcı, güçlendiren lider, sistem tasarımcısı ve bağlantılı öğrenen** olarak tanımlar.[@iste-leaders] Örneğin "sistem tasarımcısı" rolü, altyapının, veri gizliliği politikalarının ve teknik desteğin okulun öğrenme hedeflerine hizmet edecek biçimde kurulmasını ifade eder.
+
+Öğrenci, öğretmen, koç ve yönetici standartlarının birlikte okunması, ISTE'nin teknoloji entegrasyonunu okulun bütününe yayılan bir sistem olarak gördüğünü ortaya koyar.
 
 ## Diğer çerçevelerle karşılaştırma
 

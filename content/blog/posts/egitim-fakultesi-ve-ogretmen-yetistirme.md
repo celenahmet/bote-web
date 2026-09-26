@@ -2,6 +2,7 @@
 title: "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi"
 description: "Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [eğitim fakültesi, öğretmen yetiştirme, Millî Eğitim Akademisi, AGS, pedagojik formasyon]
 summary:
@@ -24,12 +25,13 @@ faq:
     a: "Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte verilir; eğitim fakülteleri bu modeli uygular. Ardışık modelde ise önce alan lisansı tamamlanır, öğretmenlik eğitimi sonradan alınır."
 sources:
   - id: eurydice
-    publisher: "European Commission, Eurydice"
     title: "Türkiye: Initial Education for Teachers Working in Early Childhood and School Education"
+    publisher: "European Commission, Eurydice"
     year: 2026
     url: "https://eurydice.eacea.ec.europa.eu/eurypedia/turkiye/initial-education-teachers-working-early-childhood-and-school-education"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun Eurydice ağının Türkiye'deki öğretmen yetiştirme sistemini anlatan sayfası. Eşzamanlı model ve tarihçe bilgilerinin kaynağı."
   - id: darling2017
     author: "Darling-Hammond, L."
     title: "Teacher Education Around the World: What Can We Learn from International Practice?"
@@ -38,34 +40,39 @@ sources:
     url: "https://doi.org/10.1080/02619768.2017.1315399"
     lang: en
     accessed: 2026-09-25
+    note: "Yüksek performanslı eğitim sistemlerinde öğretmen yetiştirmeyi karşılaştıran uluslararası çalışma. Dünyadaki iyi örneklerin ortak özellikleri buradan."
   - id: talis2018
-    publisher: "OECD"
     title: "TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners"
+    publisher: "OECD"
     year: 2019
     url: "https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin TALIS 2018 raporu. Öğretmenlerin teknoloji kullanımına hazırlığına ilişkin veriler bu kaynaktan."
   - id: unesco-teachers2024
-    publisher: "UNESCO ve International Task Force on Teachers for Education 2030"
     title: "Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession"
+    publisher: "UNESCO ve International Task Force on Teachers for Education 2030"
     year: 2024
     url: "https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun 2024 Küresel Öğretmen Raporu'nun tanıtımı. Öğretmen açığı ve mesleğin cazibesine ilişkin bulgular buradan."
   - id: yok2007
-    publisher: "Yükseköğretim Kurulu"
     title: "Öğretmen Yetiştirme ve Eğitim Fakülteleri (1982-2007)"
+    publisher: "Yükseköğretim Kurulu"
     year: 2007
     url: "https://www.yok.gov.tr/documents/documents/68f1dc9129d3a.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 1982–2007 arası öğretmen yetiştirmeyi anlatan resmî yayını. Fakültelerin 1998 yeniden yapılanması bu kaynaktan."
   - id: yok2018
-    publisher: "Yükseköğretim Kurulu"
     title: "Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı"
+    publisher: "Yükseköğretim Kurulu"
     year: 2018
     url: "https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018 programlarını tanıttığı resmî duyuru. Programların 2018–2019'da uygulanmaya başladığı bilgisinin kaynağı."
   - id: program2018
     author: "Çetin, A. vd."
     title: "2018-2019 Öğretim Yılında Güncellenen Öğretmen Yetiştirme Lisans Programının İncelenmesi"
@@ -74,43 +81,40 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/deubefd/article/904931"
     lang: tr
     accessed: 2026-09-25
+    note: "2018 programlarını inceleyen Türk akademik makalesi. Öğretim Teknolojileri dersine ilişkin değişikliğin kaynağı."
   - id: meb-kanun
-    publisher: "Millî Eğitim Bakanlığı"
     title: "Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı"
+    publisher: "Millî Eğitim Bakanlığı"
     year: 2024
     url: "https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "7528 sayılı Kanun'un yayımlandığını duyuran MEB haberi. Yeni öğretmen seçme ve yetiştirme sisteminin kaynağı."
   - id: meb-ags
-    publisher: "Millî Eğitim Bakanlığı"
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu"
+    publisher: "Millî Eğitim Bakanlığı"
     year: 2025
     url: "https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "İlk Akademi Giriş Sınavı'na ilişkin MEB duyurusu. AGS'nin ilk yapıldığı tarihin kaynağı."
   - id: mea-takvim
-    publisher: "Millî Eğitim Bakanlığı"
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı"
+    publisher: "Millî Eğitim Bakanlığı"
     year: 2026
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr"
     lang: tr
     accessed: 2026-09-25
-  - id: ttkb2025
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları"
-    year: 2025
-    url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
-    lang: tr
-    accessed: 2026-09-25
+    note: "Millî Eğitim Akademisi hazırlık eğitimi takviminin açıklandığı MEB duyurusu. İlk eğitimin tarihleri buradan."
   - id: ttkb-esaslar
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     year: 2025
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik esaslarının Aralık 2025 tarihli güncel metni. Pedagojik formasyona ilişkin değişikliğin resmî kaynağı."
 ---
-
 Öğretmen olmak isteyen birinin aklına gelen ilk adres genellikle eğitim fakültesidir. Peki eğitim fakülteleri nasıl bir yapıya sahip, bugünkü hâline nasıl geldi ve 2024'ten itibaren değişen öğretmen atama sisteminde nerede duruyor? Bu yazıda Türkiye'deki öğretmen yetiştirme sistemini tarihçesiyle, güncel değişiklikleriyle ve dünyadaki örneklerle birlikte anlatıyoruz.
 
 ## Eğitim fakültesi nedir?
@@ -125,9 +129,9 @@ Eğitim fakültelerinde sınıf ve okul öncesi öğretmenliğinden matematik, f
 
 - **1982:** Öğretmen yetiştirme görevi üniversitelere devredildi.[@eurydice]
 - **1994–1998:** YÖK/Dünya Bankası hizmet öncesi öğretmen eğitimi projesi kapsamında eğitim fakülteleri yeniden yapılandırıldı. Bölümler, millî eğitimin okul yapısına uygun öğretmen yetiştirecek biçimde düzenlendi. BÖTE gibi yeni bölümler de bu süreçte açıldı.[@yok2007]
-- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[@yok2018] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Geliştirme" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[@program2018]
+- **2018:** YÖK 25 öğretmenlik lisans programını güncelledi. Yeni programlar 2018–2019 öğretim yılından itibaren uygulanmaya başladı.[@yok2018] Bu güncellemeyle eski programlardaki "Öğretim Teknolojileri ve Materyal Tasarımı" dersi, "Öğretim Teknolojileri" adıyla zorunlu meslek bilgisi dersleri arasına alındı.[@program2018]
 - **2024:** 7528 sayılı Öğretmenlik Mesleği Kanunu yayımlandı. Kanun, öğretmenlerin seçilmesini, yetiştirilmesini ve atanmasını yeniden düzenledi ve **Millî Eğitim Akademisi**'ni kurdu.[@meb-kanun]
-- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[@meb-ags] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[@ttkb2025][@ttkb-esaslar]
+- **2025:** İlk MEB Akademi Giriş Sınavı (AGS) 13 Temmuz 2025'te ÖSYM tarafından yapıldı.[@meb-ags] Aralık 2025'te öğretmenlik esaslarına, akademi hazırlık eğitimine alınacak adaylarda pedagojik formasyon şartı aranmayacağı hükmü eklendi.[@ttkb-esaslar]
 - **2026:** Millî Eğitim Akademisi'nin ilk hazırlık eğitimi 13 Nisan 2026'da başladı.[@mea-takvim]
 
 ## Programlar nasıl yapılandırılmış?
@@ -150,7 +154,7 @@ Programların son yılında öğretmen adayları MEB okullarında **öğretmenli
 
 MEB'in açıkladığı takvime göre hazırlık eğitimi onar haftalık dönemlerden oluşuyor. Eğitim, adayın mezun olduğu programa göre dört ya da üç dönem sürebiliyor. Dersler Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki merkezlerde yapılıyor. İlk dönemin hazırlık eğitiminin 22 Şubat 2027'de tamamlanması planlanıyor.[@mea-takvim]
 
-Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[@ttkb2025][@ttkb-esaslar]
+Aralık 2025'te bu yapıya önemli bir ekleme yapıldı. Esasların güncel metnine göre Millî Eğitim Akademisi hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[@ttkb-esaslar]
 
 ## Tartışma: Eğitim fakülteleri hâlâ gerekli mi?
 
@@ -169,6 +173,21 @@ Uluslararası araştırmalar bu tartışmaya net bir "tek model" cevabı vermiyo
 UNESCO'nun 2024 Küresel Öğretmen Raporu'na göre dünyada 2030'a kadar 44 milyon ilk ve ortaöğretim öğretmenine ihtiyaç var. Bu ihtiyacın önemli bir kısmı Sahra Altı Afrika'dan kaynaklanıyor. Yüksek gelirli ülkelerde ise asıl sorun, öğretmenliğin cazibesinin azalması ve öğretmenleri meslekte tutmak.[@unesco-teachers2024] Rapor çözüm olarak öğretmenliğin iş birliğine dayalı bir meslek olarak yeniden kurgulanmasını, yaşam boyu mesleki gelişimi ve öğretmenlerin karar süreçlerine katılımını öneriyor.[@unesco-teachers2024]
 
 Türkiye'nin durumu bu tablodan farklı. Türkiye'de öğretmen adayı sayısı, uzun süredir atama sayısının üzerinde seyrediyor. Bu nedenle tartışma "yeterli öğretmen" sorusundan çok "doğru hazırlanmış öğretmen" sorusu etrafında dönüyor.
+
+## Bu konuda ayrıntılı rehberler
+
+Bu yazıda genel hatlarını çizdiğimiz sistemin her parçasını ayrı yazılarda ele aldık:
+
+| Konu | Yazı |
+|---|---|
+| Fakültelerdeki programlar ve puan türleri | [Eğitim fakültesi bölümleri](/blog/egitim-fakultesi-bolumleri) |
+| Tüm programlarda ortak dersler | [Öğretmenlik meslek bilgisi dersleri](/blog/ogretmenlik-meslek-bilgisi-dersleri) |
+| Son sınıftaki okul deneyimi | [Öğretmenlik uygulaması](/blog/ogretmenlik-uygulamasi-nedir) |
+| Mezuniyet sonrası sınav | [AGS nedir?](/blog/ags-nedir) |
+| Atama öncesi hazırlık dönemi | [Millî Eğitim Akademisi](/blog/milli-egitim-akademisi-hazirlik-egitimi) |
+| Formasyondaki değişiklik | [Pedagojik formasyon kalktı mı?](/blog/pedagojik-formasyon-kalkti-mi) |
+| Yasal çerçeve ve kariyer | [7528 sayılı Kanun](/blog/ogretmenlik-meslegi-kanunu-7528) |
+| Kalite güvencesi | [Akreditasyon ve EPDAD](/blog/egitim-fakultesi-akreditasyon-epdad) |
 
 ## Aday öğrenciler için öneriler
 

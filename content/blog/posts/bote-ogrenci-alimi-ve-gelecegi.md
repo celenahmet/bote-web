@@ -2,6 +2,7 @@
 title: "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış"
 description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz."
 date: 2026-09-25
+updated: 2026-09-26
 category: yuksekogretim
 tags: [BÖTE, kontenjan, YÖK, öğretmen yetiştirme, yükseköğretim politikası]
 summary:
@@ -24,26 +25,29 @@ faq:
     a: "Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine ilgi duyan adaylar için program güçlü bir temel sunar; ancak açık program sayısının az olduğunu ve atamaların ayrı kararlarla belirlendiğini göz önünde bulundurun. Tercihten önce YÖK Atlas verilerini inceleyin."
 sources:
   - id: gem2023
-    publisher: "UNESCO"
     title: "Global Education Monitoring Report 2023: Technology in education – A tool on whose terms?"
+    publisher: "UNESCO"
     year: 2023
     url: "https://www.unesco.org/gem-report/en/publication/technology"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun eğitimde teknoloji temalı 2023 raporu. Öğretmenlerin BİT becerilerine yönelik standartlar ve teknolojinin sınırlarına dair uyarı buradan."
   - id: talis2018
-    publisher: "OECD"
     title: "TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners"
+    publisher: "OECD"
     year: 2019
     url: "https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin TALIS 2018 raporu. Öğretmenlerin teknoloji kullanımına hazır hissetme oranı ve mesleki gelişim ihtiyacı bu kaynaktan."
   - id: unesco-teachers2024
-    publisher: "UNESCO ve International Task Force on Teachers for Education 2030"
     title: "Global Report on Teachers: Addressing Teacher Shortages and Transforming the Profession"
+    publisher: "UNESCO ve International Task Force on Teachers for Education 2030"
     year: 2024
     url: "https://www.unesco.org/en/articles/global-report-teachers-addressing-teacher-shortages-and-transforming-profession"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun 2024 Küresel Öğretmen Raporu'nun tanıtımı. Dünyada 44 milyon öğretmen ihtiyacı verisinin kaynağı."
   - id: digcompedu
     author: "Redecker, C."
     title: "European Framework for the Digital Competence of Educators: DigCompEdu"
@@ -52,27 +56,31 @@ sources:
     url: "https://doi.org/10.2760/159770"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun eğitimciler için dijital yetkinlik çerçevesi. Dijital yetkinliğin tüm branşlar için gerekli olduğunu göstermek için kullanıldı."
   - id: iste-coaches
-    publisher: "International Society for Technology in Education (ISTE)"
     title: "ISTE Standards: For Coaches"
+    publisher: "International Society for Technology in Education (ISTE)"
     year: 2019
     url: "https://iste.org/standards/coaches"
     lang: en
     accessed: 2026-09-25
+    note: "ISTE'nin eğitim teknolojisi koçları için standartları. BÖTE mezunlarının okullarda üstlenebileceği destek rolünü göstermek için kullanıldı."
   - id: yokatlas
-    publisher: "Yükseköğretim Kurulu"
     title: "YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler"
+    publisher: "Yükseköğretim Kurulu"
     year: 2026
     url: "https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün tercih aracı. Program ve kontenjan sayılarındaki değişimi takip etmek için başvurulacak resmî kaynak."
   - id: meb-yilmaz
-    publisher: "Millî Eğitim Bakanlığı"
     title: "Bakan Yılmaz, YÖK'te Eğitim Fakültelerinin Yöneticileriyle Bir Araya Geldi"
+    publisher: "Millî Eğitim Bakanlığı"
     year: "t.y."
     url: "https://www.meb.gov.tr/bakan-yilmaz-yokte-egitim-fakultelerinin-yoneticileriyle-bir-araya-geldi/haber/11969/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in eğitim fakültesi yöneticileriyle yapılan toplantıya ilişkin haberi. Kontenjanların ihtiyaca göre düzenlenmesi politikasının kaynağı."
   - id: bakarcorez2020
     author: "Bakar Çörez, A. ve Geçer, A."
     title: "Akademisyenlerin Gözünden Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü'ne Bakış"
@@ -81,6 +89,7 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/kefdergi/issue/52233/678517"
     lang: tr
     accessed: 2026-09-25
+    note: "Akademisyenlerin gözünden BÖTE'nin sorunlarını inceleyen Türk makalesi. Alan içindeki farklı görüşleri aktarmak için kullanıldı."
   - id: ilic2020
     author: "İlic, U."
     title: "Yükseköğretimde Uzaktan Eğitim Sürecinde Eski-Yeni Bir Bölüm: BÖTE"
@@ -89,29 +98,24 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/baebd/article/763512"
     lang: tr
     accessed: 2026-09-25
+    note: "Pandemi döneminde uzaktan eğitim sürecinde BÖTE'nin rolünü inceleyen Türk makalesi. Bölümün bu dönemde yeniden görünür olmasına ilişkin bulgular buradan."
   - id: yok2018
-    publisher: "Yükseköğretim Kurulu"
     title: "Yeni Öğretmen Yetiştirme Lisans Programları Tanıtım Toplantısı"
+    publisher: "Yükseköğretim Kurulu"
     year: 2018
     url: "https://www.yok.gov.tr/Sayfalar/Haberler/ogretmen-yetistirme-lisans-programlari.aspx"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 2018'de güncellenen öğretmen yetiştirme programlarını tanıttığı resmî duyuru."
   - id: ttkb-esaslar
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     year: 2025
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
-  - id: ttkb2025
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları"
-    year: 2025
-    url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
-    lang: tr
-    accessed: 2026-09-25
+    note: "MEB'in öğretmenlik alanları ve ders okutma esaslarının güncel metni. 2025'te oluşturulan yeni atama alanının resmî kaynağı."
 ---
-
 "BÖTE kapanıyor mu?" sorusu, tercih dönemlerinde forumlarda ve sosyal medyada sıkça soruluyor. Sorunun arkasında gerçek bir değişim var: BÖTE programına öğrenci alan üniversite sayısı ve kontenjanlar son yıllarda belirgin biçimde azaldı. Güncel program listesi ve kontenjanlar için başvurulacak resmî kaynak YÖK Atlas'tır.[@yokatlas]
 
 Bu yazıda azalmanın gerekçelerini, alanın içinden gelen farklı görüşleri ve 2025'ten itibaren değişen koşulları ele alıyoruz. Konunun tartışmalı olduğunu biliyoruz. Bu yüzden her görüşü dayandığı kaynakla birlikte aktarmaya özen gösterdik.
@@ -155,7 +159,7 @@ Küresel ölçekte öğretmen açığı da gündemde. UNESCO'nun 2024 Küresel �
 
 ## 2025 sonrası: yeni bir sayfa mı?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[@ttkb2025][@ttkb-esaslar]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda yapılan değişiklikle genel ilköğretim ve ortaöğretim kurumları için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu. Mevcut Bilişim Teknolojileri alanı ise mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı.[@ttkb-esaslar]
 
 Bu değişiklik iki farklı biçimde yorumlanabilir:
 

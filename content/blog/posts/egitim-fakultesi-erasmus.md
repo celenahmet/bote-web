@@ -2,6 +2,7 @@
 title: "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi"
 description: "Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [Erasmus+, eğitim fakültesi, yurt dışı staj, öğrenci hareketliliği, öğretmen adayı]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://erasmus-plus.ec.europa.eu/erasmus-programme-guide"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun Erasmus+ Program Rehberi. Programın kuralları, hibe ve destekler için asıl belge."
   - id: ua
     title: "Türkiye Ulusal Ajansı: Erasmus+ Programı"
     publisher: "Türkiye Ulusal Ajansı"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.ua.gov.tr/"
     lang: tr
     accessed: 2026-09-25
+    note: "Türkiye Ulusal Ajansı'nın resmî sitesi. Programın Türkiye'deki yürütücüsü ve güncel duyurular için başvuru kaynağı."
   - id: erasmus-students
     title: "Opportunities for individuals: Students"
     publisher: "European Commission, Erasmus+"
@@ -44,6 +47,7 @@ sources:
     url: "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun öğrenim hareketliliği sayfası. Süre, toplam hak ve karma hareketlilik bilgileri buradan."
   - id: erasmus
     title: "Opportunities for individuals: Trainees"
     publisher: "European Commission, Erasmus+"
@@ -51,6 +55,7 @@ sources:
     url: "https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/trainees"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun staj hareketliliği sayfası. Yeni mezun stajının koşulları bu kaynaktan."
   - id: yokbote
     title: "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Lisans Programı"
     publisher: "Yükseköğretim Kurulu"
@@ -58,8 +63,17 @@ sources:
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün öğretmenlik programı belgesi. Öğretmenlik uygulamasının son sınıftaki yerini göstererek zamanlama önerisine dayanak oldu."
+  - id: ects-guide
+    author: "European Commission"
+    title: "ECTS Users' Guide 2015"
+    publisher: "Publications Office of the European Union"
+    year: 2015
+    url: "https://doi.org/10.2766/87192"
+    lang: en
+    accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun AKTS kullanıcı rehberi. Yurt dışında alınan derslerin kredi karşılığının nasıl hesaplandığını açıklamak için eklendi."
 ---
-
 Öğretmen adayları için yurt dışı deneyimi yalnızca bir dil pratiği değil; farklı bir eğitim sistemini, farklı sınıf kültürlerini ve farklı öğretmenlik anlayışlarını yakından görmek anlamına geliyor. Bu yazıda eğitim fakültesi öğrencilerinin Erasmus+ programından nasıl yararlanabileceğini resmî kaynaklara dayanarak özetliyoruz.
 
 ## Erasmus+ nedir?
@@ -93,6 +107,12 @@ Erasmus+ yalnızca ders almayı değil, yurt dışında staj yapmayı da destekl
 ## Zamanlama: öğretmenlik uygulamasıyla çakışma
 
 Eğitim fakültesi öğrencilerinin dikkat etmesi gereken özel bir nokta var: öğretmenlik uygulaması. Öğretmenlik Uygulaması I ve II dersleri son sınıfta, 7. ve 8. yarıyılda yer alır.[@yokbote] Bu dersler Türkiye'deki okullarda yürütüldüğü için, son sınıfta öğrenim hareketliliğine çıkmak planlamayı zorlaştırabilir. Pek çok öğrenci için ikinci ya da üçüncü sınıf daha uygun bir dönem olabilir. Öğretmenlik uygulamasını [bu yazıda](/blog/ogretmenlik-uygulamasi-nedir) anlattık.
+
+## AKTS ve derslerin tanınması
+
+Erasmus+ hareketliliğinde en çok sorulan konu, yurt dışında alınan derslerin kendi programında nasıl sayılacağıdır. Bu işlemin ortak dili **AKTS**'dir (Avrupa Kredi Transfer ve Biriktirme Sistemi). Avrupa Komisyonu'nun kullanıcı rehberine göre 60 AKTS, tam zamanlı bir akademik yılın öğrenci iş yüküne karşılık gelir; bir dönem genellikle 30 AKTS'dir.[@ects-guide] Kredi, yalnızca derste geçirilen süreyi değil, öğrencinin ders dışı çalışması da dahil toplam iş yükünü ifade eder.
+
+Hareketlilikten önce imzalanan **öğrenim anlaşması**, hangi derslerin alınacağını ve kendi programınızda hangi derslerin yerine sayılacağını belirler. Öğretmen adayları için dikkat edilmesi gereken nokta, meslek bilgisi ve öğretmenlik uygulaması gibi derslerin karşılığının yurt dışında her zaman bulunamayabileceğidir. Bu nedenle anlaşmayı hazırlarken bölüm koordinatörüyle hangi derslerin eşleşebileceğini önceden netleştirmek gerekir.
 
 ## Hibe ve destekler
 

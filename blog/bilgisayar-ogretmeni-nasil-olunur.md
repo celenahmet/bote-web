@@ -3,7 +3,7 @@ title: "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası"
 url: https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Kariyer
 description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası."
 ---
@@ -12,7 +12,7 @@ description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Mi
 
 > Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 
 ## Kısaca
 
@@ -52,6 +52,18 @@ Aralık 2025'te esaslarda yapılan değişiklikle, akademi hazırlık eğitimine
 7528 sayılı Kanun, öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak da tanımlar. Uzman öğretmenlik için en az on yıllık hizmet ve akademinin eğitimini tamamlamak gerekir.[10] Yani bugün atanan bir bilgisayar öğretmeninin önünde, mesleki gelişime dayalı uzun bir kariyer yolu vardır.
 
 Hazırlık eğitimini başarıyla tamamlamak, atamanın ön koşuludur. Mesleğe ilk adım ise işin sonu değil, başlangıcıdır. Yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleki gelişimi kariyerin bütününe yayar.[12]
+
+## Okulda bilgisayar öğretmeninin rolü
+
+Bilgisayar öğretmeninin işi haftalık ders saatleriyle sınırlı değildir. Uluslararası çerçeveler bu rolü üç katmanda tanımlar:
+
+**Öğretmen olarak:** Bilişim derslerini okutur ve öğrencilerin bilgi işlemsel düşünme, dijital içerik üretme ve güvenli teknoloji kullanımı becerilerini geliştirir. DigCompEdu'nun altıncı alanı, öğretmenin öğrencilerin bilgi ve medya okuryazarlığı, dijital iletişimi, içerik üretimi, sorumlu kullanımı ve dijital problem çözme becerilerini desteklemesini bir yetkinlik olarak tanımlar.[13]
+
+**Meslektaş olarak:** Okuldaki diğer branş öğretmenlerinin teknolojiyi derslerine anlamlı biçimde yerleştirmesine destek olur. ISTE'nin eğitim teknolojisi koçları için yayımladığı standartlar bu rolü öğrenme tasarımcısı, mesleki öğrenme kolaylaştırıcısı ve değişim ajanı olarak tarif eder.[14]
+
+**Rol model olarak:** Öğrencilerin ve velilerin dijital güvenlik, mahremiyet ve ekran süresi konularında başvurduğu kişi çoğu zaman bilgisayar öğretmenidir.
+
+Bu üç katman, BÖTE programlarının neden teknik derslerin yanında öğretim tasarımı ve eğitim bilimlerine de ağırlık verdiğini açıklıyor.
 
 ## Kısa kontrol listesi
 
@@ -107,3 +119,5 @@ AGS ve akademi süreci MEB'e bağlı resmî okullara öğretmen olarak atanmayı
 10. Mevzuat Bilgi Sistemi (2024). Öğretmenlik Mesleği Kanunu (Kanun No. 7528, güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-09-25)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-09-25)
 12. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-09-25)
+13. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Avrupa Birliği Yayın Ofisi (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-09-25)
+14. International Society for Technology in Education (ISTE) (2019). ISTE Standards: For Coaches. https://iste.org/standards/coaches (EN, erişim: 2026-09-25)

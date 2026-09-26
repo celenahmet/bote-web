@@ -2,6 +2,7 @@
 title: "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?"
 description: "Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-fakultesi
 tags: [Millî Eğitim Akademisi, hazırlık eğitimi, 7528, öğretmen adayı, AGS]
 summary:
@@ -30,6 +31,7 @@ sources:
     url: "https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm"
     lang: tr
     accessed: 2026-09-25
+    note: "7528 sayılı Kanun'un Resmî Gazete'deki ilk yayımı. Akademi hazırlık eğitiminin yasal dayanağı."
   - id: meb-kanun
     title: "Öğretmenlik Mesleği Kanunu Resmî Gazete'de Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -37,6 +39,7 @@ sources:
     url: "https://www.meb.gov.tr/ogretmenlik-meslegi-kanunu-resmi-gazetede-yayimlandi/haber/35166/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Kanunun yayımlandığını duyuran MEB haberi. Atama için hazırlık eğitimini tamamlama koşulunun kaynağı."
   - id: mea-yonetmelik
     title: "Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği Resmî Gazete'de Yayımlandı"
     publisher: "MEB Millî Eğitim Akademisi Başkanlığı"
@@ -44,6 +47,7 @@ sources:
     url: "https://akademi.meb.gov.tr/www/milli-egitim-bakanligi-ogretmenlik-meslegine-hazirlik-egitimi-yonetmeligi-resmi-gazete039de-yayimlandi/icerik/136"
     lang: tr
     accessed: 2026-09-25
+    note: "Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği'nin yayımlandığını duyuran akademi haberi. Eğitimin usul ve esaslarının resmî dayanağı."
   - id: meb-ags
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu"
     publisher: "Millî Eğitim Bakanlığı"
@@ -51,6 +55,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "İlk AGS'ye ilişkin MEB duyurusu. Akademiye kabulün ilk basamağının kaynağı."
   - id: ttkb-esaslar
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
     publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
@@ -58,6 +63,7 @@ sources:
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik esaslarının güncel metni. Akademi adaylarında formasyon şartı aranmamasına ilişkin hükmün kaynağı."
   - id: mea-program
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -65,6 +71,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Hazırlık eğitimi programını duyuran MEB haberi. Dört dönemlik yapı ve uygulama dönemi bilgisi buradan."
   - id: mea-takvim
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -72,6 +79,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Hazırlık eğitimi takviminin açıklandığı MEB duyurusu. İlk eğitimin başlangıç tarihinin kaynağı."
   - id: mea-akademik
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Akademik Takvimi Açıklandı"
     publisher: "Millî Eğitim Bakanlığı"
@@ -79,6 +87,7 @@ sources:
     url: "https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-akademik-takvimi-aciklandi/haber/40418/tr"
     lang: tr
     accessed: 2026-09-25
+    note: "Hazırlık eğitiminin akademik takvimini açıklayan MEB duyurusu. Dönem tarihleri tablosunun kaynağı."
   - id: ingersoll2011
     author: "Ingersoll, R. M. ve Strong, M."
     title: "The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research"
@@ -87,6 +96,7 @@ sources:
     url: "https://doi.org/10.3102/0034654311403323"
     lang: en
     accessed: 2026-09-25
+    note: "Mesleğe uyum ve mentorluk programlarını değerlendiren kapsamlı derleme. Dünyadaki benzer uygulamaların etkisine ilişkin bulgular buradan."
   - id: talis2018
     title: "TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners"
     publisher: "OECD"
@@ -94,6 +104,7 @@ sources:
     url: "https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html"
     lang: en
     accessed: 2026-09-25
+    note: "OECD'nin TALIS 2018 raporu. Öğretmenleri yaşam boyu öğrenenler olarak ele alan yaklaşım için kullanıldı."
   - id: zeichner2010
     author: "Zeichner, K."
     title: "Rethinking the Connections Between Campus Courses and Field Experiences in College- and University-Based Teacher Education"
@@ -102,8 +113,8 @@ sources:
     url: "https://doi.org/10.1177/0022487109347671"
     lang: en
     accessed: 2026-09-25
+    note: "Üniversite dersleri ile okul deneyimi arasındaki kopukluğu tartışan makale. Uygulama döneminin önemini açıklayan bölümün dayanağı."
 ---
-
 Türkiye'de öğretmenliğe giden yolun en yeni durağı **Millî Eğitim Akademisi**. 2026'da ilk öğretmen adaylarını kabul eden akademi, lisans eğitimi ile öğretmen olarak atanma arasına yapılandırılmış bir hazırlık dönemi ekliyor. Bu yazıda hazırlık eğitiminin yapısını, takvimini ve uluslararası deneyimle nasıl karşılaştırılabileceğini ele alıyoruz.
 
 ## Akademinin yasal dayanağı
@@ -131,7 +142,7 @@ MEB'in yayımladığı programa göre hazırlık eğitimi **onar haftalık dört
 
 ## Dünyada benzer uygulamalar
 
-Mesleğe yeni başlayan öğretmenlere yapılandırılmış destek sunmak dünyada yaygın bir uygulama. Bu programlar İngilizce alanyazında genellikle *induction* (mesleğe uyum) ve *mentoring* (mentorluk) başlıkları altında ele alınır. Ingersoll ve Strong'un bu programlara ilişkin araştırmaları derleyen çalışması, programların öğretmenlerin mesleğe bağlılığı ve meslekte kalması, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[@ingersoll2011] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleğe başlangıçtaki destekleri bu sürekliliğin ilk halkası olarak görür.[@talis2018]
+Mesleğe yeni başlayan öğretmenlere yapılandırılmış destek sunmak dünyada yaygın bir uygulama. Bu programlar İngilizce alanyazında genellikle *induction* (mesleğe uyum) ve *mentoring* (mentorluk) başlıkları altında ele alınır. Ingersoll ve Strong'un bu programlara ilişkin araştırmaları derleyen çalışması, programların öğretmenlerin mesleğe bağlılığı ve meslekte kalması, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildirir.[@ingersoll2011] Derlemedeki çalışmalar, uyum programlarının tek bir etkinlikten değil birbirini tamamlayan bileşenlerden oluştuğunu gösterir: deneyimli bir öğretmenin mentorluğu, meslektaşlarla ortak planlama ve iş birliği fırsatları ve mesleğe yeni başlayanın gelişimini izleyen düzenli geri bildirim. Bir hazırlık programının niteliğini değerlendirirken sorulması gereken soru da budur: Aday yalnızca ders mi dinliyor, yoksa deneyimli bir meslektaşın rehberliğinde gerçek sınıflarda mı çalışıyor? OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alır ve mesleğe başlangıçtaki destekleri bu sürekliliğin ilk halkası olarak görür.[@talis2018]
 
 Türkiye'deki modelin ayırt edici yanı, bu hazırlığın atamadan **önce** ve merkezî bir yapı tarafından verilmesidir. Birçok ülkede mesleğe uyum programları ise öğretmen okulda göreve başladıktan sonra, okul temelli mentorlukla yürütülür. İki yaklaşımın güçlü ve zayıf yanları farklıdır: merkezî model standartlaşma sağlarken, okul temelli model gerçek sınıf bağlamına daha yakındır. Dördüncü dönemin tamamen uygulamaya ayrılması, Türkiye'deki modelin bu dengeyi kurmaya çalıştığını gösteriyor.
 

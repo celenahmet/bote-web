@@ -3,7 +3,7 @@ title: "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları"
 url: https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz."
 ---
@@ -12,7 +12,7 @@ description: "Uzman öğretmen ve başöğretmen olmak için hangi koşullar ger
 
 > Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
 
 ## Kısaca
 
@@ -35,6 +35,19 @@ Birçok meslekte kariyer, unvan ve sorumlulukların zamanla arttığı bir basam
 | Başöğretmen | Uzman öğretmen olarak en az 10 yıl | Aynı disiplin koşulu; akademinin başöğretmenlik eğitimini tamamlamak | Bir derece |
 
 Tablodaki koşullar kanunda yer alır.[2] Eğitimlerin içeriği, süresi ve başvuru usulleri ise yönetmeliklerle ve Millî Eğitim Akademisi'nin duyurularıyla belirlenir. Bu nedenle kariyer planı yapan öğretmenlerin güncel yönetmelikleri takip etmesi gerekir.
+
+## Bir kariyer zaman çizelgesi
+
+Kanundaki süreler esas alındığında bir öğretmenin kariyer yolu şöyle özetlenebilir:[2]
+
+| Hizmet yılı | Aşama | Gerekenler |
+|---|---|---|
+| 0 | Öğretmen olarak atanma | AGS, akademi hazırlık eğitimi, atama |
+| 1–10 | Öğretmen | Sınıf deneyimi, mesleki gelişim |
+| 10+ | Uzman öğretmen | En az 10 yıllık hizmet, disiplin koşulu, akademinin uzman öğretmenlik eğitimi |
+| 20+ | Başöğretmen | Uzman öğretmen olarak en az 10 yıl, disiplin koşulu, akademinin başöğretmenlik eğitimi |
+
+Çizelge en erken olasılıkları gösterir; her basamak için başvuru dönemleri ve eğitimlerin açılma takvimi yönetmelik ve duyurularla belirlenir. Buna rağmen tablo önemli bir gerçeği görünür kılıyor: öğretmenlikte kariyer, yirmi yılı aşan bir mesleki gelişim yolculuğu olarak tasarlanmış durumda.
 
 ## Akademinin rolü
 

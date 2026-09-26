@@ -2,6 +2,7 @@
 title: "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım"
 description: "Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları."
 date: 2026-09-25
+updated: 2026-09-26
 category: egitim-teknolojileri
 tags: [öğrenme yönetim sistemi, LMS, Moodle, uzaktan eğitim, e-öğrenme]
 summary:
@@ -31,6 +32,7 @@ sources:
     url: "https://doi.org/10.1007/s11528-007-0023-y"
     lang: en
     accessed: 2026-09-25
+    note: "LMS kavramını netleştiren ve içerik yönetim sistemleriyle karıştırılmasına dikkat çeken makale. Yazıdaki tanımın dayanağı."
   - id: moore1989
     author: "Moore, M. G."
     title: "Three Types of Interaction"
@@ -39,6 +41,7 @@ sources:
     url: "https://doi.org/10.1080/08923648909526659"
     lang: en
     accessed: 2026-09-25
+    note: "Uzaktan eğitimdeki üç etkileşim türünü tanımlayan klasik yazı. LMS işlevlerini bu etkileşimlerle eşleştirmek için kullanıldı."
   - id: moodle
     title: "About Moodle"
     publisher: "Moodle Documentation"
@@ -46,6 +49,7 @@ sources:
     url: "https://docs.moodle.org/en/About_Moodle"
     lang: en
     accessed: 2026-09-25
+    note: "Açık kaynak LMS Moodle'ın resmî belgelendirmesi. Açık kaynak seçeneklere örnek olarak verildi."
   - id: lti13
     title: "Learning Tools Interoperability Core Specification 1.3"
     publisher: "1EdTech Consortium"
@@ -53,6 +57,7 @@ sources:
     url: "https://www.imsglobal.org/spec/lti/v1p3/"
     lang: en
     accessed: 2026-09-25
+    note: "Dış araçların LMS'ye güvenli biçimde bağlanmasını sağlayan LTI standardının resmî belirtimi."
   - id: hodges2020
     author: "Hodges, C., Moore, S., Lockee, B., Trust, T. ve Bond, A."
     title: "The Difference Between Emergency Remote Teaching and Online Learning"
@@ -61,8 +66,41 @@ sources:
     url: "https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning"
     lang: en
     accessed: 2026-09-25
+    note: "Acil uzaktan öğretim ile planlı çevrim içi öğrenmeyi ayıran yazı. 'LMS iyi bir ders demek değildir' uyarısının dayanağı."
+  - id: adl-scorm
+    title: "Sharable Content Object Reference Model (SCORM)"
+    publisher: "Advanced Distributed Learning (ADL) Initiative"
+    year: "t.y."
+    url: "https://adlnet.gov/projects/scorm/"
+    lang: en
+    accessed: 2026-09-25
+    note: "E-öğrenme içeriklerinin farklı LMS'lerde çalışmasını sağlayan SCORM standardının resmî sayfası."
+  - id: adl-xapi
+    title: "Experience API (xAPI)"
+    publisher: "Advanced Distributed Learning (ADL) Initiative"
+    year: "t.y."
+    url: "https://adlnet.gov/projects/xapi/"
+    lang: en
+    accessed: 2026-09-25
+    note: "Öğrenme deneyimlerini LMS dışında da kaydedebilen xAPI standardının resmî sayfası. İçerik standartları bölümünde kullanıldı."
+  - id: wcag22
+    title: "Web Content Accessibility Guidelines (WCAG) 2.2"
+    publisher: "W3C"
+    year: 2023
+    url: "https://www.w3.org/TR/WCAG22/"
+    lang: en
+    accessed: 2026-09-25
+    note: "W3C'nin web erişilebilirliği yönergeleri. LMS seçiminde erişilebilirlik ölçütlerinin dayanağı."
+  - id: siemens2011
+    author: "Siemens, G. ve Long, P."
+    title: "Penetrating the Fog: Analytics in Learning and Education"
+    publisher: "EDUCAUSE Review, 46(5), 30–40"
+    year: 2011
+    url: "https://er.educause.edu/articles/2011/9/penetrating-the-fog-analytics-in-learning-and-education"
+    lang: en
+    accessed: 2026-09-25
+    note: "Öğrenme analitiğini tanımlayan ve eğitimde veri kullanımının olanaklarını tartışan EDUCAUSE yazısı. Veri bölümünün kaynağı."
 ---
-
 Üniversitelerin uzaktan eğitim merkezlerinden şirketlerin eğitim departmanlarına kadar çevrim içi öğrenmenin merkezinde genellikle aynı yazılım türü bulunur: **öğrenme yönetim sistemi** (Learning Management System, LMS). Bu yazıda LMS'nin ne olduğunu, ne olmadığını ve bir kurum için nasıl seçileceğini ele alıyoruz.
 
 ## LMS nedir, ne değildir?
@@ -92,10 +130,16 @@ LMS'ler lisans modeline göre ikiye ayrılabilir. Açık kaynak sistemlerin en y
 
 Hiçbir LMS her ihtiyacı tek başına karşılamaz. Kurumlar sanal laboratuvar, kodlama ortamı ya da intihal denetim aracı gibi dış araçları derslerine eklemek ister. **Learning Tools Interoperability (LTI)** standardı bu entegrasyonu sağlar: bir dış araç, LMS içinden güvenli biçimde başlatılabilir ve kullanıcı bilgisi bu araçla paylaşılabilir.[@lti13] LTI desteği, bir LMS seçerken sorulması gereken ilk teknik sorulardan biridir.
 
+## İçerik standartları: SCORM ve xAPI
+
+LTI araçları bağlarken, içerik standartları da hazırlanan e-öğrenme modüllerinin farklı sistemlerde çalışmasını sağlar. ABD Savunma Bakanlığı bünyesindeki Advanced Distributed Learning (ADL) girişiminin geliştirdiği **SCORM**, bir e-öğrenme paketinin herhangi bir uyumlu LMS'ye yüklenip çalıştırılabilmesini ve öğrencinin ilerleme bilgisinin sisteme iletilmesini tanımlar.[@adl-scorm] Böylece bir kurum, içeriklerini yeniden üretmeden LMS değiştirebilir.
+
+Daha yeni bir standart olan **xAPI** (Experience API) ise öğrenmenin yalnızca LMS içinde gerçekleşmediği fikrinden yola çıkar. Bir simülasyonda, mobil uygulamada ya da iş başında gerçekleşen öğrenme deneyimleri de "kim, ne yaptı, neyle" biçiminde kayıt altına alınabilir.[@adl-xapi] Kurum için pratik soru şudur: İçeriklerim bu standartlarla uyumlu mu ve LMS bu standartları destekliyor mu?
+
 ## Kurum için LMS seçerken
 
 1. **Pedagojik ihtiyaçla başlayın:** Hangi tür dersler yürütülecek? Eşzamanlı mı, eşzamansız mı? Proje mi, sınav mı ağırlıkta?
-2. **Erişilebilirliği sınayın:** Ekran okuyucu uyumu, altyazı desteği ve mobil kullanım test edilmelidir.
+2. **Erişilebilirliği sınayın:** Ekran okuyucu uyumu, altyazı desteği ve mobil kullanım test edilmelidir. Uluslararası ölçüt W3C'nin Web İçeriği Erişilebilirlik Yönergeleri'dir (WCAG); sistemin ve üretilen içeriklerin bu yönergelere uygunluğu sorulmalıdır.[@wcag22]
 3. **Veri gizliliğini sorgulayın:** Öğrenci verileri nerede tutuluyor, kimlerle paylaşılıyor?
 4. **Birlikte çalışabilirliğe bakın:** LTI ve içerik standartları desteği, ileride sistem değiştirmeyi de kolaylaştırır.
 5. **Toplam maliyeti hesaplayın:** Lisansın yanında barındırma, bakım, eğitim ve teknik destek maliyetlerini de ekleyin.
@@ -106,6 +150,10 @@ Hiçbir LMS her ihtiyacı tek başına karşılamaz. Kurumlar sanal laboratuvar,
 LMS'lerin en güçlü yanlarından biri, öğrencinin hangi materyali ne zaman açtığı, hangi etkinliği tamamladığı ve sınavlarda nasıl bir performans gösterdiği gibi verileri toplamasıdır.[@watson2007] Bu veriler, derste zorlanan öğrencileri erken fark etmek için değerlidir. Örneğin iki haftadır sisteme girmeyen bir öğrenciye kısa bir mesaj göndermek, dönem sonunda dersi bırakmasını önleyebilir.
 
 Ancak veriyi yorumlarken dikkatli olmak gerekir. Bir videonun açılmış olması izlendiği anlamına gelmez; forumda az yazan bir öğrenci konuyu anlamamış değil, yalnızca çekingen olabilir. Tıklama verisi öğrenmenin kendisi değil, dolaylı bir göstergesidir. Ayrıca bu verilerin kimler tarafından görüleceği ve ne kadar süre saklanacağı öğrencilere açıkça bildirilmelidir.
+
+## Öğrenme analitiği
+
+LMS'lerin topladığı veriler, **öğrenme analitiği** adı verilen bir alanın konusudur. Siemens ve Long, öğrenme analitiğini öğrenmeyi ve öğrenmenin gerçekleştiği ortamları anlamak ve iyileştirmek amacıyla öğrenciler ve bağlamları hakkındaki verilerin ölçülmesi, toplanması, analiz edilmesi ve raporlanması olarak tanımlar.[@siemens2011] Tanımdaki vurgu önemlidir: amaç öğrencileri izlemek değil, öğrenmeyi iyileştirmektir. Bu nedenle analitik uygulamaları, hangi verinin toplandığını ve nasıl kullanıldığını öğrencilere açıkça anlatan bir veri politikasıyla birlikte yürütülmelidir.
 
 ## LMS iyi bir ders demek değildir
 

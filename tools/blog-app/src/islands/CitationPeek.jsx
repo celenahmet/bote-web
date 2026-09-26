@@ -10,7 +10,7 @@ export default function CitationPeek() {
       const li = document.querySelector(a.getAttribute('href'));
       if (!li) return;
       e.preventDefault();
-      setPeek({ n: a.textContent, html: li.querySelector('.src-body')?.innerHTML || li.innerHTML, href: a.getAttribute('href') });
+      setPeek({ n: a.textContent, html: li.querySelector('.src-text')?.innerHTML || li.innerHTML, href: a.getAttribute('href') });
     };
     const onKey = (e) => e.key === 'Escape' && setPeek(null);
     document.addEventListener('click', onClick);

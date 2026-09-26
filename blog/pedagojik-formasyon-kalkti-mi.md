@@ -3,7 +3,7 @@ title: "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı"
 url: https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo."
 ---
@@ -12,7 +12,7 @@ description: "Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçm
 
 > Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
 
 ## Kısaca
 
@@ -35,9 +35,9 @@ Bu düzenleme formasyonu mezuniyet sonrası ayrı bir sertifika programı olmakt
 
 ## Aralık 2025: akademi adaylarında formasyon şartı
 
-Asıl büyük değişiklik Aralık 2025'te geldi. MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'na eklenen hükme göre, Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacak adaylarda **pedagojik formasyonla ilgili şartlar aranmıyor**.[4][5]
+Asıl büyük değişiklik Aralık 2025'te geldi. MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'na eklenen hükme göre, Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacak adaylarda **pedagojik formasyonla ilgili şartlar aranmıyor**.[4]
 
-Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yatıyor. Öğretmen adayları artık AGS ile seçilip akademide dört dönemlik bir hazırlık eğitiminden geçiyor; bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[6] Başka bir deyişle öğretmenlik meslek bilgisinin bir kısmı artık akademide kazandırılıyor.
+Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yatıyor. Öğretmen adayları artık AGS ile seçilip akademide dört dönemlik bir hazırlık eğitiminden geçiyor; bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[5] Başka bir deyişle öğretmenlik meslek bilgisinin bir kısmı artık akademide kazandırılıyor.
 
 ## Kimleri etkiliyor?
 
@@ -49,9 +49,21 @@ Bu değişikliğin mantığı, 7528 sayılı Kanun'la kurulan yeni sistemde yat�
 
 Önemli bir ayrıntı: formasyon şartının aranmaması, her lisans programının her öğretmenlik alanına kaynak olduğu anlamına gelmez. Hangi programın hangi alana kaynak olduğunu esaslardaki çizelgeler belirler.[4]
 
+## Üç örnek durum
+
+Değişikliğin somut anlamını üç farklı aday üzerinden görmek mümkün:
+
+**Elif, eğitim fakültesinde Türkçe öğretmenliği son sınıf öğrencisi.** Onun için pek bir şey değişmedi: meslek bilgisi dersleri ve öğretmenlik uygulaması zaten programının parçası. Mezun olduktan sonra AGS'ye girecek ve kabul edilirse akademide hazırlık eğitimi alacak.
+
+**Mert, fen-edebiyat fakültesinde tarih bölümü üçüncü sınıf öğrencisi.** Üniversitesi formasyon derslerini seçmeli olarak açıyorsa bu dersleri lisans sırasında alabilir.[3] Öğretmenliğe başvurmak için ise önce tarih lisans programının ilgili öğretmenlik alanına kaynak olup olmadığını esaslardaki çizelgeden kontrol etmesi gerekiyor.[4]
+
+**Zeynep, beş yıl önce mezun olmuş ve formasyon almamış bir matematik mezunu.** Akademi başvurusunda formasyon şartı aranmıyor; ancak o da kaynak program koşulunu kontrol etmeli ve AGS'ye hazırlanmalı. Meslek bilgisini akademinin hazırlık eğitiminde kazanacak.
+
+Üç durumun ortak noktası şu: formasyon şartının kalkması süreci ortadan kaldırmadı, yalnızca meslek bilgisinin kazanıldığı yeri değiştirdi.
+
 ## Uluslararası tartışma
 
-Öğretmenlerin nasıl yetiştirileceği dünyada da tartışılıyor. Darling-Hammond'un yüksek performanslı eğitim sistemlerini karşılaştıran çalışması, güçlü sistemlerin modelden bağımsız olarak öğretmen adaylarına araştırmaya dayalı pedagojik eğitim ve nitelikli, rehberli uygulama deneyimi sunduğunu gösterir.[7] OECD de öğretmen politikalarını değerlendiren raporunda, öğretmen yetiştirmenin tek seferlik bir eğitimle değil, mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimi birbirine bağlayan bir süreç olarak ele alınması gerektiğini vurgular.[8]
+Öğretmenlerin nasıl yetiştirileceği dünyada da tartışılıyor. Darling-Hammond'un yüksek performanslı eğitim sistemlerini karşılaştıran çalışması, güçlü sistemlerin modelden bağımsız olarak öğretmen adaylarına araştırmaya dayalı pedagojik eğitim ve nitelikli, rehberli uygulama deneyimi sunduğunu gösterir.[6] OECD de öğretmen politikalarını değerlendiren raporunda, öğretmen yetiştirmenin tek seferlik bir eğitimle değil, mesleğe hazırlık, mesleğe uyum ve sürekli mesleki gelişimi birbirine bağlayan bir süreç olarak ele alınması gerektiğini vurgular.[7]
 
 Bu çerçevede asıl soru "formasyon var mı, yok mu?" değil, meslek bilgisinin **hangi aşamada, hangi nitelikte** kazandırıldığıdır.
 
@@ -109,7 +121,6 @@ Yeni modelde öğretmen adayları Millî Eğitim Akademisi'nde dört dönemlik h
 2. Yükseköğretim Kurulu (t.y.). Pedagojik Formasyon Eğitimi. https://egitim.yok.gov.tr/tr/page/496 (TR, erişim: 2026-09-25)
 3. Yükseköğretim Kurulu (t.y.). Pedagojik Formasyon Eğitimine İlişkin Detaylar Belirlendi. https://www.yok.gov.tr/tr/news/pedagojik-formasyon-egitimine-iliskin-detaylar-belirlendi-6PigR (TR, erişim: 2026-09-25)
 4. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-09-25)
-5. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları. https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807 (TR, erişim: 2026-09-25)
-6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
-7. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
-8. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
+6. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)
+7. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)

@@ -3,7 +3,7 @@ title: "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol"
 url: https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol."
 ---
@@ -12,7 +12,7 @@ description: "Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı oku
 
 > Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
 
 ## Kısaca
 
@@ -60,6 +60,16 @@ Bu açıdan eşzamanlı modelin güçlü yanı, öğretmen kimliğinin ve okul d
 **"Fen-edebiyat mezunu öğretmenliğe hazır değildir."** Meslek bilgisi ve uygulama deneyimi daha sınırlı olabilir, ancak yeni sistemde tüm adaylar akademide hazırlık eğitimi alıyor. Bu eğitimin son dönemi tamamen uygulamaya ayrılmış durumda.[4]
 
 **"Hangi yolu seçersem seçeyim sonuç aynı."** Kaynak program koşulu nedeniyle her lisans programı her öğretmenlik alanına açılmaz. Bu koşulu tercih yapmadan önce kontrol etmek, yıllar sonra karşılaşılabilecek bir engeli baştan görmeyi sağlar.[3]
+
+## Karar vermeden önce sorulacak beş soru
+
+1. **Hangi öğretmenlik alanını hedefliyorum?** Bu alana hangi lisans programlarının kaynak olduğunu esaslardaki çizelgeden kontrol edin.[3]
+2. **Okul deneyimini ne zaman kazanmak istiyorum?** Eğitim fakültesinde uygulama lisansın parçasıdır; ardışık yolda ise ağırlıklı olarak sonradan gelir.
+3. **Alanda ne kadar derinleşmek istiyorum?** Akademik kariyer ya da araştırma ilgisi varsa alan programının derinliği avantaj olabilir.
+4. **Öğretmenlik dışında hangi seçenekleri açık tutmak istiyorum?** Fen-edebiyat programları farklı sektörlere, eğitim fakülteleri ise eğitim alanındaki farklı rollere daha doğrudan yol açar.
+5. **Hangi süreyi göze alıyorum?** Her iki yolda da lisans sonrasında AGS ve yaklaşık on aylık akademi hazırlık eğitimi var.[4]
+
+Bu soruların dürüst cevapları, "hangi yol daha iyi?" sorusundan çok daha anlamlı bir karar zemini sunar.
 
 ## Kime hangisi?
 

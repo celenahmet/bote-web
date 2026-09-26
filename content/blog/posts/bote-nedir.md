@@ -2,6 +2,7 @@
 title: "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi"
 description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber."
 date: 2026-09-25
+updated: 2026-09-26
 category: bolum-rehberi
 featured: true
 tags: [BÖTE, öğretim teknolojisi, eğitim teknolojisi, öğretmenlik, bölüm tanıtımı]
@@ -32,20 +33,23 @@ sources:
     url: "https://www.routledge.com/Educational-Technology-A-Definition-with-Commentary/Januszewski-Molenda/p/book/9780805858617"
     lang: en
     accessed: 2026-09-25
+    note: "Eğitim teknolojisi alanının uluslararası meslek kuruluşu AECT'nin resmî tanımı. BÖTE'nin dayandığı alanı tanımlamak için kullanıldı."
   - id: iste2017
-    publisher: "International Society for Technology in Education (ISTE)"
     title: "ISTE Standards: For Educators"
+    publisher: "International Society for Technology in Education (ISTE)"
     year: 2017
     url: "https://iste.org/standards"
     lang: en
     accessed: 2026-09-25
+    note: "ISTE'nin öğretmen standartları. Uluslararası çerçevelerin bir BÖTE mezunundan beklediği rolleri özetlemek için kullanıldı."
   - id: unesco2018
-    publisher: "UNESCO"
     title: "UNESCO ICT Competency Framework for Teachers (Version 3)"
+    publisher: "UNESCO"
     year: 2018
     url: "https://unesdoc.unesco.org/ark:/48223/pf0000265721"
     lang: en
     accessed: 2026-09-25
+    note: "UNESCO'nun öğretmenler için BİT yetkinlik çerçevesi. BÖTE mezunundan beklenen yetkinliklerin politika düzeyindeki karşılığı."
   - id: mishra2006
     author: "Mishra, P. ve Koehler, M. J."
     title: "Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge"
@@ -54,6 +58,7 @@ sources:
     url: "https://doi.org/10.1111/j.1467-9620.2006.00684.x"
     lang: en
     accessed: 2026-09-25
+    note: "TPACK modelini tanıtan makale. Teknolojinin alan ve pedagojiyle birlikte düşünülmesi gerektiği fikrinin kaynağı."
   - id: digcompedu
     author: "Redecker, C."
     title: "European Framework for the Digital Competence of Educators: DigCompEdu"
@@ -62,27 +67,31 @@ sources:
     url: "https://doi.org/10.2760/159770"
     lang: en
     accessed: 2026-09-25
+    note: "Avrupa Komisyonu'nun eğitimciler için dijital yetkinlik çerçevesi. Dijital yetkinliğin tüm öğretmenler için tanımlandığını göstermek için kullanıldı."
   - id: anadolu
-    publisher: "Anadolu Üniversitesi Eğitim Fakültesi"
     title: "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü: Bölüm Genel Bilgi"
+    publisher: "Anadolu Üniversitesi Eğitim Fakültesi"
     year: "t.y."
     url: "https://www.anadolu.edu.tr/akademik/fakulteler/180/bilgisayar-ve-ogretim-teknolojileri-egitimi-bolumu/bolum-genel-bilgi"
     lang: tr
     accessed: 2026-09-25
+    note: "Anadolu Üniversitesi BÖTE bölümünün resmî tanıtım sayfası. Bölümlerin 1998'de kuruluşu ve amacına ilişkin bilgiler buradan."
   - id: yok2007
-    publisher: "Yükseköğretim Kurulu"
     title: "Öğretmen Yetiştirme ve Eğitim Fakülteleri (1982-2007)"
+    publisher: "Yükseköğretim Kurulu"
     year: 2007
     url: "https://www.yok.gov.tr/documents/documents/68f1dc9129d3a.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün 1982–2007 arası öğretmen yetiştirmeyi anlatan resmî yayını. 1998 yeniden yapılanmasının arka planı bu kaynaktan."
   - id: yokbote
-    publisher: "Yükseköğretim Kurulu"
     title: "Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Lisans Programı"
+    publisher: "Yükseköğretim Kurulu"
     year: 2018
     url: "https://egitim.yok.gov.tr/tr/document/2432"
     lang: tr
     accessed: 2026-09-25
+    note: "YÖK'ün BÖTE lisans programı belgesi. Programın üç bileşeni ve ders yapısının resmî kaynağı."
   - id: cakir2013
     author: "Çakır, H., Çebi, A. ve Özcan, S."
     title: "BÖTE Nedir? Nasıl Tanımlanır? Okul Müzesiyle Başlayan Serüvenden İnsan Performans Teknolojilerine Uzanan Yolculuk"
@@ -91,29 +100,24 @@ sources:
     url: "https://dergipark.org.tr/tr/pub/etku/issue/6269/84217"
     lang: tr
     accessed: 2026-09-25
+    note: "Türk akademisyenlerin BÖTE'yi tanımladığı makale. Alanın öğretim sistemleri tasarımı ve insan performans teknolojisiyle ilişkisi buradan."
   - id: yokatlas
-    publisher: "Yükseköğretim Kurulu"
     title: "YÖK Lisans Atlası: Bilgisayar ve Öğretim Teknolojileri Öğretmenliği Programı Bulunan Üniversiteler"
+    publisher: "Yükseköğretim Kurulu"
     year: 2026
     url: "https://yokatlas.yok.gov.tr/lisans-bolum.php?b=20101"
     lang: tr
     accessed: 2026-09-25
-  - id: ttkb2025
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
-    title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları"
-    year: 2025
-    url: "https://ttkb.meb.gov.tr/www/ogretmenlik-alanlari-atama-ve-ders-okutma-esaslari/icerik/807"
-    lang: tr
-    accessed: 2026-09-25
+    note: "YÖK'ün tercih aracı. Programın resmî adı, puan türü ve açık olduğu üniversiteler için başvurulacak kaynak."
   - id: ttkb-esaslar
-    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     title: "Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler)"
+    publisher: "MEB Talim ve Terbiye Kurulu Başkanlığı"
     year: 2025
     url: "https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf"
     lang: tr
     accessed: 2026-09-25
+    note: "MEB'in öğretmenlik alanları ve ders okutma esaslarının Aralık 2025 tarihli güncel metni. 2025'teki yeni atama alanının resmî kaynağı."
 ---
-
 "BÖTE" kısaltmasını tercih döneminde, öğretmen atama haberlerinde ya da okulunuzdaki bilişim dersinde duymuş olabilirsiniz. Açılımı **Bilgisayar ve Öğretim Teknolojileri Eğitimi**. YÖK Atlas'ta program **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği** adıyla yer alıyor.[@yokatlas] İngilizce kaynaklarda bölüm çoğunlukla *Computer Education and Instructional Technology* (CEIT) adıyla anılır.
 
 Bu rehberde bölümün ne olduğunu, nereden geldiğini, neler öğrettiğini ve kimler için doğru bir seçim olabileceğini anlatıyoruz. Olumlu ve olumsuz yönleri birlikte ele almaya çalıştık.
@@ -164,9 +168,26 @@ Bu çerçevelerin ortak mesajı şu: Teknolojiyi iyi bilmek tek başına yetmez.
 
 ## Güncel gelişmeler: 2025'te ne değişti?
 
-2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[@ttkb2025] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@ttkb-esaslar]
+2025'te MEB'in *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nda önemli bir değişiklik yapıldı.[@ttkb-esaslar] Esasların güncel metnine göre bilişim teknolojileri alanı ikiye ayrıldı. Mevcut **Bilişim Teknolojileri** alanı mesleki ve teknik eğitim kurumlarıyla sınırlandırıldı. Genel ilköğretim ve ortaöğretim kurumları için ise ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu.[@ttkb-esaslar]
 
 Bu değişiklik, bölüm adıyla doğrudan örtüşen bir öğretmenlik alanı tanımladığı için önemlidir. Ancak yeni alanın atama sayılarına nasıl yansıyacağını zaman gösterecek. Atama ve kariyer seçeneklerini [BÖTE mezunları ne iş yapar?](/blog/bote-mezunlari-ne-is-yapar) yazımızda, kontenjan tartışmalarını ise [BÖTE'ye öğrenci alımı](/blog/bote-ogrenci-alimi-ve-gelecegi) yazımızda ele aldık.
+
+## Alanın temel kavramları
+
+BÖTE'de ve bu blogda sık karşılaşacağınız kavramları kısaca tanımlayalım. Her birini ayrıntılı ele aldığımız yazılara bağlantı verdik:
+
+| Kavram | Kısaca | Ayrıntı |
+|---|---|---|
+| Eğitim teknolojisi | Uygun teknolojik süreç ve kaynakları oluşturarak, kullanarak ve yöneterek öğrenmeyi kolaylaştırma çalışması | Bu yazı |
+| Öğretim tasarımı | Öğrenme ihtiyacından yola çıkarak öğretimi sistemli biçimde planlama | [ADDIE modeli](/blog/ogretim-tasarimi-addie-modeli) |
+| TPACK | Alan, pedagoji ve teknoloji bilgisinin kesişiminde oluşan öğretmen bilgisi | [TPACK modeli](/blog/tpack-modeli-nedir) |
+| Bilgi işlemsel düşünme | Problemleri bir bilgisayarın da uygulayabileceği adımlarla çözme biçimi | [Bilgi işlemsel düşünme](/blog/bilgi-islemsel-dusunme-nedir) |
+| Çoklu ortam öğrenme | Sözcük ve görselin birlikte, bilişsel yükü gözeterek kullanılması | [Mayer'in ilkeleri](/blog/coklu-ortam-ogrenme-ilkeleri) |
+| Uzaktan eğitim | Öğrenen ile öğretenin fiziksel olarak ayrı olduğu eğitim | [Uzaktan eğitim](/blog/uzaktan-egitim-nedir) |
+| Oyunlaştırma | Oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılması | [Oyunlaştırma](/blog/oyunlastirma-nedir) |
+| İnsan performans teknolojisi | Performans sorunlarını yalnızca eğitimle değil, çevresel ve örgütsel etkenlerle birlikte ele alan yaklaşım | Aşağıda |
+
+Son kavram BÖTE'nin sınırlarını anlamak için önemlidir. Çakır, Çebi ve Özcan'ın belirttiği gibi alan, öğretim sistemleri tasarımından başlayıp zamanla bir kurumdaki insan performansını bütüncül biçimde ele alan bir yaklaşıma doğru genişledi.[@cakir2013] Bu nedenle bir BÖTE mezunu yalnızca "ders hazırlayan" değil, "öğrenme ve performans sorununu çözen" biri olarak da düşünülebilir.
 
 ## BÖTE kimler için uygun bir seçim?
 

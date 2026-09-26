@@ -3,7 +3,7 @@ title: "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?"
 url: https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-25
+updated: 2026-09-26
 category: Eğitim Fakültesi
 description: "Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber."
 ---
@@ -12,7 +12,7 @@ description: "Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, 
 
 > Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
 
 ## Kısaca
 
@@ -30,6 +30,12 @@ Akreditasyon, bir yükseköğretim programının belirlenmiş kalite standartlar
 ## Avrupa çerçevesi: ESG
 
 Türkiye'nin de parçası olduğu Avrupa Yükseköğretim Alanı'nda kalite güvencesi, **ESG** olarak bilinen ortak standart ve ilkelerle yürütülür. ESG, yükseköğretim kurumlarının iç kalite güvencesi, dış kalite güvencesi ve kalite güvencesi kuruluşları olmak üzere üç bölümden oluşur.[1] Bu yapı, akreditasyonun yalnızca dışarıdan yapılan bir denetim olmadığını, kurumun kendi iç kalite süreçleriyle birlikte işleyen bir sistem olduğunu gösterir.
+
+## İç kalite güvencesi: ESG'nin on standardı
+
+ESG'nin birinci bölümü, bir yükseköğretim kurumunun kendi içinde sağlaması gereken kalite güvencesini on standartla tanımlar: kalite güvencesi politikası; programların tasarımı ve onayı; öğrenci merkezli öğrenme, öğretme ve değerlendirme; öğrenci kabulü, ilerlemesi, tanınması ve belgelendirilmesi; öğretim kadrosu; öğrenme kaynakları ve öğrenci desteği; bilgi yönetimi; kamuoyunun bilgilendirilmesi; programların sürekli izlenmesi ve dönemsel gözden geçirilmesi; ve düzenli dış kalite güvencesi.[1]
+
+Bu liste, akreditasyonun neden yalnızca "müfredata bakmak" olmadığını gösteriyor. Bir öğretmenlik programı değerlendirilirken öğrencinin nasıl değerlendirildiği, öğretim kadrosunun yeterliliği, uygulama okullarının ve öğrenme kaynaklarının durumu ve programın kendini nasıl izlediği de sorgulanır. Tercih yapan bir aday da benzer soruları sorabilir: Program öğrencilerden geri bildirim alıyor mu? Mezunlarının durumunu izliyor mu? Bu bilgileri kamuoyuyla paylaşıyor mu?
 
 ## Türkiye'de öğretmenlik programları: EPDAD
 
