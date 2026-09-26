@@ -33,6 +33,7 @@ categories:
     name: Kariyer
     description: BÖTE mezunlarının çalışma alanları, öğretmenlik ve öğretmenlik dışı kariyer yolları.
   - slug: yuksekogretim
+    short: Politika
     icon: landmark
     name: Yükseköğretim ve Politika
     description: YÖK kararları, kontenjanlar ve öğretmen yetiştirme politikalarına dair gelişmeler.
@@ -44,6 +45,18 @@ categories:
     icon: monitor-cog
     name: Eğitim Teknolojileri
     description: Öğretim teknolojileri, dijital yetkinlikler ve eğitimde yapay zekâ üzerine yazılar.
+  # 26.09 (Ahmet): iki yeni kategori. Kuram yazilari AGS/KPSS'de sik cikan kuramlari ve meslek
+  # bilgisi derslerini; uluslararasi egitim PISA, OECD, TALIS ve karsilastirmali egitimi kapsar.
+  - slug: egitim-bilimleri
+    short: Kuramlar
+    icon: brain
+    name: Eğitim Bilimleri ve Kuramlar
+    description: Gelişim, öğrenme, öğretim ve güdülenme kuramları; AGS ve KPSS'de sık sorulan kuramların kanıtı, eleştirisi ve sınıftaki karşılığı.
+  - slug: uluslararasi-egitim
+    short: Uluslararası
+    icon: globe
+    name: Uluslararası Eğitim
+    description: PISA, TALIS ve OECD göstergeleri; ülkelerin eğitim sistemlerini karşılaştıran veriye dayalı yazılar.
 
 # Reklam alanlari. adsense.client doldurulursa (ca-pub-...) ilgili alanlarda AdSense
 # gosterilir ve kok dizine ads.txt uretilir; bos ise site ici tanitim (house) gosterilir.

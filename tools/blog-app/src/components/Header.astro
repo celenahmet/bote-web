@@ -12,7 +12,8 @@ const cats = blog.categories.filter((c) => c.count);
     <a class="brand" href="/blog" aria-label="BÖTE Blog ana sayfası"><span class="brand-mark">BÖTE<b>.</b></span><span class="brand-sub">blog</span></a>
     <nav class="topnav" aria-label="Blog kategorileri">
       <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}>Tüm yazılar</a>
-      {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}>{c.name}</a>)}
+      {/* Ust menude kategorinin kisa adi (blog.yml > short); 7 kategoride tam adlar arama dugmesinin altina tasiyordu. */}
+      {cats.map((c) => <a href={c.url} title={c.short ? c.name : undefined} aria-current={current === c.slug ? 'page' : undefined}>{c.short || c.name}</a>)}
     </nav>
     <div class="top-actions">
       <SearchPalette client:idle />
