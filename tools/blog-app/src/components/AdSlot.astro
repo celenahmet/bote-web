@@ -16,9 +16,9 @@ const external = /^https:\/\//.test(house?.logo || '');
 const logoFile = house?.logo && !external && path.join(ROOT, 'tools/blog-app/public', house.logo.replace(/^\/blog\//, ''));
 const logo = external ? house.logo : logoFile && fs.existsSync(logoFile) ? house.logo : null;
 const STORES = {
-  appstore: { icon: 'apple', top: 'Download on the', name: 'App Store', label: "App Store'dan indir" },
-  googleplay: { icon: 'googleplay', top: 'GET IT ON', name: 'Google Play', label: "Google Play'den indir" },
-  appgallery: { icon: 'appgallery', top: 'EXPLORE IT ON', name: 'AppGallery', label: "AppGallery'den indir" },
+  appstore: { badge: '/blog/ads/app-store.png', w: 241, icon: 'apple', top: 'Download on the', name: 'App Store', label: "App Store'dan indir" },
+  googleplay: { badge: '/blog/ads/google-play.png', w: 269, icon: 'googleplay', top: 'GET IT ON', name: 'Google Play', label: "Google Play'den indir" },
+  appgallery: { badge: '/blog/ads/appgallery.png', w: 266, icon: 'appgallery', top: 'EXPLORE IT ON', name: 'AppGallery', label: "AppGallery'den indir" },
 };
 ---
 {client && slotId ? (
@@ -45,8 +45,7 @@ const STORES = {
         <div class="promo-stores">
           {house.stores.filter((s) => STORES[s.id]).map((s) => (
             <a class="store" href={s.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand}: ${STORES[s.id].label}`}>
-              <Icon name={STORES[s.id].icon} brand size={17} />
-              <span>{STORES[s.id].name}</span>
+              <img src={STORES[s.id].badge} alt={STORES[s.id].label} width={STORES[s.id].w} height="80" loading="lazy" decoding="async" />
             </a>
           ))}
         </div>

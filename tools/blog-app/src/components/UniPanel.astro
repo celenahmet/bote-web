@@ -7,9 +7,9 @@ const ads = loadBlog().cfg.ads;
 const sc = ads.showcase;
 const house = (ads.house || [])[0] || {};
 const STORES = {
-  appstore: { icon: 'apple', name: 'App Store', label: "App Store'dan indir" },
-  googleplay: { icon: 'googleplay', name: 'Google Play', label: "Google Play'den indir" },
-  appgallery: { icon: 'appgallery', name: 'AppGallery', label: "AppGallery'den indir" },
+  appstore: { badge: '/blog/ads/app-store.png', w: 241, icon: 'apple', name: 'App Store', label: "App Store'dan indir" },
+  googleplay: { badge: '/blog/ads/google-play.png', w: 269, icon: 'googleplay', name: 'Google Play', label: "Google Play'den indir" },
+  appgallery: { badge: '/blog/ads/appgallery.png', w: 266, icon: 'appgallery', name: 'AppGallery', label: "AppGallery'den indir" },
 };
 const ext = { rel: 'sponsored noopener', target: '_blank' };
 ---
@@ -64,7 +64,7 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
         <div class="promo-stores">
           {(house.stores || []).filter((s) => STORES[s.id]).map((s) => (
             <a class="store" href={s.url} {...ext} aria-label={`UniConnectly: ${STORES[s.id].label}`}>
-              <Icon name={STORES[s.id].icon} brand size={14} /><span>{STORES[s.id].name}</span>
+              <img src={STORES[s.id].badge} alt={STORES[s.id].label} width={STORES[s.id].w} height="80" loading="lazy" decoding="async" />
             </a>
           ))}
         </div>

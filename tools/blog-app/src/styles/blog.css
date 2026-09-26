@@ -104,7 +104,10 @@ p{margin:0}
 .feature h2 a:hover,.row h3 a:hover{color:var(--violet)}
 .feature .dek{font:400 16.5px/1.6 var(--serif);color:var(--ink-2)}
 .row{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;padding-block:22px}
-@media (min-width:640px){.row{grid-template-columns:128px minmax(0,1fr);gap:24px}}
+@media (min-width:640px){.row{grid-template-columns:232px minmax(0,1fr);gap:24px;align-items:start}}
+.row-img{display:block;border-radius:12px;overflow:hidden;border:1px solid var(--line);background:var(--raised);aspect-ratio:1200/630}
+.row-img img{width:100%;height:100%;object-fit:cover}
+.row .meta time{font:500 13px var(--mono)}
 .row-date{font:500 13px/1.7 var(--mono);color:var(--muted)}
 .row-body{display:flex;flex-direction:column;gap:8px}
 .row h3{font-size:clamp(20px,2.4vw,24px);font-weight:700}
@@ -449,3 +452,10 @@ p{margin:0}
 
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{.topbar,.chipbar,.band,.foot,.share,.prevnext,.related,.sidebar,.toc-card,.ad,.promo,.uc,.bib-settings{display:none!important}.post-layout{display:block}}
+
+/* Resmi magaza rozetleri (26.09, Ahmet: "magaza reklam linkleri zayif"): yazili hap
+   dugmeler yerine App Store / Google Play / AppGallery rozet gorselleri. */
+.store{display:block;min-height:0;padding:0;border:0;border-radius:8px;background:none;line-height:0}
+.store img{display:block;width:100%;height:auto}
+.store:hover{opacity:.85}
+.uc-get .store img{width:auto;height:38px}

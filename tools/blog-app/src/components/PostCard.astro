@@ -22,12 +22,17 @@ const H = `h${level}`;
   </article>
 ) : (
   <article class="row">
-    <div class="row-date"><time datetime={post.date}>{trDate(post.date)}</time></div>
+    {/* Gecici kapak (Ahmet 26.09: "gecici bi foto kullanilsin da site bi otursun"):
+        yazinin sosyal kapagi. Gercek gorseller gelince fm.image ile degisir. */}
+    <a class="row-img" href={post.url} tabindex="-1" aria-hidden="true">
+      <img src={post.image.src} width={post.image.width} height={post.image.height} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" />
+    </a>
     <div class="row-body">
       <p class="kicker"><a href={post.category.url}>{post.category.name}</a></p>
       <H><a href={post.url} style={`view-transition-name: t-${post.slug}`}>{post.title}</a></H>
       <p class="dek">{post.description}</p>
       <div class="meta">
+        <time datetime={post.date}>{trDate(post.date)}</time>
         <span>{post.minutes} dk okuma</span>
         {!post.preview && <ViewCount client:visible slug={post.slug} />}
       </div>

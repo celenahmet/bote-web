@@ -61,20 +61,21 @@ ads:
       brand: UniConnectly
       # Logo: tam adres ya da tools/blog-app/public/ads/ altindaki dosya (/blog/ads/...).
       # Gecici olarak uniconnectly.com'daki logo kullaniliyor.
-      logo: https://uniconnectly.com/brand/light-logo-navbar.avif
+      logo: https://uniconnectly.com/brand/light-logo-yildizsiz.webp
       text: >-
         Üniversite topluluklarını, etkinlikleri ve şirketleri tek uygulamada
         buluşturan ücretsiz kampüs platformu.
       cta: Ücretsiz keşfet
       url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog
-      # Magaza sayfalarinin adresleri gelince url alanlari guncellenir (simdilik site).
+      # Gercek magaza sayfalari (26.09; kaynak: uniconnectly-web/lib/appStores.ts).
+      # Play kaynak bilgisini referrer ile tasir; App Store ve AppGallery parametre almiyor.
       stores:
         - id: appstore
-          url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=appstore
+          url: https://apps.apple.com/tr/app/uniconnectly/id6784849124
         - id: googleplay
-          url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=googleplay
+          url: https://play.google.com/store/apps/details?id=com.uniconnectly.app&referrer=utm_source%3Dbote.web.tr%26utm_medium%3Dreferral%26utm_campaign%3Dblog
         - id: appgallery
-          url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog&utm_content=appgallery
+          url: https://appgallery.huawei.com/app/C118677033
   # Yazi sonundaki UniConnectly paneli (AdSense yokken article-end alaninda gosterilir).
   showcase:
     kicker: "Ücretsiz indir ve kaydol"
