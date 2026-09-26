@@ -75,8 +75,7 @@ ads:
     title: "Sınavdan sonra kampüs hayatı başlıyor"
     text: >-
       UniConnectly, üniversite öğrencilerini toplulukları, etkinlikleri ve şirketlerle aynı
-      uygulamada buluşturur. Üniversitendeki toplulukları keşfeder, etkinliklere QR ile katılır,
-      katıldıklarını ve sertifikalarını dijital portföyünde herkese açık paylaşırsın.
+      uygulamada buluşturur.
     steps:
       - { title: "Kaydol", text: "Uygulamayı indir, üniversiteni seç" }
       - { title: "Katıl", text: "Toplulukları takip et, etkinliklere başvur" }

@@ -1,6 +1,6 @@
 ---
-// Yazi sonundaki UniConnectly paneli: solda urun tanitimi ve adimlar, sagda hedef kitleye gore
-// sekmeli kazanimlar. Sekmeler JS'siz calisir (radyo dugmeleri + CSS).
+// Yazi sonundaki UniConnectly is birligi paneli (yatay): ustte tanitim + 3 adim, ortada hedef
+// kitleye gore sekmeli kazanimlar (3 sutun), altta magaza rozetleri ve dugmeler. Sekmeler JS'siz calisir (radyo dugmeleri + CSS).
 import Icon from './Icon.astro';
 import { loadBlog } from '../lib.js';
 const ads = loadBlog().cfg.ads;
@@ -14,25 +14,53 @@ const STORES = {
 const ext = { rel: 'sponsored noopener', target: '_blank' };
 ---
 {sc && (
-  <aside class="uc" aria-label="UniConnectly tanıtımı">
-    <span class="promo-tag uc-tag">Reklam</span>
-    <div class="uc-grid">
+  <aside class="uc" aria-label="UniConnectly iş birliği">
+    <span class="promo-tag uc-tag">İş birliği</span>
+    <div class="uc-head">
       <div class="uc-intro">
-        <a class="uc-logo" href={sc.url} {...ext} aria-label="UniConnectly web sitesi">
-          {house.logo ? (
-            <>
-              <img src={house.logo} alt="UniConnectly" height="44" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
-              <span class="promo-wordmark" hidden>Uni<b>Connectly</b></span>
-            </>
-          ) : <span class="promo-wordmark">Uni<b>Connectly</b></span>}
-        </a>
-        <p class="uc-kicker">{sc.kicker}</p>
-        <p class="uc-title">{sc.title}</p>
+        <div class="uc-brand">
+          <a class="uc-logo" href={sc.url} {...ext} aria-label="UniConnectly web sitesi">
+            {house.logo ? (
+              <>
+                <img src={house.logo} alt="UniConnectly" height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                <span class="promo-wordmark" hidden>Uni<b>Connectly</b></span>
+              </>
+            ) : <span class="promo-wordmark">Uni<b>Connectly</b></span>}
+          </a>
+          <div>
+            <p class="uc-kicker">{sc.kicker}</p>
+            <p class="uc-title">{sc.title}</p>
+          </div>
+        </div>
         <p class="uc-text">{sc.text}</p>
-        <ol class="uc-steps">
-          {sc.steps.map((st, i) => <li><span class="uc-n">{i + 1}</span><span><b>{st.title}</b><small>{st.text}</small></span></li>)}
-        </ol>
-        <p class="uc-sub">Ücretsiz indir</p>
+      </div>
+      <ol class="uc-steps">
+        {sc.steps.map((st, i) => <li><span class="uc-n">{i + 1}</span><span><b>{st.title}</b><small>{st.text}</small></span></li>)}
+      </ol>
+    </div>
+    <div class="uc-tabs">
+      {sc.tabs.map((t, i) => <input type="radio" name="uc-tab" id={`uc-t${i}`} class="uc-radio sr-only" checked={i === 0} />)}
+      <div class="uc-switch">
+        {sc.tabs.map((t, i) => <label for={`uc-t${i}`}>{t.label}</label>)}
+      </div>
+      <div class="uc-panels">
+        {sc.tabs.map((t, i) => (
+          <div class={`uc-panel uc-p${i}`}>
+            <p class="uc-q">{t.question}</p>
+            <ul class="uc-cards">
+              {t.items.map((it) => (
+                <li>
+                  <b><span class="uc-check"><Icon name="check" size={12} /></span>{it.title}</b>
+                  <small>{it.text}{it.example && <> <a href={it.exampleUrl} {...ext}>Örneği gör: {it.example}</a></>}</small>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+    <div class="uc-foot">
+      <div class="uc-get" aria-label="Ücretsiz indir">
         <div class="promo-stores">
           {(house.stores || []).filter((s) => STORES[s.id]).map((s) => (
             <a class="store" href={s.url} {...ext} aria-label={`UniConnectly: ${STORES[s.id].label}`}>
@@ -41,30 +69,9 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
           ))}
         </div>
       </div>
-      <div class="uc-tabs">
-        {sc.tabs.map((t, i) => <input type="radio" name="uc-tab" id={`uc-t${i}`} class="uc-radio sr-only" checked={i === 0} />)}
-        <div class="uc-switch">
-          {sc.tabs.map((t, i) => <label for={`uc-t${i}`}>{t.label}</label>)}
-        </div>
-        <div class="uc-panels">
-          {sc.tabs.map((t, i) => (
-            <div class={`uc-panel uc-p${i}`}>
-              <p class="uc-q">{t.question}</p>
-              <ul class="uc-cards">
-                {t.items.map((it) => (
-                  <li>
-                    <span class="uc-check"><Icon name="check" size={13} /></span>
-                    <span><b>{it.title}</b><small>{it.text}{it.example && <> <a href={it.exampleUrl} {...ext}>Örneği gör: {it.example}</a></>}</small></span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-        <div class="uc-actions">
-          <a class="uc-btn uc-ghost" href={sc.blog} {...ext}>UniConnectly Blog <Icon name="arrow-right" size={16} /></a>
-          <a class="uc-btn uc-primary" href={sc.url} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
-        </div>
+      <div class="uc-actions">
+        <a class="uc-btn uc-ghost" href={sc.blog} {...ext}>UniConnectly Blog <Icon name="arrow-right" size={16} /></a>
+        <a class="uc-btn uc-primary" href={sc.url} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
       </div>
     </div>
   </aside>
