@@ -117,7 +117,8 @@ de sayı ve kaynakla (atama, istihdam, mevzuat) verilir, yoğunluk düşürülme
   yalnızca arama dizininin kayıt sayfalarıyla (ERIC, yayınevi, DergiPark, kurum deposu) çapraz
   denetlenebilir; doğrulama notlarında "dizin düzeyi" yazılır, DOI'nin kaynağı (dizin / hafıza)
   belirtilir, yazının değişiklik günlüğünde "tam metin denetimi sürüyor" denir ve ağ açılınca
-  tam metin denetimi tamamlanır. Sayısı çelişkili ya da tek dizinde görülen değer yazılmaz.
+  tam metin denetimi tamamlanır. Dizinler arasında çelişen ya da hangi kaynağa ait olduğu belirsiz
+  değer yazılmaz; yalnızca kaynağın kendi özetinde ya da kaydında görülen değer kullanılır.
 - Her sayı kaynağındaki tablo ya da sayfadan alınır; `content/blog/dogrulama-notlari/<slug>.md`
   dosyasına kaynak, sayfa ve erişim tarihiyle yazılır (şablon: klasördeki README).
 - Yayından önce hakem okuması: yazı BÖTE'de doçent bir hakem gözüyle baştan okunur; eksik

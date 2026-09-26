@@ -1105,127 +1105,159 @@ Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine i
 
 # Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük
 
-> Etkili sunum ve eğitim videosu nasıl hazırlanır? Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramıyla, öğretmenler için uygulanabilir tasarım rehberi.
+> Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı: tanımlar, tarihçe, meta-analizlerde etki büyüklükleri, eleştiriler ve Türkiye'deki çalışmalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 10 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 
 ## Kısaca
 
-- **Çoklu ortam öğrenme**, sözcükler ve resimler birlikte sunulduğunda insanların yalnızca sözcüklerden daha iyi öğrendiği ilkesine dayanır.
-- Mayer'in kuramı üç varsayıma dayanır: iki ayrı kanal (görsel ve işitsel), sınırlı kapasite ve etkin işleme.
-- Sweller'in **bilişsel yük kuramı**, çalışma belleğini gereksiz yükle doldurmanın öğrenmeyi engellediğini gösterir.
-- Gereksiz ayrıntıyı atmak, önemli yeri işaretlemek ve içeriği parçalara bölmek en etkili tasarım ilkeleri arasındadır.
+- **Çoklu ortam öğrenme kuramı** iki kanal, sınırlı kapasite ve etkin işleme varsayımlarına; **bilişsel yük kuramı** ise çalışma belleğinin sınırlı olduğu ve dışsal yükün öğrenmeyi engellediği fikrine dayanır.
+- 29 derleme ve 1.189 çalışmayı birleştiren derlemelerin derlemesinde 11 tasarım ilkesinin öğrenmeye anlamlı ve olumlu etkisi bulunmuştur; en büyük kazançlar yakınlık ve işaretleme ilkelerindedir.
+- İşaretlemenin etkisi hatırlamada g = 0,53, transferde g = 0,33'tür; modalite etkisi ilk meta-analizde d = 0,72 iken yayın yanlılığı düzeltildiğinde d = 0,20'ye düşer.
+- Başlıca sınırlılıklar: yayın yanlılığı, bilişsel yükün ölçülmesindeki sorunlar, kuramın çelişkili açıklamalara izin vermesi ve uzmanlığın ters etkisi.
 
-Öğretmenlerin hazırladığı sunumlar, eğitim videoları ve e-öğrenme modülleri her gün binlerce öğrenciye ulaşıyor. Bu materyallerin etkili olup olmadığını belirleyen şey çoğu zaman teknolojinin kendisi değil, tasarımıdır. Bu yazıda eğitim teknolojisi alanının en sağlam araştırma temellerinden birine dayanan **çoklu ortam öğrenme ilkelerini** özetliyoruz.
+Bir eğitim videosuna arka plan müziği eklemek, slayttaki metni sesli okumak ya da bir şemanın etiketlerini ayrı bir lejanda toplamak öğrenmeyi nasıl etkiler? Çoklu ortam öğrenme araştırmaları bu soruları deneysel olarak sınayan en geniş eğitim teknolojisi alanyazınlarından birini oluşturur. Bu yazı, alanın üç kuramsal dayanağını, ilkelerin meta-analizlerdeki etki büyüklüklerini, bu bulgulara yöneltilen yöntemsel eleştirileri ve Türkiye'deki çalışmaları bir araya getiriyor.
 
-## Temel fikir: sözcükler ve resimler birlikte
+## Kuramsal temel: üç tanım, üç kuram
 
-Richard Mayer'in yıllara yayılan araştırma programının çıkış noktası basit bir bulgudur: insanlar sözcükler ve resimler birlikte sunulduğunda, yalnızca sözcüklerle sunulduğundan daha iyi öğrenir. Mayer bunu **çoklu ortam ilkesi** olarak adlandırır.[1] Ancak bu, "ne kadar çok görsel, o kadar iyi" anlamına gelmez. Görselin sözcüklerle anlamlı bir bütün oluşturması gerekir.
+**Çoklu ortam öğrenme**, Mayer'in tanımıyla sözcüklerden (yazılı ya da sözlü) ve resimlerden (durağan ya da hareketli görseller) birlikte öğrenmedir. Mayer'in çoklu ortam öğrenmenin bilişsel kuramı üç varsayıma dayanır: görsel ve işitsel bilgi **ayrı kanallarda** işlenir; her kanalın aynı anda işleyebileceği bilgi **sınırlıdır**; anlamlı öğrenme, ilgili bilginin seçilmesi, düzenlenmesi ve ön bilgiyle bütünleştirilmesinden oluşan **etkin işleme** gerektirir.[1] Kuramın merkezindeki "çoklu ortam ilkesi" basittir: insanlar sözcükler ve resimler birlikte sunulduğunda yalnızca sözcüklerden daha iyi öğrenir.
 
-Mayer'in bilişsel kuramı üç varsayıma dayanır:[1]
+Kanal ayrımının kökeni Paivio'nun **ikili kodlama kuramına** dayanır. Clark ve Paivio'ya göre sözel ve sözel olmayan bilgi, birbiriyle bağlantılı ama ayrı iki temsil sisteminde tutulur; bir kavramın hem sözel hem imgesel olarak kodlanması onu hatırlamayı kolaylaştırır.[2] Mayer'in kuramı bu ayrımı duyusal kanallar üzerinden yeniden yorumlar: ayrım, bilginin türünden çok hangi duyudan geldiğine dayanır.
 
-- **İki kanal:** İnsanlar görsel ve işitsel bilgiyi ayrı kanallarda işler.
-- **Sınırlı kapasite:** Her kanal aynı anda ancak sınırlı miktarda bilgi işleyebilir.
-- **Etkin işleme:** Anlamlı öğrenme, öğrencinin bilgiyi seçmesi, düzenlemesi ve ön bilgisiyle bütünleştirmesiyle gerçekleşir.
+Üçüncü dayanak, Sweller'in 1988'de problem çözme çalışmalarından yola çıkarak geliştirdiği **bilişsel yük kuramıdır**. Sweller, geleneksel problem çözme alıştırmalarının çalışma belleğini çözüm aramaya harcatarak şema edinimini engelleyebileceğini gösterdi.[3] Sweller, van Merriënboer ve Paas kuramı bilişsel mimari üzerinden sistemleştirdi ve yükü üç türe ayırdı: konunun kendi karmaşıklığından doğan **içsel yük**, kötü tasarımdan doğan **dışsal yük** ve anlamlı öğrenmeye harcanan çabayı karşılayan **etkili yük**.[4] Tasarımcının görevi dışsal yükü azaltmak, içsel yükü yönetmek ve etkili yükü desteklemektir. Mayer de ilkelerini aynı mantıkla üç amaca göre gruplar: dışsal işlemeyi azaltan, zorunlu işlemeyi yöneten ve üretici işlemeyi destekleyen ilkeler.[1]
 
-## Bilişsel yük kuramı
+### Terimler
 
-Bu varsayımların arkasında John Sweller'in **bilişsel yük kuramı** vardır. Sweller 1988'de yayımladığı çalışmada, bazı problem çözme yöntemlerinin çalışma belleğine öyle yoğun bir yük bindirdiğini gösterdi ki öğrenciler problemi çözseler bile genellenebilir bir bilgi yapısı (şema) oluşturamıyordu.[2] Öğretim tasarımı açısından sonuç açıktır: materyal, öğrencinin sınırlı zihinsel kapasitesini öğrenmeye değil de gereksiz işlere harcatıyorsa, etkili değildir.
-
-Mayer ve Moreno bu fikri çoklu ortama uyarlayarak bilişsel yükü azaltmanın dokuz yolunu tanımladı. İçeriği parçalara bölmek, önemli yerleri işaretlemek, ilgisiz ayrıntıyı ayıklamak ve gereksiz tekrarı kaldırmak bu yollardan bazılarıdır.[3]
-
-## Bilişsel yükün üç türü
-
-Sweller, van Merriënboer ve Paas, öğrenme sırasında çalışma belleğine binen yükü üç türe ayırır:[4]
-
-| Yük türü | Kaynağı | Tasarımcı ne yapmalı? |
+| Türkçe terim | İngilizce karşılık | Türkçe alanyazındaki diğer kullanımlar |
 |---|---|---|
-| İçsel yük | Konunun kendi karmaşıklığı | Konuyu parçalara bölmek, ön bilgiyi hazırlamak |
-| Dışsal yük | Kötü tasarım: dağınık yerleşim, gereksiz ayrıntı | En aza indirmek |
-| Etkili yük | Anlamlı öğrenmeye harcanan çaba | Desteklemek ve yönlendirmek |
+| Çoklu ortam öğrenme | Multimedia learning | çok ortamlı öğrenme; multimedya ile öğrenme |
+| Bilişsel yük | Cognitive load | — |
+| İçsel / dışsal / etkili yük | Intrinsic / extraneous / germane load | dışsal yük için konu dışı yük; etkili yük için ilgili yük |
+| Konu dışı işleme | Extraneous processing | dışsal işleme |
+| Tutarlılık ilkesi | Coherence principle | ilgisiz ayrıntıların çıkarılması |
+| İlgi çekici ayrıntılar | Seductive details | — |
+| İşaretleme ilkesi | Signaling principle | — |
+| Mekânsal / zamansal yakınlık | Spatial / temporal contiguity | uzamsal / zamansal bitişiklik |
+| Kip (modalite) ilkesi | Modality principle | modalite ilkesi |
+| Uzmanlığın ters etkisi | Expertise reversal effect | — |
 
-Bu ayrım tasarım kararlarını netleştirir. Kuantum fiziği içsel olarak karmaşıktır; bu yük ortadan kaldırılamaz, ancak iyi sıralanarak yönetilebilir. Buna karşılık bir şemanın açıklamasının ayrı bir sayfada verilmesi tamamen dışsal yüktür ve tasarımla sıfırlanabilir. İyi bir materyal dışsal yükü azaltarak zihinsel kapasiteyi etkili yüke ayırır.
+## Tarihsel gelişim: deney odasından meta-meta-analize
 
-## Neden sözcük ve resim birlikte? İkili kodlama kuramı
+| Yıl | Gelişme |
+|---|---|
+| 1988 | Sweller problem çözmenin bilişsel yükünü ve şema edinimine etkisini gösterir.[3] |
+| 1991 | Clark ve Paivio ikili kodlama kuramını eğitim açısından sistemleştirir.[2] |
+| 1998 | Sweller, van Merriënboer ve Paas bilişsel mimariyi ve yük türlerini tanımlar.[4] |
+| 2003 | Mayer ve Moreno yükü azaltmanın dokuz yolunu önerir; Kalyuga ve arkadaşları uzmanlığın ters etkisini tanımlar.[5, 6] |
+| 2005-2006 | Ginns modalite ve yakınlık etkilerinin ilk meta-analizlerini yayımlar.[7, 8] |
+| 2007-2010 | Kurama yönelik kavramsal ve yöntemsel eleştiriler yayımlanır.[9, 10] |
+| 2012 | İlgi çekici ayrıntılar ve modalite etkisinin yeni meta-analizleri; modalite etkisinde yayın yanlılığı tartışması.[11, 12] |
+| 2018 | İşaretleme ilkesinin 103 çalışmalık meta-analizi.[13] |
+| 2020 | Mayer'in kuramı ve ilkeleri 3. baskıyla güncellenir.[1] |
+| 2022 | 29 derlemeyi birleştiren derlemelerin derlemesi yayımlanır.[14] |
 
-Mayer'in iki kanal varsayımının arkasında Allan Paivio'nun **ikili kodlama kuramı** vardır. Clark ve Paivio'ya göre zihin, sözel bilgi ve görsel imgeler için birbiriyle bağlantılı iki ayrı sistem kullanır. Bir kavram hem sözcükle hem de imgeyle kodlandığında hatırlanması için iki ayrı yol oluşur ve bu, öğrenmeyi güçlendirir.[5] "Kalp bir pompadır" cümlesi, pompalama hareketini gösteren basit bir animasyonla birlikte sunulduğunda daha kalıcı olmasının nedeni budur.
+Çizelgede alanın gelişim mantığı görülüyor. 1990'lara kadar kuramsal çerçeve kuruldu; 2000'lerin başında laboratuvar deneylerinden türetilen ilkeler öğretim tasarımcılarına yönelik öneri listelerine dönüştü.[5] Mayer ve Moreno'nun dokuz yolu bu dönüşümün iyi bir örneğidir: işlemeyi kanallar arasında paylaştırma, bölümleme, ön alıştırma, ayıklama, işaretleme, hizalama, gereksiz tekrarı kaldırma, eşzamanlama ve bireyselleştirme. Her biri, belirli bir aşırı yük durumuna karşı önerilmiş bir tasarım kararıdır; bu nedenle ilkeler bağlamdan koparılıp genel kurallar olarak uygulandığında amaçladıkları sorunu çözmeyebilir. 2005'ten sonra alan, tekil deneylerden meta-analitik birikime geçti; bu geçiş hem ilkelerin güvenilirliğini artırdı hem de yayın yanlılığı gibi sorunları görünür kıldı.[7, 12] Bugün ilkelerin kanıt düzeyini ayrı ayrı değerlendirmek mümkündür ve bir sonraki bölüm bunu yapıyor. Mayer'in kitabının 2020 tarihli üçüncü baskısı da bu birikimi ilkelerin amaçlarına göre yeniden düzenleyen güncel başvuru kaynağıdır.[1] Aynı dönemde kuramın kendisine yönelik eleştiriler de olgunlaştı: bilişsel yükün nasıl ölçüleceği ve kuramın hangi bulguyu öngöremeyeceği soruları, ilkelerin sınırlarını belirleyen tartışmanın merkezine yerleşti.[10]
 
-## Temel ilkeler
+## İlkeler ve kanıt: meta-analizler ne söylüyor?
 
-| İlke | Kısaca | Uygulama |
+Alanın bütüncül tablosunu Noetel ve arkadaşlarının derlemelerin derlemesi veriyor. Çalışma 29 derlemeyi, bu derlemelerdeki 1.189 çalışmayı ve 78.177 katılımcıyı birleştirmiş; 11 tasarım ilkesinin öğrenme üzerinde anlamlı ve olumlu etkisi, 5 ilkenin de bilişsel yükün yönetimini anlamlı biçimde iyileştirdiği sonucuna ulaşmıştır. En büyük kazançlar ikinci dildeki videolara altyazı eklemek, zamansal ve mekânsal yakınlık ve işaretleme ilkelerinde görülmüş; modalite, animasyon, tutarlılık, bölümleme, kişiselleştirme, pedagojik ajanlar ve sözel gereksiz tekrar ilkeleri için de sağlam kanıt bulunmuştur.[14] Tabloda tekil ilkelerin meta-analitik bulguları özetleniyor.
+
+| İlke | Kısaca | Meta-analitik kanıt |
 |---|---|---|
-| Tutarlılık | İlgisiz sözcük, resim ve sesleri çıkarın | Arka plan müziğini ve süs görsellerini kaldırın |
-| İşaretleme | Önemli bilgiyi vurgulayın | Ok, renk ya da başlıkla dikkati yönlendirin |
-| Gereksiz tekrar | Anlatım + animasyon, anlatım + animasyon + aynı metinden iyidir | Ekrandaki metni sesli olarak birebir okumayın |
-| Mekânsal yakınlık | İlgili metin ve görseli yan yana koyun | Etiketleri şeklin üzerine yerleştirin |
-| Zamansal yakınlık | Anlatım ve görseli eşzamanlı sunun | Açıklamayı ilgili animasyonla aynı anda verin |
-| Bölümleme | Karmaşık içeriği öğrencinin hızına göre parçalayın | Uzun videoyu kısa bölümlere ayırın |
-| Ön alıştırma | Temel kavramları önceden öğretin | Terimleri asıl anlatımdan önce tanıtın |
-| Kip | Görselle birlikte metin yerine sözlü anlatım kullanın | Karmaşık şemayı sesli anlatımla açıklayın |
-| Kişiselleştirme | Resmî yerine konuşma dili kullanın | "Şimdi birlikte bakalım" gibi ifadeler |
+| İşaretleme | Önemli bilgiyi ok, renk ya da başlıkla vurgulayın | 103 çalışma, N = 12.201; hatırlamada g = 0,53 [0,42; 0,64], transferde g = 0,33 [0,22; 0,43]; bilişsel yük anlamlı biçimde azalıyor.[13] |
+| Kip (modalite) | Görselle birlikte metin yerine sözlü anlatım | 43 bağımsız etki, d = 0,72 [0,52; 0,92]; sistem hızlı sunumda d = 0,93, öğrenci hızlı sunumda d = −0,14.[7] |
+| Mekânsal ve zamansal yakınlık | İlgili sözcük ve görseli yan yana ve eşzamanlı sunun | 50 bağımsız çalışma; kazanç özellikle karmaşık materyallerde belirgin.[8] |
+| Tutarlılık | İlgisiz ama ilgi çekici ayrıntıları çıkarın | 39 deneysel etki; ilgi çekici ayrıntılar hem hatırlamayı hem transferi olumsuz etkiliyor.[11] |
 
-Mayer bu ilkeleri üç amaca göre gruplar: **gereksiz işlemeyi azaltmak** (tutarlılık, işaretleme, gereksiz tekrar, mekânsal ve zamansal yakınlık), **zorunlu işlemeyi yönetmek** (bölümleme, ön alıştırma, kip) ve **üretken işlemeyi desteklemek** (çoklu ortam, kişiselleştirme). İlkelerin ayrıntılı gerekçeleri ve araştırma kanıtları Mayer'in *Multimedia Learning* kitabında yer alır.[1]
+Bu sayıların iki ortak özelliği var. Birincisi, etkiler öğrenme türüne göre değişir: işaretlemenin hatırlama üzerindeki etkisi transfer üzerindeki etkisinin yaklaşık bir buçuk katıdır.[13] Bir tasarım ilkesinin "işe yaradığı" söylenirken hangi sonuç değişkeninin kastedildiği belirtilmelidir. İkincisi, etkiler koşula bağlıdır. Ginns'in düzenleyici analizlerinde modalite etkisi öğe etkileşimi yüksek, yani karmaşık görevlerde d = 0,72 iken basit görevlerde d = 0,10'a düşmüş; sunum hızını öğrencinin belirlediği durumlarda ise etki ortadan kalkmıştır.[7] Kısacası ilkeler evrensel kurallar değil, belirli koşullarda güçlenen eğilimlerdir.
 
-## Örnek: bir slaytı yeniden tasarlamak
+## Eleştiriler ve sınırlılıklar
 
-Fen bilgisi dersinde su döngüsünü anlatan bir slayt düşünelim. İlk hâlinde başlığın altında yedi satırlık bir paragraf, köşede bir bulut fotoğrafı ve arka planda hareketli bir desen var. Öğretmen paragrafı sesli olarak okuyor.
+**Yayın yanlılığı.** Reinwein, modalite etkisini 86 bağımsız etkiyle yeniden incelediğinde genel etkinin Ginns'in bulgusunun neredeyse yarısına (d = 0,38) indiğini, yayın yanlılığını düzelten kırp ve doldur (trim and fill) yöntemiyle ise d = 0,20'ye düştüğünü gösterdi.[12] Bu, alanın en bilinen ilkelerinden birinin etkisinin ilk meta-analizde olduğundan belirgin biçimde küçük olabileceği anlamına gelir. Aynı soru öteki ilkeler için de sorulmalıdır: anlamlı sonuç veren deneylerin daha kolay yayımlanması, meta-analitik ortalamaları şişirir.
 
-Yeniden tasarımda paragraf kaldırılıyor ve yerine döngüyü gösteren tek bir şema geliyor. Buharlaşma, yoğuşma ve yağış etiketleri şeklin ilgili bölümlerinin hemen yanına yerleştiriliyor (mekânsal yakınlık). Öğretmen her aşamayı anlatırken o bölüm vurgulanıyor (işaretleme ve zamansal yakınlık). Arka plandaki desen ve konuyla ilgisiz fotoğraf çıkarılıyor (tutarlılık). Açıklama ekrandaki metinden değil öğretmenin sözlü anlatımından geliyor (kip ve gereksiz tekrar).
+**Ölçme sorunu.** De Jong, bilişsel yük kuramının kavramsal, yöntemsel ve uygulamaya dönük sorunlarını tartıştığı makalesinde, yaygın kullanılan tek maddelik zihinsel çaba ölçüsünün yükün kaynağını ayırt edemediğini vurguladı: öğrencinin bildirdiği çabanın konunun zorluğundan mı, sunumun kötülüğünden mi yoksa öğrenmeye yönelik etkinlikten mi kaynaklandığı bilinemez.[10] Yük türleri ayrı ölçülemediği sürece kuramın temel öngörüleri doğrudan sınanamaz.
 
-Slayttaki bilgi azalmadı; yalnızca öğrencinin zihinsel kapasitesini tüketen gereksiz yük kaldırıldı. Mayer ve Moreno'nun bilişsel yükü azaltma önerilerinin sınıftaki karşılığı budur.[3]
+**Hatırlama ile transfer arasındaki fark.** İlkelerin etkisi derin öğrenmede yüzeysel öğrenmeye göre daha küçük olabilir. İşaretleme meta-analizinde transfer etkisi hatırlama etkisinin yaklaşık üçte ikisi kadardır.[13] Bir materyalin "etkili" olduğunu söyleyen çalışmalarda hangi sonuç değişkeninin ölçüldüğüne bakmak, bulgunun eğitsel değerini doğru okumak için gereklidir.
 
-## Öğretmenler için kontrol listesi
+**Kavramsal esneklik.** Schnotz ve Kürschner, kuramın bazı bulgulara birbiriyle çelişen açıklamalar üretmeye izin verdiğini, bu yüzden bulgulardan yapılan genellemelerin sorgulanabilir hâle geldiğini savundu. Onlara göre bilişsel yükü azaltmak her zaman öğrenmeyi artırmaz; bazen bozabilir. Yazarlar kuramı Vygotski'nin yakınsak gelişim alanı ve örtük öğrenme araştırmaları açısından yeniden ele almayı önerdi.[9]
 
-Bir sunumu ya da videoyu yayımlamadan önce şu soruları sorun:
+**Uzmanlığın ters etkisi.** Kalyuga ve arkadaşları, yeni başlayanlara yarayan bütünleşik anlatım ve açıklamaların, konuyu bilen öğrencilerde gereksiz bilgi hâline gelip onları zorlayabildiğini gösterdi.[6] Bu sınır koşulu, ilkelerin öğrenenin ön bilgisinden bağımsız "en iyi uygulama" listeleri olarak sunulmasının yanıltıcı olabileceğini gösterir; aynı ilke bir grupta öğrenmeyi desteklerken başka bir grupta engelleyebilir.
 
-1. Bu slayttaki her öğe öğrenme hedefine hizmet ediyor mu? Etmeyenleri çıkarın.
-2. Öğrenci neye bakacağını hemen anlıyor mu? Gerekirse işaretleyin.
-3. Ekranda okunacak uzun bir paragraf var mı? Varsa anahtar kelimelere indirin, açıklamayı sözlü yapın.
-4. Video beş dakikayı aşıyor mu? Aşıyorsa mantıklı bölümlere ayırmayı düşünün.
-5. Yeni terimler anlatımın ortasında mı tanıtılıyor? Önceden kısa bir sözlük sunun.
+## Türkiye'de alanyazın
 
-## Sınırlılıklar
+Türkiye'de çoklu ortam ilkeleri hem deneysel araştırmalarda hem de ulusal eğitim içeriklerinin değerlendirilmesinde kullanılıyor. Çoşğun ve Satıcı, tutarlılık, gereksiz tekrar, işaretleme ve mekânsal ile zamansal yakınlık ilkelerinden oluşan "konu dışı işlemeyi azaltma" ilkelerinin etkisini deneysel olarak sınamıştır. Bu ilkelerin uygulanmadığı çoklu ortamın öğrenenlerde daha yüksek bilişsel yüke yol açtığı ve öğrenme transferini olumsuz etkilediği bulunmuştur.[15] Bu sonuç, uluslararası meta-analizlerin yönüyle tutarlıdır ve Türkçe materyallerle elde edilmiş olması bakımından önemlidir. Desenin güçlü bir yanı, bilişsel yükü hatırlama ve transferle birlikte ölçmesidir; böylece yükteki değişimin hangi öğrenme sonucuna yansıdığı aynı çalışmada görülebilir.
 
-Çoklu ortam ilkeleri evrensel reçeteler değildir. Kalyuga ve arkadaşları bunu **uzmanlığın ters etkisi** olarak adlandırdı: konuya yeni başlayanlar için yararlı olan ayrıntılı açıklamalar ve yönlendirmeler, konuyu bilen öğrenciler için gereksiz yük hâline gelebilir ve öğrenmeyi yavaşlatabilir.[6] Bu yüzden aynı materyal farklı düzeydeki öğrencilere farklı destek düzeyleriyle sunulmalıdır. Ayrıca ilkelerin çoğu kısa süreli, laboratuvar ortamındaki deneylerden türetilmiştir. Bu nedenle ilkeleri körü körüne uygulamak yerine hedef kitleye göre uyarlamak gerekir.
+İlkelerin ulusal içerikleri değerlendirmek için kullanılmasına örnek olarak İşbulan ve arkadaşlarının çalışması gösterilebilir: araştırmacılar Eğitim Bilişim Ağı'nda (EBA) yer alan çoklu ortam uygulamalarını, uzman görüşleriyle geliştirdikleri bir değerlendirme rubriğiyle çoklu ortam öğrenme ilkeleri açısından incelemiştir.[16] Ulusal ölçekte kullanılan bir platformun içeriklerinin bu gözle değerlendirilmesi, ilkelerin yalnızca laboratuvar bulgusu değil, eğitim politikası için de bir kalite ölçütü olabileceğini gösterir.
 
-## BÖTE ile ilişkisi
+**Türkçe ölçek.** Bilişsel yük araştırmalarındaki ölçme sorununa Türkçe bir yanıt, Türel ve Alpsülün'ün uyarlama çalışmasıdır. Leppink ve arkadaşlarının içsel, dışsal ve etkili yükü ayrı ölçen ölçeği Türkçeye uyarlanmış; uzaktan eğitim alan 221 ön lisans öğrencisinden toplanan veriyle üç faktörlü yapı doğrulayıcı faktör analiziyle desteklenmiş, Cronbach alfa katsayıları alt boyutlarda 0,86 ile 0,98 arasında bulunmuştur.[17] Bu ölçek, de Jong'un vurguladığı "yük türlerini ayrı ölçme" ihtiyacına Türkçe araştırmalarda yanıt verebilecek bir araçtır.[10]
 
-Çoklu ortam tasarımı, BÖTE programlarının temel alan derslerinden biridir. Bir BÖTE mezunu yalnızca materyal üretmeyi değil, materyalin neden işe yarayıp yaramadığını kuramsal olarak açıklamayı da öğrenir. Bu bilgi, [öğretim tasarımı süreciyle](https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli) birleştiğinde hem sınıfta hem de kurumsal eğitimde güçlü bir uzmanlık oluşturur.
+Terim kullanımı Türkçe alanyazında dağınıktır: "çoklu ortam", "çok ortamlı" ve "multimedya" birbirinin yerine kullanılır; contiguity için hem "yakınlık" hem "bitişiklik", extraneous için hem "dışsal" hem "konu dışı" tercih edilir. Sistematik tarama yapacak araştırmacının bu varyantları birlikte taraması gerekir.
+
+## Uygulama: sınıfta ve araştırmada
+
+### Sınıf örneği: bir slaytı yeniden tasarlamak
+
+Bir bilişim teknolojileri öğretmeninin bilgisayar donanımı slaytında başlık, altı maddelik yoğun bir metin, bir anakart fotoğrafı ve alt köşede parça adlarını sıralayan bir lejant olduğunu düşünelim. Öğretmen metni sesli olarak birebir okuyor, arka planda da müzik çalıyor. İlkelere göre yeniden tasarım şöyle olur: müzik ve süs görselleri kaldırılır (tutarlılık); parça adları lejanttan alınıp fotoğraftaki yerlerine yazılır (mekânsal yakınlık); öğretmen yazılı metni okumak yerine şemayı sözlü olarak anlatır ve ekranda yalnızca anahtar sözcükler kalır (gereksiz tekrar ve modalite); anlatılan parça o anda okla gösterilir (işaretleme ve zamansal yakınlık).[5] İşaretleme ve yakınlık, meta-analizlerde en güçlü desteği alan ilkeler olduğu için önceliklidir.[14] Aynı mantık eğitim videolarına da uygulanır: uzun bir anlatımı öğrencinin kendi hızıyla ilerleyebileceği kısa bölümlere ayırmak (bölümleme) ve resmî bir dil yerine konuşma dili kullanmak (kişiselleştirme), derlemelerin derlemesinde sağlam kanıt bulunan ilkeler arasındadır.[14] Sınıfın konuyu önceden bilen bölümü için ise aynı destekler gereksiz kalabilir; ileri düzey öğrencilere daha az yönlendirilmiş bir etkinlik sunmak uzmanlığın ters etkisini hesaba katar.[6]
+
+### Araştırma örneği: desen ve ölçme
+
+Bir ilkenin etkisini sınayacak araştırmacı için alanyazın dört yöntemsel ders sunar. Birincisi, sonuç değişkenleri ayrılmalıdır: hatırlama ve transfer ayrı ölçülmeli, çünkü etkiler aralarında belirgin biçimde değişir.[13] İkincisi, yük türleri ayrı ölçülmelidir; Türkçe çalışmalarda bunun için uyarlanmış üç faktörlü ölçek kullanılabilir.[17] Üçüncüsü, düzenleyiciler desene yerleştirilmelidir: ön bilgi düzeyi ve sunum hızı (sistem hızlı ya da öğrenci hızlı), ilkelerin etkisini tersine çevirebilecek koşullardır; 2 × 2 faktöriyel desenler bu etkileşimi doğrudan sınar.[7, 6] Dördüncüsü, yayın yanlılığına karşı önceden kayıtlı (preregistered) çalışmalar ve anlamlı çıkmayan sonuçların da raporlanması, ilkelerin gerçek etkisini tahmin etmek için gereklidir.[12] Uzun süreli sınıf uygulamaları ve gecikmeli testler, laboratuvar bulgularının okul ortamına aktarılıp aktarılmadığını sınamanın yoludur.
+
+## Araştırmacılar için açık sorular
+
+1. **İlkelerin gerçek etki büyüklüğü ne kadar?** Modalite etkisinin yayın yanlılığı düzeltmesiyle d = 0,72 düzeyinden 0,20'ye inmesi, öteki ilkelerin meta-analitik ortalamalarının da benzer bir sınamadan geçirilmesi gerektiğini gösteriyor.[7, 12] Türkçe yayımlanmış çalışmaların yayın yanlılığı analizleriyle birlikte meta-analitik olarak birleştirilmesi, Türkiye'ye özgü ilk sayısal tabloyu verebilir. Tezlerin de dahil edilmesi, yayımlanmamış ya da anlamsız çıkmış sonuçları kapsayarak yanlılığı azaltmanın bir yoludur.
+2. **Bilişsel yük türleri gerçekten ayrı ölçülebiliyor mu?** Tek maddelik çaba ölçülerinin yükün kaynağını ayırt edememesi kuramın temel öngörülerini sınamayı zorlaştırıyor; Türkçe uyarlamanın uzaktan eğitim alan ön lisans öğrencileriyle yapılmış olması, ölçeğin farklı yaş gruplarında ve yüz yüze sınıflarda geçerliğinin ayrıca sınanmasını gerektiriyor.[10, 17]
+3. **Yükü azaltmak her zaman yararlı mı?** Kuramın çelişkili açıklamalara izin vermesi ve yük azaltmanın bazen öğrenmeyi bozması, öğrenmeyi zorlaştırarak derinleştiren yük ile gereksiz dışsal yük arasındaki sınırın nasıl çizileceği sorusunu açık bırakıyor.[9]
+4. **İlkeler ön bilgiyle nasıl etkileşiyor?** Uzmanlığın ters etkisi, aynı materyalin öğrenenin ön bilgisine göre uyarlanması gerektiğini gösteriyor; uyarlanabilir sistemlerde bu uyarlamanın hangi ölçütle yapılacağı belirsiz.[6] Ön bilgi testine göre farklı sürümlerin sunulduğu desenler, ilkelerin kimin için geçerli olduğunu doğrudan gösterebilir.
+5. **Laboratuvar bulguları okul sınıfına ne ölçüde aktarılıyor?** Derlemelerin derlemesi ilkelerin çoğunu destekliyor; bu desteğin okul sınıflarında ve uzun süreli öğrenmede de geçerli olup olmadığı ayrıca sınanmalıdır. Ulusal içerik platformlarında ilkelere uygunluğun öğrenci başarısıyla ilişkisini inceleyen çalışmalar bu soruya Türkiye'den yanıt verebilir.[14, 16] Örneğin rubrikle ilkelere uygunluğu puanlanan içeriklerin, aynı içeriği izleyen öğrencilerin ünite sonu başarısıyla ilişkilendirilmesi, laboratuvar bulgularının okul ölçeğinde karşılığını gösteren ilk kanıtlardan biri olabilir.
+
+Bu soruların ortak noktası, çoklu ortam araştırmasının "hangi ilke işe yarar?" sorusundan "hangi ilke, kimin için, hangi sonuçta ve hangi koşulda işe yarar?" sorusuna geçmesi gerektiğidir.[7, 13]
 
 ## Sık Sorulan Sorular
 
-### Çoklu ortam öğrenme nedir?
+### Çoklu ortam öğrenme ilkeleri nelerdir?
 
-Sözcüklerin (yazılı ya da sözlü) ve resimlerin (çizim, fotoğraf, animasyon, video) birlikte kullanıldığı öğrenmedir. Mayer'in çoklu ortam ilkesine göre insanlar sözcük ve resimlerden, yalnızca sözcüklerden daha iyi öğrenir.
+Mayer'in ilkeleri arasında çoklu ortam, tutarlılık, işaretleme, gereksiz tekrar, mekânsal ve zamansal yakınlık, bölümleme, ön alıştırma, kip (modalite) ve kişiselleştirme ilkeleri yer alır. İlkelerin amacı dışsal yükü azaltmak, zorunlu bilişsel işlemeyi yönetmek ve anlamlı öğrenmeyi desteklemektir.
 
-### Mayer'in çoklu ortam ilkeleri nelerdir?
+### Mayer'in çoklu ortam öğrenme kuramı nedir?
 
-En bilinenleri tutarlılık, işaretleme, gereksiz tekrar, mekânsal yakınlık, zamansal yakınlık, bölümleme, ön alıştırma, kip ve kişiselleştirme ilkeleridir. Her biri çalışma belleğinin yükünü yönetmeye yöneliktir.
+İnsanların sözcükler ve resimler birlikte sunulduğunda yalnızca sözcüklerle sunulduğundan daha iyi öğrendiğini savunan kuramdır. Görsel ve işitsel bilginin ayrı kanallarda işlendiği, her kanalın kapasitesinin sınırlı olduğu ve öğrenmenin etkin bilişsel işleme gerektirdiği varsayımlarına dayanır.
 
 ### Bilişsel yük kuramı nedir?
 
-John Sweller'in geliştirdiği kuramdır. Çalışma belleğinin kapasitesi sınırlı olduğu için öğretim materyali bu kapasiteyi gereksiz yükle doldurmamalıdır. Kuramın temelleri Sweller'in 1988 tarihli çalışmasına dayanır.
+Sweller'in 1988'de temellerini attığı, çalışma belleğinin sınırlı kapasitesini merkeze alan kuramdır. Öğretim tasarımının çalışma belleğini gereksiz yükle doldurmaması, öğrenmeye harcanacak kapasiteyi koruması gerektiğini savunur.
 
-### İyi bir eğitim videosu nasıl hazırlanır?
+### Bilişsel yük türleri nelerdir?
 
-Konuyla ilgisiz müzik ve görselleri çıkarın, önemli noktaları işaretleyin, anlatımı kısa bölümlere ayırın, ekrandaki metni sözlü anlatımla birebir tekrarlamayın ve samimi, konuşma diliyle anlatın.
+İçsel yük konunun kendi karmaşıklığından, dışsal yük kötü tasarımdan, etkili (ilgili) yük ise anlamlı öğrenmeye harcanan çabadan kaynaklanır. Tasarımcının amacı dışsal yükü azaltmak ve etkili yükü desteklemektir.
 
-### Slaytlara çok yazı yazmak neden yanlış?
+### Eğitim videosunda ekrandaki metni sesli okumak doğru mu?
 
-Aynı metni hem ekranda gösterip hem de sesli okumak, gereksiz tekrar ilkesine aykırıdır ve görsel kanalı gereksiz yere yükler. Slaytta anahtar kelime ve görsel, anlatımda açıklama daha etkilidir.
+Genellikle hayır. Gereksiz tekrar ilkesine göre anlatım ve animasyon, aynı metnin ekranda da yazılı olduğu sunumdan daha iyi öğrenme sağlar. Sesli anlatımın ekrandaki yazıdan üstünlüğü (modalite etkisi) ise yayın yanlılığı düzeltildiğinde küçülür ve öğrencinin hızı kendisinin belirlediği sunumlarda kaybolabilir.
 
 ### Çoklu ortam ilkeleri her öğrenci için geçerli mi?
 
-Etkiler öğrencinin ön bilgisine göre değişebilir. Örneğin konuya yeni başlayanlar için yararlı olan bazı destekler, uzman öğrenciler için gereksiz kalabilir. Bu nedenle hedef kitleyi tanımak tasarımın ilk adımıdır.
+Hayır. Uzmanlığın ters etkisine göre yeni başlayanlara yarayan destekler, konuyu bilen öğrencilerde gereksiz hâle gelip öğrenmeyi zorlaştırabilir. İlkelerin çoğu ön bilgisi düşük öğrenenlerde ve karmaşık materyallerde daha güçlü etki gösterir.
 
 ## Kaynaklar
 
-1. Mayer, R. E. (2020). Multimedia Learning (3. baskı). Cambridge University Press. https://doi.org/10.1017/9781316941355 (EN, erişim: 2026-09-25)
-2. Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. Cognitive Science, 12(2), 257–285. https://doi.org/10.1207/s15516709cog1202_4 (EN, erişim: 2026-09-25)
-3. Mayer, R. E. ve Moreno, R. (2003). Nine Ways to Reduce Cognitive Load in Multimedia Learning. Educational Psychologist, 38(1), 43–52. https://doi.org/10.1207/S15326985EP3801_6 (EN, erişim: 2026-09-25)
-4. Sweller, J., van Merriënboer, J. J. G. ve Paas, F. G. W. C. (1998). Cognitive Architecture and Instructional Design. Educational Psychology Review, 10(3), 251–296. https://doi.org/10.1023/A:1022193728205 (EN, erişim: 2026-09-25)
-5. Clark, J. M. ve Paivio, A. (1991). Dual Coding Theory and Education. Educational Psychology Review, 3(3), 149–210. https://doi.org/10.1007/BF01320076 (EN, erişim: 2026-09-25)
-6. Kalyuga, S., Ayres, P., Chandler, P. ve Sweller, J. (2003). The Expertise Reversal Effect. Educational Psychologist, 38(1), 23–31. https://doi.org/10.1207/S15326985EP3801_4 (EN, erişim: 2026-09-25)
+1. Mayer, R. E. (2020). Multimedia learning (3. baskı). Cambridge University Press. https://doi.org/10.1017/9781316941355 (EN, erişim: 2026-09-26)
+2. Clark, J. M. ve Paivio, A. (1991). Dual coding theory and education. Educational Psychology Review, 3(3), 149–210. https://doi.org/10.1007/BF01320076 (EN, erişim: 2026-09-26)
+3. Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. Cognitive Science, 12(2), 257–285. https://doi.org/10.1207/s15516709cog1202_4 (EN, erişim: 2026-09-26)
+4. Sweller, J., van Merriënboer, J. J. G. ve Paas, F. G. W. C. (1998). Cognitive architecture and instructional design. Educational Psychology Review, 10(3), 251–296. https://doi.org/10.1023/A:1022193728205 (EN, erişim: 2026-09-26)
+5. Mayer, R. E. ve Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning. Educational Psychologist, 38(1), 43–52. https://doi.org/10.1207/S15326985EP3801_6 (EN, erişim: 2026-09-26)
+6. Kalyuga, S., Ayres, P., Chandler, P. ve Sweller, J. (2003). The expertise reversal effect. Educational Psychologist, 38(1), 23–31. https://doi.org/10.1207/S15326985EP3801_4 (EN, erişim: 2026-09-26)
+7. Ginns, P. (2005). Meta-analysis of the modality effect. Learning and Instruction, 15(4), 313–331. https://www.sciencedirect.com/science/article/abs/pii/S0959475205000459 (EN, erişim: 2026-09-26)
+8. Ginns, P. (2006). Integrating information: A meta-analysis of the spatial contiguity and temporal contiguity effects. Learning and Instruction, 16(6), 511–525. https://www.sciencedirect.com/science/article/abs/pii/S0959475206000806 (EN, erişim: 2026-09-26)
+9. Schnotz, W. ve Kürschner, C. (2007). A reconsideration of cognitive load theory. Educational Psychology Review, 19(4), 469–508. https://doi.org/10.1007/s10648-007-9053-4 (EN, erişim: 2026-09-26)
+10. de Jong, T. (2010). Cognitive load theory, educational research, and instructional design: Some food for thought. Instructional Science, 38(2), 105–134. https://doi.org/10.1007/s11251-009-9110-0 (EN, erişim: 2026-09-26)
+11. Rey, G. D. (2012). A review of research and a meta-analysis of the seductive detail effect. Educational Research Review, 7(3), 216–237. https://www.sciencedirect.com/science/article/abs/pii/S1747938X12000413 (EN, erişim: 2026-09-26)
+12. Reinwein, J. (2012). Does the modality effect exist? And if so, which modality effect?. Journal of Psycholinguistic Research, 41(1). https://doi.org/10.1007/s10936-011-9180-4 (EN, erişim: 2026-09-26)
+13. Schneider, S., Beege, M., Nebel, S. ve Rey, G. D. (2018). A meta-analysis of how signaling affects learning with media. Educational Research Review, 23, 1–24. https://www.sciencedirect.com/science/article/abs/pii/S1747938X17300581 (EN, erişim: 2026-09-26)
+14. Noetel, M., Griffith, S., Delaney, O., Harris, N. R., Sanders, T., Parker, P., del Pozo Cruz, B. ve Lonsdale, C. (2022). Multimedia design for learning: An overview of reviews with meta-meta-analysis. Review of Educational Research, 92(3). https://doi.org/10.3102/00346543211052329 (EN, erişim: 2026-09-26)
+15. Çoşğun, V. ve Satıcı, A. F. (2017). Çoklu ortam öğrenmede konu dışı işlemenin azaltılması ilkelerinin öğrenenlerin bilişsel yük, geri getirme ve transfer performanslarına etkisi. Mustafa Kemal Üniversitesi Eğitim Fakültesi Dergisi, 1–14. https://dergipark.org.tr/tr/pub/mkuefder/article/364878 (TR, erişim: 2026-09-26)
+16. İşbulan, O., Arslan, E., Alkaya Karagöl, E. ve Selvi, G. (2020). Eğitim Bilişim Ağı'nda (EBA) yer alan çoklu ortam uygulamalarının çoklu ortam öğrenme ilkeleri açısından değerlendirilmesi. PESA Uluslararası Sosyal Araştırmalar Dergisi, 6(2), 182–196. https://doi.org/10.25272/j.2149-8385.2020.6.2.08 (TR, erişim: 2026-09-26)
+17. Türel, Y. K. ve Alpsülün, M. (2025). Farklı bilişsel yük türleri ölçeğinin Türkçe uyarlaması: Geçerlik ve güvenirlik çalışması. Ahi Evran Üniversitesi Kırşehir Eğitim Fakültesi Dergisi, 26(2), 421–436. https://dergipark.org.tr/tr/pub/kefad/article/1600402 (TR, erişim: 2026-09-26)
 
 ---
 
