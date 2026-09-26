@@ -196,10 +196,14 @@ p{margin:0}
 .mini.plain li{grid-template-columns:minmax(0,1fr)}
 .mini.plain li::before{content:none}
 /* gorselli mini liste: solda kucuk kapak (Ahmet 26.09) */
-.mini.mini-thumbs li{grid-template-columns:92px minmax(0,1fr);gap:14px;align-items:center}
+.mini.mini-thumbs li{grid-template-columns:64px minmax(0,1fr);gap:14px;align-items:start}
 .mini.mini-thumbs li::before{content:none}
-.mini-img{display:block;border-radius:9px;overflow:hidden;background:var(--raised);aspect-ratio:1200/630}
-.mini-img img{width:100%;height:100%;object-fit:cover}
+.mini-img{display:block;border-radius:12px;overflow:hidden;background:var(--raised);aspect-ratio:1}
+/* basliksiz kapagin sagindaki ikon halkasi kare kirpimda ortaya gelir */
+.mini-img img{width:100%;height:100%;object-fit:cover;object-position:right center}
+.mini.mini-thumbs li>div{padding-top:1px}
+.mini.mini-thumbs a:not(.mini-img){display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-size:14.5px;line-height:1.4}
+.mini.mini-thumbs small{font-size:12.5px;margin-top:4px}
 .mini a{color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;line-height:1.4}
 .mini a:hover{color:var(--violet)}
 .mini small{display:block;font:500 13px/1.6 var(--display);color:var(--muted);margin-top:3px;font-variant-numeric:tabular-nums}
@@ -635,7 +639,7 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 /* populer yazilar: numarali yuvarlak + kucuk kapak */
 .mini.mini-num{counter-reset:n}
 /* numara kucuk kapagin kosesinde; baslik icin genis alan kalir */
-.mini.mini-num li{position:relative;grid-template-columns:84px minmax(0,1fr);gap:14px}
+.mini.mini-num li{position:relative;grid-template-columns:64px minmax(0,1fr);gap:14px}
 .mini.mini-num li::before{content:counter(n);counter-increment:n;position:absolute;left:-7px;top:-7px;z-index:1;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--bg);font:700 12px/1 var(--display);box-shadow:0 0 0 2px var(--surface)}
 /* ust bar: arama kutusu gorunumu (genis ekranda) */
 .top-search{justify-content:flex-start;color:var(--muted)}

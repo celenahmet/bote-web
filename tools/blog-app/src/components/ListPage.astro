@@ -67,6 +67,6 @@ const count = current && current !== 'blog' ? (blog.catBy[current]?.count ?? lis
         </>
       )}
     </div>
-    <Widgets mode="sidebar" pool={pool} noCats={cats.length > 0} />
+    <Widgets mode="sidebar" pool={pool} cat={current} />
   </div>
 </Base>

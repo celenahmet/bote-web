@@ -20,7 +20,7 @@ export default function PopularPosts({ fallback, posts, current = '' }) {
       <ol className="mini mini-thumbs mini-num">
         {rows.map((p) => (
           <li key={p.slug}>
-            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="120" height="63" loading="lazy" decoding="async" /></a>}
+            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="64" height="64" loading="lazy" decoding="async" /></a>}
             <div>
               <a href={p.url}>{p.title}</a>
               <small>{p.views ? `${fmt(p.views)} görüntülenme · ` : ''}{p.minutes} dk okuma</small>

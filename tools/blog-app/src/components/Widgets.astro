@@ -10,14 +10,15 @@ import AdSlot from './AdSlot.astro';
 import UniPanel from './UniPanel.astro';
 import Icon from './Icon.astro';
 import { loadBlog, trDate } from '../lib.js';
-const { mode = 'sidebar', current = '', pool: poolProp, toc = [], noCats = false } = Astro.props;
+const { mode = 'sidebar', current = '', pool: poolProp, toc = [], noCats = false, cat = '' } = Astro.props;
 const blog = loadBlog();
 const adsense = blog.cfg.ads.adsense.client && blog.cfg.ads.adsense.slots?.['article-end'];
 // pool: widget'larin kullandigi yazilar (varsayilan: yayindakiler; onizlemede taslaklar)
 const pool = poolProp || blog.posts;
 const isPreview = pool.some((p) => p.preview);
 // Listeler gorselli (Ahmet 26.09): kucuk resim yazinin paylasim kapagi.
-const thumb = (p) => p.image?.src;
+// kucuk liste gorseli: basliksiz kapak (kategori rengi + ikon); kucukte okunmayan yazili kapak yerine
+const thumb = (p) => p.art?.src || p.image?.src;
 const lite = pool.map((p) => ({ slug: p.slug, title: p.title, url: p.url, minutes: p.minutes, img: thumb(p) }));
 const fallback = [...pool].filter((p) => p.slug !== current)
   .sort((a, b) => (b.featured - a.featured) || b.date.localeCompare(a.date)).slice(0, 5)
@@ -25,7 +26,7 @@ const fallback = [...pool].filter((p) => p.slug !== current)
 const cats = isPreview
   ? blog.categories.map((c) => ({ ...c, url: '/blog/taslak', count: pool.filter((p) => p.category.slug === c.slug).length })).filter((c) => c.count)
   : blog.categories.filter((c) => c.count);
-const curCat = pool.find((p) => p.slug === current)?.category.slug;
+const curCat = (cat && cat !== 'blog' ? cat : '') || pool.find((p) => p.slug === current)?.category.slug;
 const total = cats.reduce((n, c) => n + c.count, 0);
 ---
 {mode === 'band' ? (
@@ -45,7 +46,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
       <section class="widget" aria-labelledby="w-cats">
         <h2 class="widget-title" id="w-cats">Kategoriler</h2>
         <ul class="cats">
-          <li class="cats-all"><a href={isPreview ? '/blog/taslak' : '/blog'}><Icon name="book-open" size={17} /><span>Tüm yazılar</span><span class="count" aria-label={`${total} yazı`}>{total}</span></a></li>
+          <li class="cats-all"><a href={isPreview ? '/blog/taslak' : '/blog'} aria-current={cat === 'blog' ? 'true' : undefined}><Icon name="book-open" size={17} /><span>Tüm yazılar</span><span class="count" aria-label={`${total} yazı`}>{total}</span></a></li>
           {cats.map((c) => (
           <li><a href={c.url} aria-current={c.slug === curCat ? 'true' : undefined}><Icon name={c.icon || 'folder'} size={17} /><span>{c.name}</span><span class="count" aria-label={`${c.count} yazı`}>{c.count}</span></a></li>
         ))}
