@@ -4,6 +4,7 @@ description: "7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, nel
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [Öğretmenlik Mesleği Kanunu, 7528, Millî Eğitim Akademisi, kariyer basamakları, öğretmen yetiştirme]
 summary:
   - "**7528 sayılı Öğretmenlik Mesleği Kanunu** 10 Ekim 2024'te kabul edildi ve 18 Ekim 2024'te Resmî Gazete'de yayımlandı."

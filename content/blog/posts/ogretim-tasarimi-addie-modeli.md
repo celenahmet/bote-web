@@ -4,6 +4,7 @@ description: "Öğretim tasarımı nedir, ADDIE modelinin beş aşaması nasıl 
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [öğretim tasarımı, ADDIE, instructional design, Merrill, e-öğrenme]
 summary:
   - "**Öğretim tasarımı**, öğrenme ihtiyacını analiz edip buna uygun öğretimi sistemli biçimde planlama, geliştirme ve değerlendirme sürecidir."

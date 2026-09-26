@@ -4,6 +4,7 @@ description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimler
 date: 2026-09-25
 updated: 2026-09-26
 category: bolum-rehberi
+type: politika
 featured: true
 tags: [BÖTE, öğretim teknolojisi, eğitim teknolojisi, öğretmenlik, bölüm tanıtımı]
 summary:

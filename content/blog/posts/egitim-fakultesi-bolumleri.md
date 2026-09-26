@@ -4,6 +4,7 @@ description: "Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik progr
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [eğitim fakültesi bölümleri, öğretmenlik programları, tercih, YÖK Atlas, öğretmen yetiştirme]
 summary:
   - "Eğitim fakülteleri; okul öncesi ve sınıf öğretmenliğinden alan öğretmenliklerine, rehberlik ve özel eğitime kadar çok sayıda öğretmenlik programı sunar."

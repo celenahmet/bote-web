@@ -4,6 +4,7 @@ description: "Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğre
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [öğretmenlik uygulaması, staj, uygulama öğretmeni, eğitim fakültesi, öğretmen adayı]
 summary:
   - "**Öğretmenlik Uygulaması I ve II** dersleri eğitim fakültesi programlarının son sınıfında, 7. ve 8. yarıyılda yer alır."

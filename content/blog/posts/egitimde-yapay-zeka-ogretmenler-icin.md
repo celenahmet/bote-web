@@ -4,6 +4,7 @@ description: "Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehbe
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [eğitimde yapay zekâ, üretken yapay zekâ, UNESCO, öğretmen yetkinlikleri, MEB]
 summary:
   - "UNESCO'nun 2023 rehberi, üretken yapay zekânın eğitimde insan merkezli ve düzenlenmiş biçimde kullanılmasını önerir; sınıfta kullanım için alt yaş sınırı olarak 13'ü önerir."

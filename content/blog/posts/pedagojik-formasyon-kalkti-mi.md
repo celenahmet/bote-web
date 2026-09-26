@@ -4,6 +4,7 @@ description: "Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçm
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [pedagojik formasyon, formasyon kalktı mı, öğretmenlik, Millî Eğitim Akademisi, fen-edebiyat]
 summary:
   - "**Pedagojik formasyon**, eğitim fakültesi dışındaki lisans mezunlarına öğretmenlik meslek bilgisi kazandıran eğitimdir."

@@ -4,6 +4,7 @@ description: "TPACK (teknolojik pedagojik alan bilgisi) modeli nedir, hangi bile
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [TPACK, teknolojik pedagojik alan bilgisi, öğretmen bilgisi, Shulman, eğitim teknolojisi]
 summary:
   - "**TPACK**, iyi bir teknoloji entegrasyonunun alan, pedagoji ve teknoloji bilgisinin kesişiminde ortaya çıktığını savunan bir öğretmen bilgisi modelidir."

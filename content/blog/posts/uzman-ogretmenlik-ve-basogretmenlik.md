@@ -4,6 +4,7 @@ description: "Uzman öğretmen ve başöğretmen olmak için hangi koşullar ger
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [uzman öğretmen, başöğretmen, kariyer basamakları, 7528, öğretmen kariyeri]
 summary:
   - "7528 sayılı Kanun'a göre öğretmenlik mesleği **öğretmen, uzman öğretmen ve başöğretmen** basamaklarından oluşur."

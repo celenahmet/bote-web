@@ -4,6 +4,7 @@ description: "Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl se
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [öğrenme yönetim sistemi, LMS, Moodle, uzaktan eğitim, e-öğrenme]
 summary:
   - "**Öğrenme yönetim sistemi (LMS)**, çevrim içi derslerin içerik, etkinlik, değerlendirme ve öğrenci takibini tek bir ortamda yönetmeye yarayan yazılımdır."

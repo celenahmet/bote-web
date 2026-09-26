@@ -59,8 +59,71 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   ilk 2 kaynak görünür, fazlası "Tümünü gör" ile açılır. Her kaynağın sağındaki ⓘ düğmesi,
   kaynağın yazıdaki rolünü anlatan notu (`note`, her kaynakta zorunlu; üretici uyarır) ve
   kullanıldığı bölümleri gösterir. Yazı sonunda editör kutusu ve kaynak sayısı notu yoktur.
-- Derinlik: kavram yazıları tanımı, kuramsal arka planı, modelleri/taksonomileri, ölçme
-  yollarını ve somut sınıf örneklerini birlikte verir; yüzeysel özetle yetinilmez.
+- **Okur:** öncelikle BÖTE ve eğitim fakültesi akademisyenleri, lisansüstü adaylar ve
+  araştırmacılar; sonra öğretmen adayları ve tercih yapan öğrenciler. Her yazı BÖTE'de doktoralı
+  bir öğretim üyesi okuyacakmış gibi yazılır; hedef, alanında başvurulacak kaynak düzeyi.
+  Hız değil kalite: bir turda en fazla 1-2 yazı derinleştirilir (her yazı ayrı literatür taraması).
+
+### Derinlik standardı
+Yazı türü front matter'da `type` ile yazılır; eşikler `blog.yml > standards`'ta, üretici altında
+kalınca yazı başına tek satır uyarı verir. Kaynak türü `sources[].kind`:
+`makale | kitap | bolum | tez | bildiri | resmi | rapor | veri | web` (hakemli/akademik: makale, kitap, bölüm).
+
+**Kavram ve kuram yazıları** (`type: kavram`; TPACK, ADDIE, çoklu ortam, oyunlaştırma, bilgi
+işlemsel düşünme, uzaktan eğitim, LMS, DigCompEdu, ISTE, eğitimde yapay zekâ, öğretim tasarımı):
+1. 2000-3000 kelime; 6-8 ana başlık, her biri en az 250 kelime (gerekirse alt başlık). Az bölüm, derin bölüm.
+2. Tanım tartışması: en az iki farklı tanım, yazar ve yılıyla, birincil kaynaktan; doğrudan alıntıda sayfa numarası.
+3. Tarihsel gelişim: tarihli kilometre taşları; köken tartışması varsa açıkça yazılır.
+4. Ampirik kanıt **sayıyla**: meta-analiz/sistematik derleme bulguları; etki büyüklüğü (g ya da d),
+   varsa güven aralığı, çalışma sayısı (k), örneklem ve bağlam. Sayısız "küçük-orta düzey" yetmez.
+5. **Eleştiriler ve sınırlılıklar** ayrı ana başlık: en az iki yayımlanmış eleştiri, yazar ve yılıyla.
+6. Türkiye'de alanyazın: en az 3 Türkçe hakemli çalışma (DergiPark, TR Dizin, YÖK Ulusal Tez
+   Merkezi). Türkçeye uyarlanmış ölçek varsa madde sayısı, faktör yapısı, güvenirlik değerleri.
+   Türkiye'deki araştırma eğilimleri (derleme ya da bibliyometri çalışmasından).
+7. Uygulama: sınıf örneği ve araştırma örneği ayrı; araştırmacı için hangi desen ve hangi ölçek.
+8. Araştırmacılar için açık sorular: alanyazının çözemediği 3-5 soru, kaynaklı.
+9. Terim tablosu: Türkçe terim, İngilizce karşılığı, alanyazındaki farklı Türkçe kullanımlar.
+10. En az 12 kaynak, en az yarısı hakemli dergi ya da akademik kitap (DOI'li); her ana başlıkta
+    en az bir atıf; ikincil değil birincil kaynak.
+
+**Bölüm, politika ve mevzuat yazıları** (`type: politika`; BÖTE nedir, öğrenci alımı, 7528,
+MEA, AGS, formasyon, öğretmenlik uygulaması, akreditasyon, mezunlar, ders ve program yazıları):
+1. 1500-2500 kelime.
+2. Sayısal zaman serisi zorunlu: yıllara göre program sayısı, kontenjan, yerleşen, taban sıralama
+   (ÖSYM tercih kılavuzları, YÖK Atlas); ilgili alanda atama sayıları (MEB duyuruları). Tablonun
+   altında "Veri notu": belge, yıl, erişim tarihi. Bulunamayan yıl boş kalır ve bu yazılır; tahmin yok.
+3. Mevzuat madde numarasıyla, Resmî Gazete tarihi ve sayısıyla; önceki düzenlemeyle karşılaştırma tablosu.
+4. Alan içi tartışma (BÖTE'nin kimliği, kontenjan politikası vb.): Türk akademisyenlerin yayımlanmış
+   görüşleri, en az 3 hakemli çalışma.
+
+**Rehber ve kariyer yazıları** (`type: rehber`): en az 1200 kelime ve 8 kaynak; kariyer bilgisi
+de sayı ve kaynakla (atama, istihdam, mevzuat) verilir, yoğunluk düşürülmez.
+
+**Tüm yazılar:**
+- Şablon hissi yok: "duymuş olabilirsiniz" girişleri, her yazıda aynı başlık dizisi ve "zaman
+  gösterecek" kapanışları kullanılmaz. Giriş, yazının sorusunu ve okura katkısını 2-3 cümlede
+  söyler; yapı yazının türüne göre değişir.
+- Kaynaksız genelleme yok; her sayı yıl ve kaynakla.
+- Yazı sonunda "Bu yazıya atıf" kutusu (APA 7 + BibTeX; üretilir, isteğe bağlı `citeTitle` ile
+  APA cümle düzeni) ve "Son güncelleme" altında değişiklik günlüğü (`changes: [{date, text}]`).
+- Yazar ya da hakem adı uydurulmaz. Yayın ilkeleri (kaynak politikası, doğrulama yöntemi,
+  düzeltme yolu) `/blog/editor-ekibi` sayfasındadır.
+
+### Doğrulama kapısı
+- Her kaynak açılır ve künyesi doğrulanır: yazar, yıl, başlık, dergi, cilt, sayı, sayfa, DOI
+  çalışıyor mu. Açılamayan kaynak kullanılmaz; ağ kısıtı yüzünden erişilemiyorsa o iddia
+  yazılmaz ve kullanıcıya bildirilir. Arama motoru özeti ya da hafıza doğrulama sayılmaz.
+- Her sayı kaynağındaki tablo ya da sayfadan alınır; `content/blog/dogrulama-notlari/<slug>.md`
+  dosyasına kaynak, sayfa ve erişim tarihiyle yazılır (şablon: klasördeki README).
+- Yayından önce hakem okuması: yazı BÖTE'de doçent bir hakem gözüyle baştan okunur; eksik
+  eleştiri, eksik Türk kaynağı, ikincil kaynak, tarih hatası, yazar-yıl uyumsuzluğu aranır ve
+  düzeltilir. Teslimde hakem okuması notları verilir: ne bulundu, ne düzeltildi, ne doğrulanamadı.
+- Adres (slug) ve kategori değişmez; yalnız içerik derinleşir, `updated` güncellenir.
+- Sıra: bote-ogrenci-alimi-ve-gelecegi, tpack-modeli-nedir > bote-nedir, ADDIE, çoklu ortam,
+  bilgi işlemsel düşünme > mevzuat yazıları (7528, MEA, AGS, formasyon) > kalan kavram yazıları >
+  diğerleri > yeni yazılar (önce arama ölçümü): FATİH Projesi, pandemide EBA ve acil uzaktan
+  öğretim, BÖTE'de lisansüstü eğitim, eğitim teknolojisi dergileri ve kongreleri, Türkiye'de eğitim
+  teknolojisi araştırma eğilimleri, tasarım tabanlı araştırma, öğrenme analitiği.
 - Özellikler: görüntülenme sayısı (Upstash Redis, `/api/views`), okuma süresi, arama (⌘K),
   popüler/son okunan yazılar, SSS akordeonu, paylaşım. Yerleşim referansı: uniconnectly.com/blog.
 - Yazı sonunda solda öne çıkan yazılar, sağda UniConnectly paneli; dikeyde az yer kaplayan yatay

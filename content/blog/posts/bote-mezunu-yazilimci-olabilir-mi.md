@@ -4,6 +4,7 @@ description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde v
 date: 2026-09-25
 updated: 2026-09-26
 category: kariyer
+type: rehber
 tags: [BÖTE, yazılımcı, yazılım geliştirici, kariyer, bilgisayar mühendisliği]
 summary:
   - "BÖTE programı programlama, veri tabanı, ağlar ve web gibi dersler içerir; ancak amacı yazılım mühendisi değil, bilişim öğretmeni yetiştirmektir."

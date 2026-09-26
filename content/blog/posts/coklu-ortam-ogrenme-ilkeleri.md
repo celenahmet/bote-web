@@ -4,6 +4,7 @@ description: "Etkili sunum ve eğitim videosu nasıl hazırlanır? Mayer'in çok
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [çoklu ortam, Mayer, bilişsel yük, eğitim videosu, öğretim materyali]
 summary:
   - "**Çoklu ortam öğrenme**, sözcükler ve resimler birlikte sunulduğunda insanların yalnızca sözcüklerden daha iyi öğrendiği ilkesine dayanır."

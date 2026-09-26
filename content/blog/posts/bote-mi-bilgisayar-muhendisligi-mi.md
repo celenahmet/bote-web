@@ -4,6 +4,7 @@ description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? 
 date: 2026-09-25
 updated: 2026-09-26
 category: bolum-rehberi
+type: rehber
 tags: [BÖTE, bilgisayar mühendisliği, tercih, bölüm karşılaştırma, bilgisayar öğretmenliği]
 summary:
   - "İki program da sayısal (SAY) puan türüyle öğrenci alır, ancak amaçları farklıdır: BÖTE öğretmen, bilgisayar mühendisliği mühendis yetiştirir."

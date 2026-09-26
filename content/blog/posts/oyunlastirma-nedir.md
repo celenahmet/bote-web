@@ -4,6 +4,7 @@ description: "Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, 
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [oyunlaştırma, gamification, oyun tabanlı öğrenme, motivasyon, eğitim teknolojisi]
 summary:
   - "**Oyunlaştırma**, oyun tasarımı öğelerinin oyun dışı bağlamlarda kullanılmasıdır; tam bir oyun tasarlamak anlamına gelmez."

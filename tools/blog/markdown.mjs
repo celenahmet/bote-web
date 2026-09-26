@@ -17,6 +17,7 @@ export function renderMarkdown(src, { sources, root, file }) {
   const refs = new Map();
   let occ = 0;
   let section = null; // atifin gectigi en yakin ## / ### baslik
+  let h2 = null; // atifin gectigi ana baslik (##); "her ana baslikta en az bir atif" denetimi icin
 
   const numberOf = (id) => {
     if (!ids.has(id)) {
@@ -43,7 +44,7 @@ export function renderMarkdown(src, { sources, root, file }) {
           const links = t.keys.map((k) => {
             const n = numberOf(k);
             if (!refs.has(k)) refs.set(k, []);
-            refs.get(k).push({ occ: t.occ, section });
+            refs.get(k).push({ occ: t.occ, section, h2 });
             return `<a class="cite-link" href="#kaynak-${n}" aria-label="Kaynak ${n}">${n}</a>`;
           });
           return `<sup class="cite">[${links.join(', ')}]</sup>`;
@@ -71,6 +72,7 @@ export function renderMarkdown(src, { sources, root, file }) {
           const h = { depth: t.depth, id, text: t.text.replace(/\[@[^\]]+\]/g, '').trim() };
           headings.push(h);
           section = h;
+          if (t.depth === 2) h2 = h;
         }
         return `<h${t.depth} id="${id}">${inner}</h${t.depth}>\n`;
       },

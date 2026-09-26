@@ -4,6 +4,7 @@ description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi b
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [bilgi işlemsel düşünme, computational thinking, kodlama, problem çözme, bilgisayar bilimi]
 summary:
   - "**Bilgi işlemsel düşünme**, problemleri bir bilgisayarın da uygulayabileceği adımlarla çözmeye yönelik bir düşünme biçimidir."

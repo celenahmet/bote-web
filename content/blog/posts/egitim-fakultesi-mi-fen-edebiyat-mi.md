@@ -4,6 +4,7 @@ description: "Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı oku
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [eğitim fakültesi, fen-edebiyat fakültesi, öğretmenlik, pedagojik formasyon, tercih]
 summary:
   - "Türkiye'de öğretmenliğe iki ana yol var: alan ve meslek bilgisini birlikte veren **eğitim fakültesi** (eşzamanlı model) ve önce alan lisansı, sonra meslek bilgisi (ardışık model)."

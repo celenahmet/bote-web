@@ -4,6 +4,7 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 date: 2026-09-25
 updated: 2026-09-26
 category: bolum-rehberi
+type: politika
 tags: [Bilişim Teknolojileri ve Yazılım, BTY dersi, bilişim öğretmeni, ortaokul, kodlama]
 summary:
   - "**Bilişim Teknolojileri ve Yazılım** (BTY) dersi ortaokul 5. ve 6. sınıflarda zorunlu, 7. ve 8. sınıflarda seçmelidir."

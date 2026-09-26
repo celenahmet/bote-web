@@ -4,6 +4,7 @@ description: "Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi ders
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [meslek bilgisi dersleri, öğretmenlik programı, eğitim fakültesi dersleri, Shulman, öğretmen bilgisi]
 summary:
   - "Öğretmenlik lisans programları alan eğitimi, **meslek bilgisi** ve genel kültür olmak üzere üç ders grubundan oluşur."

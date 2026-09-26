@@ -4,6 +4,7 @@ description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [DigCompEdu, dijital yetkinlik, öğretmen yetkinlikleri, SELFIE, Avrupa Komisyonu]
 summary:
   - "**DigCompEdu**, Avrupa Komisyonu'nun eğitimciler için geliştirdiği dijital yetkinlik çerçevesidir."

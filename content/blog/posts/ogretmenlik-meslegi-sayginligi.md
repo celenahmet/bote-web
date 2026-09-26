@@ -4,6 +4,7 @@ description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu
 date: 2026-09-25
 updated: 2026-09-26
 category: yuksekogretim
+type: politika
 tags: [öğretmenlik mesleği, TALIS, OECD, mesleğin saygınlığı, öğretmen politikaları]
 summary:
   - "OECD'nin TALIS 2018 araştırmasında katılan OECD ülkelerindeki öğretmenlerin ortalama yalnızca **yüzde 26**'sı mesleklerinin toplumda değer gördüğünü düşünüyor."

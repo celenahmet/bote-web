@@ -11,7 +11,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
   teamLd(blog), orgLd(blog), breadcrumbLd(blog, trail),
 ] };
 ---
-<Base title={`${author.name} | BÖTE Blog`} description="BÖTE Blog yazılarını hazırlayan editör ekibi: kimiz, ne yazıyoruz, düzeltme talepleri, reklam ve gizlilik hakkında bilgiler."
+<Base title={`${author.name} | BÖTE Blog`} description="BÖTE Blog editör ekibi ve yayın ilkeleri: kaynak politikası, doğrulama yöntemi, düzeltme bildirme yolu, atıf, reklam ve gizlilik."
   path={author.url} image={blog.blogImage} ld={ld}>
   <section class="wrap index-head">
     <Crumbs items={trail} />
@@ -23,9 +23,25 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       <h2>Biz kimiz?</h2>
       <p>{author.name}, bote.web.tr'deki blog içeriklerini hazırlayan ve güncel tutan ekiptir. Sitenin kurucusu ve ekip üyeleri <a href="/crew">Ekibimiz</a> sayfasında yer alır.</p>
       <h2>Ne yazıyoruz?</h2>
-      <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmen yetiştirme ve eğitim teknolojileri üzerine; aday öğrencilere, öğrencilere, mezunlara ve velilere yol gösteren rehber yazılar yayımlıyoruz.</p>
-      <h2>Güncelleme ve düzeltme</h2>
-      <p>Yazılar düzenli olarak gözden geçirilir; son güncelleme tarihi yazının başında gösterilir. Bir hata görürseniz <a href="/contact">İletişim</a> sayfasından bildirebilirsiniz; düzeltmeleri yazıya işleriz.</p>
+      <p>Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmen yetiştirme ve eğitim teknolojileri üzerine yazılar yayımlıyoruz. Yazılar öncelikle alanın akademisyenleri, lisansüstü adayları ve araştırmacıları için hazırlanır; öğretmen adayları, tercih yapan öğrenciler ve veliler de aynı içerikten yararlanabilir.</p>
+      <h2 id="yayin-ilkeleri">Yayın ilkeleri</h2>
+      <h3>Kaynak politikası</h3>
+      <ul>
+        <li>Bilgi, yayımlandığı birincil kaynaktan alınır: YÖK, MEB, ÖSYM ve Resmî Gazete belgeleri, üniversitelerin kendi sayfaları, hakemli dergiler (DergiPark, TR Dizin ve uluslararası dergiler), akademik kitaplar, lisansüstü tezler (YÖK Ulusal Tez Merkezi) ve uluslararası kuruluşların raporları (OECD, UNESCO, Avrupa Komisyonu, ISTE).</li>
+        <li>İkincil aktarım yerine özgün yayına atıf yapılır. Her yazıda en az iki uluslararası kaynak bulunur; kavram yazılarında Türkiye'deki hakemli çalışmalara da yer verilir.</li>
+        <li>Ticari haber, rehber, kurs ve yayınevi siteleri kaynak olarak kullanılmaz.</li>
+      </ul>
+      <h3>Doğrulama yöntemi</h3>
+      <ul>
+        <li>Her kaynağın künyesi (yazar, yıl, başlık, dergi, cilt, sayı, sayfa, DOI) kaynağın kendisi açılarak denetlenir. Açılamayan ya da künyesi doğrulanamayan kaynak kullanılmaz; o kaynağa dayanan iddia yazılmaz.</li>
+        <li>Her sayı yılı ve kaynağıyla verilir. Veri tablolarının altında belgeyi, yılı ve erişim tarihini gösteren bir veri notu bulunur. Bulunamayan değerler tahminle doldurulmaz; boş bırakılır ve bu belirtilir.</li>
+        <li>Sayıların hangi belgenin hangi tablosundan ya da sayfasından alındığı, erişim tarihiyle birlikte iç doğrulama kaydında tutulur.</li>
+        <li>Yayından önce her yazı alan bilgisi gözüyle eleştirel bir iç okumadan geçirilir: eksik eleştiri, birincil yerine ikincil kaynak, tarih hatası ve yazar-yıl uyumsuzluğu aranır. Bu okuma bağımsız hakem değerlendirmesi değildir.</li>
+      </ul>
+      <h3>Düzeltme ve güncelleme</h3>
+      <p>Bir hata, eksik kaynak ya da güncelliğini yitirmiş bir bilgi görürseniz <a href="/contact">İletişim</a> sayfasından bildirebilirsiniz. Bildirimde yazının adresini, ilgili ifadeyi ve varsa dayanak kaynağı belirtmeniz incelemeyi hızlandırır. Düzeltmeler yazıya işlenir ve yazı sonundaki değişiklik günlüğüne tarihiyle kaydedilir; son güncelleme tarihi yazının başında da gösterilir.</p>
+      <h3>Atıf</h3>
+      <p>Her yazının sonunda APA 7 ve BibTeX biçiminde atıf bilgisi bulunur. Atıfta yazının son güncelleme tarihi kullanılır.</p>
       <h2>Yapay zekâ kullanımı</h2>
       <p>Yazıların hazırlanmasında yapay zekâ destekli araçlardan yararlanılabilir; her yazı yayından önce editör tarafından kontrol edilir.</p>
       <h2>Reklam, iş birliği ve bağımsızlık</h2>

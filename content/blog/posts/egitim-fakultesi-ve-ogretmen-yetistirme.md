@@ -4,6 +4,7 @@ description: "Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişi
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [eğitim fakültesi, öğretmen yetiştirme, Millî Eğitim Akademisi, AGS, pedagojik formasyon]
 summary:
   - "Türkiye'de öğretmen yetiştirme 1982'den beri üniversitelerin görevidir. Ana model, alan ve öğretmenlik eğitiminin birlikte verildiği eğitim fakülteleridir."

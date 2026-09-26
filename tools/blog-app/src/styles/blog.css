@@ -313,6 +313,20 @@ p{margin:0}
 .bib{border-top:1px solid var(--line);padding-top:24px;margin-top:2.6em!important}
 .bib h2{font:700 22px var(--display);margin:0!important;display:flex;align-items:center;gap:10px}
 .bib-count{font:600 12px/1 var(--mono);color:var(--muted);background:var(--raised);border-radius:999px;padding:5px 9px}
+.cite-box{margin-top:2.4em!important;border:1px solid var(--line);border-radius:16px;background:var(--raised);padding:18px 20px 16px}
+.prose .cite-box h2{font-size:20px;margin:0 0 10px}
+.cite-fmt{font:600 11.5px var(--mono)!important;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 4px!important}
+.cite-apa{font:400 15px/1.6 var(--display)!important;color:var(--ink-2);overflow-wrap:anywhere;margin:0!important;padding:10px 12px;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.cite-actions{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-start;margin-top:10px}
+.cite-btn,.cite-bib>summary{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font:600 13px var(--display);color:var(--violet);cursor:pointer;list-style:none}
+.cite-bib>summary::-webkit-details-marker{display:none}
+.cite-btn:hover,.cite-bib>summary:hover{border-color:var(--violet)}
+.cite-bib[open]{flex-basis:100%}
+.cite-bib pre{font:500 12.5px/1.55 var(--mono);white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:8px 0}
+.changelog{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.prose .changelog h3{font:600 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.changelog ul{margin:0;padding-left:18px;font-size:14.5px;line-height:1.55;color:var(--ink-2)}
+.changelog li+li{margin-top:4px}
 .bib-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
 .bib-title{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .bib-less{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font:600 13px var(--display);color:var(--violet);cursor:pointer}

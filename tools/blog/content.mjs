@@ -37,6 +37,20 @@ function parseFile(file) {
 
 let cache;
 // drafts: taslaklari da yayinlanmis gibi yukle (yalnizca yerel onizleme)
+// Kaynak turu (sources[].kind). Hakemli/akademik sayilanlar: makale, kitap, bolum.
+const KINDS = ['makale', 'kitap', 'bolum', 'tez', 'bildiri', 'resmi', 'rapor', 'veri', 'web'];
+const ACADEMIC = ['makale', 'kitap', 'bolum'];
+// kind yazilmamissa adresten kaba tahmin (yalnizca istatistik icin; derinlestirilen yazilarda acikca yazilir).
+function inferKind(s) {
+  const u = s.url || '';
+  if (/dergipark\.org\.tr\/.+\/(article|pub)|doi\.org\/10\./.test(u)) return 'makale';
+  if (/tez\.yok\.gov\.tr/.test(u)) return 'tez';
+  if (/resmigazete\.gov\.tr|mevzuat\.gov\.tr/.test(u)) return 'resmi';
+  if (/yokatlas|osym\.gov\.tr/.test(u)) return 'veri';
+  if (/\.gov\.tr|europa\.eu|oecd\.org|unesco\.org|iste\.org/.test(u)) return 'rapor';
+  return 'web';
+}
+
 export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1', fresh = false } = {}) {
   if (cache && cache.withDrafts === withDrafts && !fresh) return cache;
   const errors = [];
@@ -78,7 +92,8 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
         if (!s.note) w(`${where}: note yok (kaynagin yazidaki rolunu anlatan kisa not)`);
         let accessed = s.accessed;
         if (accessed) { try { accessed = toDateString(accessed); } catch (err) { e(`${where}: ${err.message}`); } }
-        return { ...s, accessed, year: String(s.year ?? ''), lang: String(s.lang || '').toLowerCase() };
+        if (s.kind && !KINDS.includes(s.kind)) e(`${where}: kind tanimsiz: ${s.kind} (${KINDS.join(' | ')})`);
+        return { ...s, kind: s.kind || inferKind(s), accessed, year: String(s.year ?? ''), lang: String(s.lang || '').toLowerCase() };
       });
       const foreign = sources.filter((s) => s.lang && s.lang !== 'tr').length;
       if (foreign < cfg.minForeignSources) e(`en az ${cfg.minForeignSources} yabanci kaynak zorunlu (su an ${foreign})`);
@@ -110,10 +125,44 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
       const summary = fm.summary || [];
       if (summary.length < 3) w('summary (Kisaca) icin en az 3 madde onerilir');
 
+      // Degisiklik gunlugu (yazi sonunda "Son guncelleme" altinda gosterilir)
+      const changes = (fm.changes || []).map((c, i) => {
+        let d = c.date;
+        try { d = toDateString(c.date); } catch (err) { e(`changes[${i}]: ${err.message}`); }
+        if (!c.text) e(`changes[${i}]: text zorunlu`);
+        return { date: d, text: String(c.text || '') };
+      }).sort((a, b) => b.date.localeCompare(a.date));
+
+      // Derinlik standardi (blog.yml > standards; CLAUDE.md > Derinlik standardi). Yazi turu: type.
+      const type = fm.type || null;
+      const std = type ? cfg.standards?.[type] : null;
+      if (type && !std) e(`type tanimsiz: ${type} (${Object.keys(cfg.standards || {}).join(' | ')})`);
+      if (!type) w('type yok (kavram | politika | rehber); derinlik denetimi yapilamadi');
+      if (std) {
+        const d = []; // yazinin standarttan eksikleri; tek uyari satirinda toplanir
+        if (std.minWords && words < std.minWords) d.push(`${words}/${std.minWords} kelime`);
+        if (std.minSources && sources.length < std.minSources) d.push(`${sources.length}/${std.minSources} kaynak`);
+        const academic = sources.filter((s) => ACADEMIC.includes(s.kind)).length;
+        if (std.minAcademicRatio && academic < Math.ceil(sources.length * std.minAcademicRatio)) d.push(`hakemli/akademik ${academic}/${sources.length} (en az yarisi)`);
+        const trPeer = sources.filter((s) => s.lang === 'tr' && s.kind === 'makale').length;
+        if (std.minTrPeer && trPeer < std.minTrPeer) d.push(`Turkce hakemli ${trPeer}/${std.minTrPeer}`);
+        const h2s = headings.filter((h) => h.depth === 2);
+        if (std.critique && !h2s.some((h) => /eleştiri|sınırlılık/i.test(h.text))) d.push('"Elestiriler ve sinirliliklar" basligi yok');
+        if (std.table && !/<table>[\s\S]*?<td>[^<]*\d/.test(html)) d.push('sayisal zaman serisi tablosu yok');
+        if (std.table && !/Veri notu/i.test(body)) d.push('"Veri notu" yok');
+        if (std.citeEachH2) {
+          const cited = new Set([...refs.values()].flat().map((x) => x.h2?.id).filter(Boolean));
+          const bare = h2s.filter((h) => !cited.has(h.id)).map((h) => h.text);
+          if (bare.length) d.push(`atifsiz ana baslik: ${bare.join(' | ')}`);
+        }
+        if (!changes.length) d.push('changes (degisiklik gunlugu) yok');
+        if (d.length) w(`[derinlik: ${type}] ${d.join('; ')}`);
+      }
+
       return {
         slug, file: rel, draft, title: fm.title, description: desc, date, updated,
         category: catBy[fm.category] || { name: '?', url: '/blog', slug: '?' },
-        tags: fm.tags || [], featured: !!fm.featured, summary, faq,
+        tags: fm.tags || [], featured: !!fm.featured, summary, faq, type, changes, citeTitle: fm.citeTitle || fm.title,
         sources: ordered, foreign, html, headings, body, words, minutes,
         url: `/blog/${slug}`, imageAlt: fm.imageAlt || `${fm.title} kapak görseli`, imageSrc: fm.image || null,
       };

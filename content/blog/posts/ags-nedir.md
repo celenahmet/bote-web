@@ -4,6 +4,7 @@ description: "AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [AGS, Akademi Giriş Sınavı, ÖABT, öğretmen ataması, ÖSYM]
 summary:
   - "**AGS**, Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın kısaltmasıdır; Millî Eğitim Akademisi hazırlık eğitimine kabul bu sınavla yapılır."

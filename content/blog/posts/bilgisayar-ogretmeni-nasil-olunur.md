@@ -4,6 +4,7 @@ description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Mi
 date: 2026-09-25
 updated: 2026-09-26
 category: kariyer
+type: rehber
 tags: [bilgisayar öğretmeni, BÖTE, AGS, Millî Eğitim Akademisi, öğretmen ataması]
 summary:
   - "Genel okullarda bilgisayar öğretmenliğinin lisans karşılığı **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği** (BÖTE) programıdır."

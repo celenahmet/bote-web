@@ -4,6 +4,7 @@ description: "Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç d
 date: 2026-09-25
 updated: 2026-09-26
 category: kariyer
+type: rehber
 tags: [öğretim tasarımcısı, instructional designer, kurumsal eğitim, e-öğrenme, kariyer]
 summary:
   - "**Öğretim tasarımcısı**, bir kurumun öğrenme ihtiyacını analiz edip buna uygun eğitim programları ve materyalleri tasarlayan uzmandır."

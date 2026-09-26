@@ -4,6 +4,7 @@ description: "Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [uzaktan eğitim, çevrim içi öğrenme, açıköğretim, acil uzaktan öğretim, e-öğrenme]
 summary:
   - "**Uzaktan eğitim**, öğrenen ile öğretenin fiziksel olarak ayrı olduğu ve öğretimin bir iletişim ortamı üzerinden yürütüldüğü eğitim biçimidir."

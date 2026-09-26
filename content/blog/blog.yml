@@ -16,6 +16,12 @@ author:
 minForeignSources: 2
 # Her yazida tam bu kadar SSS; sorular arama niyetine (Trends / Search Console) gore secilir.
 faqCount: 6
+# Derinlik standardi (CLAUDE.md > Blog > Derinlik standardi). Yazi turu front matter'da: type.
+# Esiklerin altinda kalinirsa uretici uyarir (hata degil).
+standards:
+  kavram: { minWords: 2000, minSources: 12, minAcademicRatio: 0.5, minTrPeer: 3, critique: true, citeEachH2: true }
+  politika: { minWords: 1500, minSources: 10, minTrPeer: 3, table: true, citeEachH2: true }
+  rehber: { minWords: 1200, minSources: 8, citeEachH2: true }
 
 categories:
   - slug: bolum-rehberi

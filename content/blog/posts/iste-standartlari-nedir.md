@@ -4,6 +4,7 @@ description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim t
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-teknolojileri
+type: kavram
 tags: [ISTE standartları, eğitim teknolojisi, dijital vatandaşlık, öğretmen yetkinlikleri, teknoloji koçu]
 summary:
   - "**ISTE**, eğitimde teknoloji kullanımına yönelik standartlar yayımlayan uluslararası bir kuruluştur."

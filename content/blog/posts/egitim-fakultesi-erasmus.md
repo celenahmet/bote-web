@@ -4,6 +4,7 @@ description: "Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuy
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: rehber
 tags: [Erasmus+, eğitim fakültesi, yurt dışı staj, öğrenci hareketliliği, öğretmen adayı]
 summary:
   - "Erasmus+ ile yükseköğretim öğrencileri her öğrenim kademesinde toplam 12 aya kadar yurt dışında öğrenim ve staj yapabilir."

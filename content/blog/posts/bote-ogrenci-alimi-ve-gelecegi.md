@@ -4,6 +4,7 @@ description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğret
 date: 2026-09-25
 updated: 2026-09-26
 category: yuksekogretim
+type: politika
 tags: [BÖTE, kontenjan, YÖK, öğretmen yetiştirme, yükseköğretim politikası]
 summary:
   - "Son yıllarda BÖTE programlarının açık olduğu üniversite sayısı ve kontenjanlar belirgin biçimde azaldı. Güncel liste için başvurulacak resmî kaynak YÖK Atlas'tır."

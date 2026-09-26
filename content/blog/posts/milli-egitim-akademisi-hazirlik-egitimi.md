@@ -4,6 +4,7 @@ description: "Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, n
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [Millî Eğitim Akademisi, hazırlık eğitimi, 7528, öğretmen adayı, AGS]
 summary:
   - "**Millî Eğitim Akademisi**, 7528 sayılı Kanun'la öğretmenliğe giriş sürecine eklenen hazırlık eğitimini verir."

@@ -4,6 +4,7 @@ description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Ö
 date: 2026-09-25
 updated: 2026-09-26
 category: yuksekogretim
+type: politika
 tags: [öğretmen açığı, UNESCO, öğretmenlik mesleği, TALIS, öğretmen politikaları]
 summary:
   - "UNESCO ve Öğretmen Görev Gücü'nün 2024 raporuna göre 2030 hedeflerine ulaşmak için dünyada **44 milyon** ek öğretmen gerekiyor."

@@ -4,6 +4,7 @@ description: "BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025
 date: 2026-09-25
 updated: 2026-09-26
 category: kariyer
+type: politika
 tags: [BÖTE, kariyer, öğretmen ataması, AGS, öğretim tasarımı, e-öğrenme]
 summary:
   - "BÖTE mezunlarının ana yolu öğretmenliktir. 2025'te genel okullar için ayrı bir **Bilgisayar ve Öğretim Teknolojileri** atama alanı oluşturuldu."

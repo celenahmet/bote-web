@@ -35,8 +35,22 @@ const middle = html.slice(Math.max(firstH2, 0), cut);
 const ending = html.slice(cut);
 const bodyHeads = post.headings.flatMap((h) => (recap && h === recap ? [recapItem, h] : [h]));
 const tocItems = [...bodyHeads, ...(post.summary.length && !recap ? [recapItem] : []),
-  ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 }];
+  ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 },
+  { id: 'atif', text: 'Bu yazıya atıf', depth: 2 }];
 const url = blog.abs(post.url);
+// "Bu yaziya atif": APA 7 (grup yazar, blog yazisi; tarih = son guncelleme) ve BibTeX.
+const AY = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
+const [cy, cm, cd] = post.updated.split('-').map(Number);
+const apaHtml = `${blog.author.name}. (${cy}, ${cd} ${AY[cm - 1]}). ${post.citeTitle}. <i>BÖTE Blog</i>. ${url}`;
+const bibtex = `@online{bote-${post.slug},
+  author       = {{${blog.author.name}}},
+  title        = {${post.title}},
+  organization = {BÖTE Blog},
+  year         = {${cy}},
+  date         = {${post.updated}},
+  url          = {${url}},
+  langid       = {turkish}
+}`;
 const ld = { '@context': 'https://schema.org', '@graph': [
   {
     '@type': 'BlogPosting', '@id': `${url}#yazi`, mainEntityOfPage: url, url,
@@ -130,6 +144,25 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           </div>
           <SourceList sources={post.sources} />
         </section>
+        <section class="cite-box" id="atif" aria-labelledby="atif-baslik">
+          <h2 id="atif-baslik">Bu yazıya atıf</h2>
+          <p class="cite-fmt">APA 7</p>
+          <p class="cite-apa" data-copy-src="apa" set:html={apaHtml} />
+          <div class="cite-actions">
+            <button type="button" class="cite-btn" data-copy="apa" hidden><Icon name="copy" size={15} /><span>APA'yı kopyala</span></button>
+            <details class="cite-bib">
+              <summary>BibTeX</summary>
+              <pre data-copy-src="bibtex">{bibtex}</pre>
+              <button type="button" class="cite-btn" data-copy="bibtex" hidden><Icon name="copy" size={15} /><span>BibTeX'i kopyala</span></button>
+            </details>
+          </div>
+          <div class="changelog">
+            <h3>Son güncelleme: <time datetime={post.updated}>{trDate(post.updated)}</time></h3>
+            {post.changes.length > 0 && (
+              <ul>{post.changes.map((c) => <li><time datetime={c.date}>{trDate(c.date)}</time> · <span set:html={renderInline(c.text)} /></li>)}</ul>
+            )}
+          </div>
+        </section>
         <ShareBar client:visible url={url} title={post.title} />
       </div>
       {(newer || older) && (
@@ -175,6 +208,19 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       more.addEventListener('toggle', sync);
       less.addEventListener('click', () => { more.open = false; document.getElementById('kaynaklar')?.scrollIntoView({ block: 'start' }); });
       sync();
+    }
+    // Atif metnini panoya kopyala (JS yoksa dugmeler gizli kalir; metin secilip kopyalanabilir).
+    for (const btn of document.querySelectorAll('[data-copy]')) {
+      const src = document.querySelector(`[data-copy-src="${btn.dataset.copy}"]`);
+      if (!src || !navigator.clipboard) continue;
+      btn.hidden = false;
+      const label = btn.querySelector('span');
+      const text = label.textContent;
+      btn.addEventListener('click', async () => {
+        try { await navigator.clipboard.writeText(src.innerText.trim()); label.textContent = 'Kopyalandı'; }
+        catch { label.textContent = 'Kopyalanamadı'; }
+        setTimeout(() => { label.textContent = text; }, 1800);
+      });
     }
     // Bilgi penceresindeki bir bolume gidilince pencereyi kapat.
     for (const a of document.querySelectorAll('.src-pop a[href^="#"]')) {

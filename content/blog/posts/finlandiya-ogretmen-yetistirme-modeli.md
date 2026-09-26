@@ -4,6 +4,7 @@ description: "Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [Finlandiya eğitim sistemi, öğretmen yetiştirme, yüksek lisans, karşılaştırmalı eğitim, eğitim fakültesi]
 summary:
   - "Finlandiya'da okul öncesi dışındaki öğretmenlerin büyük çoğunluğundan **yüksek lisans derecesi** beklenir."

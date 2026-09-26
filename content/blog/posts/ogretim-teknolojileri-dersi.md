@@ -4,6 +4,7 @@ description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaç
 date: 2026-09-25
 updated: 2026-09-26
 category: egitim-fakultesi
+type: politika
 tags: [Öğretim Teknolojileri dersi, meslek bilgisi, eğitim fakültesi, dijital yetkinlik, TPACK]
 summary:
   - "**Öğretim Teknolojileri**, tüm öğretmenlik programlarında okutulan zorunlu bir meslek bilgisi dersidir."
