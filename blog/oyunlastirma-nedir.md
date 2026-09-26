@@ -12,7 +12,7 @@ description: "Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, 
 
 > Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 7 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
 
 ## Kısaca
 
@@ -54,7 +54,16 @@ Sınıfa uyarlandığında bu ayrım şunu söyler: öğretmen "rozet vereceğim
 
 ## Oyuncu ve kullanıcı tipleri
 
-Her öğrenci aynı öğeden aynı ölçüde etkilenmez. Oyun araştırmacısı Richard Bartle, çevrim içi oyunlardaki oyuncuları dört tipe ayırdı: hedeflere ulaşmaktan keyif alan **başarıcılar**, oyun dünyasını keşfetmeyi seven **kaşifler**, diğer oyuncularla etkileşimi öne çıkaran **sosyalleşenler** ve başkalarını alt etmekten hoşlanan **rakipler**.[4]
+Her öğrenci aynı öğeden aynı ölçüde etkilenmez. Oyun araştırmacısı Richard Bartle, çevrim içi oyunlardaki oyuncuları iki eksene göre dört tipe ayırdı: oyuncunun oyun dünyasına mı yoksa diğer oyunculara mı yöneldiği ve onlar üzerinde **etkide bulunmayı** mı yoksa onlarla **etkileşimi** mi tercih ettiği.[4]
+
+| Bartle tipi | Neyden keyif alır? | Sınıfta işe yarayabilecek öğeler |
+|---|---|---|
+| Başarıcı (*achiever*) | Hedeflere ulaşmak, puan ve seviye toplamak | Seviyeler, rozetler, görünür ilerleme |
+| Kaşif (*explorer*) | Oyun dünyasını keşfetmek, gizli olanı bulmak | Seçmeli görevler, gizli içerikler, açık uçlu problemler |
+| Sosyalleşen (*socializer*) | Diğer oyuncularla iletişim ve ilişki | Takım görevleri, ortak projeler, tartışma alanları |
+| Rekabetçi (*killer*) | Başkalarıyla yarışmak ve onları geride bırakmak | Takımlar arası yarışmalar, düellolar, sınırlı süreli liderlik tabloları |
+
+Rekabetçi tip sınıfta en dikkatli yönetilmesi gereken tiptir: rekabet bu öğrencileri güçlü biçimde güdüler, ama aynı rekabet diğer öğrencilerin motivasyonunu düşürebilir. Yarışmayı bireyler yerine takımlar arasında kurmak ve sıralamaları kısa dönemlerle sınırlamak, rekabetçi öğrencinin enerjisini sınıfın geri kalanını yıldırmadan kullanmanın yollarıdır.
 
 Bartle'ın sınıflaması oyunlar için geliştirildi. Oyun dışı bağlamlar için Andrzej Marczewski'nin önerdiği **Hexad** modeli daha çok kullanılır. Tondello ve arkadaşları bu modeli ölçen bir ölçek geliştirerek altı kullanıcı tipini sınadı:[5]
 
@@ -66,6 +75,8 @@ Bartle'ın sınıflaması oyunlar için geliştirildi. Oyun dışı bağlamlar i
 | Başarıcı | Ustalaşmak | Seviyeler, zorlaşan görevler |
 | Oyuncu | Dışsal ödüller | Puanlar, rozetler |
 | Bozguncu | Değişim yaratmak | Kuralları birlikte geliştirme, geri bildirim kanalları |
+
+Hexad'da Bartle'daki gibi ayrı bir **rekabetçi** tipi yoktur. Hexad, motivasyonu kişinin neyle güdülendiğine göre sınıflar; rekabet ise tek başına bir motivasyon kaynağı değil, farklı motivasyonlara hizmet edebilen bir oyun öğesidir. Sınıfta rekabete dayalı öğeler (puan tabloları, sıralamalar, ödüllü yarışmalar) en çok dışsal ödüllerle güdülenen "oyuncu" tipine, ustalaşmak isteyen "başarıcı" tipine de kendini sınama fırsatı olarak hitap edebilir.[5]
 
 Bu tablonun sınıf için anlamı açık: yalnızca puan ve rozete dayanan bir tasarım esas olarak "oyuncu" tipine hitap eder. Farklı öğrencilere ulaşmak için farklı ihtiyaçlara yanıt veren öğeleri birlikte kullanmak gerekir.
 
@@ -142,7 +153,7 @@ Araştırmalar genel olarak olumlu ama sınırlı etkiler gösteriyor. Sailer ve
 
 ### Oyuncu tipleri nelerdir?
 
-Bartle oyuncuları başarıcılar, kaşifler, sosyalleşenler ve rakipler olarak dört tipe ayırır. Oyun dışı bağlamlarda kullanılan Hexad modeli ise hayırsever, sosyalleşen, özgür ruh, başarıcı, oyuncu ve bozguncu olmak üzere altı tip tanımlar.
+Bartle oyuncuları başarıcılar, kaşifler, sosyalleşenler ve rekabetçiler olarak dört tipe ayırır. Oyun dışı bağlamlarda kullanılan Hexad modeli ise hayırsever, sosyalleşen, özgür ruh, başarıcı, oyuncu ve bozguncu olmak üzere altı tip tanımlar; Hexad'da ayrı bir rekabetçi tipi yoktur.
 
 ### Oyunlaştırmada avatar ve karakterler ne işe yarar?
 

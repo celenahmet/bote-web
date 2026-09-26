@@ -19,7 +19,7 @@ faq:
   - q: "Oyunlaştırma öğrenmeyi artırır mı?"
     a: "Araştırmalar genel olarak olumlu ama sınırlı etkiler gösteriyor. Sailer ve Homner'in meta-analizi bilişsel, motivasyonel ve davranışsal çıktılarda küçük ile orta düzeyde olumlu etkiler buldu; etkinin büyüklüğü tasarıma ve bağlama göre değişiyor."
   - q: "Oyuncu tipleri nelerdir?"
-    a: "Bartle oyuncuları başarıcılar, kaşifler, sosyalleşenler ve rakipler olarak dört tipe ayırır. Oyun dışı bağlamlarda kullanılan Hexad modeli ise hayırsever, sosyalleşen, özgür ruh, başarıcı, oyuncu ve bozguncu olmak üzere altı tip tanımlar."
+    a: "Bartle oyuncuları başarıcılar, kaşifler, sosyalleşenler ve rekabetçiler olarak dört tipe ayırır. Oyun dışı bağlamlarda kullanılan Hexad modeli ise hayırsever, sosyalleşen, özgür ruh, başarıcı, oyuncu ve bozguncu olmak üzere altı tip tanımlar; Hexad'da ayrı bir rekabetçi tipi yoktur."
   - q: "Oyunlaştırmada avatar ve karakterler ne işe yarar?"
     a: "Avatarlar ve karakterler öğrencinin etkinliğe kişisel bir bağ kurmasını sağlar. Deneysel çalışmalar avatar, anlamlı hikâye ve takım arkadaşı gibi öğelerin özellikle sosyal ilişkililik duygusunu desteklediğini gösteriyor."
   - q: "Oyunlaştırmanın olumsuz yanları var mı?"
@@ -60,7 +60,7 @@ sources:
     url: "https://mud.co.uk/richard/hcds.htm"
     lang: en
     accessed: 2026-09-25
-    note: "Oyun tasarımının klasik metni: oyuncuları başarıcı, kaşif, sosyalleşen ve rakip olarak dört tipe ayırır. Yazıda öğrencilerin neden farklı öğelerden etkilendiğini açıklamak için kullanıldı."
+    note: "Oyun tasarımının klasik metni: oyuncuları başarıcı, kaşif, sosyalleşen ve rekabetçi olarak dört tipe ayırır. Yazıdaki Bartle tipleri tablosunun kaynağı."
   - id: tondello2016
     author: "Tondello, G. F., Wehbe, R. R., Diamond, L., Busch, M., Marczewski, A. ve Nacke, L. E."
     title: "The Gamification User Types Hexad Scale"
@@ -69,7 +69,7 @@ sources:
     url: "https://doi.org/10.1145/2967934.2968082"
     lang: en
     accessed: 2026-09-25
-    note: "Bartle'ın tiplerini oyun dışı bağlamlara uyarlayan Hexad modelini ölçen ölçeğin geliştirildiği çalışma. Altı kullanıcı tipi tablosu bu kaynağa dayanıyor."
+    note: "Bartle'ın tiplerini oyun dışı bağlamlara uyarlayan Hexad modelini ölçen ölçeğin geliştirildiği çalışma. Altı kullanıcı tipi tablosu ve rekabetçi tipin Hexad'daki karşılığına ilişkin açıklama bu kaynağa dayanıyor."
   - id: ryan2000
     author: "Ryan, R. M. ve Deci, E. L."
     title: "Self-Determination Theory and the Facilitation of Intrinsic Motivation, Social Development, and Well-Being"
@@ -148,7 +148,16 @@ Sınıfa uyarlandığında bu ayrım şunu söyler: öğretmen "rozet vereceğim
 
 ## Oyuncu ve kullanıcı tipleri
 
-Her öğrenci aynı öğeden aynı ölçüde etkilenmez. Oyun araştırmacısı Richard Bartle, çevrim içi oyunlardaki oyuncuları dört tipe ayırdı: hedeflere ulaşmaktan keyif alan **başarıcılar**, oyun dünyasını keşfetmeyi seven **kaşifler**, diğer oyuncularla etkileşimi öne çıkaran **sosyalleşenler** ve başkalarını alt etmekten hoşlanan **rakipler**.[@bartle1996]
+Her öğrenci aynı öğeden aynı ölçüde etkilenmez. Oyun araştırmacısı Richard Bartle, çevrim içi oyunlardaki oyuncuları iki eksene göre dört tipe ayırdı: oyuncunun oyun dünyasına mı yoksa diğer oyunculara mı yöneldiği ve onlar üzerinde **etkide bulunmayı** mı yoksa onlarla **etkileşimi** mi tercih ettiği.[@bartle1996]
+
+| Bartle tipi | Neyden keyif alır? | Sınıfta işe yarayabilecek öğeler |
+|---|---|---|
+| Başarıcı (*achiever*) | Hedeflere ulaşmak, puan ve seviye toplamak | Seviyeler, rozetler, görünür ilerleme |
+| Kaşif (*explorer*) | Oyun dünyasını keşfetmek, gizli olanı bulmak | Seçmeli görevler, gizli içerikler, açık uçlu problemler |
+| Sosyalleşen (*socializer*) | Diğer oyuncularla iletişim ve ilişki | Takım görevleri, ortak projeler, tartışma alanları |
+| Rekabetçi (*killer*) | Başkalarıyla yarışmak ve onları geride bırakmak | Takımlar arası yarışmalar, düellolar, sınırlı süreli liderlik tabloları |
+
+Rekabetçi tip sınıfta en dikkatli yönetilmesi gereken tiptir: rekabet bu öğrencileri güçlü biçimde güdüler, ama aynı rekabet diğer öğrencilerin motivasyonunu düşürebilir. Yarışmayı bireyler yerine takımlar arasında kurmak ve sıralamaları kısa dönemlerle sınırlamak, rekabetçi öğrencinin enerjisini sınıfın geri kalanını yıldırmadan kullanmanın yollarıdır.
 
 Bartle'ın sınıflaması oyunlar için geliştirildi. Oyun dışı bağlamlar için Andrzej Marczewski'nin önerdiği **Hexad** modeli daha çok kullanılır. Tondello ve arkadaşları bu modeli ölçen bir ölçek geliştirerek altı kullanıcı tipini sınadı:[@tondello2016]
 
@@ -160,6 +169,8 @@ Bartle'ın sınıflaması oyunlar için geliştirildi. Oyun dışı bağlamlar i
 | Başarıcı | Ustalaşmak | Seviyeler, zorlaşan görevler |
 | Oyuncu | Dışsal ödüller | Puanlar, rozetler |
 | Bozguncu | Değişim yaratmak | Kuralları birlikte geliştirme, geri bildirim kanalları |
+
+Hexad'da Bartle'daki gibi ayrı bir **rekabetçi** tipi yoktur. Hexad, motivasyonu kişinin neyle güdülendiğine göre sınıflar; rekabet ise tek başına bir motivasyon kaynağı değil, farklı motivasyonlara hizmet edebilen bir oyun öğesidir. Sınıfta rekabete dayalı öğeler (puan tabloları, sıralamalar, ödüllü yarışmalar) en çok dışsal ödüllerle güdülenen "oyuncu" tipine, ustalaşmak isteyen "başarıcı" tipine de kendini sınama fırsatı olarak hitap edebilir.[@tondello2016]
 
 Bu tablonun sınıf için anlamı açık: yalnızca puan ve rozete dayanan bir tasarım esas olarak "oyuncu" tipine hitap eder. Farklı öğrencilere ulaşmak için farklı ihtiyaçlara yanıt veren öğeleri birlikte kullanmak gerekir.
 
