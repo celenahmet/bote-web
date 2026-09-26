@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import Crumbs from './Crumbs.astro';
 import PostCard from './PostCard.astro';
 import Widgets from './Widgets.astro';
+import Icon from './Icon.astro';
 import { loadBlog, trDate } from '../lib.js';
 const { list, page, pages, base, trail, title, h1, lead, description, ld, current, empty, stats = false, noindex = false, pool } = Astro.props;
 const blog = loadBlog();
@@ -10,26 +11,52 @@ const pathUrl = page === 1 ? base : `${base}/sayfa/${page}`;
 const [first, ...rest] = page === 1 ? list : [null, ...list];
 const href = (n) => (n === 1 ? base : `${base}/sayfa/${n}`);
 const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pathUrl }];
+// Karsilama alani (Ahmet 26.09: "ana sayfa uniconnectly.com gibi"): solda baslik, aciklama ve arama;
+// sagda kategori kutucuklari. Metinler mevcut baslik ve aciklamadan gelir.
+const cats = noindex ? [] : blog.categories.filter((c) => c.count);
+const count = current && current !== 'blog' ? (blog.catBy[current]?.count ?? list.length) : blog.posts.length;
 ---
 <Base title={page === 1 ? title : `${title} (Sayfa ${page})`} description={page === 1 ? description : `${description} Sayfa ${page}.`}
   path={pathUrl} image={blog.blogImage} ld={ld} current={current} noindex={noindex}>
-  <section class="wrap index-head">
-    <Crumbs items={crumbs} />
-    <h1 set:html={h1} />
-    <p class="dek">{lead}</p>
-    {stats && blog.posts.length > 0 && (
-      <p class="ledger"><span><b>{blog.posts.length}</b> yazı</span><span>son güncelleme {trDate(blog.newest)}</span></p>
-    )}
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-text">
+        <Crumbs items={crumbs} />
+        <h1 set:html={h1} />
+        <p class="dek">{lead}</p>
+        <div class="hero-actions">
+          <a class="hero-cta" href="#yazilar">Tüm yazıları keşfet <Icon name="arrow-right" size={18} /></a>
+          <button type="button" class="hero-search" data-open-search aria-label="Yazılarda ara">
+            <Icon name="search" size={18} /><span>Yazılarda ara</span><kbd class="kbd">⌘K</kbd>
+          </button>
+        </div>
+        {blog.posts.length > 0 && (
+          <p class="ledger"><span><b>{count}</b> yazı</span><span>Son yazı {trDate(blog.newest)}</span></p>
+        )}
+      </div>
+      {first && <PostCard post={first} variant="hero" eager level={2} />}
+    </div>
   </section>
+  {cats.length > 0 && (
+    <nav class="wrap cat-cards" aria-label="Kategoriler">
+      {cats.map((c) => (
+        <a href={c.url} class={`cc cc-${c.slug}`} aria-current={c.slug === current ? 'page' : undefined}>
+          <span class="cc-ico"><Icon name={c.icon || 'folder'} size={22} /></span>
+          <span class="cc-name">{c.name}</span>
+          <span class="cc-desc">{c.description}</span>
+          <span class="cc-foot"><span>{c.count} yazı</span><Icon name="arrow-right" size={16} /></span>
+        </a>
+      ))}
+    </nav>
+  )}
   <div class="wrap index-grid">
     <div class="feed">
       {list.length === 0 ? (
         <div class="empty" set:html={empty} />
       ) : (
         <>
-          {first && <PostCard post={first} variant="feature" eager level={2} />}
-          {rest.length > 0 && <h2 class="feed-title">{page === 1 ? 'Son yazılar' : `Sayfa ${page}`}</h2>}
-          {rest.length > 0 && <ol class="rows">{rest.map((p) => <li><PostCard post={p} /></li>)}</ol>}
+          {rest.length > 0 && <h2 class="feed-title" id="yazilar">{page === 1 ? 'Son yazılar' : `Sayfa ${page}`}</h2>}
+          {rest.length > 0 && <ol class="cards">{rest.map((p) => <li><PostCard post={p} variant="card" /></li>)}</ol>}
           {pages > 1 && (
             <nav class="pagination" aria-label="Sayfalar"><ul>
               {page > 1 && <li><a href={href(page - 1)} rel="prev">Önceki sayfa</a></li>}
@@ -40,6 +67,6 @@ const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pat
         </>
       )}
     </div>
-    <Widgets mode="sidebar" pool={pool} />
+    <Widgets mode="sidebar" pool={pool} noCats={cats.length > 0} />
   </div>
 </Base>

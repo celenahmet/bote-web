@@ -2,7 +2,6 @@
 title: "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi"
 description: "AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-fakultesi
 type: politika
 tags: [AGS, Akademi Giriş Sınavı, ÖABT, öğretmen ataması, ÖSYM]

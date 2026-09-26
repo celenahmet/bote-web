@@ -3,7 +3,7 @@ title: "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası"
 url: https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Kariyer
 description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası."
 ---
@@ -12,7 +12,7 @@ description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Mi
 
 > Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 
 ## Kısaca
 

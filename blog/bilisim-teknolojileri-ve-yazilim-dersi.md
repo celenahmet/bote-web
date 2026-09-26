@@ -3,7 +3,7 @@ title: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
 url: https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Bölüm Rehberi
 description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber."
 ---
@@ -12,7 +12,7 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
 ## Kısaca
 

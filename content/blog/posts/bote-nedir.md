@@ -2,7 +2,6 @@
 title: "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi"
 description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber."
 date: 2026-09-25
-updated: 2026-09-26
 category: bolum-rehberi
 type: politika
 featured: true

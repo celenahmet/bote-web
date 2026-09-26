@@ -2,7 +2,6 @@
 title: "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi"
 description: "Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-teknolojileri
 type: kavram
 tags: [uzaktan eğitim, çevrim içi öğrenme, açıköğretim, acil uzaktan öğretim, e-öğrenme]

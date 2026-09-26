@@ -3,7 +3,7 @@ title: "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı"
 url: https://www.bote.web.tr/blog/tpack-modeli-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Eğitim Teknolojileri
 description: "TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilgisine gelişimi, meta-analiz bulguları, eleştiriler ve Türkiye'deki TPAB ölçekleri."
 ---
@@ -12,7 +12,7 @@ description: "TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilg
 
 > TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilgisine gelişimi, meta-analiz bulguları, eleştiriler ve Türkiye'deki TPAB ölçekleri.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 12 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
 
 ## Kısaca
 

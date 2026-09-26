@@ -3,7 +3,7 @@ title: "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları"
 url: https://www.bote.web.tr/blog/oyunlastirma-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Eğitim Teknolojileri
 description: "Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz."
 ---
@@ -12,7 +12,7 @@ description: "Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, 
 
 > Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 7 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 7 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
 
 ## Kısaca
 

@@ -2,7 +2,6 @@
 title: "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı"
 description: "Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-fakultesi
 type: politika
 tags: [pedagojik formasyon, formasyon kalktı mı, öğretmenlik, Millî Eğitim Akademisi, fen-edebiyat]

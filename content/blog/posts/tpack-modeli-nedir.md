@@ -3,7 +3,6 @@ title: "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı"
 citeTitle: "TPACK modeli nedir? Öğretmen bilgisinin yedi katmanı"
 description: "TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilgisine gelişimi, meta-analiz bulguları, eleştiriler ve Türkiye'deki TPAB ölçekleri."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-teknolojileri
 type: kavram
 tags: [TPACK, TPAB, teknolojik pedagojik alan bilgisi, öğretmen bilgisi, Shulman, meta-analiz, ölçek uyarlama]

@@ -3,7 +3,7 @@ title: "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler"
 url: https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Eğitim Teknolojileri
 description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber."
 ---
@@ -12,7 +12,7 @@ description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi b
 
 > Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
 
 ## Kısaca
 

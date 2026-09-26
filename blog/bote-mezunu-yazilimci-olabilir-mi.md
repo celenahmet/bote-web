@@ -3,7 +3,7 @@ title: "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme"
 url: https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Kariyer
 description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde v
 
 > BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 
 ## Kısaca
 

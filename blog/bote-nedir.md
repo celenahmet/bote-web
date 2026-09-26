@@ -3,7 +3,7 @@ title: "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi"
 url: https://www.bote.web.tr/blog/bote-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Bölüm Rehberi
 description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimler
 
 > BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
 
 ## Kısaca
 

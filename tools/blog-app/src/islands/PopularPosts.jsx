@@ -17,9 +17,10 @@ export default function PopularPosts({ fallback, posts, current = '' }) {
   return (
     <section className="widget" aria-labelledby="w-popular">
       <h2 className="widget-title" id="w-popular">{top ? 'Popüler yazılar' : 'Öne çıkan yazılar'}</h2>
-      <ol className="mini">
+      <ol className="mini mini-thumbs mini-num">
         {rows.map((p) => (
           <li key={p.slug}>
+            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="120" height="63" loading="lazy" decoding="async" /></a>}
             <div>
               <a href={p.url}>{p.title}</a>
               <small>{p.views ? `${fmt(p.views)} görüntülenme · ` : ''}{p.minutes} dk okuma</small>

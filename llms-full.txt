@@ -2664,7 +2664,7 @@ MEB'in duyurusuna göre AGS'nin Eğitim Bilimleri ve Türk Millî Eğitim Sistem
 
 > AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ags-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ags-nedir
 
 ## Kısaca
 
@@ -2777,7 +2777,7 @@ Başvuru koşulları ÖSYM ve MEB'in sınav kılavuzlarında yayımlanır. Genel
 
 > Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bilgi-islemsel-dusunme-nedir
 
 ## Kısaca
 
@@ -2904,7 +2904,7 @@ Günlük problemleri adımlara bölmek, blok tabanlı programlama araçlarıyla 
 
 > Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur
 
 ## Kısaca
 
@@ -3020,7 +3020,7 @@ AGS ve akademi süreci MEB'e bağlı resmî okullara öğretmen olarak atanmayı
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
 ## Kısaca
 
@@ -3140,7 +3140,7 @@ Evet. Eurydice'nin 2022 raporu, bilişimin bazı ülkelerde ayrı bir ders olara
 
 > BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/bote-mezunlari-ne-is-yapar
 
 ## Kısaca
 
@@ -3277,7 +3277,7 @@ Evet. Öğretim tasarımı, e-öğrenme içeriği geliştirme ve kurumsal eğiti
 
 > BÖTE mezunu yazılım sektöründe çalışabilir mi? Bölümde verilen programlama eğitimi, bilgisayar mühendisliğiyle farklar, eksikler ve kapanması gereken açıklar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mezunu-yazilimci-olabilir-mi
 
 ## Kısaca
 
@@ -3393,7 +3393,7 @@ Düzenli olarak gerçek projeler geliştirmek, kodunu herkese açık bir depoda 
 
 > BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
 
 ## Kısaca
 
@@ -3504,7 +3504,7 @@ BÖTE'de matematik ağırlığı bilgisayar mühendisliğine göre daha azdır; 
 
 > BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 6 dk okuma · https://www.bote.web.tr/blog/bote-nedir
 
 ## Kısaca
 
@@ -3650,7 +3650,7 @@ Hayır. Öğretmenlik ana hedef olsa da mezunlar öğretim tasarımı, e-öğren
 
 > BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-ogrenci-alimi-ve-gelecegi
 
 ## Kısaca
 
@@ -3765,7 +3765,7 @@ Karar kişisel hedeflere bağlıdır. Öğretmenliğe ve eğitim teknolojisine i
 
 > Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı: tanımlar, tarihçe, meta-analizlerde etki büyüklükleri, eleştiriler ve Türkiye'deki çalışmalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 10 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 10 dk okuma · https://www.bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri
 
 ## Kısaca
 
@@ -3923,7 +3923,7 @@ Hayır. Uzmanlığın ters etkisine göre yeni başlayanlara yarayan destekler, 
 
 > DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/digcompedu-nedir
 
 ## Kısaca
 
@@ -4056,7 +4056,7 @@ DigCompEdu bir AB çerçevesidir; ancak herkese açık ve ücretsizdir. Türkiye
 
 > UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
 
 ## Kısaca
 
@@ -4165,7 +4165,7 @@ OECD'nin TALIS 2018 araştırmasında, katılan OECD ülkelerindeki öğretmenle
 
 > Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad
 
 ## Kısaca
 
@@ -4269,7 +4269,7 @@ Akredite bir programda eğitimin belirli standartlara göre düzenli olarak değ
 
 > Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-bolumleri
 
 ## Kısaca
 
@@ -4382,7 +4382,7 @@ Tercih eğilimleri yıldan yıla değişir ve bölüm seçiminde tek başına be
 
 > Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-mi-fen-edebiyat-mi
 
 ## Kısaca
 
@@ -4492,7 +4492,7 @@ Her iki yoldan gelen adaylar AGS'ye girer ve akademinin hazırlık eğitimini ta
 
 > Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-ve-ogretmen-yetistirme
 
 ## Kısaca
 
@@ -4631,7 +4631,7 @@ Eşzamanlı modelde alan ve öğretmenlik eğitimi lisans boyunca birlikte veril
 
 > Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/egitim-fakultesi-erasmus
 
 ## Kısaca
 
@@ -4737,7 +4737,7 @@ Hareketlilik öncesinde imzalanan öğrenim anlaşmasındaki dersler, başarıyl
 
 > Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 5 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://www.bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin
 
 ## Kısaca
 
@@ -4866,7 +4866,7 @@ Uluslararası rehberler yapay zekâyı öğretmenin yerine geçen değil, onu de
 
 > Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/finlandiya-ogretmen-yetistirme-modeli
 
 ## Kısaca
 
@@ -4969,7 +4969,7 @@ Türkiye'de ana model dört yıllık eşzamanlı lisanstır ve 7528 sayılı Kan
 
 > ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
 
 ## Kısaca
 
@@ -5095,7 +5095,7 @@ ISTE standartları öğretmeni rollerle tanımlar ve öğrenci, öğretmen, koç
 
 > Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi
 
 ## Kısaca
 
@@ -5199,7 +5199,7 @@ Aralık 2025'te öğretmenlik esaslarında yapılan değişiklikle, akademi haz�
 
 > Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 7 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 7 dk okuma · https://www.bote.web.tr/blog/oyunlastirma-nedir
 
 ## Kısaca
 
@@ -5369,7 +5369,7 @@ Evet. Beklenen somut ödüller içsel motivasyonu azaltabilir; liderlik tablolar
 
 > Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogrenme-yonetim-sistemi-lms-nedir
 
 ## Kısaca
 
@@ -5484,7 +5484,7 @@ Learning Tools Interoperability (LTI), 1EdTech'in geliştirdiği bir standarttı
 
 > Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimcisi-ne-is-yapar
 
 ## Kısaca
 
@@ -5606,7 +5606,7 @@ Zorunlu değildir ama bazı roller için avantaj sağlar. ABD'de okul sistemleri
 
 > Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, IPISD'den SAM'e tarihçe, aşamalar, eleştiriler, Türkiye'deki çalışmalar ve açık sorular.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 12 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 
 ## Kısaca
 
@@ -5775,7 +5775,7 @@ Bir öğrenme ihtiyacından yola çıkarak hedefleri, öğretim etkinliklerini, 
 
 > Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
 
 ## Kısaca
 
@@ -5887,7 +5887,7 @@ AGS'nin kapsamı eğitimin temellerini içerir ve öğretim teknolojileri bu kap
 
 > 7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528
 
 ## Kısaca
 
@@ -5995,7 +5995,7 @@ Kanunun ilk yayımlanan hâli Resmî Gazete'nin internet sitesinde, değişiklik
 
 > Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 
 ## Kısaca
 
@@ -6095,7 +6095,7 @@ TALIS 2018 verilerine göre öğretmenlerin büyük çoğunluğu işlerinden gen
 
 > Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslek-bilgisi-dersleri
 
 ## Kısaca
 
@@ -6221,7 +6221,7 @@ Evet. AGS'nin kapsamındaki eğitimin temelleri ile Türk millî eğitim sistemi
 
 > Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-uygulamasi-nedir
 
 ## Kısaca
 
@@ -6334,7 +6334,7 @@ Gözlemleri yapılandırılmış notlarla kaydetmek, her ders anlatımından son
 
 > Pedagojik formasyon kalktı mı, kimleri etkiliyor? YÖK'ün seçmeli ders düzenlemesi, Aralık 2025 esas değişikliği ve öğretmenliğe girişteki yeni tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/pedagojik-formasyon-kalkti-mi
 
 ## Kısaca
 
@@ -6453,7 +6453,7 @@ Yeni modelde öğretmen adayları Millî Eğitim Akademisi'nde dört dönemlik h
 
 > TPACK modeli nedir? Tanım tartışması, Shulman'dan bağlam bilgisine gelişimi, meta-analiz bulguları, eleştiriler ve Türkiye'deki TPAB ölçekleri.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 12 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://www.bote.web.tr/blog/tpack-modeli-nedir
 
 ## Kısaca
 
@@ -6644,7 +6644,7 @@ Ning ve arkadaşlarının (2022) 59 çalışmayı kapsayan meta-analizinde öğr
 
 > Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/uzaktan-egitim-nedir
 
 ## Kısaca
 
@@ -6769,7 +6769,7 @@ Etkililik, eğitimin nasıl tasarlandığına bağlıdır. Planlı, etkileşimli
 
 > Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik
 
 ## Kısaca
 

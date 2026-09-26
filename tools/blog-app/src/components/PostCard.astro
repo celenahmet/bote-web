@@ -4,7 +4,25 @@ import { trDate } from '../lib.js';
 const { post, variant = 'row', eager = false, level = 3 } = Astro.props;
 const H = `h${level}`;
 ---
-{variant === 'feature' ? (
+{variant === 'hero' ? (
+  <article class="hcard">
+    <a class="hcard-img" href={post.url} tabindex="-1" aria-hidden="true">
+      <img src={(post.art || post.image).src} width={(post.art || post.image).width} height={(post.art || post.image).height} alt="" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async" style={`view-transition-name: c-${post.slug}`} />
+    </a>
+    <div class="hcard-body">
+      <p class="pill">Öne çıkan yazı</p>
+      <H class="hcard-title"><a href={post.url} style={`view-transition-name: t-${post.slug}`}>{post.title}</a></H>
+      <p class="dek">{post.description}</p>
+      <div class="hcard-foot">
+        <div class="meta">
+          <time datetime={post.date}>{trDate(post.date)}</time>
+          <span>{post.minutes} dk okuma</span>
+        </div>
+        <a class="round-go" href={post.url} aria-label={`${post.title} yazısını oku`}><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </article>
+) : variant === 'feature' ? (
   <article class="feature">
     <a class="feature-img" href={post.url} tabindex="-1" aria-hidden="true">
       <img src={(post.art || post.image).src} width={(post.art || post.image).width} height={(post.art || post.image).height} alt="" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : undefined} decoding="async" style={`view-transition-name: c-${post.slug}`} />
@@ -17,6 +35,21 @@ const H = `h${level}`;
         <time datetime={post.date}>{trDate(post.date)}</time>
         <span>{post.minutes} dk okuma</span>
         {!post.preview && <ViewCount client:visible slug={post.slug} />}
+      </div>
+    </div>
+  </article>
+) : variant === 'card' ? (
+  <article class="card">
+    <a class="card-img" href={post.url} tabindex="-1" aria-hidden="true">
+      <img src={post.image.src} width={post.image.width} height={post.image.height} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" />
+    </a>
+    <div class="card-body">
+      <p><a class={`pill cat-${post.category.slug}`} href={post.category.url}>{post.category.name}</a></p>
+      <H class="card-title"><a href={post.url} style={`view-transition-name: t-${post.slug}`}>{post.title}</a></H>
+      <p class="dek">{post.description}</p>
+      <div class="meta">
+        <time datetime={post.date}>{trDate(post.date)}</time>
+        <span>{post.minutes} dk okuma</span>
       </div>
     </div>
   </article>

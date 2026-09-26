@@ -60,4 +60,23 @@ push: `git push -u origin claude/vigilant-noether-o6k450 && git push origin clau
    DergiPark makale sayfasının citation meta etiketlerinden okunur.
 3. AGS kapsamı: MEB 08.01.2026 duyurusu (haber/39480). KPSS için özel iddia yazılmaz.
 4. Başlık en çok 60, açıklama 70-165 karakter. Başlık değişirse kapak silinip yeniden üretilir.
-5. Sıradaki kuramlar: Erikson, Kohlberg, Bronfenbrenner, davranışçı öğrenme, Bandura, bilgiyi işleme.
+5. Crossref eski Ankara Üniversitesi Eğitim Bilimleri Fakültesi Dergisi makalelerinde yılı yanlış
+   veriyor (örnek: 1994 makale 1974 görünüyor); yıl DergiPark makale sayfasındaki "Sayı Yıl" alanından alınır.
+6. Taranmış PDF'ler macOS Vision ile okunur (PDFKit metin katmanı boşsa OCR).
+
+### Durum (26.09 akşam)
+- Kuram yazıları 1-13 yayında (YOL_HARITASI.md > İlerleme). Kalan: 14 Güdülenme, 15 Freud-Marcia-Selman.
+- **Tasarım elden geçirme başladı (Ahmet 26.09):** ad bote.web.tr; monospace yazı tipi hiçbir yerde
+  yok; yazı tipi değişimi; ferahlık; koyu temada opak üst menü; içindekiler kutusu dengesi ve
+  "Kaynaklar (n)" sayısının kaldırılması; yan paneldeki listeler görselli; kapak görselleri yeniden.
+
+### Yapılacaklar: özel yazılar (Ahmet 26.09, kuramlardan sonra)
+- [ ] PISA 2022 Türkiye sonuçları: puanlar, sıralama, eşitlik, zaman serisi (uluslararasi-egitim)
+- [ ] PISA nasıl ölçer? Örnekleme, olası değerler ve yanlış okumalar (uluslararasi-egitim)
+- [ ] OECD Education at a Glance: Türkiye göstergeleri (uluslararasi-egitim)
+- [ ] TALIS: öğretmenlerin çalışma koşulları ve mesleki gelişim, Türkiye verisi (uluslararasi-egitim)
+- [ ] Ülkeler arası karşılaştırmalı öğretmen yetiştirme (uluslararasi-egitim)
+- [ ] BTE Derneği ve Türkiye'de eğitim teknolojisi alanının kurumsallaşması: kongreler, dergiler (egitim-teknolojileri)
+- [ ] FATİH Projesi: hedefler, uygulama ve değerlendirme araştırmaları (egitim-teknolojileri)
+- [ ] EBA ve pandemide acil uzaktan öğretim (egitim-teknolojileri)
+- [ ] Eğitim teknolojilerinde yapay zekâ uygulamaları, meta-analiz kanıtıyla (egitim-teknolojileri)

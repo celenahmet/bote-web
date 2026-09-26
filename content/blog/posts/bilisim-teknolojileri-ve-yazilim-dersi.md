@@ -2,7 +2,6 @@
 title: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
 description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber."
 date: 2026-09-25
-updated: 2026-09-26
 category: bolum-rehberi
 type: politika
 tags: [Bilişim Teknolojileri ve Yazılım, BTY dersi, bilişim öğretmeni, ortaokul, kodlama]

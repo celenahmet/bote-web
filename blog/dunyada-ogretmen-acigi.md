@@ -3,7 +3,7 @@ title: "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?"
 url: https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Yükseköğretim ve Politika
 description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo."
 ---
@@ -12,7 +12,7 @@ description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Ö
 
 > UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/dunyada-ogretmen-acigi
 
 ## Kısaca
 

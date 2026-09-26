@@ -24,7 +24,7 @@ const i = list.indexOf(post);
 const newer = list[i - 1];
 const older = list[i + 1];
 const related = [...list.filter((p) => p !== post && p.category.slug === post.category.slug),
-  ...list.filter((p) => p !== post && p.category.slug !== post.category.slug)].slice(0, 3);
+  ...list.filter((p) => p !== post && p.category.slug !== post.category.slug)].slice(0, 4);
 const trail = preview
   ? [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: 'Taslak önizleme', url: '/blog/taslak' }, { name: post.title, url: post.url }]
   : [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: post.category.name, url: post.category.url }, { name: post.title, url: post.url }];
@@ -39,8 +39,15 @@ const middle = html.slice(Math.max(firstH2, 0), cut);
 const ending = html.slice(cut);
 const bodyHeads = post.headings.flatMap((h) => (recap && h === recap ? [recapItem, h] : [h]));
 const tocItems = [...bodyHeads, ...(post.summary.length && !recap ? [recapItem] : []),
-  ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: `Kaynaklar (${post.sources.length})`, depth: 2 },
+  ...(post.faq.length ? [{ id: 'sss', text: 'Sık sorulan sorular', depth: 2 }] : []), { id: 'kaynaklar', text: 'Kaynaklar', depth: 2 },
   { id: 'atif', text: 'Bu yazıya atıf', depth: 2 }];
+// Icindekiler karti: ana bolumler numarali, alt bolumler kendi ana bolumunun altinda (Ahmet 26.09:
+// iki sutunda alt basliklar kopup kayiyordu). Baglanti sirasi tocItems ile ayni kalir (okuma isareti).
+const tocGroups = [];
+for (const h of tocItems) {
+  if (h.depth === 3 && tocGroups.length) tocGroups[tocGroups.length - 1].subs.push(h);
+  else tocGroups.push({ ...h, subs: [] });
+}
 const url = blog.abs(post.url);
 // "Bu yaziya atif" ve "Sitene gom" (APA 7 + BibTeX; tum bicimler tek kaynaktan).
 const cite = citation(post, blog);
@@ -85,9 +92,9 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           <span class="who"><b>{blog.author.name}</b><small>Yazar</small></span>
         </a>
         <span class="m"><Icon name="calendar" size={16} /><time datetime={post.date}>{trDate(post.date)}</time></span>
-        {post.updated !== post.date && <span class="m"><Icon name="refresh-cw" size={16} />güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></span>}
         <span class="m"><Icon name="clock" size={16} />{post.minutes} dk okuma</span>
         {!preview && <ViewCount client:idle slug={post.slug} count icon={icon('eye', { size: 16 })} />}
+        {post.updated !== post.date && <span class="m m-upd"><Icon name="refresh-cw" size={15} />Güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></span>}
       </div>
     </header>
     <div class="post-body">
@@ -100,11 +107,13 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
         <Fragment set:html={intro} />
         <nav class="toc-card" aria-labelledby="icindekiler">
-          <div class="toc-card-head">
-            <h2 id="icindekiler" class="toc-card-title"><Icon name="list" size={16} />İçindekiler</h2>
-            <span class="toc-card-count">{tocItems.length} bölüm</span>
-          </div>
-          <ol>{tocItems.map((h, i) => <li class={h.depth === 3 ? 'sub' : undefined}><a href={`#${h.id}`}><span class="num">{String(i + 1).padStart(2, '0')}</span><span>{h.text}</span></a></li>)}</ol>
+          <h2 id="icindekiler" class="toc-card-title"><Icon name="list" size={17} />İçindekiler</h2>
+          <ol class="toc-groups">{tocGroups.map((g, gi) => (
+            <li class="toc-g">
+              <a href={`#${g.id}`}><span class="num">{gi + 1}</span><span>{g.text}</span></a>
+              {g.subs.length > 0 && <ul>{g.subs.map((s) => <li><a href={`#${s.id}`}><span>{s.text}</span></a></li>)}</ul>}
+            </li>
+          ))}</ol>
         </nav>
         <Fragment set:html={middle} />
         {post.summary.length > 0 && (
@@ -123,7 +132,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
         <section class="bib" id="kaynaklar" aria-labelledby="kaynaklar-baslik">
           <div class="bib-head">
             <div class="bib-title">
-            <h2 id="kaynaklar-baslik">Kaynaklar <span class="bib-count">{post.sources.length}</span></h2>
+            <h2 id="kaynaklar-baslik">Kaynaklar</h2>
             {post.sources.length > 2 && <button type="button" class="bib-less" data-bib-less hidden>Daha az göster</button>}
           </div>
             <details class="bib-settings" data-bib-settings hidden>
@@ -169,7 +178,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
             </details>
           </div>
           <div class="changelog">
-            <h3>Son güncelleme: <time datetime={post.updated}>{trDate(post.updated)}</time></h3>
+            <h3>{post.updated !== post.date ? 'Son güncelleme' : 'Yayın tarihi'}: <time datetime={post.updated}>{trDate(post.updated)}</time></h3>
             {post.changes.length > 0 && (
               <ul>{post.changes.map((c) => <li><time datetime={c.date}>{trDate(c.date)}</time> · <span set:html={renderInline(c.text)} /></li>)}</ul>
             )}
@@ -226,7 +235,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       {related.length > 0 && (
         <section class="related" aria-labelledby="ilgili">
           <h2 id="ilgili">İlgili yazılar</h2>
-          <ol class="rows">{related.map((p) => <li><PostCard post={p} /></li>)}</ol>
+          <ol class="cards">{related.map((p) => <li><PostCard post={p} variant="card" /></li>)}</ol>
         </section>
       )}
     </div>
@@ -299,6 +308,12 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       if (i !== active) {
         for (const set of [links, cardLinks]) { set[active]?.removeAttribute('aria-current'); set[i]?.setAttribute('aria-current', 'true'); }
         active = i;
+        const box = document.querySelector('.side-toc ol');
+        const cur = links[i];
+        if (box && cur && box.scrollHeight > box.clientHeight) {
+          const top = cur.offsetTop - box.offsetTop;
+          if (top < box.scrollTop || top + cur.offsetHeight > box.scrollTop + box.clientHeight) box.scrollTop = Math.max(0, top - box.clientHeight / 3);
+        }
       }
     };
     if (heads.length) { addEventListener('scroll', () => { raf ||= requestAnimationFrame(mark); }, { passive: true }); mark(); }

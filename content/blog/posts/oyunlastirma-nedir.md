@@ -2,7 +2,6 @@
 title: "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları"
 description: "Oyunlaştırma nedir, oyun tabanlı öğrenmeden farkı ne? Puan, rozet ve liderlik tablolarının öğrenmeye etkisini araştırmalar ışığında dengeli biçimde ele alıyoruz."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-teknolojileri
 type: kavram
 tags: [oyunlaştırma, gamification, oyun tabanlı öğrenme, motivasyon, eğitim teknolojisi]

@@ -2,7 +2,6 @@
 title: "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer"
 description: "BÖTE mezunlarının kariyer yolları: MEB öğretmenliği ve 2025'teki yeni atama alanı, AGS, öğretim tasarımı, e-öğrenme, kurumsal eğitim ve yazılım."
 date: 2026-09-25
-updated: 2026-09-26
 category: kariyer
 type: politika
 tags: [BÖTE, kariyer, öğretmen ataması, AGS, öğretim tasarımı, e-öğrenme]

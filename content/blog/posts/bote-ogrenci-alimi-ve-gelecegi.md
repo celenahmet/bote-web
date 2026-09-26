@@ -2,7 +2,6 @@
 title: "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış"
 description: "BÖTE kontenjanları neden azaldı, bölüm kapanıyor mu? Öğretmen arz fazlası, akademisyen görüşleri, pandemi ve 2025'teki yeni atama alanıyla dengeli bir analiz."
 date: 2026-09-25
-updated: 2026-09-26
 category: yuksekogretim
 type: politika
 tags: [BÖTE, kontenjan, YÖK, öğretmen yetiştirme, yükseköğretim politikası]

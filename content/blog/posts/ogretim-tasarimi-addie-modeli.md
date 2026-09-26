@@ -3,7 +3,6 @@ title: "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler"
 citeTitle: "Öğretim tasarımı nedir? ADDIE modeli ve temel ilkeler"
 description: "Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, IPISD'den SAM'e tarihçe, aşamalar, eleştiriler, Türkiye'deki çalışmalar ve açık sorular."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-teknolojileri
 type: kavram
 tags: [öğretim tasarımı, ADDIE, instructional design, IPISD, SAM, hızlı prototipleme, Merrill, yapıcı hizalama]

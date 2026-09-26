@@ -22,7 +22,8 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
           <a class="uc-logo" href={sc.url} {...ext} aria-label="UniConnectly web sitesi">
             {house.logo ? (
               <>
-                <img src={house.logo} alt="UniConnectly" height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+                <img class={house.logoDark ? 'lg-light' : undefined} src={house.logo} alt="UniConnectly" height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />
+                {house.logoDark && <img class="lg-dark" src={house.logoDark} alt="UniConnectly" height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />}
                 <span class="promo-wordmark" hidden>Uni<b>Connectly</b></span>
               </>
             ) : <span class="promo-wordmark">Uni<b>Connectly</b></span>}

@@ -3,7 +3,7 @@ title: "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin"
 url: https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Eğitim Fakültesi
 description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?"
 ---
@@ -12,7 +12,7 @@ description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaç
 
 > Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/ogretim-teknolojileri-dersi
 
 ## Kısaca
 

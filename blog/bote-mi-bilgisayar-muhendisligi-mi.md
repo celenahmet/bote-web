@@ -3,7 +3,7 @@ title: "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi"
 url: https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Bölüm Rehberi
 description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma."
 ---
@@ -12,7 +12,7 @@ description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? 
 
 > BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi
 
 ## Kısaca
 

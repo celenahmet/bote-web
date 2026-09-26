@@ -17,9 +17,12 @@ export default function RecentlyViewed({ posts, current = '' }) {
   return (
     <section className="widget" aria-labelledby="w-recent">
       <h2 className="widget-title" id="w-recent">Son okuduğun yazılar</h2>
-      <ul className="mini plain">
+      <ul className="mini plain mini-thumbs">
         {items.map((p) => (
-          <li key={p.slug}><div><a href={p.url}>{p.title}</a><small>{p.minutes} dk okuma</small></div></li>
+          <li key={p.slug}>
+            {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="120" height="63" loading="lazy" decoding="async" /></a>}
+            <div><a href={p.url}>{p.title}</a><small>{p.minutes} dk okuma</small></div>
+          </li>
         ))}
       </ul>
     </section>

@@ -3,7 +3,7 @@ title: "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri"
 url: https://www.bote.web.tr/blog/iste-standartlari-nedir
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Eğitim Teknolojileri
 description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber."
 ---
@@ -12,7 +12,7 @@ description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim t
 
 > ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://www.bote.web.tr/blog/iste-standartlari-nedir
 
 ## Kısaca
 

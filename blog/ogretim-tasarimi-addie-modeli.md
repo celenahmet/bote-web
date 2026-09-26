@@ -3,7 +3,7 @@ title: "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler"
 url: https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Eğitim Teknolojileri
 description: "Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, IPISD'den SAM'e tarihçe, aşamalar, eleştiriler, Türkiye'deki çalışmalar ve açık sorular."
 ---
@@ -12,7 +12,7 @@ description: "Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, 
 
 > Öğretim tasarımı ve ADDIE modeli nedir? Tanım tartışması, IPISD'den SAM'e tarihçe, aşamalar, eleştiriler, Türkiye'deki çalışmalar ve açık sorular.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 12 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 12 dk okuma · https://www.bote.web.tr/blog/ogretim-tasarimi-addie-modeli
 
 ## Kısaca
 

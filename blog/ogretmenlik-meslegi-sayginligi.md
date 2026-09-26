@@ -3,7 +3,7 @@ title: "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?"
 url: https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 author: BÖTE Editör Ekibi
 published: 2026-09-25
-updated: 2026-09-26
+updated: 2026-09-25
 category: Yükseköğretim ve Politika
 description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar."
 ---
@@ -12,7 +12,7 @@ description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu
 
 > Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-26 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 3 dk okuma · https://www.bote.web.tr/blog/ogretmenlik-meslegi-sayginligi
 
 ## Kısaca
 

@@ -6,8 +6,8 @@ const cats = blog.categories.filter((c) => c.count);
 <footer class="foot">
   <div class="wrap">
     <div class="foot-grid">
-      <section>
-        <h2>BÖTE</h2>
+      <section class="foot-about">
+        <a class="foot-brand" href="/" aria-label="bote.web.tr ana sayfası">bote<b>.web.tr</b></a>
         <p>bote.web.tr, Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan bir bilgi sitesidir. Bölümün programı, mezunların çalışma alanları ve öğretmenliğe giden yol hakkında bilgi sunar.</p>
       </section>
       <section>
@@ -24,13 +24,13 @@ const cats = blog.categories.filter((c) => c.count);
       </section>
       <section>
         <h2>Makineler için</h2>
-        <p class="foot-note">Arama motorları ve yapay zekâ araçları için özet ve beslemeler.</p>
         <ul>
           <li><a href="/blog/feed.xml">RSS beslemesi</a></li>
           <li><a href="/blog/feed.json">JSON Feed</a></li>
-          <li><a href="/llms.txt">llms.txt (yapay zekâ özeti)</a></li>
+          <li><a href="/llms.txt">llms.txt</a></li>
           <li><a href="/sitemap.xml">Site haritası (XML)</a></li>
         </ul>
+        <p class="foot-note">Arama motorları ve yapay zekâ araçları için özet ve beslemeler.</p>
       </section>
     </div>
     <div class="foot-bottom">

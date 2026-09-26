@@ -45,7 +45,7 @@ const cite = citation(post, blog);
   <article class="card">
     <div class="brand"><span><b>BÖTE Blog</b> · Atıf kartı</span><span>{post.category.name}</span></div>
     <h1><a href={cite.url} target="_blank" rel="noopener">{post.title}</a></h1>
-    <p class="meta">{blog.author.name} · Son güncelleme: <time datetime={post.updated}>{trDate(post.updated)}</time> · {post.minutes} dk okuma</p>
+    <p class="meta">{blog.author.name} · {post.updated !== post.date ? 'Son güncelleme' : 'Yayın'}: <time datetime={post.updated}>{trDate(post.updated)}</time> · {post.minutes} dk okuma</p>
     <p class="label">APA 7</p>
     <p class="apa" set:html={cite.apaHtml} />
     <details>

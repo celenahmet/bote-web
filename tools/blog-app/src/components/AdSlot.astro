@@ -15,6 +15,8 @@ const house = (ads.house || []).find((h) => (h.slots || []).includes(slot));
 const external = /^https:\/\//.test(house?.logo || '');
 const logoFile = house?.logo && !external && path.join(ROOT, 'tools/blog-app/public', house.logo.replace(/^\/blog\//, ''));
 const logo = external ? house.logo : logoFile && fs.existsSync(logoFile) ? house.logo : null;
+// koyu tema logosu yalniz tam adres olarak kabul edilir (acik logo da simdilik dis adres)
+const logoDark = logo && /^https:\/\//.test(house?.logoDark || '') ? house.logoDark : null;
 const STORES = {
   appstore: { badge: '/blog/ads/app-store.png', w: 241, icon: 'apple', top: 'Download on the', name: 'App Store', label: "App Store'dan indir" },
   googleplay: { badge: '/blog/ads/google-play.png', w: 269, icon: 'googleplay', top: 'GET IT ON', name: 'Google Play', label: "Google Play'den indir" },
@@ -34,7 +36,8 @@ const STORES = {
       <a class="promo-logo" href={house.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand} web sitesi`}>
         {logo ? (
           <>
-            <img src={logo} alt={house.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+            <img class={logoDark ? 'lg-light' : undefined} src={logo} alt={house.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />
+            {logoDark && <img class="lg-dark" src={logoDark} alt={house.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />}
             <span class="promo-wordmark" hidden>Uni<b>Connectly</b></span>
           </>
         ) : <span class="promo-wordmark">Uni<b>Connectly</b></span>}

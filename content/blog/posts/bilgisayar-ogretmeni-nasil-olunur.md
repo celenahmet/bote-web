@@ -2,7 +2,6 @@
 title: "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası"
 description: "Bilgisayar öğretmeni olmak için hangi bölüm okunur, AGS ve Millî Eğitim Akademisi süreci nasıl işler? 7528 sayılı Kanun sonrası güncel yol haritası."
 date: 2026-09-25
-updated: 2026-09-26
 category: kariyer
 type: rehber
 tags: [bilgisayar öğretmeni, BÖTE, AGS, Millî Eğitim Akademisi, öğretmen ataması]

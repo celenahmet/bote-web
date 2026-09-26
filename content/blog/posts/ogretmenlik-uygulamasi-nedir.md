@@ -2,7 +2,6 @@
 title: "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım"
 description: "Öğretmenlik uygulaması nedir, kaç saat sürer, uygulama öğretmeni ne yapar? Eğitim fakültesi son sınıfındaki staj sürecini MEB yönergesi ve araştırmalarla anlattık."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-fakultesi
 type: politika
 tags: [öğretmenlik uygulaması, staj, uygulama öğretmeni, eğitim fakültesi, öğretmen adayı]

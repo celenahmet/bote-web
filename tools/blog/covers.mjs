@@ -1,11 +1,11 @@
 // Yazi gorselleri; bir kez uretilip content/blog/covers/ altinda saklanir:
 //   <slug>.jpg      1200x630 paylasim gorseli (baslik + kaynak seridi), og:image ve JSON-LD icin
-//   <slug>-art.jpg  1200x400 sayfa gorseli (basliksiz "kaynak takimyildizi"), yazi ve kartlarda
+//   <slug>-art.jpg  1200x400 sayfa gorseli (kategori, anahtar kavramlar ve simge), yazi ve one cikan kartta
 // Yeniden uretmek icin dosyayi silin ya da `npm run build -- --covers` kullanin.
 import fs from 'node:fs';
 import path from 'node:path';
-import crypto from 'node:crypto';
 import { esc } from './util.mjs';
+import { icon } from './icons.mjs';
 
 function findChrome() {
   if (process.env.CHROME_PATH) return process.env.CHROME_PATH;
@@ -18,74 +18,63 @@ function findChrome() {
 }
 
 function fontFaces(fontDir) {
-  const f = (name) => `url("file://${name.startsWith('jetbrains') ? path.join(fontDir, '../../../node_modules/@fontsource-variable/jetbrains-mono/files') : fontDir}/${name}")`;
-  return `@font-face{font-family:B;font-weight:200 800;src:${f('bricolage-grotesque-latin-wght-normal.woff2')};unicode-range:U+0000-00FF,U+0131,U+2000-206F}
-@font-face{font-family:B;font-weight:200 800;src:${f('bricolage-grotesque-latin-ext-wght-normal.woff2')};unicode-range:U+0100-02BA,U+02BD-02C5,U+1E00-1EFF}
-@font-face{font-family:M;font-weight:100 800;src:${f('jetbrains-mono-latin-wght-normal.woff2')};unicode-range:U+0000-00FF,U+0131,U+2000-206F}
-@font-face{font-family:M;font-weight:100 800;src:${f('jetbrains-mono-latin-ext-wght-normal.woff2')};unicode-range:U+0100-02BA,U+02BD-02C5,U+1E00-1EFF}`;
+  const f = (name) => `url("file://${fontDir}/${name}")`;
+  return `@font-face{font-family:I;font-weight:100 900;src:${f('inter-latin-opsz-normal.woff2')};unicode-range:U+0000-00FF,U+0131,U+2000-206F}
+@font-face{font-family:I;font-weight:100 900;src:${f('inter-latin-ext-opsz-normal.woff2')};unicode-range:U+0100-02BA,U+02BD-02C5,U+1E00-1EFF}`;
 }
 
-const BG = `background:radial-gradient(80% 120% at 100% 0%,rgba(185,161,255,.28),transparent 55%),radial-gradient(70% 110% at 0% 100%,rgba(255,126,173,.30),transparent 55%),#140E1F`;
+// Kategoriye ozgu renk (Ahmet 26.09: gorseller yenilensin; monospace yok, ad bote.web.tr).
+// Duz koyu zemin + ince nokta deseni; parilti ve dekoratif gecis yok.
+const PAL = {
+  'egitim-bilimleri': { bg: '#1C1433', ink: '#F3EEFF', accent: '#B9A1FF', soft: '#2B2149' },
+  'egitim-teknolojileri': { bg: '#0E2A2B', ink: '#EAFBF7', accent: '#5ED3BE', soft: '#163B3B' },
+  'bolum-rehberi': { bg: '#131F3A', ink: '#EEF3FF', accent: '#8DB4FF', soft: '#1D2C4F' },
+  kariyer: { bg: '#2A1B0F', ink: '#FFF4E8', accent: '#F2B266', soft: '#3B2817' },
+  yuksekogretim: { bg: '#2B1020', ink: '#FFEFF5', accent: '#FF8DB8', soft: '#3E1831' },
+  'egitim-fakultesi': { bg: '#11261B', ink: '#EEFBF1', accent: '#8DD6A0', soft: '#1A3627' },
+  'uluslararasi-egitim': { bg: '#0D2233', ink: '#EAF6FF', accent: '#72C6F2', soft: '#163248' },
+  _: { bg: '#1A1426', ink: '#F1ECF8', accent: '#FF7EAD', soft: '#281E38' },
+};
+const pal = (cat) => PAL[cat] || PAL._;
+const zemin = (c) => `background-color:${c.bg};background-image:radial-gradient(rgba(255,255,255,.07) 1.1px,transparent 1.4px);background-size:24px 24px`;
+const buyukIkon = (name, size, stroke, color) => (name ? icon(name, { size, cls: 'bi' }).replace('stroke-width="2"', `stroke-width="${stroke}"`).replace('stroke="currentColor"', `stroke="${color}"`) : '');
+const kucukIkon = (name, size, color) => (name ? icon(name, { size, cls: 'ki' }).replace('stroke="currentColor"', `stroke="${color}"`) : '');
 
-// Yaziya ozgu, tekrarlanabilir yerlesim (slug'dan turetilen sozde rastgele sayilar)
-function rng(seed) {
-  let h = crypto.createHash('sha256').update(seed).digest();
-  let i = 0;
-  return () => {
-    if (i >= h.length - 4) { h = crypto.createHash('sha256').update(h).digest(); i = 0; }
-    const v = h.readUInt32BE(i) / 0xffffffff;
-    i += 4;
-    return v;
-  };
-}
-
-function constellation({ slug, langs, w, h, cx, cy, spread }) {
-  const r = rng(slug);
-  const nodes = langs.map((lang, i) => {
-    const a = (i / langs.length) * Math.PI * 2 + r() * 0.6;
-    const d = spread * (0.55 + r() * 0.45);
-    return { x: cx + Math.cos(a) * d * 1.9, y: cy + Math.sin(a) * d, lang, n: i + 1 };
-  }).map((p) => ({ ...p, x: Math.max(40, Math.min(w - 40, p.x)), y: Math.max(36, Math.min(h - 36, p.y)) }));
-  const dust = Array.from({ length: 70 }, () => ({ x: r() * w, y: r() * h, s: 0.6 + r() * 1.6, o: 0.15 + r() * 0.35 }));
-  const color = (l) => (l === 'tr' ? '#F2B266' : '#5ED3BE');
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0">
-  ${dust.map((d) => `<circle cx="${d.x.toFixed(1)}" cy="${d.y.toFixed(1)}" r="${d.s.toFixed(2)}" fill="#fff" opacity="${d.o.toFixed(2)}"/>`).join('')}
-  ${nodes.map((p) => `<line x1="${cx}" y1="${cy}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="${color(p.lang)}" stroke-opacity=".45" stroke-width="1.2"/>`).join('')}
-  <circle cx="${cx}" cy="${cy}" r="30" fill="none" stroke="#FF7EAD" stroke-opacity=".35" stroke-width="10"/>
-  <circle cx="${cx}" cy="${cy}" r="11" fill="#FF7EAD"/>
-  ${nodes.map((p) => `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="7" fill="${color(p.lang)}"/>`).join('')}
-</svg>`;
-}
-
-function ogHtml({ title, label, langs, fontDir }) {
-  const size = title.length > 70 ? 56 : title.length > 45 ? 64 : 72;
+function ogHtml({ title, label, cat, iconName, fontDir }) {
+  const c = pal(cat);
+  const size = title.length > 70 ? 54 : title.length > 45 ? 62 : 70;
   return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>${fontFaces(fontDir)}
   *{margin:0;box-sizing:border-box}
-  body{width:1200px;height:630px;${BG};color:#F1ECF8;font-family:B,sans-serif;overflow:hidden;position:relative}
-  .in{position:absolute;inset:72px 80px 64px;display:flex;flex-direction:column}
-  .k{font:600 22px M,monospace;letter-spacing:.08em;text-transform:uppercase;color:#FF7EAD}
-  h1{font-weight:750;font-size:${size}px;line-height:1.06;letter-spacing:-.03em;margin-top:26px;max-width:1000px}
-  .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
-  .brand{font:800 34px B;letter-spacing:-.02em}.brand b{color:#FF7EAD}.brand i{font:500 20px M;font-style:normal;color:#A197B5;margin-left:8px}
-  .strip{display:flex;gap:8px;align-items:center;font:600 16px M}
-  .strip .c{color:#A197B5;margin-right:6px;font-weight:500}
-  .b{border:2px solid currentColor;border-radius:8px;padding:4px 7px}.b.en{color:#5ED3BE}.b.tr{color:#F2B266}
-  </style></head><body><div class="in">
-  <div class="k">${esc(label)}</div><h1>${esc(title)}</h1>
-  <div class="foot"><div class="brand">BÖTE<b>.</b><i>blog</i></div>
-  <div class="strip"><span class="c">bote.web.tr/blog</span></div></div>
+  body{width:1200px;height:630px;${zemin(c)};color:${c.ink};font-family:I,sans-serif;overflow:hidden;position:relative}
+  .bi{position:absolute;right:-70px;bottom:-90px;opacity:.16}
+  .in{position:absolute;inset:66px 76px 60px;display:flex;flex-direction:column}
+  .k{display:inline-flex;align-items:center;gap:12px;align-self:flex-start;padding:10px 18px;border-radius:999px;background:${c.soft};color:${c.accent};font:650 22px I}
+  h1{font-weight:800;font-size:${size}px;line-height:1.1;letter-spacing:-.035em;margin-top:34px;max-width:900px}
+  .foot{margin-top:auto;font:800 30px I;letter-spacing:-.03em}.foot b{color:${c.accent};font-weight:700}
+  </style></head><body>${buyukIkon(iconName, 440, 1.1, c.accent)}<div class="in">
+  <div class="k">${kucukIkon(iconName, 24, c.accent)}${esc(label)}</div><h1>${esc(title)}</h1>
+  <div class="foot">bote<b>.web.tr</b></div>
   </div></body></html>`;
 }
 
-function artHtml({ slug, label, langs, fontDir }) {
-  const w = 1200, h = 400;
-  const all = langs.length ? langs : ['en', 'en', 'tr', 'en', 'tr', 'en'];
+// Yazi sayfasi gorseli (1200x400): baslik sayfada zaten var; gorselde kategori ve yazinin
+// anahtar kavramlari (etiketler) yer alir, sagda kategori simgesi.
+function artHtml({ label, cat, iconName, tags = [], fontDir }) {
+  const c = pal(cat);
+  const kav = tags.filter((x) => !/^(AGS|KPSS)$/i.test(x)).slice(0, 5);
   return `<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>${fontFaces(fontDir)}
-  *{margin:0}body{width:${w}px;height:${h}px;${BG};overflow:hidden;position:relative;font-family:M,monospace}
-  .k{position:absolute;left:44px;top:36px;font:600 15px M;letter-spacing:.1em;text-transform:uppercase;color:#FF7EAD}
-  .u{position:absolute;left:44px;bottom:32px;font:500 14px M;color:#A197B5}
-  </style></head><body>${constellation({ slug, langs: all, w, h, cx: w * 0.62, cy: h * 0.52, spread: 150 })}
-  <div class="k">${esc(label)}</div><div class="u">bote.web.tr/blog</div></body></html>`;
+  *{margin:0;box-sizing:border-box}
+  body{width:1200px;height:400px;${zemin(c)};color:${c.ink};font-family:I,sans-serif;overflow:hidden;position:relative}
+  .in{position:absolute;left:64px;top:56px;bottom:56px;width:720px;display:flex;flex-direction:column;justify-content:center;gap:26px}
+  .k{display:inline-flex;align-items:center;gap:10px;align-self:flex-start;font:650 21px I;color:${c.accent}}
+  .t{display:flex;flex-wrap:wrap;gap:12px}
+  .t span{padding:11px 20px;border-radius:999px;background:${c.soft};border:1px solid rgba(255,255,255,.08);font:600 22px/1.2 I;letter-spacing:-.01em}
+  .halka{position:absolute;right:120px;top:50%;width:250px;height:250px;margin-top:-125px;border-radius:50%;background:${c.soft};display:grid;place-items:center;box-shadow:0 0 0 26px rgba(255,255,255,.03),0 0 0 52px rgba(255,255,255,.02)}
+  </style></head><body>
+  <div class="in"><div class="k">${kucukIkon(iconName, 22, c.accent)}${esc(label)}</div>
+  <div class="t">${kav.map((x) => `<span>${esc(x)}</span>`).join('')}</div></div>
+  <div class="halka">${buyukIkon(iconName, 132, 1.4, c.accent)}</div>
+  </body></html>`;
 }
 
 // items: [{ slug, title, label, langs }]

@@ -2,7 +2,6 @@
 title: "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi"
 description: "Eğitim fakülteleri nasıl çalışır, öğretmen nasıl yetişir? 1982'den Millî Eğitim Akademisi'ne tarihçe, program yapısı, 2025 değişiklikleri ve dünyayla karşılaştırma."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-fakultesi
 type: politika
 tags: [eğitim fakültesi, öğretmen yetiştirme, Millî Eğitim Akademisi, AGS, pedagojik formasyon]

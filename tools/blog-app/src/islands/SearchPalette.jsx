@@ -24,8 +24,13 @@ export default function SearchPalette() {
         open();
       }
     };
+    // Sayfadaki arama kutulari (data-open-search) de paleti acar (liste sayfasi karsilama alani).
+    const onClick = (e) => {
+      if (e.target.closest?.('[data-open-search]')) { e.preventDefault(); open(); }
+    };
     window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
+    document.addEventListener('click', onClick);
+    return () => { window.removeEventListener('keydown', onKey); document.removeEventListener('click', onClick); };
   });
 
   const hits = useMemo(() => {
@@ -46,9 +51,9 @@ export default function SearchPalette() {
 
   return (
     <>
-      <button type="button" className="icon-btn" onClick={open} aria-label="Blogda ara" aria-haspopup="dialog">
+      <button type="button" className="icon-btn top-search" onClick={open} aria-label="Blogda ara" aria-haspopup="dialog">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m20 20-4.2-4.2" /></svg>
-        <span className="search-label">Ara</span>
+        <span className="search-label">Blogda ara</span>
         <span className="kbd" aria-hidden="true">⌘K</span>
       </button>
       <dialog ref={dialog} className="palette" aria-label="Blogda ara" onClick={(e) => e.target === dialog.current && dialog.current.close()}>

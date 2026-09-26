@@ -2,7 +2,6 @@
 title: "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım"
 description: "Öğrenme yönetim sistemi (LMS) nedir, ne işe yarar ve nasıl seçilir? Temel özellikler, LTI standardı, açık kaynak seçenekler ve iyi bir çevrim içi ders için ipuçları."
 date: 2026-09-25
-updated: 2026-09-26
 category: egitim-teknolojileri
 type: kavram
 tags: [öğrenme yönetim sistemi, LMS, Moodle, uzaktan eğitim, e-öğrenme]
