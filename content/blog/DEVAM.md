@@ -67,7 +67,8 @@ Google IndexNow kullanmaz: sitemap.xml robots.txt'te; Search Console'da https://
 6. Taranmış PDF'ler macOS Vision ile okunur (PDFKit metin katmanı boşsa OCR).
 
 ### Durum (26.09 akşam)
-- Kuram yazıları 1-13 yayında (YOL_HARITASI.md > İlerleme). Kalan: 14 Güdülenme, 15 Freud-Marcia-Selman.
+- Kuram yazıları 1-14 yayında (YOL_HARITASI.md > İlerleme). Kalan: 15 Freud-Marcia-Selman.
+- SEO (Ahmet 27.09): yazılar arama odaklı; başlıkta ve ilk paragrafta aranan ifade, SSS arama sorularından. Her push sonrası `node tools/indexnow.mjs`.
 - **Tasarım elden geçirme başladı (Ahmet 26.09):** ad bote.web.tr; monospace yazı tipi hiçbir yerde
   yok; yazı tipi değişimi; ferahlık; koyu temada opak üst menü; içindekiler kutusu dengesi ve
   "Kaynaklar (n)" sayısının kaldırılması; yan paneldeki listeler görselli; kapak görselleri yeniden.
