@@ -131,7 +131,7 @@ sources:
     note: "Trakya Üniversitesi'ne 2017'de kayıt yaptıran 983 öğrenci ve 26 öğrenciyle odak grup; sosyoekonomik durumun yükseköğretim öncesi eğitimin niteliğini, hazırlık sürecini ve yükseköğretim kararlarını etkilemesi; aile eğitimi, meslek ve geliriyle öğrenim görülen alan arasındaki ilişki. Dergi sayfasındaki özetten; İngilizce başlık 'Socio-economic status and school types as the determinants of access to higher education'."
 ---
 
-PISA 2022 sonuçları açıklandığında Türkiye'de iki ayrı başlık öne çıktı: "Türkiye sıralamada yükseldi" ve "Türkiye hâlâ OECD ortalamasının altında". İkisi de doğrudur, ama tek başına ikisi de yanıltıcıdır. Bu yazı, Millî Eğitim Bakanlığı'nın PISA 2022 Türkiye Raporu ile OECD'nin Türkiye ülke notu ve ana raporundan PISA 2022 Türkiye sonuçlarını ayrıntılı olarak derliyor: puanlar ve sıralamalar, 2003'ten bu yana puan serisi, yeterlik düzeyleri, okul türü, sosyoekonomik durum ve cinsiyete göre farklar, okul yaşamı ve bu sonuçları okurken en sık yapılan hatalar.
+PISA 2022 sonuçları açıklandığında Türkiye'de iki ayrı başlık öne çıktı: "Türkiye sıralamada yükseldi" ve "Türkiye hâlâ OECD ortalamasının altında". İkisi de doğrudur, ama tek başına ikisi de yanıltıcıdır. Bu yazı, Millî Eğitim Bakanlığı'nın PISA 2022 Türkiye Raporu ile OECD'nin Türkiye ülke notu ve ana raporundan PISA 2022 Türkiye sonuçlarını ayrıntılı olarak derliyor: puanlar ve sıralamalar, 2003'ten bu yana puan serisi, yeterlik düzeyleri, okul türü, sosyoekonomik durum ve cinsiyete göre farklar, okul yaşamı ve bu sonuçları okurken en sık yapılan hatalar. PISA'nın ne olduğu, örneklemin nasıl seçildiği ve puanların nasıl hesaplandığı için [PISA nedir?](/blog/pisa-nedir) yazısına bakabilirsiniz.
 
 ## PISA 2022'de Türkiye: puanlar ve sıralama
 

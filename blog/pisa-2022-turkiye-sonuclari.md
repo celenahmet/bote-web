@@ -22,7 +22,7 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-27 · Güncelleme: 2026-09-27 · 1
 - Matematik puanlarındaki farkın **yüzde 55**'i okullar arasında (OECD'de yüzde 32). Ortalama puan fen liselerinde 598, mesleki ve teknik Anadolu liselerinde 395.
 - PISA örneklemi 2003'te Türkiye'deki 15 yaş nüfusunun **yüzde 36**'sını, 2022'de **yüzde 74**'ünü temsil ediyordu. Yirmi yıllık seriyi okurken bu kapsam genişlemesi hesaba katılmalı.
 
-PISA 2022 sonuçları açıklandığında Türkiye'de iki ayrı başlık öne çıktı: "Türkiye sıralamada yükseldi" ve "Türkiye hâlâ OECD ortalamasının altında". İkisi de doğrudur, ama tek başına ikisi de yanıltıcıdır. Bu yazı, Millî Eğitim Bakanlığı'nın PISA 2022 Türkiye Raporu ile OECD'nin Türkiye ülke notu ve ana raporundan PISA 2022 Türkiye sonuçlarını ayrıntılı olarak derliyor: puanlar ve sıralamalar, 2003'ten bu yana puan serisi, yeterlik düzeyleri, okul türü, sosyoekonomik durum ve cinsiyete göre farklar, okul yaşamı ve bu sonuçları okurken en sık yapılan hatalar.
+PISA 2022 sonuçları açıklandığında Türkiye'de iki ayrı başlık öne çıktı: "Türkiye sıralamada yükseldi" ve "Türkiye hâlâ OECD ortalamasının altında". İkisi de doğrudur, ama tek başına ikisi de yanıltıcıdır. Bu yazı, Millî Eğitim Bakanlığı'nın PISA 2022 Türkiye Raporu ile OECD'nin Türkiye ülke notu ve ana raporundan PISA 2022 Türkiye sonuçlarını ayrıntılı olarak derliyor: puanlar ve sıralamalar, 2003'ten bu yana puan serisi, yeterlik düzeyleri, okul türü, sosyoekonomik durum ve cinsiyete göre farklar, okul yaşamı ve bu sonuçları okurken en sık yapılan hatalar. PISA'nın ne olduğu, örneklemin nasıl seçildiği ve puanların nasıl hesaplandığı için [PISA nedir?](https://bote.web.tr/blog/pisa-nedir) yazısına bakabilirsiniz.
 
 ## PISA 2022'de Türkiye: puanlar ve sıralama
 

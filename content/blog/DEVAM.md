@@ -87,8 +87,9 @@ ED097127'den. Selman'ın 1980 kitabı açılamadı; aşama adları ve yaşlar bu
 Doğrudan alıntı yerine aktarma kullanıldı (ERIC belgelerinde özgün sayfa numarası belirsiz).
 
 ### Yapılacaklar: özel yazılar (Ahmet 26.09, kuramlardan sonra)
+Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, ilk H2 ve ilk SSS "X Nedir?" kalıbını içerir (OECD Nedir?, TALIS Nedir?, FATİH Projesi Nedir?, EBA Nedir?); adres mümkünse x-nedir.
 - [x] PISA 2022 Türkiye sonuçları (27.09, pisa-2022-turkiye-sonuclari; MEB 2022 raporu, OECD ülke notu ve Cilt I tam metinleri; kapsam oranı CI3 Tablo I.A2.2)
-- [ ] PISA nasıl ölçer? Örnekleme, olası değerler ve yanlış okumalar (uluslararasi-egitim)
+- [x] PISA nedir? (27.09, pisa-nedir; OECD PISA 2022 Teknik Raporu ve Cilt I tam metinleri; Ahmet: başlıkta "X nedir?" kalıbı)
 - [ ] OECD Education at a Glance: Türkiye göstergeleri (uluslararasi-egitim)
 - [ ] TALIS: öğretmenlerin çalışma koşulları ve mesleki gelişim, Türkiye verisi (uluslararasi-egitim)
 - [ ] Ülkeler arası karşılaştırmalı öğretmen yetiştirme (uluslararasi-egitim)
