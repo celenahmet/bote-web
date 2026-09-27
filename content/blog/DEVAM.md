@@ -96,5 +96,5 @@ Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, 
 - [ ] Ülkeler arası karşılaştırmalı öğretmen yetiştirme (uluslararasi-egitim)
 - [ ] BTE Derneği ve Türkiye'de eğitim teknolojisi alanının kurumsallaşması: kongreler, dergiler (egitim-teknolojileri)
 - [x] FATİH Projesi Nedir? (27.09, fatih-projesi-nedir; YEĞİTEK 2015 ve 2018 raporları, MEB 2022, Sayıştay 2020 raporu, Demir 2024 derlemesi)
-- [ ] EBA ve pandemide acil uzaktan öğretim (egitim-teknolojileri)
+- [x] EBA Nedir? (27.09, eba-nedir; YEĞİTEK 2020 ve 2021 sayıları, MEB haberleri, PISA ve TALIS notları)
 - [ ] Eğitim teknolojilerinde yapay zekâ uygulamaları, meta-analiz kanıtıyla (egitim-teknolojileri)

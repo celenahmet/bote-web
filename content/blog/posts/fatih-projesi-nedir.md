@@ -197,7 +197,7 @@ Projenin beş bileşeni vardır:[@meb2015algi]
 4. Derslerde bilişim teknolojisi kullanımı için öğretmenlerin hizmet içi eğitimi
 5. Bilinçli, güvenli, yönetilebilir ve ölçülebilir bilişim teknolojisi kullanımı
 
-Donanım bileşeninin hedefleri iddialıydı: her dersliğe bir etkileşimli tahta ve kablolu ağ, her okula çok amaçlı yazıcı ve geniş bant internet, 5. sınıftan 12. sınıfa kadar her öğrenciye ve her öğretmene tablet bilgisayar. Öğretmenlerin kendi e-içeriklerini hazırlayabilmeleri için bir içerik geliştirme platformu da hedefler arasındaydı.[@meb2015algi] Eğitim Bilişim Ağı (EBA), bu hedeflerin e-içerik ayağı olarak kuruldu: YEĞİTEK'in yayımladığı 2018 raporuna göre EBA, etkileşimli tahtalarla uyumlu eğitim içeriklerini elektronik ortamda sunmak ve bilgiye erişimi kolaylaştırmak amacıyla hayata geçirildi.[@coban2018]
+Donanım bileşeninin hedefleri iddialıydı: her dersliğe bir etkileşimli tahta ve kablolu ağ, her okula çok amaçlı yazıcı ve geniş bant internet, 5. sınıftan 12. sınıfa kadar her öğrenciye ve her öğretmene tablet bilgisayar. Öğretmenlerin kendi e-içeriklerini hazırlayabilmeleri için bir içerik geliştirme platformu da hedefler arasındaydı.[@meb2015algi] Eğitim Bilişim Ağı (EBA), bu hedeflerin e-içerik ayağı olarak kuruldu: YEĞİTEK'in yayımladığı 2018 raporuna göre EBA, etkileşimli tahtalarla uyumlu eğitim içeriklerini elektronik ortamda sunmak ve bilgiye erişimi kolaylaştırmak amacıyla hayata geçirildi.[@coban2018] EBA'nın salgın dönemindeki rolü için [EBA nedir?](/blog/eba-nedir) yazısına bakabilirsiniz.
 
 ## FATİH Projesi nasıl uygulandı?
 
