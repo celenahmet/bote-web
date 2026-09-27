@@ -126,7 +126,7 @@ Bu tablo, çerçevenin bir "not" değil, bir **gelişim yolu** sunduğunu göste
 
 ## DigComp 2.2 ile ilişkisi
 
-DigCompEdu'nun altıncı alanı, vatandaşlar için hazırlanan **DigComp** çerçevesine dayanır. Güncel sürüm DigComp 2.2, dijital yetkinliği beş alanda tanımlar: bilgi ve veri okuryazarlığı, iletişim ve iş birliği, dijital içerik üretimi, güvenlik ve problem çözme.[@digcomp22] Başka bir deyişle DigComp öğrencinin neyi öğrenmesi gerektiğini, DigCompEdu ise öğretmenin bunu nasıl destekleyeceğini tanımlar.
+DigCompEdu'nun altıncı alanı, vatandaşlar için hazırlanan **DigComp** çerçevesine dayanır. Güncel sürüm DigComp 2.2, dijital yetkinliği beş alanda tanımlar: bilgi ve veri okuryazarlığı, iletişim ve iş birliği, dijital içerik üretimi, güvenlik ve problem çözme.[@digcomp22] Başka bir deyişle DigComp öğrencinin neyi öğrenmesi gerektiğini, DigCompEdu ise öğretmenin bunu nasıl destekleyeceğini tanımlar. Öğrencilerin dijital okuryazarlığının boyutları ve Maarif Modeli'ndeki karşılığı için [Dijital okuryazarlık nedir?](/blog/dijital-okuryazarlik-nedir) yazısına bakabilirsiniz.
 
 ## Kendinizi nasıl değerlendirebilirsiniz?
 

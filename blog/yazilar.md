@@ -44,6 +44,7 @@
 
 ## Eğitim Teknolojileri
 
+- [Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri](https://bote.web.tr/blog/dijital-okuryazarlik-nedir.md): Dijital okuryazarlık nedir? Tanımı, beş boyutu, DigComp 2.2, Maarif Modeli'ndeki dokuz beceri, Türkiye araştırmaları ve dijital yerli tartışması. (2026-09-27)
 - [EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim](https://bote.web.tr/blog/eba-nedir.md): EBA nedir? Eğitim Bilişim Ağı'nın FATİH'teki yeri, salgında EBA ve EBA TV ile uzaktan eğitim: resmî rakamlar, erişim desteği, araştırma bulguları ve dersler. (2026-09-27)
 - [Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı](https://bote.web.tr/blog/egitim-teknolojisi-nedir.md): Eğitim teknolojisi nedir? AECT tanımı, alanın 1923'ten bugüne tarihi, öğretim teknolojisinden farkı, araştırma bulguları, eleştiriler ve Türkiye'de BÖTE. (2026-09-27)
 - [FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları](https://bote.web.tr/blog/fatih-projesi-nedir.md): FATİH Projesi nedir? 2010'da başlayan projenin 5 bileşeni, tablet ve etkileşimli tahta sayıları, Sayıştay bulguları, araştırmaların sonuçları ve eleştiriler. (2026-09-27)

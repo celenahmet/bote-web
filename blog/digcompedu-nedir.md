@@ -12,7 +12,7 @@ description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den
 
 > DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/digcompedu-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/digcompedu-nedir
 
 ## Özet
 
@@ -80,7 +80,7 @@ Bu tablo, çerçevenin bir "not" değil, bir **gelişim yolu** sunduğunu göste
 
 ## DigComp 2.2 ile ilişkisi
 
-DigCompEdu'nun altıncı alanı, vatandaşlar için hazırlanan **DigComp** çerçevesine dayanır. Güncel sürüm DigComp 2.2, dijital yetkinliği beş alanda tanımlar: bilgi ve veri okuryazarlığı, iletişim ve iş birliği, dijital içerik üretimi, güvenlik ve problem çözme.[2] Başka bir deyişle DigComp öğrencinin neyi öğrenmesi gerektiğini, DigCompEdu ise öğretmenin bunu nasıl destekleyeceğini tanımlar.
+DigCompEdu'nun altıncı alanı, vatandaşlar için hazırlanan **DigComp** çerçevesine dayanır. Güncel sürüm DigComp 2.2, dijital yetkinliği beş alanda tanımlar: bilgi ve veri okuryazarlığı, iletişim ve iş birliği, dijital içerik üretimi, güvenlik ve problem çözme.[2] Başka bir deyişle DigComp öğrencinin neyi öğrenmesi gerektiğini, DigCompEdu ise öğretmenin bunu nasıl destekleyeceğini tanımlar. Öğrencilerin dijital okuryazarlığının boyutları ve Maarif Modeli'ndeki karşılığı için [Dijital okuryazarlık nedir?](https://bote.web.tr/blog/dijital-okuryazarlik-nedir) yazısına bakabilirsiniz.
 
 ## Kendinizi nasıl değerlendirebilirsiniz?
 
