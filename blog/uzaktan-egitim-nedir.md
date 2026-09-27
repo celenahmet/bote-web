@@ -12,7 +12,7 @@ description: "Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'
 
 > Uzaktan eğitim nedir, çevrim içi öğrenmeden farkı ne? Moore'un etkileşim türleri, araştırma topluluğu modeli ve Türkiye'de açıköğretimin gelişimi.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/uzaktan-egitim-nedir
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/uzaktan-egitim-nedir
 
 ## Özet
 
@@ -37,7 +37,7 @@ Uzaktan eğitimi anlamanın en pratik yolu, öğrenme etkinliklerinin zamanlamas
 | Eşzamansız | Öğrenciler içerik ve etkinliklere kendi zamanlarında erişir | Esneklik, düşünerek yanıt verme | Yalnızlık hissi, öz düzenleme gerektirir |
 | Harmanlanmış | Yüz yüze ve çevrim içi etkinlikler birlikte planlanır | İki biçimin güçlü yanlarını birleştirme | Dikkatli tasarım ve planlama gerektirir |
 
-Bu ayrım, "uzaktan eğitim" başlığı altında birbirinden çok farklı deneyimlerin bulunduğunu gösteriyor. Canlı derslerden oluşan bir program ile kendi hızında ilerlenen bir program aynı sonuçları vermez.
+Bu ayrım, "uzaktan eğitim" başlığı altında birbirinden çok farklı deneyimlerin bulunduğunu gösteriyor. Canlı derslerden oluşan bir program ile kendi hızında ilerlenen bir program aynı sonuçları vermez. Harmanlanmış öğrenmenin yaygın bir biçimi olan, anlatımı dersten önceye ve uygulamayı sınıfa taşıyan model için [Ters yüz sınıf nedir?](https://bote.web.tr/blog/ters-yuz-sinif-nedir) yazısına bakabilirsiniz.
 
 ## Moore'un üç etkileşim türü
 

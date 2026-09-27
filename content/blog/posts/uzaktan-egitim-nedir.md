@@ -94,7 +94,7 @@ Uzaktan eğitimi anlamanın en pratik yolu, öğrenme etkinliklerinin zamanlamas
 | Eşzamansız | Öğrenciler içerik ve etkinliklere kendi zamanlarında erişir | Esneklik, düşünerek yanıt verme | Yalnızlık hissi, öz düzenleme gerektirir |
 | Harmanlanmış | Yüz yüze ve çevrim içi etkinlikler birlikte planlanır | İki biçimin güçlü yanlarını birleştirme | Dikkatli tasarım ve planlama gerektirir |
 
-Bu ayrım, "uzaktan eğitim" başlığı altında birbirinden çok farklı deneyimlerin bulunduğunu gösteriyor. Canlı derslerden oluşan bir program ile kendi hızında ilerlenen bir program aynı sonuçları vermez.
+Bu ayrım, "uzaktan eğitim" başlığı altında birbirinden çok farklı deneyimlerin bulunduğunu gösteriyor. Canlı derslerden oluşan bir program ile kendi hızında ilerlenen bir program aynı sonuçları vermez. Harmanlanmış öğrenmenin yaygın bir biçimi olan, anlatımı dersten önceye ve uygulamayı sınıfa taşıyan model için [Ters yüz sınıf nedir?](/blog/ters-yuz-sinif-nedir) yazısına bakabilirsiniz.
 
 ## Moore'un üç etkileşim türü
 
