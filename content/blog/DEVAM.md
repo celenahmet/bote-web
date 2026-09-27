@@ -100,3 +100,28 @@ Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, 
 - [x] FATİH Projesi Nedir? (27.09, fatih-projesi-nedir; YEĞİTEK 2015 ve 2018 raporları, MEB 2022, Sayıştay 2020 raporu, Demir 2024 derlemesi)
 - [x] EBA Nedir? (27.09, eba-nedir; YEĞİTEK 2020 ve 2021 sayıları, MEB haberleri, PISA ve TALIS notları)
 - [ ] Eğitim teknolojilerinde yapay zekâ uygulamaları, meta-analiz kanıtıyla (egitim-teknolojileri)
+
+## 27.09.2026 SEO turu
+- **Lighthouse ölçümü ölüydü:** `tools/lighthouse.mjs` sitemap'te `www.` arıyordu; www'suz
+  geçişten beri 0 sayfa ölçüp "temiz" diyordu. Düzeltildi, boş ölçüm artık hata. Tam tarama:
+  98 sayfanın hepsi SEO 100.
+- **Erişilebilirlik:** Popüler/Yeni sekmesindeki `<ol role="tabpanel">` 56 yazıda `listitem`
+  hatası veriyordu; rol sarmalayıcı `div`'e taşındı. KALANLAR (statik ana site sayfaları):
+  marka pembesi `#f24080` beyazda 3,6 kontrast (eşik 4,5; renk kararı Ahmet'te), kenar
+  çubuğunda `h5` başlık sırası, /en/faq akordeonunda yanlış tablist/tab rolleri, site
+  haritası bağlantılarında hedef boyutu, /en/about ve /en/site-map'te konsol ağ hatası.
+- **www yönlendirmesi 307 (geçici).** Vercel > bote-web > Settings > Domains >
+  www.bote.web.tr > Redirect: 308 Permanent seçilmeli (Ahmet; ajan Vercel kimlik bilgisi okumaz).
+- **Arama ölçümü (Google otomatik tamamlama, 27.09):** sayı = "X nedir" varyantı adedi.
+  Dijital okuryazarlık 10 · mikro öğretim 9 (AGS/KPSS ile) · kodlama eğitimi 8 · STEM eğitimi 7 ·
+  ters yüz sınıf 4 · proje tabanlı öğrenme 4 · harmanlanmış öğrenme 3 · ölçme ve değerlendirme
+  (10, eğitim bilimleri) · eğitim teknolojisi (+"öğretim teknolojisi farkı") · Dale'in yaşantı
+  konisi · web 2.0 araçları · yapay zekâ okuryazarlığı (UNESCO) · SAMR · ASSURE.
+  Bölüm aramaları: "böte açılımı/taban puanları/sıralama/ders programı", "bilişim teknolojileri
+  öğretmenliği atama puanları/AGS/maaş" (resmî veri gerektirir).
+- Ahmet 27.09: **arama odaklı olmayan yazı yazılmaz.**
+- Yayınlanan: egitim-teknolojisi-nedir (15 kaynak, 6 TR hakemli).
+- **Sıra:** dijital-okuryazarlik-nedir → mikro-ogretim-nedir → kodlama-egitimi-nedir →
+  ters-yuz-sinif-nedir → harmanlanmis-ogrenme-nedir → dale-yasanti-konisi → stem-egitimi-nedir →
+  web-2-0-araclari → yapay-zeka-okuryazarligi (egitimde-yapay-zeka yazısını derinleştirme kararıyla
+  birlikte) → samr/assure. EAG 2026: OECD 29.09'da yayımlayınca.
