@@ -36,7 +36,10 @@ export default function PostTabs({ posts, latest, fallback, current = '' }) {
           </button>
         ))}
       </div>
-      <ol id="wt-panel" role="tabpanel" aria-labelledby={`wt-${tab}`} className={`mini mini-thumbs${tab === 'pop' ? ' mini-num' : ' plain'}`}>
+      {/* tabpanel rolu SARMALAYICIDA: <ol>'a verilince liste anlami eziliyor ve her <li>
+          Lighthouse'ta "listitem" hatasi veriyordu (56 yazi, 27.09). */}
+      <div id="wt-panel" role="tabpanel" aria-labelledby={`wt-${tab}`}>
+      <ol className={`mini mini-thumbs${tab === 'pop' ? ' mini-num' : ' plain'}`}>
         {rows.map((p) => (
           <li key={p.slug}>
             {p.img && <a className="mini-img" href={p.url} tabIndex={-1} aria-hidden="true"><img src={p.img} alt="" width="64" height="64" loading="lazy" decoding="async" /></a>}
@@ -49,6 +52,7 @@ export default function PostTabs({ posts, latest, fallback, current = '' }) {
           </li>
         ))}
       </ol>
+      </div>
     </section>
   );
 }

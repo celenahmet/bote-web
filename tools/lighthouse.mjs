@@ -36,7 +36,14 @@ const base = `${tls ? 'https' : 'http'}://${HOST}`;
 let paths = only;
 if (!paths.length) {
   const xml = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
-  paths = [...xml.matchAll(/<loc>https:\/\/www\.bote\.web\.tr([^<]*)<\/loc>/g)].map((m) => m[1] || '/');
+  // www 27.09'dan beri kok adrese yonleniyor; sitemap www'suz. Desen ikisini de
+  // kabul eder. Once yalniz www ariyordu ve 0 sayfa bulup "SEO 100 olmayan: 0"
+  // diye TEMIZ cikiyordu (olcum hic yapilmadan).
+  paths = [...xml.matchAll(/<loc>https:\/\/(?:www\.)?bote\.web\.tr([^<]*)<\/loc>/g)].map((m) => m[1] || '/');
+}
+if (!paths.length) {
+  console.error('Olculecek sayfa bulunamadi (sitemap deseni?). Bos olcum TEMIZ sayilmaz.');
+  process.exit(1);
 }
 
 const chromePath = process.env.CHROME_PATH || ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].find((p) => fs.existsSync(p));
