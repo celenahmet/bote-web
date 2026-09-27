@@ -67,35 +67,22 @@ Google IndexNow kullanmaz: sitemap.xml robots.txt'te; Search Console'da https://
 6. Taranmış PDF'ler macOS Vision ile okunur (PDFKit metin katmanı boşsa OCR).
 
 ### Durum (26.09 akşam)
-- Kuram yazıları 1-14 yayında (YOL_HARITASI.md > İlerleme). Kalan: 15 Freud-Marcia-Selman.
+- Kuram yazıları 1-14 ve 15a Freud yayında (YOL_HARITASI.md > İlerleme). Kalan: 15b Selman.
 - SEO (Ahmet 27.09): yazılar arama odaklı; başlıkta ve ilk paragrafta aranan ifade, SSS arama sorularından. Her push sonrası `node tools/indexnow.mjs`.
 - **Tasarım elden geçirme başladı (Ahmet 26.09):** ad bote.web.tr; monospace yazı tipi hiçbir yerde
   yok; yazı tipi değişimi; ferahlık; koyu temada opak üst menü; içindekiler kutusu dengesi ve
   "Kaynaklar (n)" sayısının kaldırılması; yan paneldeki listeler görselli; kapak görselleri yeniden.
 
-### Sıradaki: Freud (27.09 gece, kaynaklar doğrulandı, yazı başlamadı)
-Kuram 15 SEO için ikiye bölündü: (a) "Freud'un Psikoseksüel Gelişim Kuramı" (b) "Selman'ın Sosyal Bakış Açısı Alma Kuramı".
-Marcia Erikson yazısında işleniyor; Freud yazısında Erikson yazısına iç bağlantı verilir (kaynakçada değil, metinde).
-Doğrulanmış kaynaklar (Freud):
-- Freud, Üç Deneme (Brill çevirisi, Project Gutenberg #14969): pregenital örgütlenmeler oral (yamyamca) ve sadistik-anal;
-  gizil dönem ("total or at least partial latency"), bentler: iğrenme, utanç, ahlaki ve estetik talepler; ergenlikte
-  kısmi dürtülerin genital önceliğe bağlanması "cinsel örgütlenmenin son evresi".
-- Freud, The Ego and the Id (1927 Riviere çevirisi, archive.org freud-1927-id): ego haz ilkesinin yerine gerçeklik
-  ilkesini koymaya çalışır; at ve binici benzetmesi; egonun üç efendisi (dış dünya, id libidosu, süperego sertliği); Oidipus karmaşası.
-- Deutsch ve Krauss, çev. B. Onur, "Psikoseksüel gelişim evreleri", AÜEBFD 19(1) 225-237, 1986, doi 10.1501/Egifak_0000001116
-  (DergiPark künyesindeki "Harold Deutsch" yanlış; metin Morton Deutsch ve Robert M. Krauss). OCR: erotik-oral doğum-8. ay;
-  sadik-anal 8-24 ay; erotik-anal 1-4 yaş; fallik 3-6 yaş; evreler birbirinin üzerine biner; saplanma ve gerileme; örtülü dönem.
-- Westen 1998 Psych Bull 124(3) 333-371 (Freud'un bilimsel mirası: bilinçdışı süreçler vb. destekleniyor; eleştiriler arkaik sürüme yöneliyor).
-- Baumeister, Dale, Sommer 1998 J Personality 66(6) 1081-1124: karşıt tepki, yalıtma, yadsıma iyi destekli; yansıtma var ama
-  yan ürün olabilir; yer değiştirme anlamlı biçimde desteklenmiyor; yüceltmeye kanıt yok.
-- Cramer 2000 Am Psych 55(6) 637-646; Vaillant 1994 J Abn Psych 103(1) 44-50; Andrews, Singh, Bond 1993 JNMD 181(4) 246-256
-  (40 maddelik Savunma Biçimleri Testi; olgunlaşmamış savunma yaşla azalıyor; cinsiyetten bağımsız).
-- Shedler 2010 Am Psych 65(2) 98-109 (psikodinamik terapi etkililiği).
-- Türkçe: Sarı ve Takıl 2023 TEBD 21(1) 540-551 (107 Türkçe öğretmen adayı; yalnız olgun savunma kitap okuma sıklığıyla ilişkili);
-  Sezer, Sapancı, Bayram Kuzgun 2023 AYNA 10(1) 57-82 (583 kişi; çocukluk travması, bağlanma, savunma biçimleri).
-- Popper, "Science: Conjectures and Refutations" (1963): tam metin http://www.dpi.inpe.br/gilberto/cursos/cst-311/popper_conjectures_refutations.pdf
-  ("every conceivable case could be interpreted in the light of Adler's theory, or equally of Freud's"); alıntı açılıp doğrulanmadan yazılmaz.
-Önerilen başlık: "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler" (60 karakteri geçmez; yazmadan önce say).
+### Yayında: Freud (27.09, freud-psikoseksuel-gelisim-kurami)
+20 kaynak, 6 Türkçe hakemli (Deutsch-Krauss çev. Onur 1986; Yılmaz, Gençöz, Ak 2007 Savunma Biçimleri Testi Türkçe formu;
+Sarı ve Takıl 2023; Kaya ve Bozkur 2017; Sezer ve ark. 2023; Deniz ve Yıldız 2018). Popper alıntısı bölümün tam metninden
+doğrulandı; sayfa numarası doğrulanamadığı için doğrudan alıntı yerine aktarma kullanıldı. Deutsch-Onur yılı DergiPark
+"Yayımlandığı Sayı Yıl 1986". Güdülenme yazısının 18 künyesi 27.09'da Crossref ve DergiPark'la yeniden doğrulandı, düzeltme gerekmedi.
+
+### Sıradaki: Selman (15b)
+Önerilen başlık: "Selman'ın Sosyal Bakış Açısı Alma Kuramı" + alt başlık (60 karakteri geçmez; yazmadan önce say).
+Kaynaklar henüz toplanmadı: Selman'ın özgün makaleleri ve kitabı (1971 Child Development, 1980 The Growth of Interpersonal
+Understanding), zihin kuramı ve bakış açısı alma meta-analizleri, Türkçe hakemli en az 3 çalışma (DergiPark).
 
 ### Yapılacaklar: özel yazılar (Ahmet 26.09, kuramlardan sonra)
 - [ ] PISA 2022 Türkiye sonuçları: puanlar, sıralama, eşitlik, zaman serisi (uluslararasi-egitim)

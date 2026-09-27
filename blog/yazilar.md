@@ -57,6 +57,7 @@
 
 ## Eğitim Bilimleri ve Kuramlar
 
+- [Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler](https://bote.web.tr/blog/freud-psikoseksuel-gelisim-kurami.md): Freud'un psikoseksüel gelişim kuramı: oral, anal, fallik, gizil ve genital dönem; id, ego, süperego, savunma mekanizmaları, kanıtlar, eleştiriler ve AGS. (2026-09-27)
 - [Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme](https://bote.web.tr/blog/gudulenme-kuramlari.md): Güdülenme (motivasyon) kuramları: Maslow'un ihtiyaçlar hiyerarşisi, Weiner'in yükleme kuramı, öz belirleme kuramı, ödülün etkisi, meta-analizler ve AGS. (2026-09-27)
 - [Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik](https://bote.web.tr/blog/bandura-sosyal-bilissel-kuram.md): Bobo bebek deneyinin özgün bulguları, gözlem yoluyla öğrenme, karşılıklı belirleyicilik, öz yeterliğin kaynakları, meta-analiz kanıtı, Türkiye verisi ve AGS. (2026-09-26)
 - [Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği](https://bote.web.tr/blog/bilgiyi-isleme-kurami.md): Çok depolu bellek modeli, çalışma belleği, işlem düzeyi, bilişsel yük kuramı, test etkisi ve aralıklı tekrar kanıtı, Türkiye çalışmaları ve AGS'de sık hatalar. (2026-09-26)
