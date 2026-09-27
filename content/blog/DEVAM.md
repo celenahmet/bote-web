@@ -92,7 +92,7 @@ Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, 
 - [x] PISA nedir? (27.09, pisa-nedir; OECD PISA 2022 Teknik Raporu ve Cilt I tam metinleri; Ahmet: başlıkta "X nedir?" kalıbı)
 - [x] OECD Nedir? (27.09, oecd-nedir; Dışişleri ve Daimi Temsilcilik sayfaları, TALIS/PIAAC/EAG belgeleri)
 - [ ] Education at a Glance 2026: Türkiye göstergeleri. EAG 2026 29 Eylül 2026'da yayımlanıyor (odak: öğretmen açığı); ondan önce YAZMA, 2025 verisi iki günde eskir. Başlık: "Education at a Glance Nedir? 2026 Türkiye Göstergeleri" gibi.
-- [ ] TALIS: öğretmenlerin çalışma koşulları ve mesleki gelişim, Türkiye verisi (uluslararasi-egitim)
+- [x] TALIS Nedir? (27.09, talis-nedir; OECD TALIS 2024 raporu ve Türkiye notu, TEDMEM, MEB)
 - [ ] Ülkeler arası karşılaştırmalı öğretmen yetiştirme (uluslararasi-egitim)
 - [ ] BTE Derneği ve Türkiye'de eğitim teknolojisi alanının kurumsallaşması: kongreler, dergiler (egitim-teknolojileri)
 - [ ] FATİH Projesi: hedefler, uygulama ve değerlendirme araştırmaları (egitim-teknolojileri)
