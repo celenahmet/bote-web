@@ -120,7 +120,7 @@ Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, 
   Bölüm aramaları: "böte açılımı/taban puanları/sıralama/ders programı", "bilişim teknolojileri
   öğretmenliği atama puanları/AGS/maaş" (resmî veri gerektirir).
 - Ahmet 27.09: **arama odaklı olmayan yazı yazılmaz.**
-- Yayınlanan (27.09): egitim-teknolojisi-nedir (15 kaynak, 6 TR hakemli) · dijital-okuryazarlik-nedir (15, 5 TR; DigComp 2.2 ve Maarif Modeli OB2 tam metinden) · mikro-ogretim-nedir (12, 4 TR; Remesh ve Çoban tam metinden) · kodlama-egitimi-nedir (12, 5 TR; Scherer 2019/2020 meta-analizleri, Şanlı-Alper tez dağılımı) · ters-yuz-sinif-nedir (12, 4 TR; Strelan, Låg-Sæle, van Alten, Kapur 46 meta-analiz tam metni, FLIP).
-- **Sıra:** harmanlanmis-ogrenme-nedir → dale-yasanti-konisi → stem-egitimi-nedir →
+- Yayınlanan (27.09): egitim-teknolojisi-nedir (15 kaynak, 6 TR hakemli) · dijital-okuryazarlik-nedir (15, 5 TR; DigComp 2.2 ve Maarif Modeli OB2 tam metinden) · mikro-ogretim-nedir (12, 4 TR; Remesh ve Çoban tam metinden) · kodlama-egitimi-nedir (12, 5 TR; Scherer 2019/2020 meta-analizleri, Şanlı-Alper tez dağılımı) · ters-yuz-sinif-nedir (12, 4 TR; Strelan, Låg-Sæle, van Alten, Kapur 46 meta-analiz tam metni, FLIP) · harmanlanmis-ogrenme-nedir (16, 6 TR; Staker-Horn 4 model tam metni, Müller-Mildenberger 2021 tam metni, YÖK usul ve esaslar: güncel oran yüzde 30 AKTS, 14.09.2022; eski yüzde 40 bilgisi GEÇERSİZ).
+- **Sıra:** dale-yasanti-konisi → stem-egitimi-nedir →
   web-2-0-araclari → yapay-zeka-okuryazarligi (egitimde-yapay-zeka yazısını derinleştirme kararıyla
   birlikte) → samr/assure. EAG 2026: OECD 29.09'da yayımlayınca.
