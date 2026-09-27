@@ -34,7 +34,7 @@ Bu tanımda iki nokta öne çıkıyor:
 - **Teknoloji yalnızca cihaz demek değildir.** Tanım "süreç ve kaynaklardan" söz eder. Bir dersin planlanması, öğretim materyalinin tasarlanması ve öğrenmenin değerlendirilmesi de bu kapsamdadır.
 - **Amaç öğrenmedir.** Bilgisayar, yazılım ya da yapay zekâ aracı öğrenmeye hizmet ettiği ölçüde değerlidir.
 
-Türkiye'de alanı tanıtan çalışmalar da benzer bir çerçeve çizer. Çakır, Çebi ve Özcan, BÖTE'yi anlatırken eğitim ve öğretim teknolojisi tanımlarını, öğretim sistemleri tasarımını ve zamanla alanı kapsayacak kadar genişleyen **insan performans teknolojisi** kavramını birlikte ele alır.[3]
+Türkiye'de alanı tanıtan çalışmalar da benzer bir çerçeve çizer. Çakır, Çebi ve Özcan, BÖTE'yi anlatırken eğitim ve öğretim teknolojisi tanımlarını, öğretim sistemleri tasarımını ve zamanla alanı kapsayacak kadar genişleyen **insan performans teknolojisi** kavramını birlikte ele alır.[3] Alanın tanımı, tarihi ve öğretim teknolojisinden farkı için [Eğitim teknolojisi nedir?](https://bote.web.tr/blog/egitim-teknolojisi-nedir) yazısına bakabilirsiniz.
 
 ## BÖTE'nin kısa tarihi
 

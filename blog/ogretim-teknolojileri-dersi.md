@@ -76,7 +76,7 @@ Bu akışın ortak noktası, her haftanın somut bir ürünle bitmesidir. Dönem
 
 ## BÖTE ile ilişkisi
 
-Öğretim Teknolojileri dersi tüm öğretmen adaylarına eğitim teknolojisinin temellerini kazandırır; BÖTE programları ise bu alanda uzmanlaşmış öğretmenler yetiştirir. Bu iki düzey birbirini tamamlar: okullarda BÖTE mezunları, diğer branş öğretmenlerinin teknolojiyi pedagojik amaçlarla kullanmasına destek olabilir. Bölümün bu yönünü [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) rehberimizde anlattık.
+Öğretim Teknolojileri dersi tüm öğretmen adaylarına eğitim teknolojisinin temellerini kazandırır; BÖTE programları ise bu alanda uzmanlaşmış öğretmenler yetiştirir. Bu iki düzey birbirini tamamlar: okullarda BÖTE mezunları, diğer branş öğretmenlerinin teknolojiyi pedagojik amaçlarla kullanmasına destek olabilir. Bölümün bu yönünü [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) rehberimizde anlattık. Alanın tanımı ve tarihi için [Eğitim teknolojisi nedir?](https://bote.web.tr/blog/egitim-teknolojisi-nedir) yazısına bakabilirsiniz.
 
 ## Sonuç
 
