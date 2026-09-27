@@ -90,7 +90,8 @@ Doğrudan alıntı yerine aktarma kullanıldı (ERIC belgelerinde özgün sayfa 
 Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, ilk H2 ve ilk SSS "X Nedir?" kalıbını içerir (OECD Nedir?, TALIS Nedir?, FATİH Projesi Nedir?, EBA Nedir?); adres mümkünse x-nedir.
 - [x] PISA 2022 Türkiye sonuçları (27.09, pisa-2022-turkiye-sonuclari; MEB 2022 raporu, OECD ülke notu ve Cilt I tam metinleri; kapsam oranı CI3 Tablo I.A2.2)
 - [x] PISA nedir? (27.09, pisa-nedir; OECD PISA 2022 Teknik Raporu ve Cilt I tam metinleri; Ahmet: başlıkta "X nedir?" kalıbı)
-- [ ] OECD Education at a Glance: Türkiye göstergeleri (uluslararasi-egitim)
+- [x] OECD Nedir? (27.09, oecd-nedir; Dışişleri ve Daimi Temsilcilik sayfaları, TALIS/PIAAC/EAG belgeleri)
+- [ ] Education at a Glance 2026: Türkiye göstergeleri. EAG 2026 29 Eylül 2026'da yayımlanıyor (odak: öğretmen açığı); ondan önce YAZMA, 2025 verisi iki günde eskir. Başlık: "Education at a Glance Nedir? 2026 Türkiye Göstergeleri" gibi.
 - [ ] TALIS: öğretmenlerin çalışma koşulları ve mesleki gelişim, Türkiye verisi (uluslararasi-egitim)
 - [ ] Ülkeler arası karşılaştırmalı öğretmen yetiştirme (uluslararasi-egitim)
 - [ ] BTE Derneği ve Türkiye'de eğitim teknolojisi alanının kurumsallaşması: kongreler, dergiler (egitim-teknolojileri)
