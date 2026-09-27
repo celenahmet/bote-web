@@ -44,6 +44,7 @@
 
 ## Eğitim Teknolojileri
 
+- [FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları](https://bote.web.tr/blog/fatih-projesi-nedir.md): FATİH Projesi nedir? 2010'da başlayan projenin 5 bileşeni, tablet ve etkileşimli tahta sayıları, Sayıştay bulguları, araştırmaların sonuçları ve eleştiriler. (2026-09-27)
 - [Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir.md): Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber. (2026-09-25)
 - [Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri.md): Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı: tanımlar, tarihçe, meta-analizlerde etki büyüklükleri, eleştiriler ve Türkiye'deki çalışmalar. (2026-09-25)
 - [DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi](https://bote.web.tr/blog/digcompedu-nedir.md): DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme. (2026-09-25)
