@@ -95,6 +95,8 @@ Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, 
 - [x] TALIS Nedir? (27.09, talis-nedir; OECD TALIS 2024 raporu ve Türkiye notu, TEDMEM, MEB)
 - [ ] Ülkeler arası karşılaştırmalı öğretmen yetiştirme (uluslararasi-egitim)
 - [ ] BTE Derneği ve Türkiye'de eğitim teknolojisi alanının kurumsallaşması: kongreler, dergiler (egitim-teknolojileri)
+  Not (27.09): BTE Derneği = Bilişim Teknolojileri Eğitimcileri Derneği (Ankara, bte.org.tr). Site Cloudflare doğrulamasıyla otomatik istekleri engelliyor; kaynaklar ya tarayıcıdan ya da dernek dışı resmî/hakemli belgelerden. Yazıya başlanmadı.
+  Sıradakiler: eğitimde yapay zekâ (yeni yazı yerine sığ egitimde-yapay-zeka-ogretmenler-icin yazısını derinleştirmek daha doğru olabilir, önce karar), karşılaştırmalı öğretmen yetiştirme, EAG 2026 (29 Eylül sonrası).
 - [x] FATİH Projesi Nedir? (27.09, fatih-projesi-nedir; YEĞİTEK 2015 ve 2018 raporları, MEB 2022, Sayıştay 2020 raporu, Demir 2024 derlemesi)
 - [x] EBA Nedir? (27.09, eba-nedir; YEĞİTEK 2020 ve 2021 sayıları, MEB haberleri, PISA ve TALIS notları)
 - [ ] Eğitim teknolojilerinde yapay zekâ uygulamaları, meta-analiz kanıtıyla (egitim-teknolojileri)
