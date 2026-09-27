@@ -18,6 +18,8 @@ const count = current && current !== 'blog' ? (blog.catBy[current]?.count ?? lis
 // Vitrin (Ahmet 26.09: "sag tarafin hareketli oldugu belli degil"): ilk sayfada 4 yazi doner.
 // Ilk kart akista yoktur; digerleri akista da durur, bu yuzden view-transition adlari yalniz ilkinde.
 const slides = page === 1 && first ? list.slice(0, 4) : [];
+// Tek yazili kategoride akis bos kalmasin: ilk yazi akista da kart olur (vitrindekiyle ad cakismasin diye vt kapali).
+const feed = rest.length ? rest : first ? [first] : [];
 // Solda "one cikan konular": listedeki yazilarin ilk ozgul etiketi, kategoriler arasinda sirayla
 // (ana sayfada tek kategoriye yigilmasin). Genel etiketler (BOTE, AGS...) konu sayilmaz.
 const GENEL = new Set(['böte', 'ags', 'kpss', 'kariyer', 'öğretmenlik', 'eğitim fakültesi', 'tercih']);
@@ -44,7 +46,7 @@ for (const p of queue) {
         <h1 set:html={h1} />
         <p class="dek">{lead}</p>
         <div class="hero-actions">
-          <a class="hero-cta" href="#yazilar">Tüm yazıları keşfet <Icon name="arrow-right" size={18} /></a>
+          {feed.length > 0 && <a class="hero-cta" href="#yazilar">Tüm yazıları keşfet <Icon name="arrow-right" size={18} /></a>}
           <button type="button" class="hero-search" data-open-search aria-label="Yazılarda ara">
             <Icon name="search" size={18} /><span>Yazılarda ara</span><kbd class="kbd">⌘K</kbd>
           </button>
@@ -103,8 +105,8 @@ for (const p of queue) {
         <div class="empty" set:html={empty} />
       ) : (
         <>
-          {rest.length > 0 && <h2 class="feed-title" id="yazilar">{page === 1 ? 'Son yazılar' : `Sayfa ${page}`}</h2>}
-          {rest.length > 0 && <ol class="cards">{rest.map((p) => <li><PostCard post={p} variant="card" /></li>)}</ol>}
+          {feed.length > 0 && <h2 class="feed-title" id="yazilar">{page === 1 ? 'Son yazılar' : `Sayfa ${page}`}</h2>}
+          {feed.length > 0 && <ol class="cards">{feed.map((p) => <li><PostCard post={p} variant="card" vt={rest.length > 0} /></li>)}</ol>}
           {pages > 1 && (
             <nav class="pagination" aria-label="Sayfalar"><ul>
               {page > 1 && <li><a href={href(page - 1)} rel="prev">Önceki sayfa</a></li>}

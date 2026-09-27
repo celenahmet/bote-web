@@ -87,7 +87,7 @@ ED097127'den. Selman'ın 1980 kitabı açılamadı; aşama adları ve yaşlar bu
 Doğrudan alıntı yerine aktarma kullanıldı (ERIC belgelerinde özgün sayfa numarası belirsiz).
 
 ### Yapılacaklar: özel yazılar (Ahmet 26.09, kuramlardan sonra)
-- [ ] PISA 2022 Türkiye sonuçları: puanlar, sıralama, eşitlik, zaman serisi (uluslararasi-egitim)
+- [x] PISA 2022 Türkiye sonuçları (27.09, pisa-2022-turkiye-sonuclari; MEB 2022 raporu, OECD ülke notu ve Cilt I tam metinleri; kapsam oranı CI3 Tablo I.A2.2)
 - [ ] PISA nasıl ölçer? Örnekleme, olası değerler ve yanlış okumalar (uluslararasi-egitim)
 - [ ] OECD Education at a Glance: Türkiye göstergeleri (uluslararasi-egitim)
 - [ ] TALIS: öğretmenlerin çalışma koşulları ve mesleki gelişim, Türkiye verisi (uluslararasi-egitim)

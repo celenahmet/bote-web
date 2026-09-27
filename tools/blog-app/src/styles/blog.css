@@ -51,9 +51,9 @@ p{margin:0}
 .brand{display:flex;align-items:baseline;gap:6px;text-decoration:none;color:var(--ink);flex:none}
 .brand-mark{font:800 21px/1 var(--display);letter-spacing:-.035em}
 .brand-mark b{color:var(--pink);font-weight:700}
-.topnav{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.topnav{display:flex;gap:0;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
 .topnav::-webkit-scrollbar{display:none}
-.topnav a{flex:none;color:var(--ink-2);text-decoration:none;font:500 14.5px/1 var(--display);padding:10px 11px;border-radius:10px;white-space:nowrap}
+.topnav a{flex:none;color:var(--ink-2);text-decoration:none;font:500 14px/1 var(--display);padding:10px 8px;border-radius:10px;white-space:nowrap}
 .topnav a:hover,.topnav a[aria-current]{background:var(--raised);color:var(--ink)}
 .top-actions{display:flex;align-items:center;gap:6px;flex:none}
 .icon-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:40px;min-width:40px;padding:0 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:500 14px var(--display);cursor:pointer}
@@ -72,6 +72,8 @@ p{margin:0}
 /* dokunmatik ekranda dugmeler en az 44 piksel */
 @media (pointer:coarse){.icon-btn{height:44px;min-width:44px}}
 @media (max-width:1099px){.chipbar{display:flex}}
+/* 8 menu ogesi (7 kategori) 1280px altinda sigmiyor; gizli kaydirmada son oge kesik gorunuyordu (27.09). Bu aralikta kategori seridi. */
+@media (min-width:1100px) and (max-width:1279px){.topnav{display:none}.chipbar{display:flex}.topbar-in{justify-content:space-between}}
 
 /* --- yol --- */
 .crumbs ol{display:flex;flex-wrap:wrap;align-items:center;gap:6px;list-style:none;margin:0;padding:0;font:500 14px var(--display);color:var(--muted)}

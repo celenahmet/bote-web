@@ -73,3 +73,7 @@
 - [Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri](https://bote.web.tr/blog/tam-ogrenme-modeli.md): Carroll'un zaman modeli, Bloom'un tam öğrenme ve okulda öğrenme modeli, 2 sigma problemi, meta-analizler, Türkiye'deki deneyler ve AGS'de sık yapılan hatalar. (2026-09-26)
 - [Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı](https://bote.web.tr/blog/vygotsky-sosyokulturel-kuram.md): Vygotsky'nin sosyokültürel kuramı: aracılık, özel konuşma, yakınsak gelişim alanının asıl anlamı, iskele kurmanın kanıtı, eleştiriler ve AGS'de sık yapılan hatalar. (2026-09-26)
 - [Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar](https://bote.web.tr/blog/yapilandirmacilik.md): Yapılandırmacılığın bilgi kuramı, bilişsel ve sosyal yapılandırmacılık, kavramsal değişim, rehberlik tartışması, Türkiye'de programlar, TALIS ve sınav gerçeği, AGS. (2026-09-26)
+
+## Uluslararası Eğitim
+
+- [PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik](https://bote.web.tr/blog/pisa-2022-turkiye-sonuclari.md): PISA 2022 Türkiye sonuçları: matematik 453, okuma 456, fen 476; 2003-2022 puan serisi, sıralama, okul türü ve eşitlik bulguları, okurken yapılan hatalar. (2026-09-27)
