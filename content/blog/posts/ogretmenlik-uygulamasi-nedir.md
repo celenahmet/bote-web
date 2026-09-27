@@ -114,7 +114,7 @@ Bu bulgular, uygulamanın yalnızca "saat doldurmak" olarak görülmemesi gerekt
 
 Öğretmenlik uygulamasının en değerli çıktısı, ders anlatımından sonra alınan geri bildirimdir. Hattie ve Timperley, etkili geri bildirimin üç soruyu yanıtlaması gerektiğini savunur: **Nereye gidiyorum?** (hedef), **Nasıl gidiyorum?** (mevcut durum) ve **Sırada ne var?** (bir sonraki adım). Yazarlar ayrıca kişiliğe yönelik genel övgünün ("çok iyi bir öğretmen olacaksın") öğrenmeye pek katkı sağlamadığını, göreve ve sürece yönelik somut geri bildirimin ise çok daha etkili olduğunu vurgular.[@hattie2007]
 
-Uygulama bağlamında bu, şu tür bir geri bildirim anlamına gelir: "Dersin hedefi öğrencilerin kesirleri karşılaştırmasıydı (hedef). Görsel model iyi işledi ama arka sıradakiler katılmadı (durum). Bir sonraki derste soruları rastgele seçilen öğrencilere yöneltmeyi dene (sonraki adım)." Adaylar da geri bildirim isterken bu üç soruyu uygulama öğretmenine yöneltebilir.
+Uygulama bağlamında bu, şu tür bir geri bildirim anlamına gelir: "Dersin hedefi öğrencilerin kesirleri karşılaştırmasıydı (hedef). Görsel model iyi işledi ama arka sıradakiler katılmadı (durum). Bir sonraki derste soruları rastgele seçilen öğrencilere yöneltmeyi dene (sonraki adım)." Adaylar da geri bildirim isterken bu üç soruyu uygulama öğretmenine yöneltebilir. Fakültede uygulamaya hazırlığın yaygın bir yolu olan video kayıtlı ve yapılandırılmış geri bildirimli çalışma için [Mikro öğretim nedir?](/blog/mikro-ogretim-nedir) yazısına bakabilirsiniz.
 
 ## Adaylar için öneriler
 
