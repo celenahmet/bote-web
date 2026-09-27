@@ -151,7 +151,7 @@ BTY, ezbere dayalı bir ders olarak tasarlanmamıştır. Program öğrencinin **
 3. **Üretim:** Blok tabanlı bir araçla ya da uygun bir yazılımla çözüm geliştirilir.
 4. **Test ve paylaşım:** Ürün sınıfta denenir, hatalar birlikte ayıklanır.
 
-Bu akış, dersin yalnızca bir araç kullanımı eğitimi olmadığını, aynı zamanda planlama ve iş birliği becerisi kazandırmayı hedeflediğini gösterir.
+Bu akış, dersin yalnızca bir araç kullanımı eğitimi olmadığını, aynı zamanda planlama ve iş birliği becerisi kazandırmayı hedeflediğini gösterir. Bilgisayarsız, blok tabanlı ve robotik kodlamanın etkileri üzerine araştırmalar için [Kodlama eğitimi nedir?](/blog/kodlama-egitimi-nedir) yazısına bakabilirsiniz.
 
 ## Etik ve güvenlik neden bu derste?
 

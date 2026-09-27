@@ -159,7 +159,7 @@ Bilgi işlemsel düşünmenin öğretimi için bilgisayar şart değildir. Yeni 
 
 ## Okullarda nasıl öğretiliyor?
 
-Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin bazı sistemlerde ayrı ders, bazılarında ise matematik ve fen gibi derslere entegre biçimde öğretildiğini gösteriyor. Sistemlerin üçte ikisinden fazlası programlarını güncelleyen reformlar yürütüyor.[@eurydice-inf] Türkiye'de ise ortaokuldaki **Bilişim Teknolojileri ve Yazılım** dersinin öğretim programı, problem çözme ve programlamaya ayrı bir yer verir.[@bty-program] Ders hakkında ayrıntı için [BTY dersi rehberimize](/blog/bilisim-teknolojileri-ve-yazilim-dersi) bakabilirsiniz.
+Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin bazı sistemlerde ayrı ders, bazılarında ise matematik ve fen gibi derslere entegre biçimde öğretildiğini gösteriyor. Sistemlerin üçte ikisinden fazlası programlarını güncelleyen reformlar yürütüyor.[@eurydice-inf] Türkiye'de ise ortaokuldaki **Bilişim Teknolojileri ve Yazılım** dersinin öğretim programı, problem çözme ve programlamaya ayrı bir yer verir.[@bty-program] Ders hakkında ayrıntı için [BTY dersi rehberimize](/blog/bilisim-teknolojileri-ve-yazilim-dersi) bakabilirsiniz. Kodlama eğitiminin yaklaşımları, meta-analiz bulguları ve Türkiye'deki atölyeler için [Kodlama eğitimi nedir?](/blog/kodlama-egitimi-nedir) yazısına bakabilirsiniz.
 
 ## Sınıfta örnek bir etkinlik: sandviç algoritması
 
