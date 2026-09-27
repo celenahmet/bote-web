@@ -46,7 +46,7 @@ AGS/KPSS'de nasıl sorulur ve kavram tuzakları, araştırmacılar için açık 
 
 27.09 kararı (SEO): 15 iki yazıya bölündü: 15a Freud'un psikoseksüel gelişim kuramı, 15b Selman'ın sosyal bakış açısı alma kuramı. Marcia, Erikson yazısında.
 
-İlerleme (27.09): 1-14 ve 15a yayında (freud-psikoseksuel-gelisim-kurami, gudulenme-kuramlari, piaget, vygotsky, erikson, kohlberg, bronfenbrenner, davranisci-ogrenme-kuramlari, bandura-sosyal-bilissel-kuram, bilgiyi-isleme-kurami, bruner-ausubel-gagne-bilissel-ogretim-kuramlari, bloom-taksonomisi, tam-ogrenme-modeli, yapilandirmacilik, coklu-zeka-kurami). Sıradaki: 15b Selman. Not: MEB AGS duyurusu kapsamı: tarihî/felsefi/toplumsal/ekonomik/politik temeller, eğitim ve öğretim teknolojileri, öğretim yöntem ve teknikleri, sınıf yönetimi, program okuryazarlığı, ölçme ve değerlendirme, öğrenme ve gelişim psikolojisi, rehberlik, TMES genel yapısı, Türkiye Yüzyılı Maarif Modeli.
+İlerleme (27.09): 1-15 yayında, kuram dizisi tamam (selman-sosyal-bakis-acisi-alma-kurami, freud-psikoseksuel-gelisim-kurami, gudulenme-kuramlari, piaget, vygotsky, erikson, kohlberg, bronfenbrenner, davranisci-ogrenme-kuramlari, bandura-sosyal-bilissel-kuram, bilgiyi-isleme-kurami, bruner-ausubel-gagne-bilissel-ogretim-kuramlari, bloom-taksonomisi, tam-ogrenme-modeli, yapilandirmacilik, coklu-zeka-kurami). Sıradaki: DEVAM.md > özel yazılar (PISA 2022 Türkiye ile başla). Not: MEB AGS duyurusu kapsamı: tarihî/felsefi/toplumsal/ekonomik/politik temeller, eğitim ve öğretim teknolojileri, öğretim yöntem ve teknikleri, sınıf yönetimi, program okuryazarlığı, ölçme ve değerlendirme, öğrenme ve gelişim psikolojisi, rehberlik, TMES genel yapısı, Türkiye Yüzyılı Maarif Modeli.
 
 ## Öncelik 2: Eğitim teknolojileri ve yapay zekâ
 | Sıra | Çalışma başlığı |

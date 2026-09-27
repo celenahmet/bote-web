@@ -67,7 +67,7 @@ Google IndexNow kullanmaz: sitemap.xml robots.txt'te; Search Console'da https://
 6. Taranmış PDF'ler macOS Vision ile okunur (PDFKit metin katmanı boşsa OCR).
 
 ### Durum (26.09 akşam)
-- Kuram yazıları 1-14 ve 15a Freud yayında (YOL_HARITASI.md > İlerleme). Kalan: 15b Selman.
+- Kuram yazıları 1-15 yayında (15a Freud, 15b Selman dahil); kuram dizisi tamam. Sıradaki: özel yazılar.
 - SEO (Ahmet 27.09): yazılar arama odaklı; başlıkta ve ilk paragrafta aranan ifade, SSS arama sorularından. Her push sonrası `node tools/indexnow.mjs`.
 - **Tasarım elden geçirme başladı (Ahmet 26.09):** ad bote.web.tr; monospace yazı tipi hiçbir yerde
   yok; yazı tipi değişimi; ferahlık; koyu temada opak üst menü; içindekiler kutusu dengesi ve
@@ -79,10 +79,12 @@ Sarı ve Takıl 2023; Kaya ve Bozkur 2017; Sezer ve ark. 2023; Deniz ve Yıldız
 doğrulandı; sayfa numarası doğrulanamadığı için doğrudan alıntı yerine aktarma kullanıldı. Deutsch-Onur yılı DergiPark
 "Yayımlandığı Sayı Yıl 1986". Güdülenme yazısının 18 künyesi 27.09'da Crossref ve DergiPark'la yeniden doğrulandı, düzeltme gerekmedi.
 
-### Sıradaki: Selman (15b)
-Önerilen başlık: "Selman'ın Sosyal Bakış Açısı Alma Kuramı" + alt başlık (60 karakteri geçmez; yazmadan önce say).
-Kaynaklar henüz toplanmadı: Selman'ın özgün makaleleri ve kitabı (1971 Child Development, 1980 The Growth of Interpersonal
-Understanding), zihin kuramı ve bakış açısı alma meta-analizleri, Türkçe hakemli en az 3 çalışma (DergiPark).
+### Yayında: Selman (27.09, selman-sosyal-bakis-acisi-alma-kurami)
+21 kaynak, 4 Türkçe hakemli (Yıldız ve Güney Karaman 2017; Şahin ve Başara Baydilek 2023; Karakaşoğlu ve Özdemir 2020;
+Gürleyik ve Gözün Kahraman 2021). Aşama tanımları, yaşlar (0: 4-6, 1: 6-8, 2: 8-10; 3 ön ergenlik; 4 ergenlik ve yetişkinlik),
+Holly ve Kathy ikilemleri Selman'ın ERIC'teki tam metinli bildirilerinden (ED081486 1973, ED122918 1975); sınıf deneyi
+ED097127'den. Selman'ın 1980 kitabı açılamadı; aşama adları ve yaşlar bu yüzden 1973 ve 1975 metinlerine dayanıyor.
+Doğrudan alıntı yerine aktarma kullanıldı (ERIC belgelerinde özgün sayfa numarası belirsiz).
 
 ### Yapılacaklar: özel yazılar (Ahmet 26.09, kuramlardan sonra)
 - [ ] PISA 2022 Türkiye sonuçları: puanlar, sıralama, eşitlik, zaman serisi (uluslararasi-egitim)
