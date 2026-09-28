@@ -1336,12 +1336,12 @@
      "tarih": "2026-09-28",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "0aeb3df212e99cd790f27348f95ac283875e0c4cdd0cc4e50757474be1509f07",
+     "icerik": "a9aad68aee0af13bf785b8120dcb49fd098b9a8dfb1c29e131fb1343ffe8aeb7",
      "sablon": 1,
-     "sha256": "1ad6bc8a70936a91cddff6755bdc30449b0719f38bf3009c4b5f30f7fde78007",
-     "bayt": 954968,
+     "sha256": "fe22cb0eb92bdf8d9187502dd7f7f6c8102c24933aff836f48cf0101bc012dc9",
+     "bayt": 955097,
      "sayfa": 10,
-     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-1ad6bc8a.pdf",
+     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-fe22cb0e.pdf",
      "yuklendi": "2026-09-28"
     }
    ]
@@ -1363,6 +1363,27 @@
      "bayt": 1026850,
      "sayfa": 12,
      "dosya": "bt-065-mantik-kapilari-ve-boole-cebiri-s1-0-d0fba793.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-066": {
+   "no": 66,
+   "slug": "ohm-ve-kirchhoff-kanunlari",
+   "baslik": "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "307a1e600b8e124913a366725c30c563bde1c786aa14cf47060042474317da58",
+     "sablon": 1,
+     "sha256": "ad64dcdb94756c150712367a2d4082e09804dd36de54eaa973dc7086ba71c717",
+     "bayt": 1005319,
+     "sayfa": 11,
+     "dosya": "bt-066-ohm-ve-kirchhoff-kanunlari-s1-0-ad64dcdb.pdf",
      "yuklendi": "2026-09-28"
     }
    ]

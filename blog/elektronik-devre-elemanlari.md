@@ -80,7 +80,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 
 **Ohm yasası.** Birçok maddeden geçen akım, uygulanan gerilimle doğru orantılıdır. Georg Simon Ohm bunu 1827'de yayımladığı bir makalede, farklı uzunlukta teller içeren devrelerde akımı ve gerilimi ölçerek gösterdi. Bu ilişki V = I × R biçiminde yazılır. Ohm yasası bir doğa yasası değil, deneyle gözlenen bir ilişkidir: ona uyan elemanlara omik, uymayanlara omik olmayan elemanlar denir.[3] Örnek: 4 ohm'luk bir direncin uçlarına 12 volt uygulanırsa akım 12 / 4 = 3 amperdir.
 
-**Seri, paralel ve karışık devreler; Kirchhoff yasaları.** Seri devrede elemanlardan aynı akım geçer, paralel devrede elemanların uçlarındaki gerilim aynıdır.[3] Seri ve paralel parçalara ayrılamayan devreler Gustav Kirchhoff'un iki kuralıyla çözülür. **Düğüm kuralı:** bir düğüme giren akımların toplamı, çıkan akımların toplamına eşittir. **Çevre kuralı:** kapalı bir yol boyunca potansiyel değişimlerinin cebirsel toplamı sıfırdır.[3] Örnek: 12 voltluk bir kaynağa 2 ohm ve 4 ohm seri bağlansın. Eşdeğer direnç 6 ohm, akım 12 / 6 = 2 amperdir. Dirençlerin üzerindeki gerilimler 4 ve 8 volttur; toplamları kaynağın 12 voltuna eşittir, yani çevre kuralı sağlanır. Aynı iki direnç yerine 6 ohm ve 3 ohm paralel bağlansaydı eşdeğer direnç (6 × 3) / (6 + 3) = 2 ohm olurdu.
+**Seri, paralel ve karışık devreler; Kirchhoff yasaları.** Seri devrede elemanlardan aynı akım geçer, paralel devrede elemanların uçlarındaki gerilim aynıdır.[3] Seri ve paralel parçalara ayrılamayan devreler Gustav Kirchhoff'un iki kuralıyla çözülür. **Düğüm kuralı:** bir düğüme giren akımların toplamı, çıkan akımların toplamına eşittir. **Çevre kuralı:** kapalı bir yol boyunca potansiyel değişimlerinin cebirsel toplamı sıfırdır.[3] Örnek: 12 voltluk bir kaynağa 2 ohm ve 4 ohm seri bağlansın. Eşdeğer direnç 6 ohm, akım 12 / 6 = 2 amperdir. Dirençlerin üzerindeki gerilimler 4 ve 8 volttur; toplamları kaynağın 12 voltuna eşittir, yani çevre kuralı sağlanır. Aynı iki direnç yerine 6 ohm ve 3 ohm paralel bağlansaydı eşdeğer direnç (6 × 3) / (6 + 3) = 2 ohm olurdu. Karışık devreler, iki kaynaklı devreler ve iç direnç çözümlü örneklerle [Ohm ve Kirchhoff kanunları](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari) yazısında.
 
 **Kondansatör ve bobin.** Kondansatör elektrik yükü ve elektrik enerjisi depolayan bir aygıttır; genellikle aralarında yalıtkan bir malzeme bulunan iki iletken levhadan oluşur. Sığa (kapasitans), levhalarda depolanabilen en büyük yükün uygulanan gerilime oranıdır.[3] Bobin ise devrede öz indüktans sağlayan elemandır; temel biçimi uzun bir tel sargısıdır.[3]
 
@@ -135,7 +135,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 Bu yazı dersin haritasıdır. Her konu, çözümlü örnekler ve alıştırmalarla ayrı bir yazıda derinlemesine ele alınacak ve yayımlandıkça bu listeye bağlantı olarak eklenecek:[2]
 
 1. [Mantık kapıları ve Boole cebiri](https://bote.web.tr/blog/mantik-kapilari-ve-boole-cebiri): doğruluk tabloları, Boole yasaları ve De Morgan teoremleri
-2. Ohm ve Kirchhoff yasaları: seri, paralel ve karışık devre çözümleri
+2. [Ohm ve Kirchhoff kanunları](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari): seri, paralel ve karışık devre çözümleri
 3. Sayı sistemleri, tümleyenler ve sayısal kodlar
 4. Karnaugh haritası ve Quine-McCluskey yöntemi
 5. Kombinasyonel devreler: toplayıcılar, kod çözücüler, çoklayıcılar
