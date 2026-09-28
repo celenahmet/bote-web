@@ -261,7 +261,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 
 **Mantık kapıları.** Boole işlemleri devrede kapılarla gerçekleştirilir; kapıların doğruluk tabloları, bütün Boole kuralları ve çözümlü örnekler [mantık kapıları ve Boole cebiri](/blog/mantik-kapilari-ve-boole-cebiri) yazısında. İzlencede yedi temel kapı yer alır: VE, VEYA, DEĞİL, VE DEĞİL (NAND), VEYA DEĞİL (NOR), ÖZEL VEYA (XOR) ve ÖZEL VEYA DEĞİL (XNOR).[@hacettepe2024] Her kapı bir doğruluk tablosuyla tanımlanır. TTL ve CMOS devre aileleri ve bunların karşılaştırılması da izlencenin konuları arasındadır.[@hacettepe2024]
 
-**Sadeleştirme.** Aynı işi yapan bir devrenin daha az kapıyla kurulması hem maliyeti hem hata olasılığını düşürür. Maurice Karnaugh 1953'te kombinasyonel mantık devrelerini verimli biçimde kurmak için harita yöntemini önerdi.[@karnaugh1953] Değişken sayısı arttığında haritalar zorlaşır; bu durumda Quine'ın 1952 ve McCluskey'in 1956 çalışmalarına dayanan tablo yöntemi kullanılır.[@quine1952][@mccluskey1956]
+**Sadeleştirme.** Aynı işi yapan bir devrenin daha az kapıyla kurulması hem maliyeti hem hata olasılığını düşürür. Maurice Karnaugh 1953'te kombinasyonel mantık devrelerini verimli biçimde kurmak için harita yöntemini önerdi.[@karnaugh1953] Değişken sayısı arttığında haritalar zorlaşır; bu durumda Quine'ın 1952 ve McCluskey'in 1956 çalışmalarına dayanan tablo yöntemi kullanılır.[@quine1952][@mccluskey1956] Gruplama kuralları ve çözümlü örnekler [Karnaugh haritası](/blog/karnaugh-haritasi) yazısında.
 
 **Kombinasyonel ve sıralı devreler.** Kombinasyonel, yani sıralı olmayan devrelerin çıkışı yalnız o anki girişlere bağlıdır:[@karnaugh1953] toplayıcılar, çıkarıcılar, kod çözücüler ve çoklayıcılar bu türdendir. Sıralı devrelerde ise çıkış önceki durumlara da bağlıdır; flip-floplar, saklayıcılar ve sayıcılar bu gruptadır.[@hacettepe2024] Örnek: iki biti toplayan yarım toplayıcının toplam çıkışı S = A ⊕ B, elde çıkışı C = A · B'dir.
 
@@ -296,7 +296,7 @@ Bu yazı dersin haritasıdır. Her konu, çözümlü örnekler ve alıştırmala
 1. [Mantık kapıları ve Boole cebiri](/blog/mantik-kapilari-ve-boole-cebiri): doğruluk tabloları, Boole yasaları ve De Morgan teoremleri
 2. [Ohm ve Kirchhoff kanunları](/blog/ohm-ve-kirchhoff-kanunlari): seri, paralel ve karışık devre çözümleri
 3. [Sayı sistemleri, tümleyenler ve sayısal kodlar](/blog/sayi-sistemleri)
-4. Karnaugh haritası ve Quine-McCluskey yöntemi
+4. [Karnaugh haritası ve Quine-McCluskey yöntemi](/blog/karnaugh-haritasi)
 5. Kombinasyonel devreler: toplayıcılar, kod çözücüler, çoklayıcılar
 6. Flip-floplar, saklayıcılar ve sayıcılar
 7. Diyot, transistör ve yarı iletkenler; kondansatör ve bobin

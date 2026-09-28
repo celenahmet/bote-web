@@ -9,6 +9,7 @@
 ## Bölüm Rehberi
 
 - [Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi](https://bote.web.tr/blog/elektronik-devre-elemanlari.md): Elektronik Devre Elemanları dersinin bütün konuları: direnç, kondansatör, diyot, Ohm ve Kirchhoff yasaları, sayı sistemleri, mantık kapıları ve Boole cebiri. (2026-09-28)
+- [Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey](https://bote.web.tr/blog/karnaugh-haritasi.md): Karnaugh haritası konu anlatımı: 2, 3 ve 4 değişkenli haritalar, gruplama kuralları, fark etmez durumlar ve Quine-McCluskey yöntemi, çözümlü örneklerle. (2026-09-28)
 - [Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler](https://bote.web.tr/blog/mantik-kapilari-ve-boole-cebiri.md): Mantık kapıları ve Boole cebiri konu anlatımı: yedi kapının doğruluk tabloları, Boole kuralları, De Morgan teoremleri, minterm ve maxterm, çözümlü örnekler. (2026-09-28)
 - [Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari.md): Ohm kanunu, güç, Kirchhoff'un akımlar ve gerilimler kanunu; seri, paralel ve karışık devrelerde eşdeğer direnç, akım ve gerilim hesabı, çözümlü örnekler. (2026-09-28)
 - [Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu](https://bote.web.tr/blog/sayi-sistemleri.md): Sayı sistemleri konu anlatımı: ikili, sekizli, on altılı dönüşümler, ikili toplama ve çıkarma, bire ve ikiye tümleme, BCD, Gray ve ASCII kodları, çözümlü örnekler. (2026-09-28)

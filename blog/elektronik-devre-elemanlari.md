@@ -102,7 +102,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 
 **Mantık kapıları.** Boole işlemleri devrede kapılarla gerçekleştirilir; kapıların doğruluk tabloları, bütün Boole kuralları ve çözümlü örnekler [mantık kapıları ve Boole cebiri](https://bote.web.tr/blog/mantik-kapilari-ve-boole-cebiri) yazısında. İzlencede yedi temel kapı yer alır: VE, VEYA, DEĞİL, VE DEĞİL (NAND), VEYA DEĞİL (NOR), ÖZEL VEYA (XOR) ve ÖZEL VEYA DEĞİL (XNOR).[2] Her kapı bir doğruluk tablosuyla tanımlanır. TTL ve CMOS devre aileleri ve bunların karşılaştırılması da izlencenin konuları arasındadır.[2]
 
-**Sadeleştirme.** Aynı işi yapan bir devrenin daha az kapıyla kurulması hem maliyeti hem hata olasılığını düşürür. Maurice Karnaugh 1953'te kombinasyonel mantık devrelerini verimli biçimde kurmak için harita yöntemini önerdi.[8] Değişken sayısı arttığında haritalar zorlaşır; bu durumda Quine'ın 1952 ve McCluskey'in 1956 çalışmalarına dayanan tablo yöntemi kullanılır.[9][10]
+**Sadeleştirme.** Aynı işi yapan bir devrenin daha az kapıyla kurulması hem maliyeti hem hata olasılığını düşürür. Maurice Karnaugh 1953'te kombinasyonel mantık devrelerini verimli biçimde kurmak için harita yöntemini önerdi.[8] Değişken sayısı arttığında haritalar zorlaşır; bu durumda Quine'ın 1952 ve McCluskey'in 1956 çalışmalarına dayanan tablo yöntemi kullanılır.[9][10] Gruplama kuralları ve çözümlü örnekler [Karnaugh haritası](https://bote.web.tr/blog/karnaugh-haritasi) yazısında.
 
 **Kombinasyonel ve sıralı devreler.** Kombinasyonel, yani sıralı olmayan devrelerin çıkışı yalnız o anki girişlere bağlıdır:[8] toplayıcılar, çıkarıcılar, kod çözücüler ve çoklayıcılar bu türdendir. Sıralı devrelerde ise çıkış önceki durumlara da bağlıdır; flip-floplar, saklayıcılar ve sayıcılar bu gruptadır.[2] Örnek: iki biti toplayan yarım toplayıcının toplam çıkışı S = A ⊕ B, elde çıkışı C = A · B'dir.
 
@@ -137,7 +137,7 @@ Bu yazı dersin haritasıdır. Her konu, çözümlü örnekler ve alıştırmala
 1. [Mantık kapıları ve Boole cebiri](https://bote.web.tr/blog/mantik-kapilari-ve-boole-cebiri): doğruluk tabloları, Boole yasaları ve De Morgan teoremleri
 2. [Ohm ve Kirchhoff kanunları](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari): seri, paralel ve karışık devre çözümleri
 3. [Sayı sistemleri, tümleyenler ve sayısal kodlar](https://bote.web.tr/blog/sayi-sistemleri)
-4. Karnaugh haritası ve Quine-McCluskey yöntemi
+4. [Karnaugh haritası ve Quine-McCluskey yöntemi](https://bote.web.tr/blog/karnaugh-haritasi)
 5. Kombinasyonel devreler: toplayıcılar, kod çözücüler, çoklayıcılar
 6. Flip-floplar, saklayıcılar ve sayıcılar
 7. Diyot, transistör ve yarı iletkenler; kondansatör ve bobin

@@ -1336,12 +1336,12 @@
      "tarih": "2026-09-28",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "220f3b536cd3cfa17f224a94dabeb1ed951fb6a8b0ef4bec2dc213e5b538d180",
+     "icerik": "7b6d98c3cbef74f726fb1db4bb2192262aaf42e49ad3edd0f0e1ac7585558a6f",
      "sablon": 1,
-     "sha256": "6d7a8b2c418c370d9bb850fdf071f5afbbdfe2a02e3b526fde9f72bdfc83baf0",
-     "bayt": 956208,
+     "sha256": "aa88c4e94ec9280640fd3d898ffce38a9f56786b7fbe39ebd4ac1cae20cd0eed",
+     "bayt": 956509,
      "sayfa": 10,
-     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-6d7a8b2c.pdf",
+     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-aa88c4e9.pdf",
      "yuklendi": "2026-09-28"
     }
    ]
@@ -1405,6 +1405,27 @@
      "bayt": 1007078,
      "sayfa": 11,
      "dosya": "bt-067-sayi-sistemleri-s1-0-b4b272bb.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-068": {
+   "no": 68,
+   "slug": "karnaugh-haritasi",
+   "baslik": "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "b682603429f4c6a838fc63089f2655ec4d1387bc4b7f8fcdb188d07ee34b10d5",
+     "sablon": 1,
+     "sha256": "447b03d4b547ad626ed2ba08b1b58d89cf9ccf04952b64a4e9581306102485e1",
+     "bayt": 1011625,
+     "sayfa": 10,
+     "dosya": "bt-068-karnaugh-haritasi-s1-0-447b03d4.pdf",
      "yuklendi": "2026-09-28"
     }
    ]
