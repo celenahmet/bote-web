@@ -1324,6 +1324,27 @@
      "yuklendi": "2026-09-28"
     }
    ]
+  },
+  "BT-064": {
+   "no": 64,
+   "slug": "elektronik-devre-elemanlari",
+   "baslik": "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "93a9492ea68854426bf41ad421a8428a0ec47448ecc47d5f72acfa3a9ea2f261",
+     "sablon": 1,
+     "sha256": "3bc3020626277577555b2e244aa446a1ed3dda7a1692703cf510b2e836bc9a35",
+     "bayt": 954301,
+     "sayfa": 10,
+     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-3bc30206.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
   }
  }
 }

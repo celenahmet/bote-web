@@ -8,6 +8,7 @@
 
 ## Bölüm Rehberi
 
+- [Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi](https://bote.web.tr/blog/elektronik-devre-elemanlari.md): Elektronik Devre Elemanları dersinin bütün konuları: direnç, kondansatör, diyot, Ohm ve Kirchhoff yasaları, sayı sistemleri, mantık kapıları ve Boole cebiri. (2026-09-28)
 - [Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi.md): Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber. (2026-09-25)
 - [BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi](https://bote.web.tr/blog/bote-mi-bilgisayar-muhendisligi-mi.md): BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma. (2026-09-25)
 - [BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi](https://bote.web.tr/blog/bote-nedir.md): BÖTE bölümü nedir, ne zaman kuruldu, neler öğretir ve kimlere uygundur? Tanımlar, uluslararası öğretmen yetkinlik çerçeveleri ve 2025'teki gelişmelerle rehber. (2026-09-25)
