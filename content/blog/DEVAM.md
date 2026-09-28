@@ -146,6 +146,17 @@ Hocanın sunum bölüştürmesi kopyalanmaz; izlencedeki haftalık sıra ve konu
 - Yazılar: (1) genel ders yazısı; (2) derin: mantık kapıları ve Boolean cebiri; (3) derin: Ohm ve Kirchhoff
   kanunları, seri-paralel devreler. Sonra: sayı sistemleri ve kodlar, diyot ve transistör, kondansatör ve
   bobin, multimetre ve elektrik güvenliği, Karnaugh, kombinasyonel devreler, flip-flop ve sayıcılar, DAC/ADC.
+- YAYINDA (28.09): elektronik-devre-elemanlari (genel, BT-064), mantik-kapilari-ve-boole-cebiri (derin, BT-065,
+  34 eşitlik doğruluk tablosuyla denetlendi), ohm-ve-kirchhoff-kanunlari (derin, BT-066, 16 sonuç kesirli hesapla
+  denetlendi). Kategori bolum-rehberi, tür rehber. Genel yazıdaki "Bu rehberin derin yazıları" listesine her yeni
+  derin yazı bağlantı olarak eklenir; genel yazının PDF'i "node tools/pdf/uret.mjs on_yayin_yenile EVET BT-064"
+  ile (duyuru öncesi, seçili) yeniden basılır, sonra ilk/bas/yukle/eski_sil.
+- Ahmet (28.09): "yazımızı okuyan öğrenci dersi 100 ile geçebilsin, müfredata uyumlu, proaktif". Her derin yazıda:
+  çözümlü örnekler, cevaplı alıştırmalar, sık hatalar, terim tablosu; her sayısal sonuç programla denetlenir.
+- Kaynak düzeni: YÖK 2018 programı (egitim.yok.gov.tr/tr/document/2432, ders tanımları s. 5-6), bilsis izlencesi,
+  MEB MEGEP modülleri (Temel Mantık Devreleri 522EE0245, Doğru Akım Devreleri 522EE0159; megep.meb.gov.tr/
+  mte_program_modul/moduller_pdf/<ad>.pdf), OpenStax University Physics 2-3, özgün metinler (Boole 1854 Gutenberg,
+  Shannon 1940 tezi MIT DSpace API: /server/api/core/bitstreams/<id>/content), öğrenci yanılgısı araştırmaları.
 - Arama ölçümü (28.09, öneri/nedir): diyot 19/11, transistör 19/10, kondansatör 19/10, multimetre 17/8,
   ohm kanunu 15/7, lojik devre 10/1, sayı sistemleri 10/1, karnaugh 10/1, seri paralel devre 10/1,
   elektronik devre elemanları 11/1, mantık kapıları 5/1, boolean 4/1.
