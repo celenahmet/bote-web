@@ -1336,12 +1336,12 @@
      "tarih": "2026-09-28",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "a9aad68aee0af13bf785b8120dcb49fd098b9a8dfb1c29e131fb1343ffe8aeb7",
+     "icerik": "220f3b536cd3cfa17f224a94dabeb1ed951fb6a8b0ef4bec2dc213e5b538d180",
      "sablon": 1,
-     "sha256": "fe22cb0eb92bdf8d9187502dd7f7f6c8102c24933aff836f48cf0101bc012dc9",
-     "bayt": 955097,
+     "sha256": "6d7a8b2c418c370d9bb850fdf071f5afbbdfe2a02e3b526fde9f72bdfc83baf0",
+     "bayt": 956208,
      "sayfa": 10,
-     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-fe22cb0e.pdf",
+     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-6d7a8b2c.pdf",
      "yuklendi": "2026-09-28"
     }
    ]
@@ -1384,6 +1384,27 @@
      "bayt": 1005319,
      "sayfa": 11,
      "dosya": "bt-066-ohm-ve-kirchhoff-kanunlari-s1-0-ad64dcdb.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-067": {
+   "no": 67,
+   "slug": "sayi-sistemleri",
+   "baslik": "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "9eab82b6f52c951439c8ba851ade9d973ba03c5eaebab69857c44220d78fa96f",
+     "sablon": 1,
+     "sha256": "b4b272bb4546445675421e5c067462baafe9a08d464a4dae34a7b38ff9a55fd1",
+     "bayt": 1007078,
+     "sayfa": 11,
+     "dosya": "bt-067-sayi-sistemleri-s1-0-b4b272bb.pdf",
      "yuklendi": "2026-09-28"
     }
    ]

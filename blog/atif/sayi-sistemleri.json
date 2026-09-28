@@ -1,0 +1,11 @@
+{
+  "title": "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu",
+  "url": "https://bote.web.tr/blog/sayi-sistemleri",
+  "author": "BÖTE Editör Ekibi",
+  "datePublished": "2026-09-28",
+  "dateModified": "2026-09-28",
+  "apa": "BÖTE Editör Ekibi. (2026, 28 Eylül). Sayı sistemleri: Dönüşümler, tümleyenler, BCD ve Gray kodu. BÖTE Blog. https://bote.web.tr/blog/sayi-sistemleri",
+  "apaHtml": "BÖTE Editör Ekibi. (2026, 28 Eylül). Sayı sistemleri: Dönüşümler, tümleyenler, BCD ve Gray kodu. <i>BÖTE Blog</i>. https://bote.web.tr/blog/sayi-sistemleri",
+  "bibtex": "@online{bote-sayi-sistemleri,\n  author       = {{BÖTE Editör Ekibi}},\n  title        = {Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu},\n  organization = {BÖTE Blog},\n  year         = {2026},\n  date         = {2026-09-28},\n  url          = {https://bote.web.tr/blog/sayi-sistemleri},\n  langid       = {turkish}\n}",
+  "embed": "https://bote.web.tr/blog/embed/sayi-sistemleri"
+}

@@ -96,7 +96,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 
 **Sayı sistemleri.** Sayısal devreler bilgiyi 0 ve 1 ile, yani ikili sistemde tutar. Sekizli ve on altılı sistemler ise uzun ikili sayıları kısaltmak için kullanılır.[2] Örnek: onluk 45 sayısı 32 + 8 + 4 + 1 olarak yazılır ve ikili sistemde 101101 olur. İkili rakamlar sağdan üçerli gruplanırsa (101 101) sekizlik 55, dörderli gruplanırsa (0010 1101) on altılık 2D elde edilir.
 
-**Negatif sayılar ve kodlar.** Bilgisayar negatif sayıları çoğunlukla ikiye tümleyen biçiminde tutar. Örnek: 8 bitlik 45, yani 00101101, önce ters çevrilir (11010010) sonra 1 eklenir; −45'in ikiye tümleyen gösterimi 11010011'dir. BCD, Gray ve ASCII gibi kodlar sayıları ve karakterleri farklı amaçlarla temsil eder.[2]
+**Negatif sayılar ve kodlar.** Bilgisayar negatif sayıları çoğunlukla ikiye tümleyen biçiminde tutar. Örnek: 8 bitlik 45, yani 00101101, önce ters çevrilir (11010010) sonra 1 eklenir; −45'in ikiye tümleyen gösterimi 11010011'dir. BCD, Gray ve ASCII gibi kodlar sayıları ve karakterleri farklı amaçlarla temsil eder.[2] Dönüşümler, tümleyenler ve kodlar çözümlü örneklerle [sayı sistemleri](https://bote.web.tr/blog/sayi-sistemleri) yazısında.
 
 **Boole cebiri.** Mantık devrelerinin matematiği George Boole'a dayanır. Boole 1854'te yayımladığı kitabında, aynı anlamdaki iki sembolün birleşiminin sembolün kendisine eşit olduğunu, yani xx = x, kısaca x² = x olduğunu sembollerin genel yasalarından biri olarak verdi.[6] Bu cebir yaklaşık seksen yıl sonra elektrik devrelerine taşındı. Claude Shannon, röle ve anahtar devrelerini denklemlerle gösterdi. Bu denklemleri işlemek için geliştirdiği hesabın, Boole'un mantık cebirine dayanan önermeler hesabının tam karşılığı olduğunu gösterdi.[7] Ders tanımında adıyla geçen kurallardan biri De Morgan teoremidir: (A · B)' = A' + B' ve (A + B)' = A' · B'. Burada kesme işareti (') değil anlamına gelir.[1]
 
@@ -136,7 +136,7 @@ Bu yazı dersin haritasıdır. Her konu, çözümlü örnekler ve alıştırmala
 
 1. [Mantık kapıları ve Boole cebiri](https://bote.web.tr/blog/mantik-kapilari-ve-boole-cebiri): doğruluk tabloları, Boole yasaları ve De Morgan teoremleri
 2. [Ohm ve Kirchhoff kanunları](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari): seri, paralel ve karışık devre çözümleri
-3. Sayı sistemleri, tümleyenler ve sayısal kodlar
+3. [Sayı sistemleri, tümleyenler ve sayısal kodlar](https://bote.web.tr/blog/sayi-sistemleri)
 4. Karnaugh haritası ve Quine-McCluskey yöntemi
 5. Kombinasyonel devreler: toplayıcılar, kod çözücüler, çoklayıcılar
 6. Flip-floplar, saklayıcılar ve sayıcılar
