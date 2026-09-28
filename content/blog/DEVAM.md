@@ -151,6 +151,9 @@ Hocanın sunum bölüştürmesi kopyalanmaz; izlencedeki haftalık sıra ve konu
   denetlendi). Kategori bolum-rehberi, tür rehber. Genel yazıdaki "Bu rehberin derin yazıları" listesine her yeni
   derin yazı bağlantı olarak eklenir; genel yazının PDF'i "node tools/pdf/uret.mjs on_yayin_yenile EVET BT-064"
   ile (duyuru öncesi, seçili) yeniden basılır, sonra ilk/bas/yukle/eski_sil.
+- Aynı gün eklenen derin yazılar: sayi-sistemleri (BT-067, 34 sonuç denetlendi), karnaugh-haritasi (BT-068, QM programıyla
+  denetlendi). BTE 114'te kalan: kombinasyonel devreler; flip-flop, saklayıcı, sayıcı; diyot-transistör, kondansatör-bobin;
+  DAC/ADC, TTL-CMOS, bellek; ölçme aletleri ve elektrik güvenliği. Sonra sıradaki ders (Ahmet seçer).
 - Ahmet (28.09): "yazımızı okuyan öğrenci dersi 100 ile geçebilsin, müfredata uyumlu, proaktif". Her derin yazıda:
   çözümlü örnekler, cevaplı alıştırmalar, sık hatalar, terim tablosu; her sayısal sonuç programla denetlenir.
 - Kaynak düzeni: YÖK 2018 programı (egitim.yok.gov.tr/tr/document/2432, ders tanımları s. 5-6), bilsis izlencesi,
