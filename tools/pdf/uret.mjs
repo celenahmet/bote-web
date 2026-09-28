@@ -8,6 +8,8 @@
 //   node tools/pdf/uret.mjs bas                   → dosyasi olmayan surumleri tek Chrome oturumunda basar
 //   node tools/pdf/uret.mjs yukle                 → medya sunucusuna (ustune yazmadan) yukler, SHA-256 dogrular
 //   node tools/pdf/uret.mjs on_yayin_yenile EVET  → DUYURU ONCESI: 1.0'i yeniden bas (surum acmadan)
+//   node tools/pdf/uret.mjs on_yayin_yenile EVET BT-064 BT-065 → yalniz bu belgeler (ornegin ders
+//                                                   rehberine yeni derin yazinin baglantisi eklenince)
 //   node tools/pdf/uret.mjs eski_sil              → on_yayin_yenile sonrasi eski dosyalari siler
 // Sonra: cd tools && npm run build (sayfalar + /pdf/kayit.json), npm test, commit, push.
 //
@@ -232,13 +234,16 @@ async function yukle() {
   if (hata.length) process.exit(1);
 }
 
-function onYayinYenile(onay) {
-  if (onay !== 'EVET') throw new Error('kullanim: on_yayin_yenile EVET');
+function onYayinYenile(onay, ...kodlar) {
+  if (onay !== 'EVET') throw new Error('kullanim: on_yayin_yenile EVET [BT-NNN ...]');
   const kayit = V.oku();
   if (kayit.duyuru) throw new Error(`belgeler ${kayit.duyuru} tarihinde duyuruldu; yeni surum acin`);
   const yazi = new Map(V.yazilar(kayit).liste.map((x) => [x.p.slug, x.p]));
   kayit.silinecek ||= [];
+  const secili = kodlar.map((k) => k.toUpperCase());
+  for (const k of secili) if (!kayit.belgeler[k]) throw new Error(`${k}: defterde yok`);
   for (const [kd, b] of Object.entries(kayit.belgeler)) {
+    if (secili.length && !secili.includes(kd)) continue;
     if (b.surumler.length !== 1 || b.surumler[0].tur !== 'ilk') throw new Error(`${kd}: birden fazla surum var`);
     const s = b.surumler[0];
     if (s.dosya) kayit.silinecek.push(s.dosya);
@@ -246,7 +251,7 @@ function onYayinYenile(onay) {
     s.icerik = V.icerikOzeti(yazi.get(b.slug)); s.sablon = V.SABLON;
   }
   V.yaz(kayit);
-  console.log(`on_yayin_yenile: ${Object.keys(kayit.belgeler).length} belge 1.0 olarak yeniden basilacak`);
+  console.log(`on_yayin_yenile: ${secili.length || Object.keys(kayit.belgeler).length} belge 1.0 olarak yeniden basilacak`);
 }
 
 function eskiSil() {

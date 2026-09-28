@@ -1336,12 +1336,33 @@
      "tarih": "2026-09-28",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "93a9492ea68854426bf41ad421a8428a0ec47448ecc47d5f72acfa3a9ea2f261",
+     "icerik": "0aeb3df212e99cd790f27348f95ac283875e0c4cdd0cc4e50757474be1509f07",
      "sablon": 1,
-     "sha256": "3bc3020626277577555b2e244aa446a1ed3dda7a1692703cf510b2e836bc9a35",
-     "bayt": 954301,
+     "sha256": "1ad6bc8a70936a91cddff6755bdc30449b0719f38bf3009c4b5f30f7fde78007",
+     "bayt": 954968,
      "sayfa": 10,
-     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-3bc30206.pdf",
+     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-1ad6bc8a.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-065": {
+   "no": 65,
+   "slug": "mantik-kapilari-ve-boole-cebiri",
+   "baslik": "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "d9c93fff68e78308ba42db956fcfaeacba010ed829559a33e20e67d92d719fd0",
+     "sablon": 1,
+     "sha256": "d0fba793ed57ae00f4f601e4b8060702105f267e6244fba3e07b5fd1a0daf4df",
+     "bayt": 1026850,
+     "sayfa": 12,
+     "dosya": "bt-065-mantik-kapilari-ve-boole-cebiri-s1-0-d0fba793.pdf",
      "yuklendi": "2026-09-28"
     }
    ]

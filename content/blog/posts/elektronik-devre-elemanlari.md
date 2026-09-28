@@ -259,7 +259,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 
 **Boole cebiri.** Mantık devrelerinin matematiği George Boole'a dayanır. Boole 1854'te yayımladığı kitabında, aynı anlamdaki iki sembolün birleşiminin sembolün kendisine eşit olduğunu, yani xx = x, kısaca x² = x olduğunu sembollerin genel yasalarından biri olarak verdi.[@boole1854] Bu cebir yaklaşık seksen yıl sonra elektrik devrelerine taşındı. Claude Shannon, röle ve anahtar devrelerini denklemlerle gösterdi. Bu denklemleri işlemek için geliştirdiği hesabın, Boole'un mantık cebirine dayanan önermeler hesabının tam karşılığı olduğunu gösterdi.[@shannon1940] Ders tanımında adıyla geçen kurallardan biri De Morgan teoremidir: (A · B)' = A' + B' ve (A + B)' = A' · B'. Burada kesme işareti (') değil anlamına gelir.[@yok2018]
 
-**Mantık kapıları.** Boole işlemleri devrede kapılarla gerçekleştirilir. İzlencede yedi temel kapı yer alır: VE, VEYA, DEĞİL, VE DEĞİL (NAND), VEYA DEĞİL (NOR), ÖZEL VEYA (XOR) ve ÖZEL VEYA DEĞİL (XNOR).[@hacettepe2024] Her kapı bir doğruluk tablosuyla tanımlanır. TTL ve CMOS devre aileleri ve bunların karşılaştırılması da izlencenin konuları arasındadır.[@hacettepe2024]
+**Mantık kapıları.** Boole işlemleri devrede kapılarla gerçekleştirilir; kapıların doğruluk tabloları, bütün Boole kuralları ve çözümlü örnekler [mantık kapıları ve Boole cebiri](/blog/mantik-kapilari-ve-boole-cebiri) yazısında. İzlencede yedi temel kapı yer alır: VE, VEYA, DEĞİL, VE DEĞİL (NAND), VEYA DEĞİL (NOR), ÖZEL VEYA (XOR) ve ÖZEL VEYA DEĞİL (XNOR).[@hacettepe2024] Her kapı bir doğruluk tablosuyla tanımlanır. TTL ve CMOS devre aileleri ve bunların karşılaştırılması da izlencenin konuları arasındadır.[@hacettepe2024]
 
 **Sadeleştirme.** Aynı işi yapan bir devrenin daha az kapıyla kurulması hem maliyeti hem hata olasılığını düşürür. Maurice Karnaugh 1953'te kombinasyonel mantık devrelerini verimli biçimde kurmak için harita yöntemini önerdi.[@karnaugh1953] Değişken sayısı arttığında haritalar zorlaşır; bu durumda Quine'ın 1952 ve McCluskey'in 1956 çalışmalarına dayanan tablo yöntemi kullanılır.[@quine1952][@mccluskey1956]
 
@@ -293,7 +293,7 @@ Tablo önemli bir ayrıntıyı gösteriyor. YÖK'ün ders tanımında yer alan d
 
 Bu yazı dersin haritasıdır. Her konu, çözümlü örnekler ve alıştırmalarla ayrı bir yazıda derinlemesine ele alınacak ve yayımlandıkça bu listeye bağlantı olarak eklenecek:[@hacettepe2024]
 
-1. Mantık kapıları ve Boole cebiri: doğruluk tabloları, Boole yasaları ve De Morgan teoremleri
+1. [Mantık kapıları ve Boole cebiri](/blog/mantik-kapilari-ve-boole-cebiri): doğruluk tabloları, Boole yasaları ve De Morgan teoremleri
 2. Ohm ve Kirchhoff yasaları: seri, paralel ve karışık devre çözümleri
 3. Sayı sistemleri, tümleyenler ve sayısal kodlar
 4. Karnaugh haritası ve Quine-McCluskey yöntemi
