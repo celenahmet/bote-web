@@ -1303,6 +1303,27 @@
      "yuklendi": "2026-09-28"
     }
    ]
+  },
+  "BT-063": {
+   "no": 63,
+   "slug": "dale-yasanti-konisi",
+   "baslik": "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "8fa62b4c068897bf1553457200b7de641ea3a2d31e3b9a7243579bdd1e9a2010",
+     "sablon": 1,
+     "sha256": "a1b64e1d0f6b3a8a8f7750c5cccfec76343b8033b23cfa0a01714266f03b288f",
+     "bayt": 1023271,
+     "sayfa": 13,
+     "dosya": "bt-063-dale-yasanti-konisi-s1-0-a1b64e1d.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
   }
  }
 }

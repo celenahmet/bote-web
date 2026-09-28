@@ -122,6 +122,34 @@ Başlık kuralı (Ahmet 27.09): kurum, program ve proje yazılarında başlık, 
 - Ahmet 27.09: **arama odaklı olmayan yazı yazılmaz.**
 - Yayınlanan (27.09): egitim-teknolojisi-nedir (15 kaynak, 6 TR hakemli) · dijital-okuryazarlik-nedir (15, 5 TR; DigComp 2.2 ve Maarif Modeli OB2 tam metinden) · mikro-ogretim-nedir (12, 4 TR; Remesh ve Çoban tam metinden) · kodlama-egitimi-nedir (12, 5 TR; Scherer 2019/2020 meta-analizleri, Şanlı-Alper tez dağılımı) · ters-yuz-sinif-nedir (12, 4 TR; Strelan, Låg-Sæle, van Alten, Kapur 46 meta-analiz tam metni, FLIP) · harmanlanmis-ogrenme-nedir (16, 6 TR; Staker-Horn 4 model tam metni, Müller-Mildenberger 2021 tam metni, YÖK usul ve esaslar: güncel oran yüzde 30 AKTS, 14.09.2022; eski yüzde 40 bilgisi GEÇERSİZ).
 - **dale-yasanti-konisi (27.09 ARA VERİLDİ, kaynaklar hazır):** arama talebi güçlü ("dale'nin yaşantı konisi", "kodlama", "kpss", "edgar dale öğrenme piramidi"). Doğrulananlar: Seels 1997 (ERIC ED409869 tam metin: somut-soyut sürekliliği, Dale "gerçekçi olan daha iyi" DEMEDİ, kavram öğrenimi); Stice 2009 ASEE (tam metin, 10.18260/1-2--5410: yüzdeler Dale'in değil, Socony-Vacuum el notu, ilk yayın Treichler 1967, Molenda'ya göre olası kaynak Texas Üniversitesi'nde petrol eğitimi yapan Paul John Phillips); Holbert-Karady 2008 ASEE PSW (tam metin, 10.18260/1-2-1153-52267: yüzdeler çalışmadan çalışmaya değişiyor); Subramony ve ark. 2014 (Educational Technology 54(6) 6-16, ERIC özeti); Lalley-Miller 2007 (Education 128(1) 64-79, ERIC özeti: koni süreklilik, hiyerarşi değil); Masters 2013 (Medical Teacher, özet); Letrud 2012, Letrud-Hernes 2016 ve 2018 (özetler). Türkçe hakemli (tam metin): Yılmaz-Tuncer 2020 (EİBD 11(21) 39-62: Hoban 1937 kökeni, 11 basamak, televizyon eklendi, dramatik katılım yerine dramatize yaşantı; başarı testinde fark yok, rubrikte var); Öztaş 2008 (Kastamonu Eğitim Dergisi 16(2) 543-556), Tayyar 2020 (AKAD 12(22) 75-85), Ortaakarsu-Sülün 2025 (Buca EFD 63, 81-117): üçü de yüzdeleri Çilenti (1979:40) ya da Demirel (2004:56-57) üzerinden "Texas Üniversitesi'nde (Philips) yapılan araştırma" diye aktarıyor; Stice'in Phillips izlemesiyle örtüşüyor, yazının özgün bölümü bu. Dale'in kitabı (archive.org) kısıtlı; 1946 on basamak adı yalnız ikincil kaynaktan, yazmadan önce bir tam metinden daha doğrula.
-- **Sıra:** dale-yasanti-konisi → stem-egitimi-nedir →
+- **dale-yasanti-konisi YAYINDA (28.09):** 17 kaynak, 4 TR hakemli; 11 basamak Öztaş 2008 Şekil 1'den (OCR); PDF BT-063. Doğrulama notu dogrulama-notlari/dale-yasanti-konisi.md.
+- **Eski sıra (28.09'da ders dizisi öne alındı):** stem-egitimi-nedir →
   web-2-0-araclari → yapay-zeka-okuryazarligi (egitimde-yapay-zeka yazısını derinleştirme kararıyla
   birlikte) → samr/assure. EAG 2026: OECD 29.09'da yayımlayınca.
+
+## 28.09.2026: Ders dizisi (Ahmet)
+Kaynak: Hacettepe BÖTE 2018 lisans programı (ebit.hacettepe.edu.tr/op_lisans-2018.html); izlenceler bilsis
+Bologna'dan (bilsis.hacettepe.edu.tr/oibs/bologna, BÖTE lisans birimi curSunit=780; ders ayrıntısı
+progCourseDetails.aspx?curCourse=<no>&lang=tr, BTE114 = 78042). Genel kültür dersleri yazılmaz.
+
+**Kural (Ahmet 28.09):** her ders için 1 genel ders yazısı + en az 2 derin açıklayıcı yazı (toplam en az 3),
+birbirine bağlı. Konu izlenceden ve kaynakçadan; öğrenci slaytlarından içerik ALINMAZ (yalnız konu fikri).
+Hocanın sunum bölüştürmesi kopyalanmaz; izlencedeki haftalık sıra ve konu bağımlılığı esas.
+
+**BTE 114 Elektronik Devre Elemanları** (2. yarıyıl, 3+0+0, 5 AKTS, izlence 25.04.2024):
+- İçerik (resmî): dirençler, kondansatörler, bobinler, diyot, transistör; ölçme aletleri; iletken/yalıtkan/yarı
+  iletken; DA, AA, seri, paralel, karışık devreler, Ohm, Kirchhoff, güç; sayı sistemleri, mantık kapıları,
+  Boolean (De Morgan, Karnaugh); sayısal devre tasarımı; sayıcılar; elektrik kazaları ve ilk yardım.
+- Haftalık plan sayısal ağırlıklı: sayı sistemleri, tümleyenler ve kodlar, TTL-CMOS, Boolean ve kapılar,
+  Karnaugh ve Quine-McCluskey, toplayıcı/çıkarıcı, kod çözücü/çoklayıcı, bellek ve PLD, flip-flop,
+  saklayıcı/sayıcı, DAC, ADC.
+- Yazılar: (1) genel ders yazısı; (2) derin: mantık kapıları ve Boolean cebiri; (3) derin: Ohm ve Kirchhoff
+  kanunları, seri-paralel devreler. Sonra: sayı sistemleri ve kodlar, diyot ve transistör, kondansatör ve
+  bobin, multimetre ve elektrik güvenliği, Karnaugh, kombinasyonel devreler, flip-flop ve sayıcılar, DAC/ADC.
+- Arama ölçümü (28.09, öneri/nedir): diyot 19/11, transistör 19/10, kondansatör 19/10, multimetre 17/8,
+  ohm kanunu 15/7, lojik devre 10/1, sayı sistemleri 10/1, karnaugh 10/1, seri paralel devre 10/1,
+  elektronik devre elemanları 11/1, mantık kapıları 5/1, boolean 4/1.
+
+**Diğer dersler için ölçüm (28.09):** medya okuryazarlığı 19/10, dijital vatandaşlık 19/10, algoritma ve akış
+şeması 19/10, robotik kodlama 19/10, siber zorbalık 18/10, bilişim etiği 17/10, nitel araştırma 18/10,
+infografik 18/11, eleştirel düşünme 18/9; ayrıntı sohbet kaydında.
