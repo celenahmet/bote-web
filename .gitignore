@@ -48,3 +48,6 @@ tools/.astro/
 tools/blog-app/.astro/
 tools/blog-app/.astro-cache/
 tools/blog-app/dist/
+
+# blog PDF uretimi (tools/pdf): gecici yazdirma sayfalari ve basilan PDFler
+/.pdf-yapim

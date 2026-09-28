@@ -88,6 +88,7 @@
 - [BÖTE - Staj İmkanları](https://bote.web.tr/internship): Staj, eğitim hayatı boyunca edinilen teorik bilgileri uygulamaya dökme imkanını sağlayan, iş hayatına ilk adımın atıldığı hazırlık dönemidir. Kariyer...
 - [BÖTE - Meslek Unvanları](https://bote.web.tr/jobtitle): BÖTE meslek unvanları: eğitim teknoloğu, bilişim teknolojileri uzmanı, yazılım uzmanı, bilgi işlem, akademisyen ve sosyal medya uzmanı gibi kamu ve özel sektör rolleri.
 - [BÖTE - Sosyal Medya](https://bote.web.tr/media): BÖTE&#x27;nin Instagram, YouTube ve LinkedIn hesapları: bölüm duyurularını, etkinlikleri ve paylaşımları sosyal medyadan takip edin.
+- [PDF Merkezi: BÖTE Blog Yazılarının PDF'leri](https://bote.web.tr/pdf): BÖTE blog yazılarının ücretsiz PDF'leri. Her belgenin kodu ve sürümü var; güncelliğini QR kodla ya da dosyayla doğrulayın.
 - [BÖTE - Site Haritası](https://bote.web.tr/site-map): bote.web.tr site haritası: bölüm tanıtımı, müfredat, meslek unvanları, staj, akreditasyon, üniversiteler, blog ve İngilizce sayfalara tek yerden ulaşın.
 
 ## English pages

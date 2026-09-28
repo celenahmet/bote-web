@@ -15,6 +15,8 @@ import { citation } from '../../../blog/cite.mjs';
 import { Code } from 'astro:components';
 // Ifade listesi TEK kaynaktan: sunucu da ayni dosyayi okur (api/_lib/etkilesim-core.js).
 import IFADELER from '../../../../api/_lib/ifadeler.json';
+// Yazinin PDF'i (28.09; tools/pdf): indirme sayfasina serit + surum gecmisi. Yalniz yayindaki surum varsa.
+import { V, boyut as pdfBoyut, pdfJs } from '../pdf.js';
 
 // Yazi sayfasi. list: onceki/sonraki ve ilgili yazilarin secildigi liste
 // (yayindakiler ya da taslak onizlemeleri). preview: noindex taslak onizlemesi.
@@ -46,6 +48,9 @@ for (const h of tocItems) {
   else tocGroups.push({ ...h, subs: [] });
 }
 const url = blog.abs(post.url);
+const pdfB = preview ? null : Object.entries(V.oku().belgeler).find(([, b]) => b.slug === post.slug);
+const pdfSurumler = pdfB ? V.yayindaki(pdfB[1]) : [];
+const pdf = pdfSurumler.length ? { kd: pdfB[0], s: pdfSurumler.at(-1), liste: [...pdfSurumler].reverse() } : null;
 // "Bu yaziya atif" ve "Sitene gom" (APA 7 + BibTeX; tum bicimler tek kaynaktan).
 const cite = citation(post, blog);
 const ld = { '@context': 'https://schema.org', '@graph': [
@@ -103,6 +108,21 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       <div class="prose">
         {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
         <Fragment set:html={intro} />
+        {pdf && (
+          <aside class="post-pdf" aria-label="Bu yazının PDF'i">
+            <div class="post-pdf-ust">
+              <Icon name="file-text" size={26} />
+              <div class="post-pdf-bilgi"><strong>{V.pdfAdi(post.title)}</strong>
+                <span>{pdf.kd} · Sürüm {pdf.s.surum} · {pdf.s.sayfa} sayfa · {pdfBoyut(pdf.s.bayt)} · ücretsiz<span data-pdf-indirme={pdf.kd} data-onek=" · " hidden></span></span></div>
+              {/* Yeni sekmede (Ahmet 28.09): okuyucu yaziyi kaybetmesin. */}
+              <a class="pdf-dugme" href={V.indirmeYolu(post.slug)} target="_blank" rel="noopener"><Icon name="download" size={16} />PDF indir</a>
+            </div>
+            {pdf.liste.length === 1
+              ? <p class="post-pdf-not">İlk sürüm ({V.trTarih(pdf.s.tarih)}); henüz değişiklik yok. Bir düzeltme yapılırsa burada ve <a href="/pdf">PDF Merkezi</a>'nde duyurulur. <a href={V.dogrulamaYolu(pdf.kd)}>Belgeyi doğrula</a></p>
+              : <details><summary>Sürüm geçmişi ({pdf.liste.length})</summary><ul>{pdf.liste.map((x) => <li><strong>Sürüm {x.surum}</strong> · {V.trTarih(x.tarih)} · {V.TURLER[x.tur]}: {x.not}</li>)}</ul>
+                  <p><a href={V.dogrulamaYolu(pdf.kd)}>Belgeyi doğrula</a> · <a href="/pdf">PDF Merkezi</a></p></details>}
+          </aside>
+        )}
         <nav class="toc-card" aria-labelledby="icindekiler">
           <h2 id="icindekiler" class="toc-card-title"><Icon name="list" size={17} />İçindekiler</h2>
           <ol class="toc-groups">{tocGroups.map((g, gi) => (
@@ -238,6 +258,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           <p class="bs-yorum-durum" role="status" aria-live="polite"></p>
         </section>
         <script is:inline src="/blog/etkilesim.js" defer></script>
+        {pdf && <script is:inline src={pdfJs} defer></script>}
       </div>
       {related.length > 0 && (
         <section class="related" aria-labelledby="ilgili">

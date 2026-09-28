@@ -1,0 +1,50 @@
+---
+// Indirme sayfasi (28.09): 10 sn bekleme + UniConnectly, 60 sn'de yeniden hazirla. noindex, reklamsiz.
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { loadBlog } from '../../lib.js';
+import { V, veri, boyut, gecmisTablosu, ucKarti, esc, BEKLEME, pdfJs } from '../../pdf.js';
+export function getStaticPaths() {
+  return veri().belgeler.map((x) => ({ params: { slug: x.b.slug }, props: { kd: x.kd } }));
+}
+const { kd } = Astro.props;
+const blog = loadBlog();
+const b = V.oku().belgeler[kd];
+const s = V.yayindaki(b).at(-1);
+const p = blog.posts.find((x) => x.slug === b.slug);
+const path = V.indirmeYolu(b.slug);
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'PDF Merkezi', url: '/pdf' }, { name: b.baslik, url: path }];
+const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: `${b.baslik} PDF`, url: blog.abs(path), inLanguage: 'tr-TR' };
+---
+<Base title={`${V.pdfAdi(b.baslik)} İndir`.length > 65 ? `${kd} PDF İndir` : `${V.pdfAdi(b.baslik)} İndir`} description={`${b.baslik}: ücretsiz PDF, ${kd} Sürüm ${s.surum}, ${s.sayfa} sayfa.`}
+  path={path} image={p?.image || blog.blogImage} ld={ld} noindex={true} current="pdf" ads={false}>
+  <section class="wrap index-head"><Crumbs items={trail} /></section>
+  <div class="wrap pdf-indirme">
+    <div class="pdf-belge">
+      {p?.image && <img class="pdf-kapak" src={p.image.src} alt="" width={p.image.width} height={p.image.height} decoding="async" />}
+      <p class="pdf-ust-etiket">PDF · {kd} · Sürüm {s.surum}</p>
+      <h1>{b.baslik}</h1>
+      <dl class="pdf-kunye">
+        <dt>Belge kodu</dt><dd>{kd}</dd>
+        <dt>Sürüm</dt><dd>{s.surum} · {V.trTarih(s.tarih)}</dd>
+        <dt>Sayfa</dt><dd>{s.sayfa} sayfa, A4</dd>
+        <dt>Boyut</dt><dd>{boyut(s.bayt)}</dd>
+        <div data-pdf-indirme-kutu hidden><dt>İndirme</dt><dd data-pdf-indirme={kd}></dd></div>
+        <dt>Yayımlayan</dt><dd>bote.web.tr</dd>
+      </dl>
+      <p class="pdf-ucretsiz">Bu belge tamamen ücretsizdir. Size satmaya çalışanlara itibar etmeyiniz.</p>
+      <p class="pdf-baglantilar"><a href={b.slug && p ? p.url : '/blog'}>Yazıyı sitede oku</a><a href={V.dogrulamaYolu(kd)}>Belgeyi doğrula</a><a href="/pdf">Bütün PDF'ler</a></p>
+    </div>
+    <div class="pdf-bekleme" data-pdf-bekle={BEKLEME}>
+      <div class="pdf-sayac-kutu">
+        <div class="pdf-sayac" aria-hidden="true"><svg viewBox="0 0 44 44"><circle cx="22" cy="22" r="19"></circle><circle class="pdf-sayac-ilerle" cx="22" cy="22" r="19"></circle></svg><span data-pdf-kalan>{BEKLEME}</span></div>
+        <p class="pdf-bekle-metin" data-pdf-bekle-metin aria-live="polite">PDF'iniz hazırlanıyor. İndirme bağlantısı <strong>{BEKLEME} saniye</strong> içinde açılacak.</p>
+        <a class="pdf-dugme pdf-indir" href={V.medyaAdresi(s.dosya)} data-pdf-indir rel="nofollow">PDF'i indir ({boyut(s.bayt)})</a>
+        <button type="button" class="pdf-dugme-ikincil pdf-yeniden" data-pdf-yeniden hidden>Yeniden hazırla</button>
+      </div>
+      <Fragment set:html={ucKarti(blog, `pdf-indir-${kd.toLowerCase()}`)} />
+    </div>
+    <section class="pdf-gecmis"><h2>Sürüm geçmişi</h2><Fragment set:html={gecmisTablosu(kd, b)} /></section>
+  </div>
+  <script is:inline src={pdfJs} defer></script>
+</Base>

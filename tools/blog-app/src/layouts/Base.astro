@@ -4,7 +4,9 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { loadBlog } from '../lib.js';
 
-const { title, description, path, image, imageAlt, type = 'website', ld, noindex = false, slug, progress = false, current = '', mdAlt } = Astro.props;
+// ads=false: PDF indirme ve dogrulama sayfalarinda Google reklami yuklenmez (28.09: dugme odakli,
+// icerigi az sayfalarda AdSense politikasi riski; bekleme ekraninda yalniz kendi tanitimimiz).
+const { title, description, path, image, imageAlt, type = 'website', ld, noindex = false, slug, progress = false, current = '', mdAlt, ads = true } = Astro.props;
 const blog = loadBlog();
 const url = blog.abs(path);
 const img = blog.abs(image.src);
@@ -41,7 +43,7 @@ const adsense = blog.cfg.ads.adsense.client;
 <meta name="twitter:image" content={img}>
 <slot name="head" />
 <script is:inline>(function(){var d=document.documentElement;d.setAttribute('data-js','');try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');if(localStorage.getItem('bote-cites')==='on')d.setAttribute('data-cites','on');if(localStorage.getItem('bote-backrefs')==='on')d.setAttribute('data-backrefs','on')}catch(e){}})();</script>
-{adsense && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsense}`} crossorigin="anonymous"></script>}
+{adsense && ads && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsense}`} crossorigin="anonymous"></script>}
 <script type="application/ld+json" set:html={JSON.stringify(ld).replace(/</g, '\\u003c')} />
 </head>
 <body data-slug={slug}>

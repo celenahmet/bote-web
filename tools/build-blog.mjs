@@ -67,9 +67,16 @@ const out = new Map(); // depo yolu -> icerik
     const full = path.join(dir, e.name);
     const r = rel ? `${rel}/${e.name}` : e.name;
     if (e.isDirectory()) walk(full, r);
-    else out.set(`blog/${r}`, fs.readFileSync(full));
+    // PDF merkezi (/pdf) ve belge dogrulama (/d) kok adreste (28.09, Ahmet: "yollar ayni olsun,
+    // bote.web.tr/pdf /d"); diger her sey blog/ altinda.
+    else out.set(/^(pdf|d)\//.test(r) ? r : `blog/${r}`, fs.readFileSync(full));
   }
 })(astroOut, '');
+// PDF surum defteri: kaynak content/pdf/kayit.json (tools/pdf/uret.mjs yazar), yayinda /pdf/kayit.json.
+{
+  const kayit = path.join(ROOT, 'content/pdf/kayit.json');
+  if (fs.existsSync(kayit)) out.set('pdf/kayit.json', fs.readFileSync(kayit));
+}
 fs.rmSync(astroOut, { recursive: true, force: true });
 out.set('api/_lib/posts.json', `${JSON.stringify(posts.map((p) => p.slug))}\n`);
 
@@ -136,7 +143,9 @@ function pageInfo(rel, html) {
   };
 }
 const legacy = [];
-for (const rel of deployedFiles(ROOT).filter((f) => f.endsWith('.html') && !f.startsWith('blog/') && f !== '404.html' && !/^google[0-9a-f]+\.html$/.test(f))) {
+// /pdf ve /d bu derlemede uretilir; ilk derlemede diskte olmasalar da haritaya girsinler.
+const kokSayfalar = [...new Set([...deployedFiles(ROOT), ...[...out.keys()].filter((k) => /^(pdf|d)\/.*\.html$/.test(k))])];
+for (const rel of kokSayfalar.filter((f) => f.endsWith('.html') && !f.startsWith('blog/') && f !== '404.html' && !/^google[0-9a-f]+\.html$/.test(f))) {
   // Bu derlemede uretilen sayfa varsa guncel hali okunur (--check kararli kalsin)
   const info = pageInfo(rel, out.has(rel) ? String(out.get(rel)) : fs.readFileSync(path.join(ROOT, rel), 'utf8'));
   if (/noindex/i.test(info.robots)) continue;
@@ -230,14 +239,17 @@ if (cfg.ads.adsense.client) out.set('ads.txt', `google.com, ${cfg.ads.adsense.cl
 // ---------------------------------------------------------------- yaz / denetle
 const managedRoot = ['sitemap.xml', 'llms.txt', 'llms-full.txt', 'api/_lib/posts.json', 'site-map/index.html', 'en/site-map/index.html', 'graduation/index.html', 'en/graduation/index.html'];
 function existingBlogFiles() {
+  // Uretici blog/ ile birlikte /pdf ve /d klasorlerini de yonetir (28.09).
   const res = [];
-  if (!fs.existsSync(path.join(ROOT, 'blog'))) return res;
-  (function walk(d) {
-    for (const e of fs.readdirSync(path.join(ROOT, d), { withFileTypes: true })) {
-      const rel = `${d}/${e.name}`;
-      if (e.isDirectory()) walk(rel); else res.push(rel);
-    }
-  })('blog');
+  for (const kok of ['blog', 'pdf', 'd']) {
+    if (!fs.existsSync(path.join(ROOT, kok))) continue;
+    (function walk(d) {
+      for (const e of fs.readdirSync(path.join(ROOT, d), { withFileTypes: true })) {
+        const rel = `${d}/${e.name}`;
+        if (e.isDirectory()) walk(rel); else res.push(rel);
+      }
+    })(kok);
+  }
   return res;
 }
 const stale = existingBlogFiles().filter((f) => !out.has(f));
@@ -266,6 +278,14 @@ if (CHECK) {
     for (const e of fs.readdirSync(full, { withFileTypes: true })) if (e.isDirectory()) prune(`${d}/${e.name}`);
     if (d !== 'blog' && !fs.readdirSync(full).length) fs.rmdirSync(full);
   })('blog');
+  for (const kok of ['pdf', 'd']) {
+    (function prune(d) {
+      const full = path.join(ROOT, d);
+      if (!fs.existsSync(full)) return;
+      for (const e of fs.readdirSync(full, { withFileTypes: true })) if (e.isDirectory()) prune(`${d}/${e.name}`);
+      if (!fs.readdirSync(full).length) fs.rmdirSync(full);
+    })(kok);
+  }
   console.log(`blog uretildi: ${posts.length} yazi${DRAFTS ? ' (TASLAKLAR DAHIL — commit etmeyin, `npm run build` ile geri alin)' : ''}, ${drafts.length} taslak; ${changed.length} dosya yazildi, ${stale.length} silindi`);
   if (managedRoot.some((m) => changed.includes(m))) console.log(`  guncellenen kok dosyalar: ${managedRoot.filter((m) => changed.includes(m)).join(', ')}`);
 }

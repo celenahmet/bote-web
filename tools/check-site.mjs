@@ -94,7 +94,11 @@ for (const [p, pg] of pages) {
     descs.set(desc, p);
   }
   const robots = root.querySelector('meta[name="robots"]')?.getAttribute('content') || '';
-  if (/noindex/i.test(robots)) err(where, 'noindex (yayindaki sayfa indekslenebilir olmali)');
+  // PDF indirme (/pdf/<yazi>) ve belge dogrulama (/d...) sayfalari BILEREK noindex (28.09): ince, dugme odakli
+  // sayfalar; arama yaziya ve PDF merkezine (/pdf) gelsin.
+  const bilerekNoindex = p.startsWith('/pdf/') || p === '/d' || p.startsWith('/d/');
+  if (/noindex/i.test(robots)) { if (!bilerekNoindex) err(where, 'noindex (yayindaki sayfa indekslenebilir olmali)'); }
+  else if (bilerekNoindex) err(where, 'PDF indirme/dogrulama sayfasi noindex olmali');
   else indexable.add(p);
   const canon = root.querySelectorAll('link[rel="canonical"]');
   if (canon.length !== 1) err(where, `canonical sayisi ${canon.length}`);

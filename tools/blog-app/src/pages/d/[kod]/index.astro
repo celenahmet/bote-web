@@ -1,0 +1,34 @@
+---
+// Belgenin surumleri ve durumu (28.09). noindex, reklamsiz.
+import Base from '../../../layouts/Base.astro';
+import Crumbs from '../../../components/Crumbs.astro';
+import { loadBlog } from '../../../lib.js';
+import { V, veri, gecmisTablosu, dosyaDenetimi, pdfJs } from '../../../pdf.js';
+export function getStaticPaths() {
+  return veri().belgeler.map((x) => ({ params: { kod: V.kodYol(x.kd) }, props: { kd: x.kd } }));
+}
+const { kd } = Astro.props;
+const blog = loadBlog();
+const b = V.oku().belgeler[kd];
+const s = V.yayindaki(b).at(-1);
+const p = blog.posts.find((x) => x.slug === b.slug);
+const path = V.dogrulamaYolu(kd);
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'PDF Merkezi', url: '/pdf' }, { name: 'Belge doğrulama', url: '/d' }, { name: kd, url: path }];
+const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: kd, url: blog.abs(path), inLanguage: 'tr-TR' };
+---
+<Base title={`${kd} · Belge doğrulama`} description={`${kd} ${b.baslik} PDF'inin sürümleri ve güncelliği.`}
+  path={path} image={p?.image || blog.blogImage} ld={ld} noindex={true} current="pdf" ads={false}>
+  <section class="wrap index-head"><Crumbs items={trail} /></section>
+  <div class="wrap pdf-dogrula">
+    <p class="pdf-ust-etiket">{kd} · Yazı {b.no}</p>
+    <h1>{b.baslik}</h1>
+    <div class="pdf-sonuc pdf-sonuc-guncel pdf-sonuc-kucuk">
+      <div><strong>Güncel sürüm: {s.surum}</strong><span>{V.trTarih(s.tarih)} · {s.sayfa} sayfa · içerik izi {V.parmakIzi(s.icerik)}<span data-pdf-indirme={kd} data-onek=" · " hidden></span></span></div>
+      <a class="pdf-dugme" href={V.indirmeYolu(b.slug)}>Güncel sürümü indir</a>
+    </div>
+    <section class="pdf-gecmis"><h2>Sürüm geçmişi</h2><Fragment set:html={gecmisTablosu(kd, b)} /></section>
+    <Fragment set:html={dosyaDenetimi()} />
+    <p class="pdf-liste-bag">{p && <a href={p.url}>Yazıyı sitede oku</a>} · <a href="/pdf">Güncel listeler: PDF Merkezi</a></p>
+  </div>
+  <script is:inline src={pdfJs} defer></script>
+</Base>

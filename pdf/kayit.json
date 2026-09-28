@@ -1,0 +1,1308 @@
+{
+ "aciklama": "bote.web.tr blog PDF sürüm defteri. Her belge (BT-NNN) için yayımlanan sürümler, dosyaların SHA-256 özetleri ve değişiklik notları. Doğrulama: https://bote.web.tr/d/",
+ "sablon": 1,
+ "belgeler": {
+  "BT-001": {
+   "no": 1,
+   "slug": "ags-nedir",
+   "baslik": "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "23df0a16a57565fb67f9d166340326861fa782038e684525aa685ccb57353134",
+     "sablon": 1,
+     "sha256": "bf112ea6041c12eef4c124567402a9263448e7611622947f398e896050b1c1f2",
+     "bayt": 895724,
+     "sayfa": 6,
+     "dosya": "bt-001-ags-nedir-s1-0-bf112ea6.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-002": {
+   "no": 2,
+   "slug": "bilgi-islemsel-dusunme-nedir",
+   "baslik": "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "bf4ecffa097cb4c989c7ad7637885313a3468ce0c25ff9b5fe2a35abf6594e42",
+     "sablon": 1,
+     "sha256": "633f84372132bf2b4b3b049c677b506371f29db39e34c48d055ea762c8c5d295",
+     "bayt": 933426,
+     "sayfa": 7,
+     "dosya": "bt-002-bilgi-islemsel-dusunme-nedir-s1-0-633f8437.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-003": {
+   "no": 3,
+   "slug": "bilgisayar-ogretmeni-nasil-olunur",
+   "baslik": "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası",
+   "kategori": "Kariyer",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "85ace414d362ff1678a7370ec4c201d8f1af1343b5c38b49ecdf0279f0d90cd1",
+     "sablon": 1,
+     "sha256": "d068a81feff2496f37e2837f491c38e7215e0088d30359df65df53b3d2bb0a5e",
+     "bayt": 924392,
+     "sayfa": 7,
+     "dosya": "bt-003-bilgisayar-ogretmeni-nasil-olunur-s1-0-d068a81f.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-004": {
+   "no": 4,
+   "slug": "bilisim-teknolojileri-ve-yazilim-dersi",
+   "baslik": "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "362a563b4bcfdfa4b463461bd50423360c7736c6d24e2e82596dea67bc115fd0",
+     "sablon": 1,
+     "sha256": "1020a61eb4567cba4daaa56932705d626bfae432807f825866b45eae4eba12ce",
+     "bayt": 917615,
+     "sayfa": 7,
+     "dosya": "bt-004-bilisim-teknolojileri-ve-yazilim-dersi-s1-0-1020a61e.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-005": {
+   "no": 5,
+   "slug": "bote-mezunlari-ne-is-yapar",
+   "baslik": "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer",
+   "kategori": "Kariyer",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "a7e104cc032c9b0a54f77a4bdfb8c6d3150f2d431e1395bea888f036ac4c628f",
+     "sablon": 1,
+     "sha256": "46c3ea516141586b1b355965a1b3376690e9e01e042aaeec784dde3b4eefabb7",
+     "bayt": 952711,
+     "sayfa": 7,
+     "dosya": "bt-005-bote-mezunlari-ne-is-yapar-s1-0-46c3ea51.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-006": {
+   "no": 6,
+   "slug": "bote-mezunu-yazilimci-olabilir-mi",
+   "baslik": "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme",
+   "kategori": "Kariyer",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "a34766e0da3dd87d96fc6296213f8d1ffb530b7eb37bfa772261f2440fb8d163",
+     "sablon": 1,
+     "sha256": "1ccd4d07dc1f9f9b470d994511bd6d4b370fc39b7dd811423d83228d9d8a69a0",
+     "bayt": 876669,
+     "sayfa": 7,
+     "dosya": "bt-006-bote-mezunu-yazilimci-olabilir-mi-s1-0-1ccd4d07.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-007": {
+   "no": 7,
+   "slug": "bote-mi-bilgisayar-muhendisligi-mi",
+   "baslik": "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "eb2f7112a0b8c9d2994386b819cc3a0e94907727f089a35bab7323b16cb42543",
+     "sablon": 1,
+     "sha256": "fe753e31bc225fd180da0e2797f403de1f73e70d05ca1c057129f1e57fbc41fa",
+     "bayt": 886813,
+     "sayfa": 6,
+     "dosya": "bt-007-bote-mi-bilgisayar-muhendisligi-mi-s1-0-fe753e31.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-008": {
+   "no": 8,
+   "slug": "bote-nedir",
+   "baslik": "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "5da3099371ace5ce7eacfac7cb9e72cda469f4b37859e4ffa6236a7a4b4bd68f",
+     "sablon": 1,
+     "sha256": "3a36a16d63f457853c70856eb8003ad8b350adb382208e1cda6ff257b76ae62a",
+     "bayt": 970773,
+     "sayfa": 8,
+     "dosya": "bt-008-bote-nedir-s1-0-3a36a16d.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-009": {
+   "no": 9,
+   "slug": "bote-ogrenci-alimi-ve-gelecegi",
+   "baslik": "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış",
+   "kategori": "Yükseköğretim ve Politika",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "b7248a9c34e19ee028778eaf21766e5544e13710f78c67eb642df0222d452bd9",
+     "sablon": 1,
+     "sha256": "b85395466634c550360b987cce5c7d18f420e5f407eb8874548b5ea250f19d00",
+     "bayt": 949646,
+     "sayfa": 7,
+     "dosya": "bt-009-bote-ogrenci-alimi-ve-gelecegi-s1-0-b8539546.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-010": {
+   "no": 10,
+   "slug": "coklu-ortam-ogrenme-ilkeleri",
+   "baslik": "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "232eed1fcba3741af0355bc6887893f73e665efb888f56addcc8167185870cbc",
+     "sablon": 1,
+     "sha256": "6e7b074f8c1b4193a0b2bec302c720ff909d9eda2a50c1c5dc4b40b010fbc39f",
+     "bayt": 974667,
+     "sayfa": 10,
+     "dosya": "bt-010-coklu-ortam-ogrenme-ilkeleri-s1-0-6e7b074f.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-011": {
+   "no": 11,
+   "slug": "digcompedu-nedir",
+   "baslik": "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "7fe92653a5b0f56c04930be1164b651aadbbcd71f6402dd9cdbfd678755a9395",
+     "sablon": 1,
+     "sha256": "f3532ff4e7f35553abe5d8cc3aa7c4bd113c0a23626ade80f0f4f79ad71f068e",
+     "bayt": 899923,
+     "sayfa": 7,
+     "dosya": "bt-011-digcompedu-nedir-s1-0-f3532ff4.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-012": {
+   "no": 12,
+   "slug": "dunyada-ogretmen-acigi",
+   "baslik": "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?",
+   "kategori": "Yükseköğretim ve Politika",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "38c2646ca4e06b51e9fd0c64dbd94147cd04ff8ad1d6e6d696a0f722aa2d6667",
+     "sablon": 1,
+     "sha256": "60f65cef2cf0442ea3802615a5234a94dcb7beb62cb1edc62219fd1cc66a212c",
+     "bayt": 888638,
+     "sayfa": 6,
+     "dosya": "bt-012-dunyada-ogretmen-acigi-s1-0-60f65cef.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-013": {
+   "no": 13,
+   "slug": "egitim-fakultesi-akreditasyon-epdad",
+   "baslik": "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "36e567211bf370637697ab0945c786eb4a9351059a37228060183b33ee2e2032",
+     "sablon": 1,
+     "sha256": "ea0e1692668889b596ecf614eb3988d536e9a05e9bc90e3c03d05386bc464607",
+     "bayt": 858441,
+     "sayfa": 6,
+     "dosya": "bt-013-egitim-fakultesi-akreditasyon-epdad-s1-0-ea0e1692.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-014": {
+   "no": 14,
+   "slug": "egitim-fakultesi-bolumleri",
+   "baslik": "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "8c49888c5f2ce5d2d594d13738c3085a2a2cd430452d44cab61864c5f2b9710d",
+     "sablon": 1,
+     "sha256": "11a1f69c2501d8289d01e4f936a2d5448101d65a38cf51d961532beebb459546",
+     "bayt": 891770,
+     "sayfa": 6,
+     "dosya": "bt-014-egitim-fakultesi-bolumleri-s1-0-11a1f69c.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-015": {
+   "no": 15,
+   "slug": "egitim-fakultesi-mi-fen-edebiyat-mi",
+   "baslik": "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "ac7603e790c16e67911b95f05229b9c0768f3b6cffb6b43321c1156b3aff97de",
+     "sablon": 1,
+     "sha256": "c160722ffb078de1729a33193a0020aab0c46bc3ec10825f8696e7c3f4957453",
+     "bayt": 878921,
+     "sayfa": 6,
+     "dosya": "bt-015-egitim-fakultesi-mi-fen-edebiyat-mi-s1-0-c160722f.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-016": {
+   "no": 16,
+   "slug": "egitim-fakultesi-ve-ogretmen-yetistirme",
+   "baslik": "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "da8029c6c89dbd3308d944672dbcfb4ec393bcebb8219d17537f3fdecc19528f",
+     "sablon": 1,
+     "sha256": "83234bfd3b8bba35abd5f08d585e7dd899a0ec17945f84e2d48f3273a6e9386b",
+     "bayt": 942955,
+     "sayfa": 7,
+     "dosya": "bt-016-egitim-fakultesi-ve-ogretmen-yetistirme-s1-0-83234bfd.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-017": {
+   "no": 17,
+   "slug": "egitim-fakultesi-erasmus",
+   "baslik": "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "d5cbae55079a7027a549134c673133dcc649e3efcb63c4e4981cee95186289ab",
+     "sablon": 1,
+     "sha256": "914610d52421a519f9ce5bd4a93b32727628e40c933d73b2eb53b8e3310e29a7",
+     "bayt": 862036,
+     "sayfa": 6,
+     "dosya": "bt-017-egitim-fakultesi-erasmus-s1-0-914610d5.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-018": {
+   "no": 18,
+   "slug": "egitimde-yapay-zeka-ogretmenler-icin",
+   "baslik": "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "b161c554bd3f58ab0ca759992cc5710c6297684b3b5bffb8da1a90d1bd8d2d15",
+     "sablon": 1,
+     "sha256": "c2c95f76a6aae5417f0f851fff56cc7ee5d396c3f45ac825aac2b77b3b688e33",
+     "bayt": 937470,
+     "sayfa": 7,
+     "dosya": "bt-018-egitimde-yapay-zeka-ogretmenler-icin-s1-0-c2c95f76.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-019": {
+   "no": 19,
+   "slug": "finlandiya-ogretmen-yetistirme-modeli",
+   "baslik": "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "fb464c801c8960fbfd1c0323745698d751cadb017a0dd2c752194abf3492b59b",
+     "sablon": 1,
+     "sha256": "c6e41b85a2d48c7d920efa99a17854cc929573a7e7949e27d33b5047553dfc8c",
+     "bayt": 869609,
+     "sayfa": 6,
+     "dosya": "bt-019-finlandiya-ogretmen-yetistirme-modeli-s1-0-c6e41b85.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-020": {
+   "no": 20,
+   "slug": "iste-standartlari-nedir",
+   "baslik": "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "19f58319771aae128bf2e642edf2f51f3c1240f9f669ed68e57422314ba7db70",
+     "sablon": 1,
+     "sha256": "95979aca96f78c69b286e6d78dabba91d2d2a9c2c172e30f1908d63d8f1c2874",
+     "bayt": 885542,
+     "sayfa": 7,
+     "dosya": "bt-020-iste-standartlari-nedir-s1-0-95979aca.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-021": {
+   "no": 21,
+   "slug": "milli-egitim-akademisi-hazirlik-egitimi",
+   "baslik": "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "287714101e6eb92f9b73dc9768dcea49c4cab0875d5490388d41a913e1485d60",
+     "sablon": 1,
+     "sha256": "56a215c8bc918409f4f6fd4e0248c594d96e78269fb8137428693a1d0a23e95a",
+     "bayt": 897063,
+     "sayfa": 6,
+     "dosya": "bt-021-milli-egitim-akademisi-hazirlik-egitimi-s1-0-56a215c8.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-022": {
+   "no": 22,
+   "slug": "oyunlastirma-nedir",
+   "baslik": "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "704bb4fdad086e7a5c9538a7dd9858b7c6adf17965a8a5667e6c1bf2fdb5689c",
+     "sablon": 1,
+     "sha256": "3652c68971bb27a368812990b0a3e96de7c877d544bf1598c5c122479deab366",
+     "bayt": 936828,
+     "sayfa": 9,
+     "dosya": "bt-022-oyunlastirma-nedir-s1-0-3652c689.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-023": {
+   "no": 23,
+   "slug": "ogrenme-yonetim-sistemi-lms-nedir",
+   "baslik": "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "8374efc1c2225432b45df37d23f9057d418378eeba929f370d16f52bb1201d2a",
+     "sablon": 1,
+     "sha256": "4a4556cc9c1511f36b4bbb1cba60ef6113c8cd17ebbfc7859473b8321d848dde",
+     "bayt": 904587,
+     "sayfa": 6,
+     "dosya": "bt-023-ogrenme-yonetim-sistemi-lms-nedir-s1-0-4a4556cc.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-024": {
+   "no": 24,
+   "slug": "ogretim-tasarimcisi-ne-is-yapar",
+   "baslik": "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu",
+   "kategori": "Kariyer",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "961afaa2ba0eaab578ef73212b01e57884dda457331a51ab4e9f94ab9f95c7f1",
+     "sablon": 1,
+     "sha256": "b2bbcb56c0e44c3701b0c71273418d5b81a8394bc054f64e9e66ab0d028aa853",
+     "bayt": 884079,
+     "sayfa": 6,
+     "dosya": "bt-024-ogretim-tasarimcisi-ne-is-yapar-s1-0-b2bbcb56.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-025": {
+   "no": 25,
+   "slug": "ogretim-tasarimi-addie-modeli",
+   "baslik": "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "7f551b1ba289ba1aeaac77be301bdfaa2c3c5aef5b356d6b4d488389069278cd",
+     "sablon": 1,
+     "sha256": "b85948131d0a4bf1c772f4f6e396cdeae61db0156237d76bce9cdfc6030c351f",
+     "bayt": 998775,
+     "sayfa": 11,
+     "dosya": "bt-025-ogretim-tasarimi-addie-modeli-s1-0-b8594813.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-026": {
+   "no": 26,
+   "slug": "ogretim-teknolojileri-dersi",
+   "baslik": "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "c23250f9b35d397ee2fd54ecdf55a7f2ed137326fed6d5a2575d265b2f58a58c",
+     "sablon": 1,
+     "sha256": "b43d22c665c75d583a847a185f18031524709d439fd48cc005de46e3d4f0c5d2",
+     "bayt": 899082,
+     "sayfa": 6,
+     "dosya": "bt-026-ogretim-teknolojileri-dersi-s1-0-b43d22c6.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-027": {
+   "no": 27,
+   "slug": "ogretmenlik-meslegi-kanunu-7528",
+   "baslik": "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "a4bb8d62fc5d40bce61826799a0ffb70fb7b179272cb1e191b5d921edde92019",
+     "sablon": 1,
+     "sha256": "6826ab7ff5d2cdabb9c0cde10bbd71d5e7de810e3940cc53d0f6245cea3ef112",
+     "bayt": 918165,
+     "sayfa": 6,
+     "dosya": "bt-027-ogretmenlik-meslegi-kanunu-7528-s1-0-6826ab7f.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-028": {
+   "no": 28,
+   "slug": "ogretmenlik-meslegi-sayginligi",
+   "baslik": "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?",
+   "kategori": "Yükseköğretim ve Politika",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "42d5ac41e51aa588d5be6f8a6f5ad50d5ee153903ebd217e6c87d5e751f9956a",
+     "sablon": 1,
+     "sha256": "00cfb51e1a75ca6386157e7a113afb9cc1802278fa35240d2e2dd21e126f7801",
+     "bayt": 888426,
+     "sayfa": 6,
+     "dosya": "bt-028-ogretmenlik-meslegi-sayginligi-s1-0-00cfb51e.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-029": {
+   "no": 29,
+   "slug": "ogretmenlik-meslek-bilgisi-dersleri",
+   "baslik": "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "b801a0f22f81eaa1a560937d816efe26a7e9e89fb0e8b15b6d1bcd5725b25c6e",
+     "sablon": 1,
+     "sha256": "a1a784044dec66fe9e7e60b76590702506afbcc9eab1a12fd91e765ef1ebd4bd",
+     "bayt": 896534,
+     "sayfa": 7,
+     "dosya": "bt-029-ogretmenlik-meslek-bilgisi-dersleri-s1-0-a1a78404.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-030": {
+   "no": 30,
+   "slug": "ogretmenlik-uygulamasi-nedir",
+   "baslik": "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "483d3235d8abf858b20805a9c9c92de69d1c51b46c9ba82306505e97f89f8dc8",
+     "sablon": 1,
+     "sha256": "340b75732c4ca715fc40d0f9a677f7821eb08610cf5407c82cba0c0b9018893b",
+     "bayt": 887556,
+     "sayfa": 6,
+     "dosya": "bt-030-ogretmenlik-uygulamasi-nedir-s1-0-340b7573.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-031": {
+   "no": 31,
+   "slug": "pedagojik-formasyon-kalkti-mi",
+   "baslik": "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "a7631f388aa61fa8eabe24a283a44ad8f1399ef6f71035be7b1fc0c3a86786a1",
+     "sablon": 1,
+     "sha256": "1d27bb490578fb8accb638edd91801afa84da98804748e553736be616401acd7",
+     "bayt": 907544,
+     "sayfa": 7,
+     "dosya": "bt-031-pedagojik-formasyon-kalkti-mi-s1-0-1d27bb49.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-032": {
+   "no": 32,
+   "slug": "tpack-modeli-nedir",
+   "baslik": "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "3144397ca8b8b0e0cf2a6843a77ea35a52e3ba6addeb51a2d797ed6b3492bd97",
+     "sablon": 1,
+     "sha256": "137f589335d9f34248fb5b88a5ac69c61dccbd774b7aa482cd61f1db506637ca",
+     "bayt": 1034660,
+     "sayfa": 11,
+     "dosya": "bt-032-tpack-modeli-nedir-s1-0-137f5893.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-033": {
+   "no": 33,
+   "slug": "uzaktan-egitim-nedir",
+   "baslik": "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "947b60e22d938edbcd03b5dd58ce43f3277c7df2c9c8723ae9d3cb1bb3574c6b",
+     "sablon": 1,
+     "sha256": "89d8f1a96ff478991b0e44ac4da52483e216f46b34079bf56c880907caaef092",
+     "bayt": 892963,
+     "sayfa": 7,
+     "dosya": "bt-033-uzaktan-egitim-nedir-s1-0-89d8f1a9.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-034": {
+   "no": 34,
+   "slug": "uzman-ogretmenlik-ve-basogretmenlik",
+   "baslik": "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları",
+   "kategori": "Eğitim Fakültesi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "395da4b2c2856a8b1d9d3af295f8848c4a00c0c7cffe8b1b050eb5ad5ede32b4",
+     "sablon": 1,
+     "sha256": "7e3538f7d7c12ec7ede406b7c28f09a47ff26852f24e2c6d7688f308eca50768",
+     "bayt": 873320,
+     "sayfa": 7,
+     "dosya": "bt-034-uzman-ogretmenlik-ve-basogretmenlik-s1-0-7e3538f7.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-035": {
+   "no": 35,
+   "slug": "bandura-sosyal-bilissel-kuram",
+   "baslik": "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "fee4ba55aec5040b5c04370a973ca22c751f5e08647063c8e00320cb43d0320f",
+     "sablon": 1,
+     "sha256": "f04ce48190200b12c39ef99934e3d74763f1a9935288919499bbd7233545170b",
+     "bayt": 1023596,
+     "sayfa": 13,
+     "dosya": "bt-035-bandura-sosyal-bilissel-kuram-s1-0-f04ce481.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-036": {
+   "no": 36,
+   "slug": "bilgiyi-isleme-kurami",
+   "baslik": "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "5ce05bb7ddad2448a5496f2454746e9c96e72ddd82609e6d27d4a09078a3cce8",
+     "sablon": 1,
+     "sha256": "bfa7c3c617a6f3d168b2567ab37543589064cccaadab0124b9b9f84a215f7800",
+     "bayt": 1022146,
+     "sayfa": 12,
+     "dosya": "bt-036-bilgiyi-isleme-kurami-s1-0-bfa7c3c6.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-037": {
+   "no": 37,
+   "slug": "bloom-taksonomisi",
+   "baslik": "Bloom Taksonomisi ve Yenilenmiş Taksonomi",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "766b2d55b8955e802096f1d67e3d532d22069dd7227a3f89cdae2a1cae41d35a",
+     "sablon": 1,
+     "sha256": "8bda63466c50cf70d8d5ecefca6e4aa6b41f4a9a37835bf2603b74f395d3384c",
+     "bayt": 995528,
+     "sayfa": 11,
+     "dosya": "bt-037-bloom-taksonomisi-s1-0-8bda6346.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-038": {
+   "no": 38,
+   "slug": "bronfenbrenner-ekolojik-sistemler-kurami",
+   "baslik": "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "475ac514a18837e5fe4ad640307ae4b2e51ca2d0ee41db299c9b5889b3f4dfa0",
+     "sablon": 1,
+     "sha256": "e1f98eef0a567dd2aaa1b05bdca723ee02c1a9126bf490983fad906fe026a475",
+     "bayt": 994980,
+     "sayfa": 11,
+     "dosya": "bt-038-bronfenbrenner-ekolojik-sistemler-kurami-s1-0-e1f98eef.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-039": {
+   "no": 39,
+   "slug": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari",
+   "baslik": "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "2954b7d4bfa14f4b694cdb56aa8e7392a17a0aa11ecaab695331fe5e98806c9f",
+     "sablon": 1,
+     "sha256": "9c1c0e382dc7fd8cf50f2ad9f482baab2bb6a6e5a7191884a50f831527335e36",
+     "bayt": 1039283,
+     "sayfa": 12,
+     "dosya": "bt-039-bruner-ausubel-gagne-bilissel-ogretim-kuramlari-s1-0-9c1c0e38.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-040": {
+   "no": 40,
+   "slug": "davranisci-ogrenme-kuramlari",
+   "baslik": "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "7a5f086d306bcf573041bbae51f2feaf34b3d7d26177abdedd5d91e4370fbee6",
+     "sablon": 1,
+     "sha256": "f8b8301eaa9bbcf8c5c3a5178b16836d540dce546bb564f90d8176f6c2c9b3e1",
+     "bayt": 1048296,
+     "sayfa": 14,
+     "dosya": "bt-040-davranisci-ogrenme-kuramlari-s1-0-f8b8301e.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-041": {
+   "no": 41,
+   "slug": "erikson-psikososyal-gelisim-kurami",
+   "baslik": "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "e35af263cfdbef18b3d050c3f3dd31f09b26485c087f7ac1a0964cb93c5bb831",
+     "sablon": 1,
+     "sha256": "414f1133ec15c23def8cbbbe82c8f417f8a303f30248dbedde9716761b8f778c",
+     "bayt": 988979,
+     "sayfa": 10,
+     "dosya": "bt-041-erikson-psikososyal-gelisim-kurami-s1-0-414f1133.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-042": {
+   "no": 42,
+   "slug": "coklu-zeka-kurami",
+   "baslik": "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "0aa361b1019ffeddcbf82fc13d3f056303ceea4803fecd3b0ad93bc14804118f",
+     "sablon": 1,
+     "sha256": "8ed73537b9cd84588e72cb6054f3271cb42890c0628044ab04093658e54b7c49",
+     "bayt": 993610,
+     "sayfa": 10,
+     "dosya": "bt-042-coklu-zeka-kurami-s1-0-8ed73537.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-043": {
+   "no": 43,
+   "slug": "kohlberg-ahlak-gelisimi-kurami",
+   "baslik": "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "4d3a57b206a024b4a99838a60f23fdaf9bd2d8ab8dab7efb0091b2c7071a1b0e",
+     "sablon": 1,
+     "sha256": "809518bb984700dd8da7d03eebc1a999c56ac87cdbb31689ab71cbacb7bbca7b",
+     "bayt": 981105,
+     "sayfa": 10,
+     "dosya": "bt-043-kohlberg-ahlak-gelisimi-kurami-s1-0-809518bb.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-044": {
+   "no": 44,
+   "slug": "piaget-bilissel-gelisim-kurami",
+   "baslik": "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "86dec73ba60f96ab0f2883ec1731d727fae6f94bf46cc6b1252aad2931f82a50",
+     "sablon": 1,
+     "sha256": "cd7ae027a45d10140523fc707eda3296f72863ddd92177ca0ee39ed7ab7a53c5",
+     "bayt": 1017499,
+     "sayfa": 11,
+     "dosya": "bt-044-piaget-bilissel-gelisim-kurami-s1-0-cd7ae027.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-045": {
+   "no": 45,
+   "slug": "tam-ogrenme-modeli",
+   "baslik": "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "0de13d0f28265f0fa4e2822251d04deb45b77d7684d420b971b791faed952900",
+     "sablon": 1,
+     "sha256": "1848c928376c95b834a70e4244d0c5d26e2317db298fdc25388c6b1735b2af88",
+     "bayt": 1003251,
+     "sayfa": 11,
+     "dosya": "bt-045-tam-ogrenme-modeli-s1-0-1848c928.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-046": {
+   "no": 46,
+   "slug": "vygotsky-sosyokulturel-kuram",
+   "baslik": "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "7d71c12a9d100d6861270d03966671b70cc5d14ebac686d0ce95e56f13086462",
+     "sablon": 1,
+     "sha256": "1a87607e700a0bf449d49b0c61348f523ae96561a6b04e2a0abf75d22723984f",
+     "bayt": 1021465,
+     "sayfa": 11,
+     "dosya": "bt-046-vygotsky-sosyokulturel-kuram-s1-0-1a87607e.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-047": {
+   "no": 47,
+   "slug": "yapilandirmacilik",
+   "baslik": "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "bf840ff02d547d93bfec3a7609860f1aed0228c6110e4eea518eefaeef1d4a7d",
+     "sablon": 1,
+     "sha256": "2327a2f73045e8bc08987ec48721a1132955e478038efcb9d2a2028b39bedbce",
+     "bayt": 1011827,
+     "sayfa": 11,
+     "dosya": "bt-047-yapilandirmacilik-s1-0-2327a2f7.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-048": {
+   "no": 48,
+   "slug": "dijital-okuryazarlik-nedir",
+   "baslik": "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "79af20a27b9ef05b20345f949f2fb9abb8fe3d8ec6bc2e8368b8913aa1ebb860",
+     "sablon": 1,
+     "sha256": "0cdd5233ef53de11c7abe12bbdf32722ab1a7544e46d3e9071cb11a49e2fc6a8",
+     "bayt": 964567,
+     "sayfa": 10,
+     "dosya": "bt-048-dijital-okuryazarlik-nedir-s1-0-0cdd5233.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-049": {
+   "no": 49,
+   "slug": "eba-nedir",
+   "baslik": "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "0c51260eca9d71f885c964c9598e55d677b42058e3e791f1cee66cd47ff19186",
+     "sablon": 1,
+     "sha256": "2f824fd27788612e71fd8708078eaf7b7046156ec21101a2fd70c0db059394ec",
+     "bayt": 953285,
+     "sayfa": 8,
+     "dosya": "bt-049-eba-nedir-s1-0-2f824fd2.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-050": {
+   "no": 50,
+   "slug": "egitim-teknolojisi-nedir",
+   "baslik": "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "85e4230640d898ddbf215d3e1338a105ec618a1bb744f1cc7a10266ab550e46e",
+     "sablon": 1,
+     "sha256": "0d434d86ca83baf0cb8afc2567cb968def4381864a5107741dc240b3b3519225",
+     "bayt": 969299,
+     "sayfa": 10,
+     "dosya": "bt-050-egitim-teknolojisi-nedir-s1-0-0d434d86.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-051": {
+   "no": 51,
+   "slug": "fatih-projesi-nedir",
+   "baslik": "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "2b4d16bb29acc676ac841b4bb93ecba769bdda0db0a0e7b6139aa44fa3ef2ca6",
+     "sablon": 1,
+     "sha256": "8c32e603747cc9d8d8acd4d3f002c8bc4cd7f2df32c96bc2691cd0d050eea42f",
+     "bayt": 941147,
+     "sayfa": 9,
+     "dosya": "bt-051-fatih-projesi-nedir-s1-0-8c32e603.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-052": {
+   "no": 52,
+   "slug": "freud-psikoseksuel-gelisim-kurami",
+   "baslik": "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "f6c65ee52768865bbbdfe572aab5eb3d588d7d7a79fc7021f8d531b87675aaaa",
+     "sablon": 1,
+     "sha256": "5590f7724da12ac088a1439285f4527d6788bee575ed5fa1d9e0a0121158dd62",
+     "bayt": 1008182,
+     "sayfa": 13,
+     "dosya": "bt-052-freud-psikoseksuel-gelisim-kurami-s1-0-5590f772.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-053": {
+   "no": 53,
+   "slug": "gudulenme-kuramlari",
+   "baslik": "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "b83e954f78d6bbfb12066392a9dc9a836c1fb261b26786decae6eec0d3a2a51e",
+     "sablon": 1,
+     "sha256": "32f170299ef441d1eae94d7273d35ca8998590bcc2845ffa6cfed5889ae9651f",
+     "bayt": 1000649,
+     "sayfa": 11,
+     "dosya": "bt-053-gudulenme-kuramlari-s1-0-32f17029.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-054": {
+   "no": 54,
+   "slug": "harmanlanmis-ogrenme-nedir",
+   "baslik": "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "c8c8892c226cdd53b6030e1a4af387f2519a3e05cda00f254df7d39af3a413df",
+     "sablon": 1,
+     "sha256": "e8b948d76616b6190b8a5dff6aebf39baa90f25cdf5262535a93deed674dedc7",
+     "bayt": 996204,
+     "sayfa": 11,
+     "dosya": "bt-054-harmanlanmis-ogrenme-nedir-s1-0-e8b948d7.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-055": {
+   "no": 55,
+   "slug": "kodlama-egitimi-nedir",
+   "baslik": "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "e00d7782faa67677fbae057cba07a0c8e179dcb8bbef62e1fa93133f2e0549a0",
+     "sablon": 1,
+     "sha256": "0bf37c44f9a2988037e8ec73b85a2e460dbd8cef144b045bae263813bfa623c7",
+     "bayt": 956210,
+     "sayfa": 10,
+     "dosya": "bt-055-kodlama-egitimi-nedir-s1-0-0bf37c44.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-056": {
+   "no": 56,
+   "slug": "mikro-ogretim-nedir",
+   "baslik": "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "339fc1af1d3cf486a64b7fdc655bc5981a3c37d0ccbd9901fc96ef70b492520d",
+     "sablon": 1,
+     "sha256": "0f97a97b96c6e5a297d7257a0b0af9f9d6f1fb6a3046a88d9ffa8a123ca98e8b",
+     "bayt": 963326,
+     "sayfa": 10,
+     "dosya": "bt-056-mikro-ogretim-nedir-s1-0-0f97a97b.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-057": {
+   "no": 57,
+   "slug": "oecd-nedir",
+   "baslik": "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü",
+   "kategori": "Uluslararası Eğitim",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "a3d788c51d9aff1a795eb7cf42aa92571a0360eb9b709ded4acf6dd3854c1585",
+     "sablon": 1,
+     "sha256": "f37d8678546bfeb21d17377dbe5a7f2a1704438e51f94e4596a97c557069ba4e",
+     "bayt": 949465,
+     "sayfa": 8,
+     "dosya": "bt-057-oecd-nedir-s1-0-f37d8678.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-058": {
+   "no": 58,
+   "slug": "pisa-2022-turkiye-sonuclari",
+   "baslik": "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik",
+   "kategori": "Uluslararası Eğitim",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "2f4803255683160808cc2e3d3bfdca113c9292cfd6178f9fea6e514b927197e6",
+     "sablon": 1,
+     "sha256": "a59eeb25b4b392114c0d96ad9787598ae35a8f686bdb569bf67765155211c137",
+     "bayt": 958323,
+     "sayfa": 9,
+     "dosya": "bt-058-pisa-2022-turkiye-sonuclari-s1-0-a59eeb25.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-059": {
+   "no": 59,
+   "slug": "pisa-nedir",
+   "baslik": "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?",
+   "kategori": "Uluslararası Eğitim",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "99833b37c4d01d92bf09bd22e84c595850631a77b049411160f5cf7867b499c8",
+     "sablon": 1,
+     "sha256": "a066ec64a2c24580459ff36ff4a15b54fbd807558802847d160fddb6af130074",
+     "bayt": 981633,
+     "sayfa": 11,
+     "dosya": "bt-059-pisa-nedir-s1-0-a066ec64.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-060": {
+   "no": 60,
+   "slug": "selman-sosyal-bakis-acisi-alma-kurami",
+   "baslik": "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları",
+   "kategori": "Eğitim Bilimleri ve Kuramlar",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "7dbcf06ed49b32a659ad7f2c72a729ac7f6a6debdcd6893a3c5c980c4baec4fd",
+     "sablon": 1,
+     "sha256": "12bb4c307f7268e0955618ecef50e208c343c2dad1c877908acdee2a36c50917",
+     "bayt": 991969,
+     "sayfa": 12,
+     "dosya": "bt-060-selman-sosyal-bakis-acisi-alma-kurami-s1-0-12bb4c30.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-061": {
+   "no": 61,
+   "slug": "talis-nedir",
+   "baslik": "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler",
+   "kategori": "Uluslararası Eğitim",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "a0e73b11872a0fe7aa0ef9d2ba63f566e49de1584d655158ab21e08ade66dbb5",
+     "sablon": 1,
+     "sha256": "ef7d5100cd3eb0988c8e13601369556e7dcf0dfdaee5db88b43343baa45dd44b",
+     "bayt": 973940,
+     "sayfa": 9,
+     "dosya": "bt-061-talis-nedir-s1-0-ef7d5100.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  },
+  "BT-062": {
+   "no": 62,
+   "slug": "ters-yuz-sinif-nedir",
+   "baslik": "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?",
+   "kategori": "Eğitim Teknolojileri",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-09-28",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "4f238b0f78f364c6a6244624045ccdc6fc2e89eb44507555f76a0af889691d97",
+     "sablon": 1,
+     "sha256": "bc2563a6e7837b60c9ab2329e53b4111bdb63aed7e191a7bf3877da3d4692cfb",
+     "bayt": 950511,
+     "sayfa": 9,
+     "dosya": "bt-062-ters-yuz-sinif-nedir-s1-0-bc2563a6.pdf",
+     "yuklendi": "2026-09-28"
+    }
+   ]
+  }
+ }
+}

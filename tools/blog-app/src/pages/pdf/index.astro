@@ -1,0 +1,48 @@
+---
+// PDF merkezi (28.09): arama, butun belgeler, duyurular, dogrulama. Indekslenir (sitemap'te).
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { loadBlog, orgLd, breadcrumbLd } from '../../lib.js';
+import { V, veri, boyut, duyurular, esc, pdfJs } from '../../pdf.js';
+const blog = loadBlog();
+const { belgeler } = veri();
+const path = '/pdf';
+const title = 'PDF Merkezi';
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: title, url: path }];
+const yazi = new Map(blog.posts.map((p) => [p.slug, p]));
+const gruplar = blog.categories.map((c) => ({ c, liste: belgeler.filter((x) => yazi.get(x.b.slug)?.category.slug === c.slug).sort((a, b) => a.b.no - b.b.no) })).filter((g) => g.liste.length);
+const satir = ({ kd, b, yayinda }) => {
+  const s = yayinda[yayinda.length - 1]; const p = yazi.get(b.slug);
+  const ara = [kd, kd.replace('-', ''), String(b.no), b.baslik, p?.category.name, ...(p?.tags || [])].join(' ').toLowerCase();
+  return `<li class="pdf-satir" data-ara="${esc(ara)}"><span class="pdf-kod">${esc(kd)}</span><div class="pdf-satir-ic"><a class="pdf-satir-baslik" href="${V.indirmeYolu(b.slug)}">${esc(b.baslik)}</a><span class="pdf-satir-kunye">Sürüm ${esc(s.surum)} · ${s.sayfa} sayfa · ${boyut(s.bayt)}<span data-pdf-indirme="${esc(kd)}" data-onek=" · " hidden></span></span></div><div class="pdf-satir-eylem"><a class="pdf-dugme" href="${V.indirmeYolu(b.slug)}">İndir</a><a class="pdf-dugme-ikincil" href="${V.dogrulamaYolu(kd)}">Doğrula</a></div></li>`;
+};
+const ld = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'CollectionPage', '@id': `${blog.abs(path)}#sayfa`, url: blog.abs(path), name: title, inLanguage: 'tr-TR', isAccessibleForFree: true,
+    publisher: { '@id': `${blog.SITE}/#org` },
+    mainEntity: { '@type': 'ItemList', numberOfItems: belgeler.length, itemListElement: [...belgeler].sort((a, b) => a.b.no - b.b.no).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: blog.abs(V.indirmeYolu(x.b.slug)), name: x.b.baslik })) } },
+  orgLd(blog), breadcrumbLd(blog, trail),
+] };
+---
+<Base title={`PDF Merkezi: BÖTE Blog Yazılarının PDF'leri`} description="BÖTE blog yazılarının ücretsiz PDF'leri. Her belgenin kodu ve sürümü var; güncelliğini QR kodla ya da dosyayla doğrulayın."
+  path={path} image={blog.blogImage} ld={ld} current="pdf" ads={false}>
+  <section class="wrap index-head">
+    <Crumbs items={trail} />
+    <h1>{title}</h1>
+    <p class="dek">Bütün yazıların ücretsiz PDF'leri. Her belgenin bir kodu ve sürümü var: bir hata düzeltildiğinde yeni sürüm yayımlanır, değişiklik aşağıda duyurulur. Elinizdeki belgenin güncel olup olmadığını QR kodla ya da dosyayla doğrulayabilirsiniz.</p>
+  </section>
+  <div class="wrap pdf-merkez">
+    <Fragment set:html={duyurular(belgeler, 5)} />
+    <div class="pdf-ara">
+      <label for="pdf-ara-girdi" class="sr-only">PDF ara</label>
+      <input id="pdf-ara-girdi" type="search" placeholder="Konu, belge kodu ya da etiket ara (BT-012, ters yüz, KPSS)" autocomplete="off" data-pdf-ara>
+      <span class="pdf-ara-sayi" data-pdf-sayi aria-live="polite">{belgeler.length} belge</span>
+    </div>
+    <p class="pdf-bos" data-pdf-bos hidden>Bu aramayla eşleşen belge yok.</p>
+    {gruplar.map((g) => <section class="pdf-grup"><h2>{g.c.name}</h2><ol class="pdf-liste" set:html={g.liste.map(satir).join('')} /></section>)}
+    <section class="pdf-kodla">
+      <h2>Belge doğrulama</h2>
+      <p>Her PDF'in ilk sayfasında bir QR kod ve belge kodu (örneğin BT-012) bulunur. QR kodu okutun ya da <a href="/d">belge doğrulama</a> sayfasında kodu girin veya dosyanın kendisini denetleyin.</p>
+    </section>
+  </div>
+  <script is:inline src={pdfJs} defer></script>
+</Base>

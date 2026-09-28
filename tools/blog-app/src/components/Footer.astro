@@ -18,6 +18,7 @@ const cats = blog.categories.filter((c) => c.count);
         <h2>Blog</h2>
         <ul>
           <li><a href="/blog">Tüm yazılar</a></li>
+          <li><a href="/pdf">PDF Merkezi</a></li>
           {cats.map((c) => <li><a href={c.url}>{c.name}</a></li>)}
           <li><a href={blog.author.url}>Editör Ekibi</a></li>
         </ul>

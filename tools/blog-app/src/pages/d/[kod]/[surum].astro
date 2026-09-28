@@ -1,0 +1,60 @@
+---
+// QR hedefi (28.09): guncelse yesil animasyon; degilse guncele yonlendirme (8 sn, iptal edilebilir)
+// ve aradaki degisiklikler. Her iki durumda PDF merkezi. noindex, reklamsiz.
+import Base from '../../../layouts/Base.astro';
+import Crumbs from '../../../components/Crumbs.astro';
+import { loadBlog } from '../../../lib.js';
+import { V, veri, rozet, dosyaDenetimi, esc, pdfJs } from '../../../pdf.js';
+export function getStaticPaths() {
+  return veri().belgeler.flatMap((x) => x.yayinda.map((s) => ({ params: { kod: V.kodYol(x.kd), surum: V.surumYol(s.surum) }, props: { kd: x.kd, surum: s.surum } })));
+}
+const { kd, surum } = Astro.props;
+const blog = loadBlog();
+const b = V.oku().belgeler[kd];
+const yayinda = V.yayindaki(b);
+const s = yayinda.find((x) => x.surum === surum);
+const son = yayinda.at(-1);
+const d = V.durum(b, s);
+const sonraki = yayinda.slice(yayinda.indexOf(s) + 1);
+const p = blog.posts.find((x) => x.slug === b.slug);
+const path = V.dogrulamaYolu(kd, surum);
+const baslik = { guncel: 'Bu belge güncel', eski: 'Bu belgenin daha yeni bir sürümü var', hata: 'Bu sürümde düzeltilmiş bir hata var' }[d];
+const durumAdi = { guncel: 'Güncel', eski: 'Daha yeni sürüm var', hata: 'Hata düzeltildi' }[d];
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'PDF Merkezi', url: '/pdf' }, { name: 'Belge doğrulama', url: '/d' }, { name: kd, url: V.dogrulamaYolu(kd) }, { name: `Sürüm ${surum}`, url: path }];
+const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: `${kd} Sürüm ${surum}`, url: blog.abs(path), inLanguage: 'tr-TR' };
+---
+<Base title={`${kd} Sürüm ${surum} · ${durumAdi}`} description={`${kd} ${b.baslik} PDF'i, Sürüm ${surum}: ${durumAdi.toLowerCase()}.`}
+  path={path} image={p?.image || blog.blogImage} ld={ld} noindex={true} current="pdf" ads={false}>
+  <section class="wrap index-head"><Crumbs items={trail} /></section>
+  <div class="wrap pdf-dogrula">
+    <div class={`pdf-sonuc pdf-sonuc-${d}`}>
+      {d === 'guncel'
+        ? <svg class="pdf-onay" viewBox="0 0 52 52" aria-hidden="true"><circle class="pdf-onay-daire" cx="26" cy="26" r="24"></circle><path class="pdf-onay-isaret" d="M15 27l7.5 7.5L38 19"></path></svg>
+        : <svg class="pdf-uyari" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24"></circle><path d="M26 14v15"></path><path d="M26 37h.01"></path></svg>}
+      <div class="pdf-sonuc-ic">
+        <p class="pdf-ust-etiket">{kd} · {b.baslik}</p>
+        <h1>{baslik}</h1>
+        {d === 'guncel'
+          ? <p>{kd} · Sürüm {surum} en son sürümdür. Güvenle kullanabilir ve paylaşabilirsiniz.</p>
+          : <p>Elinizdeki {kd} · Sürüm {surum}. Güncel sürüm {son.surum} ({V.trTarih(son.tarih)}). {d === 'hata' ? 'Bu sürümden sonra bir hata düzeltildi; lütfen güncel sürümü kullanın ve paylaşın.' : 'Güncel sürümü kullanmanızı öneririz.'}</p>}
+        {d !== 'guncel' && <p class="pdf-yonlendir" data-pdf-yonlendir-metin hidden>Güncel sürümün sayfasına <strong data-pdf-yonlendir-kalan>8</strong> saniye içinde yönlendirileceksiniz. <button type="button" class="pdf-kal" data-pdf-kal>Burada kal</button></p>}
+        <div class="pdf-eylem">
+          {d === 'guncel'
+            ? <>{p && <a class="pdf-dugme" href={p.url}>Yazıyı sitede oku</a>}<a class="pdf-dugme-ikincil" href="/pdf">Güncel listeler: PDF Merkezi</a></>
+            : <><a class="pdf-dugme" href={V.indirmeYolu(b.slug)} data-pdf-yonlendir>Güncel sürümü indir ({son.surum})</a><a class="pdf-dugme-ikincil" href="/pdf">Güncel listeler: PDF Merkezi</a></>}
+        </div>
+      </div>
+    </div>
+    <dl class="pdf-kunye pdf-kunye-yatay">
+      <dt>Belge kodu</dt><dd>{kd}</dd>
+      <dt>Sürüm</dt><dd>{surum} · {V.trTarih(s.tarih)}</dd>
+      <dt>İçerik izi</dt><dd>{V.parmakIzi(s.icerik)}</dd>
+      <div data-pdf-indirme-kutu hidden><dt>İndirme</dt><dd data-pdf-indirme={kd}></dd></div>
+      <dt>Yayımlayan</dt><dd>bote.web.tr</dd>
+    </dl>
+    <p class="pdf-iz-not">İçerik izi, PDF'in ilk sayfasındaki "Belge bilgileri" kutusunda yazan izle aynı olmalıdır.</p>
+    {sonraki.length > 0 && <section class="pdf-gecmis"><h2>Bu sürümden sonraki değişiklikler</h2><ul class="pdf-degisiklik" set:html={sonraki.map((x) => `<li><strong>${esc(x.surum)}</strong> · ${V.trTarih(x.tarih)} ${rozet(x.tur)}<p>${esc(x.not)}</p></li>`).join('')} /></section>}
+    <Fragment set:html={dosyaDenetimi()} />
+  </div>
+  <script is:inline src={pdfJs} defer></script>
+</Base>

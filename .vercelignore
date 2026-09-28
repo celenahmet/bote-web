@@ -60,3 +60,6 @@ word.pdf
 /content
 /tools
 /node_modules
+
+# blog PDF uretimi: gecici yazdirma sayfalari ve basilan PDFler (dosyalar medya sunucusunda)
+/.pdf-yapim

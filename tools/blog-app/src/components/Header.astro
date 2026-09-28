@@ -18,6 +18,7 @@ const cats = blog.categories.filter((c) => c.count);
     <div class="top-actions">
       <SearchPalette client:idle />
       <ThemeToggle client:idle />
+      <a class="to-site" href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}>PDF Merkezi</a>
       <a class="to-site" href="/">Ana site ↗</a>
     </div>
   </div>
@@ -27,6 +28,7 @@ const cats = blog.categories.filter((c) => c.count);
   <nav class="chipbar" aria-label="Kategoriler (mobil)">
     <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}>Tümü</a>
     {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}>{c.name}</a>)}
+    <a href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}>PDF Merkezi</a>
     <a href="/">Ana site</a>
   </nav>
 )}

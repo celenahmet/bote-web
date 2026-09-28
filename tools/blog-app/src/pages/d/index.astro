@@ -1,0 +1,31 @@
+---
+// Belge dogrulama merkezi (28.09): kodla git, dosya denetimi, duyurular. noindex, reklamsiz.
+import Base from '../../layouts/Base.astro';
+import Crumbs from '../../components/Crumbs.astro';
+import { loadBlog } from '../../lib.js';
+import { veri, duyurular, dosyaDenetimi, pdfJs } from '../../pdf.js';
+const blog = loadBlog();
+const { belgeler } = veri();
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'PDF Merkezi', url: '/pdf' }, { name: 'Belge doğrulama', url: '/d' }];
+const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: 'Belge doğrulama', url: blog.abs('/d'), inLanguage: 'tr-TR' };
+---
+<Base title="Belge Doğrulama · PDF Merkezi" description="bote.web.tr PDF'lerinin güncelliğini ve özgünlüğünü doğrulayın."
+  path="/d" image={blog.blogImage} ld={ld} noindex={true} current="pdf" ads={false}>
+  <section class="wrap index-head">
+    <Crumbs items={trail} />
+    <h1>Belge doğrulama</h1>
+    <p class="dek">bote.web.tr'nin yayımladığı her PDF'in ilk sayfasında bir belge kodu (örneğin BT-012), sürüm numarası ve QR kod bulunur. QR kodu okutun, kodu aşağıya yazın ya da dosyanın kendisini denetleyin.</p>
+  </section>
+  <div class="wrap pdf-dogrula">
+    <form class="pdf-kod-form" data-pdf-kod-form>
+      <label for="pdf-kod">Belge kodu</label>
+      <input id="pdf-kod" name="kod" placeholder="BT-012" autocomplete="off" required>
+      <button type="submit" class="pdf-dugme">Göster</button>
+      <p class="pdf-kod-sonuc" role="status" aria-live="polite" data-pdf-kod-sonuc></p>
+    </form>
+    <Fragment set:html={dosyaDenetimi()} />
+    <Fragment set:html={duyurular(belgeler)} />
+    <p class="pdf-liste-bag"><a class="pdf-dugme-ikincil" href="/pdf">Güncel listeler: PDF Merkezi</a></p>
+  </div>
+  <script is:inline src={pdfJs} defer></script>
+</Base>
