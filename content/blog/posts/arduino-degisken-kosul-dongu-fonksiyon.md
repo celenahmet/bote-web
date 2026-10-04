@@ -361,7 +361,7 @@ sources:
     note: "Serial.print gibi yazdırır, sonuna satır başı (ASCII 13) ve yeni satır (ASCII 10) karakteri ekler."
 ---
 
-Bu yazı, Arduino'da program yazmanın temel yapı taşlarını anlatır: değişken ve veri türleri, sabitler ve diziler, koşullar, döngüler ve fonksiyonlar. Her başlıkta sözdizimi, Arduino UNO'ya özgü sınırlar ve çözümlü örnekler verilir; ardından seri monitörle hata ayıklama, sık yapılan hatalar ve cevaplı alıştırmalar gelir. Pinlerden okuma ve pinlere yazma fonksiyonlarını (digitalWrite, analogRead gibi) [Arduino Dijital ve Analog Giriş Çıkış](/blog/arduino-dijital-analog-giris-cikis) yazısında anlattık; bu yazı o fonksiyonların bir programın içinde nasıl düzenlendiğini anlatır.
+Bu yazı, [Fiziksel Programlama dersi](/blog/fiziksel-programlama-nedir) rehberinin ikinci derin yazısıdır ve Arduino'da program yazmanın temel yapı taşlarını anlatır: değişken ve veri türleri, sabitler ve diziler, koşullar, döngüler ve fonksiyonlar. Her başlıkta sözdizimi, Arduino UNO'ya özgü sınırlar ve çözümlü örnekler verilir; ardından seri monitörle hata ayıklama, sık yapılan hatalar ve cevaplı alıştırmalar gelir. Pinlerden okuma ve pinlere yazma fonksiyonlarını (digitalWrite, analogRead gibi) [Arduino Dijital ve Analog Giriş Çıkış](/blog/arduino-dijital-analog-giris-cikis) yazısında anlattık; bu yazı o fonksiyonların bir programın içinde nasıl düzenlendiğini anlatır.
 
 ## Arduino programının iskeleti: setup() ve loop()
 

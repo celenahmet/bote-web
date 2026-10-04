@@ -178,9 +178,14 @@ LEGO Mindstorms. Değerlendirme: ara sınav %15, ödev %10, devam %5, uygulama %
   Kingbright LED veri sayfası; bütün sayılar programla denetlendi).
 - YAYINDA (04.10): arduino-degisken-kosul-dongu-fonksiyon (derin, BT-070; ara sınava yakın diye öne alındı;
   33 kaynak, hepsi Arduino dil başvurusu ve belgeleri; taşma, tam sayı bölmesi, döngü adımları programla denetlendi).
-  G-Ç yazısına geri bağlantı henüz yok: genel yazı yazılınca iki derin yazıya da genel yazı bağlantısı eklenir ve
-  ikisi birlikte "on_yayin_yenile EVET BT-069 BT-070" ile yeniden basılır (tek seferde).
-- SIRADA: (1) genel ders yazısı "Fiziksel Programlama Nedir?" (izlenceden; derin yazı listesi bağlantılı);
-  (2) robot nedir, yapısı, bileşenleri ve türleri (IFR, ISO 8373); (3) sensör ve motor çeşitleri; (4) Tinkercad
-  Circuits ile Arduino simülasyonu.
+- YAYINDA (04.10): fiziksel-programlama-nedir (genel, BT-071; YÖK 2018 s. 2 ve 12, Hacettepe izlencesi, MEB 2025
+  Maarif BTY programı (6. sınıf robotik kart etkinliği, s. 108 ve 112), IFR'nin aktardığı ISO 8373:2021 tanımları,
+  Arduino, Tinkercad, Lu 2016 ve 8 makale: Hodges 2020, Przybylla 2014, Küçük ve Şişman 2018 (BÖTE adaylarıyla robotik
+  dersi), Booth 2016 (hataların çoğu devrede), Qian 2017, Altıok 2018, Marín-Marín 2024, Sarı 2020). Aynı gün iki derin
+  yazıya "rehberin ilk/ikinci derin yazısı" bağlantısı, G-Ç'ye programlama yazısı bağlantısı, Elektronik Devre
+  Elemanları rehberine Fiziksel Programlama bağlantısı eklendi; BT-064, BT-069, BT-070 on_yayin_yenile ile yeniden basıldı.
+  ISO'nun OBP sayfası bot korumasında; robot tanımları IFR sayfalarından (ifr.org/service-robots, /industrial-robots).
+- SIRADA: (1) robot nedir, yapısı, bileşenleri ve türleri (IFR, ISO 8373); (2) sensör ve motor çeşitleri; (3) Tinkercad
+  Circuits ile Arduino simülasyonu; (4) robot tabanlı proje geliştirme. Her yeni derin yazı genel yazıdaki listeye
+  bağlantı olarak eklenir ve BT-071 "on_yayin_yenile EVET BT-071" ile yeniden basılır.
 

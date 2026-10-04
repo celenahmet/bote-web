@@ -1336,13 +1336,13 @@
      "tarih": "2026-09-28",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "7b6d98c3cbef74f726fb1db4bb2192262aaf42e49ad3edd0f0e1ac7585558a6f",
+     "icerik": "00cd5de241a1b47f3c815827ab9f602874dc441a8d80ddeb1591301ca491fc5e",
      "sablon": 1,
-     "sha256": "aa88c4e94ec9280640fd3d898ffce38a9f56786b7fbe39ebd4ac1cae20cd0eed",
-     "bayt": 956509,
+     "sha256": "44d2c1afce049dee01ff7b950e8aef2f062f5556eb6b80090de59051075e9f9b",
+     "bayt": 955631,
      "sayfa": 10,
-     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-aa88c4e9.pdf",
-     "yuklendi": "2026-09-28"
+     "dosya": "bt-064-elektronik-devre-elemanlari-s1-0-44d2c1af.pdf",
+     "yuklendi": "2026-10-04"
     }
    ]
   },
@@ -1441,12 +1441,12 @@
      "tarih": "2026-10-04",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "14ff7b860d80849a3f8ca85a4097424cc4bfd657ca8c9fd97f161aa5fe6d4252",
+     "icerik": "b4aff0579ecb9107c65ded450073b49b2257d3cf02cb03463cdbb5b65b632836",
      "sablon": 1,
-     "sha256": "444033853793a16b1a336d5ea10cc79a3fcc4f536cf66cfca7bb2de5334f8f25",
-     "bayt": 1014430,
+     "sha256": "beef3efb9b8171788be494afaa0c0374a63c777117d665b06d996a7485a8b806",
+     "bayt": 1015535,
      "sayfa": 11,
-     "dosya": "bt-069-arduino-dijital-analog-giris-cikis-s1-0-44403385.pdf",
+     "dosya": "bt-069-arduino-dijital-analog-giris-cikis-s1-0-beef3efb.pdf",
      "yuklendi": "2026-10-04"
     }
    ]
@@ -1462,12 +1462,33 @@
      "tarih": "2026-10-04",
      "tur": "ilk",
      "not": "İlk yayın.",
-     "icerik": "c91cf01bf68ca2d8ec87fca29ee883e179462cb47c82335028916034c1aeda63",
+     "icerik": "9565b42649294f5cbbde732ec70ef3cb024909fec49d9750641744267d9ac417",
      "sablon": 1,
-     "sha256": "cf558054e57bbab9182bf80e520b0b7bed34f35f253bf52ac3e9281947ec1d7a",
-     "bayt": 1062565,
+     "sha256": "06ca9fa809539a3ef823b7dd05ddb34b452c35a2054ab77b98f04c8b3ef5f02c",
+     "bayt": 1069727,
      "sayfa": 16,
-     "dosya": "bt-070-arduino-degisken-kosul-dongu-fonksiyon-s1-0-cf558054.pdf",
+     "dosya": "bt-070-arduino-degisken-kosul-dongu-fonksiyon-s1-0-06ca9fa8.pdf",
+     "yuklendi": "2026-10-04"
+    }
+   ]
+  },
+  "BT-071": {
+   "no": 71,
+   "slug": "fiziksel-programlama-nedir",
+   "baslik": "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-10-04",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "39007779f1aa50728a463db5c6c739b2bdddc334328ec92ed2ba340050976e10",
+     "sablon": 1,
+     "sha256": "0561ecb830f04a7336400c2203eea0c4209ccfd3f262a98165015d0174573e11",
+     "bayt": 966708,
+     "sayfa": 11,
+     "dosya": "bt-071-fiziksel-programlama-nedir-s1-0-0561ecb8.pdf",
      "yuklendi": "2026-10-04"
     }
    ]

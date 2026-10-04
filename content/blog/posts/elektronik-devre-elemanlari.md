@@ -208,7 +208,7 @@ Bu izlencede yarıyıl içi çalışmaların ağırlığı yüzde 50'dir: ara s�
 
 ## Dersin programdaki yeri
 
-Elektronik Devre Elemanları kendi başına bitmeyen bir derstir; programın sonraki derslerine zemin hazırlar. YÖK programındaki **Bilişim Sistemleri Donanımı** dersi bilgisayar mantığı ve mimarisini, ROM, RAM ve önbellek gibi bellek türlerini işler. Dördüncü sınıftaki **Fiziksel Programlama** dersi ise robotların mekanik, elektromekanik ve elektronik bileşenlerini kapsar.[@yok2018] Birinci yıldaki mantık kapıları olmadan bellek devreleri, direnç ve diyot bilgisi olmadan da bir robot kitindeki devre anlaşılmaz.
+Elektronik Devre Elemanları kendi başına bitmeyen bir derstir; programın sonraki derslerine zemin hazırlar. YÖK programındaki **Bilişim Sistemleri Donanımı** dersi bilgisayar mantığı ve mimarisini, ROM, RAM ve önbellek gibi bellek türlerini işler. Dördüncü sınıftaki [Fiziksel Programlama](/blog/fiziksel-programlama-nedir) dersi ise robotların mekanik, elektromekanik ve elektronik bileşenlerini kapsar.[@yok2018] Birinci yıldaki mantık kapıları olmadan bellek devreleri, direnç ve diyot bilgisi olmadan da bir robot kitindeki devre anlaşılmaz.
 
 Bu bağ, bilişim teknolojileri öğretmeni için doğrudan meslek bilgisidir. Okullarda bilişim ve yazılım derslerini veren öğretmen, öğrencilerine bilgisayarın ve robotik kitlerin nasıl çalıştığını anlatırken bu dersteki kavramları kullanır. Dersin öğretmenlik açısından okulda nereye oturduğu için [Bilişim Teknolojileri ve Yazılım dersi](/blog/bilisim-teknolojileri-ve-yazilim-dersi) yazısına bakabilirsiniz.
 

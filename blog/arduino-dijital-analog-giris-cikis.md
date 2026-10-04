@@ -22,7 +22,7 @@ Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-04 · Güncelleme: 2026-10-04 · 1
 - **Analog giriş** analogRead ile A0 ile A5 arasındaki pinlerden okunur. UNO'nun 10 bitlik ADC'si 0 ile 5 volt arasını 0 ile 1023 arasına çevirir; bir adım yaklaşık 4,9 milivolttur.
 - analogRead 0-1023, analogWrite 0-255 aralığında çalıştığı için potansiyometreyle LED parlaklığı ayarlanırken okunan değer 4'e bölünür.
 
-Bu yazı, Arduino'nun dış dünyayla nasıl konuştuğunu dört başlıkta anlatır: dijital çıkış, analog çıkış, dijital giriş ve analog giriş. Her başlıkta hangi pinin kullanıldığı, hangi fonksiyonun çağrıldığı ve değerin hangi aralıkta olduğu verilir; ardından çözümlü örnekler, sık hatalar ve cevaplı alıştırmalar gelir. Devre hesaplarının dayandığı Ohm kanununu [Ohm ve Kirchhoff Kanunları](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari), devre elemanlarını [Elektronik Devre Elemanları](https://bote.web.tr/blog/elektronik-devre-elemanlari) yazısında anlattık.
+Bu yazı, [Fiziksel Programlama dersi](https://bote.web.tr/blog/fiziksel-programlama-nedir) rehberinin ilk derin yazısıdır ve Arduino'nun dış dünyayla nasıl konuştuğunu dört başlıkta anlatır: dijital çıkış, analog çıkış, dijital giriş ve analog giriş. Her başlıkta hangi pinin kullanıldığı, hangi fonksiyonun çağrıldığı ve değerin hangi aralıkta olduğu verilir; ardından çözümlü örnekler, sık hatalar ve cevaplı alıştırmalar gelir. Devre hesaplarının dayandığı Ohm kanununu [Ohm ve Kirchhoff Kanunları](https://bote.web.tr/blog/ohm-ve-kirchhoff-kanunlari), devre elemanlarını [Elektronik Devre Elemanları](https://bote.web.tr/blog/elektronik-devre-elemanlari) yazısında anlattık.
 
 ## Arduino'da giriş ve çıkış nedir?
 
@@ -250,7 +250,7 @@ Devreyi kablolamadan önce Autodesk'in Tinkercad Circuits ortamında kurmak müm
 
 ## Sonuç
 
-Arduino'da giriş ve çıkışın özeti dört satırdır: digitalWrite iki değerli çıkış, analogWrite ~ işaretli pinlerde 0-255 arasında PWM, digitalRead iki değerli giriş, analogRead A0-A5'te 0-1023 arasında okuma. Bu dört fonksiyonun aralıklarını ve pinlerini bilen, LED'e direnç hesaplamayı Ohm kanunuyla yapabilen öğrenci, fiziksel programlama dersindeki uygulamaların çoğunu kurabilir. Bir sonraki adım, bu dört işi bir arada kullanan küçük projelerdir: butonla yanan LED, potansiyometreyle parlaklığı değişen LED ve okunan değeri seri çizicide izlemek.
+Arduino'da giriş ve çıkışın özeti dört satırdır: digitalWrite iki değerli çıkış, analogWrite ~ işaretli pinlerde 0-255 arasında PWM, digitalRead iki değerli giriş, analogRead A0-A5'te 0-1023 arasında okuma. Bu dört fonksiyonun aralıklarını ve pinlerini bilen, LED'e direnç hesaplamayı Ohm kanunuyla yapabilen öğrenci, fiziksel programlama dersindeki uygulamaların çoğunu kurabilir. Bir sonraki adım, bu dört işi bir arada kullanan küçük projelerdir: butonla yanan LED, potansiyometreyle parlaklığı değişen LED ve okunan değeri seri çizicide izlemek. Bu fonksiyonları değişken, koşul, döngü ve fonksiyonlarla bir program içinde düzenlemeyi [Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon](https://bote.web.tr/blog/arduino-degisken-kosul-dongu-fonksiyon) yazısında anlattık.
 
 ## Sık Sorulan Sorular
 
