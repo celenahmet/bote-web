@@ -9,14 +9,20 @@ const { slot } = Astro.props;
 const ads = loadBlog().cfg.ads;
 const client = ads.adsense.client;
 const slotId = ads.adsense.slots?.[slot];
-const house = (ads.house || []).find((h) => (h.slots || []).includes(slot));
-// Logo: tam adres (https://...) dogrudan kullanilir; yerel yol public/ altinda varsa kullanilir;
-// ikisi de yoksa yazi logosu.
-const external = /^https:\/\//.test(house?.logo || '');
-const logoFile = house?.logo && !external && path.join(ROOT, 'tools/blog-app/public', house.logo.replace(/^\/blog\//, ''));
-const logo = external ? house.logo : logoFile && fs.existsSync(logoFile) ? house.logo : null;
-// koyu tema logosu yalniz tam adres olarak kabul edilir (acik logo da simdilik dis adres)
-const logoDark = logo && /^https:\/\//.test(house?.logoDark || '') ? house.logoDark : null;
+// Ayni alana birden cok tanitim karti verilebilir; 15 sn'de bir doner (ilk kart sabit HTML'de gorunur).
+const houses = (ads.house || []).filter((h) => (h.slots || []).includes(slot));
+const house = houses[0];
+// Logo: tam adres (https://...) ya da public/ altindaki yerel yol (/blog/ads/...). Ikisi de yoksa yazi logosu.
+const logoBul = (adres) => {
+  if (!adres) return null;
+  if (/^https:\/\//.test(adres)) return adres;
+  const dosya = path.join(ROOT, 'tools/blog-app/public', adres.replace(/^\/blog\//, ''));
+  return fs.existsSync(dosya) ? adres : null;
+};
+const kartlar = houses.map((h) => {
+  const logo = logoBul(h.logo);
+  return { ...h, logo, logoDark: logo && logoBul(h.logoDark) };
+});
 const STORES = {
   appstore: { badge: '/blog/ads/app-store.png', w: 241, icon: 'apple', top: 'Download on the', name: 'App Store', label: "App Store'dan indir" },
   googleplay: { badge: '/blog/ads/google-play.png', w: 269, icon: 'googleplay', top: 'GET IT ON', name: 'Google Play', label: "Google Play'den indir" },
@@ -30,29 +36,50 @@ const STORES = {
     <script is:inline>(window.adsbygoogle = window.adsbygoogle || []).push({});</script>
   </aside>
 ) : house ? (
-  <aside class="promo" aria-label={`${house.brand} iş birliği`}>
-    <div class="promo-card">
+  <aside class="promo" aria-label="İş birliği" data-promo-donen={kartlar.length > 1 ? '' : undefined}>
+    {kartlar.map((h, i) => (
+    <div class="promo-card" hidden={i > 0}>
       <span class="promo-tag">İş birliği</span>
-      <a class="promo-logo" href={house.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand} web sitesi`}>
-        {logo ? (
+      <a class="promo-logo" href={h.url} rel="sponsored noopener" target="_blank" aria-label={`${h.brand} web sitesi`}>
+        {h.logo ? (
           <>
-            <img class={logoDark ? 'lg-light' : undefined} src={logo} alt={house.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />
-            {logoDark && <img class="lg-dark" src={logoDark} alt={house.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />}
-            <span class="promo-wordmark" hidden>Uni<b>Connectly</b></span>
+            <img class={h.logoDark ? 'lg-light' : undefined} src={h.logo} alt={h.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />
+            {h.logoDark && <img class="lg-dark" src={h.logoDark} alt={h.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />}
+            <span class="promo-wordmark" hidden>{h.id === 'uniconnectly' ? <>Uni<b>Connectly</b></> : h.brand}</span>
           </>
-        ) : <span class="promo-wordmark">Uni<b>Connectly</b></span>}
+        ) : <span class="promo-wordmark">{h.id === 'uniconnectly' ? <>Uni<b>Connectly</b></> : h.brand}</span>}
       </a>
-      <p class="promo-text">{house.text}</p>
-      <a class="promo-cta" href={house.url} rel="sponsored noopener" target="_blank">{house.cta}</a>
-      {house.stores?.length > 0 && (
+      <p class="promo-text">{h.text}</p>
+      <a class="promo-cta" href={h.url} rel="sponsored noopener" target="_blank">{h.cta}</a>
+      {h.stores?.length > 0 && (
         <div class="promo-stores">
-          {house.stores.filter((s) => STORES[s.id]).map((s) => (
-            <a class="store" href={s.url} rel="sponsored noopener" target="_blank" aria-label={`${house.brand}: ${STORES[s.id].label}`}>
-              <img src={STORES[s.id].badge} alt={STORES[s.id].label} width={STORES[s.id].w} height="80" loading="lazy" decoding="async" />
+          {h.stores.filter((st) => STORES[st.id]).map((st) => (
+            <a class="store" href={st.url} rel="sponsored noopener" target="_blank" aria-label={`${h.brand}: ${STORES[st.id].label}`}>
+              <img src={STORES[st.id].badge} alt={STORES[st.id].label} width={STORES[st.id].w} height="80" loading="lazy" decoding="async" />
             </a>
           ))}
         </div>
       )}
     </div>
+    ))}
+    {kartlar.length > 1 && (
+      <script is:inline>
+        (function () {
+          document.querySelectorAll('[data-promo-donen]').forEach(function (kutu) {
+            if (kutu.dataset.kuruldu) return;
+            kutu.dataset.kuruldu = '1';
+            var kartlar = kutu.querySelectorAll('.promo-card'), i = 0, dur = false;
+            kutu.addEventListener('mouseenter', function () { dur = true; });
+            kutu.addEventListener('mouseleave', function () { dur = false; });
+            kutu.addEventListener('focusin', function () { dur = true; });
+            kutu.addEventListener('focusout', function () { dur = false; });
+            setInterval(function () {
+              if (dur || document.hidden) return;
+              kartlar[i].hidden = true; i = (i + 1) % kartlar.length; kartlar[i].hidden = false;
+            }, 15000);
+          });
+        })();
+      </script>
+    )}
   </aside>
 ) : null}

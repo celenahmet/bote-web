@@ -101,6 +101,16 @@ ads:
           url: https://play.google.com/store/apps/details?id=com.uniconnectly.app&referrer=utm_source%3Dbote.web.tr%26utm_medium%3Dreferral%26utm_campaign%3Dblog
         - id: appgallery
           url: https://appgallery.huawei.com/app/C118677033
+    - id: otosenior
+      slots: [sidebar-top]
+      brand: OtoSenior
+      logo: /blog/ads/otosenior-logo.webp
+      logoDark: /blog/ads/otosenior-logo-koyu.webp
+      text: >-
+        Otomobil sahipleri, galericiler ve meraklıları için araç alım satımı, vergi,
+        sigorta ve trafik kurallarında resmî kaynaklı rehberler.
+      cta: Rehberleri oku
+      url: https://otosenior.com/?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog
   # Yazi sonundaki UniConnectly paneli (AdSense yokken article-end alaninda gosterilir).
   showcase:
     kicker: "Ücretsiz indir ve kaydol"

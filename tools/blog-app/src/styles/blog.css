@@ -254,6 +254,7 @@ p{margin:0}
 .promo{display:flex;flex-direction:column}
 .promo-tag{font:600 11px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);align-self:flex-end}
 .ad-label{font:600 11px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);align-self:flex-end}
+.promo-card[hidden]{display:none}
 .promo-card{min-height:250px;flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;padding:14px 16px 18px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:var(--shadow)}
 .promo-logo{display:inline-flex;text-decoration:none;margin-top:-4px}
 .promo-logo{min-height:44px;align-items:center}
