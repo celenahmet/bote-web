@@ -91,7 +91,9 @@ ads:
         Üniversite topluluklarını, etkinlikleri ve şirketleri tek uygulamada
         buluşturan ücretsiz kampüs platformu.
       cta: Ücretsiz keşfet
-      url: https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog
+      # ref (Ahmet 04.10: "reklam panolarinda ref linki ile new tab"): baglantilar yeni sekmede
+      # acilir; hedef site kaynagi adresteki ref ve utm alanlarindan gorur. OtoSenior kartiyla ayni kalip.
+      url: https://uniconnectly.com/?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog
       # Gercek magaza sayfalari (26.09; kaynak: uniconnectly-web/lib/appStores.ts).
       # Play kaynak bilgisini referrer ile tasir; App Store ve AppGallery parametre almiyor.
       stores:
@@ -126,7 +128,7 @@ ads:
       - label: "Öğrenciler"
         question: "Öğrenciye ne kazandırır?"
         items:
-          - { title: "Dijital portföy", text: "uniconnectly.com/@kullanıcıadı adresiyle herkese açık paylaş; CV'ne ve LinkedIn'e sertifika doğrulama bağlantısı olarak ekle.", example: "@nursena", exampleUrl: "https://uniconnectly.com/@nursena" }
+          - { title: "Dijital portföy", text: "uniconnectly.com/@kullanıcıadı adresiyle herkese açık paylaş; CV'ne ve LinkedIn'e sertifika doğrulama bağlantısı olarak ekle.", example: "@nursena", exampleUrl: "https://uniconnectly.com/@nursena?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel" }
           - { title: "Doğrulanabilir katılım", text: "QR ile giriş yaptığın etkinlikler portföyünde doğrulanmış listelenir." }
           - { title: "Sertifikalar", text: "Platformda verilen sertifikalar doğrulanmış işaretli, edu.tr e-postan onaylı." }
           - { title: "Anlık fırsatlar", text: "Staj, iş ve burs duyuruları akışına düşer; şirket ilanlarına uygulamadan başvur." }
@@ -135,7 +137,7 @@ ads:
       - label: "Topluluklar"
         question: "Öğrenci topluluklarına ne kazandırır?"
         items:
-          - { title: "Ücretsiz web sitesi", text: "uniconnectly.com/@topluluk: etkinlikler, duyurular ve yönetim kurulu herkese açık, Google'da bulunur.", example: "@uludag_emt", exampleUrl: "https://uniconnectly.com/@uludag_emt" }
+          - { title: "Ücretsiz web sitesi", text: "uniconnectly.com/@topluluk: etkinlikler, duyurular ve yönetim kurulu herkese açık, Google'da bulunur.", example: "@uludag_emt", exampleUrl: "https://uniconnectly.com/@uludag_emt?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel" }
           - { title: "Podyum ile sponsor bulma", text: "Etkinliğini yayınlamadan önce hazırlık aşamasında şirketlere sun, sponsor ve iş birliği görüşmesini uygulamada yürüt." }
           - { title: "İş birliği ortamı", text: "Şirketler ve diğer topluluklarla mesajlaşma, ortak etkinlik ve sponsorluk iletişimi tek kanalda." }
           - { title: "QR ile katılım takibi", text: "Kapıda QR okut, katılımcı istatistiklerini ve geçmiş etkinlik raporlarını gör." }
@@ -156,6 +158,6 @@ ads:
           - { title: "Etkinlik ve seminer duyurusu", text: "Bölüm topluluklarıyla seminer, atölye ve konferans duyurularını öğrencilere ulaştır." }
           - { title: "Öğrenci topluluklarına erişim", text: "Danışmanı olduğun topluluğun etkinlik takvimi ve katılım verileri tek ekranda." }
           - { title: "Blog ile anlık fırsat takibi", text: "Hibe, araştırma programı, burs ve etkinlik çağrılarını UniConnectly blogundan takipte kal." }
-    blog: "https://uniconnectly.com/blog?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel"
-    url: "https://uniconnectly.com/?utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel"
+    blog: "https://uniconnectly.com/blog?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel"
+    url: "https://uniconnectly.com/?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel"
 
