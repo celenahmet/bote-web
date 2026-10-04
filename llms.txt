@@ -10,6 +10,7 @@
 ## Blog
 
 - [BÖTE Blog](https://bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
+- [Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead](https://bote.web.tr/blog/arduino-dijital-analog-giris-cikis.md): Arduino UNO'da dijital çıkış, PWM ile analog çıkış, butonla dijital giriş ve potansiyometreyle analog giriş: pinler, değer aralıkları, LED direnci, örnekler. (Bölüm Rehberi, 2026-10-04)
 - [Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi](https://bote.web.tr/blog/dale-yasanti-konisi.md): Dale'in yaşantı konisi nedir? On bir basamağı, Dale'in gerçekte ne söylediği, 'okuduğumuzun yüzde 10'unu hatırlarız' efsanesinin kökeni ve araştırma bulguları. (Eğitim Teknolojileri, 2026-09-28)
 - [Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi](https://bote.web.tr/blog/elektronik-devre-elemanlari.md): Elektronik Devre Elemanları dersinin bütün konuları: direnç, kondansatör, diyot, Ohm ve Kirchhoff yasaları, sayı sistemleri, mantık kapıları ve Boole cebiri. (Bölüm Rehberi, 2026-09-28)
 - [Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey](https://bote.web.tr/blog/karnaugh-haritasi.md): Karnaugh haritası konu anlatımı: 2, 3 ve 4 değişkenli haritalar, gruplama kuralları, fark etmez durumlar ve Quine-McCluskey yöntemi, çözümlü örneklerle. (Bölüm Rehberi, 2026-09-28)

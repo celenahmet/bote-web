@@ -1429,6 +1429,27 @@
      "yuklendi": "2026-09-28"
     }
    ]
+  },
+  "BT-069": {
+   "no": 69,
+   "slug": "arduino-dijital-analog-giris-cikis",
+   "baslik": "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-10-04",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "14ff7b860d80849a3f8ca85a4097424cc4bfd657ca8c9fd97f161aa5fe6d4252",
+     "sablon": 1,
+     "sha256": "444033853793a16b1a336d5ea10cc79a3fcc4f536cf66cfca7bb2de5334f8f25",
+     "bayt": 1014430,
+     "sayfa": 11,
+     "dosya": "bt-069-arduino-dijital-analog-giris-cikis-s1-0-44403385.pdf",
+     "yuklendi": "2026-10-04"
+    }
+   ]
   }
  }
 }

@@ -8,6 +8,7 @@
 
 ## Bölüm Rehberi
 
+- [Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead](https://bote.web.tr/blog/arduino-dijital-analog-giris-cikis.md): Arduino UNO'da dijital çıkış, PWM ile analog çıkış, butonla dijital giriş ve potansiyometreyle analog giriş: pinler, değer aralıkları, LED direnci, örnekler. (2026-10-04)
 - [Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi](https://bote.web.tr/blog/elektronik-devre-elemanlari.md): Elektronik Devre Elemanları dersinin bütün konuları: direnç, kondansatör, diyot, Ohm ve Kirchhoff yasaları, sayı sistemleri, mantık kapıları ve Boole cebiri. (2026-09-28)
 - [Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey](https://bote.web.tr/blog/karnaugh-haritasi.md): Karnaugh haritası konu anlatımı: 2, 3 ve 4 değişkenli haritalar, gruplama kuralları, fark etmez durumlar ve Quine-McCluskey yöntemi, çözümlü örneklerle. (2026-09-28)
 - [Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler](https://bote.web.tr/blog/mantik-kapilari-ve-boole-cebiri.md): Mantık kapıları ve Boole cebiri konu anlatımı: yedi kapının doğruluk tabloları, Boole kuralları, De Morgan teoremleri, minterm ve maxterm, çözümlü örnekler. (2026-09-28)
