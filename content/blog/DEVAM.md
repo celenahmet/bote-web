@@ -167,3 +167,16 @@ Hocanın sunum bölüştürmesi kopyalanmaz; izlencedeki haftalık sıra ve konu
 **Diğer dersler için ölçüm (28.09):** medya okuryazarlığı 19/10, dijital vatandaşlık 19/10, algoritma ve akış
 şeması 19/10, robotik kodlama 19/10, siber zorbalık 18/10, bilişim etiği 17/10, nitel araştırma 18/10,
 infografik 18/11, eleştirel düşünme 18/9; ayrıntı sohbet kaydında.
+
+## 04.10.2026: BTE401 Fiziksel Programlama dizisi (Ahmet)
+Ahmet Hacettepe BÖTE 4. sınıf, dersi şu an alıyor; yazılar "hem ders çalışmış olurum" diye isteniyor.
+İzlence (bilsis curCourse=78274, 25.04.2024): 7. yarıyıl, 2+2+0, 3 kredi, 5 AKTS, zorunlu. İçerik: robot tanımı,
+yapısı, bileşenleri ve türleri; sensör ve motor; robot yazılımı; veri türü, değişken, sabit, dizi; koşul; döngü;
+alt yordam ve fonksiyon; hata ayıklama; proje. Kaynak: Lu, W. (2016), Beginning Robotics Programming in Java with
+LEGO Mindstorms. Değerlendirme: ara sınav %15, ödev %10, devam %5, uygulama %10, proje %35, final %20, sunum %5.
+- YAYINDA (04.10): arduino-dijital-analog-giris-cikis (derin, BT-069; Arduino resmî belgeleri, UNO R3 pin şeması,
+  Kingbright LED veri sayfası; bütün sayılar programla denetlendi).
+- SIRADA: (1) genel ders yazısı "Fiziksel Programlama Nedir?" (izlenceden; derin yazı listesi bağlantılı);
+  (2) robot nedir, yapısı, bileşenleri ve türleri (IFR, ISO 8373); (3) sensör ve motor çeşitleri; (4) Tinkercad
+  Circuits ile Arduino simülasyonu; (5) Arduino'da değişken, koşul, döngü ve fonksiyon (Arduino dil başvurusu).
+
