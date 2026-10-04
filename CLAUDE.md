@@ -118,6 +118,44 @@ de sayı ve kaynakla (atama, istihdam, mevzuat) verilir, yoğunluk düşürülme
 - Yazar ya da hakem adı uydurulmaz. Yayın ilkeleri (kaynak politikası, doğrulama yöntemi,
   düzeltme yolu) `/blog/editor-ekibi` sayfasındadır.
 
+### Yazım kriterleri: arama, yapı, atıf (05.10.2026)
+Yerelde yazı yazan oturumun uyguladığı, ama o güne kadar yalnız DEVAM.md notlarında duran kriterler.
+Bulut oturumu dahil her yazıda geçerlidir.
+
+- **Arama odaklı olmayan yazı yazılmaz** (Ahmet 27.09). Konu, başlık ve SSS ölçüme dayanır: Google
+  otomatik tamamlamada sorgunun kaç alt öneri verdiği ve "X nedir" varyantı sayılır; ölçüm DEVAM.md'ye
+  yazılır. Başlıkta ve ilk paragrafta aranan ifade geçer.
+- **"X Nedir?" kalıbı:** kurum, program, proje ve kavram yazılarında başlık, ilk H2 ve ilk SSS bu
+  kalıptadır; adres mümkünse `x-nedir`. Yayındaki yazının başlığı, adresi ve kategorisi değişmez.
+- **Ölçüler:** başlık en çok 60, açıklama 70-165 karakter, tam 6 SSS. Başlık değişirse
+  `content/blog/covers` altındaki iki kapak silinir ve derlemede yeniden üretilir.
+- **Okur sayfada kalsın** (Ahmet 30.09): giriş, yazının sorusunu ve okura katkısını 2-3 cümlede söyler;
+  bölümler okurun sırasıyla soracağı şeyleri izler; okur kendi durumunu bulabilsin diye ayrımlar
+  (program türü, sınıf, yıl) açık yazılır. "Peki ... mi?" türü dolgu soru cümlesi yok. Okurun bir
+  sonraki sorusunda, yalnız yayındaki yazıya iç bağlantı verilir.
+- **Tablo hücresi kısa** kalır; açıklama tablonun altına yazılır. Teknik terim ilk geçtiği yerde tek
+  cümleyle açıklanır.
+- **"Güncellendi" yazılmaz:** yeni yazıda `updated` alanı kullanılmaz; yalnız aylar sonraki gerçek bir
+  revizyonda eklenir. `changes` listesinin ilk satırı "Yayımlandı" ile başlar ve hangi bilginin hangi
+  belgeden alındığını söyler.
+- **Atıf biçimi:** atıf işareti cümlenin sonundaki noktadan hemen sonra gelir: `...kurmaktır.[@id]`;
+  birden çok kaynak `[@a; @b]`. Tablo hücresinde kullanılabilir, başlıkta kullanılamaz. Tanımsız atıf
+  ve metinde hiç atıf almamış kaynak derlemeyi durdurur; her ana başlıkta en az bir atıf bulunur.
+  Her kaynağın `note` alanı, kaynağın yazıdaki rolünü tek cümleyle anlatır.
+- **Sayısal sonuçlar programla denetlenir:** hesap, dönüşüm, doğruluk tablosu, zaman serisi toplamı
+  içeren yazıda her sonuç küçük bir betikle yeniden üretilir ve doğrulama notuna yazılır.
+- **Ders dizisi** (Hacettepe BÖTE 2018 programı, DEVAM.md "Ders dizisi"): her ders için bir genel yazı
+  ve en az iki derin yazı; içerik izlenceden ve kaynakçadan gelir, öğrenci slaytlarından alınmaz. Derin
+  yazıda çözümlü örnek, cevaplı alıştırma, sık hatalar ve terim tablosu bulunur. Yeni derin yazının
+  bağlantısı genel yazıdaki listeye eklenir.
+- **Kaynak bulma ve künye doğrulama yöntemi** DEVAM.md "Yazı üretim yöntemi"nde: künye Crossref'ten,
+  Türkçe hakemli kaynak OpenAlex ve DergiPark makale sayfasından, sayı tam metinden ya da özgün özetten.
+- **Yayın sırası** (yerel oturum): `cd tools && npm run build && npm test` → PDF
+  (`node tools/pdf/uret.mjs ilk`, `bas`, `yukle`; genel yazıya bağlantı eklendiyse
+  `on_yayin_yenile EVET <belge no>` ve `eski_sil`) → yeniden build ve test → push → Vercel "Ready" →
+  `node tools/indexnow.mjs`. Bulut oturumu bu adımların hiçbirini yapmaz
+  (`content/blog/BULUT_PROMPTU.md`).
+
 ### Doğrulama kapısı
 - Her kaynak açılır ve künyesi doğrulanır: yazar, yıl, başlık, dergi, cilt, sayı, sayfa, DOI
   çalışıyor mu. Açılamayan kaynak kullanılmaz; ağ kısıtı yüzünden erişilemiyorsa o iddia

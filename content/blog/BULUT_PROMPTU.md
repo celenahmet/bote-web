@@ -3,8 +3,9 @@
 Bulutta (Claude Code web) yeni yazı yazdırırken oturuma verilen prompt. Aşağıdaki bloğu yapıştır
 ve KONU satırını doldur. Kısa yol: "content/blog/BULUT_PROMPTU.md dosyasını oku ve uygula. KONU: ..."
 
-Kuralların kaynağı CLAUDE.md, durumun kaynağı DEVAM.md; bu dosya onları tekrar etmez, bulut
-oturumuna özgü bağlamı ve teslim biçimini verir. Yayında değildir (content/ .vercelignore'da).
+Kuralların ve yazım kriterlerinin kaynağı CLAUDE.md, durumun ve kaynak bulma yönteminin kaynağı
+DEVAM.md; bu dosya onları tekrar etmez, bulut oturumuna özgü bağlamı ve teslim biçimini verir.
+Yayında değildir (content/ .vercelignore'da).
 
 ```
 reis bote.web.tr blogu için yeni yazı yazacağız.
@@ -50,17 +51,10 @@ DOĞRULAMA
 - Hesap içeren yazıda her sayısal sonucu küçük bir programla denetle ve bunu doğrulama notuna yaz.
 
 YAZI
-- Başlıkta ve ilk paragrafta aranan ifade geçer. Kurum, program, proje ve kavram yazılarında
-  başlık, ilk H2 ve ilk SSS "X Nedir?" kalıbındadır; adres mümkünse x-nedir. Başlık en çok 60,
-  açıklama 70-165 karakter, tam 6 SSS.
-- Giriş, yazının sorusunu ve okura katkısını 2-3 cümlede söyler. Dolgu soru cümlesi ve "zaman
-  gösterecek" türü kapanış yok. Okurun bir sonraki sorusunda yayındaki ilgili yazıya bağlantı ver.
-- Tablo hücresi kısa kalır; açıklama tablonun altına yazılır.
-- Yayındaki yazıların başlığına, adresine ve kategorisine dokunma. Yeni yazıya "güncellendi"
-  yazma; updated alanı yalnız aylar sonraki gerçek bir revizyonda kullanılır.
-- Ders dizisinde (BTE kodlu dersler) içerik izlenceden ve kaynakçadan gelir; çözümlü örnek,
-  cevaplı alıştırma, sık hatalar ve terim tablosu bulunur. Yeni derin yazının bağlantısını dersin
-  genel yazısındaki listeye ekle.
+Yazım kriterleri CLAUDE.md'de "Derinlik standardı" ve "Yazım kriterleri: arama, yapı, atıf"
+başlıkları altında; hepsini uygula. En sık atlananlar: başlıkta ve ilk paragrafta aranan ifade,
+"X Nedir?" kalıbı, tam 6 SSS, her ana başlıkta atıf, dolgu soru cümlesi yok, yayındaki yazının
+başlığına ve adresine dokunulmaz.
 
 BU OTURUMDA YAPILMAYACAKLAR
 - main'e push etme (main yayına çıkar). Yazıyı content/blog/posts altına yaz, oturumun dalında
