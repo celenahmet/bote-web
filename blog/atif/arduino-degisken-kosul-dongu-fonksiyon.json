@@ -1,0 +1,11 @@
+{
+  "title": "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon",
+  "url": "https://bote.web.tr/blog/arduino-degisken-kosul-dongu-fonksiyon",
+  "author": "BÖTE Editör Ekibi",
+  "datePublished": "2026-10-04",
+  "dateModified": "2026-10-04",
+  "apa": "BÖTE Editör Ekibi. (2026, 4 Ekim). Arduino programlama: değişken, koşul, döngü ve fonksiyon. BÖTE Blog. https://bote.web.tr/blog/arduino-degisken-kosul-dongu-fonksiyon",
+  "apaHtml": "BÖTE Editör Ekibi. (2026, 4 Ekim). Arduino programlama: değişken, koşul, döngü ve fonksiyon. <i>BÖTE Blog</i>. https://bote.web.tr/blog/arduino-degisken-kosul-dongu-fonksiyon",
+  "bibtex": "@online{bote-arduino-degisken-kosul-dongu-fonksiyon,\n  author       = {{BÖTE Editör Ekibi}},\n  title        = {Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon},\n  organization = {BÖTE Blog},\n  year         = {2026},\n  date         = {2026-10-04},\n  url          = {https://bote.web.tr/blog/arduino-degisken-kosul-dongu-fonksiyon},\n  langid       = {turkish}\n}",
+  "embed": "https://bote.web.tr/blog/embed/arduino-degisken-kosul-dongu-fonksiyon"
+}

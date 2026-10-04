@@ -176,7 +176,11 @@ alt yordam ve fonksiyon; hata ayıklama; proje. Kaynak: Lu, W. (2016), Beginning
 LEGO Mindstorms. Değerlendirme: ara sınav %15, ödev %10, devam %5, uygulama %10, proje %35, final %20, sunum %5.
 - YAYINDA (04.10): arduino-dijital-analog-giris-cikis (derin, BT-069; Arduino resmî belgeleri, UNO R3 pin şeması,
   Kingbright LED veri sayfası; bütün sayılar programla denetlendi).
+- YAYINDA (04.10): arduino-degisken-kosul-dongu-fonksiyon (derin, BT-070; ara sınava yakın diye öne alındı;
+  33 kaynak, hepsi Arduino dil başvurusu ve belgeleri; taşma, tam sayı bölmesi, döngü adımları programla denetlendi).
+  G-Ç yazısına geri bağlantı henüz yok: genel yazı yazılınca iki derin yazıya da genel yazı bağlantısı eklenir ve
+  ikisi birlikte "on_yayin_yenile EVET BT-069 BT-070" ile yeniden basılır (tek seferde).
 - SIRADA: (1) genel ders yazısı "Fiziksel Programlama Nedir?" (izlenceden; derin yazı listesi bağlantılı);
   (2) robot nedir, yapısı, bileşenleri ve türleri (IFR, ISO 8373); (3) sensör ve motor çeşitleri; (4) Tinkercad
-  Circuits ile Arduino simülasyonu; (5) Arduino'da değişken, koşul, döngü ve fonksiyon (Arduino dil başvurusu).
+  Circuits ile Arduino simülasyonu.
 

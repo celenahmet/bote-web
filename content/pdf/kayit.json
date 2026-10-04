@@ -1450,6 +1450,27 @@
      "yuklendi": "2026-10-04"
     }
    ]
+  },
+  "BT-070": {
+   "no": 70,
+   "slug": "arduino-degisken-kosul-dongu-fonksiyon",
+   "baslik": "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon",
+   "kategori": "Bölüm Rehberi",
+   "surumler": [
+    {
+     "surum": "1.0",
+     "tarih": "2026-10-04",
+     "tur": "ilk",
+     "not": "İlk yayın.",
+     "icerik": "c91cf01bf68ca2d8ec87fca29ee883e179462cb47c82335028916034c1aeda63",
+     "sablon": 1,
+     "sha256": "cf558054e57bbab9182bf80e520b0b7bed34f35f253bf52ac3e9281947ec1d7a",
+     "bayt": 1062565,
+     "sayfa": 16,
+     "dosya": "bt-070-arduino-degisken-kosul-dongu-fonksiyon-s1-0-cf558054.pdf",
+     "yuklendi": "2026-10-04"
+    }
+   ]
   }
  }
 }
