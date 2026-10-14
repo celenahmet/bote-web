@@ -13,14 +13,18 @@ const stores = {
 const ext = { target: '_blank', rel: 'sponsored noopener' };
 ---
 {house && <dialog class="entry-promo" aria-labelledby="entry-promo-title">
-  <button class="entry-promo-close" type="button" aria-label="Tanıtımı kapat">×</button>
+  <div class="entry-promo-header">
+  <div class="entry-promo-brand">
   <span class="promo-tag">İş birliği</span>
   <a class="promo-logo" href={promoUrl(house.url)} {...ext} aria-label="UniConnectly web sitesi">
     <img class={house.logoDark ? 'lg-light' : undefined} src={house.logo} alt="UniConnectly" height="40" />
     {house.logoDark && <img class="lg-dark" src={house.logoDark} alt="UniConnectly" height="40" />}
   </a>
+  </div>
+  <button class="entry-promo-close" type="button" aria-label="Tanıtımı kapat"><Icon name="x" size={20} /></button>
+  </div>
   <p class="entry-promo-kicker">Ücretsiz indir ve kaydol</p>
-  <h2 id="entry-promo-title">Üniversite hayatının fırsatları tek uygulamada</h2>
+  <h2 id="entry-promo-title" tabindex="-1">Üniversite hayatının fırsatları tek uygulamada</h2>
   <ul class="entry-promo-benefits">
     {items.map((item, i) => <li><span class="entry-promo-icon"><Icon name={['file-text', 'badge-check', 'bell', 'briefcase'][i]} size={24} /></span><div><b>{item.title}</b><p>{item.text}</p></div></li>)}
   </ul>
@@ -60,6 +64,6 @@ const ext = { target: '_blank', rel: 'sponsored noopener' };
       dialog.remove();
       if (previousFocus instanceof HTMLElement) previousFocus.focus({ preventScroll: true });
     });
-    dialog.querySelector<HTMLButtonElement>('button')!.focus({ preventScroll: true });
+    dialog.querySelector<HTMLElement>('h2')!.focus({ preventScroll: true });
   }
 </script>

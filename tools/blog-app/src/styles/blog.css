@@ -890,18 +890,25 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 
 /* Sekme basina bir kez acilan UniConnectly tanitimi. */
 .entry-promo-open{overflow:hidden}
-.entry-promo{width:min(560px,calc(100vw - 24px));max-width:calc(100vw - 24px);max-height:calc(100dvh - 32px);margin:auto;padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--ink);overflow:auto;overscroll-behavior:contain;box-shadow:0 20px 70px #10134233}
-.entry-promo::backdrop{background:#10132b99}
-.entry-promo-close{position:sticky;top:0;float:right;width:44px;height:44px;margin:-12px -12px 0 8px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);font:28px/1 var(--display);cursor:pointer;z-index:1}
-.entry-promo .promo-logo{margin:16px 0 8px}
-.entry-promo .promo-logo img{width:180px;max-width:calc(100% - 52px);height:auto}
+.entry-promo{width:min(560px,calc(100vw - 32px));max-width:calc(100vw - 32px);max-height:calc(100dvh - 32px);margin:auto;padding:28px;border:1px solid var(--line);border-radius:24px;background:var(--surface);color:var(--ink);overflow:auto;overscroll-behavior:contain;box-shadow:0 24px 80px #10134240}
+.entry-promo::backdrop{background:#10132b99;backdrop-filter:blur(3px)}
+.entry-promo-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:20px}
+.entry-promo-brand{display:flex;flex-direction:column;align-items:flex-start;gap:10px;min-width:0}
+.entry-promo .promo-tag{align-self:flex-start;font-size:10px;letter-spacing:.08em}
+.entry-promo-close{display:grid;place-items:center;flex:none;width:40px;height:40px;padding:0;border:1px solid var(--line);border-radius:12px;background:var(--raised);color:var(--muted);cursor:pointer}
+.entry-promo-close:hover{background:var(--violet-soft);color:var(--violet)}
+.entry-promo .promo-logo{display:flex;min-height:0;margin:0}
+.entry-promo .promo-logo img{width:180px;max-width:100%;height:auto}
 .entry-promo-kicker{color:var(--muted);font-size:13px}
-.entry-promo h2{font-size:25px;line-height:1.25;margin:12px 0 18px}
+.entry-promo h2{font-size:26px;line-height:1.25;margin:8px 0 20px;outline:none}
 .entry-promo-benefits{display:grid;gap:10px;list-style:none;margin:0 0 20px;padding:0}
-.entry-promo-benefits li{display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--raised);border:1px solid var(--line);border-radius:12px;overflow-wrap:anywhere}
-.entry-promo-icon{display:flex;flex:none;color:var(--violet);padding-top:2px}
-.entry-promo-benefits b{font-size:14px}
-.entry-promo-benefits p{font-size:12px;line-height:1.5;color:var(--ink-2);margin-top:3px}
-.entry-promo .promo-stores{margin-bottom:16px;flex-wrap:wrap}
-.entry-promo .uc-btn{display:flex;justify-content:center}
-@media(max-width:420px){.entry-promo{padding:20px}.entry-promo h2{font-size:22px}}
+.entry-promo-benefits li{display:flex;align-items:flex-start;gap:12px;padding:14px;background:var(--raised);border:1px solid var(--line);border-radius:14px;overflow-wrap:anywhere}
+.entry-promo-icon{display:grid;place-items:center;flex:none;width:32px;height:32px;background:var(--surface);border-radius:9px;color:var(--violet)}
+.entry-promo-icon svg{width:20px;height:20px}
+.entry-promo-benefits b{display:block;font-size:14px;line-height:1.5}
+.entry-promo-benefits p{font-size:12px;line-height:1.5;color:var(--ink-2);margin-top:4px}
+.entry-promo .promo-stores{display:flex;justify-content:center;gap:8px;margin-bottom:18px;flex-wrap:wrap}
+.entry-promo .store{flex:0 1 140px;min-width:0}
+.entry-promo .store img{width:100%;height:auto;max-height:42px;object-fit:contain}
+.entry-promo .uc-btn{display:flex;justify-content:center;border-radius:12px;min-height:46px}
+@media(max-width:420px){.entry-promo{padding:20px;border-radius:20px}.entry-promo h2{font-size:22px}.entry-promo .promo-logo img{width:165px}.entry-promo .store{flex:1 1 0}.entry-promo-benefits li{padding:12px;gap:10px}}

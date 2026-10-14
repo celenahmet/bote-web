@@ -4,6 +4,8 @@ BÖTE (Bilgisayar ve Öğretim Teknolojileri Eğitimi) bölüm tanıtım sitesi.
 statik yayın; build adımı yok, depo kökü yayın klasörüdür.
 
 ## Genel
+- Ahmet (14.10.2026): İstediği site düzenlemeleri testlerden sonra commit/push ile yayına alınır;
+  canlıda doğrulanır. Her düzenleme için ayrıca yayın izni sorulmaz.
 - Ajan/workflow çalıştırılmaz; tüm işler doğrudan yapılır.
 - Amaç siteyi güncellemek ve SEO odaklı ilerlemek. Takılınca profesyonelce düşün,
   gerekirse önerilerle birlikte kullanıcıya sor.
