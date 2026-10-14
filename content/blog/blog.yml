@@ -124,10 +124,20 @@ ads:
       - { title: "Kaydol", text: "Uygulamayı indir, üniversiteni seç" }
       - { title: "Katıl", text: "Toplulukları takip et, etkinliklere başvur" }
       - { title: "Paylaş", text: "Doğrulanmış katılımların ve sertifikaların portföyünde; tek bağlantıyla paylaş" }
+    entryBenefits:
+      - title: "CV’ni hemen PDF olarak indir"
+        text: "10’dan fazla CV şablonundan istediğini seç. Özgeçmişini uygulamada düzenle, PDF olarak indir ve başvuruna hazır ol."
+      - title: "Dijital portföy"
+        text: "Katıldığın etkinlikleri ve sertifikalarını dijital portföyünde sergile, tek bağlantıyla paylaş."
+      - title: "Fırsatları yakından takip et"
+        text: "Toplulukları, etkinlikleri ve şirketleri takip et; yeni fırsatlardan haberdar ol."
+      - title: "İş ve staj fırsatlarını keşfet"
+        text: "İş ve staj ilanlarını tek yerde gör, şirket ilanlarına uygulamadan başvur."
     tabs:
       - label: "Öğrenciler"
         question: "Öğrenciye ne kazandırır?"
         items:
+          - { title: "CV’ni hemen PDF olarak indir", text: "10’dan fazla CV şablonundan istediğini seç. Özgeçmişini uygulamada düzenle, PDF olarak indir ve başvuruna hazır ol." }
           - { title: "Dijital portföy", text: "uniconnectly.com/@kullanıcıadı adresiyle herkese açık paylaş; CV'ne ve LinkedIn'e sertifika doğrulama bağlantısı olarak ekle.", example: "@nursena", exampleUrl: "https://uniconnectly.com/@nursena?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel" }
           - { title: "Doğrulanabilir katılım", text: "QR ile giriş yaptığın etkinlikler portföyünde doğrulanmış listelenir." }
           - { title: "Sertifikalar", text: "Platformda verilen sertifikalar doğrulanmış işaretli, edu.tr e-postan onaylı." }
