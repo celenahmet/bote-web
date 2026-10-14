@@ -887,3 +887,21 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .post-pdf summary{cursor:pointer;color:var(--violet);font-weight:600}
 .post-pdf details ul{margin:8px 0 0;padding-left:18px}
 .post-pdf-not{margin:10px 0 0!important;font-size:13.5px;color:var(--muted)}
+
+/* Sekme basina bir kez acilan UniConnectly tanitimi. */
+.entry-promo-open{overflow:hidden}
+.entry-promo{width:min(560px,calc(100vw - 24px));max-width:calc(100vw - 24px);max-height:calc(100dvh - 32px);margin:auto;padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--ink);overflow:auto;overscroll-behavior:contain;box-shadow:0 20px 70px #10134233}
+.entry-promo::backdrop{background:#10132b99}
+.entry-promo-close{position:sticky;top:0;float:right;width:44px;height:44px;margin:-12px -12px 0 8px;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);font:28px/1 var(--display);cursor:pointer;z-index:1}
+.entry-promo .promo-logo{margin:16px 0 8px}
+.entry-promo .promo-logo img{width:180px;max-width:calc(100% - 52px);height:auto}
+.entry-promo-kicker{color:var(--muted);font-size:13px}
+.entry-promo h2{font-size:25px;line-height:1.25;margin:12px 0 18px}
+.entry-promo-benefits{display:grid;gap:10px;list-style:none;margin:0 0 20px;padding:0}
+.entry-promo-benefits li{display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--raised);border:1px solid var(--line);border-radius:12px;overflow-wrap:anywhere}
+.entry-promo-icon{display:flex;flex:none;color:var(--violet);padding-top:2px}
+.entry-promo-benefits b{font-size:14px}
+.entry-promo-benefits p{font-size:12px;line-height:1.5;color:var(--ink-2);margin-top:3px}
+.entry-promo .promo-stores{margin-bottom:16px;flex-wrap:wrap}
+.entry-promo .uc-btn{display:flex;justify-content:center}
+@media(max-width:420px){.entry-promo{padding:20px}.entry-promo h2{font-size:22px}}

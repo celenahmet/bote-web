@@ -2,6 +2,7 @@
 import '../styles/blog.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import EntryPromo from '../components/EntryPromo.astro';
 import { loadBlog } from '../lib.js';
 
 // ads=false: PDF indirme ve dogrulama sayfalarinda Google reklami yuklenmez (28.09: dugme odakli,
@@ -53,5 +54,6 @@ const adsense = blog.cfg.ads.adsense.client;
 <slot />
 </main>
 <Footer />
+{ads && !noindex && <EntryPromo />}
 </body>
 </html>
