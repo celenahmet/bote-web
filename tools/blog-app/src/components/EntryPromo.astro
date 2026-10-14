@@ -1,5 +1,6 @@
 ---
 import { loadBlog } from '../lib.js';
+import { promoUrl } from '../promo.js';
 import Icon from './Icon.astro';
 const ads = loadBlog().cfg.ads;
 const house = ads.house?.find((h) => h.id === 'uniconnectly');
@@ -14,7 +15,7 @@ const ext = { target: '_blank', rel: 'sponsored noopener' };
 {house && <dialog class="entry-promo" aria-labelledby="entry-promo-title">
   <button class="entry-promo-close" type="button" aria-label="Tanıtımı kapat">×</button>
   <span class="promo-tag">İş birliği</span>
-  <a class="promo-logo" href={house.url} {...ext} aria-label="UniConnectly web sitesi">
+  <a class="promo-logo" href={promoUrl(house.url)} {...ext} aria-label="UniConnectly web sitesi">
     <img class={house.logoDark ? 'lg-light' : undefined} src={house.logo} alt="UniConnectly" height="40" />
     {house.logoDark && <img class="lg-dark" src={house.logoDark} alt="UniConnectly" height="40" />}
   </a>
@@ -24,9 +25,9 @@ const ext = { target: '_blank', rel: 'sponsored noopener' };
     {items.map((item, i) => <li><span class="entry-promo-icon"><Icon name={['file-text', 'badge-check', 'bell', 'briefcase'][i]} size={24} /></span><div><b>{item.title}</b><p>{item.text}</p></div></li>)}
   </ul>
   <div class="promo-stores">
-    {(house.stores || []).filter((s) => stores[s.id]).map((s) => <a class="store" href={s.url} {...ext} aria-label={`UniConnectly: ${stores[s.id].label}`}><img src={`/blog/ads/${stores[s.id].image}`} alt={stores[s.id].label} width={stores[s.id].width} height="80" /></a>)}
+    {(house.stores || []).filter((s) => stores[s.id]).map((s) => <a class="store" href={promoUrl(s.url)} {...ext} aria-label={`UniConnectly: ${stores[s.id].label}`}><img src={`/blog/ads/${stores[s.id].image}`} alt={stores[s.id].label} width={stores[s.id].width} height="80" /></a>)}
   </div>
-  <a class="uc-btn uc-primary" href={house.url} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
+  <a class="uc-btn uc-primary" href={promoUrl(house.url)} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
 </dialog>}
 <script>
   const dialog = document.querySelector<HTMLDialogElement>('.entry-promo');

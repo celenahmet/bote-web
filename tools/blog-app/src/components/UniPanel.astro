@@ -3,6 +3,7 @@
 // kitleye gore sekmeli kazanimlar (3 sutun), altta magaza rozetleri ve dugmeler. Sekmeler JS'siz calisir (radyo dugmeleri + CSS).
 import Icon from './Icon.astro';
 import { loadBlog } from '../lib.js';
+import { promoUrl } from '../promo.js';
 const ads = loadBlog().cfg.ads;
 const sc = ads.showcase;
 const house = (ads.house || [])[0] || {};
@@ -19,7 +20,7 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
     <div class="uc-head">
       <div class="uc-intro">
         <div class="uc-brand">
-          <a class="uc-logo" href={sc.url} {...ext} aria-label="UniConnectly web sitesi">
+          <a class="uc-logo" href={promoUrl(sc.url)} {...ext} aria-label="UniConnectly web sitesi">
             {house.logo ? (
               <>
                 <img class={house.logoDark ? 'lg-light' : undefined} src={house.logo} alt="UniConnectly" height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />
@@ -52,7 +53,7 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
               {t.items.map((it) => (
                 <li>
                   <b><span class="uc-check"><Icon name="check" size={12} /></span>{it.title}</b>
-                  <small>{it.text}{it.example && <> <a href={it.exampleUrl} {...ext}>Örneği gör: {it.example}</a></>}</small>
+                  <small>{it.text}{it.example && <> <a href={promoUrl(it.exampleUrl)} {...ext}>Örneği gör: {it.example}</a></>}</small>
                 </li>
               ))}
             </ul>
@@ -64,15 +65,15 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
       <div class="uc-get" aria-label="Ücretsiz indir">
         <div class="promo-stores">
           {(house.stores || []).filter((s) => STORES[s.id]).map((s) => (
-            <a class="store" href={s.url} {...ext} aria-label={`UniConnectly: ${STORES[s.id].label}`}>
+            <a class="store" href={promoUrl(s.url)} {...ext} aria-label={`UniConnectly: ${STORES[s.id].label}`}>
               <img src={STORES[s.id].badge} alt={STORES[s.id].label} width={STORES[s.id].w} height="80" loading="lazy" decoding="async" />
             </a>
           ))}
         </div>
       </div>
       <div class="uc-actions">
-        <a class="uc-btn uc-ghost" href={sc.blog} {...ext}>UniConnectly Blog <Icon name="arrow-right" size={16} /></a>
-        <a class="uc-btn uc-primary" href={sc.url} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
+        <a class="uc-btn uc-ghost" href={promoUrl(sc.blog)} {...ext}>UniConnectly Blog <Icon name="arrow-right" size={16} /></a>
+        <a class="uc-btn uc-primary" href={promoUrl(sc.url)} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
       </div>
     </div>
   </aside>

@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import Icon from './Icon.astro';
 import { loadBlog } from '../lib.js';
+import { promoUrl } from '../promo.js';
 import { ROOT } from '../../../blog/content.mjs';
 const { slot } = Astro.props;
 const ads = loadBlog().cfg.ads;
@@ -40,7 +41,7 @@ const STORES = {
     {kartlar.map((h, i) => (
     <div class="promo-card" hidden={i > 0}>
       <span class="promo-tag">İş birliği</span>
-      <a class="promo-logo" href={h.url} rel="sponsored noopener" target="_blank" aria-label={`${h.brand} web sitesi`}>
+      <a class="promo-logo" href={promoUrl(h.url)} rel="sponsored noopener" target="_blank" aria-label={`${h.brand} web sitesi`}>
         {h.logo ? (
           <>
             <img class={h.logoDark ? 'lg-light' : undefined} src={h.logo} alt={h.brand} height="40" loading="lazy" decoding="async" onerror="this.hidden=true;this.parentNode.querySelector('.promo-wordmark').hidden=false" />
@@ -50,11 +51,11 @@ const STORES = {
         ) : <span class="promo-wordmark">{h.id === 'uniconnectly' ? <>Uni<b>Connectly</b></> : h.brand}</span>}
       </a>
       <p class="promo-text">{h.text}</p>
-      <a class="promo-cta" href={h.url} rel="sponsored noopener" target="_blank">{h.cta}</a>
+      <a class="promo-cta" href={promoUrl(h.url)} rel="sponsored noopener" target="_blank">{h.cta}</a>
       {h.stores?.length > 0 && (
         <div class="promo-stores">
           {h.stores.filter((st) => STORES[st.id]).map((st) => (
-            <a class="store" href={st.url} rel="sponsored noopener" target="_blank" aria-label={`${h.brand}: ${STORES[st.id].label}`}>
+            <a class="store" href={promoUrl(st.url)} rel="sponsored noopener" target="_blank" aria-label={`${h.brand}: ${STORES[st.id].label}`}>
               <img src={STORES[st.id].badge} alt={STORES[st.id].label} width={STORES[st.id].w} height="80" loading="lazy" decoding="async" />
             </a>
           ))}
