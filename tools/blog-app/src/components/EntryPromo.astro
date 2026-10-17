@@ -39,7 +39,7 @@ const ext = { target: '_blank', rel: 'sponsored noopener' };
   let dismissed = false;
   try { dismissed = sessionStorage.getItem(key) === '1'; } catch {}
   if (dialog && !dismissed && typeof dialog.showModal === 'function') {
-    const titles = ['Üniversite hayatının fırsatları tek uygulamada', 'CV’ni güncelle, PDF’ini hemen indir', 'Kampüsü keşfet, kariyerine bir adım at', 'Staj, iş ve etkinlik fırsatlarını kaçırma'];
+    const titles = ['Üniversite hayatının fırsatları tek uygulamada', 'Öğrenciler, şirketler, topluluklar bir arada', 'CV’ni güncelle, PDF’ini hemen indir', 'Kampüsü keşfet, kariyerine bir adım at', 'Staj, iş, burs ve etkinlik fırsatlarını kaçırma'];
     const heading = dialog.querySelector('h2')!;
     let index = Math.floor(Math.random() * titles.length);
     heading.textContent = titles[index];

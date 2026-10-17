@@ -131,8 +131,8 @@ ads:
         text: "Katıldığın etkinlikleri ve sertifikalarını dijital portföyünde sergile, tek bağlantıyla paylaş."
       - title: "Fırsatları yakından takip et"
         text: "Toplulukları, etkinlikleri ve şirketleri takip et; yeni fırsatlardan haberdar ol."
-      - title: "İş ve staj fırsatlarını keşfet"
-        text: "İş ve staj ilanlarını tek yerde gör, şirket ilanlarına uygulamadan başvur."
+      - title: "İş, staj ve burs fırsatlarını keşfet"
+        text: "İş ve staj ilanlarını, burs ve destek programlarını tek yerde gör; şirket ilanlarına uygulamadan başvur."
     tabs:
       - label: "Öğrenciler"
         question: "Öğrenciye ne kazandırır?"
