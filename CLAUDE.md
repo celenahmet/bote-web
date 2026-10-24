@@ -57,9 +57,10 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   Yazı sonunda önceki/sonraki bağlantısı yoktur; 4 görselli "Bunlar da ilginizi çekebilir"
   bölümü vardır. Liste sayfalarında reklam > kategoriler > popüler > son görüntülenenler.
   Site adresi www'suz `https://bote.web.tr` (www 27.09'dan beri buraya yönlenir).
-  Üst menü kategorilerin kısa adlarını (`blog.yml > short`) gösterir ve yalnız 1280px ve üstünde
-  görünür; altında kategori şeridi çıkar. Yeni kategori eklenirse menünün 1280px'te sığdığını ölç
-  (gizli kaydırmada son öğe kesik görünür). Tek yazılı kategoride yazı hem vitrinde hem akışta durur.
+  Üst menü (24.10): logo/Blog ve araçlar üst satırda, kategoriler ayrı alt satırda;
+  1100px altında kategoriler yerel details menüsünden açılır. Masaüstünde kategori kısa
+  adları (`blog.yml > short`), mobilde tam adları gösterilir. Yeni kategori eklenirse
+  1100px ve 1280px genişliklerinde tüm bağlantıların sığdığını ölç. Tek yazılı kategoride yazı hem vitrinde hem akışta durur.
 - Atıflar ve kaynakça: metindeki atıf numaraları ve kaynakçadaki "Metinde göster"
   bağlantıları varsayılan **kapalı**; her yazıdaki "Kaynakça ayarları"ndan ayrı ayrı açılır.
   Kaynakça sade: kısa künye (başlık kaynağa bağlı), dil etiketi ve erişim tarihi gösterilmez;
