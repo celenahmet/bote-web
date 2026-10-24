@@ -2,6 +2,7 @@
 title: "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları"
 citeTitle: "Bruner, Ausubel ve Gagné: Bilişsel öğretim kuramları"
 description: "Buluş yoluyla öğrenme, sunuş yoluyla öğretim ve öğretim durumları: özgün metinler, rehberli ve saf buluş tartışması, meta-analizler, Türkiye verisi ve AGS."
+imageAlt: "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

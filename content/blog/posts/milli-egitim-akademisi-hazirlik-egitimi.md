@@ -1,6 +1,7 @@
 ---
 title: "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?"
 description: "Millî Eğitim Akademisi hazırlık eğitimi kaç dönem sürer, neleri kapsar, kimler katılır? 7528 sayılı Kanun'la gelen yeni model ve dünyadaki örnekler."
+imageAlt: "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

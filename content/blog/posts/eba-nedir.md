@@ -2,6 +2,7 @@
 title: "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim"
 citeTitle: "EBA nedir? Eğitim Bilişim Ağı ve salgında uzaktan eğitim"
 description: "EBA nedir? Eğitim Bilişim Ağı'nın FATİH'teki yeri, salgında EBA ve EBA TV ile uzaktan eğitim: resmî rakamlar, erişim desteği, araştırma bulguları ve dersler."
+imageAlt: "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: politika

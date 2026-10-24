@@ -2,6 +2,7 @@
 title: "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler"
 citeTitle: "TALIS nedir? TALIS 2024 Türkiye sonuçları ve öğretmenler"
 description: "TALIS nedir? OECD'nin öğretmen araştırması nasıl yapılır; TALIS 2024 Türkiye sonuçları: yaş, çalışma saati, maaş memnuniyeti, yapay zekâ ve 2018'den değişim."
+imageAlt: "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler"
 date: 2026-09-27
 category: uluslararasi-egitim
 type: politika

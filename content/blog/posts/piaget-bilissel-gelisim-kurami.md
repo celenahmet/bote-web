@@ -2,6 +2,7 @@
 title: "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler"
 citeTitle: "Piaget'nin bilişsel gelişim kuramı: Evreler, kanıtlar ve eleştiriler"
 description: "Piaget'nin bilişsel gelişim kuramı: şema, dengeleme ve dört evre; deneysel kanıtlar, eleştiriler, öğretmen adaylarından Türkiye verisi ve AGS'de sık yapılan hatalar."
+imageAlt: "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

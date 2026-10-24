@@ -2,6 +2,7 @@
 title: "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi"
 citeTitle: "Elektronik devre elemanları nelerdir? BÖTE dersi rehberi"
 description: "Elektronik Devre Elemanları dersinin bütün konuları: direnç, kondansatör, diyot, Ohm ve Kirchhoff yasaları, sayı sistemleri, mantık kapıları ve Boole cebiri."
+imageAlt: "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi"
 date: 2026-09-28
 category: bolum-rehberi
 type: rehber

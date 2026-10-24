@@ -1,6 +1,7 @@
 ---
 title: "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber"
 description: "Üretken yapay zekâ sınıfta nasıl kullanılmalı? UNESCO rehberi, öğretmenler için yapay zekâ yetkinlik çerçevesi ve MEB'in politika belgesiyle dengeli bir bakış."
+imageAlt: "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber"
 date: 2026-09-25
 category: egitim-teknolojileri
 type: kavram

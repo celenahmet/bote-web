@@ -57,7 +57,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
   {
     '@type': 'BlogPosting', '@id': `${url}#yazi`, mainEntityOfPage: url, url,
     headline: post.title, description: post.description, inLanguage: 'tr-TR',
-    image: { '@type': 'ImageObject', url: blog.abs(post.image.src), width: post.image.width, height: post.image.height },
+    image: { '@type': 'ImageObject', url: blog.abs(post.image.src), contentUrl: blog.abs(post.image.src), name: post.title, caption: post.imageAlt, ...(post.image.src.includes('.webp') ? { encodingFormat: 'image/webp' } : {}), width: post.image.width, height: post.image.height },
     datePublished: isoDate(post.date), dateModified: isoDate(post.updated),
     author: { '@type': 'Organization', '@id': blog.author.id, name: blog.author.name, url: blog.abs(blog.author.url) },
     publisher: { '@id': `${blog.SITE}/#org` }, isPartOf: { '@id': `${blog.SITE}/blog#blog` },
@@ -87,24 +87,26 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       <Crumbs items={trail} />
       <a class="badge" href={post.category.url}>{post.category.name}</a>
       <h1 id="yazi-basligi" style={`view-transition-name: t-${post.slug}`}>{post.title}</h1>
-      <p class="dek">{post.description}</p>
-      <div class="byline">
-        <a class="author" href={blog.author.url} rel="author">
-          <span class="avatar"><Icon name="user-round" size={18} /></span>
-          <span class="who"><b>{blog.author.name}</b><small>Yazar</small></span>
-        </a>
-        <span class="m"><Icon name="calendar" size={16} /><time datetime={post.date}>{trDate(post.date)}</time></span>
-        <span class="m"><Icon name="clock" size={16} />{post.minutes} dk okuma</span>
-        {!preview && <ViewCount client:idle slug={post.slug} count icon={icon('eye', { size: 16 })} />}
-        {post.updated !== post.date && <span class="m m-upd"><Icon name="refresh-cw" size={15} />Güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></span>}
-      </div>
     </header>
     <div class="post-body">
       {post.art && (
         <figure class="post-art">
-          <img src={post.art.src} width={post.art.width} height={post.art.height} alt={`${post.title} yazısının kapak görseli`} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
+          <img src={post.art.src} srcset={post.art.srcset} sizes="(min-width: 1280px) 848px, (min-width: 1080px) calc(100vw - 420px), calc(100vw - 36px)" width={post.art.width} height={post.art.height} alt={post.imageAlt} fetchpriority="high" decoding="async" style={`view-transition-name: c-${post.slug}`} />
         </figure>
       )}
+      <div class="post-intro-meta">
+        <p class="dek">{post.description}</p>
+        <div class="byline">
+          <a class="author" href={blog.author.url} rel="author">
+            <span class="avatar"><Icon name="user-round" size={18} /></span>
+            <span class="who"><b>{blog.author.name}</b><small>Yazar</small></span>
+          </a>
+          <span class="m"><Icon name="calendar" size={16} /><time datetime={post.date}>{trDate(post.date)}</time></span>
+          <span class="m"><Icon name="clock" size={16} />{post.minutes} dk okuma</span>
+          {!preview && <ViewCount client:idle slug={post.slug} count icon={icon('eye', { size: 16 })} />}
+          {post.updated !== post.date && <span class="m m-upd"><Icon name="refresh-cw" size={15} />Güncellendi <time datetime={post.updated}>{trDate(post.updated)}</time></span>}
+        </div>
+      </div>
       <div class="prose">
         {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
         <Fragment set:html={intro} />

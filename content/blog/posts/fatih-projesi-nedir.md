@@ -2,6 +2,7 @@
 title: "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları"
 citeTitle: "FATİH Projesi nedir? Hedefleri, uygulaması ve sonuçları"
 description: "FATİH Projesi nedir? 2010'da başlayan projenin 5 bileşeni, tablet ve etkileşimli tahta sayıları, Sayıştay bulguları, araştırmaların sonuçları ve eleştiriler."
+imageAlt: "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: politika

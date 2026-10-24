@@ -2,6 +2,7 @@
 title: "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri"
 citeTitle: "Kohlberg'in ahlak gelişimi kuramı: Evreler, kanıt ve eleştiri"
 description: "Kohlberg'in ahlak gelişimi kuramı: altı evre, boylamsal ve kültürler arası kanıt, Türkiye çalışması, Gilligan eleştirisi, ahlak eğitimi ve AGS'de sık hatalar."
+imageAlt: "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

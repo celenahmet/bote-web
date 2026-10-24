@@ -2,6 +2,7 @@
 title: "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri"
 citeTitle: "Ohm ve Kirchhoff kanunları: Seri ve paralel devre çözümleri"
 description: "Ohm kanunu, güç, Kirchhoff'un akımlar ve gerilimler kanunu; seri, paralel ve karışık devrelerde eşdeğer direnç, akım ve gerilim hesabı, çözümlü örnekler."
+imageAlt: "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri"
 date: 2026-09-28
 category: bolum-rehberi
 type: rehber

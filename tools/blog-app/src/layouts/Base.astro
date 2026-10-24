@@ -37,11 +37,13 @@ const adsense = blog.cfg.ads.adsense.client;
 <meta property="og:image" content={img}>
 <meta property="og:image:width" content={String(image.width)}>
 <meta property="og:image:height" content={String(image.height)}>
+{image.src.includes('.webp') && <meta property="og:image:type" content="image/webp">}
 <meta property="og:image:alt" content={imageAlt || title}>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content={title}>
 <meta name="twitter:description" content={description}>
 <meta name="twitter:image" content={img}>
+<meta name="twitter:image:alt" content={imageAlt || title}>
 <slot name="head" />
 <script is:inline>(function(){var d=document.documentElement;d.setAttribute('data-js','');try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');if(localStorage.getItem('bote-cites')==='on')d.setAttribute('data-cites','on');if(localStorage.getItem('bote-backrefs')==='on')d.setAttribute('data-backrefs','on')}catch(e){}})();</script>
 {adsense && ads && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsense}`} crossorigin="anonymous"></script>}

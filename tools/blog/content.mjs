@@ -178,11 +178,18 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
   for (const p of posts) if (catBy[p.category.slug]) catBy[p.category.slug].count++;
 
   const cover = (slug) => {
-    const f = path.join(COVER_DIR, `${slug}.jpg`);
+    const ext = fs.existsSync(path.join(COVER_DIR, `${slug}.webp`)) ? 'webp' : 'jpg';
+    const f = path.join(COVER_DIR, `${slug}.${ext}`);
     if (!fs.existsSync(f)) return null;
     // Icerik ozeti adrese eklenir: gorsel yeniden uretilince tarayici ve CDN onbellegi eskiyi gostermez.
     const v = crypto.createHash('sha1').update(fs.readFileSync(f)).digest('hex').slice(0, 8);
-    return { src: `/blog/assets/covers/${slug}.jpg?v=${v}`, file: f, ...imageSize(f) };
+    const src = `/blog/assets/covers/${slug}.${ext}?v=${v}`;
+    const variants = ext === 'webp' ? [640, 960].map((w) => {
+      const file = path.join(COVER_DIR, `${slug}-${w}.webp`);
+      return fs.existsSync(file) ? { file, src: `/blog/assets/covers/${slug}-${w}.webp?v=${v}`, ...imageSize(file) } : null;
+    }).filter(Boolean) : [];
+    const size = imageSize(f);
+    return { src, file: f, ...size, variants, srcset: variants.length ? [...variants, { src, ...size }].map((i) => `${i.src} ${i.width}w`).join(', ') : undefined };
   };
   const fallbackImg = { src: '/assets/img/educator-img14.jpg', ...imageSize(path.join(ROOT, 'assets/img/educator-img14.jpg')) };
   const blogImage = cover('_blog') || fallbackImg;
@@ -192,7 +199,7 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
   })).sort((a, b) => (b.featured - a.featured) || b.date.localeCompare(a.date) || a.title.localeCompare(b.title, 'tr'));
   for (const p of [...posts, ...previews]) {
     p.image = p.imageSrc ? { src: p.imageSrc, ...imageSize(path.join(ROOT, p.imageSrc)) } : cover(p.slug) || blogImage;
-    p.art = cover(`${p.slug}-art`); // sayfa ici basliksiz gorsel (yoksa gosterilmez)
+    p.art = p.image.src.includes('.webp') ? p.image : cover(`${p.slug}-art`); // sayfa ici basliksiz gorsel (yoksa gosterilmez)
   }
   // Ana sayfada en guncel "featured" yazi en uste alinir.
   const lead = posts.find((p) => p.featured);

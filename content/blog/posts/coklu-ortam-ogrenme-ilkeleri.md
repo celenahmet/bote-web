@@ -2,6 +2,7 @@
 title: "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük"
 citeTitle: "Çoklu ortam öğrenme ilkeleri: Mayer ve bilişsel yük"
 description: "Mayer'in çoklu ortam öğrenme ilkeleri ve bilişsel yük kuramı: tanımlar, tarihçe, meta-analizlerde etki büyüklükleri, eleştiriler ve Türkiye'deki çalışmalar."
+imageAlt: "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük"
 date: 2026-09-25
 category: egitim-teknolojileri
 type: kavram

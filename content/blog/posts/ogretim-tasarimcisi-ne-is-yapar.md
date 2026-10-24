@@ -1,6 +1,7 @@
 ---
 title: "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu"
 description: "Öğretim tasarımcısı ne iş yapar, hangi becerilere ihtiyaç duyar, nasıl olunur? Kurumsal eğitimden e-öğrenmeye rol tanımları, portfolyo önerileri ve BÖTE bağlantısı."
+imageAlt: "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu"
 date: 2026-09-25
 category: kariyer
 type: rehber

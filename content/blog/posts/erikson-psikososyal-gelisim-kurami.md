@@ -2,6 +2,7 @@
 title: "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar"
 citeTitle: "Erikson'un psikososyal gelişim kuramı: Evreler ve kanıtlar"
 description: "Erikson'un psikososyal gelişim kuramı: sekiz evre, kimlik ve Marcia'nın statüleri, boylamsal kanıtlar, eleştiriler, Türkiye çalışmaları ve AGS'de sık hatalar."
+imageAlt: "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

@@ -1,6 +1,7 @@
 ---
 title: "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi"
 description: "BÖTE ile bilgisayar mühendisliği arasındaki farklar nelerdir? Amaç, dersler, kariyer yolları ve kimin hangi bölüme uygun olduğuna dair tarafsız bir karşılaştırma."
+imageAlt: "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi"
 date: 2026-09-25
 category: bolum-rehberi
 type: rehber

@@ -2,6 +2,7 @@
 title: "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler"
 citeTitle: "Gardner'ın çoklu zekâ kuramı: Kanıt ve eleştiriler"
 description: "Çoklu zekâ kuramının iddiası, genel zekâ ile farkı, Waterhouse ve Gardner tartışması, öğrenme stilleri karışıklığı, Türkiye'de meta-analiz ve ders kitapları, AGS."
+imageAlt: "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

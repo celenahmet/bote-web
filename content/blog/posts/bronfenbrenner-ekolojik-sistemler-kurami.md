@@ -2,6 +2,7 @@
 title: "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ"
 citeTitle: "Bronfenbrenner'in ekolojik sistemler kuramı ve dijital çağ"
 description: "Bronfenbrenner'in ekolojik sistemler kuramı: beş sistem, biyoekolojik model, dijital mikrosistem, okul-aile kanıtı, eleştiriler, Türkiye verisi ve AGS hataları."
+imageAlt: "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

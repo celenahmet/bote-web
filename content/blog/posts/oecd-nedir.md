@@ -2,6 +2,7 @@
 title: "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü"
 citeTitle: "OECD nedir? Üyeleri, Türkiye ve eğitimdeki rolü"
 description: "OECD nedir? 1961'de kurulan örgütün 38 üyesi, yapısı, Türkiye'nin kurucu üyeliği ve PISA, TALIS, PIAAC ile Education at a Glance üzerinden eğitimdeki rolü."
+imageAlt: "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü"
 date: 2026-09-27
 category: uluslararasi-egitim
 type: politika

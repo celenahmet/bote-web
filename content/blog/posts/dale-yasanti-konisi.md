@@ -2,6 +2,7 @@
 title: "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi"
 citeTitle: "Dale'in yaşantı konisi nedir? Basamakları ve yüzde efsanesi"
 description: "Dale'in yaşantı konisi nedir? On bir basamağı, Dale'in gerçekte ne söylediği, 'okuduğumuzun yüzde 10'unu hatırlarız' efsanesinin kökeni ve araştırma bulguları."
+imageAlt: "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi"
 date: 2026-09-28
 category: egitim-teknolojileri
 type: kavram

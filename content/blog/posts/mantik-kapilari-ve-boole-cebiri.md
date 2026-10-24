@@ -2,6 +2,7 @@
 title: "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler"
 citeTitle: "Mantık kapıları ve Boole cebiri: Konu anlatımı, örnekler"
 description: "Mantık kapıları ve Boole cebiri konu anlatımı: yedi kapının doğruluk tabloları, Boole kuralları, De Morgan teoremleri, minterm ve maxterm, çözümlü örnekler."
+imageAlt: "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler"
 date: 2026-09-28
 category: bolum-rehberi
 type: rehber

@@ -1,6 +1,7 @@
 ---
 title: "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi"
 description: "Eğitim fakültesi öğrencileri Erasmus+ ile yurt dışında okuyabilir mi, staj yapabilir mi? Süreler, başvuru, yeni mezun stajı ve öğretmen adayları için öneriler."
+imageAlt: "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi"
 date: 2026-09-25
 category: egitim-fakultesi
 type: rehber

@@ -2,6 +2,7 @@
 title: "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri"
 citeTitle: "Tam öğrenme ve okulda öğrenme: Carroll ve Bloom modelleri"
 description: "Carroll'un zaman modeli, Bloom'un tam öğrenme ve okulda öğrenme modeli, 2 sigma problemi, meta-analizler, Türkiye'deki deneyler ve AGS'de sık yapılan hatalar."
+imageAlt: "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

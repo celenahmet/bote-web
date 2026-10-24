@@ -1,6 +1,7 @@
 ---
 title: "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?"
 description: "Öğretmenler mesleklerinin değer gördüğünü düşünüyor mu? OECD TALIS verileri, mesleğin cazibesini etkileyen etkenler ve öğretmenliği güçlendiren politikalar."
+imageAlt: "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?"
 date: 2026-09-25
 category: yuksekogretim
 type: politika

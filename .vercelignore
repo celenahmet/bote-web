@@ -63,3 +63,6 @@ word.pdf
 
 # blog PDF uretimi: gecici yazdirma sayfalari ve basilan PDFler (dosyalar medya sunucusunda)
 /.pdf-yapim
+
+# Yerel onay galerileri, ham PNG'ler ve kalite kontrol raporlari
+/output

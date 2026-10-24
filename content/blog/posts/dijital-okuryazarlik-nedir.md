@@ -2,6 +2,7 @@
 title: "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri"
 citeTitle: "Dijital okuryazarlık nedir? Boyutları ve okuldaki yeri"
 description: "Dijital okuryazarlık nedir? Tanımı, beş boyutu, DigComp 2.2, Maarif Modeli'ndeki dokuz beceri, Türkiye araştırmaları ve dijital yerli tartışması."
+imageAlt: "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: kavram

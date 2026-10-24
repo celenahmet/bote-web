@@ -1,6 +1,7 @@
 ---
 title: "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin"
 description: "Eğitim fakültelerindeki Öğretim Teknolojileri dersi neyi amaçlar, 2018'de ne değişti ve öğretmen adayları bu dersten nasıl en iyi şekilde yararlanabilir?"
+imageAlt: "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

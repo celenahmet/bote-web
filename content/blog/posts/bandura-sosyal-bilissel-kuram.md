@@ -2,6 +2,7 @@
 title: "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik"
 citeTitle: "Bandura'nın sosyal bilişsel kuramı ve öz yeterlik"
 description: "Bobo bebek deneyinin özgün bulguları, gözlem yoluyla öğrenme, karşılıklı belirleyicilik, öz yeterliğin kaynakları, meta-analiz kanıtı, Türkiye verisi ve AGS."
+imageAlt: "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

@@ -1,6 +1,7 @@
 ---
 title: "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları"
 description: "Uzman öğretmen ve başöğretmen olmak için hangi koşullar gerekir? 7528 sayılı Kanun'daki kariyer basamaklarını ve uluslararası bakışı anlatıyoruz."
+imageAlt: "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

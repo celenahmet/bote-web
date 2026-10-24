@@ -2,6 +2,7 @@
 title: "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi"
 citeTitle: "Harmanlanmış öğrenme nedir? Modelleri, örnekleri, etkisi"
 description: "Harmanlanmış öğrenme nedir? Tanımı, rotasyon ve esnek modeller, ters yüz sınıfla farkı, meta-analiz bulguları, Türkiye'deki araştırmalar ve YÖK'ün yüzde 30 kuralı."
+imageAlt: "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: kavram

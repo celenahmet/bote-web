@@ -2,6 +2,7 @@
 title: "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey"
 citeTitle: "Karnaugh haritası: Gruplama kuralları ve Quine-McCluskey"
 description: "Karnaugh haritası konu anlatımı: 2, 3 ve 4 değişkenli haritalar, gruplama kuralları, fark etmez durumlar ve Quine-McCluskey yöntemi, çözümlü örneklerle."
+imageAlt: "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey"
 date: 2026-09-28
 category: bolum-rehberi
 type: rehber

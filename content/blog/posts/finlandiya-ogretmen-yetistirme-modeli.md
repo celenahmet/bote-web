@@ -1,6 +1,7 @@
 ---
 title: "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler"
 description: "Finlandiya'da öğretmenler nasıl yetiştiriliyor? Yüksek lisans şartı, araştırmaya dayalı öğretmen eğitimi ve Türkiye ile karşılaştırmada dikkat edilmesi gerekenler."
+imageAlt: "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

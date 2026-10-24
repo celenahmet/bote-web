@@ -2,6 +2,7 @@
 title: "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?"
 citeTitle: "PISA nedir? Nasıl ölçülür, sonuçlar nasıl okunur?"
 description: "PISA nedir? OECD'nin 15 yaş değerlendirmesi nasıl yapılır: örneklem, bireyselleştirilmiş test, olası değerler, yeterlik düzeyleri, yöntem eleştirileri ve Türkiye."
+imageAlt: "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?"
 date: 2026-09-27
 category: uluslararasi-egitim
 type: kavram

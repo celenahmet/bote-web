@@ -2,6 +2,7 @@
 title: "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?"
 citeTitle: "Ters yüz sınıf nedir? Nasıl uygulanır, işe yarar mı?"
 description: "Ters yüz sınıf nedir? Tanımı, dayandığı kuramlar, nasıl uygulandığı, meta-analizlerin bulguları, Türkiye'deki araştırmalar ve modele yöneltilen eleştiriler."
+imageAlt: "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: kavram

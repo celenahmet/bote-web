@@ -1,6 +1,7 @@
 ---
 title: "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi"
 description: "DigCompEdu nedir, altı alan ve 22 yetkinlik neleri kapsar, A1'den C2'ye düzeyler ne anlama gelir? Öğretmenler için dijital yetkinlik rehberi ve öz değerlendirme."
+imageAlt: "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi"
 date: 2026-09-25
 category: egitim-teknolojileri
 type: kavram

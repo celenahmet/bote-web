@@ -1,6 +1,7 @@
 ---
 title: "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler"
 description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi becerilerden oluşur ve okullarda nasıl öğretilir? Wing'in tanımından Avrupa'daki uygulamalara rehber."
+imageAlt: "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler"
 date: 2026-09-25
 category: egitim-teknolojileri
 type: kavram

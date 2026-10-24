@@ -1,6 +1,7 @@
 ---
 title: "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?"
 description: "Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber."
+imageAlt: "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

@@ -2,6 +2,7 @@
 title: "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner"
 citeTitle: "Davranışçı öğrenme kuramları: Pavlov, Thorndike ve Skinner"
 description: "Klasik ve edimsel koşullanma, Thorndike'ın yasaları, pekiştirme tarifeleri, programlı öğretim, ödül ve ceza üzerine kanıt, eleştiriler ve AGS'de sık hatalar."
+imageAlt: "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

@@ -2,6 +2,7 @@
 title: "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik"
 citeTitle: "PISA 2022 Türkiye sonuçları: Puanlar, sıralama ve eşitlik"
 description: "PISA 2022 Türkiye sonuçları: matematik 453, okuma 456, fen 476; 2003-2022 puan serisi, sıralama, okul türü ve eşitlik bulguları, okurken yapılan hatalar."
+imageAlt: "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik"
 date: 2026-09-27
 category: uluslararasi-egitim
 type: politika

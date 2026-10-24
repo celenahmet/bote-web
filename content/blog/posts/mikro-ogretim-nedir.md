@@ -2,6 +2,7 @@
 title: "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları"
 citeTitle: "Mikro öğretim nedir? Aşamaları, yararları ve sınırlılıkları"
 description: "Mikro öğretim nedir? Stanford'daki kökeni, planla-öğret-gözle döngüsü, çalışılan beceriler, video ve geri bildirim, araştırma bulguları ve yapaylık eleştirisi."
+imageAlt: "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları"
 date: 2026-09-27
 category: egitim-bilimleri
 type: kavram

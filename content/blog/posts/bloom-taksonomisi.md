@@ -2,6 +2,7 @@
 title: "Bloom Taksonomisi ve Yenilenmiş Taksonomi"
 citeTitle: "Bloom taksonomisi ve yenilenmiş taksonomi"
 description: "Bloom taksonomisinin 1956 el kitabındaki özgün amacı, yenilenmiş taksonomi, hiyerarşi varsayımını sınayan kanıt, Türkiye'de sınav ve kazanım analizleri, AGS."
+imageAlt: "Bloom Taksonomisi ve Yenilenmiş Taksonomi"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

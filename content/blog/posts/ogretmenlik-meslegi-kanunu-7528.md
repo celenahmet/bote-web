@@ -1,6 +1,7 @@
 ---
 title: "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?"
 description: "7528 sayılı Öğretmenlik Mesleği Kanunu ne zaman çıktı, neleri değiştirdi? Millî Eğitim Akademisi, AGS ve kariyer basamaklarıyla yeni sistemi özetliyoruz."
+imageAlt: "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

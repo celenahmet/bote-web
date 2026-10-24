@@ -2,6 +2,7 @@
 title: "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı"
 citeTitle: "Eğitim teknolojisi nedir? Öğretim teknolojisinden farkı"
 description: "Eğitim teknolojisi nedir? AECT tanımı, alanın 1923'ten bugüne tarihi, öğretim teknolojisinden farkı, araştırma bulguları, eleştiriler ve Türkiye'de BÖTE."
+imageAlt: "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: kavram

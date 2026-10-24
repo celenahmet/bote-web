@@ -1,0 +1,1777 @@
+[
+  {
+    "slug": "arduino-dijital-analog-giris-cikis",
+    "title": "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead",
+    "alt": "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead",
+    "variants": [
+      {
+        "file": "arduino-dijital-analog-giris-cikis-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 49350
+      },
+      {
+        "file": "arduino-dijital-analog-giris-cikis-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 83236
+      },
+      {
+        "file": "arduino-dijital-analog-giris-cikis.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 155678
+      }
+    ]
+  },
+  {
+    "slug": "arduino-degisken-kosul-dongu-fonksiyon",
+    "title": "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon",
+    "alt": "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon",
+    "variants": [
+      {
+        "file": "arduino-degisken-kosul-dongu-fonksiyon-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37590
+      },
+      {
+        "file": "arduino-degisken-kosul-dongu-fonksiyon-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 65628
+      },
+      {
+        "file": "arduino-degisken-kosul-dongu-fonksiyon.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 122928
+      }
+    ]
+  },
+  {
+    "slug": "fiziksel-programlama-nedir",
+    "title": "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi",
+    "alt": "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi",
+    "variants": [
+      {
+        "file": "fiziksel-programlama-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40456
+      },
+      {
+        "file": "fiziksel-programlama-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 70780
+      },
+      {
+        "file": "fiziksel-programlama-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132046
+      }
+    ]
+  },
+  {
+    "slug": "dale-yasanti-konisi",
+    "title": "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi",
+    "alt": "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi",
+    "variants": [
+      {
+        "file": "dale-yasanti-konisi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34716
+      },
+      {
+        "file": "dale-yasanti-konisi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59660
+      },
+      {
+        "file": "dale-yasanti-konisi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 109970
+      }
+    ]
+  },
+  {
+    "slug": "elektronik-devre-elemanlari",
+    "title": "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi",
+    "alt": "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi",
+    "variants": [
+      {
+        "file": "elektronik-devre-elemanlari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 50662
+      },
+      {
+        "file": "elektronik-devre-elemanlari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 86448
+      },
+      {
+        "file": "elektronik-devre-elemanlari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 167090
+      }
+    ]
+  },
+  {
+    "slug": "karnaugh-haritasi",
+    "title": "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey",
+    "alt": "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey",
+    "variants": [
+      {
+        "file": "karnaugh-haritasi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39570
+      },
+      {
+        "file": "karnaugh-haritasi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71306
+      },
+      {
+        "file": "karnaugh-haritasi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 135090
+      }
+    ]
+  },
+  {
+    "slug": "mantik-kapilari-ve-boole-cebiri",
+    "title": "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler",
+    "alt": "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler",
+    "variants": [
+      {
+        "file": "mantik-kapilari-ve-boole-cebiri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39342
+      },
+      {
+        "file": "mantik-kapilari-ve-boole-cebiri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68866
+      },
+      {
+        "file": "mantik-kapilari-ve-boole-cebiri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 133964
+      }
+    ]
+  },
+  {
+    "slug": "ohm-ve-kirchhoff-kanunlari",
+    "title": "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri",
+    "alt": "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri",
+    "variants": [
+      {
+        "file": "ohm-ve-kirchhoff-kanunlari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40216
+      },
+      {
+        "file": "ohm-ve-kirchhoff-kanunlari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66914
+      },
+      {
+        "file": "ohm-ve-kirchhoff-kanunlari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 124960
+      }
+    ]
+  },
+  {
+    "slug": "sayi-sistemleri",
+    "title": "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu",
+    "alt": "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu",
+    "variants": [
+      {
+        "file": "sayi-sistemleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35340
+      },
+      {
+        "file": "sayi-sistemleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58956
+      },
+      {
+        "file": "sayi-sistemleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 111668
+      }
+    ]
+  },
+  {
+    "slug": "dijital-okuryazarlik-nedir",
+    "title": "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri",
+    "alt": "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri",
+    "variants": [
+      {
+        "file": "dijital-okuryazarlik-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34682
+      },
+      {
+        "file": "dijital-okuryazarlik-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58152
+      },
+      {
+        "file": "dijital-okuryazarlik-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 108382
+      }
+    ]
+  },
+  {
+    "slug": "eba-nedir",
+    "title": "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim",
+    "alt": "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim",
+    "variants": [
+      {
+        "file": "eba-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37286
+      },
+      {
+        "file": "eba-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 63060
+      },
+      {
+        "file": "eba-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 120630
+      }
+    ]
+  },
+  {
+    "slug": "egitim-teknolojisi-nedir",
+    "title": "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı",
+    "alt": "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı",
+    "variants": [
+      {
+        "file": "egitim-teknolojisi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36216
+      },
+      {
+        "file": "egitim-teknolojisi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62400
+      },
+      {
+        "file": "egitim-teknolojisi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114440
+      }
+    ]
+  },
+  {
+    "slug": "fatih-projesi-nedir",
+    "title": "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları",
+    "alt": "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları",
+    "variants": [
+      {
+        "file": "fatih-projesi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34386
+      },
+      {
+        "file": "fatih-projesi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59082
+      },
+      {
+        "file": "fatih-projesi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 111734
+      }
+    ]
+  },
+  {
+    "slug": "freud-psikoseksuel-gelisim-kurami",
+    "title": "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler",
+    "alt": "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler",
+    "variants": [
+      {
+        "file": "freud-psikoseksuel-gelisim-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 48834
+      },
+      {
+        "file": "freud-psikoseksuel-gelisim-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 84160
+      },
+      {
+        "file": "freud-psikoseksuel-gelisim-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 159574
+      }
+    ]
+  },
+  {
+    "slug": "gudulenme-kuramlari",
+    "title": "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme",
+    "alt": "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme",
+    "variants": [
+      {
+        "file": "gudulenme-kuramlari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39876
+      },
+      {
+        "file": "gudulenme-kuramlari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66514
+      },
+      {
+        "file": "gudulenme-kuramlari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 121544
+      }
+    ]
+  },
+  {
+    "slug": "harmanlanmis-ogrenme-nedir",
+    "title": "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi",
+    "alt": "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi",
+    "variants": [
+      {
+        "file": "harmanlanmis-ogrenme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 32630
+      },
+      {
+        "file": "harmanlanmis-ogrenme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 52876
+      },
+      {
+        "file": "harmanlanmis-ogrenme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 100066
+      }
+    ]
+  },
+  {
+    "slug": "kodlama-egitimi-nedir",
+    "title": "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?",
+    "alt": "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?",
+    "variants": [
+      {
+        "file": "kodlama-egitimi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40382
+      },
+      {
+        "file": "kodlama-egitimi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 69890
+      },
+      {
+        "file": "kodlama-egitimi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 129924
+      }
+    ]
+  },
+  {
+    "slug": "mikro-ogretim-nedir",
+    "title": "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları",
+    "alt": "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları",
+    "variants": [
+      {
+        "file": "mikro-ogretim-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 32102
+      },
+      {
+        "file": "mikro-ogretim-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 51022
+      },
+      {
+        "file": "mikro-ogretim-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 90300
+      }
+    ]
+  },
+  {
+    "slug": "oecd-nedir",
+    "title": "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü",
+    "alt": "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü",
+    "variants": [
+      {
+        "file": "oecd-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38832
+      },
+      {
+        "file": "oecd-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 69600
+      },
+      {
+        "file": "oecd-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 134362
+      }
+    ]
+  },
+  {
+    "slug": "pisa-2022-turkiye-sonuclari",
+    "title": "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik",
+    "alt": "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik",
+    "variants": [
+      {
+        "file": "pisa-2022-turkiye-sonuclari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31766
+      },
+      {
+        "file": "pisa-2022-turkiye-sonuclari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 53870
+      },
+      {
+        "file": "pisa-2022-turkiye-sonuclari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 101564
+      }
+    ]
+  },
+  {
+    "slug": "pisa-nedir",
+    "title": "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?",
+    "alt": "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?",
+    "variants": [
+      {
+        "file": "pisa-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31322
+      },
+      {
+        "file": "pisa-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 51958
+      },
+      {
+        "file": "pisa-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 99370
+      }
+    ]
+  },
+  {
+    "slug": "selman-sosyal-bakis-acisi-alma-kurami",
+    "title": "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları",
+    "alt": "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları",
+    "variants": [
+      {
+        "file": "selman-sosyal-bakis-acisi-alma-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37406
+      },
+      {
+        "file": "selman-sosyal-bakis-acisi-alma-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66904
+      },
+      {
+        "file": "selman-sosyal-bakis-acisi-alma-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132024
+      }
+    ]
+  },
+  {
+    "slug": "talis-nedir",
+    "title": "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler",
+    "alt": "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler",
+    "variants": [
+      {
+        "file": "talis-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35650
+      },
+      {
+        "file": "talis-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59120
+      },
+      {
+        "file": "talis-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 113132
+      }
+    ]
+  },
+  {
+    "slug": "ters-yuz-sinif-nedir",
+    "title": "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?",
+    "alt": "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?",
+    "variants": [
+      {
+        "file": "ters-yuz-sinif-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38976
+      },
+      {
+        "file": "ters-yuz-sinif-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67414
+      },
+      {
+        "file": "ters-yuz-sinif-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 125058
+      }
+    ]
+  },
+  {
+    "slug": "bandura-sosyal-bilissel-kuram",
+    "title": "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik",
+    "alt": "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik",
+    "variants": [
+      {
+        "file": "bandura-sosyal-bilissel-kuram-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 46242
+      },
+      {
+        "file": "bandura-sosyal-bilissel-kuram-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78938
+      },
+      {
+        "file": "bandura-sosyal-bilissel-kuram.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 152506
+      }
+    ]
+  },
+  {
+    "slug": "bilgiyi-isleme-kurami",
+    "title": "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği",
+    "alt": "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği",
+    "variants": [
+      {
+        "file": "bilgiyi-isleme-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35094
+      },
+      {
+        "file": "bilgiyi-isleme-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57592
+      },
+      {
+        "file": "bilgiyi-isleme-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 106858
+      }
+    ]
+  },
+  {
+    "slug": "bloom-taksonomisi",
+    "title": "Bloom Taksonomisi ve Yenilenmiş Taksonomi",
+    "alt": "Bloom Taksonomisi ve Yenilenmiş Taksonomi",
+    "variants": [
+      {
+        "file": "bloom-taksonomisi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 45802
+      },
+      {
+        "file": "bloom-taksonomisi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 80770
+      },
+      {
+        "file": "bloom-taksonomisi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 152184
+      }
+    ]
+  },
+  {
+    "slug": "bronfenbrenner-ekolojik-sistemler-kurami",
+    "title": "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ",
+    "alt": "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ",
+    "variants": [
+      {
+        "file": "bronfenbrenner-ekolojik-sistemler-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 44686
+      },
+      {
+        "file": "bronfenbrenner-ekolojik-sistemler-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 76296
+      },
+      {
+        "file": "bronfenbrenner-ekolojik-sistemler-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 144394
+      }
+    ]
+  },
+  {
+    "slug": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari",
+    "title": "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları",
+    "alt": "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları",
+    "variants": [
+      {
+        "file": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40396
+      },
+      {
+        "file": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 69942
+      },
+      {
+        "file": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 133360
+      }
+    ]
+  },
+  {
+    "slug": "davranisci-ogrenme-kuramlari",
+    "title": "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner",
+    "alt": "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner",
+    "variants": [
+      {
+        "file": "davranisci-ogrenme-kuramlari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 27072
+      },
+      {
+        "file": "davranisci-ogrenme-kuramlari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 44308
+      },
+      {
+        "file": "davranisci-ogrenme-kuramlari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 85316
+      }
+    ]
+  },
+  {
+    "slug": "erikson-psikososyal-gelisim-kurami",
+    "title": "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar",
+    "alt": "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar",
+    "variants": [
+      {
+        "file": "erikson-psikososyal-gelisim-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 44396
+      },
+      {
+        "file": "erikson-psikososyal-gelisim-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78714
+      },
+      {
+        "file": "erikson-psikososyal-gelisim-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 156684
+      }
+    ]
+  },
+  {
+    "slug": "coklu-zeka-kurami",
+    "title": "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler",
+    "alt": "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler",
+    "variants": [
+      {
+        "file": "coklu-zeka-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36600
+      },
+      {
+        "file": "coklu-zeka-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61938
+      },
+      {
+        "file": "coklu-zeka-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 113184
+      }
+    ]
+  },
+  {
+    "slug": "kohlberg-ahlak-gelisimi-kurami",
+    "title": "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri",
+    "alt": "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri",
+    "variants": [
+      {
+        "file": "kohlberg-ahlak-gelisimi-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38020
+      },
+      {
+        "file": "kohlberg-ahlak-gelisimi-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68086
+      },
+      {
+        "file": "kohlberg-ahlak-gelisimi-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 131668
+      }
+    ]
+  },
+  {
+    "slug": "piaget-bilissel-gelisim-kurami",
+    "title": "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler",
+    "alt": "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler",
+    "variants": [
+      {
+        "file": "piaget-bilissel-gelisim-kurami-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35198
+      },
+      {
+        "file": "piaget-bilissel-gelisim-kurami-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61266
+      },
+      {
+        "file": "piaget-bilissel-gelisim-kurami.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 116486
+      }
+    ]
+  },
+  {
+    "slug": "tam-ogrenme-modeli",
+    "title": "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri",
+    "alt": "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri",
+    "variants": [
+      {
+        "file": "tam-ogrenme-modeli-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36370
+      },
+      {
+        "file": "tam-ogrenme-modeli-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62102
+      },
+      {
+        "file": "tam-ogrenme-modeli.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114930
+      }
+    ]
+  },
+  {
+    "slug": "vygotsky-sosyokulturel-kuram",
+    "title": "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı",
+    "alt": "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı",
+    "variants": [
+      {
+        "file": "vygotsky-sosyokulturel-kuram-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37664
+      },
+      {
+        "file": "vygotsky-sosyokulturel-kuram-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66050
+      },
+      {
+        "file": "vygotsky-sosyokulturel-kuram.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 124706
+      }
+    ]
+  },
+  {
+    "slug": "yapilandirmacilik",
+    "title": "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar",
+    "alt": "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar",
+    "variants": [
+      {
+        "file": "yapilandirmacilik-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 47848
+      },
+      {
+        "file": "yapilandirmacilik-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 84054
+      },
+      {
+        "file": "yapilandirmacilik.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 164180
+      }
+    ]
+  },
+  {
+    "slug": "ags-nedir",
+    "title": "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi",
+    "alt": "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi",
+    "variants": [
+      {
+        "file": "ags-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34358
+      },
+      {
+        "file": "ags-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57402
+      },
+      {
+        "file": "ags-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 110542
+      }
+    ]
+  },
+  {
+    "slug": "bilgi-islemsel-dusunme-nedir",
+    "title": "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler",
+    "alt": "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler",
+    "variants": [
+      {
+        "file": "bilgi-islemsel-dusunme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37744
+      },
+      {
+        "file": "bilgi-islemsel-dusunme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 63208
+      },
+      {
+        "file": "bilgi-islemsel-dusunme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 118040
+      }
+    ]
+  },
+  {
+    "slug": "bilgisayar-ogretmeni-nasil-olunur",
+    "title": "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası",
+    "alt": "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası",
+    "variants": [
+      {
+        "file": "bilgisayar-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33024
+      },
+      {
+        "file": "bilgisayar-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 56490
+      },
+      {
+        "file": "bilgisayar-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 108704
+      }
+    ]
+  },
+  {
+    "slug": "bilisim-teknolojileri-ve-yazilim-dersi",
+    "title": "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?",
+    "alt": "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?",
+    "variants": [
+      {
+        "file": "bilisim-teknolojileri-ve-yazilim-dersi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "bilisim-teknolojileri-ve-yazilim-dersi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "bilisim-teknolojileri-ve-yazilim-dersi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
+    "slug": "bote-mezunlari-ne-is-yapar",
+    "title": "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer",
+    "alt": "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer",
+    "variants": [
+      {
+        "file": "bote-mezunlari-ne-is-yapar-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39520
+      },
+      {
+        "file": "bote-mezunlari-ne-is-yapar-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67832
+      },
+      {
+        "file": "bote-mezunlari-ne-is-yapar.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 125618
+      }
+    ]
+  },
+  {
+    "slug": "bote-mezunu-yazilimci-olabilir-mi",
+    "title": "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme",
+    "alt": "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme",
+    "variants": [
+      {
+        "file": "bote-mezunu-yazilimci-olabilir-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39890
+      },
+      {
+        "file": "bote-mezunu-yazilimci-olabilir-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68538
+      },
+      {
+        "file": "bote-mezunu-yazilimci-olabilir-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 128132
+      }
+    ]
+  },
+  {
+    "slug": "bote-mi-bilgisayar-muhendisligi-mi",
+    "title": "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi",
+    "alt": "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi",
+    "variants": [
+      {
+        "file": "bote-mi-bilgisayar-muhendisligi-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 45690
+      },
+      {
+        "file": "bote-mi-bilgisayar-muhendisligi-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 77796
+      },
+      {
+        "file": "bote-mi-bilgisayar-muhendisligi-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 148648
+      }
+    ]
+  },
+  {
+    "slug": "bote-nedir",
+    "title": "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi",
+    "alt": "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi",
+    "variants": [
+      {
+        "file": "bote-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 46350
+      },
+      {
+        "file": "bote-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 77834
+      },
+      {
+        "file": "bote-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 142630
+      }
+    ]
+  },
+  {
+    "slug": "bote-ogrenci-alimi-ve-gelecegi",
+    "title": "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış",
+    "alt": "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış",
+    "variants": [
+      {
+        "file": "bote-ogrenci-alimi-ve-gelecegi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35938
+      },
+      {
+        "file": "bote-ogrenci-alimi-ve-gelecegi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 64642
+      },
+      {
+        "file": "bote-ogrenci-alimi-ve-gelecegi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 129694
+      }
+    ]
+  },
+  {
+    "slug": "coklu-ortam-ogrenme-ilkeleri",
+    "title": "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük",
+    "alt": "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük",
+    "variants": [
+      {
+        "file": "coklu-ortam-ogrenme-ilkeleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38798
+      },
+      {
+        "file": "coklu-ortam-ogrenme-ilkeleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 64642
+      },
+      {
+        "file": "coklu-ortam-ogrenme-ilkeleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 117144
+      }
+    ]
+  },
+  {
+    "slug": "digcompedu-nedir",
+    "title": "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi",
+    "alt": "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi",
+    "variants": [
+      {
+        "file": "digcompedu-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35738
+      },
+      {
+        "file": "digcompedu-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61786
+      },
+      {
+        "file": "digcompedu-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114430
+      }
+    ]
+  },
+  {
+    "slug": "dunyada-ogretmen-acigi",
+    "title": "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?",
+    "alt": "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?",
+    "variants": [
+      {
+        "file": "dunyada-ogretmen-acigi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31762
+      },
+      {
+        "file": "dunyada-ogretmen-acigi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 53518
+      },
+      {
+        "file": "dunyada-ogretmen-acigi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 103996
+      }
+    ]
+  },
+  {
+    "slug": "egitim-fakultesi-akreditasyon-epdad",
+    "title": "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?",
+    "alt": "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?",
+    "variants": [
+      {
+        "file": "egitim-fakultesi-akreditasyon-epdad-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40476
+      },
+      {
+        "file": "egitim-fakultesi-akreditasyon-epdad-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 70528
+      },
+      {
+        "file": "egitim-fakultesi-akreditasyon-epdad.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 131968
+      }
+    ]
+  },
+  {
+    "slug": "egitim-fakultesi-bolumleri",
+    "title": "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları",
+    "alt": "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları",
+    "variants": [
+      {
+        "file": "egitim-fakultesi-bolumleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 49090
+      },
+      {
+        "file": "egitim-fakultesi-bolumleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 82124
+      },
+      {
+        "file": "egitim-fakultesi-bolumleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 157438
+      }
+    ]
+  },
+  {
+    "slug": "egitim-fakultesi-mi-fen-edebiyat-mi",
+    "title": "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol",
+    "alt": "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol",
+    "variants": [
+      {
+        "file": "egitim-fakultesi-mi-fen-edebiyat-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40304
+      },
+      {
+        "file": "egitim-fakultesi-mi-fen-edebiyat-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67686
+      },
+      {
+        "file": "egitim-fakultesi-mi-fen-edebiyat-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 127634
+      }
+    ]
+  },
+  {
+    "slug": "egitim-fakultesi-ve-ogretmen-yetistirme",
+    "title": "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi",
+    "alt": "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi",
+    "variants": [
+      {
+        "file": "egitim-fakultesi-ve-ogretmen-yetistirme-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34908
+      },
+      {
+        "file": "egitim-fakultesi-ve-ogretmen-yetistirme-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66008
+      },
+      {
+        "file": "egitim-fakultesi-ve-ogretmen-yetistirme.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132100
+      }
+    ]
+  },
+  {
+    "slug": "egitim-fakultesi-erasmus",
+    "title": "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi",
+    "alt": "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi",
+    "variants": [
+      {
+        "file": "egitim-fakultesi-erasmus-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 45384
+      },
+      {
+        "file": "egitim-fakultesi-erasmus-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 79800
+      },
+      {
+        "file": "egitim-fakultesi-erasmus.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 158442
+      }
+    ]
+  },
+  {
+    "slug": "egitimde-yapay-zeka-ogretmenler-icin",
+    "title": "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber",
+    "alt": "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber",
+    "variants": [
+      {
+        "file": "egitimde-yapay-zeka-ogretmenler-icin-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36008
+      },
+      {
+        "file": "egitimde-yapay-zeka-ogretmenler-icin-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61534
+      },
+      {
+        "file": "egitimde-yapay-zeka-ogretmenler-icin.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 112514
+      }
+    ]
+  },
+  {
+    "slug": "finlandiya-ogretmen-yetistirme-modeli",
+    "title": "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler",
+    "alt": "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler",
+    "variants": [
+      {
+        "file": "finlandiya-ogretmen-yetistirme-modeli-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33528
+      },
+      {
+        "file": "finlandiya-ogretmen-yetistirme-modeli-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 55828
+      },
+      {
+        "file": "finlandiya-ogretmen-yetistirme-modeli.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 102584
+      }
+    ]
+  },
+  {
+    "slug": "iste-standartlari-nedir",
+    "title": "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri",
+    "alt": "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri",
+    "variants": [
+      {
+        "file": "iste-standartlari-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40826
+      },
+      {
+        "file": "iste-standartlari-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 69790
+      },
+      {
+        "file": "iste-standartlari-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 133690
+      }
+    ]
+  },
+  {
+    "slug": "milli-egitim-akademisi-hazirlik-egitimi",
+    "title": "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?",
+    "alt": "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?",
+    "variants": [
+      {
+        "file": "milli-egitim-akademisi-hazirlik-egitimi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "milli-egitim-akademisi-hazirlik-egitimi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "milli-egitim-akademisi-hazirlik-egitimi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
+  },
+  {
+    "slug": "oyunlastirma-nedir",
+    "title": "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları",
+    "alt": "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları",
+    "variants": [
+      {
+        "file": "oyunlastirma-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40210
+      },
+      {
+        "file": "oyunlastirma-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71324
+      },
+      {
+        "file": "oyunlastirma-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 138400
+      }
+    ]
+  },
+  {
+    "slug": "ogrenme-yonetim-sistemi-lms-nedir",
+    "title": "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım",
+    "alt": "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım",
+    "variants": [
+      {
+        "file": "ogrenme-yonetim-sistemi-lms-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39258
+      },
+      {
+        "file": "ogrenme-yonetim-sistemi-lms-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68800
+      },
+      {
+        "file": "ogrenme-yonetim-sistemi-lms-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 129042
+      }
+    ]
+  },
+  {
+    "slug": "ogretim-tasarimcisi-ne-is-yapar",
+    "title": "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu",
+    "alt": "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu",
+    "variants": [
+      {
+        "file": "ogretim-tasarimcisi-ne-is-yapar-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39098
+      },
+      {
+        "file": "ogretim-tasarimcisi-ne-is-yapar-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66234
+      },
+      {
+        "file": "ogretim-tasarimcisi-ne-is-yapar.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 121780
+      }
+    ]
+  },
+  {
+    "slug": "ogretim-tasarimi-addie-modeli",
+    "title": "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler",
+    "alt": "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler",
+    "variants": [
+      {
+        "file": "ogretim-tasarimi-addie-modeli-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51680
+      },
+      {
+        "file": "ogretim-tasarimi-addie-modeli-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 88938
+      },
+      {
+        "file": "ogretim-tasarimi-addie-modeli.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 167380
+      }
+    ]
+  },
+  {
+    "slug": "ogretim-teknolojileri-dersi",
+    "title": "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin",
+    "alt": "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin",
+    "variants": [
+      {
+        "file": "ogretim-teknolojileri-dersi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 43094
+      },
+      {
+        "file": "ogretim-teknolojileri-dersi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 70458
+      },
+      {
+        "file": "ogretim-teknolojileri-dersi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 128222
+      }
+    ]
+  },
+  {
+    "slug": "ogretmenlik-meslegi-kanunu-7528",
+    "title": "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?",
+    "alt": "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?",
+    "variants": [
+      {
+        "file": "ogretmenlik-meslegi-kanunu-7528-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33808
+      },
+      {
+        "file": "ogretmenlik-meslegi-kanunu-7528-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57962
+      },
+      {
+        "file": "ogretmenlik-meslegi-kanunu-7528.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 112062
+      }
+    ]
+  },
+  {
+    "slug": "ogretmenlik-meslegi-sayginligi",
+    "title": "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?",
+    "alt": "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?",
+    "variants": [
+      {
+        "file": "ogretmenlik-meslegi-sayginligi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 32238
+      },
+      {
+        "file": "ogretmenlik-meslegi-sayginligi-960.webp",
+        "width": 960,
+        "height": 539,
+        "bytes": 54408
+      },
+      {
+        "file": "ogretmenlik-meslegi-sayginligi.webp",
+        "width": 1600,
+        "height": 899,
+        "bytes": 104914
+      }
+    ]
+  },
+  {
+    "slug": "ogretmenlik-meslek-bilgisi-dersleri",
+    "title": "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?",
+    "alt": "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?",
+    "variants": [
+      {
+        "file": "ogretmenlik-meslek-bilgisi-dersleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 42022
+      },
+      {
+        "file": "ogretmenlik-meslek-bilgisi-dersleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 72760
+      },
+      {
+        "file": "ogretmenlik-meslek-bilgisi-dersleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 133796
+      }
+    ]
+  },
+  {
+    "slug": "ogretmenlik-uygulamasi-nedir",
+    "title": "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım",
+    "alt": "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım",
+    "variants": [
+      {
+        "file": "ogretmenlik-uygulamasi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38852
+      },
+      {
+        "file": "ogretmenlik-uygulamasi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 65508
+      },
+      {
+        "file": "ogretmenlik-uygulamasi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 123718
+      }
+    ]
+  },
+  {
+    "slug": "pedagojik-formasyon-kalkti-mi",
+    "title": "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı",
+    "alt": "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı",
+    "variants": [
+      {
+        "file": "pedagojik-formasyon-kalkti-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33634
+      },
+      {
+        "file": "pedagojik-formasyon-kalkti-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61114
+      },
+      {
+        "file": "pedagojik-formasyon-kalkti-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 118132
+      }
+    ]
+  },
+  {
+    "slug": "tpack-modeli-nedir",
+    "title": "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı",
+    "alt": "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı",
+    "variants": [
+      {
+        "file": "tpack-modeli-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35668
+      },
+      {
+        "file": "tpack-modeli-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 60374
+      },
+      {
+        "file": "tpack-modeli-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115078
+      }
+    ]
+  },
+  {
+    "slug": "uzaktan-egitim-nedir",
+    "title": "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi",
+    "alt": "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi",
+    "variants": [
+      {
+        "file": "uzaktan-egitim-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39580
+      },
+      {
+        "file": "uzaktan-egitim-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 65528
+      },
+      {
+        "file": "uzaktan-egitim-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 124126
+      }
+    ]
+  },
+  {
+    "slug": "uzman-ogretmenlik-ve-basogretmenlik",
+    "title": "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları",
+    "alt": "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları",
+    "variants": [
+      {
+        "file": "uzman-ogretmenlik-ve-basogretmenlik-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37802
+      },
+      {
+        "file": "uzman-ogretmenlik-ve-basogretmenlik-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66928
+      },
+      {
+        "file": "uzman-ogretmenlik-ve-basogretmenlik.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 127690
+      }
+    ]
+  }
+]

@@ -2,6 +2,7 @@
 title: "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu"
 citeTitle: "Sayı sistemleri: Dönüşümler, tümleyenler, BCD ve Gray kodu"
 description: "Sayı sistemleri konu anlatımı: ikili, sekizli, on altılı dönüşümler, ikili toplama ve çıkarma, bire ve ikiye tümleme, BCD, Gray ve ASCII kodları, çözümlü örnekler."
+imageAlt: "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu"
 date: 2026-09-28
 category: bolum-rehberi
 type: rehber

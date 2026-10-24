@@ -2,6 +2,7 @@
 title: "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar"
 citeTitle: "Yapılandırmacılık: Bilişsel ve sosyal yaklaşımlar"
 description: "Yapılandırmacılığın bilgi kuramı, bilişsel ve sosyal yapılandırmacılık, kavramsal değişim, rehberlik tartışması, Türkiye'de programlar, TALIS ve sınav gerçeği, AGS."
+imageAlt: "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

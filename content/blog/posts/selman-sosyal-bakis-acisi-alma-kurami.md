@@ -2,6 +2,7 @@
 title: "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları"
 citeTitle: "Selman'ın sosyal bakış açısı alma kuramı ve aşamaları"
 description: "Selman'ın sosyal bakış açısı alma (rol alma) kuramı: beş aşama, yaşlar, arkadaşlık ve ahlakla ilişkisi, zihin kuramı, sınıf uygulamaları, eleştiriler ve AGS."
+imageAlt: "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları"
 date: 2026-09-27
 category: egitim-bilimleri
 type: kavram

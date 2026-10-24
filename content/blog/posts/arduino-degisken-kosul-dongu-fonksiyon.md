@@ -2,6 +2,7 @@
 title: "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon"
 citeTitle: "Arduino programlama: değişken, koşul, döngü ve fonksiyon"
 description: "Arduino'da veri türleri ve aralıkları, sabit ve dizi, if ve switch, for ve while döngüleri, fonksiyon yazma ve seri monitörle hata ayıklama; çözümlü örnekler."
+imageAlt: "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon"
 date: 2026-10-04
 category: bolum-rehberi
 type: rehber

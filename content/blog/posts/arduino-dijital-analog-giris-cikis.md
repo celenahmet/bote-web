@@ -2,6 +2,7 @@
 title: "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead"
 citeTitle: "Arduino dijital ve analog giriş çıkış: PWM ve analogRead"
 description: "Arduino UNO'da dijital çıkış, PWM ile analog çıkış, butonla dijital giriş ve potansiyometreyle analog giriş: pinler, değer aralıkları, LED direnci, örnekler."
+imageAlt: "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead"
 date: 2026-10-04
 category: bolum-rehberi
 type: rehber

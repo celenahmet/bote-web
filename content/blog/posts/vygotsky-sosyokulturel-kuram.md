@@ -2,6 +2,7 @@
 title: "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı"
 citeTitle: "Vygotsky'nin sosyokültürel kuramı ve yakınsak gelişim alanı"
 description: "Vygotsky'nin sosyokültürel kuramı: aracılık, özel konuşma, yakınsak gelişim alanının asıl anlamı, iskele kurmanın kanıtı, eleştiriler ve AGS'de sık yapılan hatalar."
+imageAlt: "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

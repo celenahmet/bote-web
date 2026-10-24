@@ -1,6 +1,7 @@
 ---
 title: "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları"
 description: "Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar."
+imageAlt: "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

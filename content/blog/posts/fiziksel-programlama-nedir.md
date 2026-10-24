@@ -2,6 +2,7 @@
 title: "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi"
 citeTitle: "Fiziksel programlama nedir? BÖTE dersi rehberi"
 description: "Fiziksel programlama nedir? BÖTE'deki Fiziksel Programlama dersinin konuları: robotlar, sensör ve motorlar, Arduino, haftalık plan, not dağılımı ve proje."
+imageAlt: "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi"
 date: 2026-10-04
 category: bolum-rehberi
 type: rehber

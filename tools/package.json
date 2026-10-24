@@ -9,7 +9,8 @@
     "test": "node build-blog.mjs --check && node check-site.mjs",
     "lighthouse": "node lighthouse.mjs",
     "preview": "node preview-drafts.mjs",
-    "dev": "astro dev --root blog-app"
+    "dev": "astro dev --root blog-app",
+    "test:photos": "node check-photo-seo.mjs"
   },
   "engines": {
     "node": ">=20"
@@ -35,6 +36,7 @@
     "react": "^19.3.0",
     "react-dom": "^19.3.0",
     "robots-parser": "^3.0.1",
+    "sharp": "^0.35.4",
     "simple-icons": "^16.32.0",
     "yaml": "^2.9.1"
   }

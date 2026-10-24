@@ -1,6 +1,7 @@
 ---
 title: "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?"
 description: "Eğitim fakültelerinde okutulan öğretmenlik meslek bilgisi dersleri nelerdir, 2018'de ne değişti ve neden önemli? Shulman'ın öğretmen bilgisi yaklaşımıyla birlikte."
+imageAlt: "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

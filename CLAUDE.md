@@ -24,6 +24,23 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
 ## Blog
 - Görsel yönü (Ahmet 24.10): blog kapakları ilgi çekici yatay fotoğraflar, logo sol üstte.
   Önce örnek görsel sunulur; kullanıcının görsel onayı olmadan toplu kapak değişimine geçilmez.
+  Onaylanan köşe imzası: kutusuz küçük koyu kep/dünya amblemiyle birlikte bote.web.tr
+  yazısı, sol üstte tek yatay logo. Mor rozet veya beyaz panel kullanılmaz.
+  Ahmet 24.10: örnek onaylandı, tüm yazılar için toplu üretim serbest. Yüzler doğal,
+  cilt dokusu gerçekçi ve net; piksel/çizgi izi ve yapay yüz olmamalı.
+  İnsan karakterleri kapaklar arasında tekrar kullanılmaz; kişilerin yaşları, görünümleri ve
+  ortamları çeşitlendirilir. Fotoğraf referansı yerine yalnız izole logo referansı kullanılır.
+  Ham üretimler output/blog-fotograf-onay/2026-10-24/ altında kalır ve Vercel
+  yayınından hariçtir. Onaylı fotoğraflar content/blog/covers/<yazi-slug>.webp
+  (1600px), -960.webp ve -640.webp olarak yayınlanır; kaynak manifest photo-covers.json.
+  Araç: node tools/prepare-photo-covers.mjs <onay-klasoru>; npm --prefix tools run test:photos.
+  Gövde ve sosyal paylaşımda aynı kapak kullanılır. 16:9 oran korunur, sol üst logo kırpılmaz.
+  Yazı üstü sırası (24.10): kategori/başlık → fotoğraf → açıklama/yazar/tarih → metin.
+  Alt metin ve sosyal görsel altı yazının başlığıdır; yinelenen dekoratif kartlarda alt boş kalır.
+  Görsel SEO’su tüm görseller üretildikten sonra ekleme aşamasında hazırlanır; dosya adı ve
+  görsel metinleri yazının başlığı, konusu ve hedef arama niyetiyle ilişkilendirilir.
+  Ahmet’in açık tercihi: “masada görsel programlamayla yürütülen robot” türü sahne
+  betimlemeleriyle etiket üretilmez; alakasız anahtar kelime ve doğrulanmamış iddia eklenmez.
 - Konu: BÖTE bölümü, eğitim fakültesi ve öğretmen yetiştirme. Dengeli, tarafsız yazılır.
   Üslup akademik ve sade; blog dili (kategori rozeti, "dk okuma", "görüntülenme")
   uniconnectly.com/blog'dan örnek alınabilir.

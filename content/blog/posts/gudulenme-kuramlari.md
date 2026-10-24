@@ -2,6 +2,7 @@
 title: "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme"
 citeTitle: "Güdülenme kuramları: Maslow, Weiner ve öz belirleme"
 description: "Güdülenme (motivasyon) kuramları: Maslow'un ihtiyaçlar hiyerarşisi, Weiner'in yükleme kuramı, öz belirleme kuramı, ödülün etkisi, meta-analizler ve AGS."
+imageAlt: "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme"
 date: 2026-09-27
 category: egitim-bilimleri
 type: kavram

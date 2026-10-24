@@ -2,6 +2,7 @@
 title: "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği"
 citeTitle: "Bilgiyi işleme kuramı: Bellek modelleri ve çalışma belleği"
 description: "Çok depolu bellek modeli, çalışma belleği, işlem düzeyi, bilişsel yük kuramı, test etkisi ve aralıklı tekrar kanıtı, Türkiye çalışmaları ve AGS'de sık hatalar."
+imageAlt: "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği"
 date: 2026-09-26
 updated: 2026-09-26
 category: egitim-bilimleri

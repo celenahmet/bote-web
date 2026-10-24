@@ -1,6 +1,7 @@
 ---
 title: "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol"
 description: "Öğretmen olmak için eğitim fakültesi mi, fen-edebiyat mı okunmalı? Eşzamanlı ve ardışık modeller, formasyon değişikliği ve yeni sistemde iki yol."
+imageAlt: "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol"
 date: 2026-09-25
 category: egitim-fakultesi
 type: politika

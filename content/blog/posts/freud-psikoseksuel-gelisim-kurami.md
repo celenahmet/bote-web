@@ -2,6 +2,7 @@
 title: "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler"
 citeTitle: "Freud'un psikoseksüel gelişim kuramı: Evreler ve eleştiriler"
 description: "Freud'un psikoseksüel gelişim kuramı: oral, anal, fallik, gizil ve genital dönem; id, ego, süperego, savunma mekanizmaları, kanıtlar, eleştiriler ve AGS."
+imageAlt: "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler"
 date: 2026-09-27
 category: egitim-bilimleri
 type: kavram

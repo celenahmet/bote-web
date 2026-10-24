@@ -1,6 +1,7 @@
 ---
 title: "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?"
 description: "UNESCO'ya göre 2030'a kadar 44 milyon ek öğretmen gerekiyor. Öğretmen açığının nedenleri, mesleğin cazibesi ve Türkiye'deki farklı tablo."
+imageAlt: "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?"
 date: 2026-09-25
 category: yuksekogretim
 type: politika

@@ -2,6 +2,7 @@
 title: "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?"
 citeTitle: "Kodlama eğitimi nedir? Ne işe yarar, nasıl öğretilir?"
 description: "Kodlama eğitimi nedir, ne işe yarar? Bilgisayarsız, blok tabanlı ve robotik kodlama; meta-analizlerin bulguları, Türkiye'deki dersler, atölyeler ve eleştiriler."
+imageAlt: "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?"
 date: 2026-09-27
 category: egitim-teknolojileri
 type: kavram

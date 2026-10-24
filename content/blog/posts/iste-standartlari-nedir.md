@@ -1,6 +1,7 @@
 ---
 title: "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri"
 description: "ISTE standartları nedir; öğrenciler, öğretmenler ve eğitim teknolojisi koçları için hangi rolleri tanımlar? DigCompEdu ve UNESCO ile karşılaştırmalı rehber."
+imageAlt: "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri"
 date: 2026-09-25
 category: egitim-teknolojileri
 type: kavram
