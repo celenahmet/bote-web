@@ -3,6 +3,13 @@
     "slug": "arduino-dijital-analog-giris-cikis",
     "title": "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead",
     "alt": "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "arduino-dijital-analog-giris-cikis.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 213860
+    },
     "variants": [
       {
         "file": "arduino-dijital-analog-giris-cikis-640.webp",
@@ -28,6 +35,13 @@
     "slug": "arduino-degisken-kosul-dongu-fonksiyon",
     "title": "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon",
     "alt": "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "arduino-degisken-kosul-dongu-fonksiyon.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 176148
+    },
     "variants": [
       {
         "file": "arduino-degisken-kosul-dongu-fonksiyon-640.webp",
@@ -53,6 +67,13 @@
     "slug": "fiziksel-programlama-nedir",
     "title": "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi",
     "alt": "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "fiziksel-programlama-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188151
+    },
     "variants": [
       {
         "file": "fiziksel-programlama-nedir-640.webp",
@@ -78,6 +99,13 @@
     "slug": "dale-yasanti-konisi",
     "title": "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi",
     "alt": "Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "dale-yasanti-konisi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 165567
+    },
     "variants": [
       {
         "file": "dale-yasanti-konisi-640.webp",
@@ -103,6 +131,13 @@
     "slug": "elektronik-devre-elemanlari",
     "title": "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi",
     "alt": "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "elektronik-devre-elemanlari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 221476
+    },
     "variants": [
       {
         "file": "elektronik-devre-elemanlari-640.webp",
@@ -128,6 +163,13 @@
     "slug": "karnaugh-haritasi",
     "title": "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey",
     "alt": "Karnaugh Haritası: Gruplama Kuralları ve Quine-McCluskey",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "karnaugh-haritasi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183166
+    },
     "variants": [
       {
         "file": "karnaugh-haritasi-640.webp",
@@ -153,6 +195,13 @@
     "slug": "mantik-kapilari-ve-boole-cebiri",
     "title": "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler",
     "alt": "Mantık Kapıları ve Boole Cebiri: Konu Anlatımı, Örnekler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "mantik-kapilari-ve-boole-cebiri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 187290
+    },
     "variants": [
       {
         "file": "mantik-kapilari-ve-boole-cebiri-640.webp",
@@ -178,6 +227,13 @@
     "slug": "ohm-ve-kirchhoff-kanunlari",
     "title": "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri",
     "alt": "Ohm ve Kirchhoff Kanunları: Seri ve Paralel Devre Çözümleri",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ohm-ve-kirchhoff-kanunlari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 179174
+    },
     "variants": [
       {
         "file": "ohm-ve-kirchhoff-kanunlari-640.webp",
@@ -203,6 +259,13 @@
     "slug": "sayi-sistemleri",
     "title": "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu",
     "alt": "Sayı Sistemleri: Dönüşümler, Tümleyenler, BCD ve Gray Kodu",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "sayi-sistemleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 168891
+    },
     "variants": [
       {
         "file": "sayi-sistemleri-640.webp",
@@ -228,6 +291,13 @@
     "slug": "dijital-okuryazarlik-nedir",
     "title": "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri",
     "alt": "Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "dijital-okuryazarlik-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169540
+    },
     "variants": [
       {
         "file": "dijital-okuryazarlik-nedir-640.webp",
@@ -253,6 +323,13 @@
     "slug": "eba-nedir",
     "title": "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim",
     "alt": "EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "eba-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 176584
+    },
     "variants": [
       {
         "file": "eba-nedir-640.webp",
@@ -278,6 +355,13 @@
     "slug": "egitim-teknolojisi-nedir",
     "title": "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı",
     "alt": "Eğitim Teknolojisi Nedir? Öğretim Teknolojisinden Farkı",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitim-teknolojisi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 172554
+    },
     "variants": [
       {
         "file": "egitim-teknolojisi-nedir-640.webp",
@@ -303,6 +387,13 @@
     "slug": "fatih-projesi-nedir",
     "title": "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları",
     "alt": "FATİH Projesi Nedir? Hedefleri, Uygulaması ve Sonuçları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "fatih-projesi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166385
+    },
     "variants": [
       {
         "file": "fatih-projesi-nedir-640.webp",
@@ -328,6 +419,13 @@
     "slug": "freud-psikoseksuel-gelisim-kurami",
     "title": "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler",
     "alt": "Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "freud-psikoseksuel-gelisim-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 217627
+    },
     "variants": [
       {
         "file": "freud-psikoseksuel-gelisim-kurami-640.webp",
@@ -353,6 +451,13 @@
     "slug": "gudulenme-kuramlari",
     "title": "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme",
     "alt": "Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "gudulenme-kuramlari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 180152
+    },
     "variants": [
       {
         "file": "gudulenme-kuramlari-640.webp",
@@ -378,6 +483,13 @@
     "slug": "harmanlanmis-ogrenme-nedir",
     "title": "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi",
     "alt": "Harmanlanmış Öğrenme Nedir? Modelleri, Örnekleri, Etkisi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "harmanlanmis-ogrenme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 155942
+    },
     "variants": [
       {
         "file": "harmanlanmis-ogrenme-nedir-640.webp",
@@ -403,6 +515,13 @@
     "slug": "kodlama-egitimi-nedir",
     "title": "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?",
     "alt": "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "kodlama-egitimi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188919
+    },
     "variants": [
       {
         "file": "kodlama-egitimi-nedir-640.webp",
@@ -428,6 +547,13 @@
     "slug": "mikro-ogretim-nedir",
     "title": "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları",
     "alt": "Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "mikro-ogretim-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 147746
+    },
     "variants": [
       {
         "file": "mikro-ogretim-nedir-640.webp",
@@ -453,6 +579,13 @@
     "slug": "oecd-nedir",
     "title": "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü",
     "alt": "OECD Nedir? Üyeleri, Türkiye ve Eğitimdeki Rolü",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "oecd-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 186135
+    },
     "variants": [
       {
         "file": "oecd-nedir-640.webp",
@@ -478,6 +611,13 @@
     "slug": "pisa-2022-turkiye-sonuclari",
     "title": "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik",
     "alt": "PISA 2022 Türkiye Sonuçları: Puanlar, Sıralama ve Eşitlik",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "pisa-2022-turkiye-sonuclari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 155525
+    },
     "variants": [
       {
         "file": "pisa-2022-turkiye-sonuclari-640.webp",
@@ -503,6 +643,13 @@
     "slug": "pisa-nedir",
     "title": "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?",
     "alt": "PISA Nedir? Nasıl Ölçülür, Sonuçlar Nasıl Okunur?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "pisa-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149973
+    },
     "variants": [
       {
         "file": "pisa-nedir-640.webp",
@@ -528,6 +675,13 @@
     "slug": "selman-sosyal-bakis-acisi-alma-kurami",
     "title": "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları",
     "alt": "Selman'ın Sosyal Bakış Açısı Alma Kuramı ve Aşamaları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "selman-sosyal-bakis-acisi-alma-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 187673
+    },
     "variants": [
       {
         "file": "selman-sosyal-bakis-acisi-alma-kurami-640.webp",
@@ -553,6 +707,13 @@
     "slug": "talis-nedir",
     "title": "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler",
     "alt": "TALIS Nedir? TALIS 2024 Türkiye Sonuçları ve Öğretmenler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "talis-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171876
+    },
     "variants": [
       {
         "file": "talis-nedir-640.webp",
@@ -578,6 +739,13 @@
     "slug": "ters-yuz-sinif-nedir",
     "title": "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?",
     "alt": "Ters Yüz Sınıf Nedir? Nasıl Uygulanır, İşe Yarar mı?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ters-yuz-sinif-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183548
+    },
     "variants": [
       {
         "file": "ters-yuz-sinif-nedir-640.webp",
@@ -603,6 +771,13 @@
     "slug": "bandura-sosyal-bilissel-kuram",
     "title": "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik",
     "alt": "Bandura'nın Sosyal Bilişsel Kuramı ve Öz Yeterlik",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bandura-sosyal-bilissel-kuram.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 206778
+    },
     "variants": [
       {
         "file": "bandura-sosyal-bilissel-kuram-640.webp",
@@ -628,6 +803,13 @@
     "slug": "bilgiyi-isleme-kurami",
     "title": "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği",
     "alt": "Bilgiyi İşleme Kuramı: Bellek Modelleri ve Çalışma Belleği",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bilgiyi-isleme-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 158807
+    },
     "variants": [
       {
         "file": "bilgiyi-isleme-kurami-640.webp",
@@ -653,6 +835,13 @@
     "slug": "bloom-taksonomisi",
     "title": "Bloom Taksonomisi ve Yenilenmiş Taksonomi",
     "alt": "Bloom Taksonomisi ve Yenilenmiş Taksonomi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bloom-taksonomisi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 207772
+    },
     "variants": [
       {
         "file": "bloom-taksonomisi-640.webp",
@@ -678,6 +867,13 @@
     "slug": "bronfenbrenner-ekolojik-sistemler-kurami",
     "title": "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ",
     "alt": "Bronfenbrenner'in Ekolojik Sistemler Kuramı ve Dijital Çağ",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bronfenbrenner-ekolojik-sistemler-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 201650
+    },
     "variants": [
       {
         "file": "bronfenbrenner-ekolojik-sistemler-kurami-640.webp",
@@ -703,6 +899,13 @@
     "slug": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari",
     "title": "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları",
     "alt": "Bruner, Ausubel ve Gagné: Bilişsel Öğretim Kuramları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 192927
+    },
     "variants": [
       {
         "file": "bruner-ausubel-gagne-bilissel-ogretim-kuramlari-640.webp",
@@ -728,6 +931,13 @@
     "slug": "davranisci-ogrenme-kuramlari",
     "title": "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner",
     "alt": "Davranışçı Öğrenme Kuramları: Pavlov, Thorndike ve Skinner",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "davranisci-ogrenme-kuramlari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 136871
+    },
     "variants": [
       {
         "file": "davranisci-ogrenme-kuramlari-640.webp",
@@ -753,6 +963,13 @@
     "slug": "erikson-psikososyal-gelisim-kurami",
     "title": "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar",
     "alt": "Erikson'un Psikososyal Gelişim Kuramı: Evreler ve Kanıtlar",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "erikson-psikososyal-gelisim-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 208237
+    },
     "variants": [
       {
         "file": "erikson-psikososyal-gelisim-kurami-640.webp",
@@ -778,6 +995,13 @@
     "slug": "coklu-zeka-kurami",
     "title": "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler",
     "alt": "Gardner'ın Çoklu Zekâ Kuramı: Kanıt ve Eleştiriler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "coklu-zeka-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 174441
+    },
     "variants": [
       {
         "file": "coklu-zeka-kurami-640.webp",
@@ -803,6 +1027,13 @@
     "slug": "kohlberg-ahlak-gelisimi-kurami",
     "title": "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri",
     "alt": "Kohlberg'in Ahlak Gelişimi Kuramı: Evreler, Kanıt ve Eleştiri",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "kohlberg-ahlak-gelisimi-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 185574
+    },
     "variants": [
       {
         "file": "kohlberg-ahlak-gelisimi-kurami-640.webp",
@@ -828,6 +1059,13 @@
     "slug": "piaget-bilissel-gelisim-kurami",
     "title": "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler",
     "alt": "Piaget'nin Bilişsel Gelişim Kuramı: Evreler, Kanıtlar ve Eleştiriler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "piaget-bilissel-gelisim-kurami.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 174185
+    },
     "variants": [
       {
         "file": "piaget-bilissel-gelisim-kurami-640.webp",
@@ -853,6 +1091,13 @@
     "slug": "tam-ogrenme-modeli",
     "title": "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri",
     "alt": "Tam Öğrenme ve Okulda Öğrenme: Carroll ve Bloom Modelleri",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "tam-ogrenme-modeli.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171701
+    },
     "variants": [
       {
         "file": "tam-ogrenme-modeli-640.webp",
@@ -878,6 +1123,13 @@
     "slug": "vygotsky-sosyokulturel-kuram",
     "title": "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı",
     "alt": "Vygotsky'nin Sosyokültürel Kuramı ve Yakınsak Gelişim Alanı",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "vygotsky-sosyokulturel-kuram.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181520
+    },
     "variants": [
       {
         "file": "vygotsky-sosyokulturel-kuram-640.webp",
@@ -903,6 +1155,13 @@
     "slug": "yapilandirmacilik",
     "title": "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar",
     "alt": "Yapılandırmacılık: Bilişsel ve Sosyal Yaklaşımlar",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "yapilandirmacilik.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 216424
+    },
     "variants": [
       {
         "file": "yapilandirmacilik-640.webp",
@@ -928,6 +1187,13 @@
     "slug": "ags-nedir",
     "title": "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi",
     "alt": "AGS Nedir? MEB Akademi Giriş Sınavı Rehberi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ags-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166162
+    },
     "variants": [
       {
         "file": "ags-nedir-640.webp",
@@ -953,6 +1219,13 @@
     "slug": "bilgi-islemsel-dusunme-nedir",
     "title": "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler",
     "alt": "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bilgi-islemsel-dusunme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 175297
+    },
     "variants": [
       {
         "file": "bilgi-islemsel-dusunme-nedir-640.webp",
@@ -978,6 +1251,13 @@
     "slug": "bilgisayar-ogretmeni-nasil-olunur",
     "title": "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası",
     "alt": "Bilgisayar Öğretmeni Nasıl Olunur? Adım Adım Yol Haritası",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bilgisayar-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 165480
+    },
     "variants": [
       {
         "file": "bilgisayar-ogretmeni-nasil-olunur-640.webp",
@@ -1003,6 +1283,13 @@
     "slug": "bilisim-teknolojileri-ve-yazilim-dersi",
     "title": "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?",
     "alt": "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bilisim-teknolojileri-ve-yazilim-dersi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
     "variants": [
       {
         "file": "bilisim-teknolojileri-ve-yazilim-dersi-640.webp",
@@ -1028,6 +1315,13 @@
     "slug": "bote-mezunlari-ne-is-yapar",
     "title": "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer",
     "alt": "BÖTE Mezunları Ne İş Yapar? Öğretmenlik ve Öğretmenlik Dışı Kariyer",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bote-mezunlari-ne-is-yapar.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 185471
+    },
     "variants": [
       {
         "file": "bote-mezunlari-ne-is-yapar-640.webp",
@@ -1053,6 +1347,13 @@
     "slug": "bote-mezunu-yazilimci-olabilir-mi",
     "title": "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme",
     "alt": "BÖTE Mezunu Yazılımcı Olabilir mi? Gerçekçi Bir Değerlendirme",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bote-mezunu-yazilimci-olabilir-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 184842
+    },
     "variants": [
       {
         "file": "bote-mezunu-yazilimci-olabilir-mi-640.webp",
@@ -1078,6 +1379,13 @@
     "slug": "bote-mi-bilgisayar-muhendisligi-mi",
     "title": "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi",
     "alt": "BÖTE mi Bilgisayar Mühendisliği mi? Farklar ve Tercih Rehberi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bote-mi-bilgisayar-muhendisligi-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 206115
+    },
     "variants": [
       {
         "file": "bote-mi-bilgisayar-muhendisligi-mi-640.webp",
@@ -1103,6 +1411,13 @@
     "slug": "bote-nedir",
     "title": "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi",
     "alt": "BÖTE Nedir? Bilgisayar ve Öğretim Teknolojileri Eğitimi Rehberi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bote-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 200167
+    },
     "variants": [
       {
         "file": "bote-nedir-640.webp",
@@ -1128,6 +1443,13 @@
     "slug": "bote-ogrenci-alimi-ve-gelecegi",
     "title": "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış",
     "alt": "BÖTE'ye Öğrenci Alımı Neden Azaldı? Bölümün Geleceğine Dengeli Bakış",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "bote-ogrenci-alimi-ve-gelecegi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183189
+    },
     "variants": [
       {
         "file": "bote-ogrenci-alimi-ve-gelecegi-640.webp",
@@ -1153,6 +1475,13 @@
     "slug": "coklu-ortam-ogrenme-ilkeleri",
     "title": "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük",
     "alt": "Çoklu Ortam Öğrenme İlkeleri: Mayer ve Bilişsel Yük",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "coklu-ortam-ogrenme-ilkeleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 174802
+    },
     "variants": [
       {
         "file": "coklu-ortam-ogrenme-ilkeleri-640.webp",
@@ -1178,6 +1507,13 @@
     "slug": "digcompedu-nedir",
     "title": "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi",
     "alt": "DigCompEdu Nedir? Öğretmenler İçin Dijital Yetkinlik Çerçevesi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "digcompedu-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 170891
+    },
     "variants": [
       {
         "file": "digcompedu-nedir-640.webp",
@@ -1203,6 +1539,13 @@
     "slug": "dunyada-ogretmen-acigi",
     "title": "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?",
     "alt": "Dünyada Öğretmen Açığı: 44 Milyon Öğretmen Nereden Bulunacak?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "dunyada-ogretmen-acigi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 159223
+    },
     "variants": [
       {
         "file": "dunyada-ogretmen-acigi-640.webp",
@@ -1228,6 +1571,13 @@
     "slug": "egitim-fakultesi-akreditasyon-epdad",
     "title": "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?",
     "alt": "Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitim-fakultesi-akreditasyon-epdad.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188187
+    },
     "variants": [
       {
         "file": "egitim-fakultesi-akreditasyon-epdad-640.webp",
@@ -1253,6 +1603,13 @@
     "slug": "egitim-fakultesi-bolumleri",
     "title": "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları",
     "alt": "Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitim-fakultesi-bolumleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 222665
+    },
     "variants": [
       {
         "file": "egitim-fakultesi-bolumleri-640.webp",
@@ -1278,6 +1635,13 @@
     "slug": "egitim-fakultesi-mi-fen-edebiyat-mi",
     "title": "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol",
     "alt": "Eğitim Fakültesi mi Fen-Edebiyat mı? Öğretmenliğe İki Yol",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitim-fakultesi-mi-fen-edebiyat-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 190722
+    },
     "variants": [
       {
         "file": "egitim-fakultesi-mi-fen-edebiyat-mi-640.webp",
@@ -1303,6 +1667,13 @@
     "slug": "egitim-fakultesi-ve-ogretmen-yetistirme",
     "title": "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi",
     "alt": "Eğitim Fakültesi Nedir? Türkiye'de Öğretmen Yetiştirme Sistemi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitim-fakultesi-ve-ogretmen-yetistirme.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181747
+    },
     "variants": [
       {
         "file": "egitim-fakultesi-ve-ogretmen-yetistirme-640.webp",
@@ -1328,6 +1699,13 @@
     "slug": "egitim-fakultesi-erasmus",
     "title": "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi",
     "alt": "Eğitim Fakültesi Öğrencileri İçin Erasmus+ Rehberi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitim-fakultesi-erasmus.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 211405
+    },
     "variants": [
       {
         "file": "egitim-fakultesi-erasmus-640.webp",
@@ -1353,6 +1731,13 @@
     "slug": "egitimde-yapay-zeka-ogretmenler-icin",
     "title": "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber",
     "alt": "Eğitimde Yapay Zekâ: Öğretmenler İçin Rehber",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "egitimde-yapay-zeka-ogretmenler-icin.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171166
+    },
     "variants": [
       {
         "file": "egitimde-yapay-zeka-ogretmenler-icin-640.webp",
@@ -1378,6 +1763,13 @@
     "slug": "finlandiya-ogretmen-yetistirme-modeli",
     "title": "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler",
     "alt": "Finlandiya Öğretmen Yetiştirme Modeli: Türkiye İçin Dersler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "finlandiya-ogretmen-yetistirme-modeli.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 162190
+    },
     "variants": [
       {
         "file": "finlandiya-ogretmen-yetistirme-modeli-640.webp",
@@ -1403,6 +1795,13 @@
     "slug": "iste-standartlari-nedir",
     "title": "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri",
     "alt": "ISTE Standartları Nedir? Öğrenci, Öğretmen ve Koç Rolleri",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "iste-standartlari-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 191280
+    },
     "variants": [
       {
         "file": "iste-standartlari-nedir-640.webp",
@@ -1428,6 +1827,13 @@
     "slug": "milli-egitim-akademisi-hazirlik-egitimi",
     "title": "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?",
     "alt": "Millî Eğitim Akademisi Hazırlık Eğitimi Nedir, Nasıl İşler?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "milli-egitim-akademisi-hazirlik-egitimi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
     "variants": [
       {
         "file": "milli-egitim-akademisi-hazirlik-egitimi-640.webp",
@@ -1453,6 +1859,13 @@
     "slug": "oyunlastirma-nedir",
     "title": "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları",
     "alt": "Oyunlaştırma Nedir? Eğitimde Etkileri ve Sınırları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "oyunlastirma-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 195494
+    },
     "variants": [
       {
         "file": "oyunlastirma-nedir-640.webp",
@@ -1478,6 +1891,13 @@
     "slug": "ogrenme-yonetim-sistemi-lms-nedir",
     "title": "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım",
     "alt": "Öğrenme Yönetim Sistemi (LMS) Nedir? Seçim ve Kullanım",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogrenme-yonetim-sistemi-lms-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 186072
+    },
     "variants": [
       {
         "file": "ogrenme-yonetim-sistemi-lms-nedir-640.webp",
@@ -1503,6 +1923,13 @@
     "slug": "ogretim-tasarimcisi-ne-is-yapar",
     "title": "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu",
     "alt": "Öğretim Tasarımcısı Ne İş Yapar? Beceriler ve Kariyer Yolu",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretim-tasarimcisi-ne-is-yapar.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 178497
+    },
     "variants": [
       {
         "file": "ogretim-tasarimcisi-ne-is-yapar-640.webp",
@@ -1528,6 +1955,13 @@
     "slug": "ogretim-tasarimi-addie-modeli",
     "title": "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler",
     "alt": "Öğretim Tasarımı Nedir? ADDIE Modeli ve Temel İlkeler",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretim-tasarimi-addie-modeli.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 223376
+    },
     "variants": [
       {
         "file": "ogretim-tasarimi-addie-modeli-640.webp",
@@ -1553,6 +1987,13 @@
     "slug": "ogretim-teknolojileri-dersi",
     "title": "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin",
     "alt": "Öğretim Teknolojileri Dersi Nedir? Öğretmen Adayları İçin",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretim-teknolojileri-dersi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 190554
+    },
     "variants": [
       {
         "file": "ogretim-teknolojileri-dersi-640.webp",
@@ -1578,6 +2019,13 @@
     "slug": "ogretmenlik-meslegi-kanunu-7528",
     "title": "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?",
     "alt": "Öğretmenlik Mesleği Kanunu (7528) Neleri Değiştirdi?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretmenlik-meslegi-kanunu-7528.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166456
+    },
     "variants": [
       {
         "file": "ogretmenlik-meslegi-kanunu-7528-640.webp",
@@ -1603,6 +2051,13 @@
     "slug": "ogretmenlik-meslegi-sayginligi",
     "title": "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?",
     "alt": "Öğretmenlik Mesleğinin Saygınlığı: TALIS Ne Söylüyor?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretmenlik-meslegi-sayginligi.jpg",
+      "width": 1600,
+      "height": 899,
+      "bytes": 161003
+    },
     "variants": [
       {
         "file": "ogretmenlik-meslegi-sayginligi-640.webp",
@@ -1628,6 +2083,13 @@
     "slug": "ogretmenlik-meslek-bilgisi-dersleri",
     "title": "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?",
     "alt": "Öğretmenlik Meslek Bilgisi Dersleri Nelerdir?",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretmenlik-meslek-bilgisi-dersleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 195256
+    },
     "variants": [
       {
         "file": "ogretmenlik-meslek-bilgisi-dersleri-640.webp",
@@ -1653,6 +2115,13 @@
     "slug": "ogretmenlik-uygulamasi-nedir",
     "title": "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım",
     "alt": "Öğretmenlik Uygulaması Nedir? Staj Süreci Adım Adım",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "ogretmenlik-uygulamasi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183217
+    },
     "variants": [
       {
         "file": "ogretmenlik-uygulamasi-nedir-640.webp",
@@ -1678,6 +2147,13 @@
     "slug": "pedagojik-formasyon-kalkti-mi",
     "title": "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı",
     "alt": "Pedagojik Formasyon Kalktı mı? 2025 Değişikliği ve Anlamı",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "pedagojik-formasyon-kalkti-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 172177
+    },
     "variants": [
       {
         "file": "pedagojik-formasyon-kalkti-mi-640.webp",
@@ -1703,6 +2179,13 @@
     "slug": "tpack-modeli-nedir",
     "title": "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı",
     "alt": "TPACK Modeli Nedir? Öğretmen Bilgisinin Yedi Katmanı",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "tpack-modeli-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 167827
+    },
     "variants": [
       {
         "file": "tpack-modeli-nedir-640.webp",
@@ -1728,6 +2211,13 @@
     "slug": "uzaktan-egitim-nedir",
     "title": "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi",
     "alt": "Uzaktan Eğitim Nedir? Türkiye ve Dünyada Gelişimi",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "uzaktan-egitim-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 179794
+    },
     "variants": [
       {
         "file": "uzaktan-egitim-nedir-640.webp",
@@ -1753,6 +2243,13 @@
     "slug": "uzman-ogretmenlik-ve-basogretmenlik",
     "title": "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları",
     "alt": "Uzman Öğretmenlik ve Başöğretmenlik: Kariyer Basamakları",
+    "updated": "2026-10-24",
+    "primary": {
+      "file": "uzman-ogretmenlik-ve-basogretmenlik.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181412
+    },
     "variants": [
       {
         "file": "uzman-ogretmenlik-ve-basogretmenlik-640.webp",

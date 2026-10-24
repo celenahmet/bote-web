@@ -57,7 +57,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
   {
     '@type': 'BlogPosting', '@id': `${url}#yazi`, mainEntityOfPage: url, url,
     headline: post.title, description: post.description, inLanguage: 'tr-TR',
-    image: { '@type': 'ImageObject', url: blog.abs(post.image.src), contentUrl: blog.abs(post.image.src), name: post.title, caption: post.imageAlt, ...(post.image.src.includes('.webp') ? { encodingFormat: 'image/webp' } : {}), width: post.image.width, height: post.image.height },
+    image: { '@type': 'ImageObject', url: blog.abs(post.image.src), contentUrl: blog.abs(post.image.src), name: post.title, caption: post.imageAlt, encodingFormat: post.image.src.split('?')[0].endsWith('.webp') ? 'image/webp' : 'image/jpeg', width: post.image.width, height: post.image.height },
     datePublished: isoDate(post.date), dateModified: isoDate(post.updated),
     author: { '@type': 'Organization', '@id': blog.author.id, name: blog.author.name, url: blog.abs(blog.author.url) },
     publisher: { '@id': `${blog.SITE}/#org` }, isPartOf: { '@id': `${blog.SITE}/blog#blog` },

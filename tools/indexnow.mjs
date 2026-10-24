@@ -38,7 +38,7 @@ if (args.includes('--all')) {
     .split('\n').filter((f) => f.endsWith('.md'));
   const posts = changed.map((f) => `${SITE}/blog/${path.basename(f, '.md')}`).filter((u) => all.includes(u));
   // yazi eklenince ya da degisince liste sayfalari da degisir
-  const lists = posts.length ? all.filter((u) => u === `${SITE}/blog` || u.startsWith(`${SITE}/blog/kategori/`)) : [];
+  const lists = posts.length ? all.filter((u) => u === `${SITE}/blog` || u.startsWith(`${SITE}/blog/kategori/`) || u.startsWith(`${SITE}/blog/sayfa/`)) : [];
   urls = [...new Set([...posts, ...lists])];
 }
 urls = urls.filter((u) => u.startsWith(`${SITE}/`) || u === SITE);

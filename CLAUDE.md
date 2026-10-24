@@ -34,6 +34,11 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   yayınından hariçtir. Onaylı fotoğraflar content/blog/covers/<yazi-slug>.webp
   (1600px), -960.webp ve -640.webp olarak yayınlanır; kaynak manifest photo-covers.json.
   Araç: node tools/prepare-photo-covers.mjs <onay-klasoru>; npm --prefix tools run test:photos.
+  Sabit ana görsel adresi <slug>.jpg ve eski <slug>-art.jpg yolları korunur;
+  ikisinde de yeni fotoğrafın JPEG sürümü bulunur. HTML src/OG/JSON-LD/sitemap
+  ana adres olarak JPG kullanır, srcset üç WebP boyutunu sunar. Görsel güncelleme
+  tarihi photo-covers.json içinde tutulur ve yalnız sitemap lastmod hesabına katılır;
+  yazı metni, adresi, yayın/güncelleme tarihleri bu nedenle değiştirilmez.
   Gövde ve sosyal paylaşımda aynı kapak kullanılır. 16:9 oran korunur, sol üst logo kırpılmaz.
   Yazı üstü sırası (24.10): kategori/başlık → fotoğraf → açıklama/yazar/tarih → metin.
   Alt metin ve sosyal görsel altı yazının başlığıdır; yinelenen dekoratif kartlarda alt boş kalır.

@@ -41,7 +41,7 @@ const warnings = [...blog.warnings];
 if (!CHECK) {
   const made = await makeCovers(
     [{ slug: '_blog', title: 'Bölüm, eğitim fakültesi ve öğretmenlik üzerine yazılar', label: 'Blog', langs: [], iconName: 'book-open' },
-      ...[...posts, ...blog.previews].filter((p) => !p.imageSrc && !p.image.src.includes('.webp')).map((p) => ({ slug: p.slug, title: p.title, label: p.category.name, cat: p.category.slug, iconName: p.category.icon, tags: p.tags, langs: p.sources.map((s) => s.lang) }))],
+      ...[...posts, ...blog.previews].filter((p) => !p.imageSrc && !p.image.photo).map((p) => ({ slug: p.slug, title: p.title, label: p.category.name, cat: p.category.slug, iconName: p.category.icon, tags: p.tags, langs: p.sources.map((s) => s.lang) }))],
     { root: ROOT, outDir: COVER_DIR, force: FORCE_COVERS },
   );
   if (made.length) {
@@ -156,12 +156,13 @@ for (const rel of kokSayfalar.filter((f) => f.endsWith('.html') && !f.startsWith
 
 // Taslak onizlemeleri (blog/taslak) ve iframe atif kartlari (blog/embed) noindex'tir; sitemap'e girmez.
 const blogPages = [...out.keys()].filter((k) => /^blog\/(.+\/)?index\.html$/.test(k) && !k.startsWith('blog/taslak/') && !k.startsWith('blog/embed/')).map((k) => `/${k.replace(/\/index\.html$/, '')}`);
+const newestImageOrPost = posts.reduce((date, p) => p.image.updated && p.image.updated > date ? p.image.updated : date, newest);
 const urls = [
   ...legacy.map((l) => ({ loc: l.canonical, alternates: l.alternates })),
   ...blogPages.map((u) => {
     const p = posts.find((x) => x.url === u);
     const listing = u === '/blog' || u.startsWith('/blog/sayfa') || u.startsWith('/blog/kategori');
-    return { loc: abs(u), lastmod: p ? p.updated : listing && posts.length ? newest : null, image: p ? abs(p.image.src) : null };
+    return { loc: abs(u), lastmod: p ? (p.image.updated && p.image.updated > p.updated ? p.image.updated : p.updated) : listing && posts.length ? newestImageOrPost : null, image: p ? abs(p.image.src) : null };
   }),
 ].sort((a, b) => a.loc.localeCompare(b.loc));
 out.set('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
