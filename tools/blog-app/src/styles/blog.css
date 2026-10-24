@@ -698,7 +698,7 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 
 .cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
 @media (min-width:640px){.cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 22px}}
-@media (min-width:1200px){.feed .cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (min-width:1200px){.feed .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}}
 .cards>li{min-width:0}
 .card{height:100%;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--surface);transition:border-color .15s,box-shadow .15s,transform .15s}
 .card:hover{border-color:color-mix(in srgb,var(--violet) 45%,var(--line));box-shadow:var(--shadow);transform:translateY(-2px)}
@@ -1043,3 +1043,5 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 @media(min-width:1100px){.band-posts{align-self:stretch}.band-posts>.widget{flex:1}.band-posts .mini.mini-thumbs{flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:20px}}
 @media(min-width:1100px){.band-posts>astro-island{display:flex;flex-direction:column;flex:1;min-height:0}.band-posts>astro-island>.widget{flex:1}.band-posts .mini-img{aspect-ratio:16/10}.band-posts .mini-img img{object-fit:cover;height:100%}}
 @media(min-width:1100px){.band-posts>astro-island{flex:0 0 auto}.band-posts>astro-island:has(>.widget){flex:1 1 auto}}
+
+@media(min-width:1000px){.feed .card-body{padding:22px 24px 24px}.feed .card-title{font-size:22px;line-height:1.35}.feed .card .dek{font-size:15.5px}}
