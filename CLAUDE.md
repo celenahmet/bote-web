@@ -77,7 +77,8 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   vermemek için yazının sonunda, kontrol listesinden ya da "Sonuç"tan hemen önce durur. Başlık altında yazar,
   tarih, okuma süresi, görüntülenme (kelime sayısı gösterilmez). Kenar çubuğu sırası:
   reklam > kategoriler ("Tüm yazılar" toplamı + ikon + sayı) > Popüler/Yeni sekmeleri >
-  "İçindekiler" (yalnız bu yapışır ve kendi içinde kayar; tıklanınca ilgili bölüme gider).
+  "İçindekiler" ve altında CV/portföy/fırsat odaklı UniConnectly kartı (25.10).
+  Yalnız bu alt grup yeterli ekran yüksekliğinde yapışır; içindekiler kendi içinde kayar, reklamla çakışmaz.
   Yazı sonunda önceki/sonraki bağlantısı yoktur; 4 görselli "Bunlar da ilginizi çekebilir"
   bölümü vardır. Liste sayfalarında reklam > kategoriler > popüler > son görüntülenenler.
   Site adresi www'suz `https://bote.web.tr` (www 27.09'dan beri buraya yönlenir).
@@ -221,3 +222,7 @@ Bulut oturumu dahil her yazıda geçerlidir.
 - Mezunlar sayfası içeriği `content/pages/mezunlar.md` ve `en-graduates.md`'den üretilir.
 - Blog kaynağı `content/blog/`, üretilen çıktı `blog/` (commit'lenir):
   `cd tools && npm run build` (Astro + kök dosyalar: sitemap, llms.txt, site haritaları).
+
+- PDF Merkezi (25.10): konu/kod arama, kategori filtresi, sıralama ve belge kartları.
+  İndirme gerçek BT kayıtlarından, görüntülenme ilgili blog yazısı sayacından gelir.
+  Veri eksikse sıfır uydurulmaz; bilinmeyen sayı — kalır. Tanıtımlarda CV dahil 6 dengeli fayda bulunur.

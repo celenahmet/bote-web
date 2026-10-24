@@ -125,22 +125,31 @@ ads:
       - { title: "Katıl", text: "Toplulukları takip et, etkinliklere başvur" }
       - { title: "Paylaş", text: "Doğrulanmış katılımların ve sertifikaların portföyünde; tek bağlantıyla paylaş" }
     entryBenefits:
-      - title: "CV’ni hemen PDF olarak indir"
-        text: "10’dan fazla CV şablonundan istediğini seç. Özgeçmişini uygulamada düzenle, PDF olarak indir ve başvuruna hazır ol."
-      - title: "Dijital portföy"
-        text: "Katıldığın etkinlikleri ve sertifikalarını dijital portföyünde sergile, tek bağlantıyla paylaş."
-      - title: "Fırsatları yakından takip et"
-        text: "Toplulukları, etkinlikleri ve şirketleri takip et; yeni fırsatlardan haberdar ol."
-      - title: "İş, staj ve burs fırsatlarını keşfet"
-        text: "İş ve staj ilanlarını, burs ve destek programlarını tek yerde gör; şirket ilanlarına uygulamadan başvur."
+      - icon: file-down
+        title: "CV’ni hemen PDF olarak indir"
+        text: "10’dan fazla CV şablonundan istediğini seç. Özgeçmişini uygulamada düzenle, PDF olarak indir."
+      - icon: contact
+        title: "Dijital portföy"
+        text: "Etkinliklerini ve sertifikalarını tek portföyde sergile, tek bağlantıyla paylaş."
+      - icon: qr-code
+        title: "Doğrulanabilir katılım"
+        text: "QR ile katıldığın etkinlikler portföyünde doğrulanmış olarak listelensin."
+      - icon: badge-check
+        title: "Sertifikalar"
+        text: "Platformda verilen sertifikalarını doğrulanmış işaretleriyle portföyünde göster."
+      - icon: briefcase
+        title: "İş, staj ve burs fırsatları"
+        text: "Yeni ilanları ve burs duyurularını takip et; şirket ilanlarına uygulamadan başvur."
+      - icon: users
+        title: "Topluluklar ve etkinlikler"
+        text: "Üniversitendeki toplulukları keşfet, etkinlikleri takip et ve katıl."
     tabs:
       - label: "Öğrenciler"
         question: "Öğrenciye ne kazandırır?"
         items:
           - { title: "CV’ni hemen PDF olarak indir", text: "10’dan fazla CV şablonundan istediğini seç. Özgeçmişini uygulamada düzenle, PDF olarak indir ve başvuruna hazır ol." }
           - { title: "Dijital portföy", text: "uniconnectly.com/@kullanıcıadı adresiyle herkese açık paylaş; CV'ne ve LinkedIn'e sertifika doğrulama bağlantısı olarak ekle.", example: "@nursena", exampleUrl: "https://uniconnectly.com/@nursena?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=banner&utm_campaign=blog-panel" }
-          - { title: "Doğrulanabilir katılım", text: "QR ile giriş yaptığın etkinlikler portföyünde doğrulanmış listelenir." }
-          - { title: "Sertifikalar", text: "Platformda verilen sertifikalar doğrulanmış işaretli, edu.tr e-postan onaylı." }
+          - { title: "Katılım ve sertifikalar", text: "QR ile katıldığın etkinlikler ve platformda verilen sertifikalar portföyünde doğrulanmış olarak listelenir." }
           - { title: "Anlık fırsatlar", text: "Staj, iş ve burs duyuruları akışına düşer; şirket ilanlarına uygulamadan başvur." }
           - { title: "Topluluklar ve etkinlikler", text: "Üniversitendeki toplulukları ve takvimi tek ekranda gör, başvurulu etkinliklere katıl." }
           - { title: "Üye kartı indirimleri", text: "Takip ettiğin toplulukların anlaşmalı işletme indirimlerinden yararlan." }

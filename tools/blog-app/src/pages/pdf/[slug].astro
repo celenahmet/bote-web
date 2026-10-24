@@ -29,7 +29,8 @@ const ld = { '@context': 'https://schema.org', '@type': 'WebPage', name: `${b.ba
         <dt>Sürüm</dt><dd>{s.surum} · {V.trTarih(s.tarih)}</dd>
         <dt>Sayfa</dt><dd>{s.sayfa} sayfa, A4</dd>
         <dt>Boyut</dt><dd>{boyut(s.bayt)}</dd>
-        <div data-pdf-indirme-kutu hidden><dt>İndirme</dt><dd data-pdf-indirme={kd}></dd></div>
+        <div data-pdf-indirme-kutu><dt>İndirme</dt><dd data-pdf-indirme={kd} data-pdf-exact data-pdf-number>—</dd></div>
+        <dt>Yazı görüntülenmesi</dt><dd data-pdf-views={b.slug}>—</dd>
         <dt>Yayımlayan</dt><dd>bote.web.tr</dd>
       </dl>
       <p class="pdf-ucretsiz">Bu belge tamamen ücretsizdir. Size satmaya çalışanlara itibar etmeyiniz.</p>

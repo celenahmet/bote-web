@@ -26,7 +26,7 @@ const ext = { target: '_blank', rel: 'sponsored noopener' };
   <p class="entry-promo-kicker">Ücretsiz indir ve kaydol</p>
   <h2 id="entry-promo-title" tabindex="-1">Üniversite hayatının fırsatları tek uygulamada</h2>
   <ul class="entry-promo-benefits">
-    {items.map((item, i) => <li><span class="entry-promo-icon"><Icon name={['file-down', 'contact', 'bell', 'briefcase'][i]} size={24} /></span><div><b>{item.title}</b><p>{item.text}</p></div></li>)}
+    {items.map((item) => <li><span class="entry-promo-icon"><Icon name={item.icon || 'check'} size={24} /></span><div><b>{item.title}</b><p>{item.text}</p></div></li>)}
   </ul>
   <div class="promo-stores">
     {(house.stores || []).filter((s) => stores[s.id]).map((s) => <a class="store" href={promoUrl(s.url)} {...ext} aria-label={`UniConnectly: ${stores[s.id].label}`}><img src={`/blog/ads/${stores[s.id].image}`} alt={stores[s.id].label} width={stores[s.id].width} height="80" /></a>)}

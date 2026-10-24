@@ -1,8 +1,8 @@
 ---
 // Kenar cubugu ve yazi sonu bandi.
 //   post:    yazi sayfasi sag sutunu -> reklam > kategoriler > Populer/Yeni sekmeleri > icindekiler
-//            (yalniz icindekiler yapisir, kendi icinde kayar; Ahmet 26.09: tum sutun alttan yapisinca
-//            yukari cikmak zorlasiyordu. Kategoriler ve sekmeler Ahmet'in istegiyle geri geldi.)
+//            > UniConnectly: alt okuma grubu yeterli yukseklikte ustten yapisir;
+//            uzun icindekiler kendi icinde kayar. Tum kenar cubugu sabitlenmez (25.10).
 //   sidebar: liste sayfalari -> reklam > kategoriler > populer > son okunanlar > yayin ilkeleri
 //   band:    yazi sonu -> populer > son okunanlar > reklam
 import PopularPosts from '../islands/PopularPosts.jsx';
@@ -10,6 +10,7 @@ import RecentlyViewed from '../islands/RecentlyViewed.jsx';
 import PostTabs from '../islands/PostTabs.jsx';
 import AdSlot from './AdSlot.astro';
 import UniPanel from './UniPanel.astro';
+import SidebarPromo from './SidebarPromo.astro';
 import Newsletter from './Newsletter.astro';
 import Icon from './Icon.astro';
 import { loadBlog, trDate } from '../lib.js';
@@ -65,6 +66,7 @@ const total = cats.reduce((n, c) => n + c.count, 0);
       <>
         {isPreview ? <PostTabs posts={[]} latest={latest} fallback={fallback} current={current} /> : <PostTabs client:visible posts={lite} latest={latest} fallback={fallback} current={current} />}
         {!isPreview && <Newsletter id="bulten-yan" />}
+        <div class="sidebar-reading">
         {toc.length > 0 && (
           <nav class="widget side-toc" aria-labelledby="w-toc">
             <h2 class="widget-title" id="w-toc">İçindekiler</h2>
@@ -73,6 +75,8 @@ const total = cats.reduce((n, c) => n + c.count, 0);
             ))}</ol>
           </nav>
         )}
+        <SidebarPromo />
+        </div>
       </>
     ) : (
       <>

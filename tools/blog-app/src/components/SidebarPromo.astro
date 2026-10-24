@@ -1,0 +1,22 @@
+---
+import Icon from './Icon.astro';
+import { loadBlog } from '../lib.js';
+import { promoUrl } from '../promo.js';
+const house = loadBlog().cfg.ads.house.find((h) => h.id === 'uniconnectly');
+const ext = { target: '_blank', rel: 'sponsored noopener' };
+const features = [
+  { icon: 'file-down', title: 'CV’ni PDF olarak indir', text: '10’dan fazla şablonla başvuruna hazırlan.' },
+  { icon: 'contact', title: 'Portföyünü paylaş', text: 'Etkinliklerini ve sertifikalarını tek bağlantıda sergile.' },
+  { icon: 'briefcase', title: 'Fırsatları keşfet', text: 'İş, staj ve burs duyurularını takip et.' },
+];
+---
+{house && <section class="sidebar-uc" aria-label="UniConnectly iş birliği">
+  <span class="sidebar-uc-label">İş birliği</span>
+  <a class="sidebar-uc-logo" href={promoUrl(house.url)} {...ext} aria-label="UniConnectly web sitesi">
+    <img class="lg-light" src={house.logo} alt="UniConnectly" width="200" height="58" loading="lazy" decoding="async" />
+    {house.logoDark && <img class="lg-dark" src={house.logoDark} alt="UniConnectly" width="200" height="58" loading="lazy" decoding="async" />}
+  </a>
+  <h2>Üniversiteden kariyerine</h2>
+  <ul>{features.map((f) => <li><span><Icon name={f.icon} size={19} /></span><div><b>{f.title}</b><p>{f.text}</p></div></li>)}</ul>
+  <a class="sidebar-uc-cta" href={promoUrl(house.url)} {...ext}>Ücretsiz keşfet <Icon name="arrow-up-right" size={17} /></a>
+</section>}

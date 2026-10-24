@@ -10,6 +10,8 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import * as V from '../../pdf/veri.mjs';
+import { icon } from '../../blog/icons.mjs';
+import { promoUrl } from './promo.js';
 
 export { V };
 export const BEKLEME = 10;
@@ -90,24 +92,19 @@ export function dosyaDenetimi() {
 }
 
 /** Bekleme ekranindaki UniConnectly karti: blog.yml > ads.house (blogun kendi tanitim ayari) +
- *  uygulamada VAR olan dort fayda (ahmetcelen.com.tr ile ayni dogrulanmis metin). */
-const FAYDALAR = [
-  ['Dijital portföy', 'Katıldığın etkinlikleri ve sertifikalarını uniconnectly.com/@kullanıcıadı adresinde herkese açık sergile'],
-  ['Doğrulanabilir katılım', 'QR ile giriş yaptığın etkinlikler portföyünde doğrulanmış listelenir'],
-  ['Sertifikalar', 'Platformda verilen sertifikalar doğrulanmış işaretli, edu.tr e-postan onaylı'],
-  ['Anlık fırsatlar', 'Staj, iş ve burs duyuruları akışına düşer'],
-];
+ *  uygulamada VAR olan alti fayda (ahmetcelen.com.tr ile ayni dogrulanmis metin). */
 const MAGAZA = { appstore: ['App Store', '/blog/ads/app-store.png'], googleplay: ['Google Play', '/blog/ads/google-play.png'], appgallery: ['AppGallery', '/blog/ads/appgallery.png'] };
 export function ucKarti(blog, kampanya) {
+  const faydalar = blog.cfg.ads.showcase.entryBenefits;
   const h = (blog.cfg.ads.house || []).find((x) => x.id === 'uniconnectly') || {};
   const adres = `https://uniconnectly.com/?ref=bote.web.tr&utm_source=bote.web.tr&utm_medium=pdf&utm_campaign=${kampanya}`;
   const rozetler = (h.stores || []).filter((s) => MAGAZA[s.id] && fs.existsSync(path.join(V.ROOT, 'tools/blog-app/public', MAGAZA[s.id][1].replace('/blog/', ''))))
-    .map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener"><img src="${MAGAZA[s.id][1]}" alt="${MAGAZA[s.id][0]}" height="40" loading="lazy" decoding="async"></a>`).join('');
+    .map((s) => `<a href="${esc(promoUrl(s.url))}" target="_blank" rel="sponsored noopener"><img src="${MAGAZA[s.id][1]}" alt="${MAGAZA[s.id][0]}" height="40" loading="lazy" decoding="async"></a>`).join('');
   return `<aside class="pdf-uc" aria-label="Diğer yapımlarımızdan: UniConnectly">
 <span class="pdf-uc-etiket">Diğer yapımlarımızdan</span>
 <a class="pdf-uc-logo" href="${esc(adres)}" target="_blank" rel="noopener"><img class="${h.logoDark ? 'lg-light' : ''}" src="${esc(h.logo || 'https://uniconnectly.com/brand/light-logo-yildizsiz.webp')}" alt="UniConnectly" width="640" height="185" decoding="async">${h.logoDark ? `<img class="lg-dark" src="${esc(h.logoDark)}" alt="UniConnectly" width="640" height="185" decoding="async">` : ''}</a>
 <p class="pdf-uc-giris">${esc(h.text || '')}</p>
-<ul class="pdf-uc-faydalar">${FAYDALAR.map(([b, a]) => `<li><b>${esc(b)}</b><span>${esc(a)}</span></li>`).join('')}</ul>
+<ul class="pdf-uc-faydalar">${faydalar.map((f) => `<li><span class="pdf-uc-benefit-icon">${icon(f.icon, { size: 19 })}</span><div><b>${esc(f.title)}</b><span>${esc(f.text)}</span></div></li>`).join('')}</ul>
 <div class="pdf-uc-alt"><a class="pdf-dugme" href="${esc(adres)}" target="_blank" rel="noopener">${esc(h.cta || 'Ücretsiz keşfet')}</a>${rozetler ? `<div class="pdf-uc-magaza">${rozetler}</div>` : ''}</div>
 </aside>`;
 }

@@ -10,6 +10,7 @@
     "lighthouse": "node lighthouse.mjs",
     "preview": "node preview-drafts.mjs",
     "dev": "astro dev --root blog-app",
+    "test:pdf": "node check-pdf-library.mjs",
     "test:photos": "node check-photo-seo.mjs"
   },
   "engines": {

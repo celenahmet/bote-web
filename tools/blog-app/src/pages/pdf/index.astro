@@ -1,48 +1,62 @@
 ---
-// PDF merkezi (28.09): arama, butun belgeler, duyurular, dogrulama. Indekslenir (sitemap'te).
 import Base from '../../layouts/Base.astro';
 import Crumbs from '../../components/Crumbs.astro';
+import Icon from '../../components/Icon.astro';
 import { loadBlog, orgLd, breadcrumbLd } from '../../lib.js';
-import { V, veri, boyut, duyurular, esc, pdfJs } from '../../pdf.js';
+import { V, veri, boyut, duyurular, pdfJs } from '../../pdf.js';
 const blog = loadBlog();
 const { belgeler } = veri();
 const path = '/pdf';
 const title = 'PDF Merkezi';
 const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: title, url: path }];
 const yazi = new Map(blog.posts.map((p) => [p.slug, p]));
-const gruplar = blog.categories.map((c) => ({ c, liste: belgeler.filter((x) => yazi.get(x.b.slug)?.category.slug === c.slug).sort((a, b) => a.b.no - b.b.no) })).filter((g) => g.liste.length);
-const satir = ({ kd, b, yayinda }) => {
-  const s = yayinda[yayinda.length - 1]; const p = yazi.get(b.slug);
-  const ara = [kd, kd.replace('-', ''), String(b.no), b.baslik, p?.category.name, ...(p?.tags || [])].join(' ').toLowerCase();
-  return `<li class="pdf-satir" data-ara="${esc(ara)}"><span class="pdf-kod">${esc(kd)}</span><div class="pdf-satir-ic"><a class="pdf-satir-baslik" href="${V.indirmeYolu(b.slug)}">${esc(b.baslik)}</a><span class="pdf-satir-kunye">Sürüm ${esc(s.surum)} · ${s.sayfa} sayfa · ${boyut(s.bayt)}<span data-pdf-indirme="${esc(kd)}" data-onek=" · " hidden></span></span></div><div class="pdf-satir-eylem"><a class="pdf-dugme" href="${V.indirmeYolu(b.slug)}">İndir</a><a class="pdf-dugme-ikincil" href="${V.dogrulamaYolu(kd)}">Doğrula</a></div></li>`;
-};
+const documents = [...belgeler].sort((a, b) => a.b.no - b.b.no).map((x) => ({ ...x, s: x.yayinda.at(-1), p: yazi.get(x.b.slug) }));
+const categories = blog.categories.map((c) => ({ ...c, count: documents.filter((x) => x.p?.category.slug === c.slug).length })).filter((c) => c.count);
 const ld = { '@context': 'https://schema.org', '@graph': [
   { '@type': 'CollectionPage', '@id': `${blog.abs(path)}#sayfa`, url: blog.abs(path), name: title, inLanguage: 'tr-TR', isAccessibleForFree: true,
     publisher: { '@id': `${blog.SITE}/#org` },
-    mainEntity: { '@type': 'ItemList', numberOfItems: belgeler.length, itemListElement: [...belgeler].sort((a, b) => a.b.no - b.b.no).map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: blog.abs(V.indirmeYolu(x.b.slug)), name: x.b.baslik })) } },
+    mainEntity: { '@type': 'ItemList', numberOfItems: documents.length, itemListElement: documents.map((x, i) => ({ '@type': 'ListItem', position: i + 1, url: blog.abs(V.indirmeYolu(x.b.slug)), name: x.b.baslik })) } },
   orgLd(blog), breadcrumbLd(blog, trail),
 ] };
 ---
-<Base title={`PDF Merkezi: BÖTE Blog Yazılarının PDF'leri`} description="BÖTE blog yazılarının ücretsiz PDF'leri. Her belgenin kodu ve sürümü var; güncelliğini QR kodla ya da dosyayla doğrulayın."
+<Base title="PDF Merkezi: BÖTE Blog Yazılarının PDF'leri" description="BÖTE blog yazılarının ücretsiz PDF'leri. Konuya veya belge koduna göre arayın; indirme ve görüntülenme sayılarını görün, güncel sürümü ücretsiz indirin."
   path={path} image={blog.blogImage} ld={ld} current="pdf" ads={false}>
-  <section class="wrap index-head">
+  <section class="wrap pdf-library-head">
     <Crumbs items={trail} />
-    <h1>{title}</h1>
-    <p class="dek">Bütün yazıların ücretsiz PDF'leri. Her belgenin bir kodu ve sürümü var: bir hata düzeltildiğinde yeni sürüm yayımlanır, değişiklik aşağıda duyurulur. Elinizdeki belgenin güncel olup olmadığını QR kodla ya da dosyayla doğrulayabilirsiniz.</p>
-  </section>
-  <div class="wrap pdf-merkez">
-    <Fragment set:html={duyurular(belgeler, 5)} />
-    <div class="pdf-ara">
-      <label for="pdf-ara-girdi" class="sr-only">PDF ara</label>
-      <input id="pdf-ara-girdi" type="search" placeholder="Konu, belge kodu ya da etiket ara (BT-012, ters yüz, KPSS)" autocomplete="off" data-pdf-ara>
-      <span class="pdf-ara-sayi" data-pdf-sayi aria-live="polite">{belgeler.length} belge</span>
+    <div class="pdf-library-intro">
+      <div><span class="pdf-library-mark"><Icon name="library-big" size={24} /> Ücretsiz kaynak kütüphanesi</span><h1>PDF Merkezi</h1><p>İhtiyacın olan konuyu bul, PDF'ini indir.<br /> BÖTE, eğitim bilimleri ve öğretmenlik üzerine bütün yazılar tek yerde.</p></div>
+      <a class="pdf-verify-link" href="/d"><Icon name="shield-check" size={20} /><span>Elindeki PDF güncel mi?<small>Belge koduyla veya dosyayla doğrula</small></span><Icon name="arrow-up-right" size={18} /></a>
     </div>
-    <p class="pdf-bos" data-pdf-bos hidden>Bu aramayla eşleşen belge yok.</p>
-    {gruplar.map((g) => <section class="pdf-grup"><h2>{g.c.name}</h2><ol class="pdf-liste" set:html={g.liste.map(satir).join('')} /></section>)}
-    <section class="pdf-kodla">
-      <h2>Belge doğrulama</h2>
-      <p>Her PDF'in ilk sayfasında bir QR kod ve belge kodu (örneğin BT-012) bulunur. QR kodu okutun ya da <a href="/d">belge doğrulama</a> sayfasında kodu girin veya dosyanın kendisini denetleyin.</p>
+    <dl class="pdf-library-stats">
+      <div><Icon name="files" size={20} /><dt>Ücretsiz PDF</dt><dd>{documents.length}</dd></div>
+      <div><Icon name="download" size={20} /><dt>PDF indirme</dt><dd data-pdf-total-downloads>—</dd></div>
+      <div><Icon name="eye" size={20} /><dt>Yazı görüntülenmesi</dt><dd data-pdf-total-views>—</dd></div>
+    </dl>
+  </section>
+  <div class="wrap pdf-merkez pdf-library" data-pdf-library>
+    <section class="pdf-find" aria-label="PDF arama ve filtreler">
+      <div class="pdf-find-top"><h2>Kütüphanede ara</h2><span data-pdf-sayi role="status" aria-live="polite">{documents.length} PDF listeleniyor</span></div>
+      <div class="pdf-find-controls">
+        <div class="pdf-search-box"><Icon name="search" size={21} /><label for="pdf-ara-girdi" class="sr-only">Konu, belge kodu veya etiket ara</label><input id="pdf-ara-girdi" type="search" placeholder="Konu, belge kodu veya etiket…" autocomplete="off" data-pdf-ara /><button type="button" data-pdf-clear aria-label="Aramayı temizle" hidden><Icon name="x" size={18} /></button></div>
+        <div class="pdf-sort pdf-category-mobile"><label for="pdf-kategori" class="sr-only">PDF kategorisi</label><Icon name="folder" size={18} /><select id="pdf-kategori" data-pdf-category-select><option value="">Tüm konular</option>{categories.map((c) => <option value={c.slug}>{c.short || c.name}</option>)}</select></div>
+        <div class="pdf-sort"><label for="pdf-sirala" class="sr-only">PDF'leri sırala</label><Icon name="arrow-down-up" size={18} /><select id="pdf-sirala" data-pdf-sort><option value="code">Belge koduna göre</option><option value="title">Başlığa göre (A–Z)</option><option value="downloads">En çok indirilen</option><option value="views">En çok görüntülenen</option><option value="date">En yeni sürüm</option></select></div>
+      </div>
+      <div class="pdf-filter-list" aria-label="Kategori filtresi"><button type="button" data-pdf-category="" aria-pressed="true"><Icon name="layout-grid" size={16} />Tümü <span>{documents.length}</span></button>{categories.map((c) => <button type="button" data-pdf-category={c.slug} aria-pressed="false"><Icon name={c.icon} size={16} />{c.short || c.name}<span>{c.count}</span></button>)}</div>
+      <p class="pdf-search-hint">Örneğin <button type="button" data-pdf-query="ADDIE">ADDIE</button>, <button type="button" data-pdf-query="Arduino">Arduino</button> veya <button type="button" data-pdf-query="BT-012">BT-012</button> arayabilirsin.</p>
     </section>
+    <div class="pdf-empty" data-pdf-bos hidden><Icon name="search-x" size={32} /><h2>Bu aramayla eşleşen PDF yok</h2><p>Daha kısa bir konu adı veya BT-012 gibi bir belge kodu deneyebilirsin.</p><button class="pdf-dugme-ikincil" type="button" data-pdf-reset>Filtreleri temizle</button></div>
+    <p class="pdf-search-hint">Görüntülenme sayıları ilgili blog yazılarına aittir.</p>
+    <ol class="pdf-catalog" data-pdf-catalog>
+      {documents.map(({ kd, b, s, p }) => <li class="pdf-doc" data-pdf-document data-slug={b.slug} data-category={p?.category.slug || ''} data-code={b.no} data-title={b.baslik} data-date={s.tarih} data-ara={[kd, kd.replace('-', ''), b.no, b.baslik, p?.category.name, ...(p?.tags || [])].join(' ')}>
+        <div class="pdf-doc-top"><span class={`pdf-doc-icon cat-${p?.category.slug}`}><Icon name={p?.category.icon || 'file-text'} size={22} /></span><span class="pdf-doc-category">{p?.category.name || 'PDF'}</span><span class="pdf-doc-code">{kd}</span></div>
+        <h2><a href={V.indirmeYolu(b.slug)}>{b.baslik}</a></h2>
+        <div class="pdf-doc-details"><span><Icon name="file-text" size={14} />{s.sayfa} sayfa</span><span><Icon name="hard-drive" size={14} />{boyut(s.bayt)}</span><span><Icon name="history" size={14} />Sürüm {s.surum}</span></div>
+        <div class="pdf-doc-counts"><span><Icon name="download" size={16} /><span data-pdf-indirme={kd} data-pdf-exact data-pdf-number>—</span> indirme</span><span title="İlgili blog yazısının görüntülenmesi"><Icon name="eye" size={16} /><span data-pdf-views={b.slug}>—</span> görüntülenme</span></div>
+        <div class="pdf-doc-actions"><a class="pdf-dugme" href={V.indirmeYolu(b.slug)} aria-label={`${b.baslik} PDF indir`}><Icon name="download" size={16} />PDF indir</a><a href={p?.url || '/blog'} aria-label={`${b.baslik} yazısını oku`}><Icon name="book-open" size={16} />Yazıyı oku</a><a href={V.dogrulamaYolu(kd)} aria-label={`${kd} belgesini doğrula`}><Icon name="shield-check" size={16} />Doğrula</a></div>
+      </li>)}
+    </ol>
+    <noscript><p class="pdf-search-hint">Arama ve canlı sayaçlar için JavaScript gerekir. Bütün PDF bağlantıları aşağıda kullanılabilir.</p></noscript>
+    <details class="pdf-library-updates"><summary><Icon name="history" size={18} />Duyurular ve sürüm değişiklikleri<Icon name="chevron-down" size={18} /></summary><Fragment set:html={duyurular(belgeler, 5)} /></details>
   </div>
   <script is:inline src={pdfJs} defer></script>
 </Base>

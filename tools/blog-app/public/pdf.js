@@ -32,20 +32,45 @@
 
   // ── merkez: arama ──────────────────────────────────────────────────────
   var ara = $('[data-pdf-ara]');
-  if (ara) {
-    var satirlar = $$('.pdf-satir'), gruplar = $$('.pdf-grup'), sayi = $('[data-pdf-sayi]'), bos = $('[data-pdf-bos]');
-    satirlar.forEach(function (s) { s._a = katla(s.getAttribute('data-ara')); });
-    var suz = function () {
+  var katalog = $('[data-pdf-catalog]');
+  var belgeler = $$('[data-pdf-document]');
+  var kategori = '', sirala = $('[data-pdf-sort]');
+  var suz = function () {};
+  if (ara && katalog) {
+    var sayi = $('[data-pdf-sayi]'), bos = $('[data-pdf-bos]'), temizle = $('[data-pdf-clear]');
+    belgeler.forEach(function (s) { s._a = katla(s.getAttribute('data-ara')); });
+    suz = function () {
       var kelimeler = katla(ara.value.trim()).split(/\s+/).filter(Boolean), n = 0;
-      satirlar.forEach(function (s) {
-        var gor = kelimeler.every(function (k) { return s._a.indexOf(k) >= 0 || s._a.indexOf(k.replace('-', '')) >= 0; });
-        s.hidden = !gor; if (gor) n++;
+      var sorted = belgeler.slice().sort(function (a, b) {
+        var mode = sirala.value;
+        if (mode === 'title') return a.dataset.title.localeCompare(b.dataset.title, 'tr');
+        if (mode === 'date') return b.dataset.date.localeCompare(a.dataset.date) || +a.dataset.code - +b.dataset.code;
+        if (mode === 'downloads' || mode === 'views') {
+          var va = a.dataset[mode] === undefined ? -1 : +a.dataset[mode], vb = b.dataset[mode] === undefined ? -1 : +b.dataset[mode];
+          return vb - va || +a.dataset.code - +b.dataset.code;
+        }
+        return +a.dataset.code - +b.dataset.code;
       });
-      gruplar.forEach(function (g) { g.hidden = !$$('.pdf-satir', g).some(function (s) { return !s.hidden; }); });
-      sayi.textContent = n + ' belge'; bos.hidden = n > 0;
+      sorted.forEach(function (s) {
+        var gor = (!kategori || kategori === s.dataset.category) && kelimeler.every(function (k) { return s._a.indexOf(k) >= 0 || s._a.indexOf(k.replace('-', '')) >= 0; });
+        s.hidden = !gor; if (gor) n++; katalog.appendChild(s);
+      });
+      sayi.textContent = n + ' PDF listeleniyor'; bos.hidden = n > 0; temizle.hidden = !ara.value;
     };
-    ara.addEventListener('input', suz);
-    if (location.hash.indexOf('#ara=') === 0) { ara.value = decodeURIComponent(location.hash.slice(5)); suz(); }
+    var kategoriSec = $('[data-pdf-category-select]');
+    if (kategoriSec) kategoriSec.addEventListener('change', function () { kategori = kategoriSec.value; $$('[data-pdf-category]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.pdfCategory === kategori)); }); suz(); });
+    ara.addEventListener('input', suz); sirala.addEventListener('change', suz);
+    temizle.addEventListener('click', function () { ara.value = ''; suz(); ara.focus(); });
+    $$('[data-pdf-category]').forEach(function (button) {
+      button.addEventListener('click', function () {
+        kategori = button.dataset.pdfCategory; if (kategoriSec) kategoriSec.value = kategori;
+        $$('[data-pdf-category]').forEach(function (b) { b.setAttribute('aria-pressed', String(b === button)); }); suz();
+      });
+    });
+    $$('[data-pdf-query]').forEach(function (b) { b.addEventListener('click', function () { ara.value = b.dataset.pdfQuery; suz(); ara.focus(); }); });
+    $('[data-pdf-reset]').addEventListener('click', function () { ara.value = ''; kategori = ''; if (kategoriSec) kategoriSec.value = ''; sirala.value = 'code'; $$('[data-pdf-category]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.pdfCategory === '')); }); suz(); ara.focus(); });
+    if (location.hash.indexOf('#ara=') === 0) { try { ara.value = decodeURIComponent(location.hash.slice(5)); } catch (_) {} }
+    suz();
   }
 
   // ── indirme: 10 sn bekleme ─────────────────────────────────────────────
@@ -110,22 +135,41 @@
     return k ? k.toLocaleString('tr-TR') + '+' : '';
   }
   var sayiYerleri = $$('[data-pdf-indirme]');
-  if (sayiYerleri.length && window.fetch) {
+  var indirmeToplam = $('[data-pdf-total-downloads]');
+  function gecerliSayi(n) { return typeof n === 'number' && Number.isSafeInteger(n) && n >= 0; }
+  function sayiYaz(n) { return n.toLocaleString('tr-TR'); }
+  if ((sayiYerleri.length || indirmeToplam) && window.fetch) {
     fetch('https://medya.ahmetcelen.com.tr/pdf/indirme.json', { cache: 'no-cache' })
-      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (r) { if (!r.ok) throw new Error('indirme'); return r.json(); })
       .then(function (d) {
         if (!d || !d.belgeler) return;
+        var boteToplam = Object.keys(d.belgeler).filter(function (kd) { return /^BT-\d+$/.test(kd) && gecerliSayi(d.belgeler[kd]); }).reduce(function (n, kd) { return n + d.belgeler[kd]; }, 0);
+        if (indirmeToplam && belgeler.length && belgeler.every(function (row) { var el = row.querySelector('[data-pdf-indirme]'); return el && gecerliSayi(d.belgeler[el.dataset.pdfIndirme]); })) indirmeToplam.textContent = sayiYaz(boteToplam);
         sayiYerleri.forEach(function (el) {
-          var kd = el.getAttribute('data-pdf-indirme');
-          var n = kd === '*' ? d.toplam : (kd ? d.belgeler[kd] : null);
-          var metin = typeof n === 'number' ? kademe(n) : '';
+          var kd = el.getAttribute('data-pdf-indirme'), n = kd === '*' ? boteToplam : d.belgeler[kd];
+          if (!gecerliSayi(n)) { el.title = 'İndirme verisi şu anda kullanılamıyor'; return; }
+          var metin = el.hasAttribute('data-pdf-exact') ? sayiYaz(n) : kademe(n);
           if (!metin) return;
-          el.textContent = (el.getAttribute('data-onek') || '') + metin + ' indirme';
+          el.textContent = (el.getAttribute('data-onek') || '') + metin + (el.hasAttribute('data-pdf-number') ? '' : ' indirme');
           el.hidden = false;
-          var kutu = el.closest('[data-pdf-indirme-kutu]');
-          if (kutu) { kutu.hidden = false; el.textContent = metin; }
+          var satir = el.closest('[data-pdf-document]'); if (satir) satir.dataset.downloads = n;
+          var kutu = el.closest('[data-pdf-indirme-kutu]'); if (kutu) { kutu.hidden = false; el.textContent = metin; }
         });
-      }).catch(function () {});
+        suz();
+      }).catch(function () { sayiYerleri.forEach(function (el) { el.title = 'İndirme sayacı şu anda kullanılamıyor'; }); if (indirmeToplam) indirmeToplam.title = 'İndirme sayacı şu anda kullanılamıyor'; });
+  }
+  var goruntulenme = $$('[data-pdf-views]'), goruntulenmeToplam = $('[data-pdf-total-views]');
+  if (goruntulenme.length && window.fetch) {
+    var slugs = goruntulenme.map(function (el) { return el.dataset.pdfViews; }).filter(function (slug, i, a) { return a.indexOf(slug) === i; });
+    var batches = []; for (var gi = 0; gi < slugs.length; gi += 40) batches.push(slugs.slice(gi, gi + 40));
+    Promise.all(batches.map(function (batch) {
+      return fetch('/api/views?slugs=' + encodeURIComponent(batch.join(','))).then(function (r) { if (!r.ok) throw new Error('views'); return r.json(); }).catch(function () { return {}; });
+    })).then(function (responses) {
+      var views = {}; responses.forEach(function (r) { if (r.views) Object.keys(r.views).forEach(function (slug) { views[slug] = r.views[slug]; }); });
+      goruntulenme.forEach(function (el) { var n = views[el.dataset.pdfViews]; if (gecerliSayi(n)) { el.textContent = sayiYaz(n); var row = el.closest('[data-pdf-document]'); if (row) row.dataset.views = n; } else el.title = 'Görüntülenme sayacı şu anda kullanılamıyor'; });
+      if (goruntulenmeToplam && slugs.every(function (s) { return gecerliSayi(views[s]); })) goruntulenmeToplam.textContent = sayiYaz(slugs.reduce(function (n, s) { return n + views[s]; }, 0));
+      suz();
+    });
   }
 
   // ── dogrulama: guncel olmayan surumden gunceline yonlendirme ───────────
