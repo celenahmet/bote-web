@@ -73,7 +73,7 @@ p{margin:0}
 .mobile-category-links{display:none}
 .progress{position:absolute;left:0;bottom:-1px;height:2px;width:100%;background:linear-gradient(90deg,var(--violet),var(--pink));transform-origin:0 50%;transform:scaleX(0)}
 @media(max-width:1399px){.topbar-in{gap:16px;padding-inline:24px}.topnav{gap:2px}.topnav a{padding-inline:9px}}
-@media(max-width:1279px){.topnav{display:none}.topbar-in{justify-content:space-between}.mobile-category-links{display:block;border-bottom:1px solid var(--line);margin-bottom:4px;padding-bottom:4px}.top-actions{border:0;padding:0}}
+@media(max-width:999px){.topnav{display:none}.topbar-in{justify-content:space-between}.mobile-category-links{display:block;border-bottom:1px solid var(--line);margin-bottom:4px;padding-bottom:4px}.top-actions{border:0;padding:0}}
 @media(max-width:599px){.topbar-in{padding-inline:18px;gap:12px}.brand-mark{font-size:21px}.top-actions{gap:0}}
 
 /* --- yol --- */
@@ -1045,3 +1045,7 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 @media(min-width:1100px){.band-posts>astro-island{flex:0 0 auto}.band-posts>astro-island:has(>.widget){flex:1 1 auto}}
 
 @media(min-width:1000px){.feed .card-body{padding:22px 24px 24px}.feed .card-title{font-size:22px;line-height:1.35}.feed .card .dek{font-size:15.5px}}
+
+@media(min-width:1000px) and (max-width:1279px){.topbar-in{gap:10px;padding-inline:16px}.topnav{gap:0}.topnav a{padding-inline:6px;font-size:10px}.top-actions{padding-left:6px}.brand-mark{font-size:20px}}
+.header-menu-label{display:none}
+@media(max-width:999px){.header-menu summary{width:auto;gap:6px;padding-inline:10px}.header-menu-label{display:inline;font-size:12px;font-weight:600}}

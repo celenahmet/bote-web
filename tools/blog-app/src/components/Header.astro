@@ -19,7 +19,7 @@ const cats = blog.categories.filter((c) => c.count);
       <SearchPalette client:idle />
       <ThemeToggle client:idle />
       <details class="header-menu">
-        <summary aria-label="Blog menüsünü aç"><Icon name="ellipsis" size={20} /></summary>
+        <summary aria-label="Blog menüsünü aç"><Icon name="menu" size={20} /><span class="header-menu-label">Menü</span></summary>
         <nav aria-label="Diğer blog bağlantıları">
           <div class="mobile-category-links">
             <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} />Tüm yazılar</a>

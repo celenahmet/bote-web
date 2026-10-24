@@ -83,7 +83,7 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   bölümü vardır. Liste sayfalarında reklam > kategoriler > popüler > son görüntülenenler.
   Site adresi www'suz `https://bote.web.tr` (www 27.09'dan beri buraya yönlenir).
   Üst menü (24.10): 68px tek satır; kategori ikonları üstte, kısa adları altta.
-  Tüm yazılar mor dolgu almaz. 1280px altında kategoriler sağdaki üç nokta menüsünde;
+  Tüm yazılar mor dolgu almaz. 1000px altında kategoriler sağdaki Menü düğmesinde;
   PDF Merkezi ve Ana site tüm genişliklerde bu menüdedir. Yeni kategori eklenirse
   1280px ve 1440px genişliklerinde sığdığını ölç. Tek yazılı kategoride yazı hem vitrinde hem akışta durur.
 - Atıflar ve kaynakça: metindeki atıf numaraları ve kaynakçadaki "Metinde göster"
