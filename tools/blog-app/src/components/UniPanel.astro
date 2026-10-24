@@ -12,6 +12,14 @@ const STORES = {
   googleplay: { badge: '/blog/ads/google-play.png', w: 269, icon: 'googleplay', name: 'Google Play', label: "Google Play'den indir" },
   appgallery: { badge: '/blog/ads/appgallery.png', w: 266, icon: 'appgallery', name: 'AppGallery', label: "AppGallery'den indir" },
 };
+const compactStudent = [
+  { title: 'CV’ni PDF olarak indir', text: '10’dan fazla şablondan seç, özgeçmişini düzenle ve indir.' },
+  { title: 'Dijital portföy', text: 'Etkinliklerini ve sertifikalarını tek bağlantıyla paylaş.' },
+  { title: 'Katılım ve sertifikalar', text: 'Doğrulanmış katılımlarını ve sertifikalarını sergile.' },
+  { title: 'İş, staj ve burs', text: 'Yeni fırsatları takip et, şirket ilanlarına başvur.' },
+  { title: 'Topluluk ve etkinlik', text: 'Kampüsündeki toplulukları keşfet, etkinliklere katıl.' },
+  { title: 'Üye kartı indirimleri', text: 'Topluluğunun anlaşmalı işletme indirimlerinden yararlan.' },
+];
 const ext = { rel: 'sponsored noopener', target: '_blank' };
 ---
 {sc && (
@@ -50,7 +58,7 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
           <div class={`uc-panel uc-p${i}`}>
             <p class="uc-q">{t.question}</p>
             <ul class="uc-cards">
-              {t.items.map((it) => (
+              {(i === 0 ? compactStudent : t.items).map((it) => (
                 <li>
                   <b><span class="uc-check"><Icon name="check" size={12} /></span>{it.title}</b>
                   <small>{it.text}{it.example && <> <a href={promoUrl(it.exampleUrl)} {...ext}>Örneği gör: {it.example}</a></>}</small>

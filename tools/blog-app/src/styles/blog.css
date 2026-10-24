@@ -1013,3 +1013,33 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .pdf-category-mobile{display:none}
 @media(max-width:640px){.pdf-category-mobile{display:flex}.pdf-find-controls{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.pdf-search-box{grid-column:1/-1}.pdf-filter-list{display:none}.pdf-sort{min-width:0;padding-inline:10px;gap:6px}.pdf-sort select{min-width:0;font-size:12px}.pdf-sort svg{width:15px;flex:none}.pdf-library-stats>div{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;gap:8px}.pdf-library-stats dt{min-height:34px}.pdf-library-stats dd{margin:0}}
 @media(min-width:1080px) and (min-height:780px){.sidebar-reading{max-height:calc(100dvh - var(--top) - 40px)}.sidebar-post .sidebar-reading .side-toc{min-height:0;flex:1 1 auto}.sidebar-post .sidebar-reading .side-toc .widget-title{flex:none}.sidebar-post .sidebar-reading .side-toc ol{min-height:0;max-height:none}.sidebar-reading .sidebar-uc{flex:none}}
+
+/* Yazi sonu: dengeli iki sutun, tek akista tanitim ve hizali eylemler. */
+@media(min-width:1100px){.band-grid{grid-template-columns:minmax(0, .85fr) minmax(0,1.15fr);gap:32px}.band-posts .mini.mini-thumbs li{grid-template-columns:128px minmax(0,1fr)}.band-posts .mini.mini-thumbs img{width:128px;height:80px}}
+.band .uc{padding:24px;box-shadow:none;border-radius:18px}
+.band .uc-tag{position:static;display:block;text-align:right;margin-bottom:12px;font-size:10px}
+.band .uc-head{display:block}
+.band .uc-steps{display:none}
+.band .uc-brand{display:flex;align-items:center;gap:14px}
+.band .uc-logo img{height:34px;max-width:160px}
+.band .uc-brand>div{flex:1;min-width:200px}
+.band .uc-title{font-size:18px;line-height:1.35}
+.band .uc-kicker{font-size:11px;margin-bottom:4px}
+.band .uc-text{font-size:13px;line-height:1.5}
+.band .uc-tabs{grid-template-columns:minmax(0,1fr);padding:12px;gap:12px;margin-top:18px}
+.band .uc-switch{grid-column:1;grid-row:1;border-radius:10px;grid-template-columns:repeat(4,minmax(0,1fr))}
+.band .uc-switch label{min-height:36px;padding:4px 6px;font-size:12px;border-radius:7px}
+.band .uc-q{grid-column:1;grid-row:2;justify-self:start;text-align:left;font-size:13px}
+.band .uc-cards{grid-column:1;grid-row:3;grid-auto-rows:1fr;gap:10px}
+.band .uc-cards li{padding:12px;border-radius:10px}
+.band .uc-cards b{font-size:12px;line-height:1.4;margin-bottom:7px}
+.band .uc-cards small{font-size:12px;line-height:1.5}
+.band .uc-foot{display:grid;grid-template-columns:minmax(0,1fr);gap:14px;padding-top:18px;margin-top:18px;border-top:1px solid var(--line)}
+.band .uc-get .promo-stores{justify-content:center;gap:8px}
+.band .uc-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.band .uc-btn{border-radius:10px;padding:10px 12px;font-size:12px;min-height:44px}
+@media(max-width:600px){.band .uc{padding:18px}.band .uc-switch{grid-template-columns:repeat(2,minmax(0,1fr))}.band .uc-cards{grid-template-columns:1fr;grid-auto-rows:auto}.band .uc-actions{grid-template-columns:1fr}.band .uc-brand>div{min-width:0;flex-basis:100%}}
+.band .uc-cards{grid-auto-rows:auto}
+@media(min-width:1100px){.band-posts{align-self:stretch}.band-posts>.widget{flex:1}.band-posts .mini.mini-thumbs{flex:1;display:flex;flex-direction:column;justify-content:space-between;gap:20px}}
+@media(min-width:1100px){.band-posts>astro-island{display:flex;flex-direction:column;flex:1;min-height:0}.band-posts>astro-island>.widget{flex:1}.band-posts .mini-img{aspect-ratio:16/10}.band-posts .mini-img img{object-fit:cover;height:100%}}
+@media(min-width:1100px){.band-posts>astro-island{flex:0 0 auto}.band-posts>astro-island:has(>.widget){flex:1 1 auto}}
