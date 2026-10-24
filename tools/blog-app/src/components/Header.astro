@@ -10,28 +10,40 @@ const cats = blog.categories.filter((c) => c.count);
 ---
 <header class="topbar">
   <div class="topbar-in">
-    <a class="brand" href="/blog" aria-label="bote.web.tr blog ana sayfası"><span class="brand-mark">bote<b>.web.tr</b></span><span class="brand-blog">Blog</span></a>
+    <a class="brand" href="/blog" aria-label="bote.web.tr blog ana sayfası"><span class="brand-mark">bote<b>.web.tr</b></span></a>
+    <nav class="topnav" aria-label="Blog kategorileri">
+      <a class="all-posts" href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} /><span>Tüm yazılar</span></a>
+      {cats.map((c) => <a href={c.url} title={c.short ? c.name : undefined} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.short || c.name}</span></a>)}
+    </nav>
     <div class="top-actions">
-      <a class="to-site home-link" href="/">Ana site <Icon name="arrow-up-right" size={15} /></a>
-      <a class="to-site pdf-link" href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}><Icon name="files" size={17} /> PDF Merkezi</a>
       <SearchPalette client:idle />
       <ThemeToggle client:idle />
+      <details class="header-menu">
+        <summary aria-label="Blog menüsünü aç"><Icon name="ellipsis" size={20} /></summary>
+        <nav aria-label="Diğer blog bağlantıları">
+          <div class="mobile-category-links">
+            <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} />Tüm yazılar</a>
+            {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.name}</span></a>)}
+          </div>
+          <a href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}><Icon name="files" size={18} />PDF Merkezi</a>
+          <a href="/"><Icon name="arrow-up-right" size={18} />Ana site</a>
+        </nav>
+      </details>
     </div>
   </div>
-  <div class="category-row">
-    <nav class="topnav" aria-label="Blog kategorileri">
-      <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}>Tüm yazılar</a>
-      {cats.map((c) => <a href={c.url} title={c.short ? c.name : undefined} aria-current={current === c.slug ? 'page' : undefined}>{c.short || c.name}</a>)}
-    </nav>
-  </div>
-  <details class="mobile-categories">
-    <summary><span><Icon name="menu" size={18} />{cats.find((c) => c.slug === current)?.short || cats.find((c) => c.slug === current)?.name || 'Kategoriler'}</span><Icon name="chevron-down" size={18} /></summary>
-    <nav aria-label="Mobil blog menüsü">
-      <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}>Tüm yazılar <Icon name="arrow-right" size={16} /></a>
-      {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}>{c.name}<span class="category-count">{c.count}</span></a>)}
-      <a href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}>PDF Merkezi <Icon name="files" size={16} /></a>
-      <a href="/">Ana site <Icon name="arrow-up-right" size={16} /></a>
-    </nav>
-  </details>
   {progress && <ReadingProgress client:idle target=".prose" />}
 </header>
+<script>
+  const menu = document.querySelector<HTMLDetailsElement>('.header-menu');
+  if (menu) {
+    document.addEventListener('click', (event) => {
+      if (event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+    });
+    menu.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        menu.open = false;
+        menu.querySelector('summary')?.focus();
+      }
+    });
+  }
+</script>

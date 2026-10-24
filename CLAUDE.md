@@ -22,6 +22,8 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   (bağlantı, SEO, JSON-LD, robots/sitemap/llms) ve `npm run lighthouse`.
 
 ## Blog
+- Görsel yönü (Ahmet 24.10): blog kapakları ilgi çekici yatay fotoğraflar, logo sol üstte.
+  Önce örnek görsel sunulur; kullanıcının görsel onayı olmadan toplu kapak değişimine geçilmez.
 - Konu: BÖTE bölümü, eğitim fakültesi ve öğretmen yetiştirme. Dengeli, tarafsız yazılır.
   Üslup akademik ve sade; blog dili (kategori rozeti, "dk okuma", "görüntülenme")
   uniconnectly.com/blog'dan örnek alınabilir.
@@ -57,10 +59,10 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   Yazı sonunda önceki/sonraki bağlantısı yoktur; 4 görselli "Bunlar da ilginizi çekebilir"
   bölümü vardır. Liste sayfalarında reklam > kategoriler > popüler > son görüntülenenler.
   Site adresi www'suz `https://bote.web.tr` (www 27.09'dan beri buraya yönlenir).
-  Üst menü (24.10): logo/Blog ve araçlar üst satırda, kategoriler ayrı alt satırda;
-  1100px altında kategoriler yerel details menüsünden açılır. Masaüstünde kategori kısa
-  adları (`blog.yml > short`), mobilde tam adları gösterilir. Yeni kategori eklenirse
-  1100px ve 1280px genişliklerinde tüm bağlantıların sığdığını ölç. Tek yazılı kategoride yazı hem vitrinde hem akışta durur.
+  Üst menü (24.10): 68px tek satır; kategori ikonları üstte, kısa adları altta.
+  Tüm yazılar mor dolgu almaz. 1280px altında kategoriler sağdaki üç nokta menüsünde;
+  PDF Merkezi ve Ana site tüm genişliklerde bu menüdedir. Yeni kategori eklenirse
+  1280px ve 1440px genişliklerinde sığdığını ölç. Tek yazılı kategoride yazı hem vitrinde hem akışta durur.
 - Atıflar ve kaynakça: metindeki atıf numaraları ve kaynakçadaki "Metinde göster"
   bağlantıları varsayılan **kapalı**; her yazıdaki "Kaynakça ayarları"ndan ayrı ayrı açılır.
   Kaynakça sade: kısa künye (başlık kaynağa bağlı), dil etiketi ve erişim tarihi gösterilmez;

@@ -44,50 +44,37 @@ p{margin:0}
 .kicker a{color:var(--pink);text-decoration:none}
 .kicker a:hover{text-decoration:underline;text-underline-offset:4px}
 
-/* Blog: marka ve araclar ustte, kategori dizini ayri satirda. */
-.topbar{position:sticky;top:0;z-index:40;background:var(--bg);border-bottom:1px solid var(--line)}
-.topbar-in{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:80px;max-width:1280px;margin-inline:auto;padding-inline:var(--gutter)}
-.brand{display:inline-flex;align-items:center;gap:16px;text-decoration:none;color:var(--ink);flex:none}
-.brand-mark{font:800 23px/1 var(--display);letter-spacing:-.045em}
+/* Kompakt ikonlu blog menusu: 68px, etiketler ikonlarin altinda. */
+:root{--top:68px}
+.topbar{position:sticky;top:0;z-index:40;background:var(--surface);border-bottom:1px solid var(--line)}
+.topbar-in{display:flex;align-items:center;gap:24px;min-height:68px;max-width:1480px;margin-inline:auto;padding-inline:28px}
+.brand{display:inline-flex;align-items:center;text-decoration:none;color:var(--ink);flex:none}
+.brand-mark{font:800 22px/1 var(--display);letter-spacing:-.045em}
 .brand-mark b{color:var(--pink);font-weight:700}
-.brand-blog{font:500 16px/1.2 var(--display);color:var(--muted);padding-left:16px;border-left:1px solid var(--line)}
-.top-actions{display:flex;align-items:center;gap:10px;flex:none}
-.icon-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;min-width:44px;padding:0 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:500 14px var(--display);cursor:pointer}
-.icon-btn:hover{border-color:var(--violet);color:var(--violet);background:var(--violet-soft)}
+.topnav{display:flex;align-items:center;justify-content:center;gap:6px;flex:1;min-width:0}
+.topnav a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-height:54px;padding:7px 14px;border-radius:10px;color:var(--muted);text-decoration:none;font:500 11px/1.3 var(--display);white-space:nowrap}
+.topnav a:hover{background:var(--raised);color:var(--ink)}
+.topnav a[aria-current]{background:var(--violet);color:var(--surface);font-weight:600}
+.topnav .all-posts[aria-current]{background:transparent;color:var(--ink);font-weight:600}
+.top-actions{display:flex;align-items:center;gap:4px;flex:none;border-left:1px solid var(--line);padding-left:14px}
+.icon-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:44px;min-width:44px;padding:0 10px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:500 14px var(--display);cursor:pointer}
+.icon-btn:hover{background:var(--raised);color:var(--violet)}
 .icon-btn svg{width:18px;height:18px}
+.top-actions .icon-btn{border:0;width:40px;min-width:40px;padding:0;background:transparent}
+.top-actions .search-label,.top-actions .kbd{display:none}
 .kbd{font:500 11.5px var(--display);color:var(--muted);border:1px solid var(--line);border-radius:5px;padding:1px 5px}
-.to-site{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;font-size:13px;font-weight:600;color:var(--ink-2);text-decoration:none;padding:0 12px;white-space:nowrap;border-radius:12px}
-.pdf-link{background:var(--violet-soft);color:var(--violet)}
-.to-site:hover{background:var(--raised);color:var(--pink)}
-.category-row{border-top:1px solid var(--line)}
-.topnav{display:flex;align-items:center;flex-wrap:wrap;gap:0 22px;max-width:1280px;margin-inline:auto;padding-inline:var(--gutter)}
-.topnav a{position:relative;display:inline-flex;align-items:center;min-height:52px;color:var(--muted);text-decoration:none;font:500 13px/1.3 var(--display);white-space:nowrap}
-.topnav a:hover{color:var(--violet)}
-.topnav a[aria-current]{color:var(--violet);font-weight:700}
-.topnav a[aria-current]::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--violet);border-radius:3px 3px 0 0}
-.mobile-categories{display:none}
+.header-menu{position:relative}
+.header-menu summary{display:flex;align-items:center;justify-content:center;width:44px;height:44px;list-style:none;border-radius:10px;color:var(--muted);cursor:pointer}
+.header-menu summary::-webkit-details-marker{display:none}
+.header-menu summary:hover,.header-menu[open] summary{background:var(--raised);color:var(--ink)}
+.header-menu>nav{position:absolute;right:0;top:calc(100% + 10px);width:260px;max-width:calc(100vw - 32px);max-height:calc(100dvh - 90px);overflow-y:auto;padding:8px;border:1px solid var(--line);border-radius:14px;background:var(--surface);box-shadow:var(--shadow)}
+.header-menu nav a{display:flex;align-items:center;gap:12px;min-height:44px;padding:10px 12px;border-radius:8px;text-decoration:none;font-size:13px;color:var(--ink-2)}
+.header-menu nav a:hover,.header-menu nav a[aria-current]{background:var(--raised);color:var(--ink)}
+.mobile-category-links{display:none}
 .progress{position:absolute;left:0;bottom:-1px;height:2px;width:100%;background:linear-gradient(90deg,var(--violet),var(--pink));transform-origin:0 50%;transform:scaleX(0)}
-:root{--top:133px}
-@media(max-width:1099px){
-  :root{--top:120px}
-  .category-row{display:none}
-  .topbar-in{min-height:72px;gap:12px}
-  .mobile-categories{display:block;border-top:1px solid var(--line)}
-  .mobile-categories summary{display:flex;align-items:center;justify-content:space-between;min-height:48px;padding:0 var(--gutter);list-style:none;color:var(--ink-2);font-size:13px;font-weight:600;cursor:pointer}
-  .mobile-categories summary::-webkit-details-marker{display:none}
-  .mobile-categories summary>span{display:flex;align-items:center;gap:10px}
-  .mobile-categories[open] summary>svg{transform:rotate(180deg)}
-  .mobile-categories nav{display:grid;grid-template-columns:1fr 1fr;gap:4px 16px;max-height:calc(100dvh - 140px);overflow-y:auto;padding:8px var(--gutter) 16px;background:var(--surface);border-top:1px solid var(--line)}
-  .mobile-categories nav a{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:10px 12px;border-radius:8px;color:var(--ink-2);text-decoration:none;font-size:13px}
-  .mobile-categories nav a:hover,.mobile-categories nav a[aria-current]{background:var(--violet-soft);color:var(--violet)}
-  .category-count{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}
-}
-@media(max-width:599px){
-  .brand{gap:10px}.brand-mark{font-size:20px}.brand-blog{font-size:13px;padding-left:10px}
-  .home-link,.pdf-link,.search-label,.top-actions .kbd{display:none}
-  .top-actions{gap:6px}.top-actions .icon-btn{padding:0;width:44px}
-  .mobile-categories nav{grid-template-columns:1fr}
-}
+@media(max-width:1399px){.topbar-in{gap:16px;padding-inline:24px}.topnav{gap:2px}.topnav a{padding-inline:9px}}
+@media(max-width:1279px){.topnav{display:none}.topbar-in{justify-content:space-between}.mobile-category-links{display:block;border-bottom:1px solid var(--line);margin-bottom:4px;padding-bottom:4px}.top-actions{border:0;padding:0}}
+@media(max-width:599px){.topbar-in{padding-inline:18px;gap:12px}.brand-mark{font-size:21px}.top-actions{gap:0}}
 
 /* --- yol --- */
 .crumbs ol{display:flex;flex-wrap:wrap;align-items:center;gap:6px;list-style:none;margin:0;padding:0;font:500 14px var(--display);color:var(--muted)}
@@ -740,7 +727,7 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .mini.mini-num li::before{content:counter(n);counter-increment:n;position:absolute;left:-7px;top:-7px;z-index:1;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--bg);font:700 12px/1 var(--display);box-shadow:0 0 0 2px var(--surface)}
 /* ust bar: arama kutusu gorunumu (genis ekranda) */
 .top-search{justify-content:flex-start;color:var(--muted)}
-@media (min-width:1200px){.top-search{width:190px;border-radius:12px;padding:0 12px}.top-search .search-label{flex:1;text-align:left}}
+
 @media (max-width:1199px){.top-search .search-label,.top-search .kbd{display:none}}
 .feed-title{justify-content:space-between}
 .cat-cards+.index-grid,.hero+.index-grid{padding-top:44px}
