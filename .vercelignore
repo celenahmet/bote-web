@@ -39,7 +39,8 @@ word.pdf
 /egt351
 /person
 /query
-/tunaemektar
+# 26.10: /tunaemektar artik ekran goruntusu galerisi (yayinda); oyunun kendisi yayinda degil
+/tunaemektar/oyun
 /ebit/ai/ai
 /en/ebit/ai/ai
 # 25.09: Yalnizca "yapim asamasinda" sayaci iceren brans sayfalari (ince icerik);

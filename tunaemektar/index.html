@@ -1,215 +1,62 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>⚽ Futbol Algoritma Oyunu</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Futbol Algoritma Oyunu · Ekran Görüntüleri</title>
+  <meta name="description" content="Futbol Algoritma Oyunu ekran görüntüleri: bölüm girişi, oyun alanı, gol ekranı ve oynanış göstergeleri.">
+  <!-- Ders sunumu sayfası: arama sonuçlarında çıkması amaçlanmıyor. -->
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b1120">
+  <link rel="stylesheet" href="/tunaemektar/galeri.css">
 </head>
 <body>
-    <!-- Talimat Overlay -->
-    <div id="instructions-overlay">
-        <div id="instructions-content">
-            <h1 class="instructions-title">⚽ Futbol Algoritma Oyunu</h1>
-            <p class="instructions-subtitle">Komutları sırayla yazarak topu kaleye götür ve GOL at!</p>
-
-            <div class="instructions-section">
-                <h2>🎯 Oyunun Amacı</h2>
-                <p>Sahada bulunan <strong>⚽ topu</strong> komutlar vererek <strong>🥅 kaleye</strong> götürmen gerekiyor. Yolda <strong>🛡️ savunmacılar</strong> olacak, onlara çarpmadan geçmelisin!</p>
-            </div>
-
-            <div class="instructions-commands">
-                <div class="instruction-card card-ileri">
-                    <div class="instruction-card-icon">⬆️</div>
-                    <div class="instruction-card-title">İLERİ_SÜR(x)</div>
-                    <div class="instruction-card-desc">Topu <strong>yukarı doğru x kare</strong> ilerletir. Örneğin <code>İLERİ_SÜR(3)</code> topu 3 kare yukarı taşır. Savunmacıya veya saha dışına çıkarsan hata alırsın!</div>
-                </div>
-
-                <div class="instruction-card card-calim">
-                    <div class="instruction-card-icon">🔀</div>
-                    <div class="instruction-card-title">ÇALIM_AT(yön)</div>
-                    <div class="instruction-card-desc">Topu önce <strong>seçilen yöne 1 kare</strong> kaydırır, ardından <strong>1 kare ileri</strong> götürür. Yani çapraz ilerler! Savunmacıları geçmek için kullan! Örneğin <code>ÇALIM_AT(SAĞ)</code> → sağa + ileri</div>
-                </div>
-
-                <div class="instruction-card card-sut">
-                    <div class="instruction-card-icon">🥅</div>
-                    <div class="instruction-card-title">ŞUT_ÇEK</div>
-                    <div class="instruction-card-desc">Top bulunduğu yerden <strong>en fazla 2 kare yukarı uçar</strong>. Yani kalenin <strong>en fazla 2 satır altında</strong> ve <strong>aynı sütunda</strong> olmalısın. Önünde savunmacı yoksa <strong>GOL</strong> olur! ⚽🎉</div>
-                </div>
-            </div>
-
-            <div class="instructions-section">
-                <h2>💡 İpuçları</h2>
-                <ul class="instructions-tips">
-                    <li>🔢 Komutlar <strong>sırayla</strong> çalışır, yukarıdan aşağıya doğru</li>
-                    <li>⭐ Ne kadar az komut kullanırsan o kadar çok yıldız kazanırsın</li>
-                    <li>🛡️ Savunmacılara çarparsan top durur, yeniden dene</li>
-                    <li>🥅 Şut en fazla <strong>2 kare</strong> uçar! Kaleye yaklaşmadan şut çekme</li>
-                    <li>🔄 Hata yaparsan "Sıfırla" butonu ile baştan başlayabilirsin</li>
-                    <li>📝 Komutları sürükleyerek sırasını değiştirebilirsin</li>
-                </ul>
-            </div>
-
-            <div class="instructions-section">
-                <h2>🎮 Örnek Oynanış</h2>
-                <div class="instructions-example">
-                    <div class="example-step">1️⃣ <code>İLERİ_SÜR(2)</code> → Top 2 kare ileri gider</div>
-                    <div class="example-step">2️⃣ <code>ÇALIM_AT(SAĞ)</code> → Top 1 sağa + 1 ileri gider (çapraz)</div>
-                    <div class="example-step">3️⃣ <code>İLERİ_SÜR(1)</code> → Top 1 kare daha ileri</div>
-                    <div class="example-step">4️⃣ <code>ŞUT_ÇEK</code> → Top uçar ve GOOOL! ⚽</div>
-                </div>
-            </div>
-
-            <button id="btn-understood" class="btn-understood">
-                ✅ Anladım, Oyuna Başla!
-            </button>
-        </div>
+  <header class="ust">
+    <div>
+      <p class="ust-etiket">Ekran görüntüleri</p>
+      <h1>Futbol Algoritma Oyunu</h1>
+      <p class="ust-alt">Görsele dokun ya da tıkla: büyüt, yakınlaştır, kaydır. Sunum için tam ekran modu var.</p>
     </div>
+    <button type="button" class="sunum-dugmesi" id="sunumBaslat">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+      Sunumu başlat
+    </button>
+  </header>
 
-    <!-- Başlık -->
-    <header id="header" class="hidden">
-        <h1>⚽ Futbol Algoritma Oyunu</h1>
-        <p class="subtitle">Komutları sırayla yaz, topu kaleye götür ve GOL at! ⚽🎉</p>
-    </header>
+  <main>
+    <ul class="izgara" id="izgara">
+      <li><button type="button" class="kart genis" data-i="0"><img src="/tunaemektar/kucuk/01.webp" alt="Bölüm girişi: İlk Pas ve Kanat Genişliği" width="640" height="304"><span>Bölüm girişi</span></button></li>
+      <li><button type="button" class="kart genis" data-i="1"><img src="/tunaemektar/kucuk/02.webp" alt="Oyun alanı: oyuncular, savunmacılar ve pas yolu" width="640" height="303" loading="lazy"><span>Oyun alanı 1</span></button></li>
+      <li><button type="button" class="kart genis" data-i="2"><img src="/tunaemektar/kucuk/03.webp" alt="Oyun alanı: topun kaleye ilerleyişi" width="640" height="304" loading="lazy"><span>Oyun alanı 2</span></button></li>
+      <li><button type="button" class="kart genis" data-i="3"><img src="/tunaemektar/kucuk/04.webp" alt="Oyun alanı: oyuncu ve kale konumları" width="640" height="303" loading="lazy"><span>Oyun alanı 3</span></button></li>
+      <li><button type="button" class="kart genis" data-i="4"><img src="/tunaemektar/kucuk/05.webp" alt="Gol ekranı: kazanılan puan ve hamle sayısı" width="640" height="304" loading="lazy"><span>Gol ekranı</span></button></li>
+      <li><button type="button" class="kart dikey" data-i="5"><img src="/tunaemektar/kucuk/06.webp" alt="Göstergeler paneli" width="257" height="640" loading="lazy"><span>Göstergeler</span></button></li>
+      <li><button type="button" class="kart dikey" data-i="6"><img src="/tunaemektar/kucuk/07.webp" alt="Nasıl oynanır paneli" width="302" height="582" loading="lazy"><span>Nasıl oynanır</span></button></li>
+    </ul>
+  </main>
 
-    <main id="app" class="hidden">
-        <!-- Sol Panel: Oyun Alanı -->
-        <section id="game-area">
-            <!-- Seviye Seçici & Bilgi -->
-            <div id="level-bar">
-                <div id="level-selector">
-                    <label for="level-select">Seviye:</label>
-                    <select id="level-select"></select>
-                </div>
-                <div id="score-display">
-                    <span id="star-display">⭐⭐⭐</span>
-                    <span id="move-count">Komut: 0</span>
-                </div>
-            </div>
+  <footer class="alt">bote.web.tr</footer>
 
-            <!-- Oyun Grid'i -->
-            <div id="grid-container">
-                <div id="game-grid"></div>
-            </div>
-
-            <!-- Mesaj Alanı -->
-            <div id="message-box">
-                <span id="message-icon">💡</span>
-                <span id="message-text">Aşağıdan komutlar ekle ve "Çalıştır" butonuna bas! 🚀</span>
-            </div>
-        </section>
-
-        <!-- Sağ Panel: Komut Paneli -->
-        <section id="command-panel">
-            <h2>🎮 Komut Paneli</h2>
-
-            <!-- Komut Butonları -->
-            <div id="command-buttons">
-                <div class="cmd-group">
-                    <button class="cmd-btn cmd-ileri" id="btn-ileri" title="Topu ileri sür">
-                        <span class="cmd-icon">⬆️</span>
-                        <span class="cmd-label">İLERİ_SÜR</span>
-                    </button>
-                    <div class="cmd-param">
-                        <label for="ileri-input">Kaç kare:</label>
-                        <input type="number" id="ileri-input" min="1" max="7" value="1">
-                    </div>
-                </div>
-
-                <div class="cmd-group">
-                    <button class="cmd-btn cmd-calim" id="btn-calim" title="Yana 1 kare + ileri 1 kare git">
-                        <span class="cmd-icon">🔀</span>
-                        <span class="cmd-label">ÇALIM_AT</span>
-                    </button>
-                    <div class="cmd-param">
-                        <label for="calim-select">Yön:</label>
-                        <select id="calim-select">
-                            <option value="SAĞ">SAĞ ➡️</option>
-                            <option value="SOL">SOL ⬅️</option>
-                        </select>
-                    </div>
-                </div>
-
-                <div class="cmd-group">
-                    <button class="cmd-btn cmd-sut" id="btn-sut" title="En fazla 2 kare ileri şut çek!">
-                        <span class="cmd-icon">🥅</span>
-                        <span class="cmd-label">ŞUT_ÇEK</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Komut Listesi -->
-            <div id="command-list-area">
-                <h3>📝 Komut Sırası</h3>
-                <div id="command-list">
-                    <p class="empty-msg">Henüz komut eklenmedi...</p>
-                </div>
-            </div>
-
-            <!-- Kontrol Butonları -->
-            <div id="control-buttons">
-                <button id="btn-run" class="ctrl-btn run-btn" title="Komutları çalıştır">
-                    ▶️ Çalıştır
-                </button>
-                <button id="btn-reset" class="ctrl-btn reset-btn" title="Komutları sıfırla">
-                    🔄 Sıfırla
-                </button>
-                <button id="btn-clear" class="ctrl-btn clear-btn" title="Tüm komutları temizle">
-                    🗑️ Temizle
-                </button>
-            </div>
-
-            <!-- Sonuç / Analiz -->
-            <div id="result-box" class="hidden">
-                <h3>📊 Sonuç</h3>
-                <div id="result-content"></div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Gol Overlay -->
-    <div id="goal-overlay" class="hidden">
-        <div id="goal-content">
-            <div class="goal-text">⚽ GOOOL! ⚽</div>
-            <div id="goal-stars"></div>
-            <div id="goal-message"></div>
-            <div class="goal-buttons">
-                <button id="goal-next" class="ctrl-btn run-btn">Sonraki Seviye ➡️</button>
-                <button id="goal-retry" class="ctrl-btn reset-btn">Yeniden Dene 🔄</button>
-            </div>
-        </div>
+  <div class="gosterici" id="gosterici" role="dialog" aria-modal="true" aria-label="Görsel gösterici" hidden>
+    <div class="sahne" id="sahne">
+      <img id="buyukGorsel" alt="" draggable="false">
     </div>
-
-    <!-- Hata Overlay -->
-    <div id="error-overlay" class="hidden">
-        <div id="error-content">
-            <div class="error-text">😕 Hay aksi!</div>
-            <div id="error-message"></div>
-            <button id="error-close" class="ctrl-btn reset-btn">Tamam, tekrar deneyeceğim! 💪</button>
-        </div>
+    <div class="arac-ust">
+      <span class="sayac" id="sayac">1 / 7</span>
+      <span class="baslik" id="baslik"></span>
+      <div class="arac-grup">
+        <button type="button" id="uzaklas" aria-label="Uzaklaştır" title="Uzaklaştır (−)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11h14v2H5z"/></svg></button>
+        <button type="button" id="sifirla" class="yuzde" aria-label="Yakınlaştırmayı sıfırla" title="Sıfırla (0)">100%</button>
+        <button type="button" id="yakinlas" aria-label="Yakınlaştır" title="Yakınlaştır (+)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5h2v6h6v2h-6v6h-2v-6H5v-2h6z"/></svg></button>
+        <button type="button" id="tamEkran" aria-label="Tam ekran" title="Tam ekran (F)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v2H6v4H4zm10 0h6v6h-2V6h-4zM4 14h2v4h4v2H4zm14 0h2v6h-6v-2h4z"/></svg></button>
+        <button type="button" id="kapat" aria-label="Kapat" title="Kapat (Esc)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.4 5 12 10.6 17.6 5 19 6.4 13.4 12l5.6 5.6-1.4 1.4-5.6-5.6L6.4 19 5 17.6l5.6-5.6L5 6.4z"/></svg></button>
+      </div>
     </div>
+    <button type="button" class="gezinme onceki" id="onceki" aria-label="Önceki görsel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 5 8.4 12l7 7 1.4-1.4L11.2 12l5.6-5.6z"/></svg></button>
+    <button type="button" class="gezinme sonraki" id="sonraki" aria-label="Sonraki görsel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.6 5-1.4 1.4 5.6 5.6-5.6 5.6L8.6 19l7-7z"/></svg></button>
+    <div class="ipucu" id="ipucu">← → geçiş · tekerlek ya da iki parmak yakınlaştırma · çift tık büyüt · Esc kapat</div>
+  </div>
 
-    <!-- Oyun Bittiğinde Overlay -->
-    <div id="complete-overlay" class="hidden">
-        <div id="complete-content">
-            <div class="complete-trophy">🏆</div>
-            <div class="complete-title">Tebrikler!</div>
-            <div class="complete-subtitle">Oyunu Bitirdin! 🎉🎉</div>
-            <div id="complete-stars-total"></div>
-            <div id="complete-message"></div>
-            <div class="complete-question">Tekrar denemek ister misin?</div>
-            <div class="goal-buttons">
-                <button id="complete-yes" class="ctrl-btn run-btn">Evet, Baştan! 🔄</button>
-                <button id="complete-no" class="ctrl-btn reset-btn">Hayır, Teşekkürler 👋</button>
-            </div>
-            <div id="complete-thanks" class="hidden">
-                <p class="thanks-text">⚽ Oynadığınız için teşekkürler! ⚽</p>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+  <script src="/tunaemektar/galeri.js" defer></script>
 </body>
 </html>
