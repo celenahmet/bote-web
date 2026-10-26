@@ -362,6 +362,11 @@
       "source": "/media/wp",
       "destination": "https://api.whatsapp.com/send/?phone=908503078810",
       "permanent": false
+    },
+    {
+      "source": "/bte422",
+      "destination": "/bte422/sunum.pdf",
+      "permanent": false
     }
   ],
   "headers": [
