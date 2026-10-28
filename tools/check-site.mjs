@@ -1,6 +1,7 @@
 // Site testleri: yayina cikacak dosyalar uzerinde (vercel.json + .vercelignore taklidiyle)
 // baglanti, SEO, JSON-LD, robots/sitemap/llms, besleme, sayac API ve yapay zeka ajani erisimi.
 //   node check-site.mjs            -> hata varsa cikis kodu 1
+import fs from 'node:fs';
 import { parse } from 'node-html-parser';
 import { XMLParser } from 'fast-xml-parser';
 import robotsParser from 'robots-parser';
@@ -192,6 +193,16 @@ try { JSON.parse((await get('/blog/feed.json')).text); } catch (e) { err('feed.j
 for (const p of posts) {
   const md = await get(`${p.url}.md`);
   if (md.status !== 200 || !md.text.includes('## Kaynaklar')) err(`${p.url}.md`, 'Markdown surumu yok ya da kaynakca eksik');
+}
+
+// ------------------------------------------------------------------ fotograf kapaklari
+// Ahmet 28.10: yazi sablon (yazili, otomatik) kapakla yayinlanmaz; her yazinin onayli fotograf kapagi olur.
+{
+  const kok = new URL('../', import.meta.url);
+  const fotolu = new Set(JSON.parse(fs.readFileSync(new URL('content/blog/photo-covers.json', kok), 'utf8')).map((r) => r.slug));
+  for (const f of fs.readdirSync(new URL('content/blog/posts/', kok))) {
+    if (f.endsWith('.md') && !fotolu.has(f.slice(0, -3))) err(`content/blog/posts/${f}`, 'fotograf kapagi yok (photo-covers.json); sablon kapakla yayinlanmaz');
+  }
 }
 
 // ------------------------------------------------------------------ taslak onizlemeleri
