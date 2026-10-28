@@ -1,0 +1,18 @@
+{
+  "_not": "AGS geri sayımı (/blog/ags-geri-sayim ve ön bilgisinde 'sayac: ags' olan yazılar). Tarihler YALNIZ ÖSYM resmî takviminden; haber ve takvim sitesi kullanılmaz. ÖSYM yeni yılın takvimini yayımlayınca yalnız bu dosya güncellenir. Saat ÖSYM'ce açıklanmadıysa 'saat' boş kalır; sayaç sınav gününün 10.00'unu (Türkiye saati) hedefler ve sayfada saat yazılmaz.",
+  "kaynak": {
+    "ad": "ÖSYM 2027 Yılı Sınav Takvimi",
+    "url": "https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf",
+    "okundu": "2026-10-28"
+  },
+  "ags": {
+    "ad": "2027-MEB-AGS",
+    "tarih": "2027-05-08",
+    "saat": "",
+    "oabt": "2027-05-09",
+    "basvuruBaslangic": "2027-03-19",
+    "basvuruBitis": "2027-03-29",
+    "gecBasvuru": "2027-04-06",
+    "sonuc": "2027-06-11"
+  }
+}

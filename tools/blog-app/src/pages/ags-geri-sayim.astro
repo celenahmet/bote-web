@@ -1,0 +1,76 @@
+---
+// /blog/ags-geri-sayim (28.10.2026, Ahmet: "bote.web.tr'de AGS'ye geri sayim kismi"). Arama olcumu
+// (Google otomatik tamamlama, 28.10): "ags kaç gün kaldı" 10 oneri, aralarinda "ags kaç gün kaldı sayaç"
+// ve "ags kaç gün kaldı 2027". Tarihler content/blog/sinav-takvimi.json'dan (yalniz ÖSYM); 2025 ve 2026
+// satirlari ÖSYM'nin o yillarin takviminden ve 2026 kilavuzundan, 28.10.2026'da okundu.
+import Base from '../layouts/Base.astro';
+import Crumbs from '../components/Crumbs.astro';
+import Widgets from '../components/Widgets.astro';
+import AgsSayacKarti from '../components/AgsSayacKarti.astro';
+import TAKVIM from '../../../../content/blog/sinav-takvimi.json';
+import { loadBlog, orgLd, breadcrumbLd, trDate } from '../lib.js';
+
+const blog = loadBlog();
+const s = TAKVIM.ags;
+const yol = '/blog/ags-geri-sayim';
+const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name: "AGS'ye Kaç Gün Kaldı?", url: yol }];
+// Taslak siteden baglanti almaz: 2027 yazisina yalniz yayina ciktiysa baglanilir.
+const yayinda = (slug) => blog.posts.some((p) => p.slug === slug && !p.draft);
+const ilgili = [
+  ['ags-2027-ne-zaman', 'AGS 2027 ne zaman? Başvuru, sınav ve sonuç takvimi'],
+  ['ags-nedir', 'AGS nedir? Sınavın yapısı, soru sayısı ve kapsamı'],
+  ['milli-egitim-akademisi-hazirlik-egitimi', 'Millî Eğitim Akademisi hazırlık eğitimi nasıl işler?'],
+  ['ogretmenlik-meslegi-kanunu-7528', 'Öğretmenlik Mesleği Kanunu (7528) neleri değiştirdi?'],
+].filter(([slug]) => yayinda(slug));
+const KAYNAK_2025 = 'https://dokuman.osym.gov.tr/pdfdokuman/2025/GENEL/sinavtakvimi2025.pdf';
+const KILAVUZ_2026 = 'https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf';
+const TAKVIM_SAYFASI = 'https://www.osym.gov.tr/Sayfa/SinavTakvimi';
+
+const ld = { '@context': 'https://schema.org', '@graph': [
+  { '@type': 'WebPage', '@id': `${blog.abs(yol)}#sayfa`, url: blog.abs(yol), name: "AGS'ye Kaç Gün Kaldı? 2027 AGS Geri Sayım", inLanguage: 'tr-TR', isPartOf: { '@id': `${blog.SITE}/blog#blog` } },
+  { '@type': 'Event', name: s.ad, description: 'Millî Eğitim Bakanlığı Akademi Giriş Sınavı (AGS) ve Öğretmenlik Alan Bilgisi Testi (ÖABT)',
+    startDate: s.tarih, endDate: s.oabt, eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: { '@type': 'Place', name: 'Türkiye', address: { '@type': 'PostalAddress', addressCountry: 'TR' } },
+    organizer: { '@type': 'GovernmentOrganization', name: 'ÖSYM', url: 'https://www.osym.gov.tr/' }, url: blog.abs(yol) },
+  orgLd(blog), breadcrumbLd(blog, trail),
+] };
+---
+<Base title="AGS'ye Kaç Gün Kaldı? 2027 AGS Geri Sayım | BÖTE Blog"
+  description={`2027 AGS ${trDate(s.tarih)}, ÖABT ${trDate(s.oabt)} tarihinde. AGS'ye kaç gün kaldı? Canlı sayaç; başvuru ve sonuç tarihleri ÖSYM takviminden.`}
+  path={yol} image={blog.blogImage} ld={ld}>
+  <section class="wrap index-head">
+    <Crumbs items={trail} />
+    <h1>AGS'ye Kaç Gün Kaldı?</h1>
+    <p class="dek">2027 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) için canlı geri sayım. Tarihler ÖSYM'nin 28 Ekim 2026'da açıkladığı 2027 sınav takviminden alındı.</p>
+  </section>
+  <div class="wrap index-grid">
+    <div class="page-prose">
+      <AgsSayacKarti sayfaBaglantisi={false} />
+
+      <h2>2025'ten 2027'ye AGS takvimi</h2>
+      <div class="table-wrap"><table>
+        <thead><tr><th>Yıl</th><th>Başvuru</th><th>Sınav</th><th>Sonuç</th></tr></thead>
+        <tbody>
+          <tr><td>2025</td><td>8-20 Mayıs</td><td>13 Temmuz (AGS ve ÖABT)</td><td>13 Ağustos</td></tr>
+          <tr><td>2026</td><td>8-20 Mayıs</td><td>26 Temmuz (AGS ve ÖABT)</td><td>26 Ağustos</td></tr>
+          <tr><td>2027</td><td>19-29 Mart</td><td>8 Mayıs (AGS), 9 Mayıs (ÖABT)</td><td>11 Haziran</td></tr>
+        </tbody>
+      </table></div>
+      <p class="veri-notu">Veri notu: 2025 satırı <a href={KAYNAK_2025} target="_blank" rel="noopener">ÖSYM 2025 sınav takviminden</a>, 2026 satırı <a href={KILAVUZ_2026} target="_blank" rel="noopener">2026 MEB-AGS kılavuzundan</a> ve <a href={TAKVIM_SAYFASI} target="_blank" rel="noopener">ÖSYM sınav takvimi sayfasından</a>, 2027 satırı <a href={TAKVIM.kaynak.url} target="_blank" rel="noopener">ÖSYM 2027 sınav takviminden</a> alındı; erişim 28 Ekim 2026. Geç başvuru günleri tabloya alınmadı.</p>
+      <p>Tablodan iki değişiklik okunuyor. 2027'de sınav, önceki iki yıla göre iki ila iki buçuk ay öne alındı ve başvurular Mayıs yerine Mart'ta yapılacak. AGS ile ÖABT ise ilk iki uygulamada aynı gün yapılmıştı; 2027'de ayrı günlerde, AGS Cumartesi, ÖABT Pazar günü. ÖSYM takvimde bu değişikliğin gerekçesini açıklamadı.</p>
+
+      <h2>2026 puanı ne zamana kadar geçerli?</h2>
+      <p>2026 MEB-AGS kılavuzuna göre puanlar, sonuçların açıklanmasından bir sonraki sınavın sonuçlarının açıklanmasına kadar geçerli. 26 Ağustos 2026'da açıklanan puanlar, 2027 sonuçlarının açıklanacağı {trDate(s.sonuc)} tarihine kadar kullanılabilir. Akademiye başvuru için adayın, MEB'e başvurduğu tarihte Bakanlığın belirlediği programlardan mezun olması gerekiyor; şart sınav gününde değil akademi başvurusunda aranıyor.</p>
+
+      <h2>Henüz açıklanmayanlar</h2>
+      <p>2027 kılavuzu yayımlanmadı. Sınav saatleri, sınav ücreti ve başvuru ayrıntıları kılavuzla kesinleşecek. Karşılaştırma için: 2026'da AGS saat 10.15'te başladı ve 110 dakika sürdü, sınav ücreti oturum başına 800 TL'ydi. Kılavuz yayımlandığında bu sayfadaki sayaç ve tarihler güncellenir.</p>
+
+      {ilgili.length > 0 && <>
+        <h2>İlgili yazılar</h2>
+        <ul>{ilgili.map(([slug, ad]) => <li><a href={`/blog/${slug}`}>{ad}</a></li>)}</ul>
+      </>}
+    </div>
+    <Widgets mode="sidebar" />
+  </div>
+</Base>

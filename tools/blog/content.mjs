@@ -163,6 +163,8 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
         slug, file: rel, draft, title: fm.title, description: desc, date, updated,
         category: catBy[fm.category] || { name: '?', url: '/blog', slug: '?' },
         tags: fm.tags || [], featured: !!fm.featured, summary, faq, type, changes, citeTitle: fm.citeTitle || fm.title,
+        // 28.10.2026: `sayac: ags` yazida girisin altina AGS geri sayim kartini koyar (AgsSayacKarti).
+        sayac: fm.sayac === 'ags' ? 'ags' : null,
         sources: ordered, foreign, html, headings, body, words, minutes,
         url: `/blog/${slug}`, imageAlt: fm.imageAlt || `${fm.title} kapak görseli`, imageSrc: fm.image || null,
       };

@@ -1,0 +1,32 @@
+---
+// AGS geri sayim karti (28.10.2026, Ahmet: "ags'ye geri sayim kismi"). Iki yerde: /blog/ags-geri-sayim
+// sayfasi ve on bilgisinde `sayac: ags` olan yazilar. Veri tek kaynaktan, content/blog/sinav-takvimi.json
+// (yalniz ÖSYM takvimi). Tarihler statik HTML'de; sayac adacigi yalniz canli sayiyi ekler.
+import SinavSayac from '../islands/SinavSayac.jsx';
+import Icon from './Icon.astro';
+import TAKVIM from '../../../../content/blog/sinav-takvimi.json';
+import { trDate } from '../lib.js';
+
+const { sayfaBaglantisi = true } = Astro.props;
+const s = TAKVIM.ags;
+const gunAdi = (d) => new Intl.DateTimeFormat('tr-TR', { weekday: 'long', timeZone: 'UTC' }).format(new Date(`${d}T00:00:00Z`));
+// "19-29 Mart 2027": ayni ay ve yilda gun araligi (urun metninde uzun tire kullanilmaz).
+const aralik = (a, b) => (a.slice(0, 7) === b.slice(0, 7) ? `${Number(a.slice(8))}-${trDate(b)}` : `${trDate(a)} - ${trDate(b)}`);
+const satirlar = [
+  ['Başvuru', aralik(s.basvuruBaslangic, s.basvuruBitis)],
+  ['Geç başvuru', trDate(s.gecBasvuru)],
+  ['AGS', `${trDate(s.tarih)}, ${gunAdi(s.tarih)}`],
+  ['ÖABT', `${trDate(s.oabt)}, ${gunAdi(s.oabt)}`],
+  ['Sonuç', trDate(s.sonuc)],
+];
+---
+<aside class="sayac-kart" aria-label="AGS geri sayımı">
+  <p class="sayac-ust"><Icon name="timer" size={18} />AGS'ye kaç gün kaldı?</p>
+  <p class="sayac-tarih"><strong>{s.ad}</strong>: AGS {trDate(s.tarih)}, ÖABT {trDate(s.oabt)} tarihinde yapılacak.</p>
+  <SinavSayac client:idle tarih={s.tarih} saat={s.saat} />
+  <dl class="sayac-liste">
+    {satirlar.map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
+  </dl>
+  <p class="sayac-kaynak">Kaynak: <a href={TAKVIM.kaynak.url} target="_blank" rel="noopener">{TAKVIM.kaynak.ad}</a> ({trDate(TAKVIM.kaynak.okundu)} tarihinde okundu). {s.saat ? `Sınav saati ${s.saat}.` : "Sınav saati henüz açıklanmadı; sayaç sınav gününün 10.00'unu hedefler."}</p>
+  {sayfaBaglantisi && <p class="sayac-git"><a href="/blog/ags-geri-sayim"><Icon name="calendar-clock" size={16} />AGS geri sayım sayfası</a></p>}
+</aside>

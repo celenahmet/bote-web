@@ -8,6 +8,7 @@ import Icon from './Icon.astro';
 import ViewCount from '../islands/ViewCount.jsx';
 import ShareBar from '../islands/ShareBar.jsx';
 import CitationPeek from '../islands/CitationPeek.jsx';
+import AgsSayacKarti from './AgsSayacKarti.astro';
 import { loadBlog, orgLd, teamLd, breadcrumbLd, trDate, isoDate, icon } from '../lib.js';
 import { renderInline } from '../../../blog/markdown.mjs';
 import { stripHtml } from '../../../blog/util.mjs';
@@ -110,6 +111,7 @@ const ld = { '@context': 'https://schema.org', '@graph': [
       <div class="prose">
         {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}
         <Fragment set:html={intro} />
+        {post.sayac === 'ags' && <AgsSayacKarti />}
         {pdf && (
           <aside class="post-pdf" aria-label="Bu yazının PDF'i">
             <div class="post-pdf-ust">

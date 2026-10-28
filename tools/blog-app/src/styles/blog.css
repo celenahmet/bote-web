@@ -1049,3 +1049,26 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 @media(min-width:1000px) and (max-width:1279px){.topbar-in{gap:10px;padding-inline:16px}.topnav{gap:0}.topnav a{padding-inline:6px;font-size:10px}.top-actions{padding-left:6px}.brand-mark{font-size:20px}}
 .header-menu-label{display:none}
 @media(max-width:999px){.header-menu summary{width:auto;gap:6px;padding-inline:10px}.header-menu-label{display:inline;font-size:12px;font-weight:600}}
+
+/* AGS geri sayim karti (28.10.2026): /blog/ags-geri-sayim ve `sayac: ags` yazilari. Renkler tema
+   degiskenlerinden; koyu tema ayrica tanimlanmaz. Sayilar tabular, kutular dar ekranda 2x2 olmaz:
+   dort kutu 320px'te de tek satira sigar. */
+.sayac-kart{margin:24px 0;padding:20px 22px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:var(--shadow);font:400 15.5px/1.5 var(--display)}
+.prose .sayac-kart p,.page-prose .sayac-kart p{margin:0}
+.sayac-ust{display:flex;align-items:center;gap:8px;font:700 17px/1.3 var(--display)!important;letter-spacing:-.01em;color:var(--ink)}
+.sayac-ust .ico{color:var(--violet)}
+.sayac-tarih{margin-top:6px!important;color:var(--ink-2)}
+.sayac{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:16px 0}
+.sayac-kutu{display:flex;flex-direction:column;align-items:center;padding:12px 4px 10px;border-radius:14px;background:var(--violet-soft)}
+.sayac-sayi{font:750 clamp(22px,6vw,34px)/1 var(--display);color:var(--violet);font-variant-numeric:tabular-nums}
+.sayac-etiket{margin-top:6px;font:600 12px/1 var(--display);color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.sayac-bitti{margin:16px 0!important;padding:12px 14px;border-radius:12px;background:var(--violet-soft);color:var(--ink)}
+.sayac-liste{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 18px;margin:0 0 12px}
+.sayac-liste div{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px solid var(--line)}
+.sayac-liste dt{color:var(--muted);font-weight:500}
+.sayac-liste dd{margin:0;color:var(--ink);font-weight:650;text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sayac-kaynak{font-size:13.5px;color:var(--muted)}
+.sayac-git{margin-top:10px!important}
+.sayac-git a{display:inline-flex;align-items:center;gap:6px;font-weight:650;color:var(--violet);text-decoration:none}
+.sayac-git a:hover{text-decoration:underline}
+.veri-notu{font-size:13.5px;color:var(--muted)}
