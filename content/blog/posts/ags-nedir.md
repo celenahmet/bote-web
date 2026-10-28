@@ -131,7 +131,7 @@ AGS'nin mevzuat bölümü bazı adaylara ezber yükü gibi görünebilir. Oysa b
 
 ## Ne zaman hazırlanmaya başlamalı?
 
-Sınava kalan süreyi [AGS geri sayım](/blog/ags-geri-sayim) sayfamızda gün, saat ve dakika olarak takip edebilirsiniz; tarihler ÖSYM'nin sınav takviminden alınıyor.
+Sınava kalan süreyi [AGS geri sayım](/blog/ags-geri-sayim) sayfamızda gün, saat ve dakika olarak takip edebilirsiniz; tarihler ÖSYM'nin sınav takviminden alınıyor. 2027 sınavının başvuru, sınav ve sonuç tarihlerini ve 2026'ya göre değişenleri [AGS 2027 Ne Zaman?](/blog/ags-2027-ne-zaman) yazımızda ayrıntılı ele aldık.
 
 AGS'ye hazırlığı son sınıfın son aylarına bırakmak, özellikle ÖABT açısından risklidir. Alan bilgisi testi lisans derslerinin doğrudan devamı olduğu için en verimli hazırlık, derslerin kendisini iyi çalışmaktır. Genel yetenek ve genel kültür bölümleri ise düzenli ve uzun soluklu bir çalışma gerektirir. Pratik bir takvim şöyle olabilir: üçüncü sınıfta konu dağılımını inceleyip eksik alanları belirlemek, son sınıfın ilk döneminde genel yetenek ve mevzuat çalışmasını düzenli hâle getirmek, son döneminde ise örnek sorular ve deneme sınavlarıyla pekiştirmek. Öğretmenlik uygulaması da aynı dönemde yoğunlaştığı için zaman planlaması kritik önemdedir.
 
