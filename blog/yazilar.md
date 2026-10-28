@@ -35,6 +35,7 @@
 
 ## Eğitim Fakültesi
 
+- [AGS 2027 Ne Zaman? Sınav, Başvuru ve Sonuç Tarihleri](https://bote.web.tr/blog/ags-2027-ne-zaman.md): 2027 AGS 8 Mayıs, ÖABT 9 Mayıs 2027'de; başvurular 19-29 Mart. ÖSYM takvimine göre başvuru, sınav ve sonuç tarihleri ile 2026'dan farklar. (2026-10-28)
 - [AGS Nedir? MEB Akademi Giriş Sınavı Rehberi](https://bote.web.tr/blog/ags-nedir.md): AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber. (2026-09-25)
 - [Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?](https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad.md): Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber. (2026-09-25)
 - [Eğitim Fakültesi Bölümleri Nelerdir? Öğretmenlik Programları](https://bote.web.tr/blog/egitim-fakultesi-bolumleri.md): Eğitim fakültesi bölümleri nelerdir, hangi öğretmenlik programları var, puan türleri nasıl? Okul öncesinden alan öğretmenliklerine programlar. (2026-09-25)

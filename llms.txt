@@ -10,6 +10,7 @@
 ## Blog
 
 - [BÖTE Blog](https://bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
+- [AGS 2027 Ne Zaman? Sınav, Başvuru ve Sonuç Tarihleri](https://bote.web.tr/blog/ags-2027-ne-zaman.md): 2027 AGS 8 Mayıs, ÖABT 9 Mayıs 2027'de; başvurular 19-29 Mart. ÖSYM takvimine göre başvuru, sınav ve sonuç tarihleri ile 2026'dan farklar. (Eğitim Fakültesi, 2026-10-28)
 - [Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead](https://bote.web.tr/blog/arduino-dijital-analog-giris-cikis.md): Arduino UNO'da dijital çıkış, PWM ile analog çıkış, butonla dijital giriş ve potansiyometreyle analog giriş: pinler, değer aralıkları, LED direnci, örnekler. (Bölüm Rehberi, 2026-10-04)
 - [Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon](https://bote.web.tr/blog/arduino-degisken-kosul-dongu-fonksiyon.md): Arduino'da veri türleri ve aralıkları, sabit ve dizi, if ve switch, for ve while döngüleri, fonksiyon yazma ve seri monitörle hata ayıklama; çözümlü örnekler. (Bölüm Rehberi, 2026-10-04)
 - [Fiziksel Programlama Nedir? BÖTE Dersi Rehberi](https://bote.web.tr/blog/fiziksel-programlama-nedir.md): Fiziksel programlama nedir? BÖTE'deki Fiziksel Programlama dersinin konuları: robotlar, sensör ve motorlar, Arduino, haftalık plan, not dağılımı ve proje. (Bölüm Rehberi, 2026-10-04)
