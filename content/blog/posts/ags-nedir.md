@@ -53,9 +53,9 @@ sources:
     title: "Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular"
     publisher: "ÖSYM"
     year: 2025
-    url: "https://www.osym.gov.tr/TR,33032/milli-egitim-bakanligi-akademi-giris-sinavi-meb-ags-ornek-sorular-24022025.html"
+    url: "https://www.osym.gov.tr/mill-egitim-bakanligi-akademi-giris-sinavi-mebags-ornek-sorular"
     lang: tr
-    accessed: 2026-09-25
+    accessed: 2026-10-28
     note: "ÖSYM'nin AGS örnek sorularını yayımladığı sayfa. Hazırlık için en güvenilir örnek kaynak."
   - id: mea-program
     title: "Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı"
@@ -130,6 +130,8 @@ Yeni bir sınav etrafında çok sayıda yorum ve "tahmin" üretilir. Hazırlıkt
 AGS'nin mevzuat bölümü bazı adaylara ezber yükü gibi görünebilir. Oysa bu metinler öğretmenin mesleki çerçevesini çizer. 1739 sayılı Millî Eğitim Temel Kanunu Türk millî eğitiminin genel amaçlarını ve temel ilkelerini belirler; 222 sayılı İlköğretim ve Eğitim Kanunu ilköğretimin işleyişini düzenler; 7528 sayılı Öğretmenlik Mesleği Kanunu ise öğretmenliğe giriş, hazırlık eğitimi ve kariyer basamaklarını tanımlar.[@meb-ags-konu] Bir öğretmenin haklarını, sorumluluklarını ve okulun işleyişini bu metinler üzerinden anlaması, sınıftaki gündelik kararları da etkiler. Bu yüzden mevzuatı madde numaraları yerine temel ilkeler ve kavramlar üzerinden çalışmak daha kalıcı sonuç verir.
 
 ## Ne zaman hazırlanmaya başlamalı?
+
+Sınava kalan süreyi [AGS geri sayım](/blog/ags-geri-sayim) sayfamızda gün, saat ve dakika olarak takip edebilirsiniz; tarihler ÖSYM'nin sınav takviminden alınıyor.
 
 AGS'ye hazırlığı son sınıfın son aylarına bırakmak, özellikle ÖABT açısından risklidir. Alan bilgisi testi lisans derslerinin doğrudan devamı olduğu için en verimli hazırlık, derslerin kendisini iyi çalışmaktır. Genel yetenek ve genel kültür bölümleri ise düzenli ve uzun soluklu bir çalışma gerektirir. Pratik bir takvim şöyle olabilir: üçüncü sınıfta konu dağılımını inceleyip eksik alanları belirlemek, son sınıfın ilk döneminde genel yetenek ve mevzuat çalışmasını düzenli hâle getirmek, son döneminde ise örnek sorular ve deneme sınavlarıyla pekiştirmek. Öğretmenlik uygulaması da aynı dönemde yoğunlaştığı için zaman planlaması kritik önemdedir.
 

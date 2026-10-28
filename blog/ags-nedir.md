@@ -69,6 +69,8 @@ AGS'nin mevzuat bölümü bazı adaylara ezber yükü gibi görünebilir. Oysa b
 
 ## Ne zaman hazırlanmaya başlamalı?
 
+Sınava kalan süreyi [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim) sayfamızda gün, saat ve dakika olarak takip edebilirsiniz; tarihler ÖSYM'nin sınav takviminden alınıyor.
+
 AGS'ye hazırlığı son sınıfın son aylarına bırakmak, özellikle ÖABT açısından risklidir. Alan bilgisi testi lisans derslerinin doğrudan devamı olduğu için en verimli hazırlık, derslerin kendisini iyi çalışmaktır. Genel yetenek ve genel kültür bölümleri ise düzenli ve uzun soluklu bir çalışma gerektirir. Pratik bir takvim şöyle olabilir: üçüncü sınıfta konu dağılımını inceleyip eksik alanları belirlemek, son sınıfın ilk döneminde genel yetenek ve mevzuat çalışmasını düzenli hâle getirmek, son döneminde ise örnek sorular ve deneme sınavlarıyla pekiştirmek. Öğretmenlik uygulaması da aynı dönemde yoğunlaştığı için zaman planlaması kritik önemdedir.
 
 ## Hazırlık için öneriler
@@ -114,7 +116,7 @@ Başvuru koşulları ÖSYM ve MEB'in sınav kılavuzlarında yayımlanır. Genel
 1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-09-25)
 2. Millî Eğitim Bakanlığı (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı'nın Detayları Belli Oldu. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavinin-detaylari-belli-oldu/haber/35428/tr (TR, erişim: 2026-09-25)
 3. Millî Eğitim Bakanlığı (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı Konu Dağılımları Açıklandı. https://www.meb.gov.tr/milli-egitim-bakanligi-akademi-giris-sinavi-konu-dagilimlari-aciklandi/haber/39480/tr (TR, erişim: 2026-09-25)
-4. ÖSYM (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular. https://www.osym.gov.tr/TR,33032/milli-egitim-bakanligi-akademi-giris-sinavi-meb-ags-ornek-sorular-24022025.html (TR, erişim: 2026-09-25)
+4. ÖSYM (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular. https://www.osym.gov.tr/mill-egitim-bakanligi-akademi-giris-sinavi-mebags-ornek-sorular (TR, erişim: 2026-10-28)
 5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-09-25)
 6. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-09-25)
 7. Darling-Hammond, L. (2017). Teacher Education Around the World: What Can We Learn from International Practice?. European Journal of Teacher Education, 40(3), 291–309. https://doi.org/10.1080/02619768.2017.1315399 (EN, erişim: 2026-09-25)

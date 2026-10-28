@@ -113,7 +113,7 @@ Türkiye'de öğretmenliğin yasal çerçevesi uzun yıllar boyunca ağırlıkl�
 
 Kanunun en görünür değişikliği öğretmenliğe giriş sürecindedir. Yeni sistemde öğretmen adayları önce ÖSYM'nin yaptığı **Millî Eğitim Bakanlığı Akademi Giriş Sınavı'na (AGS)** girer. İlk AGS 13 Temmuz 2025'te yapıldı.[@meb-ags] Başarılı olan adaylar **Millî Eğitim Akademisi**'nde hazırlık eğitimine alınır. MEB'in yayımladığı programa göre bu eğitim onar haftalık dört dönemden oluşur ve son dönem tamamen uygulamaya ayrılır.[@mea-program]
 
-Bu değişikliğin anlamı şudur: öğretmenliğe kaynak olan bir lisans programından mezun olmak artık tek başına yeterli değildir; akademinin hazırlık eğitimini başarıyla tamamlamak da gerekir. Süreci [AGS nedir?](/blog/ags-nedir) ve [Millî Eğitim Akademisi hazırlık eğitimi](/blog/milli-egitim-akademisi-hazirlik-egitimi) yazılarımızda ayrıntılı anlattık.
+Bu değişikliğin anlamı şudur: öğretmenliğe kaynak olan bir lisans programından mezun olmak artık tek başına yeterli değildir; akademinin hazırlık eğitimini başarıyla tamamlamak da gerekir. Süreci [AGS nedir?](/blog/ags-nedir) ve [Millî Eğitim Akademisi hazırlık eğitimi](/blog/milli-egitim-akademisi-hazirlik-egitimi) yazılarımızda ayrıntılı anlattık. Bir sonraki AGS'nin tarihini ve kalan süreyi [AGS geri sayım](/blog/ags-geri-sayim) sayfamızda bulabilirsiniz.
 
 ## 2. Kariyer basamakları
 

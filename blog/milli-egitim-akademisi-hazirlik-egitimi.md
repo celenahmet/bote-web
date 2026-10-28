@@ -29,7 +29,7 @@ Türkiye'de öğretmenliğe giden yolun en yeni durağı **Millî Eğitim Akadem
 
 ## Akademiye kabul
 
-Akademiye kabul, ÖSYM'nin yaptığı Millî Eğitim Bakanlığı Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılır. İlk AGS 13 Temmuz 2025'te uygulandı.[4] Sınavın yapısını [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazımızda anlattık.
+Akademiye kabul, ÖSYM'nin yaptığı Millî Eğitim Bakanlığı Akademi Giriş Sınavı (AGS) sonuçlarına göre yapılır. İlk AGS 13 Temmuz 2025'te uygulandı.[4] Sınavın yapısını [AGS nedir?](https://bote.web.tr/blog/ags-nedir) yazımızda anlattık; bir sonraki sınava kalan süre [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim) sayfamızda.
 
 Aralık 2025'te öğretmenlik esaslarına eklenen hükümle, hazırlık eğitimine alınacak adaylarda pedagojik formasyonla ilgili şartlar aranmıyor.[5] Bu değişikliğin ayrıntılarını [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi) yazımızda ele aldık.
 
