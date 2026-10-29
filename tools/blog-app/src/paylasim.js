@@ -30,6 +30,10 @@ export function yzBaglantilari(url, baslik) {
     { anahtar: 'copilot', ad: 'Copilot', adres: `https://www.bing.com/copilotsearch?q=${q}` },
     { anahtar: 'perplexity', ad: 'Perplexity', adres: `https://www.perplexity.ai/search/new?q=${q}` },
     { anahtar: 'grok', ad: 'Grok', adres: `https://grok.com/?q=${q}` },
+    // DeepSeek ve Kimi (Ahmet 30.10). Kimi `_prefill_chat` ile istemi kutuya koyuyor;
+    // DeepSeek'in hazır istem adresi yok, istem panoya kopyalanıyor.
+    { anahtar: 'deepseek', ad: 'DeepSeek', adres: 'https://chat.deepseek.com/', kopyala: true },
+    { anahtar: 'kimi', ad: 'Kimi', adres: `https://www.kimi.com/_prefill_chat?prefill_prompt=${q}&send_immediately=false` },
   ];
 }
 

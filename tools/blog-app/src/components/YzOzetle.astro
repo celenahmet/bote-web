@@ -16,13 +16,13 @@ const { url, title } = Astro.props;
   </summary>
   <ul class="yz-menu" aria-label="Yapay zekâ ile özetleme seçenekleri">
     {yzBaglantilari(url, title).map((s) => (
-      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span>{s.ad}</span></a></li>
+      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined} data-ad={s.ad}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span>{s.ad}</span></a></li>
     ))}
   </ul>
 </details>
 {/* Gemini'ye tıklayınca istem panoya kopyalanır, ekranın altında bildirim (Ahmet 30.10).
     Menünün DIŞINDA: kapanan <details>'in içi gizleniyor. */}
-<span class="yz-bildirim" role="status" data-yz-bildirim hidden>İstem panoya kopyalandı, Gemini'de yapıştırabilirsiniz</span>
+<span class="yz-bildirim" role="status" data-yz-bildirim hidden></span>
 <script>
   for (const d of document.querySelectorAll('[data-yz-ozet]')) {
     document.addEventListener('click', (e) => { if (d.open && !d.contains(e.target)) d.open = false; });
@@ -36,6 +36,7 @@ const { url, title } = Astro.props;
           const b = document.querySelector('[data-yz-bildirim]');
           navigator.clipboard?.writeText(a.dataset.istem).then(() => {
             if (!b) return;
+            b.textContent = `İstem panoya kopyalandı; ${a.dataset.ad || ''} sohbet kutusuna yapıştırabilirsiniz`;
             // Gemini yeni sekmede açılıyor: sekme arka plandaysa bildirim bekler,
             // okur dönünce 4 sn görünür.
             b.hidden = false;
