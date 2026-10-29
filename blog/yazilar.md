@@ -35,6 +35,7 @@
 
 ## Eğitim Fakültesi
 
+- [AGS Başvurusu Nasıl Yapılır? Adım Adım Başvuru Rehberi](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir.md): AGS başvurusu nereden ve nasıl yapılır? ÖSYM AİS adımları, ÖABT başvurusu, ücret ödeme, geç başvuru, sınav merkezi ve giriş belgesi kuralları. (2026-10-30)
 - [AGS Konuları 2027: Soru Dağılımı ve Konu Başlıkları](https://bote.web.tr/blog/ags-konulari.md): AGS'de hangi konudan kaç soru çıkıyor? ÖSYM'nin resmî konu dağılımıyla 80 sorunun alanlara dağılımı, alt konular ve puandaki ağırlıklar. (2026-10-30)
 - [AGS Puanı Nasıl Hesaplanır? Net, Standart Puan ve Ağırlıklar](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir.md): AGS netiniz puana nasıl dönüşür? ÖSYM kılavuzuna göre ham puan, standart puan, MEB-AGS-P1, P2, P3 ağırlıkları ve başarı sırası adım adım. (2026-10-30)
 - [ÖABT Nedir? AGS ÖABT Alanları, Konu Dağılımı ve Süresi](https://bote.web.tr/blog/oabt-nedir.md): ÖABT nedir, hangi alanlarda yapılır, kaç soru ve kaç dakika? 2026 kılavuzuna göre 17 alanın konu dağılımı, puana etkisi ve 2027 tarihi. (2026-10-30)
