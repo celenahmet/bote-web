@@ -37,6 +37,7 @@
 
 - [AGS Konuları 2027: Soru Dağılımı ve Konu Başlıkları](https://bote.web.tr/blog/ags-konulari.md): AGS'de hangi konudan kaç soru çıkıyor? ÖSYM'nin resmî konu dağılımıyla 80 sorunun alanlara dağılımı, alt konular ve puandaki ağırlıklar. (2026-10-30)
 - [AGS Puanı Nasıl Hesaplanır? Net, Standart Puan ve Ağırlıklar](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir.md): AGS netiniz puana nasıl dönüşür? ÖSYM kılavuzuna göre ham puan, standart puan, MEB-AGS-P1, P2, P3 ağırlıkları ve başarı sırası adım adım. (2026-10-30)
+- [ÖABT Nedir? AGS ÖABT Alanları, Konu Dağılımı ve Süresi](https://bote.web.tr/blog/oabt-nedir.md): ÖABT nedir, hangi alanlarda yapılır, kaç soru ve kaç dakika? 2026 kılavuzuna göre 17 alanın konu dağılımı, puana etkisi ve 2027 tarihi. (2026-10-30)
 - [AGS 2027 Ne Zaman? Sınav, Başvuru ve Sonuç Tarihleri](https://bote.web.tr/blog/ags-2027-ne-zaman.md): 2027 AGS 8 Mayıs, ÖABT 9 Mayıs 2027'de; başvurular 19-29 Mart. ÖSYM takvimine göre başvuru, sınav ve sonuç tarihleri ile 2026'dan farklar. (2026-10-28)
 - [AGS Nedir? MEB Akademi Giriş Sınavı Rehberi](https://bote.web.tr/blog/ags-nedir.md): AGS nedir, kimler girer, kaç soru sorulur, hangi konuları kapsar? MEB Akademi Giriş Sınavı ve ÖABT hakkında resmî kaynaklara dayanan güncel rehber. (2026-09-25)
 - [Eğitim Fakültelerinde Akreditasyon: EPDAD Nedir?](https://bote.web.tr/blog/egitim-fakultesi-akreditasyon-epdad.md): Öğretmenlik programlarında akreditasyon nedir, EPDAD ne yapar, akredite program seçmek neden önemli? Avrupa kalite güvencesi ilkeleriyle birlikte rehber. (2026-09-25)
