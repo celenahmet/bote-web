@@ -231,6 +231,9 @@ const ld = { '@context': 'https://schema.org', '@graph': [
             bir yazi degilse (taslak) bolumler gizli kalir; kart yalniz paylas satiri olur.
             Okura donuk metinler VARSAYILAN; son hali Ahmet'in. */}
         <div class="bs-son">
+          {/* Dengeli kart (Ahmet 29.10): kart genişse solda tepki, sağda paylaşım, araları
+              dikey çizgi; darsa alt alta (blog.css, kapsayıcı sorgusu). */}
+          <div class="bs-son-ic">
           <section class="bs-etk" data-yol={post.url} aria-label="Bu yazı hakkında" hidden>
             <div class="bs-etk-ust">
               <p class="bs-etk-soru">Bu yazı faydalı oldu mu?</p>
@@ -245,12 +248,13 @@ const ld = { '@context': 'https://schema.org', '@graph': [
             </form>
             <div class="bs-etk-ifade" role="group" aria-label="İfade bırakın">
               {IFADELER.map(([a, e, ad]) => (
-                <button type="button" data-ifade={a} aria-pressed="false" aria-label={ad} title={ad}><span aria-hidden="true">{e}</span><b class="bs-etk-n" data-n={`i:${a}`}></b></button>
+                <button type="button" data-ifade={a} aria-pressed="false" aria-label={ad} data-ipucu={ad}><span aria-hidden="true">{e}</span><b class="bs-etk-n" data-n={`i:${a}`}></b></button>
               ))}
             </div>
             <p class="bs-etk-durum" role="status" aria-live="polite"></p>
           </section>
           <div class="bs-son-paylas"><ShareBar client:visible url={url} title={post.title} /></div>
+          </div>
           {/* Google "tercih edilen kaynak" (Ahmet 29.10; Veterito, UniConnectly, OtoSenior'da aynısı). */}
           {!preview && !post.draft && (
             <a class="google-tercih" href={GOOGLE_TERCIH_ADRESI} target="_blank" rel="noopener nofollow">

@@ -5,7 +5,7 @@
 // Parıltı simgesi yok; "yapay zekâya sor" anlamını bot simgesi taşıyor.
 import Icon from './Icon.astro';
 import { markaSvg } from '../markaSimgeleri.js';
-import { yzBaglantilari } from '../paylasim.js';
+import { ozetIstemi, yzBaglantilari } from '../paylasim.js';
 const { url, title } = Astro.props;
 ---
 <details class="yz-ozet" data-yz-ozet>
@@ -16,7 +16,7 @@ const { url, title } = Astro.props;
   </summary>
   <ul class="yz-menu" aria-label="Yapay zekâ ile özetleme seçenekleri">
     {yzBaglantilari(url, title).map((s) => (
-      <li><a href={s.adres} target="_blank" rel="noopener nofollow"><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span>{s.ad}</a></li>
+      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span class="yz-ad">{s.ad}{s.kopyala && <small class="yz-not">İstem panoya kopyalanır</small>}</span></a></li>
     ))}
   </ul>
 </details>
@@ -26,6 +26,12 @@ const { url, title } = Astro.props;
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && d.open) { d.open = false; d.querySelector('summary')?.focus(); }
     });
-    for (const a of d.querySelectorAll('a')) a.addEventListener('click', () => { d.open = false; });
+    for (const a of d.querySelectorAll('a')) {
+      a.addEventListener('click', () => {
+        // Gemini: bağlantı istemi taşımazsa okur panodan yapıştırsın.
+        if (a.dataset.istem) navigator.clipboard?.writeText(a.dataset.istem).catch(() => {});
+        d.open = false;
+      });
+    }
   }
 </script>
