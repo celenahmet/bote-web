@@ -1,0 +1,31 @@
+---
+// "AI ile Özetle" (Ahmet 29.10.2026; Veterito, UniConnectly ve OtoSenior'da aynısı).
+// <details> BİLEREK: JS olmadan da açılıp kapanıyor, içerik JS'siz okunabilir
+// kuralına uyuyor. Betik yalnız dışarı tıklayınca, seçimde ve Esc ile kapatıyor.
+// Parıltı simgesi yok; "yapay zekâya sor" anlamını bot simgesi taşıyor.
+import Icon from './Icon.astro';
+import { markaSvg } from '../markaSimgeleri.js';
+import { yzBaglantilari } from '../paylasim.js';
+const { url, title } = Astro.props;
+---
+<details class="yz-ozet" data-yz-ozet>
+  <summary>
+    <span class="yz-simge" aria-hidden="true"><Icon name="bot-message-square" size={18} /></span>
+    <span>AI ile Özetle</span>
+    <span class="yz-ok" aria-hidden="true"><Icon name="chevron-down" size={16} /></span>
+  </summary>
+  <ul class="yz-menu" aria-label="Yapay zekâ ile özetleme seçenekleri">
+    {yzBaglantilari(url, title).map((s) => (
+      <li><a href={s.adres} target="_blank" rel="noopener nofollow"><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span>{s.ad}</a></li>
+    ))}
+  </ul>
+</details>
+<script>
+  for (const d of document.querySelectorAll('[data-yz-ozet]')) {
+    document.addEventListener('click', (e) => { if (d.open && !d.contains(e.target)) d.open = false; });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && d.open) { d.open = false; d.querySelector('summary')?.focus(); }
+    });
+    for (const a of d.querySelectorAll('a')) a.addEventListener('click', () => { d.open = false; });
+  }
+</script>
