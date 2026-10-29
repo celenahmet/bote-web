@@ -11,6 +11,9 @@ const cats = blog.categories.filter((c) => c.count);
 <header class="topbar">
   <div class="topbar-in">
     <a class="brand" href="/blog" aria-label="bote.web.tr blog ana sayfası"><span class="brand-mark">bote<b>.web.tr</b></span></a>
+    {/* "AGS rehberiniz" (Ahmet 30.10: "bote.web.tr yanına ags rehberiniz diyelim, şatafatlı
+        şekilde gözüksün"). Düz marka pembesi, gradyan ve parıltı yok (site kuralı). */}
+    <a class="brand-ags" href="/blog/ags-nedir" aria-label="AGS rehberiniz: Akademi Giriş Sınavı yazıları"><Icon name="graduation-cap" size={15} /><span>AGS rehberiniz</span></a>
     <nav class="topnav" aria-label="Blog kategorileri">
       <a class="all-posts" href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} /><span>Tüm yazılar</span></a>
       {cats.map((c) => <a href={c.url} title={c.short ? c.name : undefined} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.short || c.name}</span></a>)}
