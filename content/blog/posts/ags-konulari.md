@@ -209,7 +209,7 @@ Veri notu: Soru payları ÖSYM konu dağılımından (8 Ocak 2026), ağırlıkla
 
 Tablodaki en çarpıcı fark tarihte: soruların yaklaşık %7,5'i ama P1 puanının %15'i. Eğitim bilimlerinde tersi geçerli: soruların %37,5'i, ağırlığın %25'i. Bunun pratik anlamı şu: az sorulu bir alt testte her net, o alt testin standart puanını daha çok oynatır; ağırlığı da yüksekse tek bir net puana belirgin biçimde yansır. Kesin etki her yılın aday dağılımına bağlı olduğu için yüzde vermek mümkün değil, ama yön açık.
 
-ÖABT'ye giren adaylarda (**MEB-AGS-P2**) AGS'nin altı alt testinin ağırlıkları yarıya iniyor ve kalan %50'yi ÖABT oluşturuyor. Yabancı dil öğretmenliği alanlarında (**MEB-AGS-P3**) aynı %50'yi YDS ya da e-YDS puanı oluşturuyor.[@osym2026kilavuz]
+ÖABT'ye giren adaylarda (**MEB-AGS-P2**) AGS'nin altı alt testinin ağırlıkları yarıya iniyor ve kalan %50'yi ÖABT oluşturuyor. Yabancı dil öğretmenliği alanlarında (**MEB-AGS-P3**) aynı %50'yi YDS ya da e-YDS puanı oluşturuyor.[@osym2026kilavuz] Hesaplamanın tamamını [AGS puanı nasıl hesaplanır?](/blog/ags-puani-nasil-hesaplanir) yazısında adım adım anlattık.
 
 ## Konu dağılımına göre çalışma planı
 
