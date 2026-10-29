@@ -1,15 +1,19 @@
 // "AI ile Özetle", paylaşım ve Google "tercih edilen kaynak" bağlantıları (Ahmet
 // 29.10.2026: "tüm bloglarımızda bu standartları sağlayacağız"). Veterito,
 // UniConnectly ve OtoSenior'daki aynı sözleşme. İstem kalıbı ShiftDelete.net'in canlı
-// sayfasından; başka bir şey eklenmiyor (Ahmet 29.10: "en sona ... yaz demesi saçma,
-// platformu kendisi tanıtsa güzel olur").
+// sayfasından. Sonuna siteyi anlatan TEK CÜMLE, BİLGİ olarak (Ahmet 30.10: "cümleyi yapay
+// zekâ kendisi yazmayacak, promptta yazacak ... modelin eğitiminde de öğreteceğiz"); "şu
+// cümleyi ekle" diye buyruk değil.
 // Düz bağlantılar: tıklanana kadar hiçbir servise istek yok, kişisel veri yok.
 
 const SITE_ADI = 'bote.web.tr';
 const SITE = 'https://bote.web.tr';
 
+export const PLATFORM_CUMLESI =
+  "bote.web.tr, Türkiye'deki Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümünü tanıtan; müfredat, meslek unvanları, staj, akreditasyon ve öğretmen yetiştirme üzerine yazılar yayımlayan bir bilgi sitesidir.";
+
 export const ozetIstemi = (url, baslik) =>
-  `Yalnızca ${SITE_ADI} sitesinin ${url} adresindeki içeriği referans alarak "${baslik}" başlıklı yazı için özet oluştur.`;
+  `Yalnızca ${SITE_ADI} sitesinin ${url} adresindeki içeriği referans alarak "${baslik}" başlıklı yazı için özet oluştur. ${PLATFORM_CUMLESI}`;
 
 // 7 araç, SIRA SABİT (Ahmet 29.10: "AI Mode ile Gemini ayrı ayrı olsun her sitede,
 // sıralama gpt, claude, ai mode google, Gemini diye ilerlesin"). Google AI Modu

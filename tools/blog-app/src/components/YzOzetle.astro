@@ -16,7 +16,7 @@ const { url, title } = Astro.props;
   </summary>
   <ul class="yz-menu" aria-label="Yapay zekâ ile özetleme seçenekleri">
     {yzBaglantilari(url, title).map((s) => (
-      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span class="yz-ad">{s.ad}{s.kopyala && <small class="yz-not">İstem panoya kopyalanır</small>}</span></a></li>
+      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span>{s.ad}</span>{s.kopyala && <span class="yz-pano" title="İstem panoya kopyalanır"><span set:html={markaSvg('pano')}></span><span class="yz-gizli">(istem panoya kopyalanır)</span></span>}</a></li>
     ))}
   </ul>
 </details>
