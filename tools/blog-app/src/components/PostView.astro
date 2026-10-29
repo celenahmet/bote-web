@@ -8,7 +8,7 @@ import Icon from './Icon.astro';
 import ViewCount from '../islands/ViewCount.jsx';
 import ShareBar from '../islands/ShareBar.jsx';
 import YzOzetle from './YzOzetle.astro';
-import { GOOGLE_TERCIH_ADRESI } from '../paylasim.js';
+import { GOOGLE_HABERLER_ADRESI, GOOGLE_TERCIH_ADRESI } from '../paylasim.js';
 import { markaSvg } from '../markaSimgeleri.js';
 import CitationPeek from '../islands/CitationPeek.jsx';
 import AgsSayacKarti from './AgsSayacKarti.astro';
@@ -257,10 +257,17 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           </div>
           {/* Google "tercih edilen kaynak" (Ahmet 29.10; Veterito, UniConnectly, OtoSenior'da aynısı). */}
           {!preview && !post.draft && (
-            <a class="google-tercih" href={GOOGLE_TERCIH_ADRESI} target="_blank" rel="noopener nofollow">
-              <span class="google-tercih-simge" aria-hidden="true" set:html={markaSvg('google')}></span>
-              <span>Google'da tercih edilen kaynak olarak ekleyin</span>
-            </a>
+            <div class="google-satir">
+              <a class="google-tercih" href={GOOGLE_TERCIH_ADRESI} target="_blank" rel="noopener nofollow">
+                <span class="google-tercih-simge" aria-hidden="true" set:html={markaSvg('google')}></span>
+                <span>Google'da tercih edilen kaynak olarak ekleyin</span>
+              </a>
+              {/* Google Haberler'de takip (30.10). */}
+              <a class="google-tercih" href={GOOGLE_HABERLER_ADRESI} target="_blank" rel="noopener nofollow">
+                <span class="google-tercih-simge" aria-hidden="true" set:html={markaSvg('googleHaberler')}></span>
+                <span>Google Haberler'de takip edin</span>
+              </a>
+            </div>
           )}
         </div>
         <section class="bs-yorumlar" id="yorumlar" data-yol={post.url} hidden>

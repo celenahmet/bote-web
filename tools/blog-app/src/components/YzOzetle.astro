@@ -16,10 +16,13 @@ const { url, title } = Astro.props;
   </summary>
   <ul class="yz-menu" aria-label="Yapay zekâ ile özetleme seçenekleri">
     {yzBaglantilari(url, title).map((s) => (
-      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span>{s.ad}</span>{s.kopyala && <span class="yz-pano" title="İstem panoya kopyalanır"><span set:html={markaSvg('pano')}></span><span class="yz-gizli">(istem panoya kopyalanır)</span></span>}</a></li>
+      <li><a href={s.adres} target="_blank" rel="noopener nofollow" data-istem={s.kopyala ? ozetIstemi(url, title) : undefined}><span class={`yz-ikon yz-ikon-${s.anahtar}`} aria-hidden="true" set:html={markaSvg(s.anahtar)}></span><span>{s.ad}</span></a></li>
     ))}
   </ul>
 </details>
+{/* Gemini'ye tıklayınca istem panoya kopyalanır, ekranın altında bildirim (Ahmet 30.10).
+    Menünün DIŞINDA: kapanan <details>'in içi gizleniyor. */}
+<span class="yz-bildirim" role="status" data-yz-bildirim hidden>İstem panoya kopyalandı, Gemini'de yapıştırabilirsiniz</span>
 <script>
   for (const d of document.querySelectorAll('[data-yz-ozet]')) {
     document.addEventListener('click', (e) => { if (d.open && !d.contains(e.target)) d.open = false; });
@@ -29,7 +32,26 @@ const { url, title } = Astro.props;
     for (const a of d.querySelectorAll('a')) {
       a.addEventListener('click', () => {
         // Gemini: bağlantı istemi taşımazsa okur panodan yapıştırsın.
-        if (a.dataset.istem) navigator.clipboard?.writeText(a.dataset.istem).catch(() => {});
+        if (a.dataset.istem) {
+          const b = document.querySelector('[data-yz-bildirim]');
+          navigator.clipboard?.writeText(a.dataset.istem).then(() => {
+            if (!b) return;
+            // Gemini yeni sekmede açılıyor: sekme arka plandaysa bildirim bekler,
+            // okur dönünce 4 sn görünür.
+            b.hidden = false;
+            clearTimeout(Number(b.dataset.zaman));
+            const kapat = () => { b.dataset.zaman = String(setTimeout(() => (b.hidden = true), 4000)); };
+            setTimeout(() => {
+              if (document.visibilityState === 'visible') return kapat();
+              const don = () => {
+                if (document.visibilityState !== 'visible') return;
+                document.removeEventListener('visibilitychange', don);
+                kapat();
+              };
+              document.addEventListener('visibilitychange', don);
+            }, 500);
+          }, () => {});
+        }
         d.open = false;
       });
     }
