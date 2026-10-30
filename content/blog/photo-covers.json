@@ -3262,5 +3262,165 @@
         "bytes": 112514
       }
     ]
+  },
+  {
+    "slug": "ags-sinav-ucreti",
+    "title": "AGS Sınav Ücreti 2027: Ödeme, Geç Başvuru ve İade",
+    "alt": "AGS Sınav Ücreti 2027: Ödeme, Geç Başvuru ve İade",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-sinav-ucreti.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 172554
+    },
+    "variants": [
+      {
+        "file": "ags-sinav-ucreti-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36216
+      },
+      {
+        "file": "ags-sinav-ucreti-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62400
+      },
+      {
+        "file": "ags-sinav-ucreti.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114440
+      }
+    ]
+  },
+  {
+    "slug": "ags-kimler-girebilir",
+    "title": "AGS'ye Kimler Girebilir? Başvuru ve Akademi Şartları",
+    "alt": "AGS'ye Kimler Girebilir? Başvuru ve Akademi Şartları",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-kimler-girebilir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 222665
+    },
+    "variants": [
+      {
+        "file": "ags-kimler-girebilir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 49090
+      },
+      {
+        "file": "ags-kimler-girebilir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 82124
+      },
+      {
+        "file": "ags-kimler-girebilir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 157438
+      }
+    ]
+  },
+  {
+    "slug": "ags-sinav-merkezleri",
+    "title": "AGS Sınav Merkezleri ve Sınav Merkezi Tercihi",
+    "alt": "AGS Sınav Merkezleri ve Sınav Merkezi Tercihi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-sinav-merkezleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 179794
+    },
+    "variants": [
+      {
+        "file": "ags-sinav-merkezleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39580
+      },
+      {
+        "file": "ags-sinav-merkezleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 65528
+      },
+      {
+        "file": "ags-sinav-merkezleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 124126
+      }
+    ]
+  },
+  {
+    "slug": "ags-sonuclari-ve-puan-gecerliligi",
+    "title": "AGS Sonuçları: Ne Zaman Açıklanır, Puan Kaç Yıl Geçerli?",
+    "alt": "AGS Sonuçları: Ne Zaman Açıklanır, Puan Kaç Yıl Geçerli?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-sonuclari-ve-puan-gecerliligi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171876
+    },
+    "variants": [
+      {
+        "file": "ags-sonuclari-ve-puan-gecerliligi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35650
+      },
+      {
+        "file": "ags-sonuclari-ve-puan-gecerliligi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59120
+      },
+      {
+        "file": "ags-sonuclari-ve-puan-gecerliligi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 113132
+      }
+    ]
+  },
+  {
+    "slug": "ags-calisma-programi",
+    "title": "AGS Çalışma Programı: Puan Ağırlığına Göre 6 Aylık Plan",
+    "alt": "AGS Çalışma Programı: Puan Ağırlığına Göre 6 Aylık Plan",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-calisma-programi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183548
+    },
+    "variants": [
+      {
+        "file": "ags-calisma-programi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38976
+      },
+      {
+        "file": "ags-calisma-programi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67414
+      },
+      {
+        "file": "ags-calisma-programi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 125058
+      }
+    ]
   }
 ]
