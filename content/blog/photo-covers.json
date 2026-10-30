@@ -3582,5 +3582,165 @@
         "bytes": 125618
       }
     ]
+  },
+  {
+    "slug": "okul-oncesi-ogretmeni-nasil-olunur",
+    "title": "Okul Öncesi Öğretmeni Nasıl Olunur? 2027 Yol Haritası",
+    "alt": "Okul Öncesi Öğretmeni Nasıl Olunur? 2027 Yol Haritası",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "okul-oncesi-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 208237
+    },
+    "variants": [
+      {
+        "file": "okul-oncesi-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 44396
+      },
+      {
+        "file": "okul-oncesi-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78714
+      },
+      {
+        "file": "okul-oncesi-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 156684
+      }
+    ]
+  },
+  {
+    "slug": "sinif-ogretmeni-nasil-olunur",
+    "title": "Sınıf Öğretmeni Nasıl Olunur? Bölüm, AGS ve Atama",
+    "alt": "Sınıf Öğretmeni Nasıl Olunur? Bölüm, AGS ve Atama",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "sinif-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181747
+    },
+    "variants": [
+      {
+        "file": "sinif-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34908
+      },
+      {
+        "file": "sinif-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66008
+      },
+      {
+        "file": "sinif-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132100
+      }
+    ]
+  },
+  {
+    "slug": "rehber-ogretmen-nasil-olunur",
+    "title": "Rehber Öğretmen (PDR) Nasıl Olunur? Psikoloji Mezunu Olur mu?",
+    "alt": "Rehber Öğretmen (PDR) Nasıl Olunur? Psikoloji Mezunu Olur mu?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "rehber-ogretmen-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 187673
+    },
+    "variants": [
+      {
+        "file": "rehber-ogretmen-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37406
+      },
+      {
+        "file": "rehber-ogretmen-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66904
+      },
+      {
+        "file": "rehber-ogretmen-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132024
+      }
+    ]
+  },
+  {
+    "slug": "ingilizce-ogretmeni-nasil-olunur",
+    "title": "İngilizce Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS",
+    "alt": "İngilizce Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ingilizce-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 211405
+    },
+    "variants": [
+      {
+        "file": "ingilizce-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 45384
+      },
+      {
+        "file": "ingilizce-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 79800
+      },
+      {
+        "file": "ingilizce-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 158442
+      }
+    ]
+  },
+  {
+    "slug": "ozel-egitim-ogretmeni-nasil-olunur",
+    "title": "Özel Eğitim Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "alt": "Özel Eğitim Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ozel-egitim-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171701
+    },
+    "variants": [
+      {
+        "file": "ozel-egitim-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36370
+      },
+      {
+        "file": "ozel-egitim-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62102
+      },
+      {
+        "file": "ozel-egitim-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114930
+      }
+    ]
   }
 ]

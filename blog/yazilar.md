@@ -35,6 +35,11 @@
 
 ## Eğitim Fakültesi
 
+- [İngilizce Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS](https://bote.web.tr/blog/ingilizce-ogretmeni-nasil-olunur.md): İngilizce öğretmeni olmak için hangi bölümler kaynak, AGS ile YDS (P3 puanı), Millî Eğitim Akademisi ve atama. İngiliz dili ve edebiyatı mezunu öğretmen olabilir mi? (2026-10-31)
+- [Okul Öncesi Öğretmeni Nasıl Olunur? 2027 Yol Haritası](https://bote.web.tr/blog/okul-oncesi-ogretmeni-nasil-olunur.md): Okul öncesi öğretmeni olmak için hangi bölüm, AGS ve ÖABT Okul Öncesi, Millî Eğitim Akademisi ve atama. MEB atama çizelgesi ve ÖSYM verileriyle adım adım. (2026-10-31)
+- [Özel Eğitim Öğretmeni Nasıl Olunur? 2027 Rehberi](https://bote.web.tr/blog/ozel-egitim-ogretmeni-nasil-olunur.md): Özel eğitim öğretmeni olmak için hangi bölüm, ÖABT Özel Eğitim, Millî Eğitim Akademisi ve atama; özel eğitim öğretmeninin çalıştığı kurumlar ve okuttuğu dersler. (2026-10-31)
+- [Rehber Öğretmen (PDR) Nasıl Olunur? Psikoloji Mezunu Olur mu?](https://bote.web.tr/blog/rehber-ogretmen-nasil-olunur.md): Rehber öğretmen olmak için PDR, eğitimde psikolojik hizmetler ya da psikoloji mezuniyeti; ÖABT Rehberlik, Millî Eğitim Akademisi ve atama adımları. (2026-10-31)
+- [Sınıf Öğretmeni Nasıl Olunur? Bölüm, AGS ve Atama](https://bote.web.tr/blog/sinif-ogretmeni-nasil-olunur.md): Sınıf öğretmeni olmak için hangi bölüm okunur, ÖABT Sınıf Öğretmenliği, Millî Eğitim Akademisi ve atama. MEB atama çizelgesi ve ÖSYM verileriyle 2027 yol haritası. (2026-10-31)
 - [AGS 2026 İstatistikleri: Kaç Kişi Girdi, Kaç Net Yapıldı?](https://bote.web.tr/blog/ags-2026-istatistikleri.md): AGS 2026'da kaç kişi girdi? ÖSYM verileriyle başvuran ve giren aday sayıları, AGS alt testlerinde ve 17 ÖABT alanında ortalama netler, 2025 ile karşılaştırma. (2026-10-30)
 - [AGS Başvurusu Nasıl Yapılır? Adım Adım Başvuru Rehberi](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir.md): AGS başvurusu nereden ve nasıl yapılır? ÖSYM AİS adımları, ÖABT başvurusu, ücret ödeme, geç başvuru, sınav merkezi ve giriş belgesi kuralları. (2026-10-30)
 - [AGS Çalışma Programı: Puan Ağırlığına Göre 6 Aylık Plan](https://bote.web.tr/blog/ags-calisma-programi.md): AGS'ye nasıl çalışılır? Testlerin puan ağırlığı ve 2026 ortalama netlerine göre 6 aylık çalışma programı, haftalık dağılım ve deneme takvimi. (2026-10-30)
