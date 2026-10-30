@@ -2,6 +2,322 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://bote.web.tr/blog
 
+# Biyoloji Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
+
+> Biyoloji öğretmeni olmak için hangi bölüm okunur, biyoloji ve moleküler biyoloji mezunu öğretmen olabilir mi, ÖABT Biyoloji ve Millî Eğitim Akademisi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/biyoloji-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre biyoloji alanına **4 program** kaynak: öğretmenliğin yanında biyoloji, moleküler biyoloji ve genetik, biyoteknoloji ve moleküler biyoloji.
+- Biyoloji mezunları ihtiyaç hâlinde ortaokul **Fen Bilimleri** alanına da atanabiliyor.
+- ÖABT Biyoloji: 50 soru, 70 dakika; 2026'da 3.818 aday, ortalama 22,0 net.
+- Akademiye alınacaklarda **pedagojik formasyon şartı aranmıyor**.
+- 2027 takvimi: başvuru 19-29 Mart, AGS 8 Mayıs, ÖABT 9 Mayıs 2027.
+
+Biyoloji öğretmeni, lisede biyoloji ve sağlık bilgisi gibi dersleri okutan öğretmen; biyoloji, moleküler biyoloji ve genetik mezunlarının da yöneldiği bir alan. Bu yazı biyoloji öğretmeni olmanın bugünkü yolunu anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Biyoloji** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Biyoloji Öğretmenliği
+2. Biyoloji Bölümü (formasyon işaretli)
+3. Moleküler Biyoloji ve Genetik Bölümü (formasyon işaretli)
+4. Biyoteknoloji ve Moleküler Biyoloji (formasyon işaretli)
+
+Formasyon işaretli bölümler eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor. Esasların 7. maddesine göre Fen Bilimleri alanında kaynak programlardan mezun olanlarla ihtiyaç karşılanamazsa Biyoloji öğretmenliğine kaynak programların mezunları Fen Bilimleri alanına da atanabiliyor; yani bu alanın mezunları için ortaokulda ikinci bir kapı var.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Biyoloji programları hücre, genetik, sistemler ve ekolojiyi laboratuvar çalışmasıyla birlikte veriyor. ÖABT Biyoloji'nin dağılımı da bunu yansıtıyor: insan ve hayvan biyolojisi %28, hücre ve metabolizma %20, genetik %20, bitki biyolojisi ve ekoloji %12'şer, sınıflandırma %8.[2] Moleküler biyoloji ve biyoteknoloji mezunları için insan ve hayvan biyolojisi, bitki biyolojisi ve ekoloji gibi konuları yeniden çalışmak gerekebilir. OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor.[3]
+
+## 3. AGS ve ÖABT
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[4] Bu sınav **MEB-AGS**: herkes için ortak Akademi Giriş Sınavı (AGS) ve alana özgü ikinci bölüm.
+
+Biyoloji adayının ikinci bölümü **ÖABT Biyoloji**: 50 soru, 70 dakika, puan türü MEB-AGS-P2-02.[2] ÖSYM verilerine göre bu teste 2025'te 4.488, 2026'da 3.818 aday girdi; ortalama net iki yılda da 22 civarındaydı, ama 2026'da standart sapma 12,2 netle alanlar arasında en yüksekti.[5][6] Ayrıntılar [ÖABT Biyoloji konuları](https://bote.web.tr/blog/oabt-biyoloji-konulari) yazısında.
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[7] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[4] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[4] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre biyoloji alanına atanan öğretmen biyoloji, araştırma teknikleri ve istatistik, çevre sistemleri, fen bilimleri, çevre eğitimi ve iklim değişikliği, bilim uygulamaları, sağlık bilgisi ve trafik kültürü, genetik bilimine giriş ve tıp bilimine giriş gibi dersleri okutabiliyor; meslek liselerinde spor anatomisi ve fizyolojisi gibi derslerde de görev alabiliyor.[1]
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[3] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Biyoloji öğretmenliği ya da çizelgedeki bölümler |
+| Lisans | 4 yıl | Hücre, genetik ve sistemler, laboratuvar |
+| Başvuru | 19-29 Mart 2027 | AGS ve ÖABT Biyoloji |
+| Sınav | 8-9 Mayıs 2027 | AGS ve ÖABT |
+| Sonuç | 11 Haziran 2027 | P2-02 puanı ve alan içi sıra |
+| Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
+
+## Sık Sorulan Sorular
+
+### Biyoloji öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB çizelgesine göre biyoloji öğretmenliği, biyoloji bölümü, moleküler biyoloji ve genetik bölümü ve biyoteknoloji ve moleküler biyoloji.
+
+### Moleküler biyoloji ve genetik mezunu öğretmen olabilir mi?
+
+Evet. MEB çizelgesinde moleküler biyoloji ve genetik bölümü biyoloji alanına kaynak; akademiye alınacaklarda pedagojik formasyon şartı aranmıyor.
+
+### Biyoloji mezunu fen bilimleri öğretmeni olabilir mi?
+
+MEB esaslarının 7. maddesine göre fen bilgisi öğretmenliği mezunlarıyla ihtiyaç karşılanamadığında biyoloji kaynak programlarının mezunları Fen Bilimleri alanına da atanabiliyor.
+
+### Biyoloji öğretmeni olmak için hangi sınava girilir?
+
+MEB-AGS: ortak AGS ve ÖABT Biyoloji. Puan türü MEB-AGS-P2-02.
+
+### ÖABT Biyoloji konuları neler?
+
+İnsan ve hayvan biyolojisi %28, hücre ve metabolizma %20, genetik %20, bitki biyolojisi ve ekoloji %12'şer, canlıların sınıflandırılması %8.
+
+### ÖABT Biyoloji'ye kaç kişi giriyor?
+
+ÖSYM verilerine göre 2025'te 4.488, 2026'da 3.818 aday girdi.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Coğrafya Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
+
+> Coğrafya öğretmeni olmak için hangi bölüm okunur, coğrafya bölümü mezunu öğretmen olabilir mi, ÖABT Coğrafya, Millî Eğitim Akademisi ve atama adımları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/cografya-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre coğrafya alanına iki program kaynak: **coğrafya öğretmenliği** ve **coğrafya bölümü**.
+- Coğrafya mezunları ihtiyaç hâlinde ortaokul **Sosyal Bilgiler** alanına da atanabiliyor.
+- ÖABT Coğrafya: 50 soru, 70 dakika; 2026'da 6.244 aday, ortalama 16,7 net.
+- Coğrafya öğretmeni coğrafyanın yanında afet bilinci, iklim ve çevre gibi dersleri de okutabiliyor.
+- 2027 takvimi: başvuru 19-29 Mart, AGS 8 Mayıs, ÖABT 9 Mayıs 2027.
+
+Coğrafya öğretmeni, lisede fiziki ve beşerî coğrafyayı, iklim ve afet konularını okutan öğretmen; coğrafya bölümü mezunlarının da yöneldiği bir alan. Bu yazı coğrafya öğretmeni olmanın bugünkü yolunu anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Coğrafya** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Coğrafya Öğretmenliği
+2. Coğrafya Bölümü (formasyon işaretli)
+
+Formasyon işaretli bölümler eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor. Esasların 7. maddesine göre Sosyal Bilgiler alanında kaynak programlardan mezun olanlarla ihtiyaç karşılanamazsa Coğrafya öğretmenliğine kaynak programların mezunları Sosyal Bilgiler alanına da atanabiliyor; yani bu alanın mezunları için ortaokulda ikinci bir kapı var.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Coğrafya öğretmenliği ve coğrafya bölümü fiziki ve beşerî coğrafyayı, kartografya ve coğrafi bilgi sistemlerini, bölgesel coğrafyayı kapsıyor. ÖABT Coğrafya da iki büyük bloğa eşit bölünüyor: fiziki coğrafya %40, beşerî ve ekonomik coğrafya %40; kıtalar ve ülkeler coğrafyası %20.[2] Coğrafya bölümünden gelen adaylar için öğretim yöntemleri ve sınıf deneyimi ayrıca güçlendirilmesi gereken alan olabilir. OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor; arazi çalışması ve harita okuma etkinlikleri sınıfta en çok işe yarayan birikim.[3]
+
+## 3. AGS ve ÖABT
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[4] Bu sınav **MEB-AGS**: herkes için ortak Akademi Giriş Sınavı (AGS) ve alana özgü ikinci bölüm.
+
+Coğrafya adayının ikinci bölümü **ÖABT Coğrafya**: 50 soru, 70 dakika, puan türü MEB-AGS-P2-03.[2] ÖSYM verilerine göre bu teste 2025'te 6.947, 2026'da 6.244 aday girdi; ortalama net 17,3'ten 16,7'ye düştü.[5][6] AGS'nin Türkiye coğrafyası alt testi bu alanın adayına doğal bir avantaj. Ayrıntılar [ÖABT Coğrafya konuları](https://bote.web.tr/blog/oabt-cografya-konulari) yazısında.
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[7] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[4] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[4] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre coğrafya alanına atanan öğretmen coğrafya, sosyal bilgiler, çevre sistemleri, sosyal bilim çalışmaları, uluslararası ilişkiler, çevre eğitimi ve iklim değişikliği, sürdürülebilir tarım ve gıda güvenliği, iklim, çevre ve yenilikçi çözümler, Türk dünyası coğrafyası ve afet bilinci gibi dersleri okutabiliyor.[1] Liste, iklim ve afet konularının okul programında coğrafya öğretmenine bırakıldığını gösteriyor.
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[3] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Coğrafya öğretmenliği ya da coğrafya bölümü |
+| Lisans | 4 yıl | Fiziki ve beşerî coğrafya, harita ve arazi çalışması |
+| Başvuru | 19-29 Mart 2027 | AGS ve ÖABT Coğrafya |
+| Sınav | 8-9 Mayıs 2027 | AGS ve ÖABT |
+| Sonuç | 11 Haziran 2027 | P2-03 puanı ve alan içi sıra |
+| Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
+
+## Sık Sorulan Sorular
+
+### Coğrafya öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB'in atama çizelgesine göre coğrafya öğretmenliği ve coğrafya bölümü coğrafya alanına kaynak.
+
+### Coğrafya bölümü mezunu öğretmen olabilir mi?
+
+Evet. Coğrafya bölümü MEB çizelgesinde coğrafya alanına kaynak. Eskiden pedagojik formasyon şartıyla işaretliydi; Millî Eğitim Akademisi hazırlık eğitimine alınacaklarda formasyon şartı aranmıyor.
+
+### Coğrafya öğretmeni olmak için hangi sınava girilir?
+
+MEB-AGS: ortak AGS ve ÖABT Coğrafya. Puan türü MEB-AGS-P2-03.
+
+### ÖABT Coğrafya konuları neler?
+
+Fiziki coğrafya %40, beşerî ve ekonomik coğrafya %40, kıtalar ve ülkeler coğrafyası %20.
+
+### Coğrafya öğretmeni hangi dersleri okutur?
+
+MEB çizelgesine göre coğrafya, sosyal bilgiler, çevre sistemleri, uluslararası ilişkiler, çevre eğitimi ve iklim değişikliği, Türk dünyası coğrafyası ve afet bilinci gibi dersler.
+
+### ÖABT Coğrafya'ya kaç kişi giriyor?
+
+ÖSYM verilerine göre 2025'te 6.947, 2026'da 6.244 aday girdi.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Edebiyat Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
+
+> Edebiyat (Türk dili ve edebiyatı) öğretmeni olmak için hangi bölüm okunur, edebiyat bölümü mezunu öğretmen olabilir mi, ÖABT ve Millî Eğitim Akademisi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/edebiyat-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre Türk Dili ve Edebiyatı alanına **4 program** kaynak: öğretmenliğin yanında edebiyat bölümü, çağdaş Türk lehçeleri ve Türk halkbilimi.
+- Edebiyat mezunları ihtiyaç hâlinde ortaokul **Türkçe** alanına da atanabiliyor.
+- ÖABT Türk Dili ve Edebiyatı: 50 soru, 70 dakika; 2026'da 20.947 aday, ortalama 16,6 net.
+- Akademiye alınacaklarda **pedagojik formasyon şartı aranmıyor**.
+- 2027 takvimi: başvuru 19-29 Mart, AGS 8 Mayıs, ÖABT 9 Mayıs 2027.
+
+Edebiyat öğretmeni, lisede Türk dili ve edebiyatı derslerini okutan öğretmen; edebiyat, halkbilimi ve lehçeler bölümlerinin mezunlarının da yöneldiği bir alan. Bu yazı edebiyat öğretmeni olmanın bugünkü yolunu anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Türk Dili ve Edebiyatı** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Türk Dili ve Edebiyatı Öğretmenliği
+2. Türk Dili ve Edebiyatı Bölümü (formasyon işaretli)
+3. Çağdaş Türk Lehçeleri ve Edebiyatları Bölümü (formasyon işaretli)
+4. Türk Halkbilimi Bölümü (formasyon işaretli)
+
+Formasyon işaretli bölümler eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor. Esasların 7. maddesine göre Türkçe alanında kaynak programlardan mezun olanlarla ihtiyaç karşılanamazsa Türk Dili ve Edebiyatı öğretmenliğine kaynak programların mezunları Türkçe alanına da atanabiliyor; yani bu alanın mezunları için ortaokulda ikinci bir kapı var.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Türk dili ve edebiyatı programları dilin tarihî dönemlerini ve edebiyat dönemlerini derinlemesine işliyor. ÖABT Türk Dili ve Edebiyatı da bu dört bloğu ölçüyor: eski ve yeni Türk dili %30, yeni Türk edebiyatı %30, halk edebiyatı ve eski Türk edebiyatı %20'şer.[2] Bölüm mezunu adaylar için edebiyat öğretimi yöntemleri ve sınıf deneyimi ayrıca güçlendirilmesi gereken alan olabilir. OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor.[3]
+
+## 3. AGS ve ÖABT
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[4] Bu sınav **MEB-AGS**: herkes için ortak Akademi Giriş Sınavı (AGS) ve alana özgü ikinci bölüm.
+
+Edebiyat adayının ikinci bölümü **ÖABT Türk Dili ve Edebiyatı**: 50 soru, 70 dakika, puan türü MEB-AGS-P2-14.[2] ÖSYM verilerine göre bu teste 2025'te 25.706, 2026'da 20.947 aday girdi; aday sayısı en çok düşen alan oldu. Ortalama net 18,0'dan 16,6'ya indi ve standart sapma 10 netin üstünde kaldı.[5][6] Ayrıntılar [ÖABT Türk Dili ve Edebiyatı konuları](https://bote.web.tr/blog/oabt-turk-dili-ve-edebiyati-konulari) yazısında.
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[7] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[4] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[4] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre bu alana atanan öğretmen Türk dili ve edebiyatı, Türkçe, drama, çocuk edebiyatı, halk kültürü, diksiyon ve hitabet, Osmanlı Türkçesi, okuma becerileri, yazarlık ve yazma becerileri, iletişim ve sunum becerileri, klasik ahlak metinleri, metin tahlilleri, edebiyat uygulamaları ve ortak Türk edebiyatı gibi dersleri okutabiliyor.[1]
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[3] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Edebiyat öğretmenliği ya da çizelgedeki bölümler |
+| Lisans | 4 yıl | Dil ve edebiyat dönemleri, edebiyat öğretimi |
+| Başvuru | 19-29 Mart 2027 | AGS ve ÖABT Türk Dili ve Edebiyatı |
+| Sınav | 8-9 Mayıs 2027 | AGS ve ÖABT |
+| Sonuç | 11 Haziran 2027 | P2-14 puanı ve alan içi sıra |
+| Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
+
+## Sık Sorulan Sorular
+
+### Edebiyat öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB çizelgesine göre Türk dili ve edebiyatı öğretmenliği, Türk dili ve edebiyatı bölümü, çağdaş Türk lehçeleri ve edebiyatları bölümü ve Türk halkbilimi bölümü.
+
+### Edebiyat bölümü mezunu öğretmen olabilir mi?
+
+Evet. Türk dili ve edebiyatı bölümü MEB çizelgesinde kaynak programlar arasında; akademiye alınacaklarda pedagojik formasyon şartı aranmıyor.
+
+### Edebiyat mezunu Türkçe öğretmeni olabilir mi?
+
+MEB esaslarının 7. maddesine göre Türkçe öğretmenliği mezunlarıyla ihtiyaç karşılanamadığında Türk dili ve edebiyatı kaynak programlarının mezunları Türkçe alanına da atanabiliyor.
+
+### Edebiyat öğretmeni olmak için hangi sınava girilir?
+
+MEB-AGS: ortak AGS ve ÖABT Türk Dili ve Edebiyatı. Puan türü MEB-AGS-P2-14.
+
+### ÖABT Edebiyat konuları neler?
+
+Eski Türk dili ve yeni Türk dili %30, Türk halk edebiyatı %20, eski Türk edebiyatı %20, yeni Türk edebiyatı %30.
+
+### ÖABT Edebiyat'a kaç kişi giriyor?
+
+ÖSYM verilerine göre 2025'te 25.706, 2026'da 20.947 aday girdi; aday sayısı en çok düşen alan oldu.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
 # Fen Bilimleri Öğretmeni Nasıl Olunur? 2027 Rehberi
 
 > Fen bilimleri öğretmeni olmak için hangi bölüm okunur, ÖABT Fen Bilimleri ve akademi; fizik, kimya, biyoloji mezunları fen öğretmeni olabilir mi?
@@ -88,6 +404,111 @@ MEB çizelgesine göre fen bilimleri, bilim uygulamaları, çevre eğitimi ve ik
 ### ÖABT Fen Bilimleri'ne kaç kişi giriyor?
 
 ÖSYM verilerine göre 2025'te 13.373, 2026'da 13.468 aday girdi; ortalama net 2026'da 16,5 oldu.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Fizik Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
+
+> Fizik öğretmeni olmak için hangi bölüm okunur, fizik bölümü ve fizik mühendisliği mezunu öğretmen olabilir mi, ÖABT Fizik ve Millî Eğitim Akademisi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/fizik-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre fizik alanına **3 program** kaynak: fizik öğretmenliği, fizik bölümü ve **fizik mühendisliği**.
+- Fizik mezunları ihtiyaç hâlinde ortaokul **Fen Bilimleri** alanına da atanabiliyor.
+- ÖABT Fizik: 50 soru, **90 dakika**; 2026'da **2.509** aday ile en az adaylı alan, ortalama 19,5 net.
+- Akademiye alınacaklarda **pedagojik formasyon şartı aranmıyor**.
+- 2027 takvimi: başvuru 19-29 Mart, AGS 8 Mayıs, ÖABT 9 Mayıs 2027.
+
+Fizik öğretmeni, lisede fizik ve astronomi gibi dersleri okutan öğretmen; fizik bölümü ve fizik mühendisliği mezunlarının da yöneldiği bir alan. Bu yazı fizik öğretmeni olmanın bugünkü yolunu anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Fizik** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Fizik Öğretmenliği
+2. Fizik Bölümü (formasyon işaretli)
+3. Fizik Mühendisliği (formasyon işaretli)
+
+Formasyon işaretli bölümler eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor. Esasların 7. maddesine göre Fen Bilimleri alanında kaynak programlardan mezun olanlarla ihtiyaç karşılanamazsa Fizik öğretmenliğine kaynak programların mezunları Fen Bilimleri alanına da atanabiliyor; yani bu alanın mezunları için ortaokulda ikinci bir kapı var.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Fizik programları mekanikten modern fiziğe geniş bir kuramsal zemin ve laboratuvar deneyimi veriyor. ÖABT Fizik'in dağılımı: mekanik %30, elektrik ve manyetizma %24, modern fizik %20, dalgalar ve optik %16, maddenin mekanik ve ısıl özellikleri %10.[2] Fizik mühendisliği mezunları için fizik öğretimi yöntemleri ve kavram yanılgılarını tanımak, sınıfta en çok ihtiyaç duyulacak beceri olabilir. OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor.[3]
+
+## 3. AGS ve ÖABT
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[4] Bu sınav **MEB-AGS**: herkes için ortak Akademi Giriş Sınavı (AGS) ve alana özgü ikinci bölüm.
+
+Fizik adayının ikinci bölümü **ÖABT Fizik**: 50 soru, 90 dakika, puan türü MEB-AGS-P2-05.[2] ÖSYM verilerine göre bu teste 2025'te 2.827, 2026'da 2.509 aday girdi; 2026'da en az adaylı alan oldu. Ortalama net 20,7'den 19,5'e indi.[5][6] Aday sayısının az olması, başarı sırasında her basamağın daha az adaya karşılık gelmesi demek. Ayrıntılar [ÖABT Fizik konuları](https://bote.web.tr/blog/oabt-fizik-konulari) yazısında.
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[7] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[4] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[4] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre fizik alanına atanan öğretmen fizik, fizik uygulamaları, astronomi ve uzay bilimleri, araştırma teknikleri ve istatistik, fen bilimlerine giriş, fen bilimleri, bilim uygulamaları, çevre eğitimi ve iklim değişikliği ile matematik ve bilim uygulamaları gibi dersleri okutabiliyor.[1]
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[3] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Fizik öğretmenliği, fizik bölümü ya da fizik mühendisliği |
+| Lisans | 4 yıl | Mekanik, elektrik ve modern fizik, laboratuvar |
+| Başvuru | 19-29 Mart 2027 | AGS ve ÖABT Fizik |
+| Sınav | 8-9 Mayıs 2027 | AGS ve ÖABT |
+| Sonuç | 11 Haziran 2027 | P2-05 puanı ve alan içi sıra |
+| Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
+
+## Sık Sorulan Sorular
+
+### Fizik öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB çizelgesine göre fizik öğretmenliği, fizik bölümü ve fizik mühendisliği.
+
+### Fizik mühendisliği mezunu öğretmen olabilir mi?
+
+Evet. MEB çizelgesinde fizik mühendisliği fizik alanına kaynak programlar arasında; akademiye alınacaklarda pedagojik formasyon şartı aranmıyor.
+
+### Fizik mezunu fen bilimleri öğretmeni olabilir mi?
+
+MEB esaslarının 7. maddesine göre fen bilgisi öğretmenliği mezunlarıyla ihtiyaç karşılanamadığında fizik kaynak programlarının mezunları Fen Bilimleri alanına da atanabiliyor.
+
+### Fizik öğretmeni olmak için hangi sınava girilir?
+
+MEB-AGS: ortak AGS ve ÖABT Fizik. Puan türü MEB-AGS-P2-05; test 90 dakika.
+
+### ÖABT Fizik konuları neler?
+
+Mekanik %30, elektrik ve manyetizma %24, modern fizik %20, dalgalar ve optik %16, maddenin mekanik ve ısıl özellikleri %10.
+
+### ÖABT Fizik'e kaç kişi giriyor?
+
+ÖSYM verilerine göre 2025'te 2.827, 2026'da 2.509 aday girdi; 2026'da en az adaylı ÖABT alanı.
 
 ## Kaynaklar
 
@@ -210,6 +631,112 @@ MEB çizelgesine göre İngilizce ve meslekî yabancı dil (İngilizce) dersleri
 5. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
 6. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
 7. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Kimya Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
+
+> Kimya öğretmeni olmak için hangi bölüm okunur, kimya bölümü ve kimya mühendisliği mezunu öğretmen olabilir mi, ÖABT Kimya ve Millî Eğitim Akademisi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/kimya-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre Kimya/Kimya Teknolojisi alanına **4 program** kaynak: öğretmenlik, kimya bölümü, kimya mühendisliği ve kimya mühendisliği ve uygulamalı kimya.
+- Kimya mezunları ihtiyaç hâlinde ortaokul **Fen Bilimleri** alanına da atanabiliyor.
+- ÖABT Kimya: 50 soru, **90 dakika**; 2026'da 2.812 aday, ortalama 17,6 net.
+- Kimya öğretmeni meslek liselerinde kimya teknolojisi derslerini de okutabiliyor.
+- 2027 takvimi: başvuru 19-29 Mart, AGS 8 Mayıs, ÖABT 9 Mayıs 2027.
+
+Kimya öğretmeni, lisede kimya ve meslek liselerinde kimya teknolojisi derslerini okutan öğretmen; kimya bölümü ve kimya mühendisliği mezunlarının da yöneldiği bir alan. Bu yazı kimya öğretmeni olmanın bugünkü yolunu anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Kimya/Kimya Teknolojisi** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Kimya Öğretmenliği
+2. Kimya Bölümü (formasyon işaretli)
+3. Kimya Mühendisliği (formasyon işaretli)
+4. Kimya Mühendisliği ve Uygulamalı Kimya Bölümü (formasyon işaretli)
+
+Kimya/Kimya Teknolojisi alanı çizelgenin en sık değiştirilen satırlarından biri; en son 12 Mart 2025 tarihli TTKB kararıyla güncellendi. Formasyon işaretli bölümler eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor. Esasların 7. maddesine göre Fen Bilimleri alanında kaynak programlardan mezun olanlarla ihtiyaç karşılanamazsa Kimya öğretmenliğine kaynak programların mezunları Fen Bilimleri alanına da atanabiliyor; yani bu alanın mezunları için ortaokulda ikinci bir kapı var.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Kimya programları temel kimyadan fizikokimyaya geniş bir kuramsal zemin ve yoğun laboratuvar deneyimi veriyor. ÖABT Kimya'nın dağılımı: temel kimya %32, analitik ve organik kimya %20'şer, anorganik kimya %16, fizikokimya %12.[2] Kimya mühendisliği mezunları için analitik, anorganik ve organik kimyanın kuramsal yanlarını yeniden çalışmak gerekebilir. Laboratuvar güvenliği ve deney tasarımı ise sınıfın kendisi için belirleyici. OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor.[3]
+
+## 3. AGS ve ÖABT
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[4] Bu sınav **MEB-AGS**: herkes için ortak Akademi Giriş Sınavı (AGS) ve alana özgü ikinci bölüm.
+
+Kimya adayının ikinci bölümü **ÖABT Kimya/Kimya Teknolojisi**: 50 soru, 90 dakika, puan türü MEB-AGS-P2-07.[2] ÖSYM verilerine göre bu teste 2025'te 3.282, 2026'da 2.812 aday girdi; ortalama net 16,3'ten 17,6'ya çıktı.[5][6] Ayrıntılar [ÖABT Kimya konuları](https://bote.web.tr/blog/oabt-kimya-konulari) yazısında.
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[7] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[4] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[4] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre Kimya/Kimya Teknolojisi alanına atanan öğretmen kimya, kimya uygulamaları, araştırma teknikleri ve istatistik, fen bilimlerine giriş ve fen bilimleri derslerinin yanında meslek liselerinde seramik kimyası, atık sular bilgisi ve kâğıt üretimi gibi kimya teknolojisi derslerini de okutabiliyor.[1] Bu, kimya öğretmenine hem genel liselerde hem mesleki ve teknik eğitimde iş olanağı sağlıyor.
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[3] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Kimya öğretmenliği ya da çizelgedeki bölümler |
+| Lisans | 4 yıl | Temel ve analitik kimya, laboratuvar güvenliği |
+| Başvuru | 19-29 Mart 2027 | AGS ve ÖABT Kimya |
+| Sınav | 8-9 Mayıs 2027 | AGS ve ÖABT |
+| Sonuç | 11 Haziran 2027 | P2-07 puanı ve alan içi sıra |
+| Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
+
+## Sık Sorulan Sorular
+
+### Kimya öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB çizelgesine göre kimya öğretmenliği, kimya bölümü, kimya mühendisliği ve kimya mühendisliği ve uygulamalı kimya bölümü.
+
+### Kimya mühendisi öğretmen olabilir mi?
+
+Evet. MEB çizelgesinde kimya mühendisliği Kimya/Kimya Teknolojisi alanına kaynak programlar arasında; akademiye alınacaklarda pedagojik formasyon şartı aranmıyor.
+
+### Kimya mezunu fen bilimleri öğretmeni olabilir mi?
+
+MEB esaslarının 7. maddesine göre fen bilgisi öğretmenliği mezunlarıyla ihtiyaç karşılanamadığında kimya kaynak programlarının mezunları Fen Bilimleri alanına da atanabiliyor.
+
+### Kimya öğretmeni olmak için hangi sınava girilir?
+
+MEB-AGS: ortak AGS ve ÖABT Kimya/Kimya Teknolojisi. Puan türü MEB-AGS-P2-07; test 90 dakika.
+
+### ÖABT Kimya konuları neler?
+
+Temel kimya %32, analitik kimya %20, organik kimya %20, anorganik kimya %16, fizikokimya %12.
+
+### ÖABT Kimya'ya kaç kişi giriyor?
+
+ÖSYM verilerine göre 2025'te 3.282, 2026'da 2.812 aday girdi.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
 8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
