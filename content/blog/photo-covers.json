@@ -4352,166 +4352,6 @@
     ]
   },
   {
-    "slug": "bilsem-nedir",
-    "title": "BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim",
-    "alt": "BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "bilsem-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 211405
-    },
-    "variants": [
-      {
-        "file": "bilsem-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 45384
-      },
-      {
-        "file": "bilsem-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 79800
-      },
-      {
-        "file": "bilsem-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 158442
-      }
-    ]
-  },
-  {
-    "slug": "akademisyen-nasil-olunur",
-    "title": "Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik",
-    "alt": "Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "akademisyen-nasil-olunur.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 171876
-    },
-    "variants": [
-      {
-        "file": "akademisyen-nasil-olunur-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 35650
-      },
-      {
-        "file": "akademisyen-nasil-olunur-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 59120
-      },
-      {
-        "file": "akademisyen-nasil-olunur.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 113132
-      }
-    ]
-  },
-  {
-    "slug": "bep-nedir",
-    "title": "BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi",
-    "alt": "BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "bep-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 171701
-    },
-    "variants": [
-      {
-        "file": "bep-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 36370
-      },
-      {
-        "file": "bep-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 62102
-      },
-      {
-        "file": "bep-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 114930
-      }
-    ]
-  },
-  {
-    "slug": "kaynastirma-egitimi-nedir",
-    "title": "Kaynaştırma Eğitimi Nedir? Kurallar, Haklar ve Araştırmalar",
-    "alt": "Kaynaştırma Eğitimi Nedir? Kurallar, Haklar ve Araştırmalar",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "kaynastirma-egitimi-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 174441
-    },
-    "variants": [
-      {
-        "file": "kaynastirma-egitimi-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 36600
-      },
-      {
-        "file": "kaynastirma-egitimi-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 61938
-      },
-      {
-        "file": "kaynastirma-egitimi-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 113184
-      }
-    ]
-  },
-  {
-    "slug": "destek-egitim-odasi-nedir",
-    "title": "Destek Eğitim Odası Nedir? Kimler, Kaç Saat Eğitim Alır?",
-    "alt": "Destek Eğitim Odası Nedir? Kimler, Kaç Saat Eğitim Alır?",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "destek-egitim-odasi-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 222665
-    },
-    "variants": [
-      {
-        "file": "destek-egitim-odasi-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 49090
-      },
-      {
-        "file": "destek-egitim-odasi-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 82124
-      },
-      {
-        "file": "destek-egitim-odasi-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 157438
-      }
-    ]
-  },
-  {
     "slug": "turkiye-yuzyili-maarif-modeli-nedir",
     "title": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
     "alt": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
@@ -4700,6 +4540,326 @@
         "width": 1600,
         "height": 900,
         "bytes": 125058
+      }
+    ]
+  },
+  {
+    "slug": "bep-nedir",
+    "title": "BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi",
+    "alt": "BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bep-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171701
+    },
+    "variants": [
+      {
+        "file": "bep-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36370
+      },
+      {
+        "file": "bep-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62102
+      },
+      {
+        "file": "bep-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114930
+      }
+    ]
+  },
+  {
+    "slug": "kaynastirma-egitimi-nedir",
+    "title": "Kaynaştırma Eğitimi Nedir? Kurallar, Haklar ve Araştırmalar",
+    "alt": "Kaynaştırma Eğitimi Nedir? Kurallar, Haklar ve Araştırmalar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "kaynastirma-egitimi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 174441
+    },
+    "variants": [
+      {
+        "file": "kaynastirma-egitimi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36600
+      },
+      {
+        "file": "kaynastirma-egitimi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61938
+      },
+      {
+        "file": "kaynastirma-egitimi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 113184
+      }
+    ]
+  },
+  {
+    "slug": "destek-egitim-odasi-nedir",
+    "title": "Destek Eğitim Odası Nedir? Kimler, Kaç Saat Eğitim Alır?",
+    "alt": "Destek Eğitim Odası Nedir? Kimler, Kaç Saat Eğitim Alır?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "destek-egitim-odasi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 222665
+    },
+    "variants": [
+      {
+        "file": "destek-egitim-odasi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 49090
+      },
+      {
+        "file": "destek-egitim-odasi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 82124
+      },
+      {
+        "file": "destek-egitim-odasi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 157438
+      }
+    ]
+  },
+  {
+    "slug": "bilsem-nedir",
+    "title": "BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim",
+    "alt": "BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bilsem-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 211405
+    },
+    "variants": [
+      {
+        "file": "bilsem-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 45384
+      },
+      {
+        "file": "bilsem-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 79800
+      },
+      {
+        "file": "bilsem-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 158442
+      }
+    ]
+  },
+  {
+    "slug": "akademisyen-nasil-olunur",
+    "title": "Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik",
+    "alt": "Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "akademisyen-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171876
+    },
+    "variants": [
+      {
+        "file": "akademisyen-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35650
+      },
+      {
+        "file": "akademisyen-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59120
+      },
+      {
+        "file": "akademisyen-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 113132
+      }
+    ]
+  },
+  {
+    "slug": "probleme-dayali-ogrenme-nedir",
+    "title": "Probleme Dayalı Öğrenme Nedir? Süreç, Kanıt ve Eleştiriler",
+    "alt": "Probleme Dayalı Öğrenme Nedir? Süreç, Kanıt ve Eleştiriler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "probleme-dayali-ogrenme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 190722
+    },
+    "variants": [
+      {
+        "file": "probleme-dayali-ogrenme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40304
+      },
+      {
+        "file": "probleme-dayali-ogrenme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67686
+      },
+      {
+        "file": "probleme-dayali-ogrenme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 127634
+      }
+    ]
+  },
+  {
+    "slug": "proje-tabanli-ogrenme-nedir",
+    "title": "Proje Tabanlı Öğrenme Nedir? Aşamalar, Örnek ve Kanıtlar",
+    "alt": "Proje Tabanlı Öğrenme Nedir? Aşamalar, Örnek ve Kanıtlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "proje-tabanli-ogrenme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188151
+    },
+    "variants": [
+      {
+        "file": "proje-tabanli-ogrenme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40456
+      },
+      {
+        "file": "proje-tabanli-ogrenme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 70780
+      },
+      {
+        "file": "proje-tabanli-ogrenme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132046
+      }
+    ]
+  },
+  {
+    "slug": "sinif-yonetimi-nedir",
+    "title": "Sınıf Yönetimi Nedir? Stratejiler, Kurallar ve Kanıtlar",
+    "alt": "Sınıf Yönetimi Nedir? Stratejiler, Kurallar ve Kanıtlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "sinif-yonetimi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 147746
+    },
+    "variants": [
+      {
+        "file": "sinif-yonetimi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 32102
+      },
+      {
+        "file": "sinif-yonetimi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 51022
+      },
+      {
+        "file": "sinif-yonetimi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 90300
+      }
+    ]
+  },
+  {
+    "slug": "rehberlik-ve-arastirma-merkezi-ram-nedir",
+    "title": "RAM Nedir? Rehberlik ve Araştırma Merkezi ve Okul Rehberliği",
+    "alt": "RAM Nedir? Rehberlik ve Araştırma Merkezi ve Okul Rehberliği",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "rehberlik-ve-arastirma-merkezi-ram-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 187673
+    },
+    "variants": [
+      {
+        "file": "rehberlik-ve-arastirma-merkezi-ram-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37406
+      },
+      {
+        "file": "rehberlik-ve-arastirma-merkezi-ram-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66904
+      },
+      {
+        "file": "rehberlik-ve-arastirma-merkezi-ram-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132024
+      }
+    ]
+  },
+  {
+    "slug": "okul-muduru-nasil-olunur",
+    "title": "Okul Müdürü Nasıl Olunur? 2026 Yönetmeliği ve EKYS",
+    "alt": "Okul Müdürü Nasıl Olunur? 2026 Yönetmeliği ve EKYS",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "okul-muduru-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181412
+    },
+    "variants": [
+      {
+        "file": "okul-muduru-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37802
+      },
+      {
+        "file": "okul-muduru-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66928
+      },
+      {
+        "file": "okul-muduru-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 127690
       }
     ]
   }
