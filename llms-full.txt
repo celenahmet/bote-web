@@ -424,6 +424,102 @@ Kaynaştırma ya da bütünleştirme yoluyla eğitim yapılan okullarda BEP geli
 
 ---
 
+# Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar
+
+> Biçimlendirici (formatif) değerlendirme nedir, düzey belirleyici değerlendirmeden farkı, sınıf örnekleri, geri bildirim, meta-analiz bulguları ve Maarif Modeli.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/bicimlendirici-degerlendirme-nedir
+
+## Özet
+
+- Biçimlendirici değerlendirme, öğretim **sürerken** öğrencinin nerede olduğunu görüp öğretimi buna göre ayarlamak; düzey belirleyici değerlendirme ise sonunda not vermek.
+- Black ve Wiliam'ın 1998 derlemesi alanı başlattı; sonraki bir meta-analiz ortalama etkiyi **0,20** buldu ve sık dile getirilen 0,70 iddiasının desteklenmediğini gösterdi.
+- Geri bildirim araştırmalarının geniş bir meta-analizinde ortalama etki **d = 0,48**; etkiyi geri bildirimin içeriği belirliyor.
+- Türkiye Yüzyılı Maarif Modeli sınıf içi ölçmeyi **süreç odaklı** tanımlıyor.
+- AGS eğitim bilimlerinde "eğitimde ölçme ve değerlendirme" ayrı bir konu.
+
+Biçimlendirici değerlendirme, öğretmenin dersi sürdürürken "öğrenciler nerede, neyi anladı, neyi anlamadı" sorusunu sorması ve cevaba göre öğretimini ayarlaması. Türkiye Yüzyılı Maarif Modeli'nin "süreç odaklı ölçme" vurgusuyla gündeme yeniden geldi. Bu yazı kavramı, sınıf örneklerini ve araştırmaların gerçekte ne kadar etki bulduğunu topluyor.[1]
+
+## Kavram: süreç içinde değerlendirme
+
+Değerlendirme iki farklı amaçla yapılabilir. **Düzey belirleyici (summatif)** değerlendirme bir ünitenin ya da dönemin sonunda ulaşılan düzeyi belirler ve not üretir. **Biçimlendirici (formatif)** değerlendirme ise öğretim sürerken yapılır; amacı not vermek değil, öğrenmeyi geliştirmek için kanıt toplamaktır.
+
+Alanın kurucu metni Black ve Wiliam'ın 1998'deki kapsamlı derlemesi: yazarlar sınıf içi değerlendirme üzerine çok sayıda çalışmayı inceleyerek öğretim sürecinde öğrenciye geri bildirim verip öğretimi buna göre ayarlamanın öğrenmeyi belirgin biçimde artırabildiğini savundu.[1] Wiliam daha sonra kavramı "öğrenme için değerlendirme" olarak tanımlayıp beş temel stratejiye ayırdı: öğrenme hedeflerini ve başarı ölçütlerini netleştirmek, öğrenmeyi gösteren etkili sınıf tartışmaları ve görevler düzenlemek, öğrenmeyi ilerleten geri bildirim vermek, öğrencileri birbirleri için öğretim kaynağı yapmak ve öğrencileri kendi öğrenmelerinin sahibi yapmak.[2]
+
+## Sınıfta nasıl görünür?
+
+Wiliam'ın beş stratejisi sınıfta şöyle somutlaşabilir:[2]
+
+| Strateji | Sınıf örneği |
+|---|---|
+| Hedefleri netleştirmek | Dersin başında "bugün sonunda şunu yapabileceksiniz" ve iyi bir cevabın ölçütleri |
+| Öğrenmeyi görünür kılmak | Herkesin aynı anda cevap verdiği sorular, ders sonu çıkış kartları |
+| İlerleten geri bildirim | Not yerine "neyi iyi yaptın, bir sonraki adım ne" yorumu |
+| Akranlar kaynak | Akran değerlendirmesi, eşli kontrol |
+| Öğrenci sahiplenmesi | Öz değerlendirme, kendi hatasını bulup düzeltme |
+
+Veri notu: Stratejiler Wiliam (2011); sınıf örnekleri bizim uyarlamamız.
+
+Kısa sınamalar da biçimlendirici değerlendirmenin bir aracı ve kendisi de öğrenmeyi güçlendiriyor: Roediger ve Karpicke'nin deneylerinde önceden sınanan öğrenciler bir hafta sonra metni yeniden çalışanlardan daha fazlasını hatırladı.[3] Dunlosky ve arkadaşları da deneme sınavlarını yararı en yüksek çalışma teknikleri arasında saydı.[4]
+
+## Geri bildirim: işin kalbi
+
+Biçimlendirici değerlendirmenin işe yarayıp yaramaması büyük ölçüde geri bildirimin niteliğine bağlı. Hattie ve Timperley'nin modeline göre geri bildirim öğrenmeyi en güçlü etkileyen etkenlerden biri, ama etkisi olumlu da olumsuz da olabiliyor; türü ve veriliş biçimi belirleyici.[5] Wisniewski, Zierer ve Hattie'nin 435 çalışmayı, 994 etki büyüklüğünü ve 61.000'den fazla katılımcıyı kapsayan meta-analizi geri bildirimin ortalama etkisini **d = 0,48** buldu; ama sonuçlar çok heterojendi: etkiyi büyük ölçüde geri bildirimin taşıdığı bilginin içeriği belirliyordu ve bilişsel ve motor beceriler üzerindeki etki, motivasyon ve davranış üzerindekinden yüksekti.[6] Pratik sonuç: "aferin" ya da yalnız bir not değil, öğrencinin bir sonraki adımını gösteren bilgi.
+
+## Kanıtlar ne kadar güçlü?
+
+Biçimlendirici değerlendirme için sık sık 0,40 ile 0,70 arasında etki büyüklükleri dile getiriliyor. Kingston ve Nash bu iddiayı sınadı: 300'den fazla çalışmayı taradılar, ama çoğunun deseni yorumlanamayacak kadar zayıftı; yalnız 13 çalışmadan 42 bağımsız etki büyüklüğü hesaplanabildi. Ağırlıklı ortalama etki **0,20**, medyan 0,25 çıktı; etki Türkçe ve dil derslerinde matematik ve fen bilimlerinden biraz daha yüksek görünüyordu.[7] Yani biçimlendirici değerlendirme işe yarıyor, ama mucize değil; etkisi uygulamanın niteliğine bağlı.
+
+## Uygulamada sık yapılan hatalar
+
+Biçimlendirici değerlendirme çoğu zaman yanlış uygulanıyor. En yaygın hata, her kısa sınavı nota çevirmek: Wiliam'a göre biçimlendirici değerlendirmeyi biçimlendirici yapan, kanıtın öğretimi ve öğrenmeyi ayarlamak için **kullanılması**; not üretmek değil.[2] İkinci hata, toplanan kanıta göre öğretimin değişmemesi: çıkış kartlarında sınıfın yarısının konuyu anlamadığı görülüp ertesi gün yeni konuya geçilirse, değerlendirme biçimlendirici olmaktan çıkıyor. Üçüncü hata, geri bildirimin yalnız not ya da genel övgü olması. Hattie ve Timperley'nin modeline göre etkili geri bildirim üç soruya cevap veriyor: hedef nedir, şu an nerede duruyorum, bir sonraki adım ne?[5]
+
+Bir de zaman sorunu var. Her öğrenciye her gün yazılı geri bildirim vermek gerçekçi değil. Bu yüzden Wiliam akran ve öz değerlendirmeyi stratejinin parçası sayıyor: öğrenciler açık başarı ölçütleriyle birbirlerinin ve kendi işlerinin değerlendirilmesine katıldığında, geri bildirim yükü paylaşılıyor ve öğrenciler kendi öğrenmelerinin sahibi oluyor.[2]
+
+## Maarif Modeli ve AGS
+
+MEB'in 2024 genelgesi Türkiye Yüzyılı Maarif Modeli'nde sınıf içi ölçmenin **süreç odaklı** olacağını ve öğrencinin öğrenme eksiklerine dair veri üreteceğini, öğretim yılı içinde öğrencileri akademik başarıya göre sıralayan il, ilçe ve okul geneli sınavların yapılmayacağını açıkladı; modelin temel ilkeleri arasında "öğrenme kanıtları" ve "ön değerlendirme" de var.[8] Bu ilkeler biçimlendirici değerlendirmenin doğrudan karşılığı. AGS'nin eğitim bilimleri alt testinde eğitimde ölçme ve değerlendirme ile Türkiye Yüzyılı Maarif Modeli ayrı başlıklar.[9] Değerlendirmenin teknik temelleri için [geçerlik ve güvenirlik nedir?](https://bote.web.tr/blog/gecerlik-ve-guvenirlik-nedir)
+
+## Sık Sorulan Sorular
+
+### Biçimlendirici değerlendirme nedir?
+
+Öğretim sürecinde öğrencinin öğrenme durumuna dair kanıt toplayıp bu kanıtı hem öğretimi hem öğrencinin öğrenmesini ayarlamak için kullanmak. Formatif değerlendirme ya da öğrenme için değerlendirme olarak da anılıyor.
+
+### Biçimlendirici ile düzey belirleyici değerlendirme farkı nedir?
+
+Biçimlendirici değerlendirme süreç içinde öğrenmeyi geliştirmek için, düzey belirleyici (summatif) değerlendirme ise bir dönemin ya da ünitenin sonunda ulaşılan düzeyi belirlemek ve not vermek için yapılıyor.
+
+### Biçimlendirici değerlendirme örnekleri nelerdir?
+
+Ders sonu çıkış kartları, kısa sınama soruları, öğrencilere hedefleri ve başarı ölçütlerini önceden açıklamak, not yerine açıklayıcı geri bildirim vermek, akran ve öz değerlendirme.
+
+### Biçimlendirici değerlendirme işe yarıyor mu?
+
+Evet, ama etkisi sık iddia edildiği kadar büyük değil. Kingston ve Nash'in meta-analizinde ağırlıklı ortalama etki 0,20 oldu. Geri bildirim araştırmalarının meta-analizinde ortalama etki d = 0,48 bulundu ve etkinin geri bildirimin içeriğine bağlı olduğu görüldü.
+
+### Maarif Modeli'nde ölçme nasıl?
+
+MEB'in 2024 genelgesine göre sınıf içi ölçme süreç odaklı ve öğrencinin öğrenme eksiklerine dair veri üretecek biçimde; öğretim yılı içinde öğrencileri sıralayan il, ilçe ve okul geneli sınavlar yapılmıyor.
+
+### AGS'de biçimlendirici değerlendirme çıkar mı?
+
+AGS eğitim bilimleri alt testinde eğitimde ölçme ve değerlendirme ve Türkiye Yüzyılı Maarif Modeli ayrı başlıklar; değerlendirme türleri bu konuların içinde.
+
+## Kaynaklar
+
+1. Black, P. ve Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74. https://doi.org/10.1080/0969595980050102 (EN, erişim: 2026-10-31)
+2. Wiliam, D. (2011). What is assessment for learning?. Studies in Educational Evaluation, 37(1), 3–14. https://doi.org/10.1016/j.stueduc.2011.03.001 (EN, erişim: 2026-10-31)
+3. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-31)
+4. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+5. Hattie, J. ve Timperley, H. (2007). The power of feedback. Review of Educational Research, 77(1), 81–112. https://doi.org/10.3102/003465430298487 (EN, erişim: 2026-10-31)
+6. Wisniewski, B., Zierer, K. ve Hattie, J. (2020). The power of feedback revisited: A meta-analysis of educational feedback research. Frontiers in Psychology, 10, 3087. https://doi.org/10.3389/fpsyg.2019.03087 (EN, erişim: 2026-10-31)
+7. Kingston, N. ve Nash, B. (2011). Formative assessment: A meta-analysis and a call for research. Educational Measurement: Issues and Practice, 30(4), 28–37. https://doi.org/10.1111/j.1745-3992.2011.00220.x (EN, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+9. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+
+---
+
 # BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim
 
 > BİLSEM nedir, öğrenciler nasıl seçilir? Aday gösterme, %20 sınırı, ön ve bireysel değerlendirme takvimi, yetenek alanları, programlar ve devam kuralları.
@@ -1376,6 +1472,100 @@ Mekanik %30, elektrik ve manyetizma %24, modern fizik %20, dalgalar ve optik %16
 
 ---
 
+# Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar
+
+> Geçerlik ve güvenirlik nedir, farkı ne? Güvenirlik türleri, Cronbach alfa, kapsam ve yapı geçerliği, Messick ve Kane yaklaşımları, sınıf sınavları ve AGS.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/gecerlik-ve-guvenirlik-nedir
+
+## Özet
+
+- **Güvenirlik** ölçmenin tutarlılığı, **geçerlik** ölçülenin amaçlanan şey olup olmadığı ve puanların doğru yorumlanması.
+- Güvenilir olmayan bir ölçme geçerli olamaz; ama güvenilir bir ölçme geçersiz olabilir.
+- Cronbach alfa (1951) iç tutarlılığın en yaygın göstergesi; yüksek alfa testin tek bir şeyi ölçtüğünü tek başına kanıtlamaz.
+- Güncel yaklaşımda geçerlik testin değil, **puanların yorum ve kullanımının** özelliği (Messick 1995, Kane 2013).
+- AGS eğitim bilimlerinde "eğitimde ölçme ve değerlendirme" ayrı bir konu.
+
+Geçerlik ve güvenirlik, ölçme ve değerlendirmenin iki temel kavramı: öğretmenin yazdığı yazılı sınavdan ÖSYM'nin merkezî sınavlarına kadar her ölçmenin kalitesi bu iki ölçütle değerlendiriliyor. AGS'de de eğitim bilimleri alt testinin konularından biri. Bu yazı iki kavramı, türlerini ve sınıfta nasıl uygulanacaklarını anlatıyor.[1]
+
+## Güvenirlik: tutarlılık
+
+Güvenirlik, ölçme sonuçlarının tutarlılığı: aynı özelliği tekrar ölçtüğümüzde, farklı puanlayıcılar kullandığımızda ya da testin eşdeğer bir formunu uyguladığımızda benzer sonuçlar alıp almadığımız. Eğitim ve psikolojide ölçme standartları güvenirliği, ölçme sürecindeki hatadan arınıklığın derecesi olarak ele alıyor ve her puan yorumu için uygun güvenirlik kanıtı istiyor.[1]
+
+| Güvenirlik türü | Ne ölçer | Sınıf örneği |
+|---|---|---|
+| Test-tekrar test | Zaman içinde kararlılık | Aynı testi iki hafta arayla uygulamak |
+| Eşdeğer formlar | Formlar arası tutarlılık | A ve B kitapçıkları |
+| İç tutarlılık | Maddelerin birbiriyle tutarlılığı | Cronbach alfa |
+| Puanlayıcılar arası | Farklı puanlayıcıların uyumu | İki öğretmenin aynı kompozisyonu puanlaması |
+
+Veri notu: Ölçme alanının yaygın sınıflandırması; örnekler bizim.
+
+En yaygın iç tutarlılık göstergesi Cronbach'ın 1951'de tanımladığı **alfa katsayısı**.[2] Ama yaygın kullanımı yanlış yorumları da beraberinde getiriyor. Tavakol ve Dennick, yüksek bir alfanın testin tek bir yapıyı ölçtüğünü tek başına göstermediğini, alfanın madde sayısıyla birlikte arttığını ve çok yüksek değerlerin gereksiz tekrar eden maddelere işaret edebileceğini vurguluyor.[3]
+
+## Geçerlik: doğru şeyi ölçmek
+
+Geçerlik, ölçmenin amaçlanan şeyi ölçmesi. Klasik sınıflandırmada üç tür sayılıyor: **kapsam (içerik) geçerliği** (soruların öğretilen konuları temsil etmesi), **ölçüt geçerliği** (puanın başka bir ölçütle, örneğin sonraki başarıyla ilişkisi) ve **yapı geçerliği** (testin kuramsal bir özelliği, örneğin okuduğunu anlamayı gerçekten ölçmesi).
+
+Güncel yaklaşım bu türleri birleştiriyor. Messick'e göre geçerlik tek bir kavram: testin değil, test puanlarından yapılan **çıkarımların** özelliği; içerik, süreç, yapı ve sonuçlara ilişkin kanıtlar aynı bütünün parçaları.[4] Kane bu düşünceyi "argümana dayalı geçerleme" olarak geliştirdi: puanların belirli bir yorum ve kullanım için ne kadar desteklendiği, bu yorumun gerektirdiği varsayımların kanıtlarla sınanmasıyla gösteriliyor.[5] Ölçme standartları da geçerliği, kanıt ve kuramın test puanlarının önerilen kullanımlarına yönelik yorumları ne derece desteklediği olarak tanımlıyor.[1]
+
+## İkisi arasındaki ilişki
+
+Ölçme standartları güvenirliği geçerliğin gerekli bir parçası olarak ele alıyor: puanlardaki tutarsızlık, o puanlardan yapılan her yorumu zayıflatıyor.[1] Akılda kalıcı bir örnek: her tartıldığınızda iki kilo eksik gösteren bir tartı **güvenilir** (tutarlı) ama **geçersiz** (yanlış). Güvenilir olmayan, her seferinde farklı sonuç veren bir tartı ise geçerli olamaz. Bu yüzden güvenirlik geçerliğin ön koşulu, ama yeterli koşulu değil. Bir yazılı sınav tutarlı puanlar üretse bile yalnız ezberi ölçüyorsa, "öğrenci kavramı anladı mı" sorusu için geçersiz olabilir.
+
+## Sınıfta uygulama
+
+Öğretmen kendi sınavlarında iki basit araçla bu kavramları uygulayabilir. **Belirtke tablosu**, her öğrenme çıktısına kaç soru ayrıldığını gösteren bir tablo; soruların öğretilen içeriği dengeli temsil etmesini, yani kapsam geçerliğini sağlıyor. **Puanlama anahtarı ve dereceli puanlama ölçeği** ise açık uçlu cevapların farklı öğretmenlerce benzer puanlanmasını, yani puanlayıcı güvenirliğini artırıyor. MEB'in 2024 genelgesine göre Maarif Modeli'nde yazılı sınavlar okul zümrelerince öğrenme çıktılarına göre hazırlanıyor; bu, belirtke tablosu mantığının kurumsal karşılığı.[6]
+
+## Klasik test kuramından güncel yaklaşıma
+
+Okullarda en sık kullanılan çerçeve klasik test kuramı: her gözlenen puan, gerçek puan ile hata puanının toplamı olarak düşünülüyor ve güvenirlik, gözlenen puan varyansının ne kadarının gerçek puandan geldiği olarak tanımlanıyor. Cronbach'ın alfası bu çerçevede maddeler arası tutarlılıktan güvenirliği kestirmenin bir yolu olarak geliştirildi.[2] Bu yüzden alfa testin uzunluğuna duyarlı: madde sayısı arttıkça alfa da artıyor, ve kısa bir sınıf sınavında düşük alfa her zaman kötü madde anlamına gelmiyor.[3]
+
+Geçerlik tarafında ise yaklaşım son otuz yılda belirgin biçimde değişti. Eskiden "bu test geçerli mi" diye sorulurdu; Messick ve Kane'den sonra soru "bu puanı bu amaçla böyle yorumlamak için yeterli kanıt var mı" biçimine dönüştü.[4][5] Örneğin bir matematik sınavı, dönem sonu notunu belirlemek için geçerli bir kanıt sunabilirken, öğrencinin matematik öğretmeni olmaya uygunluğuna karar vermek için yetersiz kalabilir. Aynı test, farklı kullanımlar için farklı geçerlik kanıtı gerektiriyor.
+
+## AGS'de ölçme
+
+AGS'nin eğitim bilimleri ve Türk millî eğitim sistemi alt testinde "eğitimde ölçme ve değerlendirme" ayrı bir konu; geçerlik, güvenirlik ve temel istatistik kavramları (ortalama, standart sapma) bu başlıkta.[7] AGS'nin kendi puanlaması da bu kavramlara dayanıyor: ÖSYM her alt testin ortalamasını ve standart sapmasını yayımlıyor ve netler bu değerlere göre standart puana çevriliyor; örneğin 2026'da sözel yetenekte ortalama 8,3, standart sapma 3,2 netti.[8] Hesabın tamamı için [AGS kaç net kaç puan?](https://bote.web.tr/blog/ags-kac-net-kac-puan) yazısına bakın.
+
+## Sık Sorulan Sorular
+
+### Geçerlik nedir?
+
+Bir ölçmenin ölçmeyi amaçladığı şeyi ölçmesi; güncel yaklaşımda test puanlarına dayanan yorum ve kullanımların kanıtlarla desteklenme derecesi.
+
+### Güvenirlik nedir?
+
+Ölçme sonuçlarının tutarlılığı: aynı özelliği tekrar ölçtüğümüzde, farklı puanlayıcılar ya da eşdeğer formlar kullandığımızda benzer sonuçlar alıp almadığımız.
+
+### Geçerlik ve güvenirlik arasındaki fark nedir?
+
+Güvenirlik tutarlılık, geçerlik doğruluktur. Her zaman aynı yanlış ağırlığı gösteren bir tartı güvenilir ama geçersizdir. Güvenirlik geçerliğin ön koşulu, ama yeterli değil.
+
+### Cronbach alfa nedir?
+
+Cronbach'ın 1951'de tanımladığı iç tutarlılık katsayısı; bir testin maddelerinin birbiriyle ne kadar tutarlı olduğunu gösterir. Yüksek alfa testin tek boyutlu olduğunu tek başına göstermez.
+
+### Geçerlik türleri nelerdir?
+
+Klasik sınıflandırmada kapsam (içerik), ölçüt (yordama ve uygunluk) ve yapı geçerliği. Güncel standartlar bunları tek bir geçerlik kavramının farklı kanıt kaynakları olarak ele alıyor.
+
+### Öğretmen yazılı sınavda geçerliği nasıl artırır?
+
+Soruları öğrenme çıktılarıyla eşleştiren bir belirtke tablosu hazırlayarak kapsam geçerliğini, açık puanlama ölçütleriyle de puanlayıcı güvenirliğini artırabilir.
+
+## Kaynaklar
+
+1. American Educational Research Association, American Psychological Association ve National Council on Measurement in Education (2014). Standards for Educational and Psychological Testing. https://www.testingstandards.net/open-access-files.html (EN, erişim: 2026-10-31)
+2. Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16(3), 297–334. https://doi.org/10.1007/BF02310555 (EN, erişim: 2026-10-31)
+3. Tavakol, M. ve Dennick, R. (2011). Making sense of Cronbach's alpha. International Journal of Medical Education, 2, 53–55. https://doi.org/10.5116/ijme.4dfb.8dfd (EN, erişim: 2026-10-31)
+4. Messick, S. (1995). Validity of psychological assessment: Validation of inferences from persons' responses and performances as scientific inquiry into score meaning. American Psychologist, 50(9), 741–749. https://doi.org/10.1037/0003-066X.50.9.741 (EN, erişim: 2026-10-31)
+5. Kane, M. T. (2013). Validating the interpretations and uses of test scores. Journal of Educational Measurement, 50(1), 1–73. https://doi.org/10.1111/jedm.12000 (EN, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+
+---
+
 # Hangi Bölümler Öğretmen Olabilir? Fakülte Dışı Liste
 
 > Eğitim fakültesi dışında hangi bölümler öğretmen olabilir? MEB atama çizelgesine göre fen-edebiyat, mühendislik, ilahiyat, spor ve sanat bölümleri.
@@ -1600,6 +1790,104 @@ MEB çizelgesine göre İngilizce ve meslekî yabancı dil (İngilizce) dersleri
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# İş Birlikli Öğrenme Nedir? Öğeleri, Teknikleri ve Kanıtlar
+
+> İş birlikli öğrenme nedir, grup çalışmasından farkı ne? Beş temel öğe, birlikte öğrenme ve jigsaw gibi teknikler, meta-analiz bulguları ve sınıfta uygulama.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/is-birlikli-ogrenme-nedir
+
+## Özet
+
+- İş birlikli öğrenme, öğrencilerin **ortak bir hedef için birbirine bağımlı** çalıştığı yapılandırılmış grup öğrenmesi; sıradan grup çalışmasından farklı.
+- Kuramsal temeli **sosyal bağımlılık kuramı**; 11 on yılda 1.200'den fazla araştırma yapıldı.
+- 148 çalışma ve 17.000'den fazla öğrenciyi kapsayan meta-analiz: iş birlikli hedefler, rekabetçi ve bireysel hedeflere göre **daha yüksek başarı ve daha olumlu akran ilişkileriyle** ilişkili.
+- Beş öğe: olumlu bağımlılık, bireysel sorumluluk, yüz yüze etkileşim, sosyal beceriler, grup süreci.
+- Maarif Modeli'nin sosyal-duygusal öğrenme vurgusuyla uyumlu.
+
+İş birlikli öğrenme, öğretim yöntemleri arasında en çok araştırılmış yaklaşımlardan biri ve sıradan grup çalışmasıyla sık karıştırılıyor. Bu yazı iş birlikli öğrenmenin ne olduğunu, onu grup çalışmasından ayıran öğeleri, bilinen teknikleri ve araştırmaların ne bulduğunu anlatıyor.[1]
+
+## Kavram ve kuramsal temel
+
+İş birlikli öğrenmenin kuramsal temeli **sosyal bağımlılık kuramı**. Johnson ve Johnson'a göre bireylerin hedefleri arasındaki ilişki üç biçimde olabilir: **olumlu bağımlılık** (iş birliği: birinin başarısı diğerlerinin başarısına bağlı), **olumsuz bağımlılık** (rekabet: biri kazanırsa diğeri kaybeder) ve **bağımsızlık** (bireysel çalışma). Yazarlar bu kuram çerçevesinde 11 on yılda iş birlikli, rekabetçi ve bireysel çabalar üzerine 1.200'den fazla araştırma yapıldığını ve iş birlikli öğrenmenin sosyal ve eğitim psikolojisinin "başarı öykülerinden" biri olduğunu belirtiyor.[1]
+
+## Grup çalışmasından farkı: beş öğe
+
+Her grup çalışması iş birlikli öğrenme değil. Johnson ve Johnson'a göre iş birlikli öğrenmenin beş temel öğesi var:[1]
+
+| Öğe | Anlamı | Sınıf karşılığı |
+|---|---|---|
+| Olumlu bağımlılık | Grup ancak herkes katkı verirse başarılı olur | Her öğrenciye ayrı bir parça ya da rol |
+| Bireysel sorumluluk | Her öğrenci kendi öğrenmesinden sorumludur | Sonunda bireysel sınama |
+| Yüz yüze destekleyici etkileşim | Öğrenciler birbirine açıklar, yardım eder | Grup içinde açıklama ve tartışma |
+| Sosyal beceriler | Dinleme, sıra alma, anlaşmazlık çözme | Bu becerilerin açıkça öğretilmesi |
+| Grup süreci | Grup kendi çalışmasını değerlendirir | "Ne iyi gitti, neyi değiştireceğiz" |
+
+Veri notu: Öğeler Johnson ve Johnson (2009); sınıf karşılıkları bizim.
+
+En sık hata bireysel sorumluluğun kurulmaması: işi bir iki öğrenci yapar, diğerleri pasif kalır. Bireysel sınama bu sorunu önlemenin en basit yolu.
+
+## Teknikler
+
+Bilinen iş birlikli öğrenme tekniklerinden bazıları:
+
+- **Birlikte öğrenme:** Grup tek bir ürün üretir; olumlu bağımlılık ve bireysel sorumluluk açıkça kurulur.
+- **Birleştirme (jigsaw):** Konu parçalara ayrılır, her öğrenci bir parçanın "uzmanı" olur, uzman grubunda çalışır ve kendi grubuna öğretir.
+- **Öğrenci takımları-başarı bölümleri (STAD):** Grup üyelerinin bireysel sınavlardaki gelişimi takım puanına dönüşür.
+- **Grup araştırması:** Grup bir konuyu planlayıp araştırır ve sınıfa sunar.
+
+Johnson ve Johnson, öğretmenin rolünü üç iş birlikli öğrenme türüne göre ayırıyor: bir ders saatinden birkaç haftaya kadar süren **resmî iş birlikli öğrenme** gruplarında öğretmen hedefleri, rolleri ve değerlendirmeyi önceden belirliyor; birkaç dakikalık **gayriresmî gruplar** ders anlatımının arasında öğrencilerin konuyu birbirine açıklamasını sağlıyor; uzun süreli **temel gruplar** ise bir yıl ya da daha uzun süre birbirini akademik ve sosyal olarak destekleyen kalıcı gruplar.[1] Hangi teknik seçilirse seçilsin, beş öğenin kurulması ortak koşul.
+
+Grup büyüklüğü de önemli. Küçük gruplar (genellikle iki ile dört öğrenci) herkesin katkı vermesini kolaylaştırıyor; grup büyüdükçe bazı öğrencilerin pasif kalma riski artıyor. Roller (sözcü, not tutucu, zaman tutucu, kontrolcü) dönüşümlü verildiğinde hem olumlu bağımlılık hem de sosyal beceriler güçleniyor.
+
+## Araştırmalar ne diyor?
+
+Roseth, Johnson ve Johnson'ın meta-analizi, 11 ülkeden 17.000'den fazla erken ergeni kapsayan 148 bağımsız çalışmayı birleştirdi. Sosyal bağımlılık kuramının öngördüğü gibi iş birlikli hedef yapıları, rekabetçi ve bireysel yapılara göre **daha yüksek başarı** ve **daha olumlu akran ilişkileriyle** ilişkiliydi; akran ilişkileri de başarıyla ilişkiliydi.[2] Kyndt ve arkadaşları daha yeni çalışmalarla yüz yüze iş birlikli öğrenmenin etkisini yeniden sınadı ve başarı ile tutumlar üzerindeki olumlu etkiyi doğruladı; etkinin alana ve öğrenci yaşına göre değiştiğini de gösterdi.[3]
+
+İş birlikli öğrenmenin bir yararı da akranlar arası geri bildirim. Geri bildirim araştırmalarının meta-analizi ortalama etkiyi d = 0,48 buldu ve etkinin bilginin içeriğine bağlı olduğunu gösterdi; iyi yapılandırılmış iş birlikli görevler öğrencilerin birbirine bilgilendirici geri bildirim vermesini sağlayabilir.[4] Ama iş birlikli öğrenme bireysel pratiğin yerini tutmuyor: kendini sınama ve aralıklı tekrar gibi bireysel teknikler yine en yararlı çalışma yöntemleri arasında.[5]
+
+## Sosyal-duygusal öğrenme ve Maarif Modeli
+
+İş birlikli öğrenme yalnız başarı için değil, sosyal becerileri geliştirmek için de kullanılıyor. Durlak ve arkadaşlarının 213 okul programını ve 270.034 öğrenciyi kapsayan meta-analizi, sosyal-duygusal öğrenme programlarının sosyal beceriler, davranış ve akademik başarı üzerinde olumlu etkiler gösterdiğini buldu.[6] MEB'in 2024 genelgesi de Türkiye Yüzyılı Maarif Modeli programlarının bileşenleri arasında **sosyal-duygusal öğrenme becerilerini** sayıyor.[7] AGS'nin eğitim bilimleri alt testinde öğretim yöntem ve teknikleri ile sınıf yönetimi ayrı konular.[8]
+
+## Sık Sorulan Sorular
+
+### İş birlikli öğrenme nedir?
+
+Öğrencilerin küçük gruplarda ortak bir hedef için, her birinin başarısı diğerlerine bağlı olacak şekilde yapılandırılmış biçimde birlikte çalıştığı öğretim yaklaşımı.
+
+### İş birlikli öğrenme ile grup çalışması farkı nedir?
+
+Sıradan grup çalışmasında işi birkaç öğrenci yapıp diğerleri pasif kalabilir. İş birlikli öğrenmede olumlu bağımlılık ve bireysel sorumluluk bilinçli olarak kurulur: grup ancak herkes katkı verirse başarılı olur ve her öğrenci kendi öğrenmesinden ayrıca sorumludur.
+
+### İş birlikli öğrenmenin öğeleri nelerdir?
+
+Johnson ve Johnson'a göre olumlu bağımlılık, bireysel sorumluluk, yüz yüze destekleyici etkileşim, sosyal beceriler ve grup süreci (grubun kendi çalışmasını değerlendirmesi).
+
+### İş birlikli öğrenme teknikleri nelerdir?
+
+Birlikte öğrenme, birleştirme (jigsaw), öğrenci takımları-başarı bölümleri (STAD), takım-oyun-turnuva ve grup araştırması bilinen tekniklerden.
+
+### İş birlikli öğrenme işe yarıyor mu?
+
+Roseth, Johnson ve Johnson'ın 148 çalışma ve 11 ülkeden 17.000'den fazla erken ergeni kapsayan meta-analizine göre iş birlikli hedef yapıları, rekabetçi ve bireysel yapılara göre daha yüksek başarı ve daha olumlu akran ilişkileriyle ilişkili.
+
+### İş birlikli öğrenme AGS'de çıkar mı?
+
+AGS eğitim bilimleri alt testinin öğretim yöntem ve teknikleri ile sınıf yönetimi konularında karşılaşılabilecek bir yaklaşım.
+
+## Kaynaklar
+
+1. Johnson, D. W. ve Johnson, R. T. (2009). An educational psychology success story: Social interdependence theory and cooperative learning. Educational Researcher, 38(5), 365–379. https://doi.org/10.3102/0013189X09339057 (EN, erişim: 2026-10-31)
+2. Roseth, C. J., Johnson, D. W. ve Johnson, R. T. (2008). Promoting early adolescents' achievement and peer relationships: The effects of cooperative, competitive, and individualistic goal structures. Psychological Bulletin, 134(2), 223–246. https://doi.org/10.1037/0033-2909.134.2.223 (EN, erişim: 2026-10-31)
+3. Kyndt, E., Raes, E., Lismont, B., Timmers, F., Cascallar, E. ve Dochy, F. (2013). A meta-analysis of the effects of face-to-face cooperative learning: Do recent studies falsify or verify earlier findings?. Educational Research Review, 10, 133–149. https://doi.org/10.1016/j.edurev.2013.02.002 (EN, erişim: 2026-10-31)
+4. Wisniewski, B., Zierer, K. ve Hattie, J. (2020). The power of feedback revisited: A meta-analysis of educational feedback research. Frontiers in Psychology, 10, 3087. https://doi.org/10.3389/fpsyg.2019.03087 (EN, erişim: 2026-10-31)
+5. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+6. Durlak, J. A., Weissberg, R. P., Dymnicki, A. B., Taylor, R. D. ve Schellinger, K. B. (2011). The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions. Child Development, 82(1), 405–432. https://doi.org/10.1111/j.1467-8624.2010.01564.x (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
 
 ---
 
@@ -2316,6 +2604,107 @@ AGS eğitim bilimleri alt testinde öğrenme psikolojisi ve öğretim yöntem ve
 7. Kirschner, P. A. (2017). Stop propagating the learning styles myth. Computers & Education, 106, 166–171. https://doi.org/10.1016/j.compedu.2016.12.006 (EN, erişim: 2026-10-31)
 8. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
 9. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+
+---
+
+# Öz Düzenlemeli Öğrenme Nedir? Evreler ve Sınıf Uygulaması
+
+> Öz düzenlemeli öğrenme nedir? Zimmerman'ın üç evresi (ön düşünme, performans, öz yansıtma), modeller, öz düzenleme eğitiminin etkisi ve sınıfta nasıl öğretilir.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/oz-duzenlemeli-ogrenme-nedir
+
+## Özet
+
+- Öz düzenleme, öğrencinin kendi öğrenmesi için **hedef koyması, stratejisini seçmesi, kendini izlemesi ve sonucu değerlendirmesi**.
+- Zimmerman'a göre süreç üç evreli bir döngü: **ön düşünme, performans, öz yansıtma**.
+- Panadero (2017) alandaki **altı modeli** karşılaştırıyor; ortak payda hedef, izleme ve yansıtma.
+- Okul düzeyindeki müdahaleler üzerine bir meta-analiz, öz düzenlemenin **öğretilebildiğini** gösteriyor.
+- Etkili stratejiler: kendini sınama ve aralıklı tekrar; yeniden okumak değil.
+
+Öz düzenlemeli öğrenme, "öğrenmeyi öğrenmek" sözünün bilimsel karşılığı: öğrencinin kendi öğrenmesini planlaması, izlemesi ve değerlendirmesi. Çalışma alışkanlığından sınav başarısına kadar birçok sonucun arkasında bu beceri var. Bu yazı kavramı, en bilinen modeli, öğretilip öğretilemeyeceğine dair kanıtları ve sınıfta nasıl uygulanacağını anlatıyor.[1]
+
+## Kavram
+
+Zimmerman öz düzenlemeyi, öğrencinin kendi düşüncelerini, duygularını ve davranışlarını öğrenme hedeflerine ulaşmak için planlı ve döngüsel biçimde yönetmesi olarak tanımlıyor; ona göre öz düzenleme bir zihinsel yetenek ya da akademik performans değil, öğrencinin zihinsel yeteneklerini akademik becerilere dönüştürdüğü **kendini yönetme süreci**.[1] Bu tanım, öz düzenlemenin zekâyla değil, öğrenilebilir stratejilerle ilgili olduğunu vurguluyor.
+
+## Zimmerman'ın üç evresi
+
+Zimmerman süreci üç evreli bir döngü olarak modelliyor:[1]
+
+| Evre | Öğrencinin yaptığı | Örnek |
+|---|---|---|
+| Ön düşünme | Görevi çözümler, hedef koyar, plan yapar; öz yeterlik ve ilgi bu evrede belirleyici | "Bu hafta 20 kelime öğreneceğim, her gün 10 dakika" |
+| Performans | Stratejiyi uygular, kendini izler ve denetler | Kelimeleri kartla çalışırken bildiklerini ayırmak |
+| Öz yansıtma | Sonucu değerlendirir, nedenini yorumlar, bir sonrakini ayarlar | "Sesli tekrar işe yaradı, yazarak çalışmak yaramadı" |
+
+Öz yansıtma evresinin sonuçları bir sonraki ön düşünme evresini besliyor; döngü böylece her görevde biraz daha gelişiyor.
+
+## Modeller
+
+Öz düzenleme üzerine tek bir model yok. Panadero 2017 tarihli derlemesinde alandaki altı yaygın modeli (Zimmerman, Boekaerts, Winne ve Hadwin, Pintrich, Efklides ile Hadwin, Järvelä ve Miller'ın modelleri) karşılaştırdı. Modeller bilişin, motivasyonun ve duyguların rolüne farklı ağırlık veriyor; ama hepsinde hedef koyma, izleme ve yansıtma ortak.[2]
+
+## Öğretilebilir mi?
+
+Evet, ve bu öğretmen için en önemli bulgu. Dignath ve Büttner, ilkokul ve ortaokul düzeyinde öz düzenlemeyi geliştirmeye yönelik müdahale çalışmalarını meta-analizle birleştirdi ve öz düzenleme eğitiminin akademik başarı, strateji kullanımı ve motivasyon üzerinde olumlu etkiler gösterdiğini bildirdi; etkiler müdahalenin içeriğine ve uygulayana göre değişiyordu.[3]
+
+Öğrencinin seçtiği stratejilerin niteliği de belirleyici. Dunlosky ve arkadaşlarına göre öğrencilerin en sık kullandığı yeniden okuma ve altını çizme yararı düşük teknikler; kendini sınama ve aralıklı tekrar ise en yüksek yararlı iki teknik.[4] Kendini sınamak aynı zamanda bir izleme aracı: Roediger ve Karpicke'nin deneylerinde metni yeniden okuyan öğrenciler ne kadar hatırlayacaklarını olduğundan fazla tahmin etti, önceden sınananlar ise daha çok hatırladı.[5]
+
+## Öz düzenleme neden zor?
+
+Öz düzenlemenin önündeki en büyük engel, öğrencilerin kendi öğrenmelerini doğru değerlendirememesi. Roediger ve Karpicke'nin deneylerinde metni tekrar tekrar okuyan öğrenciler, hatırlayacakları miktarı kendini sınayan öğrencilerden daha yüksek tahmin etti; ama bir hafta sonra daha az hatırladılar.[5] Yeniden okumak tanıdıklık hissi yarattığı için "öğrendim" yanılsaması veriyor. Bu yüzden öz yansıtma evresinin gerçek kanıta dayanması gerekiyor: kendini sınamak, öğrencinin neyi gerçekten bildiğini görmesinin en güvenilir yolu. Dunlosky ve arkadaşlarının değerlendirmesinde de kendini sınama, aralıklı tekrarla birlikte yararı en yüksek bulunan teknik.[4]
+
+Motivasyon da öz düzenlemenin parçası. Zimmerman'ın modelinde ön düşünme evresi yalnız plan yapmayı değil, öğrencinin kendine güvenini (öz yeterlik), göreve ilgisini ve hedef yönelimini de içeriyor; görevi başarabileceğine inanmayan öğrenci plan yapmaya da başlamıyor.[1] Panadero'nun karşılaştırdığı modellerin bir kısmı duyguların ve motivasyonun düzenlenmesine bilişsel stratejiler kadar ağırlık veriyor.[2]
+
+## Sınıfta öz düzenleme
+
+Öz düzenleme kendiliğinden gelişmiyor; açıkça öğretilmesi gerekiyor. Sınıfta işe yarayan bazı uygulamalar:
+
+- **Hedef ve plan:** Ödev ya da proje başında öğrenciye kendi hedefini ve planını yazdırmak.
+- **İzleme araçları:** Kendini sınama soruları, kontrol listeleri, "trafik ışığı" kartlarıyla anlama düzeyini işaretleme.
+- **Geri bildirim:** Öğrencinin bir sonraki adımını gösteren geri bildirim; Wisniewski ve arkadaşlarının meta-analizine göre geri bildirimin etkisi taşıdığı bilginin içeriğine bağlı.[6]
+- **Yansıtma:** Ödev sonunda "neyi iyi yaptım, neyi değiştireceğim" soruları.
+- **Modelleme:** Öğretmenin bir problemi çözerken düşünme sürecini sesli anlatması.
+
+## Maarif Modeli ve AGS
+
+MEB'in 2024 genelgesi, Türkiye Yüzyılı Maarif Modeli programlarının bileşenleri arasında **eğilimleri** ve **sosyal-duygusal öğrenme becerilerini** sayıyor; öz yönetim ve öğrenmeye yönelik tutumlar bu bileşenlerle doğrudan ilişkili.[7] AGS'nin eğitim bilimleri alt testinde öğrenme psikolojisi ile öğretim yöntem ve teknikleri ayrı konular; öz düzenleme bu başlıklarda karşılaşılabilecek bir kavram.[8] Yakın kavram için [üstbiliş nedir?](https://bote.web.tr/blog/ustbilis-nedir)
+
+## Sık Sorulan Sorular
+
+### Öz düzenlemeli öğrenme nedir?
+
+Öğrencinin kendi öğrenme sürecini yönetmesi: hedef koyması, uygun stratejileri seçmesi, öğrenirken kendini izlemesi ve sonunda sonucu değerlendirip bir sonraki adımı ayarlaması.
+
+### Zimmerman'ın öz düzenleme evreleri nelerdir?
+
+Ön düşünme (görevi çözümleme, hedef ve plan, öz yeterlik), performans (öz denetim ve öz gözlem) ve öz yansıtma (öz değerlendirme ve tepkiler). Evreler döngüsel olarak birbirini besliyor.
+
+### Öz düzenleme öğretilebilir mi?
+
+Evet. Dignath ve Büttner'in ilkokul ve ortaokul düzeyindeki müdahale çalışmalarını birleştiren meta-analizi, öz düzenleme eğitiminin akademik başarı ve strateji kullanımı üzerinde olumlu etkiler gösterdiğini bildiriyor.
+
+### Öz düzenleme ile üstbiliş aynı şey mi?
+
+Değil, ama iç içe. Üstbiliş kişinin kendi düşünmesine dair bilgisi ve onu izlemesi; öz düzenleme ise üstbilişin yanında motivasyonu, duyguları ve davranışı da kapsayan daha geniş bir süreç.
+
+### Öğrencilere öz düzenleme nasıl kazandırılır?
+
+Hedef koymayı açıkça öğretmek, çalışırken kendini sınama ve izleme araçları vermek, ödev sonunda "ne işe yaradı, ne yaramadı" yansıtması yaptırmak ve öğretmenin kendi düşünme sürecini sesli modellemesi.
+
+### Öz düzenleme AGS'de çıkar mı?
+
+AGS eğitim bilimleri alt testinin öğrenme psikolojisi ve öğretim yöntemleri konularında karşılaşılabilecek bir kavram.
+
+## Kaynaklar
+
+1. Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory Into Practice, 41(2), 64–70. https://doi.org/10.1207/s15430421tip4102_2 (EN, erişim: 2026-10-31)
+2. Panadero, E. (2017). A review of self-regulated learning: Six models and four directions for research. Frontiers in Psychology, 8, 422. https://doi.org/10.3389/fpsyg.2017.00422 (EN, erişim: 2026-10-31)
+3. Dignath, C. ve Büttner, G. (2008). Components of fostering self-regulated learning among students: A meta-analysis on intervention studies at primary and secondary school level. Metacognition and Learning, 3(3), 231–264. https://doi.org/10.1007/s11409-008-9029-x (EN, erişim: 2026-10-31)
+4. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+5. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-31)
+6. Wisniewski, B., Zierer, K. ve Hattie, J. (2020). The power of feedback revisited: A meta-analysis of educational feedback research. Frontiers in Psychology, 10, 3087. https://doi.org/10.3389/fpsyg.2019.03087 (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
 
 ---
 
@@ -3162,6 +3551,107 @@ Evet. 2026 AGS kılavuzunda eğitim bilimleri ve Türk millî eğitim sistemi al
 5. Menderes İlçe Millî Eğitim Müdürlüğü (MEB) (2026). 2026-2027 Eğitim ve Öğretim Yılı Türkiye Yüzyılı Maarif Modeli Temel Eğitim Taslak Çerçeve Planları Yayımlandı. https://menderes.meb.gov.tr/www/20262027-egitim-ve-ogretim-yili-turkiye-yuzyili-maarif-modeli-temel-egitim-taslak-cerceve-planlari-yayimlandi/icerik/1760/tr (TR, erişim: 2026-10-31)
 6. Durlak, J. A., Weissberg, R. P., Dymnicki, A. B., Taylor, R. D. ve Schellinger, K. B. (2011). The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions. Child Development, 82(1), 405–432. https://doi.org/10.1111/j.1467-8624.2010.01564.x (EN, erişim: 2026-10-31)
 7. Black, P. ve Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74. https://doi.org/10.1080/0969595980050102 (EN, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+
+---
+
+# Üstbiliş Nedir? Bilişin Bilgisi, Düzenlenmesi ve Sınıf
+
+> Üstbiliş (bilişötesi) nedir? Flavell'in tanımı, bilişin bilgisi ve düzenlenmesi, Üstbilişsel Farkındalık Envanteri, ölçme sorunları ve sınıfta öğretimi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ustbilis-nedir
+
+## Özet
+
+- Üstbiliş, kişinin **kendi düşünmesine dair bilgisi** ve onu **izleyip düzenlemesi**; kavramı Flavell 1979'da tanımladı.
+- İki bileşen: **bilişin bilgisi** (ne biliyorum, hangi strateji ne zaman işe yarar) ve **bilişin düzenlenmesi** (planlama, izleme, değerlendirme).
+- Schraw ve Dennison'ın **52 maddelik** Üstbilişsel Farkındalık Envanteri en yaygın ölçeklerden biri.
+- Ölçmek zor: öz bildirim ölçekleri gerçek davranışla her zaman örtüşmüyor (Veenman ve ark. 2006).
+- Sınıfta: düşünmeyi sesli modellemek, kendini sınama ve yansıtma soruları.
+
+Üstbiliş (bilişötesi), kısaca "düşünme hakkında düşünme": bir öğrencinin neyi bildiğini, neyi bilmediğini fark etmesi ve buna göre çalışma biçimini ayarlaması. Başarılı öğrencileri diğerlerinden ayıran özelliklerden biri olarak görülüyor. Bu yazı kavramın kökenini, bileşenlerini, nasıl ölçüldüğünü ve sınıfta nasıl geliştirileceğini anlatıyor.[1]
+
+## Kavramın kökeni
+
+Üstbiliş kavramını gelişim psikoloğu John Flavell 1979'da *American Psychologist*'teki makalesiyle yeni bir araştırma alanı olarak tanımladı. Flavell üstbilişsel bilgiyi kişinin kendisi, görevler ve stratejiler hakkındaki bilgisi olarak; üstbilişsel deneyimleri ise bir bilişsel etkinlik sırasında yaşanan farkındalıklar (örneğin "bunu anlamadım" hissi) olarak ayırdı ve çocukların bu yetiyi gelişim içinde kazandığını vurguladı.[1]
+
+## İki bileşen
+
+Sonraki çalışmalar üstbilişi iki ana bileşende topladı. Schraw ve Dennison'ın çerçevesine göre:[2]
+
+| Bileşen | Alt boyutlar | Örnek |
+|---|---|---|
+| Bilişin bilgisi | Bildirimsel, işlemsel ve koşulsal bilgi | "Tarih konularını tablo yaparak daha iyi hatırlıyorum" |
+| Bilişin düzenlenmesi | Planlama, bilgi yönetimi, izleme, hata ayıklama, değerlendirme | Okurken anlamadığı yerde durup geri dönmek |
+
+Veri notu: Schraw ve Dennison (1994); örnekler bizim.
+
+Koşulsal bilgi özellikle önemli: bir stratejiyi bilmek yetmiyor, **ne zaman ve neden** kullanılacağını bilmek gerekiyor. Örneğin iki öğrenci de "özet çıkarmayı" biliyor olabilir; ama yalnız biri, sınavda kavramlar arası ilişki sorulacaksa özet yerine kavram haritası yapmanın daha işe yarayacağını fark ediyor. Bilişin düzenlenmesi ise bu bilgiyi eyleme geçiriyor: plan yapmak, çalışırken anlayıp anlamadığını izlemek, bir şey ters gidince stratejiyi değiştirmek ve sonunda sonucu değerlendirmek.[2]
+
+## Nasıl ölçülür?
+
+En yaygın araçlardan biri Schraw ve Dennison'ın 1994'te geliştirdiği **Üstbilişsel Farkındalık Envanteri**: 52 madde, iki ana faktör (bilişin bilgisi ve bilişin düzenlenmesi).[2] Envanter Türkçeye de uyarlandı ve Türkiye'deki birçok çalışmada kullanılıyor.
+
+Ama ölçme zor bir konu. Veenman, Van Hout-Wolters ve Afflerbach'ın kavramsal değerlendirmesine göre öz bildirim ölçekleri, öğrencinin görev sırasında gerçekte ne yaptığıyla her zaman örtüşmüyor; insanlar kendi stratejilerini olduğundan farklı bildirebiliyor. Yazarlar sesli düşünme ve görev sırasındaki gözlem gibi "çevrim içi" ölçümlerin, öz bildirim gibi "çevrim dışı" ölçümlerden davranışı daha iyi yordadığını belirtiyor.[3]
+
+## Gelişim içinde üstbiliş
+
+Flavell kavramı gelişimsel bir çerçevede ortaya koydu: küçük çocuklar bir şeyi anlayıp anlamadıklarını izlemekte zorlanıyor, bu yeti yaşla ve deneyimle gelişiyor.[1] Bu, üstbilişin sabit bir özellik değil, eğitimle geliştirilebilecek bir beceri olduğu anlamına geliyor. Veenman ve arkadaşları da üstbilişsel becerilerin hem genel hem alana özgü yanları olduğunu, yani matematikte gelişen izleme becerisinin kısmen okuma gibi başka alanlara da aktarılabildiğini tartışıyor.[3]
+
+Sınıf açısından bu iki sonuç doğuruyor. Birincisi, üstbilişsel stratejileri erken yaşta, basit sorularla ("anladım mı, nereden biliyorum?") öğretmeye başlamak mümkün. İkincisi, stratejiler soyut olarak değil, bir dersin içeriğine gömülü olarak öğretildiğinde daha kalıcı oluyor: okuma dersinde anlama izleme, matematikte çözüm kontrolü, fen deneyinde tahmin ve sonuç karşılaştırması gibi.
+
+## Neden önemli?
+
+Üstbilişin en somut yansıması çalışma alışkanlıklarında görülüyor. Öğrenciler en çok yeniden okuma ve altını çizme gibi yararı düşük tekniklere başvuruyor; kendini sınama ve aralıklı tekrar gibi yararı yüksek teknikleri daha az kullanıyor.[4] Bunun bir nedeni üstbilişsel bir yanılsama: Roediger ve Karpicke'nin deneylerinde metni yeniden okuyan öğrenciler hatırlayacaklarını olduğundan fazla tahmin etti, önceden sınanan öğrenciler ise bir hafta sonra daha fazlasını hatırladı.[5] Yani iyi bir üstbiliş, "bildiğini sanmak" ile "bilmek" arasındaki farkı görebilmek.
+
+## Sınıfta üstbiliş
+
+Üstbiliş öğretilebiliyor. Dignath ve Büttner'in ilkokul ve ortaokuldaki müdahale çalışmalarını birleştiren meta-analizi, üstbilişsel stratejileri açıkça öğreten öz düzenleme eğitimlerinin başarı ve strateji kullanımına olumlu katkı yaptığını gösterdi.[6] Sınıfta işe yarayan uygulamalar:
+
+- **Sesli düşünme:** Öğretmenin bir problemi çözerken "önce neyi biliyorum, neyi bulmam gerekiyor" diye düşünme sürecini sesli anlatması.
+- **Planlama soruları:** Göreve başlamadan "bu görev ne istiyor, hangi stratejiyi kullanacağım".
+- **İzleme:** Okurken ya da çözerken "anladım mı" kontrolleri, kendini sınama.
+- **Değerlendirme:** Bitince "ne işe yaradı, bir dahaki sefere neyi değiştireceğim".
+
+## Maarif Modeli ve AGS
+
+MEB'in 2024 genelgesi Türkiye Yüzyılı Maarif Modeli'nin bileşenleri arasında temel, bütünleşik ve üst düzey düşünme becerilerini içeren **kavramsal becerileri** sayıyor; üstbiliş bu üst düzey düşünmenin parçası.[7] AGS'nin eğitim bilimleri alt testinde öğrenme psikolojisi ve gelişim psikolojisi ayrı konular.[8] Yakın kavram için [öz düzenlemeli öğrenme nedir?](https://bote.web.tr/blog/oz-duzenlemeli-ogrenme-nedir)
+
+## Sık Sorulan Sorular
+
+### Üstbiliş nedir?
+
+Kişinin kendi bilişsel süreçlerine dair bilgisi ve bu süreçleri izleyip düzenlemesi; kısaca "düşünme hakkında düşünme". Kavramı Flavell 1979'da tanımladı.
+
+### Üstbilişin bileşenleri nelerdir?
+
+Bilişin bilgisi (kendi öğrenmen, görevler ve stratejiler hakkında bildiklerin) ve bilişin düzenlenmesi (planlama, izleme ve değerlendirme).
+
+### Üstbiliş ile öz düzenleme farkı nedir?
+
+Üstbiliş düşünmenin bilgisi ve denetimi; öz düzenleme ise üstbilişin yanında motivasyonu, duyguları ve davranışı da kapsayan daha geniş bir süreç.
+
+### Üstbiliş nasıl ölçülür?
+
+En yaygın yol öz bildirim ölçekleri; örneğin Schraw ve Dennison'ın 52 maddelik Üstbilişsel Farkındalık Envanteri. Sesli düşünme protokolleri ve görev sırasındaki gözlemler de kullanılıyor; öz bildirimin gerçek davranışla her zaman örtüşmediği biliniyor.
+
+### Üstbiliş öğretilebilir mi?
+
+Evet. Planlama, izleme ve değerlendirme stratejilerini açıkça öğreten müdahalelerin öğrencilerin öz düzenleme ve başarısına olumlu katkı yaptığı meta-analizlerle gösterildi.
+
+### Üstbiliş AGS'de çıkar mı?
+
+AGS eğitim bilimleri alt testinin öğrenme psikolojisi ve gelişim psikolojisi konularında karşılaşılabilecek bir kavram.
+
+## Kaynaklar
+
+1. Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. American Psychologist, 34(10), 906–911. https://doi.org/10.1037/0003-066X.34.10.906 (EN, erişim: 2026-10-31)
+2. Schraw, G. ve Dennison, R. S. (1994). Assessing metacognitive awareness. Contemporary Educational Psychology, 19(4), 460–475. https://doi.org/10.1006/ceps.1994.1033 (EN, erişim: 2026-10-31)
+3. Veenman, M. V. J., Van Hout-Wolters, B. H. A. M. ve Afflerbach, P. (2006). Metacognition and learning: Conceptual and methodological considerations. Metacognition and Learning, 1(1), 3–14. https://doi.org/10.1007/s11409-006-6893-0 (EN, erişim: 2026-10-31)
+4. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+5. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-31)
+6. Dignath, C. ve Büttner, G. (2008). Components of fostering self-regulated learning among students: A meta-analysis on intervention studies at primary and secondary school level. Metacognition and Learning, 3(3), 231–264. https://doi.org/10.1007/s11409-008-9029-x (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
 8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
 
 ---

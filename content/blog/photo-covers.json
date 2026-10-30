@@ -4352,38 +4352,6 @@
     ]
   },
   {
-    "slug": "turkiye-yuzyili-maarif-modeli-nedir",
-    "title": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
-    "alt": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "turkiye-yuzyili-maarif-modeli-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 181747
-    },
-    "variants": [
-      {
-        "file": "turkiye-yuzyili-maarif-modeli-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 34908
-      },
-      {
-        "file": "turkiye-yuzyili-maarif-modeli-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 66008
-      },
-      {
-        "file": "turkiye-yuzyili-maarif-modeli-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 132100
-      }
-    ]
-  },
-  {
     "slug": "bilsem-nedir",
     "title": "BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim",
     "alt": "BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim",
@@ -4540,6 +4508,198 @@
         "width": 1600,
         "height": 900,
         "bytes": 157438
+      }
+    ]
+  },
+  {
+    "slug": "turkiye-yuzyili-maarif-modeli-nedir",
+    "title": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
+    "alt": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "turkiye-yuzyili-maarif-modeli-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181747
+    },
+    "variants": [
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34908
+      },
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66008
+      },
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132100
+      }
+    ]
+  },
+  {
+    "slug": "bicimlendirici-degerlendirme-nedir",
+    "title": "Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar",
+    "alt": "Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bicimlendirici-degerlendirme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183217
+    },
+    "variants": [
+      {
+        "file": "bicimlendirici-degerlendirme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38852
+      },
+      {
+        "file": "bicimlendirici-degerlendirme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 65508
+      },
+      {
+        "file": "bicimlendirici-degerlendirme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 123718
+      }
+    ]
+  },
+  {
+    "slug": "gecerlik-ve-guvenirlik-nedir",
+    "title": "Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar",
+    "alt": "Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "gecerlik-ve-guvenirlik-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183166
+    },
+    "variants": [
+      {
+        "file": "gecerlik-ve-guvenirlik-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39570
+      },
+      {
+        "file": "gecerlik-ve-guvenirlik-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71306
+      },
+      {
+        "file": "gecerlik-ve-guvenirlik-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 135090
+      }
+    ]
+  },
+  {
+    "slug": "oz-duzenlemeli-ogrenme-nedir",
+    "title": "Öz Düzenlemeli Öğrenme Nedir? Evreler ve Sınıf Uygulaması",
+    "alt": "Öz Düzenlemeli Öğrenme Nedir? Evreler ve Sınıf Uygulaması",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "oz-duzenlemeli-ogrenme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 223376
+    },
+    "variants": [
+      {
+        "file": "oz-duzenlemeli-ogrenme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51680
+      },
+      {
+        "file": "oz-duzenlemeli-ogrenme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 88938
+      },
+      {
+        "file": "oz-duzenlemeli-ogrenme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 167380
+      }
+    ]
+  },
+  {
+    "slug": "ustbilis-nedir",
+    "title": "Üstbiliş Nedir? Bilişin Bilgisi, Düzenlenmesi ve Sınıf",
+    "alt": "Üstbiliş Nedir? Bilişin Bilgisi, Düzenlenmesi ve Sınıf",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ustbilis-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 175297
+    },
+    "variants": [
+      {
+        "file": "ustbilis-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 37744
+      },
+      {
+        "file": "ustbilis-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 63208
+      },
+      {
+        "file": "ustbilis-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 118040
+      }
+    ]
+  },
+  {
+    "slug": "is-birlikli-ogrenme-nedir",
+    "title": "İş Birlikli Öğrenme Nedir? Öğeleri, Teknikleri ve Kanıtlar",
+    "alt": "İş Birlikli Öğrenme Nedir? Öğeleri, Teknikleri ve Kanıtlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "is-birlikli-ogrenme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183548
+    },
+    "variants": [
+      {
+        "file": "is-birlikli-ogrenme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38976
+      },
+      {
+        "file": "is-birlikli-ogrenme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67414
+      },
+      {
+        "file": "is-birlikli-ogrenme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 125058
       }
     ]
   }
