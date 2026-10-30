@@ -3742,5 +3742,165 @@
         "bytes": 114930
       }
     ]
+  },
+  {
+    "slug": "turkce-ogretmeni-nasil-olunur",
+    "title": "Türkçe Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama",
+    "alt": "Türkçe Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "turkce-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 165567
+    },
+    "variants": [
+      {
+        "file": "turkce-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34716
+      },
+      {
+        "file": "turkce-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59660
+      },
+      {
+        "file": "turkce-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 109970
+      }
+    ]
+  },
+  {
+    "slug": "matematik-ogretmeni-nasil-olunur",
+    "title": "Matematik Öğretmeni Nasıl Olunur? Ortaokul ve Lise",
+    "alt": "Matematik Öğretmeni Nasıl Olunur? Ortaokul ve Lise",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "matematik-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 168891
+    },
+    "variants": [
+      {
+        "file": "matematik-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35340
+      },
+      {
+        "file": "matematik-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58956
+      },
+      {
+        "file": "matematik-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 111668
+      }
+    ]
+  },
+  {
+    "slug": "fen-bilimleri-ogretmeni-nasil-olunur",
+    "title": "Fen Bilimleri Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "alt": "Fen Bilimleri Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "fen-bilimleri-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 216424
+    },
+    "variants": [
+      {
+        "file": "fen-bilimleri-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 47848
+      },
+      {
+        "file": "fen-bilimleri-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 84054
+      },
+      {
+        "file": "fen-bilimleri-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 164180
+      }
+    ]
+  },
+  {
+    "slug": "sosyal-bilgiler-ogretmeni-nasil-olunur",
+    "title": "Sosyal Bilgiler Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "alt": "Sosyal Bilgiler Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "sosyal-bilgiler-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 201650
+    },
+    "variants": [
+      {
+        "file": "sosyal-bilgiler-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 44686
+      },
+      {
+        "file": "sosyal-bilgiler-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 76296
+      },
+      {
+        "file": "sosyal-bilgiler-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 144394
+      }
+    ]
+  },
+  {
+    "slug": "tarih-ogretmeni-nasil-olunur",
+    "title": "Tarih Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama",
+    "alt": "Tarih Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "tarih-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166385
+    },
+    "variants": [
+      {
+        "file": "tarih-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34386
+      },
+      {
+        "file": "tarih-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59082
+      },
+      {
+        "file": "tarih-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 111734
+      }
+    ]
   }
 ]
