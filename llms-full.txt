@@ -634,6 +634,436 @@ Kılavuza göre AGS'nin bir alt testinde en az 1 net (1 ham puan) bulunmayan ada
 
 ---
 
+# ÖABT Beden Eğitimi Konuları, Soru Dağılımı ve Netler
+
+> ÖABT Beden Eğitimi konuları: 16 başlık, en ağırı spor bilimlerinin temelleri %16 ve takım sporları %10. 2025-2026 ortalama netler ve P2-01 puanı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 6 dk okuma · https://bote.web.tr/blog/oabt-beden-egitimi-konulari
+
+## Özet
+
+- ÖABT Beden Eğitimi **50 soru** ve **70 dakika**; puan türü **MEB-AGS-P2-01**.
+- **On altı konu**; en ağırları beden eğitimi ve sporun temelleri **%16** ve takım sporları **%10**, diğerleri %4-8.
+- 2026'da 13.490 aday girdi, ortalama **15,8 net** oldu (2025'te 15,2).
+- ÖABT standart puanı MEB-AGS-P2-01 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Beden Eğitimi, konu sayısı en fazla olan ÖABT alanı: kılavuz 16 ayrı başlık sayıyor. Ortalama netin en düşük olduğu alanlardan biri de bu. Bu yazı testin konularını, her konudan yaklaşık kaç soru geldiğini, 2025 ve 2026'daki ortalama netleri ve netin P2-01 puanına nasıl yansıdığını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## ÖABT Beden Eğitimi kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Beden Eğitimi testi **50 çoktan seçmeli sorudan** oluşuyor ve **70 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[1] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 70 dakika, 50 soru için soru başına yaklaşık **84 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[1]
+
+## Beden Eğitimi konu dağılımı ve yaklaşık soru sayısı
+
+Kılavuzun Tablo-1'i her konunun testteki **yaklaşık** ağırlığını veriyor. Aşağıdaki son sütun, bu yüzdelerin 50 soruya karşılığı; ÖSYM ağırlıkları yaklaşık verdiği için gerçek soru sayısı bir iki soru oynayabilir.[1]
+
+| Konu | Yaklaşık ağırlık | Yaklaşık soru (50 üzerinden) |
+|---|---|---|
+| Beden eğitimi ve sporun temelleri | %16 | 8 |
+| İnsan anatomisi ve kinesiyoloji | %8 | 4 |
+| Sağlık bilgisi ve ilk yardım | %6 | 3 |
+| Egzersiz fizyolojisi | %8 | 4 |
+| Antrenman bilgisi | %6 | 3 |
+| Fiziksel uygunluk | %6 | 3 |
+| Egzersiz ve beslenme | %4 | 2 |
+| Engelliler için beden eğitimi ve spor | %4 | 2 |
+| Psikomotor gelişim | %6 | 3 |
+| Beden eğitimi ve spor yönetimi | %4 | 2 |
+| Beceri öğrenimi | %6 | 3 |
+| Atletizm | %4 | 2 |
+| Takım sporları | %10 | 5 |
+| Ritim eğitimi ve dans, halk oyunları | %4 | 2 |
+| Jimnastik | %4 | 2 |
+| Eğitsel oyunlar | %4 | 2 |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; soru sayısı sütunu bizim hesabımız (ağırlık × 50). Erişim 30 Ekim 2026.
+
+Tablo dağınık bir test gösteriyor: yalnız iki konu 5 soru ve üstünde, **beden eğitimi ve sporun temelleri** (8 soru) ve **takım sporları** (5 soru). Anatomi ve kinesiyoloji ile egzersiz fizyolojisi 4'er soru; kalan on iki konunun her biri 2-3 soru.[1] Konuları üç kümede düşünmek işe yarıyor: bilimsel temeller (anatomi, fizyoloji, antrenman, fiziksel uygunluk, beslenme, sağlık), öğrenme ve gelişim (psikomotor gelişim, beceri öğrenimi, engelliler için beden eğitimi) ve spor dalları (atletizm, takım sporları, jimnastik, ritim ve dans, eğitsel oyunlar). Ağırlıklar toplandığında bilimsel temeller yaklaşık %38, spor dalları %26, öğrenme ve gelişim %16 ediyor; sporun temelleri (%16) ve spor yönetimi (%4) bu kümelerin dışında kalıyor.
+
+## ÖABT Beden Eğitimi ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre ÖABT Beden Eğitimi testine 2025'te 15.392, 2026'da 13.490 aday girdi. Ortalama net 2025'te **15,2** (standart sapma 8,2), 2026'da **15,8** (standart sapma 9,1) oldu.[2][3]
+
+Bu iki sayı, netinizin puana nasıl yansıyacağını kabaca gösteriyor. Kılavuza göre ÖABT neti, o testteki adayların ortalaması ve standart sapması kullanılarak ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla:
+
+| Net | Yaklaşık standart puan |
+|---|---|
+| 15,8 (ortalama) | 50 |
+| 24,9 | 60 |
+| 34 | 70 |
+
+Hesap yaklaşık: ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait; ayrıca her yılın ortalaması farklı.[1][3] Ortalama düşük, dağılım geniş: 2026'da 25 net civarı ortalamanın bir standart sapma, 34 net civarı iki standart sapma üstüne denk geliyordu. Bu alanda 50 sorunun yarısını netleyen aday üst gruba giriyor.
+
+## MEB-AGS-P2-01 puanı nasıl hesaplanıyor?
+
+Beden Eğitimi adayının puan türü **MEB-AGS-P2-01**. Bu puanda ÖABT standart puanı **%50** ağırlık taşıyor; diğer %50 AGS'nin altı alt testinden geliyor:[1]
+
+| Test | Ağırlık |
+|---|---|
+| AGS Sözel yetenek | %10 |
+| AGS Sayısal yetenek | %10 |
+| AGS Tarih | %7,5 |
+| AGS Türkiye coğrafyası | %5 |
+| AGS Eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 |
+| AGS Mevzuat | %5 |
+| ÖABT Beden Eğitimi | %50 |
+
+Ağırlıklı puan 100 üzerinden puana dönüştürülüyor ve başarı sırası **yalnız Beden Eğitimi adayları arasında** belirleniyor; yani rakipleriniz aynı ÖABT'ye giren adaylar.[1] ÖABT'de en az 1 net yapmayan adaya ÖABT standart puanı, dolayısıyla MEB-AGS-P2-01 puanı hesaplanmıyor. Tablo, ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olduğunu gösteriyor: ÖABT'deki bir standart sapmalık fark, AGS'nin herhangi bir alt testindekinden dört ila on kat daha fazla puan ediyor. Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-01 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[3]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[3][1]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[1] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[4]
+
+## ÖABT Beden Eğitimi için çalışma planı
+
+Çok konulu bir testte en büyük risk, birkaç konuya gömülüp diğerlerini hiç görmemek. Önce 16 konunun her biri için tek sayfalık bir özet çıkarın, ardından ağırlığa göre derinleşin: sporun temelleri, takım sporları, anatomi ve egzersiz fizyolojisi. Takım sporlarında kurallar, oyun sistemleri ve temel teknikleri spor dalı bazında tablolaştırın. Fizyoloji ve antrenman bilgisi birbirine bağlı; enerji sistemleri, yüklenme ilkeleri ve fiziksel uygunluk bileşenlerini birlikte çalışmak üç konuyu birden güçlendirir. Psikomotor gelişim ve beceri öğrenimi, AGS'nin eğitim bilimleri alt testindeki gelişim ve öğrenme psikolojisiyle kesişiyor.[1] Küçük konuları (her biri 2 soru) son aylarda aralıklarla tekrar etmek, bu testte en verimli net kaynağı olabilir.
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[5] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[6] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Beden Eğitimi testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Beden Eğitimi (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-beden-egitimi-testi-ve-cevap-anahtari-10-26ale083.pdf)[7] ve [2025 ÖABT Beden Eğitimi (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/OABT/beden_egitimi_testi13072025.pdf).[8] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[9] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[4] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[10] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Beden Eğitimi kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Beden Eğitimi testi 50 sorudan oluşuyor ve 70 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Beden Eğitimi konuları neler?
+
+Kılavuza göre on altı konu: beden eğitimi ve sporun temelleri (%16), anatomi ve kinesiyoloji (%8), sağlık bilgisi ve ilk yardım (%6), egzersiz fizyolojisi (%8), antrenman bilgisi (%6), fiziksel uygunluk (%6), egzersiz ve beslenme (%4), engelliler için beden eğitimi ve spor (%4), psikomotor gelişim (%6), spor yönetimi (%4), beceri öğrenimi (%6), atletizm (%4), takım sporları (%10), ritim eğitimi ve dans, halk oyunları (%4), jimnastik (%4), eğitsel oyunlar (%4).
+
+### ÖABT Beden Eğitimi ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 13.490 aday ortalama 15,8 net yaptı, standart sapma 9,1 oldu. 2025'te ortalama 15,2 netti.
+
+### ÖABT Beden Eğitimi puan türü nedir?
+
+MEB-AGS-P2-01. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Beden Eğitimi adayları arasında belirleniyor.
+
+### ÖABT Beden Eğitimi 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Beden Eğitimi çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Beden Eğitimi testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+6. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+7. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# ÖABT Biyoloji Konuları, Soru Dağılımı ve Netler
+
+> ÖABT Biyoloji konuları: insan ve hayvan biyolojisi %28, hücre ve metabolizma %20, genetik %20. 2025-2026 ortalama netler ve P2-02 puanı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 6 dk okuma · https://bote.web.tr/blog/oabt-biyoloji-konulari
+
+## Özet
+
+- ÖABT Biyoloji **50 soru** ve **70 dakika**; puan türü **MEB-AGS-P2-02**.
+- Altı konu; en ağırları **insan ve hayvan biyolojisi (%28)**, **hücre ve metabolizma (%20)** ve **genetik (%20)**.
+- 2026'da 3.818 aday girdi, ortalama **22 net** oldu (2025'te 22,2).
+- ÖABT standart puanı MEB-AGS-P2-02 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Biyoloji, lise biyoloji öğretmenliği adaylarının testi. 2026'da standart sapmanın en yüksek olduğu ÖABT alanıydı: adaylar arasındaki fark bu testte en belirgin. Bu yazı testin konularını, her konudan yaklaşık kaç soru geldiğini, 2025 ve 2026'daki ortalama netleri ve netin P2-02 puanına nasıl yansıdığını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## ÖABT Biyoloji kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Biyoloji testi **50 çoktan seçmeli sorudan** oluşuyor ve **70 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[1] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 70 dakika, 50 soru için soru başına yaklaşık **84 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[1]
+
+## Biyoloji konu dağılımı ve yaklaşık soru sayısı
+
+Kılavuzun Tablo-1'i her konunun testteki **yaklaşık** ağırlığını veriyor. Aşağıdaki son sütun, bu yüzdelerin 50 soruya karşılığı; ÖSYM ağırlıkları yaklaşık verdiği için gerçek soru sayısı bir iki soru oynayabilir.[1]
+
+| Konu | Yaklaşık ağırlık | Yaklaşık soru (50 üzerinden) |
+|---|---|---|
+| Hücre ve metabolizma | %20 | 10 |
+| Bitki biyolojisi | %12 | 6 |
+| İnsan ve hayvan biyolojisi | %28 | 14 |
+| Ekoloji | %12 | 6 |
+| Canlıların sınıflandırılması | %8 | 4 |
+| Genetik | %20 | 10 |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; soru sayısı sütunu bizim hesabımız (ağırlık × 50). Erişim 30 Ekim 2026.
+
+En büyük blok yaklaşık 14 soruyla **insan ve hayvan biyolojisi**; hücre ve metabolizma ile genetik 10'ar, bitki biyolojisi ve ekoloji 6'şar, canlıların sınıflandırılması 4 soru.[1] İlk üç konu testin yaklaşık üçte ikisi. Hücre ve metabolizma ile genetik birbirine sıkı bağlı (hücre bölünmesi, kalıtımın moleküler temeli); insan ve hayvan biyolojisi ise sistemler üzerinden geniş bir ezber yükü taşıyor.
+
+## ÖABT Biyoloji ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre ÖABT Biyoloji testine 2025'te 4.488, 2026'da 3.818 aday girdi. Ortalama net 2025'te **22,2** (standart sapma 9,8), 2026'da **22** (standart sapma 12,2) oldu.[2][3]
+
+Bu iki sayı, netinizin puana nasıl yansıyacağını kabaca gösteriyor. Kılavuza göre ÖABT neti, o testteki adayların ortalaması ve standart sapması kullanılarak ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla:
+
+| Net | Yaklaşık standart puan |
+|---|---|
+| 22 (ortalama) | 50 |
+| 34,2 | 60 |
+| 46,4 | 70 |
+
+Hesap yaklaşık: ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait; ayrıca her yılın ortalaması farklı.[1][3] Ortalama iki yılda neredeyse aynı kaldı, ama standart sapma 9,8'den 12,2'ye çıktı. Dağılım bu kadar geniş olunca netin puana dönüşümü yavaşlıyor: 2026'da ortalamanın bir standart sapma üstü 34 net civarıydı.
+
+## MEB-AGS-P2-02 puanı nasıl hesaplanıyor?
+
+Biyoloji adayının puan türü **MEB-AGS-P2-02**. Bu puanda ÖABT standart puanı **%50** ağırlık taşıyor; diğer %50 AGS'nin altı alt testinden geliyor:[1]
+
+| Test | Ağırlık |
+|---|---|
+| AGS Sözel yetenek | %10 |
+| AGS Sayısal yetenek | %10 |
+| AGS Tarih | %7,5 |
+| AGS Türkiye coğrafyası | %5 |
+| AGS Eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 |
+| AGS Mevzuat | %5 |
+| ÖABT Biyoloji | %50 |
+
+Ağırlıklı puan 100 üzerinden puana dönüştürülüyor ve başarı sırası **yalnız Biyoloji adayları arasında** belirleniyor; yani rakipleriniz aynı ÖABT'ye giren adaylar.[1] ÖABT'de en az 1 net yapmayan adaya ÖABT standart puanı, dolayısıyla MEB-AGS-P2-02 puanı hesaplanmıyor. Tablo, ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olduğunu gösteriyor: ÖABT'deki bir standart sapmalık fark, AGS'nin herhangi bir alt testindekinden dört ila on kat daha fazla puan ediyor. Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-02 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[3]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[3][1]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[1] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[4]
+
+## ÖABT Biyoloji için çalışma planı
+
+Hücre ve metabolizma ile başlayıp genetiğe geçin; ikisi birlikte 20 soru ve birbirinin önkoşulu. Ardından insan ve hayvan biyolojisini sistem sistem çalışın; her sistem için yapı, işleyiş ve düzenleme üçlüsünü bir şemada toplamak, soruların istediği karşılaştırmaları kolaylaştırır. Bitki biyolojisi ve ekoloji 6'şar soruluk ama kavram ağırlıklı; kısa özetlerle tutulabilir. Sınıflandırma 4 soru; hiyerarşiyi bir ağaç şemasında görmek ezberi azaltır. 70 dakikalık sürede soru başına yaklaşık 84 saniye düşüyor; deney ve grafik yorumlama sorularında süreyi ayrıca ölçün. Bu alanın adayı AGS'nin sayısal yetenek alt testindeki grafik ve tablo yorumlama sorularında da avantajlı olabilir.[1]
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[5] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[6] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Biyoloji testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Biyoloji (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-biyoloji-testi-ve-cevap-anahtari-10-266qx0zq.pdf)[7] ve [2025 ÖABT Biyoloji (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/OABT/biyoloji_testi13072025.pdf).[8] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[9] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[4] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[10] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Biyoloji kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Biyoloji testi 50 sorudan oluşuyor ve 70 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Biyoloji konuları neler?
+
+Kılavuza göre altı konu: hücre ve metabolizma (%20), bitki biyolojisi (%12), insan ve hayvan biyolojisi (%28), ekoloji (%12), canlıların sınıflandırılması (%8) ve genetik (%20).
+
+### ÖABT Biyoloji ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 3.818 aday ortalama 22 net yaptı, standart sapma 12,2 oldu. 2025'te ortalama 22,2 netti.
+
+### ÖABT Biyoloji puan türü nedir?
+
+MEB-AGS-P2-02. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Biyoloji adayları arasında belirleniyor.
+
+### ÖABT Biyoloji 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Biyoloji çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Biyoloji testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+6. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+7. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# ÖABT Coğrafya Konuları, Soru Dağılımı ve Netler
+
+> ÖABT Coğrafya konuları: fiziki coğrafya %40, beşerî ve ekonomik coğrafya %40, kıtalar ve ülkeler %20. 2025-2026 ortalama netler ve P2-03 puanı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 6 dk okuma · https://bote.web.tr/blog/oabt-cografya-konulari
+
+## Özet
+
+- ÖABT Coğrafya **50 soru** ve **70 dakika**; puan türü **MEB-AGS-P2-03**.
+- Üç konu: **fiziki coğrafya %40**, **beşerî ve ekonomik coğrafya %40**, kıtalar ve ülkeler coğrafyası **%20**.
+- 2026'da 6.244 aday girdi, ortalama **16,7 net** oldu (2025'te 17,3).
+- ÖABT standart puanı MEB-AGS-P2-03 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Coğrafya, lise coğrafya öğretmenliği adaylarının testi ve yapısı en sade alanlardan biri: kılavuz yalnız üç konu sayıyor. Bu yazı testin konularını, her konudan yaklaşık kaç soru geldiğini, 2025 ve 2026'daki ortalama netleri ve netin P2-03 puanına nasıl yansıdığını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## ÖABT Coğrafya kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Coğrafya testi **50 çoktan seçmeli sorudan** oluşuyor ve **70 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[1] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 70 dakika, 50 soru için soru başına yaklaşık **84 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[1]
+
+## Coğrafya konu dağılımı ve yaklaşık soru sayısı
+
+Kılavuzun Tablo-1'i her konunun testteki **yaklaşık** ağırlığını veriyor. Aşağıdaki son sütun, bu yüzdelerin 50 soruya karşılığı; ÖSYM ağırlıkları yaklaşık verdiği için gerçek soru sayısı bir iki soru oynayabilir.[1]
+
+| Konu | Yaklaşık ağırlık | Yaklaşık soru (50 üzerinden) |
+|---|---|---|
+| Fiziki coğrafya | %40 | 20 |
+| Beşerî ve ekonomik coğrafya | %40 | 20 |
+| Kıtalar ve ülkeler coğrafyası | %20 | 10 |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; soru sayısı sütunu bizim hesabımız (ağırlık × 50). Erişim 30 Ekim 2026.
+
+Test iki büyük bloğa eşit bölünüyor: yaklaşık **20 soru fiziki coğrafya**, 20 soru **beşerî ve ekonomik coğrafya**. Kalan 10 soru kıtalar ve ülkeler coğrafyasından.[1] Başlıkların az olması konuların dar olduğu anlamına gelmiyor: fiziki coğrafya iklim, yer şekilleri, hidrografya ve toprak gibi geniş alt alanları; beşerî ve ekonomik coğrafya nüfus, yerleşme ve ekonomik faaliyetleri kapsıyor. Kılavuz alt konuları ayrıntılandırmadığı için bu bölümleme ders programlarından geliyor, resmî ağırlık değil.
+
+## ÖABT Coğrafya ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre ÖABT Coğrafya testine 2025'te 6.947, 2026'da 6.244 aday girdi. Ortalama net 2025'te **17,3** (standart sapma 8,9), 2026'da **16,7** (standart sapma 10,2) oldu.[2][3]
+
+Bu iki sayı, netinizin puana nasıl yansıyacağını kabaca gösteriyor. Kılavuza göre ÖABT neti, o testteki adayların ortalaması ve standart sapması kullanılarak ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla:
+
+| Net | Yaklaşık standart puan |
+|---|---|
+| 16,7 (ortalama) | 50 |
+| 26,9 | 60 |
+| 37,1 | 70 |
+
+Hesap yaklaşık: ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait; ayrıca her yılın ortalaması farklı.[1][3] 2026'da ortalama 2025'e göre 0,6 net düştü, dağılım genişledi. Ortalamanın bir standart sapma üstü 27 net civarı.
+
+## MEB-AGS-P2-03 puanı nasıl hesaplanıyor?
+
+Coğrafya adayının puan türü **MEB-AGS-P2-03**. Bu puanda ÖABT standart puanı **%50** ağırlık taşıyor; diğer %50 AGS'nin altı alt testinden geliyor:[1]
+
+| Test | Ağırlık |
+|---|---|
+| AGS Sözel yetenek | %10 |
+| AGS Sayısal yetenek | %10 |
+| AGS Tarih | %7,5 |
+| AGS Türkiye coğrafyası | %5 |
+| AGS Eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 |
+| AGS Mevzuat | %5 |
+| ÖABT Coğrafya | %50 |
+
+Ağırlıklı puan 100 üzerinden puana dönüştürülüyor ve başarı sırası **yalnız Coğrafya adayları arasında** belirleniyor; yani rakipleriniz aynı ÖABT'ye giren adaylar.[1] ÖABT'de en az 1 net yapmayan adaya ÖABT standart puanı, dolayısıyla MEB-AGS-P2-03 puanı hesaplanmıyor. Tablo, ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olduğunu gösteriyor: ÖABT'deki bir standart sapmalık fark, AGS'nin herhangi bir alt testindekinden dört ila on kat daha fazla puan ediyor. Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-03 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[3]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[3][1]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[1] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[4]
+
+## ÖABT Coğrafya için çalışma planı
+
+İki büyük bloğu eşit zamanla çalışın ve her ikisinde de harita okumayı merkeze koyun: fiziki coğrafyada iklim ve yer şekli dağılışları, beşerî coğrafyada nüfus ve ekonomik faaliyet dağılışları büyük ölçüde harita üzerinden soruluyor. Kıtalar ve ülkeler coğrafyasında bölgelere göre ülke özeti çıkarmak (iklim, nüfus, ekonomi, öne çıkan özellikler) 10 soruluk bloğu yönetilebilir kılar. Bu alanın adayı AGS'nin Türkiye coğrafyası alt testinde avantajlı: 2026'da genel ortalama 6 soruda 2,2 netti ve test P2-03 puanında %5 ağırlık taşıyor.[3][1] Türkiye örneklerini ÖABT çalışmasına katmak, iki sınava birlikte hazırlanmanın en kolay yolu. Grafik ve tablo yorumlama becerisi de AGS'nin sayısal yetenek alt testinde işe yarıyor.
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[5] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[6] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Coğrafya testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Coğrafya (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-cografya-testi-ve-cevap-anahtari-10-261rc94c.pdf)[7] ve [2025 ÖABT Coğrafya (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/OABT/cografya_testi13072025.pdf).[8] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[9] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[4] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[10] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Coğrafya kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Coğrafya testi 50 sorudan oluşuyor ve 70 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Coğrafya konuları neler?
+
+Kılavuza göre üç konu var: fiziki coğrafya (%40), beşerî ve ekonomik coğrafya (%40) ve kıtalar ve ülkeler coğrafyası (%20).
+
+### ÖABT Coğrafya ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 6.244 aday ortalama 16,7 net yaptı, standart sapma 10,2 oldu. 2025'te ortalama 17,3 netti.
+
+### ÖABT Coğrafya puan türü nedir?
+
+MEB-AGS-P2-03. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Coğrafya adayları arasında belirleniyor.
+
+### ÖABT Coğrafya 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Coğrafya çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Coğrafya testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+6. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+7. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
 # ÖABT Fen Bilimleri Konuları, Soru Dağılımı ve Netler
 
 > ÖABT Fen Bilimleri konuları: fizik %32, kimya %30, biyoloji %26, yer bilimi, astronomi ve çevre %12. 2025-2026 ortalama netler ve P2-04 puanı.
@@ -775,6 +1205,146 @@ MEB-AGS-P2-04. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin a
 
 ---
 
+# ÖABT Fizik Konuları, Soru Dağılımı ve Netler
+
+> ÖABT Fizik konuları: mekanik %30, elektrik ve manyetizma %24, modern fizik %20, dalgalar ve optik %16. 2025-2026 ortalama netler ve P2-05.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 6 dk okuma · https://bote.web.tr/blog/oabt-fizik-konulari
+
+## Özet
+
+- ÖABT Fizik **50 soru** ve **90 dakika**; puan türü **MEB-AGS-P2-05**.
+- Beş konu: **mekanik %30**, **elektrik ve manyetizma %24**, modern fizik **%20**, dalgalar ve optik **%16**, maddenin mekanik ve ısıl özellikleri **%10**.
+- 2026'da 2.509 aday girdi, ortalama **19,5 net** oldu (2025'te 20,7).
+- ÖABT standart puanı MEB-AGS-P2-05 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Fizik, lise fizik öğretmenliği adaylarının testi; 2026'da en az adayın girdiği ÖABT alanıydı. Süresi 90 dakika. Bu yazı testin konularını, her konudan yaklaşık kaç soru geldiğini, 2025 ve 2026'daki ortalama netleri ve netin P2-05 puanına nasıl yansıdığını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## ÖABT Fizik kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Fizik testi **50 çoktan seçmeli sorudan** oluşuyor ve **90 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[1] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 90 dakika, 50 soru için soru başına yaklaşık **108 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[1]
+
+## Fizik konu dağılımı ve yaklaşık soru sayısı
+
+Kılavuzun Tablo-1'i her konunun testteki **yaklaşık** ağırlığını veriyor. Aşağıdaki son sütun, bu yüzdelerin 50 soruya karşılığı; ÖSYM ağırlıkları yaklaşık verdiği için gerçek soru sayısı bir iki soru oynayabilir.[1]
+
+| Konu | Yaklaşık ağırlık | Yaklaşık soru (50 üzerinden) |
+|---|---|---|
+| Mekanik | %30 | 15 |
+| Elektrik ve manyetizma | %24 | 12 |
+| Maddenin mekanik ve ısıl özellikleri | %10 | 5 |
+| Dalgalar ve optik | %16 | 8 |
+| Modern fizik | %20 | 10 |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; soru sayısı sütunu bizim hesabımız (ağırlık × 50). Erişim 30 Ekim 2026.
+
+En büyük blok yaklaşık 15 soruyla **mekanik**; elektrik ve manyetizma 12, modern fizik 10, dalgalar ve optik 8, maddenin mekanik ve ısıl özellikleri 5 soru.[1] Klasik fizik (mekanik, elektrik ve manyetizma, dalgalar ve optik, ısı) testin yaklaşık beşte dördü (%80). Modern fiziğin %20'lik payı dikkat çekici: yaklaşık her beş sorudan biri görelilik, kuantum ve atom fiziği gibi lisans düzeyi konulardan gelebilir; kılavuz alt konuları ayrıntılandırmıyor.
+
+## ÖABT Fizik ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre ÖABT Fizik testine 2025'te 2.827, 2026'da 2.509 aday girdi. Ortalama net 2025'te **20,7** (standart sapma 12,3), 2026'da **19,5** (standart sapma 10,6) oldu.[2][3]
+
+Bu iki sayı, netinizin puana nasıl yansıyacağını kabaca gösteriyor. Kılavuza göre ÖABT neti, o testteki adayların ortalaması ve standart sapması kullanılarak ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla:
+
+| Net | Yaklaşık standart puan |
+|---|---|
+| 19,5 (ortalama) | 50 |
+| 30,1 | 60 |
+| 40,7 | 70 |
+
+Hesap yaklaşık: ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait; ayrıca her yılın ortalaması farklı.[1][3] 2025'te standart sapma 12,3 netle alanlar arasında en yüksekti; 2026'da 10,6'ya indi. Ortalamanın bir standart sapma üstü 2026'da 30 net civarıydı.
+
+## MEB-AGS-P2-05 puanı nasıl hesaplanıyor?
+
+Fizik adayının puan türü **MEB-AGS-P2-05**. Bu puanda ÖABT standart puanı **%50** ağırlık taşıyor; diğer %50 AGS'nin altı alt testinden geliyor:[1]
+
+| Test | Ağırlık |
+|---|---|
+| AGS Sözel yetenek | %10 |
+| AGS Sayısal yetenek | %10 |
+| AGS Tarih | %7,5 |
+| AGS Türkiye coğrafyası | %5 |
+| AGS Eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 |
+| AGS Mevzuat | %5 |
+| ÖABT Fizik | %50 |
+
+Ağırlıklı puan 100 üzerinden puana dönüştürülüyor ve başarı sırası **yalnız Fizik adayları arasında** belirleniyor; yani rakipleriniz aynı ÖABT'ye giren adaylar.[1] ÖABT'de en az 1 net yapmayan adaya ÖABT standart puanı, dolayısıyla MEB-AGS-P2-05 puanı hesaplanmıyor. Tablo, ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olduğunu gösteriyor: ÖABT'deki bir standart sapmalık fark, AGS'nin herhangi bir alt testindekinden dört ila on kat daha fazla puan ediyor. Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-05 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[3]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[3][1]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[1] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[4]
+
+## ÖABT Fizik için çalışma planı
+
+Mekanikle başlayın; hem en büyük blok hem de elektrik, dalgalar ve modern fiziğin matematiksel zemini. Elektrik ve manyetizmada alan, potansiyel ve devre konularını birlikte çalışın. Modern fiziği sona bırakmayın: 10 soruluk blok, kavramsal sorularla hızlı net getirebilir, ama lisans notlarını yeniden okumadan çözmek zor. 90 dakikalık süre soru başına yaklaşık 108 saniye ediyor; uzun türetme gerektiren soruları ilk turda işaretleyip geçin, birim ve boyut analiziyle seçenek elemeyi alışkanlık edinin. Bu alanın adayı, AGS'nin sayısal yetenek alt testinde genel ortalamanın (2026'da 15 soruda 3,4 net) belirgin biçimde üstüne çıkabilir; o test P2-05 puanında %10 ağırlık taşıyor.[3][1]
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[5] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[6] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Fizik testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Fizik (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-fizik-testi-ve-cevap-anahtari-10-26j3ckn8.pdf)[7] ve [2025 ÖABT Fizik (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/OABT/fizik13072025.pdf).[8] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[9] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[4] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[10] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Fizik kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Fizik testi 50 sorudan oluşuyor ve 90 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Fizik konuları neler?
+
+Kılavuza göre beş konu var: mekanik (%30), elektrik ve manyetizma (%24), maddenin mekanik ve ısıl özellikleri (%10), dalgalar ve optik (%16) ve modern fizik (%20).
+
+### ÖABT Fizik ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 2.509 aday ortalama 19,5 net yaptı, standart sapma 10,6 oldu. 2025'te ortalama 20,7 netti.
+
+### ÖABT Fizik puan türü nedir?
+
+MEB-AGS-P2-05. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Fizik adayları arasında belirleniyor.
+
+### ÖABT Fizik 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Fizik çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Fizik testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+6. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+7. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
 # ÖABT İlköğretim Matematik Konuları ve Netler
 
 > ÖABT İlköğretim Matematik konuları: analiz %36, cebir %24, geometri %24, uygulamalı matematik %16. 2025-2026 ortalama netler ve P2-06 puanı.
@@ -898,6 +1468,146 @@ MEB-AGS-P2-06. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin a
 ### ÖABT İlköğretim Matematik çıkmış soruları nerede?
 
 ÖSYM, 2025 ve 2026 ÖABT İlköğretim Matematik testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+6. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+7. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# ÖABT Kimya Konuları, Soru Dağılımı ve Netler
+
+> ÖABT Kimya/Kimya Teknolojisi konuları: temel kimya %32, analitik ve organik kimya %20, anorganik %16, fizikokimya %12. Netler ve P2-07.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 6 dk okuma · https://bote.web.tr/blog/oabt-kimya-konulari
+
+## Özet
+
+- ÖABT Kimya/Kimya Teknolojisi **50 soru** ve **90 dakika**; puan türü **MEB-AGS-P2-07**.
+- Beş konu: **temel kimya %32**, analitik ve organik kimya **%20**'şer, anorganik kimya **%16**, fizikokimya **%12**.
+- 2026'da 2.812 aday girdi, ortalama **17,6 net** oldu (2025'te 16,3).
+- ÖABT standart puanı MEB-AGS-P2-07 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Kimya/Kimya Teknolojisi, lise kimya öğretmenliği ve kimya teknolojisi alanının ortak testi; süresi 90 dakika olan beş alandan biri. Aday sayısı en az olan alanlardan da biri. Bu yazı testin konularını, her konudan yaklaşık kaç soru geldiğini, 2025 ve 2026'daki ortalama netleri ve netin P2-07 puanına nasıl yansıdığını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## ÖABT Kimya/Kimya Teknolojisi kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Kimya/Kimya Teknolojisi testi **50 çoktan seçmeli sorudan** oluşuyor ve **90 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[1] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 90 dakika, 50 soru için soru başına yaklaşık **108 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[1]
+
+## Kimya/Kimya Teknolojisi konu dağılımı ve yaklaşık soru sayısı
+
+Kılavuzun Tablo-1'i her konunun testteki **yaklaşık** ağırlığını veriyor. Aşağıdaki son sütun, bu yüzdelerin 50 soruya karşılığı; ÖSYM ağırlıkları yaklaşık verdiği için gerçek soru sayısı bir iki soru oynayabilir.[1]
+
+| Konu | Yaklaşık ağırlık | Yaklaşık soru (50 üzerinden) |
+|---|---|---|
+| Temel kimya | %32 | 16 |
+| Analitik kimya | %20 | 10 |
+| Anorganik kimya | %16 | 8 |
+| Organik kimya | %20 | 10 |
+| Fizikokimya | %12 | 6 |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; soru sayısı sütunu bizim hesabımız (ağırlık × 50). Erişim 30 Ekim 2026.
+
+En büyük blok yaklaşık 16 soruyla **temel kimya**; analitik ve organik kimya 10'ar, anorganik kimya 8, fizikokimya 6 soru.[1] Temel kimya diğer dört konunun ortak zemini (atom yapısı, periyodik özellikler, kimyasal bağlar, stokiyometri gibi); bu yüzden ağırlığı tablodakinden de büyük etki yapıyor. Fizikokimya en küçük blok ama hesaplama ağırlıklı olduğu için süreyi en çok tüketen kısım olabilir.
+
+## ÖABT Kimya/Kimya Teknolojisi ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre ÖABT Kimya/Kimya Teknolojisi testine 2025'te 3.282, 2026'da 2.812 aday girdi. Ortalama net 2025'te **16,3** (standart sapma 9,5), 2026'da **17,6** (standart sapma 9,7) oldu.[2][3]
+
+Bu iki sayı, netinizin puana nasıl yansıyacağını kabaca gösteriyor. Kılavuza göre ÖABT neti, o testteki adayların ortalaması ve standart sapması kullanılarak ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla:
+
+| Net | Yaklaşık standart puan |
+|---|---|
+| 17,6 (ortalama) | 50 |
+| 27,3 | 60 |
+| 37 | 70 |
+
+Hesap yaklaşık: ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait; ayrıca her yılın ortalaması farklı.[1][3] 2026'da ortalama 2025'e göre 1,3 net arttı. Ortalamanın bir standart sapma üstü 27 net civarı. Aday sayısı az olduğu için başarı sırasında her basamak daha az adaya karşılık geliyor.
+
+## MEB-AGS-P2-07 puanı nasıl hesaplanıyor?
+
+Kimya/Kimya Teknolojisi adayının puan türü **MEB-AGS-P2-07**. Bu puanda ÖABT standart puanı **%50** ağırlık taşıyor; diğer %50 AGS'nin altı alt testinden geliyor:[1]
+
+| Test | Ağırlık |
+|---|---|
+| AGS Sözel yetenek | %10 |
+| AGS Sayısal yetenek | %10 |
+| AGS Tarih | %7,5 |
+| AGS Türkiye coğrafyası | %5 |
+| AGS Eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 |
+| AGS Mevzuat | %5 |
+| ÖABT Kimya/Kimya Teknolojisi | %50 |
+
+Ağırlıklı puan 100 üzerinden puana dönüştürülüyor ve başarı sırası **yalnız Kimya/Kimya Teknolojisi adayları arasında** belirleniyor; yani rakipleriniz aynı ÖABT'ye giren adaylar.[1] ÖABT'de en az 1 net yapmayan adaya ÖABT standart puanı, dolayısıyla MEB-AGS-P2-07 puanı hesaplanmıyor. Tablo, ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olduğunu gösteriyor: ÖABT'deki bir standart sapmalık fark, AGS'nin herhangi bir alt testindekinden dört ila on kat daha fazla puan ediyor. Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-07 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[3]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[3][1]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[1] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[4]
+
+## ÖABT Kimya/Kimya Teknolojisi için çalışma planı
+
+Temel kimyayı ilk ve en sağlam blok yapın; analitik kimyadaki denge ve titrasyon hesapları, anorganik kimyadaki element ve bileşik özellikleri, fizikokimyadaki termodinamik ve kinetik hep bu zemine dayanıyor. Organik kimyada fonksiyonel grupları ve tepkime türlerini tablolaştırıp mekanizmaları örnek tepkimelerle çalışın. 90 dakikalık süre soru başına yaklaşık 108 saniye ediyor; hesaplama sorularında birim analizini alışkanlık hâline getirmek hem hızı hem doğruluğu artırır. Fizikokimya ve analitik kimya hesaplarını süre tutarak çözün. AGS'nin sayısal yetenek alt testi bu alanın adayına yakın; 2026'da genel ortalaması 3,4 net kalan bu testte ortalamanın üstüne çıkmak P2-07 puanında %10 ağırlıkla geri dönüyor.[3]
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[5] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[6] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Kimya/Kimya Teknolojisi testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Kimya/Kimya Teknolojisi (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-kimya-kimya-teknolojisi-testi-ve-cevap-anahtari-10-260mf7l8.pdf)[7] ve [2025 ÖABT Kimya/Kimya Teknolojisi (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/OABT/kimya_testi13072025.pdf).[8] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[9] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[4] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[10] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Kimya/Kimya Teknolojisi kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Kimya/Kimya Teknolojisi testi 50 sorudan oluşuyor ve 90 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Kimya/Kimya Teknolojisi konuları neler?
+
+Kılavuza göre beş konu var: temel kimya (%32), analitik kimya (%20), anorganik kimya (%16), organik kimya (%20) ve fizikokimya (%12).
+
+### ÖABT Kimya/Kimya Teknolojisi ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 2.812 aday ortalama 17,6 net yaptı, standart sapma 9,7 oldu. 2025'te ortalama 16,3 netti.
+
+### ÖABT Kimya/Kimya Teknolojisi puan türü nedir?
+
+MEB-AGS-P2-07. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Kimya/Kimya Teknolojisi adayları arasında belirleniyor.
+
+### ÖABT Kimya/Kimya Teknolojisi 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Kimya/Kimya Teknolojisi çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Kimya/Kimya Teknolojisi testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
 
 ## Kaynaklar
 
