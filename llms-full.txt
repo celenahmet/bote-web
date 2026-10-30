@@ -321,6 +321,115 @@ Evet. ÖSYM 24 Şubat 2025'te 23 soruluk bir MEB-AGS örnek soru kitapçığı y
 
 ---
 
+# AGS Eğitim Bilimleri Konuları ve Soru Dağılımı
+
+> AGS eğitim bilimleri ve Türk millî eğitim sistemi: 30 soru, 11 konu, Maarif Modeli dahil. 2025-2026 ortalama netler, puan ağırlığı ve çalışma planı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 4 dk okuma · https://bote.web.tr/blog/ags-egitim-bilimleri-konulari
+
+## Özet
+
+- AGS'de eğitim bilimleri **30 soru**; testin yaklaşık **%37,5**'i.
+- On bir konu: eğitimin temelleri, öğretim yöntemleri, sınıf yönetimi, program okuryazarlığı, ölçme ve değerlendirme, öğrenme ve gelişim psikolojisi, rehberlik, eğitim teknolojileri, Türk millî eğitim sistemi ve **Türkiye Yüzyılı Maarif Modeli**.
+- 2026'da ortalama **11,2 net** (standart sapma 6,3); 2025'te 24 soruda 14,1 netti.
+- P1 puanında ağırlığı **%25**, P2 ve P3 puanlarında **%12,5**.
+- ÖSYM'nin 23 soruluk örnek kitapçığında bu testten **5 soru** var.
+
+Eğitim bilimleri ve Türk millî eğitim sistemi, AGS'nin en büyük ve puanda en ağır alt testi: 80 sorunun 30'u ve P1 puanının dörtte biri. 2026'da soru sayısı 24'ten 30'a çıktı. Bu yazı alt testin konularını, ortalama netleri, puan ağırlığını ve çalışma planını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## AGS eğitim bilimleri kaç soru?
+
+Kılavuza göre AGS 80 sorudan oluşuyor ve 110 dakika sürüyor; eğitim bilimleri bu sorulardan yaklaşık **%37,5**'ini, yani **30 soruyu** oluşturuyor. Aynı dağılım ÖSYM'nin 8 Ocak 2026 tarihli konu dağılımı belgesinde de yer alıyor.[1][2] 2025 sınavında bu alt test 24 soruydu ve adı "Eğitimin Temelleri ve Türk Millî Eğitim Sistemi" idi; 2026'da 30 soruya çıktı.[3][4]
+
+AGS'nin altı alt testi puanda ayrı ayrı değerlendiriliyor. Eğitim bilimleri alt testinin puan türlerindeki ağırlığı şöyle:[1]
+
+| Puan türü | Kimin için | Ağırlık |
+|---|---|---|
+| MEB-AGS-P1 | ÖABT ya da YDS karşılığı olmayan alanlar | %25 |
+| MEB-AGS-P2 | ÖABT'ye giren adaylar | %12,5 |
+| MEB-AGS-P3 | Yabancı dil öğretmenliği adayları (YDS/e-YDS ile) | %12,5 |
+
+Hangi puan türünde olursa olsun, eğitim bilimleri AGS'nin en ağır alt testi. ÖABT'ye giren aday için bile P2 puanının sekizde biri bu testten geliyor; bu, ÖABT dışındaki herhangi bir alt testten daha fazla.[1]
+
+## AGS eğitim bilimleri konuları
+
+Kılavuzun Tablo-1'i alt testin konularını şöyle sayıyor; konu konu yüzde vermiyor, yalnız toplam ağırlığı (%37,5) veriyor:[1]
+
+| Küme | Konular |
+|---|---|
+| Temeller | Eğitimin tarihî, felsefi, toplumsal, ekonomik ve politik temelleri |
+| Öğretim | Öğretim yöntem ve teknikleri; sınıf yönetimi; program okuryazarlığı; eğitim ve öğretim teknolojileri |
+| Ölçme | Eğitimde ölçme ve değerlendirme |
+| Psikoloji | Öğrenme psikolojisi; gelişim psikolojisi; rehberlik |
+| Sistem | Türk millî eğitim sisteminin genel yapısı; Türkiye Yüzyılı Maarif Modeli |
+
+Kümelere ayırma bizim; başlıklar kılavuzdaki gibi. Listenin iki başlığı bu sınava özgü: **program okuryazarlığı** ve **Türkiye Yüzyılı Maarif Modeli**. İkincisi MEB'in 2024'te başlattığı yeni öğretim programları çerçevesi ve kılavuzda ayrı bir başlık olarak yer alıyor; bu yüzden programların genel yapısını, temel kavramlarını ve yaklaşımını bilmek gerekiyor.[1] ÖSYM'nin örnek kitapçığında bu alt testten 5 soru var.[5]
+
+## Eğitim bilimleri ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre 2025'te 383.425, 2026'da 369.008 adayın sınavı geçerli sayıldı. Eğitim bilimleri alt testinde ortalama net 2025'te 24 soruda **14,1** (standart sapma 4,4), 2026'da 30 soruda **11,2** (standart sapma 6,3) oldu.[3][4]
+
+Kılavuza göre her alt testte ham puan, doğru sayısından yanlışların dörtte biri çıkarılarak bulunuyor ve ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla eğitim bilimleri alt testinde ortalama net (11,2) yaklaşık 50, **17,5 net** yaklaşık 60 standart puana karşılık geliyordu. Hesap yaklaşık: ÖSYM standart puanı AGS'de en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait.[4]
+
+İki yılı karşılaştırmak dikkat istiyor: 2025'te 24 soruda ortalama 14,1 net (soruların %59'u), 2026'da 30 soruda 11,2 net (%37). Soru sayısı artarken ortalama düştü ve dağılım genişledi (standart sapma 4,4'ten 6,3'e). 2026'da 17,5 net civarı ortalamanın bir standart sapma üstüne denk geliyordu.
+
+## Eğitim bilimleri için çalışma planı
+
+Alt test geniş ama başlıkları birbirine bağlı; çalışmayı kümelere göre sıralayın. Önce psikoloji kümesi (gelişim, öğrenme, rehberlik): kuramlar diğer konuların, özellikle öğretim yöntemleri ve sınıf yönetiminin zemini. Ardından öğretim kümesi ve program okuryazarlığı; bu ikisi uygulamaya dönük sorular üretiyor. Ölçme ve değerlendirmede temel istatistik kavramlarını (ortalama, standart sapma, güvenirlik, geçerlik) örnek hesaplarla çalışın. Sistem kümesinde Türkiye Yüzyılı Maarif Modeli için MEB'in resmî program metinlerini okuyun; Türk millî eğitim sisteminin yapısı ise AGS'nin mevzuat alt testindeki 1739 ve 222 sayılı kanunlarla kesişiyor, birlikte çalışmak iki alt teste birden hazırlık demek. Bu konuların bir kısmını sitede ayrıca anlattık: [Bloom taksonomisi](https://bote.web.tr/blog/bloom-taksonomisi), [Piaget](https://bote.web.tr/blog/piaget-bilissel-gelisim-kurami), [davranışçı öğrenme kuramları](https://bote.web.tr/blog/davranisci-ogrenme-kuramlari).
+
+Yöntem olarak iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek; yeniden okumak ve altını çizmek ise yararı düşük teknikler arasında.[6] Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[7]
+
+## Örnek ve çıkmış sorular
+
+ÖSYM'nin 24 Şubat 2025'te yayımladığı 23 soruluk örnek kitapçıkta eğitim bilimleri alt testinden **5 soru** var ve her sorunun doğru cevabı veriliyor.[5] Sınavların kendisinden ise ÖSYM kitapçığın yüzde 10'unu cevap anahtarıyla yayımlıyor: [2026 AGS (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-testi-ve-cevap-anahtari-10-26z1re9o.pdf)[8] ve [2025 AGS (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/ags_kitapcik13072025.pdf).[9] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[10] Bütün belgeler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+## 2027 takvimi
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs 2027 Cumartesi**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[11] Konu dağılımı 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[12] AGS'nin bütün alt testleri için [AGS konuları](https://bote.web.tr/blog/ags-konulari), puan hesabı için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısına bakın.
+
+## Sık Sorulan Sorular
+
+### AGS eğitim bilimleri kaç soru?
+
+2026 kılavuzuna göre eğitim bilimleri ve Türk millî eğitim sistemi AGS'nin yaklaşık %37,5'i, yani 30 soru. 2025 sınavında bu alt test 24 soruydu.
+
+### AGS eğitim bilimleri konuları neler?
+
+Eğitimin tarihî, felsefi, toplumsal, ekonomik ve politik temelleri; öğretim yöntem ve teknikleri; sınıf yönetimi; program okuryazarlığı; ölçme ve değerlendirme; öğrenme psikolojisi; gelişim psikolojisi; rehberlik; eğitim ve öğretim teknolojileri; Türk millî eğitim sisteminin genel yapısı; Türkiye Yüzyılı Maarif Modeli.
+
+### AGS eğitim bilimleri ortalama net kaç?
+
+ÖSYM istatistiklerine göre 2026'da 30 soruda ortalama 11,2 net (standart sapma 6,3); 2025'te 24 soruda 14,1 netti.
+
+### Eğitim bilimleri puanı ne kadar etkiliyor?
+
+AGS'nin en ağır alt testi: P1 puanında %25, ÖABT'ye giren adayların P2 puanında ve yabancı dil adaylarının P3 puanında %12,5.
+
+### Türkiye Yüzyılı Maarif Modeli AGS'de var mı?
+
+Evet. 2026 kılavuzunun Tablo-1'inde eğitim bilimleri ve Türk millî eğitim sistemi alt testinin konuları arasında Türkiye Yüzyılı Maarif Modeli ayrı bir başlık olarak yer alıyor.
+
+### AGS eğitim bilimleri KPSS eğitim bilimleriyle aynı mı?
+
+Konu başlıkları büyük ölçüde tanıdık, ama AGS'de Türk millî eğitim sisteminin genel yapısı ve Türkiye Yüzyılı Maarif Modeli de aynı alt testte. Kesin kapsam için ÖSYM'nin MEB-AGS kılavuzundaki Tablo-1 esas alınmalı.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Konu Dağılımı. https://dokuman.osym.gov.tr/pdfdokuman/2026/MEB-AGS/konudagilimi08012026.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+5. ÖSYM (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular. https://www.osym.gov.tr/mill-egitim-bakanligi-akademi-giris-sinavi-mebags-ornek-sorular (TR, erişim: 2026-10-30)
+6. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+7. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+8. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+11. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+12. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
 # AGS Konuları 2027: Soru Dağılımı ve Konu Başlıkları
 
 > AGS'de hangi konudan kaç soru çıkıyor? ÖSYM'nin resmî konu dağılımıyla 80 sorunun alanlara dağılımı, alt konular ve puandaki ağırlıklar.
@@ -490,6 +599,124 @@ Türkiye Cumhuriyeti Anayasası ve insan hakları hukuku, 1739 sayılı Millî E
 
 ---
 
+# AGS Mevzuat Konuları: Hangi Kanunlar Soruluyor?
+
+> AGS mevzuat konuları: Anayasa ve insan hakları hukuku, 1739, 222 ve 7528 sayılı kanunlar. 8 soru, ortalama net, puan ağırlığı ve çalışma planı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 4 dk okuma · https://bote.web.tr/blog/ags-mevzuat-konulari
+
+## Özet
+
+- AGS'de mevzuat **8 soru**; testin yaklaşık **%10**'i.
+- Dört metin soruluyor: **Anayasa ve insan hakları hukuku**, **1739** sayılı Millî Eğitim Temel Kanunu, **222** sayılı İlköğretim ve Eğitim Kanunu, **7528** sayılı Öğretmenlik Mesleği Kanunu.
+- 2026'da ortalama **2,5 net** (standart sapma 2,4); 2025'te 8 soruda 3,1 netti.
+- P1 puanında ağırlığı **%10**, P2 ve P3 puanlarında **%5**.
+- ÖSYM'nin 23 soruluk örnek kitapçığında bu testten **4 soru** var.
+
+AGS'nin mevzuat alt testi yalnız 8 soru, ama kaynağı en net tanımlanmış bölüm: kılavuz hangi kanunların sorulacağını adıyla sayıyor. Bu yazı mevzuat alt testinin kapsamını, her kanunun hangi bölümlerine dikkat etmek gerektiğini, ortalama netleri ve puan ağırlığını resmî kaynaklardan topluyor.[1]
+
+## AGS mevzuat kaç soru?
+
+Kılavuza göre AGS 80 sorudan oluşuyor ve 110 dakika sürüyor; mevzuat bu sorulardan yaklaşık **%10**'ini, yani **8 soruyu** oluşturuyor. Aynı dağılım ÖSYM'nin 8 Ocak 2026 tarihli konu dağılımı belgesinde de yer alıyor.[1][2] 2025 sınavında da mevzuat 8 soruydu; alt testin soru sayısı değişmedi.[3]
+
+AGS'nin altı alt testi puanda ayrı ayrı değerlendiriliyor. Mevzuat alt testinin puan türlerindeki ağırlığı şöyle:[1]
+
+| Puan türü | Kimin için | Ağırlık |
+|---|---|---|
+| MEB-AGS-P1 | ÖABT ya da YDS karşılığı olmayan alanlar | %10 |
+| MEB-AGS-P2 | ÖABT'ye giren adaylar | %5 |
+| MEB-AGS-P3 | Yabancı dil öğretmenliği adayları (YDS/e-YDS ile) | %5 |
+
+Ağırlık küçük görünse de kaynak sınırlı olduğu için mevzuat, emek başına en çok puan getirebilecek alt testlerden biri. 2026'da standart sapma (2,4) neredeyse ortalama kadar büyüktü: 8 soruda birkaç fazladan doğru, standart puanı belirgin biçimde yükseltiyor.[4]
+
+## AGS mevzuat konuları
+
+Kılavuzun Tablo-1'i mevzuat alt testinin kapsamını şöyle sayıyor:[1]
+
+| Metin | Kabul | Nereden okunur |
+|---|---|---|
+| Türkiye Cumhuriyeti Anayasası (2709) ve insan hakları hukuku | 18/10/1982 | Mevzuat Bilgi Sistemi |
+| 1739 sayılı Millî Eğitim Temel Kanunu | 14/6/1973 | Mevzuat Bilgi Sistemi |
+| 222 sayılı İlköğretim ve Eğitim Kanunu | 5/1/1961 | Mevzuat Bilgi Sistemi |
+| 7528 sayılı Öğretmenlik Mesleği Kanunu | 2024 (RG 18/10/2024) | Resmî Gazete |
+
+**Anayasa.** Eğitim açısından temel madde 42: kimse eğitim ve öğrenim hakkından yoksun bırakılamaz; ilköğretim kız ve erkek bütün vatandaşlar için zorunludur ve devlet okullarında parasızdır.[5] Kılavuz anayasayla birlikte "insan hakları hukuku"nu da sayıyor; temel hak ve özgürlüklerin düzenlendiği bölüm bu yüzden kapsamda.
+
+**1739 sayılı Millî Eğitim Temel Kanunu.** Türk millî eğitiminin genel amaçlarını (madde 2) ve temel ilkelerini (madde 4-17) belirliyor. Temel ilkeler sırasıyla: genellik ve eşitlik, ferdin ve toplumun ihtiyaçları, yöneltme, eğitim hakkı, fırsat ve imkân eşitliği, süreklilik, Atatürk inkılap ve ilkeleri ve Atatürk milliyetçiliği, demokrasi eğitimi, laiklik, bilimsellik, planlılık, karma eğitim, okul ile ailenin iş birliği ve her yerde eğitim.[6] İlkelerin adını ve hangi maddeye karşılık geldiğini bilmek, bu kanundan gelen soruların büyük kısmına yetecek bir zemin.
+
+**222 sayılı İlköğretim ve Eğitim Kanunu.** İlköğretimin tanımını, mecburiyetini ve parasızlığını düzenliyor. Kanuna göre ilköğretim öğrenim çağındaki kız ve erkek çocuklar için mecburi, devlet okullarında parasız (madde 2); mecburi ilköğretim çağı 6-14 yaş grubunu kapsıyor (madde 3, 2019 değişikliği).[7]
+
+**7528 sayılı Öğretmenlik Mesleği Kanunu.** 2024'te yürürlüğe giren ve MEB-AGS'nin yasal dayanağı olan kanun; öğretmenlik mesleğine girişi, Millî Eğitim Akademisi'ni ve kariyer basamaklarını düzenliyor.[8] Adayın sınava girme nedeninin bu kanun olması, en güncel ve en çok dikkat edilmesi gereken metin olduğunu gösteriyor. Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik), kanunun tamamı için [Öğretmenlik Mesleği Kanunu](https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528) yazılarına bakın.
+
+## Mevzuat ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre 2025'te 383.425, 2026'da 369.008 adayın sınavı geçerli sayıldı. Mevzuat alt testinde ortalama net 2025'te 8 soruda **3,1** (standart sapma 2,5), 2026'da 8 soruda **2,5** (standart sapma 2,4) oldu.[3][4]
+
+Kılavuza göre her alt testte ham puan, doğru sayısından yanlışların dörtte biri çıkarılarak bulunuyor ve ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla mevzuat alt testinde ortalama net (2,5) yaklaşık 50, **4,9 net** yaklaşık 60 standart puana karşılık geliyordu. Hesap yaklaşık: ÖSYM standart puanı AGS'de en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait.[4]
+
+2026'da ortalama 2025'e göre 0,6 net düştü. 8 soruluk testte 5 net, ortalamanın bir standart sapma üstüne denk geliyordu; yani soruların yarıdan fazlasını doğru yapmak adayı üst gruba taşıyor.
+
+## Mevzuat için çalışma planı
+
+Mevzuatı ezber listesi olarak değil, metin okuyarak çalışın: dört metnin de resmî hâli ücretsiz erişilebilir durumda ve kanunlar değişikliklerle güncellendiği için ikincil özetler eskiyebiliyor. Önce 7528 sayılı Kanun'u baştan sona okuyun; sonra 1739'un amaç ve ilkeler bölümlerini, 222'nin ilk maddelerini ve Anayasa'nın eğitim hakkı ile temel hak ve özgürlükler bölümünü. Her metin için "kim, neyi, hangi süre ve koşulla" sorularına cevap veren bir tablo çıkarın; sayısal ayrıntılar (yaş, süre, oran) soruların sık dayandığı yerler. Mevzuat, AGS'nin eğitim bilimleri alt testindeki "Türk millî eğitim sisteminin genel yapısı" başlığıyla da kesişiyor; ikisini birlikte çalışmak iki alt teste birden hazırlık demek.[1]
+
+Yöntem olarak iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek; yeniden okumak ve altını çizmek ise yararı düşük teknikler arasında.[9] Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[10]
+
+## Örnek ve çıkmış sorular
+
+ÖSYM'nin 24 Şubat 2025'te yayımladığı 23 soruluk örnek kitapçıkta mevzuat alt testinden **4 soru** var ve her sorunun doğru cevabı veriliyor.[11] Sınavların kendisinden ise ÖSYM kitapçığın yüzde 10'unu cevap anahtarıyla yayımlıyor: [2026 AGS (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-testi-ve-cevap-anahtari-10-26z1re9o.pdf)[12] ve [2025 AGS (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/ags_kitapcik13072025.pdf).[13] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[14] Bütün belgeler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+## 2027 takvimi
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs 2027 Cumartesi**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[15] Konu dağılımı 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[16] AGS'nin bütün alt testleri için [AGS konuları](https://bote.web.tr/blog/ags-konulari), puan hesabı için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısına bakın.
+
+## Sık Sorulan Sorular
+
+### AGS mevzuat kaç soru?
+
+Kılavuza göre mevzuat AGS'nin yaklaşık %10'u, yani 80 sorunun 8'i. 2025 ve 2026 sınavlarında da 8 soru soruldu.
+
+### AGS mevzuat konuları neler?
+
+Türkiye Cumhuriyeti Anayasası ve insan hakları hukuku, 1739 sayılı Millî Eğitim Temel Kanunu, 222 sayılı İlköğretim ve Eğitim Kanunu ve 7528 sayılı Öğretmenlik Mesleği Kanunu.
+
+### AGS mevzuat ortalama net kaç?
+
+ÖSYM istatistiklerine göre 8 soruda ortalama net 2025'te 3,1, 2026'da 2,5 oldu; standart sapma 2,4.
+
+### Mevzuat puanı ne kadar etkiliyor?
+
+P1 puanında %10, ÖABT'ye giren adayların P2 puanında ve yabancı dil adaylarının P3 puanında %5 ağırlık taşıyor.
+
+### 7528 sayılı kanun AGS'de soruluyor mu?
+
+Evet. 2026 kılavuzunun Tablo-1'inde mevzuat başlığı altında 7528 sayılı Öğretmenlik Mesleği Kanunu açıkça sayılıyor. MEB-AGS'nin yasal dayanağı da bu kanun.
+
+### AGS mevzuata nereden çalışılır?
+
+Kanunların güncel metni Mevzuat Bilgi Sistemi'nde (mevzuat.gov.tr), 7528 sayılı Kanun Resmî Gazete'de yayımlanmış hâliyle okunabilir. Kanun metinleri değişikliklerle güncellendiği için ikincil özetler yerine güncel resmî metin esas alınmalı.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Konu Dağılımı. https://dokuman.osym.gov.tr/pdfdokuman/2026/MEB-AGS/konudagilimi08012026.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+5. Mevzuat Bilgi Sistemi (1982). Türkiye Cumhuriyeti Anayasası (Kanun No. 2709). https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2709.pdf (TR, erişim: 2026-10-30)
+6. Mevzuat Bilgi Sistemi (1973). 1739 sayılı Millî Eğitim Temel Kanunu. https://www.mevzuat.gov.tr/mevzuatmetin/1.5.1739.pdf (TR, erişim: 2026-10-30)
+7. Mevzuat Bilgi Sistemi (1961). 222 sayılı İlköğretim ve Eğitim Kanunu. https://www.mevzuat.gov.tr/mevzuatmetin/1.4.222.pdf (TR, erişim: 2026-10-30)
+8. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-30)
+9. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+10. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+11. ÖSYM (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular. https://www.osym.gov.tr/mill-egitim-bakanligi-akademi-giris-sinavi-mebags-ornek-sorular (TR, erişim: 2026-10-30)
+12. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+13. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+14. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+15. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+16. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
 # AGS Puanı Nasıl Hesaplanır? Net, Standart Puan ve Ağırlıklar
 
 > AGS netiniz puana nasıl dönüşür? ÖSYM kılavuzuna göre ham puan, standart puan, MEB-AGS-P1, P2, P3 ağırlıkları ve başarı sırası adım adım.
@@ -631,6 +858,113 @@ Kılavuza göre AGS'nin bir alt testinde en az 1 net (1 ham puan) bulunmayan ada
 6. OECD (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-30)
 7. OECD (2018). Effective Teacher Policies: Insights from PISA. https://doi.org/10.1787/9789264301603-en (EN, erişim: 2026-10-30)
 8. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# AGS Sayısal Yetenek Konuları ve Ortalama Net
+
+> AGS sayısal yetenek: 15 soru; temel matematik, grafik ve tablo yorumlama, mantıksal muhakeme. En düşük ortalamalı alt test, puan ağırlığı ve çalışma planı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 4 dk okuma · https://bote.web.tr/blog/ags-sayisal-yetenek-konulari
+
+## Özet
+
+- AGS'de sayısal yetenek **15 soru**; testin yaklaşık **%18,8**'i.
+- Üç başlık: **temel matematik**, **grafik ve tablo yorumlama**, **mantıksal muhakeme problemleri**.
+- 2026'da ortalama **3,4 net** (standart sapma 3,9); 2025'te 15 soruda 4,1 netti.
+- P1 puanında ağırlığı **%20**, P2 ve P3 puanlarında **%10**.
+- ÖSYM'nin 23 soruluk örnek kitapçığında bu testten **5 soru** var.
+
+Sayısal yetenek, AGS adaylarının en çok zorlandığı alt test: 2026'da 15 soruda ortalama yalnız 3,4 net yapıldı. Ama bu düşük ortalama, testin aynı zamanda en büyük fırsat olduğu anlamına geliyor. Bu yazı alt testin konularını, ortalama netleri, puan ağırlığını ve çalışma planını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## AGS sayısal yetenek kaç soru?
+
+Kılavuza göre AGS 80 sorudan oluşuyor ve 110 dakika sürüyor; sayısal yetenek bu sorulardan yaklaşık **%18,8**'ini, yani **15 soruyu** oluşturuyor. Aynı dağılım ÖSYM'nin 8 Ocak 2026 tarihli konu dağılımı belgesinde de yer alıyor.[1][2] Soru sayısı iki sınavda da 15 oldu.[3]
+
+AGS'nin altı alt testi puanda ayrı ayrı değerlendiriliyor. Sayısal yetenek alt testinin puan türlerindeki ağırlığı şöyle:[1]
+
+| Puan türü | Kimin için | Ağırlık |
+|---|---|---|
+| MEB-AGS-P1 | ÖABT ya da YDS karşılığı olmayan alanlar | %20 |
+| MEB-AGS-P2 | ÖABT'ye giren adaylar | %10 |
+| MEB-AGS-P3 | Yabancı dil öğretmenliği adayları (YDS/e-YDS ile) | %10 |
+
+Sayısal yetenek, sözel yetenekle birlikte P1 puanında eğitim bilimlerinden sonraki en ağır alt test. Ortalamanın çok düşük, standart sapmanın ortalamadan büyük olması, birkaç fazladan netin standart puanı hızla yükselttiği anlamına geliyor.[4]
+
+## AGS sayısal yetenek konuları
+
+Kılavuzun Tablo-1'i sayısal yetenek alt testini üç başlıkla tanımlıyor ve konu konu yüzde vermiyor:[1]
+
+| Başlık | Ne bekleniyor |
+|---|---|
+| Temel matematik | Sayılar ve işlemler, oran-orantı, yüzde, denklem kurma gibi temel beceriler |
+| Grafik ve tablo yorumlama | Verilen grafik ya da tablodan bilgi çıkarma, karşılaştırma, oran hesaplama |
+| Mantıksal muhakeme problemleri | Verilen koşullardan sıralama, eşleştirme, çıkarım yapma |
+
+"Ne bekleniyor" sütunu bizim yorumumuz; kılavuz yalnız başlıkları veriyor. Başlıklar, sorunun lisans düzeyi matematik değil, problem çözme ve veri okuma becerisi istediğini gösteriyor. ÖSYM'nin örnek kitapçığında bu alt testten 5 soru var; soru tarzını görmek için ilk bakılacak yer orası.[5]
+
+## Sayısal yetenek ortalama net kaç?
+
+ÖSYM'nin sonuç istatistiklerine göre 2025'te 383.425, 2026'da 369.008 adayın sınavı geçerli sayıldı. Sayısal yetenek alt testinde ortalama net 2025'te 15 soruda **4,1** (standart sapma 4,4), 2026'da 15 soruda **3,4** (standart sapma 3,9) oldu.[3][4]
+
+Kılavuza göre her alt testte ham puan, doğru sayısından yanlışların dörtte biri çıkarılarak bulunuyor ve ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] 2026 rakamlarıyla sayısal yetenek alt testinde ortalama net (3,4) yaklaşık 50, **7,3 net** yaklaşık 60 standart puana karşılık geliyordu. Hesap yaklaşık: ÖSYM standart puanı AGS'de en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait.[4]
+
+2026'da ortalama 2025'e göre 0,7 net düştü. Standart sapmanın (3,9) ortalamadan (3,4) büyük olması, adayların bir kısmının yüksek net yaptığını, büyük kısmının ise birkaç netle kaldığını gösteriyor. 15 sorunun yarısını (7,5 net) netleyen aday ortalamanın yaklaşık bir standart sapma üstünde, 60 standart puan civarında; 11 net civarı ise iki standart sapma üstüne, yaklaşık 70 standart puana denk geliyordu.
+
+## Sayısal yetenek için çalışma planı
+
+Temel matematikle başlayın: oran-orantı, yüzde ve denklem kurma, diğer iki başlıktaki soruların da hesap zemini. Grafik ve tablo yorumlamada her soruda önce eksenleri, birimleri ve başlığı okumayı alışkanlık edinin; hataların çoğu hesaptan değil, yanlış okunan veriden geliyor. Mantıksal muhakeme problemlerinde koşulları tabloya ya da şemaya dökmek, akılda tutmaya çalışmaktan daha güvenilir. Süre de önemli: AGS 80 soru için 110 dakika, soru başına ortalama 82 saniye; sayısal sorular sözel sorulardan uzun sürdüğü için sözel bölümde kazanılan zamanı buraya ayırmak gerekebilir.[1] Ortalamanın bu kadar düşük olduğu bir testte boş bırakma stratejisi de önemli: hiç fikriniz olmayan soruda işaretlemenin beklenen getirisi sıfır, iki seçeneği eleyebiliyorsanız artı.
+
+Yöntem olarak iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek; yeniden okumak ve altını çizmek ise yararı düşük teknikler arasında.[6] Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[7]
+
+## Örnek ve çıkmış sorular
+
+ÖSYM'nin 24 Şubat 2025'te yayımladığı 23 soruluk örnek kitapçıkta sayısal yetenek alt testinden **5 soru** var ve her sorunun doğru cevabı veriliyor.[5] Sınavların kendisinden ise ÖSYM kitapçığın yüzde 10'unu cevap anahtarıyla yayımlıyor: [2026 AGS (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-testi-ve-cevap-anahtari-10-26z1re9o.pdf)[8] ve [2025 AGS (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/ags_kitapcik13072025.pdf).[9] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[10] Bütün belgeler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+## 2027 takvimi
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs 2027 Cumartesi**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[11] Konu dağılımı 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[12] AGS'nin bütün alt testleri için [AGS konuları](https://bote.web.tr/blog/ags-konulari), puan hesabı için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısına bakın.
+
+## Sık Sorulan Sorular
+
+### AGS sayısal yetenek kaç soru?
+
+Kılavuza göre sayısal yetenek AGS'nin yaklaşık %18,75'i, yani 80 sorunun 15'i. 2025 ve 2026'da da 15 soru soruldu.
+
+### AGS sayısal yetenek konuları neler?
+
+Kılavuzun Tablo-1'ine göre üç başlık: temel matematik, grafik ve tablo yorumlama ve mantıksal muhakeme problemleri.
+
+### AGS sayısal ortalama net kaç?
+
+ÖSYM istatistiklerine göre 15 soruda ortalama net 2025'te 4,1, 2026'da 3,4 oldu. AGS'nin alt testleri içinde soru başına en düşük ortalama bu testte.
+
+### Sayısal yetenek puanı ne kadar etkiliyor?
+
+P1 puanında %20, ÖABT'ye giren adayların P2 puanında ve yabancı dil adaylarının P3 puanında %10 ağırlık taşıyor.
+
+### AGS sayısalda kaç net iyi?
+
+Kesin bir eşik yok; puan, adayların ortalama ve standart sapmasına göre hesaplanıyor. 2026 rakamlarıyla 7 net civarı ortalamanın bir standart sapma üstüne, yani yaklaşık 60 standart puana denk geliyordu.
+
+### AGS sayısal KPSS matematiğine benziyor mu?
+
+Başlıklar temel matematik ve problem çözme becerisine dayanıyor; ayrıca grafik ve tablo yorumlama ile mantıksal muhakeme ayrı başlık olarak sayılıyor. Soru tarzı için ÖSYM'nin örnek kitapçığı ve yüzde 10'luk çıkmış soruları en güvenilir kaynak.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Konu Dağılımı. https://dokuman.osym.gov.tr/pdfdokuman/2026/MEB-AGS/konudagilimi08012026.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+5. ÖSYM (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular. https://www.osym.gov.tr/mill-egitim-bakanligi-akademi-giris-sinavi-mebags-ornek-sorular (TR, erişim: 2026-10-30)
+6. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+7. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+8. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+11. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+12. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
 
 ---
 
@@ -1061,6 +1395,158 @@ MEB-AGS-P2-03. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin a
 8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
 9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
 10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# ÖABT Din Kültürü (DKAB/İHL) Konuları ve Netler
+
+> ÖABT Din Kültürü ve Ahlak Bilgisi / İHL Meslek Dersleri: üç alt test, konu ağırlıkları, 2025-2026 ortalama netler ve P2-16, P2-17 puanları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 7 dk okuma · https://bote.web.tr/blog/oabt-din-kulturu-konulari
+
+## Özet
+
+- ÖABT Din Kültürü ve Ahlak Bilgisi **50 soru** ve **70 dakika**; puan türü **MEB-AGS-P2-16 ve P2-17**.
+- Test **üç alt testten** oluşuyor: ortak alan bilgisi (10 soru), Temel İslam Bilimleri (23 soru), İslam Tarihi, Felsefe ve Din Bilimleri (17 soru).
+- 2026'da 50.666 aday girdi, ortalama **22,1 net** oldu (2025'te 24,7).
+- ÖABT standart puanı MEB-AGS-P2-16 ve P2-17 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Din Kültürü ve Ahlak Bilgisi / İmam-Hatip Lisesi Meslek Dersleri, Okul Öncesi'nden sonra en kalabalık ikinci ÖABT alanı ve yapısı en farklı olanı: tek test, ama üç alt teste bölünüyor ve bu alandan girene iki ayrı puan hesaplanıyor. Bu yazı alt testleri, konuların ağırlığını, 2025 ve 2026'daki ortalama netleri ve P2-16 ile P2-17 puanlarının nasıl hesaplandığını ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## ÖABT Din Kültürü ve Ahlak Bilgisi kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Din Kültürü ve Ahlak Bilgisi testi **50 çoktan seçmeli sorudan** oluşuyor ve **70 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[1] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 70 dakika, 50 soru için soru başına yaklaşık **84 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[1]
+
+## Üç alt test ve konu dağılımı
+
+Kılavuzun Tablo-1'i bu testi üç alt teste ayırıyor ve her konunun hangi alt testte ne ağırlıkla sorulduğunu veriyor. Yüzdeler 50 sorunun tamamına göre.[1]
+
+| Konu | Ortak alan bilgisi | Temel İslam Bilimleri | İslam Tarihi, Felsefe ve Din Bilimleri |
+|---|---|---|---|
+| Kur'an-ı Kerim ve tecvid | %8 | | |
+| Tefsir | | %10 | |
+| Hadis | | %10 | |
+| Fıkıh | %4 | %10 | |
+| Akaid | %2 | | |
+| Kelam | | %10 | |
+| İslam mezhepleri ve akımları | | %6 | |
+| Siyer | %6 | | |
+| İslam tarihi, kültür ve medeniyeti | | | %10 |
+| İslam felsefesi | | | %4 |
+| Din felsefesi | | | %4 |
+| Din sosyolojisi | | | %4 |
+| Din psikolojisi | | | %4 |
+| Din eğitimi | | | %4 |
+| Dinler tarihi | | | %4 |
+| **Toplam** | **%20 (10 soru)** | **%46 (23 soru)** | **%34 (17 soru)** |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; alt test soru sayıları ÖSYM'nin 2026 sonuç istatistiklerinden. Erişim 30 Ekim 2026.[2]
+
+Temel İslam Bilimleri en büyük alt test: tefsir, hadis, fıkıh ve kelam yaklaşık 5'er, mezhepler 3 soru. İslam Tarihi, Felsefe ve Din Bilimleri'nde İslam tarihi 5 soruyla öne çıkıyor; altı din bilimi konusu 2'şer soru. Ortak alan bilgisinin 10 sorusu Kur'an-ı Kerim ve tecvid (4), siyer (3), fıkıh (2) ve akaid (1) arasında bölünüyor. Fıkıh iki alt testte birden yer alan tek konu: toplamda yaklaşık 7 soru.
+
+## ÖABT Din Kültürü ve Ahlak Bilgisi ortalama net kaç?
+
+Testin geneline bakınca ÖSYM'nin istatistiklerine göre 2025'te 49.523, 2026'da 50.666 aday girdi; 50 soruda ortalama net 2025'te **24,7**, 2026'da **22,1** oldu.[3][2] Ama bu alanda standart puan testin tamamı için değil, **her alt test için ayrı** hesaplanıyor; o yüzden alt testlerin ortalaması daha anlamlı:[1]
+
+| Alt test | Soru | 2025 ortalama net | 2026 ortalama net | 2026 standart sapma |
+|---|---|---|---|---|
+| Ortak alan bilgisi | 10 | 6,1 | 4,7 | 2,3 |
+| Temel İslam Bilimleri | 23 | 10,8 | 9,9 | 5,4 |
+| İslam Tarihi, Felsefe ve Din Bilimleri | 17 | 7,8 | 7,5 | 3,4 |
+
+2026'da üç alt testin üçünde de ortalama düştü; en büyük düşüş 10 soruluk ortak alan bilgisinde (6,1'den 4,7'ye). Kabaca, bir alt testte ortalamanın bir standart sapma üstünde net yapan aday o alt testten yaklaşık 60 standart puan alıyor: 2026'da ortak alan bilgisinde 7 net, Temel İslam Bilimleri'nde 15,3 net, İslam Tarihi, Felsefe ve Din Bilimleri'nde 10,9 net civarı.[2] Hesap yaklaşık; ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor.
+
+## P2-16 ve P2-17 puanları nasıl hesaplanıyor?
+
+Bu alandan sınava giren adaya iki puan hesaplanıyor: **MEB-AGS-P2-16 (Din Kültürü ve Ahlak Bilgisi)** ve **MEB-AGS-P2-17 (İmam-Hatip Lisesi Meslek Dersleri)**. İkisinde de AGS'nin payı %50; fark, ÖABT'nin üç alt testinin ağırlığında:[1]
+
+| Test | P2-16 | P2-17 |
+|---|---|---|
+| AGS sözel yetenek | %10 | %10 |
+| AGS sayısal yetenek | %10 | %10 |
+| AGS tarih | %7,5 | %7,5 |
+| AGS Türkiye coğrafyası | %5 | %5 |
+| AGS eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 | %12,5 |
+| AGS mevzuat | %5 | %5 |
+| ÖABT ortak alan bilgisi | %15 | %15 |
+| ÖABT Temel İslam Bilimleri | %15 | %20 |
+| ÖABT İslam Tarihi, Felsefe ve Din Bilimleri | %20 | %15 |
+
+P2-16'da İslam Tarihi, Felsefe ve Din Bilimleri, P2-17'de Temel İslam Bilimleri daha ağır. Başarı sırası her puan türünde ayrı belirleniyor. ÖABT'nin herhangi bir alt testinde standart puan hesaplanamazsa (en az 1 net şartı) o alt testi kullanan puan da hesaplanmıyor.[1] Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-16 ve P2-17 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[2]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[2][1]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[1] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[4]
+
+## ÖABT Din Kültürü ve Ahlak Bilgisi için çalışma planı
+
+İki puanın ağırlık farkı çalışma planını da belirliyor. Din Kültürü ve Ahlak Bilgisi öğretmenliğini (P2-16) hedefliyorsanız İslam Tarihi, Felsefe ve Din Bilimleri alt testine (%20) biraz daha fazla zaman ayırın; İmam-Hatip meslek dersleri öğretmenliğini (P2-17) hedefliyorsanız Temel İslam Bilimleri'ne (%20). Ortak alan bilgisi iki puanda da %15 ve yalnız 10 soru; Kur'an-ı Kerim ve tecvid ile siyer bu kısmın büyük bölümü. Temel İslam Bilimleri'nde tefsir, hadis, fıkıh ve kelam 5'er soruyla eşit; birini bırakmak 5 soru kaybı. Din bilimleri (felsefe, sosyoloji, psikoloji, eğitim, dinler tarihi) 2'şer soruluk küçük konular; din eğitimi ve din psikolojisi AGS'nin eğitim bilimleri alt testindeki öğrenme ve gelişim psikolojisiyle de kesişiyor.[1] AGS'de genel ortalamanın 3,4 net kaldığı sayısal yetenek ise bu alanın adayları için en çok fark yaratılabilecek alt test olabilir; AGS'nin soru tarzını görmek için ÖSYM'nin 23 soruluk örnek kitapçığına bakın.[5]
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[6] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[7] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Din Kültürü ve Ahlak Bilgisi testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Din Kültürü ve Ahlak Bilgisi (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-din-kulturu-ve-ahlak-bilgisimam-hatip-lisesi-meslek-dersleri-testi-ve-cevap-anahtari-10-2656vn6r.pdf)[8] ve [2025 ÖABT Din Kültürü ve Ahlak Bilgisi (%10)](https://dokuman.osym.gov.tr/pdfdokuman/2025/MEB-AGS/OABT/dkab_ihl_13072025.pdf).[9] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[10] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[4] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[11] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Din Kültürü ve Ahlak Bilgisi kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Din Kültürü ve Ahlak Bilgisi testi 50 sorudan oluşuyor ve 70 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Din Kültürü ve Ahlak Bilgisi konuları neler?
+
+Üç alt test var. Ortak alan bilgisi: Kur'an-ı Kerim ve tecvid, fıkıh, akaid, siyer. Temel İslam Bilimleri: tefsir, hadis, fıkıh, kelam, İslam mezhepleri. İslam Tarihi, Felsefe ve Din Bilimleri: İslam tarihi, İslam felsefesi, din felsefesi, din sosyolojisi, din psikolojisi, din eğitimi, dinler tarihi.
+
+### ÖABT Din Kültürü ve Ahlak Bilgisi ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 50.666 aday ortalama 22,1 net yaptı, standart sapma 9,6 oldu. 2025'te ortalama 24,7 netti.
+
+### ÖABT Din Kültürü ve Ahlak Bilgisi puan türü nedir?
+
+MEB-AGS-P2-16 ve P2-17. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Din Kültürü ve Ahlak Bilgisi adayları arasında belirleniyor.
+
+### ÖABT Din Kültürü ve Ahlak Bilgisi 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Din Kültürü ve Ahlak Bilgisi çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Din Kültürü ve Ahlak Bilgisi testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. ÖSYM (2025). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS): Örnek Sorular. https://www.osym.gov.tr/mill-egitim-bakanligi-akademi-giris-sinavi-mebags-ornek-sorular (TR, erişim: 2026-10-30)
+6. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+7. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+8. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+9. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+10. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+11. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
 
 ---
 
@@ -2044,6 +2530,164 @@ MEB-AGS-P2-09. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin a
 8. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
 9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
 10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# ÖABT Özel Eğitim Konuları, Soru Dağılımı ve Netler
+
+> ÖABT Özel Eğitim konuları: alan bilgisi %60, alan eğitimi %40. 2026'da eklenen alanın örnek soruları, ortalama neti ve P2-18 puanı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 6 dk okuma · https://bote.web.tr/blog/oabt-ozel-egitim-konulari
+
+## Özet
+
+- ÖABT Özel Eğitim **50 soru** ve **70 dakika**; puan türü **MEB-AGS-P2-18**.
+- Test iki parçalı: **alan bilgisi %60** (dokuz konu) ve **alan eğitimi %40** (on konu, her biri %4).
+- 2026'da 6.524 aday girdi, ortalama **31,7 net** oldu; alan 2026'da ilk kez sınava girdi.
+- ÖABT standart puanı MEB-AGS-P2-18 puanının **%50**'sini oluşturuyor; diğer yarısı AGS'den geliyor.
+- 2027'de ÖABT **9 Mayıs 2027 Pazar** günü yapılacak.
+
+ÖABT Özel Eğitim, 2026'da ilk kez yapılan alan: 2025'te bu alanda ÖABT yoktu. ÖSYM, ilk sınavdan önce 8 Ocak 2026'da alanın konu dağılımını, 4 Mart 2026'da örnek sorularını ayrıca yayımladı.[1][2] Bu yazı testin konularını, her konudan yaklaşık kaç soru geldiğini, 2026'daki ortalama neti ve netin P2-18 puanına nasıl yansıdığını ÖSYM'nin resmî belgelerinden topluyor.[3]
+
+## ÖABT Özel Eğitim kaç soru, kaç dakika?
+
+Kılavuza göre ÖABT Özel Eğitim testi **50 çoktan seçmeli sorudan** oluşuyor ve **70 dakika** sürüyor. Her soruda beş seçenek var; dört yanlış cevap bir doğruyu götürüyor. ÖABT oturumunda adaylar **sınav süresince** salondan çıkamıyor; AGS'deki "ilk 80, son 15 dakika" kuralı burada geçerli değil, çıkış hiç yok.[3] Ek süre hakkı olan adaylara ÖABT'de 20 dakika ekleniyor.
+
+Süreyi soru başına çevirince tablo netleşiyor: 70 dakika, 50 soru için soru başına yaklaşık **84 saniye** demek. Net hesabı da basit: doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 36 doğru ve 8 yanlış 34 net ediyor; aynı aday yanlış yaptığı sorulardan 2'sini boş bıraksaydı neti 34,5 olurdu. Boş bırakma kararının bu kadar küçük bir fark yarattığını bilmek, sınavda tahmin yapıp yapmama kararını sakin vermeyi kolaylaştırıyor.[3]
+
+## Özel Eğitim konu dağılımı ve yaklaşık soru sayısı
+
+Kılavuzun Tablo-1'i her konunun testteki **yaklaşık** ağırlığını veriyor. Aşağıdaki son sütun, bu yüzdelerin 50 soruya karşılığı; ÖSYM ağırlıkları yaklaşık verdiği için gerçek soru sayısı bir iki soru oynayabilir.[3]
+
+| Konu | Yaklaşık ağırlık | Yaklaşık soru (50 üzerinden) |
+|---|---|---|
+| **Alan bilgisi testi (%60)** | | |
+| Zihin yetersizliği ve otizm spektrum bozukluğu | %10 | 5 |
+| Öğrenme güçlüğü ve özel yetenek | %6 | 3 |
+| İşitme ve görme yetersizliği | %10 | 5 |
+| Erken çocuklukta özel eğitim | %4 | 2 |
+| Uygulamalı davranış analizi | %8 | 4 |
+| Bireyselleştirilmiş eğitim programları | %6 | 3 |
+| Özel eğitimde değerlendirme | %6 | 3 |
+| Dil ve iletişim becerilerinin desteklenmesi | %4 | 2 |
+| Özel eğitim politikaları ve yasal düzenlemeler | %6 | 3 |
+| **Alan eğitimi testi (%40)** | | |
+| 2024 TYMM özel eğitim programları | %4 | 2 |
+| Özel eğitimde okuma-yazma öğretimi | %4 | 2 |
+| Özel eğitimde fen ve sosyal bilgiler öğretimi | %4 | 2 |
+| Özel eğitimde matematik öğretimi | %4 | 2 |
+| Özel eğitimde sanatsal becerilerin öğretimi | %4 | 2 |
+| Özel eğitimde fiziksel eğitim ve spor | %4 | 2 |
+| Özel eğitimde sosyal uyum becerilerinin öğretimi | %4 | 2 |
+| Özel eğitimde Türkçe öğretimi | %4 | 2 |
+| Özel eğitimde oyun ve müzik | %4 | 2 |
+| Özel eğitimde aile eğitimi | %4 | 2 |
+
+Veri notu: Ağırlıklar 2026 MEB-AGS kılavuzu Tablo-1'den; soru sayısı sütunu bizim hesabımız (ağırlık × 50). Erişim 30 Ekim 2026.
+
+Alan bilgisinde en ağır iki konu 5'er soruyla **zihin yetersizliği ve otizm** ile **işitme ve görme yetersizliği**; uygulamalı davranış analizi 4 soru. Alan eğitimi ise eşit bölünmüş: on konunun her biri yaklaşık 2 soru.[3] Aynı dağılım ÖSYM'nin 8 Ocak 2026 tarihli konu dağılımı belgesinde de yer alıyor.[1] Alan eğitiminin ilk başlığı "2024 TYMM özel eğitim programları"; yani Türkiye Yüzyılı Maarif Modeli'yle gelen yeni programlar doğrudan soruluyor. AGS'nin eğitim bilimleri alt testinde de Türkiye Yüzyılı Maarif Modeli ayrı bir başlık.[3]
+
+## ÖABT Özel Eğitim ortalama net kaç?
+
+Özel Eğitim alanı ÖABT'ye 2026'da eklendi; 2025 sonuç istatistiklerinde bu alan yer almıyor.[4] 2026'da 6.524 aday girdi; ortalama net **31,7**, standart sapma 7,4 oldu.[5]
+
+Bu iki sayı, netinizin puana nasıl yansıyacağını kabaca gösteriyor. Kılavuza göre ÖABT neti, o testteki adayların ortalaması ve standart sapması kullanılarak ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[3] 2026 rakamlarıyla:
+
+| Net | Yaklaşık standart puan |
+|---|---|
+| 31,7 (ortalama) | 50 |
+| 39,1 | 60 |
+| 46,5 | 70 |
+
+Hesap yaklaşık: ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistik ise sınavı geçerli olan bütün adaylara ait; ayrıca her yılın ortalaması farklı.[3][5] İlk yılında Özel Eğitim, ortalama netin en yüksek üçüncü alanı oldu (Rehberlik ve Okul Öncesi'nden sonra) ve standart sapması düşüktü. Ortalamanın bir standart sapma üstü 39 net civarı; yani rekabet, az sayıda yanlışla belirleniyor.
+
+## MEB-AGS-P2-18 puanı nasıl hesaplanıyor?
+
+Özel Eğitim adayının puan türü **MEB-AGS-P2-18**. Bu puanda ÖABT standart puanı **%50** ağırlık taşıyor; diğer %50 AGS'nin altı alt testinden geliyor:[3]
+
+| Test | Ağırlık |
+|---|---|
+| AGS Sözel yetenek | %10 |
+| AGS Sayısal yetenek | %10 |
+| AGS Tarih | %7,5 |
+| AGS Türkiye coğrafyası | %5 |
+| AGS Eğitim bilimleri ve Türk millî eğitim sistemi | %12,5 |
+| AGS Mevzuat | %5 |
+| ÖABT Özel Eğitim | %50 |
+
+Ağırlıklı puan 100 üzerinden puana dönüştürülüyor ve başarı sırası **yalnız Özel Eğitim adayları arasında** belirleniyor; yani rakipleriniz aynı ÖABT'ye giren adaylar.[3] ÖABT'de en az 1 net yapmayan adaya ÖABT standart puanı, dolayısıyla MEB-AGS-P2-18 puanı hesaplanmıyor. Tablo, ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olduğunu gösteriyor: ÖABT'deki bir standart sapmalık fark, AGS'nin herhangi bir alt testindekinden dört ila on kat daha fazla puan ediyor. Hesabın tamamı [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında.
+
+## Puanın öbür yarısı: AGS
+
+MEB-AGS-P2-18 puanının yarısı AGS'den geldiği için ÖABT'ye ne kadar iyi hazırlanırsanız hazırlanın AGS'yi ihmal edemezsiniz. ÖSYM'nin 2026 istatistiklerine göre AGS alt testlerinde ortalama netler şöyleydi:[5]
+
+| AGS alt testi | Soru | Ortalama net | Standart sapma | P2 ağırlığı |
+|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 3,2 | %10 |
+| Sayısal yetenek | 15 | 3,4 | 3,9 | %10 |
+| Tarih | 6 | 2,7 | 2,1 | %7,5 |
+| Türkiye coğrafyası | 6 | 2,2 | 1,7 | %5 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 6,3 | %12,5 |
+| Mevzuat | 8 | 2,5 | 2,4 | %5 |
+
+Tablo iki fırsatı gösteriyor. **Sayısal yetenekte** ortalama yalnız 3,4 net ve standart sapma ortalamadan büyük; birkaç fazladan net, bu alt testte standart puanı hızla yukarı taşıyor. **Eğitim bilimleri** ise P2 puanında AGS'nin en ağır alt testi (%12,5) ve 30 soruluk en uzun bölüm. 2026'da 369.038 aday AGS'ye girdi; AGS'nin konuları için [AGS konuları](https://bote.web.tr/blog/ags-konulari) yazısına bakın.[5][3]
+
+## Başvuru ve sınav günü notları
+
+2026 kılavuzuna göre başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; alan, geç başvuru günü dahil başvuru süresi içinde AİS'ten değiştirilebiliyor, sonrasında değişmiyor. ÖABT ayrı bir oturum olduğu için ücreti de ayrı: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi. Sınava giriş belgesi her oturum için ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Salona fotoğraflı nüfus cüzdanı, T.C. kimlik kartı ya da süresi geçmemiş pasaportun **aslıyla** girilebiliyor; öğrenci kimliği ve sürücü belgesi kabul edilmiyor.[3] 2027'de AGS ile ÖABT ayrı günlerde yapılacağı için iki belgeyi de ilgili güne götürmeyi unutmayın.[6]
+
+## ÖABT Özel Eğitim için çalışma planı
+
+Alan bilgisinde yetersizlik türleriyle başlayın: zihin yetersizliği ve otizm ile işitme ve görme yetersizliği birlikte yaklaşık 10 soru. Uygulamalı davranış analizini yalnız kavram olarak değil, vaka üzerinden çalışın; davranış değiştirme, pekiştirme tarifeleri ve öğretim yöntemleri sorularının çoğu bir öğrenci durumu üzerinden geliyor. Alan eğitiminde on konu eşit ağırlıkta olduğu için hiçbirini atlamayın; her biri için kısa bir yöntem özeti ve bir örnek etkinlik yazmak yeterli bir başlangıç. 2024 TYMM özel eğitim programlarını MEB'in program metinlerinden okuyun. ÖSYM'nin 4 Mart 2026 tarihli örnek soruları, alanın soru tarzını görmek için 2026 kitapçığının yüzde 10'luk kısmıyla birlikte en iyi resmî kaynak.[2]
+
+Hangi yöntemle çalışırsanız çalışın, iki tekniğin yararı araştırmalarda en yüksek çıkıyor: kendini deneme sınavlarıyla sınamak ve aynı konuya aralıklarla dönmek.[7] Yeniden okumak ve altını çizmek ise aynı incelemede yararı düşük teknikler arasında. Roediger ve Karpicke'nin deneylerinde de metni yeniden çalışanlar beş dakika sonraki testte öndeydi, ama bir hafta sonra önceden sınanan öğrenciler çok daha fazlasını hatırladı.[8] Çıkmış soruların ve denemelerin değeri buradan geliyor.
+
+## Çıkmış sorular ve 2027 takvimi
+
+ÖSYM, ÖABT Özel Eğitim testinin yüzde 10'unu cevap anahtarıyla birlikte yayımlıyor: [2026 ÖABT Özel Eğitim (%10)](https://dokuman.osym.gov.tr/web/2026/7/2026-meb-ags-ogretmenlik-alan-bilgisi-ozel-egitim-testi-ve-cevap-anahtari-10-26x8enb2.pdf)[9]. 2025 belgelerinde bu alan yok.[10] Kitapçığın tamamını yalnız sınava giren aday, sınav günü akşamından itibaren 10 gün boyunca AİS'te görebiliyor; sorular ÖSYM'nin telifinde.[11] Bütün belgeler ve ortalama netler [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısında.
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[6] 2025 ve 2026'da iki oturum aynı gündü; 2027'de ayrı günlerde. Konu dağılımı ve süreler 2027 kılavuzuyla güncellenebilir; kılavuz ÖSYM'nin MEB-AGS sayfasında yayımlanacak.[12] Diğer alanlarla karşılaştırma için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir).
+
+## Sık Sorulan Sorular
+
+### ÖABT Özel Eğitim kaç soru ve kaç dakika?
+
+2026 kılavuzuna göre ÖABT Özel Eğitim testi 50 sorudan oluşuyor ve 70 dakika sürüyor. ÖABT oturumunda sınav süresince salondan çıkılamıyor.
+
+### ÖABT Özel Eğitim konuları neler?
+
+Alan bilgisi testi (%60): zihin yetersizliği ve otizm, öğrenme güçlüğü ve özel yetenek, işitme ve görme yetersizliği, erken çocuklukta özel eğitim, uygulamalı davranış analizi, BEP, değerlendirme, dil ve iletişim, politikalar ve yasal düzenlemeler. Alan eğitimi testi (%40): 2024 TYMM özel eğitim programları, okuma-yazma, fen ve sosyal bilgiler, matematik, sanat, beden eğitimi, sosyal uyum, Türkçe, oyun ve müzik, aile eğitimi.
+
+### ÖABT Özel Eğitim ortalama net kaç?
+
+ÖSYM'nin istatistiklerine göre 2026'da 6.524 aday ortalama 31,7 net yaptı, standart sapma 7,4 oldu. Alan 2025'te sınavda yoktu.
+
+### ÖABT Özel Eğitim puan türü nedir?
+
+MEB-AGS-P2-18. Bu puanın yarısı ÖABT standart puanından, yarısı AGS'nin altı alt testinden geliyor; başarı sırası yalnız Özel Eğitim adayları arasında belirleniyor.
+
+### ÖABT Özel Eğitim 2027'de ne zaman?
+
+ÖSYM'nin 2027 takvimine göre ÖABT 9 Mayıs 2027 Pazar günü, AGS bir gün önce 8 Mayıs'ta yapılacak. Başvurular 19-29 Mart 2027, sonuçlar 11 Haziran 2027.
+
+### ÖABT Özel Eğitim çıkmış soruları nerede?
+
+ÖSYM, 2025 ve 2026 ÖABT Özel Eğitim testinin yüzde 10'unu cevap anahtarıyla birlikte MEB-AGS sayfasında yayımladı. Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebildi.
+
+## Kaynaklar
+
+1. ÖSYM (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Konu Dağılımı. https://dokuman.osym.gov.tr/pdfdokuman/2026/MEB-AGS/konudagilimi08012026.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). 2026-MEB-AGS Öğretmenlik Alan Bilgisi Testi (ÖABT): Özel Eğitim Alanı Örnek Sorular. https://www.osym.gov.tr/2026mebags-ogretmenlik-alan-bilgisi-testi-oabt-ozel-egitim-alani-ornek-sorular (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+5. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+6. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+7. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+8. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+9. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+10. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+11. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+12. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
 
 ---
 
