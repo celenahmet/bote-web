@@ -2,6 +2,104 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://bote.web.tr/blog
 
+# Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik
+
+> Akademisyen nasıl olunur? Yüksek lisans ve doktora için ALES şartı, araştırma görevliliği, doktor öğretim üyeliği, doçentlik ve profesörlük; 2547 sayılı Kanun.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/akademisyen-nasil-olunur
+
+## Özet
+
+- Yol: **lisans → yüksek lisans → doktora → doktor öğretim üyesi → doçent → profesör**.
+- Yüksek lisansa ve doktoraya başvuruda **ALES en az 55**; lisans derecesiyle doktoraya **ALES en az 80** ve not ortalaması en az **3/4**.
+- Araştırma görevlisi kadrosu için 2547'ye göre sınav yılının 1 Ocak'ında **35 yaşını doldurmamış** olmak gerekiyor.
+- Doçentlik başvurusunda merkezî yabancı dil sınavından **en az 55** puan ve yeterli özgün yayın şartı var.
+- 2027'de ALES **18 Nisan, 11 Temmuz, 28 Kasım**; YDS **28 Mart, 21 Kasım**.
+
+Akademisyen olmak, Türkiye'de yasayla basamakları belirlenmiş uzun bir yol: lisansüstü eğitim, araştırma görevliliği, doktor öğretim üyeliği, doçentlik ve profesörlük. Bu yazı her basamağın şartlarını 2547 sayılı Yükseköğretim Kanunu'ndan ve Lisansüstü Eğitim ve Öğretim Yönetmeliği'nden, sınav tarihlerini ÖSYM'nin 2027 takviminden topluyor.[1]
+
+## Akademik kariyerin basamakları
+
+| Basamak | Ne gerekiyor | Kaynak |
+|---|---|---|
+| Yüksek lisans | Lisans diploması, ALES en az 55 | Lisansüstü yönetmelik md. 5 |
+| Doktora | Tezli yüksek lisans ve ALES en az 55 (ya da lisansla GNO en az 3, ALES en az 80) | Lisansüstü yönetmelik md. 16 |
+| Araştırma görevlisi | Sınav yılının 1 Ocak'ında 35 yaşını doldurmamış olmak; en çok üç yıllık atama | 2547 md. 33 |
+| Doktor öğretim üyesi | Doktora (ya da uzmanlık, sanatta yeterlik); en çok dört yıllık atama | 2547 md. 23 |
+| Doçent | Doktora, yabancı dilde en az 55, yeterli özgün yayın, ÜAK jürisi | 2547 md. 24 |
+| Profesör | Doçentlikten sonra en az 5 yıl çalışma ve özgün yayın | 2547 md. 26 |
+
+Veri notu: 2547 sayılı Kanun ve Lisansüstü Eğitim ve Öğretim Yönetmeliği'nin güncel metinleri; erişim 31 Ekim 2026.[1][2]
+
+## Lisansüstü eğitim ve ALES
+
+Akademik kariyerin kapısı lisansüstü eğitim. Lisansüstü Eğitim ve Öğretim Yönetmeliği'ne göre yüksek lisans programına başvurmak için lisans diploması ve başvurulan programın puan türünde **en az 55** olmak üzere senatonun belirleyeceği ALES puanı gerekiyor; konservatuvar ve özel yetenekle öğrenci alan güzel sanatlar programlarında ALES aranmıyor, tezsiz programlarda da aranmayabiliyor.[2]
+
+Doktora için tezli yüksek lisans diploması ve yine **en az 55** ALES gerekiyor. Lisans derecesiyle doğrudan doktoraya başvurmak da mümkün, ama şartı ağır: lisans not ortalaması 4 üzerinden **en az 3** ve ALES **en az 80**. Doktora programı yüksek lisansla kabul edilenler için 8 yarıyıl ve azami 12 yarıyıl; lisans derecesiyle kabul edilenler için 10 yarıyıl.[2]
+
+ALES'i ÖSYM yapıyor.[3] 2027 takvimine göre ALES üç kez yapılacak: **18 Nisan**, **11 Temmuz** ve **28 Kasım 2027**. Doçentlikte de gerekecek yabancı dil için YDS **28 Mart** ve **21 Kasım**, YÖKDİL **28 Şubat** ve **25 Temmuz 2027**'de.[4]
+
+## Araştırma görevliliği
+
+Lisansüstü eğitim sırasında akademiye girmenin en yaygın yolu araştırma görevliliği. 2547 sayılı Kanun'un 33. maddesine göre araştırma görevlisi, yükseköğretim kurumlarındaki araştırma, inceleme ve deneylerde yardımcı olan ve verilen diğer görevleri yapan öğretim elemanı. Kadroya başvurmak için sınavın yapıldığı yılın **1 Ocak** günü itibarıyla **35 yaşını doldurmamış** olmak gerekiyor; atama anabilim dalı başkanının önerisi ve rektör onayıyla **en çok üç yıl** için yapılıyor ve süre sonunda görev kendiliğinden sona eriyor.[1] Kadro ilanlarındaki ALES ve yabancı dil şartları ilgili yönetmelikle ve üniversitenin ilanıyla belirleniyor; ilanı dikkatle okumak gerekiyor.
+
+## Doktor öğretim üyesi, doçent, profesör
+
+Doktorayı tamamlayan, açık bulunan **doktor öğretim üyesi** kadrolarına başvurabiliyor. Kanunun 23. maddesine göre bu kadrolar rektörlükçe ilan ediliyor, biri kurum dışından üç profesör ya da doçent adaylar hakkında yazılı görüş veriyor ve atama **en çok dört yıl** için yapılıyor; süre sonunda yeniden atanmak mümkün. Üniversiteler YÖK onayıyla ek koşullar belirleyebiliyor.[1]
+
+**Doçentlik** için kanunun 24. maddesi üç şart sayıyor: doktora (ya da uzmanlık veya sanatta yeterlik), YÖK'ün belirlediği merkezî bir yabancı dil sınavından **en az 55** puan ya da eşdeğeri ve her disiplin için belirlenen sayı ve nitelikte özgün yayın. Başvurular Üniversitelerarası Kurulun (ÜAK) takvimine göre yılda en az iki kez yapılıyor; ÜAK beş kişilik bir jüri belirliyor ve jüri raporlarına göre unvan veriliyor.[1]
+
+**Profesörlük** için doçentlik unvanından sonra ilgili alanda **en az beş yıl** çalışmış olmak ve özgün yayınlar yapmış olmak gerekiyor; yayınlardan biri başlıca araştırma eseri olarak gösteriliyor ve en az üçü başka kurumlardan beş profesör aday hakkında rapor yazıyor.[1]
+
+## Doktora yolunda gerçekçi beklentiler
+
+Akademik kariyer uzun ve zorlu bir yol, ve araştırmalar bunun bedelini açıkça gösteriyor. Levecque ve arkadaşları Belçika'nın Flaman bölgesinde 3.659 doktora öğrencisiyle yaptıkları çalışmada öğrencilerin **%32**'sinin yaygın bir psikiyatrik bozukluk, özellikle depresyon riski taşıdığını buldu; bu oran yüksek eğitimli genel nüfus ve çalışanlarla yapılan karşılaştırmalardan anlamlı biçimde yüksekti. İş ve aile hayatı çatışması, iş yükü ve danışmanın yönetim tarzı bu riskle ilişkili etkenler arasındaydı.[5] Litalien ve Guay ise doktorayı bırakma niyetini açıklayan modellerinde danışman ve çevre desteğinin, öğrencinin kendini yeterli hissetmesi ve içsel motivasyonu üzerinden bırakma niyetini azalttığını gösterdi.[6]
+
+Bu bulguların pratik dersi: danışman seçimi, doktoranın akademik konusu kadar önemli. Lisansüstü başvurusundan önce danışmanın çalışma alanını, öğrencileriyle çalışma biçimini ve öğrencilerinin mezuniyet süresini araştırmak iyi bir başlangıç.
+
+## Eğitim fakültesi mezunları için
+
+Eğitim fakültesi mezunları için akademi ile öğretmenlik birbirini dışlamıyor: eğitim bilimleri ve alan eğitimi anabilim dallarındaki lisansüstü programlar, öğretmenlik yapmakta olan ya da AGS'ye hazırlanan mezunlara da açık. AGS'nin eğitim bilimleri alt testindeki ölçme ve değerlendirme, öğrenme psikolojisi ve program geliştirme konuları, eğitim bilimleri lisansüstü programlarının da temel konuları.[7] Özel eğitim ve rehberlik gibi alanlarda lisansüstü çalışmalar ise doğrudan mevzuattaki uygulamalara (BEP, destek eğitim, kaynaştırma) dayanıyor.[8]
+
+## Sık Sorulan Sorular
+
+### Akademisyen olmak için ne yapmak gerekir?
+
+Lisanstan sonra yüksek lisans ve doktora yapmak, doktoradan sonra doktor öğretim üyesi kadrosuna atanmak; ardından doçentlik unvanı ve profesörlük. Araştırma görevliliği, lisansüstü eğitim sırasında akademiye girmenin yaygın yolu.
+
+### Yüksek lisans için ALES kaç olmalı?
+
+Lisansüstü Eğitim ve Öğretim Yönetmeliği'ne göre başvurulan programın puan türünde en az 55; üniversite senatosu daha yüksek bir puan belirleyebiliyor. Tezsiz programlarda ALES aranmayabiliyor.
+
+### Doktora için ALES kaç olmalı?
+
+Tezli yüksek lisans derecesiyle başvuruda en az 55; lisans derecesiyle doktoraya başvuruda lisans not ortalaması 4 üzerinden en az 3 ve ALES en az 80.
+
+### Araştırma görevlisi olmak için yaş sınırı var mı?
+
+2547 sayılı Kanun'un 33. maddesine göre araştırma görevlisi kadrosuna başvurmak için sınavın yapıldığı yılın ocak ayının birinci günü itibarıyla 35 yaşını doldurmamış olmak gerekiyor.
+
+### Doçentlik şartları nelerdir?
+
+2547 sayılı Kanun'un 24. maddesine göre doktora (ya da uzmanlık veya sanatta yeterlik), YÖK'ün belirlediği merkezî yabancı dil sınavından en az 55 puan ya da eşdeğeri ve yeterli sayı ve nitelikte özgün yayın. Başvurular Üniversitelerarası Kurulun takvimine göre yılda en az iki kez yapılıyor.
+
+### Profesör olmak için kaç yıl gerekir?
+
+2547 sayılı Kanun'un 26. maddesine göre doçentlik unvanını aldıktan sonra en az beş yıl ilgili bilim alanında çalışmış olmak ve özgün yayınlar yapmış olmak gerekiyor.
+
+## Kaynaklar
+
+1. Mevzuat Bilgi Sistemi (1981). 2547 sayılı Yükseköğretim Kanunu. https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2547.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (2016). Lisansüstü Eğitim ve Öğretim Yönetmeliği (RG 20/4/2016, 29690). https://www.mevzuat.gov.tr/mevzuatmetin/yonetmelik/7.5.21510.pdf (TR, erişim: 2026-10-31)
+3. ÖSYM (2026). ALES: Akademik Personel ve Lisansüstü Eğitimi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/5 (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+5. Levecque, K., Anseel, F., De Beuckelaer, A., Van der Heyden, J. ve Gisle, L. (2017). Work organization and mental health problems in PhD students. Research Policy, 46(4), 868–879. https://doi.org/10.1016/j.respol.2017.02.008 (EN, erişim: 2026-10-31)
+6. Litalien, D. ve Guay, F. (2015). Dropout intentions in PhD studies: A comprehensive model based on interpersonal relationships and motivational resources. Contemporary Educational Psychology, 41, 218–231. https://doi.org/10.1016/j.cedpsych.2015.03.004 (EN, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+8. Mevzuat Bilgi Sistemi (RG 7/7/2018, 30471; son değişiklik RG 25/10/2022, 31994) (2018). Özel Eğitim Hizmetleri Yönetmeliği. https://www.mevzuat.gov.tr/mevzuatmetin/yonetmelik/7.5.24736.pdf (TR, erişim: 2026-10-31)
+
+---
+
 # Almanca Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS
 
 > Almanca öğretmeni olmak için hangi bölümler kaynak, AGS ve YDS (P3 puanı), 2027'de AGS'den önceki Almanca sınavı, Millî Eğitim Akademisi ve atama.
@@ -218,6 +316,229 @@ MEB çizelgesine göre beden eğitimi ve spor, sağlık bilgisi ve trafik kült�
 
 ---
 
+# BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi
+
+> BEP (bireyselleştirilmiş eğitim programı) nedir, kim hazırlar, içinde neler olur? Özel Eğitim Hizmetleri Yönetmeliği'ne göre BEP geliştirme birimi ve süreç.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/bep-nedir
+
+## Özet
+
+- BEP, özel eğitim ihtiyacı olan öğrenci için **takip ettiği program esas alınarak** hazırlanan ve destek eğitim hizmetlerini de içeren özel eğitim programı.
+- Yönetmeliğe göre BEP'te yıllık ve kısa dönemli amaçlar, destek hizmetler, yöntem ve materyaller, ortam düzenlemeleri ve davranış tedbirleri yer alıyor.
+- BEP'i okuldaki **BEP geliştirme birimi** hazırlıyor: müdür ya da müdür yardımcısı, rehber öğretmen, sınıf ve alan öğretmenleri, **veli ve öğrenci**.
+- Kaynaştırma öğrencisinin başarısı **BEP'ine göre** değerlendiriliyor.
+- 2024'ten beri BEP'lerin Türkiye Yüzyılı Maarif Modeli programlarına dayandırılması isteniyor.
+
+BEP, özel eğitim ihtiyacı olan bir öğrencinin okuldaki eğitiminin yol haritası. Öğretmenler için mesleki bir sorumluluk, veliler için çocuklarının hakkı, öğretmen adayları için de AGS ve ÖABT'de karşılarına çıkan bir konu. Bu yazı BEP'in ne olduğunu, içinde neler bulunduğunu, kimin hazırladığını ve nasıl kullanıldığını Özel Eğitim Hizmetleri Yönetmeliği'nin güncel metninden anlatıyor.[1]
+
+## BEP'in yasal temeli
+
+Türkiye'de özel eğitimin çerçevesini 1997 tarihli 573 sayılı Özel Eğitim Hakkında Kanun Hükmünde Kararname çiziyor. KHK'nin 4. maddesindeki temel ilkelerden biri doğrudan BEP'le ilgili: özel eğitim gerektiren bireyler için **bireyselleştirilmiş eğitim planı geliştirilmesi** ve eğitim programlarının bireyselleştirilerek uygulanması esas. Aynı maddedeki diğer ilkeler BEP'in ruhunu tamamlıyor: özel eğitime erken başlamak, bireyi sosyal ve fiziksel çevresinden mümkün olduğunca ayırmamak, uyarlamalar yaparak diğer bireylerle birlikte eğitime öncelik vermek ve ailenin sürecin her boyutuna katılmasını sağlamak.[2]
+
+Uygulamanın ayrıntısı 7 Temmuz 2018 tarihli Özel Eğitim Hizmetleri Yönetmeliği'nde. Yönetmelik BEP'i şöyle tanımlıyor: özel eğitim ihtiyacı olan bireylerin **takip ettikleri program esas alınarak** gelişim özellikleri, eğitim ihtiyaçları ve performansları doğrultusunda hedeflenen amaçlara ulaşmaya yönelik hazırlanan ve bu bireylere verilecek destek eğitim hizmetlerini de içeren özel eğitim programı.[1]
+
+## BEP'te neler yer alır?
+
+Yönetmeliğin 20. maddesi BEP'in içeriğini sayıyor:[1]
+
+| Bölüm | İçerik |
+|---|---|
+| Amaçlar | Eğitim planındaki yıllık amaçlar ve kısa dönemli amaçlar |
+| Destek hizmetler | Destek eğitim hizmetinin türü, süresi, kimin tarafından ve nasıl sağlanacağı |
+| Yöntem ve materyal | Öğretimde ve değerlendirmede kullanılacak yöntem, teknik ve materyaller |
+| Ortam | Eğitim ortamına ilişkin düzenlemeler |
+| Davranış | Davranış problemlerini önleme ya da azaltma ve olumlu davranış kazandırma tedbirleri |
+| Kişisel bilgiler | Öğrencinin kişisel bilgileri |
+
+Veri notu: Özel Eğitim Hizmetleri Yönetmeliği madde 20, güncel metin; erişim 31 Ekim 2026.
+
+BEP'in en önemli özelliği, sıfırdan yazılan ayrı bir müfredat olmaması: öğrencinin **zaten takip ettiği program** temel alınıyor ve bu programın amaçları öğrencinin performansına göre bireyselleştiriliyor. Tam zamanlı kaynaştırmadaki öğrenci, kayıtlı olduğu okulun programını takip ediyor ve BEP bu programa göre hazırlanıyor.[1] MEB'in 2024 tarihli genelgesine göre özel eğitim okulları ve kaynaştırma sınıflarındaki BEP'lerin de Türkiye Yüzyılı Maarif Modeli programlarına dayandırılması gerekiyor.[3]
+
+## BEP'i kim hazırlar?
+
+Yönetmeliğin 47. maddesine göre BEP'i okulda kurulan **BEP geliştirme birimi** hazırlıyor. Birim, okul müdürü ya da görevlendireceği bir müdür yardımcısının başkanlığında şu üyelerden oluşuyor:[1]
+
+- Rehberlik öğretmeni,
+- Öğrencinin sınıf öğretmeni,
+- Öğrencinin dersini okutan alan öğretmenleri,
+- Öğrencinin velisi,
+- Öğrencinin kendisi.
+
+Gerektiğinde özel eğitim değerlendirme kurulundan bir üye de birime katılıyor; mesleki eğitim veren özel eğitim okullarında meslek derslerini okutan bir alan öğretmeni ekleniyor. Kaynaştırma ya da bütünleştirme yoluyla eğitim yapılan okullarda bu birimin kurulması **zorunlu**.[1]
+
+Birimin görevleri BEP yazmakla sınırlı değil (madde 48): BEP'in uygulanmasını, izlenmesini ve değerlendirilmesini koordine etmek, öğrencinin gelişimine göre BEP'te değişiklik yapmak, ortam ve materyal önerileri sunmak, destek eğitim odasında eğitim alacak öğrencileri, dersleri ve haftalık saatleri belirlemek, sınavlarda refakat gerekenleri belirlemek ve velinin yazılı talebi üzerine ilkokulda bir defaya mahsus sınıf tekrarına karar vermek bunlardan bazıları.[1]
+
+## BEP ve değerlendirme
+
+BEP yalnız öğretimi değil, notlandırmayı da belirliyor. Yönetmeliğin 24. maddesine göre tam zamanlı kaynaştırmadaki öğrencilerin başarıları **BEP'lerine göre** değerlendiriliyor; ölçme süreçlerinde yetersizlik türü ve performansa göre süre, ortam, yöntem, cihaz ve materyalde düzenleme yapılıyor. Bazı somut hükümler:[1]
+
+- İşitme yetersizliği, zihinsel yetersizliği ya da otizmi olan öğrenciler velinin yazılı talebi ve birimin kararıyla yabancı dil dersinden muaf tutulabiliyor.
+- Görme yetersizliği olan öğrenciler için şekil ve grafik içeren sorular kabartma, betimleme ya da eşdeğer sorularla hazırlanıyor.
+- Motor becerilerde yetersizliği olan öğrenciler velinin talebiyle motor beceri gerektiren derslerin uygulamalı bölümlerinden muaf tutulabiliyor.
+
+## Araştırmalar ne diyor?
+
+BEP'in amacı, öğrenciyi mümkün olduğunca akranlarıyla birlikte ve kendi ihtiyaçlarına göre eğitmek. Kaynaştırmanın etkilerini inceleyen çalışmalar bu yaklaşımı genel olarak destekliyor: Ruijs ve Peetsma'nın derlemesi, kaynaştırmanın özel gereksinimli öğrencilere ve akranlarına etkisinin çalışmaların çoğunda nötr ya da olumlu olduğunu bildiriyor.[4] Szumski ve arkadaşlarının yaklaşık 4,8 milyon öğrenciyi kapsayan 47 çalışmalık meta-analizi de kaynaştırma sınıflarında özel gereksinimi olmayan öğrencilerin başarısıyla olumlu ama zayıf bir ilişki buldu; yani kaynaştırma akranların başarısını düşürmüyor.[5] Bu sonuçlar, iyi hazırlanmış bir BEP'le desteklenen kaynaştırmanın sınıfın bütünü için de bir risk olmadığını gösteriyor.
+
+## Öğretmen ve aday öğretmen için
+
+Sınıfında kaynaştırma öğrencisi olan her öğretmen BEP geliştirme biriminin doğal üyesi; yani BEP yalnız özel eğitim öğretmeninin işi değil. MEB'in atama çizelgesine göre özel eğitim öğretmenleri kaynaştırma uygulanan okulların destek eğitim odalarında da görev yapıyor.[6] ÖABT Özel Eğitim'in alan bilgisi testinde "bireyselleştirilmiş eğitim programları" ayrı bir konu (%6), alan eğitiminde de 2024 TYMM özel eğitim programları yer alıyor.[7] 2026'da bu teste 6.524 aday girdi.[8] Kaynaştırmanın bütün çerçevesi için [kaynaştırma eğitimi](https://bote.web.tr/blog/kaynastirma-egitimi-nedir), mesleğe giriş için [özel eğitim öğretmeni nasıl olunur?](https://bote.web.tr/blog/ozel-egitim-ogretmeni-nasil-olunur) yazılarına bakın.
+
+## Sık Sorulan Sorular
+
+### BEP nedir?
+
+Özel Eğitim Hizmetleri Yönetmeliği'ne göre bireyselleştirilmiş eğitim programı (BEP), özel eğitim ihtiyacı olan bireylerin takip ettikleri program esas alınarak gelişim özellikleri, eğitim ihtiyaçları ve performansları doğrultusunda hazırlanan ve destek eğitim hizmetlerini de içeren özel eğitim programı.
+
+### BEP'i kim hazırlar?
+
+Okuldaki BEP geliştirme birimi. Birim okul müdürü ya da görevlendireceği müdür yardımcısının başkanlığında rehber öğretmen, öğrencinin sınıf öğretmeni, dersine giren alan öğretmenleri, veli ve öğrenciden oluşuyor.
+
+### BEP'te neler yer alır?
+
+Yönetmeliğin 20. maddesine göre yıllık ve kısa dönemli amaçlar, destek eğitim hizmetinin türü ve süresi, öğretim ve değerlendirme yöntemleri ve materyaller, eğitim ortamı düzenlemeleri, davranış problemlerine yönelik tedbirler ve öğrencinin kişisel bilgileri.
+
+### Kaynaştırma öğrencisi nasıl değerlendirilir?
+
+Yönetmeliğin 24. maddesine göre öğrencinin başarısı BEP'ine göre değerlendiriliyor; süre, ortam, yöntem ve materyallerde yetersizlik türüne göre düzenleme yapılıyor.
+
+### Veli BEP'e katılabilir mi?
+
+Evet. Veli ve öğrenci BEP geliştirme biriminin üyesi; 573 sayılı KHK de ailelerin özel eğitim sürecinin her boyutuna aktif katılmasını temel ilke sayıyor.
+
+### BEP her okulda zorunlu mu?
+
+Kaynaştırma ya da bütünleştirme yoluyla eğitim yapılan okullarda BEP geliştirme birimi oluşturulması yönetmeliğe göre zorunlu.
+
+## Kaynaklar
+
+1. Mevzuat Bilgi Sistemi (RG 7/7/2018, 30471; son değişiklik RG 25/10/2022, 31994) (2018). Özel Eğitim Hizmetleri Yönetmeliği. https://www.mevzuat.gov.tr/mevzuatmetin/yonetmelik/7.5.24736.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (RG 6/6/1997, 23011 mükerrer) (1997). Özel Eğitim Hakkında Kanun Hükmünde Kararname (573). https://www.mevzuat.gov.tr/mevzuatmetin/4.5.573.pdf (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+4. Ruijs, N. M. ve Peetsma, T. T. D. (2009). Effects of inclusion on students with and without special educational needs reviewed. Educational Research Review, 4(2), 67–79. https://doi.org/10.1016/j.edurev.2009.02.002 (EN, erişim: 2026-10-31)
+5. Szumski, G., Smogorzewska, J. ve Karwowski, M. (2017). Academic achievement of students without special educational needs in inclusive classrooms: A meta-analysis. Educational Research Review, 21, 33–54. https://doi.org/10.1016/j.edurev.2017.02.004 (EN, erişim: 2026-10-31)
+6. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+
+---
+
+# BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim
+
+> BİLSEM nedir, öğrenciler nasıl seçilir? Aday gösterme, %20 sınırı, ön ve bireysel değerlendirme takvimi, yetenek alanları, programlar ve devam kuralları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/bilsem-nedir
+
+## Özet
+
+- BİLSEM, özel yetenekli öğrencilerin **okul saatleri dışında** eğitim aldığı MEB kurumu.
+- Tanılama **ilkokul 1, 2 ve 3. sınıflarda**, üç alanda yapılıyor: **genel zihinsel, resim, müzik**.
+- Her sınıf düzeyinde öğrencilerin **en fazla %20**'si aday gösterilebiliyor; bir öğrenci en fazla iki alandan aday olabiliyor.
+- Süreç: öğretmen gözlem formu, okul komisyonu, tabletle **ön değerlendirme**, **bireysel değerlendirme**, kayıt.
+- Programlar: uyum, destek eğitim, bireysel yetenekleri fark ettirme, özel yetenekleri geliştirme, proje üretimi ve yönetimi.
+
+Bilim ve sanat merkezleri (BİLSEM), Türkiye'de özel yetenekli öğrencilere yönelik devlet okullarının dışındaki ana kurum. Her yıl binlerce aile çocuklarının BİLSEM'e aday gösterilip gösterilmeyeceğini merak ediyor. Bu yazı BİLSEM'in ne olduğunu, öğrencilerin nasıl seçildiğini ve merkezlerde hangi programların uygulandığını MEB'in yönetmelik, yönerge ve 2025-2026 tanılama kılavuzundan anlatıyor.[1]
+
+## BİLSEM nedir?
+
+BİLSEM'ler, Özel Eğitim Hizmetleri Yönetmeliği kapsamında özel yetenekli öğrencilere hizmet veren MEB kurumları. Yönetmeliğe göre BİLSEM'e kaydı yapılan öğrenciler beş programa alınıyor: uyum, destek eğitim, bireysel yetenekleri fark ettirme, özel yetenekleri geliştirme ve proje üretimi ve yönetimi; tamamlanan her program için "Program Tamamlama Belgesi" veriliyor.[2] Bu yapı, 573 sayılı KHK'nin özel eğitim gerektiren bütün bireylerin ilgi, istek, yeterlik ve yetenekleri doğrultusunda özel eğitim hizmetlerinden yararlandırılması ilkesine dayanıyor.[3]
+
+BİLSEM'in işleyişini 1 Aralık 2022 tarihli BİLSEM Yönergesi düzenliyor. Yönergeye göre eğitim, öğrencinin örgün eğitimde **gördüğü saatler dışında**, hafta içi ve/veya hafta sonu planlanıyor; süreç öğrencinin okulu, veli ve BİLSEM arasındaki iş birliğiyle yürütülüyor ve programlar okul programlarıyla bütünlük oluşturacak şekilde hazırlanıyor.[4] Yani BİLSEM okulun yerine geçmiyor, onu tamamlıyor.
+
+## Kimler aday gösterilebilir?
+
+2025-2026 kılavuzuna göre tanılama, **ilkokul 1, 2 ve 3. sınıf** seviyelerinde üç yetenek alanında yapılıyor: **genel zihinsel yetenek**, **resim yeteneği** ve **müzik yeteneği**. Aday gösterme kuralları:[1]
+
+- Sınıf öğretmeni, önerdiği öğrenci için **gözlem formunu** dolduruyor; aday gösterme kararını okul müdürünün başkanlığındaki **okul yönlendirme komisyonu** veriyor.
+- Her ilkokulda 1, 2 ve 3. sınıf seviyelerinde, her seviyedeki toplam öğrenci sayısının **en fazla %20'si** aday gösterilebiliyor.
+- Bir öğrenci **en fazla iki** yetenek alanından aday gösterilebiliyor; ikinci alan %20'lik dilimi etkilemiyor.
+- Özel eğitim ihtiyacı olan öğrenciler %20'lik kontenjanın içinde değerlendiriliyor; total görme, total işitme yetersizliği ya da otizm spektrum bozukluğu olan öğrenciler raporla belgelendirildiğinde ön değerlendirmeden muaf tutulabiliyor.
+
+MEB, kılavuzu her yıl ayrı bir duyuruyla yayımlıyor; 2026-2027 süreci için yeni kılavuz esas alınmalı.[5]
+
+## Tanılama takvimi
+
+2025-2026 kılavuzundaki takvim, sürecin bütün aşamalarını gösteriyor:[1]
+
+| Aşama | 2025-2026 tarihi |
+|---|---|
+| Gözlem formlarının doldurulması | 21-27 Kasım 2025 |
+| Ön değerlendirme uygulamaları (tablet) | 15 Aralık 2025 - 20 Şubat 2026 |
+| Bireysel değerlendirmeye kalanların ilanı | 27 Şubat 2026 |
+| Ön değerlendirme itirazları | 2-6 Mart 2026 |
+| Bireysel değerlendirme uygulamaları | 6 Nisan - 19 Haziran 2026 |
+| Kayıt hakkı kazananların ilanı | 3 Temmuz 2026 |
+| Bireysel değerlendirme itirazları | 6-10 Temmuz 2026 |
+| Kayıt | 27 Temmuz - 28 Ağustos 2026 |
+
+Veri notu: BİLSEM Öğrenci Tanılama ve Yerleştirme Kılavuzu 2025-2026; 2026-2027 takvimi yeni kılavuzla açıklanır. Erişim 31 Ekim 2026.
+
+Ön değerlendirmede belirlenen puanın üzerinde performans gösteren öğrenciler, il tanılama sınav komisyonunca Bakanlığın belirlediği ölçme aracıyla bireysel değerlendirmeye alınıyor.[1]
+
+## BİLSEM'deki programlar
+
+Yönergeye göre BİLSEM'e kayıtlı öğrenciler sırasıyla şu programlardan geçiyor:[4]
+
+| Program | Kısa açıklama |
+|---|---|
+| Uyum | Öğrencinin BİLSEM'e ve yöntemlerine uyumu |
+| Destek eğitim | Genel zihinsel yetenek alanından tanılananlara disiplinler arası destek |
+| Bireysel yetenekleri fark ettirme (BYF) | Destek eğitimi tamamlayan genel zihinsel yetenek öğrencilerinin yeteneklerini fark etmesi |
+| Özel yetenekleri geliştirme (ÖYG) | Resim ve müzikte uyumdan, genel zihinsel alanda BYF'den sonra yeteneğin geliştirilmesi |
+| Proje üretimi ve yönetimi | Öğrencinin ilgi ve yeteneğine göre danışman öğretmenle proje |
+
+Devam kuralı da net: bir öğretim yılında özürsüz devamsızlık eğitim süresinin **%30'unu** geçemiyor; %20'ye ulaşan öğrenciye uyarı gönderiliyor ve sınırı aşanların kaydı dönem sonunda siliniyor.[4]
+
+## Araştırmalar ne diyor?
+
+Uluslararası alanyazın, üstün yeteneği tek bir testle belirlenen sabit bir özellik olarak değil, alana özgü ve zamanla gelişen bir potansiyel olarak görmeye yöneliyor. Subotnik, Olszewski-Kubilius ve Worrell'in kapsamlı derlemesi, yeteneğin gelişiminde fırsatların, motivasyonun ve sistematik eğitimin belirleyici olduğunu vurguluyor.[6] BİLSEM'in alan bazlı (genel zihinsel, resim, müzik) tanılaması ve aşamalı programları bu yaklaşımla uyumlu.
+
+Özel yeteneklilere yönelik uygulamaların etkisine dair en kapsamlı kanıt, yetenek gruplaması ve hızlandırma üzerine yüz yıllık araştırmayı birleştiren Steenbergen-Hu, Makel ve Olszewski-Kubilius'un ikinci düzey meta-analizinden geliyor: hızlandırma ve özel yetenekli öğrencilere yönelik özel gruplama, bu öğrencilerin akademik başarısına olumlu etki gösteriyor.[7] Özel Eğitim Hizmetleri Yönetmeliği de destek eğitim odalarında özel yetenekli öğrencilere zenginleştirme ve hızlandırma yoluyla eğitim verilmesini öngörüyor.[2]
+
+## Öğretmenler ve öğretmen adayları için
+
+Süreç sınıf öğretmeninin gözlemiyle başlıyor; yani BİLSEM tanılamasının ilk ve en kritik adımı öğretmenin elinde. Öğretmen adayları için konu, AGS'nin eğitim bilimleri alt testinde rehberlik ve gelişim psikolojisi, ÖABT Özel Eğitim'de ise "öğrenme güçlüğü ve özel yetenek" başlığı altında karşılarına çıkıyor.[8] Özel yetenekli öğrencilerin okul içindeki desteği için [destek eğitim odası nedir?](https://bote.web.tr/blog/destek-egitim-odasi-nedir) yazısına bakın.
+
+## Sık Sorulan Sorular
+
+### BİLSEM nedir?
+
+Bilim ve sanat merkezi; Millî Eğitim Bakanlığına bağlı, özel yetenekli öğrencilere okuldaki eğitimlerinin yanında, okul saatleri dışında hafta içi ya da hafta sonu eğitim veren kurum.
+
+### BİLSEM'e kimler girebilir?
+
+2025-2026 kılavuzuna göre ilkokul 1, 2 ve 3. sınıflarda genel zihinsel, resim ya da müzik yetenek alanında aday gösterilen ve tanılama sürecini başarıyla geçen öğrenciler.
+
+### BİLSEM'e nasıl aday gösterilir?
+
+Sınıf öğretmeni gözlem formunu doldurur, okul yönlendirme komisyonu aday gösterilecek öğrencilere karar verir. Her sınıf düzeyindeki öğrencilerin en fazla %20'si aday gösterilebilir.
+
+### BİLSEM sınavı nasıl yapılır?
+
+İki aşamalı: tablet bilgisayarla yapılan ön değerlendirme ve ön değerlendirmede belirlenen puanın üzerinde kalanların alındığı bireysel değerlendirme. 2025-2026'da ön değerlendirme 15 Aralık-20 Şubat, bireysel değerlendirme 6 Nisan-19 Haziran arasındaydı.
+
+### BİLSEM'de hangi programlar var?
+
+Uyum, destek eğitim, bireysel yetenekleri fark ettirme (BYF), özel yetenekleri geliştirme (ÖYG) ile proje üretimi ve yönetimi programları.
+
+### BİLSEM'de devamsızlık sınırı var mı?
+
+Yönergeye göre bir öğretim yılında özürsüz devamsızlık eğitim süresinin %30'unu geçemez; %20'ye ulaşınca uyarı gönderilir ve sınırı aşanların kaydı dönem sonunda silinir.
+
+## Kaynaklar
+
+1. MEB Özel Eğitim ve Rehberlik Hizmetleri Genel Müdürlüğü (2025). Bilim ve Sanat Merkezleri Öğrenci Tanılama ve Yerleştirme Kılavuzu 2025-2026. https://orgm.meb.gov.tr/meb_iys_dosyalar/2025_11/12190510_20252026bilimsanatmerkezleriogrencitanilamaveyerlestirmeklavuzu.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (RG 7/7/2018, 30471; son değişiklik RG 25/10/2022, 31994) (2018). Özel Eğitim Hizmetleri Yönetmeliği. https://www.mevzuat.gov.tr/mevzuatmetin/yonetmelik/7.5.24736.pdf (TR, erişim: 2026-10-31)
+3. Mevzuat Bilgi Sistemi (RG 6/6/1997, 23011 mükerrer) (1997). Özel Eğitim Hakkında Kanun Hükmünde Kararname (573). https://www.mevzuat.gov.tr/mevzuatmetin/4.5.573.pdf (TR, erişim: 2026-10-31)
+4. MEB Özel Eğitim ve Rehberlik Hizmetleri Genel Müdürlüğü (2022). Millî Eğitim Bakanlığı Bilim ve Sanat Merkezleri Yönergesi (1/12/2022). https://orgm.meb.gov.tr/meb_iys_dosyalar/2022_12/06214921_BIYLIYM_VE_SANAT_MERKEZLERIY_YOYNERGESIY.pdf (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2025). BİLSEM Öğrenci Tanılama ve Yerleştirme Kılavuzu Yayımlandı. https://www.meb.gov.tr/bilsem-ogrenci-tanilama-ve-yerlestirme-kilavuzu-yayimlandi/haber/38948/tr (TR, erişim: 2026-10-31)
+6. Subotnik, R. F., Olszewski-Kubilius, P. ve Worrell, F. C. (2011). Rethinking giftedness and gifted education: A proposed direction forward based on psychological science. Psychological Science in the Public Interest, 12(1), 3–54. https://doi.org/10.1177/1529100611418056 (EN, erişim: 2026-10-31)
+7. Steenbergen-Hu, S., Makel, M. C. ve Olszewski-Kubilius, P. (2016). What one hundred years of research says about the effects of ability grouping and acceleration on K–12 students' academic achievement. Review of Educational Research, 86(4), 849–899. https://doi.org/10.3102/0034654316675417 (EN, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+
+---
+
 # Biyoloji Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
 
 > Biyoloji öğretmeni olmak için hangi bölüm okunur, biyoloji ve moleküler biyoloji mezunu öğretmen olabilir mi, ÖABT Biyoloji ve Millî Eğitim Akademisi.
@@ -425,6 +746,105 @@ MEB çizelgesine göre coğrafya, sosyal bilgiler, çevre sistemleri, uluslarara
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Destek Eğitim Odası Nedir? Kimler, Kaç Saat Eğitim Alır?
+
+> Destek eğitim odası nedir, kimler yararlanır, haftada kaç saat eğitim alınır, kim ders verir? Özel Eğitim Hizmetleri Yönetmeliği madde 25 ve özel yetenekliler.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/destek-egitim-odasi-nedir
+
+## Özet
+
+- Destek eğitim odası, **kaynaştırma öğrencileri** ile **özel yetenekli öğrencilere** destek eğitim verilen ortam.
+- Oda il ya da ilçe özel eğitim hizmetleri kurulunun teklifiyle **millî eğitim müdürlüğünce** açılıyor.
+- Hangi öğrencinin hangi dersten kaç saat alacağını **BEP geliştirme birimi** belirliyor; süre haftalık ders saatinin **%40**'ını aşamıyor.
+- Eğitim esas olarak **bire bir**; aynı düzeydeki öğrencilerle **en fazla 3** kişilik grup eğitimi yapılabiliyor.
+- Özel yetenekli öğrencilere **zenginleştirme ve hızlandırma** yoluyla eğitim veriliyor.
+
+Destek eğitim odası, kaynaştırma uygulanan okulların en somut aracı: özel eğitim ihtiyacı olan ya da özel yetenekli öğrencinin, sınıfındaki derslerin yanında ihtiyaç duyduğu alanda bire bir ya da küçük grupla destek aldığı ortam. Bu yazı destek eğitim odasının kimler için olduğunu, nasıl açıldığını, kaç saat eğitim verildiğini ve kimin ders verdiğini Özel Eğitim Hizmetleri Yönetmeliği'nin güncel metninden anlatıyor.[1]
+
+## Tanım ve yasal çerçeve
+
+Yönetmeliğin tanımlar maddesine göre destek eğitim odası, tam zamanlı kaynaştırma ya da bütünleştirme yoluyla eğitimlerine devam eden öğrenciler ile **özel yetenekli öğrencilere** ihtiyaç duydukları alanlarda destek eğitim hizmetleri verilmesi için düzenlenmiş ortam. Tam zamanlı kaynaştırma yapılan okullarda uygun ortam düzenlemeleri yapılması ve destek eğitim odası açılması yönetmeliğin 23. maddesinde de yer alıyor.[1]
+
+Bu yapının arkasındaki ilke 573 sayılı KHK'de: özel eğitim gerektiren bireylerin uyarlamalar yapılarak **diğer bireylerle birlikte** eğitilmelerine öncelik verilmesi ve eğitim programlarının bireyselleştirilerek uygulanması.[2] Destek eğitim odası, öğrencinin sınıftan kopmadan ihtiyacı olan desteği almasını sağlayan araç.
+
+## Kurallar: madde 25
+
+Yönetmeliğin 25. maddesi destek eğitim odasının işleyişini ayrıntılı düzenliyor:[1]
+
+| Konu | Kural |
+|---|---|
+| Kim açar | Okul öncesi, ilköğretim ve ortaöğretim okullarında, il ya da ilçe özel eğitim hizmetleri kurulunun teklifiyle millî eğitim müdürlüğü |
+| Kim karar verir | Eğitim alacak öğrenciler, dersler ve haftalık saat BEP geliştirme birimince belirlenir |
+| Saat sınırı | Haftalık toplam ders saatinin **%40'ını** aşamaz |
+| Eğitim biçimi | Esas olarak bire bir; aynı performans düzeyindeki öğrencilerle **en fazla 3** kişilik grup eğitimi |
+| Zaman | Ders saatleri içinde ya da dışında, ihtiyaç hâlinde hafta sonu; ders saatinde ise aynı dersin saatinde |
+| Oda sayısı | Öğrenci sayısına göre birden fazla oda açılabilir |
+| Öğretmenler | Özel eğitim, okul öncesi, sınıf ve diğer alan öğretmenleri; okul yönetiminin teklifiyle müdürlükçe görevlendirilir |
+
+Veri notu: Özel Eğitim Hizmetleri Yönetmeliği madde 25, güncel metin; erişim 31 Ekim 2026.
+
+## Özel yetenekli öğrenciler için
+
+Destek eğitim odası yalnız özel eğitim ihtiyacı olan öğrenciler için değil. Yönetmeliğe göre özel yetenekli öğrencilerin yetenek alanlarına göre takip ettikleri dersler destek eğitim odasında **zenginleştirme ve hızlandırma** yoluyla farklılaştırılarak veriliyor ve bu programlar öğrencinin okulundaki programla bütünlük oluşturacak şekilde planlanıyor.[1] Özel yetenekli öğrencilerin okul dışındaki ana kurumu ise bilim ve sanat merkezleri; ayrıntı için [BİLSEM nedir?](https://bote.web.tr/blog/bilsem-nedir)
+
+## Odada kim ders verir?
+
+MEB'in atama çizelgesi, kaynaştırma ya da bütünleştirme yoluyla eğitim uygulaması yapılan okulların destek eğitim odalarındaki özel eğitim uygulamalarını **özel eğitim öğretmeninin** okutacağı dersler arasında sayıyor.[3] Yönetmelik ise öğrencinin takip ettiği program ve kademesine göre okul öncesi, sınıf ve alan öğretmenlerinin de görevlendirilebileceğini söylüyor; örneğin matematikte desteğe ihtiyaç duyan bir ortaokul öğrencisine matematik öğretmeni destek verebiliyor.[1] MEB'in 2024 genelgesine göre bu öğrencilerin BEP'leri de Türkiye Yüzyılı Maarif Modeli programlarına dayanıyor.[4]
+
+## Bir örnek: haftalık plan nasıl kurulur?
+
+Yönetmeliğin kurallarını somutlaştırmak için varsayımsal bir örnek düşünelim. Haftada 30 ders saati olan bir 4. sınıf öğrencisi için destek eğitim, %40 sınırı gereği haftada en fazla 12 saat olabilir.[1] BEP geliştirme birimi öğrencinin okuma ve matematikte desteğe ihtiyaç duyduğuna karar verirse, örneğin haftada 2 saat Türkçe ve 2 saat matematik için destek eğitim planlayabilir. Bu saatler ders saatleri içinde yapılacaksa, Türkçe desteği Türkçe dersinin saatinde, matematik desteği matematik dersinin saatinde veriliyor; böylece öğrenci başka bir dersin içeriğini kaçırmıyor. Aynı düzeydeki iki öğrenci için matematik desteği küçük grup olarak da verilebiliyor, ama grup en fazla 3 öğrenci olabiliyor.[1]
+
+Sayıların bu kadar sınırlanmasının nedeni, destek eğitimin amacının öğrenciyi sınıftan ayırmak değil, sınıfta başarılı olmasını sağlamak olması. 573 sayılı KHK'nin "çevresinden ayırmadan" ve "diğer bireylerle birlikte eğitime öncelik" ilkeleri, destek eğitim odasının sınıfın yerine değil yanında çalıştığını gösteriyor.[2]
+
+## Veli ne yapmalı?
+
+Veli BEP geliştirme biriminin üyesi; yani çocuğunun destek eğitim odasından yararlanıp yararlanmayacağı, hangi derslerde ve kaç saat destek alacağı kararına katılıyor.[1] Destek eğitimin ders saatinde yapılması, çocuğun o saatteki sınıf dersinden ayrılması demek; bu yüzden hangi dersin saatinde destek alınacağını birimle birlikte planlamak önemli. Destek eğitim, öğrencinin BEP'inde yazan amaçlara göre veriliyor ve değerlendiriliyor; BEP'in nasıl hazırlandığını [BEP nedir?](https://bote.web.tr/blog/bep-nedir) yazısında anlattık.
+
+## Araştırmalar ve öğretmen adayları
+
+Kaynaştırmanın etkilerini inceleyen araştırmalar, destekle yürütülen kaynaştırmanın akranların başarısını düşürmediğini gösteriyor: Szumski ve arkadaşlarının 47 çalışmalık meta-analizi olumlu ama zayıf bir ilişki buldu.[5] Ruijs ve Peetsma'nın derlemesine göre etkiler çoğu çalışmada nötr ya da olumlu.[6] Öğretmen adayları için destek eğitim odası, AGS'nin eğitim bilimleri alt testindeki rehberlik ve öğretim yöntemleri konularıyla ve ÖABT Özel Eğitim'in BEP ve kaynaştırma konularıyla doğrudan ilgili.[7] 2026'da ÖABT Özel Eğitim'e 6.524 aday girdi.[8] Genel çerçeve için [kaynaştırma eğitimi nedir?](https://bote.web.tr/blog/kaynastirma-egitimi-nedir)
+
+## Sık Sorulan Sorular
+
+### Destek eğitim odası nedir?
+
+Özel Eğitim Hizmetleri Yönetmeliği'ne göre tam zamanlı kaynaştırma ya da bütünleştirme yoluyla eğitimlerine devam eden öğrenciler ile özel yetenekli öğrencilere ihtiyaç duydukları alanlarda destek eğitim hizmetleri verilmesi için düzenlenmiş ortam.
+
+### Destek eğitim odasından kimler yararlanır?
+
+Tam zamanlı kaynaştırmadaki özel eğitim ihtiyacı olan öğrenciler ve özel yetenekli öğrenciler. Hangi öğrencinin yararlanacağına BEP geliştirme birimi karar veriyor.
+
+### Destek eğitim odasında haftada kaç saat ders alınır?
+
+Saatleri BEP geliştirme birimi belirliyor; yönetmeliğe göre planlama haftalık toplam ders saatinin %40'ını aşamıyor.
+
+### Destek eğitim odasında kim ders verir?
+
+Öğrencinin ihtiyacı, takip ettiği program ve kademesine göre özel eğitim öğretmenleri, okul öncesi öğretmenleri, sınıf ve diğer alan öğretmenleri okul yönetiminin teklifiyle millî eğitim müdürlüğünce görevlendiriliyor.
+
+### Destek eğitim ders saatinde mi yapılır?
+
+BEP geliştirme biriminin planlamasına göre ders saatleri içinde ya da dışında, ihtiyaç hâlinde hafta sonu da yapılabiliyor. Ders saatinde yapılıyorsa, destek alınan dersin saatinde o derse ilişkin eğitim veriliyor.
+
+### Destek eğitim odası açmak için ne gerekir?
+
+Okulda tam zamanlı kaynaştırma yoluyla eğitim alan öğrenci bulunması ve il ya da ilçe özel eğitim hizmetleri kurulunun teklifi; oda millî eğitim müdürlüğünce açılıyor. Öğrenci sayısına göre birden fazla oda açılabiliyor.
+
+## Kaynaklar
+
+1. Mevzuat Bilgi Sistemi (RG 7/7/2018, 30471; son değişiklik RG 25/10/2022, 31994) (2018). Özel Eğitim Hizmetleri Yönetmeliği. https://www.mevzuat.gov.tr/mevzuatmetin/yonetmelik/7.5.24736.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (RG 6/6/1997, 23011 mükerrer) (1997). Özel Eğitim Hakkında Kanun Hükmünde Kararname (573). https://www.mevzuat.gov.tr/mevzuatmetin/4.5.573.pdf (TR, erişim: 2026-10-31)
+3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+5. Szumski, G., Smogorzewska, J. ve Karwowski, M. (2017). Academic achievement of students without special educational needs in inclusive classrooms: A meta-analysis. Educational Research Review, 21, 33–54. https://doi.org/10.1016/j.edurev.2017.02.004 (EN, erişim: 2026-10-31)
+6. Ruijs, N. M. ve Peetsma, T. T. D. (2009). Effects of inclusion on students with and without special educational needs reviewed. Educational Research Review, 4(2), 67–79. https://doi.org/10.1016/j.edurev.2009.02.002 (EN, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
 
 ---
 
@@ -1180,6 +1600,103 @@ MEB çizelgesine göre İngilizce ve meslekî yabancı dil (İngilizce) dersleri
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Kaynaştırma Eğitimi Nedir? Kurallar, Haklar ve Araştırmalar
+
+> Kaynaştırma (bütünleştirme) eğitimi nedir? Tam ve yarı zamanlı kaynaştırma, sınıf başına öğrenci sınırı, değerlendirme, destek eğitim odası ve araştırmalar.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/kaynastirma-egitimi-nedir
+
+## Özet
+
+- Kaynaştırma, özel eğitim ihtiyacı olan öğrencinin **akranlarıyla birlikte** tam zamanlı ya da özel eğitim sınıfında **yarı zamanlı** eğitim alması.
+- Karar **Özel Eğitim Değerlendirme Kurulu raporuna** göre veriliyor; kaynaştırma yapılan okulda BEP geliştirme birimi zorunlu.
+- Tam zamanlı kaynaştırmada her şubeye **en fazla 2** özel eğitim ihtiyacı olan öğrenci yerleştiriliyor.
+- Öğrencinin başarısı **BEP'ine göre** değerlendiriliyor; destek eğitim haftalık ders saatinin **%40**'ını aşmıyor.
+- 47 çalışmalık bir meta-analiz, kaynaştırmanın akranların başarısını düşürmediğini gösterdi.
+
+Kaynaştırma, özel eğitim ihtiyacı olan öğrencinin akranlarıyla aynı okulda, mümkünse aynı sınıfta eğitim alması. Türkiye'de mevzuattaki adı **kaynaştırma/bütünleştirme yoluyla eğitim**. Bu yazı kaynaştırmanın yasal çerçevesini, sınıftaki kurallarını, öğrencinin değerlendirilmesini ve araştırmaların ne dediğini Özel Eğitim Hizmetleri Yönetmeliği'nin güncel metninden ve uluslararası çalışmalardan topluyor.[1]
+
+## Kaynaştırma nedir?
+
+Yönetmelik kaynaştırmayı şöyle tanımlıyor: özel eğitim ihtiyacı olan bireylerin her tür ve kademede diğer bireylerle karşılıklı etkileşim içinde bulunmalarını ve eğitim amaçlarını en üst düzeyde gerçekleştirmelerini sağlamak amacıyla, bu bireylere destek eğitim hizmetleri de sunularak akranlarıyla birlikte **tam zamanlı** ya da özel eğitim sınıflarında **yarı zamanlı** olarak verilen eğitim.[1]
+
+Bu yaklaşımın dayanağı 573 sayılı KHK'nin temel ilkeleri: özel eğitim hizmetleri bireyi sosyal ve fiziksel çevresinden mümkün olduğunca ayırmadan planlanıyor ve eğitsel performansa göre amaç, içerik ve öğretim süreçlerinde uyarlamalar yapılarak **diğer bireylerle birlikte eğitime öncelik** veriliyor.[2]
+
+## Karar ve süreç
+
+Yönetmeliğin 22. maddesine göre özel eğitim ihtiyacı olan bireyler **Özel Eğitim Değerlendirme Kurulu raporu** doğrultusunda her tür ve kademedeki eğitimlerini kaynaştırma yoluyla sürdürebiliyor. Okul öncesi, ilköğretim ya da mesleki ve teknik eğitim programlarının uygulandığı özel eğitim okullarında da kaynaştırma yapılabiliyor. Kaynaştırma yapılan okullarda **BEP geliştirme birimi** kurulması zorunlu; öğrenci davranışlarını değerlendirme kurulu ile ödül ve disiplin kurulu, kaynaştırma öğrencileriyle ilgili kararlarda bu birimle iş birliği yapıyor.[1] BEP'in ayrıntısı için [BEP nedir?](https://bote.web.tr/blog/bep-nedir)
+
+## Sınıftaki kurallar
+
+Tam zamanlı kaynaştırmaya ilişkin 23. madde birkaç somut kural koyuyor:[1]
+
+| Kural | Ayrıntı |
+|---|---|
+| Program | Öğrenci kayıtlı olduğu okulun programını takip ediyor; BEP bu programa göre hazırlanıyor |
+| Diploma | Ortaöğretimi tamamlayana akranlarına verilen diploma düzenleniyor |
+| Öğrenci sayısı | Her şubeye eşit sayıda ve **en fazla 2** özel eğitim ihtiyacı olan öğrenci; birleştirilmiş sınıflarda ihtiyaca göre artırılabiliyor |
+| Özel eğitim okulunda kaynaştırma | Sınıf mevcudu, 5'i özel eğitim ihtiyacı olan birey olmak üzere okul öncesinde en fazla 14, diğer kademelerde 15 |
+| Ortam | Uygun ortam düzenlemeleri yapılıyor ve destek eğitim odası açılıyor |
+
+Veri notu: Özel Eğitim Hizmetleri Yönetmeliği madde 23, güncel metin; erişim 31 Ekim 2026.
+
+## Değerlendirme ve muafiyetler
+
+Kaynaştırma öğrencisi sınıfın geri kalanıyla aynı ölçütlerle değil, **BEP'ine göre** değerlendiriliyor. Ölçme süreçlerinde yetersizlik türü, gelişim özellikleri ve performansa göre süre, ortam, yöntem, cihaz ve materyallerde düzenleme yapılıyor; merkezî sınavlarda da gerekli tedbirler alınıyor. İşitme ya da zihinsel yetersizliği veya otizmi olan öğrenciler velinin yazılı talebi ve BEP geliştirme biriminin kararıyla yabancı dil dersinden muaf tutulabiliyor ve merkezî sınavlarda yabancı dil sınavından da muaf oluyor. Görme yetersizliği olan öğrenciler için şekil ve grafik içeren sorular kabartma, betimleme ya da eşdeğer sorularla hazırlanıyor; motor becerilerde yetersizliği olan öğrenciler uygulamalı bölümlerden muaf tutulabiliyor.[1]
+
+## Destek eğitim odası
+
+Kaynaştırmanın en önemli destek aracı **destek eğitim odası**. Yönetmeliğin 25. maddesine göre bu odalar il ya da ilçe özel eğitim hizmetleri kurulunun teklifiyle açılıyor. Hangi öğrencinin hangi derslerden ve haftada kaç saat eğitim alacağını BEP geliştirme birimi belirliyor; bu süre **haftalık toplam ders saatinin %40'ını** aşamıyor. Eğitim esas olarak bire bir; performansı aynı düzeyde olan öğrencilerle en fazla 3 kişilik grup eğitimi de yapılabiliyor. Odada özel eğitim, okul öncesi, sınıf ve diğer alan öğretmenleri görevlendirilebiliyor.[1] MEB'in atama çizelgesi de destek eğitim odasındaki özel eğitim uygulamalarını özel eğitim öğretmeninin görevleri arasında sayıyor.[3] Ayrıntı: [destek eğitim odası nedir?](https://bote.web.tr/blog/destek-egitim-odasi-nedir)
+
+## Araştırmalar ne diyor?
+
+Kaynaştırmaya en sık yöneltilen soru, akranların başarısını etkileyip etkilemediği. Szumski, Smogorzewska ve Karwowski'nin yaklaşık 4,8 milyon öğrenciyi kapsayan 47 çalışmalık meta-analizi, kaynaştırma sınıflarına devam etmenin özel gereksinimi olmayan öğrencilerin akademik başarısıyla **olumlu ama zayıf** bir ilişkisi olduğunu buldu; yani kaynaştırma akranların başarısını düşürmüyor.[4] Ruijs ve Peetsma'nın derlemesi de kaynaştırmanın hem özel gereksinimli öğrencilere hem akranlarına etkisinin çalışmaların çoğunda nötr ya da olumlu olduğunu bildiriyor.[5]
+
+Bu sonuçların koşulu var: etkiler, öğretmenin hazırlığına, destek hizmetlerin varlığına ve sınıf düzenlemelerine bağlı. Mevzuattaki şube başına iki öğrenci sınırı, destek eğitim odası ve BEP geliştirme birimi bu koşulları sağlamaya yönelik araçlar.
+
+## Öğretmenler için
+
+Kaynaştırma bütün öğretmenlerin işi: sınıf ve alan öğretmenleri BEP geliştirme biriminin üyesi ve öğrencinin derslerini veren öğretmenler. MEB'in 2024 genelgesine göre kaynaştırma sınıflarındaki BEP'ler de Türkiye Yüzyılı Maarif Modeli programlarına dayanıyor.[6] AGS'nin eğitim bilimleri alt testinde rehberlik ve öğretim yöntemleri, ÖABT Özel Eğitim'de de kaynaştırma ve BEP konuları yer alıyor.[7] 2026'da ÖABT Özel Eğitim'e 6.524 aday girdi.[8]
+
+## Sık Sorulan Sorular
+
+### Kaynaştırma eğitimi nedir?
+
+Özel Eğitim Hizmetleri Yönetmeliği'ne göre özel eğitim ihtiyacı olan bireylerin her tür ve kademede diğer bireylerle karşılıklı etkileşim içinde bulunmalarını sağlamak için destek eğitim hizmetleri de sunularak akranlarıyla birlikte tam zamanlı ya da özel eğitim sınıflarında yarı zamanlı olarak verilen eğitim.
+
+### Kaynaştırma kararı nasıl verilir?
+
+Yönetmeliğin 22. maddesine göre Özel Eğitim Değerlendirme Kurulu raporu doğrultusunda. Öğrenci eğitimine her tür ve kademede kaynaştırma ya da bütünleştirme yoluyla devam edebiliyor.
+
+### Bir sınıfta kaç kaynaştırma öğrencisi olabilir?
+
+Tam zamanlı kaynaştırmada öğrenciler sınıflara eşit sayıda ve her şubede 2 öğrenciyi geçmeyecek şekilde yerleştiriliyor; birleştirilmiş sınıflarda bu sayı ihtiyaca göre artırılabiliyor.
+
+### Kaynaştırma öğrencisi nasıl notlandırılır?
+
+Başarısı BEP'ine göre değerlendiriliyor; ölçmede yetersizlik türüne göre süre, ortam, yöntem ve materyal düzenlemeleri yapılıyor.
+
+### Destek eğitim odası nedir?
+
+Tam zamanlı kaynaştırmadaki öğrencilere ve özel yetenekli öğrencilere ihtiyaç duydukları alanlarda destek eğitim verilen ortam. Haftalık destek eğitim saati toplam ders saatinin %40'ını aşmıyor.
+
+### Kaynaştırma diğer öğrencilerin başarısını düşürür mü?
+
+Szumski ve arkadaşlarının 47 çalışmayı ve yaklaşık 4,8 milyon öğrenciyi kapsayan meta-analizine göre hayır; ilişki olumlu ama zayıf.
+
+## Kaynaklar
+
+1. Mevzuat Bilgi Sistemi (RG 7/7/2018, 30471; son değişiklik RG 25/10/2022, 31994) (2018). Özel Eğitim Hizmetleri Yönetmeliği. https://www.mevzuat.gov.tr/mevzuatmetin/yonetmelik/7.5.24736.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (RG 6/6/1997, 23011 mükerrer) (1997). Özel Eğitim Hakkında Kanun Hükmünde Kararname (573). https://www.mevzuat.gov.tr/mevzuatmetin/4.5.573.pdf (TR, erişim: 2026-10-31)
+3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+4. Szumski, G., Smogorzewska, J. ve Karwowski, M. (2017). Academic achievement of students without special educational needs in inclusive classrooms: A meta-analysis. Educational Research Review, 21, 33–54. https://doi.org/10.1016/j.edurev.2017.02.004 (EN, erişim: 2026-10-31)
+5. Ruijs, N. M. ve Peetsma, T. T. D. (2009). Effects of inclusion on students with and without special educational needs reviewed. Educational Research Review, 4(2), 67–79. https://doi.org/10.1016/j.edurev.2009.02.002 (EN, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
 
 ---
 

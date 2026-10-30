@@ -136,6 +136,11 @@
 
 ## Eğitim Bilimleri ve Kuramlar
 
+- [Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik](https://bote.web.tr/blog/akademisyen-nasil-olunur.md): Akademisyen nasıl olunur? Yüksek lisans ve doktora için ALES şartı, araştırma görevliliği, doktor öğretim üyeliği, doçentlik ve profesörlük; 2547 sayılı Kanun. (2026-10-31)
+- [BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi](https://bote.web.tr/blog/bep-nedir.md): BEP (bireyselleştirilmiş eğitim programı) nedir, kim hazırlar, içinde neler olur? Özel Eğitim Hizmetleri Yönetmeliği'ne göre BEP geliştirme birimi ve süreç. (2026-10-31)
+- [BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim](https://bote.web.tr/blog/bilsem-nedir.md): BİLSEM nedir, öğrenciler nasıl seçilir? Aday gösterme, %20 sınırı, ön ve bireysel değerlendirme takvimi, yetenek alanları, programlar ve devam kuralları. (2026-10-31)
+- [Destek Eğitim Odası Nedir? Kimler, Kaç Saat Eğitim Alır?](https://bote.web.tr/blog/destek-egitim-odasi-nedir.md): Destek eğitim odası nedir, kimler yararlanır, haftada kaç saat eğitim alınır, kim ders verir? Özel Eğitim Hizmetleri Yönetmeliği madde 25 ve özel yetenekliler. (2026-10-31)
+- [Kaynaştırma Eğitimi Nedir? Kurallar, Haklar ve Araştırmalar](https://bote.web.tr/blog/kaynastirma-egitimi-nedir.md): Kaynaştırma (bütünleştirme) eğitimi nedir? Tam ve yarı zamanlı kaynaştırma, sınıf başına öğrenci sınırı, değerlendirme, destek eğitim odası ve araştırmalar. (2026-10-31)
 - [Maslow İhtiyaçlar Hiyerarşisi Nedir? Basamaklar ve Eğitim](https://bote.web.tr/blog/maslow-ihtiyaclar-hiyerarsisi.md): Maslow ihtiyaçlar hiyerarşisi nedir? Beş basamak, eksiklik ve gelişim ihtiyaçları, piramit efsanesi, araştırma bulguları, eleştiriler ve sınıfta kullanımı. (2026-10-31)
 - [Öğrenme Stilleri Gerçek mi? Görsel, İşitsel, Kinestetik](https://bote.web.tr/blog/ogrenme-stilleri-efsanesi.md): Öğrenme stilleri (görsel, işitsel, kinestetik) gerçek mi? Uyum hipotezi, araştırma bulguları, öğretmenlerdeki yaygınlığı ve bunun yerine ne işe yarıyor. (2026-10-31)
 - [Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler](https://bote.web.tr/blog/turkiye-yuzyili-maarif-modeli-nedir.md): Türkiye Yüzyılı Maarif Modeli nedir? Hangi sınıflarda uygulanıyor (2026-2027), beceri çerçevesi, erdem-değer-eylem, ölçme değerlendirme ve AGS'deki yeri. (2026-10-31)
