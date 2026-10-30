@@ -4062,5 +4062,165 @@
         "bytes": 167090
       }
     ]
+  },
+  {
+    "slug": "beden-egitimi-ogretmeni-nasil-olunur",
+    "title": "Beden Eğitimi Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "alt": "Beden Eğitimi Öğretmeni Nasıl Olunur? 2027 Rehberi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "beden-egitimi-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 195494
+    },
+    "variants": [
+      {
+        "file": "beden-egitimi-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40210
+      },
+      {
+        "file": "beden-egitimi-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71324
+      },
+      {
+        "file": "beden-egitimi-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 138400
+      }
+    ]
+  },
+  {
+    "slug": "din-kulturu-ogretmeni-nasil-olunur",
+    "title": "Din Kültürü Öğretmeni Nasıl Olunur? İlahiyat ve AGS",
+    "alt": "Din Kültürü Öğretmeni Nasıl Olunur? İlahiyat ve AGS",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "din-kulturu-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 185574
+    },
+    "variants": [
+      {
+        "file": "din-kulturu-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38020
+      },
+      {
+        "file": "din-kulturu-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68086
+      },
+      {
+        "file": "din-kulturu-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 131668
+      }
+    ]
+  },
+  {
+    "slug": "muzik-ogretmeni-nasil-olunur",
+    "title": "Müzik Öğretmeni Nasıl Olunur? Bölüm, AGS ve Atama",
+    "alt": "Müzik Öğretmeni Nasıl Olunur? Bölüm, AGS ve Atama",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "muzik-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 174802
+    },
+    "variants": [
+      {
+        "file": "muzik-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38798
+      },
+      {
+        "file": "muzik-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 64642
+      },
+      {
+        "file": "muzik-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 117144
+      }
+    ]
+  },
+  {
+    "slug": "resim-ogretmeni-nasil-olunur",
+    "title": "Resim (Görsel Sanatlar) Öğretmeni Nasıl Olunur?",
+    "alt": "Resim (Görsel Sanatlar) Öğretmeni Nasıl Olunur?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "resim-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 172554
+    },
+    "variants": [
+      {
+        "file": "resim-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36216
+      },
+      {
+        "file": "resim-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62400
+      },
+      {
+        "file": "resim-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114440
+      }
+    ]
+  },
+  {
+    "slug": "hangi-bolumler-ogretmen-olabilir",
+    "title": "Hangi Bölümler Öğretmen Olabilir? Fakülte Dışı Liste",
+    "alt": "Hangi Bölümler Öğretmen Olabilir? Fakülte Dışı Liste",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "hangi-bolumler-ogretmen-olabilir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 190722
+    },
+    "variants": [
+      {
+        "file": "hangi-bolumler-ogretmen-olabilir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40304
+      },
+      {
+        "file": "hangi-bolumler-ogretmen-olabilir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67686
+      },
+      {
+        "file": "hangi-bolumler-ogretmen-olabilir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 127634
+      }
+    ]
   }
 ]
