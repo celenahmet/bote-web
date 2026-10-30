@@ -2307,31 +2307,31 @@
     "slug": "ags-konulari",
     "title": "AGS Konuları 2027: Soru Dağılımı ve Konu Başlıkları",
     "alt": "AGS Konuları 2027: Soru Dağılımı ve Konu Başlıkları",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 195256
+      "bytes": 339574
     },
     "variants": [
       {
         "file": "ags-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 42022
+        "bytes": 70670
       },
       {
         "file": "ags-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 72760
+        "bytes": 139292
       },
       {
         "file": "ags-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 133796
+        "bytes": 305010
       }
     ]
   },
@@ -2339,31 +2339,31 @@
     "slug": "ags-puani-nasil-hesaplanir",
     "title": "AGS Puanı Nasıl Hesaplanır? Net, Standart Puan ve Ağırlıklar",
     "alt": "AGS Puanı Nasıl Hesaplanır? Net, Standart Puan ve Ağırlıklar",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-puani-nasil-hesaplanir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 188187
+      "bytes": 214453
     },
     "variants": [
       {
         "file": "ags-puani-nasil-hesaplanir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40476
+        "bytes": 47868
       },
       {
         "file": "ags-puani-nasil-hesaplanir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 70528
+        "bytes": 81354
       },
       {
         "file": "ags-puani-nasil-hesaplanir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 131968
+        "bytes": 159678
       }
     ]
   },
@@ -2371,31 +2371,31 @@
     "slug": "oabt-nedir",
     "title": "ÖABT Nedir? AGS ÖABT Alanları, Konu Dağılımı ve Süresi",
     "alt": "ÖABT Nedir? AGS ÖABT Alanları, Konu Dağılımı ve Süresi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-nedir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 181412
+      "bytes": 284976
     },
     "variants": [
       {
         "file": "oabt-nedir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 37802
+        "bytes": 67102
       },
       {
         "file": "oabt-nedir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 66928
+        "bytes": 119686
       },
       {
         "file": "oabt-nedir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 127690
+        "bytes": 226684
       }
     ]
   },
@@ -2403,31 +2403,31 @@
     "slug": "ags-basvurusu-nasil-yapilir",
     "title": "AGS Başvurusu Nasıl Yapılır? Adım Adım Başvuru Rehberi",
     "alt": "AGS Başvurusu Nasıl Yapılır? Adım Adım Başvuru Rehberi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-basvurusu-nasil-yapilir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 165480
+      "bytes": 162316
     },
     "variants": [
       {
         "file": "ags-basvurusu-nasil-yapilir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 33024
+        "bytes": 35034
       },
       {
         "file": "ags-basvurusu-nasil-yapilir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 56490
+        "bytes": 58802
       },
       {
         "file": "ags-basvurusu-nasil-yapilir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 108704
+        "bytes": 108556
       }
     ]
   },
@@ -2435,31 +2435,31 @@
     "slug": "ags-cikmis-sorular",
     "title": "AGS Çıkmış Sorular ve Cevap Anahtarları (2025-2026)",
     "alt": "AGS Çıkmış Sorular ve Cevap Anahtarları (2025-2026)",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-cikmis-sorular.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149973
+      "bytes": 207180
     },
     "variants": [
       {
         "file": "ags-cikmis-sorular-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 31322
+        "bytes": 42286
       },
       {
         "file": "ags-cikmis-sorular-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 51958
+        "bytes": 79772
       },
       {
         "file": "ags-cikmis-sorular.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 99370
+        "bytes": 158698
       }
     ]
   },
@@ -2467,31 +2467,31 @@
     "slug": "oabt-okul-oncesi-konulari",
     "title": "ÖABT Okul Öncesi Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Okul Öncesi Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-okul-oncesi-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 174185
+      "bytes": 256116
     },
     "variants": [
       {
         "file": "oabt-okul-oncesi-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35198
+        "bytes": 59562
       },
       {
         "file": "oabt-okul-oncesi-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61266
+        "bytes": 104056
       },
       {
         "file": "oabt-okul-oncesi-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 116486
+        "bytes": 197542
       }
     ]
   },
@@ -2499,31 +2499,31 @@
     "slug": "oabt-rehberlik-konulari",
     "title": "ÖABT Rehberlik Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Rehberlik Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-rehberlik-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 208237
+      "bytes": 231057
     },
     "variants": [
       {
         "file": "oabt-rehberlik-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 44396
+        "bytes": 46872
       },
       {
         "file": "oabt-rehberlik-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 78714
+        "bytes": 86890
       },
       {
         "file": "oabt-rehberlik-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 156684
+        "bytes": 184598
       }
     ]
   },
@@ -2531,31 +2531,31 @@
     "slug": "oabt-sinif-ogretmenligi-konulari",
     "title": "ÖABT Sınıf Öğretmenliği Konuları ve Soru Dağılımı",
     "alt": "ÖABT Sınıf Öğretmenliği Konuları ve Soru Dağılımı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-sinif-ogretmenligi-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 183217
+      "bytes": 242437
     },
     "variants": [
       {
         "file": "oabt-sinif-ogretmenligi-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 38852
+        "bytes": 56512
       },
       {
         "file": "oabt-sinif-ogretmenligi-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 65508
+        "bytes": 97016
       },
       {
         "file": "oabt-sinif-ogretmenligi-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 123718
+        "bytes": 178834
       }
     ]
   },
@@ -2563,31 +2563,31 @@
     "slug": "oabt-turk-dili-ve-edebiyati-konulari",
     "title": "ÖABT Türk Dili ve Edebiyatı Konuları ve Netler",
     "alt": "ÖABT Türk Dili ve Edebiyatı Konuları ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-turk-dili-ve-edebiyati-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 192927
+      "bytes": 263836
     },
     "variants": [
       {
         "file": "oabt-turk-dili-ve-edebiyati-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40396
+        "bytes": 57146
       },
       {
         "file": "oabt-turk-dili-ve-edebiyati-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 69942
+        "bytes": 105962
       },
       {
         "file": "oabt-turk-dili-ve-edebiyati-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 133360
+        "bytes": 215504
       }
     ]
   },
@@ -2595,31 +2595,31 @@
     "slug": "oabt-turkce-konulari",
     "title": "ÖABT Türkçe Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Türkçe Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-turkce-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169540
+      "bytes": 181120
     },
     "variants": [
       {
         "file": "oabt-turkce-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 34682
+        "bytes": 38764
       },
       {
         "file": "oabt-turkce-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 58152
+        "bytes": 64910
       },
       {
         "file": "oabt-turkce-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 108382
+        "bytes": 120408
       }
     ]
   },
@@ -2627,31 +2627,31 @@
     "slug": "oabt-ilkogretim-matematik-konulari",
     "title": "ÖABT İlköğretim Matematik Konuları ve Netler",
     "alt": "ÖABT İlköğretim Matematik Konuları ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-ilkogretim-matematik-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 168891
+      "bytes": 232933
     },
     "variants": [
       {
         "file": "oabt-ilkogretim-matematik-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35340
+        "bytes": 52012
       },
       {
         "file": "oabt-ilkogretim-matematik-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 58956
+        "bytes": 88848
       },
       {
         "file": "oabt-ilkogretim-matematik-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 111668
+        "bytes": 166476
       }
     ]
   },
@@ -2659,31 +2659,31 @@
     "slug": "oabt-matematik-konulari",
     "title": "ÖABT Matematik (Lise) Konuları ve Netler",
     "alt": "ÖABT Matematik (Lise) Konuları ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-matematik-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 183166
+      "bytes": 209979
     },
     "variants": [
       {
         "file": "oabt-matematik-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39570
+        "bytes": 40854
       },
       {
         "file": "oabt-matematik-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 71306
+        "bytes": 78274
       },
       {
         "file": "oabt-matematik-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 135090
+        "bytes": 160430
       }
     ]
   },
@@ -2691,31 +2691,31 @@
     "slug": "oabt-fen-bilimleri-konulari",
     "title": "ÖABT Fen Bilimleri Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Fen Bilimleri Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-fen-bilimleri-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 216424
+      "bytes": 196072
     },
     "variants": [
       {
         "file": "oabt-fen-bilimleri-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 47848
+        "bytes": 43720
       },
       {
         "file": "oabt-fen-bilimleri-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 84054
+        "bytes": 74720
       },
       {
         "file": "oabt-fen-bilimleri-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 164180
+        "bytes": 139372
       }
     ]
   },
@@ -2723,31 +2723,31 @@
     "slug": "oabt-sosyal-bilgiler-konulari",
     "title": "ÖABT Sosyal Bilgiler Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Sosyal Bilgiler Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-sosyal-bilgiler-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 201650
+      "bytes": 290342
     },
     "variants": [
       {
         "file": "oabt-sosyal-bilgiler-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 44686
+        "bytes": 67780
       },
       {
         "file": "oabt-sosyal-bilgiler-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 76296
+        "bytes": 122700
       },
       {
         "file": "oabt-sosyal-bilgiler-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 144394
+        "bytes": 243532
       }
     ]
   },
@@ -2755,31 +2755,31 @@
     "slug": "oabt-tarih-konulari",
     "title": "ÖABT Tarih Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Tarih Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-tarih-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 166385
+      "bytes": 227667
     },
     "variants": [
       {
         "file": "oabt-tarih-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 34386
+        "bytes": 53150
       },
       {
         "file": "oabt-tarih-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 59082
+        "bytes": 94818
       },
       {
         "file": "oabt-tarih-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 111734
+        "bytes": 184072
       }
     ]
   },
@@ -2787,31 +2787,31 @@
     "slug": "oabt-beden-egitimi-konulari",
     "title": "ÖABT Beden Eğitimi Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Beden Eğitimi Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-beden-egitimi-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 195494
+      "bytes": 179816
     },
     "variants": [
       {
         "file": "oabt-beden-egitimi-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40210
+        "bytes": 38234
       },
       {
         "file": "oabt-beden-egitimi-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 71324
+        "bytes": 66430
       },
       {
         "file": "oabt-beden-egitimi-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 138400
+        "bytes": 130370
       }
     ]
   },
@@ -2819,31 +2819,31 @@
     "slug": "oabt-cografya-konulari",
     "title": "ÖABT Coğrafya Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Coğrafya Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-cografya-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 159223
+      "bytes": 247433
     },
     "variants": [
       {
         "file": "oabt-cografya-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 31762
+        "bytes": 57476
       },
       {
         "file": "oabt-cografya-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 53518
+        "bytes": 100912
       },
       {
         "file": "oabt-cografya-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 103996
+        "bytes": 201450
       }
     ]
   },
@@ -2851,31 +2851,31 @@
     "slug": "oabt-biyoloji-konulari",
     "title": "ÖABT Biyoloji Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Biyoloji Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-biyoloji-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 174441
+      "bytes": 258989
     },
     "variants": [
       {
         "file": "oabt-biyoloji-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36600
+        "bytes": 62964
       },
       {
         "file": "oabt-biyoloji-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61938
+        "bytes": 110110
       },
       {
         "file": "oabt-biyoloji-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 113184
+        "bytes": 203410
       }
     ]
   },
@@ -2883,31 +2883,31 @@
     "slug": "oabt-kimya-konulari",
     "title": "ÖABT Kimya Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Kimya Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-kimya-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 221476
+      "bytes": 178934
     },
     "variants": [
       {
         "file": "oabt-kimya-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 50662
+        "bytes": 37134
       },
       {
         "file": "oabt-kimya-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 86448
+        "bytes": 63792
       },
       {
         "file": "oabt-kimya-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 167090
+        "bytes": 118446
       }
     ]
   },
@@ -2915,31 +2915,31 @@
     "slug": "oabt-fizik-konulari",
     "title": "ÖABT Fizik Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Fizik Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-fizik-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 179174
+      "bytes": 176805
     },
     "variants": [
       {
         "file": "oabt-fizik-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40216
+        "bytes": 37860
       },
       {
         "file": "oabt-fizik-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 66914
+        "bytes": 63788
       },
       {
         "file": "oabt-fizik-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 124960
+        "bytes": 117702
       }
     ]
   },
@@ -2947,31 +2947,31 @@
     "slug": "oabt-ozel-egitim-konulari",
     "title": "ÖABT Özel Eğitim Konuları, Soru Dağılımı ve Netler",
     "alt": "ÖABT Özel Eğitim Konuları, Soru Dağılımı ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-ozel-egitim-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 171701
+      "bytes": 210635
     },
     "variants": [
       {
         "file": "oabt-ozel-egitim-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36370
+        "bytes": 46504
       },
       {
         "file": "oabt-ozel-egitim-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 62102
+        "bytes": 78218
       },
       {
         "file": "oabt-ozel-egitim-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 114930
+        "bytes": 151308
       }
     ]
   },
@@ -2979,31 +2979,31 @@
     "slug": "oabt-din-kulturu-konulari",
     "title": "ÖABT Din Kültürü (DKAB/İHL) Konuları ve Netler",
     "alt": "ÖABT Din Kültürü (DKAB/İHL) Konuları ve Netler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-din-kulturu-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 185574
+      "bytes": 290169
     },
     "variants": [
       {
         "file": "oabt-din-kulturu-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 38020
+        "bytes": 61994
       },
       {
         "file": "oabt-din-kulturu-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68086
+        "bytes": 119210
       },
       {
         "file": "oabt-din-kulturu-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 131668
+        "bytes": 237264
       }
     ]
   },
@@ -3011,31 +3011,31 @@
     "slug": "ags-mevzuat-konulari",
     "title": "AGS Mevzuat Konuları: Hangi Kanunlar Soruluyor?",
     "alt": "AGS Mevzuat Konuları: Hangi Kanunlar Soruluyor?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-mevzuat-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 166456
+      "bytes": 191869
     },
     "variants": [
       {
         "file": "ags-mevzuat-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 33808
+        "bytes": 39928
       },
       {
         "file": "ags-mevzuat-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 57962
+        "bytes": 71648
       },
       {
         "file": "ags-mevzuat-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 112062
+        "bytes": 141016
       }
     ]
   },
@@ -3043,31 +3043,31 @@
     "slug": "ags-egitim-bilimleri-konulari",
     "title": "AGS Eğitim Bilimleri Konuları ve Soru Dağılımı",
     "alt": "AGS Eğitim Bilimleri Konuları ve Soru Dağılımı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-egitim-bilimleri-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 181747
+      "bytes": 250985
     },
     "variants": [
       {
         "file": "ags-egitim-bilimleri-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 34908
+        "bytes": 55076
       },
       {
         "file": "ags-egitim-bilimleri-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 66008
+        "bytes": 99680
       },
       {
         "file": "ags-egitim-bilimleri-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 132100
+        "bytes": 200244
       }
     ]
   },
@@ -3075,31 +3075,31 @@
     "slug": "ags-sayisal-yetenek-konulari",
     "title": "AGS Sayısal Yetenek Konuları ve Ortalama Net",
     "alt": "AGS Sayısal Yetenek Konuları ve Ortalama Net",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-sayisal-yetenek-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 187290
+      "bytes": 201218
     },
     "variants": [
       {
         "file": "ags-sayisal-yetenek-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39342
+        "bytes": 42888
       },
       {
         "file": "ags-sayisal-yetenek-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68866
+        "bytes": 74386
       },
       {
         "file": "ags-sayisal-yetenek-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 133964
+        "bytes": 141558
       }
     ]
   },
@@ -3107,31 +3107,31 @@
     "slug": "ags-sozel-yetenek-konulari",
     "title": "AGS Sözel Yetenek Konuları ve Ortalama Net",
     "alt": "AGS Sözel Yetenek Konuları ve Ortalama Net",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-sozel-yetenek-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 158807
+      "bytes": 227080
     },
     "variants": [
       {
         "file": "ags-sozel-yetenek-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35094
+        "bytes": 48990
       },
       {
         "file": "ags-sozel-yetenek-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 57592
+        "bytes": 87432
       },
       {
         "file": "ags-sozel-yetenek-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 106858
+        "bytes": 177278
       }
     ]
   },
@@ -3139,31 +3139,31 @@
     "slug": "ags-tarih-konulari",
     "title": "AGS Tarih Konuları: Dört Dönem ve Soru Sayısı",
     "alt": "AGS Tarih Konuları: Dört Dönem ve Soru Sayısı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-tarih-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 211405
+      "bytes": 293602
     },
     "variants": [
       {
         "file": "ags-tarih-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 45384
+        "bytes": 63430
       },
       {
         "file": "ags-tarih-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 79800
+        "bytes": 124192
       },
       {
         "file": "ags-tarih-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 158442
+        "bytes": 257762
       }
     ]
   },
@@ -3171,31 +3171,31 @@
     "slug": "ags-turkiye-cografyasi-konulari",
     "title": "AGS Türkiye Coğrafyası Konuları ve Soru Sayısı",
     "alt": "AGS Türkiye Coğrafyası Konuları ve Soru Sayısı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-turkiye-cografyasi-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 190722
+      "bytes": 340985
     },
     "variants": [
       {
         "file": "ags-turkiye-cografyasi-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40304
+        "bytes": 76724
       },
       {
         "file": "ags-turkiye-cografyasi-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 67686
+        "bytes": 148392
       },
       {
         "file": "ags-turkiye-cografyasi-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 127634
+        "bytes": 314750
       }
     ]
   },
@@ -3203,31 +3203,31 @@
     "slug": "ags-sinav-gunu-kurallari",
     "title": "AGS Sınav Günü: Yanınıza Alacaklarınız ve Yasaklar",
     "alt": "AGS Sınav Günü: Yanınıza Alacaklarınız ve Yasaklar",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-sinav-gunu-kurallari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 183189
+      "bytes": 183910
     },
     "variants": [
       {
         "file": "ags-sinav-gunu-kurallari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35938
+        "bytes": 40086
       },
       {
         "file": "ags-sinav-gunu-kurallari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 64642
+        "bytes": 67018
       },
       {
         "file": "ags-sinav-gunu-kurallari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 129694
+        "bytes": 124488
       }
     ]
   },
@@ -3235,31 +3235,31 @@
     "slug": "ags-yabanci-dil-ogretmenligi-p3-yds",
     "title": "AGS Yabancı Dil Öğretmenliği: P3 Puanı ve YDS Şartı",
     "alt": "AGS Yabancı Dil Öğretmenliği: P3 Puanı ve YDS Şartı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-yabanci-dil-ogretmenligi-p3-yds.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 171166
+      "bytes": 177721
     },
     "variants": [
       {
         "file": "ags-yabanci-dil-ogretmenligi-p3-yds-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36008
+        "bytes": 39424
       },
       {
         "file": "ags-yabanci-dil-ogretmenligi-p3-yds-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61534
+        "bytes": 66536
       },
       {
         "file": "ags-yabanci-dil-ogretmenligi-p3-yds.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 112514
+        "bytes": 121486
       }
     ]
   },
@@ -3267,31 +3267,31 @@
     "slug": "ags-sinav-ucreti",
     "title": "AGS Sınav Ücreti 2027: Ödeme, Geç Başvuru ve İade",
     "alt": "AGS Sınav Ücreti 2027: Ödeme, Geç Başvuru ve İade",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-sinav-ucreti.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 172554
+      "bytes": 140192
     },
     "variants": [
       {
         "file": "ags-sinav-ucreti-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36216
+        "bytes": 28098
       },
       {
         "file": "ags-sinav-ucreti-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 62400
+        "bytes": 46764
       },
       {
         "file": "ags-sinav-ucreti.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 114440
+        "bytes": 89836
       }
     ]
   },
@@ -3299,31 +3299,31 @@
     "slug": "ags-kimler-girebilir",
     "title": "AGS'ye Kimler Girebilir? Başvuru ve Akademi Şartları",
     "alt": "AGS'ye Kimler Girebilir? Başvuru ve Akademi Şartları",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-kimler-girebilir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 222665
+      "bytes": 181189
     },
     "variants": [
       {
         "file": "ags-kimler-girebilir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 49090
+        "bytes": 38708
       },
       {
         "file": "ags-kimler-girebilir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 82124
+        "bytes": 66454
       },
       {
         "file": "ags-kimler-girebilir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 157438
+        "bytes": 124956
       }
     ]
   },
@@ -3331,31 +3331,31 @@
     "slug": "ags-sinav-merkezleri",
     "title": "AGS Sınav Merkezleri ve Sınav Merkezi Tercihi",
     "alt": "AGS Sınav Merkezleri ve Sınav Merkezi Tercihi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-sinav-merkezleri.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 179794
+      "bytes": 267150
     },
     "variants": [
       {
         "file": "ags-sinav-merkezleri-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39580
+        "bytes": 56530
       },
       {
         "file": "ags-sinav-merkezleri-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 65528
+        "bytes": 107004
       },
       {
         "file": "ags-sinav-merkezleri.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 124126
+        "bytes": 219724
       }
     ]
   },
@@ -3363,31 +3363,31 @@
     "slug": "ags-sonuclari-ve-puan-gecerliligi",
     "title": "AGS Sonuçları: Ne Zaman Açıklanır, Puan Kaç Yıl Geçerli?",
     "alt": "AGS Sonuçları: Ne Zaman Açıklanır, Puan Kaç Yıl Geçerli?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-sonuclari-ve-puan-gecerliligi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 171876
+      "bytes": 190949
     },
     "variants": [
       {
         "file": "ags-sonuclari-ve-puan-gecerliligi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35650
+        "bytes": 39184
       },
       {
         "file": "ags-sonuclari-ve-puan-gecerliligi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 59120
+        "bytes": 68136
       },
       {
         "file": "ags-sonuclari-ve-puan-gecerliligi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 113132
+        "bytes": 135306
       }
     ]
   },
@@ -3395,31 +3395,31 @@
     "slug": "ags-calisma-programi",
     "title": "AGS Çalışma Programı: Puan Ağırlığına Göre 6 Aylık Plan",
     "alt": "AGS Çalışma Programı: Puan Ağırlığına Göre 6 Aylık Plan",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-calisma-programi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 183548
+      "bytes": 196789
     },
     "variants": [
       {
         "file": "ags-calisma-programi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 38976
+        "bytes": 39180
       },
       {
         "file": "ags-calisma-programi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 67414
+        "bytes": 69910
       },
       {
         "file": "ags-calisma-programi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 125058
+        "bytes": 136894
       }
     ]
   },
@@ -3427,31 +3427,31 @@
     "slug": "ags-engelli-adaylar",
     "title": "AGS Engelli Adaylar: Ek Süre, Rapor ve Sınav Uygulamaları",
     "alt": "AGS Engelli Adaylar: Ek Süre, Rapor ve Sınav Uygulamaları",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-engelli-adaylar.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 174802
+      "bytes": 231345
     },
     "variants": [
       {
         "file": "ags-engelli-adaylar-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 38798
+        "bytes": 52230
       },
       {
         "file": "ags-engelli-adaylar-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 64642
+        "bytes": 87756
       },
       {
         "file": "ags-engelli-adaylar.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 117144
+        "bytes": 167108
       }
     ]
   },
@@ -3459,31 +3459,31 @@
     "slug": "ags-2026-istatistikleri",
     "title": "AGS 2026 İstatistikleri: Kaç Kişi Girdi, Kaç Net Yapıldı?",
     "alt": "AGS 2026 İstatistikleri: Kaç Kişi Girdi, Kaç Net Yapıldı?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-2026-istatistikleri.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 155525
+      "bytes": 201765
     },
     "variants": [
       {
         "file": "ags-2026-istatistikleri-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 31766
+        "bytes": 42536
       },
       {
         "file": "ags-2026-istatistikleri-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 53870
+        "bytes": 73434
       },
       {
         "file": "ags-2026-istatistikleri.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 101564
+        "bytes": 139320
       }
     ]
   },
@@ -3491,31 +3491,31 @@
     "slug": "ags-kac-net-kac-puan",
     "title": "AGS Kaç Net Kaç Puan? Netten Standart Puana Hesap",
     "alt": "AGS Kaç Net Kaç Puan? Netten Standart Puana Hesap",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-kac-net-kac-puan.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 175297
+      "bytes": 164233
     },
     "variants": [
       {
         "file": "ags-kac-net-kac-puan-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 37744
+        "bytes": 34864
       },
       {
         "file": "ags-kac-net-kac-puan-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 63208
+        "bytes": 60098
       },
       {
         "file": "ags-kac-net-kac-puan.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 118040
+        "bytes": 109258
       }
     ]
   },
@@ -3523,31 +3523,31 @@
     "slug": "ags-itiraz",
     "title": "AGS İtiraz: Sorulara ve Sonuca Nasıl İtiraz Edilir?",
     "alt": "AGS İtiraz: Sorulara ve Sonuca Nasıl İtiraz Edilir?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-itiraz.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 147746
+      "bytes": 163734
     },
     "variants": [
       {
         "file": "ags-itiraz-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 32102
+        "bytes": 35486
       },
       {
         "file": "ags-itiraz-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 51022
+        "bytes": 58774
       },
       {
         "file": "ags-itiraz.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 90300
+        "bytes": 108056
       }
     ]
   },
@@ -3555,31 +3555,31 @@
     "slug": "oabt-alan-secimi",
     "title": "ÖABT Alan Seçimi: Hangi Alana Girmeliyim?",
     "alt": "ÖABT Alan Seçimi: Hangi Alana Girmeliyim?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "oabt-alan-secimi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 185471
+      "bytes": 295245
     },
     "variants": [
       {
         "file": "oabt-alan-secimi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39520
+        "bytes": 67016
       },
       {
         "file": "oabt-alan-secimi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 67832
+        "bytes": 124910
       },
       {
         "file": "oabt-alan-secimi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 125618
+        "bytes": 245862
       }
     ]
   },
