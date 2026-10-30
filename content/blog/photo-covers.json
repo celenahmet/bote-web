@@ -2622,5 +2622,165 @@
         "bytes": 108382
       }
     ]
+  },
+  {
+    "slug": "oabt-ilkogretim-matematik-konulari",
+    "title": "ÖABT İlköğretim Matematik Konuları ve Netler",
+    "alt": "ÖABT İlköğretim Matematik Konuları ve Netler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "oabt-ilkogretim-matematik-konulari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 168891
+    },
+    "variants": [
+      {
+        "file": "oabt-ilkogretim-matematik-konulari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35340
+      },
+      {
+        "file": "oabt-ilkogretim-matematik-konulari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58956
+      },
+      {
+        "file": "oabt-ilkogretim-matematik-konulari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 111668
+      }
+    ]
+  },
+  {
+    "slug": "oabt-matematik-konulari",
+    "title": "ÖABT Matematik (Lise) Konuları ve Netler",
+    "alt": "ÖABT Matematik (Lise) Konuları ve Netler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "oabt-matematik-konulari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183166
+    },
+    "variants": [
+      {
+        "file": "oabt-matematik-konulari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39570
+      },
+      {
+        "file": "oabt-matematik-konulari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71306
+      },
+      {
+        "file": "oabt-matematik-konulari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 135090
+      }
+    ]
+  },
+  {
+    "slug": "oabt-fen-bilimleri-konulari",
+    "title": "ÖABT Fen Bilimleri Konuları, Soru Dağılımı ve Netler",
+    "alt": "ÖABT Fen Bilimleri Konuları, Soru Dağılımı ve Netler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "oabt-fen-bilimleri-konulari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 216424
+    },
+    "variants": [
+      {
+        "file": "oabt-fen-bilimleri-konulari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 47848
+      },
+      {
+        "file": "oabt-fen-bilimleri-konulari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 84054
+      },
+      {
+        "file": "oabt-fen-bilimleri-konulari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 164180
+      }
+    ]
+  },
+  {
+    "slug": "oabt-sosyal-bilgiler-konulari",
+    "title": "ÖABT Sosyal Bilgiler Konuları, Soru Dağılımı ve Netler",
+    "alt": "ÖABT Sosyal Bilgiler Konuları, Soru Dağılımı ve Netler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "oabt-sosyal-bilgiler-konulari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 201650
+    },
+    "variants": [
+      {
+        "file": "oabt-sosyal-bilgiler-konulari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 44686
+      },
+      {
+        "file": "oabt-sosyal-bilgiler-konulari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 76296
+      },
+      {
+        "file": "oabt-sosyal-bilgiler-konulari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 144394
+      }
+    ]
+  },
+  {
+    "slug": "oabt-tarih-konulari",
+    "title": "ÖABT Tarih Konuları, Soru Dağılımı ve Netler",
+    "alt": "ÖABT Tarih Konuları, Soru Dağılımı ve Netler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "oabt-tarih-konulari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166385
+    },
+    "variants": [
+      {
+        "file": "oabt-tarih-konulari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34386
+      },
+      {
+        "file": "oabt-tarih-konulari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 59082
+      },
+      {
+        "file": "oabt-tarih-konulari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 111734
+      }
+    ]
   }
 ]
