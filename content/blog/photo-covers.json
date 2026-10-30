@@ -4222,5 +4222,165 @@
         "bytes": 127634
       }
     ]
+  },
+  {
+    "slug": "felsefe-ogretmeni-nasil-olunur",
+    "title": "Felsefe Öğretmeni Nasıl Olunur? Sosyoloji Mezunu Olur mu?",
+    "alt": "Felsefe Öğretmeni Nasıl Olunur? Sosyoloji Mezunu Olur mu?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "felsefe-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 158807
+    },
+    "variants": [
+      {
+        "file": "felsefe-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35094
+      },
+      {
+        "file": "felsefe-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57592
+      },
+      {
+        "file": "felsefe-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 106858
+      }
+    ]
+  },
+  {
+    "slug": "almanca-ogretmeni-nasil-olunur",
+    "title": "Almanca Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS",
+    "alt": "Almanca Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "almanca-ogretmeni-nasil-olunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188187
+    },
+    "variants": [
+      {
+        "file": "almanca-ogretmeni-nasil-olunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40476
+      },
+      {
+        "file": "almanca-ogretmeni-nasil-olunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 70528
+      },
+      {
+        "file": "almanca-ogretmeni-nasil-olunur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 131968
+      }
+    ]
+  },
+  {
+    "slug": "maslow-ihtiyaclar-hiyerarsisi",
+    "title": "Maslow İhtiyaçlar Hiyerarşisi Nedir? Basamaklar ve Eğitim",
+    "alt": "Maslow İhtiyaçlar Hiyerarşisi Nedir? Basamaklar ve Eğitim",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "maslow-ihtiyaclar-hiyerarsisi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 208237
+    },
+    "variants": [
+      {
+        "file": "maslow-ihtiyaclar-hiyerarsisi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 44396
+      },
+      {
+        "file": "maslow-ihtiyaclar-hiyerarsisi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 78714
+      },
+      {
+        "file": "maslow-ihtiyaclar-hiyerarsisi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 156684
+      }
+    ]
+  },
+  {
+    "slug": "ogrenme-stilleri-efsanesi",
+    "title": "Öğrenme Stilleri Gerçek mi? Görsel, İşitsel, Kinestetik",
+    "alt": "Öğrenme Stilleri Gerçek mi? Görsel, İşitsel, Kinestetik",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ogrenme-stilleri-efsanesi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149973
+    },
+    "variants": [
+      {
+        "file": "ogrenme-stilleri-efsanesi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31322
+      },
+      {
+        "file": "ogrenme-stilleri-efsanesi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 51958
+      },
+      {
+        "file": "ogrenme-stilleri-efsanesi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 99370
+      }
+    ]
+  },
+  {
+    "slug": "turkiye-yuzyili-maarif-modeli-nedir",
+    "title": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
+    "alt": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "turkiye-yuzyili-maarif-modeli-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181747
+    },
+    "variants": [
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34908
+      },
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66008
+      },
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132100
+      }
+    ]
   }
 ]

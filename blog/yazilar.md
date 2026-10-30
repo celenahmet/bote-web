@@ -35,11 +35,13 @@
 
 ## Eğitim Fakültesi
 
+- [Almanca Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS](https://bote.web.tr/blog/almanca-ogretmeni-nasil-olunur.md): Almanca öğretmeni olmak için hangi bölümler kaynak, AGS ve YDS (P3 puanı), 2027'de AGS'den önceki Almanca sınavı, Millî Eğitim Akademisi ve atama. (2026-10-31)
 - [Beden Eğitimi Öğretmeni Nasıl Olunur? 2027 Rehberi](https://bote.web.tr/blog/beden-egitimi-ogretmeni-nasil-olunur.md): Beden eğitimi öğretmeni olmak için hangi bölüm okunur, spor bilimleri mezunu öğretmen olabilir mi, ÖABT Beden Eğitimi, Millî Eğitim Akademisi ve atama. (2026-10-31)
 - [Biyoloji Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama](https://bote.web.tr/blog/biyoloji-ogretmeni-nasil-olunur.md): Biyoloji öğretmeni olmak için hangi bölüm okunur, biyoloji ve moleküler biyoloji mezunu öğretmen olabilir mi, ÖABT Biyoloji ve Millî Eğitim Akademisi. (2026-10-31)
 - [Coğrafya Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama](https://bote.web.tr/blog/cografya-ogretmeni-nasil-olunur.md): Coğrafya öğretmeni olmak için hangi bölüm okunur, coğrafya bölümü mezunu öğretmen olabilir mi, ÖABT Coğrafya, Millî Eğitim Akademisi ve atama adımları. (2026-10-31)
 - [Din Kültürü Öğretmeni Nasıl Olunur? İlahiyat ve AGS](https://bote.web.tr/blog/din-kulturu-ogretmeni-nasil-olunur.md): Din kültürü ve ahlak bilgisi öğretmeni olmak için hangi bölüm okunur, ilahiyat mezunu öğretmen olabilir mi, ÖABT DKAB/İHL, P2-16 ve P2-17 puanları. (2026-10-31)
 - [Edebiyat Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama](https://bote.web.tr/blog/edebiyat-ogretmeni-nasil-olunur.md): Edebiyat (Türk dili ve edebiyatı) öğretmeni olmak için hangi bölüm okunur, edebiyat bölümü mezunu öğretmen olabilir mi, ÖABT ve Millî Eğitim Akademisi. (2026-10-31)
+- [Felsefe Öğretmeni Nasıl Olunur? Sosyoloji Mezunu Olur mu?](https://bote.web.tr/blog/felsefe-ogretmeni-nasil-olunur.md): Felsefe öğretmeni olmak için hangi bölüm okunur, felsefe ve sosyoloji mezunlarının kredi şartları, ÖABT yok: P1 puanı, Millî Eğitim Akademisi ve atama. (2026-10-31)
 - [Fen Bilimleri Öğretmeni Nasıl Olunur? 2027 Rehberi](https://bote.web.tr/blog/fen-bilimleri-ogretmeni-nasil-olunur.md): Fen bilimleri öğretmeni olmak için hangi bölüm okunur, ÖABT Fen Bilimleri ve akademi; fizik, kimya, biyoloji mezunları fen öğretmeni olabilir mi? (2026-10-31)
 - [Fizik Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama](https://bote.web.tr/blog/fizik-ogretmeni-nasil-olunur.md): Fizik öğretmeni olmak için hangi bölüm okunur, fizik bölümü ve fizik mühendisliği mezunu öğretmen olabilir mi, ÖABT Fizik ve Millî Eğitim Akademisi. (2026-10-31)
 - [Hangi Bölümler Öğretmen Olabilir? Fakülte Dışı Liste](https://bote.web.tr/blog/hangi-bolumler-ogretmen-olabilir.md): Eğitim fakültesi dışında hangi bölümler öğretmen olabilir? MEB atama çizelgesine göre fen-edebiyat, mühendislik, ilahiyat, spor ve sanat bölümleri. (2026-10-31)
@@ -134,6 +136,9 @@
 
 ## Eğitim Bilimleri ve Kuramlar
 
+- [Maslow İhtiyaçlar Hiyerarşisi Nedir? Basamaklar ve Eğitim](https://bote.web.tr/blog/maslow-ihtiyaclar-hiyerarsisi.md): Maslow ihtiyaçlar hiyerarşisi nedir? Beş basamak, eksiklik ve gelişim ihtiyaçları, piramit efsanesi, araştırma bulguları, eleştiriler ve sınıfta kullanımı. (2026-10-31)
+- [Öğrenme Stilleri Gerçek mi? Görsel, İşitsel, Kinestetik](https://bote.web.tr/blog/ogrenme-stilleri-efsanesi.md): Öğrenme stilleri (görsel, işitsel, kinestetik) gerçek mi? Uyum hipotezi, araştırma bulguları, öğretmenlerdeki yaygınlığı ve bunun yerine ne işe yarıyor. (2026-10-31)
+- [Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler](https://bote.web.tr/blog/turkiye-yuzyili-maarif-modeli-nedir.md): Türkiye Yüzyılı Maarif Modeli nedir? Hangi sınıflarda uygulanıyor (2026-2027), beceri çerçevesi, erdem-değer-eylem, ölçme değerlendirme ve AGS'deki yeri. (2026-10-31)
 - [Freud'un Psikoseksüel Gelişim Kuramı: Evreler ve Eleştiriler](https://bote.web.tr/blog/freud-psikoseksuel-gelisim-kurami.md): Freud'un psikoseksüel gelişim kuramı: oral, anal, fallik, gizil ve genital dönem; id, ego, süperego, savunma mekanizmaları, kanıtlar, eleştiriler ve AGS. (2026-09-27)
 - [Güdülenme Kuramları: Maslow, Weiner ve Öz Belirleme](https://bote.web.tr/blog/gudulenme-kuramlari.md): Güdülenme (motivasyon) kuramları: Maslow'un ihtiyaçlar hiyerarşisi, Weiner'in yükleme kuramı, öz belirleme kuramı, ödülün etkisi, meta-analizler ve AGS. (2026-09-27)
 - [Mikro Öğretim Nedir? Aşamaları, Yararları ve Sınırlılıkları](https://bote.web.tr/blog/mikro-ogretim-nedir.md): Mikro öğretim nedir? Stanford'daki kökeni, planla-öğret-gözle döngüsü, çalışılan beceriler, video ve geri bildirim, araştırma bulguları ve yapaylık eleştirisi. (2026-09-27)

@@ -2,6 +2,115 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://bote.web.tr/blog
 
+# Almanca Öğretmeni Nasıl Olunur? Bölümler, YDS ve AGS
+
+> Almanca öğretmeni olmak için hangi bölümler kaynak, AGS ve YDS (P3 puanı), 2027'de AGS'den önceki Almanca sınavı, Millî Eğitim Akademisi ve atama.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/almanca-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre Almanca alanına **7 program** kaynak: Almanca öğretmenliğinin yanında Alman dili ve edebiyatı, mütercim-tercümanlık ve çeviribilim bölümleri.
+- Almanca alanında **ÖABT yok**: puan AGS ile **YDS/e-YDS**'den oluşan **MEB-AGS-P3**.
+- YDS sonucu 2026 kılavuzuna göre **aynı yıl, AGS'den önce** ve **Almanca** olmalı.
+- 2027 takviminde AGS'den önce Almanca için görünen tek sınav **2027-YDS/1 (28 Mart)**; başvurusu 3-11 Şubat.
+- Akademiye alınacaklarda **pedagojik formasyon şartı aranmıyor**.
+
+Almanca öğretmenliği, İngilizce gibi ÖABT yerine YDS ile puanlanan yabancı dil alanlarından biri; ama Almanca adayı için sınav takvimi daha dar. Bu yazı Almanca öğretmeni olmanın bugünkü yolunu ve 2027 takviminde dikkat edilmesi gereken tarihi anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Almanca** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Almanca Öğretmenliği
+2. Alman Dili ve Edebiyatı Bölümü (formasyon işaretli)
+3. Mütercim-Tercümanlık Bölümü (Almanca) (formasyon işaretli)
+4. Alman Dili ve Kültürü Bölümü (formasyon işaretli)
+5. Çeviribilim (Almanca) Bölümü (formasyon işaretli)
+6. Almanca Mütercim ve Tercümanlık (formasyon işaretli)
+7. Alman Dili Eğitimi (formasyon işaretli)
+
+Çizelgede Almanca alanı 2015, 2021, 2023 ve 2024'te TTKB kararlarıyla değiştirildi. MEB'e bağlı resmî okullar ile özel öğretim kurumlarına öğretmenlik başvurusunda eğitim fakültesi mezunlarından pedagojik formasyon belgesi istenmiyor. Formasyon işaretli programlar eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Dil ve edebiyat ya da çeviri bölümlerinden gelen adaylar için dil öğretimi yöntemleri ve sınıf deneyimi en çok güçlendirilmesi gereken alan olabiliyor; Almanca öğretmenliği programı ise yöntem ve uygulamayı programın merkezine koyuyor. Hangi bölümden gelirseniz gelin, yüksek bir YDS puanı için akademik okuma ve kelime bilgisine, sınıf için dil öğretimi yöntemlerine yatırım yapmak karşılığını veriyor. OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor.[2]
+
+## 3. AGS ve YDS
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[3] Bu sınav **MEB-AGS**: herkes için ortak Akademi Giriş Sınavı (AGS) ve alana özgü ikinci bölüm.
+
+Almanca adayı **ÖABT'ye girmiyor**. Kılavuza göre ÖSYM'nin ÖABT yapmadığı on bir yabancı dil alanında akademiye girişte YDS ya da e-YDS sonuçlarından oluşturulan **MEB-AGS-P3** puanı kullanılıyor: AGS %50, YDS/e-YDS %50. YDS sonucu, ilgili yılda AGS'den önce yapılan sınavdan ve mezun olunan programın dilinde olmalı.[4] Almanca adayı için kritik nokta takvim: 2027 takviminde Almanca ve Fransızca e-YDS oturumu AGS'den sonraya düşüyor; AGS'den önce Almanca için görünen tek sınav **2027-YDS/1** (sınav 28 Mart, başvuru 3-11 Şubat, geç başvuru 18 Şubat, sonuç 21 Nisan 2027).[5] 2027 kılavuzu bu kuralı değiştirmezse YDS/1 başvurusunu kaçırmamak gerekiyor. AGS tarafında 2025 ve 2026 ortalamaları için: sözel yetenekte iki yılda da 8,3 net.[6][7] Ayrıntı: [AGS yabancı dil öğretmenliği: P3 ve YDS](https://bote.web.tr/blog/ags-yabanci-dil-ogretmenligi-p3-yds).
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[5] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[3] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[3] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre Almanca alanına atanan öğretmen **Almanca** ve **meslekî yabancı dil (Almanca)** derslerini okutuyor. Yabancı dil, esasların 8. maddesine göre ilköğretim ve ortaöğretimde ortak alan.[1]
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[2] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Çizelgedeki 7 programdan biri |
+| Lisans | 4 yıl | Dil öğretimi yöntemleri ve akademik Almanca |
+| YDS başvurusu | 3-11 Şubat 2027 | 2027-YDS/1, Almanca |
+| YDS | 28 Mart 2027 | AGS'den önceki Almanca sınavı |
+| AGS | 19-29 Mart başvuru, 8 Mayıs sınav | AGS ve dil grubu seçimi |
+| Sonuç ve akademi | 11 Haziran 2027 sonrası | P3 puanı ve hazırlık eğitimi |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[5]
+
+## Sık Sorulan Sorular
+
+### Almanca öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB çizelgesine göre Almanca öğretmenliği, Alman dili ve edebiyatı, mütercim-tercümanlık (Almanca), Alman dili ve kültürü, çeviribilim (Almanca), Almanca mütercim ve tercümanlık ve Alman dili eğitimi.
+
+### Alman dili ve edebiyatı mezunu öğretmen olabilir mi?
+
+Evet. MEB çizelgesinde Alman dili ve edebiyatı bölümü Almanca alanına kaynak; akademiye alınacaklarda pedagojik formasyon şartı aranmıyor.
+
+### Almanca öğretmenleri ÖABT'ye giriyor mu?
+
+Hayır. Almanca alanında ÖABT yapılmıyor; puan AGS ile YDS ya da e-YDS sonucundan oluşan MEB-AGS-P3.
+
+### 2027'de Almanca YDS ne zaman?
+
+ÖSYM'nin 2027 takvimine göre 2027-YDS/1 28 Mart 2027'de; başvuru 3-11 Şubat, geç başvuru 18 Şubat, sonuç 21 Nisan. Almanca e-YDS oturumu takvimde AGS'den sonraya düşüyor.
+
+### Hangi YDS sonucu geçerli?
+
+2026 kılavuzuna göre ilgili yılda AGS'den önce yapılan YDS ya da e-YDS sonucu, mezun olunan programın dilinde. Aynı dilde birden fazla sonuç varsa en yükseği alınıyor.
+
+### Almanca öğretmeni hangi dersleri okutur?
+
+MEB çizelgesine göre Almanca ve meslekî yabancı dil (Almanca) derslerini.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+3. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+5. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
 # Beden Eğitimi Öğretmeni Nasıl Olunur? 2027 Rehberi
 
 > Beden eğitimi öğretmeni olmak için hangi bölüm okunur, spor bilimleri mezunu öğretmen olabilir mi, ÖABT Beden Eğitimi, Millî Eğitim Akademisi ve atama.
@@ -517,6 +626,111 @@ Eski Türk dili ve yeni Türk dili %30, Türk halk edebiyatı %20, eski Türk ed
 ### ÖABT Edebiyat'a kaç kişi giriyor?
 
 ÖSYM verilerine göre 2025'te 25.706, 2026'da 20.947 aday girdi; aday sayısı en çok düşen alan oldu.
+
+## Kaynaklar
+
+1. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
+11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Felsefe Öğretmeni Nasıl Olunur? Sosyoloji Mezunu Olur mu?
+
+> Felsefe öğretmeni olmak için hangi bölüm okunur, felsefe ve sosyoloji mezunlarının kredi şartları, ÖABT yok: P1 puanı, Millî Eğitim Akademisi ve atama.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/felsefe-ogretmeni-nasil-olunur
+
+## Özet
+
+- MEB çizelgesine göre felsefe alanına üç program kaynak: **felsefe grubu öğretmenliği**, **felsefe bölümü** ve **sosyoloji bölümü**.
+- Felsefe mezunları en az **16 kredi sosyoloji ve 16 kredi psikoloji**, sosyoloji mezunları **16 kredi felsefe, 16 kredi psikoloji ve 8 kredi mantık** almış olmalı.
+- Felsefe alanında **ÖABT yok**: puan yalnız AGS'ye dayanan **MEB-AGS-P1**.
+- Felsefe öğretmeni felsefe, sosyoloji, mantık ve psikoloji derslerini okutuyor.
+- 2027 takvimi: başvuru 19-29 Mart, AGS 8 Mayıs 2027.
+
+Felsefe öğretmeni, lisede felsefe, sosyoloji, mantık ve psikoloji derslerini okutan öğretmen; felsefe ve sosyoloji bölümü mezunlarına da açık bir alan, ama kredi şartları var. Bu yazı felsefe öğretmeni olmanın bugünkü yolunu anlatıyor. Kaynaklar MEB'in atama esasları, 7528 sayılı Kanun ve ÖSYM belgeleri.[1]
+
+## 1. Hangi bölümü okumalısınız?
+
+MEB'e bağlı okullarda kimin hangi alana öğretmen olarak atanabileceğini *Öğretmenlik Alanları, Atama ve Ders Okutma Esasları*'nın ek çizelgesi belirliyor. Esasların 6. maddesine göre öğretmenler, çizelgede her alanın karşısında gösterilen yükseköğretim programlarından **en az lisans mezunu** olanlar arasından seçiliyor. Aralık 2025 güncel metnine göre **Felsefe** alanına kaynak teşkil eden programlar şunlar:[1]
+
+1. Felsefe Grubu Öğretmenliği
+2. Felsefe Bölümü (formasyon işaretli; en az 16 kredi sosyoloji ve 16 kredi psikoloji)
+3. Sosyoloji Bölümü (formasyon işaretli; en az 16 kredi felsefe, 16 kredi psikoloji ve 8 kredi mantık)
+
+Kredi şartları için MEB'e bağlı resmî okullar ile özel öğretim kurumlarına başvuruda, transkriptteki derslerin hangi alana (felsefe, sosyoloji, psikoloji, mantık) ait olduğunu ve kredisini gösteren, üniversiteden alınmış resmî belge isteniyor. Çizelgede felsefe alanı en son 19 Aralık 2025 tarihli TTKB kararıyla değiştirildi. Formasyon işaretli programlar eskiden pedagojik formasyon şartına bağlıydı; esasların 7/A maddesiyle akademiye alınacaklarda bu şart aranmıyor.[1]
+
+Pedagojik formasyon konusunda önemli bir değişiklik var: esasların 7/A maddesine göre Millî Eğitim Akademisi'nin hazırlık eğitimine alınacaklarda pedagojik formasyonla ilgili şartlar aranmıyor. Çizelgede formasyon işaretiyle gösterilen eğitim fakültesi dışı programların mezunları için bu, akademi yolunda formasyon sertifikası şartının kalktığı anlamına geliyor.[1] Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## 2. Lisans yılları
+
+Felsefe grubu öğretmenliği programı felsefe, sosyoloji, mantık ve psikolojiyi birlikte veriyor; çünkü atanan öğretmen bu dört dersi okutuyor. Felsefe ya da sosyoloji bölümünden gelen adaylar için en önemli adım, lisans yıllarında kredi şartını karşılayacak dersleri seçmek: mezuniyetten sonra eksik krediyi tamamlamak zor. AGS tarafında ise felsefe adayının en ağır testi eğitim bilimleri; P1 puanının dörtte biri bu testten geliyor.[2] OECD'nin TALIS araştırması mesleki gelişimin kariyer boyunca sürdüğünü gösteriyor.[3]
+
+## 3. AGS
+
+7528 sayılı Öğretmenlik Mesleği Kanunu'na göre öğretmen olarak istihdam edilecekler, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçiliyor; hazırlık eğitimine alınmak için de ÖSYM'nin yaptığı sınavlardan Bakanlıkça belirlenen puana sahip olmak gerekiyor.[4] Bu sınav **MEB-AGS**; çoğu alanda AGS'ye ek olarak alana özgü bir bölüm (ÖABT ya da YDS) var, ama bu alanda yalnız AGS'ye giriliyor.
+
+Felsefe alanında **ÖABT de YDS de yok**: 2026 kılavuzuna göre ne ÖABT ne YDS karşılığı olan öğretmenlik alanlarında puan, yalnız AGS'ye dayanan **MEB-AGS-P1**. P1'de AGS'nin alt testleri iki kat ağırlık taşıyor: eğitim bilimleri %25, sözel ve sayısal yetenek %20'şer, tarih %15, Türkiye coğrafyası ve mevzuat %10'ar.[2] ÖSYM'nin istatistiklerine göre 2026'da AGS'de ortalama netler sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 30 soruda 11,2 oldu; 2025'te sözel yetenek ortalaması da 8,3'tü.[5][6] Felsefe mezunlarının sözel yetenek ve sözel mantık sorularında doğal bir avantajı var; alt testler için [AGS sözel yetenek](https://bote.web.tr/blog/ags-sozel-yetenek-konulari) ve [AGS eğitim bilimleri](https://bote.web.tr/blog/ags-egitim-bilimleri-konulari) yazılarına bakın.
+
+2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs**, ÖABT **9 Mayıs 2027**; sonuçlar **11 Haziran 2027**'de açıklanacak.[7] AGS'nin bütün ayrıntıları için [AGS nedir?](https://bote.web.tr/blog/ags-nedir), [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi) yazılarına bakın.
+
+## 4. Millî Eğitim Akademisi hazırlık eğitimi
+
+AGS puanı ve diğer şartlarla akademiye kabul edilen aday, öğretmen olmadan önce hazırlık eğitimine katılıyor. Kanuna göre hazırlık eğitimi dört dönem; mezun olunan programa göre üç dönem olarak uygulanabiliyor.[4] MEB'in yayımladığı programa göre dönemler onar hafta; ilk üç dönem ortak dersleri, dördüncü dönem uygulamayı kapsıyor.[8] İlk hazırlık eğitimi 13 Nisan 2026'da başladı.[9] Kanun, hazırlık eğitimine alınacakların atama izni verilen pozisyon sayısını geçmeyecek şekilde puan üstünlüğüne göre belirlendiğini de söylüyor; yani alandaki kontenjan ve diğer adayların puanları belirleyici.[4] Süreç için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısına bakın.
+
+## 5. Atama, okutulan dersler ve kariyer
+
+MEB çizelgesine göre felsefe alanına atanan öğretmen felsefe, sosyoloji, mantık, psikoloji, demokrasi ve insan hakları, bilgi kuramı, düşünme eğitimi, antropoloji, sosyal bilim çalışmaları, insan hakları, vatandaşlık ve demokrasi, Türk düşünce tarihi ve klasik ahlak metinleri gibi dersleri okutabiliyor.[1]
+
+7528 sayılı Kanun öğretmenlik mesleğini **öğretmen, uzman öğretmen ve başöğretmen** olmak üzere üç kariyer basamağı olarak tanımlıyor.[10] Mesleğe ilk yıllar ise ayrı bir destek gerektiriyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların öğretmenin mesleğe bağlılığı, sınıf içi uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[11] OECD'nin TALIS araştırması da öğretmenleri "yaşam boyu öğrenenler" olarak ele alıyor ve mesleki gelişimi kariyerin bütününe yayıyor.[3] Kariyer basamakları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Kısa yol haritası
+
+| Adım | Ne zaman | Ne yapmalı |
+|---|---|---|
+| Tercih | YKS dönemi | Felsefe grubu öğretmenliği, felsefe ya da sosyoloji (kredi şartlı) |
+| Lisans | 4 yıl | Kredi şartını karşılayan dersler; AGS'ye erken hazırlık |
+| Başvuru | 19-29 Mart 2027 | AGS başvurusu |
+| Sınav | 8 Mayıs 2027 | AGS |
+| Sonuç | 11 Haziran 2027 | P1 puanı |
+| Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
+
+Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
+
+## Sık Sorulan Sorular
+
+### Felsefe öğretmeni olmak için hangi bölüm okunmalı?
+
+MEB çizelgesine göre felsefe grubu öğretmenliği, felsefe bölümü ve sosyoloji bölümü.
+
+### Sosyoloji mezunu felsefe öğretmeni olabilir mi?
+
+Evet, kredi şartıyla. MEB çizelgesine göre sosyoloji mezunlarının en az 16 kredi felsefe, 16 kredi psikoloji ve 8 kredi mantık dersi aldığını belgelendirmesi gerekiyor.
+
+### Felsefe bölümü mezunu öğretmen olabilir mi?
+
+Evet, kredi şartıyla. Felsefe mezunlarının en az 16 kredi sosyoloji ve 16 kredi psikoloji dersi aldığını belgelendirmesi gerekiyor; transkriptteki derslerin alanı ve kredisini gösteren resmî belge isteniyor.
+
+### Felsefe öğretmenleri ÖABT'ye giriyor mu?
+
+Hayır. 2026 kılavuzuna göre felsefe alanında ÖABT yapılmıyor; puan yalnız AGS'ye dayanan MEB-AGS-P1.
+
+### Felsefe öğretmeni hangi dersleri okutur?
+
+MEB çizelgesine göre felsefe, sosyoloji, mantık, psikoloji, demokrasi ve insan hakları, bilgi kuramı, düşünme eğitimi, antropoloji ve sosyal bilim çalışmaları gibi dersler.
+
+### Psikoloji mezunu felsefe öğretmeni olabilir mi?
+
+MEB çizelgesinde psikoloji bölümü felsefe alanına değil, rehberlik alanına kaynak gösteriliyor.
 
 ## Kaynaklar
 
@@ -1075,6 +1289,107 @@ Temel kimya %32, analitik kimya %20, organik kimya %20, anorganik kimya %16, fiz
 
 ---
 
+# Maslow İhtiyaçlar Hiyerarşisi Nedir? Basamaklar ve Eğitim
+
+> Maslow ihtiyaçlar hiyerarşisi nedir? Beş basamak, eksiklik ve gelişim ihtiyaçları, piramit efsanesi, araştırma bulguları, eleştiriler ve sınıfta kullanımı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/maslow-ihtiyaclar-hiyerarsisi
+
+## Özet
+
+- Maslow, kuramını **1943**'te *Psychological Review*'da yayımladı: fizyolojik, güvenlik, ait olma ve sevgi, saygı ve **kendini gerçekleştirme** ihtiyaçları.
+- Maslow'a göre alt basamak tam doymadan üst ihtiyaç ortaya çıkabilir; hiyerarşi **katı değil**.
+- Ünlü **piramit çizimi Maslow'a ait değil**; sonradan yönetim kitaplarında üretildi.
+- 123 ülkeden verilerle yapılan bir çalışma, ihtiyaç doyumunun iyi oluşla ilişkili olduğunu, ama sıranın her yerde aynı olmadığını gösterdi.
+- Kuram AGS'nin eğitim bilimleri alt testinde güdülenme ve gelişim konularının içinde.
+
+Maslow'un ihtiyaçlar hiyerarşisi, eğitim fakültesinde ilk öğrenilen, AGS'de güdülenme sorularında karşılaşılan ve sınıf yönetiminden işletmeciliğe kadar her yerde kullanılan bir kuram. Ama yaygınlığı kadar yanlış bilinen yanları da var: en ünlü sembolü olan piramit Maslow'a ait değil, hiyerarşinin katı olduğu düşüncesi de Maslow'un kendi ifadesiyle çelişiyor. Bu yazı kuramı Maslow'un özgün metninden, araştırma bulgularından ve eleştirilerden topluyor.[1]
+
+## Kuramın özü: beş ihtiyaç
+
+Maslow kuramını 1943'te *Psychological Review* dergisindeki "A Theory of Human Motivation" makalesiyle sundu. Makaleye göre insan davranışını beş temel ihtiyaç grubu yönlendiriyor:[1]
+
+| Basamak | İhtiyaç | Örnek |
+|---|---|---|
+| 1 | Fizyolojik | Açlık, susuzluk, uyku |
+| 2 | Güvenlik | Tehlikeden korunma, düzen, öngörülebilirlik |
+| 3 | Ait olma ve sevgi | Arkadaşlık, aile, bir gruba ait olma |
+| 4 | Saygı (değer görme) | Başarı, yeterlik, başkalarınca tanınma |
+| 5 | Kendini gerçekleştirme | Kişinin olabileceği en iyi hâle gelmesi |
+
+Maslow kuramı 1954'te *Motivation and Personality* kitabında genişletti.[2] Sonraki yorumlar ilk dört basamağı **eksiklik ihtiyaçları** (karşılanmadığında gerilim yaratan), beşinciyi **gelişim** ihtiyacı olarak ayırdı. Kuramın temel iddiası, daha temel bir ihtiyaç büyük ölçüde karşılanmadan üstteki ihtiyacın davranışı yönlendirmede öne çıkmadığı.
+
+## Hiyerarşi katı mı?
+
+Maslow'un özgün metni, ders kitaplarındaki basamak basamak ilerleyen merdiven imgesinden daha esnek. 1943 makalesinde Maslow, bir ihtiyacın yüzde yüz doyması gerekmeden bir sonrakinin ortaya çıkabileceğini, toplumdaki insanların çoğunun bütün temel ihtiyaçlarının **kısmen** doymuş, kısmen doymamış olduğunu yazıyor; ayrıca sıranın bazı kişilerde değişebileceğini, örneğin bazıları için saygının sevgiden önce gelebileceğini kabul ediyor.[1]
+
+Bu ayrıntı sınav sorularında da önemli: "Alt basamak tamamen doymadan üst basamağa geçilemez" ifadesi Maslow'un kendi görüşünün aşırı basitleştirilmiş hâli.
+
+## Piramidi Maslow çizmedi
+
+Kuramın en tanınmış simgesi olan piramit, Maslow'un yayınlarında yer almıyor. Bridgman, Cummings ve Ballard'ın 2019'daki tarihsel incelemesine göre piramit biçimi, Maslow'un kuramının yönetim ve örgüt alanyazınında yorumlanması sırasında sonradan üretildi ve kuramın en çok hatırlanan yanı hâline geldi. Yazarlar, ampirik destek azlığına rağmen kuramın popülerliğini büyük ölçüde bu görsel biçime borçlu olduğunu ve piramidin kuramı olduğundan daha katı ve sıralı gösterdiğini savunuyor.[3]
+
+## Araştırmalar ne diyor?
+
+Kuram, sınanması zor olduğu için on yıllar boyunca tartışıldı. Wahba ve Bridwell'in 1976 tarihli derlemesi, kuramı sınayan çalışmaları inceledi ve ihtiyaçların Maslow'un önerdiği sırayla dizildiğine dair **sınırlı destek** buldu; ihtiyaç kategorilerinin ayrışması ve doyumun bir sonraki ihtiyacı öne çıkarması gibi iddialar tutarlı biçimde doğrulanamadı.[4]
+
+Daha yeni ve geniş bir çalışma farklı bir tablo veriyor. Tay ve Diener, 123 ülkeden Gallup Dünya Anketi verileriyle ihtiyaç doyumu ile öznel iyi oluş arasındaki ilişkiyi inceledi. İhtiyaç doyumu bütün bölgelerde iyi oluşla tutarlı biçimde ilişkiliydi: yaşam değerlendirmesi en çok temel ihtiyaçların karşılanmasıyla, olumlu duygular en çok sosyal ve saygı ihtiyaçlarıyla ilişkiliydi. Ama temel ve güvenlik ihtiyaçlarının karşılanma sırası ülkeye göre değişiyordu; yani insanlar alt basamaklar doymadan da sosyal ihtiyaçlarından iyi oluş kazanabiliyordu.[5] Bu bulgu, Maslow'un ihtiyaç listesini desteklerken katı sıralamayı desteklemiyor.
+
+## Eleştiriler ve güncellemeler
+
+Kurama yöneltilen başlıca eleştiriler üç noktada toplanıyor: sıralamanın ampirik desteğinin zayıflığı,[4] kendini gerçekleştirme kavramının ölçülmesinin güçlüğü ve kuramın bireyci bir bakışı evrenselmiş gibi sunması.[3]
+
+Bazı araştırmacılar ise kuramı atmak yerine güncellemeyi önerdi. Kenrick ve arkadaşları 2010'da, evrimsel biyoloji ve psikolojideki gelişmeler ışığında hiyerarşinin temel yapısının korunmaya değer olduğunu, ama üst basamakların yeniden düzenlenmesi gerektiğini savundu; önerdikleri "yenilenmiş piramitte" kendini gerçekleştirme yerine eş bulma, eşi koruma ve ebeveynlik gibi temel güdüler yer alıyor.[6]
+
+Eğitimde daha sık başvurulan bir diğer çerçeve **öz belirleme kuramı**: Ryan ve Deci'ye göre içsel motivasyonun temelinde özerklik, yeterlik ve ilişkili olma ihtiyaçları var.[7] Bu üç ihtiyaç Maslow'un hiyerarşisi gibi sıralı değil, aynı anda karşılanması gereken ihtiyaçlar olarak tanımlanıyor. Güdülenme kuramlarının karşılaştırması için [güdülenme kuramları](https://bote.web.tr/blog/gudulenme-kuramlari) yazısına bakın.
+
+## Sınıfta Maslow
+
+Kuramın öğretmen için en kalıcı mesajı sade: aç, uykusuz, kendini güvende hissetmeyen ya da sınıfta dışlanmış bir öğrencinin öğrenmeye odaklanması zor. Okul beslenme programları, sınıfta güvenli ve öngörülebilir kurallar, ait olma duygusunu güçlendiren grup çalışmaları bu düşüncenin uygulamadaki karşılıkları. Tay ve Diener'in bulgusu da öğretmene bir uyarı içeriyor: temel ihtiyaçları tam karşılanmamış bir öğrenci de sosyal ilişkilerden ve takdir görmekten olumlu duygu kazanabiliyor; yani "önce temel ihtiyaçlar, sonra her şey" yerine ihtiyaçlara birlikte bakmak gerekiyor.[5]
+
+## AGS'de Maslow
+
+AGS'nin eğitim bilimleri ve Türk millî eğitim sistemi alt testinin konuları arasında öğrenme psikolojisi ve gelişim psikolojisi var; güdülenme kuramları bu başlıkların içinde ele alınıyor ve alt test AGS'nin %37,5'i.[8] Sınavda en sık karşılaşılan tuzaklar: hiyerarşinin katı olduğunu varsayan seçenekler, eksiklik ve gelişim ihtiyaçlarının karıştırılması ve bir örnek durumun hangi basamağa ait olduğunu belirleme. Alt testin tamamı için [AGS eğitim bilimleri konuları](https://bote.web.tr/blog/ags-egitim-bilimleri-konulari).
+
+## Sık Sorulan Sorular
+
+### Maslow ihtiyaçlar hiyerarşisi nedir?
+
+Abraham Maslow'un 1943'te ortaya koyduğu, insan ihtiyaçlarını fizyolojik, güvenlik, ait olma ve sevgi, saygı ve kendini gerçekleştirme olmak üzere beş basamakta sıralayan güdülenme kuramı.
+
+### Maslow'un basamakları nelerdir?
+
+Fizyolojik ihtiyaçlar, güvenlik ihtiyacı, ait olma ve sevgi ihtiyacı, saygı (değer görme) ihtiyacı ve kendini gerçekleştirme ihtiyacı.
+
+### Alt basamak doymadan üst basamağa geçilir mi?
+
+Maslow 1943 makalesinde hiyerarşinin katı olmadığını, bir ihtiyacın yüzde yüz doyması gerekmeden bir sonrakinin ortaya çıkabileceğini belirtti.
+
+### Maslow piramidini Maslow mu çizdi?
+
+Hayır. Bridgman, Cummings ve Ballard'ın 2019 tarihli tarihsel incelemesine göre Maslow kuramını piramit olarak çizmedi; piramit biçimi sonradan yönetim alanyazınında yaygınlaştı.
+
+### Maslow'un kuramı bilimsel olarak destekleniyor mu?
+
+Kısmen. Wahba ve Bridwell 1976 derlemesinde ihtiyaçların sıralanmasına sınırlı destek buldu. Tay ve Diener 2011'de 123 ülkeden verilerle ihtiyaç doyumunun iyi oluşla ilişkili olduğunu, ama sıranın ülkelere göre değişebildiğini gösterdi.
+
+### Maslow AGS'de çıkar mı?
+
+AGS'nin eğitim bilimleri alt testinin konuları arasında öğrenme psikolojisi ve gelişim psikolojisi var; güdülenme kuramları bu başlıklar içinde ele alınıyor.
+
+## Kaynaklar
+
+1. Maslow, A. H. (1943). A theory of human motivation. Psychological Review, 50(4), 370–396. https://doi.org/10.1037/h0054346 (EN, erişim: 2026-10-31)
+2. Maslow, A. H. (1954). Motivation and Personality. Harper & Brothers. https://archive.org/details/motivationperson0000masl (EN, erişim: 2026-10-31)
+3. Bridgman, T., Cummings, S. ve Ballard, J. (2019). Who built Maslow's pyramid? A history of the creation of management studies' most famous symbol and its implications for management education. Academy of Management Learning & Education, 18(1), 81–98. https://doi.org/10.5465/amle.2017.0351 (EN, erişim: 2026-10-31)
+4. Wahba, M. A. ve Bridwell, L. G. (1976). Maslow reconsidered: A review of research on the need hierarchy theory. Organizational Behavior and Human Performance, 15(2), 212–240. https://doi.org/10.1016/0030-5073(76)90038-6 (EN, erişim: 2026-10-31)
+5. Tay, L. ve Diener, E. (2011). Needs and subjective well-being around the world. Journal of Personality and Social Psychology, 101(2), 354–365. https://doi.org/10.1037/a0023779 (EN, erişim: 2026-10-31)
+6. Kenrick, D. T., Griskevicius, V., Neuberg, S. L. ve Schaller, M. (2010). Renovating the pyramid of needs: Contemporary extensions built upon ancient foundations. Perspectives on Psychological Science, 5(3), 292–314. https://doi.org/10.1177/1745691610369469 (EN, erişim: 2026-10-31)
+7. Ryan, R. M. ve Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68 (EN, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+
+---
+
 # Matematik Öğretmeni Nasıl Olunur? Ortaokul ve Lise
 
 > Matematik öğretmeni olmak için hangi bölüm okunur? Ortaokul ve lise matematik alanları, ÖABT, akademi ve matematik bölümü mezunu için şartlar.
@@ -1396,6 +1711,94 @@ Millî Eğitim Akademisi hazırlık eğitimine alınacaklarda pedagojik formasyo
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Öğrenme Stilleri Gerçek mi? Görsel, İşitsel, Kinestetik
+
+> Öğrenme stilleri (görsel, işitsel, kinestetik) gerçek mi? Uyum hipotezi, araştırma bulguları, öğretmenlerdeki yaygınlığı ve bunun yerine ne işe yarıyor.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ogrenme-stilleri-efsanesi
+
+## Özet
+
+- İnsanların öğrenme **tercihleri** farklı olabilir; ama öğretimi bu tercihe uydurmanın öğrenmeyi artırdığına dair **güçlü kanıt yok**.
+- Pashler ve arkadaşları (2008) bu iddiayı sınayacak deney desenini tanımladı; bu desendeki çalışmalar **uyum hipotezini desteklemedi**.
+- Buna rağmen inanç yaygın: İngiltere'de öğretmenlerin **%93**'ü, Hollanda'da **%96**'sı öğrenme stilleri ifadesine katıldı.
+- Yükseköğretim araştırmalarının **%89**'u (2013-2015, 109 çalışma) öğrenme stillerini destekler biçimde yazılmıştı.
+- Kanıtı güçlü teknikler: **deneme sınavları** ve **aralıklı tekrar**.
+
+"Ben görsel öğrenenim" cümlesi okullarda çok yaygın. Öğrenme stilleri fikri öğretmen yetiştirme programlarında, kişisel gelişim kitaplarında ve okul rehberlik etkinliklerinde sıkça karşımıza çıkıyor. Ama araştırmalar bu fikrin en önemli iddiasını desteklemiyor. Bu yazı öğrenme stilleri kavramını, sınanma biçimini, araştırma bulgularını ve onun yerine kanıtı güçlü olan yaklaşımları anlatıyor.[1]
+
+## Öğrenme stilleri ne iddia ediyor?
+
+Öğrenme stilleri, bireylerin hangi öğretim ya da çalışma biçiminin kendileri için en etkili olduğu konusunda farklılaştığı düşüncesi. En bilinen sınıflandırma görsel, işitsel ve kinestetik (dokunsal); VARK gibi ölçekler okuma-yazma tercihini de ekliyor. Pashler ve arkadaşlarının tanımına göre bu alandaki en yaygın ve öğretim açısından en önemli iddia **uyum (meshing) hipotezi**: öğretim, öğrencinin tercih ettiği biçimde sunulursa öğrenme artar.[1]
+
+Burada iki iddiayı ayırmak önemli. İnsanların farklı tercihleri olması tartışmalı değil; tartışmalı olan, bu tercihe göre öğretimin daha iyi öğrenme sağladığı.
+
+## Doğru sınama nasıl yapılır?
+
+Pashler ve arkadaşları 2008'de uyum hipotezini sınamak için gereken deney desenini tanımladı: öğrenciler önce stillerine göre gruplanır, sonra her grup farklı öğretim yöntemlerine rastgele atanır ve aynı testle ölçülür. Hipotezin doğru olması için **çaprazlaşan bir etkileşim** görülmeli: görsel öğrenenler görsel öğretimle, işitsel öğrenenler işitsel öğretimle daha iyi öğrenmeli. Yazarlar bu desene uyan çok az çalışma bulunduğunu, bulunanların da hipotezle çeliştiğini bildirdi ve öğrenme stillerini değerlendirmenin genel eğitim uygulamasına dahil edilmesi için yeterli kanıt olmadığı sonucuna vardı.[1]
+
+Sonraki deneyler de benzer sonuç verdi. Rogowsky, Calhoun ve Tallal, yetişkinlerde işitsel ya da görsel tercih ile sesli kitap ya da yazılı metin biçimindeki öğretim arasındaki uyumun anlamaya etkisini sınadı ve uyumun anlamayı artırmadığını gösterdi.[2] Husmann ve O'Loughlin anatomi dersindeki üniversite öğrencilerinde VARK stillerini ve çalışma stratejilerini inceledi; öğrencilerin çoğu kendi stiline uygun stratejilerle çalışmıyordu ve stiline uygun çalışmak ders başarısıyla ilişkili değildi.[3]
+
+## Yaygın bir nöromit
+
+Kanıt zayıf olsa da inanç güçlü. Dekker ve arkadaşları İngiltere'den 137 ve Hollanda'dan 105 olmak üzere 242 öğretmene nöromit ifadeleri sordu: öğretmenler ifadelerin %49'una inandı; "bireyler tercih ettikleri öğrenme stilinde bilgi aldıklarında daha iyi öğrenir" ifadesini İngiltere'de **%93**, Hollanda'da **%96** oranında doğru kabul etti. Dikkat çekici bir bulgu da beyinle ilgili genel bilgisi fazla olan öğretmenlerin nöromitlere daha çok inanmasıydı.[4]
+
+Yükseköğretim araştırmaları da bu inancı besliyor. Newton, ERIC ve PubMed'de 2013-2015 arasında yayımlanmış 109 çalışmayı inceledi; çalışmaların **%89**'u öğrenme stillerini doğrudan ya da dolaylı biçimde destekleyen bir dille yazılmıştı.[5] Türkiye'de de durum farklı görünmüyor: Kara Erol ve Dönmez'in 126 sosyal bilgiler öğretmen adayıyla yaptığı çalışma, adayların öğrenme stilleri dahil birçok nöromite sahip olduğunu raporladı.[6]
+
+## Eleştiriler: neden sorun?
+
+Kirschner, öğrenme stilleri fikrine iki temel itiraz sıralıyor: insanları birbirinden kesin çizgilerle ayrılan "tiplere" bölmenin dayanağı zayıf ve uyum uygulamasının öğrenmeyi artırdığına dair kanıt yok. Yazara göre öğretmen eğitiminde bu fikrin yayılmaya devam etmesi, kanıta dayalı yöntemlere ayrılabilecek zamanı ve kaynağı tüketiyor.[7]
+
+Pratik bir sorun daha var: bir öğrenciyi "işitsel" diye etiketlemek, ona yalnız dinleyerek çalışmasını önermek demek; oysa birçok içerik doğası gereği belirli bir biçim istiyor. Bir haritayı dinleyerek, bir telaffuzu okuyarak öğrenmek zor. Bu yüzden sunum biçimini öğrencinin stili değil, **içeriğin doğası** belirlemeli.
+
+## Bunun yerine ne işe yarıyor?
+
+Dunlosky ve arkadaşlarının on öğrenme tekniğini karşılaştıran incelemesi, yararı en yüksek iki tekniği belirledi: **deneme sınavları** (kendini sınama) ve **aralıklı tekrar**. Yeniden okuma, altını çizme ve özetleme ise yararı düşük teknikler arasındaydı.[8] Bu tekniklerin ortak yanı, öğrencinin "stiline" bakmadan herkes için işe yaraması. Farklı biçimleri birlikte kullanmak (örneğin metinle birlikte uygun bir şekil) da çoğu öğrenciye yarar; bunun nedeni öğrenme stilleri değil, bilginin birden fazla yoldan işlenmesi. Bu konuda [çoklu ortam öğrenme ilkeleri](https://bote.web.tr/blog/coklu-ortam-ogrenme-ilkeleri) yazısına bakabilirsiniz.
+
+## AGS ve öğretmen adayları için
+
+AGS'nin eğitim bilimleri alt testinin konuları arasında öğrenme psikolojisi ile öğretim yöntem ve teknikleri var.[9] Öğrenme stilleri bu başlıklarda karşılaşılabilecek bir kavram; sorularda kavramın tanımı sorulabilir, ama sınıfta karar verirken araştırmaların ne dediğini bilmek öğretmen adayı için asıl önemli olan. Öğrencilerinizin tercihlerini bilmek onları tanımanıza yardım eder; ama öğretimi tasarlarken içeriğin gerektirdiği biçimi ve kanıtı güçlü teknikleri esas almak daha güvenli bir yol.
+
+## Sık Sorulan Sorular
+
+### Öğrenme stilleri gerçek mi?
+
+İnsanların görsel, işitsel ya da yaparak öğrenmeye dair tercihleri olabilir. Ama öğretimi bu tercihe uydurmanın öğrenmeyi artırdığı iddiası (uyum hipotezi), Pashler ve arkadaşlarının 2008 incelemesine göre uygun deney desenleriyle desteklenmedi.
+
+### Görsel, işitsel, kinestetik öğrenme nedir?
+
+Öğrencilerin bilgiyi en iyi görerek, dinleyerek ya da yaparak öğrendiği varsayımına dayanan bir sınıflandırma; VARK gibi ölçeklerle belirlenmeye çalışılıyor.
+
+### Uyum (meshing) hipotezi nedir?
+
+Öğretimin öğrencinin öğrenme stiline uygun biçimde sunulursa daha iyi öğrenileceği iddiası. Örneğin "görsel öğrenen"e görsel ağırlıklı öğretim.
+
+### Öğretmenler öğrenme stillerine inanıyor mu?
+
+Dekker ve arkadaşlarının 2012 çalışmasında İngiltere'de öğretmenlerin %93'ü, Hollanda'da %96'sı öğrenme stilleri ifadesini doğru kabul etti. Türkiye'de de öğretmen adaylarında benzer nöromitler raporlandı.
+
+### Öğrenme stilleri yerine ne kullanılmalı?
+
+Dunlosky ve arkadaşlarının 2013 incelemesine göre yararı en yüksek iki çalışma tekniği deneme sınavları ve aralıklı tekrar. İçeriğin doğası (örneğin harita için görsel, telaffuz için işitsel) sunum biçimini belirlemeli.
+
+### Öğrenme stilleri AGS'de çıkar mı?
+
+AGS eğitim bilimleri alt testinde öğrenme psikolojisi ve öğretim yöntem ve teknikleri konuları var; öğrenme stilleri bu başlıklar altında karşılaşılabilecek bir kavram.
+
+## Kaynaklar
+
+1. Pashler, H., McDaniel, M., Rohrer, D. ve Bjork, R. (2008). Learning styles: Concepts and evidence. Psychological Science in the Public Interest, 9(3), 105–119. https://doi.org/10.1111/j.1539-6053.2009.01038.x (EN, erişim: 2026-10-31)
+2. Rogowsky, B. A., Calhoun, B. M. ve Tallal, P. (2015). Matching learning style to instructional method: Effects on comprehension. Journal of Educational Psychology, 107(1), 64–78. https://doi.org/10.1037/a0037478 (EN, erişim: 2026-10-31)
+3. Husmann, P. R. ve O'Loughlin, V. D. (2019). Another nail in the coffin for learning styles? Disparities among undergraduate anatomy students' study strategies, class performance, and reported VARK learning styles. Anatomical Sciences Education, 12(1), 6–19. https://doi.org/10.1002/ase.1777 (EN, erişim: 2026-10-31)
+4. Dekker, S., Lee, N. C., Howard-Jones, P. ve Jolles, J. (2012). Neuromyths in education: Prevalence and predictors of misconceptions among teachers. Frontiers in Psychology, 3, 429. https://doi.org/10.3389/fpsyg.2012.00429 (EN, erişim: 2026-10-31)
+5. Newton, P. M. (2015). The learning styles myth is thriving in higher education. Frontiers in Psychology, 6, 1908. https://doi.org/10.3389/fpsyg.2015.01908 (EN, erişim: 2026-10-31)
+6. Kara Erol, B. ve Dönmez, C. (2023). Sosyal bilgiler öğretmen adaylarının beyin fonksiyonlarına yönelik doğru bilgilerinin ve nöromitlerinin belirlenmesi. Uluslararası Avrasya Sosyal Bilimler Dergisi, 14(51), 258–272. https://avesis.gazi.edu.tr/yayin/ef9df139-74c3-4bb1-8048-3dd22359bd41/sosyal-bilgiler-ogretmen-adaylarinin-beyin-fonksiyonlarina-yonelik-dogru-bilgilerinin-ve-noromitlerinin-belirlenmesi (TR, erişim: 2026-10-31)
+7. Kirschner, P. A. (2017). Stop propagating the learning styles myth. Computers & Education, 106, 166–171. https://doi.org/10.1016/j.compedu.2016.12.006 (EN, erişim: 2026-10-31)
+8. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+9. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
 
 ---
 
@@ -2137,6 +2540,112 @@ MEB çizelgesine göre Türkçe, çocuk edebiyatı, Türk dili ve edebiyatı, ha
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler
+
+> Türkiye Yüzyılı Maarif Modeli nedir? Hangi sınıflarda uygulanıyor (2026-2027), beceri çerçevesi, erdem-değer-eylem, ölçme değerlendirme ve AGS'deki yeri.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/turkiye-yuzyili-maarif-modeli-nedir
+
+## Özet
+
+- MEB'in yeni öğretim programları çerçevesi; taslak **26 Nisan 2024**'te görüşe açıldı, uygulama **2024-2025**'te başladı.
+- **2026-2027**'de ilkokul 1-3, ortaokul 5-7 ve lise hazırlık, 9-11. sınıflarda uygulanıyor; 4, 8 ve 12. sınıflarda eski programlar sürüyor.
+- Ortak Metin'in alan becerileri 2025'te **4'ten 10'a** çıktı; programı 26 ders için hazırlandı.
+- Ölçmede süreç odaklı yaklaşım; il, ilçe ve okul genelinde öğrencileri sıralayan sınavlar yasaklandı.
+- AGS'nin eğitim bilimleri alt testinde **ayrı bir konu**.
+
+Türkiye Yüzyılı Maarif Modeli, Türkiye'de okul öncesinden liseye bütün öğretim programlarını yeniden düzenleyen çerçeve ve 2024'ten beri sınıf sınıf uygulamaya giriyor. Öğretmen adayları için ayrıca önemli: AGS'nin eğitim bilimleri alt testinde ayrı bir konu. Bu yazı modelin ne olduğunu, hangi sınıflarda uygulandığını ve öğretmenin sınıfında neyi değiştirdiğini MEB'in resmî duyurularından topluyor.[1]
+
+## Model nasıl ortaya çıktı?
+
+MEB, yeni öğretim programlarının taslağını **26 Nisan 2024**'te bir haftalığına kamuoyu görüşüne açtı. Duyuruya göre beceri çerçevesi akademisyen, öğretmen ve diğer paydaşlarla yapılan yirmi çalıştayda oluşturuldu; toplantılara 260 akademisyen ve 700'ü aşkın öğretmen katıldı. Görüşlerden sonra taslak Talim ve Terbiye Kurulu tarafından yeniden düzenlenecek ve uygulama ertesi öğretim yılında okul öncesi, 1, 5 ve 9. sınıflardan başlayacaktı.[2]
+
+Programların ortak çerçevesi **Ortak Metin**. TTKB 27 Mayıs 2025'te Ortak Metin'i güncelledi: alan becerilerine sanat; beden eğitimi, oyun ve spor; bilişim teknolojileri ve yazılım; tasarım; din eğitimi ve yabancı dil eklendi ve alan becerisi sayısı **4'ten 10'a** çıktı. Farklı okul türlerine uyarlanabilen esnek bir program yapısı da eklendi. Duyuruya göre Ortak Metin'e dayanarak 26 dersin programı hazırlandı ve kurul kararına bağlandı.[3]
+
+## Hangi sınıflarda uygulanıyor?
+
+Model kademeli olarak, her yıl yeni sınıflara genişleyerek uygulanıyor:
+
+| Öğretim yılı | Uygulanan sınıflar |
+|---|---|
+| 2024-2025 | Okul öncesi, 1, 5, lise hazırlık ve 9. sınıf |
+| 2025-2026 | Önceki sınıflara ek olarak 2, 6 ve 10. sınıf |
+| 2026-2027 | İlkokul 1-3, ortaokul 5-7 (imam hatip ortaokulları dahil), lise hazırlık ve 9-11 |
+
+Veri notu: 2024-2025 MEB genelgesinden; 2026-2027 Ortaöğretim Genel Müdürlüğü ve ilçe millî eğitim müdürlüğü duyurularından; 2025-2026 satırı iki yıl arasındaki kademeli geçişten. Erişim 31 Ekim 2026.[1][4][5]
+
+2026-2027'de 4, 8 ve 12. sınıflarda önceki programlar sürüyor.[4][5] Bu kademeli yapı, bu yıllarda öğretmenlerin aynı okulda iki farklı program yapısıyla çalışabileceği anlamına geliyor.
+
+## Programın bileşenleri
+
+MEB'in 17 Ağustos 2024 tarihli genelgesi, programların ortak bileşenlerini sayıyor:[1]
+
+- **Kavramsal beceriler:** temel, bütünleşik ve üst düzey düşünme becerileri.
+- **Alan becerileri:** her dersin kendine özgü becerileri (2025 güncellemesiyle 10 alan).[3]
+- **Eğilimler:** öğrencinin öğrenmeye ve düşünmeye yönelik tutumları.
+- **Sosyal-duygusal öğrenme becerileri.**
+- **Erdem-değer-eylem çerçevesi:** değerler eğitiminin programlardaki yapısı.
+- **Okuryazarlık becerileri:** sistem düşünmesiyle yapılandırılmış, dersler arası bileşenler.
+- **Farklılaştırma:** zenginleştirme ve destekleme olarak iki yönlü.
+- Programların temel ilkeleri: öğrenme kanıtları, ön değerlendirme, köprü kurma ve disiplinler arası bağlantılar.
+
+Sosyal-duygusal öğrenmenin programa girmesi, uluslararası araştırmalarla uyumlu bir tercih: Durlak ve arkadaşlarının 213 okul temelli programı ve 270.034 öğrenciyi kapsayan meta-analizi, sosyal-duygusal öğrenme programlarına katılan öğrencilerin sosyal ve duygusal becerilerinde, tutum ve davranışlarında ve akademik başarılarında iyileşme gösterdiğini; başarıdaki kazancın **11 yüzdelik dilime** karşılık geldiğini buldu.[6]
+
+## Ölçme ve değerlendirmede ne değişti?
+
+Genelgenin en çok konuşulan kısmı ölçme değerlendirme. Buna göre sınıf içi ölçme **süreç odaklı** olacak ve öğrencinin öğrenme eksiklerine dair veri üretecek; öğretim yılı içinde il, ilçe ve okul genelinde öğrencileri akademik başarıya göre sıralayan sınavlar yapılmayacak; yazılı sınavları okul zümreleri öğrenme çıktılarına göre hazırlayacak. Yıllık planlar da Bakanlığın yayımladığı çerçeve planlar örnek alınarak okul zümrelerince hazırlanıyor.[1]
+
+Süreç odaklı değerlendirmenin arkasında güçlü bir alanyazın var. Black ve Wiliam'ın 1998 tarihli kapsamlı derlemesi, öğretim sürecinde öğrenciye geri bildirim vermek ve öğretimi buna göre ayarlamak anlamına gelen **biçimlendirici değerlendirmenin** öğrenmeyi belirgin biçimde artırabildiğini gösteren çalışmaları topladı.[7]
+
+Genelge Türkçe ve edebiyat derslerine somut bir uygulama da getirdi: ilkokul, ortaokul ve lisede öğrenciler dönemde iki, yılda dört eser okuyor ve bir eleştirel film analizi yapıyor; bunlar eleştirel okuma formuyla değerlendiriliyor ve dönem sonu performans notlarından birini oluşturuyor.[1]
+
+## Öğretmen ve özel eğitim için
+
+Genelgeye göre ilk uygulama sınıflarının öğretmenleri Eylül 2024'teki mesleki çalışma döneminde üç günlük eğitimden geçti; eğitim almış öğretmenlerin ilgili sınıflara görevlendirilmesine öncelik verildi. Özel eğitim okulları ve kaynaştırma sınıflarındaki bireyselleştirilmiş eğitim programlarının (BEP) da Maarif Modeli programlarına dayandırılması istendi. Program ve ders kitaplarına ilişkin öğretmen geri bildirimleri TTKB'nin izleme sistemi TTKB-İDES üzerinden toplanıyor.[1][3]
+
+## AGS'de Maarif Modeli
+
+2026 AGS kılavuzunun Tablo-1'inde eğitim bilimleri ve Türk millî eğitim sistemi alt testinin konuları arasında **Türkiye Yüzyılı Maarif Modeli** ayrı bir başlık; ÖABT Özel Eğitim'in alan eğitimi testinde de "2024 TYMM özel eğitim programları" bir konu.[8] Sınava hazırlanan aday için öncelikler: modelin bileşenleri (beceriler, eğilimler, erdem-değer-eylem, okuryazarlıklar), kademeli uygulama takvimi ve ölçme değerlendirme ilkeleri. AGS'nin bu alt testi için [AGS eğitim bilimleri konuları](https://bote.web.tr/blog/ags-egitim-bilimleri-konulari) yazısına bakın.
+
+## Sık Sorulan Sorular
+
+### Türkiye Yüzyılı Maarif Modeli nedir?
+
+MEB'in okul öncesinden liseye bütün kademelerdeki öğretim programlarını yeniden düzenleyen çerçevesi. Ortak Metin'e dayanıyor ve beceriler, eğilimler, erdem-değer-eylem çerçevesi, okuryazarlık becerileri gibi bileşenleri programların ortak yapısı olarak tanımlıyor.
+
+### Maarif Modeli hangi sınıflarda uygulanıyor?
+
+2026-2027 öğretim yılında ilkokul 1, 2 ve 3, ortaokul 5, 6 ve 7, ortaöğretimde hazırlık, 9, 10 ve 11. sınıflarda. 4, 8 ve 12. sınıflarda önceki programlar sürüyor.
+
+### Maarif Modeli ne zaman başladı?
+
+Taslak 26 Nisan 2024'te kamuoyu görüşüne açıldı; uygulama 2024-2025 öğretim yılında okul öncesi, 1, 5, lise hazırlık ve 9. sınıflarda başladı ve her yıl yeni sınıflara genişliyor.
+
+### Maarif Modeli'nde sınavlar nasıl?
+
+MEB'in 17 Ağustos 2024 genelgesine göre sınıf içi ölçme süreç odaklı; öğretim yılı içinde il, ilçe ve okul genelinde öğrencileri akademik başarıya göre sıralayan sınavlar yapılmıyor ve yazılı sınavları okul zümreleri hazırlıyor.
+
+### Erdem-değer-eylem çerçevesi nedir?
+
+Maarif Modeli'nin değerler eğitimine ilişkin bileşeni; MEB genelgesinde programların ortak bileşenleri arasında sayılıyor.
+
+### Maarif Modeli AGS'de çıkıyor mu?
+
+Evet. 2026 AGS kılavuzunda eğitim bilimleri ve Türk millî eğitim sistemi alt testinin konuları arasında Türkiye Yüzyılı Maarif Modeli ayrı bir başlık. ÖABT Özel Eğitim'de de 2024 TYMM özel eğitim programları ayrı konu.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
+2. MEB Talim ve Terbiye Kurulu Başkanlığı (2024). "Türkiye Yüzyılı Maarif Modeli" Yeni Müfredat Taslağı Kamuoyunun Görüşüne Açıldı. https://ttkb.meb.gov.tr/www/quotturkiye-yuzyili-maarif-modeliquot-yeni-mufredat-taslagi-kamuoyunun-gorusune-acildi/icerik/598 (TR, erişim: 2026-10-31)
+3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Türkiye Yüzyılı Maarif Modeli Ortak Metni Yeni Alan Becerileri ile Birlikte Güncellendi. https://ttkb.meb.gov.tr/www/turkiye-yuzyili-maarif-modeli-ortak-metni-yeni-alan-becerileri-ile-birlikte-guncellendi/icerik/767 (TR, erişim: 2026-10-31)
+4. MEB Ortaöğretim Genel Müdürlüğü (2026). 2026-2027 Eğitim Öğretim Yılı Türkiye Yüzyılı Maarif Modeli Taslak Çerçeve Planlar Yayımlandı. https://ogm.meb.gov.tr/www/2026-2027-egitim-ogretim-yili-turkiye-yuzyili-maarif-modeli-taslak-cerceve-planlar-yayimlandi/icerik/2633/tr (TR, erişim: 2026-10-31)
+5. Menderes İlçe Millî Eğitim Müdürlüğü (MEB) (2026). 2026-2027 Eğitim ve Öğretim Yılı Türkiye Yüzyılı Maarif Modeli Temel Eğitim Taslak Çerçeve Planları Yayımlandı. https://menderes.meb.gov.tr/www/20262027-egitim-ve-ogretim-yili-turkiye-yuzyili-maarif-modeli-temel-egitim-taslak-cerceve-planlari-yayimlandi/icerik/1760/tr (TR, erişim: 2026-10-31)
+6. Durlak, J. A., Weissberg, R. P., Dymnicki, A. B., Taylor, R. D. ve Schellinger, K. B. (2011). The impact of enhancing students' social and emotional learning: A meta-analysis of school-based universal interventions. Child Development, 82(1), 405–432. https://doi.org/10.1111/j.1467-8624.2010.01564.x (EN, erişim: 2026-10-31)
+7. Black, P. ve Wiliam, D. (1998). Assessment and classroom learning. Assessment in Education: Principles, Policy & Practice, 5(1), 7–74. https://doi.org/10.1080/0969595980050102 (EN, erişim: 2026-10-31)
+8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
 
 ---
 
