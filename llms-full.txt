@@ -2,6 +2,127 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://bote.web.tr/blog
 
+# AGS 2026 İstatistikleri: Kaç Kişi Girdi, Kaç Net Yapıldı?
+
+> AGS 2026'da kaç kişi girdi? ÖSYM verileriyle başvuran ve giren aday sayıları, AGS alt testlerinde ve 17 ÖABT alanında ortalama netler, 2025 ile karşılaştırma.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 3 dk okuma · https://bote.web.tr/blog/ags-2026-istatistikleri
+
+## Özet
+
+- 2026'da AGS'ye **391.935** aday başvurdu, **369.038** aday girdi; 2025'te 411.804 başvuru, 383.441 giriş vardı.
+- ÖABT'ye 2026'da **308.437** başvuru, **289.825** giriş oldu.
+- En kalabalık ÖABT alanları **Okul Öncesi (61.068)** ve **Din Kültürü/İHL (50.666)**; en az aday **Fizik (2.509)**.
+- AGS'de en düşük ortalama **sayısal yetenekte** (15 soruda 3,4 net), en yüksek oran **sözel yetenekte** (15 soruda 8,3 net).
+- Eğitim bilimlerinin soru sayısı 24'ten 30'a çıktı, tarih 10'dan 6'ya, coğrafya 8'den 6'ya indi.
+
+AGS'nin ikinci yılında kaç aday sınava girdi, hangi testte ne kadar zorlandı, hangi alan ne kadar kalabalıktı? ÖSYM her sınavdan sonra sonuçlara ilişkin sayısal bilgileri yayımlıyor. Bu yazı 2026 ve 2025 belgelerindeki bütün rakamları karşılaştırmalı tablolarla topluyor.[1][2]
+
+## Kaç aday başvurdu, kaç aday girdi?
+
+| Oturum | Yıl | Başvuran | Giren | Girmeyen | Sınavı geçerli | Sınavı geçersiz |
+|---|---|---|---|---|---|---|
+| AGS | 2025 | 411.804 | 383.441 | 28.363 | 383.425 | 16 |
+| AGS | 2026 | 391.935 | 369.038 | 22.897 | 369.008 | 30 |
+| ÖABT | 2025 | 307.375 | 286.169 | 21.206 | 286.162 | 7 |
+| ÖABT | 2026 | 308.437 | 289.825 | 18.612 | 289.807 | 18 |
+
+Veri notu: ÖSYM 2025 ve 2026 MEB-AGS sayısal bilgiler belgelerinden. Erişim 30 Ekim 2026.
+
+AGS'ye başvuran sayısı yaklaşık 20 bin, giren sayısı 14 bin azaldı; ÖABT'de ise hafif bir artış var. Başvurup sınava girmeyenlerin oranı AGS'de %6,9'dan %5,8'e indi. AGS ile ÖABT arasındaki yaklaşık 79 binlik fark, ÖABT'si olmayan alanların (yabancı dil öğretmenliği gibi) ve yalnız AGS'ye giren adayların payını gösteriyor.
+
+## AGS alt testlerinde ortalama netler
+
+| Alt test | 2025 soru | 2025 ortalama | 2026 soru | 2026 ortalama | 2026 standart sapma |
+|---|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 15 | 8,3 | 3,2 |
+| Sayısal yetenek | 15 | 4,1 | 15 | 3,4 | 3,9 |
+| Tarih | 10 | 5,0 | 6 | 2,7 | 2,1 |
+| Türkiye coğrafyası | 8 | 2,8 | 6 | 2,2 | 1,7 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 24 | 14,1 | 30 | 11,2 | 6,3 |
+| Mevzuat | 8 | 3,1 | 8 | 2,5 | 2,4 |
+
+Veri notu: Ortalamalar sınavı geçerli adaylar üzerinden; ÖSYM sayısal bilgiler. 2025'te eğitim bilimleri alt testinin adı "Eğitimin Temelleri ve Türk Millî Eğitim Sistemi" idi.[2][1]
+
+Üç gözlem öne çıkıyor. **Soru dağılımı değişti:** eğitim bilimleri 24'ten 30 soruya çıktı, tarih ve coğrafya azaldı; bu, kılavuzun 2026 konu dağılımıyla uyumlu.[3] **Sayısal yetenek en zor test:** 2026'da soruların yalnız %23'ü netlendi. **Sözel yetenek en istikrarlı test:** iki yılda da ortalama 8,3.
+
+## ÖABT alanlarında aday sayısı ve ortalama net
+
+| Alan | 2025 aday | 2026 aday | 2025 ortalama | 2026 ortalama |
+|---|---|---|---|---|
+| Okul Öncesi | 57.039 | 61.068 | 30,8 | 32,1 |
+| Din Kültürü ve Ahlak Bilgisi / İHL | 49.523 | 50.666 | 24,7 | 22,1 |
+| Rehberlik | 19.414 | 23.236 | 32,4 | 33,5 |
+| Türk Dili ve Edebiyatı | 25.706 | 20.947 | 18,0 | 16,6 |
+| Türkçe | 17.083 | 17.070 | 23,2 | 25,5 |
+| İlköğretim Matematik | 15.476 | 16.880 | 17,4 | 19,2 |
+| Sınıf Öğretmenliği | 15.691 | 14.936 | 23,5 | 26,5 |
+| Beden Eğitimi | 15.392 | 13.490 | 15,2 | 15,8 |
+| Fen Bilimleri | 13.373 | 13.468 | 17,8 | 16,5 |
+| Tarih | 15.036 | 12.720 | 19,2 | 20,8 |
+| Sosyal Bilgiler | 13.318 | 12.597 | 22,5 | 23,7 |
+| Matematik | 11.567 | 10.822 | 12,8 | 13,6 |
+| Özel Eğitim | yoktu | 6.524 | yoktu | 31,7 |
+| Coğrafya | 6.947 | 6.244 | 17,3 | 16,7 |
+| Biyoloji | 4.488 | 3.818 | 22,2 | 22,0 |
+| Kimya/Kimya Teknolojisi | 3.282 | 2.812 | 16,3 | 17,6 |
+| Fizik | 2.827 | 2.509 | 20,7 | 19,5 |
+
+Veri notu: Her ÖABT testi 50 soru; ÖSYM sayısal bilgiler.[2][1]
+
+En büyük artış Rehberlik'te (yaklaşık 3.800 aday) ve Okul Öncesi'nde (yaklaşık 4.000 aday), en büyük düşüş Türk Dili ve Edebiyatı'nda (yaklaşık 4.800 aday) oldu. Özel Eğitim 2026'da ilk kez yapıldı. Ortalama netin en yüksek olduğu alanlar Rehberlik, Okul Öncesi ve Özel Eğitim, en düşük olduğu alan Matematik. Alanlar arasında net karşılaştırmak yanıltıcı: standart puan her alanın kendi adayları içinde hesaplanıyor ve başarı sırası da alan içinde belirleniyor.[3] Alan yazılarına [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir) üzerinden ulaşabilirsiniz.
+
+## 2027 için ne anlama geliyor?
+
+2027 sınavı 8-9 Mayıs'ta, 2026'dan yaklaşık iki buçuk ay önce yapılacak; sonuçlar 11 Haziran 2027'de.[4] Hazırlık süresinin kısalması, aday sayısını ve ortalamaları etkileyebilir; ama bunu ancak 2027 istatistikleri gösterecek. Bu yazı, ÖSYM 2027 sayısal bilgilerini yayımladığında güncellenecek.
+
+## Hazırlığa nereden başlamalı?
+
+Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[5][6] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[7] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[1][2]
+
+Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[8] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[9] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[10] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+## Sık Sorulan Sorular
+
+### AGS 2026'ya kaç kişi girdi?
+
+ÖSYM'nin sayısal bilgilerine göre AGS oturumuna 391.935 aday başvurdu, 369.038 aday girdi; 22.897 aday girmedi. 369.008 adayın sınavı geçerli, 30 adayın sınavı geçersiz sayıldı.
+
+### ÖABT 2026'ya kaç kişi girdi?
+
+ÖABT oturumuna 308.437 aday başvurdu, 289.825 aday girdi. 289.807 adayın sınavı geçerli, 18 adayın sınavı geçersiz sayıldı.
+
+### AGS'ye en çok hangi alandan aday giriyor?
+
+2026'da ÖABT'de en kalabalık alan 61.068 adayla Okul Öncesi oldu; onu 50.666 adayla Din Kültürü ve Ahlak Bilgisi/İHL Meslek Dersleri ve 23.236 adayla Rehberlik izledi.
+
+### AGS 2026 ortalama netleri neler?
+
+Sözel yetenek 8,3 (15 soru), sayısal yetenek 3,4 (15), tarih 2,7 (6), Türkiye coğrafyası 2,2 (6), eğitim bilimleri ve Türk millî eğitim sistemi 11,2 (30), mevzuat 2,5 (8).
+
+### AGS'ye katılım azaldı mı?
+
+Evet. AGS'ye giren aday sayısı 2025'te 383.441 iken 2026'da 369.038 oldu; yaklaşık 14 bin aday azaldı. ÖABT'ye giren sayısı ise 286.169'dan 289.825'e çıktı.
+
+### Bu istatistikler nereden?
+
+ÖSYM'nin 2025 ve 2026 MEB-AGS sonuçlarına ilişkin sayısal bilgiler belgelerinden. Ortalamalar, sınavı geçerli sayılan adaylar üzerinden hesaplanmış.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+5. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+6. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+7. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+8. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+9. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
 # AGS Başvurusu Nasıl Yapılır? Adım Adım Başvuru Rehberi
 
 > AGS başvurusu nereden ve nasıl yapılır? ÖSYM AİS adımları, ÖABT başvurusu, ücret ödeme, geç başvuru, sınav merkezi ve giriş belgesi kuralları.
@@ -537,6 +658,325 @@ Konu başlıkları büyük ölçüde tanıdık, ama AGS'de Türk millî eğitim 
 10. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
 11. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
 12. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# AGS Engelli Adaylar: Ek Süre, Rapor ve Sınav Uygulamaları
+
+> AGS'de engeli ya da sağlık sorunu olan adaylar: e-raporlu ESKR/ÇÖZGER şartı, ek süre (AGS 30, ÖABT 20 dk), okuyucu, işaretleyici, tekli salon ve başvuru.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 4 dk okuma · https://bote.web.tr/blog/ags-engelli-adaylar
+
+## Özet
+
+- **4 Şubat 2025'ten önce** ÖSYM sistemine yansıyan engel ve sağlık bilgileri **işleme alınmıyor**; yeniden bildirmek gerekiyor.
+- Engelli sınav uygulamaları için Sağlık Bakanlığı **e-rapor** sisteminde kayıtlı, süresi geçmemiş **ESKR, ÇÖZGER** ya da sağlık kurulu raporu gerekiyor.
+- Ek süre **AGS'de 30, ÖABT'de 20 dakika**.
+- Okuyucu, işaretleyici, büyük punto kitapçık, tekli salon, zemin kat ve araç gereçle salona girme gibi uygulamalar var.
+- Yalnız ilaç, koltuk değneği, atel gibi eşyalarla girmek isteyen aday **rapor göndermeden** girebiliyor.
+
+AGS'de engeli ya da sağlık sorunu olan adayların sınav uygulamalarından yararlanması mümkün, ama kurallar 2025'te önemli ölçüde değişti ve eski bilgiler artık geçerli değil. Bu yazı 2026 kılavuzunun "Engeli/sağlık sorunu olan adaylar" maddesini sırasıyla topluyor: hangi rapor gerekiyor, nasıl başvuruluyor, hangi uygulamalar var ve kim nelerden yararlanabiliyor.[1]
+
+## Eski bilgiler geçersiz: 4 Şubat 2025 kuralı
+
+Kılavuzun bu maddedeki ilk cümlesi en önemli bilgi: adayların **4 Şubat 2025 tarihinden önce** alınan ve ÖSYM Aday İşlemleri Sistemi'ne yansıtılan engel ve sağlık durumu bilgileri, ÖSYM'nin dijital dönüşüm uygulamaları ve değişen sınav kuralları nedeniyle **işleme alınmıyor**.[1] Daha önce bir ÖSYM sınavına engelli aday olarak girmiş olmak, AGS'de otomatik olarak aynı hakları vermiyor; durumun yeniden bildirilmesi gerekiyor.
+
+## Hangi rapor gerekiyor?
+
+Engelli sınav uygulamalarından yararlanmak için şu özellikleri taşıyan bir rapor gerekiyor:[1]
+
+- Sağlık Bakanlığınca yetkilendirilen hastanelerden alınmış,
+- Sağlık Bakanlığı **e-rapor** sisteminde kayıtlı (barkodlu ya da karekodlu),
+- Sınav başvuru tarihi itibarıyla **süresi dolmamış**,
+- Türü: erişkinler için **Engellilik Sağlık Kurulu Raporu (ESKR)**, çocuklar için **Özel Gereksinim Raporu (ÇÖZGER)** ya da **Sağlık Kurulu Raporu**.
+
+ÇÖZGER yalnız 18 yaş altı için geçerli; 18 yaşını doldurmuş adayın eski ÇÖZGER'i kullanılamıyor. Tek istisna, başvuru tarihinden en fazla 3 ay önce 18 yaşını doldurup bu sürede ESKR alamamış adaylar.
+
+## Başvuru nasıl yapılıyor?
+
+Rapor e-rapor sisteminde görünüyorsa engel bilgisi AİS üzerinden başvuruya yansıyor ve aday kendisine sunulan uygulamaları başvuruda seçebiliyor. Kılavuz üç durumda ek bir adım istiyor: raporu Sağlık Bakanlığı sistemlerinde bulunmayanlar, sistemden gelen bilgide yanlışlık ya da eksiklik olduğunu düşünenler ve AİS'te sunulan uygulamaların dışında talebi olanlar, başvurularını tamamladıktan sonra **raporun bir örneğini** ve **durumlarını ve taleplerini anlatan dilekçelerini** başvuru süresi içinde ÖSYM Engelli Adaylar Daire Başkanlığı'na (06800 Bilkent, Çankaya, Ankara) ulaştırmalı. ÖSYM talepleri değerlendiriyor, gerekirse yeniden rapor isteyebiliyor; kabul edilen talepler başvuru bilgilerine yansıyor.[1] 2027'de başvuru süresi **19-29 Mart 2027**, geç başvuru **6 Nisan 2027**.[2]
+
+**Başvurudan sonra oluşan durumlar:** Başvuru tamamlandıktan sonra engeli ya da sağlık sorunu oluşan aday, durumunu sağlık kurulu raporuyla belgeleyip raporunu ve dilekçesini **sınavın yapılacağı haftanın Çarşamba günü saat 17.00'ye kadar** ÖSYM'ye ulaştırmalı; raporu kabul edilenler engelli salonunda sınava alınıyor.[1]
+
+## Rapor gerekmeyen durumlar
+
+Sınava yalnız ilaç (tane ile), sargı bezi, koltuk değneği, atel, yürüteç, baston, boyunluk, korse, oturma simidi, alçı, bandaj, dizlik, göz damlası ya da astım ilacı, pompası veya spreyiyle girmek isteyen ve başka bir engelli sınav uygulaması talebi olmayan aday, ÖSYM'ye **rapor göndermeden** sınava girebiliyor. Bu eşyalar bina girişinde güvenlik görevlilerince elle ya da dedektörle kontrol ediliyor ve aday giriş belgesinde yazan salonda sınava giriyor.[1]
+
+## Engelli sınav uygulamaları
+
+Kılavuzun tanımladığı uygulamalar:[1]
+
+| Uygulama | Ne demek |
+|---|---|
+| Okuyucu (filigranlı kitapçık) | Görme engelli adaya soruları görevli okuyor; görsel ve karmaşık ifadeli sorular sorulmuyor, aday kitapçığı kendisi okuyamıyor |
+| Okuyucu (çift kitapçık) | Görme engeli dışında okumaya engel sağlık sorunu olan adaya; aday da kendi kitapçığını kullanabiliyor |
+| İşaretleyici | Adayın cevaplarını görevli işaretliyor; işaretleyici aldığı hâlde kendisi kodlama yapan adayın sınavı geçersiz |
+| Büyük punto kitapçık | 14 punto Arial; kitapçığı kendisi okuyabilen görme engelli adaylara, cevap kâğıdı standart boyutta |
+| Ek süre | AGS'de **30**, ÖABT'de **20** dakika |
+| Tekli salon | Aday görevliler eşliğinde tek başına sınava giriyor |
+| Zemin kat ya da asansörlü bina | Merdiven çıkamayan adaylar ve hamile adaylar için |
+| Araç gereçle giriş | İşitme cihazı, tekerlekli sandalye, insülin pompası, Braille ekran, büyüteç, kutu ilaç, ek gıda gibi; giriş belgesine yansıtılıyor |
+
+Bazı cihazlarla (biyonik kulak, Braille daktilo ve ekran, elektronik büyüteç, işitme cihazı gibi) sınava girecek adaylar, ÖSYM'nin hazırladığı her türlü kablolu ve kablosuz iletişimi kesilmiş salonlarda sınava alınmayı kabul ediyor.[1]
+
+## Kim hangi uygulamadan yararlanabiliyor?
+
+Kılavuzun sağlık şartları bölümüne göre, özetle:[1]
+
+- **Ek süre:** Görme işlevi alanında %40 ve üzeri engel oranı olanlar, zihinsel engeli, yaygın gelişimsel bozukluğu (otizm spektrum bozuklukları gibi) ya da özgül öğrenme güçlüğü (disleksi, dikkat eksikliği ve hiperaktivite gibi) olanlar, 6 yaşını doldurmadan işitme engeli edinip %40 ve üzeri işitme-konuşma engeli olanlar; ayrıca el, kol, baş ve boyun hareketlerini ağır biçimde kısıtlayan bazı kas, iskelet ve sinir sistemi durumları ile serebral palsi tanısı olanlar.
+- **Okuyucu ya da işaretleyici:** Görme veya zihinsel engelli adaylar ile yaygın gelişimsel bozukluk, özgül öğrenme güçlüğü ya da serebral palsi tanısı olanlar, talepleri hâlinde.
+- **Yalnız işaretleyici:** Ruhsal ve duygusal engeli olanlar ile üst ekstremitelerini kullanamayan adaylar, talepleri hâlinde.
+- **Büyük punto kitapçık:** Görme engelli adaylar, talepleri hâlinde.
+- **Zemin kat:** Merdiven çıkmakta zorlananlar ve hamile adaylar.
+
+İşitme engeli nedeniyle ek süre isteyen aday, işitme engelinin 6 yaşından önce tanılandığını gösteren belgeleri ÖSYM'ye ulaştırmalı. Okuyucu ya da işaretleyici yardımı alan adaylar tekli salonda sınava alınıyor.[1] Başvurunun genel adımları [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir), sınav günü kuralları [AGS sınav günü](https://bote.web.tr/blog/ags-sinav-gunu-kurallari) yazısında.
+
+## Hazırlığa nereden başlamalı?
+
+Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[3][4] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[5] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[6][7]
+
+Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[8] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[9] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[10] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+## Sık Sorulan Sorular
+
+### AGS'de engelli adaylara ek süre veriliyor mu?
+
+Evet. 2026 kılavuzuna göre sağlık şartlarını taşıyan adaylara AGS'de 30, ÖABT'de 20 dakika ek süre veriliyor.
+
+### AGS engelli başvurusu için hangi rapor gerekiyor?
+
+Sağlık Bakanlığınca yetkilendirilen hastanelerden alınmış, e-rapor sisteminde kayıtlı (barkodlu ya da karekodlu) ve başvuru tarihinde süresi dolmamış ESKR, ÇÖZGER ya da sağlık kurulu raporu. ÇÖZGER yalnız 18 yaş altı için geçerli.
+
+### Önceki sınavlarda engelli aday olarak girdim, yine bildirmem gerekir mi?
+
+Evet. Kılavuza göre 4 Şubat 2025'ten önce ÖSYM sistemine yansıtılan engel ve sağlık durumu bilgileri, dijital dönüşüm uygulamaları ve değişen sınav kuralları nedeniyle işleme alınmıyor.
+
+### Raporum e-rapor sisteminde görünmüyorsa ne yapmalıyım?
+
+Başvuruyu tamamladıktan sonra raporun bir örneğini ve engel ya da sağlık durumunu ve talebini anlatan dilekçeyi başvuru süresi içinde ÖSYM Engelli Adaylar Daire Başkanlığı'na (Bilkent, Ankara) ulaştırmak gerekiyor.
+
+### Başvurudan sonra sağlık sorunum oluştu, ne yapabilirim?
+
+Durumu sağlık kurulu raporuyla belgeleyip raporu ve dilekçeyi sınavın yapılacağı haftanın Çarşamba günü saat 17.00'ye kadar ÖSYM'ye ulaştırmak gerekiyor; raporu kabul edilen aday engelli salonunda sınava alınıyor.
+
+### İlaçla sınava girebilir miyim?
+
+Yalnız tane ile ilaç, astım spreyi, göz damlası, koltuk değneği, atel, bandaj gibi eşyalarla girmek isteyen ve başka talebi olmayan aday rapor göndermeden, girişte kontrol edilerek kendi salonunda sınava girebiliyor. Kutu ilaç ise engelli sınav uygulamaları kapsamında.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+4. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+5. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+7. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+8. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+9. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# AGS İtiraz: Sorulara ve Sonuca Nasıl İtiraz Edilir?
+
+> AGS sorularına itiraz sınavdan sonraki 3 iş günü, sonuç incelemesi 10 gün içinde. Dilekçe şartları, ücret, iptal edilen sorular, dava süresi ve belge saklama.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 3 dk okuma · https://bote.web.tr/blog/ags-itiraz
+
+## Özet
+
+- Sorulara itiraz: sınavdan bir gün sonra başlayan **ilk 3 iş günü** içinde.
+- Sonucun incelenmesi: sonuçların açıklanmasından sonraki **ilk 10 gün** içinde.
+- İkisi de **Genel Amaçlı Dilekçe** ile; evrak referans numarası, imza ve **inceleme ücreti dekontu** şart, faks kabul edilmiyor.
+- İtiraz, **10 günlük dava açma süresini** durdurmuyor.
+- İptal edilen sorular değerlendirme dışı kalıyor, cevabı değişen sorularda güncel anahtar esas alınıyor.
+
+AGS'de bir soruyu hatalı bulan ya da sonucunda yanlışlık olduğunu düşünen aday için iki ayrı yol var: sorulara itiraz ve sonucun incelenmesi. İkisinin süreleri çok farklı ve ikisi de katı şekil şartlarına bağlı. Bu yazı 2026 kılavuzundaki kuralları sırasıyla topluyor.[1]
+
+## İki ayrı itiraz, iki ayrı süre
+
+| İtiraz türü | Süre | Başlangıç |
+|---|---|---|
+| Sınav sorularına itiraz | İlk **3 iş günü** | Sınav tarihinden bir gün sonra |
+| Sonucun incelenmesi | İlk **10 gün** | Sonuçların açıklanmasından bir gün sonra |
+
+Veri notu: 2026 MEB-AGS kılavuzundan. Erişim 30 Ekim 2026.
+
+Soru itirazı süresi kısa ve iş günüyle sayılıyor: 2027'de AGS 8 Mayıs Cumartesi, ÖABT 9 Mayıs Pazar günü yapılacak; hafta sonuna denk gelen bir sınavda iş günü sayımı pazartesiden başlıyor.[2] Sınav günü akşamı yayımlanan yüzde 10'luk kitapçık ve cevap anahtarı ile adayın AİS'te 10 gün görebildiği tam kitapçık, itiraz edilecek soruyu belirlemenin yolu.
+
+## Dilekçe nasıl hazırlanır?
+
+İki itiraz türü de kılavuzun ekindeki **Genel Amaçlı Dilekçe** örneğiyle yapılıyor. Dilekçenin işleme alınabilmesi için şunlar şart:[1]
+
+1. Adayın **T.C. kimlik numarası, adı, soyadı, adresi ve imzası**,
+2. ÖSYM'nin AİS sisteminden alınacak **evrak referans numarası**,
+3. İnceleme masrafı karşılığı ÖSYM'nin hesabına yatırılan **ücretin dekontu** (sınav ücretleri bu hesaba yatırılmamalı; ücretler ÖSYM'nin "Adaylar Tarafından Dilekçe Gönderilmesi ve İşlem Ücretleri" duyurusunda),
+4. Dilekçenin **aslı**: faksla gönderilen dilekçeler işleme konulmuyor.
+
+Dilekçe ÖSYM Sınav Hizmetleri Daire Başkanlığı'na (06800 Bilkent, Ankara) ulaştırılıyor. Süre hesabında ÖSYM Genel Evrak kaydına giriş tarihi esas alınıyor; yani postaya verildiği değil, ÖSYM'ye ulaştığı gün önemli. Süresi geçmiş, imzasız, kimlik numarası, adres ya da evrak referans numarası olmayan ve dekont eklenmemiş dilekçelere işlem yapılmıyor. ÖSYM dilekçelere AİS üzerinden cevap verebiliyor.[1]
+
+## Soru iptal edilirse ya da cevap değişirse
+
+Kılavuza göre sınavdan sonra ÖSYM ya da yargı mercileri tarafından iptaline karar verilen sorular **değerlendirme dışı** bırakılıyor ve geçerli soruların puan değeri yeniden saptanıyor. ÖSYM'nin cevabının değişmesi gerektiğini tespit ettiği sorularda **güncellenen cevap anahtarı** esas alınıyor.[1] İptal edilen bir soru herkes için düşüyor; o soruyu doğru yapmış aday için de yanlış yapmış aday için de.
+
+## Dava süresi işlemeye devam ediyor
+
+Kılavuz, 2577 sayılı İdari Yargılama Usulü Kanunu'nun 20/B maddesini hatırlatıyor: ÖSYM'nin yaptığı merkezî ve ortak sınavlar, bunlara ilişkin işlemler ve sonuçlar hakkında açılan davalarda dava açma süresi **10 gün**. Yapılan hiçbir itiraz bu 10 günlük süreyi durdurmuyor.[1] Hukuki yola gitmeyi düşünen aday, itirazın cevabını beklemeden süreyi takip etmeli. Sınavlarla ilgili ihtilaflarda Ankara mahkemeleri ve icra daireleri yetkili.
+
+## Cevap kâğıdını görmek ve belge saklama süreleri
+
+İtirazdan önce yapılabilecek en kolay kontrol, cevap kâğıdını görmek: 2026'da sonuçlarla aynı gün adayların cevap kâğıdı görüntüleri ve cevapları AİS'te 10 gün süreyle açıldı. Kılavuz ayrıca adayların cevap kâğıdı görüntüsünü ücreti karşılığında ÖSYM'de (Ankara'da) her oturum için ayrı ayrı, imha süresi dolmadan inceleyebileceğini belirtiyor.[1]
+
+İmha süreleri de 6114 sayılı Kanun'a dayanıyor: soru kitapçıkları sonuçların ilanından **6 ay**, cevap kâğıtları **1 yıl** sonra imha ediliyor; görüntüleri güvenli elektronik ortama aktarıldığında bu süreler beklenmeden imha edilebiliyor ve elektronik kopya asıl hükmünde sayılıyor.[1] Sonuçlar ve puan geçerliliği için [AGS sonuçları](https://bote.web.tr/blog/ags-sonuclari-ve-puan-gecerliligi), soru kitapçıkları için [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular) yazısına bakın.
+
+## Hazırlığa nereden başlamalı?
+
+Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[3][4] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[5] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[6][7]
+
+Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[8] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[9] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[10] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+## Sık Sorulan Sorular
+
+### AGS sorularına itiraz ne zamana kadar?
+
+2026 kılavuzuna göre sınav tarihinden bir gün sonra başlayarak ilk 3 iş günü içinde, Genel Amaçlı Dilekçe ile.
+
+### AGS sonucuna itiraz ne zamana kadar?
+
+Sonucun incelenmesi, sonuçların elektronik ortamda açıklanmasından bir gün sonra başlayarak ilk 10 gün içinde Genel Amaçlı Dilekçe ile isteniyor.
+
+### İtiraz dilekçesinde neler olmalı?
+
+T.C. kimlik numarası, ad, soyad, adres, imza ve ÖSYM'nin AİS sisteminden alınan evrak referans numarası. İnceleme ücretinin yatırıldığını gösteren dekont eklenmeli; dilekçenin aslı ÖSYM'ye ulaşmalı.
+
+### AGS itirazı faksla ya da e-postayla yapılır mı?
+
+Kılavuza göre faksla gönderilen dilekçeler işleme konulmuyor; dilekçenin aslı ÖSYM Sınav Hizmetleri Daire Başkanlığı'na (Bilkent, Ankara) ulaşmalı. Süre hesabında ÖSYM Genel Evrak kaydına giriş tarihi esas alınıyor.
+
+### Soru iptal edilirse puan nasıl hesaplanır?
+
+Kılavuza göre iptal edilen sorular değerlendirme dışı bırakılıyor ve geçerli soruların puan değeri yeniden saptanıyor. Cevabı değişen sorularda güncellenen cevap anahtarı esas alınıyor.
+
+### İtiraz ederken dava süresi işler mi?
+
+Evet. 2577 sayılı İdari Yargılama Usulü Kanunu'nun 20/B maddesine göre ÖSYM sınavlarına ilişkin davalarda dava açma süresi 10 gün ve kılavuza göre yapılan hiçbir itiraz bu süreyi durdurmuyor.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+4. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+5. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+6. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+7. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+8. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+9. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# AGS Kaç Net Kaç Puan? Netten Standart Puana Hesap
+
+> AGS'de kaç net kaç puan eder? 2026 ortalama ve standart sapmalarıyla her alt testte netin yaklaşık standart puan karşılığı, P2 örneği ve 100'lük puanın sınırı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 4 dk okuma · https://bote.web.tr/blog/ags-kac-net-kac-puan
+
+## Özet
+
+- AGS'de sabit bir "net = puan" tablosu yok: net, o yılki adayların **ortalama ve standart sapmasına** göre standart puana çevriliyor.
+- Ortalama net yaklaşık **50**, bir standart sapma üstü yaklaşık **60** standart puan.
+- 2026 rakamlarıyla 60 standart puan için sözelde **11,5**, sayısalda **7,3**, eğitim bilimlerinde **17,5** net gerekiyordu.
+- Standart puanlar ağırlıklandırılıp ortalama, standart sapma ve en yüksek ağırlıklı puan kullanılarak **100'lük** puana çevriliyor; bu son adımın girdileri yayımlanmıyor.
+- Belirleyici olan puan değil **başarı sırası**; o da alan içinde.
+
+"AGS'de kaç net kaç puan eder?" en çok aranan sorulardan biri, ama dürüst cevabı şu: sabit bir karşılık yok. Puan, o yıl sınava girenlerin performansına göre hesaplanıyor. Yine de ÖSYM'nin yayımladığı ortalama ve standart sapmalarla netin **standart puan** karşılığını oldukça iyi kestirmek mümkün. Bu yazı bunu her alt test için 2026 rakamlarıyla yapıyor ve 100'lük puana geçişte nerede durmak gerektiğini açıklıyor.[1]
+
+## Netten standart puana
+
+Kılavuzdaki hesap iki adımda başlıyor:[1]
+
+1. **Net (ham puan):** Her testte doğru sayısından yanlış sayısının dörtte biri çıkarılıyor.
+2. **Standart puan:** Her alt test için sınava girenlerin netlerinden ortalama ve standart sapma hesaplanıyor; adayın neti, ortalaması 50 ve standart sapması 10 olan standart puana dönüştürülüyor.
+
+Bu dönüşümün anlamı basit: netiniz o testin ortalamasına eşitse yaklaşık 50, ortalamanın bir standart sapma üstündeyse yaklaşık 60, iki standart sapma üstündeyse yaklaşık 70 standart puan alıyorsunuz. Formül olarak: standart puan ≈ 50 + 10 × (net − ortalama) / standart sapma. AGS'de en az 1 net yapamayan adaylar bu hesaplamaya alınmıyor.
+
+## AGS alt testlerinde net ve standart puan (2026)
+
+ÖSYM'nin 2026 istatistiklerindeki ortalama ve standart sapmalarla:[2]
+
+| Alt test | Soru | ≈50 puan (ortalama) | ≈60 puan | ≈70 puan | 1 net ≈ kaç puan |
+|---|---|---|---|---|---|
+| Sözel yetenek | 15 | 8,3 | 11,5 | 14,7 | 3,1 |
+| Sayısal yetenek | 15 | 3,4 | 7,3 | 11,2 | 2,6 |
+| Tarih | 6 | 2,7 | 4,8 | olası en yüksek 6 | 4,8 |
+| Türkiye coğrafyası | 6 | 2,2 | 3,9 | 5,6 | 5,9 |
+| Eğitim bilimleri ve Türk millî eğitim sistemi | 30 | 11,2 | 17,5 | 23,8 | 1,6 |
+| Mevzuat | 8 | 2,5 | 4,9 | 7,3 | 4,2 |
+
+Veri notu: Ortalama ve standart sapmalar ÖSYM 2026 sayısal bilgilerinden; net karşılıkları ve son sütun bizim hesabımız (yaklaşık). ÖSYM standart puanı en az 1 net yapan adaylar üzerinden hesaplıyor, yayımlanan istatistikler sınavı geçerli olan bütün adaylara ait; bu yüzden gerçek değerler biraz farklı olabilir.
+
+Tarihte 70 standart puan için gereken net (6,9) soru sayısını aştığı için 6 sorunun tamamını doğru yapan aday yaklaşık 65 standart puan alıyordu. Bu da önemli bir gerçeği gösteriyor: az sorulu testlerde tavan düşük, ama her net büyük sıçrama yaratıyor.
+
+## ÖABT tarafı
+
+ÖABT'de de aynı hesap, ama her alan kendi adayları içinde. 2026'da örneğin Okul Öncesi'nde ortalama 32,1, standart sapma 7,9 netti: 40 net civarı yaklaşık 60 standart puan ediyordu. Matematik'te ortalama 13,6, standart sapma 7,7 netti: 21 net civarı yaklaşık 60 standart puandı.[2] Yani "40 net iyi mi?" sorusunun cevabı alana göre tamamen değişiyor. Her alanın tablosu kendi yazısında; liste için [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir).
+
+## Bir P2 örneği
+
+ÖABT'ye giren adayın P2 puanında ağırlıklar şöyle: sözel ve sayısal yetenek %10'ar, tarih %7,5, coğrafya %5, eğitim bilimleri %12,5, mevzuat %5, ÖABT %50.[1] Varsayımsal bir aday düşünelim: AGS'nin her alt testinde ortalamanın bir standart sapma üstünde (her birinde yaklaşık 60 standart puan), ÖABT'de ise tam ortalamada (50 standart puan). Ağırlıklı ortalaması: 0,5 × 60 + 0,5 × 50 = **55**. Aynı aday AGS'de ortalamada, ÖABT'de bir standart sapma üstünde olsaydı da sonuç 55 olurdu. ÖABT'nin tek başına AGS'nin bütün alt testleri kadar ağır olması bu örnekte açıkça görülüyor.
+
+## 100'lük puana geçiş: neden kesin cevap yok?
+
+Son adımda ağırlıklı puanlar 100 üzerinden sınav puanına dönüştürülüyor. Kılavuz bu dönüşümde ağırlıklı puanların **ortalamasını, standart sapmasını ve en büyük değerini** kullanıyor.[1] Bu üç değer adayların tamamının performansına bağlı ve ÖSYM tarafından yayımlanmıyor. Bu yüzden "70 puan için kaç net?" sorusuna kesin cevap veren her tablo bir tahmine dayanıyor; resmî kaynaklarla gösterilebilecek olan, yukarıdaki standart puan karşılıkları.
+
+Daha önemlisi, akademiye girişte puanın kendisinden çok **sıra** belirleyici: 7528 sayılı Kanun'a göre hazırlık eğitimine alınacaklar, atama izni verilen pozisyon sayısı kadar puan üstünlüğüne göre belirleniyor ve kılavuza göre başarı sırası ÖABT alanı ya da yabancı dil grubu içinde hesaplanıyor.[1] Hesabın bütün adımları [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir) yazısında. 2027 sınavı 8 Mayıs'ta; o yılın ortalamaları sonuçlarla birlikte açıklanacak.[3]
+
+## Hazırlığa nereden başlamalı?
+
+Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[4][5] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[6] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[2][7]
+
+Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[8] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[9] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[10] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+## Sık Sorulan Sorular
+
+### AGS'de kaç net kaç puan eder?
+
+Sabit bir karşılık yok. Kılavuza göre her alt testte net, o yıl sınava girenlerin ortalaması ve standart sapmasıyla ortalaması 50, standart sapması 10 olan standart puana çevriliyor. 2026 rakamlarıyla ortalama net yaklaşık 50, ortalamanın bir standart sapma üstü yaklaşık 60 standart puan ediyordu.
+
+### AGS'de 70 puan için kaç net gerekir?
+
+100'lük sınav puanının hesabında ağırlıklı puanların ortalaması, standart sapması ve en büyüğü kullanılıyor ve bu değerler yayımlanmıyor; bu yüzden kesin net sayısı verilemiyor. Bu yazıdaki tablolar standart puan karşılıklarını gösteriyor.
+
+### AGS net nasıl hesaplanır?
+
+Her testte doğru sayısından yanlış sayısının dörtte biri çıkarılıyor. Örneğin 20 doğru 8 yanlış 18 net ediyor.
+
+### Aynı net her yıl aynı puanı verir mi?
+
+Hayır. Standart puan o yılın adaylarının ortalama ve standart sapmasına bağlı. Örneğin sözel yetenekte ortalama iki yılda da 8,3 netti ama standart sapma 3,0'dan 3,2'ye çıktı; aynı net 2026'da biraz daha düşük standart puan etti.
+
+### Hangi alt testte bir net daha değerli?
+
+Standart sapması küçük testlerde. 2026'da Türkiye coğrafyasında bir net yaklaşık 6, tarihte yaklaşık 5, eğitim bilimlerinde yaklaşık 1,6 standart puan ediyordu. Ama puan türündeki ağırlık da hesaba katılmalı.
+
+### Puan mı önemli, sıralama mı?
+
+Akademiye alınacaklar, atama izni verilen pozisyon sayısı kadar puan üstünlüğüne göre belirleniyor ve başarı sırası alan içinde. Bu yüzden asıl önemli olan, alanınızdaki adaylara göre konumunuz.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+3. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+5. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+6. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
+7. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+8. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+9. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+10. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
 
 ---
 
@@ -2046,6 +2486,110 @@ Kılavuza göre koşullardan birine uymadığı tespit edilen aday, sınava alı
 6. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
 7. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
 8. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+9. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
+10. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
+11. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
+
+---
+
+# ÖABT Alan Seçimi: Hangi Alana Girmeliyim?
+
+> ÖABT'de tek alan seçilir. Alan seçimini belirleyen kurallar: mezuniyet programı, puan türü, alan içi sıralama, değişiklik süresi ve 2026 aday sayıları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-30 · Güncelleme: 2026-10-30 · 4 dk okuma · https://bote.web.tr/blog/oabt-alan-secimi
+
+## Özet
+
+- Başvuruda **yalnız bir ÖABT alanı** seçilebiliyor; geç başvuru günü dahil başvuru süresi içinde değiştirilebiliyor.
+- Belirleyici kural: akademiye girişte **mezun olunan programın** o alana kaynak teşkil etmesi gerekiyor (7528 sayılı Kanun).
+- Her alanın kendi puan türü var (**P2-01 ile P2-18**) ve başarı sırası **alan içinde** belirleniyor.
+- Yabancı dil alanlarında ÖABT yok; puan **YDS/e-YDS** ile hesaplanıyor (P3).
+- Aday sayıları alana göre çok farklı: 2026'da Okul Öncesi 61.068, Fizik 2.509 aday.
+
+ÖABT başvurusunda en önemli karar, hangi alanın testine gireceğiniz. Kılavuz yalnız tek bir alan seçilmesine izin veriyor ve puan türü, başarı sırası, hatta puanın akademiye girişte kullanılıp kullanılamayacağı bu seçime bağlı. Bu yazı alan seçimini belirleyen kuralları resmî kaynaklardan topluyor.[1]
+
+## Tek alan kuralı ve değişiklik süresi
+
+2026 kılavuzuna göre ÖABT başvurusunda **yalnız bir alan** işaretlenebiliyor. Alan, başvuru süresi içinde (geç başvuru günü dahil) ÖSYM'nin AİS sisteminden değiştirilebiliyor; bu süre bittikten sonra değişiklik yapılamıyor. Kılavuz, bilgi değişikliklerinin ilgili sınavın güncelleme sayfasından yapılması gerektiğini, "Profilim" sayfasından yapılan değişikliklerin sınava yansımadığını da hatırlatıyor.[1] 2027'de başvurular **19-29 Mart**, geç başvuru **6 Nisan 2027**; yani alan değişikliği için son gün 6 Nisan.[2]
+
+ÖABT ayrı bir oturum ve ayrı ücretli: 2026'da her oturum 800 TL'ydi ve AGS ücretini süresinde yatırmayan adayın ÖABT başvurusu sistemce engellendi.[1]
+
+## Belirleyici kural: mezuniyet programı
+
+Alan seçiminin asıl ölçütü sınav değil, kanun. 7528 sayılı Öğretmenlik Mesleği Kanunu'na göre akademideki hazırlık eğitimine alınmak için "öğretmenliğe atanacağı alan için Bakanlıkça belirlenen yükseköğretim programlarından mezun olmak" gerekiyor; öğretmenlik alanlarına kaynak teşkil eden programları Bakanlık belirliyor.[3] Kılavuz da sınava girmenin ve geçerli puan almanın, mevzuata uymayan bir hak doğurmadığını açıkça yazıyor.[1]
+
+Bu yüzden ilk soru "hangi alanda daha kolay puan alırım?" değil, "mezun olduğum program hangi alana kaynak teşkil ediyor?" olmalı. Örneğin sınıf öğretmenliği mezunu için doğal alan Sınıf Öğretmenliği, psikolojik danışmanlık ve rehberlik mezunu için Rehberlik. Birden fazla alana kaynak teşkil eden programlarda (ya da çift anadal gibi durumlarda) seçim, hedeflediğiniz öğretmenlik alanına göre yapılmalı. Kaynak program listeleri MEB'in düzenlemelerinde; yabancı dil alanları için kılavuzda ayrı bir tablo var.
+
+## Her alanın kendi puan türü ve sırası
+
+Kılavuza göre her ÖABT alanının kendi puan türü var ve başarı sırası **alan içinde** belirleniyor:[1]
+
+| Kod | Alan | Kod | Alan |
+|---|---|---|---|
+| P2-01 | Beden Eğitimi | P2-10 | Rehberlik |
+| P2-02 | Biyoloji | P2-11 | Sınıf Öğretmenliği |
+| P2-03 | Coğrafya | P2-12 | Sosyal Bilgiler |
+| P2-04 | Fen Bilimleri | P2-13 | Tarih |
+| P2-05 | Fizik | P2-14 | Türk Dili ve Edebiyatı |
+| P2-06 | İlköğretim Matematik | P2-15 | Türkçe |
+| P2-07 | Kimya/Kimya Teknolojisi | P2-16 | Din Kültürü ve Ahlak Bilgisi |
+| P2-08 | Matematik | P2-17 | İmam-Hatip Lisesi Meslek Dersleri |
+| P2-09 | Okul Öncesi | P2-18 | Özel Eğitim |
+
+Veri notu: Puan türlerinin tam adı "MEB-AGS-P2-..." biçiminde; 2026 kılavuzundan. Din Kültürü ve Ahlak Bilgisi / İHL Meslek Dersleri testine giren adaya iki puan (P2-16 ve P2-17) hesaplanıyor.
+
+Alan içi sıralama, rakiplerinizin yalnız aynı alana giren adaylar olduğu anlamına geliyor. Bir alandaki yüksek ortalama ya da düşük ortalama, o alanın "kolay" ya da "zor" olduğunu tek başına göstermiyor; standart puan her alanın kendi ortalamasına göre hesaplanıyor.
+
+## Aday sayıları: rekabetin büyüklüğü
+
+ÖSYM'nin 2026 istatistiklerine göre alanlar arasında aday sayısı çok farklı: Okul Öncesi 61.068, Din Kültürü/İHL 50.666, Rehberlik 23.236, Türk Dili ve Edebiyatı 20.947 adayla en kalabalık alanlardı; Fizik 2.509, Kimya 2.812 ve Biyoloji 3.818 adayla en az kalabalık. 2025'te de sıralama büyük ölçüde benzerdi.[4][5] Ama aday sayısı tek başına rekabeti göstermiyor; asıl belirleyici, o alanda atama izni verilen pozisyon sayısı. Kanuna göre akademiye alınacaklar bu sayıyı geçmemek üzere puan üstünlüğüne göre belirleniyor.[3] Tüm alanların karşılaştırması için [AGS 2026 istatistikleri](https://bote.web.tr/blog/ags-2026-istatistikleri).
+
+## Yabancı dil ve ÖABT'si olmayan alanlar
+
+On bir yabancı dil alanında (Almanca, Arapça, Çince, Farsça, Fransızca, İngilizce, İspanyolca, İtalyanca, Japonca, Korece, Rusça) ÖABT yapılmıyor; bu adaylar ÖABT seçmiyor, puanlarının ikinci yarısı YDS ya da e-YDS'den geliyor (MEB-AGS-P3). Ne ÖABT ne YDS karşılığı olan öğretmenlik alanlarında ise yalnız AGS'ye dayanan MEB-AGS-P1 puanı esas alınıyor.[1] Ayrıntı [AGS yabancı dil öğretmenliği: P3 ve YDS](https://bote.web.tr/blog/ags-yabanci-dil-ogretmenligi-p3-yds) yazısında; her ÖABT alanının konu dağılımı [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir) yazısından alan sayfalarına bağlanıyor.
+
+## Hazırlığa nereden başlamalı?
+
+Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[6][7] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[8] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[4][5]
+
+Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[9] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[10] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[11] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+## Sık Sorulan Sorular
+
+### ÖABT'de birden fazla alana girebilir miyim?
+
+Hayır. 2026 kılavuzuna göre başvuruda yalnız tek bir ÖABT alanı işaretlenebiliyor.
+
+### ÖABT alanımı değiştirebilir miyim?
+
+Evet, ama yalnız başvuru süresi içinde (geç başvuru günü dahil) ÖSYM'nin AİS sisteminden. Süre bittikten sonra değişiklik yapılamıyor. 2027'de son gün geç başvuru günü olan 6 Nisan 2027.
+
+### Hangi ÖABT alanına girmeliyim?
+
+Belirleyici olan, mezun olduğunuz ya da olacağınız programın hangi öğretmenlik alanına kaynak teşkil ettiği. 7528 sayılı Kanun, akademiye girişte Bakanlıkça o alan için belirlenen programlardan mezuniyeti şart koşuyor. Kaynak programlar MEB'in düzenlemelerinde.
+
+### Başka bir alanın ÖABT'sine girersem ne olur?
+
+Puan türü ve başarı sırası seçilen ÖABT alanına göre belirleniyor. Kanuna göre akademiye girişte mezuniyet programının alana uygun olması gerektiğinden, mezuniyetinize uymayan bir alanın puanı akademiye girişte işe yaramayabilir.
+
+### İngilizce öğretmenliği ÖABT seçmeli mi?
+
+Hayır. Yabancı dil alanlarında ÖABT yapılmıyor; bu adaylar yalnız AGS'ye giriyor ve puanın ikinci yarısı YDS ya da e-YDS sonucundan geliyor (MEB-AGS-P3).
+
+### ÖABT alanları ve puan türleri neler?
+
+P2-01 Beden Eğitimi, P2-02 Biyoloji, P2-03 Coğrafya, P2-04 Fen Bilimleri, P2-05 Fizik, P2-06 İlköğretim Matematik, P2-07 Kimya, P2-08 Matematik, P2-09 Okul Öncesi, P2-10 Rehberlik, P2-11 Sınıf Öğretmenliği, P2-12 Sosyal Bilgiler, P2-13 Tarih, P2-14 Türk Dili ve Edebiyatı, P2-15 Türkçe, P2-16 Din Kültürü, P2-17 İHL Meslek Dersleri, P2-18 Özel Eğitim.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-30)
+2. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-30)
+3. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-30)
+4. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-30)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-30)
+6. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+7. ÖSYM (2025). 2025-AGS ve 2025-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2025ags-ve-2025oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-30)
+8. ÖSYM (2026). 2026-AGS ve 2026-ÖABT: Temel Soru Kitapçıkları ve Cevap Anahtarları Yayımlandı. https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklari-ve-cevap-anahtarlari-yayimlandi (TR, erişim: 2026-10-30)
 9. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-30)
 10. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-30)
 11. ÖSYM (2026). MEB-AGS: Millî Eğitim Bakanlığı Akademi Giriş Sınavı. https://www.osym.gov.tr/SinavGrubu/Index/15 (TR, erişim: 2026-10-30)
