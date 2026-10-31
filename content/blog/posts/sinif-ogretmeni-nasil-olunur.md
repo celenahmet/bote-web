@@ -175,3 +175,5 @@ MEB çizelgesine göre sınıf öğretmenliği alanına atanan öğretmen **ilko
 | Akademi | MEB duyurusuyla | Hazırlık eğitimi ve atama |
 
 Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[@osym2027]
+
+Kontenjan ve rekabet için [sınıf öğretmenliği AGS kontenjanı](/blog/sinif-ogretmenligi-ags-kontenjani).

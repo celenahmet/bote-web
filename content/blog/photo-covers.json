@@ -5982,5 +5982,165 @@
         "bytes": 124956
       }
     ]
+  },
+  {
+    "slug": "bote-mezunu-ags-hangi-alana-basvurur",
+    "title": "BÖTE Mezunu AGS'de Hangi Alana Başvurur? Kontenjan",
+    "alt": "BÖTE Mezunu AGS'de Hangi Alana Başvurur? Kontenjan",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bote-mezunu-ags-hangi-alana-basvurur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 185471
+    },
+    "variants": [
+      {
+        "file": "bote-mezunu-ags-hangi-alana-basvurur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39520
+      },
+      {
+        "file": "bote-mezunu-ags-hangi-alana-basvurur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67832
+      },
+      {
+        "file": "bote-mezunu-ags-hangi-alana-basvurur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 125618
+      }
+    ]
+  },
+  {
+    "slug": "muhendisler-ogretmen-olabilir-mi",
+    "title": "Mühendisler Öğretmen Olabilir mi? AGS ve Meslek Alanları",
+    "alt": "Mühendisler Öğretmen Olabilir mi? AGS ve Meslek Alanları",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "muhendisler-ogretmen-olabilir-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 190722
+    },
+    "variants": [
+      {
+        "file": "muhendisler-ogretmen-olabilir-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40304
+      },
+      {
+        "file": "muhendisler-ogretmen-olabilir-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 67686
+      },
+      {
+        "file": "muhendisler-ogretmen-olabilir-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 127634
+      }
+    ]
+  },
+  {
+    "slug": "meb-ags-puan-turleri-hangi-alan",
+    "title": "MEB-AGS P1, P2, P3 Puan Türleri: Hangi Alan Hangisi?",
+    "alt": "MEB-AGS P1, P2, P3 Puan Türleri: Hangi Alan Hangisi?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "meb-ags-puan-turleri-hangi-alan.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 214453
+    },
+    "variants": [
+      {
+        "file": "meb-ags-puan-turleri-hangi-alan-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 47868
+      },
+      {
+        "file": "meb-ags-puan-turleri-hangi-alan-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 81354
+      },
+      {
+        "file": "meb-ags-puan-turleri-hangi-alan.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 159678
+      }
+    ]
+  },
+  {
+    "slug": "ozel-egitim-ogretmenligi-ags-kontenjani",
+    "title": "Özel Eğitim Öğretmenliği AGS Kontenjanı ve Puan Türü",
+    "alt": "Özel Eğitim Öğretmenliği AGS Kontenjanı ve Puan Türü",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ozel-egitim-ogretmenligi-ags-kontenjani.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171701
+    },
+    "variants": [
+      {
+        "file": "ozel-egitim-ogretmenligi-ags-kontenjani-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36370
+      },
+      {
+        "file": "ozel-egitim-ogretmenligi-ags-kontenjani-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 62102
+      },
+      {
+        "file": "ozel-egitim-ogretmenligi-ags-kontenjani.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 114930
+      }
+    ]
+  },
+  {
+    "slug": "sinif-ogretmenligi-ags-kontenjani",
+    "title": "Sınıf Öğretmenliği AGS Kontenjanı: 2.816 ve Rekabet",
+    "alt": "Sınıf Öğretmenliği AGS Kontenjanı: 2.816 ve Rekabet",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "sinif-ogretmenligi-ags-kontenjani.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181747
+    },
+    "variants": [
+      {
+        "file": "sinif-ogretmenligi-ags-kontenjani-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34908
+      },
+      {
+        "file": "sinif-ogretmenligi-ags-kontenjani-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66008
+      },
+      {
+        "file": "sinif-ogretmenligi-ags-kontenjani.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132100
+      }
+    ]
   }
 ]

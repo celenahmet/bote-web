@@ -113,6 +113,8 @@ Kılavuzun kuralları birkaç somut çalışma ilkesine dönüşüyor:
 
 Puanın asıl işlevi, 7528 sayılı Kanun'la kurulan sistemde Millî Eğitim Akademisi'ne girişte kullanılmasıdır.[5] OECD'nin karşılaştırmalı çalışmaları da öğretmen seçiminde tek bir sınav puanının, hazırlık ve mesleğe giriş süreciyle birlikte değerlendirilmesi gerektiğini vurguluyor.[6][7] AGS'de bu ikinci basamak, akademinin hazırlık eğitimi; ayrıntısı [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısında. Güncel kılavuz ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanıyor.[8]
 
+Hangi alanın hangi puan türüyle değerlendirildiği için [MEB-AGS P1, P2, P3 puan türleri](https://bote.web.tr/blog/meb-ags-puan-turleri-hangi-alan).
+
 ## Sık Sorulan Sorular
 
 ### AGS'de net nasıl hesaplanır?

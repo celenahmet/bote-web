@@ -70,6 +70,8 @@ MEB çizelgesine göre sınıf öğretmenliği alanına atanan öğretmen **ilko
 
 Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
 
+Kontenjan ve rekabet için [sınıf öğretmenliği AGS kontenjanı](https://bote.web.tr/blog/sinif-ogretmenligi-ags-kontenjani).
+
 ## Sık Sorulan Sorular
 
 ### Sınıf öğretmeni olmak için hangi bölüm okunmalı?

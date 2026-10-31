@@ -81,6 +81,8 @@ Eğitim fakültesi dışından gelen adaylar için ÖSYM verileri bir fikir veri
 
 Pedagojik formasyon şartının akademide aranmaması, eğitim fakültesi dışından gelenlerin öğretmenlik becerilerini akademide ve mesleğin ilk yıllarında kazanacağı anlamına geliyor. Yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların mesleğe bağlılık, sınıf içi uygulamalar ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[9] OECD'nin TALIS araştırması da mesleki gelişimi kariyerin bütününe yayıyor.[10] 7528 sayılı Kanun'un tanımladığı kariyer basamakları (öğretmen, uzman öğretmen, başöğretmen) bu gelişimin resmî çerçevesi.[11]
 
+Mühendislik mezunları için [mühendisler öğretmen olabilir mi?](https://bote.web.tr/blog/muhendisler-ogretmen-olabilir-mi), yurt dışı mezunları için [KKTC ve yurt dışı mezunları](https://bote.web.tr/blog/kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi).
+
 ## Sık Sorulan Sorular
 
 ### Fen edebiyat mezunu öğretmen olabilir mi?

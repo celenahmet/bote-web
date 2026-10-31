@@ -73,6 +73,8 @@ MEB çizelgesi özel eğitim öğretmeninin görev alanını geniş tanımlıyor
 
 Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
 
+Kontenjan ve puan türü için [özel eğitim öğretmenliği AGS kontenjanı](https://bote.web.tr/blog/ozel-egitim-ogretmenligi-ags-kontenjani).
+
 ## Sık Sorulan Sorular
 
 ### Özel eğitim öğretmeni olmak için hangi bölüm okunmalı?

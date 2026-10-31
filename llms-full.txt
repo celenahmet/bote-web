@@ -2669,6 +2669,115 @@ Gruplar bir proje fikri belirleyip planlıyor, hareket, koşul, döngü, değiş
 
 ---
 
+# BÖTE Mezunu AGS'de Hangi Alana Başvurur? Kontenjan
+
+> BÖTE mezunu AGS ile hangi alana başvurur? BÖT alanı, P1 puan türü, Ocak 2026'da 15 kontenjan, Ankara merkezi ve Bilişim Teknolojileri alanı farkı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/bote-mezunu-ags-hangi-alana-basvurur
+
+## Özet
+
+- BÖTE mezunu **Bilgisayar ve Öğretim Teknolojileri** alanına başvuruyor; bu alanın ÖABT'si yok, puan türü **MEB-AGS-P1**.
+- Ocak 2026 duyurusunda bu alanın kontenjanı **15**; mesleki ve teknik eğitimdeki **Bilişim Teknolojileri** alanının kontenjanı **100**.
+- Bilişim Teknolojileri alanına kaynak programlar arasında BÖTE yok; bilgisayar mühendisliği gibi programlar var.
+- BÖT alanının hazırlık eğitimi **Ankara**'daki merkezde; alana özgü derslerde BTY eğitiminde oyunlaştırma ve biçimlendirici değerlendirme var.
+- P1 puanında AGS'nin altı alt testi belirleyici: eğitim bilimleri %25, sözel ve sayısal %20'şer.
+
+BÖTE (Bilgisayar ve Öğretim Teknolojileri Öğretmenliği) mezunları için AGS sonrası yol, birçok adayın sandığından daha dar: başvurulabilecek tek alan **Bilgisayar ve Öğretim Teknolojileri**, ve bu alanın kontenjanı ilk başvuru döneminde çok küçüktü. Bu yazı alanın kaynak programlarını, puan türünü, kontenjanını ve Akademideki eğitimi resmî belgelerle anlatıyor.[1][2]
+
+## İki ayrı alan: BÖT ve Bilişim Teknolojileri
+
+MEB'in Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında bilişimle ilgili iki atama alanı var:[1]
+
+| | Bilgisayar ve Öğretim Teknolojileri | Bilişim Teknolojileri |
+|---|---|---|
+| Okul türü | Genel ortaokul ve liseler | Mesleki ve teknik eğitim |
+| Kaynak programlar (örnek) | BÖTE, Matematik-Bilgisayar, İstatistik ve Bilgisayar Bilimleri, Bilgi Teknolojileri, Yönetim Bilişim Sistemleri | Bilgisayar Öğretmenliği, Bilgisayar Sistemleri Öğretmenliği, Bilgisayar Mühendisliği, Yazılım Mühendisliği, Bilişim Sistemleri Mühendisliği |
+| Okutulan dersler (örnek) | BTY, Robotik Kodlama, Yapay Zekâ Uygulamaları, Bilgisayar Bilimi | Ağ işletmenliği, yazılım geliştirme, siber güvenlik dal dersleri ve genel bilişim dersleri |
+| Ocak 2026 kontenjanı | **15** | **100** |
+| Puan türü | MEB-AGS-P1 | MEB-AGS-P1 |
+
+Veri notu: TTKB esasları (Aralık 2025 güncel metni) ek çizelge; MEB Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026) Ek-1.[1][2]
+
+Kritik nokta: güncel çizelgede **Bilişim Teknolojileri alanına kaynak programlar arasında BÖTE yer almıyor**.[1] Esaslarda yapılan 2025 değişikliğiyle genel okullar için ayrı bir BÖT alanı oluşturuldu, Bilişim Teknolojileri alanı mesleki ve teknik eğitimle ilişkilendirildi. Ayrıntı için [BÖTE nedir?](https://bote.web.tr/blog/bote-nedir) ve [bilgisayar öğretmeni nasıl olunur?](https://bote.web.tr/blog/bilgisayar-ogretmeni-nasil-olunur)
+
+## Puan türü: P1, ÖABT yok
+
+BÖT alanında ÖABT yapılmıyor; başvuru **MEB-AGS-P1** puanıyla yapılıyor.[2] P1'de yalnız AGS'nin altı alt testi hesaba giriyor; ağırlıklar:[3]
+
+| AGS alt testi | P1 ağırlığı |
+|---|---|
+| Eğitimin Temelleri ve Türk Millî Eğitim Sistemi | %25 |
+| Sözel yetenek | %20 |
+| Sayısal yetenek | %20 |
+| Tarih | %15 |
+| Türkiye coğrafyası | %10 |
+| Mevzuat | %10 |
+
+Bu, BÖTE adayının hazırlığının ÖABT'li alanlardan farklı olması gerektiği anlamına geliyor: alan bilgisi sınavı olmadığı için **AGS'deki her net**, puanı doğrudan belirliyor. Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari) ve [AGS eğitim bilimleri konuları](https://bote.web.tr/blog/ags-egitim-bilimleri-konulari).
+
+## Kontenjan: 15
+
+Ocak 2026 duyurusunda Bilgisayar ve Öğretim Teknolojileri alanına **15** kontenjan ayrılmıştı.[2] Bu, 64 alan içinde küçük kontenjanlı alanlardan biri. Aynı duyuruda tüm alanlarda taban puan 50'ydi; ama 15 kişilik bir kontenjanda belirleyici olan, alana başvuran diğer adayların puanları.[2] P1 alanlarında ÖABT olmadığı için ÖSYM alan bazında aday sayısı yayımlamıyor; bu yüzden BÖT için kontenjan başına aday oranı hesaplanamıyor. Diğer alanların karşılaştırması için [AGS'de rekabet: alan başına kaç aday?](https://bote.web.tr/blog/ags-alan-basina-kac-aday)
+
+Kontenjanlar her başvuru döneminde Bakanlığın öğretmen ihtiyacına göre yeniden belirleniyor.[2] BÖT alanı öğretmenlerinin okuttuğu dersler arasında BTY'nin yanında Robotik Kodlama ve Yapay Zekâ Uygulamaları gibi yeni seçmeli dersler de var.[1] Dersin içeriği için [Bilişim Teknolojileri ve Yazılım dersi](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi).
+
+## 15 kontenjan için kimler yarışıyor?
+
+BÖT alanı yalnız BÖTE mezunlarına açık değil. Çizelgeye göre bu alana kaynak programlar şunlar: **Bilgisayar ve Öğretim Teknolojileri Öğretmenliği**, Matematik-Bilgisayar Bölümü, İstatistik ve Bilgisayar Bilimleri, Bilgisayar Teknolojisi (ve Bilişim Sistemleri) Bölümü, Bilgi Teknolojileri ve Yönetim Bilişim Sistemleri. BÖTE dışındaki programlar yıldızlı; yıldız formasyon şartını ifade ediyor, ama Akademi adaylarında bu şart aranmıyor (esaslar md. 7/A).[1] Yani 15 kişilik kontenjan için BÖTE mezunları, bu programların mezunlarıyla aynı P1 puan sıralamasında yarışıyor.
+
+Alanın öğretmenlerinin okuttuğu dersler de çizelgede sayılı: **Bilgisayar Bilimi, Küreselleşen Toplumda İletişim Teknolojileri, Bilişim Teknolojileri ve Yazılım, Medya Okuryazarlığı, Robotik Kodlama, Yapay Zekâ Uygulamaları ve Dijital Sanatlar**.[1]
+
+## Akademide BÖT alanı
+
+Ocak 2026 döneminde bilgisayar ve öğretim teknolojileri alanının hazırlık eğitimi **Ankara**'daki eğitim ve uygulama merkezinde verildi.[4] Hazırlık eğitimi programında bu alana özgü alan eğitimi dersleri arasında **BTY Eğitiminde Geliştirici (Biçimlendirici) Değerlendirme** ve **BTY Eğitiminde Oyunlaştırma ve Etkinlik Geliştirme** (2+1) yer alıyor.[5] Ortak dersler arasında "Dijital İçerik ve Materyal Geliştirme" ve "Eğitimde Yapay Zekâ Uygulamaları" da var; bu dersler BÖTE mezunları için güçlü bir başlangıç noktası.[5] Programın tamamı için [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri).
+
+## BÖTE mezunu için stratejik notlar
+
+- **Tek alan, küçük kontenjan.** BÖTE mezuniyeti yalnız BÖT alanına kaynak olduğu için alan değiştirme seçeneği sınırlı.[1]
+- **AGS'ye odaklanmak.** ÖABT olmadığından hazırlık tamamen AGS alt testlerinde.[3]
+- **Okul dışı kariyer.** BÖTE mezunlarının öğretim tasarımı, e-öğrenme ve yazılım gibi alanlarda da iş imkânı var; ayrıntı için [BÖTE mezunları ne iş yapar?](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar)
+
+Uluslararası çerçeveler bu alanın öğretmenlerinden geniş bir yetkinlik seti bekliyor: ISTE'nin eğitimci standartları öğretmeni öğrenen, lider, vatandaş, iş birlikçi, tasarımcı, kolaylaştırıcı ve analist rolleriyle tanımlıyor;[6] AB'nin DigCompEdu çerçevesi de eğitimcilerin dijital yetkinliğini altı alan ve 22 yetkinlikle ele alıyor.[7] Bu yetkinlikler BÖTE'nin lisans programının da merkezinde.
+
+## Sık Sorulan Sorular
+
+### BÖTE mezunu hangi alana atanır?
+
+TTKB esaslarına göre Bilgisayar ve Öğretim Teknolojileri Öğretmenliği mezunları Bilgisayar ve Öğretim Teknolojileri alanına kaynak. Bu alan genel ortaokul ve liselerdeki bilişim derslerini kapsıyor.
+
+### BÖTE için ÖABT var mı?
+
+Hayır. Bilgisayar ve Öğretim Teknolojileri alanında ÖABT yapılmıyor; değerlendirme yalnız AGS puanıyla, MEB-AGS-P1 puan türüyle yapılıyor.
+
+### BÖTE kontenjanı kaç?
+
+Ocak 2026 duyurusunda Bilgisayar ve Öğretim Teknolojileri alanı için 15 kontenjan ayrılmıştı. Kontenjanlar her başvuru döneminde yeniden belirleniyor.
+
+### BÖTE mezunu Bilişim Teknolojileri alanına başvurabilir mi?
+
+Güncel çizelgede Bilişim Teknolojileri alanına kaynak programlar arasında BÖTE yer almıyor; bu alan bilgisayar öğretmenliği, bilgisayar sistemleri öğretmenliği ve bilgisayar mühendisliği gibi programlara açık.
+
+### BÖTE akademisi nerede?
+
+Ocak 2026 döneminde bilgisayar ve öğretim teknolojileri alanının hazırlık eğitimi Ankara'daki eğitim ve uygulama merkezinde verildi.
+
+### P1 puanında hangi test önemli?
+
+P1'de AGS alt testlerinin ağırlıkları eğitimin temelleri ve Türk millî eğitim sistemi %25, sözel ve sayısal yetenek %20'şer, tarih %15, Türkiye coğrafyası ve mevzuat %10'ar.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+3. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Branşlara Göre Hazırlık Eğitimlerinin Yürütüleceği Merkezler Belli Oldu. https://www.meb.gov.tr/milli-egitim-akademisinde-branslara-gore-hazirlik-egitimlerinin-yurutulecegi-merkezler-belli-oldu/haber/39547/tr (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+6. International Society for Technology in Education (ISTE) (2017). ISTE Standards: For Educators. https://iste.org/standards/educators (EN, erişim: 2026-10-31)
+7. Redecker, C. (2017). European Framework for the Digital Competence of Educators: DigCompEdu. Publications Office of the European Union (JRC). https://doi.org/10.2760/159770 (EN, erişim: 2026-10-31)
+
+---
+
 # BTY 5. Sınıf Konuları ve Kazanımları (2026-2027)
 
 > Bilişim Teknolojileri ve Yazılım 5. sınıf konuları: 6 tema, 24 öğrenme çıktısı, 72 ders saati. Temaların süresi, kazanımlar ve sınıfta nasıl işlendiği.
@@ -4149,6 +4258,8 @@ Eğitim fakültesi dışından gelen adaylar için ÖSYM verileri bir fikir veri
 
 Pedagojik formasyon şartının akademide aranmaması, eğitim fakültesi dışından gelenlerin öğretmenlik becerilerini akademide ve mesleğin ilk yıllarında kazanacağı anlamına geliyor. Yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların mesleğe bağlılık, sınıf içi uygulamalar ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[9] OECD'nin TALIS araştırması da mesleki gelişimi kariyerin bütününe yayıyor.[10] 7528 sayılı Kanun'un tanımladığı kariyer basamakları (öğretmen, uzman öğretmen, başöğretmen) bu gelişimin resmî çerçevesi.[11]
 
+Mühendislik mezunları için [mühendisler öğretmen olabilir mi?](https://bote.web.tr/blog/muhendisler-ogretmen-olabilir-mi), yurt dışı mezunları için [KKTC ve yurt dışı mezunları](https://bote.web.tr/blog/kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi).
+
 ## Sık Sorulan Sorular
 
 ### Fen edebiyat mezunu öğretmen olabilir mi?
@@ -5273,6 +5384,125 @@ Hayır. ÖABT'de İlköğretim Matematik (P2-06) ve Matematik (P2-08) ayrı test
 
 ---
 
+# MEB-AGS P1, P2, P3 Puan Türleri: Hangi Alan Hangisi?
+
+> MEB-AGS-P1, P2 ve P3 puan türleri hangi alanlarda kullanılıyor? Alan alan puan türü listesi, ağırlıklar, ÖABT ve YDS ilişkisi, 2026'da eklenen özel eğitim.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/meb-ags-puan-turleri-hangi-alan
+
+## Özet
+
+- **P1**: ÖABT ya da YDS karşılığı olmayan alanlar; puan yalnız AGS'den. Ocak 2026'da **43 alan, 2.588 kontenjan**.
+- **P2**: ÖABT'li alanlar; AGS %50 + ÖABT %50. Ocak 2026'da **17 alan, 6.574 kontenjan**.
+- **P3**: yabancı dil öğretmenliği; AGS %50 + YDS/e-YDS %50. Ocak 2026'da **4 alan, 838 kontenjan**.
+- Her ÖABT alanının kendi puan türü var: P2-01 beden eğitimi ... P2-11 sınıf öğretmenliği ... P2-18 özel eğitim (2026'da eklendi).
+- Başarı sırası adayın ÖABT alanı ya da yabancı dil grubu içinde ayrı belirleniyor.
+
+AGS sonuç belgesinde tek bir puan değil, **puan türleri** var: MEB-AGS-P1, P2 ve P3. Hangi puan türünün sizin için geçerli olduğu, başvuracağınız alana bağlı. Bu yazı her puan türünün nasıl hesaplandığını ve Ocak 2026 başvurusunda hangi alanın hangi puan türüyle değerlendirildiğini anlatıyor.[1][2]
+
+## Üç puan türü, üç ağırlık seti
+
+ÖSYM kılavuzuna göre puan türlerinin ağırlıkları:[1]
+
+| Test | P1 | P2 | P3 |
+|---|---|---|---|
+| Sözel yetenek | %20 | %10 | %10 |
+| Sayısal yetenek | %20 | %10 | %10 |
+| Tarih | %15 | %7,5 | %7,5 |
+| Türkiye coğrafyası | %10 | %5 | %5 |
+| Eğitimin temelleri ve Türk millî eğitim sistemi | %25 | %12,5 | %12,5 |
+| Mevzuat | %10 | %5 | %5 |
+| ÖABT | - | **%50** | - |
+| YDS / e-YDS | - | - | **%50** |
+
+Veri notu: 2026 MEB-AGS Kılavuzu, puan türleri ve ağırlıklar tablosu; erişim 31 Ekim 2026.[1]
+
+P2 ve P3'te AGS'nin toplam payı %50; diğer yarıyı alan sınavı (ÖABT) ya da dil puanı (YDS) belirliyor. Din kültürü (P2-16) ve İHL meslek dersleri (P2-17) için ÖABT payı üç alt teste bölünüyor.[1] Hesabın adımları için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir)
+
+## Ocak 2026'da puan türlerine göre alanlar
+
+| Puan türü | Alan sayısı | Kontenjan |
+|---|---|---|
+| MEB-AGS-P1 | 43 | 2.588 |
+| MEB-AGS-P2 | 17 | 6.574 |
+| MEB-AGS-P3 | 4 | 838 |
+
+Veri notu: MEB Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026) Ek-1.[2]
+
+## P2: ÖABT'li alanlar ve numaraları
+
+Kılavuzda her ÖABT alanının kendi P2 numarası var:[1]
+
+| Kod | Alan | Kod | Alan |
+|---|---|---|---|
+| P2-01 | Beden Eğitimi | P2-10 | Rehberlik |
+| P2-02 | Biyoloji | P2-11 | Sınıf Öğretmenliği |
+| P2-03 | Coğrafya | P2-12 | Sosyal Bilgiler |
+| P2-04 | Fen Bilimleri | P2-13 | Tarih |
+| P2-05 | Fizik | P2-14 | Türk Dili ve Edebiyatı |
+| P2-06 | İlköğretim Matematik | P2-15 | Türkçe |
+| P2-07 | Kimya/Kimya Teknolojisi | P2-16 | Din Kültürü ve Ahlâk Bilgisi |
+| P2-08 | Matematik | P2-17 | İmam-Hatip Lisesi Meslek Dersleri |
+| P2-09 | Okul Öncesi | P2-18 | Özel Eğitim |
+
+P2-18 (özel eğitim) 2026 kılavuzunda yer aldı; 2026'da bu ÖABT'ye 6.524 aday girdi.[1][3] Ocak 2026 başvurusunda ise özel eğitim, 1.798 kontenjanla **P1** alanları arasındaydı.[2]
+
+## P1: ÖABT'siz alanlar
+
+Ocak 2026'da P1 ile değerlendirilen 43 alanın başlıcaları: özel eğitim (1.798), müzik (121), bilişim teknolojileri (100), yiyecek içecek hizmetleri (100), motorlu araçlar teknolojisi (58), felsefe (48), elektrik (47), görsel sanatlar (41), giyim üretim teknolojisi (36), teknoloji ve tasarım (32), elektronik (26), bilgisayar ve öğretim teknolojileri (15); geri kalanı küçük kontenjanlı meslek alanları.[2] Bu alanlarda puanı yalnız AGS belirlediği için **eğitim bilimleri testinin %25'lik payı** en belirleyici kalem. İlgili alanlar için [BÖTE mezunu hangi alana başvurur?](https://bote.web.tr/blog/bote-mezunu-ags-hangi-alana-basvurur) ve [mühendisler öğretmen olabilir mi?](https://bote.web.tr/blog/muhendisler-ogretmen-olabilir-mi)
+
+## P3: yabancı diller
+
+Kılavuzda P3 için 11 dil numarası var (P3-01 Almanca, P3-02 Arapça ... P3-06 İngilizce ... P3-11 Rusça).[1] Ocak 2026 duyurusunda ise yalnız dört dil için kontenjan açıldı: İngilizce (801), Arapça (18), Rusça (14) ve Almanca (5).[2] Ayrıntı: [yabancı dil öğretmenliği ve P3](https://bote.web.tr/blog/ags-yabanci-dil-ogretmenligi-p3-yds).
+
+## ÖABT'ye girmeyen P2 alamaz
+
+Kılavuzdaki bir kural pratikte çok önemli: **ÖABT veya YDS/e-YDS'de en az 1 ham puanı (1 net) bulunmayan adaylara ilgili test için standart puan hesaplanmıyor**; bir ağırlıklı puanın hesaplanabilmesi için de o puan türünde kullanılan **standart puanların tümünün** hesaplanmış olması gerekiyor.[1] Sonuç: ÖABT'ye girmeyen ya da hiç net yapamayan adayın P2 puanı oluşmuyor ve ÖABT'li bir alana başvuramıyor. Aynı kural AGS için de geçerli: AGS'de en az 1 neti olmayan adaya sınav puanı hesaplanmıyor.[1]
+
+Bu yüzden başvurmayı düşündüğünüz alanın puan türünü **sınava başvurmadan önce** bilmek gerekiyor. Alanınızı mezun olduğunuz program belirliyor; alanın puan türü ise başvuru duyurusundaki listede yazıyor.[2] Yabancı dil adaylarında da AGS'den önce yapılan YDS/e-YDS sonuçlarından, aynı dilde birden fazlası varsa en yüksek olanı değerlendirmeye alınıyor.[1]
+
+## Başarı sırası alan içinde
+
+Kılavuz önemli bir kural koyuyor: sınav puanı başarı sıraları, adayın **ÖABT alanı ya da YDS/e-YDS yabancı dil grubu içinde, ayrı ayrı** belirleniyor.[1] Yani bir P2-11 puanı yalnız sınıf öğretmenliği adaylarıyla karşılaştırılıyor; farklı alanların puanları arasında doğrudan kıyas anlamlı değil. Alanlar arasındaki rekabet farkı için [AGS'de rekabet: alan başına kaç aday?](https://bote.web.tr/blog/ags-alan-basina-kac-aday)
+
+Seçme ölçütleri üzerine yapılan bir meta-analiz, hem akademik hem akademik olmayan ölçütlerin öğretmen etkililiğiyle ilişkili olduğunu ama ilişkinin küçük kaldığını gösteriyor;[4] alan bilgisinin (ÖABT) ve genel yeteneğin birlikte ölçülmesi bu açıdan dengeli bir tasarım. OECD de öğretmen seçiminde alan bilgisi ile pedagojik yeterliğin birlikte gözetilmesini öneriyor.[5]
+
+## Sık Sorulan Sorular
+
+### MEB-AGS-P1 hangi bölümler?
+
+ÖABT ya da YDS karşılığı olmayan alanlar: bilgisayar ve öğretim teknolojileri, bilişim teknolojileri, müzik, görsel sanatlar, felsefe, teknoloji ve tasarım, meslek lisesi alanları gibi. Ocak 2026'da özel eğitim de P1'di.
+
+### MEB-AGS-P2 nedir?
+
+ÖABT yapılan alanların puan türü. AGS alt testleri toplam %50, ilgili ÖABT %50 ağırlıkla hesaplanıyor; her alanın kendi numarası var (örneğin P2-11 sınıf öğretmenliği).
+
+### MEB-AGS-P3 nedir?
+
+Yabancı dil öğretmenliği adaylarının puan türü. AGS %50, YDS ya da e-YDS puanı %50 ağırlıkla hesaplanıyor; dil numarasıyla gösteriliyor (örneğin P3-06 İngilizce).
+
+### P1 puanında hangi test en önemli?
+
+Eğitimin temelleri ve Türk millî eğitim sistemi %25 ile en ağır test; sözel ve sayısal yetenek %20'şer, tarih %15, Türkiye coğrafyası ve mevzuat %10'ar.
+
+### Özel eğitim hangi puan türüyle değerlendiriliyor?
+
+Ocak 2026 başvurusunda MEB-AGS-P1 idi. 2026 kılavuzunda özel eğitim ÖABT'si ve MEB-AGS-P2-18 puan türü eklendi; sonraki başvurularda geçerli kural duyuruda belli olacak.
+
+### Başarı sırası nasıl belirleniyor?
+
+Kılavuza göre sınav puanı başarı sıraları adayın ÖABT alanı ya da YDS/e-YDS yabancı dil grubu içinde ayrı ayrı belirleniyor.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+2. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+4. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
+5. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+
+---
+
 # Millî Eğitim Akademisi Dersleri: 4 Dönemlik Program
 
 > Millî Eğitim Akademisi hazırlık eğitiminde hangi dersler var? 4 dönemlik program, ortak dersler, alan eğitimi dersleri, okul uygulamaları, 480 saat uygulama.
@@ -5478,6 +5708,108 @@ Hangi alanın hangi merkezde okutulacağını Akademi her dönem belirliyor; bu 
 5. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
 6. Ronfeldt, M. (2012). Where should student teachers learn to teach? Effects of field placement school characteristics on teacher retention and effectiveness. Educational Evaluation and Policy Analysis, 34(1), 3–26. https://doi.org/10.3102/0162373711420865 (EN, erişim: 2026-10-31)
 7. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
+
+---
+
+# Mühendisler Öğretmen Olabilir mi? AGS ve Meslek Alanları
+
+> Mühendislik mezunu öğretmen olabilir mi? Bilgisayar, elektrik, makine, otomotiv mühendisleri hangi meslek alanına başvurur, formasyon şartı, 2026 kontenjanı.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/muhendisler-ogretmen-olabilir-mi
+
+## Özet
+
+- Evet: TTKB çizelgesinde birçok mühendislik programı **mesleki ve teknik eğitim** alanlarına kaynak.
+- Akademi adaylarında **pedagojik formasyon şartı aranmıyor** (esaslar md. 7/A).
+- Örnek: bilgisayar ve yazılım mühendisliği → **Bilişim Teknolojileri** (Ocak 2026'da 100 kontenjan), otomotiv → Motorlu Araçlar (58), elektrik-elektronik → Elektrik (47) ve Elektronik (26).
+- Meslek alanlarında ÖABT yok; başvuru **MEB-AGS-P1** puanıyla.
+- Kimya mühendisliği ise **Kimya/Kimya Teknolojisi** alanına kaynak; bu alan ÖABT'li (P2-07).
+
+Meslek liselerinin atölye ve meslek derslerinde öğretmen ihtiyacı, büyük ölçüde mühendislik ve teknik eğitim mezunlarıyla karşılanıyor. 7528 sayılı Kanun ve Millî Eğitim Akademisi modeliyle bu yol değişmedi, hatta kolaylaştı: Akademi adaylarından **pedagojik formasyon** şartı aranmıyor. Bu yazı hangi mühendislik programının hangi alana kaynak olduğunu ve başvuru kurallarını resmî belgelerle anlatıyor.[1]
+
+## Formasyon şartı aranmıyor
+
+MEB'in Öğretmenlik Alanları, Atama ve Ders Okutma Esaslarında mühendislik programlarının çoğu yıldızlı (*) gösteriliyor; yıldız, bu mezunların formasyon ya da öğretmenlik meslek bilgisi tezsiz yüksek lisansını tamamlamış olması şartını ifade ediyor. Ancak esasların **7/A maddesi** açık: **Millî Eğitim Akademisi tarafından verilen hazırlık eğitimine alınacaklarda bu Karar ve eklerinde yer alan pedagojik formasyon ile ilgili şartlar aranmaz**.[1] Kanun da öğretmen olarak istihdam edilecekleri, öğretmenliğe kaynak programlardan mezun olup **hazırlık eğitiminde başarılı olanlar** arasından seçiyor.[2] Formasyonun yerini Akademideki dört dönemlik eğitim alıyor. Ayrıntı için [pedagojik formasyon kalktı mı?](https://bote.web.tr/blog/pedagojik-formasyon-kalkti-mi)
+
+## Hangi mühendislik, hangi alan?
+
+TTKB çizelgesinden seçilmiş örnekler ve Ocak 2026 kontenjanları:[1][3]
+
+| Mühendislik programı (örnek) | Atama alanı | Ocak 2026 kontenjanı | Puan türü |
+|---|---|---|---|
+| Bilgisayar, Yazılım, Bilişim Sistemleri, Kontrol ve Bilgisayar | Bilişim Teknolojileri | 100 | P1 |
+| Elektrik, Elektrik-Elektronik, Elektrik ve Elektronik | Elektrik-Elektronik Teknolojisi | Elektrik 47, Elektronik 26 | P1 |
+| Otomotiv | Motorlu Araçlar Teknolojisi | 58 | P1 |
+| Makine, Endüstriyel Tasarım | Makine Teknolojisi / Makine ve Tasarım Teknolojisi | 10 (üç dal) | P1 |
+| Mekatronik | Endüstriyel Otomasyon Teknolojileri | 8 | P1 |
+| Enerji Sistemleri | Tesisat Teknolojisi ve İklimlendirme; Yenilenebilir Enerji Teknolojileri | 16; 7 | P1 |
+| Raylı Sistemler, Elektronik | Raylı Sistemler Teknolojisi | 16 (iki dal) | P1 |
+| Uçak, Elektronik | Uçak Bakım | 8 (iki dal) | P1 |
+| Biyomedikal | Biyomedikal Cihaz Teknolojileri | 2 | P1 |
+| Gemi Makineleri İşletme | Denizcilik | 6 (iki dal) | P1 |
+| İnşaat | İnşaat Teknolojisi | 2 | P1 |
+| Kimya | Kimya / Kimya Teknolojisi | 101 | **P2-07 (ÖABT'li)** |
+
+Veri notu: TTKB esasları ek çizelge (Aralık 2025 güncel metni); MEB Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026) Ek-1; erişim 31 Ekim 2026. Tablo örnek niteliğinde; bazı programlar için ek notlar (çift yıldız gibi) var, kesin uygunluk kaynak okul sorgulamasından kontrol edilmeli.[1][3]
+
+Bazı mühendislik programları birden çok alana kaynak. Örneğin elektronik mühendisliği hem elektrik-elektronik teknolojisi hem uçak bakım hem raylı sistemler alanlarında görünüyor. Böyle durumlarda duyuruya göre **yalnız bir alana** başvurulabiliyor.[3]
+
+## Puan türü: çoğunlukla P1
+
+Meslek alanlarında ÖABT yapılmıyor; başvurular **MEB-AGS-P1** puanıyla yapılıyor.[3] P1'de yalnız AGS'nin altı alt testi var: eğitimin temelleri %25, sözel ve sayısal yetenek %20'şer, tarih %15, Türkiye coğrafyası ve mevzuat %10'ar.[4] Bu, mühendislik mezunlarının hazırlığının **eğitim bilimleri ve genel yetenek** üzerine kurulması gerektiği anlamına geliyor; alan bilgisi sınavla ölçülmüyor. Konular için [AGS eğitim bilimleri konuları](https://bote.web.tr/blog/ags-egitim-bilimleri-konulari) ve [AGS sayısal yetenek konuları](https://bote.web.tr/blog/ags-sayisal-yetenek-konulari).
+
+İstisna kimya mühendisliği: bu program **Kimya / Kimya Teknolojisi** alanına kaynak ve bu alan ÖABT'li (MEB-AGS-P2-07). Kimya mühendisinin bu alanda değerlendirilebilmesi için kimya ÖABT'sine girmesi gerekiyor.[3][4]
+
+## Akademide mesleki ve teknik eğitim
+
+Hazırlık eğitimi programında mesleki ve teknik eğitim alanları için ayrı bir alan eğitimi bölümü var: **Mesleki Alan Eğitimi-1 (1+5)** ve **Mesleki Alan Eğitimi-2 (1+3)**. Bu dersler, alanın programı çerçevesinde alana özgü öğretim yöntemlerini, ders materyallerini, araç ve gereçleri ve uygulama süreçlerini **yaparak ve yaşayarak** kazandırmayı hedefliyor.[5] Ortak dersler ve okul uygulamaları diğer adaylarla aynı. Ayrıntı: [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri).
+
+## Mühendis adaylar için notlar
+
+- **Kontenjanlar küçük ve değişken.** Birçok meslek alanında Ocak 2026 kontenjanı tek haneliydi; Bilişim Teknolojileri (100) ve Motorlu Araçlar (58) istisnaydı.[3]
+- **Taban puan 50.** Tüm alanlarda taban puan 50'ydi; küçük kontenjanlı alanlarda sıralama belirleyici.[3] Ayrıntı: [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+- **Program adı önemli.** Mezun olunan programın adı çizelgedeki adla birebir eşleşmeli; farklı adlı programlar için kaynak okul ekranındaki notlar kontrol edilmeli.[3]
+
+## Alan uzmanlarını öğretmenliğe çekmek
+
+OECD'nin öğretmen politikaları raporu, özellikle teknik alanlarda öğretmen açığının farklı yollardan gelen alan uzmanlarıyla kapatılmasını, ama bu kişilerin pedagojik hazırlıktan geçirilmesini öneriyor.[6] Darling-Hammond da güçlü öğretmen yetiştirmede alan bilgisinin pedagojiyle ve uzun bir okul uygulamasıyla birleştirilmesini vurguluyor.[7] Akademi modeli formasyon şartını kaldırırken bu hazırlığı kendi programına taşıyor. Öğretmen seçme araştırmaları ise seçme ölçütlerinin öğretmen etkililiğini sınırlı ölçüde yordadığını gösteriyor;[8] bu yüzden hazırlık eğitimindeki uygulama, mühendis adayların gerçek sınıf performansını görmenin asıl yolu. Genel bilgi için [hangi bölümler öğretmen olabilir?](https://bote.web.tr/blog/hangi-bolumler-ogretmen-olabilir)
+
+## Sık Sorulan Sorular
+
+### Mühendisler öğretmen olabilir mi?
+
+Evet. MEB'in atama çizelgesinde bilgisayar, elektrik-elektronik, makine, otomotiv, mekatronik gibi mühendislik programları ilgili meslek alanlarına kaynak gösteriliyor. AGS puanıyla Millî Eğitim Akademisine başvurulabiliyor.
+
+### Mühendisler için formasyon şart mı?
+
+Hayır. Esasların 7/A maddesine göre Millî Eğitim Akademisinde hazırlık eğitimine alınacaklarda pedagojik formasyon şartı aranmıyor; mesleğe hazırlık Akademide veriliyor.
+
+### Bilgisayar mühendisi hangi alana başvurur?
+
+Bilişim Teknolojileri alanına. Bu alan mesleki ve teknik eğitim kurumlarında ağ, yazılım ve siber güvenlik derslerini kapsıyor; Ocak 2026'da 100 kontenjanı vardı.
+
+### Mühendisler ÖABT'ye girmeli mi?
+
+Meslek alanlarında ÖABT yapılmıyor; başvuru MEB-AGS-P1 puanıyla. Ancak kimya mühendisliği gibi ÖABT'li bir alana kaynak olan programlarda ilgili ÖABT'ye girmek gerekiyor.
+
+### Makine mühendisi hangi alana başvurur?
+
+Makine Teknolojisi / Makine ve Tasarım Teknolojisi alanına. Ocak 2026'da bu alanın dalları için toplam 10 kontenjan (makine ve kalıp 8, makine model 1, makine ressamlığı 1) vardı.
+
+### Mühendis öğretmenler nerede çalışır?
+
+Çoğunlukla meslekî ve teknik Anadolu liseleri ile meslek eğitim merkezlerinde, alanlarının atölye ve meslek derslerinde.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+6. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+7. Darling-Hammond, L. (2006). Constructing 21st-century teacher education. Journal of Teacher Education, 57(3), 300–314. https://doi.org/10.1177/0022487105285962 (EN, erişim: 2026-10-31)
+8. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
 
 ---
 
@@ -6137,6 +6469,8 @@ MEB çizelgesi özel eğitim öğretmeninin görev alanını geniş tanımlıyor
 
 Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
 
+Kontenjan ve puan türü için [özel eğitim öğretmenliği AGS kontenjanı](https://bote.web.tr/blog/ozel-egitim-ogretmenligi-ags-kontenjani).
+
 ## Sık Sorulan Sorular
 
 ### Özel eğitim öğretmeni olmak için hangi bölüm okunmalı?
@@ -6176,6 +6510,104 @@ Alan bilgisi %60 (yetersizlik türleri, uygulamalı davranış analizi, BEP, de�
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Özel Eğitim Öğretmenliği AGS Kontenjanı ve Puan Türü
+
+> Özel eğitim öğretmenliği AGS kontenjanı: Ocak 2026'da 1.798 ile ikinci büyük alan; P1'den ÖABT'li P2-18'e geçiş, kaynak programlar ve 3 merkez.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ozel-egitim-ogretmenligi-ags-kontenjani
+
+## Özet
+
+- Ocak 2026'da özel eğitim **1.798** kontenjanla sınıf öğretmenliğinden sonra **ikinci en büyük** alandı.
+- O başvuruda özel eğitim **ÖABT'siz P1** puanıyla değerlendirildi; 2026 kılavuzunda **özel eğitim ÖABT'si ve P2-18** eklendi.
+- 2026'da özel eğitim ÖABT'sine **6.524** aday girdi; ortalama net **31,7**.
+- Kaynak programlar: özel eğitim öğretmenliği ve bölümü, zihin, görme ve işitme engelliler öğretmenlikleri.
+- Hazırlık eğitimi **Gaziantep, Ankara ve İstanbul**'da; alan dersleri arasında aile ile iş birliği ve oyunlaştırma var.
+
+Özel eğitim, Millî Eğitim Akademisinin ilk başvuru döneminde en çok öğretmen alınan ikinci alan oldu. Aynı zamanda sınav kuralı en çok değişen alan: 2025 puanlarıyla yapılan başvuruda ÖABT yoktu, 2026 sınavında özel eğitim ÖABT'si eklendi. Bu yazı kontenjanı, puan türü değişikliğini, kaynak programları ve Akademideki eğitimi anlatıyor.[1][2]
+
+## Kontenjan: 1.798
+
+Ocak 2026 başvuru duyurusunda özel eğitim alanına **1.798** kontenjan ayrıldı; bu, 10.000'lik toplamın yaklaşık %18'i ve sınıf öğretmenliğinden (2.816) sonra ikinci sıra.[1] Özel eğitim öğretmenleri özel eğitim okul ve sınıflarının yanında kaynaştırma ve destek eğitim odası uygulamalarında da görev alıyor; bu uygulamalar için [kaynaştırma eğitimi](https://bote.web.tr/blog/kaynastirma-egitimi-nedir) ve [destek eğitim odası](https://bote.web.tr/blog/destek-egitim-odasi-nedir).
+
+## Puan türü: P1'den P2-18'e
+
+İlk başvuru döneminde özel eğitim **MEB-AGS-P1** puan türüyle, yani yalnız AGS alt testleriyle değerlendirildi.[1] 2026 MEB-AGS kılavuzunda ise ÖABT yapılan alanlar arasına özel eğitim eklendi ve **MEB-AGS-P2-18 Özel Eğitim** puan türü tanımlandı; özel eğitim testi 70 dakika.[2] 2026'da bu teste **6.524** aday girdi ve ortalama **31,7 net** yapıldı.[3]
+
+| | Ocak 2026 başvurusu (2025 puanı) | 2026 MEB-AGS |
+|---|---|---|
+| ÖABT | Yok | Var (50 soru, 70 dakika) |
+| Puan türü | MEB-AGS-P1 | MEB-AGS-P2-18 |
+| AGS'nin payı | %100 | %50 |
+
+Veri notu: MEB Başvuru Duyurusu (Ocak 2026) Ek-1; 2026 MEB-AGS Kılavuzu; 2026 sayısal bilgiler.[1][2][3]
+
+2026 puanlarıyla yapılacak başvuruda özel eğitimin hangi puan türüyle değerlendirileceği başvuru duyurusunda belli olacak; kılavuzdaki düzenleme P2-18'in kullanılacağına işaret ediyor. Puan türleri için [MEB-AGS P1, P2, P3 puan türleri](https://bote.web.tr/blog/meb-ags-puan-turleri-hangi-alan).
+
+## 2026 puanıyla başvuracaklar için kritik nokta
+
+ÖSYM kılavuzuna göre ÖABT'de en az 1 neti olmayan adaya o test için standart puan hesaplanmıyor ve bir puan türünün hesaplanması için gerekli bütün standart puanların bulunması gerekiyor.[2] Özel eğitim değerlendirmesi P2-18'e geçerse, 2026'da **özel eğitim ÖABT'sine girmemiş** bir adayın bu puan türü oluşmayacak. 2026'da ÖABT'ye 6.524 adayın girmesi, özel eğitim mezunlarının önemli bölümünün bu değişikliğe hazırlandığını gösteriyor.[3] 2027 sınavına girecek adaylar için ise özel eğitim ÖABT'sine hazırlık artık zorunlu bir başlık. Sınav tarihleri için [AGS 2027 ne zaman?](https://bote.web.tr/blog/ags-2027-ne-zaman)
+
+## ÖABT'nin içeriği
+
+Kılavuza göre özel eğitim ÖABT'si iki bölümden oluşuyor:[2]
+
+- **Alan bilgisi:** zihin yetersizliği ve otizm spektrum bozukluğu (%10), işitme ve görme yetersizliği (%10), uygulamalı davranış analizi (%8), öğrenme güçlüğü ve özel yetenek (%6), bireyselleştirilmiş eğitim programları (%6), özel eğitimde değerlendirme (%6), özel eğitim politikaları ve yasal düzenlemeler (%6), erken çocuklukta özel eğitim (%4), dil ve iletişim becerilerinin desteklenmesi (%4).
+- **Alan eğitimi:** 2024 TYMM özel eğitim programları, özel eğitimde okuma-yazma, matematik, fen ve sosyal bilgiler, Türkçe, sanatsal beceriler, fiziksel eğitim, sosyal uyum becerileri, oyun ve müzik öğretimi (her biri %4).
+
+Ayrıntılı konu listesi için [ÖABT özel eğitim konuları](https://bote.web.tr/blog/oabt-ozel-egitim-konulari), BEP için [BEP nedir?](https://bote.web.tr/blog/bep-nedir)
+
+## Kimler başvurabilir?
+
+TTKB çizelgesine göre özel eğitim alanına kaynak programlar: **özel eğitim öğretmenliği, özel eğitim bölümü, zihin engelliler öğretmenliği, görme engelliler öğretmenliği ve işitme engelliler öğretmenliği**.[4] Esasların geçici 6. maddesi bir genişleme öngörüyor: özel eğitim alanında ihtiyaç kaynak program mezunlarıyla karşılanamazsa, **eğitim fakültesi mezunu olup** özel eğitim, görme engellilerin eğitimi, işitme engelliler eğitimi, otizm spektrum bozukluğu eğitimi ya da zihin engellilerin eğitimi alanlarında **tezli yüksek lisans veya doktora** yapmış olanlar da bu alana atanabiliyor.[4] Genel yol için [özel eğitim öğretmeni nasıl olunur?](https://bote.web.tr/blog/ozel-egitim-ogretmeni-nasil-olunur)
+
+## Akademide özel eğitim
+
+Ocak 2026 döneminde özel eğitim alanının hazırlık eğitimi **Gaziantep, Ankara ve İstanbul**'daki üç merkezde verildi.[5] Programda alana özgü dersler arasında **Özel Eğitimde Aile ile İş Birliği (2+1)** ve **Özel Eğitimde Oyunlaştırma ve Etkinlik Geliştirme (2+1)** yer alıyor; ikincisi farklı engel gruplarına uygun oyunlaştırma, BEP odaklı etkinlikler, duyu bütünleme ve davranış yönetimi tekniklerini kapsıyor.[6] Ortak dersler arasındaki **Kapsayıcı Eğitim** ve **Eğitimde Rehberlik** de özel eğitimle doğrudan ilgili.[6] Merkezler için [Millî Eğitim Akademisi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde)
+
+## Uluslararası bağlam
+
+UNESCO'nun kapsayıcı eğitim raporu, dünyada özel gereksinimli öğrencilerin eğitime erişiminin önündeki en büyük engellerden birinin yetişmiş öğretmen eksikliği olduğunu ve tüm öğretmenlerin kapsayıcı eğitime hazırlanması gerektiğini vurguluyor.[7] Avrupa Özel Gereksinimler ve Kapsayıcı Eğitim Ajansı da ülkelerin özel eğitim öğretmeni yetiştirme ve kapsayıcı eğitim politikalarına ilişkin karşılaştırmalı veriler yayımlıyor.[8] Türkiye'deki büyük kontenjan ve ÖABT'nin eklenmesi, bu alanda hem sayı hem nitelik vurgusunun birlikte arttığını gösteriyor. Tüm alanların kontenjanları için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Sık Sorulan Sorular
+
+### Özel eğitim AGS kontenjanı kaç?
+
+Ocak 2026 başvuru duyurusunda özel eğitim alanına 1.798 kontenjan ayrıldı; bu, sınıf öğretmenliğinden (2.816) sonra en büyük kontenjandı. Kontenjanlar her dönem yeniden belirleniyor.
+
+### Özel eğitimde ÖABT var mı?
+
+2026'dan itibaren var. 2026 MEB-AGS kılavuzunda özel eğitim ÖABT'si ve MEB-AGS-P2-18 puan türü yer aldı. Ocak 2026 başvurusunda (2025 puanlarıyla) özel eğitim ÖABT'siz P1 puan türüyle değerlendirilmişti.
+
+### Hangi bölümler özel eğitim öğretmeni olabilir?
+
+TTKB çizelgesine göre özel eğitim öğretmenliği, özel eğitim bölümü, zihin engelliler, görme engelliler ve işitme engelliler öğretmenlikleri. İhtiyaç karşılanamazsa eğitim fakültesi mezunu olup ilgili tezli yüksek lisans ya da doktora yapanlar da atanabiliyor.
+
+### Özel eğitim ÖABT'sinde hangi konular var?
+
+Alan bilgisinde zihin yetersizliği ve otizm, işitme ve görme yetersizliği, uygulamalı davranış analizi, BEP, değerlendirme, politikalar; alan eğitiminde okuma-yazma, matematik, sosyal uyum becerileri öğretimi gibi konular.
+
+### Özel eğitim akademisi nerede?
+
+Ocak 2026 döneminde özel eğitim alanının hazırlık eğitimi Gaziantep, Ankara ve İstanbul'daki üç eğitim ve uygulama merkezinde verildi.
+
+### Özel eğitimde rekabet nasıl?
+
+Ocak 2026'da özel eğitim P1 ile değerlendirildiği için alan bazında aday sayısı yayımlanmadı. 2026'da özel eğitim ÖABT'sine 6.524 aday girdi; yeni kontenjan açıklandığında oran hesaplanabilecek.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Branşlara Göre Hazırlık Eğitimlerinin Yürütüleceği Merkezler Belli Oldu. https://www.meb.gov.tr/milli-egitim-akademisinde-branslara-gore-hazirlik-egitimlerinin-yurutulecegi-merkezler-belli-oldu/haber/39547/tr (TR, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+7. UNESCO (2020). Global Education Monitoring Report 2020: Inclusion and education: All means all. https://doi.org/10.54676/JJNK6989 (EN, erişim: 2026-10-31)
+8. European Agency for Special Needs and Inclusive Education (2026). European Agency for Special Needs and Inclusive Education. https://www.european-agency.org/ (EN, erişim: 2026-10-31)
 
 ---
 
@@ -6767,6 +7199,8 @@ MEB çizelgesine göre sınıf öğretmenliği alanına atanan öğretmen **ilko
 
 Veri notu: Tarihler ÖSYM 2027 takviminden ve MEB duyurularından; adımlar 7528 sayılı Kanun ve MEB esaslarına göre. Erişim 31 Ekim 2026.[7]
 
+Kontenjan ve rekabet için [sınıf öğretmenliği AGS kontenjanı](https://bote.web.tr/blog/sinif-ogretmenligi-ags-kontenjani).
+
 ## Sık Sorulan Sorular
 
 ### Sınıf öğretmeni olmak için hangi bölüm okunmalı?
@@ -6806,6 +7240,105 @@ MEB çizelgesine göre ilkokulların 1-4. sınıf derslerini.
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Sınıf Öğretmenliği AGS Kontenjanı: 2.816 ve Rekabet
+
+> Sınıf öğretmenliği AGS kontenjanı: Ocak 2026'da 2.816 ile en büyük alan, kontenjan başına 5,6 aday, P2-11 puan türü, kaynak programlar ve 6 merkez.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/sinif-ogretmenligi-ags-kontenjani
+
+## Özet
+
+- Sınıf öğretmenliği Ocak 2026'da **2.816** kontenjanla **en büyük alan** (toplamın %28'i).
+- 2025'te sınıf öğretmenliği ÖABT'sine **15.691** aday girdi: kontenjan başına yaklaşık **5,6 aday**, ÖABT'li alanların en düşüğü.
+- Puan türü **MEB-AGS-P2-11**: AGS %50 + sınıf öğretmenliği ÖABT %50.
+- Kaynak programlar yalnız **sınıf öğretmenliği** ve **üstün zekâlılar öğretmenliği**.
+- Hazırlık eğitimi **6 merkezde**: Aksaray, Erzurum, Gaziantep, Kayseri, Ankara, İstanbul.
+
+Sınıf öğretmenliği yeni sistemde iki yönden öne çıkıyor: Millî Eğitim Akademisinin **en büyük kontenjanlı** alanı ve ÖABT'li alanlar içinde **rekabetin en düşük** olduğu alan. Bu yazı kontenjanı, aday sayılarını, puan türünü, kaynak programları ve Akademideki eğitimi resmî verilerle anlatıyor.[1][2]
+
+## Kontenjan: 2.816
+
+Ocak 2026 başvuru duyurusunda sınıf öğretmenliğine **2.816** kontenjan ayrıldı; bu, 10.000'lik toplamın %28'i ve 64 alan içinde en büyük kontenjan.[1] Bakanlık da en fazla kontenjan ayrılan beş alanı açıklarken sınıf öğretmenliğini ilk sırada saydı.[3]
+
+## Rekabet: kontenjan başına 5,6 aday
+
+2025 MEB-AGS'de sınıf öğretmenliği ÖABT'sine **15.691** aday girdi.[2] Bu puanlarla yapılan başvurudaki 2.816 kontenjana bölündüğünde kontenjan başına yaklaşık **5,6 aday** düşüyor. Karşılaştırma için okul öncesinde bu oran 87, Türk dili ve edebiyatında 443. 2026'da sınıf öğretmenliği ÖABT'sine **14.936** aday girdi ve ortalama net **26,5** oldu (2025'te 23,5).[4][2]
+
+| | 2025 | 2026 |
+|---|---|---|
+| ÖABT'ye giren aday | 15.691 | 14.936 |
+| Ortalama net (50 soru) | 23,5 | 26,5 |
+| Kontenjan (Ocak 2026 başvurusu) | 2.816 | Henüz açıklanmadı |
+
+Veri notu: ÖSYM 2025 ve 2026 MEB-AGS sayısal bilgileri; MEB Başvuru Duyurusu (Ocak 2026) Ek-1; erişim 31 Ekim 2026.[2][4][1]
+
+Oran bir üst sınır göstergesi: ÖABT'ye girenlerin hepsi Akademiye başvurmuyor. Yine de diğer alanlarla fark çok büyük. Tüm alanlar için [AGS'de rekabet: alan başına kaç aday?](https://bote.web.tr/blog/ags-alan-basina-kac-aday)
+
+## Puan türü: P2-11
+
+Sınıf öğretmenliği adayları **MEB-AGS-P2-11** puanıyla değerlendiriliyor: AGS alt testleri toplam %50, sınıf öğretmenliği ÖABT'si %50.[5] Kılavuza göre sınıf öğretmenliği ÖABT'si 70 dakika ve iki bölümden oluşuyor: **alan bilgisi %34** (ilkokulda temel matematik %6, temel fen bilimleri %10, Türk dili %6, Türk tarihi ve kültürü %4, Türkiye coğrafyası ve jeopolitiği %4, çocuk edebiyatı %4) ve **alan eğitimi %66** (hayat bilgisi, sosyal bilgiler, din kültürü, fen bilgisi, matematik, ilk okuma ve yazma öğretimi, drama, görsel sanatlar, müzik öğretimi gibi).[5] Ayrıntı için [ÖABT sınıf öğretmenliği konuları](https://bote.web.tr/blog/oabt-sinif-ogretmenligi-konulari).
+
+## ÖABT'de alan eğitimi ağır basıyor
+
+Sınıf öğretmenliği ÖABT'sinin üçte ikisi (%66) alan eğitimi, yani dersin **nasıl öğretileceği**: ilk okuma ve yazma, matematik, fen bilgisi, hayat bilgisi öğretimi gibi.[5] Bu, hazırlıkta konu bilgisinden çok öğretim yöntemlerine ağırlık vermek gerektiği anlamına geliyor. 2026'da ortalama netin 23,5'ten 26,5'e çıkması, adayların bu teste daha iyi hazırlandığını gösteriyor; puan alan içinde standartlaştırıldığı için artan ortalama, aynı neti yapan adayın sıralamasını geriletebilir.[4][5] Standart puan için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir)
+
+## Kimler başvurabilir?
+
+TTKB çizelgesine göre sınıf öğretmenliği alanına kaynak programlar yalnız iki: **sınıf öğretmenliği** ve **üstün zekâlılar öğretmenliği**.[6] Yani başka bir öğretmenlik programından mezun olanlar bu alana başvuramıyor. Bu dar kaynak, sınıf öğretmenliğinde aday havuzunun diğer alanlara göre küçük kalmasının ana nedeni. Genel yol için [sınıf öğretmeni nasıl olunur?](https://bote.web.tr/blog/sinif-ogretmeni-nasil-olunur)
+
+## Akademide sınıf öğretmenliği
+
+Sınıf öğretmenliği, Ocak 2026 döneminde **en fazla merkezde** eğitim verilen alandı: **Aksaray, Erzurum, Gaziantep, Kayseri, Ankara ve İstanbul**.[7] Bu yüzden sınıf öğretmenliği adayları başvuruda merkez tercihi yapıyor; yerleştirme MEB-AGS puanına göre, tercihine yerleşemeyenler resen.[1] Programda alana özgü dersler arasında **Sınıf Eğitiminde Oyunlaştırma ve Etkinlik Geliştirme (2+1)** ve **Sınıf Eğitiminde Biçimlendirici Değerlendirme (2+1)** yer alıyor.[8] Merkezler için [Millî Eğitim Akademisi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde)
+
+## Sınıf öğretmenliği adayları için notlar
+
+- **İki test birlikte.** P2-11'de ÖABT'nin payı %50; ama AGS'nin %50'lik payı içinde eğitim bilimleri en ağır kalem.[5]
+- **Merkez tercihi.** Altı merkez arasında tercih sırası, hazırlık eğitimi yılının hangi şehirde geçeceğini belirliyor; konaklama ücretli.[7]
+- **Uygulama okulu.** Hazırlık eğitiminin son dönemi tamamen okulda tam zamanlı uygulama; ilkokulda uygulama, sınıf öğretmenliğinin en önemli parçası.[8]
+
+İlk okulda uygulama yapılacak okulun niteliği önemli: iyi işleyen okullarda uygulama yapan öğretmen adaylarının mesleğe daha uzun devam ettiğini ve öğrencilerine daha fazla başarı kazandırdığını gösteren araştırmalar var.[9] OECD'nin TALIS araştırması da hizmet öncesi eğitimde sınıf uygulamasının ve mesleğe giriş desteğinin, öğretmenlerin kendilerini mesleğe hazır hissetmeleriyle ilişkili olduğunu gösteriyor.[10] Tüm kontenjanlar için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Sık Sorulan Sorular
+
+### Sınıf öğretmenliği AGS kontenjanı kaç?
+
+Ocak 2026 duyurusunda sınıf öğretmenliğine 2.816 kontenjan ayrıldı; 64 alan içinde en büyük kontenjan. Kontenjanlar her başvuru döneminde yeniden belirleniyor.
+
+### Sınıf öğretmenliğinde rekabet nasıl?
+
+2025'te ÖABT'ye 15.691 sınıf öğretmenliği adayı girdi; 2.816 kontenjanla kontenjan başına yaklaşık 5,6 aday düştü. Bu, ÖABT'li alanlar içindeki en düşük oran.
+
+### Hangi bölümler sınıf öğretmeni olabilir?
+
+TTKB çizelgesine göre sınıf öğretmenliği alanına kaynak programlar sınıf öğretmenliği ve üstün zekâlılar öğretmenliği. Diğer bölümlerin mezunları bu alana başvuramıyor.
+
+### Sınıf öğretmenliği hangi puan türü?
+
+MEB-AGS-P2-11. AGS alt testleri toplam %50, sınıf öğretmenliği ÖABT'si %50 ağırlıklı.
+
+### Sınıf öğretmenliği ÖABT'sinde neler var?
+
+Kılavuza göre alan bilgisi testi %34 (ilkokulda temel matematik, fen, Türk dili, tarih, coğrafya, çocuk edebiyatı), alan eğitimi testi %66 (ilk okuma yazma, matematik, fen, hayat bilgisi öğretimi vb.).
+
+### Sınıf öğretmenliği akademisi nerede?
+
+Ocak 2026 döneminde sınıf öğretmenliği hazırlık eğitimi Aksaray, Erzurum, Gaziantep, Kayseri, Ankara ve İstanbul olmak üzere 6 merkezde verildi; adaylar tercih yaptı.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisine Hazırlık Eğitimi Başvuru Duyurusu Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisine-hazirlik-egitimi-basvuru-duyurusu-yayimlandi/haber/39483/tr (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+5. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Branşlara Göre Hazırlık Eğitimlerinin Yürütüleceği Merkezler Belli Oldu. https://www.meb.gov.tr/milli-egitim-akademisinde-branslara-gore-hazirlik-egitimlerinin-yurutulecegi-merkezler-belli-oldu/haber/39547/tr (TR, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+9. Ronfeldt, M. (2012). Where should student teachers learn to teach? Effects of field placement school characteristics on teacher retention and effectiveness. Educational Evaluation and Policy Analysis, 34(1), 3–26. https://doi.org/10.3102/0162373711420865 (EN, erişim: 2026-10-31)
+10. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
 
 ---
 
@@ -9438,6 +9971,8 @@ Kılavuzun kuralları birkaç somut çalışma ilkesine dönüşüyor:
 5. **Denemelerde netten çok konumu izleyin.** Standart puan sizi diğer adaylarla karşılaştırdığı için, deneme sonuçlarında ham netiniz kadar, deneme grubunun ortalamasına göre nerede durduğunuz da bilgi verir.
 
 Puanın asıl işlevi, 7528 sayılı Kanun'la kurulan sistemde Millî Eğitim Akademisi'ne girişte kullanılmasıdır.[5] OECD'nin karşılaştırmalı çalışmaları da öğretmen seçiminde tek bir sınav puanının, hazırlık ve mesleğe giriş süreciyle birlikte değerlendirilmesi gerektiğini vurguluyor.[6][7] AGS'de bu ikinci basamak, akademinin hazırlık eğitimi; ayrıntısı [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) yazısında. Güncel kılavuz ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanıyor.[8]
+
+Hangi alanın hangi puan türüyle değerlendirildiği için [MEB-AGS P1, P2, P3 puan türleri](https://bote.web.tr/blog/meb-ags-puan-turleri-hangi-alan).
 
 ## Sık Sorulan Sorular
 
@@ -21214,6 +21749,8 @@ Bu üç katman, BÖTE programlarının neden teknik derslerin yanında öğretim
 ## Sonuç
 
 Bilgisayar öğretmenliğine giden yol artık daha uzun ama daha tanımlı: BÖTE lisansı, AGS ve akademi hazırlık eğitimi. Kurallar değişebildiği için her adımda MEB ve ÖSYM'nin güncel duyurularını esas alın. Öğretmenlik dışındaki seçenekleri de görmek için [BÖTE mezunları ne iş yapar?](https://bote.web.tr/blog/bote-mezunlari-ne-is-yapar) yazımıza göz atabilirsiniz.
+
+AGS sonrası alan ve kontenjan için [BÖTE mezunu AGS'de hangi alana başvurur?](https://bote.web.tr/blog/bote-mezunu-ags-hangi-alana-basvurur).
 
 ## Sık Sorulan Sorular
 

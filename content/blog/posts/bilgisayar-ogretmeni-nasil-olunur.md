@@ -197,3 +197,5 @@ Bu üç katman, BÖTE programlarının neden teknik derslerin yanında öğretim
 ## Sonuç
 
 Bilgisayar öğretmenliğine giden yol artık daha uzun ama daha tanımlı: BÖTE lisansı, AGS ve akademi hazırlık eğitimi. Kurallar değişebildiği için her adımda MEB ve ÖSYM'nin güncel duyurularını esas alın. Öğretmenlik dışındaki seçenekleri de görmek için [BÖTE mezunları ne iş yapar?](/blog/bote-mezunlari-ne-is-yapar) yazımıza göz atabilirsiniz.
+
+AGS sonrası alan ve kontenjan için [BÖTE mezunu AGS'de hangi alana başvurur?](/blog/bote-mezunu-ags-hangi-alana-basvurur).

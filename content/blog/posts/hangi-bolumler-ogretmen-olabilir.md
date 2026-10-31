@@ -186,3 +186,5 @@ Eğitim fakültesi dışından gelen adaylar için ÖSYM verileri bir fikir veri
 ## Formasyonsuz gelenler için ilk yıllar
 
 Pedagojik formasyon şartının akademide aranmaması, eğitim fakültesi dışından gelenlerin öğretmenlik becerilerini akademide ve mesleğin ilk yıllarında kazanacağı anlamına geliyor. Yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların mesleğe bağlılık, sınıf içi uygulamalar ve öğrenci başarısı üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[@ingersoll2011] OECD'nin TALIS araştırması da mesleki gelişimi kariyerin bütününe yayıyor.[@talis2018] 7528 sayılı Kanun'un tanımladığı kariyer basamakları (öğretmen, uzman öğretmen, başöğretmen) bu gelişimin resmî çerçevesi.[@mevzuat7528]
+
+Mühendislik mezunları için [mühendisler öğretmen olabilir mi?](/blog/muhendisler-ogretmen-olabilir-mi), yurt dışı mezunları için [KKTC ve yurt dışı mezunları](/blog/kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi).
