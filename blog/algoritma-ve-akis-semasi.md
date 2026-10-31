@@ -95,7 +95,7 @@ Yukarıdaki örnekte bir test şunu gösterebilir: kahvaltı uzarsa 5. adımdaki
 
 Algoritma ve akış şeması, blok tabanlı programlamanın temeli. 5. sınıfın aynı temasında öğrenciler sabit, değişken ve operatör kavramlarını öğrenip blok tabanlı ortamda sıralı komutlarla algoritma oluşturuyor.[1] Scratch gibi blok tabanlı ortamlarda bloklar yalnız sözdizimsel olarak anlamlı biçimde birbirine oturuyor; bu da öğrencinin yazım hatalarıyla değil algoritmanın kendisiyle uğraşmasını sağlıyor.[4]
 
-Programlama öğreniminin başka becerilere aktarımını inceleyen meta-analiz, programlama öğrenen öğrencilerin özellikle problem çözme ve mantıksal akıl yürütme gibi yakın becerilerde kazanım gösterdiğini buldu.[5] ISTE de öğrencilerden "bilgi işlemsel düşünür" olarak problemleri adımlara bölmelerini ve algoritmik düşünmeyi kullanmalarını bekliyor.[6] Programın resmî sayfası temaya göre içerikleri sunuyor.[7] Sonraki adım olan blok tabanlı programlama 6. sınıfta yılın yarısını kaplıyor: [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari).
+Programlama öğreniminin başka becerilere aktarımını inceleyen meta-analiz, programlama öğrenen öğrencilerin özellikle problem çözme ve mantıksal akıl yürütme gibi yakın becerilerde kazanım gösterdiğini buldu.[5] ISTE de öğrencilerden "bilgi işlemsel düşünür" olarak problemleri adımlara bölmelerini ve algoritmik düşünmeyi kullanmalarını bekliyor.[6] Programın resmî sayfası temaya göre içerikleri sunuyor.[7] Sonraki adım için [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama).
 
 ## Sık Sorulan Sorular
 

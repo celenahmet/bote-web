@@ -12,7 +12,7 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
 ## Özet
 
@@ -88,7 +88,7 @@ Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken 
 
 BTY, ortaokuldaki tek zorunlu bilişim dersi olarak öğrencilerin dijital dünyaya ilk sistemli girişini sağlar. Dersin başarısı, alanında yetişmiş öğretmenlere bağlıdır. Dersin temelindeki düşünme becerisini merak ediyorsanız [bilgi işlemsel düşünme nedir?](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızı okuyabilirsiniz.
 
-Sınıf sınıf konular için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi), [dijital vatandaşlık](https://bote.web.tr/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+Sınıf sınıf konular için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi), [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama), [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari), [bit ve byte](https://bote.web.tr/blog/bit-byte-nedir), [bilgisayar ağları](https://bote.web.tr/blog/bilgisayar-aglari-nedir), [lisans türleri](https://bote.web.tr/blog/lisans-turleri-nelerdir), [dijital vatandaşlık](https://bote.web.tr/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
 
 ## Sık Sorulan Sorular
 

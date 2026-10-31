@@ -492,7 +492,7 @@ Yukarıdaki örnekte bir test şunu gösterebilir: kahvaltı uzarsa 5. adımdaki
 
 Algoritma ve akış şeması, blok tabanlı programlamanın temeli. 5. sınıfın aynı temasında öğrenciler sabit, değişken ve operatör kavramlarını öğrenip blok tabanlı ortamda sıralı komutlarla algoritma oluşturuyor.[1] Scratch gibi blok tabanlı ortamlarda bloklar yalnız sözdizimsel olarak anlamlı biçimde birbirine oturuyor; bu da öğrencinin yazım hatalarıyla değil algoritmanın kendisiyle uğraşmasını sağlıyor.[4]
 
-Programlama öğreniminin başka becerilere aktarımını inceleyen meta-analiz, programlama öğrenen öğrencilerin özellikle problem çözme ve mantıksal akıl yürütme gibi yakın becerilerde kazanım gösterdiğini buldu.[5] ISTE de öğrencilerden "bilgi işlemsel düşünür" olarak problemleri adımlara bölmelerini ve algoritmik düşünmeyi kullanmalarını bekliyor.[6] Programın resmî sayfası temaya göre içerikleri sunuyor.[7] Sonraki adım olan blok tabanlı programlama 6. sınıfta yılın yarısını kaplıyor: [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari).
+Programlama öğreniminin başka becerilere aktarımını inceleyen meta-analiz, programlama öğrenen öğrencilerin özellikle problem çözme ve mantıksal akıl yürütme gibi yakın becerilerde kazanım gösterdiğini buldu.[5] ISTE de öğrencilerden "bilgi işlemsel düşünür" olarak problemleri adımlara bölmelerini ve algoritmik düşünmeyi kullanmalarını bekliyor.[6] Programın resmî sayfası temaya göre içerikleri sunuyor.[7] Sonraki adım için [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama).
 
 ## Sık Sorulan Sorular
 
@@ -952,6 +952,127 @@ AGS eğitim bilimleri alt testinde eğitimde ölçme ve değerlendirme ve Türki
 
 ---
 
+# Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı
+
+> Bilgisayar ağı nedir, ağ bileşenleri nelerdir? Kablolu ve kablosuz bağlantı, Wi-Fi, Bluetooth, modem, internet adresi; BTY 5. sınıf ağlar teması.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/bilgisayar-aglari-nedir
+
+## Özet
+
+- **Bilgisayar ağı**, veri paylaşmak için birbirine bağlanan cihazlar topluluğu.
+- Bileşenler: **istemci, sunucu, modem, yönlendirici, erişim noktası, ağ kartı**.
+- Bağlanma yöntemleri: **kablolu** (Ethernet, fiber) ve **kablosuz** (Wi-Fi, Bluetooth, mobil veri).
+- İnternet adresinin bölümleri: **www, alan adı, uzantı**, ülke kodu.
+- BTY 5. sınıfta 3 öğrenme çıktısı ve **6 ders saati**; 6. sınıfta iletişim teknolojileri.
+
+Bilgisayar ağları, BTY 5. sınıfın üçüncü teması: Bilgisayar Ağları ve İletişim. Öğrenciler her gün kullandıkları Wi-Fi'nin, mobil verinin ve Bluetooth'un nasıl çalıştığını, bir ağın hangi parçalardan oluştuğunu ve interneti amacına uygun nasıl kullanacaklarını öğreniyor. Bu yazı konuyu programın kazanımları ve örnekleriyle anlatıyor.[1]
+
+## BTY programında ağlar teması
+
+5. sınıfta temaya 6 ders saati ayrılmış; üç öğrenme çıktısı var:[1]
+
+| Kazanım | İçerik |
+|---|---|
+| BTY.5.3.1 | Bilgisayar ağları ve bileşenlerini sorgulayabilme |
+| BTY.5.3.2 | Bilgisayar ağları ve bağlanma yöntemlerini sınıflandırabilme |
+| BTY.5.3.3 | İnternet ile amacına uygun olarak çalışabilme |
+
+6. sınıfta tema 4 ders saatiyle devam ediyor; iletişim teknolojilerini sınıflandırma ve bir e-posta aracını amacına uygun kullanma ekleniyor.[1] Yılın tamamı için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari).
+
+## Bilgisayar ağı nedir?
+
+Program konuyu iletişimin tarihçesiyle açıyor: "İlk iletişim yöntemi olarak kablolu bağlantı mı, kablosuz bağlantı mı kullanılmıştır?" Dumanla iletişimden mektuba, telgraftan telefona iletişim araçlarının gelişimi üzerinden "ağ" kelimesinin günlük anlamıyla "bilgisayar ağı" arasında ilişki kuruluyor.[1]
+
+**Bilgisayar ağı**, veri ve kaynak paylaşmak için birbirine bağlanan bilgisayar ve cihazlar topluluğudur. Programın günlük hayattan örnekleri: okulun internet ağı, evde kullanılan Wi-Fi, cep telefonlarının bağlandığı mobil ağlar.[1]
+
+Sınıfta veri aktarımı somut bir etkinlikle anlatılıyor: öğrenciler çember olup bir topu ya da boş bir kâğıdı "Ayşe sana bir resim gönderiyorum" diyerek birbirine uzatıyor; böylece verinin ağ içinde bir cihazdan diğerine nasıl gittiği canlandırılıyor.[1]
+
+## Ağ bileşenleri
+
+Program bir ağ kurmak için gereken temel kavramları sayıyor: **ethernet kartı, veri, sunucu, istemci, modem**; 5.3.2'de ayrıca **yönlendirici ve erişim noktası** ekleniyor. Öğrenciler bu bileşenlerden biri eksik olursa bağlantının kurulup kurulamayacağını tartışıyor.[1]
+
+| Bileşen | Görevi |
+|---|---|
+| İstemci | Hizmet isteyen cihaz (bilgisayar, telefon) |
+| Sunucu | Hizmet ve veri sunan bilgisayar (web sitesinin bulunduğu bilgisayar) |
+| Modem | Evdeki ağı internet servis sağlayıcısına bağlar |
+| Yönlendirici (router) | Veriyi ağdaki doğru cihaza yönlendirir |
+| Erişim noktası | Kablosuz cihazların ağa bağlanmasını sağlar |
+| Ağ (Ethernet) kartı | Cihazın ağa bağlanmasını sağlayan donanım |
+
+Evlerdeki cihazlarda modem, yönlendirici ve erişim noktası çoğu zaman tek kutuda birleşiyor.
+
+## Kablolu ve kablosuz bağlantı
+
+Program "Kablosuz internet mi kullanıyorsunuz yoksa internete bir kablo ile mi bağlanıyorsunuz?" sorusuyla başlıyor; öğrenciler dizüstü bilgisayar, tablet, akıllı telefon, modem ve yönlendirici görsellerini inceleyip her aracın hangi bağlanma yöntemini (kablolu, Ethernet, Wi-Fi, mobil veri) ve hangi teknolojiyi (3G, 4G, 5G, fiber) kullandığını belirliyor. Örnek çıkarım: dizüstü bilgisayar Wi-Fi ya da Ethernet ile, akıllı telefon genellikle mobil veri ya da Wi-Fi ile bağlanır.[1]
+
+| | Kablolu | Kablosuz |
+|---|---|---|
+| Örnek | Ethernet kablosu, fiber | Wi-Fi, Bluetooth, mobil veri (4G, 5G) |
+| Hız ve kararlılık | Genelde daha hızlı ve kararlı | Mesafe, duvar ve kalabalıktan etkilenir |
+| Hareket | Kabloya bağlı | Serbest |
+| Güvenlik | Fiziksel erişim gerekir | Şifresiz ağlar risklidir |
+
+**Wi-Fi**, IEEE 802.11 adlı kablosuz yerel ağ standartlarının ticari adı; bu standartları IEEE'nin 802.11 çalışma grubu geliştiriyor.[2] **Bluetooth** ise kısa mesafede iki cihazı (telefon ve kulaklık gibi) doğrudan eşleştirmek için kullanılıyor. Uluslararası Telekomünikasyon Birliği'nin istatistikleri dünyada internet kullanımının giderek mobil bağlantıya kaydığını gösteriyor.[3]
+
+## İnternet ve internet adresi
+
+5.3.3'te öğrenciler internetin ne olduğunu, nasıl çalıştığını (**istemci-sunucu ilişkisi**, ağ yapısı) ve bilgiye erişim aracı olarak rolünü tartışıyor. İnternet adreslerindeki kısımlar açıklanıyor: **www, alan adı, site uzantısı ve bulunduğu ülke**. Öğrenciler en sık kullandıkları adresleri tahtaya yazıp doğru yazılıp yazılmadığını birlikte kontrol ediyor.[1]
+
+| Uzantı | Anlamı |
+|---|---|
+| .gov.tr | Türkiye'deki kamu kurumları |
+| .edu.tr | Türkiye'deki üniversiteler |
+| .k12.tr | Okullar |
+| .org | Kuruluşlar, dernekler |
+| .com | Ticari siteler |
+
+Uzantı bilmek güvenlik için de önemli: resmî bir kurumun adresi yerine benzer yazılmış sahte bir adrese girmek kimlik avı saldırılarının en yaygın yolu. Bu kazanım, internetteki farklı bilgi kaynaklarını kullanarak bilginin doğruluğunu değerlendirmeyi de içeriyor.[1] BTK'nın Güvenli İnternet Merkezi çocuklar ve aileler için güvenli internet kullanımı rehberleri sunuyor.[4][5] Güvenlik ayrıntısı için [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+
+## 6. sınıf: iletişim teknolojileri
+
+6. sınıfta tema üç öğrenme çıktısıyla genişliyor: ileri düzey arama için arama motorlarını belirleyip kullanma (BTY.6.3.1), iletişim teknolojilerini sınıflandırma (BTY.6.3.2) ve iletişim teknolojileriyle çalışma (BTY.6.3.3). Sonuncusunda öğrenci farklı ve eş zamanlı iletişim teknolojilerini amacına göre belirliyor ve **bir e-posta aracını amacına uygun kullanıyor**.[1] DigComp 2.2 de dijital teknolojilerle iletişim ve iş birliğini dijital yetkinliğin beş alanından biri sayıyor;[6] ISTE ise öğrencinin farklı araçlarla "yaratıcı iletişimci" olmasını bekliyor.[7] Programın resmî sayfasında temaya göre içerikler bulunuyor.[8]
+
+## Sık Sorulan Sorular
+
+### Bilgisayar ağı nedir?
+
+Veri ve kaynak paylaşmak için kablolu ya da kablosuz olarak birbirine bağlanan bilgisayar ve cihazlar topluluğudur. Okulun internet ağı ya da evdeki Wi-Fi örnektir.
+
+### Ağ bileşenleri nelerdir?
+
+İstemci, sunucu, modem, yönlendirici (router), erişim noktası, ağ (Ethernet) kartı, kablolar ve veri. BTY 5. sınıf programında bu bileşenlerin işlevleri gruplandırılır.
+
+### Kablolu ve kablosuz bağlantı farkı nedir?
+
+Kablolu bağlantı (Ethernet, fiber) genelde daha hızlı ve kararlıdır; kablosuz bağlantı (Wi-Fi, Bluetooth, mobil veri) hareket serbestliği sağlar ama mesafe ve engellerden etkilenir.
+
+### Wi-Fi ve Bluetooth farkı nedir?
+
+Wi-Fi cihazları yerel ağa ve internete bağlar; Bluetooth kısa mesafede iki cihazı (kulaklık ile telefon gibi) doğrudan eşleştirir.
+
+### İnternet adresinin bölümleri nelerdir?
+
+Örneğin bir okul sitesinde www, kurum adını taşıyan alan adı, .gov, .edu gibi uzantı ve .tr gibi ülke kodu bulunur.
+
+### Ağlar kaçıncı sınıf konusu?
+
+BTY 5. sınıfın 3. teması Bilgisayar Ağları ve İletişim (6 ders saati); 6. sınıfta aynı tema iletişim teknolojileri ve e-posta ile devam eder (4 ders saati).
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. IEEE 802 LAN/MAN Standards Committee (2026). IEEE 802.11 Wireless Local Area Networks Working Group. https://www.ieee802.org/11/ (EN, erişim: 2026-10-31)
+3. International Telecommunication Union (ITU) (2024). Measuring digital development: Facts and Figures 2024. https://www.itu.int/itu-d/reports/statistics/facts-figures-2024/ (EN, erişim: 2026-10-31)
+4. Bilgi Teknolojileri ve İletişim Kurumu (2026). Güvenli İnternet Merkezi. https://www.guvenlinet.org.tr (TR, erişim: 2026-10-31)
+5. BTK (2026). Bilgi Teknolojileri ve İletişim Kurumu. https://www.btk.gov.tr (TR, erişim: 2026-10-31)
+6. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+7. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
+
+---
+
 # BİLSEM Nedir? Tanılama Süreci, Programlar ve Takvim
 
 > BİLSEM nedir, öğrenciler nasıl seçilir? Aday gösterme, %20 sınırı, ön ve bireysel değerlendirme takvimi, yetenek alanları, programlar ve devam kuralları.
@@ -1067,6 +1188,127 @@ Yönergeye göre bir öğretim yılında özürsüz devamsızlık eğitim süres
 
 ---
 
+# Bit ve Byte Nedir? Bellek Birimleri ve Donanım
+
+> Bit ve byte nedir, 1 KB kaç byte? Bellek birimleri sıralaması (KB, MB, GB, TB), donanım ve yazılım, giriş-çıkış birimleri ve depolama; BTY 5. sınıf konusu.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/bit-byte-nedir
+
+## Özet
+
+- **Bit** bilgisayardaki en küçük veri birimi: 0 ya da 1. **1 byte = 8 bit**.
+- Bellek birimleri küçükten büyüğe: bit, byte, KB, MB, GB, TB.
+- Okulda genelde **1 KB = 1024 byte** öğretilir; uluslararası standartta 1024 için **kibibyte (KiB)**, 1000 için kilobyte (kB) kullanılır.
+- **Donanım** bilgisayarın fiziksel parçaları, **yazılım** onu çalıştıran programlar.
+- BTY 5. sınıfta **BTY.5.1.5** "Bilgisayar sistemlerini çözümleyebilme" kazanımı.
+
+Bit ve byte, Bilişim Teknolojileri ve Yazılım (BTY) dersinin 5. sınıfta işlenen "bilgisayar sistemleri" konusunun temel kavramları. Telefonun "64 GB", bir fotoğrafın "3 MB" olması bu birimlerle ölçülüyor. Bu yazı bit ve byte'ı, bellek birimlerini, donanım ve yazılımı ve depolama birimlerini programın kazanımları ve uluslararası standartla anlatıyor.[1]
+
+## BTY programında bilgisayar sistemleri
+
+5. sınıfın ilk temasındaki **BTY.5.1.5 "Bilgisayar sistemlerini çözümleyebilme"** öğrenme çıktısında öğrenciler bilgisayar sistemlerinin temel bileşenlerini belirliyor. Konu "Sizce bilgisayar hangi bölümlerden oluşuyor?" sorusuyla açılıyor; öğretmen donanım, yazılım, bit ve byte kavramlarını tanımlıyor ve bu terimlerin verinin nasıl depolandığı ve işlendiğiyle ilişkisini anlatıyor.[1] Yılın tamamı için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari).
+
+## Bit nedir?
+
+**Bit**, bilgisayardaki en küçük veri birimidir ve yalnız iki değer alır: **0 ya da 1**. Bilgisayarın içindeki her şey (yazı, resim, ses, video) sonunda bu iki değerin dizilerine dönüşür. Sözcük İngilizce "binary digit" (ikili basamak) ifadesinden geliyor; bilgi kuramının kurucu makalesinde Claude Shannon bu adı J. W. Tukey'e atfederek bilginin ölçü birimi olarak kullandı.[2]
+
+Bir bit iki durum gösterebilir (açık/kapalı gibi). İki bit 4, üç bit 8, sekiz bit 256 farklı durum gösterebilir. Bu yüzden bit sayısı arttıkça saklanabilecek bilgi katlanarak büyür.
+
+## Byte nedir?
+
+**Byte**, 8 bitten oluşan veri birimidir: **1 byte = 8 bit**.[3] Bir harf ya da rakam genellikle 1 byte ile saklanır. Dosya büyüklükleri ve bellek kapasiteleri byte ve katlarıyla ifade edilir.
+
+Program bu noktada dijital ölçü birimlerini günlük hayattaki ölçü birimlerine benzetiyor: metre ve kilogram anlatımında kullanılan "merdiven" tahtaya çizilip dijital ölçü birimleri küçükten büyüğe sıralanıyor.[1]
+
+## Bellek birimleri sıralaması
+
+| Birim | Simge | Okulda öğretilen değer |
+|---|---|---|
+| Bit | b | 0 ya da 1 |
+| Byte | B | 8 bit |
+| Kilobyte | KB | 1024 byte |
+| Megabyte | MB | 1024 KB |
+| Gigabyte | GB | 1024 MB |
+| Terabyte | TB | 1024 GB |
+| Petabyte | PB | 1024 TB |
+
+**1024 mü, 1000 mi?** Okul kitaplarında ve bellek hesaplarında birimler 1024 (2 üzeri 10) katıyla büyür. Ama uluslararası standartta durum biraz farklı: Uluslararası Elektroteknik Komisyonu (IEC) 1998'de ikili katlar için ayrı önekler kabul etti. Buna göre **1 kibibyte (KiB) = 1024 byte**, **1 kilobyte (kB) = 1000 byte**; aynı şekilde 1 MiB = 1.048.576 byte, 1 MB = 1.000.000 byte.[3]
+
+Bu fark günlük hayatta görülüyor: üreticiler disk kapasitesini çoğu zaman 1000'li birimlerle yazarken bazı işletim sistemleri 1024'lü birimlerle gösterir, bu yüzden "1 TB" diskte daha az alan görünebilir. Okul sınavında aksi söylenmedikçe 1024 esas alınır.
+
+## Donanım ve yazılım
+
+Program donanımı bilgisayarın fiziksel bileşenleri (işlemci, bellek, depolama birimleri gibi) olarak tanımlıyor; öğrenciler donanım ve yazılım kavramlarını oyunlaştırılmış bir eşleştirme etkinliğiyle pekiştiriyor.[1]
+
+- **Donanım:** Dokunulabilen parçalar. İç donanım: işlemci, anakart, RAM bellek. Dış donanım: ekran, yazıcı, hoparlör.
+- **Yazılım:** Donanımı çalıştıran programlar. İşletim sistemi bilgisayarı yönetir; uygulama yazılımları (kelime işlemci, tarayıcı, oyun) belirli işler yapar.
+
+"Dışında ne var, içinde ne var?" sunumuyla iç ve dış donanım birimleri gruplandırılıyor.[1]
+
+## Giriş ve çıkış birimleri
+
+Program bazı araçların veri girişi, bazılarının veri çıkışı, bazılarının ikisi için de kullanıldığını anlatıyor; sınıfta girişte "deve", çıkışta "cüce" oyunuyla birimler ilişkilendiriliyor.[1]
+
+| Tür | Örnekler |
+|---|---|
+| Giriş birimi | Klavye, fare, mikrofon, kamera, tarayıcı |
+| Çıkış birimi | Ekran, yazıcı, hoparlör, kulaklık |
+| Giriş-çıkış | Dokunmatik ekran, USB bellek, modem |
+
+## Depolama birimleri
+
+Programda öğretmen sabit disk, SSD, USB bellek ve bulut depolama gibi yöntemlerin ne olduğunu, nasıl çalıştığını ve hangi durumlarda kullanıldığını anlatıyor; öğrenciler bu birimleri **veri erişim hızı, kapasite ve kullanım amacı** açısından karşılaştırıyor.[1]
+
+| Depolama | Özellik |
+|---|---|
+| Sabit disk (HDD) | Dönen disk; büyük kapasite, görece yavaş |
+| SSD | Hareketli parça yok; hızlı, sessiz |
+| USB bellek | Taşınabilir, küçük kapasite |
+| Bulut depolama | İnternet üzerinden; her yerden erişim, bağlantı gerekir |
+
+## Piksel etkinliği: veri nasıl sıkıştırılır?
+
+Programın en keyifli etkinliklerinden biri piksel çalışma kâğıdı: gruplar boş bir matrisin kutucuklarını bir kurala göre boyuyor, kâğıtlar birleşince saklı resim ortaya çıkıyor. Bu etkinlikte programcıların verileri sıkıştırmak için kullandığı yöntemlerden biri olan **dizi boyu kodlaması** (aynı renkteki ardışık kutucukları "5 beyaz, 3 siyah" gibi saymak) uygulanıyor; bu yöntem olmasaydı resimleri bir yerden başka bir yere göndermenin zor olacağı anlatılıyor.[1]
+
+ISTE'nin öğrenci standartları da veriyi temsil etme ve soyutlamayı "bilgi işlemsel düşünür" rolünün parçası sayıyor;[4] DigComp 2.2 ise cihaz ve yazılımları tanımayı dijital yetkinliğin temeli olarak görüyor.[5] Programın resmî sayfasında temaya göre içerikler bulunuyor.[6]
+
+## Sık Sorulan Sorular
+
+### Bit nedir?
+
+Bilgisayardaki en küçük veri birimidir; yalnız 0 ya da 1 değerini alır. İngilizce binary digit (ikili basamak) sözcüklerinden türemiştir.
+
+### Byte nedir?
+
+8 bitten oluşan veri birimidir. Bir harf ya da rakam genellikle 1 byte ile saklanır.
+
+### 1 KB kaç byte?
+
+Okul kitaplarında ve bellek hesaplarında genelde 1024 byte. Uluslararası standartta 1024 byte için kibibyte (KiB), 1000 byte için kilobyte (kB) adı kullanılır.
+
+### Bellek birimleri sıralaması nasıl?
+
+Küçükten büyüğe: bit, byte, kilobyte (KB), megabyte (MB), gigabyte (GB), terabyte (TB), petabyte (PB). Her basamak bir öncekinin yaklaşık bin (1024) katıdır.
+
+### Donanım ve yazılım farkı nedir?
+
+Donanım bilgisayarın dokunulabilen fiziksel parçalarıdır (işlemci, bellek, klavye); yazılım donanımı çalıştıran programlardır (işletim sistemi, uygulamalar).
+
+### Giriş ve çıkış birimleri nelerdir?
+
+Giriş birimleri veri alır (klavye, fare, mikrofon), çıkış birimleri sonucu verir (ekran, yazıcı, hoparlör). Dokunmatik ekran gibi bazı araçlar ikisini birden yapar.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Shannon, C. E. (1948). A mathematical theory of communication. Bell System Technical Journal, 27(3), 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x (EN, erişim: 2026-10-31)
+3. National Institute of Standards and Technology (NIST) (2000). Prefixes for binary multiples. https://physics.nist.gov/cuu/Units/binary.html (EN, erişim: 2026-10-31)
+4. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+5. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
+
+---
+
 # Biyoloji Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
 
 > Biyoloji öğretmeni olmak için hangi bölüm okunur, biyoloji ve moleküler biyoloji mezunu öğretmen olabilir mi, ÖABT Biyoloji ve Millî Eğitim Akademisi.
@@ -1170,6 +1412,123 @@ MEB-AGS: ortak AGS ve ÖABT Biyoloji. Puan türü MEB-AGS-P2-02.
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Blok Tabanlı Programlama Nedir? BTY 5 ve 6. Sınıf
+
+> Blok tabanlı programlama nedir, neden kullanılır? Sürükle-bırak kodlama, döngü, koşul, değişken ve fonksiyon blokları; BTY 5-6. sınıf kazanımları, araştırmalar.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/blok-tabanli-programlama
+
+## Özet
+
+- **Blok tabanlı programlama**, komutların yazmak yerine yapboz parçası gibi **sürükle-bırak** bloklarla birleştirildiği programlama.
+- Temel bloklar: **hareket**, **olay**, **koşul** (eğer-değilse), **döngü**, **değişken** ve **fonksiyon** (özel blok).
+- BTY'de 5. sınıfta 24, 6. sınıfta **34 ders saati**; 6. sınıfta yapay zekâ destekli blok projesi de var.
+- Bloklar yalnız anlamlı biçimde birleşir; yazım hatası olmadığı için öğrenci **mantığa** odaklanır.
+- Araştırmalar blok arayüzünün acemilerde görev süresini kısalttığını, ama metin tabanlı dile geçişin ayrıca planlanması gerektiğini gösteriyor.
+
+Blok tabanlı programlama, Maarif Modeli'nin Bilişim Teknolojileri ve Yazılım (BTY) dersinde yılın en büyük temasının merkezinde. 5. sınıfta 24, 6. sınıfta 34 ders saati ayrılan Yazılım Tasarımı ve Programlama temasında öğrenciler blok tabanlı ortamda kendi yazılımlarını geliştiriyor.[1] Bu yazı blok tabanlı programlamanın ne olduğunu, temel blokları, BTY kazanımlarını ve araştırmaların bu yöntem hakkında ne söylediğini anlatıyor.
+
+## Blok tabanlı programlama nedir?
+
+Blok tabanlı programlamada komutlar klavyeyle yazılmaz; renkli bloklar hâlinde **sürüklenip bırakılarak** birleştirilir. En bilinen örnek olan Scratch'in tasarımcıları, blokların yapboz parçası gibi yalnız sözdizimsel olarak anlamlı biçimde birbirine oturduğunu, bu yüzden metin tabanlı dillerdeki yazım hatalarının ortadan kalktığını anlatıyor. Amaç, programlamayı herkes için, özellikle gençler için erişilebilir kılmak.[2]
+
+BTY programı belirli bir ürün adı vermiyor; "yapılandırılmış, eğitim odaklı ve öğretmen rehberliğinde kullanılmaya uygun" bir blok tabanlı yazılım geliştirme ortamı öneriyor. Öğretmen bu ortamda kodlamanın sürükle-bırak yöntemiyle yapıldığını gösteriyor; öğrenciler önce sıralı komutlarla algoritma oluşturuyor.[1]
+
+## Temel bloklar ve kavramlar
+
+Program iki yıl boyunca şu kavramları sırayla kuruyor:[1]
+
+| Kavram | Programdaki örnek | Sınıf |
+|---|---|---|
+| Komut | Bilgisayara bir işi yaptırmak için verilen yönlendirme | 5 |
+| Sabit ve değişken | Oyunda oyun alanı ve kurallar sabit; oyuncu sayısı, skor, süre değişken | 5 |
+| Operatör | "Okula kaç dakikada geliyorsunuz?" sorusu için çıkış ve varış saatleriyle hesap | 5 |
+| Koşul | Eğer-değilse blokları | 6 |
+| Döngü | Tekrar eden hareketler | 5-6 |
+| Fonksiyon | Tekrar eden komut gruplarını özel blok hâline getirmek | 6 |
+
+Değişken kavramı programda günlük hayattan kuruluyor: öğrenciler futbol, saklambaç ya da ip atlama gibi bir oyunu düşünüp oyundaki sabitleri ve değişkenleri gruplar hâlinde belirliyor.[1] Algoritma ve akış şeması tarafı için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi).
+
+## 5. sınıf kazanımları
+
+5. sınıfın programlama teması dört öğrenme çıktısından oluşuyor; son ikisi doğrudan blok tabanlı ortamla ilgili:[1]
+
+| Kazanım | İçerik |
+|---|---|
+| BTY.5.6.3 | Yazılım geliştirme sürecinde kullanılan bileşenleri tanımlar, kullanır, değerlendirir |
+| BTY.5.6.4 | Blok tabanlı ortamda yazılım geliştirme sürecini planlar, tasarlar, oluşturur |
+
+Öğrenciler gruplar hâlinde kendi yazılım fikirlerini (oyun, karakter hareket ettirme gibi) seçiyor; yazılımın amacını, kullanıcısını, karakterlerini ve kontrol koşullarını planlayıp tasarımı önce kâğıt üzerinde çiziyor, sonra blok tabanlı ortamda geliştiriyor.[1] Yılın tamamı için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari).
+
+## 6. sınıf: fonksiyon, proje ve yapay zekâ
+
+6. sınıfta üç öğrenme çıktısı var: blok tabanlı ortamdaki bileşenlerden yararlanma (BTY.6.6.1), yazılım geliştirme sürecini yönetme (BTY.6.6.2) ve **yapay zekâ destekli ürün** ortaya koyma (BTY.6.6.3).[1]
+
+**Fonksiyon.** Program fonksiyonu bir benzetmeyle açıyor: "Çamaşır makinesine gerekli temizlik malzemelerini yerleştirip kirli kıyafetleri koyup çalıştırdığımızda ne olur?" Ardından bir karakterin sürekli sağa ve sola dönmesini sağlayan kodda tekrar eden bölümler fark ettiriliyor, bu bölümler özel bir blokta toplanıp fonksiyon olarak çağrılıyor. Öğrenciler fonksiyonsuz uzun kodla fonksiyonlu kısa kodu karşılaştırıp rapor yazıyor.[1]
+
+**Proje.** Gruplar ortak bir proje fikri belirliyor; hangi blokları kullanacaklarını, karakterlerin nasıl hareket edeceğini ve hangi matematiksel işlemlerin yapılacağını planlıyor. Hareket, koşul (eğer-değilse), döngü, değişken ve fonksiyon bloklarıyla tasarlayıp oluşturuyor; "Programınız beklendiği gibi çalışıyor mu? Hangi blokları neden kullandınız?" sorularıyla değerlendiriyor ve raporlarını EBA bilgi duvarında paylaşıyor.[1]
+
+**Yapay zekâ destekli ürün.** Yılın son çalışmasında öğrenciler gerçek bir hayat problemi için yapay zekâ destekli bir blok projesi belirliyor, gereksinimleri (kullanıcı giriş ekranı, sesli komut desteği, öneri güncellemesi gibi) çıkarıyor. Öğretmen blok tabanlı uygulamalardaki görüntü tanıma, sesli komut analizi ve öneri sistemi gibi yapay zekâ eklentilerini tanıtıyor.[1] Ayrıntı: [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari).
+
+## Neden blok tabanlı? Araştırmalar ne diyor?
+
+Blok tabanlı programlamanın okulda yaygınlaşmasının arkasında bilgi işlemsel düşünme fikri var. Wing bu düşünme biçimini herkesin kazanması gereken temel bir beceri olarak tanımladı;[3] Grover ve Pea'nın derlemesi de okul düzeyinde bu becerinin soyutlama, algoritmik düşünme ve hata ayıklama gibi bileşenlerini öne çıkardı.[4]
+
+Blokların neden işe yaradığını sınayan çalışmalardan ikisi öne çıkıyor:
+
+- **Price ve Barnes (2015)** aynı programlama etkinliğini iki acemi grubuna, biri blok biri metin arayüzüyle yaptırdı. Arayüz öğrencilerin tutumunu ya da algıladıkları zorluğu değiştirmedi; ama blok arayüzünü kullananlar görevden daha az uzaklaştı ve **daha kısa sürede daha çok hedef tamamladı**.[5]
+- **Weintrop ve Wilensky (2015)** lise öğrencilerine blok ve metin tabanlı programlamayı karşılaştırttı. Öğrenciler kolaylığı doğal dile yakın bloklara, sürükle-bırak etkileşimine ve dilin göz atarak keşfedilebilmesine bağladı; ama blok ortamını **daha az "gerçek" ve daha az güçlü** de buldular.[6]
+
+Programlama öğreniminin genel etkisine bakan meta-analiz, programlama öğrenen öğrencilerin özellikle problem çözme ve mantıksal akıl yürütme gibi yakın becerilerde kazanım gösterdiğini buldu.[7] ISTE de öğrencilerden "bilgi işlemsel düşünür" olarak problemi adımlara bölmelerini ve otomasyonu kullanmalarını bekliyor.[8]
+
+## Öğretmen ve veliler için notlar
+
+- **Blok, son durak değil.** Weintrop ve Wilensky'nin bulgusu, öğrencilerin bir noktada metin tabanlı dile geçmek isteyeceğini gösteriyor; blok ortamında kurulan döngü, koşul ve değişken kavramları bu geçişin temeli.[6]
+- **Önce kâğıt.** Program tasarımın önce kâğıt üzerinde çizilmesini ve teknolojik altyapı yoksa etkinliklerin kâğıt üzerinde yapılmasını öneriyor.[1]
+- **Hata, sürecin parçası.** Test etme ve hata ayıklama ayrı bir öğrenme çıktısı; çalışmayan bir program öğrenmenin kendisi.[1]
+
+Temaya göre içerikler programın resmî sayfasında yayımlanıyor.[9] 6. sınıfın tamamı için [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari).
+
+## Sık Sorulan Sorular
+
+### Blok tabanlı programlama nedir?
+
+Komutların klavyeyle yazılmak yerine renkli bloklar hâlinde sürüklenip birleştirildiği programlama yöntemidir. Bloklar yapboz gibi yalnız anlamlı biçimde birbirine oturur.
+
+### Blok tabanlı programlama örnekleri nelerdir?
+
+Scratch en bilinen örnektir. BTY programı belirli bir ürün adı vermez; eğitim odaklı ve öğretmen rehberliğinde kullanılmaya uygun bir blok tabanlı ortam önerir.
+
+### Blok tabanlı kodlamanın avantajları nelerdir?
+
+Yazım hatası olmaz, komutlar doğal dile yakın okunur, öğrenci hangi blokların var olduğunu göz atarak keşfeder ve mantığa odaklanır.
+
+### Blok tabanlı programlamanın dezavantajı var mı?
+
+Araştırmalarda öğrenciler blok ortamını metin tabanlı dillere göre daha az gerçekçi ve daha az güçlü bulabiliyor; büyük projelerde blok sayısı artınca okumak zorlaşıyor.
+
+### BTY'de fonksiyon nedir?
+
+Tekrar eden komut gruplarını tek bir özel blok hâline getirmektir. 6. sınıf programında kodu kısaltma, okunur kılma ve yeniden kullanma amacıyla işlenir.
+
+### 6. sınıfta blok tabanlı programlamada ne yapılıyor?
+
+Gruplar bir proje fikri belirleyip planlıyor, hareket, koşul, döngü, değişken ve fonksiyon bloklarıyla tasarlıyor, test ediyor; yılın son projesi yapay zekâ destekli bir blok ürünü.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Resnick, M., Maloney, J., Monroy-Hernández, A. ve diğerleri (2009). Scratch: Programming for all. Communications of the ACM, 52(11), 60–67. https://doi.org/10.1145/1592761.1592779 (EN, erişim: 2026-10-31)
+3. Wing, J. M. (2006). Computational thinking. Communications of the ACM, 49(3), 33–35. https://doi.org/10.1145/1118178.1118215 (EN, erişim: 2026-10-31)
+4. Grover, S. ve Pea, R. (2013). Computational thinking in K–12: A review of the state of the field. Educational Researcher, 42(1), 38–43. https://doi.org/10.3102/0013189X12463051 (EN, erişim: 2026-10-31)
+5. Price, T. W. ve Barnes, T. (2015). Comparing textual and block interfaces in a novice programming environment. Proceedings of the 11th Annual International Conference on International Computing Education Research (ICER), 91–99. https://doi.org/10.1145/2787622.2787712 (EN, erişim: 2026-10-31)
+6. Weintrop, D. ve Wilensky, U. (2015). To block or not to block, that is the question: Students' perceptions of blocks-based programming. Proceedings of the 14th International Conference on Interaction Design and Children, 199–208. https://doi.org/10.1145/2771839.2771860 (EN, erişim: 2026-10-31)
+7. Scherer, R., Siddiq, F. ve Sánchez Viveros, B. (2019). The cognitive benefits of learning computer programming: A meta-analysis of transfer effects. Journal of Educational Psychology, 111(5), 764–792. https://doi.org/10.1037/edu0000314 (EN, erişim: 2026-10-31)
+8. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
 
 ---
 
@@ -1334,7 +1693,7 @@ Tablolama bölümü, matematik ve fen derslerindeki veri çalışmalarıyla doğ
 
 ## Tema 6: Yılın yarısı programlama
 
-34 ders saatiyle yılın yaklaşık yarısı blok tabanlı ortamda yazılım geliştirmeye ayrılmış. Öğrenciler yazılım geliştirme bileşenlerini kullanıyor ve blok tabanlı ortamda yazılım geliştirme sürecini planlamadan teste kadar yönetiyor.[1] Grover ve Pea'nın tanımladığı bilgi işlemsel düşünme bileşenleri (soyutlama, algoritmik düşünme, hata ayıklama) bu süreçte doğrudan uygulanıyor.[5] Wing bu düşünme biçimini bilgisayar bilimcilerine özgü değil, herkesin okuma yazma gibi kazanması gereken temel bir beceri olarak tanımlamıştı.[6] Programlama öğreniminin aktarım etkilerini inceleyen meta-analiz de programlama öğrenmenin özellikle yakın becerilerde (problem çözme, mantıksal akıl yürütme) kazanımla ilişkili olduğunu gösterdi.[7] Ayrıntı: [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi).
+34 ders saatiyle yılın yaklaşık yarısı blok tabanlı ortamda yazılım geliştirmeye ayrılmış. Öğrenciler yazılım geliştirme bileşenlerini kullanıyor ve blok tabanlı ortamda yazılım geliştirme sürecini planlamadan teste kadar yönetiyor.[1] Grover ve Pea'nın tanımladığı bilgi işlemsel düşünme bileşenleri (soyutlama, algoritmik düşünme, hata ayıklama) bu süreçte doğrudan uygulanıyor.[5] Wing bu düşünme biçimini bilgisayar bilimcilerine özgü değil, herkesin okuma yazma gibi kazanması gereken temel bir beceri olarak tanımlamıştı.[6] Programlama öğreniminin aktarım etkilerini inceleyen meta-analiz de programlama öğrenmenin özellikle yakın becerilerde (problem çözme, mantıksal akıl yürütme) kazanımla ilişkili olduğunu gösterdi.[7] Ayrıntı: [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama) ve [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi).
 
 ## 5. sınıftan 6. sınıfa ne değişiyor?
 
@@ -1396,6 +1755,113 @@ Yapay zekâ girdileri hakkında bilgi toplama, yapay zekâ araçlarıyla çalı�
 5. Grover, S. ve Pea, R. (2013). Computational thinking in K–12: A review of the state of the field. Educational Researcher, 42(1), 38–43. https://doi.org/10.3102/0013189X12463051 (EN, erişim: 2026-10-31)
 6. Wing, J. M. (2006). Computational thinking. Communications of the ACM, 49(3), 33–35. https://doi.org/10.1145/1118178.1118215 (EN, erişim: 2026-10-31)
 7. Scherer, R., Siddiq, F. ve Sánchez Viveros, B. (2019). The cognitive benefits of learning computer programming: A meta-analysis of transfer effects. Journal of Educational Psychology, 111(5), 764–792. https://doi.org/10.1037/edu0000314 (EN, erişim: 2026-10-31)
+8. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
+
+---
+
+# BTY Yapay Zekâ Konuları: 5 ve 6. Sınıf Kazanımları
+
+> BTY yapay zekâ teması: 5. sınıfta uygulamalar, alt dallar ve etik; 6. sınıfta girdi, araçlar ve model geliştirme. Kazanımlar, etkinlikler ve çerçeveler.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/bty-yapay-zeka-konulari
+
+## Özet
+
+- BTY'de yapay zekâ ayrı bir tema: 5. sınıfta **8**, 6. sınıfta **10 ders saati**.
+- 5. sınıf: yapay zekâ uygulamalarını sınıflandırma, alt dallar (makine öğrenmesi gibi), **etik ve gizlilik**.
+- 6. sınıf: **girdi (veri)** kavramı, yapay zekâ araçlarıyla çalışma ve gerçek bir problem için **model geliştirme**.
+- Programın örnek etkinliği: etiketli meyve fotoğraflarıyla basit bir sınıflandırma modeli eğitmek.
+- Uluslararası karşılıkları: AAAI-CSTA "beş büyük fikir" ve UNESCO'nun öğrenci yapay zekâ yetkinlik çerçevesi.
+
+Maarif Modeli'yle yazılan BTY programının en dikkat çekici yeniliği yapay zekânın ayrı bir tema olması. 5. sınıfta 8, 6. sınıfta 10 ders saati ayrılan bu tema, ayrıca ilk temada yapay zekânın temel kavramlarını sorgulayan bir öğrenme çıktısıyla destekleniyor.[1] Bu yazı iki yılın yapay zekâ kazanımlarını, programın önerdiği etkinlikleri ve uluslararası çerçevelerle bağlantısını anlatıyor.
+
+## Yapay zekâ kazanımları bir bakışta
+
+| Sınıf | Kazanım | Özet |
+|---|---|---|
+| 5 | BTY.5.1.4 | Yapay zekâ ile ilgili temel kavram ve özellikleri sorgulama |
+| 5 | BTY.5.5.1 | Yapay zekâ uygulamalarını sınıflandırma |
+| 5 | BTY.5.5.2 | Yapay zekâya ilişkin etik ve güvenlik/gizlilik önlemlerini yönetme |
+| 6 | BTY.6.5.1 | Yapay zekâ girdileri hakkında bilgi toplama |
+| 6 | BTY.6.5.2 | Yapay zekâ araç ve teknolojileri ile çalışma |
+| 6 | BTY.6.5.3 | Yapay zekâ araç ve teknolojileri ile model geliştirme |
+| 6 | BTY.6.6.3 | Blok tabanlı ortamda yapay zekâ destekli ürün ortaya koyma |
+
+Veri notu: MEB, BTY Dersi Öğretim Programı (5 ve 6. sınıflar), 2025; erişim 31 Ekim 2026.[1]
+
+## 5. sınıf: Yapay zekâ nerede, nasıl çalışıyor?
+
+Tema "Yapay zekâ sizce nerelerde kullanılabilir?" sorusuyla açılıyor. Program günlük hayattan örnekler sayıyor: akıllı telefonlar, film öneri sistemleri, ev otomasyonu, sağlıkta tanı uygulamaları, eğitimde ders çalışma programları. Gruplar kendilerine verilen başlıkta üç farklı yapay zekâ uygulaması listeliyor.[1]
+
+Çalışma sistemini anlatmak için programın önerdiği etkinlik basit ama öğretici: **meyve türleri**. Muz, armut, şeftali gibi meyvelerin fotoğrafları toplanıp her biri etiketleniyor; renk ve şekil gibi özellikler belirleniyor; bir yapay zekâ uygulamasında model oluşturulup hangi meyvenin hangisi olduğu öğretiliyor; sonra model yeni bir fotoğrafla test ediliyor. Öğrenciler böylece modelin **güvenilir veriyle beslenmesi gerektiğini** fark ediyor. Altyapı yoksa aynı etkinlik kâğıt, etiket kartı ve "Eğer bu meyve kırmızı ve yuvarlaksa elmadır" gibi kurallarla yapılıyor.[1]
+
+Ardından tahtaya "Yapay Zekânın Alt Dalları" başlığı yazılıyor; gruplar örneğin **makine öğrenmesini** veri girdisi ve çıktısını canlandıran bir drama ya da diyalogla anlatıyor ve alt dalları gruplandırıyor.[1]
+
+## 5. sınıf: Yapay zekâ etiği ve gizlilik
+
+BTY.5.5.2'de öğrenciler yapay zekâdaki etik ve güvenlik/gizlilik risklerini ve önlemlerini belirliyor. Gruplar akıllı telefon uygulamaları, oyunlar, robotlar ya da sağlık uygulamalarından birini seçip etik açıdan, hukuki boyutlarıyla ve alınması gereken e-güvenlik/e-gizlilik önlemleriyle tartışıyor. Performans görevinde seçilen alan **özel hayatın gizliliği, veri güvenliği, dijital bağımlılık riski ve ayrımcılık** gibi sorunlar açısından araştırılıp afiş ya da posterle sunuluyor.[1]
+
+Bu tartışmanın hukuki zemini kişisel verilerin korunması: 6698 sayılı Kanun kişisel veriyi kimliği belirli ya da belirlenebilir kişiye ilişkin her türlü bilgi olarak tanımlıyor.[2] Programın 5. sınıf etik teması da öğrencilere "Yapay zekâ uygulamalarına kişisel bilgilerinizi yazmak güvenli midir?" sorusunu soruyor.[1] Ayrıntı: [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+
+## 6. sınıf: Girdi, araçlar, model
+
+**Girdi (BTY.6.5.1).** Program girdinin önemini sayıyla anlatıyor: 100.000 yerine 500.000 etiketlenmiş bitki görüntüsüyle eğitilen bir modelin gördüğü bitkiyi doğru sınıflandırma oranı artar. Etkili girdinin özellikleri: verilerin doğru etiketlenmesi, farklı kaynaklardan çeşitli veri türleri, güncel veri, net ve anlaşılır ifadeler, gereksiz bilgiden arındırılmış olmak. Öğrenciler merak ettikleri bir konu için anket hazırlayıp veri topluyor, bu veriyi tablolama programında tablo ve grafiğe dönüştürüyor; anket sırasında başkalarının mahremiyetine saygı gösteriliyor.[1]
+
+Program net girdinin önemini günlük bir örnekle de anlatıyor: "Bu cumartesi günü gel" yerine "Gelecek cumartesi günü saat 17.00'de bizim eve gel" demek gerekir; yapay zekâ sistemlerinde de net ifadeler daha doğru çıktı verir.[1]
+
+**Araçlar (BTY.6.5.2).** Öğrencilere bilgi toplama, içerik üretme, dil çevirisi ve görsel oluşturma gibi farklı amaçlara hizmet eden yapay zekâ araçları tanıtılıyor. Gruplar bir senaryoya göre ihtiyacını belirleyip aracı seçiyor, net komutlar veriyor ve çıktıyı **uygunluk ve verimlilik** açısından değerlendiriyor. Bu aşamada hukuki boyut da açılıyor: "Bir yapay zekâ sistemi yanlış bir karar verirse sorumluluk kimde olur?"[1]
+
+**Model (BTY.6.5.3).** Öğrenciler gerçek bir hayat problemi belirleyip yapay zekâ araçlarıyla bir model oluşturuyor, uyguluyor ve süreç ile sonuçlarını değerlendiriyor. Performans görevi olarak millî ve manevi değerlere uygun, özgün bir model geliştirilip sunulabiliyor.[1] Yılın sonunda bu bilgi blok tabanlı ortamda yapay zekâ destekli bir ürüne dönüşüyor: [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama).
+
+## Uluslararası çerçevelerle karşılaştırma
+
+BTY'nin yapay zekâ teması dünyadaki okul çerçeveleriyle aynı yönde:
+
+- **AAAI ve CSTA'nın ortak çalışma grubu** okul öncesinden liseye yapay zekâ öğretimini beş büyük fikir etrafında kurguladı: algılama, temsil ve akıl yürütme, öğrenme, doğal etkileşim ve toplumsal etki.[3] BTY'deki meyve sınıflandırması "öğrenme", etik tartışmaları "toplumsal etki" fikrine karşılık geliyor.
+- **Long ve Magerko** alanyazından yapay zekâ okuryazarlığı için 17 yetkinlik ve 15 tasarım önerisi çıkardı; yapay zekânın ne olduğunu tanıma, ne yapabildiğini ve yapamadığını bilme ve verinin rolünü anlama bunların başında geliyor.[4]
+- **UNESCO'nun öğrenci çerçevesi** yetkinlikleri insan merkezli bakış, yapay zekâ etiği, yapay zekâ teknikleri ve uygulamaları ile yapay zekâ sistem tasarımı alanlarında, anlama, uygulama ve oluşturma düzeylerinde tanımlıyor.[5] BTY'nin 5. sınıfı daha çok anlama, 6. sınıfı uygulama ve oluşturma düzeyinde.
+
+AB'nin dijital yetkinlik çerçevesi DigComp 2.2 de yapay zekâ sistemleriyle etkileşimi vatandaş yetkinliklerinin parçası sayıyor.[6] ISTE'nin öğrenci standartları ise öğrencinin teknolojiyi bilinçli ve etik kullanan bir "dijital vatandaş" olmasını bekliyor.[7]
+
+## Öğretmenler için
+
+Program yapay zekâ araçlarının öğretmen rehberliğinde, sınırlı ve kontrollü kullanılmasını, öğrencinin bu araçlardan gelen bilginin güvenilirliğini sorgulamasını öngörüyor.[1] Öğretmenin kendi kullanımı için [eğitimde yapay zekâ: öğretmenler için](https://bote.web.tr/blog/egitimde-yapay-zeka-ogretmenler-icin). Temaya göre içerikler programın resmî sayfasında yayımlanıyor.[8]
+
+## Sık Sorulan Sorular
+
+### BTY'de yapay zekâ konusu var mı?
+
+Evet. Maarif Modeli BTY programında hem 5 hem 6. sınıfta ayrı bir Yapay Zekâ teması var; 5. sınıfta 8, 6. sınıfta 10 ders saati.
+
+### 5. sınıf yapay zekâ kazanımları nelerdir?
+
+BTY.5.5.1 yapay zekâ uygulamalarını sınıflandırma; BTY.5.5.2 yapay zekâya ilişkin etik ve güvenlik/gizlilik önlemlerini yönetme. Ayrıca ilk temada BTY.5.1.4 ile temel kavramlar sorgulanıyor.
+
+### 6. sınıf yapay zekâ kazanımları nelerdir?
+
+BTY.6.5.1 yapay zekâ girdileri hakkında bilgi toplama, BTY.6.5.2 yapay zekâ araçlarıyla çalışma, BTY.6.5.3 yapay zekâ araçlarıyla model geliştirme.
+
+### Yapay zekâda girdi neden önemli?
+
+Model, verilen veriden öğrenir. Program örneğinde 100.000 yerine 500.000 etiketli bitki görüntüsüyle eğitilen modelin doğru sınıflandırma oranı artıyor.
+
+### Öğrenciler derste yapay zekâ aracı kullanıyor mu?
+
+Program öğretmen rehberliğinde, amaca uygun ve kontrollü kullanım öngörüyor; öğrenciler aracı seçiyor, net komutlar veriyor ve çıktıyı uygunluk ve verimlilik açısından değerlendiriyor.
+
+### Yapay zekâ etiği derste nasıl işleniyor?
+
+Öğrenciler bir uygulamayı seçip özel hayatın gizliliği, veri güvenliği, dijital bağımlılık ve ayrımcılık açısından tartışıyor; yanlış kararın sorumluluğunun kimde olduğu soruluyor.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (2016). 6698 sayılı Kişisel Verilerin Korunması Kanunu. https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6698.pdf (TR, erişim: 2026-10-31)
+3. Touretzky, D., Gardner-McCune, C., Martin, F. ve Seehorn, D. (2019). Envisioning AI for K-12: What should every child know about AI?. Proceedings of the AAAI Conference on Artificial Intelligence, 33(01), 9795–9799. https://doi.org/10.1609/aaai.v33i01.33019795 (EN, erişim: 2026-10-31)
+4. Long, D. ve Magerko, B. (2020). What is AI literacy? Competencies and design considerations. Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, 1–16. https://doi.org/10.1145/3313831.3376727 (EN, erişim: 2026-10-31)
+5. UNESCO (2024). AI competency framework for students. https://doi.org/10.54675/JKJB9835 (EN, erişim: 2026-10-31)
+6. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+7. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
 8. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
 
 ---
@@ -2874,6 +3340,131 @@ Temel kimya %32, analitik kimya %20, organik kimya %20, anorganik kimya %16, fiz
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons
+
+> Yazılım lisans türleri: ücretsiz, deneme, demo, ticari, açık kaynak. Telif hakkı, ©, ™, ® sembolleri, Creative Commons lisansları ve BTY 6. sınıf kazanımları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/lisans-turleri-nelerdir
+
+## Özet
+
+- Telif hakkı, eser sahibinin eseri üzerindeki hakkı; Türkiye'de **5846 sayılı Kanun** bilgisayar programlarını da eser sayıyor.
+- Koruma süresi eser sahibinin yaşadığı süre ve ölümünden sonra **70 yıl**.
+- Yazılım lisansları kullanım hakkına göre: **ticari (satın alınan)**, **ücretsiz**, **deneme (trial)**, **tanıtım (demo)**, **açık kaynak**.
+- İçerikte **Creative Commons**: altı lisans (BY, BY-SA, BY-ND, BY-NC, BY-NC-SA, BY-NC-ND) ve kamuya adama aracı CC0.
+- BTY 6. sınıfta **BTY.6.4.2** (telif hakkı) ve **BTY.6.4.4** (lisans türleri) kazanımları.
+
+Lisans türleri ve telif hakkı, BTY 6. sınıfın Bilişim Etiği ve Siber Güvenlik temasında yer alıyor ama aslında her yaştan internet kullanıcısını ilgilendiriyor: indirdiğimiz oyun, sunuma koyduğumuz görsel, videoya eklediğimiz müzik. Bu yazı telif hakkını, yazılım lisans türlerini ve Creative Commons lisanslarını programın kazanımları ve resmî kaynaklarla anlatıyor.[1]
+
+## BTY programında telif ve lisans
+
+6. sınıf etik temasında bu konuya ayrılan iki öğrenme çıktısı var:[1]
+
+| Kazanım | Öğrencinin yaptığı |
+|---|---|
+| BTY.6.4.2. Telif hakkı kavramını sorgulayabilme | Merak ettiklerini tanımlar, soru sorar, bilgi toplar, doğruluğunu değerlendirir, çıkarım yapar |
+| BTY.6.4.4. Kullanım haklarına göre lisans türlerini karşılaştırabilme | Lisans türlerinin özelliklerini belirler, benzerliklerini ve farklılıklarını listeler |
+
+Konu tek bir temayla sınırlı değil: program 5. sınıftan itibaren görsel, belge, sunum, ses ve video hazırlarken kullanılan her içeriğin telif ve lisans durumunun kontrol edilmesini, kaynak gösterilmesini ve açık lisanslı içeriklerin tercih edilmesini istiyor.[1] 6. sınıfın tamamı için [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari).
+
+## Telif hakkı nedir?
+
+Telif hakkı, bir eserin sahibine tanınan haklardır. Türkiye'de bu haklar **5846 sayılı Fikir ve Sanat Eserleri Kanunu** ile korunuyor. Kanun dil ve yazıyla ifade edilen eserlerin yanında **her biçim altında ifade edilen bilgisayar programlarını** da ilim ve edebiyat eseri sayıyor.[2] Yani bir oyun ya da uygulama, bir roman gibi telifle korunan bir eser.
+
+Koruma süresi uzun: kanuna göre eser sahibinin **yaşadığı müddetçe ve ölümünden itibaren 70 yıl** devam ediyor.[2] Bu süre dolan eserler kamu malı hâline geliyor.
+
+Program telif hakkını kısa bir sunumla açıyor: telif hakkının müzik, kitap, film gibi eserlerin yaratıcılarına nasıl bir koruma sağladığı ve izinsiz kullanımın yasal sonuçları. Sunumda üç sembolün anlamı da işleniyor:[1]
+
+| Sembol | Anlamı |
+|---|---|
+| © | Telif hakkı (copyright) |
+| ™ | Ticari marka (trademark) |
+| ® | Tescilli ticari marka (registered) |
+
+Ardından öğrenciler "Telif hakkı ne demek? Kimler telif hakkına sahip olur? Telif hakkı ihlali ne gibi sonuçlar doğurur?" sorularını gruplar hâlinde araştırıyor, buldukları bilgilerin kaynağını ve güvenilirliğini sorguluyor. Vurgulanan nokta, yaratıcı eserlerin izinsiz kullanımında yaratıcıların emeğinin karşılıksız kalabileceği.[1]
+
+## Yazılım lisans türleri
+
+Lisans, bir ürünü hangi koşullarda kullanabileceğimizi belirleyen izindir. Program öğrencilerin günlük hayatta kullandıkları oyun, uygulama ve müziklerin lisans koşullarını ("ücretsiz, deneme sürümü, satın alınan, açık kaynak, Creative Commons") ailelerinin rehberliğinde incelemesini istiyor.[1] Kullanım haklarına göre yaygın türler:
+
+| Lisans türü | Özellik | Örnek durum |
+|---|---|---|
+| Ticari (satın alınan) | Ücret ödenerek kullanım hakkı alınır; kopyalanıp dağıtılamaz | Lisansı satın alınan ofis programı |
+| Ücretsiz | Ücret ödenmeden kullanılır; kaynak kodu genelde kapalıdır | Ücretsiz indirilen bir uygulama |
+| Deneme (trial) | Belirli bir süre kullanılır; süre bitince satın alma istenir | 30 günlük deneme sürümü |
+| Tanıtım (demo) | Özellikleri ya da bölümleri kısıtlanmış tanıtım sürümü | Yalnız ilk seviyesi oynanabilen oyun |
+| Açık kaynak | Kaynak kodu açıktır; incelenebilir, değiştirilebilir, yeniden dağıtılabilir | Açık kaynak tarayıcı ya da işletim sistemi |
+
+Programın örneği deneme ile demoyu ayırt etmeye güzel bir giriş: "Ayşe bir derginin ekinden bir oyun programı kurar. Oyunun ilk seviyesini tamamladıktan sonra oyunun sitesine yönlendiren bir uyarıyla karşılaşır. Bu durum hangi lisans türüne örnek olabilir?" Program ayrıca deneme ile tanıtım lisansı arasındaki farkı ve uygulama içi satın almaları sorduruyor.[1]
+
+Açık kaynağın ölçütleri Open Source Initiative'in tanımında sayılıyor: serbest yeniden dağıtım, kaynak kodun erişilebilir olması ve türev çalışmalara izin verilmesi bunların başında.[3]
+
+## Creative Commons lisansları
+
+Görsel, müzik, video gibi içeriklerde en çok karşılaşılan açık lisans Creative Commons (CC). Program CC lisanslarının içerik sahibinin hangi koşullarda paylaşım ve kullanım izni verdiğini gösterdiğini anlatıyor; örneğin "ticari olmayan, alıntı yapılarak kullanılabilir ya da üzerinde değişiklik yapılamaz" gibi.[1] Creative Commons'a göre en serbestten en kısıtlıya altı lisans var:[4]
+
+| Lisans | Anlamı |
+|---|---|
+| CC BY | Atıf yapılarak her amaçla kullanılabilir, değiştirilebilir |
+| CC BY-SA | Atıf + türev aynı lisansla paylaşılmalı |
+| CC BY-ND | Atıf + değiştirilmeden kullanılmalı |
+| CC BY-NC | Atıf + yalnız ticari olmayan kullanım |
+| CC BY-NC-SA | Atıf + ticari değil + aynı lisansla paylaşım |
+| CC BY-NC-ND | Atıf + ticari değil + değiştirilmeden |
+
+Bunlara ek olarak **CC0**, eser sahibinin haklarından vazgeçip eseri kamuya adamasını sağlayan bir araç.[4] Program 6. sınıfta öğretmenin Creative Commons, kamu malı ve telifli içeriklerden bir havuz hazırlamasını, grupların her içeriğin lisans türünü, kullanım koşullarını ve atıf gerekip gerekmediğini bir tabloya işlemesini öneriyor.[1]
+
+## Lisanssız yazılımın riskleri
+
+Program iki riske dikkat çekiyor: hakkı olmayanı kullanmanın **etik ve yasal sonuçları** ve lisanssız yazılımın **güvenlik riskleri**.[1] Siber güvenlik bölümünde de korsan yazılımlar üzerinden yayılan zararlı yazılımlar örnek riskler arasında sayılıyor.[1] Ayrıntı: [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+
+## Öğrenciler için kısa kurallar
+
+- Sunumda ya da ödevde kullandığın her görselin, müziğin ve alıntının **kaynağını yaz**.
+- Mümkünse **açık lisanslı** (CC) ya da kamu malı içerik seç; lisans şartlarına (atıf, ticari değil) uy.
+- Yapay zekâyla üretilen içerikte de lisans ve kullanım koşullarını kontrol et; program bu içeriklerin de lisans durumunun kontrol edilmesini istiyor.[1]
+- Bir uygulamayı kurmadan önce ücretsiz mi, deneme mi, hangi verileri topladığına bak.
+
+ISTE öğrenci standartları da "dijital vatandaş" rolünde fikrî mülkiyete saygıyı ve başkalarının eserlerini kullanırken haklarını gözetmeyi sayıyor.[5] DigComp 2.2'de telif ve lisansların dijital içerik üretiminin parçası olduğu belirtiliyor.[6] Konu ve kazanımlar programın resmî sayfasında da yer alıyor.[7]
+
+## Sık Sorulan Sorular
+
+### Lisans türleri nelerdir?
+
+Kullanım haklarına göre yaygın yazılım lisansları: ticari (satın alınan), ücretsiz, deneme (trial), tanıtım (demo) ve açık kaynak. İçerikler için ayrıca Creative Commons lisansları ve kamu malı vardır.
+
+### Deneme ve demo lisansı farkı nedir?
+
+Deneme (trial) sürümü genelde tam özellikli ama süreyle sınırlıdır; tanıtım (demo) sürümü ise özellikleri ya da bölümleri kısıtlanmış bir tanıtım sürümüdür. BTY programı bu farkı ayrıca sorduruyor.
+
+### Telif hakkı nedir?
+
+Kitap, müzik, film, fotoğraf ve bilgisayar programı gibi eserlerin sahibine tanınan haklardır. Türkiye'de 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile korunur.
+
+### ©, ™ ve ® ne demek?
+
+© telif hakkı, ™ ticari marka, ® tescilli ticari marka sembolüdür. BTY 6. sınıf programında bu sembollerin anlamları işleniyor.
+
+### Creative Commons nedir?
+
+Eser sahibinin hangi koşullarda paylaşım ve kullanım izni verdiğini gösteren standart lisanslardır. Örneğin BY atıf ister, NC ticari kullanımı yasaklar, ND değiştirmeye izin vermez.
+
+### Lisanssız yazılım kullanmak suç mu?
+
+Hakkı olmayan yazılımı kullanmak telif hakkı ihlalidir ve hukuki sonuç doğurabilir; BTY programı ayrıca korsan yazılımların zararlı yazılım yayma riskine dikkat çekiyor.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Mevzuat Bilgi Sistemi (1951). 5846 sayılı Fikir ve Sanat Eserleri Kanunu. https://www.mevzuat.gov.tr/mevzuatmetin/1.3.5846.pdf (TR, erişim: 2026-10-31)
+3. Open Source Initiative (2024). The Open Source Definition. https://opensource.org/osd (EN, erişim: 2026-10-31)
+4. Creative Commons (2026). About CC Licenses. https://creativecommons.org/share-your-work/cclicenses/ (EN, erişim: 2026-10-31)
+5. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+6. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
 
 ---
 
@@ -4515,7 +5106,7 @@ Evet. AGS eğitim bilimleri ve Türk millî eğitim sistemi alt testinin konular
 
 > Siber güvenlik nedir, güçlü şifre nasıl oluşturulur? Gizlilik, bütünlük, erişilebilirlik; siber zorbalık, iki adımlı doğrulama ve BTY 5-6. sınıf kazanımları.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre
 
 ## Özet
 
@@ -4564,6 +5155,8 @@ Bu tehditlerin çoğu kişisel veriyi hedefliyor. 6698 sayılı Kanun kişisel v
 ## Güçlü şifre nasıl oluşturulur?
 
 Program öğrencilere güçlü şifre kurallarını anlatıyor (büyük-küçük harf, rakam ya da özel karakter kullanmak gibi) ve her öğrenciden bir güçlü şifre örneği oluşturmasını istiyor; bunun yanında gizlilik ayarlarını kontrol etmek, **iki faktörlü doğrulama** ve güvenli bağlantı kullanmak da temel önlemler arasında.[1]
+
+6. sınıf programı bu kuralı somutlaştırıyor: parola **en az 8 karakter** uzunlukta olmalı, büyük ve küçük harf, rakam ve özel karakter içermeli. Aynı bölümde parola yöneticisiyle güvenli parola saklama, iki faktörlü kimlik doğrulamanın nasıl kullanılacağı, **HTTPS** ve adres çubuğundaki kilit simgesinin anlamı ve genel Wi-Fi ağlarının riskleri de işleniyor.[1]
 
 Güncel resmî kılavuzlar bu kurallara önemli bir vurgu ekliyor: **en önemli özellik uzunluk.** ABD Ulusal Standartlar ve Teknoloji Enstitüsü'nün (NIST) dijital kimlik kılavuzu, tek başına kullanılan şifrelerin **en az 15 karakter** olmasını şart koşuyor; sistemlerin kullanıcıya karakter türü karıştırma zorunluluğu getirmemesini, şifreyi düzenli aralıklarla değiştirmeye zorlamamasını, ama yaygın ya da sızdırılmış şifreleri reddetmesini istiyor.[3] ABD Siber Güvenlik Ajansı'nın (CISA) kamuya yönelik rehberi de üç ipucu veriyor:[4]
 
@@ -18428,7 +19021,7 @@ AGS ve akademi süreci MEB'e bağlı resmî okullara öğretmen olarak atanmayı
 
 > Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorunlu, neyi amaçlar, hangi öğretmen okutur? Avrupa'daki bilişim eğitimiyle karşılaştırmalı rehber.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 4 dk okuma · https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-25 · Güncelleme: 2026-09-25 · 5 dk okuma · https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi
 
 ## Özet
 
@@ -18504,7 +19097,7 @@ Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken 
 
 BTY, ortaokuldaki tek zorunlu bilişim dersi olarak öğrencilerin dijital dünyaya ilk sistemli girişini sağlar. Dersin başarısı, alanında yetişmiş öğretmenlere bağlıdır. Dersin temelindeki düşünme becerisini merak ediyorsanız [bilgi işlemsel düşünme nedir?](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızı okuyabilirsiniz.
 
-Sınıf sınıf konular için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi), [dijital vatandaşlık](https://bote.web.tr/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+Sınıf sınıf konular için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi), [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama), [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari), [bit ve byte](https://bote.web.tr/blog/bit-byte-nedir), [bilgisayar ağları](https://bote.web.tr/blog/bilgisayar-aglari-nedir), [lisans türleri](https://bote.web.tr/blog/lisans-turleri-nelerdir), [dijital vatandaşlık](https://bote.web.tr/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
 
 ## Sık Sorulan Sorular
 

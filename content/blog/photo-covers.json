@@ -5182,5 +5182,165 @@
         "bytes": 115744
       }
     ]
+  },
+  {
+    "slug": "blok-tabanli-programlama",
+    "title": "Blok Tabanlı Programlama Nedir? BTY 5 ve 6. Sınıf",
+    "alt": "Blok Tabanlı Programlama Nedir? BTY 5 ve 6. Sınıf",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "blok-tabanli-programlama.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 184842
+    },
+    "variants": [
+      {
+        "file": "blok-tabanli-programlama-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39890
+      },
+      {
+        "file": "blok-tabanli-programlama-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68538
+      },
+      {
+        "file": "blok-tabanli-programlama.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 128132
+      }
+    ]
+  },
+  {
+    "slug": "bty-yapay-zeka-konulari",
+    "title": "BTY Yapay Zekâ Konuları: 5 ve 6. Sınıf Kazanımları",
+    "alt": "BTY Yapay Zekâ Konuları: 5 ve 6. Sınıf Kazanımları",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bty-yapay-zeka-konulari.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 171166
+    },
+    "variants": [
+      {
+        "file": "bty-yapay-zeka-konulari-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36008
+      },
+      {
+        "file": "bty-yapay-zeka-konulari-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61534
+      },
+      {
+        "file": "bty-yapay-zeka-konulari.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 112514
+      }
+    ]
+  },
+  {
+    "slug": "lisans-turleri-nelerdir",
+    "title": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
+    "alt": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "lisans-turleri-nelerdir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "lisans-turleri-nelerdir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "lisans-turleri-nelerdir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "lisans-turleri-nelerdir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
+    "slug": "bit-byte-nedir",
+    "title": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
+    "alt": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bit-byte-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "bit-byte-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "bit-byte-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "bit-byte-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
+    "slug": "bilgisayar-aglari-nedir",
+    "title": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
+    "alt": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bilgisayar-aglari-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "bilgisayar-aglari-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "bilgisayar-aglari-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "bilgisayar-aglari-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
   }
 ]

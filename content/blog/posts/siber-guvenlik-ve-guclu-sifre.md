@@ -160,6 +160,8 @@ Bu tehditlerin çoğu kişisel veriyi hedefliyor. 6698 sayılı Kanun kişisel v
 
 Program öğrencilere güçlü şifre kurallarını anlatıyor (büyük-küçük harf, rakam ya da özel karakter kullanmak gibi) ve her öğrenciden bir güçlü şifre örneği oluşturmasını istiyor; bunun yanında gizlilik ayarlarını kontrol etmek, **iki faktörlü doğrulama** ve güvenli bağlantı kullanmak da temel önlemler arasında.[@bty-program]
 
+6. sınıf programı bu kuralı somutlaştırıyor: parola **en az 8 karakter** uzunlukta olmalı, büyük ve küçük harf, rakam ve özel karakter içermeli. Aynı bölümde parola yöneticisiyle güvenli parola saklama, iki faktörlü kimlik doğrulamanın nasıl kullanılacağı, **HTTPS** ve adres çubuğundaki kilit simgesinin anlamı ve genel Wi-Fi ağlarının riskleri de işleniyor.[@bty-program]
+
 Güncel resmî kılavuzlar bu kurallara önemli bir vurgu ekliyor: **en önemli özellik uzunluk.** ABD Ulusal Standartlar ve Teknoloji Enstitüsü'nün (NIST) dijital kimlik kılavuzu, tek başına kullanılan şifrelerin **en az 15 karakter** olmasını şart koşuyor; sistemlerin kullanıcıya karakter türü karıştırma zorunluluğu getirmemesini, şifreyi düzenli aralıklarla değiştirmeye zorlamamasını, ama yaygın ya da sızdırılmış şifreleri reddetmesini istiyor.[@nist-80063b] ABD Siber Güvenlik Ajansı'nın (CISA) kamuya yönelik rehberi de üç ipucu veriyor:[@cisa-parola]
 
 | İpucu | Açıklama |
