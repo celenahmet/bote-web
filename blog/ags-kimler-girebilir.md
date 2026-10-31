@@ -73,6 +73,8 @@ Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin ya
 
 Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[9] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[10] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[11] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
 
+Özel durumlar için: [şehit yakını, gazi ve millî sporcular](https://bote.web.tr/blog/sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik), [KKTC ve yurt dışı mezunları](https://bote.web.tr/blog/kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi); sınavdan atamaya süreç için [AGS'den atamaya kaç ay?](https://bote.web.tr/blog/ags-den-atamaya-surec)
+
 ## Sık Sorulan Sorular
 
 ### AGS'ye kimler girebilir?

@@ -5822,5 +5822,165 @@
         "bytes": 95266
       }
     ]
+  },
+  {
+    "slug": "aday-ogretmenlik-kalkti-mi",
+    "title": "Aday Öğretmenlik Kalktı mı? 7528 ile Ne Değişti?",
+    "alt": "Aday Öğretmenlik Kalktı mı? 7528 ile Ne Değişti?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "aday-ogretmenlik-kalkti-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166456
+    },
+    "variants": [
+      {
+        "file": "aday-ogretmenlik-kalkti-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33808
+      },
+      {
+        "file": "aday-ogretmenlik-kalkti-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57962
+      },
+      {
+        "file": "aday-ogretmenlik-kalkti-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 112062
+      }
+    ]
+  },
+  {
+    "slug": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik",
+    "title": "Şehit Yakını, Gazi ve Millî Sporcular İçin Öğretmenlik",
+    "alt": "Şehit Yakını, Gazi ve Millî Sporcular İçin Öğretmenlik",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181189
+    },
+    "variants": [
+      {
+        "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38708
+      },
+      {
+        "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66454
+      },
+      {
+        "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 124956
+      }
+    ]
+  },
+  {
+    "slug": "ags-den-atamaya-surec",
+    "title": "AGS'den Atamaya Kaç Ay? Adım Adım Süreç ve Takvim",
+    "alt": "AGS'den Atamaya Kaç Ay? Adım Adım Süreç ve Takvim",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-den-atamaya-surec.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188655
+    },
+    "variants": [
+      {
+        "file": "ags-den-atamaya-surec-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40990
+      },
+      {
+        "file": "ags-den-atamaya-surec-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 69122
+      },
+      {
+        "file": "ags-den-atamaya-surec.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 130242
+      }
+    ]
+  },
+  {
+    "slug": "ags-alan-basina-kac-aday",
+    "title": "AGS'de Rekabet: Alan Başına Kaç Aday Düşüyor?",
+    "alt": "AGS'de Rekabet: Alan Başına Kaç Aday Düşüyor?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-alan-basina-kac-aday.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 201765
+    },
+    "variants": [
+      {
+        "file": "ags-alan-basina-kac-aday-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 42536
+      },
+      {
+        "file": "ags-alan-basina-kac-aday-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 73434
+      },
+      {
+        "file": "ags-alan-basina-kac-aday.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 139320
+      }
+    ]
+  },
+  {
+    "slug": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi",
+    "title": "KKTC ve Yurt Dışı Mezunları Öğretmen Olabilir mi? AGS",
+    "alt": "KKTC ve Yurt Dışı Mezunları Öğretmen Olabilir mi? AGS",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181189
+    },
+    "variants": [
+      {
+        "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38708
+      },
+      {
+        "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66454
+      },
+      {
+        "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 124956
+      }
+    ]
   }
 ]

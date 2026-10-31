@@ -88,6 +88,8 @@ Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin ya
 
 Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[8] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[9] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[10] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
 
+Alanlara göre aday sayısı ile kontenjan karşılaştırması için [AGS'de rekabet: alan başına kaç aday düşüyor?](https://bote.web.tr/blog/ags-alan-basina-kac-aday)
+
 ## Sık Sorulan Sorular
 
 ### AGS 2026'ya kaç kişi girdi?

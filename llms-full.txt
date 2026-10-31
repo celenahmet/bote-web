@@ -2,6 +2,103 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://bote.web.tr/blog
 
+# Aday Öğretmenlik Kalktı mı? 7528 ile Ne Değişti?
+
+> Aday öğretmenlik kalktı mı? 7528 sayılı Kanunla adaylığın yerini Akademi hazırlık eğitimi aldı. 1 Eylül 2025 öncesi atananlar, AÖYP ve kadroya geçiş kuralları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/aday-ogretmenlik-kalkti-mi
+
+## Özet
+
+- 7528 sayılı Kanunla yeni sistemde **adaylık yok**: Akademiden gelen sözleşmeli öğretmenler kadroya geçerken adaylık hükümleri uygulanmıyor.
+- Adaylığın yerini **mesleğe başlamadan önceki** dört dönemlik hazırlık eğitimi aldı.
+- **1 Eylül 2025'e kadar** aday öğretmen olarak istihdam edilenler eski usulde **Aday Öğretmen Yetiştirme Programı**na tabi.
+- Bu programda en az **240 ders saati** hizmet içi eğitim ve danışman nezaretinde uygulama var; adaylık **1-2 yıl**.
+- Aday öğretmenlikte geçen süre **uzman öğretmen ve başöğretmenlik** için öğretmenlikte sayılıyor.
+
+Eski sistemde öğretmenler önce atanıyor, sonra **aday öğretmen** olarak bir ila iki yıl izleniyordu. 7528 sayılı Öğretmenlik Mesleği Kanunu bu sırayı tersine çevirdi: değerlendirme artık **atamadan önce**, Millî Eğitim Akademisindeki hazırlık eğitiminde yapılıyor. Bu yazı adaylığın ne olduğunu, kimler için devam ettiğini ve yeni sistemde neden uygulanmadığını Kanun maddeleriyle anlatıyor.[1]
+
+## Eski sistem: atama, sonra adaylık
+
+657 sayılı Devlet Memurları Kanunu'na göre memurluğa ilk kez atananlar adaylık sürecinden geçer. Öğretmenlikte de atanan öğretmenler göreve başladıktan sonra **aday öğretmen** sayılır, bir yetiştirme programını tamamlayıp en az bir yıl görev yaptıktan sonra adaylıkları kaldırılırdı. 7528 sayılı Kanun'un geçiş hükmü bu programın son hâlini tanımlıyor.[1]
+
+## Geçiş dönemi: 1 Eylül 2025'e kadar atananlar
+
+Kanun'un **geçici 2. maddesine** göre, maddenin yürürlüğe girdiği tarihte aday öğretmen olarak görev yapanlar ile **1 Eylül 2025 tarihine kadar** aday öğretmen olarak istihdam edilenler **Aday Öğretmen Yetiştirme Programına** tabi tutuluyor. Program iki bölümden oluşuyor:[1]
+
+| Bileşen | İçerik |
+|---|---|
+| Hizmet içi eğitim | Kişisel ve mesleki gelişime katkı sağlayan, memuriyete ve mesleğe hazırlığı içeren, **en az 240 ders saati** |
+| Uygulama | Görev alınacak kurumun temel görevlerini gözlemleme ve **bir danışman nezaretinde** uygulama |
+
+Adaylık süreci **bir yıldan az, iki yıldan çok** olamıyor. Programı tamamlayan ve bir yıllık görev süresini dolduran aday öğretmenlerin adaylıkları, süreç sonunda kaldırılarak öğretmenliğe atamaları yapılıyor.[1]
+
+Aynı madde sözleşmeli öğretmenler için de bir hüküm içeriyor: Kanun yürürlüğe girdiğinde sözleşmeli olarak görev yapıp adaylığı tamamlamamış olanlar da bu adaylık sürecine tabi tutuluyor; adaylığı tamamlayan sözleşmeli öğretmenlerden üç yılı doldurup kadroya atananlar hakkında ise adaylık hükümleri uygulanmıyor.[1] Kanun'un geçici 1. maddesi de 1 Eylül 2025'e kadar yapılan sözleşmeli ve kadrolu atamalarda eski mevzuatın uygulanacağını belirtiyor.[1]
+
+## Yeni sistem: adaylık yok
+
+1 Eylül 2025'ten sonra öğretmenliğe giriş Millî Eğitim Akademisi üzerinden yapılıyor. Hazırlık eğitimini başarıyla tamamlayanlar sözleşmeli öğretmen olarak istihdam ediliyor; üç yıllık çalışma süresini tamamlayanlar talepleri hâlinde kadroya atanıyor. Kanun'un 16. maddesi açık: **bu madde kapsamında öğretmen kadrolarına atanan sözleşmeli öğretmenler hakkında 657 sayılı Kanunda düzenlenen adaylık hükümleri uygulanmaz**.[1] Sözleşmeli öğretmenlik ve kadroya geçiş için [sözleşmeli öğretmenlik: ne zaman kadroya geçilir?](https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya)
+
+| | Eski sistem | Yeni sistem (7528) |
+|---|---|---|
+| Atamadan önce | KPSS ve atama | AGS, Akademide 4 dönem hazırlık eğitimi |
+| Mesleğe giriş değerlendirmesi | Atamadan **sonra**, adaylık sürecinde | Atamadan **önce**, Akademide |
+| Uygulama | Danışman nezaretinde, görev yerinde | Uygulama okulunda, eğitim personeli, müdür ve uygulama öğretmeniyle |
+| Başarısızlığın sonucu | Adaylığın kaldırılmaması | Akademiyle ilişiğin kesilmesi |
+| Kadroya geçişte adaylık | Var | **Yok** |
+
+Veri notu: 7528 sayılı Kanun md. 7-16 ve geçici 1-2; Hazırlık Eğitimi Programı.[1][2]
+
+## Adaylığın yerini ne aldı?
+
+Adaylıkta yapılan iki şey, hizmet içi eğitim ve danışman nezaretinde uygulama, yeni sistemde mesleğe başlamadan önceye taşındı. Akademinin programı onar haftalık dört dönemden oluşuyor; üç dönem ortak ve alan dersleri ile haftada bir gün uygulama, dördüncü dönem tamamen okulda **tam zamanlı öğretmenlik deneyimi**.[2] Adaylıktaki danışman öğretmenin yerini, uygulama okulundaki **uygulama öğretmeni** alıyor; uygulama öğretmeni önceliği başöğretmen, uzman öğretmen ve en kıdemli öğretmenlerde.[1] Ayrıntı için [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri).
+
+Önemli bir fark da sonuçta: yeni sistemde teorik derste 60, uygulamada 70 alamayan adayın Akademiyle ilişiği kesiliyor.[1] Ayrıntı: [akademide başarısız olursam ne olur?](https://bote.web.tr/blog/akademide-basarisiz-olursam-ne-olur)
+
+## Adaylıkta geçen süre kariyerde sayılıyor
+
+Geçiş dönemindeki öğretmenler için önemli bir güvence: **aday öğretmenlikte geçen süreler, uzman öğretmen ve başöğretmen ünvanlarının verilmesinde öğretmenlikte geçmiş sayılıyor**.[1] Uzman öğretmenlik için öğretmenlikte en az on yıl hizmet gerektiği düşünülürse bu, adaylık yıllarının kariyer basamaklarında kaybolmaması demek. Basamaklar için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Değerlendirme: önce mi, sonra mı?
+
+Dünyada iki yaklaşım da var: birçok ülkede mesleğe giriş bir deneme ya da adaylık dönemiyle başlıyor, bazı ülkelerde ise uzun bir okul uygulaması işe girişten önce yapılıyor. OECD'nin öğretmen politikaları raporu, hangi model seçilirse seçilsin mesleğe giriş döneminin destek ve değerlendirmeyle birlikte tasarlanmasını öneriyor.[3] TALIS verileri de yeni öğretmenlerin mesleğe giriş programlarına katılımının ülkelere göre çok değiştiğini gösteriyor.[4] Mesleğe giriş ve mentorluk programlarını inceleyen derleme ise bu desteğin yeni öğretmenlerin mesleğe bağlılığı, sınıf uygulamaları ve öğrenci başarısı üzerinde çoğunlukla olumlu etkili olduğunu buldu.[5] Yeni sistemde bu destek Akademide yoğunlaşıyor; atama sonrası ilk yıllarda yapılandırılmış bir destek olup olmayacağı ise ayrıca izlenmesi gereken bir konu. Kanunun genel çerçevesi için [Öğretmenlik Mesleği Kanunu (7528)](https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528).
+
+## Sık Sorulan Sorular
+
+### Aday öğretmenlik kalktı mı?
+
+Yeni sistemde kaldırıldı. Millî Eğitim Akademisinden gelip üç yıllık sözleşmeli dönemi tamamlayarak kadroya atananlar hakkında 657 sayılı Kanundaki adaylık hükümleri uygulanmıyor.
+
+### Adaylığın yerine ne geldi?
+
+Mesleğe başlamadan önce Millî Eğitim Akademisinde verilen dört dönemlik hazırlık eğitimi geldi. Ölçme ve değerlendirme artık atamadan önce, Akademide yapılıyor.
+
+### 2025'ten önce atananlar ne olacak?
+
+7528 sayılı Kanunun geçici 2. maddesine göre 1 Eylül 2025 tarihine kadar aday öğretmen olarak istihdam edilenler Aday Öğretmen Yetiştirme Programına tabi tutuluyor ve adaylık süreci sonunda adaylıkları kaldırılıyor.
+
+### Aday Öğretmen Yetiştirme Programı nedir?
+
+En az 240 ders saatlik hizmet içi eğitim ile danışman nezaretinde yapılan uygulamalardan oluşan programdır. Adaylık süreci bir yıldan az, iki yıldan çok olamaz.
+
+### Adaylıkta geçen süre uzman öğretmenlikte sayılır mı?
+
+Evet. Kanuna göre aday öğretmenlikte geçen süreler uzman öğretmen ve başöğretmen ünvanlarının verilmesinde öğretmenlikte geçmiş sayılıyor.
+
+### Sözleşmeli öğretmenler adaylıktan geçiyor mu?
+
+Kanun yürürlüğe girdiğinde görevde olup adaylığı tamamlamamış sözleşmeli öğretmenler adaylık sürecine tabi tutuldu. Yeni sistemde Akademiden gelenlerin kadroya geçişinde adaylık uygulanmıyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+3. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+4. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
+5. Ingersoll, R. M. ve Strong, M. (2011). The impact of induction and mentoring programs for beginning teachers: A critical review of the research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
 # AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri
 
 > AGS kaç soru ve kaç dakika? AGS 80 soru 110 dakika, ÖABT 50 soru 90 ya da 70 dakika. Alt testlere göre soru sayısı, soru başına süre, ek süre ve 2027 takvimi.
@@ -271,6 +368,111 @@ Resmî olarak alanlara göre en düşük yerleşen puan yayımlanmadı; sonuçla
 
 ---
 
+# AGS'de Rekabet: Alan Başına Kaç Aday Düşüyor?
+
+> AGS'de hangi alanda rekabet daha az? 2025 ÖABT aday sayıları ve Ocak 2026 kontenjanlarıyla kontenjan başına aday: sınıfta 5,6, edebiyatta 443.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ags-alan-basina-kac-aday
+
+## Özet
+
+- 2025'te ÖABT'ye **286.162** aday girdi; ÖABT'li 17 alanın Ocak 2026 kontenjanı toplam **6.574**.
+- Kontenjan başına aday: **sınıf öğretmenliğinde 5,6**, rehberlikte 32, okul öncesinde 87, tarihte 278, **Türk dili ve edebiyatında 443**.
+- Oran üst sınır niteliğinde: ÖABT'ye girenlerin hepsi başvurmuyor; son sınıf öğrencileri ve önceki yılların adayları da var.
+- 2026'da **özel eğitim ÖABT**'si eklendi (6.524 aday); Ocak 2026'da özel eğitim ÖABT'siz P1 puanıyla değerlendirilmişti.
+- Alan seçimi mezuniyete bağlı; birden çok alana kaynak mezuniyette **yalnız bir alana** başvurulabiliyor.
+
+AGS'de iyi bir puan, bir alanda Akademiye girmeye yetip başka bir alanda yetmeyebilir. Çünkü kontenjanlar alanlara göre ilan ediliyor ve her alanın aday havuzu çok farklı büyüklükte. Bu yazı ÖSYM'nin 2025 ÖABT aday sayılarını, aynı puanlarla yapılan Ocak 2026 başvurusunun kontenjanlarıyla karşılaştırıyor.[1][2]
+
+## Veri ve yöntem
+
+ÖSYM'ye göre 2025 MEB-AGS'de sınavı geçerli 383.425 aday vardı; ÖABT'ye **286.162** aday girdi.[1] Bu puanlarla yapılan Ocak 2026 başvurusunda Bakanlık 64 alan için toplam 10.000 kontenjan ilan etti; ÖABT'li 17 alanın (P2 puan türleri) kontenjanı **6.574**.[2] Aşağıdaki tabloda her ÖABT alanındaki aday sayısı, o alanın kontenjanına bölündü.
+
+## Alan alan kontenjan başına aday
+
+| ÖABT alanı | 2025 ÖABT adayı | Ocak 2026 kontenjanı | Kontenjan başına aday | 2026 ÖABT adayı |
+|---|---|---|---|---|
+| Sınıf Öğretmenliği | 15.691 | 2.816 | **5,6** | 14.936 |
+| Rehberlik | 19.414 | 603 | **32,2** | 23.236 |
+| Kimya/Kimya Teknolojisi | 3.282 | 101 | **32,5** | 2.812 |
+| Fizik | 2.827 | 65 | **43,5** | 2.509 |
+| Fen Bilimleri | 13.373 | 300 | **44,6** | 13.468 |
+| Türkçe | 17.083 | 382 | **44,7** | 17.070 |
+| Sosyal Bilgiler | 13.318 | 272 | **49,0** | 12.597 |
+| Din Kültürü ve İHL Meslek Dersleri | 49.523 | 781 | **63,4** | 50.666 |
+| Okul Öncesi | 57.039 | 653 | **87,3** | 61.068 |
+| Beden Eğitimi | 15.392 | 160 | **96,2** | 13.490 |
+| İlköğretim Matematik | 15.476 | 157 | **98,6** | 16.880 |
+| Matematik | 11.567 | 95 | **121,8** | 10.822 |
+| Biyoloji | 4.488 | 32 | **140,2** | 3.818 |
+| Coğrafya | 6.947 | 45 | **154,4** | 6.244 |
+| Tarih | 15.036 | 54 | **278,4** | 12.720 |
+| Türk Dili ve Edebiyatı | 25.706 | 58 | **443,2** | 20.947 |
+
+Veri notu: 2025 ve 2026 ÖABT aday sayıları ÖSYM sayısal bilgilerinden, kontenjanlar MEB'in Ocak 2026 başvuru duyurusundan (Ek-1); din kültürü ve İHL meslek dersleri ÖABT'de tek oturum olduğundan kontenjanlar (762 + 19) toplandı; erişim 31 Ekim 2026.[1][3][2]
+
+## Bu tablo ne söylüyor?
+
+**Fark çok büyük.** Sınıf öğretmenliğinde kontenjan başına 5,6 aday düşerken Türk dili ve edebiyatında bu sayı 443. Aynı sınavı aynı gün giren iki adaydan biri için Akademiye girmek görece kolay, diğeri için son derece zor.
+
+**Büyük kontenjan her zaman kolay demek değil.** Okul öncesinin kontenjanı 653 ile büyük, ama ÖABT'ye 57.039 aday girdiği için kontenjan başına 87 aday düşüyor. Din kültürü ve İHL'de de kontenjan büyük (781), aday sayısı (49.523) daha da büyük.
+
+**Ortaöğretim alan öğretmenlikleri en zorlu grup.** Tarih, coğrafya, biyoloji, matematik ve özellikle Türk dili ve edebiyatında kontenjanlar küçük, aday havuzları büyük. Bu alanların fen-edebiyat fakültesi mezunlarını da kapsaması havuzu genişletiyor.
+
+**2026 aday sayıları benzer.** 2026 ÖABT'sinde aday sayıları alanlar arasında büyük ölçüde benzer kaldı; okul öncesi (61.068) ve rehberlikte (23.236) artış, Türk dili ve edebiyatında (20.947) ve tarihte (12.720) düşüş var.[3] 2026 puanlarıyla yapılacak başvurunun kontenjanları henüz ilan edilmediği için yeni oranlar hesaplanamıyor.
+
+## Oranları yorumlarken dikkat
+
+- **Üst sınır gösterge.** ÖABT'ye girenlerin tamamı Akademiye başvurmuyor; son sınıf öğrencileri, 50 puanın altında kalanlar ve başka işte çalışmayı seçenler de havuzda.
+- **Kontenjan her dönem değişiyor.** Kontenjanlar atama izni verilen pozisyon sayısına göre her başvuru döneminde yeniden belirleniyor.[4]
+- **P1 alanları tabloda yok.** Özel eğitim, müzik, bilişim teknolojileri, felsefe ve meslek dersleri gibi ÖABT'siz alanlarda aday sayısı ayrıca yayımlanmadığı için oran hesaplanamıyor.
+
+## Özel eğitimde değişiklik
+
+Ocak 2026 başvurusunda özel eğitim (1.798 kontenjanla ikinci en büyük alan) **ÖABT'siz P1** puanıyla değerlendirilmişti.[2] 2026 kılavuzunda ise özel eğitim ÖABT'si ve **MEB-AGS-P2-18** puan türü yer aldı; bu teste 2026'da **6.524** aday girdi.[5][3] Bundan sonraki başvurularda özel eğitimde değerlendirmenin ÖABT'li puan türüyle yapılması bekleniyor; kesin kural başvuru duyurusunda belli olacak. Konular için [ÖABT özel eğitim konuları](https://bote.web.tr/blog/oabt-ozel-egitim-konulari).
+
+## Alan seçimi için
+
+Hangi alana başvurabileceğiniz mezun olduğunuz programa bağlı ve mezuniyeti birden çok alana kaynak olanlar **yalnız bir alana** başvurabiliyor.[2] Bu durumdaki adaylar için yukarıdaki oranlar, kendi puanlarıyla birlikte düşünülmesi gereken önemli bir veri. Öğretmen seçme araştırmaları, sınav puanının tek başına öğretmen etkililiğini sınırlı ölçüde yordadığını gösteriyor;[6] OECD de alanlar arasındaki arz-talep dengesizliğinin öğretmen politikasının temel sorunlarından biri olduğunu vurguluyor.[7] Alan seçimi için [ÖABT alan seçimi](https://bote.web.tr/blog/oabt-alan-secimi), kontenjanların tamamı için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Sık Sorulan Sorular
+
+### AGS'de en az rekabet hangi alanda?
+
+ÖABT'li alanlar içinde 2025 aday sayısı ile Ocak 2026 kontenjanı karşılaştırıldığında sınıf öğretmenliği kontenjan başına yaklaşık 5,6 adayla en düşük orana sahip; ardından rehberlik ve kimya geliyor.
+
+### AGS'de en çok rekabet hangi alanda?
+
+Türk dili ve edebiyatında kontenjan başına yaklaşık 443, tarihte 278, coğrafyada 154, biyolojide 140 aday düşüyor.
+
+### Bu oranlar kesin mi?
+
+Hayır, bir gösterge. ÖABT'ye giren herkes akademiye başvurmuyor; mezun olmayanlar ve farklı alanlara başvuranlar da sayıda var. Yine de alanlar arasındaki farkın büyüklüğü hakkında güvenilir bir fikir veriyor.
+
+### 2027 kontenjanları da böyle mi olacak?
+
+Bilinmiyor. Kontenjanlar her başvuru döneminde Bakanlığın ihtiyacına göre yeniden belirleniyor; bu yazıdaki oranlar ilk dönemin verisi.
+
+### İki alana başvurabilir miyim?
+
+Hayır. Mezuniyeti birden fazla alana kaynak olan adaylar yalnız bir alanda hazırlık eğitimine alınmak üzere başvurabiliyor; tercih bu tür verilerle düşünülerek yapılmalı.
+
+### Özel eğitimde ÖABT var mı?
+
+Evet, 2026'dan itibaren var. 2026 kılavuzunda özel eğitim ÖABT'si ve MEB-AGS-P2-18 puan türü yer aldı; 2026'da 6.524 aday bu teste girdi.
+
+## Kaynaklar
+
+1. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+2. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+4. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+5. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+6. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
+7. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+
+---
+
 # AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?
 
 > AGS'de 4 yanlış 1 doğruyu götürür mü? Net hesabı, boş bırakmak mı tahmin mi, 1 net şartı ve baraj puanı meselesi; ÖSYM kılavuzu ve 7528 sayılı Kanun'a göre.
@@ -469,6 +671,132 @@ MEB, KPSS döneminde öğretmen adayları için uygulanan 40 yaş sınırının 
 7. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
 8. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
 9. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+
+---
+
+# AGS'den Atamaya Kaç Ay? Adım Adım Süreç ve Takvim
+
+> AGS'yi kazandıktan sonra öğretmen ataması ne zaman? Sınav, Akademi başvurusu, 4 dönem hazırlık eğitimi ve yerleştirme; ilk grubun gerçek takvimiyle süreç.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ags-den-atamaya-surec
+
+## Özet
+
+- Süreç: **AGS → sonuç → MEB başvurusu → asıl/yedek ilanı → kayıt → 4 dönem hazırlık eğitimi → tercih ve yerleştirme → 3 yıl sözleşmeli → kadro**.
+- İlk grup: 2025 AGS puanıyla **Ocak 2026**'da başvurdu, **13 Nisan 2026**'da başladı, **22 Şubat 2027**'de bitiriyor.
+- Yerleştirme hazırlık eğitimi bitiminden itibaren **iki ay içinde**; ilk grup için AGS'den göreve yaklaşık **21 ay**.
+- 2026 AGS puanıyla başvuru takvimi 31 Ekim 2026 itibarıyla **duyurulmadı**.
+- 2027 AGS **8 Mayıs**, ÖABT **9 Mayıs**, sonuçlar **11 Haziran 2027**.
+
+"AGS'yi kazandım, ne zaman öğretmen olurum?" sorusunun cevabı eski KPSS dönemindeki gibi birkaç ay değil. Yeni sistemde sınav ile göreve başlama arasında bir başvuru dönemi, yaklaşık on ay süren hazırlık eğitimi ve bir yerleştirme süreci var. Bu yazı süreci adım adım, ilk grubun **gerçek takvimiyle** anlatıyor.[1]
+
+## Süreç bir bakışta
+
+| Adım | Ne oluyor? | Kim? |
+|---|---|---|
+| 1. AGS ve ÖABT | Sınav | ÖSYM |
+| 2. Sonuçlar | Puan ve başarı sırası | ÖSYM |
+| 3. Başvuru duyurusu | Alanlara göre kontenjan ve taban puan | MEB |
+| 4. Akademi başvurusu ve onay | e-Devlet ile başvuru, il/ilçe onayı | Aday, MEB |
+| 5. Asıl ve yedek ilanı | Puan sırasıyla seçim, merkez yerleştirmesi | MEB |
+| 6. Güvenlik soruşturması ve kayıt | Merkeze şahsen kayıt | MEB, Akademi |
+| 7. Hazırlık eğitimi | 4 dönem, teorik ve uygulamalı | Akademi |
+| 8. Tercih ve yerleştirme | Atamaya esas puanla okul tercihi | MEB |
+| 9. Göreve başlama | Tebliğden sonra 15 gün içinde | Aday |
+| 10. Sözleşmeli dönem ve kadro | 3 yıl, sonra talep hâlinde kadro | MEB |
+
+Veri notu: 7528 sayılı Kanun md. 9-16; Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik md. 7-18.[2][3]
+
+## İlk grubun gerçek takvimi
+
+Sistemin ilk grubu 2025 MEB-AGS puanlarıyla başvurdu. Resmî duyurulara göre tarihler:
+
+| Tarih | Olay |
+|---|---|
+| Temmuz 2025 | 2025 MEB-AGS |
+| 20-27 Ocak 2026 | Akademi başvurusu (2025 puanlarıyla) |
+| 30 Ocak 2026 | Asıl ve yedek adayların ilanı |
+| 25 Mart-3 Nisan 2026 | Merkezlere kayıt |
+| 8-10 Nisan 2026 | Yedek adayların kaydı |
+| 13 Nisan 2026 | 1. dönem başlangıcı |
+| 6 Temmuz-11 Eylül 2026 | 2. dönem |
+| 28 Eylül-4 Aralık 2026 | 3. dönem |
+| 7 Aralık 2026 | 4. dönem (tam zamanlı uygulama) başlangıcı |
+| 22 Şubat 2027 | Hazırlık eğitiminin bitişi |
+| En geç Nisan 2027 sonu | Okullara yerleştirmenin tamamlanması (iki ay kuralı) |
+
+Kaynaklar: başvuru ve ilan,[4][5] kayıt takvimi,[6] akademik takvim,[1] iki ay kuralı.[3] Son satır, yönetmelikteki "hazırlık eğitiminin bitiminden itibaren iki ay içinde" hükmünden hesaplandı; kesin tarih Bakanlığın duyurusuyla belli olacak.
+
+Bu takvimle ilk grupta **sınavdan göreve başlamaya yaklaşık 21 ay** geçiyor. Hazırlık eğitimi süresince ise adaylara aylık ödeme yapılıyor; ayrıntı için [akademi hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
+
+## 2026 AGS'ye girenler için
+
+ÖSYM'nin kılavuzuna göre 2026 MEB-AGS 26 Temmuz 2026'da yapıldı.[7] Bu puanla yapılacak Akademi başvurusunun tarihi ve kontenjanları **31 Ekim 2026 itibarıyla duyurulmadı**. İlk gruptaki gibi bir takvim izlenirse başvuru, sınavdan birkaç ay sonra yapılan bir duyuruyla açılacak; ama bu bir tahmin, resmî takvim değil. Yönetmeliğe göre MEB-AGS puanı, bir sonraki sınavın sonuçları açıklanana kadar geçerli; yani 2026 puanı 2027 sonuçları açıklanınca (11 Haziran 2027) geçerliliğini yitiriyor.[3][8] Başvurunun nasıl yapıldığı için [akademi başvurusu nasıl yapılır?](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu)
+
+## 2027 AGS takvimi
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart 2027**, AGS **8 Mayıs 2027 Cumartesi**, ÖABT **9 Mayıs 2027 Pazar**; sonuçlar **11 Haziran 2027**'de açıklanacak.[8] Sınav tarihi bu kez mayıs ayına alındığı için 2027 grubunun takvimi ilk gruptan farklı olabilir. Hazırlık için [AGS 2027 ne zaman?](https://bote.web.tr/blog/ags-2027-ne-zaman) ve [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi).
+
+## Hazırlık eğitimi sonrası
+
+Hazırlık eğitimini başarıyla tamamlayanlar sözleşmeli öğretmen olarak, atamaya esas başarı puanına göre ve tercihleri doğrultusunda okullara yerleştiriliyor; yerleşemeyenler için ikinci tercih ve kura var. Tebliğden sonra 15 gün içinde göreve başlanıyor.[3] Sözleşmeli öğretmenler üç yıl başka yere atanamıyor; üç yılı tamamlayınca talepleri hâlinde kadroya geçiyor.[2] Ayrıntı: [akademi sonrası tercih ve yerleştirme](https://bote.web.tr/blog/hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme) ve [sözleşmeli öğretmenlik](https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya).
+
+## Hangi siteyi ne zaman takip etmeli?
+
+Sürecin her aşamasının duyurusu farklı bir yerden yapılıyor ve bazı ilanlar tebligat yerine geçtiği için takip adayın sorumluluğunda:
+
+| Aşama | Nereden? |
+|---|---|
+| AGS başvurusu, sonuç | ÖSYM (ais.osym.gov.tr, sonuc.osym.gov.tr) |
+| Akademi başvurusu | akademibasvuru.meb.gov.tr (e-Devlet ile) |
+| Kontenjan, asıl ve yedek ilanı | personel.meb.gov.tr |
+| Kayıt ve hazırlık eğitimi duyuruları | akademi.meb.gov.tr |
+
+Ocak 2026 duyurusu, asıl ve yedek adaylar için posta ya da başka yolla tebligat yapılmayacağını, **internet ilanının tebligat niteliğinde** olduğunu açıkça belirtiyor.[9] Yerleştirme sonrasında ise göreve başlama için 7201 sayılı Tebligat Kanunu'na göre tebligat yapılıyor.[3] Bu yüzden özellikle başvuru ve ilan haftalarında iki MEB adresini düzenli kontrol etmek gerekiyor.
+
+## Bu kadar uzun süre neden?
+
+Sürenin büyük bölümü mesleğe hazırlıkla geçiyor: dört dönemin son dönemi tamamen okulda tam zamanlı uygulama. Mesleğe giriş programlarını inceleyen derleme, yeni öğretmenlere yapılandırılmış destek ve uygulamanın mesleğe bağlılık ve sınıf uygulamaları üzerinde çoğunlukla olumlu etkisi olduğunu gösteriyor.[10] OECD'nin TALIS araştırması da hizmet öncesi eğitimde uygulamanın, öğretmenlerin kendilerini mesleğe hazır hissetmeleriyle ilişkili olduğunu ortaya koyuyor.[11] Adaylar açısından pratik sonuç şu: AGS'ye hazırlanırken, sınavdan sonraki yaklaşık iki yıllık süreyi de (iş, şehir, ulaşım, konaklama) birlikte planlamak gerekiyor.
+
+## Sık Sorulan Sorular
+
+### AGS'yi kazanınca ne zaman atanırım?
+
+Doğrudan atama yok. Önce Bakanlığın duyurusuyla Millî Eğitim Akademisine başvuru, sonra yaklaşık on ay süren dört dönemlik hazırlık eğitimi, ardından iki ay içinde okul yerleştirmesi geliyor. İlk grupta sınavdan göreve yaklaşık 21 ay geçiyor.
+
+### Akademi kaç ay sürüyor?
+
+Program onar haftalık dört dönemden oluşuyor. İlk grubun takviminde eğitim 13 Nisan 2026'da başlayıp 22 Şubat 2027'de bitiyor; arada dönem araları ve 21-27 Eylül ara tatili var.
+
+### 2026 AGS puanıyla akademiye ne zaman başvurulacak?
+
+31 Ekim 2026 itibarıyla duyurulmadı. Başvuru tarihleri, kontenjanlar ve taban puan Bakanlığın başvuru duyurusunda ilan edilecek.
+
+### 2027 AGS ne zaman?
+
+ÖSYM takvimine göre başvurular 19-29 Mart 2027, AGS 8 Mayıs 2027, ÖABT 9 Mayıs 2027; sonuçlar 11 Haziran 2027'de açıklanacak.
+
+### Akademiden sonra hemen kadrolu mu oluyorum?
+
+Hayır. Önce sözleşmeli öğretmen olarak yerleştiriliyorsunuz; üç yıllık çalışma süresini tamamlayınca talep ederseniz kadroya atanıyorsunuz.
+
+### AGS puanım ne kadar geçerli?
+
+Yönetmeliğe göre MEB-AGS puanları sonuçların açıklanmasından bir sonraki sınavın sonuçları açıklanana kadar geçerli.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Akademik Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-akademik-takvimi-aciklandi/haber/40418/tr (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisine Hazırlık Eğitimi Başvuru Duyurusu Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisine-hazirlik-egitimi-basvuru-duyurusu-yayimlandi/haber/39483/tr (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Hazırlık Eğitimine Alınacak Adaylar İlan Edildi. https://www.meb.gov.tr/milli-egitim-akademisinde-hazirlik-egitimine-alinacak-adaylar-ilan-edildi/haber/39683/tr (TR, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+8. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+9. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+10. Ingersoll, R. M. ve Strong, M. (2011). The impact of induction and mentoring programs for beginning teachers: A critical review of the research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+11. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
 
 ---
 
@@ -4507,6 +4835,110 @@ Temel kimya %32, analitik kimya %20, organik kimya %20, anorganik kimya %16, fiz
 
 ---
 
+# KKTC ve Yurt Dışı Mezunları Öğretmen Olabilir mi? AGS
+
+> KKTC ya da yurt dışı üniversite mezunu AGS ile öğretmen olabilir mi? YÖK denkliği, KKTC'de 2011-2012 ayrımı, Manas ve Yesevi, atamalarda geçersizdir şerhi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi
+
+## Özet
+
+- Yurt dışı mezunlarının AGS ile Akademiye başvurabilmesi için diplomanın **YÖK tarafından denk** kabul edilmiş olması gerekiyor.
+- KKTC'de **2011-2012 bahar yarıyılından önce** mezun olanlar YÖK'ten denklik ya da geçerlilik belgesi almalı.
+- O tarihten sonra mezun olanlardan denklik istenmiyor; diploma arkasında **ÖSYM ile yerleştirme onayı ibaresi** aranıyor.
+- **Manas** ve **Hoca Ahmet Yesevî** üniversitesi mezunlarından denklik belgesi istenmiyor.
+- Denklik belgesinde **"Öğretmen atamalarında geçersizdir"** şerhi varsa başvuru kabul edilmiyor.
+
+Kuzey Kıbrıs Türk Cumhuriyeti'nde (KKTC) ya da başka bir ülkede üniversite okuyanlar için en kritik soru, diplomalarının öğretmenlik için geçerli olup olmadığı. Kısa cevap: Kanun yurt dışı programlarını kabul ediyor ama **denklik** şartı koyuyor; KKTC için ise tarihe göre değişen ayrı kurallar var. Bu yazı Ocak 2026 başvuru duyurusundaki kuralları anlatıyor.[1]
+
+## Kanun ne diyor?
+
+7528 sayılı Kanun'un 7. maddesine göre öğretmen olarak istihdam edilecekler, öğretmenlik mesleğine kaynak teşkil eden **en az lisans düzeyindeki** yükseköğretim programlarından **veya bunlara denkliği kabul edilen yurt dışı yükseköğretim programlarından** mezun olup hazırlık eğitiminde başarılı olanlar arasından seçiliyor.[2] Yani yurt dışı diploması yolu kapatmıyor; kapıyı denklik açıyor. Hangi programın hangi öğretmenlik alanına kaynak olduğu ise Talim ve Terbiye Kurulu'nun esaslarındaki çizelgeyle belirleniyor.[3]
+
+## Yurt dışı mezunları: YÖK denkliği
+
+Başvuru duyurusundaki şart açık: **yurt dışındaki yükseköğretim kurumlarından mezun olanların, Yükseköğretim Kurulu Başkanlığınca yükseköğrenimlerinin yurt içindeki yükseköğretim kurumlarına veya programlarına denkliği kabul edilmiş olması** gerekiyor.[1] Denklik başvuruları YÖK'ün elektronik denklik sistemi üzerinden yapılıyor.[4] Başvuru sırasında adaylar varsa denklik belgesinin ön ve arka yüzlerini sisteme yüklüyor.[1]
+
+Denklik süreci zaman alabildiği için, yurt dışında okuyan adayların denklik başvurusunu AGS'den önce, mümkünse mezuniyetin hemen ardından yapması önemli. Başvuru ve onay adımları için [akademi başvurusu nasıl yapılır?](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu)
+
+## "Öğretmen atamalarında geçersizdir" şerhi
+
+Duyuruda dikkat edilmesi gereken bir kural daha var: **ibraz edilen denklik belgelerinde "Öğretmen atamalarında geçersizdir." şerhi bulunanların başvuruları kabul edilmiyor**.[1] Yani her denklik belgesi öğretmenlik için yeterli değil; belgenin üzerindeki şerhi kontrol etmek gerekiyor.
+
+## Denklik istenmeyen iki üniversite
+
+Duyuruya göre **Hoca Ahmet Yesevî Uluslararası Türk-Kazak Üniversitesi** ile **Kırgızistan-Türkiye Manas Üniversitesi** mezunlarından denklik belgesi istenmiyor.[1] Bu iki üniversite Türkiye'nin taraf olduğu uluslararası anlaşmalarla kurulduğu için mezunları yurt içi mezunu gibi değerlendiriliyor.
+
+## KKTC mezunları: 2011-2012 ayrımı
+
+KKTC üniversiteleri için duyuru, YÖK'ün 15.02.2012 tarihli ve 2012/5 sayılı kararına dayanan iki ayrı kural uyguluyor:[1]
+
+| Mezuniyet tarihi | Ne gerekiyor? |
+|---|---|
+| 2011-2012 bahar yarıyılından **önce** | YÖK'e başvurularak alınan **denklik** ya da yükseköğrenimin geçerli olduğuna dair belge; belge ibraz edemeyen başvuramıyor |
+| 2011-2012 bahar yarıyılından **itibaren** | Denklik istenmiyor; mezuniyet belgesinin arka yüzünde, mezun olunan kuruma **ÖSYM tarafından yerleştirildiğine** dair KKTC Millî Eğitim ve Kültür Bakanlığı onayı ibaresi aranıyor |
+
+Veri notu: MEB Personel Genel Müdürlüğü, Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026), bölüm Ç; erişim 31 Ekim 2026.[1]
+
+İkinci satırdaki şart önemli: KKTC'deki bir üniversiteye ÖSYM aracılığıyla yerleşmeyen (örneğin doğrudan üniversitenin kendi sınavıyla kabul edilen) adaylar bu kolaylıktan yararlanamayabilir. Diplomanın arka yüzündeki ibareyi başvurudan önce kontrol etmek gerekiyor.
+
+## KKTC vatandaşları
+
+Ocak 2026 duyurusunda başvuru şartlarının ilki Türk vatandaşı olmaktı; ancak **KKTC vatandaşları için Türk vatandaşı olma şartı aranmadı**.[1] Kanun'un 9. maddesi genel kuralı Türk vatandaşlığı olarak koyduğu için, bu konudaki uygulama her dönemin duyurusunda kontrol edilmeli.[2]
+
+## Denklik yetmez: alan uygunluğu
+
+Denklik, diplomanın Türkiye'deki hangi programa karşılık geldiğini belirliyor. Bundan sonra o programın **hangi öğretmenlik alanına kaynak** olduğu, TTKB esaslarındaki çizelgeye göre değerlendiriliyor.[3] Adaylar mezun oldukları programın alana uygunluğunu MEB'in kaynak okul sorgulama ekranından kontrol edebiliyor; ekrandaki "Notlar" bölümündeki özel durumlara dikkat edilmesi isteniyor.[1] Hangi bölümün hangi alana kaynak olduğu için [hangi bölümler öğretmen olabilir?](https://bote.web.tr/blog/hangi-bolumler-ogretmen-olabilir)
+
+## Yurt dışında okuyanlar için kontrol listesi
+
+1. **Programın Türkiye karşılığı.** Okuduğunuz programın denklik sonucunda hangi yurt içi programa karşılık geleceğini önceden araştırın; denklik başvurusu YÖK'ün elektronik sistemi üzerinden yapılıyor.[4]
+2. **Alan uygunluğu.** O yurt içi programın hangi öğretmenlik alanına kaynak olduğunu TTKB çizelgesinden kontrol edin.[3]
+3. **Şerh kontrolü.** Denklik belgesinde "öğretmen atamalarında geçersizdir" şerhi olup olmadığına bakın.[1]
+4. **Ek belgeler.** Bazı programlar için ek kredi belgesi isteniyor; örneğin felsefe mezunlarından 16 kredi sosyoloji ve 16 kredi psikoloji, sosyoloji mezunlarından 8 kredi mantık, 16 kredi felsefe ve 16 kredi psikoloji aldıklarına dair belge.[1]
+5. **Zamanlama.** Denklik belgesinin başvuru döneminden önce elinizde olması gerekiyor; duyuruda belirtilen süre içinde eksik belgeyle yapılan başvurular reddedilebiliyor.[1]
+
+## Uluslararası tanınma
+
+Avrupa'da yükseköğretim yeterliklerinin ülkeler arasında tanınması, Lizbon Tanıma Sözleşmesi çerçevesinde ulusal bilgi merkezlerinden oluşan **ENIC-NARIC** ağıyla yürütülüyor.[5] Öğretmenlik ise birçok ülkede diploma tanınmasının ötesinde ek bir mesleki yetkilendirme gerektiren düzenlenmiş bir meslek; OECD'nin öğretmen politikaları raporu da ülkelerin öğretmenliğe girişi lisans diplomasının yanında mesleki hazırlık ve seçme süreçleriyle düzenlediğini gösteriyor.[6] Türkiye'deki yeni modelde bu ek aşama, herkes için ortak olan Millî Eğitim Akademisi hazırlık eğitimi. Genel şartlar için [AGS'ye kimler girebilir?](https://bote.web.tr/blog/ags-kimler-girebilir)
+
+## Sık Sorulan Sorular
+
+### KKTC mezunu öğretmen olabilir mi?
+
+Evet, şartları taşıyorsa. 2011-2012 bahar yarıyılından önce mezun olanlar YÖK'ten denklik ya da geçerlilik belgesi almalı; sonra mezun olanlar için diploma arkasında ÖSYM ile yerleştirildiğine dair KKTC onayı ibaresi gerekiyor.
+
+### Yurt dışı diplomasıyla AGS'ye girebilir miyim?
+
+AGS'ye başvurmak ÖSYM'nin kılavuzuna bağlı; ama Akademiye kabul için yurt dışındaki programın YÖK tarafından Türkiye'deki bir programa denk kabul edilmiş ve öğretmenlik alanına kaynak olması gerekiyor.
+
+### Denklik nereden alınır?
+
+Yurt dışı diploma denkliği için Yükseköğretim Kurulunun denklik.yok.gov.tr adresindeki elektronik sistemi üzerinden başvuruluyor.
+
+### Manas ve Yesevi mezunları denklik alacak mı?
+
+Hayır. Ocak 2026 duyurusuna göre Hoca Ahmet Yesevî Uluslararası Türk-Kazak Üniversitesi ile Kırgızistan-Türkiye Manas Üniversitesi mezunlarından denklik belgesi istenmiyor.
+
+### Denkliğimde "öğretmen atamalarında geçersizdir" yazıyor, ne olur?
+
+Bu şerhi taşıyan denklik belgeleriyle yapılan başvurular kabul edilmiyor.
+
+### KKTC vatandaşları başvurabilir mi?
+
+Ocak 2026 duyurusunda Türk vatandaşı olma şartı Kuzey Kıbrıs Türk Cumhuriyeti vatandaşları için aranmadı.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+4. Yükseköğretim Kurulu (2026). Yurt Dışı Diploma Denklik Başvuru Sistemi. https://denklik.yok.gov.tr (TR, erişim: 2026-10-31)
+5. ENIC-NARIC Networks (Council of Europe ve UNESCO) (2026). ENIC-NARIC Networks: Gateway to recognition of qualifications. https://www.enic-naric.net/ (EN, erişim: 2026-10-31)
+6. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+
+---
+
 # Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons
 
 > Yazılım lisans türleri: ücretsiz, deneme, demo, ticari, açık kaynak. Telif hakkı, ©, ™, ® sembolleri, Creative Commons lisansları ve BTY 6. sınıf kazanımları.
@@ -6999,6 +7431,105 @@ Görselin konuyla ilgili olmasına ve lisansına. BTY programı her görsel, ses
 
 ---
 
+# Şehit Yakını, Gazi ve Millî Sporcular İçin Öğretmenlik
+
+> Şehit yakını, gazi, devlet korumasında yetişenler ve millî sporcular AGS'siz öğretmen olabilir mi? 7528 md. 9 istisnası, hak sahipliği, Akademide öncelik.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik
+
+## Özet
+
+- 2828 sayılı Kanun, 3713 sayılı Kanun kapsamındakiler ve **millî sporcular** için hazırlık eğitimine alınmada **sınav puanı şartı aranmıyor**.
+- Diğer şartlar (mezuniyet, sağlık, sabıka vb.) herkes için geçerli; hazırlık eğitimi de zorunlu.
+- 2828 ve 3713 kapsamındaki adayları **Aile ve Sosyal Hizmetler Bakanlığı** belirliyor.
+- Ocak 2026'da beden eğitiminin 160 kontenjanından **16**'sı millî sporculara ayrıldı.
+- Merkez ve konaklama yerleştirmesinde bu gruplar MEB-AGS puanlı adaylardan **önce** geliyor.
+
+Öğretmenliğe giriş için genel yol AGS puanıyla Millî Eğitim Akademisine başvurmak. Kanun ise üç grup için bu yolda bir istisna tanıyor: **2828 sayılı Sosyal Hizmetler Kanunu** ve **3713 sayılı Terörle Mücadele Kanunu** kapsamındaki hak sahipleri ile **millî sporcular**. Bu yazı istisnanın kapsamını ve sınırlarını resmî metinlerle anlatıyor.[1]
+
+## İstisna: sınav puanı şartı aranmıyor
+
+7528 sayılı Kanun'un 9. maddesi hazırlık eğitimine alınacaklarda aranan şartları sayıyor; bunlardan biri ÖSYM sınavlarından Bakanlıkça belirlenen puana sahip olmak. Aynı maddenin üçüncü fıkrasına göre **2828 sayılı Kanun, 3713 sayılı Kanun kapsamındaki ve millî sporcu statüsündeki öğretmen adaylarının hazırlık eğitimine alınmasında, sınav puanı şartı dışındaki diğer şartlar aranıyor**.[1] Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik de bu üç grup için MEB-AGS taban puanı şartının aranmayacağını tekrarlıyor.[2]
+
+İstisna yalnız **sınav puanı** için. Türk vatandaşlığı, kamu haklarından mahrum olmamak, sayılan suçlardan mahkûmiyet bulunmamak, askerlik durumu, sağlık ve en önemlisi **öğretmenlik alanına kaynak bir yükseköğretim programından mezun olmak** şartları bu adaylar için de geçerli.[1] Genel şartlar için [AGS'ye kimler girebilir?](https://bote.web.tr/blog/ags-kimler-girebilir)
+
+## Kimler kapsamda?
+
+**3713 sayılı Kanun.** Kanun'un ek 1. maddesi, kamu kurumlarının Aile ve Sosyal Hizmetler Bakanlığınca hak sahibi olduğu belirlenen ve Devlet Personel Başkanlığınca kura sonucu atama teklifi yapılanları atamak zorunda olduğunu söylüyor. Hak sahipliği doğuran durumlar arasında **harp ve vazife malulleri** (gaziler) ile terör olaylarında hayatını kaybedenlerin kanunda sayılan yakınları bulunuyor.[3]
+
+**2828 sayılı Kanun.** Kanun'un ek 1. maddesi (22 Nisan 2026 tarihli 7578 sayılı Kanunla değişik) kamuda istihdam hakkını, hakkında korunma kararı ya da bakım tedbiri kararı alınmış, bu kararlar devam ederken **en az beş yıl kuruluş bakımı veya koruyucu aile** hizmetinden fiilen yararlanmış ve diğer şartları (en az ortaöğretim mezunu olmak, belirlenen süre içinde başvurmak, başvuru tarihinde 30 yaşından gün almamış olmak vb.) taşıyan gençlere tanıyor.[4]
+
+**Millî sporcular.** Millî sporcu statüsündekilerin hazırlık eğitimine alınması Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslara göre belirleniyor.[2]
+
+## Adayları kim belirliyor?
+
+Yönetmelik bunu açıkça ayırıyor:[2]
+
+| Grup | Hazırlık eğitimine alınacakları belirleyen |
+|---|---|
+| 2828 sayılı Kanun kapsamındakiler | Aile ve Sosyal Hizmetler Bakanlığı |
+| 3713 sayılı Kanun kapsamındakiler | Aile ve Sosyal Hizmetler Bakanlığı |
+| Millî sporcular | Sözleşmeli Personel Çalıştırılmasına İlişkin Esaslar |
+| Engelli adaylar | EKPSS puan üstünlüğü |
+| Diğer adaylar | MEB-AGS puan üstünlüğü |
+
+Yani bu gruplardaki bir adayın süreci, MEB'in AGS'li başvurusundan farklı olarak hak sahipliğinin ilgili kurumca belirlenmesiyle başlıyor. Engelli adaylar için ayrıca [AGS engelli adaylar](https://bote.web.tr/blog/ags-engelli-adaylar).
+
+## Millî sporculara ayrılan kontenjan
+
+Ocak 2026 başvuru duyurusunda bu grubun somut bir karşılığı vardı: **beden eğitimi** alanı için ayrılan 160 kontenjanın **16'sı millî sporculardan** hazırlık eğitimine alınacaklar için kullanıldı.[5] Diğer alanlarda millî sporculara ayrılmış bir kontenjan duyuruda yer almıyor. Tüm alanlar için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Akademide öncelik
+
+Hazırlık Eğitimi Yönetmeliği, birden fazla merkezde eğitim verilen alanlarda **merkeze yerleştirmede** bir sıra koyuyor: önce EKPSS puanıyla başvuranlar, sonra 2828 sayılı Kanun kapsamındakiler, 3713 sayılı Kanun kapsamındakiler, millî sporcular ve en son MEB-AGS puanı yüksek olandan başlayarak diğer adaylar.[6] Aynı sıra **konaklama** yerlerinin dağıtımında da uygulanıyor.[6] Merkezler için [Millî Eğitim Akademisi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde)
+
+## Hazırlık eğitiminde fark yok
+
+İstisna giriş aşamasıyla sınırlı. Hazırlık eğitimi, teorik dersler, uygulama, devam ve başarı şartları bu adaylar için de aynı: teorik derste 60, uygulamada 70 alamayanın Akademiyle ilişiği kesiliyor; okula yerleştirme atamaya esas başarı puanına göre yapılıyor.[1] Ayrıntı: [atamaya esas başarı puanı](https://bote.web.tr/blog/atamaya-esas-basari-puani).
+
+## Neden böyle bir istisna?
+
+Kamuda istihdam önceliği, Türkiye'de şehit yakınları, gaziler ve devlet korumasında yetişen gençler için uzun süredir uygulanan bir sosyal politika aracı; 7528 sayılı Kanun bunu öğretmenlik için de koruyor ama Akademideki hazırlık eğitimini zorunlu tutuyor. OECD'nin öğretmen politikaları raporu, mesleğe farklı yollardan gelen adaylarda da nitelik güvencesinin mesleğe giriş eğitimi ve değerlendirmesiyle sağlanmasını öneriyor.[7] Öğretmen seçme araştırmaları da tek bir sınav puanının öğretmen etkililiğini yordama gücünün sınırlı olduğunu gösteriyor;[8] bu açıdan hazırlık eğitiminin herkes için ortak olması, istisnanın nitelikten taviz anlamına gelmemesini sağlıyor.
+
+## Sık Sorulan Sorular
+
+### Şehit yakınları AGS'ye girmeden öğretmen olabilir mi?
+
+3713 sayılı Kanun kapsamında hak sahibi olanlar için hazırlık eğitimine alınmada sınav puanı şartı aranmıyor; ancak öğretmenliğe kaynak programdan mezun olmak gibi diğer şartlar ve Akademideki hazırlık eğitimi geçerli.
+
+### Kimler 3713 kapsamında?
+
+Kanunun ek 1. maddesine göre harp ve vazife malulleri ile terör olaylarında hayatını kaybedenlerin kanunda sayılan yakınları kamuda istihdam hakkına sahip; hak sahipliğini Aile ve Sosyal Hizmetler Bakanlığı belirliyor.
+
+### 2828 kapsamı nedir?
+
+Sosyal Hizmetler Kanunu kapsamında korunma ya da bakım tedbiri kararıyla en az beş yıl kuruluş bakımı veya koruyucu aile hizmetinden yararlanan ve kanundaki diğer şartları taşıyan gençler kamuda istihdam hakkına sahip.
+
+### Millî sporcular nasıl öğretmen olabilir?
+
+Millî sporcu statüsündekiler için de sınav şartı aranmıyor. Ocak 2026 duyurusunda beden eğitimi alanının 160 kontenjanından 16'sı millî sporculara ayrılmıştı.
+
+### Bu adaylar Akademide hazırlık eğitimi alıyor mu?
+
+Evet. İstisna yalnız sınav puanı şartı için. Hazırlık eğitimi, sınavlar, uygulama ve başarı şartları diğer adaylarla aynı.
+
+### Akademide bu gruplara öncelik var mı?
+
+Evet. Birden çok merkezli alanlarda merkeze yerleştirmede ve konaklama yerlerinde sıra EKPSS ile başvuranlar, 2828, 3713 kapsamındakiler ve millî sporcular, ardından MEB-AGS puanına göre diğer adaylar şeklinde.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+3. Mevzuat Bilgi Sistemi (1991). 3713 sayılı Terörle Mücadele Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuatmetin/1.5.3713.pdf (TR, erişim: 2026-10-31)
+4. Mevzuat Bilgi Sistemi (1983). 2828 sayılı Sosyal Hizmetler Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2828.pdf (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+6. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+7. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+8. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
+
+---
+
 # Tablolama Programı Nedir? Hücre, Formül ve Grafik
 
 > Tablolama programı nedir? Hücre, satır, sütun, formül, TOPLA ve ORTALAMA, sıralama, grafik türleri; .xlsx, .ods, .csv ve BTY 6. sınıf kazanımları.
@@ -7615,6 +8146,8 @@ En büyük artış Rehberlik'te (yaklaşık 3.800 aday) ve Okul Öncesi'nde (yak
 Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[5][6] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[7] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[1][2]
 
 Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[8] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[9] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[10] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+Alanlara göre aday sayısı ile kontenjan karşılaştırması için [AGS'de rekabet: alan başına kaç aday düşüyor?](https://bote.web.tr/blog/ags-alan-basina-kac-aday)
 
 ## Sık Sorulan Sorular
 
@@ -9983,6 +10516,8 @@ Kılavuz bu konuda açık: koşullardan herhangi birine uymadığı tespit edile
 Sınavın kendisine hazırlanırken ilk bakılacak resmî kaynaklar ÖSYM'nin yayımladıkları: 2026 ve 2025 soru kitapçıklarının yüzde 10'u cevap anahtarlarıyla birlikte açık.[4][5] Kitapçığın tamamını yalnız sınava giren aday 10 gün boyunca AİS'te görebiliyor.[6] Testlere göre ortalama netler de nerede durduğunuzu görmek için iyi bir ölçü: 2026'da sözel yetenekte 8,3, sayısal yetenekte 3,4, eğitim bilimlerinde 11,2 net ortalama yapıldı; 2025'te sözel yetenek ortalaması da 8,3'tü.[7][8]
 
 Yöntem olarak araştırmaların en çok desteklediği iki teknik, deneme sınavlarıyla kendini sınamak ve aynı konuya aralıklarla dönmek.[9] Önceden sınanan öğrencilerin bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladığını gösteren deneyler de aynı yönde.[10] 2027 kılavuzu ve duyurular ÖSYM'nin MEB-AGS sayfasında yayımlanacak; bu yazıdaki 2026 kuralları kılavuz çıkınca kontrol edilmeli.[11] Konular için [AGS konuları](https://bote.web.tr/blog/ags-konulari), kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+Özel durumlar için: [şehit yakını, gazi ve millî sporcular](https://bote.web.tr/blog/sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik), [KKTC ve yurt dışı mezunları](https://bote.web.tr/blog/kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi); sınavdan atamaya süreç için [AGS'den atamaya kaç ay?](https://bote.web.tr/blog/ags-den-atamaya-surec)
 
 ## Sık Sorulan Sorular
 
