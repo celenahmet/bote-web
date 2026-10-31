@@ -4867,31 +4867,31 @@
     "slug": "ags-kac-soru-kac-dakika",
     "title": "AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri",
     "alt": "AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-kac-soru-kac-dakika.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 155525
+      "bytes": 172878
     },
     "variants": [
       {
         "file": "ags-kac-soru-kac-dakika-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 31766
+        "bytes": 36068
       },
       {
         "file": "ags-kac-soru-kac-dakika-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 53870
+        "bytes": 62808
       },
       {
         "file": "ags-kac-soru-kac-dakika.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 101564
+        "bytes": 117788
       }
     ]
   },
@@ -4899,31 +4899,31 @@
     "slug": "ags-yanlis-dogruyu-goturur-mu",
     "title": "AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?",
     "alt": "AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-yanlis-dogruyu-goturur-mu.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 187290
+      "bytes": 170088
     },
     "variants": [
       {
         "file": "ags-yanlis-dogruyu-goturur-mu-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39342
+        "bytes": 37254
       },
       {
         "file": "ags-yanlis-dogruyu-goturur-mu-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68866
+        "bytes": 62232
       },
       {
         "file": "ags-yanlis-dogruyu-goturur-mu.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 133964
+        "bytes": 118882
       }
     ]
   },
@@ -4931,31 +4931,31 @@
     "slug": "ags-yas-siniri-var-mi",
     "title": "AGS'de Yaş Sınırı Var mı? Kaç Kez Girilebilir?",
     "alt": "AGS'de Yaş Sınırı Var mı? Kaç Kez Girilebilir?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-yas-siniri-var-mi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 188187
+      "bytes": 201835
     },
     "variants": [
       {
         "file": "ags-yas-siniri-var-mi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40476
+        "bytes": 41998
       },
       {
         "file": "ags-yas-siniri-var-mi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 70528
+        "bytes": 73560
       },
       {
         "file": "ags-yas-siniri-var-mi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 131968
+        "bytes": 138494
       }
     ]
   },
@@ -4963,31 +4963,31 @@
     "slug": "son-sinif-ogrencisi-ags-ye-girebilir-mi",
     "title": "Son Sınıf Öğrencisi AGS'ye Girebilir mi? Mezuniyet Şartı",
     "alt": "Son Sınıf Öğrencisi AGS'ye Girebilir mi? Mezuniyet Şartı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 183189
+      "bytes": 203156
     },
     "variants": [
       {
         "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35938
+        "bytes": 45454
       },
       {
         "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 64642
+        "bytes": 79060
       },
       {
         "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 129694
+        "bytes": 152100
       }
     ]
   },
@@ -4995,31 +4995,31 @@
     "slug": "kpss-kalkti-mi-ogretmenlik",
     "title": "Öğretmenlikte KPSS Kalktı mı? AGS ve Akademi Dönemi",
     "alt": "Öğretmenlikte KPSS Kalktı mı? AGS ve Akademi Dönemi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "kpss-kalkti-mi-ogretmenlik.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 159223
+      "bytes": 216524
     },
     "variants": [
       {
         "file": "kpss-kalkti-mi-ogretmenlik-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 31762
+        "bytes": 44392
       },
       {
         "file": "kpss-kalkti-mi-ogretmenlik-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 53518
+        "bytes": 79832
       },
       {
         "file": "kpss-kalkti-mi-ogretmenlik.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 103996
+        "bytes": 157894
       }
     ]
   },
@@ -5027,31 +5027,31 @@
     "slug": "lisans-turleri-nelerdir",
     "title": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
     "alt": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "lisans-turleri-nelerdir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 228241
     },
     "variants": [
       {
         "file": "lisans-turleri-nelerdir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 47478
       },
       {
         "file": "lisans-turleri-nelerdir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 88978
       },
       {
         "file": "lisans-turleri-nelerdir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 178994
       }
     ]
   },
@@ -5059,31 +5059,31 @@
     "slug": "bit-byte-nedir",
     "title": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
     "alt": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bit-byte-nedir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 232475
     },
     "variants": [
       {
         "file": "bit-byte-nedir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 52416
       },
       {
         "file": "bit-byte-nedir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 92132
       },
       {
         "file": "bit-byte-nedir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 180812
       }
     ]
   },
@@ -5091,31 +5091,31 @@
     "slug": "bilgisayar-aglari-nedir",
     "title": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
     "alt": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bilgisayar-aglari-nedir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 219672
     },
     "variants": [
       {
         "file": "bilgisayar-aglari-nedir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 48292
       },
       {
         "file": "bilgisayar-aglari-nedir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 82138
       },
       {
         "file": "bilgisayar-aglari-nedir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 162642
       }
     ]
   },
@@ -5123,31 +5123,31 @@
     "slug": "dijital-vatandaslik-nedir",
     "title": "Dijital Vatandaşlık Nedir? Dijital Kimlik ve Ayak İzi",
     "alt": "Dijital Vatandaşlık Nedir? Dijital Kimlik ve Ayak İzi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "dijital-vatandaslik-nedir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 223829
     },
     "variants": [
       {
         "file": "dijital-vatandaslik-nedir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 47966
       },
       {
         "file": "dijital-vatandaslik-nedir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 87282
       },
       {
         "file": "dijital-vatandaslik-nedir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 167010
       }
     ]
   },
@@ -5155,31 +5155,31 @@
     "slug": "algoritma-ve-akis-semasi",
     "title": "Algoritma ve Akış Şeması: Örneklerle BTY Konu Anlatımı",
     "alt": "Algoritma ve Akış Şeması: Örneklerle BTY Konu Anlatımı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "algoritma-ve-akis-semasi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 184842
+      "bytes": 211027
     },
     "variants": [
       {
         "file": "algoritma-ve-akis-semasi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39890
+        "bytes": 45534
       },
       {
         "file": "algoritma-ve-akis-semasi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68538
+        "bytes": 81052
       },
       {
         "file": "algoritma-ve-akis-semasi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 128132
+        "bytes": 154338
       }
     ]
   },
@@ -5187,31 +5187,31 @@
     "slug": "siber-guvenlik-ve-guclu-sifre",
     "title": "Siber Güvenlik ve Güçlü Şifre Oluşturma (BTY)",
     "alt": "Siber Güvenlik ve Güçlü Şifre Oluşturma (BTY)",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "siber-guvenlik-ve-guclu-sifre.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 181779
     },
     "variants": [
       {
         "file": "siber-guvenlik-ve-guclu-sifre-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 40194
       },
       {
         "file": "siber-guvenlik-ve-guclu-sifre-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 69176
       },
       {
         "file": "siber-guvenlik-ve-guclu-sifre.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 126406
       }
     ]
   },
@@ -5219,31 +5219,31 @@
     "slug": "blok-tabanli-programlama",
     "title": "Blok Tabanlı Programlama Nedir? BTY 5 ve 6. Sınıf",
     "alt": "Blok Tabanlı Programlama Nedir? BTY 5 ve 6. Sınıf",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "blok-tabanli-programlama.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 184842
+      "bytes": 207177
     },
     "variants": [
       {
         "file": "blok-tabanli-programlama-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39890
+        "bytes": 45484
       },
       {
         "file": "blok-tabanli-programlama-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68538
+        "bytes": 81738
       },
       {
         "file": "blok-tabanli-programlama.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 128132
+        "bytes": 153888
       }
     ]
   },
@@ -5251,31 +5251,31 @@
     "slug": "bty-yapay-zeka-konulari",
     "title": "BTY Yapay Zekâ Konuları: 5 ve 6. Sınıf Kazanımları",
     "alt": "BTY Yapay Zekâ Konuları: 5 ve 6. Sınıf Kazanımları",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bty-yapay-zeka-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 171166
+      "bytes": 227120
     },
     "variants": [
       {
         "file": "bty-yapay-zeka-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36008
+        "bytes": 51114
       },
       {
         "file": "bty-yapay-zeka-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61534
+        "bytes": 89438
       },
       {
         "file": "bty-yapay-zeka-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 112514
+        "bytes": 174854
       }
     ]
   },
@@ -5283,31 +5283,31 @@
     "slug": "dosya-uzantilari-ve-klasor-yonetimi",
     "title": "Dosya Uzantıları Nelerdir? Dosya ve Klasör Yönetimi",
     "alt": "Dosya Uzantıları Nelerdir? Dosya ve Klasör Yönetimi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "dosya-uzantilari-ve-klasor-yonetimi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 200348
     },
     "variants": [
       {
         "file": "dosya-uzantilari-ve-klasor-yonetimi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 42576
       },
       {
         "file": "dosya-uzantilari-ve-klasor-yonetimi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 76640
       },
       {
         "file": "dosya-uzantilari-ve-klasor-yonetimi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 146904
       }
     ]
   },
@@ -5315,31 +5315,31 @@
     "slug": "kelime-islemci-programi-nedir",
     "title": "Kelime İşlemci Programı Nedir? Özellikleri ve Kullanımı",
     "alt": "Kelime İşlemci Programı Nedir? Özellikleri ve Kullanımı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "kelime-islemci-programi-nedir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 183737
     },
     "variants": [
       {
         "file": "kelime-islemci-programi-nedir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 39176
       },
       {
         "file": "kelime-islemci-programi-nedir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 68252
       },
       {
         "file": "kelime-islemci-programi-nedir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 127030
       }
     ]
   },
@@ -5347,31 +5347,31 @@
     "slug": "sunum-nasil-hazirlanir",
     "title": "Sunum Nasıl Hazırlanır? Etkili Slayt Kuralları",
     "alt": "Sunum Nasıl Hazırlanır? Etkili Slayt Kuralları",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "sunum-nasil-hazirlanir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 152902
     },
     "variants": [
       {
         "file": "sunum-nasil-hazirlanir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 33842
       },
       {
         "file": "sunum-nasil-hazirlanir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 55834
       },
       {
         "file": "sunum-nasil-hazirlanir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 105544
       }
     ]
   },
@@ -5379,31 +5379,31 @@
     "slug": "tablolama-programi-nedir",
     "title": "Tablolama Programı Nedir? Hücre, Formül ve Grafik",
     "alt": "Tablolama Programı Nedir? Hücre, Formül ve Grafik",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "tablolama-programi-nedir.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 184842
+      "bytes": 211049
     },
     "variants": [
       {
         "file": "tablolama-programi-nedir-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39890
+        "bytes": 44730
       },
       {
         "file": "tablolama-programi-nedir-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68538
+        "bytes": 78626
       },
       {
         "file": "tablolama-programi-nedir.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 128132
+        "bytes": 151380
       }
     ]
   },
@@ -5411,31 +5411,31 @@
     "slug": "internette-dogru-bilgi-nasil-bulunur",
     "title": "İnternette Doğru Bilgi Nasıl Bulunur? Yatay Okuma",
     "alt": "İnternette Doğru Bilgi Nasıl Bulunur? Yatay Okuma",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "internette-dogru-bilgi-nasil-bulunur.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 192649
     },
     "variants": [
       {
         "file": "internette-dogru-bilgi-nasil-bulunur-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 42936
       },
       {
         "file": "internette-dogru-bilgi-nasil-bulunur-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 74022
       },
       {
         "file": "internette-dogru-bilgi-nasil-bulunur.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 137904
       }
     ]
   },
@@ -5443,31 +5443,31 @@
     "slug": "ags-kontenjanlari-ve-taban-puan",
     "title": "AGS Kontenjanları ve Taban Puan: 64 Alan, 10 Bin Aday",
     "alt": "AGS Kontenjanları ve Taban Puan: 64 Alan, 10 Bin Aday",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-kontenjanlari-ve-taban-puan.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 166162
+      "bytes": 282084
     },
     "variants": [
       {
         "file": "ags-kontenjanlari-ve-taban-puan-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 34358
+        "bytes": 65886
       },
       {
         "file": "ags-kontenjanlari-ve-taban-puan-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 57402
+        "bytes": 116960
       },
       {
         "file": "ags-kontenjanlari-ve-taban-puan.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 110542
+        "bytes": 225440
       }
     ]
   },
@@ -5475,31 +5475,31 @@
     "slug": "akademi-hazirlik-egitimi-basvurusu",
     "title": "Akademi Başvurusu Nasıl Yapılır? Başvuru, Onay ve Kayıt",
     "alt": "Akademi Başvurusu Nasıl Yapılır? Başvuru, Onay ve Kayıt",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "akademi-hazirlik-egitimi-basvurusu.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 162316
+      "bytes": 178749
     },
     "variants": [
       {
         "file": "akademi-hazirlik-egitimi-basvurusu-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 35034
+        "bytes": 36644
       },
       {
         "file": "akademi-hazirlik-egitimi-basvurusu-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 58802
+        "bytes": 62026
       },
       {
         "file": "akademi-hazirlik-egitimi-basvurusu.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 108556
+        "bytes": 118640
       }
     ]
   },
@@ -5507,31 +5507,31 @@
     "slug": "akademi-hazirlik-egitimi-dersleri",
     "title": "Millî Eğitim Akademisi Dersleri: 4 Dönemlik Program",
     "alt": "Millî Eğitim Akademisi Dersleri: 4 Dönemlik Program",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "akademi-hazirlik-egitimi-dersleri.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149190
+      "bytes": 250784
     },
     "variants": [
       {
         "file": "akademi-hazirlik-egitimi-dersleri-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30544
+        "bytes": 54816
       },
       {
         "file": "akademi-hazirlik-egitimi-dersleri-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 50260
+        "bytes": 99366
       },
       {
         "file": "akademi-hazirlik-egitimi-dersleri.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 95266
+        "bytes": 193382
       }
     ]
   },
@@ -5539,31 +5539,31 @@
     "slug": "milli-egitim-akademisi-hangi-illerde",
     "title": "Millî Eğitim Akademisi Hangi İllerde? Branş ve Merkezler",
     "alt": "Millî Eğitim Akademisi Hangi İllerde? Branş ve Merkezler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "milli-egitim-akademisi-hangi-illerde.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149190
+      "bytes": 296605
     },
     "variants": [
       {
         "file": "milli-egitim-akademisi-hangi-illerde-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30544
+        "bytes": 67982
       },
       {
         "file": "milli-egitim-akademisi-hangi-illerde-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 50260
+        "bytes": 126454
       },
       {
         "file": "milli-egitim-akademisi-hangi-illerde.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 95266
+        "bytes": 255960
       }
     ]
   },
@@ -5571,31 +5571,31 @@
     "slug": "akademi-hazirlik-egitimi-maasi",
     "title": "Akademi Hazırlık Eğitimi Maaşı Ne Kadar? (2026)",
     "alt": "Akademi Hazırlık Eğitimi Maaşı Ne Kadar? (2026)",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "akademi-hazirlik-egitimi-maasi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149190
+      "bytes": 139778
     },
     "variants": [
       {
         "file": "akademi-hazirlik-egitimi-maasi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30544
+        "bytes": 29340
       },
       {
         "file": "akademi-hazirlik-egitimi-maasi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 50260
+        "bytes": 47698
       },
       {
         "file": "akademi-hazirlik-egitimi-maasi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 95266
+        "bytes": 88918
       }
     ]
   },
@@ -5603,31 +5603,31 @@
     "slug": "sozlesmeli-ogretmenlik-ne-zaman-kadroya",
     "title": "Sözleşmeli Öğretmenlik: Ne Zaman Kadroya Geçilir?",
     "alt": "Sözleşmeli Öğretmenlik: Ne Zaman Kadroya Geçilir?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 166456
+      "bytes": 162793
     },
     "variants": [
       {
         "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 33808
+        "bytes": 32488
       },
       {
         "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 57962
+        "bytes": 56820
       },
       {
         "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 112062
+        "bytes": 114606
       }
     ]
   },
@@ -5635,31 +5635,31 @@
     "slug": "akademide-basarisiz-olursam-ne-olur",
     "title": "Akademide Başarısız Olursam Ne Olur? Sınav, Ek Sınav",
     "alt": "Akademide Başarısız Olursam Ne Olur? Sınav, Ek Sınav",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "akademide-basarisiz-olursam-ne-olur.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149190
+      "bytes": 209488
     },
     "variants": [
       {
         "file": "akademide-basarisiz-olursam-ne-olur-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30544
+        "bytes": 44476
       },
       {
         "file": "akademide-basarisiz-olursam-ne-olur-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 50260
+        "bytes": 80940
       },
       {
         "file": "akademide-basarisiz-olursam-ne-olur.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 95266
+        "bytes": 161918
       }
     ]
   },
@@ -5667,31 +5667,31 @@
     "slug": "akademi-devamsizlik-ve-izin-hakki",
     "title": "Akademide Devamsızlık ve İzin Hakkı: Kaç Gün?",
     "alt": "Akademide Devamsızlık ve İzin Hakkı: Kaç Gün?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "akademi-devamsizlik-ve-izin-hakki.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149190
+      "bytes": 163851
     },
     "variants": [
       {
         "file": "akademi-devamsizlik-ve-izin-hakki-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30544
+        "bytes": 36388
       },
       {
         "file": "akademi-devamsizlik-ve-izin-hakki-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 50260
+        "bytes": 58350
       },
       {
         "file": "akademi-devamsizlik-ve-izin-hakki.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 95266
+        "bytes": 106414
       }
     ]
   },
@@ -5699,31 +5699,31 @@
     "slug": "atamaya-esas-basari-puani",
     "title": "Atamaya Esas Başarı Puanı Nasıl Hesaplanır? Örnekle",
     "alt": "Atamaya Esas Başarı Puanı Nasıl Hesaplanır? Örnekle",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "atamaya-esas-basari-puani.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 214453
+      "bytes": 175340
     },
     "variants": [
       {
         "file": "atamaya-esas-basari-puani-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 47868
+        "bytes": 35632
       },
       {
         "file": "atamaya-esas-basari-puani-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 81354
+        "bytes": 62654
       },
       {
         "file": "atamaya-esas-basari-puani.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 159678
+        "bytes": 121976
       }
     ]
   },
@@ -5731,31 +5731,31 @@
     "slug": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme",
     "title": "Akademi Sonrası Tercih ve Yerleştirme: Atama Nasıl?",
     "alt": "Akademi Sonrası Tercih ve Yerleştirme: Atama Nasıl?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 149190
+      "bytes": 234441
     },
     "variants": [
       {
         "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 30544
+        "bytes": 49204
       },
       {
         "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 50260
+        "bytes": 91006
       },
       {
         "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 95266
+        "bytes": 183612
       }
     ]
   },
@@ -5763,31 +5763,31 @@
     "slug": "aday-ogretmenlik-kalkti-mi",
     "title": "Aday Öğretmenlik Kalktı mı? 7528 ile Ne Değişti?",
     "alt": "Aday Öğretmenlik Kalktı mı? 7528 ile Ne Değişti?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "aday-ogretmenlik-kalkti-mi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 166456
+      "bytes": 224730
     },
     "variants": [
       {
         "file": "aday-ogretmenlik-kalkti-mi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 33808
+        "bytes": 46100
       },
       {
         "file": "aday-ogretmenlik-kalkti-mi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 57962
+        "bytes": 86630
       },
       {
         "file": "aday-ogretmenlik-kalkti-mi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 112062
+        "bytes": 177182
       }
     ]
   },
@@ -5795,31 +5795,31 @@
     "slug": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik",
     "title": "Şehit Yakını, Gazi ve Millî Sporcular İçin Öğretmenlik",
     "alt": "Şehit Yakını, Gazi ve Millî Sporcular İçin Öğretmenlik",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 181189
+      "bytes": 198322
     },
     "variants": [
       {
         "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 38708
+        "bytes": 41224
       },
       {
         "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 66454
+        "bytes": 71596
       },
       {
         "file": "sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 124956
+        "bytes": 138468
       }
     ]
   },
@@ -5827,31 +5827,31 @@
     "slug": "ags-den-atamaya-surec",
     "title": "AGS'den Atamaya Kaç Ay? Adım Adım Süreç ve Takvim",
     "alt": "AGS'den Atamaya Kaç Ay? Adım Adım Süreç ve Takvim",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-den-atamaya-surec.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 188655
+      "bytes": 211682
     },
     "variants": [
       {
         "file": "ags-den-atamaya-surec-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40990
+        "bytes": 44320
       },
       {
         "file": "ags-den-atamaya-surec-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 69122
+        "bytes": 80634
       },
       {
         "file": "ags-den-atamaya-surec.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 130242
+        "bytes": 158154
       }
     ]
   },
@@ -5859,31 +5859,31 @@
     "slug": "ags-alan-basina-kac-aday",
     "title": "AGS'de Rekabet: Alan Başına Kaç Aday Düşüyor?",
     "alt": "AGS'de Rekabet: Alan Başına Kaç Aday Düşüyor?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ags-alan-basina-kac-aday.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 201765
+      "bytes": 214013
     },
     "variants": [
       {
         "file": "ags-alan-basina-kac-aday-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 42536
+        "bytes": 46148
       },
       {
         "file": "ags-alan-basina-kac-aday-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 73434
+        "bytes": 81350
       },
       {
         "file": "ags-alan-basina-kac-aday.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 139320
+        "bytes": 163174
       }
     ]
   },
@@ -5891,31 +5891,31 @@
     "slug": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi",
     "title": "KKTC ve Yurt Dışı Mezunları Öğretmen Olabilir mi? AGS",
     "alt": "KKTC ve Yurt Dışı Mezunları Öğretmen Olabilir mi? AGS",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 181189
+      "bytes": 189124
     },
     "variants": [
       {
         "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 38708
+        "bytes": 40978
       },
       {
         "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 66454
+        "bytes": 70728
       },
       {
         "file": "kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 124956
+        "bytes": 135574
       }
     ]
   },
@@ -5923,31 +5923,31 @@
     "slug": "bote-mezunu-ags-hangi-alana-basvurur",
     "title": "BÖTE Mezunu AGS'de Hangi Alana Başvurur? Kontenjan",
     "alt": "BÖTE Mezunu AGS'de Hangi Alana Başvurur? Kontenjan",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bote-mezunu-ags-hangi-alana-basvurur.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 185471
+      "bytes": 207914
     },
     "variants": [
       {
         "file": "bote-mezunu-ags-hangi-alana-basvurur-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39520
+        "bytes": 45834
       },
       {
         "file": "bote-mezunu-ags-hangi-alana-basvurur-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 67832
+        "bytes": 79832
       },
       {
         "file": "bote-mezunu-ags-hangi-alana-basvurur.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 125618
+        "bytes": 153122
       }
     ]
   },
@@ -5955,31 +5955,31 @@
     "slug": "muhendisler-ogretmen-olabilir-mi",
     "title": "Mühendisler Öğretmen Olabilir mi? AGS ve Meslek Alanları",
     "alt": "Mühendisler Öğretmen Olabilir mi? AGS ve Meslek Alanları",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "muhendisler-ogretmen-olabilir-mi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 190722
+      "bytes": 203905
     },
     "variants": [
       {
         "file": "muhendisler-ogretmen-olabilir-mi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40304
+        "bytes": 45594
       },
       {
         "file": "muhendisler-ogretmen-olabilir-mi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 67686
+        "bytes": 78166
       },
       {
         "file": "muhendisler-ogretmen-olabilir-mi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 127634
+        "bytes": 148836
       }
     ]
   },
@@ -5987,31 +5987,31 @@
     "slug": "meb-ags-puan-turleri-hangi-alan",
     "title": "MEB-AGS P1, P2, P3 Puan Türleri: Hangi Alan Hangisi?",
     "alt": "MEB-AGS P1, P2, P3 Puan Türleri: Hangi Alan Hangisi?",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "meb-ags-puan-turleri-hangi-alan.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 214453
+      "bytes": 215503
     },
     "variants": [
       {
         "file": "meb-ags-puan-turleri-hangi-alan-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 47868
+        "bytes": 46864
       },
       {
         "file": "meb-ags-puan-turleri-hangi-alan-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 81354
+        "bytes": 81506
       },
       {
         "file": "meb-ags-puan-turleri-hangi-alan.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 159678
+        "bytes": 154442
       }
     ]
   },
@@ -6019,31 +6019,31 @@
     "slug": "ozel-egitim-ogretmenligi-ags-kontenjani",
     "title": "Özel Eğitim Öğretmenliği AGS Kontenjanı ve Puan Türü",
     "alt": "Özel Eğitim Öğretmenliği AGS Kontenjanı ve Puan Türü",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ozel-egitim-ogretmenligi-ags-kontenjani.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 171701
+      "bytes": 215640
     },
     "variants": [
       {
         "file": "ozel-egitim-ogretmenligi-ags-kontenjani-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36370
+        "bytes": 48002
       },
       {
         "file": "ozel-egitim-ogretmenligi-ags-kontenjani-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 62102
+        "bytes": 84018
       },
       {
         "file": "ozel-egitim-ogretmenligi-ags-kontenjani.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 114930
+        "bytes": 158274
       }
     ]
   },
@@ -6051,31 +6051,31 @@
     "slug": "sinif-ogretmenligi-ags-kontenjani",
     "title": "Sınıf Öğretmenliği AGS Kontenjanı: 2.816 ve Rekabet",
     "alt": "Sınıf Öğretmenliği AGS Kontenjanı: 2.816 ve Rekabet",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "sinif-ogretmenligi-ags-kontenjani.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 181747
+      "bytes": 224450
     },
     "variants": [
       {
         "file": "sinif-ogretmenligi-ags-kontenjani-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 34908
+        "bytes": 50314
       },
       {
         "file": "sinif-ogretmenligi-ags-kontenjani-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 66008
+        "bytes": 86848
       },
       {
         "file": "sinif-ogretmenligi-ags-kontenjani.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 132100
+        "bytes": 168842
       }
     ]
   },
@@ -6083,31 +6083,31 @@
     "slug": "ulke-geneli-ortak-yazili-sinavlar",
     "title": "Ülke Geneli Ortak Yazılı Sınavlar 2026-2027: Tarihler",
     "alt": "Ülke Geneli Ortak Yazılı Sınavlar 2026-2027: Tarihler",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ulke-geneli-ortak-yazili-sinavlar.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 224779
+      "bytes": 190376
     },
     "variants": [
       {
         "file": "ulke-geneli-ortak-yazili-sinavlar-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 50238
+        "bytes": 40204
       },
       {
         "file": "ulke-geneli-ortak-yazili-sinavlar-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 86658
+        "bytes": 70236
       },
       {
         "file": "ulke-geneli-ortak-yazili-sinavlar.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 171414
+        "bytes": 132664
       }
     ]
   },
@@ -6115,31 +6115,31 @@
     "slug": "bty-5-sinif-konulari",
     "title": "BTY 5. Sınıf Konuları ve Kazanımları (2026-2027)",
     "alt": "BTY 5. Sınıf Konuları ve Kazanımları (2026-2027)",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bty-5-sinif-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 169364
+      "bytes": 248744
     },
     "variants": [
       {
         "file": "bty-5-sinif-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36320
+        "bytes": 58440
       },
       {
         "file": "bty-5-sinif-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61570
+        "bytes": 101456
       },
       {
         "file": "bty-5-sinif-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 115744
+        "bytes": 194304
       }
     ]
   },
@@ -6147,31 +6147,31 @@
     "slug": "bty-6-sinif-konulari",
     "title": "BTY 6. Sınıf Konuları ve Kazanımları (2026-2027)",
     "alt": "BTY 6. Sınıf Konuları ve Kazanımları (2026-2027)",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bty-6-sinif-konulari.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 184842
+      "bytes": 238164
     },
     "variants": [
       {
         "file": "bty-6-sinif-konulari-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 39890
+        "bytes": 54718
       },
       {
         "file": "bty-6-sinif-konulari-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 68538
+        "bytes": 93820
       },
       {
         "file": "bty-6-sinif-konulari.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 128132
+        "bytes": 182914
       }
     ]
   },
@@ -6179,31 +6179,31 @@
     "slug": "lgs-2027-ne-zaman",
     "title": "LGS 2027 Ne Zaman? Tarih, Soru Sayısı ve Puan Hesabı",
     "alt": "LGS 2027 Ne Zaman? Tarih, Soru Sayısı ve Puan Hesabı",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "lgs-2027-ne-zaman.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 188655
+      "bytes": 220189
     },
     "variants": [
       {
         "file": "lgs-2027-ne-zaman-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 40990
+        "bytes": 51264
       },
       {
         "file": "lgs-2027-ne-zaman-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 69122
+        "bytes": 84738
       },
       {
         "file": "lgs-2027-ne-zaman.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 130242
+        "bytes": 153776
       }
     ]
   },
@@ -6211,31 +6211,31 @@
     "slug": "bursluluk-sinavi-iokbs-2027",
     "title": "Bursluluk Sınavı (İOKBS) 2027: Tarih, Şartlar, Gelir",
     "alt": "Bursluluk Sınavı (İOKBS) 2027: Tarih, Şartlar, Gelir",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "bursluluk-sinavi-iokbs-2027.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 140192
+      "bytes": 186741
     },
     "variants": [
       {
         "file": "bursluluk-sinavi-iokbs-2027-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 28098
+        "bytes": 42696
       },
       {
         "file": "bursluluk-sinavi-iokbs-2027-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 46764
+        "bytes": 70312
       },
       {
         "file": "bursluluk-sinavi-iokbs-2027.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 89836
+        "bytes": 131400
       }
     ]
   },
@@ -6243,31 +6243,31 @@
     "slug": "meb-2026-2027-calisma-takvimi",
     "title": "MEB 2026-2027 Çalışma Takvimi: Ara Tatil ve Karne",
     "alt": "MEB 2026-2027 Çalışma Takvimi: Ara Tatil ve Karne",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "meb-2026-2027-calisma-takvimi.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 227289
+      "bytes": 249515
     },
     "variants": [
       {
         "file": "meb-2026-2027-calisma-takvimi-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 51814
+        "bytes": 55044
       },
       {
         "file": "meb-2026-2027-calisma-takvimi-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 88566
+        "bytes": 99670
       },
       {
         "file": "meb-2026-2027-calisma-takvimi.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 163184
+        "bytes": 192940
       }
     ]
   },
@@ -6275,31 +6275,31 @@
     "slug": "ogretmen-mesleki-calismalari-kasim-2026",
     "title": "Öğretmen Mesleki Çalışmaları Kasım 2026: ÖBA Rehberi",
     "alt": "Öğretmen Mesleki Çalışmaları Kasım 2026: ÖBA Rehberi",
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "primary": {
       "file": "ogretmen-mesleki-calismalari-kasim-2026.jpg",
       "width": 1600,
       "height": 900,
-      "bytes": 171166
+      "bytes": 195175
     },
     "variants": [
       {
         "file": "ogretmen-mesleki-calismalari-kasim-2026-640.webp",
         "width": 640,
         "height": 360,
-        "bytes": 36008
+        "bytes": 43786
       },
       {
         "file": "ogretmen-mesleki-calismalari-kasim-2026-960.webp",
         "width": 960,
         "height": 540,
-        "bytes": 61534
+        "bytes": 76358
       },
       {
         "file": "ogretmen-mesleki-calismalari-kasim-2026.webp",
         "width": 1600,
         "height": 900,
-        "bytes": 112514
+        "bytes": 141126
       }
     ]
   }
