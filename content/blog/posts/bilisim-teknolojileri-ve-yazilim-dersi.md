@@ -167,3 +167,5 @@ Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken 
 ## Sonuç
 
 BTY, ortaokuldaki tek zorunlu bilişim dersi olarak öğrencilerin dijital dünyaya ilk sistemli girişini sağlar. Dersin başarısı, alanında yetişmiş öğretmenlere bağlıdır. Dersin temelindeki düşünme becerisini merak ediyorsanız [bilgi işlemsel düşünme nedir?](/blog/bilgi-islemsel-dusunme-nedir) yazımızı okuyabilirsiniz.
+
+Sınıf sınıf konular için [BTY 5. sınıf konuları](/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](/blog/algoritma-ve-akis-semasi), [dijital vatandaşlık](/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](/blog/siber-guvenlik-ve-guclu-sifre).

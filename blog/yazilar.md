@@ -120,6 +120,11 @@
 
 ## Eğitim Teknolojileri
 
+- [Algoritma ve Akış Şeması: Örneklerle BTY Konu Anlatımı](https://bote.web.tr/blog/algoritma-ve-akis-semasi.md): Algoritma nedir, akış şeması nasıl çizilir? Akış şeması sembolleri, sıralı, karar ve döngü yapıları, günlük hayattan örnekler ve BTY 5. sınıf kazanımları. (2026-10-31)
+- [BTY 5. Sınıf Konuları ve Kazanımları (2026-2027)](https://bote.web.tr/blog/bty-5-sinif-konulari.md): Bilişim Teknolojileri ve Yazılım 5. sınıf konuları: 6 tema, 24 öğrenme çıktısı, 72 ders saati. Temaların süresi, kazanımlar ve sınıfta nasıl işlendiği. (2026-10-31)
+- [BTY 6. Sınıf Konuları ve Kazanımları (2026-2027)](https://bote.web.tr/blog/bty-6-sinif-konulari.md): Bilişim Teknolojileri ve Yazılım 6. sınıf konuları: 6 tema, 25 öğrenme çıktısı, 72 ders saati. Programlama yılın yarısı; tablolama, ses-video, yapay zekâ. (2026-10-31)
+- [Dijital Vatandaşlık Nedir? Dijital Kimlik ve Ayak İzi](https://bote.web.tr/blog/dijital-vatandaslik-nedir.md): Dijital vatandaşlık nedir, dijital kimlik ve dijital ayak izi ne demek? BTY 5. sınıf kazanımı, örnekleri, kişisel veri ve okulda nasıl işlendiği. (2026-10-31)
+- [Siber Güvenlik ve Güçlü Şifre Oluşturma (BTY)](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre.md): Siber güvenlik nedir, güçlü şifre nasıl oluşturulur? Gizlilik, bütünlük, erişilebilirlik; siber zorbalık, iki adımlı doğrulama ve BTY 5-6. sınıf kazanımları. (2026-10-31)
 - [Dale'in Yaşantı Konisi Nedir? Basamakları ve Yüzde Efsanesi](https://bote.web.tr/blog/dale-yasanti-konisi.md): Dale'in yaşantı konisi nedir? On bir basamağı, Dale'in gerçekte ne söylediği, 'okuduğumuzun yüzde 10'unu hatırlarız' efsanesinin kökeni ve araştırma bulguları. (2026-09-28)
 - [Dijital Okuryazarlık Nedir? Boyutları ve Okuldaki Yeri](https://bote.web.tr/blog/dijital-okuryazarlik-nedir.md): Dijital okuryazarlık nedir? Tanımı, beş boyutu, DigComp 2.2, Maarif Modeli'ndeki dokuz beceri, Türkiye araştırmaları ve dijital yerli tartışması. (2026-09-27)
 - [EBA Nedir? Eğitim Bilişim Ağı ve Salgında Uzaktan Eğitim](https://bote.web.tr/blog/eba-nedir.md): EBA nedir? Eğitim Bilişim Ağı'nın FATİH'teki yeri, salgında EBA ve EBA TV ile uzaktan eğitim: resmî rakamlar, erişim desteği, araştırma bulguları ve dersler. (2026-09-27)
