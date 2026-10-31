@@ -164,3 +164,5 @@ Yeni model bazı soruları da beraberinde getiriyor. Lisansın ardından eklenen
 ## Sonuç
 
 Millî Eğitim Akademisi, Türkiye'de öğretmen yetiştirmede fakülteler ile okullar arasına yeni bir aşama ekliyor. Modelin başarısı, ortak derslerin ve uygulama döneminin ne kadar nitelikli yürütüleceğine bağlı olacak. İlk mezunların deneyimleri, sistemin güçlü ve geliştirilmesi gereken yönlerini gösterecek.
+
+Ayrıntılı rehberler: [akademi başvurusu nasıl yapılır?](/blog/akademi-hazirlik-egitimi-basvurusu), [AGS kontenjanları ve taban puan](/blog/ags-kontenjanlari-ve-taban-puan), [akademi hangi illerde?](/blog/milli-egitim-akademisi-hangi-illerde), [akademi dersleri](/blog/akademi-hazirlik-egitimi-dersleri) ve [hazırlık eğitimi maaşı](/blog/akademi-hazirlik-egitimi-maasi).

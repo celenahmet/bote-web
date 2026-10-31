@@ -70,6 +70,8 @@ Yeni model bazı soruları da beraberinde getiriyor. Lisansın ardından eklenen
 
 Millî Eğitim Akademisi, Türkiye'de öğretmen yetiştirmede fakülteler ile okullar arasına yeni bir aşama ekliyor. Modelin başarısı, ortak derslerin ve uygulama döneminin ne kadar nitelikli yürütüleceğine bağlı olacak. İlk mezunların deneyimleri, sistemin güçlü ve geliştirilmesi gereken yönlerini gösterecek.
 
+Ayrıntılı rehberler: [akademi başvurusu nasıl yapılır?](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu), [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan), [akademi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde), [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri) ve [hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
+
 ## Sık Sorulan Sorular
 
 ### Millî Eğitim Akademisi nedir?

@@ -106,6 +106,171 @@ Sağlık şartlarını taşıyan adaylara AGS'de 30, ÖABT'de 20 dakika ek süre
 
 ---
 
+# AGS Kontenjanları ve Taban Puan: 64 Alan, 10 Bin Aday
+
+> AGS kontenjanları alan alan: 2026 duyurusunda 64 alanda 10.000 aday, tüm alanlarda taban puan 50. Sınıf, özel eğitim, İngilizce ve diğer alanların sayıları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 5 dk okuma · https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan
+
+## Özet
+
+- Ocak 2026 duyurusunda Millî Eğitim Akademisine **10.000** aday alındı; **64 alan** için ayrı kontenjan vardı.
+- Tüm alanlarda **taban puan 50**; ama kontenjana girmek için alanda puan sıralaması belirleyici.
+- En çok kontenjan: **sınıf öğretmenliği 2.816**, özel eğitim 1.798, İngilizce 801, din kültürü 762, okul öncesi 653.
+- Kontenjanın en fazla **%10'u kadar yedek** aday belirleniyor; eşitlikte bilgisayar kurası.
+- 2026 MEB-AGS puanlarıyla yapılacak başvurunun kontenjanı henüz duyurulmadı (31 Ekim 2026).
+
+AGS'de iyi puan almak tek başına öğretmen olmayı sağlamıyor: Millî Eğitim Akademisine her alan için ilan edilen kontenjan kadar aday alınıyor. Bu yazı ilk başvuru döneminin (Ocak 2026) resmî kontenjan listesini, taban puan kuralını ve yedek aday sistemini anlatıyor. Kaynak, MEB Personel Genel Müdürlüğünün başvuru duyurusu.[1]
+
+## Kontenjanı kim, nasıl belirliyor?
+
+Kanuna göre hazırlık eğitimine alınacak adaylar, **atama izni verilen pozisyon sayısını geçmemek üzere** sınav puanı üstünlüğüne göre belirleniyor.[2] Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik de alanlar itibarıyla kontenjan sayısının, taban sınav puanının, başvuru yeri ve süresinin Bakanlığın duyurusunda belirtileceğini söylüyor.[3] Yani kontenjan sınavdan önce değil, sınavdan sonra yapılan başvuru duyurusuyla ilan ediliyor.
+
+## Ocak 2026: 64 alan, 10.000 aday
+
+İlk başvuru 2025 MEB-AGS puanlarıyla 20-27 Ocak 2026'da yapıldı. Duyurunun ekinde 64 öğretmenlik alanı, her alanın kontenjanı ve hangi puan türüyle değerlendirileceği yer alıyor; genel toplam **10.000**.[1] Bakanlık en çok kontenjan ayrılan beş alanı sınıf öğretmenliği (2.816), özel eğitim (1.798), İngilizce (801), din kültürü ve ahlak bilgisi (762) ve okul öncesi (653) olarak açıkladı.[4] Bu beş alan toplam kontenjanın %68'ini oluşturuyor.
+
+Puan türlerine göre dağılım:[1]
+
+| Puan türü | Alan sayısı | Toplam kontenjan |
+|---|---|---|
+| MEB-AGS-P2 (ÖABT yapılan alanlar) | 17 | 6.574 |
+| MEB-AGS-P1 (ÖABT ya da YDS karşılığı olmayan alanlar) | 43 | 2.588 |
+| MEB-AGS-P3 (yabancı dil, YDS ile) | 4 | 838 |
+| **Toplam** | **64** | **10.000** |
+
+Veri notu: MEB Personel Genel Müdürlüğü, Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026), Ek-1; erişim 31 Ekim 2026.
+
+Dikkat çeken nokta: özel eğitim, müzik, felsefe, görsel sanatlar, bilişim teknolojileri ve meslek lisesi alanları ÖABT'siz P1 puanıyla değerlendiriliyor; özel eğitimin 1.798 kontenjanı P1 alanlarının toplamının üçte ikisinden fazlası. Puan türlerinin nasıl hesaplandığı için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir)
+
+## Alan alan kontenjan listesi (Ocak 2026)
+
+| Alan | Kontenjan | Puan türü |
+|---|---|---|
+| Sınıf Öğretmenliği | 2.816 | MEB-AGS-P2-11 |
+| Özel Eğitim | 1.798 | MEB-AGS-P1 |
+| İngilizce | 801 | MEB-AGS-P3-06 |
+| Din Kültürü ve Ahlâk Bilgisi | 762 | MEB-AGS-P2-16 |
+| Okul Öncesi | 653 | MEB-AGS-P2-09 |
+| Rehberlik | 603 | MEB-AGS-P2-10 |
+| Türkçe | 382 | MEB-AGS-P2-15 |
+| Fen Bilimleri | 300 | MEB-AGS-P2-04 |
+| Sosyal Bilgiler | 272 | MEB-AGS-P2-12 |
+| Beden Eğitimi | 160 | MEB-AGS-P2-01 |
+| İlköğretim Matematik | 157 | MEB-AGS-P2-06 |
+| Müzik | 121 | MEB-AGS-P1 |
+| Kimya / Kimya Teknolojisi | 101 | MEB-AGS-P2-07 |
+| Bilişim Teknolojileri | 100 | MEB-AGS-P1 |
+| Yiyecek İçecek Hizmetleri | 100 | MEB-AGS-P1 |
+| Matematik | 95 | MEB-AGS-P2-08 |
+| Fizik | 65 | MEB-AGS-P2-05 |
+| Motorlu Araçlar Teknolojisi | 58 | MEB-AGS-P1 |
+| Türk Dili ve Edebiyatı | 58 | MEB-AGS-P2-14 |
+| Tarih | 54 | MEB-AGS-P2-13 |
+| Felsefe | 48 | MEB-AGS-P1 |
+| Elektrik-Elektronik Teknolojisi / Elektrik | 47 | MEB-AGS-P1 |
+| Coğrafya | 45 | MEB-AGS-P2-03 |
+| Görsel Sanatlar | 41 | MEB-AGS-P1 |
+| Giyim Üretim Teknolojisi / Moda Tasarım Teknolojileri | 36 | MEB-AGS-P1 |
+| Biyoloji | 32 | MEB-AGS-P2-02 |
+| Teknoloji ve Tasarım | 32 | MEB-AGS-P1 |
+| Elektrik-Elektronik Teknolojisi / Elektronik | 26 | MEB-AGS-P1 |
+| Tarım Teknolojileri / Tarım | 20 | MEB-AGS-P1 |
+| İmam-Hatip Lisesi Meslek Dersleri | 19 | MEB-AGS-P2-17 |
+| Arapça | 18 | MEB-AGS-P3-02 |
+| Sağlık / Sağlık Hizmetleri | 17 | MEB-AGS-P1 |
+| Tesisat Teknolojisi ve İklimlendirme | 16 | MEB-AGS-P1 |
+| Bilgisayar ve Öğretim Teknolojileri | 15 | MEB-AGS-P1 |
+| Raylı Sistemler Teknolojisi / Raylı Sistem Araçları | 15 | MEB-AGS-P1 |
+| Rusça | 14 | MEB-AGS-P3-11 |
+| Mobilya ve İç Mekan Tasarımı | 12 | MEB-AGS-P1 |
+| Endüstriyel Otomasyon Teknolojileri | 8 | MEB-AGS-P1 |
+| Makine Teknolojisi / Makine ve Tasarım Teknolojisi / Makine ve Kalıp | 8 | MEB-AGS-P1 |
+| Kuyumculuk Teknolojisi | 7 | MEB-AGS-P1 |
+| Yenilenebilir Enerji Teknolojileri | 7 | MEB-AGS-P1 |
+| Metal Teknolojisi | 6 | MEB-AGS-P1 |
+| Almanca | 5 | MEB-AGS-P3-01 |
+| Grafik ve Fotoğraf / Grafik | 5 | MEB-AGS-P1 |
+| Hayvan Sağlığı / Hayvan Yetiştiriciliği ve Sağlığı / Hayvan Sağlığı | 5 | MEB-AGS-P1 |
+| Uçak Bakım / Uçak Elektroniği | 4 | MEB-AGS-P1 |
+| Uçak Bakım / Uçak Gövde-Motor | 4 | MEB-AGS-P1 |
+| Yaşayan Diller ve Lehçeler (Kürtçe / Kurmançi) | 4 | MEB-AGS-P1 |
+| Denizcilik / Gemi Makineleri | 3 | MEB-AGS-P1 |
+| Denizcilik / Gemi Yönetimi | 3 | MEB-AGS-P1 |
+| Biyomedikal Cihaz Teknolojileri | 2 | MEB-AGS-P1 |
+| Büro Yönetimi / Büro Yönetimi ve Yönetici Asistanlığı | 2 | MEB-AGS-P1 |
+| Çocuk Gelişimi ve Eğitimi | 2 | MEB-AGS-P1 |
+| İnşaat Teknolojisi / Yapı Tasarım | 2 | MEB-AGS-P1 |
+| İtfaiyecilik ve Yangın Güvenliği | 2 | MEB-AGS-P1 |
+| Sanat ve Tasarım / Plastik Sanatlar | 2 | MEB-AGS-P1 |
+| Tiyatro | 2 | MEB-AGS-P1 |
+| Ulaştırma Hizmetleri / Lojistik | 2 | MEB-AGS-P1 |
+| Ayakkabı ve Saraciye Teknolojisi | 1 | MEB-AGS-P1 |
+| Makine Teknolojisi / Makine ve Tasarım Teknolojisi / Makine Model | 1 | MEB-AGS-P1 |
+| Makine Teknolojisi / Makine ve Tasarım Teknolojisi / Makine Ressamlığı | 1 | MEB-AGS-P1 |
+| Pazarlama ve Perakende | 1 | MEB-AGS-P1 |
+| Raylı Sistemler Teknolojisi / Raylı Sistemler Elektrik-Elektronik | 1 | MEB-AGS-P1 |
+| Yaşayan Diller ve Lehçeler (Kürtçe / Zazaki) | 1 | MEB-AGS-P1 |
+
+Veri notu: Ek-1, Başvuruya Esas Öğretmenlik Alanları, Kontenjan ve MEB-AGS Puan Türü Listesi. Beden eğitiminin 160 kontenjanının 16'sı millî sporcular için ayrıldı.[1]
+
+## Taban puan 50: ne anlama geliyor?
+
+Duyuruda açık bir kural var: **tüm alanlar için taban puan 50**. Adayın başvurduğu alanın puan türünden 50 ve üzerinde almış olması gerekiyor.[1] Bu bir giriş eşiği, yerleşme puanı değil. Yönetmeliğe göre adaylar alanlar itibarıyla belirlenen kontenjan dâhilinde **MEB-AGS puan üstünlüğüne göre** seçiliyor; puan eşitliğinde bilgisayar kurası yapılıyor.[3]
+
+Yani asıl soru "kaç puan?" değil, "alanımda benden yüksek puanlı kaç aday var?" sorusu. Bakanlık alanlara göre en düşük yerleşen puanı ayrıca yayımlamadı; yerleştirme sonuçları adaylara e-Devlet şifresiyle kişisel olarak açıldı.[5] İnternette dolaşan "taban puan" listelerinin resmî bir kaynağı yok. Standart puanın kılavuzdaki hesaplanma biçimi, aynı puanın farklı yıllarda farklı sıralamaya karşılık gelebileceğini de gösteriyor.[6]
+
+## Asıl ve yedek adaylar
+
+Her alan için kontenjan kadar **asıl aday**, asıl aday sayısının **en fazla %10'u kadar yedek aday** belirleniyor; %10 tam sayı değilse yukarı yuvarlanıyor. Asıl adaylardan süresi içinde kayıt yaptırmayanların ya da şartları taşımadığı anlaşılanların yerine yedekler başarı sırasıyla çağrılıyor. Yedek listeye girmek **kazanılmış hak** sayılmıyor.[1] Belirlenen asıl ve yedek adaylar için ayrıca güvenlik soruşturması ve arşiv araştırması başlatılıyor.[1]
+
+## 2026 AGS puanıyla başvuru ne zaman?
+
+ÖSYM'nin kılavuzuna göre 2026 MEB-AGS 26 Temmuz 2026'da yapıldı.[6] Bu puanla yapılacak ikinci başvuru döneminin tarihi ve kontenjanları 31 Ekim 2026 itibarıyla duyurulmadı. Yönetmeliğe göre MEB-AGS puanları, bir sonraki sınavın sonuçları açıklanana kadar geçerli.[3] Puan geçerliliği için [AGS sonuçları ve puan geçerliliği](https://bote.web.tr/blog/ags-sonuclari-ve-puan-gecerliligi), başvuru şartları için [AGS'ye kimler girebilir?](https://bote.web.tr/blog/ags-kimler-girebilir)
+
+## Seçme sınavları ne kadar isabetli?
+
+Kontenjanlı bir sistemde sınav puanı belirleyici olduğu için şu soru önemli: sınav puanı iyi öğretmeni ne kadar yordar? Öğretmen seçme yöntemlerini inceleyen bir meta-analiz, yüksek riskli seçme yöntemlerinin öğretmen etkililiğiyle ilişkisinin **küçük ama anlamlı** (r = 0,12) olduğunu, akademik ve akademik olmayan ölçütlerin ikisinin de katkı verdiğini buldu.[7] OECD'nin öğretmen politikaları karşılaştırması da seçmenin tek sınavla değil, mesleğe giriş sürecinin bütünüyle düşünülmesini öneriyor.[8] Akademi modelinde sınavdan sonra dört dönemlik hazırlık eğitimi ve atamaya esas başarı puanının gelmesi bu açıdan önemli. Ayrıntı: [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi).
+
+## Sık Sorulan Sorular
+
+### AGS kontenjanı kaç kişi?
+
+Ocak 2026 duyurusunda hazırlık eğitimine 64 alanda toplam 10.000 aday alındı. Kontenjanlar her başvuru döneminde Bakanlıkça yeniden ilan edilir.
+
+### AGS taban puanı kaç?
+
+Ocak 2026 duyurusunda tüm alanlar için taban puan 50 idi. Ancak 50 almak yerleşmeyi garanti etmez; alan kontenjanı kadar aday puan sırasına göre seçilir.
+
+### AGS'de en çok kontenjan hangi alanda?
+
+Sınıf öğretmenliği 2.816 ile ilk sırada; ardından özel eğitim 1.798, İngilizce 801, din kültürü ve ahlak bilgisi 762, okul öncesi 653 geliyor.
+
+### Yedek aday nasıl belirleniyor?
+
+Her alan için kontenjan kadar asıl aday, asıl aday sayısının en fazla yüzde onu kadar yedek aday belirleniyor. Kayıt yaptırmayan asıl adayların yerine yedekler sırayla çağrılıyor.
+
+### 2027 kontenjanları belli mi?
+
+Hayır. 2026 MEB-AGS puanıyla yapılacak başvuru dönemi ve kontenjanlar 31 Ekim 2026 itibarıyla duyurulmadı. Bakanlık bunları başvuru duyurusunda ilan eder.
+
+### Kaç puanla akademiye girilir?
+
+Resmî olarak alanlara göre en düşük yerleşen puan yayımlanmadı; sonuçlar e-Devlet ile kişiye özel açıklandı. Belirleyici olan alanınızdaki aday sayısı ve kontenjandır.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisine Hazırlık Eğitimi Başvuru Duyurusu Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisine-hazirlik-egitimi-basvuru-duyurusu-yayimlandi/haber/39483/tr (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Hazırlık Eğitimine Alınacak Adaylar İlan Edildi. https://www.meb.gov.tr/milli-egitim-akademisinde-hazirlik-egitimine-alinacak-adaylar-ilan-edildi/haber/39683/tr (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+7. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
+8. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+
+---
+
 # AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?
 
 > AGS'de 4 yanlış 1 doğruyu götürür mü? Net hesabı, boş bırakmak mı tahmin mi, 1 net şartı ve baraj puanı meselesi; ÖSYM kılavuzu ve 7528 sayılı Kanun'a göre.
@@ -304,6 +469,220 @@ MEB, KPSS döneminde öğretmen adayları için uygulanan 40 yaş sınırının 
 7. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
 8. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
 9. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+
+---
+
+# Akademi Başvurusu Nasıl Yapılır? Başvuru, Onay ve Kayıt
+
+> AGS sonrası Millî Eğitim Akademisi başvurusu nasıl yapılır? akademibasvuru.meb.gov.tr, il/ilçe onayı, asıl-yedek ilanı ve kayıtta istenen belgeler.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu
+
+## Özet
+
+- AGS başvurusu ÖSYM'ye, **akademi başvurusu** ayrıca MEB'e yapılıyor: akademibasvuru.meb.gov.tr, e-Devlet ile.
+- Başvuruyu adayın seçtiği **il ya da ilçe millî eğitim müdürlüğü** inceleyip onaylıyor ya da gerekçeli reddediyor.
+- Mezuniyet birden çok alana kaynaksa yalnız **bir alana** başvurulabiliyor.
+- Asıl ve yedek adaylar **personel.meb.gov.tr**'de ilan ediliyor; internet ilanı tebligat sayılıyor.
+- Kayıtta diploma, adli sicil, askerlik durum belgesi ve **sağlık kurulu raporu** isteniyor; kayıt şahsen ya da noter vekâletiyle.
+
+AGS sonuçları açıklandıktan sonra süreç kendiliğinden ilerlemiyor: hazırlık eğitimine alınmak için Bakanlığa **ayrı bir başvuru** yapmak gerekiyor. Bu yazı ilk başvuru döneminin (Ocak 2026) duyurusuna ve Mart 2026 kayıt kılavuzuna göre adımları sırayla anlatıyor.[1]
+
+## İki ayrı başvuru: ÖSYM ve MEB
+
+AGS'nin kendisi ÖSYM'nin sınavı; başvurusu ÖSYM'nin sistemi üzerinden yapılıyor ([AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir)). Sınavdan sonra ise Bakanlık, alanlara göre kontenjan, taban puan, başvuru yeri ve süresini bir **duyuruyla** ilan ediyor; şartları taşıyanlar duyuruda belirtilen sürede hazırlık eğitimine alınmak üzere başvuruyor.[2] İlk dönemde bu başvuru 2025 MEB-AGS puanlarıyla 20-27 Ocak 2026'da alındı.[3]
+
+## Başvuru şartları
+
+Duyurudaki şartlar Kanun'daki şartlarla aynı çizgide: Türk vatandaşı olmak (KKTC vatandaşları için bu şart aranmadı), kamu haklarından mahrum olmamak, sayılan suçlardan mahkûmiyet bulunmamak, askerlikle ilişiği olmamak, mezun olunan programın başvurulan alana uygun olması, yurt dışı mezunları için denklik, başvurulan alanın puan türünden **en az 50** almış olmak ve sağlık yönünden engel bulunmamak.[1][4] Hangi programın hangi alana kaynak olduğu Talim ve Terbiye Kurulu'nun kararında belirleniyor; adaylar uygunluğu pbs.meb.gov.tr'deki kaynak okul ekranından kontrol edebiliyor.[1] Ayrıntı: [AGS'ye kimler girebilir?](https://bote.web.tr/blog/ags-kimler-girebilir)
+
+## Adım adım başvuru
+
+1. **Sisteme giriş.** Başvuru akademibasvuru.meb.gov.tr adresinde, **e-Devlet** kullanıcı adı ve şifresiyle yapılıyor; sürecin tamamı elektronik. İlk dönemde son gün saat 16.00'da sistem kapandı.[1]
+2. **Elektronik Başvuru Formu.** İletişim bilgileri eksiksiz girilip güncel fotoğraf yükleniyor. Adres ve telefon bilgisi, güvenlik soruşturmasının hızlı yürümesi için de önemli.[1]
+3. **Alan seçimi.** Mezuniyeti birden fazla alana kaynak olan aday **yalnız bir alana** başvurabiliyor.[1]
+4. **Belge yükleme.** Mezuniyet belgesi ya da diplomanın ön ve arka yüzü, varsa denklik belgesi taranıp yükleniyor. Sağlık, askerlik ve adli sicil için başvuruda belge değil **beyan** alınıyor; belgeler kayıtta isteniyor.[1]
+5. **Merkez tercihi.** Birden fazla merkezde eğitim verilen alanlarda merkezler başvuru ekranına yansıyor ve aday tercih yapıyor.[1] Merkezler için [Millî Eğitim Akademisi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde)
+6. **Onay kurumu seçimi.** Aday başvurusunun onaylanacağı bir il ya da ilçe millî eğitim müdürlüğü seçiyor.[1]
+
+## İl ve ilçe onayı
+
+Başvurular adayın seçtiği müdürlükteki **Başvuru Onay Komisyonu** tarafından inceleniyor: uygun olanlar onaylanıyor, uygun olmayanlar gerekçesi yazılarak reddediliyor. Onay ya da ret durumunu sistemden takip etmek adayın sorumluluğunda. Hatalı bilgiyle onaylanan başvuru, aday tarafından süresi içinde iptal edilip yeniden yapılabiliyor. Duyuru, başvurunun son güne bırakılmasının düzeltme imkânını ortadan kaldırabileceği konusunda adayları ayrıca uyarıyor.[1]
+
+## Asıl ve yedek adayların ilanı
+
+Her alan için MEB-AGS puan üstünlüğüne göre kontenjan kadar asıl, asıl sayısının en fazla %10'u kadar yedek aday belirleniyor; adaylar **personel.meb.gov.tr** üzerinden ilan ediliyor. Posta ya da başka yolla tebligat yapılmıyor: **internet ilanı tebligat niteliğinde**.[1] İlk dönemde ilan 30 Ocak 2026'da yapıldı, sonuçlar e-Devlet ile açıldı. Kontenjanlar için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Kayıt: istenen belgeler
+
+Güvenlik soruşturması ve arşiv araştırması tamamlanan adaylar için kayıt duyurusu yapılıyor. İlk dönemde kayıtlar 25 Mart-3 Nisan 2026'da, yedeklerin kaydı 8-10 Nisan 2026'da yapıldı; dersler 13 Nisan'da başladı.[5][6] Kayıt, yerleşilen merkeze **şahsen** yapılıyor; mücbir sebebi olanlar **noter onaylı vekâletle** kayıt yaptırabiliyor. Kayıt kılavuzunda istenen belgeler:[7]
+
+| Belge | Not |
+|---|---|
+| Elektronik Başvuru Formu | akademibasvuru.meb.gov.tr çıktısı |
+| Diploma aslı ya da noter onaylı örneği | geçici mezuniyet belgesi de kabul |
+| Yerleştirme sonuç belgesi | pbs.meb.gov.tr/sonuc |
+| T.C. kimlik kartı fotokopisi | |
+| 4 vesikalık fotoğraf | son altı ay, 4,5x6 cm |
+| Adli sicil kayıt belgesi | e-Devlet, barkodlu |
+| Askerlik durum belgesi | erkek adaylar, e-Devlet, barkodlu |
+| Sağlık kurulu raporu | tam teşekküllü hastaneden, güncel; e-Rapor sisteminde doğrulanmayan kabul edilmez |
+| Vekâletname örneği | vekâletle kayıtta |
+
+Kayıt kabul komisyonu beyanlarla belgeleri karşılaştırıyor; tereddüt edilen durumlar Akademi Başkanlığına bildiriliyor.[7] Kayıttan önce **MERNİS adres bilgisinin güncel** olması da isteniyor.[5]
+
+## Sık yapılan hatalar
+
+- **Son güne bırakmak.** Ret gelirse düzeltme süresi kalmıyor.[1]
+- **Kaynak program kontrolünü atlamak.** Bazı programlar için ek belge gerekiyor (örneğin felsefe ve sosyoloji mezunlarından belirli kredi belgeleri); bu notlar kaynak okul ekranında yazıyor.[1]
+- **Sağlık raporunu geç almak.** Tam teşekküllü hastaneden kurul raporu zaman alabiliyor; kayıt takvimi kısa.[7]
+- **İlanı beklemek.** Tebligat yapılmadığı için personel.meb.gov.tr ve akademi.meb.gov.tr duyurularını takip etmek gerekiyor.[1]
+
+## Seçimden sonrası
+
+Kayıt yaptıran adaylar Akademide hazırlık eğitimine başlıyor; ilişik kesilme ve başarı şartları yönetmelikte tanımlı.[8] Öğretmen seçme süreçlerini inceleyen bir meta-analiz, tek bir sınavın öğretmen etkililiğini sınırlı ölçüde yordadığını gösteriyor;[9] OECD de seçmeyi mesleğe giriş sürecinin bütünüyle birlikte ele almayı öneriyor.[10] Akademideki eğitimin içeriği için [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri).
+
+## Sık Sorulan Sorular
+
+### AGS'yi kazandım, akademiye başvuru otomatik mi?
+
+Hayır. AGS puanı ÖSYM'den alınır; hazırlık eğitimine alınmak için Bakanlığın duyurusunda belirtilen tarihlerde akademibasvuru.meb.gov.tr adresinden ayrıca başvuru yapılır.
+
+### Akademi başvurusu nereden yapılır?
+
+Ocak 2026 döneminde başvurular akademibasvuru.meb.gov.tr adresinden e-Devlet kullanıcı bilgileriyle, tamamen elektronik ortamda alındı.
+
+### Başvurum reddedilirse ne olur?
+
+İl ya da ilçe millî eğitim müdürlüğü gerekçesini sistemde belirtir. Aday başvuru süresi içinde başvurusunu iptal edip düzeltilmiş yeni başvuru yapabilir.
+
+### Birden fazla alana başvurabilir miyim?
+
+Hayır. Mezuniyeti birden fazla alana kaynak olan adaylar yalnızca bir alanda hazırlık eğitimine alınmak üzere başvurabiliyor.
+
+### Akademi kaydı için hangi belgeler isteniyor?
+
+Elektronik başvuru formu, diploma aslı ya da noter onaylı örneği, yerleştirme sonuç belgesi, kimlik fotokopisi, 4 fotoğraf, adli sicil kaydı, erkekler için askerlik durum belgesi ve tam teşekküllü hastaneden sağlık kurulu raporu.
+
+### Kayda kendim gidemezsem ne olur?
+
+Şahsen başvurmaya engel mücbir sebebi olan adaylar noter onaylı vekâletle kayıt yaptırabiliyor.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisine Hazırlık Eğitimi Başvuru Duyurusu Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisine-hazirlik-egitimi-basvuru-duyurusu-yayimlandi/haber/39483/tr (TR, erişim: 2026-10-31)
+4. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programına Yedek Adaylardan Kayıt Hakkı Kazananların Sonucu Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programina-yedek-adaylardan-kayit-hakki-kazananlarin-sonucu-aciklandi/haber/40369/tr (TR, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı Millî Eğitim Akademisi Başkanlığı (2026). Millî Eğitim Akademisinde Hazırlık Eğitimi Almaya Hak Kazanan Öğretmen Adaylarına Yönelik Kayıt Kılavuzu (Mart 2026). https://akademi.meb.gov.tr/meb_iys_dosyalar/2026_03/69ae926bd5d4d490297329_Akdemi_Kay%C4%B1t_K%C4%B1lavuzu.pdf (TR, erişim: 2026-10-31)
+8. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+9. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
+10. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+
+---
+
+# Akademi Hazırlık Eğitimi Maaşı Ne Kadar? (2026)
+
+> Akademi hazırlık eğitimi maaşı ne kadar? 23.310 gösterge, 2026 Temmuz katsayısıyla aylık 36.725,18 TL; vergi, SGK, askerlik ve kayıt dondurma.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi
+
+## Özet
+
+- Hazırlık eğitimindeki öğretmen adayına her ay **23.310 gösterge × memur aylık katsayısı** kadar ödeme yapılıyor.
+- 1 Temmuz-31 Aralık 2026 için katsayı 1,575512: aylık **36.725,18 TL**. Ocak-Haziran 2026'da 32.351,27 TL idi.
+- Ödeme **damga vergisi dışında** vergi ve kesintiye tabi değil.
+- Aday ile eşi, çocukları, anne ve babası **genel sağlık sigortalısı**; primleri Bakanlık ödüyor.
+- Kaydı dondurulan adaya o süre boyunca ödeme yapılmıyor; erkek adayların askerliği eğitim boyunca erteleniyor.
+
+Millî Eğitim Akademisinde hazırlık eğitimi yaklaşık bir yıl süren, tam zamanlı bir süreç; bu sürede adaylar başka bir işte çalışmayı planlayamıyor. Bu yüzden "akademide maaş var mı, ne kadar?" en çok aranan sorulardan biri. Cevap Kanun'da açıkça yazılı. Bu yazı ödemenin hesabını, 2026 tutarlarını ve sosyal hakları resmî metinlerle anlatıyor.[1]
+
+## Ödeme nasıl hesaplanıyor?
+
+7528 sayılı Kanun'un 14. maddesi kuralı koyuyor: öğretmen adaylarına hazırlık eğitimi sürecinde **her ay (23.310) gösterge rakamının memur aylık katsayısı ile çarpımı** sonucu bulunacak tutarda ödeme yapılıyor.[1] Hazırlık Eğitimi Yönetmeliği aynı hükmü tekrarlıyor ve ödemenin eğitim ve uygulama merkezlerine gönderilen ödenekten karşılandığını ekliyor.[2]
+
+Formül sabit, değişen tek şey **memur aylık katsayısı**. Katsayıyı Hazine ve Maliye Bakanlığı her altı ayda bir mali ve sosyal haklar genelgesiyle ilan ediyor.[3]
+
+## 2026 tutarları
+
+| Dönem | Memur aylık katsayısı | Aylık ödeme (23.310 × katsayı) |
+|---|---|---|
+| 1 Ocak-30 Haziran 2026 | 1,387871 | 32.351,27 TL |
+| 1 Temmuz-31 Aralık 2026 | 1,575512 | 36.725,18 TL |
+
+Veri notu: Katsayılar Hazine ve Maliye Bakanlığı mali ve sosyal haklar genelgelerinden; hesap 7528 sayılı Kanun md. 14'teki formülle yapıldı; erişim 31 Ekim 2026.[3][1]
+
+İlk grup derslere 13 Nisan 2026'da başladığı için ilk aylarda Ocak-Haziran katsayısıyla, Temmuz'dan itibaren yeni katsayıyla ödeme aldı.[4] Ocak 2027'de katsayı yeniden belirlenince tutar da değişecek.
+
+**Hesap adım adım.** Gösterge rakamı Kanun'da sabit: 23.310. Bunu yürürlükteki memur aylık katsayısıyla çarpmak yeterli. Temmuz-Aralık 2026 için 23.310 × 1,575512 = 36.725,18 TL; Ocak-Haziran 2026 için 23.310 × 1,387871 = 32.351,27 TL. Yeni katsayı açıklandığında aynı çarpımı yeni katsayıyla yapmak, güncel tutarı verir. Haberlerde farklı rakamlar görülmesinin nedeni çoğunlukla hangi dönemin katsayısının kullanıldığı.
+
+## Vergi ve kesinti var mı?
+
+Kanun ve yönetmeliğe göre bu ödeme **damga vergisi dışında herhangi bir vergi ve kesintiye tabi tutulmaz**.[1][2] Gelir vergisi, emeklilik primi ya da sendika kesintisi gibi kalemler yok. Bu nedenle adayın eline geçen tutar, tablodaki tutardan yalnızca damga vergisi kadar düşük olabilir.
+
+Bu ödeme bir memur maaşı değil: öğretmen adayı henüz sözleşmeli öğretmen değil, Akademide hazırlık eğitimi alan bir aday. Hazırlık eğitimini başarıyla bitirenler sözleşmeli öğretmen olarak istihdam edildiğinde öğretmen maaşı başlıyor.[1]
+
+## Sağlık sigortası
+
+Öğretmen adayları ve **bakmakla yükümlü olunan kişi sıfatıyla eş ve çocukları ile anne ve babaları**, hazırlık eğitimi süresince 5510 sayılı Kanun kapsamında genel sağlık sigortalısı sayılıyor. Primler, aylık ödemeden **ayrı olarak** Bakanlık bütçesinden karşılanıyor; yani prim adayın ödemesinden kesilmiyor.[2]
+
+## Kayıt dondurma ve ödeme
+
+Belgeye dayalı sağlık mazereti nedeniyle hazırlık eğitimi süresince toplam **20 gün ve üzeri** eğitime katılamayan adayların kaydı donduruluyor. Kanun ve yönetmelik açık: **kaydı dondurulanlara bu süre boyunca ödeme yapılmıyor**.[1][2] Aday, mazereti ortadan kalkınca ilk hazırlık eğitimi programına yeniden alınıyor.
+
+## Akademiyle ilişik kesilirse
+
+Ödeme öğretmen adaylığına bağlı; aday statüsü sona erince ödeme de sona eriyor. Kanuna göre şartlardan birini taşımadığı sonradan anlaşılan ya da kaybedenlerin, disiplin soruşturması sonucunda Akademiden çıkarılanların ve **hazırlık eğitiminde başarısız olanların** Akademiyle ilişiği kesiliyor.[1] Teorik derslerde ek sınav sonunda da başarısız olunan ya da uygulamalı derslerde 70'in altında kalınan durumlar başarısızlık sayılıyor. Yönetmelik, ilişiği kesilenlerin gerekli şartları taşımaları hâlinde hazırlık eğitimine yeniden alınmak için başvurabileceğini de söylüyor.[2]
+
+## Askerlik
+
+Askerlik yükümlülüğü bulunan öğretmen adaylarının askerlik hizmetleri **Akademideki eğitimleri süresince erteleniyor**.[1] Bu, hazırlık eğitimine başlamış olanlar için geçerli bir erteleme; başvuru şartları arasında ise askerlikle ilgisi bulunmamak, askerliğini yapmış olmak ya da ertelemiş olmak sayılıyor.[1]
+
+## Bütçe planlaması için notlar
+
+- **Konaklama ücretli.** Merkezlerdeki konaklama imkânından ücreti adaya ait olmak üzere yararlanılıyor; ayrıntı için [Millî Eğitim Akademisi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde)
+- **Süre.** Program onar haftalık dört dönemden oluşuyor; dördüncü dönem tamamen okulda uygulama.[5]
+- **Başka işte çalışma.** Devam zorunlu ve izin hakları sınırlı olduğu için hazırlık eğitimi ile düzenli bir işi birlikte yürütmek pratikte mümkün değil.[2]
+
+OECD'nin öğretmen politikaları raporu, mesleğe girişte desteklenen ve ücretlendirilen hazırlık dönemlerinin nitelikli adayları mesleğe çekmede önemli olduğunu vurguluyor.[6] TALIS verileri de yeni öğretmenlerin mesleğe giriş programlarına katılımının ülkeden ülkeye çok değiştiğini gösteriyor; Akademi modeli bu girişi zorunlu ve ücretli bir döneme dönüştürüyor.[7] Genel çerçeve için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi).
+
+## Sık Sorulan Sorular
+
+### Akademi hazırlık eğitimi maaşı ne kadar?
+
+Kanuna göre 23.310 gösterge rakamının memur aylık katsayısıyla çarpımı kadar. 1 Temmuz-31 Aralık 2026 katsayısı 1,575512 olduğundan aylık tutar 36.725,18 TL.
+
+### Akademi maaşından vergi kesilir mi?
+
+Yönetmeliğe göre ödeme damga vergisi hariç herhangi bir vergi ve kesintiye tabi tutulmuyor. Bu yüzden elinize geçen tutar brüt tutara çok yakın.
+
+### Akademi maaşı ne zaman artar?
+
+Tutar memur aylık katsayısına bağlı olduğundan katsayı her altı ayda bir (Ocak ve Temmuz) değiştiğinde ödeme de değişiyor.
+
+### Hazırlık eğitiminde SGK var mı?
+
+Evet. Aday ile bakmakla yükümlü olduğu eş, çocuk, anne ve babası genel sağlık sigortalısı sayılıyor; primler ödemeden ayrı olarak Bakanlık bütçesinden ödeniyor.
+
+### Kaydım dondurulursa ödeme devam eder mi?
+
+Hayır. Belgeli sağlık mazereti nedeniyle 20 gün ve üzeri devamsızlıkta kayıt donduruluyor ve dondurulan süre boyunca ödeme yapılmıyor.
+
+### Akademideyken askerlik ertelenir mi?
+
+Evet. Askerlik yükümlülüğü bulunan öğretmen adaylarının askerlik hizmeti Akademideki eğitimleri süresince erteleniyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+3. T.C. Hazine ve Maliye Bakanlığı Muhasebat Genel Müdürlüğü (2026). Mali ve Sosyal Haklar Genelgeleri (2026 Temmuz dönemi katsayıları). https://muhasebat.hmb.gov.tr/mali-ve-sosyal-haklar-genelgeleri (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+6. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+7. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
 
 ---
 
@@ -4029,6 +4408,214 @@ Hayır. ÖABT'de İlköğretim Matematik (P2-06) ve Matematik (P2-08) ayrı test
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Millî Eğitim Akademisi Dersleri: 4 Dönemlik Program
+
+> Millî Eğitim Akademisi hazırlık eğitiminde hangi dersler var? 4 dönemlik program, ortak dersler, alan eğitimi dersleri, okul uygulamaları, 480 saat uygulama.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 4 dk okuma · https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri
+
+## Özet
+
+- Program **onar haftalık dört dönem**; ortak dersler üç dönem, dördüncü dönem tamamen okulda uygulama.
+- Ortak dersler: eğitimde hak ve sorumluluklar, insan ve öğrenme, program okuryazarlığı ve Maarif Modeli, dijital içerik, eğitimde yapay zekâ, kapsayıcı eğitim ve diğerleri.
+- Her alana özgü **alan eğitimi dersleri** var (örneğin BÖT için oyunlaştırma ve biçimlendirici değerlendirme).
+- Uygulama: ilk üç dönem haftada bir gün, son dönem **tam zamanlı öğretmenlik deneyimi**; program toplam uygulamayı 480 saatin üzerine çıkarıyor.
+- Teorik derste geçme notu **60**, uygulamada **70**; atamaya esas puan %40 teorik + %60 uygulama.
+
+Millî Eğitim Akademisinin hazırlık eğitimi programı Mart 2026'da yayımlandı. 82 sayfalık program, adayların dört dönem boyunca hangi dersleri alacağını, okulda ne kadar uygulama yapacağını ve nasıl değerlendirileceğini tanımlıyor. Bu yazı programı ana hatlarıyla özetliyor.[1]
+
+## Programın yapısı: dört dönem
+
+Kanuna göre hazırlık eğitiminin süresi **dört dönem**; mezun olunan programa göre üç dönem olarak da uygulanabiliyor.[2] Yönetmelik bir dönemi on haftadan az, on dört haftadan fazla olmayacak şekilde tanımlıyor.[3] Yayımlanan program bunu **onar haftalık dört dönem** olarak planlıyor: ortak dersler üç dönemde, uygulamalı dersler ilk dönemden başlayarak üç dönem haftada birer gün; **dördüncü dönem tamamen uygulama**.[4]
+
+| Bileşen | Ne zaman? | Örnek |
+|---|---|---|
+| Ortak dersler | 1-3. dönem | Eğitimde hak ve sorumluluklar, insan ve öğrenme |
+| Alan eğitimi dersleri | 1-3. dönem | Alana özgü altı ders (örneğin oyunlaştırma, programa özgü okuryazarlık) |
+| Okul/kurum uygulamaları | 1-3. dönem haftada bir gün | Dönüşümsel uygulama, okul dışı öğrenme ortamları, eylem araştırması |
+| Tam zamanlı öğretmenlik deneyimi | 4. dönem | Okulda tam zamanlı öğretmenlik |
+| Kültür sanat uygulamaları | Süreç boyunca | Deneyim paylaşımları, şehir kültürü etkinlikleri |
+
+## Ortak dersler
+
+Program ortak dersleri dönemlere göre sıralıyor (parantez içi: teorik+uygulama saat):[1]
+
+**1. dönem:** Eğitimde Hak ve Sorumluluklar (3+0), İnsan ve Öğrenme (3+0), Medya, Toplum ve Eğitim (2+0), Program Okuryazarlığı ve Türkiye Yüzyılı Maarif Modeli (2+0), Türk Kültürünün Kurucu Metinleri (2+0), Türkçenin Söz Varlığı ve Maarif Sözlüğü (2+0), Veri Temelli İzleme ve Değerlendirme (2+0).
+
+**2. dönem:** Dijital İçerik ve Materyal Geliştirme (3+0), Eğitim Sürecinin Yönetimi (3+0), Eğitimde Estetik, Nezaket ve Görgü (2+0), Eğitimde Rehberlik (2+0), İnsanın Varlık Tasavvuru ve Anlam Arayışı (2+0), Medeniyet ve Bilim Dili Türkçe (2+0), Türk Eğitim Düşüncesini Etkileyen Lider Şahsiyetler (2+0).
+
+**3. dönem:** Aile ve Eğitim (2+0), Eğitimde Eleştirel Düşünme ve Okuma (2+0), Eğitimde İnsan Hakları ve Demokrasi Kültürü (2+0), Kapsayıcı Eğitim (2+0), Sözlü, Yazılı ve Görsel İletişim (2+0), Türk İslam Medeniyetinde Eğitim Kurumları (2+0), Türk Kültür Atlası (2+0), Eğitimde Yapay Zekâ Uygulamaları (2+0).
+
+Derslerin bir kısmı AGS'nin eğitim bilimleri konularının devamı niteliğinde: "Veri Temelli İzleme ve Değerlendirme" biçimlendirici değerlendirmeyi, "Eğitimde Rehberlik" BEP ve kaynaştırmayı, "Eğitim Sürecinin Yönetimi" sınıf yönetimini kapsıyor.[1] Bu konuların temeli için [biçimlendirici değerlendirme](https://bote.web.tr/blog/bicimlendirici-degerlendirme-nedir) ve [sınıf yönetimi](https://bote.web.tr/blog/sinif-yonetimi-nedir).
+
+## Alan eğitimi dersleri
+
+Program her alana özgü altı farklı ders içeriği tanımlıyor ve bunu "ileri alan eğitimi" olarak niteliyor.[1] Toplam 30 başlık var: Türkçe, ilköğretim matematik, okul öncesi, sınıf öğretmenliği, sosyal bilgiler, fen bilimleri, bilgisayar ve öğretim teknolojileri, beden eğitimi, özel eğitim, rehberlik, din kültürü, yabancı diller ve mesleki ve teknik eğitim bunlardan bazıları. Örnekler:[1]
+
+| Alan | Örnek dersler |
+|---|---|
+| Türkçe | Türkçe Düşünmek (2+1), Kitap ve Kütüphane Kültürü (2+1), Dijital Ortamda Yaratıcı Yazma Teknikleri (2+1) |
+| Sınıf öğretmenliği | Sınıf Eğitiminde Oyunlaştırma ve Etkinlik Geliştirme (2+1), Sınıf Eğitiminde Biçimlendirici Değerlendirme (2+1) |
+| Bilgisayar ve öğretim teknolojileri | BTY Eğitiminde Biçimlendirici Değerlendirme (2+1), BTY Eğitiminde Oyunlaştırma ve Etkinlik Geliştirme (2+1) |
+| Özel eğitim | Özel Eğitimde Aile ile İş Birliği (2+1), Özel Eğitimde Oyunlaştırma ve Etkinlik Geliştirme (2+1) |
+| Mesleki ve teknik eğitim | Mesleki Alan Eğitimi-1 (1+5), Mesleki Alan Eğitimi-2 (1+3) |
+
+BTY'nin içeriği için [Bilişim Teknolojileri ve Yazılım dersi](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi).
+
+## Okul ve kurum uygulamaları
+
+Programın en ağır bölümü uygulama. Okul/kurum uygulama dersleri şunlar:[1]
+
+| Ders | Saat | İçerik |
+|---|---|---|
+| Dönüşümsel Uygulama Programı | 0+6 | Okul türleri (BİLSEM, RAM, halk eğitimi dâhil), okul kültürü, mevzuat, kulüp ve toplum hizmeti |
+| Okul Dışı Öğrenme Ortamları ve Teknoloji Destekli Öğretim | 0+6 | Bilim merkezleri, müzeler, öğrenme laboratuvarları, Harezmi Eğitim Modeli |
+| Eğitimde Yansıtıcı Öğrenme ve Eylem Araştırması | 0+6 | Ders planlama ve uygulama, eylem araştırması |
+| Tam Zamanlı Öğretmenlik Deneyimi | 0+30 | Sınıfta tam zamanlı öğretmenlik, ölçme-değerlendirme, veli iletişimi |
+
+Program, Türkiye'de lisans eğitimindeki uygulama süresinin uluslararası ortalamanın gerisinde kaldığını belirtip Akademide bu süreyi **480 saatin üzerine** çıkardığını söylüyor. Adaylar uygulama derslerinde her hafta yansıtıcı günlük dolduruyor.[1]
+
+## Değerlendirme
+
+Teorik derslerde her ders için **en az iki yazılı sınav** yapılıyor; ortalama **100 üzerinden en az 60** olmalı, başarısız olunan ders için bir ek sınav hakkı var. Uygulamada eğitim personeli, okul müdürü ve uygulama öğretmeni üç kez değerlendirme yapıyor; ağırlıklar %20, %30 ve %50, geçme puanı **70**. Atamaya esas puan, teorik not ortalamasının %40'ı ile uygulama not ortalamasının %60'ının toplamı.[1][3]
+
+## Bu yapı araştırmalarla nasıl örtüşüyor?
+
+Darling-Hammond'ın güçlü öğretmen yetiştirme programları üzerine çalışması, ortak özellikleri kuram ile uygulama arasındaki sıkı bağ ve uzun, iyi denetlenen okul deneyimi olarak tanımlıyor.[5] Uygulama okulunun niteliği de önemli: iyi işleyen okullarda uygulama yapan öğretmen adayları mesleğe daha uzun devam ediyor ve öğrencilerine daha fazla başarı kazandırıyor.[6] Uygulama öğretmeni ve eğitim personelinin yakından izlemesi, araştırmalarda koçluğun öğretim uygulamaları üzerindeki etkisiyle (ortalama 0,49 standart sapma) karşılaştırılabilir; ancak aynı meta-analiz, programlar büyüdükçe etkinin küçüldüğünü de gösteriyor.[7] On bin adaylık bir sistemde uygulama öğretmeni ve okul niteliğini korumak bu yüzden kritik. Genel çerçeve için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi).
+
+## Sık Sorulan Sorular
+
+### Millî Eğitim Akademisinde hangi dersler var?
+
+Üç dönemde ortak dersler (eğitimde hak ve sorumluluklar, insan ve öğrenme, program okuryazarlığı ve Maarif Modeli, dijital içerik ve materyal geliştirme, eğitimde yapay zekâ, kapsayıcı eğitim vb.), alana özgü alan eğitimi dersleri ve okul uygulama dersleri var.
+
+### Akademi kaç dönem?
+
+Kanuna göre dört dönem; programa göre her dönem on hafta. Bazı yükseköğretim programları için Akademik Kurul kararıyla üç dönem uygulanabiliyor.
+
+### Akademide uygulama ne kadar?
+
+İlk üç dönem uygulamalı dersler haftada bir gün, dördüncü dönem tamamen uygulama. Program uygulama süresini 480 saatin üzerine çıkardığını belirtiyor.
+
+### Akademide sınav var mı?
+
+Evet. Her teorik dersten en az iki yazılı sınav yapılıyor; ortalama 100 üzerinden en az 60 olmalı. Başarısız olunan her ders için bir ek sınav hakkı var.
+
+### Alan dersleri her branşta farklı mı?
+
+Evet. Programda Türkçeden mesleki ve teknik eğitime kadar 30 başlıkta alana özgü dersler tanımlanmış; örneğin sınıf öğretmenliğinde oyunlaştırma ve etkinlik geliştirme dersi var.
+
+### Akademide derslerin saati nasıl?
+
+Programda ortak dersler çoğunlukla 2+0 ya da 3+0, alan dersleri 2+1; okul uygulama dersleri 0+6, tam zamanlı öğretmenlik deneyimi 0+30 olarak tanımlı.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+5. Darling-Hammond, L. (2006). Constructing 21st-century teacher education. Journal of Teacher Education, 57(3), 300–314. https://doi.org/10.1177/0022487105285962 (EN, erişim: 2026-10-31)
+6. Ronfeldt, M. (2012). Where should student teachers learn to teach? Effects of field placement school characteristics on teacher retention and effectiveness. Educational Evaluation and Policy Analysis, 34(1), 3–26. https://doi.org/10.3102/0162373711420865 (EN, erişim: 2026-10-31)
+7. Kraft, M. A., Blazar, D. ve Hogan, D. (2018). The effect of teacher coaching on instruction and achievement: A meta-analysis of the causal evidence. Review of Educational Research, 88(4), 547–588. https://doi.org/10.3102/0034654318759268 (EN, erişim: 2026-10-31)
+
+---
+
+# Millî Eğitim Akademisi Hangi İllerde? Branş ve Merkezler
+
+> Millî Eğitim Akademisi hangi illerde? 7 ildeki eğitim ve uygulama merkezleri, hangi branşın nerede okuduğu, merkez tercihi, evli adaylar ve konaklama.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde
+
+## Özet
+
+- Hazırlık eğitimi **7 ilde**: Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas.
+- Sınıf öğretmenliği 6 merkezde, özel eğitim 3 merkezde, yabancı diller 2 merkezde; diğer branşlar tek merkezde.
+- Birden çok merkezli alanlarda yerleştirme **tercih ve MEB-AGS puanına** göre; yerleşemeyenler resen yerleştiriliyor.
+- Evli adaylar, ikisi de hazırlık eğitimine alınıyorsa **aynı ilde** eğitim için başvurabiliyor.
+- Konaklama imkânı olan merkezlerde ücreti adaya ait olmak üzere yararlanılabiliyor.
+
+AGS'yi kazanan adayların ilk sorusu çoğunlukla "Akademi nerede?" oluyor. Hazırlık eğitimi tek bir kampüste değil, farklı illerdeki **eğitim ve uygulama merkezlerinde** veriliyor. Bu yazı ilk dönemdeki (2026) merkezleri, branşların dağılımını ve yerleştirme kurallarını resmî kaynaklarla anlatıyor.[1]
+
+## Yedi il, eğitim ve uygulama merkezleri
+
+Bakanlığın 16 Ocak 2026 duyurusuna göre akademi hazırlık eğitimleri **Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas**'taki eğitim ve uygulama merkezlerinde yürütüldü. Planlama, branşların kontenjan büyüklüğü ve eğitim ihtiyaçlarına göre yapıldı: bazı branşlar birden çok merkezde, diğerleri tek merkezde okutuldu.[1]
+
+Hangi alanın hangi merkezde okutulacağını Akademi belirliyor. Yönetmelik ölçütleri sayıyor: merkezin bulunduğu yerdeki tür ve kademelerine göre okul sayısı, uygulama derslerinde görevlendirilebilecek öğretmen sayısı ve merkezin fiziki yapısı.[2] Bunun nedeni, hazırlık eğitiminin önemli bölümünün çevredeki okullarda uygulamalı olarak yapılması.
+
+## Hangi branş nerede? (2026)
+
+| Branş | Merkez |
+|---|---|
+| Sınıf öğretmenliği (2.816) | Aksaray, Erzurum, Gaziantep, Kayseri, Ankara, İstanbul (6 merkez) |
+| Özel eğitim (1.798) | Gaziantep, Ankara, İstanbul (3 merkez) |
+| Yabancı diller (843) | Kayseri, İstanbul (2 merkez) |
+| Okul öncesi | Sivas |
+| Türkçe, sosyal bilgiler, tarih, coğrafya, felsefe, Türk dili ve edebiyatı, MTA (lise) | İstanbul |
+| Fen bilimleri, rehberlik, ilköğretim matematik, matematik, kimya, fizik, biyoloji, beden eğitimi, müzik, görsel sanatlar, teknoloji ve tasarım, bilgisayar ve öğretim teknolojileri, tiyatro, din kültürü, İHL meslek dersleri | Ankara |
+
+Veri notu: MEB, "Millî Eğitim Akademisinde Branşlara Göre Hazırlık Eğitimlerinin Yürütüleceği Merkezler Belli Oldu", 16 Ocak 2026; erişim 31 Ekim 2026.[1] Parantez içindeki sayılar Ocak 2026 kontenjanları.[3] Alan kontenjanlarının tamamı için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Merkeze yerleştirme nasıl yapılıyor?
+
+Birden fazla merkezde hazırlık eğitimi verilen alanlarda adaylar başvuru sırasında **merkez tercihi** yapıyor. Yönetmeliğe göre yerleştirme sırası şöyle: önce EKPSS puanıyla başvuranlar, sonra 2828 sayılı Kanun kapsamındakiler, 3713 sayılı Kanun kapsamındakiler, millî sporcular ve son olarak alan için hesaplanan **MEB-AGS puanı yüksek olandan başlayarak** diğer adaylar; hepsi merkez kontenjanı sınırında ve tercihlerine göre. Puan eşitliğinde bilgisayar kurası yapılıyor; tercihine yerleşemeyenleri Bakanlık **resen** bir merkeze yerleştiriyor. Tek merkezli alanlara başvuranlar doğrudan o merkeze yerleştiriliyor.[2]
+
+İlk dönemde de yerleştirmeler bu şekilde puan ve tercihe göre yapıldı; tercihlerine yerleşemeyen adaylar merkezlere resen yerleştirildi.[4] Engelli adaylar için ayrıntı: [AGS engelli adaylar](https://bote.web.tr/blog/ags-engelli-adaylar).
+
+## Evli adaylar aynı ilde olabilir mi?
+
+Yönetmelik bunun için ayrı bir kural koyuyor: farklı illerdeki merkezlere yerleştirilen evli adaylar, **iki eşin de hazırlık eğitimine alınacak olması** ve alanları itibarıyla aynı ilde eğitim almalarının mümkün olması hâlinde Akademiye belgeleriyle başvurabiliyor. Akademi merkez kapasitesini değerlendirip eşlerin yerleştirildiği illerden birine ya da hazırlık eğitimi alabilecekleri başka bir ile **bir defaya mahsus** yer değiştirme hakkı verebiliyor.[2]
+
+Bu kural yalnız iki eşin de öğretmen adayı olduğu durum için. Eşi başka bir işte çalışan adaylar için hazırlık eğitimi döneminde böyle bir hüküm yok; zaten hazırlık eğitiminin sonundaki asıl görev yerine yerleştirme ayrı bir tercih süreciyle yapılıyor.
+
+## Konaklama ve yurt
+
+Akademi ücretsiz yurt sağlamıyor. Yönetmeliğe göre öğretmen adayları konaklama imkânı bulunan merkezlerin bu imkânlarından **ücreti kendilerine ait olmak üzere** yararlanabiliyor. Konaklama isteği **başvuru sırasında** belirtiliyor; yerler önce EKPSS, 2828, 3713 kapsamındakiler ve millî sporculara, sonra MEB-AGS puanı yüksek olandan başlayarak veriliyor. Boş kalan yerler için merkez ayrıca duyuru yapıyor.[2]
+
+Hazırlık eğitimi süresince her ay ödeme yapıldığı için konaklama ve yaşam masraflarını bu ödemeyle birlikte planlamak gerekiyor; ödemenin hesabı Kanun'da tanımlı.[5] Ayrıntı: [Akademi hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
+
+## Uygulama okulu neden önemli?
+
+Merkezin çevresindeki okullar, adayların her hafta ve son dönemde tam zamanlı uygulama yaptığı yerler. Uygulama okulunun niteliği konusunda araştırma bulguları dikkat çekici: New York'ta yaklaşık 3.000 öğretmeni izleyen bir çalışma, öğretmenliğe iyi işleyen (öğretmen bulmakta zorlanmayan, iş birliği güçlü) okullarda uygulama yapanların mesleğe daha uzun devam ettiğini ve öğrencilerine daha fazla başarı kazandırdığını, üstelik bu etkinin sonradan zor okullarda çalışanlarda da sürdüğünü buldu.[6] OECD'nin TALIS araştırması da hizmet öncesi eğitimde uygulamanın ve mesleğe giriş desteğinin öğretmenlerin hazır hissetmesiyle ilişkisini gösteriyor.[7] Hazırlık eğitiminin yapısı için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi) ve [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri).
+
+## Sık Sorulan Sorular
+
+### Millî Eğitim Akademisi hangi illerde?
+
+İlk dönemde hazırlık eğitimi Ankara, Erzurum, Aksaray, İstanbul, Kayseri, Gaziantep ve Sivas'taki eğitim ve uygulama merkezlerinde verildi.
+
+### Sınıf öğretmenliği akademisi nerede?
+
+Sınıf öğretmenliği adayları Aksaray, Erzurum, Gaziantep, Kayseri, Ankara ve İstanbul olmak üzere 6 merkezde hazırlık eğitimine alındı.
+
+### Akademide merkez tercihi yapılıyor mu?
+
+Birden fazla merkezde eğitim verilen alanlarda adaylar başvuru sırasında merkez tercih ediyor; yerleştirme puan sırasıyla yapılıyor, tercihine yerleşemeyen resen yerleştiriliyor.
+
+### Akademide yurt var mı?
+
+Yönetmeliğe göre konaklama imkânı bulunan merkezlerin bu imkânlarından ücreti adaya ait olmak üzere yararlanılabiliyor; talep başvuru sırasında belirtiliyor.
+
+### Eşim de akademiye alındı, aynı ilde olabilir miyiz?
+
+Evet, başvurabilirsiniz. İki eş de hazırlık eğitimine alınıyorsa ve alanları uygunsa Akademi, merkez kapasitesine göre bir defaya mahsus yer değiştirme hakkı verebiliyor.
+
+### Merkezler her yıl aynı mı?
+
+Hangi alanın hangi merkezde okutulacağını Akademi her dönem belirliyor; bu yazıdaki dağılım Ocak 2026 başvurusuna ait. Yeni dönemde duyuru kontrol edilmeli.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Branşlara Göre Hazırlık Eğitimlerinin Yürütüleceği Merkezler Belli Oldu. https://www.meb.gov.tr/milli-egitim-akademisinde-branslara-gore-hazirlik-egitimlerinin-yurutulecegi-merkezler-belli-oldu/haber/39547/tr (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı Personel Genel Müdürlüğü (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Başvuru Duyurusu (Ocak 2026). https://personel.meb.gov.tr/meb_iys_dosyalar/2026_01/09094622_milli_egitim_akademisi_hazirlik_egitimi_basvuru_duyurusu_ocak_20261.pdf (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisinde Hazırlık Eğitimine Alınacak Adaylar İlan Edildi. https://www.meb.gov.tr/milli-egitim-akademisinde-hazirlik-egitimine-alinacak-adaylar-ilan-edildi/haber/39683/tr (TR, erişim: 2026-10-31)
+5. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+6. Ronfeldt, M. (2012). Where should student teachers learn to teach? Effects of field placement school characteristics on teacher retention and effectiveness. Educational Evaluation and Policy Analysis, 34(1), 3–26. https://doi.org/10.3102/0162373711420865 (EN, erişim: 2026-10-31)
+7. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
 
 ---
 
@@ -21743,6 +22330,8 @@ Yeni model bazı soruları da beraberinde getiriyor. Lisansın ardından eklenen
 ## Sonuç
 
 Millî Eğitim Akademisi, Türkiye'de öğretmen yetiştirmede fakülteler ile okullar arasına yeni bir aşama ekliyor. Modelin başarısı, ortak derslerin ve uygulama döneminin ne kadar nitelikli yürütüleceğine bağlı olacak. İlk mezunların deneyimleri, sistemin güçlü ve geliştirilmesi gereken yönlerini gösterecek.
+
+Ayrıntılı rehberler: [akademi başvurusu nasıl yapılır?](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu), [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan), [akademi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde), [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri) ve [hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
 
 ## Sık Sorulan Sorular
 

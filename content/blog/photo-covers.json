@@ -5502,5 +5502,165 @@
         "bytes": 115744
       }
     ]
+  },
+  {
+    "slug": "ags-kontenjanlari-ve-taban-puan",
+    "title": "AGS Kontenjanları ve Taban Puan: 64 Alan, 10 Bin Aday",
+    "alt": "AGS Kontenjanları ve Taban Puan: 64 Alan, 10 Bin Aday",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-kontenjanlari-ve-taban-puan.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166162
+    },
+    "variants": [
+      {
+        "file": "ags-kontenjanlari-ve-taban-puan-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34358
+      },
+      {
+        "file": "ags-kontenjanlari-ve-taban-puan-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57402
+      },
+      {
+        "file": "ags-kontenjanlari-ve-taban-puan.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 110542
+      }
+    ]
+  },
+  {
+    "slug": "akademi-hazirlik-egitimi-basvurusu",
+    "title": "Akademi Başvurusu Nasıl Yapılır? Başvuru, Onay ve Kayıt",
+    "alt": "Akademi Başvurusu Nasıl Yapılır? Başvuru, Onay ve Kayıt",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "akademi-hazirlik-egitimi-basvurusu.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 162316
+    },
+    "variants": [
+      {
+        "file": "akademi-hazirlik-egitimi-basvurusu-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35034
+      },
+      {
+        "file": "akademi-hazirlik-egitimi-basvurusu-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 58802
+      },
+      {
+        "file": "akademi-hazirlik-egitimi-basvurusu.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 108556
+      }
+    ]
+  },
+  {
+    "slug": "akademi-hazirlik-egitimi-dersleri",
+    "title": "Millî Eğitim Akademisi Dersleri: 4 Dönemlik Program",
+    "alt": "Millî Eğitim Akademisi Dersleri: 4 Dönemlik Program",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "akademi-hazirlik-egitimi-dersleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
+    "variants": [
+      {
+        "file": "akademi-hazirlik-egitimi-dersleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "akademi-hazirlik-egitimi-dersleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "akademi-hazirlik-egitimi-dersleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
+  },
+  {
+    "slug": "milli-egitim-akademisi-hangi-illerde",
+    "title": "Millî Eğitim Akademisi Hangi İllerde? Branş ve Merkezler",
+    "alt": "Millî Eğitim Akademisi Hangi İllerde? Branş ve Merkezler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "milli-egitim-akademisi-hangi-illerde.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
+    "variants": [
+      {
+        "file": "milli-egitim-akademisi-hangi-illerde-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "milli-egitim-akademisi-hangi-illerde-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "milli-egitim-akademisi-hangi-illerde.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
+  },
+  {
+    "slug": "akademi-hazirlik-egitimi-maasi",
+    "title": "Akademi Hazırlık Eğitimi Maaşı Ne Kadar? (2026)",
+    "alt": "Akademi Hazırlık Eğitimi Maaşı Ne Kadar? (2026)",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "akademi-hazirlik-egitimi-maasi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
+    "variants": [
+      {
+        "file": "akademi-hazirlik-egitimi-maasi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "akademi-hazirlik-egitimi-maasi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "akademi-hazirlik-egitimi-maasi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
   }
 ]
