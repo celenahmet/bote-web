@@ -1,0 +1,10 @@
+---
+import ListPage from '../../../components/ListPage.astro';
+import { agsProps, agsPosts, pageCount } from '../../_list.js';
+export function getStaticPaths() {
+  const n = pageCount(agsPosts().length);
+  return Array.from({ length: Math.max(0, n - 1) }, (_, i) => ({ params: { page: String(i + 2) } }));
+}
+const { page } = Astro.params;
+---
+<ListPage {...agsProps(Number(page))} />

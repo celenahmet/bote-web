@@ -10,7 +10,6 @@ import RecentlyViewed from '../islands/RecentlyViewed.jsx';
 import PostTabs from '../islands/PostTabs.jsx';
 import AdSlot from './AdSlot.astro';
 import UniPanel from './UniPanel.astro';
-import SidebarPromo from './SidebarPromo.astro';
 import Newsletter from './Newsletter.astro';
 import Icon from './Icon.astro';
 import { loadBlog, trDate } from '../lib.js';
@@ -75,7 +74,8 @@ const total = cats.reduce((n, c) => n + c.count, 0);
             ))}</ol>
           </nav>
         )}
-        <SidebarPromo />
+        {/* 31.10: ustteki sabit UniConnectly kartiyla ayni reklam olmasin; altta OtoSenior. */}
+        <AdSlot slot="sidebar-alt" />
         </div>
       </>
     ) : (

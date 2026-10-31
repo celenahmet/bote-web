@@ -48,3 +48,34 @@ export function pageCount(n) {
   const per = loadBlog().cfg.perPage;
   return Math.max(1, Math.ceil(n / per));
 }
+
+// AGS rehberi listesi (Ahmet 31.10: "ags rehberiniz"e tiklayinca AGS ile ilgili yazilar ciksin).
+// Ayri bir kategori degil; AGS, OABT ve Milli Egitim Akademisi yazilarini konu filtresiyle toplar.
+const AGS_RE = /\bAGS\b|ÖABT|Akademi(de|si)?\b/;
+const AGS_EK = new Set(['atamaya-esas-basari-puani', 'hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme', 'sozlesmeli-ogretmenlik-ne-zaman-kadroya',
+  'aday-ogretmenlik-kalkti-mi', 'sehit-yakini-gazi-ve-milli-sporcu-ogretmenlik', 'kktc-ve-yurt-disi-mezunlari-ogretmen-olabilir-mi',
+  'muhendisler-ogretmen-olabilir-mi', 'kpss-kalkti-mi-ogretmenlik', 'ogretmenlik-meslegi-kanunu-7528', 'pedagojik-formasyon-kalkti-mi']);
+export function agsPosts() {
+  return loadBlog().posts.filter((p) => /^(ags-|oabt-|akademi|milli-egitim-akademisi)/.test(p.slug) || AGS_EK.has(p.slug) || AGS_RE.test(p.title));
+}
+export function agsProps(page) {
+  const blog = loadBlog();
+  const per = blog.cfg.perPage;
+  const all = agsPosts();
+  const pages = Math.max(1, Math.ceil(all.length / per));
+  const list = all.slice((page - 1) * per, page * per);
+  const url = '/blog/ags';
+  const name = 'AGS Rehberi';
+  const lead = 'MEB Akademi Giriş Sınavı, ÖABT ve Millî Eğitim Akademisi üzerine resmî kaynaklı tüm yazılar: konular, puan, kontenjan, başvuru ve atama.';
+  const trail = [{ name: 'Ana Sayfa', url: '/' }, { name: 'Blog', url: '/blog' }, { name, url }];
+  return {
+    list, page, pages, base: url, trail, current: 'ags',
+    title: `AGS Rehberi: Akademi Giriş Sınavı Yazıları | BÖTE Blog`, h1: 'AGS <span>Rehberi</span>', lead, description: lead, empty: '',
+    ld: { '@context': 'https://schema.org', '@graph': [
+      { '@type': 'CollectionPage', '@id': `${blog.abs(url)}#sayfa`, url: blog.abs(url), name, description: lead,
+        inLanguage: 'tr-TR', isPartOf: { '@id': `${blog.SITE}/blog#blog` },
+        mainEntity: { '@type': 'ItemList', itemListElement: list.map((p, i) => ({ '@type': 'ListItem', position: i + 1, url: blog.abs(p.url), name: p.title })) } },
+      breadcrumbLd(blog, page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: `${url}/sayfa/${page}` }]),
+    ] },
+  };
+}
