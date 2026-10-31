@@ -2,6 +2,311 @@
 
 > Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar. Kaynak: https://bote.web.tr/blog
 
+# AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri
+
+> AGS kaç soru ve kaç dakika? AGS 80 soru 110 dakika, ÖABT 50 soru 90 ya da 70 dakika. Alt testlere göre soru sayısı, soru başına süre, ek süre ve 2027 takvimi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ags-kac-soru-kac-dakika
+
+## Özet
+
+- **AGS: 80 soru, 110 dakika**; soru başına ortalama yaklaşık 82 saniye.
+- **ÖABT: 50 soru**; matematik ve fen alanlarında **90**, diğer alanlarda **70 dakika**.
+- AGS'nin 80 sorusu: eğitim bilimleri 30, sözel ve sayısal yetenek 15'er, mevzuat 8, tarih ve coğrafya 6'şar.
+- Ek süre hakkı olan adaylara AGS'de **30**, ÖABT'de **20** dakika ekleniyor.
+- 2027'de AGS **8 Mayıs**, ÖABT **9 Mayıs**; iki oturum ilk kez ayrı günlerde.
+
+"AGS kaç soru, kaç dakika?" sınava hazırlanan adayın ilk sorularından. Cevap kısa, ama planlamayı belirleyen ayrıntıları var: alt testlere göre soru dağılımı, ÖABT'nin alana göre değişen süresi, salondan çıkış kuralları ve 2027'de değişen takvim. Bu yazı hepsini ÖSYM'nin resmî belgelerinden topluyor.[1]
+
+## AGS: 80 soru, 110 dakika
+
+2026 kılavuzuna göre Akademi Giriş Sınavı **80 sorudan** oluşuyor ve **110 dakika** sürüyor. Soruların alt testlere dağılımı ÖSYM'nin 8 Ocak 2026 tarihli konu dağılımı belgesinde de aynı:[1][2]
+
+| Alt test | Yaklaşık ağırlık | Soru |
+|---|---|---|
+| Eğitim bilimleri ve Türk millî eğitim sistemi | %37,5 | 30 |
+| Sözel yetenek | %18,75 | 15 |
+| Sayısal yetenek | %18,75 | 15 |
+| Mevzuat | %10 | 8 |
+| Tarih | %7,5 | 6 |
+| Türkiye coğrafyası | %7,5 | 6 |
+| **Toplam** | **%100** | **80** |
+
+Veri notu: Ağırlıklar kılavuz Tablo-1'den; soru sayıları ÖSYM'nin 2026 sonuç istatistiklerindeki alt test soru sayılarıyla aynı. Erişim 31 Ekim 2026.[3]
+
+110 dakika 80 soruya bölündüğünde soru başına ortalama yaklaşık **82 saniye** düşüyor. Ama soru tipleri eşit sürmüyor: sayısal yetenek ve uzun paragraflı sözel sorular ortalamanın üstüne çıkarken mevzuat ve kısa bilgi soruları daha hızlı geçiyor. Konuların ayrıntısı için [AGS konuları](https://bote.web.tr/blog/ags-konulari).
+
+## ÖABT: 50 soru, 90 ya da 70 dakika
+
+Öğretmenlik Alan Bilgisi Testi bütün alanlarda **50 soru**, ama süresi alana göre değişiyor:[1]
+
+| Süre | Alanlar |
+|---|---|
+| 90 dakika | İlköğretim Matematik, Fen Bilimleri, Matematik, Fizik, Kimya/Kimya Teknolojisi |
+| 70 dakika | Türkçe, Sosyal Bilgiler, Türk Dili ve Edebiyatı, Tarih, Coğrafya, Biyoloji, Din Kültürü/İHL, Rehberlik, Sınıf Öğretmenliği, Okul Öncesi, Beden Eğitimi, Özel Eğitim |
+
+70 dakikalık alanlarda soru başına 84, 90 dakikalık alanlarda 108 saniye düşüyor. Yabancı dil öğretmenliği alanlarında ÖABT yok; bu adaylar AGS ile birlikte YDS ya da e-YDS sonucu kullanıyor.[1] Ayrıntı: [ÖABT nedir?](https://bote.web.tr/blog/oabt-nedir)
+
+## Ek süre ve salondan çıkış
+
+Kılavuza göre sağlık şartlarını taşıyan engelli adaylara AGS'de **30**, ÖABT'de **20** dakika ek süre veriliyor. Salondan çıkış kuralları da süre planına dahil: AGS'de cevaplama süresinin **ilk 80** ve **son 15** dakikasında, ÖABT'de ise **sınav süresince** salondan çıkılamıyor; tuvalet dahil çıkan aday salona geri alınmıyor.[1] Ayrıntı: [AGS sınav günü](https://bote.web.tr/blog/ags-sinav-gunu-kurallari) ve [AGS engelli adaylar](https://bote.web.tr/blog/ags-engelli-adaylar).
+
+## 2027 takvimi: ilk kez ayrı günler
+
+2025 ve 2026'da AGS sabah, ÖABT öğleden sonra aynı gün yapıldı; 2026'da AGS saat 10.15'te, ÖABT 14.45'te başladı.[1] ÖSYM'nin 2027 takviminde ise iki oturum ayrı günlerde: **AGS 8 Mayıs 2027 Cumartesi**, **ÖABT 9 Mayıs 2027 Pazar**. Başvurular 19-29 Mart, sonuçlar 11 Haziran 2027'de.[4] Oturum saatleri 2027 kılavuzuyla açıklanacak. Kalan süre için [AGS geri sayım](https://bote.web.tr/blog/ags-geri-sayim).
+
+## Oturumlara göre gün planı
+
+2027'de iki oturumun ayrı günlerde yapılması, ÖABT'ye girecek adaylar için iki günlük bir plan demek. Her oturumun giriş belgesi ayrı düzenleniyor; ÖABT'ye AGS'nin belgesiyle girilemiyor. Adayların bina kapısında sınavdan en az bir saat önce bulunması gerekiyor ve 2026 kılavuzuna göre sabah oturumunda 10.00'dan, öğleden sonra oturumunda 14.30'dan sonra binaya alınmadı.[1] Sınav merkezinin evden uzak olduğu durumlarda, iki gün üst üste yolculuk ya da konaklama planı da bu yüzden önceden yapılmalı. 2027 oturum saatleri yeni kılavuzla açıklanacak.[4]
+
+ÖABT'si olmayan alanlarda (yabancı dil öğretmenliği adayları hariç) yalnız AGS'ye giriliyor ve puanın tamamı AGS'den geliyor; yabancı dil adayları ise AGS'nin yanında YDS ya da e-YDS sonucu kullanıyor.[1] Ayrıntı: [AGS yabancı dil öğretmenliği](https://bote.web.tr/blog/ags-yabanci-dil-ogretmenligi-p3-yds).
+
+## Süre yönetimi nasıl çalışılır?
+
+Süre yönetimi en iyi gerçek koşullara yakın denemelerle öğreniliyor. ÖSYM'nin yayımladığı yüzde 10'luk soru kitapçıkları, sınavdaki soru tarzını ve uzunluğunu görmek için ilk resmî kaynak.[5] Deneme sınavları aynı zamanda öğrenme aracı: Dunlosky ve arkadaşları deneme sınavlarını yararı en yüksek çalışma teknikleri arasında saydı.[6] Roediger ve Karpicke'nin deneylerinde de önceden sınanan öğrenciler bir hafta sonra, metni yeniden çalışanlardan çok daha fazlasını hatırladı.[7]
+
+Pratik bir yöntem: denemeyi 110 dakikalık tek oturumda çözüp her alt testin kaç dakika sürdüğünü not etmek. Sayısal yetenekte 15 soru için ayırdığınız süre 20 dakikayı aşıyorsa, sınavda bu bölümü sona bırakmak ya da işaretleyip geçme kuralı koymak gerekebilir. 2026'da sayısal yetenekte ortalama net 15 soruda 3,4'tü; bu, adayların çoğunun bu bölümde zaman kaybettiğini düşündürüyor.[3] Yasal çerçeve için: sınavın dayanağı 7528 sayılı Öğretmenlik Mesleği Kanunu.[8]
+
+## Sık Sorulan Sorular
+
+### AGS kaç soru?
+
+2026 kılavuzuna göre AGS 80 sorudan oluşuyor: eğitim bilimleri ve Türk millî eğitim sistemi 30, sözel yetenek 15, sayısal yetenek 15, mevzuat 8, tarih 6, Türkiye coğrafyası 6.
+
+### AGS kaç dakika?
+
+110 dakika. Soru başına ortalama yaklaşık 82 saniye düşüyor.
+
+### ÖABT kaç soru, kaç dakika?
+
+Her alanda 50 soru. İlköğretim Matematik, Fen Bilimleri, Matematik, Fizik ve Kimya alanlarında 90 dakika, diğer alanlarda 70 dakika.
+
+### AGS ve ÖABT aynı gün mü?
+
+2025 ve 2026'da aynı gün yapıldı. ÖSYM'nin 2027 takvimine göre AGS 8 Mayıs Cumartesi, ÖABT 9 Mayıs Pazar günü, yani ayrı günlerde yapılacak.
+
+### AGS'de kaçta salondan çıkılabilir?
+
+2026 kılavuzuna göre AGS'de cevaplama süresinin ilk 80 ve son 15 dakikasında, ÖABT'de ise sınav süresince salondan çıkılamıyor.
+
+### Ek süre ne kadar?
+
+Sağlık şartlarını taşıyan adaylara AGS'de 30, ÖABT'de 20 dakika ek süre veriliyor.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Konu Dağılımı. https://dokuman.osym.gov.tr/pdfdokuman/2026/MEB-AGS/konudagilimi08012026.pdf (TR, erişim: 2026-10-31)
+3. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+5. ÖSYM (2026). 2026-AGS ve 2026-ÖABT Temel Soru Kitapçıklarının Yayımlanması (%10). https://www.osym.gov.tr/2026-ags-ve-2026-oabt-temel-soru-kitapciklarinin-yayimlanmasi-10 (TR, erişim: 2026-10-31)
+6. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+7. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-31)
+8. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+
+---
+
+# AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?
+
+> AGS'de 4 yanlış 1 doğruyu götürür mü? Net hesabı, boş bırakmak mı tahmin mi, 1 net şartı ve baraj puanı meselesi; ÖSYM kılavuzu ve 7528 sayılı Kanun'a göre.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ags-yanlis-dogruyu-goturur-mu
+
+## Özet
+
+- Evet: AGS'de ve ÖABT'de **4 yanlış 1 doğruyu götürüyor**; net = doğru − yanlış/4.
+- Rastgele işaretlemenin beklenen getirisi **sıfır**; iki seçeneği eleyebiliyorsanız işaretlemek **artı**.
+- AGS'de en az **1 net** yapamayan adaya standart puan ve sınav puanı hesaplanmıyor.
+- Kılavuzda genel bir "baraj puanı" yok; ama 7528 sayılı Kanun akademiye girişte **Bakanlıkça belirlenecek sınav puanını** şart koşuyor.
+- Akademiye alınma **puan üstünlüğüne** ve kontenjana göre.
+
+"Yanlış doğruyu götürür mü?" ÖSYM sınavlarına hazırlanan herkesin sorduğu soru, ve AGS'de cevabı evet. Ama asıl önemli soru bundan sonra geliyor: boş bırakmak mı, tahmin etmek mi? Bu yazı net hesabını, tahmin stratejisinin matematiğini, 1 net şartını ve "baraj puanı" meselesini resmî kaynaklardan anlatıyor.[1]
+
+## Net nasıl hesaplanır?
+
+2026 kılavuzunun değerlendirme maddesine göre her testte adayın doğru ve yanlış cevap sayısı belirleniyor; **doğru sayısından yanlış sayısının dörtte biri çıkarılarak** ham puan (net) bulunuyor.[1]
+
+| Doğru | Yanlış | Boş | Net |
+|---|---|---|---|
+| 12 | 0 | 3 | 12 |
+| 12 | 3 | 0 | 11,25 |
+| 10 | 8 | 2 | 8 |
+| 8 | 4 | 3 | 7 |
+
+Veri notu: Kılavuzdaki formüle göre hesaplanmış örnekler (15 soruluk bir alt test için).
+
+Net, standart puanın ham maddesi: her alt testte netler, o testteki adayların ortalaması ve standart sapmasıyla ortalaması 50, standart sapması 10 olan standart puana çevriliyor.[1] Hesabın tamamı için [AGS kaç net kaç puan?](https://bote.web.tr/blog/ags-kac-net-kac-puan)
+
+## Boş mu, tahmin mi?
+
+Beş seçenekli bir soruda tamamen rastgele işaretlediğinizde beklenen getiri şöyle hesaplanıyor: 1/5 ihtimalle doğru (+1 net), 4/5 ihtimalle yanlış (−0,25 net). Toplam: 0,2 − 0,2 = **0**. Yani rastgele işaretleme ortalamada ne kazandırır ne kaybettirir; bu, yanlış cezalı puanlamanın amacı.
+
+Ama işin içine bilgi girince denge değişiyor. Bir seçeneği kesin eleyebiliyorsanız 4 seçenek kalır: beklenen getiri 0,25 − 0,75 × 0,25 ≈ **+0,06** net. İki seçeneği eleyebiliyorsanız 0,33 − 0,67 × 0,25 ≈ **+0,17** net. Budescu ve Bar-Hillel'in karar kuramı çözümlemesi de bunu gösteriyor: beklenen puanı en üst düzeye çıkarmak isteyen biri için düzeltmeli puanlamada cevaplamak, boş bırakmaktan ya daha iyi ya da eşit; kısmi bilgiye sahip olduğunuzda cevaplamak avantajlı.[2]
+
+Bunun bir bedeli var: tahmin puandaki şans payını artırıyor. Burton, çoktan seçmeli testlerde şans faktörünün puanların güvenirliğini nasıl etkilediğini nicel olarak gösteriyor.[3] Aday açısından pratik kural basit: hiç fikriniz yoksa boş, en az bir seçeneği eleyebiliyorsanız işaretle.
+
+## 1 net şartı
+
+Kılavuzdaki önemli bir kural: AGS testinde en az **1 ham puanı (1 net)** bulunmayan adaylar hesaplamalara alınmıyor ve bu adaylara standart puan ve sınav puanı hesaplanmıyor. Aynı kural ÖABT ve YDS/e-YDS için de geçerli; bir puan türünün hesaplanması için o türde kullanılan bütün standart puanların hesaplanmış olması gerekiyor.[1] Yani ÖABT'de 1 net yapamayan adaya P2 puanı hesaplanmıyor.
+
+2026'da AGS'de sınavı geçerli sayılan aday sayısı 369.008, 2025'te 383.425'ti; alt testlerdeki ortalama netler, 1 net şartının pratikte çok az adayı etkilediğini gösteriyor (sayısal yetenekte bile ortalama 3,4 net).[4][5]
+
+## Baraj puanı var mı?
+
+Kılavuzda AGS için genel bir "baraj puanı" tanımlanmıyor; sınav puanı 100 üzerinden hesaplanıyor ve başarı sırası alan içinde belirleniyor.[1] Ama akademiye giriş tarafında durum farklı: 7528 sayılı Kanun'un 9. maddesi hazırlık eğitimine alınacaklarda "ÖSYM tarafından yapılan sınavlardan alanlara göre **Bakanlıkça belirlenecek sınav puanına** sahip olmayı" şart koşuyor ve adayların atama izni verilen pozisyon sayısını geçmemek üzere **puan üstünlüğüne** göre belirleneceğini söylüyor.[6] Yani MEB bir alt sınır belirleyebilir; asıl belirleyici ise alanınızdaki kontenjan ve diğer adayların puanları.
+
+## Sınav anında pratik kurallar
+
+Bu hesapları sınav anına çevirmek için birkaç basit kural yeterli. Birincisi, ilk turda emin olduğunuz soruları cevaplayın, emin olmadıklarınızı işaretleyip geçin; süre yetmezse işaretlemediğiniz bir soru en azından eksi getirmez. İkincisi, ikinci turda her soru için "kaç seçeneği kesin eleyebiliyorum?" diye sorun: hiç eleyemiyorsanız boş bırakmak ile işaretlemek ortalamada eşit, bir ya da daha fazla eleyebiliyorsanız işaretlemek avantajlı.[2] Üçüncüsü, cevaplarınızı cevap kâğıdına kodlarken kontrol edin; kılavuza göre soru kitapçığına yapılan işaretlemeler değerlendirilmiyor.[1]
+
+Bu kurallar her alt testte aynı işliyor, ama etkisi farklı: standart sapması küçük testlerde (örneğin 2026'da Türkiye coğrafyasında 1,7 net) bir fazladan net standart puanı yaklaşık 6 puan yükseltirken, standart sapması büyük testlerde (eğitim bilimlerinde 6,3 net) bu artış yaklaşık 1,6 puanda kalıyor.[4]
+
+## Çalışma açısından
+
+Yanlış cezası, "çok soru çözmek" ile "doğru soru çözmek" arasındaki farkı büyütüyor. Kendini sınama ve aralıklı tekrar gibi tekniklerle bilgiyi sağlamlaştırmak, sınavda emin olunan soru sayısını artırmanın en güvenilir yolu.[7] 2027 sınavı 8 Mayıs'ta.[8]
+
+## Sık Sorulan Sorular
+
+### AGS'de yanlış doğruyu götürür mü?
+
+Evet. 2026 kılavuzuna göre her testte doğru sayısından yanlış sayısının dörtte biri çıkarılarak ham puan (net) bulunuyor; yani 4 yanlış 1 doğruyu götürüyor.
+
+### AGS'de boş bırakmak mı, tahmin etmek mi?
+
+Beş seçenekli bir soruda tamamen rastgele işaretlemenin beklenen getirisi sıfır: 1/5 ihtimalle 1 net kazanılır, 4/5 ihtimalle 0,25 net kaybedilir. Bir ya da daha fazla seçeneği eleyebiliyorsanız işaretlemenin beklenen getirisi artıya geçiyor.
+
+### AGS'de baraj puanı var mı?
+
+ÖSYM kılavuzunda genel bir baraj puanı tanımlanmıyor; ama AGS'de en az 1 net yapmayana puan hesaplanmıyor. 7528 sayılı Kanun akademiye girişte alanlara göre Bakanlıkça belirlenecek sınav puanına sahip olmayı şart koşuyor; asıl belirleyici kontenjan ve puan sırası.
+
+### 1 net şartı nedir?
+
+Kılavuza göre AGS'de en az 1 ham puanı (1 net) olmayan adaylar hesaplamalara alınmıyor ve onlara standart puan ve sınav puanı hesaplanmıyor. Aynı kural ÖABT ve YDS için de geçerli.
+
+### ÖABT'de de yanlış doğruyu götürür mü?
+
+Evet. Aynı hesap ÖABT için de geçerli: doğru sayısından yanlışların dörtte biri çıkarılıyor.
+
+### İptal edilen soru netimi etkiler mi?
+
+İptal edilen sorular değerlendirme dışı bırakılıyor ve geçerli soruların puan değeri yeniden saptanıyor.
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+2. Budescu, D. ve Bar-Hillel, M. (1993). To guess or not to guess: A decision-theoretic view of formula scoring. Journal of Educational Measurement, 30(4), 277–291. https://doi.org/10.1111/j.1745-3984.1993.tb00427.x (EN, erişim: 2026-10-31)
+3. Burton, R. F. (2001). Quantifying the effects of chance in multiple choice and true/false tests: Question selection and guessing of answers. Assessment & Evaluation in Higher Education, 26(1), 41–50. https://doi.org/10.1080/02602930020022273 (EN, erişim: 2026-10-31)
+4. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+5. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+6. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+7. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+8. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+
+---
+
+# AGS'de Yaş Sınırı Var mı? Kaç Kez Girilebilir?
+
+> AGS'de yaş sınırı var mı, sınava kaç kez girilebilir? 7528 sayılı Kanun'un akademi şartları, puan geçerlilik süresi ve her yıl yeniden girme kuralları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/ags-yas-siniri-var-mi
+
+## Özet
+
+- 7528 sayılı Kanun'un akademiye giriş şartları arasında **yaş sınırı yok**.
+- ÖSYM kılavuzunda da AGS'ye **kaç kez girilebileceğine dair bir sınır** yer almıyor.
+- AGS puanı **bir sonraki sınavın sonuçları açıklanana kadar** geçerli; yani her yıl yeniden girmek gerekiyor.
+- Belirleyici şartlar: mezuniyet programı, Bakanlıkça belirlenecek sınav puanı, adli sicil, askerlik, sağlık.
+- 2027 sınavı **8 Mayıs**; başvurular 19-29 Mart 2027.
+
+"AGS'ye kaç yaşına kadar girilebilir?" ve "kaç kez girilebilir?" soruları, özellikle mezuniyetten yıllar sonra öğretmenliğe dönmek isteyenlerin aklındaki ilk sorular. Kısa cevap: yaş sınırı da, giriş sayısı sınırı da yok. Bu yazı bunu resmî metinlerden gösteriyor ve gerçekte neyin belirleyici olduğunu anlatıyor.[1]
+
+## Yaş sınırı yok
+
+AGS'nin amacı Millî Eğitim Akademisi'ne giriş; kılavuza göre sınava, 7528 sayılı Öğretmenlik Mesleği Kanunu'nda akademiye giriş için belirtilen koşullara sahip adaylar başvurabiliyor.[2] Kanunun 9. maddesi bu koşulları sayıyor:[1]
+
+| Şart | Yaş ile ilgili mi? |
+|---|---|
+| Türk vatandaşı olmak | Hayır |
+| Kamu haklarından mahrum olmamak | Hayır |
+| Belirli suçlardan mahkûmiyeti olmamak | Hayır |
+| Memurluktan çıkarılmamış olmak | Hayır |
+| Askerlikle ilgisi bulunmamak (yapmış, ertelenmiş ya da yedek) | Hayır |
+| Bakanlıkça belirlenen programdan mezun olmak | Hayır |
+| Bakanlıkça belirlenecek sınav puanına sahip olmak | Hayır |
+| Sağlık durumu öğretmenliğe engel olmamak | Hayır |
+
+Veri notu: 7528 sayılı Kanun madde 9; erişim 31 Ekim 2026.
+
+Listede yaş şartı yok. Kılavuzun başvuru koşulları maddesi de yalnız kanundaki koşullara atıf yapıyor ve ayrı bir yaş sınırı eklemiyor; sınava girmek ve puan almak ise tek başına akademiye giriş hakkı vermiyor.[2] Bu, KPSS döneminden gelen bir tartışmanın da devamı: MEB, öğretmen adayları için uygulanan **40 yaş sınırının** kaldırıldığını daha önce duyurmuştu.[3] Bugünkü sistemde akademiye girişin dayanağı olan kanun yaş saymıyor.
+
+## Kaç kez girilebilir?
+
+ÖSYM'nin 2026 kılavuzunda ve 7528 sayılı Kanun'da AGS'ye girme sayısını sınırlayan bir hüküm bulunmuyor.[2][1] Puanın geçerlilik süresi de her yıl yeniden girmeyi zorunlu kılıyor: kılavuzun 1.4 maddesine göre MEB-AGS puanları, sonuçların açıklanmasından itibaren **bir sonraki sınavın sonuçları açıklanana kadar** geçerli.[2] Örneğin 2026 puanı, 2027 sonuçlarının açıklanacağı 11 Haziran 2027'de geçerliliğini yitiriyor.[4] Ayrıntı: [AGS sonuçları ve puan geçerliliği](https://bote.web.tr/blog/ags-sonuclari-ve-puan-gecerliligi).
+
+## Neden yaş sınırı yok?
+
+Yaş sınırının olmaması, öğretmenliğe girişin "mezun olur olmaz" yapılan bir sınavdan, her yaşta girilebilen bir akademi sürecine dönüştüğünü gösteriyor. Bu, başka meslekte çalıştıktan sonra öğretmenliğe dönmek isteyenler, ikinci üniversitesini bitirenler ya da yıllar önce mezun olup öğretmenliğe hiç başlamamış olanlar için önemli bir kapı. Kılavuzdaki tek zaman şartı mezuniyetle ilgili: akademi başvurusu tarihinde Bakanlığın belirlediği programdan mezun olmak.[2]
+
+Askerlik şartı ise erkek adaylar için dikkat edilmesi gereken bir nokta: kanun, askerlikle ilgisi bulunmamayı, askerliğini yapmış olmayı, ertelemiş ya da yedek sınıfa geçmiş olmayı arıyor.[1] Akademideki hazırlık eğitimi dört dönem sürdüğü için askerlik planlaması da hazırlık takvimine dahil edilmeli.
+
+## Asıl belirleyici olanlar
+
+Yaş ve giriş sayısı sınırlayıcı değilse belirleyici olan ne? Üç şey öne çıkıyor:
+
+1. **Mezuniyet programı.** Öğretmenliğe atanılacak alan için kaynak programlar MEB'in atama çizelgesinde sayılıyor; programınız hedef alana kaynak değilse puan tek başına yetmiyor.[5] Ayrıntı: [hangi bölümler öğretmen olabilir?](https://bote.web.tr/blog/hangi-bolumler-ogretmen-olabilir)
+2. **Kontenjan ve puan sırası.** Kanuna göre akademiye alınacaklar atama izni verilen pozisyon sayısını geçmemek üzere puan üstünlüğüne göre belirleniyor.[1]
+3. **Rekabet.** ÖSYM verilerine göre AGS'ye 2025'te 383.441, 2026'da 369.038 aday girdi.[6][7]
+
+## Her yıl yeniden girmenin anlamı
+
+Puanın bir yıl geçerli olması, akademiye giremeyen adayın ertesi yıl yeniden sınava girmesi gerektiği anlamına geliyor; önceki yılın puanı "saklanamıyor". Bu, her yılın kendi rekabeti olduğu demek: ÖSYM verilerine göre 2026'da AGS'nin alt testlerinde ortalamalar 2025'ten farklıydı; örneğin sayısal yetenekte ortalama net 4,1'den 3,4'e düştü.[6][7] Aynı net farklı yıllarda farklı standart puana karşılık gelebiliyor.
+
+Bir avantajı da var: önceki yıl sınava girmiş aday, hangi alt testte zorlandığını biliyor. Cevap kâğıdını ve kitapçığı AİS'te görme hakkı (sınav sonrası 10 gün kitapçık, sonuç sonrası 10 gün cevap kâğıdı) bu analizin en iyi kaynağı.[2] Ayrıntı: [AGS çıkmış sorular](https://bote.web.tr/blog/ags-cikmis-sorular).
+
+## Mesleğe geç başlayanlar için
+
+Mezuniyetten yıllar sonra öğretmenliğe dönmek bu sistemde yasal olarak mümkün; asıl iş, hazırlık süresini iyi planlamak. Mesleğe yeni başlayanlara yönelik uyum ve mentorluk programlarını inceleyen bir derleme, bu desteğin öğretmenin mesleğe bağlılığı ve sınıf uygulamaları üzerinde çoğunlukla olumlu etkisi olduğunu bildiriyor; akademideki hazırlık eğitimi bu desteğin Türkiye'deki karşılığı.[8] OECD'nin TALIS araştırması da mesleki gelişimin kariyerin her döneminde sürdüğünü gösteriyor.[9] Kimlerin girebileceğinin bütün şartları için [AGS'ye kimler girebilir?](https://bote.web.tr/blog/ags-kimler-girebilir)
+
+## Sık Sorulan Sorular
+
+### AGS'de yaş sınırı var mı?
+
+Hayır. 7528 sayılı Öğretmenlik Mesleği Kanunu'nun 9. maddesi Millî Eğitim Akademisi hazırlık eğitimine alınacaklarda vatandaşlık, kamu hakları, adli sicil, askerlik, mezuniyet programı, sınav puanı ve sağlık şartlarını sayıyor; yaş şartı saymıyor.
+
+### AGS'ye kaç kez girilebilir?
+
+ÖSYM'nin 2026 kılavuzunda ve 7528 sayılı Kanun'da sınava girme sayısını sınırlayan bir hüküm yok. Puan bir yıl geçerli olduğu için akademiye başvurmak isteyen aday her yıl yeniden girebiliyor.
+
+### AGS puanı kaç yıl geçerli?
+
+Kılavuza göre MEB-AGS puanları sonuçların açıklanmasından itibaren bir sonraki sınavın sonuçları açıklanana kadar geçerli; pratikte yaklaşık bir yıl.
+
+### Eski AGS puanımla başvurabilir miyim?
+
+Yalnız puanın geçerlilik süresi içinde. 2026 puanı 2027 sonuçlarının açıklandığı 11 Haziran 2027'ye kadar geçerli.
+
+### Öğretmenken AGS'ye girilebilir mi?
+
+Kılavuzda ve kanunda sınava girmeye engel bir hüküm yok; ama akademiye giriş ve atama mevzuatın şartlarına bağlı.
+
+### 40 yaş sınırı kalktı mı?
+
+MEB, KPSS döneminde öğretmen adayları için uygulanan 40 yaş sınırının kaldırıldığını daha önce duyurmuştu. Bugünkü AGS ve akademi sisteminde de 7528 sayılı Kanun yaş şartı saymıyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı (2016). Öğretmen Adayları İçin "40 Yaş Sınırı" Kaldırıldı. https://www.meb.gov.tr/ogretmen-adaylari-icin-822040-yas-siniri8220-kaldirildi/haber/7901/tr (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+5. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+6. ÖSYM (2025). 2025-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2025-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-ja551e-31124841.pdf (TR, erişim: 2026-10-31)
+7. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+8. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+9. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+
+---
+
 # Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik
 
 > Akademisyen nasıl olunur? Yüksek lisans ve doktora için ALES şartı, araştırma görevliliği, doktor öğretim üyeliği, doçentlik ve profesörlük; 2547 sayılı Kanun.
@@ -2701,6 +3006,98 @@ AGS eğitim bilimleri alt testinde öğrenme psikolojisi ve öğretim yöntem ve
 
 ---
 
+# Öğretmenlikte KPSS Kalktı mı? AGS ve Akademi Dönemi
+
+> Öğretmen atamalarında KPSS kalktı mı? Son KPSS'li atama, 2026 KPSS'de eğitim bilimleri ve ÖABT oturumu olmaması, AGS ve Millî Eğitim Akademisi süreci.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/kpss-kalkti-mi-ogretmenlik
+
+## Özet
+
+- MEB, **Kasım 2025**'teki 15 bin sözleşmeli öğretmen atamasının KPSS ve sözlü sınavla yapılan **son atama** olduğunu duyurdu.
+- ÖSYM'nin 2026 KPSS Lisans kılavuzunda **eğitim bilimleri ve ÖABT oturumu yok**; yalnız genel yetenek-genel kültür ve alan bilgisi.
+- Öğretmenliğe giriş artık **AGS** (ve alana göre ÖABT ya da YDS) ile **Millî Eğitim Akademisi** üzerinden.
+- KPSS kamu kurumlarının diğer kadroları için sürüyor.
+- 2027'de AGS **8 Mayıs**, ÖABT **9 Mayıs**.
+
+Öğretmen adaylarının yıllarca hazırlandığı KPSS eğitim bilimleri ve ÖABT oturumları artık yok mu? Kısa cevap: öğretmen ataması için KPSS dönemi kapandı, yerini AGS ve Millî Eğitim Akademisi aldı. Bu yazı geçişin resmî dayanaklarını ve KPSS'nin bugün neyi kapsadığını anlatıyor.[1]
+
+## Son KPSS'li atama: Kasım 2025
+
+MEB'in 17 Kasım 2025 tarihli duyurusuna göre **15 bin** sözleşmeli öğretmen ataması için tercih süreci başladı; adaylar KPSS puanının %50'si ve sözlü sınav puanının %50'si alınarak sıralandı ve atamalar 24 Kasım'da, Öğretmenler Günü'nde açıklandı. Duyurunun en önemli cümlesi, bu atamanın tamamlanmasıyla **son kez KPSS ve sözlü sınav üzerinden** öğretmen istihdamı yapılmış olacağı ve bundan sonraki sözleşmeli öğretmen alımlarının **Millî Eğitim Akademisi** üzerinden gerçekleştirileceğiydi.[1]
+
+## 2026 KPSS'de eğitim bilimleri yok
+
+ÖSYM'nin 2026 KPSS Lisans kılavuzu da bu geçişi gösteriyor. Kılavuzdaki oturumlar şunlar: **Genel Yetenek-Genel Kültür** (6 Eylül 2026, 130 dakika) ve kamu yönetimi, hukuk, iktisat, işletme, muhasebe gibi alanların **Alan Bilgisi** oturumları (12-13 Eylül 2026). Kılavuzda eğitim bilimleri ve öğretmenlik alan bilgisi (ÖABT) oturumu yer almıyor.[2]
+
+| | KPSS dönemi | AGS dönemi |
+|---|---|---|
+| Sınav | KPSS GY-GK, Eğitim Bilimleri, ÖABT | MEB-AGS: AGS + ÖABT (ya da YDS) |
+| Seçim | KPSS puanı ve sözlü sınav | AGS puanı, akademide hazırlık eğitimi |
+| Dayanak | Kamu personeli sınav mevzuatı | 7528 sayılı Öğretmenlik Mesleği Kanunu |
+| Formasyon | Fakülte dışı mezunlarda aranıyordu | Akademiye alınacaklarda aranmıyor |
+
+Veri notu: MEB 17.11.2025 duyurusu, ÖSYM 2026 KPSS Lisans ve MEB-AGS kılavuzları, 7528 sayılı Kanun; erişim 31 Ekim 2026.
+
+## Yeni sistem: AGS ve akademi
+
+7528 sayılı Öğretmenlik Mesleği Kanunu öğretmen olarak istihdam edileceklerin, kaynak programlardan mezun olup akademideki hazırlık eğitiminde başarılı olanlar arasından seçileceğini düzenliyor; akademiye girişte ÖSYM'nin yaptığı sınavdan Bakanlıkça belirlenecek puan aranıyor.[3] Bu sınav MEB-AGS: herkes için ortak Akademi Giriş Sınavı ve alana göre ÖABT ya da YDS.[4] Hazırlık eğitimi onar haftalık dört dönemden oluşuyor.[5] 2027'de AGS 8 Mayıs, ÖABT 9 Mayıs; başvurular 19-29 Mart.[6]
+
+ÖABT bu yüzden kalkmadı; KPSS'den AGS'ye taşındı. AGS'nin kapsamı da eski KPSS eğitim bilimlerinden farklı: mevzuat ve Türkiye Yüzyılı Maarif Modeli gibi öğretmenliğe özgü başlıklar ayrı alt test ya da konu olarak yer alıyor. Ayrıntı: [AGS nedir?](https://bote.web.tr/blog/ags-nedir) ve [AGS konuları](https://bote.web.tr/blog/ags-konulari).
+
+## Neden akademi?
+
+Akademinin ardındaki fikir, öğretmenliğe girişi tek bir sınav yerine sınav artı hazırlık eğitimi olarak kurmak. Uluslararası alanyazın da mesleğe girişte yapılandırılmış desteğin önemini vurguluyor: yeni öğretmenlere yönelik uyum ve mentorluk programlarını inceleyen kapsamlı bir derleme, bu programların mesleğe bağlılık ve sınıf uygulamaları üzerinde çoğunlukla olumlu etkiler gösterdiğini bildiriyor.[7] OECD'nin TALIS araştırması da öğretmen gelişimini kariyerin bütününe yayılan bir süreç olarak ele alıyor.[8]
+
+## Geçiş döneminde adaylar ne yapmalı?
+
+Geçişin en çok etkilediği grup, KPSS'ye hazırlanıp henüz atanamamış adaylar. Bu adaylar için yol AGS: 7528 sayılı Kanun'a göre akademiye girişin şartı ÖSYM'nin yaptığı ve Bakanlıkça belirlenen sınavdan puan almak; bugün bu sınav MEB-AGS.[3] İçerik açısından KPSS eğitim bilimlerine hazırlanmış bir aday avantajlı başlıyor: AGS'nin en ağır alt testi olan eğitim bilimleri ve Türk millî eğitim sistemi, öğrenme ve gelişim psikolojisi, öğretim yöntemleri, ölçme ve değerlendirme ve rehberlik gibi tanıdık başlıkları içeriyor.[4] Ama AGS'de yeni olan başlıklar var: mevzuat ayrı bir alt test (Anayasa ve insan hakları hukuku, 1739, 222 ve 7528 sayılı kanunlar) ve Türkiye Yüzyılı Maarif Modeli eğitim bilimleri içinde ayrı bir konu.[4] Bu başlıklar için [AGS mevzuat konuları](https://bote.web.tr/blog/ags-mevzuat-konulari) ve [Türkiye Yüzyılı Maarif Modeli nedir?](https://bote.web.tr/blog/turkiye-yuzyili-maarif-modeli-nedir) yazılarına bakın.
+
+Bir fark da puanın ömrü: AGS puanı bir sonraki sınavın sonuçları açıklanana kadar geçerli; KPSS puanlarının geçerlilik süresiyle karıştırılmamalı.[4] 2027 sınavına başvuru 19-29 Mart 2027'de.[6]
+
+## KPSS hâlâ ne işe yarıyor?
+
+KPSS kamu kurumlarının öğretmenlik dışındaki kadroları için yapılmaya devam ediyor: 2026 KPSS Lisans genel yetenek-genel kültür oturumu 6 Eylül 2026'da yapıldı.[2] Öğretmen olmak isteyen biri için ise hazırlanılacak sınav artık AGS. Geçişte en çok sorulanlar için [AGS'ye kimler girebilir?](https://bote.web.tr/blog/ags-kimler-girebilir) ve [son sınıf öğrencisi AGS'ye girebilir mi?](https://bote.web.tr/blog/son-sinif-ogrencisi-ags-ye-girebilir-mi)
+
+## Sık Sorulan Sorular
+
+### Öğretmenlikte KPSS kalktı mı?
+
+Öğretmen ataması için evet. MEB, Kasım 2025'teki 15 bin sözleşmeli öğretmen atamasının KPSS ve sözlü sınav üzerinden yapılan son atama olduğunu, sonraki alımların Millî Eğitim Akademisi üzerinden yapılacağını duyurdu.
+
+### KPSS eğitim bilimleri kalktı mı?
+
+ÖSYM'nin 2026 KPSS Lisans kılavuzunda eğitim bilimleri oturumu yer almıyor; sınav genel yetenek-genel kültür ve alan bilgisi oturumlarından oluşuyor.
+
+### ÖABT kalktı mı?
+
+Hayır, ÖABT artık KPSS'nin değil MEB-AGS'nin parçası. AGS'ye giren adaylar alanlarına göre ÖABT'ye de giriyor.
+
+### KPSS ile AGS arasındaki fark nedir?
+
+KPSS kamu kurumlarına personel seçmek için genel bir sınav; AGS ise 7528 sayılı Kanun'la kurulan, Millî Eğitim Akademisi'ne girişi belirleyen ve yalnız öğretmenlik için yapılan sınav. AGS'de eğitim bilimleri, mevzuat ve Türkiye Yüzyılı Maarif Modeli gibi öğretmenliğe özgü konular var.
+
+### Eski KPSS puanımla öğretmen olabilir miyim?
+
+MEB'in duyurusuna göre KPSS'ye dayalı son öğretmen alımı Kasım 2025'te yapıldı; sonraki alımlar akademi üzerinden. Akademiye girişte MEB-AGS puanı kullanılıyor.
+
+### KPSS hâlâ yapılıyor mu?
+
+Evet. KPSS kamu kurumlarının diğer kadroları için yapılmaya devam ediyor; 2026 KPSS Lisans genel yetenek-genel kültür oturumu 6 Eylül 2026'da yapıldı.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı (2025). 15 Bin Öğretmen İçin Tercih Süreci Başladı. https://www.meb.gov.tr/15-bin-ogretmen-icin-tercih-sureci-basladi/haber/38969/tr (TR, erişim: 2026-10-31)
+2. ÖSYM (2026). 2026 Kamu Personel Seçme Sınavı (KPSS) Kılavuzu Lisans. https://dokuman.osym.gov.tr/pdfdokuman/2026/KPSS/LISANS/kilavuz_Ld01072026.pdf (TR, erişim: 2026-10-31)
+3. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+6. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+7. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+8. OECD (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://www.oecd.org/en/publications/talis-2018-results-volume-i_1d0bc92a-en.html (EN, erişim: 2026-10-31)
+
+---
+
 # Öz Düzenlemeli Öğrenme Nedir? Evreler ve Sınıf Uygulaması
 
 > Öz düzenlemeli öğrenme nedir? Zimmerman'ın üç evresi (ön düşünme, performans, öz yansıtma), modeller, öz düzenleme eğitiminin etkisi ve sınıfta nasıl öğretilir.
@@ -3633,6 +4030,96 @@ Evet. AGS eğitim bilimleri ve Türk millî eğitim sistemi alt testinin konular
 6. Mevzuat Bilgi Sistemi (RG 6/6/1997, 23011 mükerrer) (1997). Özel Eğitim Hakkında Kanun Hükmünde Kararname (573). https://www.mevzuat.gov.tr/mevzuatmetin/4.5.573.pdf (TR, erişim: 2026-10-31)
 7. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
 8. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+
+---
+
+# Son Sınıf Öğrencisi AGS'ye Girebilir mi? Mezuniyet Şartı
+
+> Son sınıf öğrencisi AGS'ye girebilir mi? ÖSYM kılavuzuna göre mezuniyet şartı ne zaman aranıyor, başvuruda eğitim bilgisi ve 2027 takvimiyle plan.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/son-sinif-ogrencisi-ags-ye-girebilir-mi
+
+## Özet
+
+- Evet: kılavuz mezuniyeti **sınav tarihinde değil**, Millî Eğitim Akademisi'ne **başvuru tarihinde** arıyor.
+- Başvuru formunda adaylar "mezun olacakları ya da oldukları" üniversite ve programı yazıyor.
+- Akademi başvurusunda MEB'in belirlediği programdan **mezun durumda** olmak şart.
+- 2027'de AGS **8 Mayıs**, sonuçlar **11 Haziran**; son sınıf öğrencisi sınava mezuniyetinden önce girebiliyor.
+- Akademi başvuru tarihini MEB ayrı bir duyuruyla açıklıyor.
+
+Son sınıftaki bir öğretmen adayının en büyük sorusu: "Mezun olmadan AGS'ye girebilir miyim, yoksa bir yıl mı beklemem gerekiyor?" ÖSYM'nin kılavuzu bu soruya net bir cevap veriyor. Bu yazı mezuniyet şartının ne zaman arandığını ve son sınıfta sınava girmenin pratikte ne anlama geldiğini anlatıyor.[1]
+
+## Kılavuz ne diyor?
+
+2026 MEB-AGS kılavuzunun 1.8 maddesi açık: adayların Millî Eğitim Akademisi'nde hazırlık eğitimine başvuru yapabilmeleri için **Millî Eğitim Bakanlığına başvurdukları tarihte**, Bakanlığın belirlediği programlardan **mezun durumda** olmaları şart.[1] Yani mezuniyet sınav başvurusunda ya da sınav gününde değil, sınavdan sonraki **akademi başvurusunda** aranıyor.
+
+Başvuru formu da bunu yansıtıyor: kılavuzun eğitim bilgisi bölümüne göre adaylar **mezun olacakları ya da oldukları** üniversitenin ve lisans programının adını ve kodunu kılavuzdaki tablolardan seçiyor. YÖKSİS ile bütünleşik üniversitelerde eğitim bilgileri sistemden geliyor.[1]
+
+## Pratikte ne anlama geliyor?
+
+Son sınıf öğrencisi AGS'ye girebiliyor. Ama iki uyarı var:
+
+1. **Puan, hak doğurmaz.** Kılavuza göre sınava girmek ve geçerli puan almak, akademiye girişle ilgili mevzuata uymayan bir hak vermiyor.[1] Akademi başvuru tarihinde mezun değilseniz o yılın akademi sürecine giremezsiniz.
+2. **Program uygunluğu.** Mezun olacağınız programın hedeflediğiniz öğretmenlik alanına kaynak olması gerekiyor; 7528 sayılı Kanun akademiye girişte Bakanlıkça belirlenen programlardan mezuniyeti şart koşuyor.[2] Kaynak programlar MEB'in atama çizelgesinde.[3]
+
+## 2027 takvimi son sınıflar için
+
+ÖSYM'nin 2027 takvimine göre başvurular **19-29 Mart**, AGS **8 Mayıs**, ÖABT **9 Mayıs** ve sonuçlar **11 Haziran 2027**'de.[4] Sınav bahar döneminin ortasına denk geliyor; yani 2027'de mezun olacak bir son sınıf öğrencisi AGS'ye mezuniyetinden önce girecek. Akademi başvuru takvimi ise MEB'in ayrı duyurusuyla açıklanıyor; ilk hazırlık eğitimi 13 Nisan 2026'da başlamıştı.[5] Hazırlık eğitimi MEB'in programına göre onar haftalık dört dönemden oluşuyor.[6]
+
+## Başvuru formunda eğitim bilgisi
+
+Son sınıf öğrencisinin başvuru sırasında dikkat etmesi gereken teknik bir nokta var: eğitim bilgisi. Kılavuza göre sistemde geçerli eğitim bilgisi ve geçerli fotoğrafı bulunan adaylar başvurularını internetten ya da ÖSYM'nin mobil uygulamasından yapabiliyor; YÖKSİS ile bütünleşik üniversitelerin öğrencilerinde eğitim bilgisi sistemden geliyor. Eğitim bilgisinde hata görenlerin, düzeltme için kendi üniversitelerinin ilgili birimlerine başvurması gerekiyor.[1] Son sınıftaki öğrencinin başvuru tarihinden önce AİS'e girip kayıtlı programının doğru görünüp görünmediğini kontrol etmesi bu yüzden önemli; yanlış görünen bir program adı, hem ÖABT alan seçimini hem de sonraki akademi başvurusunu etkileyebilir.
+
+Başvuru ücreti ve son günleri de son sınıf takvimine eklenmeli: 2026'da her oturum 800 TL'ydi ve ücret süresinde yatırılmazsa başvuru geçersiz sayıldı.[1] Ayrıntı: [AGS sınav ücreti](https://bote.web.tr/blog/ags-sinav-ucreti).
+
+## Mezun olamazsam ne olur?
+
+Son sınıfta AGS'ye girip o dönem mezun olamayan aday için kural net: akademi başvurusunda mezun durumda olma şartı sağlanmadığı için o yılın akademi sürecine başvuramıyor.[1] Puanın geçerlilik süresi de bir sonraki sınavın sonuçları açıklanana kadar; yani mezuniyet bir yıl gecikirse, bir sonraki yılın akademi sürecinde o yılın sınavının puanı kullanılacak.[4] Bu yüzden son sınıftaki adayın, bitirme ve öğretmenlik uygulaması derslerini riske atmayacak bir AGS planı yapması önemli; AGS'deki başarı, mezuniyet gerçekleşmezse o yıl için işe yaramıyor.
+
+Bir başka nokta, kanunun aradığı program uygunluğu: çift anadal ya da yan dal gibi durumlarda hangi programın hangi öğretmenlik alanına kaynak olduğunu MEB'in çizelgesinden kontrol etmek gerekiyor.[3][2]
+
+## Son sınıfta nasıl hazırlanılır?
+
+Son sınıf, öğretmenlik uygulaması ve bitirme dersleriyle yoğun bir yıl; ama okulda geçirilen uygulama saatleri AGS'nin eğitim bilimleri konularını (sınıf yönetimi, öğretim yöntemleri, ölçme ve değerlendirme) somut örneklerle görmenin de fırsatı; AGS hazırlığının buna sığması gerekiyor. Burada araştırmaların en net önerisi işe yarıyor: kısa ama düzenli çalışma oturumları ve kendini sınama. Dunlosky ve arkadaşlarının değerlendirmesinde deneme sınavları ve aralıklı tekrar yararı en yüksek iki teknik.[7] Roediger ve Karpicke de sınanmanın uzun vadeli hatırlamayı yeniden çalışmadan daha çok artırdığını gösterdi.[8] Pratik plan için [AGS çalışma programı](https://bote.web.tr/blog/ags-calisma-programi), başvuru adımları için [AGS başvurusu nasıl yapılır?](https://bote.web.tr/blog/ags-basvurusu-nasil-yapilir)
+
+Akademiye alınacaklarda pedagojik formasyon şartı aranmadığı için son sınıftaki fen-edebiyat öğrencilerinin formasyon programı beklemesine de gerek kalmıyor.[3]
+
+## Sık Sorulan Sorular
+
+### Son sınıf öğrencisi AGS'ye girebilir mi?
+
+Evet. 2026 kılavuzuna göre mezuniyet şartı sınava başvuruda değil, Millî Eğitim Akademisi hazırlık eğitimine başvuru tarihinde aranıyor; başvuru formunda da mezun olunacak ya da olunan program yazılıyor.
+
+### Mezun olmadan AGS puanı kullanılabilir mi?
+
+Puan alınabiliyor, ama akademiye başvurabilmek için MEB'e başvuru tarihinde Bakanlığın belirlediği programlardan mezun durumda olmak gerekiyor.
+
+### Son sınıfta AGS'ye girip mezun olamazsam ne olur?
+
+Kılavuza göre sınava girmek ve puan almak, akademiye girişle ilgili mevzuata uymayan bir hak vermiyor; akademi başvurusu tarihinde mezun değilseniz o yılın akademi sürecine başvuramazsınız. Puan bir sonraki sınavın sonuçlarına kadar geçerli.
+
+### Başvuruda eğitim bilgisi nasıl giriliyor?
+
+Adaylar mezun olacakları ya da oldukları üniversite ve programı kılavuzdaki tablolardan seçiyor; YÖKSİS ile bütünleşik üniversitelerde bilgiler sistemden geliyor.
+
+### 2027'de son sınıflar için takvim nasıl?
+
+ÖSYM'nin 2027 takvimine göre başvurular 19-29 Mart, AGS 8 Mayıs, ÖABT 9 Mayıs ve sonuçlar 11 Haziran 2027'de. Akademi başvuru tarihini MEB ayrıca duyuruyor.
+
+### Pedagojik formasyon gerekiyor mu?
+
+Millî Eğitim Akademisi hazırlık eğitimine alınacaklarda pedagojik formasyon şartı aranmıyor (MEB esasları madde 7/A).
+
+## Kaynaklar
+
+1. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. MEB Talim ve Terbiye Kurulu Başkanlığı (2025). Öğretmenlik Alanları, Atama ve Ders Okutma Esasları (Aralık 2025 güncel metni ve çizelgeler). https://ttkb.meb.gov.tr/meb_iys_dosyalar/2025_12/23100922_9_cizelgeveesaslar.pdf (TR, erişim: 2026-10-31)
+4. ÖSYM (2026). ÖSYM 2027 Yılı Sınav Takvimi. https://dokuman.osym.gov.tr/web/2026/10/osym-2027-yili-sinav-takvimi-7d09wi-28090734.pdf (TR, erişim: 2026-10-31)
+5. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Yayımlandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-yayimlandi/haber/40070/tr (TR, erişim: 2026-10-31)
+7. Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J. ve Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. Psychological Science in the Public Interest, 14(1), 4–58. https://doi.org/10.1177/1529100612453266 (EN, erişim: 2026-10-31)
+8. Roediger, H. L. ve Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (EN, erişim: 2026-10-31)
 
 ---
 

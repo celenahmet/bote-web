@@ -4352,102 +4352,6 @@
     ]
   },
   {
-    "slug": "turkiye-yuzyili-maarif-modeli-nedir",
-    "title": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
-    "alt": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "turkiye-yuzyili-maarif-modeli-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 181747
-    },
-    "variants": [
-      {
-        "file": "turkiye-yuzyili-maarif-modeli-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 34908
-      },
-      {
-        "file": "turkiye-yuzyili-maarif-modeli-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 66008
-      },
-      {
-        "file": "turkiye-yuzyili-maarif-modeli-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 132100
-      }
-    ]
-  },
-  {
-    "slug": "bicimlendirici-degerlendirme-nedir",
-    "title": "Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar",
-    "alt": "Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "bicimlendirici-degerlendirme-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 183217
-    },
-    "variants": [
-      {
-        "file": "bicimlendirici-degerlendirme-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 38852
-      },
-      {
-        "file": "bicimlendirici-degerlendirme-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 65508
-      },
-      {
-        "file": "bicimlendirici-degerlendirme-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 123718
-      }
-    ]
-  },
-  {
-    "slug": "gecerlik-ve-guvenirlik-nedir",
-    "title": "Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar",
-    "alt": "Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar",
-    "updated": "2026-10-30",
-    "primary": {
-      "file": "gecerlik-ve-guvenirlik-nedir.jpg",
-      "width": 1600,
-      "height": 900,
-      "bytes": 183166
-    },
-    "variants": [
-      {
-        "file": "gecerlik-ve-guvenirlik-nedir-640.webp",
-        "width": 640,
-        "height": 360,
-        "bytes": 39570
-      },
-      {
-        "file": "gecerlik-ve-guvenirlik-nedir-960.webp",
-        "width": 960,
-        "height": 540,
-        "bytes": 71306
-      },
-      {
-        "file": "gecerlik-ve-guvenirlik-nedir.webp",
-        "width": 1600,
-        "height": 900,
-        "bytes": 135090
-      }
-    ]
-  },
-  {
     "slug": "oz-duzenlemeli-ogrenme-nedir",
     "title": "Öz Düzenlemeli Öğrenme Nedir? Evreler ve Sınıf Uygulaması",
     "alt": "Öz Düzenlemeli Öğrenme Nedir? Evreler ve Sınıf Uygulaması",
@@ -4860,6 +4764,262 @@
         "width": 1600,
         "height": 900,
         "bytes": 127690
+      }
+    ]
+  },
+  {
+    "slug": "turkiye-yuzyili-maarif-modeli-nedir",
+    "title": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
+    "alt": "Türkiye Yüzyılı Maarif Modeli Nedir? Sınıflar ve Yenilikler",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "turkiye-yuzyili-maarif-modeli-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 181747
+    },
+    "variants": [
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34908
+      },
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 66008
+      },
+      {
+        "file": "turkiye-yuzyili-maarif-modeli-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 132100
+      }
+    ]
+  },
+  {
+    "slug": "bicimlendirici-degerlendirme-nedir",
+    "title": "Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar",
+    "alt": "Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bicimlendirici-degerlendirme-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183217
+    },
+    "variants": [
+      {
+        "file": "bicimlendirici-degerlendirme-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 38852
+      },
+      {
+        "file": "bicimlendirici-degerlendirme-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 65508
+      },
+      {
+        "file": "bicimlendirici-degerlendirme-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 123718
+      }
+    ]
+  },
+  {
+    "slug": "gecerlik-ve-guvenirlik-nedir",
+    "title": "Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar",
+    "alt": "Geçerlik ve Güvenirlik Nedir? Ölçmede Temel Kavramlar",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "gecerlik-ve-guvenirlik-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183166
+    },
+    "variants": [
+      {
+        "file": "gecerlik-ve-guvenirlik-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39570
+      },
+      {
+        "file": "gecerlik-ve-guvenirlik-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 71306
+      },
+      {
+        "file": "gecerlik-ve-guvenirlik-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 135090
+      }
+    ]
+  },
+  {
+    "slug": "ags-kac-soru-kac-dakika",
+    "title": "AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri",
+    "alt": "AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-kac-soru-kac-dakika.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 155525
+    },
+    "variants": [
+      {
+        "file": "ags-kac-soru-kac-dakika-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31766
+      },
+      {
+        "file": "ags-kac-soru-kac-dakika-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 53870
+      },
+      {
+        "file": "ags-kac-soru-kac-dakika.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 101564
+      }
+    ]
+  },
+  {
+    "slug": "ags-yanlis-dogruyu-goturur-mu",
+    "title": "AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?",
+    "alt": "AGS'de Yanlış Doğruyu Götürür mü? Baraj Puanı Var mı?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-yanlis-dogruyu-goturur-mu.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 187290
+    },
+    "variants": [
+      {
+        "file": "ags-yanlis-dogruyu-goturur-mu-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39342
+      },
+      {
+        "file": "ags-yanlis-dogruyu-goturur-mu-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68866
+      },
+      {
+        "file": "ags-yanlis-dogruyu-goturur-mu.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 133964
+      }
+    ]
+  },
+  {
+    "slug": "ags-yas-siniri-var-mi",
+    "title": "AGS'de Yaş Sınırı Var mı? Kaç Kez Girilebilir?",
+    "alt": "AGS'de Yaş Sınırı Var mı? Kaç Kez Girilebilir?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "ags-yas-siniri-var-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 188187
+    },
+    "variants": [
+      {
+        "file": "ags-yas-siniri-var-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 40476
+      },
+      {
+        "file": "ags-yas-siniri-var-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 70528
+      },
+      {
+        "file": "ags-yas-siniri-var-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 131968
+      }
+    ]
+  },
+  {
+    "slug": "son-sinif-ogrencisi-ags-ye-girebilir-mi",
+    "title": "Son Sınıf Öğrencisi AGS'ye Girebilir mi? Mezuniyet Şartı",
+    "alt": "Son Sınıf Öğrencisi AGS'ye Girebilir mi? Mezuniyet Şartı",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 183189
+    },
+    "variants": [
+      {
+        "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 35938
+      },
+      {
+        "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 64642
+      },
+      {
+        "file": "son-sinif-ogrencisi-ags-ye-girebilir-mi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 129694
+      }
+    ]
+  },
+  {
+    "slug": "kpss-kalkti-mi-ogretmenlik",
+    "title": "Öğretmenlikte KPSS Kalktı mı? AGS ve Akademi Dönemi",
+    "alt": "Öğretmenlikte KPSS Kalktı mı? AGS ve Akademi Dönemi",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "kpss-kalkti-mi-ogretmenlik.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 159223
+    },
+    "variants": [
+      {
+        "file": "kpss-kalkti-mi-ogretmenlik-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31762
+      },
+      {
+        "file": "kpss-kalkti-mi-ogretmenlik-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 53518
+      },
+      {
+        "file": "kpss-kalkti-mi-ogretmenlik.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 103996
       }
     ]
   }
