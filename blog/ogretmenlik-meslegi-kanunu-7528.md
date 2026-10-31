@@ -76,6 +76,8 @@ Her büyük reform gibi 7528 sayılı Kanun da farklı değerlendirmelere konu o
 
 7528 sayılı Öğretmenlik Mesleği Kanunu, öğretmenliğe giriş ve kariyer yapısını tek bir çerçevede topladı. Kanunun getirdiği model, uluslararası öğretmen politikalarında önerilen seçim, hazırlık ve gelişim bütünlüğüyle uyumlu görünüyor. Bu modelin başarısını ise önümüzdeki yıllarda akademinin eğitim niteliği ve öğretmenlerin meslekteki deneyimleri belirleyecek.
 
+Kanunun uygulamadaki adımları için: [akademi başvurusu](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu), [atamaya esas başarı puanı](https://bote.web.tr/blog/atamaya-esas-basari-puani) ve [sözleşmeli öğretmenlik ve kadroya geçiş](https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya).
+
 ## Sık Sorulan Sorular
 
 ### 7528 sayılı Kanun nedir?

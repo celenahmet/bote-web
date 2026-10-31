@@ -686,6 +686,326 @@ Evet. Askerlik yükümlülüğü bulunan öğretmen adaylarının askerlik hizme
 
 ---
 
+# Akademi Sonrası Tercih ve Yerleştirme: Atama Nasıl?
+
+> Akademi bitince atama nasıl yapılır? Okul tercihi, ikinci tercih ve kura, iki ay kuralı, 15 günde göreve başlama, belgeler ve ilk grubun takvimi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme
+
+## Özet
+
+- Hazırlık eğitimini başaranlar **sözleşmeli öğretmen** olarak, okul tercihlerine göre yerleştiriliyor.
+- Sıralama **atamaya esas başarı puanına** göre; eşitlikte MEB-AGS puanı, sonra kura.
+- Yerleşemeyenlere **ikinci tercih** hakkı; ikinci dönemde de yerleşemeyen ya da tercih yapmayan **kurayla** yerleştiriliyor.
+- Yerleştirmeler hazırlık eğitiminin bitiminden itibaren **iki ay içinde** tamamlanıyor; tebliğden sonra **15 gün** içinde göreve başlama.
+- İlk grubun eğitimi **22 Şubat 2027**'de bitiyor.
+
+Millî Eğitim Akademisinde dört dönemlik hazırlık eğitimini tamamlayan adayların son adımı okullara yerleştirme. Bu adım da Kanun ve yönetmelikte ayrıntılı tanımlı: kimin önce yerleşeceği, tercihine yerleşemeyenin ne olacağı, göreve başlama süresi. Bu yazı süreci sırasıyla anlatıyor.[1]
+
+## Kimler yerleştiriliyor?
+
+Hazırlık eğitimini **başarıyla tamamlayanlar**, Kanun'daki temel şartları (vatandaşlık, kamu hakları, sabıka, askerlik, sağlık) taşımak ve güvenlik soruşturması ile arşiv araştırması yapılmış olmak kaydıyla 657 sayılı Kanun'un 4/B maddesi kapsamında **sözleşmeli öğretmen** olarak istihdam ediliyor.[2][1] Başarı şartları için [akademide başarısız olursam ne olur?](https://bote.web.tr/blog/akademide-basarisiz-olursam-ne-olur)
+
+## Tercih ve sıralama
+
+Yerleştirme, adayların **tercihleri doğrultusunda** ve **atamaya esas başarı puanı üstünlüğüne** göre yapılıyor. Puan eşitliğinde MEB-AGS puanı yüksek olana öncelik veriliyor; eşitlik yine bozulmazsa bilgisayar kurası çekiliyor.[1] Puanın hesabı için [atamaya esas başarı puanı](https://bote.web.tr/blog/atamaya-esas-basari-puani).
+
+Başvurular **elektronik ortamda** alınıyor. Başvuru tarihleri, istenecek belgeler ve yerleştirmeye ilişkin diğer hususlar Bakanlığın ilan edeceği duyuruda belirtiliyor.[1]
+
+## İkinci tercih ve kura
+
+Kanun yerleşemeyenler için iki aşamalı bir yol tanımlıyor:[2][1]
+
+| Aşama | Kimler? | Ne oluyor? |
+|---|---|---|
+| 1. tercih | Tüm adaylar | Atama puanı sırasıyla tercihlere yerleştirme |
+| 2. tercih | Tercih yapmayanlar ve tercihlerine yerleşemeyenler | Boş kalan okullar için yeniden tercih |
+| Kura | İkinci dönemde de tercih yapmayanlar ve yerleşemeyenler | Bakanlıkça kurayla yerleştirme |
+
+Bu yapı, sonunda **her başarılı adayın bir okula yerleştirildiği** anlamına geliyor; ama son aşamada yer seçimi adaya bırakılmıyor. Bu yüzden ilk iki tercih döneminde geniş ve gerçekçi tercih yapmak önemli.
+
+## Süre: iki ay
+
+Yönetmeliğe göre eğitim kurumlarına yerleştirme işlemleri **hazırlık eğitiminin bitiminden itibaren iki ay içinde** tamamlanıyor.[1] İlk grubun akademik takvimine göre dördüncü dönem 7 Aralık 2026'da başlıyor ve hazırlık eğitimi **22 Şubat 2027**'de tamamlanıyor.[3] Buna göre ilk grubun yerleştirmesinin en geç Nisan 2027 sonuna kadar tamamlanması gerekiyor; kesin tarihler Bakanlığın duyurusuyla açıklanacak.
+
+## Tebligat ve göreve başlama
+
+Yerleştirmesi yapılanlara 7201 sayılı Tebligat Kanunu'na göre tebligat yapılıyor. Aday **tebliğ tarihinden itibaren en geç on beş günü izleyen iş günü içinde** göreve başlamak zorunda.[1]
+
+Göreve başlamak için yerleştirilen okulun bağlı olduğu il ya da ilçe millî eğitim müdürlüğüne başvuruluyor; adaylardan **kimlik, adli sicil ve adli sicil arşiv kaydı, sağlık kurulu raporu, askerlik durum belgesi** ve duyuruda belirtilen diğer belgeler isteniyor. Belgeleri eksiksiz ve uygun olanlar göreve başlatılıyor; ardından aday ile il ya da ilçe millî eğitim müdürü arasında **hizmet sözleşmesi** imzalanıyor.[1]
+
+## Göreve başlamamanın sonuçları
+
+Belgeyle ispatı mümkün zorlayıcı sebep olmadan süresinde göreve başlamayanların ve zorlayıcı sebebi **iki ayı aşanların** yerleştirmeleri iptal ediliyor. Mazeretsiz göreve başlamayanlar ile başladıktan sonra mazeretsiz görevden ayrılanlar:[2][1]
+
+- hazırlık eğitimi sonunda aldıkları **atamaya esas başarı puanıyla yeniden başvuramıyor**,
+- yerleştirildikleri tarihten itibaren **bir yıl süreyle hazırlık eğitimine alınmıyor**.
+
+Yani dört dönemlik emeğin karşılığı olan atama puanı, göreve başlanmazsa bir daha kullanılamıyor.
+
+## Akademi ili ile görev yeri aynı mı?
+
+Hayır, zorunlu değil. Hazırlık eğitimi alınan eğitim ve uygulama merkezi ile atanılacak okul arasında yönetmelikte bir bağ kurulmuyor; okula yerleştirme, ülke genelindeki boş pozisyonlar için yapılan **tercih** ve atamaya esas başarı puanı sırasına göre yapılıyor.[1] Örneğin Sivas'ta okul öncesi hazırlık eğitimi alan bir aday, puanı yetiyorsa başka bir ildeki okulu tercih edip oraya yerleşebiliyor. Merkezler için [Millî Eğitim Akademisi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde)
+
+Hazırlık eğitimi boyunca oluşturulan **öğretmen adayı dosyası**, aday sözleşmeli öğretmen olarak istihdam edildiğinde istihdam edildiği ilin millî eğitim müdürlüğüne gönderiliyor.[4] Disiplin cezaları da bu dosyada yer aldığı için hazırlık eğitimi dönemindeki kayıtlar görev yerine taşınıyor.
+
+## Yerleştikten sonra: üç yıl kuralı
+
+Sözleşmeli öğretmenler can güvenliği ve sağlık mazeretleri dışında **üç yıl süreyle başka bir yere atanamıyor**; üç yılı tamamlayanlar talep ederse görev yaptıkları yerde kadroya atanıyor.[2] Bu dönemin kuralları için [sözleşmeli öğretmenlik: ne zaman kadroya geçilir?](https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya)
+
+## Tercih yaparken
+
+Üç yıl yer değiştirememe kuralı, ilk tercihin en az üç yıllık bir karar olduğunu gösteriyor. Araştırmalar da ilk görev yerinin önemine işaret ediyor: mesleğe giriş desteği alan yeni öğretmenlerin mesleğe bağlılığı ve devamı çoğu çalışmada daha yüksek çıkıyor;[5] okul ortamının iş birliği ve işleyiş kalitesi de öğretmenin mesleğe devamıyla ilişkili.[6] Tercih listesini yalnız şehre göre değil, ulaşım, okul türü ve yaşam koşullarını da düşünerek hazırlamak, bu üç yılı daha verimli kılar.
+
+## Sık Sorulan Sorular
+
+### Akademi bitince atama otomatik mi?
+
+Hayır. Hazırlık eğitimini başarıyla bitirenler elektronik ortamda başvurup okul tercihi yapıyor; yerleştirme atamaya esas başarı puanı sırasına göre yapılıyor.
+
+### Akademiden sonra tercihime yerleşemezsem ne olur?
+
+Tercihte bulunmayanlar ve tercihlerine yerleşemeyenlere boş kalan okullar için yeniden tercih hakkı veriliyor. İkinci tercih döneminde de yerleşemeyenler Bakanlıkça kurayla yerleştiriliyor.
+
+### Akademi sonrası atama ne zaman?
+
+Yönetmeliğe göre yerleştirmeler hazırlık eğitiminin bitiminden itibaren iki ay içinde tamamlanıyor. İlk grubun eğitimi 22 Şubat 2027'de bitiyor.
+
+### Atandıktan sonra kaç günde göreve başlamalıyım?
+
+Tebliğ tarihinden itibaren en geç on beş günü izleyen iş günü içinde göreve başlamak gerekiyor. Belgeli zorlayıcı sebepler iki ayı aşarsa yerleştirme iptal ediliyor.
+
+### Göreve başlamazsam ne olur?
+
+Mazeretsiz göreve başlamayan ya da başladıktan sonra mazeretsiz ayrılan, aynı atama puanıyla yeniden başvuramıyor ve yerleştirme tarihinden itibaren bir yıl hazırlık eğitimine başvuramıyor.
+
+### Atamada hangi belgeler isteniyor?
+
+Kimlik, adli sicil ve arşiv kaydı, sağlık kurulu raporu, askerlik durum belgesi ve duyuruda belirtilen diğer belgeler; ardından il ya da ilçe millî eğitim müdürüyle hizmet sözleşmesi imzalanıyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Akademik Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-akademik-takvimi-aciklandi/haber/40418/tr (TR, erişim: 2026-10-31)
+4. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+5. Ingersoll, R. M. ve Strong, M. (2011). The impact of induction and mentoring programs for beginning teachers: A critical review of the research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+6. Ronfeldt, M. (2012). Where should student teachers learn to teach? Effects of field placement school characteristics on teacher retention and effectiveness. Educational Evaluation and Policy Analysis, 34(1), 3–26. https://doi.org/10.3102/0162373711420865 (EN, erişim: 2026-10-31)
+
+---
+
+# Akademide Başarısız Olursam Ne Olur? Sınav, Ek Sınav
+
+> Millî Eğitim Akademisinde başarısız olunursa ne olur? Teorik derste 60, uygulamada 70, ek sınav, mazeret sınavı, itiraz, ilişik kesilmesi, yeniden başvuru.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/akademide-basarisiz-olursam-ne-olur
+
+## Özet
+
+- Her teorik dersten **en az iki yazılı sınav**; ders ortalaması **60** altındaysa o ders için **bir ek sınav** hakkı var.
+- Ek sınavdan sonra herhangi bir dersten başarısız olanın **Akademiyle ilişiği kesiliyor**.
+- Uygulamalı derslerde geçme puanı **70**; uygulamada başarısız olana **ek değerlendirme hakkı yok**.
+- Yazılı sınav sonucuna **3 iş günü** içinde itiraz edilebiliyor; mazeretli adaya mazeret sınavı yapılıyor.
+- İlişiği kesilen aday, şartları taşıyorsa hazırlık eğitimine **yeniden başvurabiliyor**.
+
+Millî Eğitim Akademisine girmek, öğretmen olmayı garanti etmiyor: hazırlık eğitiminde başarısız olan adayın **Akademiyle ilişiği kesiliyor**. Bu yazı teorik ve uygulamalı derslerdeki başarı şartlarını, ek sınav ve itiraz haklarını ve başarısızlığın sonuçlarını Kanun ve yönetmelik maddeleriyle anlatıyor.[1]
+
+## Teorik dersler: iki sınav, 60 puan
+
+Kanun kuralı koyuyor: hazırlık eğitiminde **her bir teorik dersten en az iki yazılı sınav** yapılıyor; her dersten not ortalaması **yüz üzerinden altmış ve üzerinde** olanlar başarılı sayılıyor.[1] Yönetmeliğe göre yazılı sınav soruları dersin eğitim personeli tarafından hazırlanıyor; sınavlar takvimde belirtilen tarihlerde, genel tatiller dışında hafta sonu da yapılabiliyor.[2]
+
+Akademik takvim, uygulama dönemi dışındaki **her dönemde ayrı ayrı ara sınav, dönem sonu sınavı ve ek sınav** yapılacağını belirtiyor.[3] İlk grubun takviminde üç ders dönemi var: 13 Nisan-26 Haziran, 6 Temmuz-11 Eylül ve 28 Eylül-4 Aralık 2026; dördüncü dönem 7 Aralık'ta başlıyor ve eğitim 22 Şubat 2027'de bitiyor.[3] Ders listesi için [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri).
+
+## Ek sınav: her ders için bir hak
+
+Teorik derslerden başarısız olan adaya, **başarısız olduğu her bir ders için bir ek sınav hakkı** veriliyor. Ek sınavdan 60 ve üzerinde alan o dersten başarılı sayılıyor. Ama kural sert: **ek sınavlar sonunda herhangi bir dersten başarısız olanların Akademiyle ilişiği kesiliyor**.[1][2] Yani tek bir dersten ek sınavda da kalmak, eğitimin sona ermesi demek.
+
+## Mazeret sınavı ve sıfır puan
+
+Mazereti nedeniyle sınava katılamayan aday, mazeretini **sınavdan sonraki iki iş günü içinde** eğitim ve uygulama merkezine bildiriyor. Yöneticiler mazereti geçerli sayarsa, mazeretin ortadan kalkmasını izleyen **beş iş günü içinde** mazeret sınavı yapılıyor. Geçerli mazereti olmadan sınava girmeyen aday mazeret sınavı hakkından yararlanamıyor ve **sıfır almış sayılıyor**. Sınav düzenine aykırı davranan aday da o sınavdan sıfır alıyor ve hakkında disiplin işlemi yapılıyor.[2]
+
+## Sınav sonucuna itiraz
+
+Yazılı sınav sonuçlarına, sonuçların açıklandığı tarihten itibaren **üç iş günü içinde** merkeze yazılı olarak itiraz edilebiliyor. İtirazı, dersin eğitim personeli ile öncelikle aynı dersi veren iki eğitim personelinden oluşan komisyon inceliyor; sonuç **beş iş günü içinde** bildiriliyor.[2]
+
+## Uygulamalı dersler: 70 puan, ek hak yok
+
+Uygulamada değerlendirme farklı işliyor. Aday her uygulama dersinde farklı zamanlarda **üç kez** değerlendiriliyor; her değerlendirmede uygulamadan sorumlu eğitim personeli, okul müdürü ve uygulama öğretmeni ayrı ayrı form dolduruyor ve puanların ortalaması alınıyor.[2] Ders başarı puanı birinci değerlendirmenin %20'si, ikincinin %30'u ve üçüncünün %50'si toplanarak bulunuyor.[1]
+
+| | Teorik dersler | Uygulamalı dersler |
+|---|---|---|
+| Ölçme | Her dersten en az iki yazılı sınav | Üç değerlendirme, üç değerlendirici |
+| Geçme | Ortalama en az 60 | Ağırlıklı puan en az 70 |
+| İkinci şans | Her başarısız ders için bir ek sınav | **Yok** |
+| Başarısızlıkta | Ek sınavdan sonra ilişik kesilir | İlişik kesilir |
+
+Veri notu: 7528 sayılı Kanun md. 10; Hazırlık Eğitimi Yönetmeliği md. 9-14.[1][2]
+
+Yönetmelik açık: **uygulamalı derslerde başarısız olanlara ek değerlendirme hakkı tanınmaz** ve bu kişilerin Akademiyle ilişiği kesilir.[2] Ağırlığın son değerlendirmede (%50) olması, ilk haftalardaki zorlanmanın telafi edilebileceği anlamına geliyor; ama son değerlendirmenin kötü geçmesi sonucu belirliyor.
+
+## İlişik kesilmesi ve yeniden başvuru
+
+Kanuna göre üç durumda Akademiyle ilişik kesiliyor: şartlardan birini taşımadığı sonradan anlaşılan ya da eğitim sırasında kaybedenler, disiplin soruşturması sonucunda Akademiden çıkarma cezası alanlar ve **hazırlık eğitiminde başarısız olanlar**.[1] İşlemler, durum kesinleştikten sonra üç iş günü içinde sonuçlandırılıyor.[2]
+
+Kapı tamamen kapanmıyor: yönetmeliğe göre **ilişiği kesilenler, gerekli şartları taşımaları hâlinde hazırlık eğitimine yeniden alınmak için başvurabiliyor**.[2] Bunun için yeni bir başvuru döneminde geçerli bir MEB-AGS puanı ve alan kontenjanına girmek gerekiyor; MEB-AGS puanı bir sonraki sınavın sonuçları açıklanana kadar geçerli.[4] İlişik kesildiği andan itibaren aylık ödeme de sona eriyor; ayrıntı için [akademi hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
+
+## Başarı için pratik öneriler
+
+- **Takvimi baştan işaretleyin.** Ara sınav, dönem sonu ve ek sınav tarihleri akademik takvimde.[3]
+- **Uygulamayı ilk günden ciddiye alın.** Uygulamada ikinci şans yok ve uygulama notu atamaya esas puanın %60'ı.[1]
+- **Mazereti zamanında bildirin.** İki iş günü kuralı kaçırılırsa sınav sıfır sayılıyor.[2]
+- **Devamsızlığı izleyin.** Mazeretsiz devamsızlık disiplin cezasına ve ilişik kesilmesine kadar gidebiliyor; ayrıntı için [akademide devamsızlık ve izin hakkı](https://bote.web.tr/blog/akademi-devamsizlik-ve-izin-hakki).
+
+Mesleğe girişte yapılandırılmış destek programlarını inceleyen bir derleme, bu programlara katılan yeni öğretmenlerin sınıf uygulamalarında ve mesleğe bağlılıkta çoğunlukla daha iyi sonuç aldığını gösteriyor.[5] Darling-Hammond da güçlü öğretmen yetiştirme programlarının uzun ve iyi denetlenen uygulamayı merkeze aldığını vurguluyor.[6] Akademideki uygulama ağırlığı bu yaklaşımla aynı yönde; değerlendirmenin sıkılığı da bunun bedeli. Genel çerçeve için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi).
+
+## Sık Sorulan Sorular
+
+### Akademide sınavlar zor mu, kaç sınav var?
+
+Her teorik dersten en az iki yazılı sınav yapılıyor. Akademik takvime göre uygulama dönemi dışındaki her dönemde ara sınav, dönem sonu sınavı ve ek sınav var.
+
+### Akademide geçme notu kaç?
+
+Teorik derslerde her dersin yazılı sınav ortalaması 100 üzerinden en az 60 olmalı. Uygulamalı derslerde ise ağırlıklı başarı puanı en az 70 olmalı.
+
+### Ek sınavda da kalırsam ne olur?
+
+Ek sınavlar sonunda herhangi bir dersten başarısız olan öğretmen adayının Akademiyle ilişiği kesiliyor.
+
+### Uygulamada başarısız olursam tekrar hakkım var mı?
+
+Hayır. Yönetmeliğe göre uygulamalı derslerde başarısız olanlara ek değerlendirme hakkı tanınmıyor ve Akademiyle ilişikleri kesiliyor.
+
+### Sınava giremezsem ne olur?
+
+Mazeretinizi sınavdan sonraki iki iş günü içinde merkeze bildirmelisiniz. Mazeret geçerli sayılırsa mazeretin bitiminden itibaren beş iş günü içinde mazeret sınavı yapılıyor; mazeretsiz girilmeyen sınav sıfır sayılıyor.
+
+### Akademiden atılırsam yeniden girebilir miyim?
+
+Yönetmeliğe göre ilişiği kesilenler, gerekli şartları taşımaları hâlinde hazırlık eğitimine yeniden alınmak için başvurabiliyor. Bunun için geçerli bir MEB-AGS puanı ve yeni başvuru dönemi gerekiyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Akademik Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-akademik-takvimi-aciklandi/haber/40418/tr (TR, erişim: 2026-10-31)
+4. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+5. Ingersoll, R. M. ve Strong, M. (2011). The impact of induction and mentoring programs for beginning teachers: A critical review of the research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+6. Darling-Hammond, L. (2006). Constructing 21st-century teacher education. Journal of Teacher Education, 57(3), 300–314. https://doi.org/10.1177/0022487105285962 (EN, erişim: 2026-10-31)
+
+---
+
+# Akademide Devamsızlık ve İzin Hakkı: Kaç Gün?
+
+> Millî Eğitim Akademisinde devamsızlık hakkı kaç gün? 19 gün sağlık, 10 gün mazeret izni, geç kalma kuralı, kayıt dondurma ve mazeretsiz devamsızlığın cezaları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/akademi-devamsizlik-ve-izin-hakki
+
+## Özet
+
+- Hazırlık eğitiminde derslere, uygulamalara, faaliyetlere ve sınavlara **devam zorunlu**.
+- Belgeli sağlık mazeretiyle toplam **19 gün** sağlık izni; diğer mazeretlerle **10 güne kadar** izin.
+- Sağlık nedeniyle **20 gün ve üzeri** katılamayanın kaydı donduruluyor; o süre **ödeme yapılmıyor**.
+- Derse ders süresinin üçte birinden sonra gelen geç sayılıyor; **4 geç kalma = yarım gün** devamsızlık.
+- Mazeretsiz **2 gün kınama, 4 gün ödeme kesintisi, 6 gün Akademiden çıkarma**.
+
+Millî Eğitim Akademisinde hazırlık eğitimi bir üniversite dönemi gibi işlemiyor: devam **zorunlu**, izinler sınırlı ve mazeretsiz devamsızlığın açık disiplin karşılıkları var. Bu yazı izin haklarını, kayıt dondurmayı ve devamsızlık cezalarını Kanun ve yönetmelik maddeleriyle anlatıyor.[1]
+
+## Devam zorunluluğu
+
+Kanun kısaca "hazırlık eğitimine devam zorunludur" diyor.[2] Yönetmelik kapsamı genişletiyor: öğretmen adayları **derslere, uygulamalara, faaliyetlere ve sınavlara** katılmak zorunda.[1] Hazırlık eğitimi programı da devam zorunluluğunu esas alıyor ve adaylardan teorik ve uygulamalı derslere düzenli katılım bekliyor.[3]
+
+## Geç kalma ve yarım gün
+
+Yönetmelik devamsızlığın nasıl sayılacağını ayrıntılı tanımlıyor:[1]
+
+| Durum | Sayılma biçimi |
+|---|---|
+| Ders süresinin üçte birinden sonra derse gelmek | Geç kalma |
+| 4 geç kalma | Yarım gün devamsızlık |
+| Günlük toplam ders saatinin yarısından fazlasına katılmamak | 1 gün devamsızlık |
+| Günlük ders saatinin yarısı ya da daha azına katılmamak | Yarım gün devamsızlık |
+
+Devam durumu ilgili eğitim personeli tarafından **her gün MEBAKBİS**'e (Millî Eğitim Bakanlığı Akademi Bilişim Sistemleri) işleniyor ve yöneticiler tarafından takip ediliyor.[1] Adayların duyuruları ve kendi süreçlerini de bu sistem üzerinden izlemesi görevleri arasında sayılıyor.[1]
+
+## İzin hakları: 19 gün ve 10 gün
+
+İki tür izin var:[1]
+
+- **Sağlık izni:** Belgeye dayalı sağlık mazeretleri nedeniyle hazırlık eğitimi süresince **toplam 19 gün**.
+- **Mazeret izni:** Sağlık dışındaki, yöneticilerin uygun gördüğü mazeretler için hazırlık eğitimi süresince **10 güne kadar**.
+
+Bu süreler bir dönem için değil, **hazırlık eğitiminin tamamı** için. İlk grubun eğitimi 13 Nisan 2026'da başlayıp 22 Şubat 2027'de bittiğine göre, yaklaşık on aylık bir sürede toplam 19 gün sağlık ve 10 gün mazeret izni söz konusu.[4]
+
+## 20 gün kuralı: kayıt dondurma
+
+Belgeye dayalı sağlık mazeretleri sebebiyle hazırlık eğitimi süresince **toplam 20 gün ve üzeri** eğitime katılamayan ya da katılamayacak adayların **kaydı donduruluyor**.[2] Yönetmeliğe göre bu adaylar, mazeretleri ortadan kalktıktan sonraki **ilk hazırlık eğitimi programına**, takvimde belirlenen kayıt tarihleri içinde başvurmaları hâlinde yeniden alınıyor. **Süresi içinde başvurmayanlar hazırlık eğitimine alınma haklarını kaybetmiş sayılıyor.**[1]
+
+Dondurmanın mali sonucu da var: kaydı dondurulanlara **bu süre boyunca ödeme yapılmıyor**.[2] Ödemenin hesabı için [akademi hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
+
+## İzin nasıl alınır, sınav günü ne olur?
+
+Sağlık dışındaki izinleri **yöneticiler**, mazeret durumunu uygun görürlerse veriyor; yani izin kendiliğinden doğan bir hak değil.[1] Adayın görevleri arasında **kayıt, izin, mazeret ve benzeri idari süreçlere ilişkin belgeleri doğru, eksiksiz ve zamanında** merkeze teslim etmek de sayılıyor.[1]
+
+Sınav günleri için ayrı bir kural var: mazereti nedeniyle yazılı sınava katılamayan aday, mazeretini **sınavdan sonraki iki iş günü içinde** merkeze bildirmek zorunda. Mazeret geçerli sayılırsa, mazeretin ortadan kalkmasını izleyen beş iş günü içinde mazeret sınavı yapılıyor; geçerli mazereti olmadan sınava girmeyen aday **sıfır almış** sayılıyor.[1] Bu nedenle sınav gününe denk gelen bir rahatsızlıkta raporu hemen almak ve süresinde bildirmek, hem devam hem not açısından önemli.
+
+## Mazeretsiz devamsızlığın cezaları
+
+İzinler dışındaki devamsızlıklarda Kanun'un disiplin hükümleri uygulanıyor.[1] 7528 sayılı Kanun'un 12. maddesi öğretmen adaylarına üç disiplin cezası öngörüyor ve devamsızlık için açık eşikler koyuyor:[2]
+
+| Mazeretsiz devamsızlık (toplam) | Ceza | Anlamı |
+|---|---|---|
+| 2 gün | Kınama | Kusurlu olduğunun bildirilmesi |
+| 4 gün | Ödeme kesintisi | Aylık ödemeden 1/10 kesinti |
+| 6 gün | Akademiden çıkarma | Akademiyle ilişiğin kesilmesi |
+
+Aynı madde, derslere **geç gelmeyi ya da erken ayrılmayı alışkanlık hâline getirmeyi** de kınama gerektiren davranışlar arasında sayıyor.[2] Kınama ve ödeme kesintisini eğitim ve uygulama merkezi müdürü, Akademiden çıkarmayı ise beş üyeli Disiplin Kurulu veriyor; çıkarma istenen aday savunma hakkına sahip.[2] Disiplin cezaları MEBAKBİS'e işlenip adayın dosyasına konuluyor.[1]
+
+## Uygulama okulunda devam
+
+Devam zorunluluğu yalnız merkezdeki dersler için değil, **uygulamalar** için de geçerli.[1] Dördüncü dönem tamamen okulda tam zamanlı öğretmenlik deneyimi olduğu için bu dönemde okulun çalışma düzenine uymak da adayın görevi; yönetmelik adayların eğitim ve uygulama merkezleri ile eğitim kurumlarının kurallarına uymasını ve izin, mazeret belgelerini zamanında teslim etmesini istiyor.[1] Uygulamadaki değerlendirme ve başarısızlığın sonuçları için [akademide başarısız olursam ne olur?](https://bote.web.tr/blog/akademide-basarisiz-olursam-ne-olur)
+
+## Neden bu kadar sıkı?
+
+Hazırlık eğitimi, öğretmenliğe girişi yapılandırılmış bir döneme dönüştürüyor. Mesleğe giriş ve mentorluk programlarını inceleyen bir derleme, bu tür programların etkisinin büyük ölçüde katılımın düzenliliğine ve uygulamanın kalitesine bağlı olduğunu, programa katılan yeni öğretmenlerin çoğu çalışmada sınıf uygulamalarında daha iyi sonuç aldığını gösteriyor.[5] OECD'nin TALIS verileri de mesleğe giriş programlarına katılımın ülkeler arasında çok farklı olduğunu ortaya koyuyor; Türkiye'de Akademi modeliyle bu dönem zorunlu ve izlenen bir yapıya kavuştu.[6] Genel çerçeve için [Millî Eğitim Akademisi hazırlık eğitimi](https://bote.web.tr/blog/milli-egitim-akademisi-hazirlik-egitimi).
+
+## Sık Sorulan Sorular
+
+### Akademide devamsızlık hakkı kaç gün?
+
+Klasik bir devamsızlık hakkı yok; devam zorunlu. Belgeli sağlık mazeretiyle toplam 19 gün sağlık izni, diğer mazeretlerle yöneticilerin uygun görmesiyle 10 güne kadar izin verilebiliyor.
+
+### Mazeretsiz kaç gün gelmezsem atılırım?
+
+7528 sayılı Kanuna göre hazırlık eğitimine mazeretsiz toplam altı gün katılmamak Akademiden çıkarma cezasını gerektiriyor. İki gün kınama, dört gün ödemeden onda bir kesinti cezası.
+
+### Hastalanırsam ne olur?
+
+Belgeli sağlık mazeretiyle toplam 19 güne kadar sağlık izni kullanılabiliyor. Toplam 20 gün ve üzeri katılamayacak olanların kaydı donduruluyor ve sonraki ilk programa yeniden alınıyor.
+
+### Kaydım dondurulursa ne olur?
+
+Dondurma süresince ödeme yapılmıyor. Mazeret bitince, takvimdeki kayıt tarihlerinde başvurarak ilk hazırlık eğitimi programına yeniden alınıyorsunuz; süresinde başvurmayan hakkını kaybediyor.
+
+### Geç kalmak devamsızlık sayılır mı?
+
+Ders süresinin üçte birinden sonra derse gelen geç kalmış sayılıyor ve her dört geç kalma yarım gün devamsızlık olarak işleniyor.
+
+### Devamsızlık nereden takip ediliyor?
+
+Devam durumu eğitim personeli tarafından her gün MEBAKBİS sistemine işleniyor ve yöneticiler tarafından takip ediliyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+4. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı Akademik Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-programi-akademik-takvimi-aciklandi/haber/40418/tr (TR, erişim: 2026-10-31)
+5. Ingersoll, R. M. ve Strong, M. (2011). The impact of induction and mentoring programs for beginning teachers: A critical review of the research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+6. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
+
+---
+
 # Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik
 
 > Akademisyen nasıl olunur? Yüksek lisans ve doktora için ALES şartı, araştırma görevliliği, doktor öğretim üyeliği, doçentlik ve profesörlük; 2547 sayılı Kanun.
@@ -1017,6 +1337,116 @@ MEB çizelgesine göre Almanca ve meslekî yabancı dil (Almanca) derslerini.
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Atamaya Esas Başarı Puanı Nasıl Hesaplanır? Örnekle
+
+> Akademi sonrası atama puanı nasıl hesaplanır? Teorik derslerin %40'ı, uygulamanın %60'ı; uygulamada 20-30-50 ağırlıklı üç değerlendirme ve örnek hesap.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/atamaya-esas-basari-puani
+
+## Özet
+
+- Hazırlık eğitimi sonunda **atamaya esas başarı puanı** = teorik derslerin ortalamasının **%40**'ı + uygulamalı derslerin ortalamasının **%60**'ı.
+- Her uygulama dersi üç kez değerlendiriliyor: ağırlıklar **%20, %30, %50**; her değerlendirme üç kişinin puan ortalaması.
+- Okula yerleştirmede **bu puan** esas; MEB-AGS puanı yalnız **eşitlikte** devreye giriyor.
+- Yani AGS sırası Akademiye girişi, Akademideki başarı ise görev yerini belirliyor.
+- Puan, hazırlık eğitimini başarıyla tamamlayanlara verilen belgede yazıyor.
+
+AGS'de yüksek puan alan adaylar çoğunlukla bu puanın atamada da işe yarayacağını düşünüyor. Yeni sistemde öyle değil: okullara yerleştirmede esas olan, Millî Eğitim Akademisindeki hazırlık eğitiminin sonunda hesaplanan **atamaya esas başarı puanı**. Bu yazı puanın nasıl hesaplandığını örnekle anlatıyor.[1]
+
+## Formül: %40 teorik, %60 uygulama
+
+7528 sayılı Kanun'un 10. maddesine göre hazırlık eğitiminin sonunda, **teorik derslerin başarı notlarının aritmetik ortalamasının %40'ı** ile **uygulamalı derslerin başarı notlarının aritmetik ortalamasının %60'ı** toplanarak atamaya esas başarı puanı belirleniyor.[1] Yönetmelik ve hazırlık eğitimi programı aynı formülü tekrarlıyor.[2][3]
+
+**Atamaya esas başarı puanı = 0,40 × (teorik ders ortalaması) + 0,60 × (uygulamalı ders ortalaması)**
+
+## Teorik ders notu
+
+Her teorik dersten en az iki yazılı sınav yapılıyor; dersin notu bu sınavların aritmetik ortalaması. Her dersten en az **60** almak gerekiyor; başarısız olunan ders için bir ek sınav hakkı var.[2] Teorik ortalama, tüm teorik derslerin başarı notlarının aritmetik ortalaması.[1]
+
+## Uygulamalı ders notu: üç değerlendirme, üç kişi
+
+Uygulamada hesap iki katmanlı:[2][1]
+
+1. **Her değerlendirme**, uygulamadan sorumlu eğitim personeli, okul müdürü ve uygulama öğretmeninin ayrı ayrı doldurduğu formların **aritmetik ortalaması**.
+2. **Ders başarı puanı** = birinci değerlendirmenin %20'si + ikincinin %30'u + üçüncünün %50'si.
+
+Her uygulama dersinin başarı puanı en az **70** olmalı; altında kalana ek değerlendirme hakkı yok.[2] Değerlendirme formları Akademi tarafından öğretmenlik atama alanlarına göre ve öğretmenlik mesleği yeterlikleri esas alınarak hazırlanıyor.[1]
+
+## Örnek hesap
+
+Bir adayın bir uygulama dersindeki değerlendirmeleri:
+
+| Değerlendirme | Eğitim personeli | Okul müdürü | Uygulama öğretmeni | Ortalama | Ağırlık | Katkı |
+|---|---|---|---|---|---|---|
+| 1. | 70 | 75 | 80 | 75 | %20 | 15,0 |
+| 2. | 78 | 80 | 82 | 80 | %30 | 24,0 |
+| 3. | 86 | 88 | 90 | 88 | %50 | 44,0 |
+| **Ders başarı puanı** | | | | | | **83,0** |
+
+Aynı adayın diğer uygulama dersinden 85 aldığını, teorik ders ortalamasının da 78 olduğunu varsayalım. Uygulama ortalaması (83 + 85) / 2 = 84. Atamaya esas başarı puanı:
+
+0,40 × 78 + 0,60 × 84 = 31,2 + 50,4 = **81,6**
+
+Örnekteki sayılar varsayımsal; formül Kanun ve yönetmelikteki hükümle aynı.[1][2]
+
+**İki adayı karşılaştıralım.** Teorik ortalaması 90, uygulama ortalaması 75 olan A adayının puanı 0,40 × 90 + 0,60 × 75 = 36 + 45 = **81**. Teorik ortalaması 70, uygulama ortalaması 88 olan B adayının puanı 0,40 × 70 + 0,60 × 88 = 28 + 52,8 = **80,8**. Teorik ortalamada 20 puan geride olan B, uygulamadaki 13 puanlık üstünlüğüyle A'ya neredeyse yetişiyor. Formül, sınıftaki performansı ödüllendirecek şekilde kurulmuş.
+
+Bu hesap iki şeyi gösteriyor. Birincisi, uygulama teorik derslerden **bir buçuk kat** daha ağır. İkincisi, uygulamada son değerlendirme ilk değerlendirmenin **iki buçuk katı** ağırlıkta: başlangıçta zorlanan ama gelişen bir aday, puanını büyük ölçüde telafi edebiliyor.
+
+## Yerleştirmede bu puan esas
+
+Hazırlık eğitimini başarıyla tamamlayanlar sözleşmeli öğretmen olarak istihdam ediliyor; eğitim kurumlarına yerleştirmeleri **atamaya esas başarı puanı esas alınarak tercihleri doğrultusunda** yapılıyor.[1] Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik eşitlik kuralını ekliyor: atamaya esas başarı puanı eşit olanlarda **MEB-AGS puanı yüksek olana** öncelik veriliyor; eşitlik bu şekilde de bozulmazsa yerleştirilecek aday **bilgisayar kurasıyla** belirleniyor.[4]
+
+| Aşama | Belirleyici puan |
+|---|---|
+| Akademiye giriş | MEB-AGS puanı (alan kontenjanı içinde sıralama) |
+| Eğitim ve uygulama merkezine yerleştirme | MEB-AGS puanı ve tercih |
+| Okula yerleştirme (atama) | Atamaya esas başarı puanı |
+| Atama puanı eşitliği | Önce MEB-AGS puanı, sonra kura |
+
+Hazırlık eğitimini başarıyla tamamlayan adaylara **atamaya esas başarı puanını da içeren bir belge** düzenleniyor.[2] AGS puanının hesabı için [AGS puanı nasıl hesaplanır?](https://bote.web.tr/blog/ags-puani-nasil-hesaplanir), Akademiye girişteki sıralama için [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan).
+
+## Bu tasarımın mantığı ve sınırları
+
+Tek bir sınav puanının öğretmen etkililiğini yordama gücü sınırlı: öğretmen seçme yöntemlerini inceleyen bir meta-analiz, yüksek riskli seçme yöntemleriyle sonraki öğretmen etkililiği arasındaki ilişkiyi küçük ama anlamlı (r = 0,12) buldu.[5] Atamada sınıf içi performansı ağırlıklı hâle getirmek bu açıdan anlamlı. Öte yandan gözleme dayalı değerlendirmenin güvenilirliği değerlendiricilere bağlı: üç kişinin ortalamasının alınması bu riski azaltan bir tasarım. Koçluk araştırmaları da yakından izleme ve geri bildirimin öğretim uygulamalarını güçlü biçimde iyileştirebildiğini, ama ölçek büyüdükçe etkinin küçüldüğünü gösteriyor.[6] Yerleştirme sürecinin kendisi için [hazırlık eğitimi sonrası tercih ve yerleştirme](https://bote.web.tr/blog/hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme).
+
+## Sık Sorulan Sorular
+
+### Atamaya esas başarı puanı nedir?
+
+Millî Eğitim Akademisinde hazırlık eğitimi sonunda hesaplanan ve okullara yerleştirmede kullanılan puandır. Teorik ders ortalamasının yüzde 40'ı ile uygulamalı ders ortalamasının yüzde 60'ının toplamıdır.
+
+### Atamada AGS puanı kullanılıyor mu?
+
+Yerleştirmede doğrudan kullanılmıyor. Atamaya esas başarı puanı eşit olan adaylar arasında MEB-AGS puanı yüksek olana öncelik veriliyor; eşitlik yine bozulmazsa kura çekiliyor.
+
+### Uygulama notu nasıl hesaplanıyor?
+
+Her uygulama dersinde üç değerlendirme yapılıyor. Her değerlendirmede eğitim personeli, okul müdürü ve uygulama öğretmeninin puanlarının ortalaması alınıyor; ders puanı bu üç değerlendirmenin %20, %30 ve %50 ağırlıklı toplamı.
+
+### Uygulamada kaç almak gerekiyor?
+
+Her uygulamalı dersin başarı puanı 100 üzerinden en az 70 olmalı. Altında kalanlara ek değerlendirme hakkı verilmiyor ve Akademiyle ilişikleri kesiliyor.
+
+### Atama puanını yükseltmenin en etkili yolu ne?
+
+Ağırlığın %60'ı uygulamada ve uygulamada da son değerlendirme %50 ağırlıklı. Bu yüzden okul uygulamasındaki gelişim, puan üzerinde en büyük etkiye sahip.
+
+### Atama puanı nerede yazıyor?
+
+Hazırlık eğitimini başarıyla tamamlayanlara, atamaya esas başarı puanını da içeren bir belge düzenleniyor.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2026). Millî Eğitim Bakanlığı Öğretmenlik Mesleğine Hazırlık Eğitimi Yönetmeliği (17.03.2026 tarihli, 33199 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2026/03/20260317-1.htm (TR, erişim: 2026-10-31)
+3. Millî Eğitim Bakanlığı Millî Eğitim Akademisi (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Programı. https://www.meb.gov.tr/meb_iys_dosyalar/2026_03/11121847_MYLLI_EYYTYM_AKADEMYSY_HAZIRLIK_EYYTYMY_PROGRAMI.pdf (TR, erişim: 2026-10-31)
+4. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+5. Klassen, R. M. ve Kim, L. E. (2019). Selecting teachers and prospective teachers: A meta-analysis. Educational Research Review, 26, 32–51. https://doi.org/10.1016/j.edurev.2018.12.003 (EN, erişim: 2026-10-31)
+6. Kraft, M. A., Blazar, D. ve Hogan, D. (2018). The effect of teacher coaching on instruction and achievement: A meta-analysis of the causal evidence. Review of Educational Research, 88(4), 547–588. https://doi.org/10.3102/0034654318759268 (EN, erişim: 2026-10-31)
 
 ---
 
@@ -6353,6 +6783,109 @@ MEB çizelgesine göre sosyal bilgiler, T.C. inkılap tarihi ve Atatürkçülük
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Sözleşmeli Öğretmenlik: Ne Zaman Kadroya Geçilir?
+
+> Akademi sonrası sözleşmeli öğretmenlik kaç yıl, ne zaman kadroya geçilir? 3 yıl kuralı, yer değiştirme, aile birliği, norm fazlası, sözleşme süresi ve haklar.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya
+
+## Özet
+
+- Akademiyi bitirenler **657 sayılı Kanun 4/B** kapsamında **sözleşmeli öğretmen** olarak başlıyor.
+- **Üç yıl** başka yere atanamıyor (can güvenliği ve sağlık mazereti hariç); aile birliğinde eş öğretmene tabi.
+- Üç yılı tamamlayan, **talep ederse** görev yaptığı yerde **kadroya** atanıyor; sonra bir yıl yer değiştiremiyor.
+- Sözleşmeli geçen süre derece-kademe ve hizmet puanında sayılıyor; kadroya geçende **adaylık uygulanmıyor**.
+- Sözleşme mali yılla sınırlı, feshedilmezse kendiliğinden uzuyor; norm fazlasında önce sözleşmeliler etkileniyor.
+
+Yeni sistemde öğretmenliğin ilk basamağı kadrolu değil **sözleşmeli** öğretmenlik. Millî Eğitim Akademisinden mezun olan adaylar önce üç yıl sözleşmeli çalışıyor, ardından talep ederlerse kadroya geçiyor. Bu yazı bu üç yılın kurallarını 7528 sayılı Kanun ve Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik maddeleriyle anlatıyor.[1][2]
+
+## Sözleşmeli öğretmenlik nedir?
+
+Hazırlık eğitimini başarıyla tamamlayanlar, 657 sayılı Devlet Memurları Kanunu'nun **4. maddesinin (B) fıkrası** kapsamında sözleşmeli öğretmen olarak istihdam ediliyor; yerleştirme atamaya esas başarı puanına ve tercihlere göre yapılıyor.[1] Sözleşmeli öğretmenler, alanında görev yapan **kadrolu öğretmenlerle aynı görev ve sorumlulukları** yerine getiriyor.[2] Yerleştirme süreci için [akademi sonrası tercih ve yerleştirme](https://bote.web.tr/blog/hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme).
+
+## Üç yıl kuralı
+
+Kanun'un 15. maddesine göre sözleşmeli öğretmenler, **can güvenliği ve sağlık mazeretleri hariç** olmak üzere **üç yıl süreyle başka bir yere atanamıyor**. Aile birliği mazeretine bağlı yer değiştirmelerde ise kural tersine işliyor: sözleşmeli öğretmenin **eşi bu öğretmene tabi** oluyor.[1] Yani eşi kamu görevlisi olan bir sözleşmeli öğretmenin eşinin yanına gitmesi değil, eşinin onun bulunduğu yere gelmesi esas.
+
+| Durum | Üç yıl içinde yer değiştirme |
+|---|---|
+| İsteğe bağlı | Yok |
+| Aile birliği | Yok (eş, sözleşmeli öğretmene tabi) |
+| Can güvenliği | Mümkün |
+| Sağlık | Mümkün |
+| Norm kadro fazlası | Valilikçe il içinde (gerekirse il dışı) |
+| Adli/idari soruşturma sonucu | Valilik ya da Bakanlıkça |
+
+Veri notu: 7528 sayılı Kanun md. 15; Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik md. 14-15.[1][2]
+
+## Kadroya geçiş
+
+Kanun'un 16. maddesi: **üç yıllık çalışma süresini tamamlayan sözleşmeli öğretmenler, talepleri hâlinde görev yaptıkları yerde öğretmen kadrolarına atanıyor**. Kadroya atananlar mazerete bağlı yer değiştirmeler hariç **bir yıl** süreyle yer değiştiremiyor.[1] Yönetmelik aynı hükmü tekrarlıyor.[2]
+
+Kadroya geçişin dört önemli sonucu var:[1]
+
+- **Hizmet süresi korunuyor.** Sözleşmeli pozisyonda geçen süreler, öğrenim durumuna göre yükselinebilecek dereceyi aşmamak kaydıyla **kazanılmış hak aylık derece ve kademesi** ile **hizmet puanı** hesabında dikkate alınıyor.
+- **Mali haklar.** Kadronun mali ve sosyal haklarından, göreve başlanan tarihi izleyen ay başından itibaren yararlanılıyor; önceki dönem için mahsuplaşma yapılmıyor.
+- **İş sonu tazminatı ödenmiyor**; ama bu süreler emekli ikramiyesine esas hizmet süresinde sayılıyor.
+- **Adaylık yok.** Bu yolla kadroya atananlar hakkında 657 sayılı Kanun'daki adaylık hükümleri uygulanmıyor.
+
+## Sözleşmenin süresi
+
+Sözleşmeli öğretmenlerle **mali yılla sınırlı** olarak sözleşme yapılıyor; feshedilmeyen sözleşmeler izleyen yıl için de geçerli. Görev yeri değişirse yeni sözleşme yapılıyor, ama bu eski sözleşmenin devamı sayılıyor.[2] Pratikte her yıl yeniden başvuru gerekmiyor.
+
+## Norm kadro fazlası olursa
+
+Okulun norm kadrosu değişip fazlalık oluşursa **önce sözleşmeli öğretmenler** norm fazlası sayılıyor. Aynı alanda birden çok sözleşmeli öğretmen varsa sırasıyla sözleşmeli hizmet süresi düşük olan, sözleşmeliliğe daha sonra başlayan ve atamaya esas puanı düşük olan norm fazlası belirleniyor.[2]
+
+Norm fazlası sözleşmeli öğretmenler, tercihleri de dikkate alınarak hizmet süresi üstünlüğüne göre alanlarında ihtiyaç bulunan okullara **valiliklerce** atanıyor; tercih yapmayanlar aynı ilçe grubu içinde öncelikli olmak üzere resen atanıyor. İl içinde atama yapılamazsa Bakanlık, alanında en fazla ihtiyaç bulunan **beş ili** tercihe sunuyor.[2] İlçe gruplarını, il millî eğitim müdürü başkanlığındaki komisyon coğrafya ve ulaşım imkânlarına göre belirliyor.[2]
+
+## Görev kısıtları
+
+Sözleşmeli öğretmenlere **öğretmenlik görevi veya ikinci görev kapsamında eğitim kurumu yöneticiliği dışında** başka bir görev verilemiyor.[2] Yani sözleşmeli öğretmen, ikinci görev olarak okul yöneticiliğine görevlendirilebiliyor. Okul yöneticiliği yolu için [okul müdürü nasıl olunur?](https://bote.web.tr/blog/okul-muduru-nasil-olunur)
+
+## Kariyer basamaklarıyla ilişki
+
+Sözleşmeli dönem kariyerin dışında değil: Kanun'a göre öğretmenlik mesleği **öğretmen, uzman öğretmen ve başöğretmen** basamaklarından oluşuyor ve uzman öğretmenlik için öğretmenlikte en az on yıl hizmet gerekiyor.[1] Basamakların koşulları için [uzman öğretmenlik ve başöğretmenlik](https://bote.web.tr/blog/uzman-ogretmenlik-ve-basogretmenlik).
+
+## Uluslararası bakış
+
+OECD'nin öğretmen politikaları raporu, birçok ülkede mesleğe girişin bir **deneme ya da adaylık dönemiyle** başladığını ve bu dönemin destekle birlikte tasarlanmasını öneriyor.[3] TALIS verileri de yeni öğretmenlerin ilk yıllarda sözleşme türü ve mesleğe giriş desteği bakımından ülkeler arasında büyük farklılık gösterdiğini ortaya koyuyor.[4] Türkiye'deki yeni modelde adaylık kaldırılıp yerine Akademideki hazırlık eğitimi ve üç yıllık sözleşmeli dönem konmuş durumda. Kanunun genel çerçevesi için [Öğretmenlik Mesleği Kanunu (7528)](https://bote.web.tr/blog/ogretmenlik-meslegi-kanunu-7528).
+
+## Sık Sorulan Sorular
+
+### Akademi sonrası sözleşmeli öğretmenlik kaç yıl?
+
+Üç yıl. 7528 sayılı Kanuna göre üç yıllık çalışma süresini tamamlayan sözleşmeli öğretmenler talepleri hâlinde görev yaptıkları yerde öğretmen kadrolarına atanıyor.
+
+### Sözleşmeli öğretmen tayin isteyebilir mi?
+
+Üç yıl boyunca can güvenliği ve sağlık mazeretleri dışında başka bir yere atanamıyor. Aile birliği mazeretinde ise sözleşmeli öğretmenin eşi bu öğretmene tabi oluyor.
+
+### Kadroya geçince hemen tayin olabilir miyim?
+
+Hayır. Kadroya atananlar mazerete bağlı yer değiştirmeler dışında bir yıl süreyle yer değiştiremiyor.
+
+### Sözleşmeli geçen süre hizmetten sayılır mı?
+
+Evet. Kadroya geçenlerin sözleşmeli pozisyonda geçen süreleri, öğrenimlerine göre yükselebilecekleri dereceleri aşmamak kaydıyla derece-kademe ve hizmet puanı hesabında dikkate alınıyor.
+
+### Kadroya geçişte adaylık var mı?
+
+Hayır. Kanuna göre bu yolla kadroya atanan sözleşmeli öğretmenler hakkında 657 sayılı Kanundaki adaylık hükümleri uygulanmıyor.
+
+### Sözleşmeli öğretmen yönetici olabilir mi?
+
+Yönetmeliğe göre sözleşmeli öğretmenlere öğretmenlik görevi veya ikinci görev kapsamında eğitim kurumu yöneticiliği dışında bir görev verilemiyor; yani ikinci görev olarak yöneticilik mümkün.
+
+## Kaynaklar
+
+1. Resmî Gazete (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (18.10.2024 tarihli, 32696 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2024/10/20241018-1.htm (TR, erişim: 2026-10-31)
+2. Resmî Gazete (2025). Millî Eğitim Bakanlığı Sözleşmeli Öğretmen İstihdamına İlişkin Yönetmelik (16.01.2025 tarihli, 32784 sayılı Resmî Gazete). https://www.resmigazete.gov.tr/eskiler/2025/01/20250116-2.htm (TR, erişim: 2026-10-31)
+3. OECD Publishing (2005). Teachers Matter: Attracting, Developing and Retaining Effective Teachers. https://doi.org/10.1787/9789264018044-en (EN, erişim: 2026-10-31)
+4. OECD Publishing (2019). TALIS 2018 Results (Volume I): Teachers and School Leaders as Lifelong Learners. https://doi.org/10.1787/1d0bc92a-en (EN, erişim: 2026-10-31)
 
 ---
 
@@ -22331,7 +22864,7 @@ Yeni model bazı soruları da beraberinde getiriyor. Lisansın ardından eklenen
 
 Millî Eğitim Akademisi, Türkiye'de öğretmen yetiştirmede fakülteler ile okullar arasına yeni bir aşama ekliyor. Modelin başarısı, ortak derslerin ve uygulama döneminin ne kadar nitelikli yürütüleceğine bağlı olacak. İlk mezunların deneyimleri, sistemin güçlü ve geliştirilmesi gereken yönlerini gösterecek.
 
-Ayrıntılı rehberler: [akademi başvurusu nasıl yapılır?](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu), [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan), [akademi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde), [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri) ve [hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi).
+Ayrıntılı rehberler: [akademi başvurusu nasıl yapılır?](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu), [AGS kontenjanları ve taban puan](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan), [akademi hangi illerde?](https://bote.web.tr/blog/milli-egitim-akademisi-hangi-illerde), [akademi dersleri](https://bote.web.tr/blog/akademi-hazirlik-egitimi-dersleri) [hazırlık eğitimi maaşı](https://bote.web.tr/blog/akademi-hazirlik-egitimi-maasi), [devamsızlık ve izin](https://bote.web.tr/blog/akademi-devamsizlik-ve-izin-hakki), [başarısızlık ve ek sınav](https://bote.web.tr/blog/akademide-basarisiz-olursam-ne-olur), [atamaya esas başarı puanı](https://bote.web.tr/blog/atamaya-esas-basari-puani), [tercih ve yerleştirme](https://bote.web.tr/blog/hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme) ve [sözleşmeli öğretmenlik](https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya).
 
 ## Sık Sorulan Sorular
 
@@ -23130,6 +23663,8 @@ Her büyük reform gibi 7528 sayılı Kanun da farklı değerlendirmelere konu o
 ## Sonuç
 
 7528 sayılı Öğretmenlik Mesleği Kanunu, öğretmenliğe giriş ve kariyer yapısını tek bir çerçevede topladı. Kanunun getirdiği model, uluslararası öğretmen politikalarında önerilen seçim, hazırlık ve gelişim bütünlüğüyle uyumlu görünüyor. Bu modelin başarısını ise önümüzdeki yıllarda akademinin eğitim niteliği ve öğretmenlerin meslekteki deneyimleri belirleyecek.
+
+Kanunun uygulamadaki adımları için: [akademi başvurusu](https://bote.web.tr/blog/akademi-hazirlik-egitimi-basvurusu), [atamaya esas başarı puanı](https://bote.web.tr/blog/atamaya-esas-basari-puani) ve [sözleşmeli öğretmenlik ve kadroya geçiş](https://bote.web.tr/blog/sozlesmeli-ogretmenlik-ne-zaman-kadroya).
 
 ## Sık Sorulan Sorular
 

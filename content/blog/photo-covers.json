@@ -5662,5 +5662,165 @@
         "bytes": 95266
       }
     ]
+  },
+  {
+    "slug": "sozlesmeli-ogretmenlik-ne-zaman-kadroya",
+    "title": "Sözleşmeli Öğretmenlik: Ne Zaman Kadroya Geçilir?",
+    "alt": "Sözleşmeli Öğretmenlik: Ne Zaman Kadroya Geçilir?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 166456
+    },
+    "variants": [
+      {
+        "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 33808
+      },
+      {
+        "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 57962
+      },
+      {
+        "file": "sozlesmeli-ogretmenlik-ne-zaman-kadroya.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 112062
+      }
+    ]
+  },
+  {
+    "slug": "akademide-basarisiz-olursam-ne-olur",
+    "title": "Akademide Başarısız Olursam Ne Olur? Sınav, Ek Sınav",
+    "alt": "Akademide Başarısız Olursam Ne Olur? Sınav, Ek Sınav",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "akademide-basarisiz-olursam-ne-olur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
+    "variants": [
+      {
+        "file": "akademide-basarisiz-olursam-ne-olur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "akademide-basarisiz-olursam-ne-olur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "akademide-basarisiz-olursam-ne-olur.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
+  },
+  {
+    "slug": "akademi-devamsizlik-ve-izin-hakki",
+    "title": "Akademide Devamsızlık ve İzin Hakkı: Kaç Gün?",
+    "alt": "Akademide Devamsızlık ve İzin Hakkı: Kaç Gün?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "akademi-devamsizlik-ve-izin-hakki.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
+    "variants": [
+      {
+        "file": "akademi-devamsizlik-ve-izin-hakki-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "akademi-devamsizlik-ve-izin-hakki-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "akademi-devamsizlik-ve-izin-hakki.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
+  },
+  {
+    "slug": "atamaya-esas-basari-puani",
+    "title": "Atamaya Esas Başarı Puanı Nasıl Hesaplanır? Örnekle",
+    "alt": "Atamaya Esas Başarı Puanı Nasıl Hesaplanır? Örnekle",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "atamaya-esas-basari-puani.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 214453
+    },
+    "variants": [
+      {
+        "file": "atamaya-esas-basari-puani-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 47868
+      },
+      {
+        "file": "atamaya-esas-basari-puani-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 81354
+      },
+      {
+        "file": "atamaya-esas-basari-puani.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 159678
+      }
+    ]
+  },
+  {
+    "slug": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme",
+    "title": "Akademi Sonrası Tercih ve Yerleştirme: Atama Nasıl?",
+    "alt": "Akademi Sonrası Tercih ve Yerleştirme: Atama Nasıl?",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 149190
+    },
+    "variants": [
+      {
+        "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 30544
+      },
+      {
+        "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 50260
+      },
+      {
+        "file": "hazirlik-egitimi-sonrasi-tercih-ve-yerlestirme.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 95266
+      }
+    ]
   }
 ]
