@@ -2302,6 +2302,130 @@ MEB çizelgesine göre din kültürü ve ahlak bilgisi, ortaokul ve liselerde di
 
 ---
 
+# Dosya Uzantıları Nelerdir? Dosya ve Klasör Yönetimi
+
+> Dosya uzantıları nelerdir: .docx, .pdf, .jpg, .png, .mp3, .txt ne demek? Dosya ve klasör işlemleri, adlandırma, sıkıştırma; BTY 5. sınıf konusu.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/dosya-uzantilari-ve-klasor-yonetimi
+
+## Özet
+
+- **Dosya**, bilgisayarda saklanan veri birimi; **klasör**, dosyaları gruplayan kap.
+- **Dosya uzantısı**, adın sonundaki noktadan sonraki kısım: dosyanın türünü ve hangi programla açılacağını gösterir.
+- Temel işlemler: klasör oluşturma, taşıma, kopyalama, yeniden adlandırma, silme, arama.
+- İyi adlandırma: anlamlı ve tarihli ad (örnek: ad_tarih_etkinlik.docx).
+- **Sıkıştırma** dosyaları küçültür; BTY 5. sınıfta **BTY.5.1.6** kazanımı.
+
+Masaüstü dosyalarla dolu bir bilgisayarda aranan belgeyi bulmak zordur. BTY 5. sınıf programı dosya ve klasör yönetimini tam da bu soruyla açıyor: "Bu masaüstünde aranılan bir belgenin bulunması zor olur mu?"[1] Bu yazı dosya ve klasör kavramlarını, dosya uzantılarını, temel işlemleri ve sıkıştırmayı anlatıyor.
+
+## BTY programında dosya ve klasör
+
+5. sınıfın ilk temasında **BTY.5.1.6 "Dosya ve klasör yönetimi ile ilgili temel işlemlerle çalışabilme"** öğrenme çıktısı üç adımdan oluşuyor:[1]
+
+| Adım | Öğrencinin yaptığı |
+|---|---|
+| a | Temel dosya ve klasör düzenleme işlemlerini belirler |
+| b | Temel dosya ve klasör düzenleme işlemlerini kullanır |
+| c | Dosya ve klasör sıkıştırma işlemlerini verimlilik kapsamında değerlendirir |
+
+Yılın tamamı için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari).
+
+## Dosya ve klasör nedir?
+
+**Dosya**, bilgisayarda saklanan bir veri birimidir: bir belge, bir fotoğraf, bir şarkı. **Klasör** ise dosyaları (ve başka klasörleri) bir arada tutan kaptır; tıpkı kâğıtların konduğu dosya kutuları gibi. Program düzen için üç yöntem öneriyor: dosyaları **bir araya toplamak**, **gruplandırmak** ve **anlamlı, tarih bilgisi içerecek şekilde adlandırmak**. Dosya türleri (metin, görüntü, ses) ve klasör yapısının önemi de bu sunumda anlatılıyor.[1]
+
+İç içe klasörlerden oluşan bu yapıya **dizin yapısı** denir. Örnek bir okul düzeni:
+
+- Okul
+  - Türkçe
+  - Matematik
+  - BTY
+    - Sunumlar
+    - Belgeler
+
+## Temel dosya ve klasör işlemleri
+
+Programda öğretmen etkileşimli tahtada şu işlemleri gösteriyor, öğrenciler de bir görev listesine göre uyguluyor: **klasör oluşturma, dosya taşıma, dosya adını değiştirme, dosya silme ve dosya arama**; ayrıca dosyaları türlerine ve oluşturulma ya da son güncellenme tarihlerine göre düzenleme.[1]
+
+| İşlem | Ne işe yarar? |
+|---|---|
+| Yeni klasör | Dosyaları gruplamak için kap açar |
+| Kopyala | Dosyanın bir benzerini başka yere koyar, asıl yerinde kalır |
+| Taşı (kes) | Dosyayı başka yere götürür |
+| Yeniden adlandır | Dosyaya anlamlı bir ad verir |
+| Sil | Dosyayı geri dönüşüm kutusuna gönderir |
+| Ara | Ad ya da türe göre dosya bulur |
+| Sırala | Ada, türe, tarihe ya da boyuta göre dizer |
+
+**Adlandırma kuralı.** Programın 5. sınıf kelime işlemci etkinliğinde önerdiği biçim iyi bir örnek: `ogrenci_adi_tarih_etkinlik_adi.docx`. Belgeler öğrencilerin oluşturdukları klasörlerde, konuyu tanımlayan adlarla ve farklı biçimlerde (.docx, .odt, .pdf, .txt) kaydediliyor.[1] Türkçe karakter ve boşluk yerine alt çizgi kullanmak, dosyaların farklı cihazlarda sorunsuz açılmasına yardım eder.
+
+## Dosya uzantıları nelerdir?
+
+**Dosya uzantısı**, dosya adındaki son noktadan sonra gelen kısımdır. Program öğrencilerin her uzantı için dosyanın hangi programla açılacağını, hangi tür veri içerdiğini ve ne amaçla kullanıldığını açıklamasını istiyor; örnek olarak .txt, .jpg, .mp3, .docx, .odt, .ogg ve .png uzantılarını sayıyor.[1] Yaygın uzantılar:
+
+| Tür | Uzantılar | Not |
+|---|---|---|
+| Düz metin | .txt | Biçimlendirme yok, her yerde açılır |
+| Belge | .docx, .odt, .rtf | Düzenlenebilir belge |
+| Sabit belge | .pdf | Her cihazda aynı görünür |
+| Görüntü | .jpg, .png | JPG fotoğraf için, PNG saydamlık ve çizim için |
+| Ses | .mp3, .ogg, .wav | |
+| Video | .mp4 | |
+| Sunum | .pptx, .odp | |
+| Tablo | .xlsx, .ods, .csv | CSV düz metin tablodur |
+| Sıkıştırılmış | .zip | Birden çok dosyayı tek pakette toplar |
+
+ABD Kongre Kütüphanesi'nin dijital biçimler kataloğu bu biçimlerin her birinin özelliklerini ve uzun süre saklamaya uygunluğunu ayrıntılı olarak açıklıyor.[2] .odt, .odp ve .ods uzantıları ise OASIS'in açık belge standardı OpenDocument'a ait.[3]
+
+**Güvenlik notu.** Uzantı, dosyanın ne olduğunu anlamanın da yolu: "odev.pdf.exe" gibi çift uzantılı bir dosya aslında bir programdır ve zararlı olabilir. Ayrıntı için [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+
+## Dosya sıkıştırma nedir?
+
+Program sıkıştırmayı somut bir deneyle anlatıyor: öğretmen bir çöp poşetine alabileceğinden fazla gazete kâğıdı sığdırmaya çalışıyor; öğrenciler verimlilik ve kaynak yönetimini tartışıyor. Ardından önceden hazırlanmış dosyaları alanı azalmış bir taşınabilir belleğe kaydetmeye çalışıp "yeterli alan yok" mesajını görüyorlar. Sıkıştırmanın ne olduğu ve neden kullanıldığı anlatıldıktan sonra sıkıştırılmış dosyaların aynı belleğe sığdığı gösteriliyor.[1]
+
+Sıkıştırmanın iki faydası var: depolama alanından tasarruf ve dosya göndermeyi kolaylaştırma. Bazı biçimler (JPG, MP3, MP4) zaten sıkıştırılmış olduğundan bunları .zip içine koymak boyutu çok az küçültür; metin belgeleri ise belirgin biçimde küçülür.[2]
+
+## Taramadan dijitale
+
+Aynı kazanımda öğrenciler bir belgenin tarayıcı, telefon ya da tabletle taranıp bilgisayara aktarılmasını adım adım izliyor; böylece bilginin fiziksel dünyadan dijital ortama nasıl geçtiğini görüyor.[1] DigComp 2.2 de dijital içeriği yönetmeyi ve düzenlemeyi temel dijital yetkinlikler arasında sayıyor;[4] ISTE ise öğrencinin dijital araçlarla bilgiyi düzenleyen bir "bilgi oluşturucu" olmasını bekliyor.[5] Temaya göre içerikler programın resmî sayfasında.[6]
+
+## Sık Sorulan Sorular
+
+### Dosya uzantısı nedir?
+
+Dosya adının sonundaki noktadan sonra gelen kısımdır (.docx, .jpg gibi). Dosyanın türünü ve bilgisayarın onu hangi programla açacağını gösterir.
+
+### En yaygın dosya uzantıları nelerdir?
+
+Metin: .txt, .docx, .odt, .pdf. Görüntü: .jpg, .png. Ses: .mp3, .ogg. Video: .mp4. Tablo: .xlsx, .ods, .csv. Sunum: .pptx, .odp. Sıkıştırılmış: .zip.
+
+### Dosya ile klasör farkı nedir?
+
+Dosya veriyi taşır (bir belge, bir fotoğraf); klasör ise dosyaları ve başka klasörleri bir arada tutan düzenleme aracıdır.
+
+### Dosya sıkıştırma nedir?
+
+Dosya ya da klasörün kapladığı alanı küçültme işlemidir. Depolama alanı yetmediğinde ya da dosyayı göndermeyi kolaylaştırmak için kullanılır; sıkıştırılmış dosya açılınca eski hâline döner.
+
+### PDF ile DOCX farkı nedir?
+
+DOCX düzenlenebilir bir kelime işlemci belgesidir; PDF ise her cihazda aynı görünen, genelde son hâli paylaşmak için kullanılan biçimdir.
+
+### Dosya ve klasör hangi sınıfın konusu?
+
+Maarif Modeli BTY programında 5. sınıf, ilk temada BTY.5.1.6 "Dosya ve klasör yönetimi ile ilgili temel işlemlerle çalışabilme" kazanımıdır.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Library of Congress (2026). Sustainability of Digital Formats: Planning for Library of Congress Collections. https://www.loc.gov/preservation/digital/formats/ (EN, erişim: 2026-10-31)
+3. OASIS (2021). Open Document Format for Office Applications (OpenDocument) Version 1.3. https://docs.oasis-open.org/office/OpenDocument/v1.3/ (EN, erişim: 2026-10-31)
+4. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+5. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
+
+---
+
 # Edebiyat Öğretmeni Nasıl Olunur? Bölüm, ÖABT ve Atama
 
 > Edebiyat (Türk dili ve edebiyatı) öğretmeni olmak için hangi bölüm okunur, edebiyat bölümü mezunu öğretmen olabilir mi, ÖABT ve Millî Eğitim Akademisi.
@@ -3042,6 +3166,119 @@ MEB çizelgesine göre İngilizce ve meslekî yabancı dil (İngilizce) dersleri
 
 ---
 
+# İnternette Doğru Bilgi Nasıl Bulunur? Yatay Okuma
+
+> İnternetteki bilginin doğru olup olmadığı nasıl anlaşılır? Kaynak, tarih ve amaç kontrolü, yatay okuma tekniği, arama ipuçları ve BTY 5. sınıf kontrol listesi.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/internette-dogru-bilgi-nasil-bulunur
+
+## Özet
+
+- Bir bilgiyi kontrol etmenin üç sorusu: **Kim yazdı? Ne zaman yazıldı? Amacı ne?**
+- **Yatay okuma**: siteyi uzun uzun incelemek yerine yeni sekmede o site ve yazar hakkında araştırmak.
+- Araştırmada profesyonel doğruluk denetçileri yatay okuyarak tarihçi ve öğrencilerden **daha kısa sürede daha sağlam** karara vardı.
+- Resmî kurumlar, akademik yayınlar ve tanınmış haber kuruluşlarıyla **karşılaştırmak**.
+- BTY 5. sınıfta **BTY.5.3.3** kazanımı: güvenilirlik, güncellik ve içerik uygunluğu ölçütleri.
+
+"İnternette yazıyordu" bir bilginin doğru olduğunu göstermez. BTY 5. sınıf programı öğrencilere internette bilgiye ulaşmayı ve bu bilginin doğruluğunu değerlendirmeyi ayrı bir kazanım olarak öğretiyor. Bu yazı programın önerdiği ölçütleri ve araştırmaların en etkili bulduğu yöntemi, **yatay okumayı** anlatıyor.[1]
+
+## BTY programında bilgiyi değerlendirme
+
+5. sınıf Bilgisayar Ağları ve İletişim temasındaki **BTY.5.3.3 "İnternet ile amacına uygun olarak çalışabilme"** kazanımının üç adımı var:[1]
+
+| Adım | Öğrencinin yaptığı |
+|---|---|
+| a | İnternette bilgiye ulaşmak için uygun kaynakları belirler |
+| b | Bilginin doğruluğunu değerlendirmek için internetteki farklı bilgi kaynaklarını kullanır |
+| c | Kullandığı kaynakları uygunluk ve verimlilik açısından değerlendirir |
+
+Temanın tamamı için [bilgisayar ağları nedir?](https://bote.web.tr/blog/bilgisayar-aglari-nedir)
+
+## Üç site, üç farklı bilgi
+
+Programın önerdiği etkinlik öğretici: öğrencilere aynı konuda, örneğin **"Mars'ta yaşam mümkün mü?"** sorusunda, üç farklı siteden içerik gösteriliyor. Biri akademik çalışmalardan alınmış bilimsel bir içerik, biri kişisel yorum, biri de yanlış bilgi içeriyor. Gruplar içerikleri üç ölçüte göre değerlendiriyor:[1]
+
+| Ölçüt | Sorulacak soru |
+|---|---|
+| Güvenilirlik | Kaynak ne tür? Kim tarafından yazılmış? |
+| Güncellik | Ne zaman yayımlanmış? |
+| İçerik uygunluğu | Konuyla ne kadar ilgili? |
+
+Ardından sınıf ortak bir kontrol listesi hazırlıyor: bilginin **kaynağı** (kim yazdı), **yayımlanma tarihi**, **amacı** (bilgilendirme, tanıtım, reklam) ve **farklı güvenilir kaynaklarla** (resmî kurumlar, akademik yayınlar, tanınmış haber kuruluşları) karşılaştırma. Öğrenciler bu listeyi kendi aramalarında kullanıp işe yarayıp yaramadığını test ediyor.[1]
+
+## Yatay okuma: doğruluk denetçilerinin yöntemi
+
+Stanford'daki araştırmacılar Wineburg ve McGrew, internetteki bilgiyi en iyi kimin değerlendirdiğini merak etti. 10 doktoralı tarihçi, 10 profesyonel doğruluk denetçisi (fact checker) ve 25 üniversite öğrencisine canlı siteleri değerlendirtip düşündüklerini sesli söylettiler.[2]
+
+Sonuç şaşırtıcıydı: tarihçiler ve öğrenciler resmî görünen logolar ve alan adları gibi kolayca taklit edilebilen özelliklere sıkça kandı. Bu gruplar **dikey okuyordu**: sitenin içinde kalıp sayfayı inceleyerek güvenilirliğe karar veriyorlardı. Doğruluk denetçileri ise **yatay okudu**: siteye kısaca göz atıp çıkıyor, yeni sekmeler açarak o site ve arkasındaki kurum hakkında başka kaynakların ne dediğine bakıyordu. Denetçiler diğer gruplara göre **çok daha kısa sürede, daha sağlam gerekçeli** sonuçlara ulaştı.[2]
+
+Yöntem öğretilebilir mi? Aynı ekibin bir okul bölgesinde yaptığı saha çalışmasında yatay okuma derslerine katılan lise öğrencilerinin dijital kaynakları değerlendirme becerisi arttı.[3]
+
+## Adım adım: bir bilgiyi kontrol etmek
+
+1. **Dur.** Paylaşmadan, inanmadan önce kontrol et. Öfkelendiren ya da çok şaşırtan haberler en çok kontrol edilmesi gerekenlerdir.
+2. **Kaynağa bak.** Yazı kimin, hangi kurumun? Program yazarın ve kaynağın türünün sorulmasını istiyor.[1]
+3. **Yatay oku.** Yeni sekmede sitenin ya da kurumun adını arat: Başkaları bu kaynak hakkında ne diyor?[2]
+4. **Tarihe bak.** Eski bir bilgi bugün geçerliliğini yitirmiş olabilir.
+5. **Amaca bak.** Bilgilendirme mi, reklam mı, tanıtım mı?[1]
+6. **Karşılaştır.** Aynı bilgiyi resmî kurum, akademik yayın ya da tanınmış haber kuruluşunda ara.[1]
+
+## Arama motorunu etkili kullanmak
+
+Programda öğrenciler tarayıcının temel işlevlerini (yenileme, ileri-geri, sayfada arama) ve arama motorlarında belirli amaçlara yönelik aramaları (görsel, haber, dosya türüne göre) öğreniyor; 6. sınıfta bu, ileri düzey aramaya genişliyor.[1] Pratik ipuçları:
+
+- Anahtar kelimeleri kısa ve belirgin seç.
+- Resmî bilgi arıyorsan kurumun adını ekle (örneğin "MEB", "ÖSYM").
+- Sonuçlarda önce adrese bak: .gov.tr kamu kurumu, .edu.tr üniversite.
+- Reklam olarak işaretlenen sonuçları ayırt et.
+
+## Yapay zekâdan gelen bilgi
+
+Program, araştırma sürecinde güvenli içerik filtrelerine sahip yapay zekâ destekli kaynakların öğretmen rehberliğinde sınırlı ve kontrollü kullanılmasını ve öğrencilerin bu kaynaklardan gelen bilginin güvenilirliğini sorgulamasını öngörüyor.[1] Kural aynı: önemli bir bilgi, güvenilir bir kaynaktan doğrulanmadan kullanılmaz. Ayrıntı için [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari).
+
+## Ürüne dönüştürmek ve kaynak göstermek
+
+Grup etkinliğinin ardından her öğrenci seçtiği konuyu araştırıp sunum, afiş ya da rapora dönüştürüyor; kullandığı kaynakları ürününde belirtiyor ve araştırmayı nasıl yürüttüğünü arkadaşlarına anlatıyor. Ürünler akranlar tarafından aynı kontrol listesiyle değerlendiriliyor.[1] Sunum için [sunum nasıl hazırlanır?](https://bote.web.tr/blog/sunum-nasil-hazirlanir)
+
+DigComp 2.2 veriyi, bilgiyi ve dijital içeriği değerlendirmeyi "bilgi ve veri okuryazarlığı" alanının parçası sayıyor;[4] ISTE de öğrenciden kaynakların doğruluğunu, bakış açısını ve güvenilirliğini değerlendiren bir "bilgi oluşturucu" olmasını bekliyor.[5] Programın resmî sayfasında temaya göre içerikler yer alıyor.[6]
+
+## Sık Sorulan Sorular
+
+### İnternetteki bilginin doğru olduğu nasıl anlaşılır?
+
+Bilginin kim tarafından yazıldığına, ne zaman yayımlandığına ve amacına (bilgilendirme, reklam, tanıtım) bakın; aynı bilgiyi resmî kurum ve akademik kaynaklarla karşılaştırın.
+
+### Yatay okuma nedir?
+
+Bir siteyi değerlendirmek için o sitede kalmak yerine yeni sekmeler açıp site ve yazar hakkında başkalarının ne dediğini araştırmaktır. Profesyonel doğruluk denetçilerinin kullandığı yöntemdir.
+
+### Güvenilir kaynak nasıl anlaşılır?
+
+Yazarı ve kurumu belli, tarihi yazılı, kaynak gösteren, başka güvenilir kaynaklarla tutarlı bilgiler güvenilirlik işaretidir. Resmî görünen logo ya da alan adı tek başına yeterli değildir.
+
+### Güvenilir siteler hangileri?
+
+Resmî kurumların siteleri (.gov.tr), üniversiteler (.edu.tr), akademik yayınlar ve tanınmış haber kuruluşları genelde daha güvenilirdir; yine de bilgi karşılaştırılarak kontrol edilmelidir.
+
+### Yapay zekânın verdiği bilgi doğru mu?
+
+Her zaman değil. BTY programı yapay zekâdan gelen bilginin güvenilirliğinin sorgulanmasını istiyor; önemli bir bilgi güvenilir bir kaynaktan doğrulanmalı.
+
+### Bu konu hangi sınıfta işleniyor?
+
+Maarif Modeli BTY programında 5. sınıf, Bilgisayar Ağları ve İletişim temasında BTY.5.3.3 İnternet ile amacına uygun olarak çalışabilme kazanımıyla.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Wineburg, S. ve McGrew, S. (2019). Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information. Teachers College Record, 121(11), 1–40. https://doi.org/10.1177/016146811912101102 (EN, erişim: 2026-10-31)
+3. Wineburg, S., Breakstone, J., McGrew, S., Smith, M. D. ve Ortega, T. (2022). Lateral reading on the open Internet: A district-wide field study in high school government classes. Journal of Educational Psychology, 114(5), 893–909. https://doi.org/10.1037/edu0000740 (EN, erişim: 2026-10-31)
+4. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+5. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+6. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
+
+---
+
 # İş Birlikli Öğrenme Nedir? Öğeleri, Teknikleri ve Kanıtlar
 
 > İş birlikli öğrenme nedir, grup çalışmasından farkı ne? Beş temel öğe, birlikte öğrenme ve jigsaw gibi teknikler, meta-analiz bulguları ve sınıfta uygulama.
@@ -3234,6 +3471,124 @@ Szumski ve arkadaşlarının 47 çalışmayı ve yaklaşık 4,8 milyon öğrenci
 6. Millî Eğitim Bakanlığı (2024). Türkiye Yüzyılı Maarif Modeli'ne İlişkin Genelge Yayımlandı. https://www.meb.gov.tr/turkiye-yuzyili-maarif-modeline-iliskin-genelge-yayimlandi/haber/34511/tr (TR, erişim: 2026-10-31)
 7. ÖSYM (2026). 2026 Millî Eğitim Bakanlığı Akademi Giriş Sınavı (MEB-AGS) Kılavuzu. https://dokuman.osym.gov.tr/web/2026/7/basvuru-kilavuzu-p9djhk-30105733.pdf (TR, erişim: 2026-10-31)
 8. ÖSYM (2026). 2026-MEB-AGS Sınav Sonuçlarına İlişkin Sayısal Bilgiler. https://dokuman.osym.gov.tr/web/2026/8/2026-meb-ags-sinav-sonuclarina-liskin-sayisal-bilgiler-3p3l3d-31125057.pdf (TR, erişim: 2026-10-31)
+
+---
+
+# Kelime İşlemci Programı Nedir? Özellikleri ve Kullanımı
+
+> Kelime işlemci programı nedir, özellikleri nelerdir? Yazı tipi, punto, hizalama, tablo, üstbilgi; .docx, .odt, .pdf farkı ve BTY 5. sınıf kazanımları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/kelime-islemci-programi-nedir
+
+## Özet
+
+- **Kelime işlemci**, metin yazmak, düzenlemek ve biçimlendirmek için kullanılan program.
+- Temel işlemler: **yazı tipi, punto, hizalama, satır aralığı, kenar boşluğu, madde imi, tablo, sayfa numarası, üstbilgi/altbilgi**, resim ekleme.
+- Kayıt biçimleri: **.docx, .odt, .rtf** (düzenlenebilir), **.pdf** (sabit), **.txt** (düz metin).
+- BTY 5. sınıfta **BTY.5.2.4** (programdan yararlanma) ve **BTY.5.2.5** (dosya geliştirme).
+- Programda öğrenciler kendi metinleriyle yapay zekâ destekli metni de karşılaştırıyor.
+
+Kelime işlemci, okulda en sık kullanılacak programlardan biri: ödev, rapor, dilekçe, afiş metni. BTY 5. sınıf programında Dijital Ürün Tasarım ve Geliştirme temasının bir bölümü kelime işlemciye ayrılmış. Bu yazı programın kazanımlarını, temel özellikleri, dosya biçimlerini ve yapay zekâ destekli yazı araçlarına yaklaşımını anlatıyor.[1]
+
+## BTY programında kelime işlemci
+
+İki öğrenme çıktısı var:[1]
+
+| Kazanım | Adımlar |
+|---|---|
+| BTY.5.2.4 Kelime işlemci programlarından yararlanabilme | Temel özellikleri tanır; uygun programı belirler; arayüz özelliklerini kullanır; programı kullanım alanı ve verimlilik açısından değerlendirir |
+| BTY.5.2.5 Kelime işlemci dosyası geliştirebilme | Dosya oluşturur; dosyayı belirlenen ölçütlere göre değerlendirir |
+
+Tema aynı mantıkla görsel düzenleme ve sunum programlarını da kapsıyor. Yılın tamamı için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari).
+
+## Kelime işlemci nedir?
+
+**Kelime işlemci**, metin yazmak, düzenlemek, biçimlendirmek ve kaydetmek için kullanılan programdır. Program konuyu tarihî bir karşılaştırmayla açıyor: daktilo, kalem, kelime işlemci ve yapay zekâ destekli yazı aracıyla hazırlanmış mektup, dilekçe, gazete ve dergi örnekleri incelenip geleneksel ve dijital yazı süreçleri emek, zaman ve kullanım kolaylığı açısından karşılaştırılıyor.[1]
+
+Program belirli bir marka önermiyor: öğrenci kelime işlemci programlarını, çevrim içi metin düzenleme araçlarını ve yapay zekâ destekli yazı uygulamalarını **işlevsellik, kullanım kolaylığı, güvenlik ve erişilebilirlik** ölçütleriyle karşılaştırıp uygun aracı seçiyor ve seçimini gerekçelendiriyor.[1]
+
+## Arayüz ve temel özellikler
+
+Öğretmen seçilen aracın arayüzünü tanıtıyor: **menü çubuğu, araç çubuğu, şerit, biçimlendirme paneli**. Öğrencilerin uyguladığı işlemler:[1]
+
+| Özellik | Ne işe yarar? |
+|---|---|
+| Yazı tipi ve punto | Yazının biçimi ve büyüklüğü |
+| Hizalama | Sola, sağa, ortaya ya da iki yana yaslama |
+| Satır aralığı | Satırlar arasındaki boşluk |
+| Kenar boşlukları | Sayfa kenarından uzaklık |
+| Madde imleri ve numaralandırma | Liste oluşturma |
+| Tablo ekleme | Bilgiyi satır ve sütunlarda düzenleme |
+| Sayfa numarası | Çok sayfalı belgelerde düzen |
+| Üstbilgi ve altbilgi | Her sayfada tekrar eden başlık ya da not |
+| Resim ve şekil ekleme | Görselle destekleme |
+| Bağlantı | Metinden internet adresine bağlantı |
+| Sayfa yönü | Dikey ya da yatay sayfa |
+
+**Uygulama.** 5.2.5'te programın önerdiği etkinlik **İstiklal Marşı'nın yazılması ve biçimlendirilmesi**: öğrenciler yazı tipi, punto, renk, hizalama ve satır aralığını kullanarak marşı düzenliyor; bu süreçte Türkçeyi kurallarına uygun kullanma bilinci de vurgulanıyor.[1]
+
+## İyi biçimlendirilmiş bir ödev için kurallar
+
+- **Tek yazı tipi:** Gövdede tek, okunaklı bir yazı tipi; başlıklar daha büyük ya da kalın.
+- **Okunur punto:** Gövde metni için genelde 11-12 punto.
+- **Başlık yapısı:** Bölümleri başlıklarla ayırmak, uzun metni okunur kılar.
+- **Kaynak:** Kullanılan görsel ve alıntıların kaynağını yazmak. Program açık lisanslı içerik tercih etmeyi ve telif hakkına dikkat etmeyi ayrıca hatırlatıyor.[1] Creative Commons lisanslarının anlamı için Creative Commons'ın lisans açıklamaları,[2] ayrıntı için [lisans türleri nelerdir?](https://bote.web.tr/blog/lisans-turleri-nelerdir)
+
+## Dosya biçimleri: .docx, .odt, .rtf, .pdf, .txt
+
+Program farklı kelime işlemcilerle oluşturulabilecek uzantıları (.docx, .odt, .rtf, .pdf) içerik türüne, paylaşım amacına ve düzenleme ihtiyacına göre tanıtıyor; öğrenciler belgelerini farklı biçimlerde kaydedip düzenlenebilirlik, dosya boyutu ve uyumluluk açısından karşılaştırıyor.[1]
+
+| Biçim | Ne zaman? |
+|---|---|
+| .docx | Belge üzerinde çalışmaya devam edilecekse |
+| .odt | Açık standart; ücretsiz ofis programlarıyla uyumlu |
+| .rtf | Farklı programlar arasında basit biçimlendirmeli aktarım |
+| .pdf | Son hâli paylaşmak, yazdırmak, teslim etmek |
+| .txt | Biçimlendirme gerekmeyen düz metin |
+
+.odt, OASIS'in OpenDocument standardının metin biçimi;[3] bu biçimlerin özellikleri ve uzun süre saklamaya uygunlukları ABD Kongre Kütüphanesi'nin biçim kataloğunda açıklanıyor.[4] Dosya adlandırma ve uzantılar için [dosya uzantıları ve klasör yönetimi](https://bote.web.tr/blog/dosya-uzantilari-ve-klasor-yonetimi).
+
+## Yapay zekâ destekli yazı araçları
+
+Programın dikkat çekici bir etkinliği var: öğrenciler belirlenen bir konuda **önce kendi özgün metinlerini yazıyor**, ardından aynı konuda yapay zekâ desteğiyle bir metin oluşturuyor ve iki metni **içerik, ifade biçimi, dil bilgisi, üslup ve özgünlük** açısından karşılaştırıyor. Aynı biçimlendirme işlemleri yapay zekâ metnine de uygulanıyor; yapay zekâ ile metin üretiminin etik boyutları tartışılıyor.[1] Bu yaklaşım, aracı yasaklamak yerine eleştirel kullanmayı öğretiyor. Yapay zekâ teması için [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari).
+
+DigComp 2.2 dijital içerik geliştirmeyi ve düzenlemeyi beş yetkinlik alanından biri sayıyor;[5] ISTE ise öğrencinin farklı araçlarla "yaratıcı iletişimci" olmasını bekliyor.[6] Temaya göre içerikler programın resmî sayfasında.[7] Sunum programı için [sunum nasıl hazırlanır?](https://bote.web.tr/blog/sunum-nasil-hazirlanir)
+
+## Sık Sorulan Sorular
+
+### Kelime işlemci programı nedir?
+
+Metin yazmak, düzenlemek, biçimlendirmek ve kaydetmek için kullanılan programdır. Mektup, dilekçe, ödev ve rapor gibi belgeler bu programlarla hazırlanır.
+
+### Kelime işlemci programlarının özellikleri nelerdir?
+
+Yazı tipi ve punto değiştirme, hizalama, satır aralığı, kenar boşlukları, madde imleri, tablo ve resim ekleme, sayfa numarası, üstbilgi ve altbilgi, yazım denetimi.
+
+### Kelime işlemci programı örnekleri nelerdir?
+
+Masaüstü programlar, çevrim içi metin düzenleme araçları ve yapay zekâ destekli yazı araçları. BTY programı belirli bir marka adı vermez; öğrencinin ölçütlere göre uygun aracı seçmesini ister.
+
+### .docx ile .pdf farkı nedir?
+
+.docx düzenlenebilir bir belgedir; .pdf ise her cihazda aynı görünen, genelde son hâli paylaşmak için kullanılan biçimdir.
+
+### Punto nedir?
+
+Yazının büyüklüğünü gösteren ölçüdür. Okul ödevlerinde gövde metni için genelde 11-12 punto kullanılır.
+
+### Kelime işlemci hangi sınıfın konusu?
+
+Maarif Modeli BTY programında 5. sınıf, Dijital Ürün Tasarım ve Geliştirme temasında BTY.5.2.4 ve BTY.5.2.5 kazanımlarıyla işlenir.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Creative Commons (2026). About CC Licenses. https://creativecommons.org/share-your-work/cclicenses/ (EN, erişim: 2026-10-31)
+3. OASIS (2021). Open Document Format for Office Applications (OpenDocument) Version 1.3. https://docs.oasis-open.org/office/OpenDocument/v1.3/ (EN, erişim: 2026-10-31)
+4. Library of Congress (2026). Sustainability of Digital Formats: Planning for Library of Congress Collections. https://www.loc.gov/preservation/digital/formats/ (EN, erişim: 2026-10-31)
+5. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+6. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
 
 ---
 
@@ -5411,6 +5766,239 @@ MEB çizelgesine göre sosyal bilgiler, T.C. inkılap tarihi ve Atatürkçülük
 9. Millî Eğitim Bakanlığı (2026). Millî Eğitim Akademisi Hazırlık Eğitimi Takvimi Açıklandı. https://www.meb.gov.tr/milli-egitim-akademisi-hazirlik-egitimi-takvimi-aciklandi/haber/39824/tr (TR, erişim: 2026-10-31)
 10. Mevzuat Bilgi Sistemi (2024). 7528 sayılı Öğretmenlik Mesleği Kanunu (güncel metin). https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7528&MevzuatTur=1&MevzuatTertip=5 (TR, erişim: 2026-10-31)
 11. Ingersoll, R. M. ve Strong, M. (2011). The Impact of Induction and Mentoring Programs for Beginning Teachers: A Critical Review of the Research. Review of Educational Research, 81(2), 201–233. https://doi.org/10.3102/0034654311403323 (EN, erişim: 2026-10-31)
+
+---
+
+# Sunum Nasıl Hazırlanır? Etkili Slayt Kuralları
+
+> Etkili sunum nasıl hazırlanır? Slayt sayısı, yazı, görsel, animasyon kuralları; sunum programının özellikleri, .pptx ve .odp, BTY 5. sınıf kazanımları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/sunum-nasil-hazirlanir
+
+## Özet
+
+- Sunum programının temel işlevleri: **slayt ekleme, düzen, tema, metin kutusu, görsel, tablo, grafik, geçiş ve animasyon, ses ve video**.
+- Etkili slayt: **az yazı, tek fikir**, metni tekrarlamayan görsel, okunur yazı boyutu.
+- Araştırma temeli: Mayer'in çoklu ortam ilkeleri (gereksiz ögeyi çıkar, yazı ile görseli yan yana koy).
+- Kayıt biçimleri: **.pptx, .odp** (düzenlenebilir), **.pdf** (paylaşım).
+- BTY 5. sınıfta **BTY.5.2.6** ve **BTY.5.2.7** kazanımları; sunum sonunda kaynakça.
+
+Sunum hazırlamak hem okulda hem iş hayatında en çok gereken becerilerden biri. BTY 5. sınıf programı bu beceriyi Dijital Ürün Tasarım ve Geliştirme temasında işliyor. Bu yazı sunum programının özelliklerini, etkili slaytın kurallarını ve bu kuralların arkasındaki araştırmayı anlatıyor.[1]
+
+## BTY programında sunum
+
+İki öğrenme çıktısı var:[1]
+
+| Kazanım | Adımlar |
+|---|---|
+| BTY.5.2.6 Sunum programlarından yararlanabilme | Temel özellikleri tanır; uygun programı belirler; arayüz özelliklerini kullanır; programı kullanım alanı ve verimlilik açısından değerlendirir |
+| BTY.5.2.7 Sunum dosyası geliştirebilme | Sunum dosyası oluşturur; dosyayı belirlenen ölçütlere göre değerlendirir |
+
+Konu bir soruyla açılıyor: kalabalık bir gruba mesaj iletmek ya da bilgi aktarmak istediğinizde hangi yöntemleri kullanırsınız, hangisi daha çok kişiye ulaşır ve akılda kalır?[1] Yılın tamamı için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari).
+
+## Sunum programının özellikleri
+
+Program sunum programlarının temel özelliklerini **slayt ekleme, metin kutusu ekleme, görsel/şekil/tablo ekleme, geçiş ve animasyonlar, tema seçme** olarak sayıyor. Arayüzde **menü, araç çubuğu, slayt bölmesi, notlar alanı ve biçimlendirme paneli** tanıtılıyor. Öğrencilerin uyguladığı işlemler: slayt ekleme, slayt düzeni seçme, arka plan ayarlama, yazı tipi ve punto değiştirme, renk ve tema seçme, görsel/şekil/tablo ve grafik ekleme, animasyon ve geçiş efektleri, ses ve video ekleme.[1]
+
+Öğrenciler masaüstü programları, çevrim içi araçları ve yapay zekâ destekli sunum uygulamalarını işlevsellik, kullanım kolaylığı, güvenlik ve erişilebilirlik açısından karşılaştırıp uygun aracı seçiyor.[1]
+
+## Etkili sunum hazırlamanın adımları
+
+1. **Amaç ve dinleyici.** Neyi, kime anlatacaksınız? Program öğrencinin hedef kitle, içerik ve kullanım amacına göre araç seçmesini istiyor.[1]
+2. **Taslak.** Önce kâğıda ana fikirleri ve sırayı yazın; slaytlar bu iskeletin üzerine kurulur.
+3. **Bilgi toplama.** Güvenilir kaynaklardan araştırın; ayrıntı için [internette doğru bilgi nasıl bulunur?](https://bote.web.tr/blog/internette-dogru-bilgi-nasil-bulunur)
+4. **Slaytları hazırlama.** Her slayta tek fikir.
+5. **Kaynakça.** Program sunum sonunda kaynakça eklenmesini istiyor.[1]
+6. **Prova.** Sunumu yüksek sesle bir kez deneyin, süreyi ölçün.
+
+## Etkili slaytın kuralları ve arkasındaki araştırma
+
+Mayer ve Moreno'nun çoklu ortam öğrenmesi kuramına göre insanlar görsel ve sözel bilgiyi iki ayrı kanaldan işler ve her kanalın aynı anda işleyebileceği bilgi sınırlıdır; öğrenme, bu iki kanaldaki bilgiyi ilişkilendirerek gerçekleşir. Kanallardan biri aşırı yüklendiğinde öğrenme zorlaşır; yazarlar bu yükü azaltmanın dokuz yolunu araştırma bulgularıyla sunuyor.[2] Slayt hazırlamaya uyarlanmış hâli:
+
+| Kural | Neden? |
+|---|---|
+| Gereksiz süsleri, ilgisiz görselleri ve sesleri çıkar | İlgisiz ögeler sınırlı kapasiteyi boşa harcar |
+| Slayttaki yazıyı okuma, anlat | Aynı metni hem okumak hem dinlemek sözel kanalı yükler |
+| Yazı ile ilgili görseli yan yana koy | Dinleyici ikisini aramak zorunda kalmaz |
+| Uzun konuyu parçalara böl | Her parça işlenip sonrakine geçilir |
+| Önemli noktayı vurgula (renk, kalın) | Dikkat doğru yere yönelir |
+
+Bunlara pratik birkaç kural eklenebilir: arka plan ile yazı arasında yüksek kontrast, arka sıralardan okunacak büyüklükte yazı, tüm sunumda tutarlı bir tema ve ölçülü animasyon.
+
+## Görsel, ses, video ve lisans
+
+Program her görsel, ses, video ya da alıntının lisans durumunun kontrol edilmesini istiyor; Creative Commons, kamu malı ve ticari kullanım izni gibi lisans türleri tanıtılıyor, kaynak göstermenin önemi vurgulanıyor. Yapay zekâ ile üretilen içeriklerin de lisans durumunun kontrol edilmesi gerektiği hatırlatılıyor.[1] Creative Commons'ın altı lisansı ve anlamları için kurumun lisans sayfası,[3] Türkçe özeti için [lisans türleri nelerdir?](https://bote.web.tr/blog/lisans-turleri-nelerdir)
+
+## Yapay zekâ destekli sunum araçları
+
+Program geleneksel sunum programlarıyla yapay zekâ destekli sunum araçlarını yan yana koyuyor: öğrenciler ikisini **arayüz yapısı, kişiselleştirme seçenekleri, üretkenliğe katkı ve öğrenme kolaylığı** açısından karşılaştırıyor. Hazırlanan örnek sunumlar üzerinden yapay zekânın sunduğu olanaklar (otomatik tasarım, içerik önerisi) ile etik riskler (özgünlük, telif hakkı, doğruluk) ve sınırlılıklar tartışılıyor.[1] Pratikte bu şu demek: yapay zekâ bir taslak tasarım önerebilir, ama slayttaki bilginin doğruluğunu kontrol etmek, kaynağı yazmak ve sunumu kendi cümleleriyle anlatmak öğrencinin işi. Yapay zekâ teması için [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari).
+
+## Dosya biçimleri: .pptx, .odp, .pdf
+
+Program farklı sunum programlarıyla oluşturulabilecek uzantıları (.pptx, .odp, .pdf) sunumun içerik türüne, paylaşım amacına, düzenleme ve sunum ihtiyacına göre tanıtıyor.[1] .odp, OASIS'in OpenDocument standardının sunum biçimi;[4] PDF ise sunumun her cihazda aynı görünmesini sağlar, ama animasyon ve geçişler PDF'te çalışmaz.[5]
+
+## Konu örnekleri ve değerlendirme
+
+Programın 5.2.7 için önerdiği sunum konuları: **dijital bağımlılık, siber zorbalık, çevre bilinci, küresel ısınma, bilişim alanında çalışan bilim insanları, teknoloji tarihi ve dijital güvenlik**. Sunumlar kontrol listeleri, öz ve akran değerlendirme formlarıyla değerlendiriliyor; öğrenciler sunumu hazırlarken yaşadıkları zorlukları ve bir sonraki çalışmayı nasıl iyileştireceklerini düşünüyor.[1] ISTE'nin "yaratıcı iletişimci" standardı da öğrencinin amacına ve dinleyicisine uygun dijital ürün üretmesini bekliyor.[6] Temaya göre içerikler programın resmî sayfasında.[7]
+
+## Sık Sorulan Sorular
+
+### Etkili sunum nasıl hazırlanır?
+
+Önce amacı ve dinleyiciyi belirleyin, her slayta tek fikir koyun, az yazı kullanın, anlatılanla ilgili görseller seçin, animasyonu azaltın ve sonuna kaynakça ekleyin.
+
+### Bir slaytta kaç satır yazı olmalı?
+
+Kesin bir kural yok; ama slayt konuşmanın yerine geçmemeli. Kısa maddeler ve okunur yazı boyutu, dinleyicinin hem dinleyip hem okuyabilmesini sağlar.
+
+### Sunum programının özellikleri nelerdir?
+
+Slayt ekleme, slayt düzeni, arka plan ve tema, metin kutusu, görsel, şekil, tablo ve grafik ekleme, geçiş ve animasyon efektleri, ses ve video ekleme, konuşmacı notları.
+
+### Sunumu hangi biçimde kaydetmeliyim?
+
+Üzerinde çalışmaya devam edecekseniz .pptx ya da .odp; sabit hâlini paylaşacaksanız .pdf. Sunumu başka bilgisayarda yapacaksanız iki biçimi de yanınızda bulundurun.
+
+### Animasyon kullanmak iyi mi?
+
+Ölçülü olmalı. Gereksiz hareket ve süsler dikkati dağıtır; araştırmalar ilgisiz ögelerin çıkarılmasının öğrenmeyi kolaylaştırdığını gösteriyor.
+
+### Sunumda görsel kullanırken neye dikkat edilir?
+
+Görselin konuyla ilgili olmasına ve lisansına. BTY programı her görsel, ses ve videonun lisans durumunun kontrol edilmesini ve kaynakça eklenmesini istiyor.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. Mayer, R. E. ve Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning. Educational Psychologist, 38(1), 43–52. https://doi.org/10.1207/S15326985EP3801_6 (EN, erişim: 2026-10-31)
+3. Creative Commons (2026). About CC Licenses. https://creativecommons.org/share-your-work/cclicenses/ (EN, erişim: 2026-10-31)
+4. OASIS (2021). Open Document Format for Office Applications (OpenDocument) Version 1.3. https://docs.oasis-open.org/office/OpenDocument/v1.3/ (EN, erişim: 2026-10-31)
+5. Library of Congress (2026). Sustainability of Digital Formats: Planning for Library of Congress Collections. https://www.loc.gov/preservation/digital/formats/ (EN, erişim: 2026-10-31)
+6. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
+
+---
+
+# Tablolama Programı Nedir? Hücre, Formül ve Grafik
+
+> Tablolama programı nedir? Hücre, satır, sütun, formül, TOPLA ve ORTALAMA, sıralama, grafik türleri; .xlsx, .ods, .csv ve BTY 6. sınıf kazanımları.
+
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-10-31 · Güncelleme: 2026-10-31 · 3 dk okuma · https://bote.web.tr/blog/tablolama-programi-nedir
+
+## Özet
+
+- **Tablolama programı**, veriyi satır ve sütunlardan oluşan hücrelerde düzenleyip hesaplayan program.
+- Arayüz: **hücre, satır, sütun, formül çubuğu, çalışma sayfası, çalışma kitabı**.
+- Temel formüller: **TOPLA, ORTALAMA, MAK, MİN**; aralık için **":"** (A1:A5), ayrı hücreler için **";"**.
+- Grafik türleri: **çubuk, pasta, çizgi**; veri türüne göre seçilir.
+- BTY 6. sınıfta 4 öğrenme çıktısı: araç seçimi, problem, veri toplama, analiz ve görselleştirme.
+
+Tablolama programı, BTY 6. sınıfta 5. sınıfın kelime işlemci ve sunumunun yerini alan ilk dijital ürün. Programın bu bölümü yalnız bir programı tanıtmıyor; öğrenciyi gerçek bir soru sorup veri toplamaya, analiz etmeye ve grafikle sunmaya götürüyor. Bu yazı tablolama programının temel kavramlarını, formülleri, grafik türlerini ve programın kazanımlarını anlatıyor.[1]
+
+## BTY programında tablolama
+
+6. sınıf Dijital Ürün Tasarım ve Geliştirme temasında tablolamaya ait dört öğrenme çıktısı var:[1]
+
+| Kazanım | İçerik |
+|---|---|
+| BTY.6.2.1 | Tablolama programlarından yararlanabilme: özellikleri tanır, uygun programı seçer, arayüzü kullanır |
+| BTY.6.2.2 | Tablolama programlarının kullanımına yönelik problemleri belirleyebilme: gerçek bir yaşam durumu ve veriyle cevaplanabilecek araştırma soruları |
+| BTY.6.2.3 | Verileri toplayabilme ve düzenleyebilme: plan yapar, veri elde eder, kullanıma hazırlar |
+| BTY.6.2.4 | Tablolama programlarıyla bulgulara ulaşabilme: analiz yöntemi seçer, veriyi işler, analiz eder, görselleştirir |
+
+Bu dört adım, Amerikan İstatistik Derneği'nin okul öncesinden liseye istatistik eğitimi kılavuzu GAISE II'deki istatistiksel problem çözme sürecine birebir benziyor: **soru oluştur, veri topla, analiz et, yorumla**.[2] 6. sınıfın tamamı için [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari).
+
+## Tablolama programı nedir?
+
+Tablolama programı, veriyi satır ve sütunlardan oluşan bir ızgarada düzenleyip hesaplayan programdır. Program örnekleri öğrencinin dünyasından seçiyor: okul kütüphanesindeki kitapların künyesi, ders programı, not hesaplama; senaryo olarak da **aylık harçlık takibi, ders çalışma çizelgesi, kitap okuma planı**.[1] Temel işlevler **veri girişi, biçimlendirme ve formül kullanımı**; öğrenciler masaüstü, çevrim içi ve yapay zekâ destekli araçları karşılaştırıp senaryoya uygun olanı gerekçesiyle seçiyor.[1]
+
+## Arayüz: hücre, satır, sütun
+
+Programda tanıtılan bileşenler: **hücre, sütun, satır, menü, araç çubuğu, formül çubuğu ve grafik alanı**; ayrıca çalışma sayfası ile kitap ilişkisi.[1]
+
+| Kavram | Anlamı |
+|---|---|
+| Sütun | Dikey; harfle adlandırılır (A, B, C...) |
+| Satır | Yatay; numarayla adlandırılır (1, 2, 3...) |
+| Hücre | Satır ile sütunun kesiştiği kutu (B3) |
+| Aralık | Birden çok hücre (B2:B6) |
+| Formül çubuğu | Hücredeki formülün göründüğü yer |
+| Çalışma sayfası | Tek bir tablo sayfası |
+| Çalışma kitabı | Birden çok sayfadan oluşan dosya |
+
+## Formüller ve ":" ile ";"
+
+Program hücre ve aralık seçimi arasındaki farkı ve **":" ile ";" operatörlerinin** kullanımını ayrıca işliyor.[1] Örnek bir not tablosunda:
+
+| Formül | Ne yapar? |
+|---|---|
+| =TOPLA(B2:B6) | B2'den B6'ya kadar bütün hücreleri toplar |
+| =TOPLA(B2;B6) | Yalnız B2 ve B6'yı toplar |
+| =ORTALAMA(B2:B6) | Aralığın ortalamasını alır |
+| =MAK(B2:B6) | En büyük değeri bulur |
+| =MİN(B2:B6) | En küçük değeri bulur |
+
+Her formül **=** ile başlar. Fonksiyon adları programın arayüz diline göre değişebilir (İngilizce arayüzde SUM, AVERAGE, MAX, MIN). Programın analiz aşamasında öğrencilerin uyguladığı yöntemler de bunlar: **ortalama, yüzdelik, en büyük/en küçük değer ve sıralama**.[1]
+
+## Veri türleri, sıralama ve biçimlendirme
+
+Program veriyi farklı yönergelerle (A'dan Z'ye, büyükten küçüğe) sıralayıp sonuçtaki değişimi tartışmayı; haftalık ders programı ya da sayısal örüntülerle sıralı dizi oluşturmayı; veriyi türüne göre **sayı, yüzde, para birimi, tarih** olarak biçimlendirmeyi öneriyor.[1] Doğru biçim, hesapların da doğru çıkmasını sağlar: tarih olarak girilmemiş bir tarih sıralanamaz.
+
+## Grafik türleri
+
+Programda çubuk, pasta ve çizgi grafik türleri tanıtılıyor; öğrenciler kendi veri setlerinden grafik üretiyor.[1]
+
+| Grafik | Ne zaman? | Örnek |
+|---|---|---|
+| Çubuk (sütun) | Kategorileri karşılaştırmak | Sınıflara göre okunan kitap sayısı |
+| Pasta | Bütünün parçaları | Harçlığın harcama türlerine dağılımı |
+| Çizgi | Zaman içindeki değişim | Haftalık egzersiz süresi |
+
+GAISE II de grafiği analizin sonu değil, veriden anlam çıkarmanın aracı olarak görüyor: grafik, sorunun cevabını yorumlamaya hizmet etmeli.[2]
+
+## Gerçek bir problemle çalışmak
+
+6.2.2 ve 6.2.3'te öğrenciler "günlük harcama planı, sınıf kitap takibi, haftalık egzersiz çizelgesi" gibi bir bağlam seçip **en az üç ölçülebilir araştırma sorusu** yazıyor; anket, gözlem ya da dijital kaynak taramasıyla veri topluyor, veriyi sınıflandırıyor ve hatalı girişleri ayıklıyor. Etkinlik boyunca kişisel bilgilerin gizliliğinin korunması hatırlatılıyor; yapay zekâ araçlarının önerileri (başlık, şablon, formül) öğrencinin kendi planıyla karşılaştırılıyor ve bu araçların veri kaynağı, güvenilirliği ve olası ön yargıları tartışılıyor.[1]
+
+## Dosya biçimleri: .xlsx, .ods, .csv
+
+Program bu üç uzantıyı boyut, yazılım uyumluluğu, görsel öge desteği ve düzenlenebilirlik farklarıyla tanıtıyor.[1] .ods OpenDocument standardının hesap tablosu biçimi;[3] **.csv** ise değerlerin virgül ya da noktalı virgülle ayrıldığı düz metin tablodur: formül, biçim ve grafik saklamaz ama hemen her programda açılır.[4] DigComp 2.2 bu beceriyi "bilgi ve veri okuryazarlığı" alanında sayıyor;[5] ISTE de öğrenciden veriyi toplayıp analiz eden ve görselleştiren bir "bilgi işlemsel düşünür" olmasını bekliyor.[6] Temaya göre içerikler programın resmî sayfasında.[7]
+
+## Sık Sorulan Sorular
+
+### Tablolama programı nedir?
+
+Verileri satır ve sütunlardan oluşan hücrelerde düzenlemeye, formüllerle hesaplamaya, sıralamaya ve grafiğe dönüştürmeye yarayan programdır. Not hesabı, harçlık takibi ve anket sonuçları örnektir.
+
+### Hücre nedir?
+
+Bir satır ile bir sütunun kesiştiği kutudur. Sütun harfi ve satır numarasıyla adlandırılır; örneğin B3, B sütununun 3. satırıdır.
+
+### Tablolama programında formül nasıl yazılır?
+
+Formül eşittir işaretiyle başlar. Örneğin =TOPLA(B2:B6) B2 ile B6 arasındaki sayıları toplar, =ORTALAMA(B2:B6) ortalamasını alır. Fonksiyon adları programın diline göre değişebilir.
+
+### İki nokta ve noktalı virgül farkı nedir?
+
+İki nokta bir aralığı (B2:B6, yani B2den B6ya kadar bütün hücreler), noktalı virgül ayrı hücreleri (B2;B6, yalnız bu iki hücre) belirtir.
+
+### Hangi grafik türü ne zaman kullanılır?
+
+Kategorileri karşılaştırmak için çubuk, bir bütünün parçalarını göstermek için pasta, zaman içindeki değişimi göstermek için çizgi grafik.
+
+### Tablolama hangi sınıfın konusu?
+
+Maarif Modeli BTY programında 6. sınıf, Dijital Ürün Tasarım ve Geliştirme temasında BTY.6.2.1-6.2.4 kazanımlarıyla işlenir.
+
+## Kaynaklar
+
+1. Millî Eğitim Bakanlığı Talim ve Terbiye Kurulu Başkanlığı (2025). Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli 2025. https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf (TR, erişim: 2026-10-31)
+2. American Statistical Association (2020). Pre-K–12 Guidelines for Assessment and Instruction in Statistics Education II (GAISE II). https://www.amstat.org/education/guidelines-for-assessment-and-instruction-in-statistics-education-(gaise)-reports (EN, erişim: 2026-10-31)
+3. OASIS (2021). Open Document Format for Office Applications (OpenDocument) Version 1.3. https://docs.oasis-open.org/office/OpenDocument/v1.3/ (EN, erişim: 2026-10-31)
+4. Library of Congress (2026). Sustainability of Digital Formats: Planning for Library of Congress Collections. https://www.loc.gov/preservation/digital/formats/ (EN, erişim: 2026-10-31)
+5. Vuorikari, R., Kluzer, S. ve Punie, Y. (2022). DigComp 2.2: The Digital Competence Framework for Citizens. Publications Office of the European Union. https://doi.org/10.2760/115376 (EN, erişim: 2026-10-31)
+6. International Society for Technology in Education (ISTE) (2016). ISTE Standards: For Students. https://iste.org/standards/students (EN, erişim: 2026-10-31)
+7. Millî Eğitim Bakanlığı (2026). Bilişim Teknolojileri ve Yazılım Dersi (Türkiye Yüzyılı Maarif Modeli öğretim programı sayfası). https://tymm.meb.gov.tr/ogretim-programlari/bilisim-teknolojileri-ve-yazilim-dersi/6 (TR, erişim: 2026-10-31)
 
 ---
 
@@ -19097,7 +19685,7 @@ Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken 
 
 BTY, ortaokuldaki tek zorunlu bilişim dersi olarak öğrencilerin dijital dünyaya ilk sistemli girişini sağlar. Dersin başarısı, alanında yetişmiş öğretmenlere bağlıdır. Dersin temelindeki düşünme becerisini merak ediyorsanız [bilgi işlemsel düşünme nedir?](https://bote.web.tr/blog/bilgi-islemsel-dusunme-nedir) yazımızı okuyabilirsiniz.
 
-Sınıf sınıf konular için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi), [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama), [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari), [bit ve byte](https://bote.web.tr/blog/bit-byte-nedir), [bilgisayar ağları](https://bote.web.tr/blog/bilgisayar-aglari-nedir), [lisans türleri](https://bote.web.tr/blog/lisans-turleri-nelerdir), [dijital vatandaşlık](https://bote.web.tr/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
+Sınıf sınıf konular için [BTY 5. sınıf konuları](https://bote.web.tr/blog/bty-5-sinif-konulari) ve [BTY 6. sınıf konuları](https://bote.web.tr/blog/bty-6-sinif-konulari); konu anlatımları için [algoritma ve akış şeması](https://bote.web.tr/blog/algoritma-ve-akis-semasi), [blok tabanlı programlama](https://bote.web.tr/blog/blok-tabanli-programlama), [BTY yapay zekâ konuları](https://bote.web.tr/blog/bty-yapay-zeka-konulari), [bit ve byte](https://bote.web.tr/blog/bit-byte-nedir), [bilgisayar ağları](https://bote.web.tr/blog/bilgisayar-aglari-nedir), [lisans türleri](https://bote.web.tr/blog/lisans-turleri-nelerdir), [dosya uzantıları](https://bote.web.tr/blog/dosya-uzantilari-ve-klasor-yonetimi), [kelime işlemci](https://bote.web.tr/blog/kelime-islemci-programi-nedir), [sunum hazırlama](https://bote.web.tr/blog/sunum-nasil-hazirlanir), [tablolama](https://bote.web.tr/blog/tablolama-programi-nedir), [internette doğru bilgi](https://bote.web.tr/blog/internette-dogru-bilgi-nasil-bulunur), [dijital vatandaşlık](https://bote.web.tr/blog/dijital-vatandaslik-nedir) ve [siber güvenlik ve güçlü şifre](https://bote.web.tr/blog/siber-guvenlik-ve-guclu-sifre).
 
 ## Sık Sorulan Sorular
 

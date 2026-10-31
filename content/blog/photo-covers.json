@@ -5024,6 +5024,102 @@
     ]
   },
   {
+    "slug": "lisans-turleri-nelerdir",
+    "title": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
+    "alt": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "lisans-turleri-nelerdir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "lisans-turleri-nelerdir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "lisans-turleri-nelerdir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "lisans-turleri-nelerdir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
+    "slug": "bit-byte-nedir",
+    "title": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
+    "alt": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bit-byte-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "bit-byte-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "bit-byte-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "bit-byte-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
+    "slug": "bilgisayar-aglari-nedir",
+    "title": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
+    "alt": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "bilgisayar-aglari-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "bilgisayar-aglari-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "bilgisayar-aglari-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "bilgisayar-aglari-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
     "slug": "bty-5-sinif-konulari",
     "title": "BTY 5. Sınıf Konuları ve Kazanımları (2026-2027)",
     "alt": "BTY 5. Sınıf Konuları ve Kazanımları (2026-2027)",
@@ -5248,31 +5344,31 @@
     ]
   },
   {
-    "slug": "lisans-turleri-nelerdir",
-    "title": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
-    "alt": "Lisans Türleri Nelerdir? Telif Hakkı ve Creative Commons",
+    "slug": "dosya-uzantilari-ve-klasor-yonetimi",
+    "title": "Dosya Uzantıları Nelerdir? Dosya ve Klasör Yönetimi",
+    "alt": "Dosya Uzantıları Nelerdir? Dosya ve Klasör Yönetimi",
     "updated": "2026-10-30",
     "primary": {
-      "file": "lisans-turleri-nelerdir.jpg",
+      "file": "dosya-uzantilari-ve-klasor-yonetimi.jpg",
       "width": 1600,
       "height": 900,
       "bytes": 169364
     },
     "variants": [
       {
-        "file": "lisans-turleri-nelerdir-640.webp",
+        "file": "dosya-uzantilari-ve-klasor-yonetimi-640.webp",
         "width": 640,
         "height": 360,
         "bytes": 36320
       },
       {
-        "file": "lisans-turleri-nelerdir-960.webp",
+        "file": "dosya-uzantilari-ve-klasor-yonetimi-960.webp",
         "width": 960,
         "height": 540,
         "bytes": 61570
       },
       {
-        "file": "lisans-turleri-nelerdir.webp",
+        "file": "dosya-uzantilari-ve-klasor-yonetimi.webp",
         "width": 1600,
         "height": 900,
         "bytes": 115744
@@ -5280,31 +5376,31 @@
     ]
   },
   {
-    "slug": "bit-byte-nedir",
-    "title": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
-    "alt": "Bit ve Byte Nedir? Bellek Birimleri ve Donanım",
+    "slug": "kelime-islemci-programi-nedir",
+    "title": "Kelime İşlemci Programı Nedir? Özellikleri ve Kullanımı",
+    "alt": "Kelime İşlemci Programı Nedir? Özellikleri ve Kullanımı",
     "updated": "2026-10-30",
     "primary": {
-      "file": "bit-byte-nedir.jpg",
+      "file": "kelime-islemci-programi-nedir.jpg",
       "width": 1600,
       "height": 900,
       "bytes": 169364
     },
     "variants": [
       {
-        "file": "bit-byte-nedir-640.webp",
+        "file": "kelime-islemci-programi-nedir-640.webp",
         "width": 640,
         "height": 360,
         "bytes": 36320
       },
       {
-        "file": "bit-byte-nedir-960.webp",
+        "file": "kelime-islemci-programi-nedir-960.webp",
         "width": 960,
         "height": 540,
         "bytes": 61570
       },
       {
-        "file": "bit-byte-nedir.webp",
+        "file": "kelime-islemci-programi-nedir.webp",
         "width": 1600,
         "height": 900,
         "bytes": 115744
@@ -5312,31 +5408,95 @@
     ]
   },
   {
-    "slug": "bilgisayar-aglari-nedir",
-    "title": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
-    "alt": "Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı",
+    "slug": "sunum-nasil-hazirlanir",
+    "title": "Sunum Nasıl Hazırlanır? Etkili Slayt Kuralları",
+    "alt": "Sunum Nasıl Hazırlanır? Etkili Slayt Kuralları",
     "updated": "2026-10-30",
     "primary": {
-      "file": "bilgisayar-aglari-nedir.jpg",
+      "file": "sunum-nasil-hazirlanir.jpg",
       "width": 1600,
       "height": 900,
       "bytes": 169364
     },
     "variants": [
       {
-        "file": "bilgisayar-aglari-nedir-640.webp",
+        "file": "sunum-nasil-hazirlanir-640.webp",
         "width": 640,
         "height": 360,
         "bytes": 36320
       },
       {
-        "file": "bilgisayar-aglari-nedir-960.webp",
+        "file": "sunum-nasil-hazirlanir-960.webp",
         "width": 960,
         "height": 540,
         "bytes": 61570
       },
       {
-        "file": "bilgisayar-aglari-nedir.webp",
+        "file": "sunum-nasil-hazirlanir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 115744
+      }
+    ]
+  },
+  {
+    "slug": "tablolama-programi-nedir",
+    "title": "Tablolama Programı Nedir? Hücre, Formül ve Grafik",
+    "alt": "Tablolama Programı Nedir? Hücre, Formül ve Grafik",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "tablolama-programi-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 184842
+    },
+    "variants": [
+      {
+        "file": "tablolama-programi-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 39890
+      },
+      {
+        "file": "tablolama-programi-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 68538
+      },
+      {
+        "file": "tablolama-programi-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 128132
+      }
+    ]
+  },
+  {
+    "slug": "internette-dogru-bilgi-nasil-bulunur",
+    "title": "İnternette Doğru Bilgi Nasıl Bulunur? Yatay Okuma",
+    "alt": "İnternette Doğru Bilgi Nasıl Bulunur? Yatay Okuma",
+    "updated": "2026-10-30",
+    "primary": {
+      "file": "internette-dogru-bilgi-nasil-bulunur.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 169364
+    },
+    "variants": [
+      {
+        "file": "internette-dogru-bilgi-nasil-bulunur-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36320
+      },
+      {
+        "file": "internette-dogru-bilgi-nasil-bulunur-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 61570
+      },
+      {
+        "file": "internette-dogru-bilgi-nasil-bulunur.webp",
         "width": 1600,
         "height": 900,
         "bytes": 115744
