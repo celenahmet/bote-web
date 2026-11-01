@@ -74,6 +74,8 @@ BTY, ezbere dayalı bir ders olarak tasarlanmamıştır. Program öğrencinin **
 
 Bu akış, dersin yalnızca bir araç kullanımı eğitimi olmadığını, aynı zamanda planlama ve iş birliği becerisi kazandırmayı hedeflediğini gösterir. Bilgisayarsız, blok tabanlı ve robotik kodlamanın etkileri üzerine araştırmalar için [Kodlama eğitimi nedir?](https://bote.web.tr/blog/kodlama-egitimi-nedir) yazısına bakabilirsiniz.
 
+Derste Arduino ve breadboard ile çalışmaya hazırlanan öğretmenler için [3D Simülasyon Merkezi'ndeki dersler](https://bote.web.tr/3d) Arduino kartını, devreyi ve kodu adım adım üç boyutlu gösterir; anlatım 5-8. sınıf düzeyine göre değişir.
+
 ## Etik ve güvenlik neden bu derste?
 
 Ortaokul çağındaki öğrenciler sosyal medya ve çevrim içi oyunlarla erken yaşta tanışıyor. Bu nedenle dersin güvenlik boyutu en az programlama kadar önemlidir. Avrupa Birliği'nin vatandaşlar için dijital yetkinlik çerçevesi DigComp 2.2, güvenliği ayrı bir yetkinlik alanı olarak tanımlar: cihazları korumak, kişisel verileri ve mahremiyeti korumak, sağlığı ve iyi oluşu korumak ve çevreyi korumak.[9] BTY'deki etik ve güvenlik konuları bu yaklaşımla örtüşür. Öğrencinin güçlü bir parola oluşturmayı, kişisel bilgilerini paylaşmadan önce düşünmeyi ve ekran süresini dengelemeyi öğrenmesi, ileride kazanacağı teknik becerilerin de zeminini oluşturur.

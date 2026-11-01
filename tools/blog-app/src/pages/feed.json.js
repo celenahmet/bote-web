@@ -1,9 +1,11 @@
 import { loadBlog, isoDate } from '../lib.js';
+import { yeniSekmeNotunuCikar } from '../../../blog/simulasyon.mjs';
 
 export function GET() {
   const blog = loadBlog();
   const { SITE, abs, cfg, author } = blog;
-  const absHtml = (h) => h.replace(/(href|src)="\//g, `$1="${SITE}/`);
+  // 3D merkez bağlantılarındaki yeni sekme notu yalnız sayfada anlamlı (besleme okuyucusunda .sr-only yok).
+  const absHtml = (h) => yeniSekmeNotunuCikar(h).replace(/(href|src)="\//g, `$1="${SITE}/`);
   const feed = {
     version: 'https://jsonfeed.org/version/1.1', title: cfg.title, home_page_url: `${SITE}/blog`, feed_url: `${SITE}/blog/feed.json`,
     description: cfg.description.trim(), language: 'tr-TR', authors: [{ name: author.name, url: abs(author.url) }],

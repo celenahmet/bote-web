@@ -51,7 +51,8 @@ const STORES = {
         ) : <span class="promo-wordmark">{h.id === 'uniconnectly' ? <>Uni<b>Connectly</b></> : h.brand}</span>}
       </a>
       <p class="promo-text">{h.text}</p>
-      <a class="promo-cta" href={promoUrl(h.url)} rel="sponsored noopener" target="_blank">{h.cta}</a>
+      {/* ctaIcon (blog.yml, 01.11): düğmede lucide simgesi; renk ve gradyan değişmedi. */}
+      <a class="promo-cta" href={promoUrl(h.url)} rel="sponsored noopener" target="_blank">{h.ctaIcon && <Icon name={h.ctaIcon} size={18} />}{h.cta}</a>
       {h.stores?.length > 0 && (
         <div class="promo-stores">
           {h.stores.filter((st) => STORES[st.id]).map((st) => (

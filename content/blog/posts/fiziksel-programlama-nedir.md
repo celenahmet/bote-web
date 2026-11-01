@@ -5,6 +5,7 @@ description: "Fiziksel programlama nedir? BÖTE'deki Fiziksel Programlama dersin
 imageAlt: "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi"
 date: 2026-10-04
 category: bolum-rehberi
+simulasyon: merkez
 type: rehber
 tags: [fiziksel programlama, fiziksel programlama nedir, BTE401, BÖTE dersleri, robotik, eğitsel robotlar, arduino, sensör, motor, robot programlama, tinkercad, physical computing]
 summary:
@@ -235,6 +236,8 @@ Fiziksel Programlama, programın dört yıl boyunca kurduğu iki hattın buluşt
 Koşul ve döngü bilmeyen bir öğrenci robotu programlayamaz; direnç ve diyot bilmeyen bir öğrenci de devreyi kuramaz. Devre konularının özeti için [Elektronik Devre Elemanları dersi](/blog/elektronik-devre-elemanlari) rehberine bakabilirsiniz.
 
 **Öğretmenlik açısından.** Fiziksel programlama, BÖTE mezununun okulda doğrudan kullanacağı bir beceridir. MEB'in Türkiye Yüzyılı Maarif Modeli kapsamında 2025'te yayımladığı Bilişim Teknolojileri ve Yazılım öğretim programı (5. ve 6. sınıflar), robot kitlerini öğretim materyalleri arasında sayar ve kodlama ve robotik laboratuvarları gibi ortamların öğrenme sürecine katılmasını ister.[@meb-bty2025] Programın 6. sınıftaki Yazılım Tasarımı ve Programlama teması, yazılım geliştirme sürecinde mekanik ya da robotik bir ürün veya sistem ortaya koymayı alan becerileri arasında sayar. Önerilen bir etkinlikte öğretmen, blok tabanlı ortamda hazırlanan bir görüntü tanıma uygulamasının bir robotik kartla bağlanıp fiziksel bir çıktı vermesini gösterir: tanınan nesneye göre bir LED'in yanması ya da bir servo motorun hareket etmesi. Ardından öğrenciler kendi projelerini robotik kartla bütünleştirir.[@meb-bty2025] Dersin okuldaki yeri için [Bilişim Teknolojileri ve Yazılım dersi](/blog/bilisim-teknolojileri-ve-yazilim-dersi) yazısına bakabilirsiniz.
+
+Arduino'yu ve breadboard'u ortaokul sınıfında üç boyutlu tanıtmak isteyen öğretmenler ve öğretmen adayları [3D Simülasyon Merkezi'ndeki dersleri](/3d) akıllı tahtada, tablette ya da telefonda açabilir; anlatım 5-8. sınıf düzeyine göre değişir.
 
 ## Haftalık konu sırası
 

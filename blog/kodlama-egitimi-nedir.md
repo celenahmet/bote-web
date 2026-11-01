@@ -110,6 +110,8 @@ Kanıtlar ve eleştiriler birlikte okunduğunda kodlama eğitimi için birkaç i
 
 Derslerde oyun öğelerinin kullanımı için [oyunlaştırma nedir?](https://bote.web.tr/blog/oyunlastirma-nedir) yazısına bakabilirsiniz.
 
+Kodlamayı fiziksel bir devreyle somutlaştırmak isteyen öğretmenler, ilk Arduino devresini [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](https://bote.web.tr/3d/arduino-led-yakma) sınıfla birlikte üç boyutlu kurabilir; anlatım 5-8. sınıf düzeyine göre değişir.
+
 ## Sonuç
 
 Kodlama eğitimi, öğrencilere bir problemi parçalara ayırmayı, çözümü komutlarla ifade etmeyi ve dijital dünyada tüketici değil üretici olmayı öğretir.[3][5] Araştırmalar programlama öğrenmenin yaratıcı düşünme, matematik ve üst biliş gibi alanlara orta düzeyde aktarıldığını, görselleştirme ve fiziksel araçlarla öğretimin etkili olduğunu gösterir.[1][9] Ancak etkilerin karşılaştırma koşullarına göre değişmesi, olası yayın yanlılığı, okul başarısına katkının sınırlı olması ve Türkiye'deki okullarda altyapı ile öğretmen hazırlığı sorunları, kodlamayı her derde deva gibi sunan iddialara karşı temkinli olmayı gerektirir.[1][11] Kodlama eğitiminin değeri, doğru beklentiyle ve iyi hazırlanmış öğretmenlerle yapıldığında ortaya çıkar.

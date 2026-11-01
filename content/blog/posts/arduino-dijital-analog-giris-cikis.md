@@ -5,6 +5,7 @@ description: "Arduino UNO'da dijital çıkış, PWM ile analog çıkış, butonl
 imageAlt: "Arduino Dijital ve Analog Giriş Çıkış: PWM ve analogRead"
 date: 2026-10-04
 category: bolum-rehberi
+simulasyon: arduino-buton-led
 type: rehber
 tags: [arduino, dijital giriş, dijital çıkış, analog giriş, analog çıkış, pwm, digitalwrite, analogwrite, analogread, digitalread, pinmode, seri monitör, fiziksel programlama]
 summary:
@@ -298,6 +299,8 @@ void loop() {
 ## Tinkercad'de denemek
 
 Devreyi kablolamadan önce Autodesk'in Tinkercad Circuits ortamında kurmak mümkündür: etkileşimli devre düzenleyicide sanal devre kurulur, bağlanır ve Arduino kodu yazılır; simülasyon başlatıldığında bileşenlerin nasıl tepki verdiği izlenir.[@tinkercad] LED'in ters takılması ya da direncin unutulması gibi hatalar böylece gerçek bileşen bozulmadan görülebilir.
+
+Butona basınca yanan LED devresini 10 kΩ indirme direnciyle birlikte üç boyutlu ve adım adım kurmak için [3D Simülasyon Merkezi'ndeki Butonla LED Yakalım dersine](/3d/arduino-buton-led) bakabilirsiniz; ders ortaokul düzeyinde anlatılır.
 
 ## Öğrencilerin sık yaptığı hatalar
 

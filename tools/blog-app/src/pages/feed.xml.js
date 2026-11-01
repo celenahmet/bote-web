@@ -1,10 +1,12 @@
 import { loadBlog } from '../lib.js';
 import { xmlEsc } from '../../../blog/util.mjs';
+import { yeniSekmeNotunuCikar } from '../../../blog/simulasyon.mjs';
 
 export function GET() {
   const blog = loadBlog();
   const { SITE, abs, cfg, author, newest } = blog;
-  const absHtml = (h) => h.replace(/(href|src)="\//g, `$1="${SITE}/`);
+  // 3D merkez bağlantılarındaki yeni sekme notu yalnız sayfada anlamlı (besleme okuyucusunda .sr-only yok).
+  const absHtml = (h) => yeniSekmeNotunuCikar(h).replace(/(href|src)="\//g, `$1="${SITE}/`);
   const rfc822 = (d) => new Date(`${d}T06:00:00Z`).toUTCString();
   const items = blog.posts.slice(0, 20).map((p) => `<item>
 <title>${xmlEsc(p.title)}</title>

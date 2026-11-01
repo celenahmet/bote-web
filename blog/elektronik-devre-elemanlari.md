@@ -12,7 +12,7 @@ description: "Elektronik Devre Elemanları dersinin bütün konuları: direnç, 
 
 > Elektronik Devre Elemanları dersinin bütün konuları: direnç, kondansatör, diyot, Ohm ve Kirchhoff yasaları, sayı sistemleri, mantık kapıları ve Boole cebiri.
 
-Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-28 · Güncelleme: 2026-09-28 · 10 dk okuma · https://bote.web.tr/blog/elektronik-devre-elemanlari
+Yazan: BÖTE Editör Ekibi · Yayın: 2026-09-28 · Güncelleme: 2026-09-28 · 11 dk okuma · https://bote.web.tr/blog/elektronik-devre-elemanlari
 
 ## Özet
 
@@ -52,6 +52,8 @@ Bu izlencede yarıyıl içi çalışmaların ağırlığı yüzde 50'dir: ara s�
 Elektronik Devre Elemanları kendi başına bitmeyen bir derstir; programın sonraki derslerine zemin hazırlar. YÖK programındaki **Bilişim Sistemleri Donanımı** dersi bilgisayar mantığı ve mimarisini, ROM, RAM ve önbellek gibi bellek türlerini işler. Dördüncü sınıftaki [Fiziksel Programlama](https://bote.web.tr/blog/fiziksel-programlama-nedir) dersi ise robotların mekanik, elektromekanik ve elektronik bileşenlerini kapsar.[1] Birinci yıldaki mantık kapıları olmadan bellek devreleri, direnç ve diyot bilgisi olmadan da bir robot kitindeki devre anlaşılmaz.
 
 Bu bağ, bilişim teknolojileri öğretmeni için doğrudan meslek bilgisidir. Okullarda bilişim ve yazılım derslerini veren öğretmen, öğrencilerine bilgisayarın ve robotik kitlerin nasıl çalıştığını anlatırken bu dersteki kavramları kullanır. Dersin öğretmenlik açısından okulda nereye oturduğu için [Bilişim Teknolojileri ve Yazılım dersi](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi) yazısına bakabilirsiniz.
+
+Direnç ve LED'in ortaokulda nasıl anlatılabileceğine bir örnek [3D Simülasyon Merkezi'ndeki LED Yakalım dersidir](https://bote.web.tr/3d/arduino-led-yakma): devre breadboard üzerinde üç boyutlu kurulur, 8. sınıf anlatımında LED'in akımı Ohm yasasıyla hesaplanır.
 
 ## Haftalık konu sırası
 

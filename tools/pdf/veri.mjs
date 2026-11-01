@@ -16,6 +16,7 @@ import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { loadBlog, ROOT, sourceLine } from '../blog/content.mjs';
+import { yeniSekmeNotunuCikar } from '../blog/simulasyon.mjs';
 
 export { ROOT };
 export const ALAN = 'https://bote.web.tr';
@@ -94,7 +95,8 @@ export function yazilar(kayit = oku()) {
 
 /** PDF'e giren govde: yazi HTML'i (atif numaralari dahil), ozet, SSS, kaynakca. */
 export function govde(p) {
-  const ic = p.html.replace(/href="\/(?!\/)/g, `href="${ALAN}/`);
+  // 3D merkez bağlantılarındaki yeni sekme notu (ekran okuyucu için) PDF'te anlamsız; çıkarılır.
+  const ic = yeniSekmeNotunuCikar(p.html).replace(/href="\/(?!\/)/g, `href="${ALAN}/`);
   return ic;
 }
 export function kaynakca(p) {

@@ -12,6 +12,7 @@ import { loadBlog, postMarkdown, ROOT, COVER_DIR } from './blog/content.mjs';
 import { UNIVERSITIES } from './blog/site-nav.mjs';
 import YAML from 'yaml';
 import { renderMarkdown } from './blog/markdown.mjs';
+import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU_HTML, YENI_SEKME_NOTU_EN_HTML } from './blog/simulasyon.mjs';
 import { makeCovers } from './blog/covers.mjs';
 import { esc, xmlEsc } from './blog/util.mjs';
 
@@ -172,7 +173,19 @@ ${urls.map((u) => `  <url><loc>${xmlEsc(u.loc)}</loc>${u.lastmod ? `<lastmod>${u
 `);
 
 const live = posts.filter((p) => !p.draft);
-const trPages = legacy.filter((l) => !l.served.startsWith('/en')).sort((a, b) => a.served.localeCompare(b.served));
+// 3D Simulasyon Merkezi (/3d, 01.11.2026 yayinda): sayfalari tools/3d/build.mjs uretir (3d/index.html ve
+// 3d/<ders>.html). Yukaridaki kok sayfa taramasi bunlari da okur; noindex olan (ONIZLEME=true) alinmaz.
+// sitemap.xml'e oteki kok sayfalar gibi girer; llms.txt ve HTML site haritalarinda kendi bolumunde,
+// merkez basta, dersler merkez sayfasindaki sirayla.
+const is3d = (l) => l.served === '/3d' || l.served.startsWith('/3d/');
+const simSira = (() => {
+  const f = path.join(ROOT, '3d/index.html');
+  return fs.existsSync(f) ? [...fs.readFileSync(f, 'utf8').matchAll(/href="(\/3d\/[a-z0-9-]+)"/g)].map((m) => m[1]) : [];
+})();
+const simRank = (l) => (l.served === '/3d' ? -1 : simSira.includes(l.served) ? simSira.indexOf(l.served) : simSira.length);
+const simPages = legacy.filter(is3d).sort((a, b) => simRank(a) - simRank(b) || a.served.localeCompare(b.served));
+const simAd = (t) => t.replace(/\s*\|\s*bote\.web\.tr\s*$/i, '').trim();
+const trPages = legacy.filter((l) => !l.served.startsWith('/en') && !is3d(l)).sort((a, b) => a.served.localeCompare(b.served));
 const enPages = legacy.filter((l) => l.served.startsWith('/en')).sort((a, b) => a.served.localeCompare(b.served));
 const line = (l) => `- [${l.title}](${l.canonical})${l.description ? `: ${l.description}` : ''}`;
 out.set('llms.txt', `# BÖTE — Bilgisayar ve Öğretim Teknolojileri Eğitimi
@@ -192,7 +205,13 @@ ${live.map((p) => `- [${p.title}](${abs(p.url)}.md): ${p.description} (${p.categ
 ## Bölüm sayfaları
 
 ${trPages.map(line).join('\n')}
+${simPages.length ? `
+## 3D Simülasyon Merkezi
 
+Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino UNO ve breadboard'u üç boyutlu anlatan etkileşimli dersler. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
+
+${simPages.map((l) => line({ ...l, title: simAd(l.title) })).join('\n')}
+` : ''}
 ## English pages
 
 ${enPages.map(line).join('\n')}
@@ -211,13 +230,15 @@ ${live.map((p) => postMarkdown(blog, p, false)).join('\n---\n\n') || 'Henüz yay
 
 // HTML site haritalari (site-map, en/site-map): isaretler arasi her derlemede yenilenir.
 {
-  const li = (href, text, extra = '') => `<li><a href="${href}"${extra}>${esc(text)}</a></li>`;
+  const li = (href, text, extra = '', note = '') => `<li><a href="${href}"${extra}>${esc(text)}${note}</a></li>`;
   const clean = (t) => t.replace(/\s*[|:–-]\s*(BÖTE|CEIT)( Blog)?\s*$/i, '').replace(/^(BÖTE|CEIT)\s*[-:]\s*/i, '').trim();
   const group = (title, items) => (items.length ? `<h2>${esc(title)}</h2>\n<ul class="site-map-list">\n${items.join('\n')}\n</ul>` : '');
   const trHtml = [
     group('Bölüm sayfaları', trPages.map((l) => li(l.served, clean(l.title)))),
     group('Blog', [li('/blog', 'BÖTE Blog'), ...categories.filter((c) => c.count).map((c) => li(c.url, `Kategori: ${c.name}`)),
       ...live.map((p) => li(p.url, p.title)), li(author.url, `${author.name} ve Yayın İlkeleri`)]),
+    // 3D Simülasyon Merkezi yeni sekmede açılır (Ahmet 01.11), ekran okuyucuya görünmez not (simulasyon.mjs).
+    group('3D Simülasyon Merkezi', simPages.map((l) => li(l.served, simAd(l.title), YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU_HTML))),
     group('Üniversitelerin BÖTE bölümleri', UNIVERSITIES.map(([n, h]) => li(h, n, ' target="_blank" rel="noopener"'))),
     group('English pages', enPages.map((l) => li(l.served, clean(l.title), ' hreflang="en" lang="en"'))),
   ].join('\n');
@@ -225,7 +246,8 @@ ${live.map((p) => postMarkdown(blog, p, false)).join('\n---\n\n') || 'Henüz yay
     group('English pages', enPages.map((l) => li(l.served, clean(l.title)))),
     group('Universities (CEIT departments)', UNIVERSITIES.map(([n, h]) => li(`/en${h}`, n, ' target="_blank" rel="noopener"'))),
     group('Turkish pages and blog', [li('/blog', 'BÖTE Blog (Turkish)', ' hreflang="tr" lang="tr"'),
-      ...trPages.map((l) => li(l.served, clean(l.title), ' hreflang="tr" lang="tr"'))]),
+      ...trPages.map((l) => li(l.served, clean(l.title), ' hreflang="tr" lang="tr"')),
+      ...simPages.map((l) => li(l.served, simAd(l.title), ` hreflang="tr" lang="tr"${YENI_SEKME_OZNITELIK}`, YENI_SEKME_NOTU_EN_HTML))]),
   ].join('\n');
   for (const [file, body] of [['site-map/index.html', trHtml], ['en/site-map/index.html', enHtml]]) {
     const cur = fs.readFileSync(path.join(ROOT, file), 'utf8');

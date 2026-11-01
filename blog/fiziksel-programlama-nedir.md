@@ -66,6 +66,8 @@ Koşul ve döngü bilmeyen bir öğrenci robotu programlayamaz; direnç ve diyot
 
 **Öğretmenlik açısından.** Fiziksel programlama, BÖTE mezununun okulda doğrudan kullanacağı bir beceridir. MEB'in Türkiye Yüzyılı Maarif Modeli kapsamında 2025'te yayımladığı Bilişim Teknolojileri ve Yazılım öğretim programı (5. ve 6. sınıflar), robot kitlerini öğretim materyalleri arasında sayar ve kodlama ve robotik laboratuvarları gibi ortamların öğrenme sürecine katılmasını ister.[7] Programın 6. sınıftaki Yazılım Tasarımı ve Programlama teması, yazılım geliştirme sürecinde mekanik ya da robotik bir ürün veya sistem ortaya koymayı alan becerileri arasında sayar. Önerilen bir etkinlikte öğretmen, blok tabanlı ortamda hazırlanan bir görüntü tanıma uygulamasının bir robotik kartla bağlanıp fiziksel bir çıktı vermesini gösterir: tanınan nesneye göre bir LED'in yanması ya da bir servo motorun hareket etmesi. Ardından öğrenciler kendi projelerini robotik kartla bütünleştirir.[7] Dersin okuldaki yeri için [Bilişim Teknolojileri ve Yazılım dersi](https://bote.web.tr/blog/bilisim-teknolojileri-ve-yazilim-dersi) yazısına bakabilirsiniz.
 
+Arduino'yu ve breadboard'u ortaokul sınıfında üç boyutlu tanıtmak isteyen öğretmenler ve öğretmen adayları [3D Simülasyon Merkezi'ndeki dersleri](https://bote.web.tr/3d) akıllı tahtada, tablette ya da telefonda açabilir; anlatım 5-8. sınıf düzeyine göre değişir.
+
 ## Haftalık konu sırası
 
 Hacettepe Üniversitesi'nin izlencesi 16 haftalık dönemi şöyle planlar:[5]

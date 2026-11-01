@@ -4,6 +4,7 @@ description: "Blok tabanlı programlama nedir, neden kullanılır? Sürükle-bı
 imageAlt: "Blok Tabanlı Programlama Nedir? BTY 5 ve 6. Sınıf"
 date: 2026-10-31
 category: egitim-teknolojileri
+simulasyon: arduino-led-yakma
 type: rehber
 tags: [blok tabanlı programlama, blok tabanlı kodlama, Scratch, BTY programlama, BTY 6. sınıf]
 summary:
@@ -175,5 +176,7 @@ Programlama öğreniminin genel etkisine bakan meta-analiz, programlama öğrene
 - **Blok, son durak değil.** Weintrop ve Wilensky'nin bulgusu, öğrencilerin bir noktada metin tabanlı dile geçmek isteyeceğini gösteriyor; blok ortamında kurulan döngü, koşul ve değişken kavramları bu geçişin temeli.[@weintrop2015]
 - **Önce kâğıt.** Program tasarımın önce kâğıt üzerinde çizilmesini ve teknolojik altyapı yoksa etkinliklerin kâğıt üzerinde yapılmasını öneriyor.[@bty-program]
 - **Hata, sürecin parçası.** Test etme ve hata ayıklama ayrı bir öğrenme çıktısı; çalışmayan bir program öğrenmenin kendisi.[@bty-program]
+
+Bloklardan metin tabanlı koda geçişe bir örnek olarak [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino-led-yakma) kısa bir Arduino kodu, her satırın altındaki Türkçe açıklamasıyla okunur ve devrede çalıştırılır.
 
 Temaya göre içerikler programın resmî sayfasında yayımlanıyor.[@tymm-bty] 6. sınıfın tamamı için [BTY 6. sınıf konuları](/blog/bty-6-sinif-konulari).

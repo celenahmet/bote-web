@@ -31,7 +31,7 @@ const ext = { target: '_blank', rel: 'sponsored noopener' };
   <div class="promo-stores">
     {(house.stores || []).filter((s) => stores[s.id]).map((s) => <a class="store" href={promoUrl(s.url)} {...ext} aria-label={`UniConnectly: ${stores[s.id].label}`}><img src={`/blog/ads/${stores[s.id].image}`} alt={stores[s.id].label} width={stores[s.id].width} height="80" /></a>)}
   </div>
-  <a class="uc-btn uc-primary" href={promoUrl(house.url)} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
+  <a class="uc-btn uc-primary" href={promoUrl(house.url)} {...ext}><Icon name="compass" size={17} />UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
 </dialog>}
 <script>
   const dialog = document.querySelector<HTMLDialogElement>('.entry-promo');

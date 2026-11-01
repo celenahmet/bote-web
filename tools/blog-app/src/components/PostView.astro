@@ -12,6 +12,7 @@ import { GOOGLE_HABERLER_ADRESI, GOOGLE_TERCIH_ADRESI } from '../paylasim.js';
 import { markaSvg } from '../markaSimgeleri.js';
 import CitationPeek from '../islands/CitationPeek.jsx';
 import AgsSayacKarti from './AgsSayacKarti.astro';
+import SimulasyonKarti from './SimulasyonKarti.astro';
 import { loadBlog, orgLd, teamLd, breadcrumbLd, trDate, isoDate, icon } from '../lib.js';
 import { renderInline } from '../../../blog/markdown.mjs';
 import { stripHtml } from '../../../blog/util.mjs';
@@ -112,6 +113,8 @@ const ld = { '@context': 'https://schema.org', '@graph': [
           {/* AI ile Özetle (Ahmet 29.10): taslakta yok, çünkü yayında olmayan adres özetlenemez. */}
           {!preview && !post.draft && <YzOzetle url={url} title={post.title} />}
         </div>
+        {/* 3D Simülasyon kartı (Ahmet 01.11): AI ile Özetle'nin hemen altında, yalnız `simulasyon` alanı olan yazılarda. */}
+        {post.simulasyon && <SimulasyonKarti deger={post.simulasyon} />}
       </div>
       <div class="prose">
         {post.draft && <p class="draft-banner">TASLAK · editör onayı bekliyor. Bu önizleme arama motorlarına kapalıdır ve siteden bağlantı almaz.</p>}

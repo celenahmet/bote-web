@@ -529,20 +529,27 @@ p{margin:0}
 .page-prose ul{padding-left:1.2em}
 
 /* alt bilgi */
+/* Dengeli alt bilgi (Ahmet 01.11): tanitim + dort baglanti sutunu (Bolum 8, Blog 8, Kesfet 6,
+   Makineler icin 5 + not). Genis ekranda bes esit aralikli sutun; 900-1199 px'te tanitim ustte, dort
+   sutun altta; telefonda tanitim ustte, baglantilar iki sutunda (tek sutunda alt bilgi cok uzuyordu). */
 .foot{border-top:1px solid var(--line);padding-block:56px 32px;font:400 15px/1.65 var(--display);color:var(--ink-2)}
-.foot-grid{display:grid;gap:36px 32px;grid-template-columns:minmax(0,1fr)}
-@media (min-width:640px){.foot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media (min-width:1100px){.foot-grid{grid-template-columns:1.35fr 1fr 1.15fr 1fr;gap:48px}}
+.foot-grid{display:grid;gap:36px 24px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.foot-about{grid-column:1/-1}
+@media (min-width:900px){.foot-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:40px 32px}}
+@media (min-width:1200px){.foot-grid{grid-template-columns:minmax(0,1.2fr) repeat(4,minmax(0,1fr));gap:40px}.foot-about{grid-column:auto}}
 /* sol sutun: marka + kisa tanitim; metin genisligi sinirli ki blok diger sutunlarla dengeli dursun */
 .foot-brand{display:inline-block;font:800 21px/1 var(--display);letter-spacing:-.02em;color:var(--ink)!important;margin-bottom:14px}
 .foot-brand b{color:var(--pink);font-weight:800}
 .foot-about p{margin:0;max-width:36ch;color:var(--muted);font-size:14.5px;line-height:1.7}
+@media (min-width:640px) and (max-width:1199px){.foot-about p{max-width:62ch}}
 .foot h2{font:650 14px/1.2 var(--display);letter-spacing:-.005em;color:var(--ink);margin:4px 0 16px}
 .foot-note{font-size:13px;line-height:1.55;color:var(--muted);margin:-6px 0 14px;max-width:32ch}
 .foot ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px;font-size:14.5px}
 .foot a{color:var(--ink-2);text-decoration:none}
 .foot a:hover{color:var(--pink)}
 .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font:500 13.5px var(--display);color:var(--muted)}
+/* telefon: dokunma hedefi en az 44 px (baglanti satiri yuksekligi), aralik satirin icinde */
+@media (max-width:640px){.foot{padding-block:44px 24px}.foot-grid{row-gap:28px}.foot h2{margin-bottom:6px}.foot-note{margin:0 0 6px}.foot ul{gap:0}.foot ul a{display:flex;align-items:center;min-height:44px;padding-block:5px}.foot-bottom{margin-top:24px}.foot-bottom a{display:inline-flex;align-items:center;min-height:44px}}
 
 @media (prefers-reduced-motion:reduce){@view-transition{navigation:none}*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 @media print{.topbar,.chipbar,.band,.foot,.share,.related,.sidebar,.toc-card,.ad,.promo,.uc,.bib-settings{display:none!important}.post-layout{display:block}}
@@ -1026,6 +1033,7 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .sidebar-uc p{font-size:12px;line-height:1.6;color:var(--muted);margin:4px 0 0}
 .sidebar-uc-cta{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:44px;padding:10px 14px;background:var(--violet);color:#fff;border-radius:10px;text-decoration:none;font-size:13px;font-weight:650}
 .sidebar-uc-cta:hover{background:var(--pink);color:#fff}
+.sidebar-uc-cta-sol{display:inline-flex;align-items:center;gap:8px}
 @media(min-width:1080px) and (min-height:780px){.sidebar-reading{position:sticky;top:calc(var(--top) + 20px)}.sidebar-post .sidebar-reading .side-toc ol{max-height:calc(100dvh - var(--top) - 510px)}}
 @media(max-width:1079px){.sidebar-post .sidebar-reading{display:none}}
 .sidebar-uc-logo .lg-dark{display:none}
@@ -1068,6 +1076,8 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 @media(min-width:1000px){.feed .card-body{padding:22px 24px 24px}.feed .card-title{font-size:22px;line-height:1.35}.feed .card .dek{font-size:15.5px}}
 
 @media(min-width:1000px) and (max-width:1279px){.topbar-in{gap:10px;padding-inline:16px}.topnav{gap:0}.topnav a{padding-inline:6px;font-size:10px}.top-actions{padding-left:6px}.brand-mark{font-size:20px}}
+/* "Simulasyon" ust menude 1100 px ve uzerinde (01.11, olculdu); 1000-1099 px'te sigmiyor, orada yalniz Menu'de. */
+@media(min-width:1000px) and (max-width:1099px){.topnav .nav-3d{display:none}}
 .header-menu-label{display:none}
 @media(max-width:999px){.header-menu summary{width:auto;gap:6px;padding-inline:10px}.header-menu-label{display:inline;font-size:12px;font-weight:600}}
 /* AGS rozeti telefonda yer kapliyor: dar ekranda menu yalniz simge (30.10; bu kuraldan SONRA olmali). */
@@ -1122,6 +1132,19 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .google-tercih-simge{display:inline-grid;place-items:center;width:30px;height:30px;flex-shrink:0}
 .google-tercih-simge svg{width:30px;height:30px}
 @media (max-width:640px){.byline .yz-ozet{margin-left:0}.yz-menu{left:0;right:auto}.google-tercih{width:auto}}
+/* 3D Simulasyon karti (Ahmet 01.11): AI ile Ozetle'nin altinda, yalniz `simulasyon` alanli yazilarda.
+   Duz mor simge kutusu + tek cumle + tek dugme; gradyan, yildiz ve parilti yok. */
+.sim3d{display:flex;align-items:center;gap:16px;padding:16px 18px;border:1px solid color-mix(in srgb,var(--violet) 28%,var(--line));border-radius:16px;background:var(--violet-soft)}
+.sim3d-simge{display:grid;place-items:center;flex:none;width:52px;height:52px;border-radius:14px;background:var(--violet);color:#fff}
+.sim3d-metin{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.sim3d-ust{font:700 11.5px/1.35 var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--violet)}
+.sim3d-baslik{font:750 17px/1.3 var(--display);letter-spacing:-.01em;color:var(--ink);text-wrap:balance}
+.sim3d-cumle{font:400 14.5px/1.5 var(--display);color:var(--ink-2)}
+.sim3d-dugme{display:inline-flex;align-items:center;justify-content:center;gap:8px;flex:none;min-height:44px;padding:0 18px;border-radius:999px;background:var(--violet);color:#fff;font:650 14.5px var(--display);text-decoration:none;white-space:nowrap;transition:background-color .15s ease}
+.sim3d-dugme:hover{background:var(--pink);color:#fff}
+.sim3d-dugme:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+:root[data-theme="dark"] .sim3d-simge,:root[data-theme="dark"] .sim3d-dugme,:root[data-theme="dark"] .sim3d-dugme:hover{color:#0E0A14}
+@media (max-width:640px){.sim3d{flex-wrap:wrap;align-items:flex-start;gap:12px 14px;padding:16px}.sim3d-simge{width:44px;height:44px;border-radius:12px}.sim3d-metin{flex-basis:calc(100% - 58px)}.sim3d-dugme{width:100%}}
 /* Paylaşım daireleri (29.10.2026): diğer sitelerdeki standart; markaların düz rengi, gradyan yok. */
 .bs-son .share{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
 .prose .share-label{margin:0;font:650 14px var(--display);color:var(--muted)}
