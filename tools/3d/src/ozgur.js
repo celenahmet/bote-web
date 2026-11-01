@@ -1081,6 +1081,19 @@ $('#rontgen-dugme').addEventListener('click', (e) => {
   bb.rontgen(acik); S.golgeYenile();
   duyur(acik ? 'Röntgen açık: breadboard\'un içindeki metal şeritler görünüyor' : 'Röntgen kapalı');
 });
+// Sahne üstü bant: yönerge, seçim kartı ya da seçici açıkken kısa ekranda durum hapı çekilir, seçici açıkken bant alttaki
+// sayfanın üstüne çıkar (ozgur.css). Katmanların hidden özniteliği değişince sınıflar tek yerden işaretlenir.
+const bantEl = $('.ust-bant');
+function bantDurumu() {
+  const ac = (id) => { const e = $(id); return Boolean(e) && !e.hidden; };
+  bantEl.classList.toggle('dolu', ac('#yonerge') || ac('#secim-kart') || ac('#secici'));
+  bantEl.classList.toggle('secici-acik', ac('#secici'));
+}
+if (bantEl && 'MutationObserver' in window) {
+  const gozcu = new MutationObserver(bantDurumu);
+  for (const id of ['#yonerge', '#secim-kart', '#secici']) { const e = $(id); if (e) gozcu.observe(e, { attributes: true, attributeFilter: ['hidden'] }); }
+  bantDurumu();
+}
 // Sahne daralınca (yatay telefon, yan panel açık) alt araç çubuğu sığmazsa kısalır: bakış düğmeleri kısa adla,
 // Röntgen yalnız ikonla (adı aria-label'da). Sahne genişliği panele ve ayarlara bağlı olduğu için ölçülerek karar verilir.
 function aracSigdir() {

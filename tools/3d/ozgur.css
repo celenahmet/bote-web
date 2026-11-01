@@ -187,3 +187,21 @@ html[data-mod=tahta] .secici-izgara button{min-height:var(--btn)}
 .sahne-alani.dar .gorunum .kisa{display:inline}
 .sahne-alani.dar .arac-dugme .arac-yazi{display:none}
 .sahne-alani.dar .arac-dugme{padding:0 12px}
+
+/* Yatay telefon ve kısa ekran (Ahmet: "telefonda 13a ucu"): dikey telefonda çalışan akış yatayda tıkanıyordu; yönerge, durum hapı ve
+   seçici tahtanın üstünü kapatıp dokunmayı yutuyor, alttaki sayfa da seçiciyi ve seçim kartını örtüyordu.
+   1) Yönerge yazısına dokunma altındaki deliğe geçer; yalnız Vazgeç düğmesi dokunmayı tutar.
+   2) Kısa ekranda bir katman açıkken durum hapı çekilir (ozgur.js bantDurumu: .dolu), seçici açıkken yönerge de çekilir.
+   3) Seçici açıkken bant alttaki sayfanın (z 8) üstüne çıkar: sayfa sekmeleri seçici düğmelerini örtemez. */
+.yonerge{pointer-events:none}
+.yonerge .dugme{pointer-events:auto}
+.ust-bant.secici-acik{z-index:9}
+@media (max-height:520px){
+.ust-bant{top:6px;gap:6px}
+.ust-bant.dolu .durum-cip,.ust-bant.secici-acik .yonerge{display:none}
+.yonerge{gap:8px;padding:2px 4px 2px 12px;border-radius:14px;font-size:.94em;line-height:1.25}
+.secim-kart{padding:8px 12px}
+.secim-dugmeler{margin-top:6px}
+.secici{padding:8px 10px}
+.secici-ust{margin-bottom:4px}
+}
