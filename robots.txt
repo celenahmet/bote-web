@@ -2,11 +2,13 @@
 # Arama motorlari ve yapay zeka araclari/ajanlari siteyi tarayabilir.
 # Blog yazilarinin Markdown surumleri: /blog/<yazi>.md  |  Ozet: /llms.txt
 # /blog/taslak: editor onayi bekleyen taslaklarin onizlemesi (yayinda degil).
+# /3d: 3D Simulasyon Merkezi onizlemesi; Ahmet onaylayinca acilir.
 
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /blog/taslak
+Disallow: /3d
 
 # Yapay zeka tarayicilari ve kullanici adina calisan ajanlar (acikca izinli)
 User-agent: GPTBot
@@ -33,5 +35,6 @@ User-agent: Amazonbot
 Allow: /
 Disallow: /api/
 Disallow: /blog/taslak
+Disallow: /3d
 
 Sitemap: https://bote.web.tr/sitemap.xml

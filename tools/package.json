@@ -39,6 +39,7 @@
     "robots-parser": "^3.0.1",
     "sharp": "^0.35.4",
     "simple-icons": "^16.32.0",
+    "three": "0.186.1",
     "yaml": "^2.9.1"
   }
 }

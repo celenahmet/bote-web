@@ -1,0 +1,290 @@
+{
+  "slug": "arduino-ve-breadboard",
+  "baslik": "Arduino ve Breadboard'u Tanıyalım",
+  "kisa": "Arduino UNO kartının parçalarını ve breadboard'un gizli bağlantılarını 3D simülasyonla keşfedin. Ortaokul 5-8. sınıflara özel anlatım.",
+  "sure": 20,
+  "hedefler": {
+    "5": [
+      "Arduino kartının ana parçalarını göstereceğiz.",
+      "Kartın elektriği ve kodu nereden aldığını söyleyeceğiz.",
+      "Breadboard'da hangi deliklerin bağlı olduğunu bulacağız."
+    ],
+    "6": [
+      "Arduino UNO'nun parçalarını görevleriyle eşleştireceğiz.",
+      "Dijital ve analog pinlerin farkını açıklayacağız.",
+      "Breadboard'da bağlı delikleri ve güç raylarını bulacağız."
+    ],
+    "7": [
+      "Mikrodenetleyicinin kartta nasıl bir görev yaptığını açıklayacağız.",
+      "Dijital, analog ve güç pinlerini ne için kullanacağımızı söyleyeceğiz.",
+      "Breadboard'un iç bağlantılarına bakarak bir parçanın nereye takılacağına karar vereceğiz."
+    ],
+    "8": [
+      "Arduino UNO'nun temel teknik özelliklerini (pin sayıları, gerilimler, bellek) okuyacağız.",
+      "HIGH ve LOW çıkışı, analog okumayı ve PWM'i birbirinden ayıracağız.",
+      "Breadboard bağlantı kuralını kullanarak kısa devre riskini fark edeceğiz."
+    ]
+  },
+  "adimlar": [
+    {
+      "id": "merak",
+      "baslik": "Bunları ne yönetiyor?",
+      "metin": {
+        "5": "Biz yaklaşınca kendiliğinden açılan kapıları gördünüz mü? Akıllı evlerde ışıklar, oda kararınca kendiliğinden yanabilir. Peki kapıya ve ışığa ne zaman çalışacağını kim söylüyor? Cevabı bu derste bir kartın üstünde arayalım.",
+        "6": "Otomatik kapılar biz yaklaşınca açılır, akıllı evlerde ışıklar oda kararınca yanabilir. Bu cihazlar çevrelerini algılar ve ne yapacaklarına karar verir. Sizce bu kararı kim veriyor? Bugün böyle kararlar verebilen bir kartı, <strong>Arduino UNO</strong>'yu tanıyalım.",
+        "7": "Otomatik kapı birinin yaklaştığını algılar, sonra kapıyı açar. Akıllı evdeki lamba, oda kararınca yanar. İkisinde de aynı sıra var: <strong>algıla, karar ver, uygula</strong>. Peki karar veren kim? Bugün bu işi yapabilen bir kartı, Arduino UNO'yu inceleyelim ve hangi parçasının ne iş yaptığını bulalım.",
+        "8": "Otomatik kapılar ve akıllı ev sistemleri aynı düzenle çalışır: bir <strong>giriş</strong> (algılayıcıdan gelen bilgi), bir <strong>işlem</strong> (kodla verilen karar) ve bir <strong>çıkış</strong> (motor, lamba, ses). İşlemi yapan küçük bilgisayarlara mikrodenetleyici denir. Sizce otomatik bir kapının girişi ve çıkışı nedir? Bugün bir mikrodenetleyici taşıyan Arduino UNO kartını parça parça inceleyelim."
+      }
+    },
+    {
+      "id": "arduino",
+      "baslik": "Arduino UNO kartı",
+      "metin": {
+        "5": "Bu kartın adı <strong>Arduino UNO</strong>. Onu küçük bir bilgisayar gibi düşünebiliriz. Ona yazdığımız komutları yerine getirir: ışık yakar, düğmeye basıldığını anlar. Şimdi parçalarına tek tek bakalım.",
+        "6": "Ekrandaki kart <strong>Arduino UNO</strong>. Üzerinde küçük bir bilgisayar çipi, kablo takılan delikler (pinler) ve güç girişleri var. Biz kodu yazarız, kart bu kodu adım adım uygular. Şimdi kartın parçalarını tek tek tanıyalım.",
+        "7": "<strong>Arduino UNO</strong>, üzerinde bir mikrodenetleyici bulunan bir geliştirme kartıdır. Kart kendi başına bir şey yapmaz; ona yüklediğimiz kod neyi, ne zaman yapacağını söyler. Pinlerden gelen bilgiyi okur, pinlerden LED gibi parçalara elektrik sinyali gönderir. Her parçanın bir görevi var; sırayla inceleyelim.",
+        "8": "<strong>Arduino UNO</strong>, ATmega328P adlı mikrodenetleyiciyi taşıyan bir geliştirme kartıdır. Üzerinde 14 dijital giriş/çıkış pini, 6 analog giriş, USB bağlantısı, güç girişi ve sıfırlama (reset) düğmesi bulunur. Kart, yüklenen koda göre pinlerdeki gerilimi okur ya da değiştirir; böylece hem algılar hem de yönetir. Şimdi bu parçaların her birinin görevine bakalım."
+      }
+    },
+    {
+      "id": "usb",
+      "baslik": "USB girişi",
+      "metin": {
+        "5": "Bu, kartın <strong>USB girişi</strong>. Kabloyla bilgisayara bağlarız. Bu kablo iki iş yapar: karta elektrik verir ve yazdığımız kodu karta taşır. Telefonu bilgisayara bağlayan kablo gibi: hem şarj eder hem bilgi taşır.",
+        "6": "<strong>USB girişi</strong> kartı bilgisayara bağlar. Bu bağlantı iki iş görür: kartı bilgisayardan gelen elektrikle çalıştırır ve bilgisayarda yazdığımız kodu kartın içine yükler. Kod bir kez yüklenince kart, bilgisayardan ayrılsa bile kodu hatırlar.",
+        "7": "<strong>USB girişi</strong> kartla bilgisayar arasındaki köprüdür. Bu kablo hem kartın çalışması için gereken elektriği taşır hem de bilgisayarda yazılan kodu kartın belleğine yükler. Kod kalıcı bellekte (Flash) saklanır; kartı pil ya da adaptörle çalıştırdığımızda da aynı kod çalışmaya devam eder.",
+        "8": "<strong>USB girişi</strong> (B tipi) iki görev üstlenir: kartı bilgisayardan 5 V ile besler ve derlenen kodu mikrodenetleyicinin 32 kB'lık Flash belleğine yükler. Flash bellek elektrik kesilince silinmez; kod, kart başka bir kaynaktan beslendiğinde de çalışır. Kartın kılavuzuna göre USB'den gelen gerilim en çok 5,5 V olmalıdır."
+      }
+    },
+    {
+      "id": "guc-girisi",
+      "baslik": "Güç girişi",
+      "metin": {
+        "5": "Bu yuvarlak giriş <strong>güç girişi</strong>. Kartı bilgisayarsız çalıştırmak için buraya pil kutusu ya da adaptör takılır. Adaptör, prizdeki tehlikeli elektriği karta uygun küçük bir elektriğe çevirir. Kartı asla doğrudan prize bağlamayız.",
+        "6": "<strong>Güç girişi</strong>, kartı bilgisayar olmadan çalıştırmak için kullanılır. Buraya pil kutusu ya da adaptör takılır. Adaptör, prizdeki güçlü ve tehlikeli elektriği karta uygun zayıf bir elektriğe çevirir. Bu sayede kart bir robotun ya da bir maketin içinde tek başına çalışabilir.",
+        "7": "Kart yalnız USB ile değil, <strong>güç girişinden</strong> de beslenebilir. Buraya pil kutusu ya da prizden aldığı elektriği düşük gerilime çeviren bir adaptör takılır. Kartın üstündeki düzenleyici parça, gelen gerilimi kartın kullandığı 5 volta indirir. Bu yüzden kart bilgisayardan bağımsız, bir proje kutusunun içinde çalışabilir.",
+        "8": "<strong>Güç girişi</strong> yuvarlak bir sokettir; buraya pil kutusu ya da adaptör takılır. Gelen gerilim, kart üzerindeki <strong>5 V'luk düzenleyiciden</strong> (regülatör) geçerek mikrodenetleyiciye uygun hâle gelir; düzenleyici aradaki farkı ısıya çevirir. Uygun adaptör değerini kartın kılavuzundan kontrol ederiz. Adaptör şebekenin tehlikeli gerilimini düşürür; kart hiçbir zaman şebekeye doğrudan bağlanmaz."
+      }
+    },
+    {
+      "id": "mikrodenetleyici",
+      "baslik": "Mikrodenetleyici: kartın beyni",
+      "metin": {
+        "5": "Bu siyah çip kartın <strong>beyni</strong>. Adı <strong>mikrodenetleyici</strong>. Yazdığımız kod burada saklanır ve burada çalışır. Bir aşçının tarifi adım adım uygulaması gibi, o da komutları sırayla yerine getirir.",
+        "6": "<strong>Mikrodenetleyici</strong>, tek bir çipin içine sığdırılmış küçük bir bilgisayardır. Kodu saklayan bellek ve komutları işleyen bölüm bu çipin içindedir. Kartın diğer parçaları ona elektrik verir ya da onu dış dünyaya bağlar. Kısacası kartın beyni burasıdır.",
+        "7": "<strong>Mikrodenetleyici</strong>; işlemciyi, belleği ve giriş/çıkış bağlantılarını tek bir çipte toplayan küçük bir bilgisayardır. Bilgisayarınızdaki işlemci gibi komutları işler ama çok daha küçük ve basit işler için yapılmıştır. Kodumuz bu çipin belleğinde durur; çip, pinlerden bilgi okuyup pinlere komut göndererek dış dünyayla konuşur.",
+        "8": "Kartın beyni <strong>ATmega328P</strong> mikrodenetleyicisidir. Bu tek çipin içinde işlemci, 32 kB Flash (program belleği), 2 kB SRAM (çalışma belleği) ve 1 kB EEPROM (kalıcı küçük bellek) bulunur. İşlemci 16 MHz hızla çalışır. Bu bellek bir bilgisayarınkinin yanında çok küçüktür ama bir LED'i ya da bir düğmeyi yönetmek için yeter. Bu yüzden mikrodenetleyiciler küçük ve az enerji harcayan çiplerdir."
+      }
+    },
+    {
+      "id": "dijital-pinler",
+      "baslik": "Dijital pinler",
+      "metin": {
+        "5": "Kartın kenarındaki bu deliklere <strong>pin</strong> denir. 0'dan 13'e kadar numaralı olanlar <strong>dijital pinler</strong>. Bunlar bir ışık anahtarı gibi yalnız iki durumu bilir: <strong>açık</strong> ya da <strong>kapalı</strong>. Yanında ~ işareti olanlar, ışığı kısarak da yakabilir.",
+        "6": "0'dan 13'e kadar numaralı <strong>dijital pinler</strong> iki durumla çalışır: elektrik var (açık) ya da yok (kapalı). Bir pin, LED gibi bir parçayı yakıp söndürebilir ya da bir düğmeye basılıp basılmadığını okuyabilir. Numaranın yanında ~ işareti olan pinler (3, 5, 6, 9, 10, 11) ışığın parlaklığını da ayarlayabilir.",
+        "7": "UNO'da 0'dan 13'e kadar 14 <strong>dijital pin</strong> var. Dijital, yalnız iki değer demek: HIGH (gerilim var) ya da LOW (gerilim yok). Kodla bir pini <strong>çıkış</strong> yaparsak LED yakabilir, <strong>giriş</strong> yaparsak bir düğmeyi okuyabiliriz. ~ işaretli pinler (3, 5, 6, 9, 10, 11) çok hızlı açıp kapanarak LED'i yarı parlak gösterebilir; buna PWM denir.",
+        "8": "UNO'da 14 <strong>dijital giriş/çıkış pini</strong> (D0-D13) bulunur. Çıkış olarak ayarlanan pin HIGH iken yaklaşık 5 V, LOW iken 0 V verir; giriş olarak ayarlanan pin üzerindeki gerilimi okuyup HIGH ya da LOW olarak yorumlar. ~ işaretli altı pin (3, 5, 6, 9, 10, 11) <strong>PWM</strong> üretebilir: pin çok hızlı açılıp kapanır, açık kalma oranı değiştikçe LED daha parlak ya da daha sönük görünür. Kartın üstündeki küçük yerleşik LED, D13'e bağlıdır."
+      }
+    },
+    {
+      "id": "analog-pinler",
+      "baslik": "Analog pinler",
+      "metin": {
+        "5": "Bunlar <strong>analog pinler</strong>: A0'dan A5'e kadar. Dijital pin bir ışık anahtarı gibidir, analog pin ise ses ayarı gibi: <strong>ne kadar</strong> olduğunu söyler. Bir algılayıcı (sensör) bağlarsak ortamın ne kadar aydınlık ya da sıcak olduğunu okuyabiliriz.",
+        "6": "A0'dan A5'e kadar olan altı pin <strong>analog giriştir</strong>. Dijital pin yalnız var ya da yok der; analog pin ise arada kalan değerleri de okur. Bu pinlere ışık, sıcaklık ya da nem algılayıcısı (sensör) bağlanır. Kart, algılayıcıdan gelen bilgiyi bir sayıya çevirir.",
+        "7": "A0-A5 <strong>analog giriş</strong> pinleridir. Işık ya da sıcaklık algılayıcısı içeren bir devre, ölçtüğü şeye göre pine farklı bir gerilim ulaştırır. Kart bu gerilimi okuyup 0 ile 1023 arasında bir sayıya çevirir: 0 en düşük, 1023 en yüksek değerdir. Böylece kod, ortamın ne kadar karanlık olduğunu bir sayı olarak öğrenir.",
+        "8": "A0-A5, kartın altı <strong>analog girişidir</strong>. İçerideki 10 bitlik analog-dijital çevirici, 0-5 V arasındaki gerilimi 0-1023 arasında bir tam sayıya çevirir. Her basamak yaklaşık 5 / 1024 ≈ 0,0049 V (4,9 mV) eder. Örneğin 2,5 V gelen bir pin için kod yaklaşık 512 değerini görür. Bu pinler <code>analogRead</code> ile okunur ve gerektiğinde dijital pin olarak da kullanılabilir."
+      }
+    },
+    {
+      "id": "guc-pinleri",
+      "baslik": "Güç pinleri: 5V, 3,3V, GND",
+      "metin": {
+        "5": "Bu pinler devreye elektrik verir. <strong>5V</strong> ve <strong>3,3V</strong> elektriğin çıktığı, <strong>GND</strong> geri döndüğü yerdir. Su borusundaki su gibi, elektrik de dolaşıp GND'ye dönmelidir. Dikkat: 5V ile GND'yi kabloyla doğrudan birleştirmeyiz, kart zarar görebilir.",
+        "6": "<strong>Güç pinleri</strong> devreye elektrik sağlar. 5V pini 5 volt, 3,3V pini 3,3 volt verir; volt, elektriği iten etkinin birimidir. <strong>GND</strong> ise elektriğin geri döndüğü ortak noktadır. Elektrik ancak GND'ye kadar kesintisiz bir yol bulursa akar. 5V'u GND'ye doğrudan bağlamak kısa devre yapar, kart bozulabilir.",
+        "7": "Güç pinleri devredeki parçaları besler. <strong>5V</strong> ve <strong>3,3V</strong> pinleri sabit bir gerilim verir; gerilimi, elektriği iten bir basınç gibi düşünebiliriz. <strong>GND</strong> 0 voltluk ortak dönüş noktasıdır. Akımın oluşması için yolun kesintisiz olması ve GND'ye dönmesi gerekir. 5V'u GND'ye doğrudan bağlarsak akımı sınırlayan bir şey kalmaz: buna kısa devre denir.",
+        "8": "<strong>5V</strong> ve <strong>3,3V</strong> pinleri kartın düzenlenmiş besleme çıkışlarıdır; <strong>GND</strong> ise tüm gerilimlerin ölçüldüğü 0 V başvuru noktasıdır. Bir devrede akım, besleme pininden çıkıp parçalardan geçerek GND'ye dönen kapalı bir yol izler. 5V ile GND arasına direnç koymadan kablo bağlamak <strong>kısa devredir</strong>: V = I × R'de R neredeyse sıfır olunca akım çok büyür ve kart ya da USB bağlantısı zarar görebilir."
+      }
+    },
+    {
+      "id": "breadboard",
+      "baslik": "Breadboard: lehimsiz devre tahtası",
+      "metin": {
+        "5": "Bu delikli tahtanın adı <strong>breadboard</strong>. Parçaları yapıştırmadan, deliklere takarak birleştiririz. Yanlış takarsak çıkarır, yeniden deneriz. Yapı blokları gibi: tak, dene, değiştir. İçinde, delikleri birbirine bağlayan gizli metal şeritler var.",
+        "6": "<strong>Breadboard</strong>, devre kurmak için kullanılan delikli bir tahtadır; Türkçede lehimsiz devre tahtası da denir. Lehim, metali eriterek parçaları birleştirmektir; burada buna gerek yok. Parçaların bacakları deliklere takılır, içerideki metal şeritler bazı delikleri birbirine bağlar. Böylece devreyi kurup kolayca değiştirebiliriz.",
+        "7": "<strong>Breadboard</strong> (lehimsiz devre tahtası), deneme devreleri kurmak için kullanılır. Plastik gövdenin içinde, belirli delikleri birbirine bağlayan metal şeritler vardır. Aynı şeride takılan iki bacak, aralarına kablo koymasak da birbirine bağlanmış olur. Bu yüzden bir devre kurmadan önce hangi deliklerin bağlı olduğunu bilmemiz gerekir.",
+        "8": "<strong>Breadboard</strong>, prototip (ilk deneme) devreleri için lehimsiz bağlantı tahtasıdır. Delikler, içteki yaylı metal şeritlere açılır; bir bacak deliğe girince şerit onu sıkıca tutar ve aynı şeritteki diğer deliklerle iletken bir bağlantı kurar. Bu düzen sayesinde devre, parçalar sökülüp takılarak hızlıca değiştirilebilir. Doğru devre kurmanın ilk şartı, hangi deliklerin aynı şeritte olduğunu bilmektir."
+      }
+    },
+    {
+      "id": "breadboard-baglanti",
+      "baslik": "Hangi delikler bağlı?",
+      "metin": {
+        "5": "Tahtanın içinde gizli metal şeritler var. Önce tahmin edelim, sonra bir deliğe dokunalım: ona bağlı delikler yanacak. \"Röntgen\" düğmesine basınca tahtanın içini görebiliriz.",
+        "6": "Breadboard'da her delik bir harf ve bir sayıyla adlandırılır: a1, e1, f1 gibi. Önce tahmin edelim, sonra a1 deliğine dokunalım. Ona bağlı olan delikler yanar. \"Röntgen\" düğmesi de tahtanın içindeki metal şeritleri gösterir.",
+        "7": "Her deliğin bir adresi var: harf satırı, sayı sütunu gösterir. a1 deliğine dokunduğumuzda, onunla aynı metal şeritte olan delikler yanar. Önce tahmin edelim, sonra deneyelim. Ardından \"Röntgen\" düğmesiyle içteki şeritleri görüp tahminimizi kontrol edelim. Birkaç farklı deliğe dokunarak kuralı bulmaya çalışalım.",
+        "8": "Breadboard'daki her delik bir koordinatla adlandırılır: harf satırı (a-j), sayı sütunu gösterir. Bir deliğe dokunduğumuzda, onunla aynı iletken şeritte bulunan bütün delikler yanar. Önce sınıfça tahmin yapalım, sonra a1, e1 ve f1'e sırayla dokunalım. \"Röntgen\" düğmesi, gözlemimizi içteki şeritlerin gerçek yerleşimiyle karşılaştırmamızı sağlar. Birkaç denemeden sonra genel kuralı kendi cümlemizle yazalım."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: a1 ile e1 birbirine bağlı mı? Peki e1 ile f1?",
+          "6": "Tahmin et: a1 ve e1 delikleri birbirine bağlı mı? e1 ve f1 bağlı mı?",
+          "7": "Tahmin et: a1 ile e1 aynı metal şeritte mi? e1 ile f1 arasında bağlantı var mı? Nedenini de söyleyelim.",
+          "8": "Tahmin et: a1-e1 ve e1-f1 çiftlerinden hangisi aynı iletken şeritte? Ortadaki kanalın görevi ne olabilir?"
+        },
+        "cevap": {
+          "5": "a1 ile e1 <strong>bağlı</strong>: aynı sütundaki a, b, c, d, e delikleri tek bir şeritte. e1 ile f1 <strong>bağlı değil</strong>: ortadaki kanal tahtayı ikiye ayırır. f'den j'ye kadar olanlar da kendi aralarında bağlı.",
+          "6": "a1 ile e1 <strong>bağlı</strong>, çünkü her numaralı sütunda a, b, c, d, e delikleri aynı metal şeride açılır. e1 ile f1 <strong>bağlı değil</strong>; ortadaki kanal tahtayı iki yarıya ayırır. f, g, h, i, j delikleri de kendi aralarında ayrı bir beşli grup oluşturur.",
+          "7": "a1 ile e1 <strong>bağlı</strong>, çünkü aynı beşli şeritteler. e1 ile f1 <strong>bağlı değil</strong>, çünkü ortadaki kanal iki yarının şeritlerini ayırır. Kanal sayesinde buton gibi iki yanlı parçaları kanalın üstüne takarız; bacaklar ayrı şeritlere girer ve birbirine kendiliğinden bağlanmaz.",
+          "8": "a1-e1 aynı iletken şeritte, aralarındaki direnç neredeyse sıfır. e1-f1 arasında bağlantı yok: kanal, a-e ve f-j şeritlerini birbirinden yalıtır. Bu sayede kanalın üstüne takılan bir buton ya da tümleşik devre (çip), bacaklarını kısa devre yapmadan ayrı şeritlere bağlar. Kural: aynı numaralı sütunda a-e bir grup, f-j başka bir grup."
+        }
+      }
+    },
+    {
+      "id": "raylar",
+      "baslik": "Kenardaki raylar",
+      "metin": {
+        "5": "Her kenarda iki uzun sıra var, bunlara <strong>ray</strong> denir. Kırmızı çizgili olan <strong>+</strong>, mavi çizgili olan <strong>-</strong> rayıdır. Bir ray boydan boya bağlıdır; uzun bir su borusundaki musluklar gibi, her deliğinden aynı elektrik gelir.",
+        "6": "Tahtanın iki kenarında uzun <strong>güç rayları</strong> bulunur. Kırmızı çizgi <strong>+</strong> rayını, mavi çizgi <strong>-</strong> rayını gösterir. Ortadaki beşli sütunların tersine, bir rayın bütün delikleri boydan boya birbirine bağlıdır. Arduino'nun 5V pinini + rayına, GND pinini - rayına bağlarsak devrenin her yerinden bunlara kolayca ulaşırız.",
+        "7": "Kenardaki uzun sıralar <strong>güç raylarıdır</strong>. Kırmızı çizgili + rayına genellikle 5V, mavi çizgili - rayına GND bağlanır. Rayın delikleri boydan boya aynı şeritte olduğu için birçok parça aynı 5V'a ve aynı GND'ye kısa kablolarla ulaşır. Dikkat: + ile - rayı birbirine bağlı değildir; 5V ve GND bağlıyken ikisini kabloyla birleştirmek kısa devre olur.",
+        "8": "Kenarlardaki <strong>güç rayları</strong> devrenin besleme hatlarıdır: kırmızı çizgili + rayı 5V'a, mavi çizgili - rayı GND'ye bağlanır. Ortadaki sütunlar beşer delikli kısa şeritlerken raylar tahtanın boyu kadar uzun tek bir şerittir. Böylece devredeki her parça kısa bir kabloyla aynı besleme gerilimine ve aynı 0 V noktasına ulaşır. + ve - rayları arasına doğrudan kablo takmak kısa devre oluşturur."
+      }
+    },
+    {
+      "id": "ozet",
+      "baslik": "Özet",
+      "metin": {
+        "5": "Bugün öğrendiklerimiz: <strong>Arduino UNO</strong> küçük bir bilgisayar kartıdır. USB'den elektrik ve kod alır. Beyni mikrodenetleyicidir, pinlerle dış dünyaya bağlanır. Breadboard'da aynı sütundaki beşli delikler bağlıdır, kanal iki yarıyı ayırır. Gelecek derste bir LED yakacağız.",
+        "6": "Özetleyelim: USB kartı besler ve kodu yükler; güç girişi pil kutusu ya da adaptör içindir. Mikrodenetleyici kodu çalıştırır. Dijital pinler açık ya da kapalı, analog pinler ne kadar bilgisini okur; güç pinleri 5V, 3,3V ve GND'dir. Breadboard'da her sütunun a-e ve f-j delikleri ayrı gruplardır, raylar boydan boya bağlıdır.",
+        "7": "Arduino UNO bir giriş, işlem, çıkış sistemidir: pinlerden okur, mikrodenetleyicide karar verir, pinlerden iş yaptırır. USB hem güç hem kod taşır. Devrenin çalışması için akımın besleme pininden çıkıp GND'ye dönmesi gerekir. Breadboard'da beşli şeritler ve kenar rayları bağlıdır, kanal iki yarıyı ayırır. Bu kuralları gelecek derste LED devresi kurarken kullanacağız.",
+        "8": "Arduino UNO: ATmega328P, 16 MHz, 32 kB Flash; 14 dijital giriş/çıkış (6'sı PWM), 6 analog giriş (0-1023). Çıkış pini HIGH'ta yaklaşık 5 V, LOW'da 0 V verir. Her devre GND'ye dönen kapalı bir yol ister; 5V ile GND'yi doğrudan bağlamak kısa devredir. Breadboard'da a-e ve f-j şeritlerini ve boydan boya rayları bilmek, doğru ve güvenli kurulumun temelidir."
+      }
+    }
+  ],
+  "sinav": {
+    "5": [
+      {
+        "soru": "Arduino'ya kodu hangi giriş üzerinden yükleriz?",
+        "secenekler": ["USB girişi", "GND pini", "Analog pin"],
+        "dogru": 0,
+        "aciklama": "USB kablosu hem karta elektrik verir hem de yazdığımız kodu karta taşır."
+      },
+      {
+        "soru": "Breadboard'da a1 ile f1 bağlı mıdır?",
+        "secenekler": ["Evet, ikisi de 1. sütunda", "Hayır, ortadaki kanal onları ayırır", "Yalnız USB takılıyken bağlıdır"],
+        "dogru": 1,
+        "aciklama": "a-e ve f-j delikleri kanalın iki yanında ayrı gruplardır; aynı sütunda olsalar da bağlı değildir."
+      },
+      {
+        "soru": "Kodun saklandığı ve çalıştığı, kartın beyni olan parça hangisidir?",
+        "secenekler": ["Güç girişi", "Breadboard", "Mikrodenetleyici"],
+        "dogru": 2,
+        "aciklama": "Kod mikrodenetleyicinin içinde saklanır ve orada adım adım çalışır."
+      }
+    ],
+    "6": [
+      {
+        "soru": "Dijital pinler kaç durumla çalışır?",
+        "secenekler": ["Bir", "İki: açık ya da kapalı", "Yüzlerce"],
+        "dogru": 1,
+        "aciklama": "Dijital pin yalnız iki durumu bilir: elektrik var (HIGH) ya da yok (LOW)."
+      },
+      {
+        "soru": "Analog pinler en çok hangi iş için kullanılır?",
+        "secenekler": ["Bir algılayıcıdan ne kadar bilgisini okumak", "Karta kod yüklemek", "Kartı prize bağlamak"],
+        "dogru": 0,
+        "aciklama": "A0-A5 pinleri ışık, sıcaklık gibi değişen büyüklükleri sayı olarak okur."
+      },
+      {
+        "soru": "Breadboard'un kenarındaki raylar için hangisi doğrudur?",
+        "secenekler": ["Raylar beşer delikli kısa parçalardır", "+ rayı ile - rayı birbirine bağlıdır", "Bir rayın bütün delikleri boydan boya bağlıdır"],
+        "dogru": 2,
+        "aciklama": "Ray boydan boya tek bir şerittir; + ve - rayları ise birbirinden ayrıdır."
+      }
+    ],
+    "7": [
+      {
+        "soru": "Mikrodenetleyici için hangisi doğrudur?",
+        "secenekler": ["İşlemciyi ve belleği tek çipte toplayan küçük bir bilgisayardır", "Yalnız elektrik depolar", "Breadboard'un içindeki metal şerittir"],
+        "dogru": 0,
+        "aciklama": "Mikrodenetleyici kodu saklar, çalıştırır ve pinler üzerinden dış dünyayla haberleşir."
+      },
+      {
+        "soru": "Arkadaşın 5V pinini kabloyla doğrudan GND'ye bağlamak istiyor. Ne dersin?",
+        "secenekler": ["Sorun yok, kart daha hızlı çalışır", "Bu yalnız LED'i parlatır", "Yapma; bu kısa devredir, kart zarar görebilir"],
+        "dogru": 2,
+        "aciklama": "Arada direnç olmayınca akımı sınırlayan bir şey kalmaz; buna kısa devre denir."
+      },
+      {
+        "soru": "Bir ışık algılayıcısını hangi pinlere bağlarsak ortamın aydınlığını sayı olarak okuyabiliriz?",
+        "secenekler": ["GND pinine", "A0-A5 analog pinlerine", "USB girişine"],
+        "dogru": 1,
+        "aciklama": "Analog pinler gelen gerilimi 0 ile 1023 arasında bir sayıya çevirir."
+      }
+    ],
+    "8": [
+      {
+        "soru": "Çıkış olarak ayarlanmış bir dijital pin HIGH olduğunda yaklaşık kaç volt verir?",
+        "secenekler": ["0 V", "3,3 V", "5 V"],
+        "dogru": 2,
+        "aciklama": "UNO'da HIGH çıkış yaklaşık 5 V, LOW çıkış 0 V'tur."
+      },
+      {
+        "soru": "A0 pinine 2,5 V geliyorsa <code>analogRead</code> yaklaşık hangi değeri verir?",
+        "secenekler": ["255", "512", "1023"],
+        "dogru": 1,
+        "aciklama": "10 bitlik çevirici 0-5 V'u 0-1023 aralığına çevirir; 2,5 V yarı yol olduğu için yaklaşık 512 okunur."
+      },
+      {
+        "soru": "UNO'da PWM üretebilen pinler hangileridir?",
+        "secenekler": ["~ işaretli 3, 5, 6, 9, 10, 11", "Yalnız A0-A5", "0'dan 13'e bütün pinler"],
+        "dogru": 0,
+        "aciklama": "PWM için ~ işaretli altı dijital pin kullanılır; A0-A5 analog giriştir, PWM çıkışı değildir."
+      }
+    ]
+  },
+  "ogretmen": {
+    "hazirlik": "Simülasyonu tahtada tam ekran açın. Her adımda önce sınıfa sorun, sonra metni birlikte okuyun; \"Röntgen\" adımında deliğe dokunmayı bir öğrenciye yaptırın. Gerçek set varsa simülasyondan sonra kart ve breadboard'u gruplara dağıtın. Müfredat bağı: 5. sınıf BTY programındaki bilgisayar sistemleri, donanım ve giriş/çıkış birimleri (BTY.5.1.5) ile problemin girdi ve çıktılarını belirleme (BTY.5.6.1). Fen Bilimleri'nde öğrenciler basit elektrik devresini 4. sınıftan tanır; 5. sınıf \"Yaşamımızdaki Elektrik\" ünitesi devre elemanlarının sembollerini ve devre şemasını işler.",
+    "malzemeler": [
+      "1 adet Arduino UNO (her grup için)",
+      "1 adet breadboard (her grup için)",
+      "1 adet USB A-B kablosu (her grup için)",
+      "İsteğe bağlı: 1 adet multimetre (öğretmen için; süreklilik modunda hangi deliklerin bağlı olduğunu göstermek için)"
+    ],
+    "guvenlik": [
+      "Arduino düşük gerilimle çalışır ama kart, kablolar ve breadboard asla prize (şebeke elektriğine) bağlanmaz.",
+      "5V ve GND pinleri kabloyla doğrudan birleştirilmez; kısa devre kartı ve bilgisayarın USB girişini bozabilir.",
+      "Devreler USB kablosu takılı değilken kurulur ve değiştirilir.",
+      "Kartı metal bir yüzeye koymayın; alttaki lehim noktaları birbirine değip kısa devre olabilir.",
+      "Bazı uzun breadboard'larda raylar ortadan bölünmüştür; gerçek sette rayın boydan boya bağlı olduğunu bir kez deneyerek ya da multimetreyle doğrulayın."
+    ],
+    "yanilgilar": [
+      "Yanlış: Breadboard'daki bütün delikler birbirine bağlıdır. Düzeltme: \"Röntgen\" görünümünde yalnız beşli sütunların ve rayların bağlı olduğunu gösterin; a1, e1 ve f1'e sırayla dokundurun.",
+      "Yanlış: Kanalın iki yanındaki aynı numaralı delikler bağlıdır. Düzeltme: e1 ve f1'e dokundurup ışığın kanalı geçmediğini gösterin; kanalın buton ve çip gibi parçalar için olduğunu anlatın.",
+      "Yanlış: USB kablosu yalnız şarj eder, kod karta kendiliğinden gider. Düzeltme: Kablonun hem elektrik hem bilgi taşıdığını telefonu bilgisayara bağlama örneğiyle anlatın.",
+      "Yanlış: Elektrik pinden çıkar, parçada harcanıp biter; GND'ye dönmesi gerekmez. Düzeltme: Su borusu benzetmesiyle dönüş yolunu tahtaya çizin; yol kapanmadan akım olmadığını vurgulayın.",
+      "Yanlış (8. sınıf): PWM, A0-A5 pinlerinden yapılır. Düzeltme: A0-A5'in analog giriş olduğunu, PWM'in ~ işaretli dijital pinlerde üretildiğini kart üzerinde gösterin."
+    ],
+    "tartisma": [
+      "Evinizde ya da okulunuzda, çevresini algılayıp kendi kendine çalışan hangi cihazlar var? Bu cihazların girişi ve çıkışı ne?",
+      "Breadboard olmasaydı devre kurmak nasıl olurdu? Lehimlemenin iyi ve zor yanları neler?",
+      "5V ile GND'yi neden doğrudan bağlamamalıyız? Su borusu benzetmesiyle açıklayın."
+    ],
+    "ileri": [
+      "Simülasyonda c5 deliğine dokunmadan önce hangi deliklerin yanacağını kâğıda yazın, sonra kontrol edin. Aynısını h20 için deneyin.",
+      "Otomatik bir kapı için giriş, işlem ve çıkış parçalarını gösteren basit bir şema çizin."
+    ]
+  },
+  "kavramlar": ["arduino", "mikrodenetleyici", "pin", "dijital", "analog", "usb", "gnd", "gerilim", "breadboard", "devre", "giris-cikis", "pwm"],
+  "kaynaklar": [
+    {"ad": "Arduino UNO R3 kullanıcı kılavuzu (datasheet)", "adres": "https://docs.arduino.cc/resources/datasheets/A000066-datasheet.pdf"},
+    {"ad": "Arduino UNO Rev3 ürün sayfası", "adres": "https://docs.arduino.cc/hardware/uno-rev3/"},
+    {"ad": "Arduino başvuru: analogRead()", "adres": "https://docs.arduino.cc/language-reference/en/functions/analog-io/analogRead/"},
+    {"ad": "Arduino başvuru: analogWrite() ve PWM pinleri", "adres": "https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/"},
+    {"ad": "Arduino başvuru: digitalWrite()", "adres": "https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/"},
+    {"ad": "Arduino örneği: Button (breadboard güç rayları)", "adres": "https://docs.arduino.cc/built-in-examples/digital/Button/"},
+    {"ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. sınıflar, 2025)", "adres": "https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf"},
+    {"ad": "MEB TYMM, Fen Bilimleri 5. sınıf: Yaşamımızdaki Elektrik", "adres": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/407"},
+    {"ad": "MEB TEGM, Fen Bilimleri kritik konu ve kazanımlar (2023)", "adres": "https://tegm.meb.gov.tr/meb_iys_dosyalar/2023_09/07174130_FEN_BYLYMLERY_5-6-7-8_SINIFLARA_GECENLER_2023_31-08-2023_22-29-44.pdf"}
+  ]
+}

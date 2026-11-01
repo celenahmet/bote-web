@@ -12,6 +12,25 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
 - Siteden bağlantı verilmeyen (menü/sayfalardan ulaşılamayan) kısımlar yayından
   kaldırılır ama dosyalar silinmez: `.vercelignore`'a eklenir.
 
+## 3D Simülasyon Merkezi (/3d, 01.11.2026)
+- Ahmet 01.11: ortaokul (5-8) BTY dersleri için Arduino ve breadboard 3D simülasyonu; akıllı tahta
+  (Pardus, Firefox), tablet ve telefon ayrı düşünülür. Akıcılık ("kasmamalı") ve HD, gerçekçi görüntü
+  birlikte istenir. Eğitsel kurgu: merak sorusu, keşif, "tahmin et, sonra gör", "değiştir ve gözle",
+  mini sınav. Öğretmen başlamadan sınıf seçer; anlatım, tanım ve sorular sınıfa göre (5/6/7/8),
+  her kavramın teknik ve günlük hayattaki (sosyal) tanımı birlikte verilir.
+- Kaynak tools/3d (src/*.js, stil.css, icerik/*.json, build.mjs); çıktı 3d/ (index, ders sayfaları,
+  assets/sim-<özet>.js). Derleme: `node tools/3d/build.mjs`. 3d/ elle düzenlenmez. three.js tools
+  devDependency olarak sabit sürümdedir; dış model, görsel ve yazı tipi dosyası yok (her şey kodla).
+- Performans ilkeleri korunur: istek üzerine çizim (boşta kare yok), gölge haritası yalnız parça
+  hareketinde, uyarlanır çözünürlük ve hareket bitince tam çözünürlükte keskin kare. `?olcum=1`
+  kare/sn panelini açar; `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
+- Önizleme: build.mjs içinde ONIZLEME=true iken sayfalar noindex, robots.txt `Disallow: /3d`,
+  sitemap ve llms dışı, siteden bağlantı yok (blog taslakları gibi; yukarıdaki bağlantısız bölüm
+  kuralının bilinçli istisnası). Ahmet onaylayınca: ONIZLEME=false, robots satırı kalkar, sitemap,
+  llms ve menü bağlantısı eklenir. İçeriği gelmemiş ders sayfası üretilmez.
+- İçerik kaynakları resmî (Arduino belgeleri, MEB öğretim programları, mevzuat); metinde uzun tire
+  ve ters tırnak yok; çocuklara sıcak ama ciddi dil.
+
 ## SEO ve erişilebilirlik
 - Hedef: yayındaki her sayfada (blog dahil) Lighthouse SEO skoru 100.
 - Her sayfa: doğru `lang`, tekil `<title>`, `description`, `canonical`, gerekiyorsa
