@@ -4,11 +4,12 @@
 import { KABLO_RENKLERI, PROGRAM_PINLERI } from './src/devreCoz.js';
 import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
 import { ledIkon, direncIkon, butonIkon, kabloIkon, KABLO_HEX } from './src/ozgurIkon.js';
+import { erisimPaneliHtml } from './erisim-sablon.mjs';
 
 export const OZGUR_YOL = '/3d/ozgur-mod';
 export const OZGUR_BASLIK = 'Özgür Mod: Devreni Kendin Kur';
 
-export function ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik, css, SITE, ONIZLEME, jsAd }) {
+export function ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik, css, SITE, ONIZLEME, jsAd, erisimJs }) {
   const yol = OZGUR_YOL;
   const baslik = `${OZGUR_BASLIK} | bote.web.tr`;
   const aciklama = 'Arduino ve breadboard ile devreni kendin kur: LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.';
@@ -80,7 +81,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <div class="kart-ust"><div class="sekmeler" role="tablist" aria-label="Panel bölümleri"><button type="button" role="tab" id="sekme-kur" aria-controls="bolum-kur" aria-selected="true">Kur</button><button type="button" role="tab" id="sekme-program" aria-controls="bolum-program" aria-selected="false" tabindex="-1">Program</button><button type="button" role="tab" id="sekme-durum" aria-controls="bolum-durum" aria-selected="false" tabindex="-1">Durum<span class="rozet" id="durum-rozet" aria-hidden="true"></span></button></div><span class="kisa-baslik"></span><button type="button" class="kucuk-dugme" id="ayar-dugme" aria-expanded="false" aria-controls="ayarlar" aria-label="Panel ayarları" title="Panel genişliği, yazı boyutu, taraf">${ico('sliders-horizontal')}</button></div>
 <div class="ayarlar" id="ayarlar" hidden><p class="ayar-ad yatay-ayar">Panel genişliği</p><div class="grup yatay-ayar" role="group" aria-label="Panel genişliği">${[['dar', 'Dar'], ['orta', 'Orta'], ['genis', 'Geniş']].map(([k, y]) => `<button type="button" class="dugme" data-panel-boyut="${k}" aria-pressed="${k === 'orta'}">${y}</button>`).join('')}</div>
 <p class="ayar-ad">Yazı boyutu</p><div class="grup" role="group" aria-label="Yazı boyutu"><button type="button" class="dugme" data-yazi="-1" aria-label="Yazıyı küçült">A−</button><span class="yazi-deger" id="yazi-deger">%100</span><button type="button" class="dugme" data-yazi="1" aria-label="Yazıyı büyüt">A+</button></div>
-<p class="ayar-ad yatay-ayar">Panel tarafı</p><div class="grup yatay-ayar" role="group" aria-label="Panel tarafı"><button type="button" class="dugme" data-yan="sol" aria-pressed="false">Sol</button><button type="button" class="dugme" data-yan="sag" aria-pressed="true">Sağ</button></div></div>
+<p class="ayar-ad yatay-ayar">Panel tarafı</p><div class="grup yatay-ayar" role="group" aria-label="Panel tarafı"><button type="button" class="dugme" data-yan="sol" aria-pressed="false">Sol</button><button type="button" class="dugme" data-yan="sag" aria-pressed="true">Sağ</button></div></div>${erisimPaneliHtml(ico)}
 <div class="kart-govde"><h1 class="sr-only">${esc(OZGUR_BASLIK)}</h1>
 <div class="js-gerek"><p>Özgür Mod'da devreyi kendin kurarsın: LED, direnç, buton ve kabloyu istediğin deliğe takar, programı seçer ve çalıştırırsın. Bu sayfa JavaScript ile çalışır; tarayıcıda JavaScript kapalı görünüyor. Adım adım anlatım için <a href="/3d">3D Simülasyon Merkezi</a> derslerine bakabilirsin.</p></div>
 <section class="bolum ozgur-js" id="bolum-kur" role="tabpanel" aria-labelledby="sekme-kur">
@@ -107,5 +108,5 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <div class="kart-alt ozgur-js"><button type="button" class="dugme" id="geri-al" disabled>${ico('undo-2')}Geri al</button><button type="button" class="dugme" id="sifirla" title="Breadboard'daki bütün parçaları kaldırır; Geri al ile dönülür">${ico('eraser')}Sıfırla</button><button type="button" class="dugme birincil" id="calistir">${IKON.oynat}<span>Çalıştır</span></button></div></section></main>
 ${ogretmen}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
-<script type="application/json" id="ozgur-ikon">${jsonGom(IKON)}</script><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
+<script type="application/json" id="ozgur-ikon">${jsonGom(IKON)}</script><script type="module" src="/3d/assets/${jsAd}"></script><script type="module" src="/3d/assets/${erisimJs}"></script></body></html>`;
 }

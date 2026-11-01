@@ -9,6 +9,7 @@ import crypto from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
+import { erisimDugmeHtml, erisimPaneliHtml } from './erisim-sablon.mjs';
 
 const BU = path.dirname(fileURLToPath(import.meta.url));
 const KOK = path.resolve(BU, '../..');
@@ -97,14 +98,22 @@ const ozet = crypto.createHash('sha1').update(kod).digest('hex').slice(0, 10);
 const jsAd = `sim-${ozet}.js`;
 for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^sim-.*\.js$/.test(f) && f !== jsAd) fs.unlinkSync(path.join(CIKTI, 'assets', f));
 fs.writeFileSync(path.join(CIKTI, 'assets', jsAd), kod);
+// Erişilebilirlik (src/erisilebilirlik.js): ayrı paket, sim paketine dokunmaz. Erken betik (kayıtlı ayarları ilk boyamadan önce
+// <html>'e yazar) tek satırlık betik olarak <head>'e gömülür; arayüz paketi yalnız ders ve Özgür Mod sayfalarına eklenir.
+const erisimSecenek = { bundle: true, minify: true, write: false, legalComments: 'none', target: ['firefox115', 'chrome109', 'safari15.4'], nodePaths: [path.join(KOK, 'tools/node_modules')], logLevel: 'warning' };
+const erisimErken = (await esbuild.build({ ...erisimSecenek, entryPoints: [path.join(BU, 'src/erisim-erken.js')], format: 'iife' })).outputFiles[0].text.trim();
+const erisimKod = (await esbuild.build({ ...erisimSecenek, entryPoints: [path.join(BU, 'src/erisilebilirlik.js')], format: 'esm' })).outputFiles[0].contents;
+const erisimJs = `erisim-${crypto.createHash('sha1').update(erisimKod).digest('hex').slice(0, 10)}.js`;
+for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^erisim-.*\.js$/.test(f) && f !== erisimJs) fs.unlinkSync(path.join(CIKTI, 'assets', f));
+fs.writeFileSync(path.join(CIKTI, 'assets', erisimJs), erisimKod);
 // keşif gruplarının renkleri tek kaynaktan (src/kesif-veri.js); açık zeminde koyu simge
 const katCss = KATEGORI_SIRA.map((k) => `[data-kat=${k}]{--k:${KATEGORI[k].renk};--ki:${KATEGORI[k].koyu ? '#1b1426' : '#fff'}}`).join('\n');
-const css = (fs.readFileSync(path.join(BU, 'stil.css'), 'utf8') + '\n' + katCss).replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
-const BAS_BETIK = `(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');var m=localStorage.getItem('bote-3d-mod');if(m)d.setAttribute('data-mod',m)}catch(e){}if('noModule' in HTMLScriptElement.prototype)d.setAttribute('data-js','1');var s=new URLSearchParams(location.search).get('sinif');if(/^[5-8]$/.test(s))d.setAttribute('data-sinif',s);else try{var k=localStorage.getItem('bote-3d-sinif');if(/^[5-8]$/.test(k))d.setAttribute('data-sinif',k)}catch(e){}})();`;
+const css = (fs.readFileSync(path.join(BU, 'stil.css'), 'utf8') + '\n' + katCss + '\n' + fs.readFileSync(path.join(BU, 'erisilebilirlik.css'), 'utf8')).replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
+const BAS_BETIK = `(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');var m=localStorage.getItem('bote-3d-mod');if(m)d.setAttribute('data-mod',m)}catch(e){}if('noModule' in HTMLScriptElement.prototype)d.setAttribute('data-js','1');var s=new URLSearchParams(location.search).get('sinif');if(/^[5-8]$/.test(s))d.setAttribute('data-sinif',s);else try{var k=localStorage.getItem('bote-3d-sinif');if(/^[5-8]$/.test(k))d.setAttribute('data-sinif',k)}catch(e){}})();` + ';' + erisimErken;
 
 // ------------------------------------------------------------------ ortak parçalar
 function bas({ baslik, aciklama, yol, jsonld, sinif = '' }) {
-  return `<!doctype html><html lang="tr" data-sinif="6"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  return `<!doctype html><html lang="tr" data-sinif="6"${yol === '/3d' ? ' data-e-hub' : ''}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(baslik)}</title><meta name="description" content="${esc(aciklama)}"><link rel="canonical" href="${SITE}${yol}">
 ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name="theme-color" content="#5a2bc4"><link rel="icon" type="image/png" href="/assets/img/educator-fabicon-300x300.png">
 <meta property="og:type" content="website"><meta property="og:locale" content="tr_TR"><meta property="og:site_name" content="bote.web.tr"><meta property="og:title" content="${esc(baslik)}"><meta property="og:description" content="${esc(aciklama)}"><meta property="og:url" content="${SITE}${yol}"><meta property="og:image" content="${SITE}/blog/assets/covers/_blog.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="${esc(baslik)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(baslik)}"><meta name="twitter:description" content="${esc(aciklama)}"><meta name="twitter:image" content="${SITE}/blog/assets/covers/_blog.jpg"><meta name="twitter:image:alt" content="${esc(baslik)}">
@@ -114,7 +123,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 }
 const ustCubuk = (ders) => `<header class="ust"><a class="marka" href="/blog"${YENI_SEKME_OZNITELIK}>bote<b>.web.tr</b><span class="sr-only"> blog</span>${YENI_SEKME_NOTU}</a><span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag" href="/3d">3D Simülasyon Merkezi</a>${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
 <div class="ust-sag">${ders ? `<span id="gorunum-yuva"></span><button type="button" class="cip" id="sinif-dugme" aria-haspopup="dialog" aria-label="Sınıf düzeyini değiştir">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></button>
-<button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen" aria-expanded="false" aria-label="Öğretmen notu" title="Öğretmen notu">${ico('book-open')}</button>
+<button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen" aria-expanded="false" aria-label="Öğretmen notu" title="Öğretmen notu">${ico('book-open')}</button>${erisimDugmeHtml()}
 <button type="button" class="dugme" id="tahta-dugme" aria-pressed="false" aria-label="Tahta modu" title="Akıllı tahta için büyük düğme ve yazı">${ico('presentation')}<span class="yazi">Tahta modu</span></button>
 <button type="button" class="dugme" id="tam-ekran" aria-label="Tam ekran">${ico('maximize')}</button>` : ''}
 <button type="button" class="dugme" id="tema-dugme" aria-label="Açık ya da koyu tema">${ico('moon')}</button></div></header>`;
@@ -209,12 +218,12 @@ function dersSayfasi(d) {
 <p class="ayar-ad yatay-ayar reosta-ust"><span id="genislik-ad">Panel genişliği</span><output id="genislik-deger" for="panel-genislik">Orta</output></p><div class="reosta yatay-ayar"><input type="range" id="panel-genislik" min="0" max="100" step="1" value="50" aria-labelledby="genislik-ad"><div class="reosta-isaretler">${[['dar', 'Dar'], ['orta', 'Orta'], ['genis', 'Geniş']].map(([k, y]) => `<button type="button" class="reosta-isaret" data-panel-boyut="${k}" aria-pressed="${k === 'orta'}">${y}</button>`).join('')}</div></div>
 <p class="ayar-ad">Yazı boyutu</p><div class="grup" role="group" aria-label="Yazı boyutu"><button type="button" class="dugme" data-yazi="-1" aria-label="Yazıyı küçült">A−</button><span class="yazi-deger" id="yazi-deger">%100</span><button type="button" class="dugme" data-yazi="1" aria-label="Yazıyı büyüt">A+</button></div>
 <p class="ayar-ad yatay-ayar">Panel tarafı</p><div class="grup yatay-ayar" role="group" aria-label="Panel tarafı"><button type="button" class="dugme" data-yan="sol" aria-pressed="false">Sol</button><button type="button" class="dugme" data-yan="sag" aria-pressed="true">Sağ</button></div>
-<label class="ayar-satir"><input type="checkbox" id="tahmin-ayar" checked> Keşifte önce tahmin ettir</label></div>
+<label class="ayar-satir"><input type="checkbox" id="tahmin-ayar" checked> Keşifte önce tahmin ettir</label></div>${erisimPaneliHtml(ico)}
 <div class="kart-govde"><h1 class="sr-only">${esc(d.baslik)}: 3D Arduino simülasyonu</h1><ol class="adimlar">${adimlar.map((a, i) => adimHtml(d, a, i)).join('')}</ol></div>
 <nav class="kart-alt" aria-label="Adımlar"><button type="button" class="dugme" id="geri">${ico('chevron-left')}Geri</button><button type="button" class="dugme birincil" id="ileri">İleri${ico('chevron-right')}</button></nav></section></main>
 ${ogretmenHtml(d)}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
-<script type="application/json" id="ders-veri">${jsonGom(veri)}</script><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
+<script type="application/json" id="ders-veri">${jsonGom(veri)}</script><script type="module" src="/3d/assets/${jsAd}"></script><script type="module" src="/3d/assets/${erisimJs}"></script></body></html>`;
 }
 
 function merkezSayfasi() {
@@ -257,7 +266,7 @@ console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).lengt
   fs.writeFileSync(path.join(CIKTI, 'assets', ozgurJs), ozgurKod);
   const ozgurCss = css + fs.readFileSync(path.join(BU, 'ozgur.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
   const ozgurHtml = path.join(CIKTI, 'ozgur-mod.html');
-  fs.writeFileSync(ozgurHtml, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs }));
+  fs.writeFileSync(ozgurHtml, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs, erisimJs }));
   console.log(`3d: özgür mod, paket ${ozgurJs} ${Math.round(ozgurKod.length / 1024)} KB, sayfa ozgur-mod ${boy(ozgurHtml)} KB`);
 }
 // ------------------------------------------------------------------ ÖZGÜR MOD (işaretli blok BİTTİ)
