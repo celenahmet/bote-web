@@ -1,6 +1,6 @@
 import path from 'node:path';
 import fs from 'node:fs';
-import { Marked } from 'marked';
+import { Marked, Renderer } from 'marked';
 import { slugify, esc, imageSize } from './util.mjs';
 import { merkezBaglantisiMi, YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU_HTML } from './simulasyon.mjs';
 
@@ -30,6 +30,7 @@ export function renderMarkdown(src, { sources, root, file }) {
   };
 
   const marked = new Marked({ gfm: true });
+  const varsayilanKod = new Renderer(marked.defaults);
   marked.use({
     extensions: [
       {
@@ -102,6 +103,12 @@ export function renderMarkdown(src, { sources, root, file }) {
         if (!t.text) errors.push(`gorselde alt metin yok: ${t.href}`);
         const cap = t.title ? `<figcaption>${esc(t.title)}</figcaption>` : '';
         return `<figure><img src="${esc(t.href)}" alt="${esc(t.text)}"${dims} loading="lazy" decoding="async">${cap}</figure>`;
+      },
+      code(t) {
+        // Varsayilan kod blogu ciktisi aynen; tek fark: blok telefonda kendi icinde yatay kaydigi icin (blog.css .prose pre)
+        // odaklanabilir yapilir, boylece klavye ve ekran okuyucu kullanicisi da kaydirabilir (axe scrollable-region-focusable).
+        const html = varsayilanKod.code(t);
+        return html.startsWith('<pre>') ? `<pre tabindex="0">${html.slice('<pre>'.length)}` : html;
       },
       table(t) {
         const head = t.header.map((c) => `<th scope="col">${this.parser.parseInline(c.tokens)}</th>`).join('');
