@@ -597,3 +597,5 @@ export function akimYap(sahne, yol, sayi = 30) {
 
 export function anizotropiAyarla(n) { ANISO = Math.max(1, Math.min(8, n)); }
 export { M as malzemeTablosu, parlamaDokusu, Object3D, Quaternion, Euler, DoubleSide };
+// Fiziksel görünüm (gercekci*.js) yerleşimi buradan okur; Sanal'ın kendi davranışı değişmez.
+export { DIJITAL, GUC, ANALOG, DIJ_Z, ALT_Z, SATIR, RAY_Z, RAY_SUTUN, ADIM, sutunX, ardX, ardZ, LED_RENK, BANT, KABLO_RENK };
