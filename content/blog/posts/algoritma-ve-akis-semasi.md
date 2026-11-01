@@ -4,6 +4,7 @@ description: "Algoritma nedir, akış şeması nasıl çizilir? Akış şeması 
 imageAlt: "Algoritma ve Akış Şeması: Örneklerle BTY Konu Anlatımı"
 date: 2026-10-31
 category: egitim-teknolojileri
+simulasyon: arduino-trafik-isigi
 type: rehber
 tags: [algoritma nedir, akış şeması, akış şeması sembolleri, algoritma örnekleri, BTY 5. sınıf]
 summary:
@@ -143,6 +144,8 @@ Bu algoritmada üç temel yapının üçü de görülebiliyor:
 - **Döngü:** Koşul sağlanana kadar bir adım tekrarlanır.
 
 Program da öğrencilerin daha önce oluşturdukları **sıralı, döngüsel ve karar yapılı** algoritmaları akış şemasına dönüştürmesini istiyor.[@bty-program]
+
+Sıralı ve döngüsel bir algoritmanın bir devrede nasıl çalıştığını görmek için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersinde](/3d/arduino-trafik-isigi) ışıkların sırası adım adım yazılır ve üç boyutlu sahnede çalıştırılır.
 
 ## Akış şeması nedir, sembolleri nelerdir?
 

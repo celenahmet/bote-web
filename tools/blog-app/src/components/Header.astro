@@ -4,6 +4,7 @@ import ThemeToggle from '../islands/ThemeToggle.jsx';
 import ReadingProgress from '../islands/ReadingProgress.jsx';
 import Icon from './Icon.astro';
 import { loadBlog } from '../lib.js';
+import { YENI_SEKME, YENI_SEKME_NOTU_HTML } from '../../../blog/simulasyon.mjs';
 const { progress = false, current = '' } = Astro.props;
 const blog = loadBlog();
 const cats = blog.categories.filter((c) => c.count);
@@ -14,9 +15,14 @@ const cats = blog.categories.filter((c) => c.count);
     {/* "AGS rehberiniz" (Ahmet 30.10: "bote.web.tr yanına ags rehberiniz diyelim, şatafatlı
         şekilde gözüksün"; 31.10: tıklayınca AGS yazıları listelensin → /blog/ags). Düz marka pembesi, gradyan ve parıltı yok (site kuralı). */}
     <a class="brand-ags" href="/blog/ags" aria-label="AGS rehberiniz: Akademi Giriş Sınavı yazıları"><Icon name="graduation-cap" size={15} /><span>AGS rehberiniz</span></a>
-    <nav class="topnav" aria-label="Blog kategorileri">
+    {/* "Simülasyon" (Ahmet 01.11: "üst menüde de yer vereceğiz, uluslararasının yanında 3d ikonuyla
+        birlikte simülasyon kısmı"): kategorilerden sonra /3d. 1000-1099 px'te sığmadığı için yalnız
+        Menü'de durur (blog.css); 1100 px ve üstünde tek satırda ölçüldü. Merkez yeni sekmede açılır
+        (Ahmet 01.11), ekran okuyucuya görünmez not (simulasyon.mjs). */}
+    <nav class="topnav" aria-label="Blog kategorileri ve 3D Simülasyon Merkezi">
       <a class="all-posts" href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} /><span>Tüm yazılar</span></a>
       {cats.map((c) => <a href={c.url} title={c.short ? c.name : undefined} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.short || c.name}</span></a>)}
+      <a class="nav-3d" href="/3d" {...YENI_SEKME} title="3D Simülasyon Merkezi"><Icon name="rotate-3d" size={18} /><span>Simülasyon</span><Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
     </nav>
     <div class="top-actions">
       <SearchPalette client:idle />
@@ -28,6 +34,7 @@ const cats = blog.categories.filter((c) => c.count);
             <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} />Tüm yazılar</a>
             {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.name}</span></a>)}
           </div>
+          <a href="/3d" {...YENI_SEKME}><Icon name="rotate-3d" size={18} />3D Simülasyon Merkezi<Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
           <a href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}><Icon name="files" size={18} />PDF Merkezi</a>
           <a href="/"><Icon name="arrow-up-right" size={18} />Ana site</a>
         </nav>

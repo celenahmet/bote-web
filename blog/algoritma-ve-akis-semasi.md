@@ -71,6 +71,8 @@ Bu algoritmada üç temel yapının üçü de görülebiliyor:
 
 Program da öğrencilerin daha önce oluşturdukları **sıralı, döngüsel ve karar yapılı** algoritmaları akış şemasına dönüştürmesini istiyor.[1]
 
+Sıralı ve döngüsel bir algoritmanın bir devrede nasıl çalıştığını görmek için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersinde](https://bote.web.tr/3d/arduino-trafik-isigi) ışıkların sırası adım adım yazılır ve üç boyutlu sahnede çalıştırılır.
+
 ## Akış şeması nedir, sembolleri nelerdir?
 
 Akış şeması, algoritmanın adımlarını sembollerle ve yön oklarıyla gösteren çizimdir. Program akış şemasının temel bileşenlerini **başlangıç, işlem, karar, yön oku ve bitiş** olarak sayıyor; öğrenciler şemalarını kelime işlemci programında ya da teknolojik altyapı yoksa kâğıt üzerinde çiziyor.[1] Yaygın gösterimde kullanılan semboller:

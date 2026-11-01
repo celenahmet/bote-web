@@ -4,6 +4,7 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 imageAlt: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
 date: 2026-09-25
 category: bolum-rehberi
+simulasyon: merkez
 type: politika
 tags: [Bilişim Teknolojileri ve Yazılım, BTY dersi, bilişim öğretmeni, ortaokul, kodlama]
 summary:
@@ -153,6 +154,8 @@ BTY, ezbere dayalı bir ders olarak tasarlanmamıştır. Program öğrencinin **
 4. **Test ve paylaşım:** Ürün sınıfta denenir, hatalar birlikte ayıklanır.
 
 Bu akış, dersin yalnızca bir araç kullanımı eğitimi olmadığını, aynı zamanda planlama ve iş birliği becerisi kazandırmayı hedeflediğini gösterir. Bilgisayarsız, blok tabanlı ve robotik kodlamanın etkileri üzerine araştırmalar için [Kodlama eğitimi nedir?](/blog/kodlama-egitimi-nedir) yazısına bakabilirsiniz.
+
+Derste Arduino ve breadboard ile çalışmaya hazırlanan öğretmenler için [3D Simülasyon Merkezi'ndeki dersler](/3d) Arduino kartını, devreyi ve kodu adım adım üç boyutlu gösterir; anlatım 5-8. sınıf düzeyine göre değişir.
 
 ## Etik ve güvenlik neden bu derste?
 

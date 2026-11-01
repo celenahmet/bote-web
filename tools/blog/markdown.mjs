@@ -2,6 +2,7 @@ import path from 'node:path';
 import fs from 'node:fs';
 import { Marked } from 'marked';
 import { slugify, esc, imageSize } from './util.mjs';
+import { merkezBaglantisiMi, YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU_HTML } from './simulasyon.mjs';
 
 // Markdown -> HTML. Ek soz dizimi:
 //   [@kaynak-id]  veya  [@a; @b]  -> numarali kaynak atfi (Kaynaklar bolumune baglanir)
@@ -81,6 +82,10 @@ export function renderMarkdown(src, { sources, root, file }) {
         const title = t.title ? ` title="${esc(t.title)}"` : '';
         if (/^https?:\/\//.test(t.href) && !/^https?:\/\/(www\.)?bote\.web\.tr/.test(t.href)) {
           return `<a href="${esc(t.href)}"${title} rel="noopener" target="_blank">${inner}</a>`;
+        }
+        // 3D Simülasyon Merkezi bağlantıları da yeni sekmede açılır; ekran okuyucuya görünmez not (simulasyon.mjs).
+        if (merkezBaglantisiMi(t.href)) {
+          return `<a href="${esc(t.href)}"${title}${YENI_SEKME_OZNITELIK}>${inner}${YENI_SEKME_NOTU_HTML}</a>`;
         }
         return `<a href="${esc(t.href)}"${title}>${inner}</a>`;
       },

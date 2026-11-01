@@ -18,5 +18,5 @@ const features = [
   </a>
   <h2>Üniversiteden kariyerine</h2>
   <ul>{features.map((f) => <li><span><Icon name={f.icon} size={19} /></span><div><b>{f.title}</b><p>{f.text}</p></div></li>)}</ul>
-  <a class="sidebar-uc-cta" href={promoUrl(house.url)} {...ext}>Ücretsiz keşfet <Icon name="arrow-up-right" size={17} /></a>
+  <a class="sidebar-uc-cta" href={promoUrl(house.url)} {...ext}><span class="sidebar-uc-cta-sol"><Icon name="compass" size={17} />Ücretsiz keşfet</span><Icon name="arrow-up-right" size={17} /></a>
 </section>}

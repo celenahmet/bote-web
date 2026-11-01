@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
 import { renderMarkdown } from './markdown.mjs';
 import { toDateString, stripHtml, readingMinutes, imageSize, trDate, isoDate } from './util.mjs';
+import { simulasyonDenetle, yeniSekmeNotunuCikar } from './simulasyon.mjs';
 
 // Depo koku: BOTE_ROOT ya da content/blog/blog.yml bulunana kadar yukari cikilir
 // (Astro derlemesinde bu dosya paketlendigi icin import.meta.url'e guvenilmez).
@@ -116,7 +117,8 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
         }
       });
 
-      const { words, minutes } = readingMinutes(stripHtml(html.replace(/<sup class="cite">.*?<\/sup>/g, '')));
+      // Yeni sekme notu (ekran okuyucu icin, simulasyon.mjs) kelime sayisina girmez.
+      const { words, minutes } = readingMinutes(stripHtml(yeniSekmeNotunuCikar(html).replace(/<sup class="cite">.*?<\/sup>/g, '')));
       if (words < 600) w(`govde kisa (${words} kelime)`);
       if (headings.filter((h) => h.depth === 2).length < 2) w('en az 2 ara baslik (##) onerilir');
       const faq = fm.faq || [];
@@ -132,6 +134,11 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
         if (!c.text) e(`changes[${i}]: text zorunlu`);
         return { date: d, text: String(c.text || '') };
       }).sort((a, b) => b.date.localeCompare(a.date));
+
+      // 01.11.2026: `simulasyon: <ders>` yazi sayfasinda "AI ile Ozetle"nin altina 3D Simulasyon kartini
+      // koyar (SimulasyonKarti). Deger: 3d/ altindaki bir ders (or. arduino-led-yakma) ya da merkez (/3d).
+      const sim = simulasyonDenetle(ROOT, fm.simulasyon);
+      if (sim.hata) e(sim.hata);
 
       // Derinlik standardi (blog.yml > standards; CLAUDE.md > Derinlik standardi). Yazi turu: type.
       const type = fm.type || null;
@@ -165,6 +172,7 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
         tags: fm.tags || [], featured: !!fm.featured, summary, faq, type, changes, citeTitle: fm.citeTitle || fm.title,
         // 28.10.2026: `sayac: ags` yazida girisin altina AGS geri sayim kartini koyar (AgsSayacKarti).
         sayac: fm.sayac === 'ags' ? 'ags' : null,
+        simulasyon: sim.deger || null,
         sources: ordered, foreign, html, headings, body, words, minutes,
         url: `/blog/${slug}`, imageAlt: fm.imageAlt || `${fm.title} kapak görseli`, imageSrc: fm.image || null,
       };

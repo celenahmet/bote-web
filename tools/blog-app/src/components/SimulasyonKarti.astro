@@ -1,0 +1,22 @@
+---
+// 3D Simülasyon kartı (Ahmet 01.11.2026): yalnız ön bilgisinde `simulasyon` olan yazılarda,
+// "AI ile Özetle"nin hemen altında. Sade ama dikkat çekici: düz mor simge kutusu, tek cümle, tek düğme
+// (gradyan ve parıltı yok, site kuralı). Metinler tools/blog/simulasyon.mjs'de. Simülasyon yeni sekmede
+// açılır (Ahmet 01.11), ekran okuyucuya görünmez not.
+import Icon from './Icon.astro';
+import { SIMULASYON_KARTLARI, simulasyonYolu, YENI_SEKME, YENI_SEKME_NOTU_HTML } from '../../../blog/simulasyon.mjs';
+const { deger } = Astro.props;
+const kart = SIMULASYON_KARTLARI[deger];
+const yol = simulasyonYolu(deger);
+---
+{kart && (
+  <aside class="sim3d" aria-label="3D Simülasyon">
+    <span class="sim3d-simge" aria-hidden="true"><Icon name="rotate-3d" size={26} /></span>
+    <div class="sim3d-metin">
+      <p class="sim3d-ust">3D Simülasyon <span aria-hidden="true">·</span> Ortaokul 5-8</p>
+      <p class="sim3d-baslik">{kart.baslik}</p>
+      <p class="sim3d-cumle">{kart.metin}</p>
+    </div>
+    <a class="sim3d-dugme" href={yol} {...YENI_SEKME}>Simülasyonu aç<Icon name="arrow-right" size={17} /><Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
+  </aside>
+)}

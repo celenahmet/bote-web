@@ -231,6 +231,16 @@
 - [PDF Merkezi: BÖTE Blog Yazılarının PDF'leri](https://bote.web.tr/pdf): BÖTE blog yazılarının ücretsiz PDF'leri. Konuya veya belge koduna göre arayın; indirme ve görüntülenme sayılarını görün, güncel sürümü ücretsiz indirin.
 - [BÖTE - Site Haritası](https://bote.web.tr/site-map): bote.web.tr site haritası: bölüm tanıtımı, müfredat, meslek unvanları, staj, akreditasyon, üniversiteler, blog ve İngilizce sayfalara tek yerden ulaşın.
 
+## 3D Simülasyon Merkezi
+
+Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino UNO ve breadboard'u üç boyutlu anlatan etkileşimli dersler. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
+
+- [3D Simülasyon Merkezi: Arduino ve Breadboard](https://bote.web.tr/3d): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard dersleri: üç boyutlu sahne, sınıfa göre anlatım ve mini sınav.
+- [Arduino ve Breadboard'u Tanıyalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino-ve-breadboard): Arduino UNO kartının parçalarını ve breadboard'un gizli bağlantılarını 3D simülasyonla keşfedin. Ortaokul 5-8. sınıflara özel anlatım.
+- [LED Yakalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino-led-yakma): Arduino UNO ile ilk devre: LED, 220 ohm direnç ve kısa bir kodla yanıp sönen ışık. Ortaokul 5-8. sınıflara özel anlatımlı 3D simülasyon.
+- [Butonla LED Yakalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino-buton-led): Butona basınca yanan LED: Arduino UNO ile giriş ve çıkış, 10 kΩ pull-down direnci ve if-else kodu. Ortaokul 5-8. sınıflara özel 3D simülasyon.
+- [Trafik Işığı Yapalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino-trafik-isigi): Arduino UNO ve üç LED ile trafik ışığı modeli: ışıkların sırası, algoritma, döngü ve bekleme süreleri. Ortaokul 5-8. sınıflara özel 3D simülasyon.
+
 ## English pages
 
 - [CEIT : Computer Education and Instructional Teaching](https://bote.web.tr/en): Computer Education and Instructional Teaching, It was established in 1998 during the restructuring process of education faculties. Graduates of the...

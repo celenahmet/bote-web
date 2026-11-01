@@ -4,6 +4,7 @@ description: "Bilgi işlemsel düşünme (computational thinking) nedir, hangi b
 imageAlt: "Bilgi İşlemsel Düşünme Nedir? Tanım, Bileşenler ve Örnekler"
 date: 2026-09-25
 category: egitim-teknolojileri
+simulasyon: arduino-trafik-isigi
 type: kavram
 tags: [bilgi işlemsel düşünme, computational thinking, kodlama, problem çözme, bilgisayar bilimi]
 summary:
@@ -167,6 +168,8 @@ Avrupa'da okul bilişim eğitimini karşılaştıran Eurydice raporu, bilişimin
 Bilgi işlemsel düşünmeyi öğretmek için her zaman bilgisayar gerekmez. Sık kullanılan bir etkinlikte öğrencilerden bir sandviç hazırlamanın adımlarını yazmaları istenir. Öğretmen yazılan adımları harfiyen uygular: "Ekmeğe peynir koy" denildiğinde paketi açmadan peyniri ekmeğin üzerine bırakır. Sınıf gülerken önemli bir ders çıkar: bir algoritma, uygulayıcının hiçbir şeyi tahmin etmesine gerek bırakmayacak kadar açık olmalıdır.
 
 Etkinlik sonrasında öğrenciler adımlarını yeniden yazar. Bu sırada farkında olmadan beş beceriyi birlikte kullanırlar. Görevi alt adımlara ayırırlar (ayrıştırma), gereksiz ayrıntıyı atarlar (soyutlama), tekrar eden işleri fark ederler (örüntü tanıma), adımları sıralarlar (algoritma) ve hataları düzeltirler (hata ayıklama). Aynı mantık daha sonra blok tabanlı programlama araçlarına taşınabilir; Scratch gibi araçlar öğrencilerin kendi fikirlerini proje hâline getirmesine olanak tanır.[@resnick2009]
+
+Adımları bir devreye taşımak isteyenler için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersinde](/3d/arduino-trafik-isigi) öğrenciler ışıkların sırasını bir algoritma olarak yazar ve Arduino devresinde üç boyutlu olarak çalıştırır.
 
 ## Nasıl değerlendirilir?
 

@@ -2,6 +2,7 @@
 // - src/main.js ve three.js tek dosyada paketlenir (esbuild, ağaç sallama, küçültme) -> 3d/assets/sim-<özet>.js
 // - İçerik (icerik/ders-N.json, kavramlar.json) HTML'e yazılır: kartlar JavaScript'siz de okunur.
 // - ONIZLEME true iken sayfalar noindex'tir ve siteden bağlantı almaz (blog taslakları gibi).
+//   01.11.2026: Ahmet onayıyla yayında ("arama motorlarına da çıkabilir, sorun yok"): ONIZLEME=false.
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
@@ -14,7 +15,7 @@ const CIKTI = path.join(KOK, '3d');
 const require = createRequire(path.join(KOK, 'tools/package.json'));
 const esbuild = require('esbuild');
 const SITE = 'https://bote.web.tr';
-const ONIZLEME = true;
+const ONIZLEME = false;
 const { DERSLER, KONTROL_YAZI } = await import(pathToFileURL(path.join(BU, 'src/adimlar.js')).href);
 const { KESIF, KATEGORI, KATEGORI_SIRA } = await import(pathToFileURL(path.join(BU, 'src/kesif-veri.js')).href);
 

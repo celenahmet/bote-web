@@ -1,7 +1,20 @@
 ---
 import { loadBlog, NAV_MAIN } from '../lib.js';
+import { merkezBaglantisiMi, YENI_SEKME, YENI_SEKME_NOTU_HTML } from '../../../blog/simulasyon.mjs';
 const blog = loadBlog();
 const cats = blog.categories.filter((c) => c.count);
+// Dengeli alt bilgi (Ahmet 01.11: "footerı da dengeli hale getirelim"). Eskiden Blog sütunu 10
+// bağlantıyla öteki sütunlardan uzundu; artık Blog yalnız yazılar ve kategoriler (8), blog dışındaki
+// araç ve rehberler Keşfet'te (6). Bölüm 8, Makineler için 5 + not; sütun boyları birbirine yakın.
+// 3D Simülasyon Merkezi yeni sekmede açılır (Ahmet 01.11), ekran okuyucuya görünmez not (simulasyon.mjs).
+const kesfet = [
+  ['3D Simülasyon Merkezi', '/3d'],
+  ['PDF Merkezi', '/pdf'],
+  ['AGS rehberi', '/blog/ags'],
+  ['AGS geri sayımı', '/blog/ags-geri-sayim'],
+  ['Atıf kartı ekleme', '/blog/atif-karti-ekleme'],
+  ['Editör Ekibi', blog.author.url],
+];
 ---
 <footer class="foot">
   <div class="wrap">
@@ -18,10 +31,14 @@ const cats = blog.categories.filter((c) => c.count);
         <h2>Blog</h2>
         <ul>
           <li><a href="/blog">Tüm yazılar</a></li>
-          <li><a href="/pdf">PDF Merkezi</a></li>
           {cats.map((c) => <li><a href={c.url}>{c.name}</a></li>)}
-          <li><a href={blog.author.url}>Editör Ekibi</a></li>
         </ul>
+      </section>
+      <section>
+        <h2>Keşfet</h2>
+        <ul>{kesfet.map(([t, h]) => merkezBaglantisiMi(h)
+          ? <li><a href={h} {...YENI_SEKME}>{t}<Fragment set:html={YENI_SEKME_NOTU_HTML} /></a></li>
+          : <li><a href={h}>{t}</a></li>)}</ul>
       </section>
       <section>
         <h2>Makineler için</h2>

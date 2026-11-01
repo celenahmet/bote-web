@@ -24,10 +24,28 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
 - Performans ilkeleri korunur: istek üzerine çizim (boşta kare yok), gölge haritası yalnız parça
   hareketinde, uyarlanır çözünürlük ve hareket bitince tam çözünürlükte keskin kare. `?olcum=1`
   kare/sn panelini açar; `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
-- Önizleme: build.mjs içinde ONIZLEME=true iken sayfalar noindex, robots.txt `Disallow: /3d`,
-  sitemap ve llms dışı, siteden bağlantı yok (blog taslakları gibi; yukarıdaki bağlantısız bölüm
-  kuralının bilinçli istisnası). Ahmet onaylayınca: ONIZLEME=false, robots satırı kalkar, sitemap,
-  llms ve menü bağlantısı eklenir. İçeriği gelmemiş ders sayfası üretilmez.
+- Yayında (Ahmet 01.11: "arama motorlarına da çıkabilir, sorun yok"): build.mjs içinde
+  ONIZLEME=false, sayfalar dizine açık, robots.txt'te /3d yasağı yok. build-blog.mjs 3d/*.html'i
+  tarar; /3d ve ders sayfaları sitemap.xml, llms.txt ("3D Simülasyon Merkezi" bölümü) ve HTML site
+  haritalarına girer, noindex olan atlanır. Siteden bağlantı: blog üst menüsünde "Simülasyon"
+  (1100 px ve üstü; 1000-1099 px'te sığmadığı için yalnız Menü'de), Menü'de "3D Simülasyon Merkezi",
+  alt bilgide Keşfet sütunu. Önizlemeye dönülürse (ONIZLEME=true) sitemap ve llms 3D sayfalarını
+  kendiliğinden atlar; robots satırı ve bu bağlantılar elle geri alınır. İçeriği gelmemiş ders
+  sayfası üretilmez.
+- Blog kartı: yazı ön bilgisindeki `simulasyon: <ders adı | merkez>` alanı, "AI ile Özetle"nin
+  altına 3D Simülasyon kartını koyar (SimulasyonKarti.astro; izinli değerler ve kart metinleri
+  tools/blog/simulasyon.mjs). Doğrulayıcı tanımsız değeri ve 3d/ altında sayfası olmayan dersi hata
+  sayar; yeni ders önce 3D derlemesine, sonra bu listeye girer. Kart ve metin içi bağlantı yalnız
+  konuyla ilgili yazılarda (Arduino, breadboard, BTY, kodlama, fiziksel programlama, bilgi işlemsel
+  düşünme, algoritma).
+- Yeni sekme (Ahmet 01.11: "3D Simülasyon Merkezine giden TÜM bağlantılar yeni sekmede açılsın"):
+  üst menü, Menü, alt bilgi, yazı içi bağlantılar, kart ve HTML site haritaları `target="_blank"
+  rel="noopener"` taşır; bağlantının içinde ekran okuyucu için görünmez "(yeni sekmede açılır)" notu
+  (.sr-only) bulunur, İngilizce site haritasında "(opens in a new tab)". Tek kaynak
+  tools/blog/simulasyon.mjs (YENI_SEKME, notlar, merkezBaglantisiMi); markdown.mjs yazı içindeki
+  /3d bağlantılarına bunu kendiliğinden ekler. Not besleme, PDF gövdesi ve kelime sayımından
+  çıkarılır. Denetim: 3d/ dışındaki HTML'de /3d'ye gidip target="_blank" taşımayan bağlantı 0
+  olmalı. Merkezin kendi iç gezinmesi bu kuralın dışında.
 - İçerik kaynakları resmî (Arduino belgeleri, MEB öğretim programları, mevzuat); metinde uzun tire
   ve ters tırnak yok; çocuklara sıcak ama ciddi dil.
 
@@ -241,6 +259,9 @@ Bulut oturumu dahil her yazıda geçerlidir.
 - Mezunlar sayfası içeriği `content/pages/mezunlar.md` ve `en-graduates.md`'den üretilir.
 - Blog kaynağı `content/blog/`, üretilen çıktı `blog/` (commit'lenir):
   `cd tools && npm run build` (Astro + kök dosyalar: sitemap, llms.txt, site haritaları).
+  Astro ada kimliği (uid) derlendiği klasörün mutlak yolundan türer: başka klasörde (ör. git
+  worktree) derlenen blog/ ana kopyada `npm test`'te "degisecek" verir; birleştirmeden sonra ana
+  kopyada yeniden build alınır.
 
 - PDF Merkezi (25.10): konu/kod arama, kategori filtresi, sıralama ve belge kartları.
   İndirme gerçek BT kayıtlarından, görüntülenme ilgili blog yazısı sayacından gelir.

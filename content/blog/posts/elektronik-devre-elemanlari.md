@@ -5,6 +5,7 @@ description: "Elektronik Devre Elemanları dersinin bütün konuları: direnç, 
 imageAlt: "Elektronik Devre Elemanları Nelerdir? BÖTE Dersi Rehberi"
 date: 2026-09-28
 category: bolum-rehberi
+simulasyon: arduino-led-yakma
 type: rehber
 tags: [elektronik devre elemanları, elektronik devre elemanları nelerdir, BTE 114, BÖTE dersleri, ohm yasası, kirchhoff yasaları, mantık kapıları, boole cebiri, sayı sistemleri, karnaugh haritası]
 summary:
@@ -212,6 +213,8 @@ Bu izlencede yarıyıl içi çalışmaların ağırlığı yüzde 50'dir: ara s�
 Elektronik Devre Elemanları kendi başına bitmeyen bir derstir; programın sonraki derslerine zemin hazırlar. YÖK programındaki **Bilişim Sistemleri Donanımı** dersi bilgisayar mantığı ve mimarisini, ROM, RAM ve önbellek gibi bellek türlerini işler. Dördüncü sınıftaki [Fiziksel Programlama](/blog/fiziksel-programlama-nedir) dersi ise robotların mekanik, elektromekanik ve elektronik bileşenlerini kapsar.[@yok2018] Birinci yıldaki mantık kapıları olmadan bellek devreleri, direnç ve diyot bilgisi olmadan da bir robot kitindeki devre anlaşılmaz.
 
 Bu bağ, bilişim teknolojileri öğretmeni için doğrudan meslek bilgisidir. Okullarda bilişim ve yazılım derslerini veren öğretmen, öğrencilerine bilgisayarın ve robotik kitlerin nasıl çalıştığını anlatırken bu dersteki kavramları kullanır. Dersin öğretmenlik açısından okulda nereye oturduğu için [Bilişim Teknolojileri ve Yazılım dersi](/blog/bilisim-teknolojileri-ve-yazilim-dersi) yazısına bakabilirsiniz.
+
+Direnç ve LED'in ortaokulda nasıl anlatılabileceğine bir örnek [3D Simülasyon Merkezi'ndeki LED Yakalım dersidir](/3d/arduino-led-yakma): devre breadboard üzerinde üç boyutlu kurulur, 8. sınıf anlatımında LED'in akımı Ohm yasasıyla hesaplanır.
 
 ## Haftalık konu sırası
 

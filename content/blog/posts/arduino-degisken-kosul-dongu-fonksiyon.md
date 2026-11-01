@@ -5,6 +5,7 @@ description: "Arduino'da veri türleri ve aralıkları, sabit ve dizi, if ve swi
 imageAlt: "Arduino Programlama: Değişken, Koşul, Döngü ve Fonksiyon"
 date: 2026-10-04
 category: bolum-rehberi
+simulasyon: arduino-trafik-isigi
 type: rehber
 tags: [arduino, arduino programlama, değişken, veri türleri, sabit, dizi, if else, switch case, for döngüsü, while döngüsü, fonksiyon, hata ayıklama, seri monitör, fiziksel programlama]
 summary:
@@ -683,6 +684,8 @@ void loop() {
 - Pin dizisi sabit olarak tanımlanmıştır; dizi sabit olacaksa #define değil const kullanılır.[@const]
 - Döngü sayacı i, dizinin indisi olarak kullanılır; i < ledSayisi koşulu i'yi 0 ile 3 arasında tutar ve ledler[4]'e hiç erişilmez.[@dizi]
 - ledYak bir değer döndürmediği için void ile tanımlanmıştır.[@void] Bir tur 4 × 200 = 800 ms sürer.
+
+Aynı sırayla yakma fikrini ortaokul düzeyinde, üç LED'li bir trafik ışığı modeliyle üç boyutlu kurup çalıştırmak için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersine](/3d/arduino-trafik-isigi) bakabilirsiniz.
 
 ## Öğrencilerin sık yaptığı hatalar
 

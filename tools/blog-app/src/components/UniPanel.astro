@@ -80,8 +80,9 @@ const ext = { rel: 'sponsored noopener', target: '_blank' };
         </div>
       </div>
       <div class="uc-actions">
-        <a class="uc-btn uc-ghost" href={promoUrl(sc.blog)} {...ext}>UniConnectly Blog <Icon name="arrow-right" size={16} /></a>
-        <a class="uc-btn uc-primary" href={promoUrl(sc.url)} {...ext}>UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
+        {/* Düğme simgeleri (Ahmet 01.11: "blog reklamına da ikonlu vs koyabiliriz, daha ilgi çekici durur"). Renk ve gradyan aynı. */}
+        <a class="uc-btn uc-ghost" href={promoUrl(sc.blog)} {...ext}><Icon name="book-open-text" size={17} />UniConnectly Blog <Icon name="arrow-right" size={16} /></a>
+        <a class="uc-btn uc-primary" href={promoUrl(sc.url)} {...ext}><Icon name="compass" size={17} />UniConnectly'yi keşfet <Icon name="arrow-right" size={16} /></a>
       </div>
     </div>
   </aside>
