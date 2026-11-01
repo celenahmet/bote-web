@@ -20,6 +20,7 @@ function vekilKaydet(parca, ad, hedefler, ozel = {}) {
 
 function led(renk, anotSutun, satir = 'e') {
   const n = ledYap(renk);
+  n.userData.renk = renk; // Fiziksel görünüm (gercekciParca.js) okur
   const a = delikNokta(anotSutun, satir), k = delikNokta(anotSutun + 1, satir);
   const takili = new Vector3((a.x + k.x) / 2, BB_UST, a.z);
   n.position.copy(takili);
@@ -28,6 +29,7 @@ function led(renk, anotSutun, satir = 'e') {
 }
 function direnc(bantlar, a, b, kavram = 'direnc') {
   const n = direncYap(bantlar, a.distanceTo(b));
+  n.userData.bantlar = bantlar; // Fiziksel görünüm (gercekciParca.js) okur
   ikiNoktayaKoy(n, a, b);
   const takili = n.position.clone();
   const ozel = { direnc: DEGER[bantlar.join()], 'renk-bantlari': `${bantlar.map((r) => RENK_AD[r].toLocaleLowerCase('tr')).join(', ')}: ${DEGER[bantlar.join()].replace(' direnç', '')}` };

@@ -7,6 +7,7 @@ import { devreKur, ledYolu } from './devre.js';
 import { DERSLER, KAMERA } from './adimlar.js';
 import { KESIF, KATEGORI, kategoriBul } from './kesif-veri.js';
 import { TELEFON_SORGU } from './telefon.js';
+import { gercekciBagla } from './gercekci.js'; // Fiziksel görünüm: aynı sahneye ikinci kaplama
 
 const html = document.documentElement;
 const $ = (s, k = document) => k.querySelector(s);
@@ -361,13 +362,14 @@ function dersSayfasi() {
     parcalar = ders.devre ? devreKur(ders.devre, S.hedefler) : {};
     for (const p of Object.values(parcalar)) { p.nesne.visible = false; S.scene.add(p.nesne); p.kutular = yerelKutular(p); }
     S.dokunmaDinle(dokunuldu);
+    const G = gercekciBagla({ S, kart, bb, parcalar, html });
     if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[sayfaDurum]()), true);
     adimUygula(kartlar[aktif].dataset.id, true);
     requestAnimationFrame(() => sahneAlani.classList.add('hazir'));
     if (new URLSearchParams(location.search).has('olcum')) {
       olcumPaneli();
       // ölçüm ve otomatik deneme betikleri için (yalnız ?olcum ile)
-      window.__3d = { S, kart, bb, parcalar, adimaGit, kameraBul, gorunumSec, adim: () => kartlar[aktif].dataset.id };
+      window.__3d = { S, kart, bb, parcalar, adimaGit, kameraBul, gorunumSec, adim: () => kartlar[aktif].dataset.id, gercekci: G };
     }
   }
   // Kadrajın güvenli alanı (tuval kenarlarından px): sahnedeki düğme şeridi (telefonda kart sayfasının üstünde
