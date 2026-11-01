@@ -79,6 +79,10 @@ p{margin:0}
 @media(max-width:1399px){.topbar-in{gap:16px;padding-inline:24px}.topnav{gap:2px}.topnav a{padding-inline:9px}}
 @media(max-width:999px){.topnav{display:none}.topbar-in{justify-content:space-between}.mobile-category-links{display:block;border-bottom:1px solid var(--line);margin-bottom:4px;padding-bottom:4px}.top-actions{border:0;padding:0}}
 @media(max-width:599px){.topbar-in{padding-inline:18px;gap:12px}.brand-mark{font-size:21px}.top-actions{gap:0}.brand-ags{padding:6px 9px;font-size:11px;gap:4px}.brand-ags .ico{display:none}}
+/* 389 px ve altı (Ahmet: "telefondan da çalışabilirler"): üst çubuk 360 px'te 8 px taşıyordu (içerik 350 px + 36 px kenar boşluğu, 360'a sığmıyor).
+   Boşluklar, marka yazısı ve AGS hapı küçülür; 359 px ve altında hap yazısı "AGS"ye kısalır (tam ad aria-label'da kalır). Çubuk tek satır ve 68 px kalır. */
+@media(max-width:389px){.topbar-in{padding-inline:12px;gap:8px}.brand-mark{font-size:19px}.brand-ags{padding:6px 8px;font-size:10.5px}}
+@media(max-width:359px){.brand-ags .ags-ek{display:none}}
 
 /* --- yol --- */
 .crumbs{min-width:0;max-width:100%;width:100%}
