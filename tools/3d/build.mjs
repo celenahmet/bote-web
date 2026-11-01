@@ -16,6 +16,7 @@ const esbuild = require('esbuild');
 const SITE = 'https://bote.web.tr';
 const ONIZLEME = true;
 const { DERSLER, KONTROL_YAZI } = await import(pathToFileURL(path.join(BU, 'src/adimlar.js')).href);
+const { KESIF, KATEGORI, KATEGORI_SIRA } = await import(pathToFileURL(path.join(BU, 'src/kesif-veri.js')).href);
 
 // ------------------------------------------------------------------ yardımcılar
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -39,6 +40,34 @@ const jsonGom = (o) => JSON.stringify(o).replace(/</g, '\\u003c');
 const ICERIK = path.join(BU, 'icerik');
 const okuJson = (ad) => { const p = path.join(ICERIK, ad); return fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null; };
 const kavramlar = okuJson('kavramlar.json') || {};
+// Keşif kartlarının içeriği (isteğe bağlı icerik/kesif.json): varsa gömülür, yoksa kart katalogdaki kısa açıklamayı
+// gösterir (src/kesif-veri.js). Aynı kimlik kavramlar.json'da da varsa kavramlar kazanır. Biçim esnek: kimlik ->
+// { ad, teknik, sosyal } (metin ya da sınıfa göre { 5, 6, 7, 8 }), ya da { id, ... } dizisi.
+const sinifli = (x) => {
+  if (typeof x === 'string') return Object.fromEntries(SINIF.map((s) => [s, guvenli(x)]));
+  if (!x || typeof x !== 'object') return null;
+  const ilk = SINIF.map((s) => x[s]).find((v) => typeof v === 'string') || '';
+  return Object.fromEntries(SINIF.map((s) => [s, guvenli(typeof x[s] === 'string' ? x[s] : typeof x['6'] === 'string' ? x['6'] : ilk)]));
+};
+const KESIF_ALAN = { teknik: ['teknik', 'tanim', 'metin', 'aciklama'], sosyal: ['sosyal', 'gunluk', 'gunlukHayat', 'hayat'] };
+function kesifNormal(id, x) {
+  if (!x || typeof x !== 'object') return null;
+  const katman = (s) => x.siniflar?.[s] || x.sinif?.[s] || (typeof x[s] === 'object' ? x[s] : null);
+  const al = (tur) => {
+    const duz = KESIF_ALAN[tur].map((k) => x[k]).find((v) => v != null);
+    if (duz != null) return sinifli(duz);
+    const sk = Object.fromEntries(SINIF.map((s) => [s, KESIF_ALAN[tur].map((k) => katman(s)?.[k]).find((v) => typeof v === 'string')]).filter(([, v]) => v));
+    return Object.keys(sk).length ? sinifli(sk) : null;
+  };
+  const teknik = al('teknik');
+  return teknik ? { ad: typeof x.ad === 'string' ? x.ad : KESIF[id]?.ad || id, teknik, sosyal: al('sosyal') || {} } : null;
+}
+let kesifHam = null;
+try { kesifHam = okuJson('kesif.json'); } catch (e) { console.warn(`uyari: icerik/kesif.json okunamadı (${e.message}); keşif kartları kısa açıklamayla çıkar`); }
+const kesifListe = Array.isArray(kesifHam) ? Object.fromEntries(kesifHam.filter((x) => x?.id).map((x) => [x.id, x])) : (kesifHam?.kesif && typeof kesifHam.kesif === 'object' ? kesifHam.kesif : kesifHam) || {};
+const kesifIcerik = Object.fromEntries(Object.entries(kesifListe).filter(([id]) => !kavramlar[id]).map(([id, x]) => [id, kesifNormal(id, x)]).filter(([, v]) => v));
+// keşif kartlarının kullandığı kavramlar (kimliğin kendisi ya da eşleştiği kavram)
+const KESIF_KAVRAM = [...new Set(Object.entries(KESIF).flatMap(([id, k]) => [id, k.kavram]).filter((k) => k && kavramlar[k]))];
 const YEDEK_AD = { 'arduino-ve-breadboard': "Arduino ve Breadboard'u Tanıyalım", 'arduino-led-yakma': 'LED Yakalım', 'arduino-buton-led': 'Butonla LED Yakalım', 'arduino-trafik-isigi': 'Trafik Işığı Yapalım' };
 function taslakDers(slug, cfg) { // içerik gelmeden motoru denemek için yer tutucu (yayına çıkmaz)
   return {
@@ -65,7 +94,9 @@ const ozet = crypto.createHash('sha1').update(kod).digest('hex').slice(0, 10);
 const jsAd = `sim-${ozet}.js`;
 for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^sim-.*\.js$/.test(f) && f !== jsAd) fs.unlinkSync(path.join(CIKTI, 'assets', f));
 fs.writeFileSync(path.join(CIKTI, 'assets', jsAd), kod);
-const css = fs.readFileSync(path.join(BU, 'stil.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
+// keşif gruplarının renkleri tek kaynaktan (src/kesif-veri.js); açık zeminde koyu simge
+const katCss = KATEGORI_SIRA.map((k) => `[data-kat=${k}]{--k:${KATEGORI[k].renk};--ki:${KATEGORI[k].koyu ? '#1b1426' : '#fff'}}`).join('\n');
+const css = (fs.readFileSync(path.join(BU, 'stil.css'), 'utf8') + '\n' + katCss).replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
 const BAS_BETIK = `(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');var m=localStorage.getItem('bote-3d-mod');if(m)d.setAttribute('data-mod',m)}catch(e){}if('noModule' in HTMLScriptElement.prototype)d.setAttribute('data-js','1');var s=new URLSearchParams(location.search).get('sinif');if(/^[5-8]$/.test(s))d.setAttribute('data-sinif',s);else try{var k=localStorage.getItem('bote-3d-sinif');if(/^[5-8]$/.test(k))d.setAttribute('data-sinif',k)}catch(e){}})();`;
 
 // ------------------------------------------------------------------ ortak parçalar
@@ -79,9 +110,9 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <script type="application/ld+json">${jsonGom(jsonld)}</script></head><body class="${sinif}">`;
 }
 const ustCubuk = (ders) => `<header class="ust"><a class="marka" href="/blog" aria-label="bote.web.tr blog">bote<b>.web.tr</b></a><span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag" href="/3d">3D Simülasyon Merkezi</a>${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
-<div class="ust-sag">${ders ? `<button type="button" class="cip" id="sinif-dugme" aria-haspopup="dialog" aria-label="Sınıf düzeyini değiştir">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></button>
-<button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen">${ico('book-open')}<span class="yazi">Öğretmen</span></button>
-<button type="button" class="dugme" id="tahta-dugme" aria-pressed="false" title="Akıllı tahta için büyük düğme ve yazı">${ico('presentation')}<span class="yazi">Tahta modu</span></button>
+<div class="ust-sag">${ders ? `<span id="gorunum-yuva"></span><button type="button" class="cip" id="sinif-dugme" aria-haspopup="dialog" aria-label="Sınıf düzeyini değiştir">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></button>
+<button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen" aria-expanded="false" aria-label="Öğretmen notu" title="Öğretmen notu">${ico('book-open')}</button>
+<button type="button" class="dugme" id="tahta-dugme" aria-pressed="false" aria-label="Tahta modu" title="Akıllı tahta için büyük düğme ve yazı">${ico('presentation')}<span class="yazi">Tahta modu</span></button>
 <button type="button" class="dugme" id="tam-ekran" aria-label="Tam ekran">${ico('maximize')}</button>` : ''}
 <button type="button" class="dugme" id="tema-dugme" aria-label="Açık ya da koyu tema">${ico('moon')}</button></div></header>`;
 const sinifPenceresi = `<dialog id="sinif-penceresi" aria-labelledby="sinif-baslik"><h2 id="sinif-baslik">Kaçıncı sınıfla çalışıyoruz?</h2>
@@ -137,7 +168,7 @@ function ogretmenHtml(d) {
 <h2 id="ogretmen-baslik">Öğretmen notu</h2><p><strong>Süre:</strong> yaklaşık ${esc(d.sure)} dakika. <strong>Düzey:</strong> ortaokul; anlatım seçilen sınıfa (5-8) göre değişir.</p>
 ${SINIF.map((s) => (d.hedefler?.[s]?.length ? `<div data-s="${s}"><h3>Öğrenme hedefleri (${s}. sınıf)</h3><ul>${d.hedefler[s].map((x) => `<li>${guvenli(x)}</li>`).join('')}</ul></div>` : '')).join('')}
 ${o.hazirlik ? `<h3>Hazırlık</h3>${paragraf(o.hazirlik)}` : ''}${liste('Gerçek set için malzemeler', o.malzemeler)}${liste('Güvenlik', o.guvenlik)}${liste('Sık görülen yanlış düşünceler', o.yanilgilar)}${liste('Sınıf tartışması', o.tartisma)}${liste('Hızlı bitirenlere', o.ileri)}
-<h3>Kullanım</h3><ul><li>Akıllı tahtada üstteki <strong>Tahta modu</strong> yazıyı ve düğmeleri büyütür; <strong>Tam ekran</strong> tarayıcı çubuklarını gizler.</li><li>Adımlar arasında ok tuşları ya da sunum kumandasıyla geçilir.</li><li>Sahneyi bir parmakla döndürün, iki parmakla yakınlaştırın; <strong>Eğik, Üstten, Önden, Yandan</strong> düğmeleri hazır bakış açılarıdır.</li><li>Parçalara dokununca adı, teknik tanımı ve günlük hayattaki yeri seçili sınıfa göre görünür.</li></ul>
+<h3>Kullanım</h3><ul><li>Akıllı tahtada üstteki <strong>Tahta modu</strong> yazıyı ve düğmeleri büyütür; <strong>Tam ekran</strong> tarayıcı çubuklarını gizler.</li><li>Adımlar arasında ok tuşları ya da sunum kumandasıyla geçilir.</li><li>Sahneyi bir parmakla döndürün, iki parmakla yakınlaştırın ve kaydırın; <strong>Eğik, Üstten, Önden, Yandan</strong> düğmeleri hazır bakış açılarıdır ve sahneyi ekrana sığdırır.</li><li>Parçalara dokununca adı, teknik tanımı ve günlük hayattaki yeri seçili sınıfa göre görünür. Pinler yaklaştırınca tek tek seçilir.</li><li><strong>Keşif</strong> açıkken her parçanın üstünde renkli, numaralı bir işaret çıkar; renk ve simge parçanın grubunu gösterir (Güç, İşlem, Pinler, Işıklar, Breadboard, Parçalar, Kontrol). Öğrenciler önce tahmin eder, sonra cevabı görür; bu adım ayarlardan kapatılabilir.</li><li>Anlatım panelinin genişliği kenarından sürüklenerek ya da ayarlardaki sürgüyle değişir.</li></ul>
 ${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2><ul>${d.kaynaklar.map((k) => `<li><a href="${esc(k.adres)}" rel="noopener">${esc(k.ad)}</a></li>`).join('')}</ul>` : ''}</section>`;
 }
 function dersSayfasi(d) {
@@ -150,24 +181,27 @@ function dersSayfasi(d) {
       publisher: { '@type': 'Organization', name: 'bote.web.tr', url: SITE } },
     { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'bote.web.tr', item: `${SITE}/` }, { '@type': 'ListItem', position: 2, name: '3D Simülasyon Merkezi', item: `${SITE}/3d` }, { '@type': 'ListItem', position: 3, name: d.baslik, item: SITE + yol }] },
   ] };
-  const kv = Object.fromEntries((d.kavramlar?.length ? d.kavramlar : Object.keys(kavramlar)).concat(['arduino', 'usb', 'mikrodenetleyici', 'dijital', 'analog', 'gnd', 'breadboard', 'led', 'direnc', 'buton', 'kablo']).filter((k, i, a) => kavramlar[k] && a.indexOf(k) === i)
+  const kv = Object.fromEntries((d.kavramlar?.length ? d.kavramlar : Object.keys(kavramlar)).concat(KESIF_KAVRAM).filter((k, i, a) => kavramlar[k] && a.indexOf(k) === i)
     .map((k) => [k, { ad: kavramlar[k].ad, teknik: Object.fromEntries(SINIF.map((s) => [s, guvenli(kavramlar[k].teknik?.[s])])), sosyal: Object.fromEntries(SINIF.map((s) => [s, guvenli(kavramlar[k].sosyal?.[s])])) }]));
-  const veri = { slug: d.slug, kod: (d.kod?.satirlar || []).map((s) => s.k), trafikSirasi: d.trafikSirasi || null, kavramlar: kv };
+  const veri = { slug: d.slug, kod: (d.kod?.satirlar || []).map((s) => s.k), trafikSirasi: d.trafikSirasi || null, kavramlar: kv, kesifIcerik };
   const adimlar = d.cfg.adimlar ? Object.keys(d.cfg.adimlar).map((id) => d.adimlar.find((a) => a.id === id)).filter(Boolean) : d.adimlar;
   return `${bas({ baslik, aciklama: d.kisa, yol, jsonld, sinif: 'ders-sayfasi' })}<a class="atla" href="#kartlar">Anlatıma geç</a>${ustCubuk(d)}
 <main class="ders"><section class="sahne-alani" aria-label="3D sahne">
 <canvas id="sahne" role="img" aria-label="Arduino UNO kartı ve breadboard'un üç boyutlu görünümü. Parmakla döndürülebilir, iki parmakla yakınlaştırılabilir." tabindex="-1"></canvas>
-<div class="etiketler" aria-hidden="true"></div><div class="yukleniyor" aria-hidden="true">3D sahne hazırlanıyor</div>
+<div class="etiketler" aria-hidden="true"></div><div class="isaretler" role="group" aria-label="Keşif noktaları"></div><div class="yukleniyor" aria-hidden="true">3D sahne hazırlanıyor</div>
+<details class="lejant" id="lejant"><summary><span>Renkler</span>${ico('chevron-down')}</summary><ul>${KATEGORI_SIRA.map((k) => `<li data-kat="${k}"><span class="ki-daire" aria-hidden="true">${ico(KATEGORI[k].ikon)}</span>${esc(KATEGORI[k].ad)}</li>`).join('')}</ul></details>
+<template id="kesif-sablon">${KATEGORI_SIRA.map((k) => `<span data-kat="${k}">${ico(KATEGORI[k].ikon)}</span>`).join('')}</template>
 <div class="webgl-yok"><p>Bu cihaz 3D görüntüyü açamadı. Kartlardaki anlatım ve mini sınav çalışır.</p></div>
 <div class="baglam-mesaj"><p>Ekran kartı sahneyi durdurdu.</p><button type="button" class="dugme birincil" id="yeniden-yukle">Yeniden yükle</button></div>
 <p class="ipucu ipucu-delik">Bir deliğe dokun: bağlı delikler yeşil yanar</p><p class="ipucu ipucu-dokun">Parçalara dokunarak tanı</p>
-<aside id="bilgi" class="bilgi" hidden aria-live="polite"><button type="button" class="kapat" id="bilgi-kapat" aria-label="Bilgiyi kapat">${ico('x')}</button><div class="kesif-soru" id="kesif-soru" hidden><p class="etiket-kucuk">Keşif</p><h3>Sence bu nedir, ne işe yarar?</h3><button type="button" class="dugme birincil" id="kesif-gor">Cevabı gör</button></div><div id="bilgi-cevap"><h3 id="bilgi-baslik"></h3><p class="etiket-kucuk">Ne işe yarar?</p><p id="bilgi-teknik"></p><p class="sosyal"><strong>Günlük hayatta:</strong> <span id="bilgi-sosyal"></span></p></div></aside>
+<aside id="bilgi" class="bilgi" hidden aria-live="polite"><button type="button" class="kapat" id="bilgi-kapat" aria-label="Bilgiyi kapat">${ico('x')}</button><p class="bilgi-kat" id="bilgi-kat" hidden><span class="ki-daire" aria-hidden="true"></span><span id="bilgi-kat-ad"></span></p><div class="kesif-soru" id="kesif-soru" hidden><p class="etiket-kucuk">Keşif</p><h3>Sence bu nedir, ne işe yarar?</h3><button type="button" class="dugme birincil" id="kesif-gor">Cevabı gör</button></div><div id="bilgi-cevap"><h3 id="bilgi-baslik" tabindex="-1"></h3><p class="bilgi-ozel" id="bilgi-ozel" hidden></p><figure id="bilgi-gorsel" hidden><img alt=""></figure><p class="etiket-kucuk">Ne işe yarar?</p><p id="bilgi-teknik"></p><p class="sosyal"><strong>Günlük hayatta:</strong> <span id="bilgi-sosyal"></span></p></div></aside>
 <div class="sahne-arac"><div class="sol-arac"><button type="button" class="kesif-dugme" id="kesif-dugme" aria-pressed="false" title="Parçalara dokunarak ne olduklarını keşfet">${ico('search')}<span>Keşif</span></button><div class="gorunum" role="group" aria-label="Bakış açısı">${[['egik', 'Eğik', 'Eğik'], ['ustten', 'Üstten', 'Üst'], ['onden', 'Önden', 'Ön'], ['yandan', 'Yandan', 'Yan']].map(([k, y, ks]) => `<button type="button" data-gorunum="${k}" aria-pressed="${k === 'egik'}" aria-label="${y} bakış"><span class="uzun">${y}</span><span class="kisa" aria-hidden="true">${ks}</span></button>`).join('')}</div></div>
 <nav class="mini-gezinti" aria-label="Adımlar (panel kapalıyken)"><button type="button" id="mini-geri" aria-label="Önceki adım">${ico('chevron-left')}</button><button type="button" id="mini-ac" class="mini-baslik" aria-label="Anlatım panelini aç"><span id="mini-sayac">1/${adimlar.length}</span><span id="mini-baslik"></span></button><button type="button" id="mini-ileri" aria-label="Sonraki adım">${ico('chevron-right')}</button></nav>
 <div class="yakinlik" role="group" aria-label="Yakınlaştırma"><button type="button" id="uzaklas" aria-label="Uzaklaştır">${ico('zoom-out')}</button><button type="button" id="yakinlas" aria-label="Yakınlaştır">${ico('zoom-in')}</button></div></div></section>
-<div class="panel-kenar" role="separator" aria-orientation="vertical" aria-controls="kartlar" aria-label="Panel genişliği: sürükleyin ya da ok tuşlarını kullanın" tabindex="0"><button type="button" class="panel-dugme" id="panel-dugme" aria-controls="kartlar" aria-expanded="true" aria-label="Anlatım panelini kapat">${ico('chevron-right')}</button></div>
+<div class="panel-kenar" role="separator" aria-orientation="vertical" aria-controls="kartlar" aria-label="Panel genişliği: sürükleyin ya da ok tuşlarını kullanın" tabindex="0"><span class="kenar-tutamac" aria-hidden="true">${ico('grip-vertical')}</span><button type="button" class="panel-dugme" id="panel-dugme" aria-controls="kartlar" aria-expanded="true" aria-label="Anlatım panelini kapat">${ico('chevron-right')}</button></div>
 <section class="kart-alani" id="kartlar" aria-label="Anlatım kartları"><div class="tutamac" aria-hidden="true"><span></span></div><div class="kart-ust"><span class="adim-etiket">Adım <span id="adim-sayac">1 / ${adimlar.length}</span></span><span class="kisa-baslik" id="kisa-baslik"></span><div class="ilerleme" aria-hidden="true"><span id="ilerleme"></span></div><button type="button" class="kucuk-dugme" id="ayar-dugme" aria-expanded="false" aria-controls="ayarlar" aria-label="Panel ayarları" title="Panel genişliği, yazı boyutu, taraf">${ico('sliders-horizontal')}</button></div>
-<div class="ayarlar" id="ayarlar" hidden><p class="ayar-ad yatay-ayar">Panel genişliği</p><div class="grup yatay-ayar" role="group" aria-label="Panel genişliği">${[['dar', 'Dar'], ['orta', 'Orta'], ['genis', 'Geniş']].map(([k, y]) => `<button type="button" class="dugme" data-panel-boyut="${k}" aria-pressed="${k === 'orta'}">${y}</button>`).join('')}</div>
+<div class="ayar-perde" id="ayar-perde" hidden></div><div class="ayarlar" id="ayarlar" role="group" aria-labelledby="ayar-baslik" hidden><div class="ayar-ust"><p class="ayar-baslik" id="ayar-baslik">Panel ayarları</p><button type="button" class="kucuk-dugme" id="ayar-kapat" aria-label="Ayarları kapat">${ico('x')}</button></div>
+<p class="ayar-ad yatay-ayar reosta-ust"><span id="genislik-ad">Panel genişliği</span><output id="genislik-deger" for="panel-genislik">Orta</output></p><div class="reosta yatay-ayar"><input type="range" id="panel-genislik" min="0" max="100" step="1" value="50" aria-labelledby="genislik-ad"><div class="reosta-isaretler">${[['dar', 'Dar'], ['orta', 'Orta'], ['genis', 'Geniş']].map(([k, y]) => `<button type="button" class="reosta-isaret" data-panel-boyut="${k}" aria-pressed="${k === 'orta'}">${y}</button>`).join('')}</div></div>
 <p class="ayar-ad">Yazı boyutu</p><div class="grup" role="group" aria-label="Yazı boyutu"><button type="button" class="dugme" data-yazi="-1" aria-label="Yazıyı küçült">A−</button><span class="yazi-deger" id="yazi-deger">%100</span><button type="button" class="dugme" data-yazi="1" aria-label="Yazıyı büyüt">A+</button></div>
 <p class="ayar-ad yatay-ayar">Panel tarafı</p><div class="grup yatay-ayar" role="group" aria-label="Panel tarafı"><button type="button" class="dugme" data-yan="sol" aria-pressed="false">Sol</button><button type="button" class="dugme" data-yan="sag" aria-pressed="true">Sağ</button></div>
 <label class="ayar-satir"><input type="checkbox" id="tahmin-ayar" checked> Keşifte önce tahmin ettir</label></div>
@@ -186,12 +220,13 @@ function merkezSayfasi() {
     hasPart: dersler.map((d) => ({ '@type': 'LearningResource', name: d.baslik, url: `${SITE}/3d/${d.slug}` })) };
   return `${bas({ baslik, aciklama, yol, jsonld })}${ustCubuk(null)}<main class="merkez"><section class="giris"><h1>3D Simülasyon Merkezi</h1>
 <p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard'u üç boyutlu inceleyin, devreyi adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
-<section class="secim-kutusu" aria-labelledby="sinif-sec-baslik"><h2 id="sinif-sec-baslik">Önce sınıfı seçin</h2>${sinifIzgara()}</section>
-<ol class="ders-listesi">${dersler.map((d) => (d.taslak ? `<li><div class="hazirlaniyor"><span class="no">${d.cfg.no}</span><h2>${esc(YEDEK_AD[d.slug])}</h2><p>Hazırlanıyor.</p></div></li>` : `<li><a data-ders-baglanti href="/3d/${d.slug}"><span class="no">${d.cfg.no}</span><h2>${esc(d.baslik)}</h2><p>${esc(d.kisa)}</p><span class="meta">${Object.keys(d.cfg.adimlar).length} adım · yaklaşık ${esc(d.sure || 20)} dk</span></a></li>`)).join('')}</ol>
+<section class="akis secim-kutusu" aria-labelledby="sinif-sec-baslik"><h2 id="sinif-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">1</span>Sınıfı seç</h2><p class="akis-aciklama">Anlatım, tanımlar ve mini sınav seçilen sınıfa göre hazırlanır.</p>${sinifIzgara()}</section>
+<section class="akis dersler-akis" id="dersler" aria-labelledby="ders-sec-baslik"><h2 id="ders-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">2</span>Dersi seç</h2>
+<ol class="ders-listesi">${dersler.map((d) => (d.taslak ? `<li><div class="hazirlaniyor"><span class="no">${d.cfg.no}</span><h3>${esc(YEDEK_AD[d.slug])}</h3><p>Hazırlanıyor.</p></div></li>` : `<li><a data-ders-baglanti href="/3d/${d.slug}"><span class="no">${d.cfg.no}</span><h3>${esc(d.baslik)}</h3><p>${esc(d.kisa)}</p><span class="meta">${Object.keys(d.cfg.adimlar).length} adım · yaklaşık ${esc(d.sure || 20)} dk</span><span class="ders-sinif">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></span></a></li>`)).join('')}</ol></section>
 <div class="notlar"><section><h2>Akıllı tahtada</h2><p>Ders sayfasında Tahta modu ve Tam ekran düğmeleri yazıyı ve düğmeleri büyütür. Adımlar ok tuşları ya da sunum kumandasıyla geçilir.</p></section>
 <section><h2>Sınıfa göre anlatım</h2><p>5, 6, 7 ve 8. sınıf için ayrı tanımlar, açıklamalar ve sorular vardır. Her kavramın teknik tanımı ve günlük hayattaki yeri birlikte verilir.</p></section>
 <section><h2>Tahmin et, sonra gör</h2><p>Öğrenciler önce tahmin eder, sonra sahnede sonucu görür: LED ters takılırsa ne olur, direnç çıkarılırsa ne değişir?</p></section></div></main>
-<footer class="alt"><a href="/blog">bote.web.tr blog</a></footer><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
+<footer class="alt"><a href="/blog">bote.web.tr blog</a></footer><div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
 }
 
 // ------------------------------------------------------------------ yaz

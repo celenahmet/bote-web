@@ -37,6 +37,36 @@ export function pinNokta(ad) {
   if (k in ANALOG) return ardNokta(ANALOG[k], ALT_Z, BASLIK_UST);
   throw new Error('bilinmeyen pin ' + ad);
 }
+// Pinin keşif kimliği ve kartta yazan adı (NC bağlı değildir: kimliği yok)
+const PWM = ['3', '5', '6', '9', '10', '11'];
+export function pinKesif(ad) {
+  const k = String(ad);
+  if (k === '13') return 'pin-13';
+  if (k === '0' || k === '1') return 'pin-rx-tx';
+  if (PWM.includes(k)) return 'pin-pwm';
+  if (/^\d+$/.test(k)) return 'pin-dijital';
+  if (k.startsWith('GND')) return 'pin-gnd';
+  return { '5V': 'pin-5v', '3.3V': 'pin-3v3', VIN: 'pin-vin', AREF: 'pin-aref', IOREF: 'pin-ioref', RESET: 'pin-reset', SDA: 'pin-sda-scl', SCL: 'pin-sda-scl' }[k]
+    || (/^A\d$/.test(k) ? 'pin-analog' : null);
+}
+export function pinAdi(ad) {
+  const k = String(ad);
+  if (k === '0') return '0. pin (RX)';
+  if (k === '1') return '1. pin (TX)';
+  if (PWM.includes(k)) return `${k}. pin (~${k})`;
+  if (/^\d+$/.test(k)) return `${k}. pin`;
+  if (k.startsWith('GND')) return 'GND';
+  return { '3.3V': '3,3V', VIN: 'Vin' }[k] || k;
+}
+
+// Dokunma vekili: görünmez kutu. Yalnız konum ve yarı boyut taşır; seçimde dokunulan yüzey noktasını içeren
+// en küçük vekil kazanır (sahne.js). veri: { kesif, ozel, parca, minAdim, minPx, ... }
+export function vekil(veri, w, h, d, x = 0, y = 0, z = 0) {
+  const o = new Object3D(); o.position.set(x, y, z);
+  o.userData = { ...veri, yari: [w / 2, h / 2, d / 2], hacim: veri.hacim ?? w * h * d };
+  o.updateMatrixWorld();
+  return o;
+}
 
 const SATIR = { a: 13.97, b: 11.43, c: 8.89, d: 6.35, e: 3.81, f: -3.81, g: -6.35, h: -8.89, i: -11.43, j: -13.97 };
 const sutunX = (c) => BB.x - 36.83 + (c - 1) * ADIM;
@@ -209,29 +239,65 @@ export function kartYap(hedefler) {
   kucukLed(28.5, 13.3, 0xffd54f); kucukLed(28.5, 15.4, 0xffd54f);
 
   golgeAyarla(g);
-  // dokunma ve vurgu kutuları
+  // vurgu kutuları (adımlarda mor çerçeve) ve etiket noktaları
+  const alan = (bx, bz, y, w, h, d) => { const q = ardNokta(bx, bz, y); return [q.x, q.y, q.z, w, h, d]; };
   const alanlar = {
     kart: [ARD.x, 7, ARD.z, ARD.w, 14, ARD.d],
-    usb: (() => { const q = ardNokta(1.65, 15.24, PCB_UST + 5.45); return [q.x, q.y, q.z, 17, 11.6, 12.8]; })(),
-    'guc-girisi': (() => { const q = ardNokta(5.2, 44.9, PCB_UST + 5.5); return [q.x, q.y, q.z, 15, 11.8, 9.8]; })(),
-    mikrodenetleyici: (() => { const q = ardNokta(44.5, 36.8, PCB_UST + 3); return [q.x, q.y, q.z, 38.5, 6.2, 10.2]; })(),
-    'dijital-pinler': (() => { const q = ardNokta((dijA.x1 + dijB.x2) / 2, DIJ_Z, PCB_UST + 4.3); return [q.x, q.y, q.z, dijB.x2 - dijA.x1 + 1.2, 9.4, 3.6]; })(),
-    'analog-pinler': (() => { const q = ardNokta((ana.x1 + ana.x2) / 2, ALT_Z, PCB_UST + 4.3); return [q.x, q.y, q.z, ana.x2 - ana.x1 + 1.2, 9.4, 3.6]; })(),
-    'guc-pinleri': (() => { const q = ardNokta((guc.x1 + guc.x2) / 2, ALT_Z, PCB_UST + 4.3); return [q.x, q.y, q.z, guc.x2 - guc.x1 + 1.2, 9.4, 3.6]; })(),
-    reset: (() => { const q = ardNokta(7.4, 5.2, PCB_UST + 2.4); return [q.x, q.y, q.z, 7, 5, 7]; })(),
+    usb: alan(1.65, 15.24, PCB_UST + 5.45, 17, 11.6, 12.8),
+    'guc-girisi': alan(5.2, 44.9, PCB_UST + 5.5, 15, 11.8, 9.8),
+    mikrodenetleyici: alan(44.5, 36.8, PCB_UST + 3, 38.5, 6.2, 10.2),
+    'dijital-pinler': alan((dijA.x1 + dijB.x2) / 2, DIJ_Z, PCB_UST + 4.3, dijB.x2 - dijA.x1 + 1.2, 9.4, 3.6),
+    'analog-pinler': alan((ana.x1 + ana.x2) / 2, ALT_Z, PCB_UST + 4.3, ana.x2 - ana.x1 + 1.2, 9.4, 3.6),
+    'guc-pinleri': alan((guc.x1 + guc.x2) / 2, ALT_Z, PCB_UST + 4.3, guc.x2 - guc.x1 + 1.2, 9.4, 3.6),
+    reset: alan(7.4, 5.2, PCB_UST + 2.4, 7, 5, 7),
   };
-  return { grup: g, alanlar, ledL, ledOn, dokunmaKutulari: dokunmaKutulari(alanlar, hedefler, ['usb', 'guc-girisi', 'mikrodenetleyici', 'dijital-pinler', 'analog-pinler', 'guc-pinleri', 'reset', 'kart']) };
-}
-
-function dokunmaKutulari(alanlar, hedefler, sira) {
-  const kutular = [];
-  for (const ad of sira) {
-    const [x, y, z, w, h, d] = alanlar[ad];
-    const m = new Mesh(new BoxGeometry(w, h, d), M.gorunmez);
-    m.position.set(x, y, z); m.userData = { parca: ad }; m.updateMatrixWorld();
-    hedefler.push(m); kutular.push(m);
+  // Dokunma vekilleri (Ahmet 01.11: "karttaki her kısma tıklayınca ayrı ayrı anlatılsın"). Kartın tamamını
+  // kaplayan 'kart' vekili en büyüğüdür; dokunulan noktayı içeren en küçük vekil seçilir.
+  const vekiller = [];
+  const ekle = (veri, a) => { const [x, y, z, w, h, d] = a; const v = vekil({ parca: veri.kesif, ...veri }, w, h, d, x, y, z); vekiller.push(v); hedefler.push(v); };
+  ekle({ kesif: 'kart', parca: 'kart' }, alanlar.kart);
+  for (const ad of ['usb', 'guc-girisi', 'mikrodenetleyici', 'dijital-pinler', 'analog-pinler', 'guc-pinleri', 'reset']) ekle({ kesif: ad }, alanlar[ad]);
+  ekle({ kesif: 'usb-cipi' }, alan(20, 17.5, PCB_UST + 1.1, 7, 2.6, 7));
+  ekle({ kesif: 'kristal' }, alan(21, 27, PCB_UST + 1.9, 11.5, 4.2, 5.4));
+  ekle({ kesif: 'regulator' }, alan(15, 46.2, PCB_UST + 1.1, 7.4, 2.6, 6.8));
+  for (const [cx, cz] of [[13, 31.5], [19.5, 37.5]]) ekle({ kesif: 'kondansator' }, alan(cx, cz, PCB_UST + 2.9, 7.2, 6.2, 7.2));
+  ekle({ kesif: 'icsp' }, alan(64.87, 26.67, PCB_UST + 4.4, 6.4, 9.2, 9));
+  ekle({ kesif: 'led-l' }, alan(27.6, 10.6, PCB_UST + 0.8, 4.6, 1.8, 2.3));
+  ekle({ kesif: 'led-txrx' }, alan(27.3, 14.35, PCB_UST + 0.8, 4.8, 1.8, 4.4));
+  ekle({ kesif: 'led-on' }, alan(62.9, 10.6, PCB_UST + 0.8, 5.4, 1.8, 2.3));
+  for (const [hx, hz] of [[13.97, 50.8], [15.24, 2.54], [66.04, 45.72], [66.04, 17.78]]) ekle({ kesif: 'montaj-deligi' }, alan(hx, hz, PCB_UST + 0.3, 4.4, 1.6, 4.4));
+  // Pinler: deliğin 2-3 katı kutu, başlığın yanından da dokunulabilsin diye kart yüzeyine kadar iner.
+  // Ekranda pin aralığı minPx'ten küçükken pin tek tek seçilmez, başlığın tamamı seçilir (yakınlaşınca pin pin).
+  const pinler = [];
+  for (const [tablo, bz] of [[DIJITAL, DIJ_Z], [GUC, ALT_Z], [ANALOG, ALT_Z]]) {
+    for (const [ad, bx] of Object.entries(tablo)) {
+      const kesif = pinKesif(ad); if (!kesif) continue;
+      const boy = BASLIK_UST + 1.2 - PCB_UST;
+      ekle({ kesif, parca: 'pin', pin: ad, ozel: pinAdi(ad), minAdim: ADIM, minPx: 12 }, alan(bx, bz, PCB_UST + boy / 2, 2.5, boy, 2.6));
+      pinler.push({ ad, kesif, ozel: pinAdi(ad), nokta: ardNokta(bx, bz, BASLIK_UST + 0.6) });
+    }
   }
-  return kutular;
+  // Keşif işaretlerinin yeri: grup işaretleri kartın üstündeki yazının yanında (pinlerin üstünü örtmesin)
+  const ust = (bx, bz, y) => ardNokta(bx, bz, y);
+  const kesifNoktalari = [
+    { id: 'usb', nokta: ust(1.65, 15.24, PCB_UST + 12) },
+    { id: 'guc-girisi', nokta: ust(5.2, 44.9, PCB_UST + 12.2) },
+    { id: 'mikrodenetleyici', nokta: ust(44.5, 36.8, PCB_UST + 6.6) },
+    { id: 'usb-cipi', nokta: ust(20, 17.5, PCB_UST + 1.6) },
+    { id: 'kristal', nokta: ust(21, 27, PCB_UST + 4.3) },
+    { id: 'regulator', nokta: ust(15, 46.5, PCB_UST + 2.4) },
+    { id: 'kondansator', nokta: ust(13, 31.5, PCB_UST + 6.2) },
+    { id: 'reset', nokta: ust(7.4, 5.2, PCB_UST + 5.4) },
+    { id: 'icsp', nokta: ust(64.87, 26.67, PCB_UST + 9.4) },
+    { id: 'led-l', nokta: ust(28.5, 10.6, PCB_UST + 1) },
+    { id: 'led-txrx', nokta: ust(28.5, 14.35, PCB_UST + 1) },
+    { id: 'led-on', nokta: ust(61.5, 10.6, PCB_UST + 1) },
+    { id: 'dijital-pinler', nokta: ust(46, 10.6, PCB_UST + 0.8) },
+    { id: 'analog-pinler', nokta: ust(55.6, 42, PCB_UST + 0.8) },
+    { id: 'guc-pinleri', nokta: ust(35.3, 42, PCB_UST + 0.8) },
+    { id: 'montaj-deligi', nokta: ust(66.04, 17.78, PCB_UST + 0.8) },
+  ];
+  return { grup: g, alanlar, ledL, ledOn, vekiller, pinler, kesifNoktalari };
 }
 
 // ------------------------------------------------------------------ breadboard
@@ -307,11 +373,35 @@ export function breadboardYap(hedefler) {
     'bb-satirlar': [BB.x, BB_UST, BB.z, 77, 1.4, 31],
     'bb-kanal': [BB.x, BB_UST, BB.z, 80, 1.2, 3.2],
   };
-  const yuzey = new Mesh(new PlaneGeometry(BB.w, BB.d), M.gorunmez);
-  yuzey.rotation.x = -Math.PI / 2; yuzey.position.set(BB.x, BB_UST + 0.05, BB.z); yuzey.userData = { parca: 'breadboard-yuzey' }; yuzey.updateMatrixWorld();
-  hedefler.push(yuzey);
+  // Dokunma vekilleri: gövdenin tamamı, 60 şerit (5'li delik grubu), 4 ray, orta kanal, koordinat yazıları.
+  // Yüzeydekiler ince (yüzeyin hemen altından hemen üstüne): üstüne takılı parçaların yan yüzünü yutmasın.
+  const vekiller = [];
+  const ekle = (veri, w, h, d, x, y, z) => { const v = vekil({ parca: veri.kesif, bb: true, ...veri }, w, h, d, x, y, z); vekiller.push(v); hedefler.push(v); };
+  const YUZ = BB_UST - 0.1, YUZ_H = 0.8; // yüzey vekilinin merkezi ve yüksekliği
+  ekle({ kesif: 'breadboard' }, BB.w, BB.h + 1, BB.d, BB.x, BB.h / 2, BB.z);
+  for (let cc = 1; cc <= 30; cc++) for (const [yan, satirlar] of [[1, 'a-e'], [-1, 'f-j']]) {
+    ekle({ kesif: 'serit', ozel: `${cc}. sütun, ${satirlar} satırları`, minAdim: ADIM, minPx: 12 }, 2.5, YUZ_H, 12.7, sutunX(cc), YUZ, BB.z + yan * 8.89);
+  }
+  for (const yan of [1, -1]) {
+    const taraf = yan > 0 ? 'karta yakın taraf' : 'uzak taraf';
+    ekle({ kesif: 'arti-ray', ozel: taraf, minAdim: ADIM, minPx: 8 }, 81.2, YUZ_H, 4.08, BB.x, YUZ, BB.z + yan * 22.36);
+    ekle({ kesif: 'eksi-ray', ozel: taraf, minAdim: ADIM, minPx: 8 }, 81.2, YUZ_H, 4.02, BB.x, YUZ, BB.z + yan * 18.31);
+    ekle({ kesif: 'koordinat', ozel: 'sütun numaraları', minAdim: 1.06, minPx: 6 }, 76.2, YUZ_H, 1.06, BB.x, YUZ, BB.z + yan * 15.77);
+    ekle({ kesif: 'koordinat', ozel: 'satır harfleri', minAdim: ADIM, minPx: 8 }, 2.4, YUZ_H, 30.5, BB.x + yan * 39.3, YUZ, BB.z);
+  }
+  ekle({ kesif: 'orta-kanal' }, 76.2, YUZ_H, 5.0, BB.x, YUZ, BB.z);
+  // keşif işaretlerinin yeri
+  const n = (x, z, y = BB_UST + 1) => new Vector3(x, y, z);
+  const kesifNoktalari = [
+    { id: 'breadboard', nokta: n(sutunX(6), BB.z - 8.89) },
+    { id: 'serit', nokta: n(sutunX(20), BB.z - 8.89), ozel: '20. sütun, f-j satırları' },
+    { id: 'orta-kanal', nokta: n(sutunX(27), BB.z, BB_UST + 0.6) },
+    { id: 'koordinat', nokta: n(BB.x - 39.3, BB.z + 8.89) },
+    { id: 'arti-ray', nokta: n(sutunX(28), BB.z + 21.59), ozel: 'karta yakın taraf' },
+    { id: 'eksi-ray', nokta: n(sutunX(4), BB.z + 19.05), ozel: 'karta yakın taraf' },
+  ];
   return {
-    grup: g, alanlar, grupBul, grupGoster, yuzey,
+    grup: g, alanlar, grupBul, grupGoster, vekiller, kesifNoktalari,
     rontgen(acik) {
       serit.visible = acik;
       for (const m of new Set(govdeMat)) { m.transparent = acik; m.opacity = acik ? 0.3 : 1; m.depthWrite = !acik; m.needsUpdate = true; }
@@ -349,12 +439,17 @@ export function ledYap(renkAdi = 'kirmizi') {
   // breadboard'a inerken kısalır (takılı hâlde gövdenin içinde biter, alttan taşmaz).
   const anot = new Mesh(new BoxGeometry(0.5, 1, 0.5), M.metal), katot = new Mesh(new BoxGeometry(0.5, 1, 0.5), M.metal);
   anot.position.x = -1.27; katot.position.x = 1.27;
+  // dokunma vekilleri: gövde ve iki bacak. Bacaklar ince olduğu için ışınla da seçilir (ince: true).
+  const bacakVekili = (x, kesif) => { const m = new Mesh(new BoxGeometry(2.2, 1, 2.2), M.gorunmez); m.position.x = x; m.userData = { kesif, ince: true, yari: [1.1, 0.5, 1.1], hacim: 60 }; return m; };
+  const anotV = bacakVekili(-1.27, 'anot'), katotV = bacakVekili(1.27, 'katot');
   const bacak = (t) => {
     const la = 22 + (GY + 5 - 22) * t, lk = 17 + (GY + 5 - 17) * t;
     anot.scale.y = la; anot.position.y = GY - la / 2; katot.scale.y = lk; katot.position.y = GY - lk / 2;
+    anotV.scale.y = la; anotV.position.y = anot.position.y; katotV.scale.y = lk; katotV.position.y = katot.position.y;
   };
   bacak(1);
-  g.add(anot, katot);
+  g.add(anot, katot, anotV, katotV);
+  const govdeV = vekil({ kesif: 'led' }, 6.6, 8.8, 6.6, 0, GY + 4.1, 0); g.add(govdeV);
   const isik = new Sprite(new SpriteMaterial({ map: parlamaDokusu(), color: renk, blending: AdditiveBlending, depthWrite: false, transparent: true }));
   isik.scale.set(20, 20, 1); isik.position.y = GY + 5.5; isik.visible = false; g.add(isik);
   const havuz = new Mesh(new PlaneGeometry(30, 30), new MeshBasicMaterial({ map: parlamaDokusu(), color: renk, blending: AdditiveBlending, depthWrite: false, transparent: true, opacity: 0.6 }));
@@ -375,7 +470,10 @@ export function ledYap(renkAdi = 'kirmizi') {
       lamba.intensity = 380 * v;
     },
     bacak, tepe: new Vector3(0, GY + 8.2, 0),
-    havuz,
+    havuz, vekiller: [govdeV, anotV, katotV],
+    // keşif işaretleri (yerel): gövdenin üstü ve bacaklar. Havadayken uzun bacağınki aşağıda, kısanınki yukarıda:
+    // dar ekranda da iki işaret üst üste binmez. Takılıyken bacaklar kısa görünür, işaretler yaklaşınca açılır.
+    kesifYerleri: (tk) => [['led', new Vector3(0, GY + 11.2, 0)], ['anot', new Vector3(-1.27, tk < 0.5 ? GY - 15 : GY - 2, 0)], ['katot', new Vector3(1.27, tk < 0.5 ? GY - 6 : GY - 2, 0)]],
   };
   return g;
 }
@@ -400,7 +498,14 @@ export function direncYap(bantlar, aralik) {
     g.add(yatay, dikey);
   }
   golgeAyarla(g);
-  g.userData = { tepe: new Vector3(0, H + 1.4, 0), uclar: [new Vector3(-aralik / 2, 0, 0), new Vector3(aralik / 2, 0, 0)], H };
+  // dokunma vekilleri: direncin tamamı (bacaklar dahil) ve ortadaki renk bantları (daha küçük: önce o seçilir)
+  const tumu = vekil({ kesif: 'direnc' }, aralik + 1.4, H + 9, 3.2, 0, (H + 1.8 - 7.2) / 2, 0);
+  const bantV = vekil({ kesif: 'renk-bantlari' }, 3.6, 2.8, 2.8, 0, H, 0);
+  g.add(tumu, bantV);
+  g.userData = {
+    tepe: new Vector3(0, H + 1.4, 0), uclar: [new Vector3(-aralik / 2, 0, 0), new Vector3(aralik / 2, 0, 0)], H, vekiller: [tumu, bantV],
+    kesifYerleri: () => [['direnc', new Vector3(aralik / 2 - 1.2, H + 2.6, 0)], ['renk-bantlari', new Vector3(-0.6, H + 2.2, 0)]],
+  };
   return g;
 }
 // İki delik arasına yerleştir: grup konumu ve yönü
@@ -419,7 +524,8 @@ export function butonYap() {
   g.add(govde, plaka, kapak);
   for (const lx of [-2.54, 2.54]) for (const lz of [-3.81, 3.81]) { const b = new Mesh(new BoxGeometry(0.6, 7, 0.35), M.metal); b.position.set(lx, -3.2, lz); g.add(b); }
   golgeAyarla(g);
-  g.userData = { bas(basili) { kapak.position.y = basili ? 3.95 : 4.55; }, tepe: new Vector3(0, 5.6, 0) };
+  const tumu = vekil({ kesif: 'buton' }, 7.6, 12.9, 8.4, 0, -0.45, 0); g.add(tumu);
+  g.userData = { bas(basili) { kapak.position.y = basili ? 3.95 : 4.55; }, tepe: new Vector3(0, 5.6, 0), vekiller: [tumu], kesifYerleri: () => [['buton', new Vector3(0, 8.6, 0)]] };
   return g;
 }
 
@@ -444,9 +550,16 @@ export function kabloYap(bas, son, renkAdi) {
     g.add(kilif, igne); uclar.push(kilif, igne);
   }
   golgeAyarla(g);
+  // dokunma vekilleri: kablonun çevresinde kalın, görünmez bir tüp (ince: ışınla seçilir) ve iki uç kılıfı
+  const tupV = new Mesh(new TubeGeometry(egri, 24, 1.9, 6, false), M.gorunmez);
+  tupV.userData = { kesif: 'kablo', ince: true, hacim: 120 };
+  g.add(tupV);
+  const vekiller = [tupV];
+  for (const v of [bas, son]) { const k = vekil({ kesif: 'kablo' }, 3.4, 6.6, 3.4, v.x, v.y + 3.1, v.z); g.add(k); vekiller.push(k); }
   const toplam = tup.geometry.index.count;
   g.userData = {
-    egri,
+    egri, vekiller,
+    kesifYerleri: () => [['kablo', egri.getPoint(0.5)]],
     buyut(k) { tup.geometry.setDrawRange(0, Math.floor(k * PARCA) * YARICAP * 6); uclar[2].visible = uclar[3].visible = k >= 1; if (k >= 1) tup.geometry.setDrawRange(0, toplam); },
     yol: egri.getSpacedPoints(40),
   };
