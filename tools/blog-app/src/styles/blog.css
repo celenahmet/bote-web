@@ -133,9 +133,15 @@ p{margin:0}
 .empty{border:1px dashed var(--line);border-radius:16px;padding:28px;display:flex;flex-direction:column;gap:10px;background:var(--surface)}
 .empty h2{font-size:22px}
 .empty p{font:400 17px/1.6 var(--serif);color:var(--ink-2)}
-.pagination ul{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
-.pagination a,.pagination span{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;border:1px solid var(--line);border-radius:10px;text-decoration:none;color:var(--ink);font:500 15px var(--display)}
+.pagination{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:8px}
+.pagination ol{display:flex;align-items:center;gap:6px;list-style:none;margin:0;padding:0}
+.pagination a,.pagination [aria-current],.pg-yon{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:44px;min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);text-decoration:none;color:var(--ink);font:500 15px var(--display);font-variant-numeric:tabular-nums}
+.pagination a:hover{border-color:var(--violet);color:var(--violet)}
 .pagination [aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.pg-yon[aria-disabled]{opacity:.4}
+.pg-bosluk{min-width:20px;text-align:center;color:var(--muted)}
+.pg-ozet{display:none;min-width:72px;justify-content:center;color:var(--muted);font:500 15px var(--display);font-variant-numeric:tabular-nums}
+@media (max-width:560px){.pagination ol{display:none}.pg-ozet{display:inline-flex}.pagination{justify-content:space-between}}
 
 /* --- kenar cubugu ve bant --- */
 .sidebar{display:flex;flex-direction:column;gap:28px;min-width:0}

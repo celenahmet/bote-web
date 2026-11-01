@@ -10,6 +10,21 @@ const blog = loadBlog();
 const pathUrl = page === 1 ? base : `${base}/sayfa/${page}`;
 const [first, ...rest] = page === 1 ? list : [null, ...list];
 const href = (n) => (n === 1 ? base : `${base}/sayfa/${n}`);
+// Sayfalama (Ahmet 01.11): butun sayfalar yerine tek satir. Ilk ve son sayfa, etkin sayfanin
+// iki yani gorunur; aradaki bosluk tek sayfaysa o sayfa yazilir, daha buyukse "…" konur.
+const sayfaListesi = (aktif, toplam) => {
+  const s = new Set([1, toplam, aktif - 1, aktif, aktif + 1]);
+  if (aktif <= 3) [2, 3, 4].forEach((n) => s.add(n));
+  if (aktif >= toplam - 2) [toplam - 1, toplam - 2, toplam - 3].forEach((n) => s.add(n));
+  const d = [...s].filter((n) => n >= 1 && n <= toplam).sort((x, y) => x - y);
+  const out = [];
+  d.forEach((n, i) => {
+    if (i > 0 && n - d[i - 1] === 2) out.push(n - 1);
+    else if (i > 0 && n - d[i - 1] > 2) out.push(0);
+    out.push(n);
+  });
+  return out;
+};
 const crumbs = page === 1 ? trail : [...trail, { name: `Sayfa ${page}`, url: pathUrl }];
 // Karsilama alani (Ahmet 26.09: "ana sayfa uniconnectly.com gibi"): solda baslik, aciklama ve arama;
 // sagda kategori kutucuklari. Metinler mevcut baslik ve aciklamadan gelir.
@@ -108,11 +123,14 @@ for (const p of queue) {
           {feed.length > 0 && <h2 class="feed-title" id="yazilar">{page === 1 ? 'Son yazılar' : `Sayfa ${page}`}</h2>}
           {feed.length > 0 && <ol class="cards">{feed.map((p) => <li><PostCard post={p} variant="card" vt={rest.length > 0} /></li>)}</ol>}
           {pages > 1 && (
-            <nav class="pagination" aria-label="Sayfalar"><ul>
-              {page > 1 && <li><a href={href(page - 1)} rel="prev">Önceki sayfa</a></li>}
-              {Array.from({ length: pages }, (_, i) => i + 1).map((n) => n === page ? <li><span aria-current="page">{n}</span></li> : <li><a href={href(n)}>{n}. sayfa</a></li>)}
-              {page < pages && <li><a href={href(page + 1)} rel="next">Sonraki sayfa</a></li>}
-            </ul></nav>
+            <nav class="pagination" aria-label="Sayfalar">
+              {page > 1 ? <a class="pg-yon" href={href(page - 1)} rel="prev"><Icon name="chevron-left" size={18} /><span>Önceki<span class="sr-only"> sayfa</span></span></a> : <span class="pg-yon" aria-disabled="true"><Icon name="chevron-left" size={18} /><span>Önceki</span></span>}
+              <ol class="pg-sayilar">
+                {sayfaListesi(page, pages).map((n) => n === 0 ? <li class="pg-bosluk" aria-hidden="true">…</li> : n === page ? <li><span aria-current="page"><span class="sr-only">Sayfa </span>{n}</span></li> : <li><a href={href(n)}><span class="sr-only">Sayfa </span>{n}</a></li>)}
+              </ol>
+              <span class="pg-ozet"><span class="sr-only">Sayfa </span>{page} / {pages}</span>
+              {page < pages ? <a class="pg-yon" href={href(page + 1)} rel="next"><span>Sonraki<span class="sr-only"> sayfa</span></span><Icon name="chevron-right" size={18} /></a> : <span class="pg-yon" aria-disabled="true"><span>Sonraki</span><Icon name="chevron-right" size={18} /></span>}
+            </nav>
           )}
         </>
       )}
