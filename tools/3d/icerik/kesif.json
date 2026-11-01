@@ -1,0 +1,512 @@
+{
+  "usb-cipi": {
+    "ad": "USB çipi",
+    "teknik": {
+      "5": "USB çipi, bilgisayar ile kart arasında bir çevirmen gibidir: bilgisayarın gönderdiğini kartın beyninin anlayacağı dile çevirir.",
+      "6": "USB çipi, bilgisayardan USB ile gelen veriyi seri veriye, karttan gelen seri veriyi de USB'ye çevirir. Kod yükleme ve Serial Monitor penceresinde yazışma bu çip üzerinden olur.",
+      "7": "UNO'daki ana mikrodenetleyici bilgisayarla doğrudan USB üzerinden konuşmaz; seri haberleşmesini 0 ve 1. pinlerden yapar. USB çipi bu seri haberleşmeyi USB'ye taşır, bilgisayar da kartı bir seri bağlantı noktası (COM) olarak görür.",
+      "8": "UNO R3'te bu işi ATmega16U2 yapar ve kendisi de bir mikrodenetleyicidir: 16 MHz'te çalışır; 16 kB Flash, 512 B SRAM ve 512 B EEPROM belleği vardır. Yani kartta iki mikrodenetleyici bulunur; ikincisinin asıl görevi USB ile seri haberleşme arasında köprü olmaktır."
+    },
+    "sosyal": {
+      "5": "Farklı dilleri konuşan iki kişi bir çevirmen sayesinde anlaşabilir. Bilgisayar ile kart da bu çip sayesinde anlaşır.",
+      "6": "Fare, klavye ve oyun kolu gibi USB ile takılan cihazların içinde de bilgisayarla USB üzerinden konuşmayı sağlayan devreler bulunur.",
+      "7": "Cihazların anlaşabilmesi için ortak kurallara, yani protokollere ihtiyaç vardır. USB de böyle bir ortak kurallar bütünüdür; bu yüzden farklı üreticilerin cihazları aynı bilgisayara takılabilir.",
+      "8": "USB'yi seri haberleşmeye çeviren küçük modüller, eski tip seri bağlantı kullanan cihazları bugünün bilgisayarlarına bağlamak için de kullanılır. Ortak bir arayüz, eski ve yeni cihazların birlikte çalışabilmesini sağlar."
+    }
+  },
+  "kristal": {
+    "ad": "Kristal (16 MHz)",
+    "teknik": {
+      "5": "Kristal, kartın saati gibidir: çok düzenli titreşir ve işlerin hep aynı ritimle yapılmasını sağlar.",
+      "6": "Kristal, düzenli bir saat sinyali üretir; çipler işlerini bu sinyalin vuruşlarıyla adım adım yapar. Bu metal kristal, yanındaki USB çipinin saatidir.",
+      "7": "Haberleşen iki cihaz zamanlamada anlaşmalıdır; zamanlama kayarsa gönderilen veri yanlış okunabilir. USB çipi hem bilgisayarla hem ana mikrodenetleyiciyle konuştuğu için kararlı bir saate ihtiyaç duyar, kristal de bu kararlılığı sağlar.",
+      "8": "Bu metal kristal saniyede 16 milyon kez (16 MHz) titreşir ve ATmega16U2'nin saat sinyalini üretir. Ana mikrodenetleyici ATmega328P'nin 16 MHz'lik saati ise ayrı, küçük bir seramik rezonatörden gelir."
+    },
+    "sosyal": {
+      "5": "Duvar saatlerinin ve kol saatlerinin birçoğunda da zamanı düzenli tutan küçük bir kristal bulunur.",
+      "6": "Kuvars saatler, kristalin titreşimlerini sayarak saniyeleri ölçer. Düzenli bir titreşimi saymak, zamanı ölçmenin güvenilir bir yoludur.",
+      "7": "Bilgisayar ve telefon tanıtımlarında görülen MHz ve GHz değerleri, işlemcinin saat hızını, yani saniyede kaç vuruşla çalıştığını anlatır.",
+      "8": "Birlikte çalışmak ortak bir zaman ölçüsü ister: okul zili, trafik ışıklarının süreleri ve toplu taşıma saatleri düzenli bir ritme dayanır. Elektronikte bu ritmi kristal ve rezonatör gibi parçalar sağlar."
+    }
+  },
+  "regulator": {
+    "ad": "Voltaj regülatörü",
+    "teknik": {
+      "5": "Regülatör, adaptörden gelen daha yüksek gerilimi kartın kullandığı 5 volta indirir ve hep o değerde tutar. Suyun basıncını ayarlayan bir vana gibi çalışır.",
+      "6": "Regülatör (gerilim düzenleyici), güç girişine takılan kaynağın 7-12 V arasındaki gerilimini kararlı 5 V'a çevirir. Çıkış gerilimini sabit tutmaya regülasyon denir.",
+      "7": "Mikrodenetleyici ve sensörler belirli bir gerilimde güvenle çalışır. Giriş gerilimi değişse bile regülatör çıkışı 5 V'ta tutar; aradaki fazla gerilim ısıya dönüşür, bu yüzden regülatör çalışırken ısınabilir.",
+      "8": "UNO'daki 5 V regülatörü doğrusal türdendir: ısıya dönen güç yaklaşık (giriş gerilimi - 5 V) × akım kadardır; girişte 12 V varken 100 mA çekilirse yaklaşık 0,7 W eder. Arduino 7-12 V önerir: 7 V'un altında 5V pini 5 V'tan az verebilir, 12 V'un üstünde regülatör aşırı ısınabilir."
+    },
+    "sosyal": {
+      "5": "Dizüstü bilgisayarların adaptörleri de prizdeki elektriği bilgisayarın kullanabileceği düşük ve sabit bir gerilime çevirir.",
+      "6": "Bilgisayarların içinde de işlemciye, belleğe ve diğer parçalara uygun gerilimi ayrı ayrı veren düzenleyiciler bulunur.",
+      "7": "Şarj aletleri ve adaptörler çalışırken ısınabilir. Bu yüzden üzerleri örtülmemeli, yumuşak bir yüzeye gömülmemeli ve havalandırma delikleri kapatılmamalıdır.",
+      "8": "Gerilim düşürülürken enerjinin bir kısmı ısıya dönüşür. Daha verimli dönüştürücüler aynı işi daha az kayıpla yapar; bu da hem enerji tasarrufu hem de daha serin ve daha uzun ömürlü cihazlar demektir."
+    }
+  },
+  "kondansator": {
+    "ad": "Kondansatör",
+    "teknik": {
+      "5": "Kondansatör, elektriği kısa süre biriktirip geri veren küçük bir depodur. Gerilimdeki ani dalgalanmaları yumuşatır.",
+      "6": "Kondansatör, arasında yalıtkan bulunan iki iletken levhadan oluşur ve elektrik enerjisini depolar. Birimi faraddır (F), devre şemalarında C harfiyle gösterilir.",
+      "7": "Güç kaynağından gelen gerilim tam düz değildir, küçük dalgalanmalar taşır. Kondansatör gerilim yükselince dolup düşünce boşalarak bu dalgalanmaları süzer; böylece kart kararlı çalışır.",
+      "8": "UNO R3'te regülatörün girişinde ve 5 V çıkışında 47 µF, 25 V'luk birer elektrolitik kondansatör vardır. Elektrolitik kondansatörün kutbu vardır: ters bağlanırsa ya da üstünde yazan gerilim aşılırsa bozulabilir."
+    },
+    "sosyal": {
+      "5": "Fotoğraf makinelerinin flaşı, biriktirdiği elektriği bir anda vererek parlak bir ışık çakar; bu elektriği bir kondansatör biriktirir.",
+      "6": "Televizyon, bilgisayar ve şarj aletlerinin içinde birçok kondansatör bulunur; gerilimi dengede tutarak cihazın düzgün çalışmasına yardım ederler.",
+      "7": "Büyük kondansatörler cihaz fişten çekildikten sonra da bir süre elektrik tutabilir. Bu yüzden elektronik cihazların kapağını açıp içini kurcalamak tehlikelidir; onarım uzmanlara bırakılmalıdır.",
+      "8": "Elektrolitik kondansatörlerin içinde kimyasal madde bulunur. Bozulan kartlar ve cihazlar çöpe atılmamalı, elektronik atık toplama noktalarına götürülmelidir."
+    }
+  },
+  "reset": {
+    "ad": "Reset düğmesi",
+    "teknik": {
+      "5": "Reset düğmesine basınca kart, yüklü kodu en baştan çalıştırır. Kod silinmez; bir oyunu baştan başlatmak gibidir.",
+      "6": "Reset'e basılınca mikrodenetleyici yeniden başlar: önce <code>setup()</code> bir kez, sonra <code>loop()</code> tekrar tekrar çalışır. Yüklenen kod kartta kalır.",
+      "7": "Program beklenmedik biçimde takılırsa ya da baştan izlemek istersek reset işe yarar. Değişkenler başlangıç değerlerine döner; kod ise kalıcı bellekte (Flash) durduğu için kaybolmaz.",
+      "8": "Düğme, RESET hattını GND'ye bağlayarak LOW yapar; hat normalde 10 kΩ'luk bir dirençle 5 V'ta tutulur. Her yeniden başlatmada önce önyükleyici (bootloader) çalışır ve yeni kod gelip gelmediğine bakar; gelmezse yüklü kod başlar."
+    },
+    "sosyal": {
+      "5": "Donan bir oyuncağı ya da tableti kapatıp açmak çoğu zaman sorunu çözer. Reset düğmesi de kartı yeniden başlatır.",
+      "6": "Modem gibi cihazlarda da reset düğmesi bulunur. Bazıları yanlışlıkla basılmasın diye küçük bir deliğin içine yerleştirilir.",
+      "7": "Yeniden başlatmak ile fabrika ayarlarına döndürmek farklıdır: yeniden başlatma bilgileri silmez, fabrika ayarlarına dönüşte ise ayarlar ve bilgiler silinebilir. Bir düğmeye basmadan önce ne işe yaradığını öğrenmek iyi bir alışkanlıktır.",
+      "8": "Yeniden başlatmak, sorun çözerken ilk denenen adımlardandır; ama sorun sık tekrarlanıyorsa asıl nedeni bulmak gerekir. Mühendisler cihazları, takıldıklarında kendilerini güvenle yeniden başlatabilecek şekilde de tasarlar."
+    }
+  },
+  "icsp": {
+    "ad": "ICSP pinleri",
+    "teknik": {
+      "5": "ICSP, altı pinlik küçük bir başlıktır. Özel bir araçla, USB kullanmadan, kodu doğrudan mikrodenetleyiciye yüklemeye yarar.",
+      "6": "ICSP, devre içinde seri programlama demektir: çip karttan çıkarılmadan bir programlayıcıyla programlanır. Derslerde kod USB ile yüklendiği için çoğu zaman kullanılmaz.",
+      "7": "USB ile kod yükleyebilmemizi önyükleyici (bootloader) adlı küçük bir program sağlar. Önyükleyicinin kendisi ise ICSP ile yüklenir, bozulursa yine ICSP ile onarılır. Bu başlık SPI haberleşmesini kullanır.",
+      "8": "Pin sırası: 1 CIPO (MISO), 2 +5V, 3 SCK, 4 COPI (MOSI), 5 RESET, 6 GND. CIPO 12, SCK 13, COPI ise 11. dijital pinle aynı hattır. Kartta USB çipini programlamak için ikinci bir ICSP başlığı daha bulunur."
+    },
+    "sosyal": {
+      "5": "Bazı cihazlarda yalnız teknik servisin kullandığı bakım bağlantıları bulunur. ICSP de kart için böyle bir bakım kapısıdır.",
+      "6": "Fabrikada üretilen elektronik kartlara ilk yazılım, bu tür programlama bağlantılarıyla yüklenebilir.",
+      "7": "Önyükleyicisi bozulan bir kart çöpe gitmek zorunda değildir; ICSP ile yeniden kullanılır hâle getirilebilir. Atmak yerine onarmak hem paradan hem de doğal kaynaklardan tasarruf sağlar.",
+      "8": "Bir cihazın en temel yazılımını değiştirebilen bağlantılar güçlüdür; bu yüzden ürünlerde çoğu zaman gizlenir ya da korunur. Güvenlik yalnız yazılımla değil, donanıma kimin erişebildiğiyle de ilgilidir."
+    }
+  },
+  "led-l": {
+    "ad": "L ışığı",
+    "teknik": {
+      "5": "L ışığı, kartın üstündeki küçük bir LED'dir. 13. pin açılınca yanar, kapanınca söner.",
+      "6": "L ışığı 13. pine bağlıdır; kodda <code>LED_BUILTIN</code> adıyla da kullanılır. Hiç parça takmadan ilk kodu denemeyi sağlar.",
+      "7": "L, kartta kodla yönetilebilen tek yerleşik çıkış parçasıdır ve kodun çalışıp çalışmadığını görmek için çok kullanışlıdır. Bir koşula göre L yakılarak programın hangi adımda olduğu izlenebilir.",
+      "8": "UNO R3'te L ışığı 13. pine doğrudan değil, bir tampon devre (işlemsel yükselteç) üzerinden bağlıdır; LED'in akımını bu devre karşılar. 13. pine HIGH yazılınca hem L hem de 13. pine bağlı dış LED yanar."
+    },
+    "sosyal": {
+      "5": "Cihazlardaki küçük uyarı ışıkları gibi, L ışığı da bize kartın ne yaptığını haber verir.",
+      "6": "Programlamaya başlayanların ilk kodu çoğu zaman bir ışığı yakıp söndürmektir. Küçük ve görünür bir sonuçla başlamak öğrenmeyi kolaylaştırır.",
+      "7": "Arabanın gösterge panelindeki uyarı ışıkları, sürücüye bir sorunu kısaca haber verir. L ışığı da programcıya kartın içinde neler olduğunu gösteren bir ipucudur.",
+      "8": "Mühendisler bir sistemde hata ararken durumunu dışarıdan görebilecekleri işaretler ekler: ışıklar, sesler, ekran mesajları. Durumu gözlenebilen bir sistemde hata daha hızlı bulunur."
+    }
+  },
+  "led-on": {
+    "ad": "ON ışığı",
+    "teknik": {
+      "5": "ON yazılı ışık, karta elektrik geldiğini gösterir. Yanıyorsa kart çalışmaya hazırdır.",
+      "6": "ON ışığı kartın 5 V hattına bağlıdır, kodla yakılıp söndürülmez. Kart USB'den ya da güç girişinden elektrik aldığında yanar.",
+      "7": "Kart çalışmıyorsa ilk bakılacak yer burasıdır: ON ışığı yanmıyorsa sorun koddan önce güçtedir; USB kablosu, bağlantı ya da adaptör kontrol edilmelidir.",
+      "8": "ON ışığı, kart beslendiği sürece pin ayarlarından bağımsız olarak hep yanar. Çalışırken söner ya da titrerse güç kaynağı yetmiyor ya da devrede bir kısa devre oluşmuş olabilir."
+    },
+    "sosyal": {
+      "5": "Televizyon, şarj aleti ve bilgisayarda da cihazın açık olduğunu gösteren küçük ışıklar vardır.",
+      "6": "Bir cihaz çalışmadığında önce fişin takılı olup olmadığına bakmak gibi, en basit kontrolden başlamak birçok sorunu hızla çözer.",
+      "7": "Bekleme ışığı yanan bir cihaz kapalı görünse de elektrik harcamayı sürdürür. Kullanılmayan cihazları tamamen kapatmak enerji tasarrufu sağlar.",
+      "8": "Durum ışıkları ortak bir dil gibidir; ama yalnız renge güvenmek, renkleri ayırt etmekte zorlanan kişileri dışarıda bırakır. Bu yüzden iyi tasarlanmış cihazlarda ışığın yanında ON gibi bir yazı ya da simge de bulunur."
+    }
+  },
+  "led-txrx": {
+    "ad": "TX ve RX ışıkları",
+    "teknik": {
+      "5": "TX ve RX ışıkları, kart bilgisayarla konuşurken yanıp söner. TX veri gönderirken, RX veri alırken yanar.",
+      "6": "Bu ışıklar seri haberleşmeyi gösterir: kod yüklenirken ve kart bilgisayarla veri alışverişi yaparken hızla yanıp söner.",
+      "7": "Kod yüklenirken TX ve RX hiç yanıp sönmüyorsa veri karta ulaşmıyor olabilir; USB kablosu ve Arduino IDE'de seçili bağlantı noktası (port) kontrol edilmelidir.",
+      "8": "Bu ışıkları USB çipi (ATmega16U2) yakar; bu yüzden yalnız USB üzerinden geçen seri veride yanıp sönerler. 0 ve 1. pinlerden başka bir cihazla yapılan seri haberleşmede yanmazlar."
+    },
+    "sosyal": {
+      "5": "Modem gibi cihazlardaki yanıp sönen küçük ışıklar da veri gidip geldiğini gösterir.",
+      "6": "Bir yazışmada gönderilen ve alınan mesajlar ayrı gösterilir. TX ve RX de kartın konuşmasını gönderme ve alma diye ikiye ayırır.",
+      "7": "Bir bağlantı sorununu çözerken etkinlik ışıklarına bakmak işe yarar: ışık yanıp sönüyorsa veri akıyordur, sorun başka bir yerde olabilir.",
+      "8": "Görünmeyen bir işi görünür kılmak, hata ayıklamanın temel ilkelerindendir. Bilgisayarlardaki disk ve ağ etkinliği ışıkları da bu amaçla kullanılır."
+    }
+  },
+  "dijital-pinler": {
+    "ad": "Dijital pinler",
+    "teknik": {
+      "5": "Dijital pinler 0'dan 13'e kadar numaralı pinlerdir. Her biri ya açık ya kapalıdır, tıpkı bir ışık anahtarı gibi.",
+      "6": "UNO'da 14 dijital pin vardır (0-13). Çıkış yapılınca LED yakar, giriş yapılınca buton okur. Değerleri HIGH ya da LOW'dur.",
+      "7": "Bazı dijital pinlerin ek görevleri vardır: ~ işaretliler PWM yapabilir, 0 ve 1 seri haberleşmede kullanılır, 13 de karttaki L ışığına bağlıdır. Pin seçerken bu görevleri bilmek çakışmaları önler.",
+      "8": "14 dijital pinin 6'sı PWM (3, 5, 6, 9, 10, 11) yapabilir; 0 ve 1 seri haberleşme (RX, TX), 10-13 SPI, 2 ve 3 dış kesme (interrupt) pinleridir. Arduino pin başına 20 mA önerir; 40 mA, kalıcı hasar vermemek için aşılmaması gereken sınırdır."
+    },
+    "sosyal": {
+      "5": "Bir kapı ya açıktır ya kapalı, zil ya çalar ya susar. Dijital pinler de bu iki durumla çalışır.",
+      "6": "Tek bir kart aynı anda birçok iş yapabilir: bir pin ışık yakarken başka bir pin butonu okuyabilir. Akıllı ev cihazları da çok sayıda giriş ve çıkışı birlikte yönetir.",
+      "7": "Pinler sınırlı bir kaynaktır. Büyük bir projeye başlamadan önce hangi parçanın hangi pine bağlanacağını bir tabloyla planlamak, sonradan çıkacak karışıklığı önler.",
+      "8": "Mühendislikte kaynak planlaması önemlidir: bir pinin birden çok görevi olabilir, bir görevi yapabilen pin sayısı ise sınırlıdır. Bugün doğru seçilen pinler, projenin yarın büyütülebilmesini kolaylaştırır."
+    }
+  },
+  "analog-pinler": {
+    "ad": "Analog giriş pinleri",
+    "teknik": {
+      "5": "Analog pinler A0'dan A5'e kadardır. Yalnız açık ya da kapalıyı değil, bir şeyin ne kadar olduğunu da ölçer.",
+      "6": "UNO'da 6 analog giriş pini vardır (A0-A5). Işık ya da sıcaklık sensörü gibi parçalardan gelen gerilimi okuyup bir sayıya çevirir.",
+      "7": "Işık, ses ve sıcaklık gibi büyüklükler sürekli değişir. Analog pinler bu değişimi ölçebildiği için kart, ortamın ne kadar aydınlık ya da sıcak olduğuna göre karar verebilir.",
+      "8": "Analog pinler 10 bitlik bir analog-dijital dönüştürücüye (ADC) bağlıdır; 0-5 V arasını 0-1023 arası bir sayıya çevirir. A4 ve A5 aynı zamanda I2C hatlarıdır (SDA, SCL); A0-A5 gerekirse dijital pin olarak da kullanılabilir."
+    },
+    "sosyal": {
+      "5": "Bir bardağın ne kadar dolu olduğu yalnız dolu ya da boş diye anlatılamaz. Analog pinler de ne kadar sorusunun cevabını ölçer.",
+      "6": "Telefonların ekran parlaklığını ortamın ışığına göre kendiliğinden ayarlaması, ışığın ne kadar olduğunu ölçen bir sensör sayesinde olur.",
+      "7": "Oyun kollarındaki küçük çubuklar, ne kadar itildiklerini ölçen parçalarla çalışır; bu sayede oyundaki karakter yavaş ya da hızlı yürüyebilir.",
+      "8": "Akıllı saatler ve tıbbi ölçüm cihazları gibi pek çok cihaz, sürekli değişen bir büyüklüğü sayıya çevirerek işler. Bu çeviri ne kadar ince yapılırsa ölçüm o kadar ayrıntılı olur."
+    }
+  },
+  "guc-pinleri": {
+    "ad": "Güç pinleri",
+    "teknik": {
+      "5": "Güç pinleri, devredeki parçalara elektrik veren pinlerdir. 5V ve 3,3V elektrik verir, GND ise elektriğin döndüğü yerdir.",
+      "6": "Bu grupta IOREF, RESET, 3,3V, 5V, iki GND ve VIN pinleri ile hiçbir yere bağlı olmayan bir pin (NC) bulunur. Breadboard'daki parçalar genellikle 5V ve GND'den beslenir.",
+      "7": "5V ve 3,3V pinleri kartın düzenlenmiş çıkışlarıdır ve parçalara kararlı gerilim verir. Bu pinlerden karta dışarıdan elektrik vermek regülatörü atlar ve kartı bozabilir; Arduino bunu önermez.",
+      "8": "5V pini USB'den ya da regülatörden, 3,3V pini ise 5 V hattından beslenen ikinci bir regülatörden gelir; 3,3V pininden en fazla 50 mA çekilmelidir. VIN, güç girişindeki kaynağın gerilimini taşır; IOREF ise kartın 5 V ile çalıştığını ek kartlara bildirir."
+    },
+    "sosyal": {
+      "5": "Evdeki su tesisatı suyu mutfağa ve banyoya ulaştırır. Güç pinleri de devredeki parçalara elektriği ulaştırır.",
+      "6": "Bilgisayarın güç kaynağı da prizden aldığı elektriği farklı parçalar için farklı gerilimlere çevirerek dağıtır.",
+      "7": "Bir uzatma kablosuna çok fazla cihaz takmak kabloyu ısıtır ve tehlikelidir. Kart için de benzeri geçerlidir: her parçanın ne kadar akım çektiğini bilmek, güç pinlerini aşırı yüklememeyi sağlar.",
+      "8": "Mühendisler bir cihaz tasarlarken güç bütçesi yapar: her parçanın ne kadar enerji harcadığını toplar ve kaynağın bunu karşılayıp karşılayamayacağına bakar. Pille çalışan cihazların ne kadar dayanacağı da bu hesapla tahmin edilir."
+    }
+  },
+  "montaj-deligi": {
+    "ad": "Montaj deliği",
+    "teknik": {
+      "5": "Montaj delikleri, kartı vidayla bir kutuya ya da tabana sabitlemek içindir. Kartta dört tane vardır.",
+      "6": "Bu deliklere vida ve ara parça takılarak kart bir tabana ya da kutuya sağlamca tutturulur; böylece kablolar takılıp çıkarılırken kart kaymaz.",
+      "7": "Kartın altında lehim noktaları vardır. Kart metal bir yüzeye doğrudan konursa bu noktalar birbirine değebilir ve kısa devre olabilir; ara parçalar kartı yüzeyden yukarıda tutarak bunu önler.",
+      "8": "UNO R3'te 4 montaj deliği vardır ve her birinin çapı 3,2 mm'dir. Yerleri teknik çizimde milimetre ve mil (1 mil = 0,0254 mm) cinsinden verilir; örneğin 66,04 mm, 2600 mil eder."
+    },
+    "sosyal": {
+      "5": "Duvara raf takarken vida kullanırız ki raf düşmesin. Kart da vidalanınca yerinden oynamaz.",
+      "6": "Bilgisayar kasalarında ana kart da kasaya değmesin diye ara parçalarla biraz yukarıda tutularak vidalanır.",
+      "7": "Sabitlenmemiş bir kart, kablolar çekildiğinde kayabilir, bağlantıları kopabilir ya da metal bir yüzeye değebilir. Düzenli ve sağlam bir kurulum hem güvenliği hem de projenin ömrünü artırır.",
+      "8": "Delik yerleri, kartın teknik çiziminde ölçüleriyle herkese açık olarak yayımlanır. Böylece herkes bu karta uygun kutu ya da taban tasarlayabilir; açık ve ölçülü belgeler, farklı kişilerin ürünlerinin birlikte çalışmasını sağlar."
+    }
+  },
+  "guc-girisi": {
+    "ad": "Güç girişi",
+    "teknik": {
+      "5": "Güç girişi yuvarlak bir prize benzer: adaptör ya da pil buraya takılır ve kart bilgisayar olmadan da çalışır.",
+      "6": "Bu girişe 7-12 V arasında bir adaptör ya da pil bağlanır; kartın regülatörü bunu 5 V'a düşürür. Arduino, 9 V'luk standart bir pilin de bu girişle kullanılabildiğini belirtir.",
+      "7": "Elektrik önce ters bağlanmaya karşı koruyan bir diyottan, sonra regülatörden geçer. USB ve adaptör aynı anda takılıysa kart hangi kaynağı kullanacağını kendiliğinden seçer.",
+      "8": "Fişin ortası artı (+), dış kılıfı eksidir (-): 2,1 mm artı uç ve 5,5 mm eksi kılıf. Arduino 7-12 V önerir, sınır 6-20 V'tur. VIN pininden doğrudan güç verilirse girişteki ters bağlanma koruması devre dışı kalır."
+    },
+    "sosyal": {
+      "5": "Modem gibi bazı cihazların adaptörleri de yuvarlak fişlidir. Her cihaza kendi adaptörünü takmak cihazı korur.",
+      "6": "Duvardaki prizde yüksek gerilim vardır ve çok tehlikelidir. Kart hiçbir zaman prize doğrudan bağlanmaz; araya her zaman uygun bir adaptör girer.",
+      "7": "Adaptörlerin etiketinde çıkış gerilimi, akımı ve fişin hangi ucunun artı (+) olduğunu gösteren bir simge bulunur. Cihaza takmadan önce bu etiketi okumak iyi bir alışkanlıktır.",
+      "8": "Kullanılmayan adaptörler ve biten piller çöpe atılmamalı, toplama noktalarına götürülmelidir. İçlerindeki bazı maddeler doğaya zarar verebilir; metal ve plastik parçaları ise geri kazanılabilir."
+    }
+  },
+  "pin-dijital": {
+    "ad": "Dijital pin",
+    "teknik": {
+      "5": "Bu pin ya 5 volt verir ya hiç vermez: açık ya da kapalı. LED yakmak ya da butona basılıp basılmadığını anlamak için kullanılır.",
+      "6": "Dijital pin <code>pinMode</code> ile giriş (INPUT) ya da çıkış (OUTPUT) yapılır. Derslerde 2. pin butonu okuyan bir giriş, 8, 9 ve 10. pinler trafik ışığını yakan çıkışlardır.",
+      "7": "Giriş yapılan bir pin hiçbir yere bağlı değilse çevredeki elektriksel gürültüden etkilenir ve rastgele değerler okunabilir. Butonlu devredeki 10 kΩ'luk direnç, buton bırakılınca pini kesin olarak LOW'da tutar.",
+      "8": "HIGH yaklaşık 5 V, LOW 0 V demektir. Arduino pin başına 20 mA önerir, 40 mA aşılmamalıdır. Her pinde 20-50 kΩ'luk bir iç pull-up direnci vardır ve <code>INPUT_PULLUP</code> ile açılır. 2 ve 3. pinler dış kesme (interrupt) girişi olarak da kullanılabilir."
+    },
+    "sosyal": {
+      "5": "Televizyon kumandasındaki her tuş ya basılıdır ya değildir. Kart da dijital pinle bu iki durumu ayırt eder.",
+      "6": "Akıllı ev sistemlerinde kapı açık mı, ışık yanıyor mu gibi iki durumlu bilgiler dijital sinyallerle izlenir ve yönetilir.",
+      "7": "Kodda pin numarası yerine <code>buton</code> ya da <code>kirmizi</code> gibi anlamlı adlar kullanmak, programı başkalarının da kolayca anlamasını sağlar. Trafik ışığı dersindeki kod buna iyi bir örnektir.",
+      "8": "Fabrikalardaki birçok makine, güvenlik kapağı açıldığında durur; kapağın açık ya da kapalı olduğu iki durumlu bir sinyalle algılanır. Basit bir dijital sinyal, doğru kullanıldığında insan güvenliğini korur."
+    }
+  },
+  "pin-pwm": {
+    "ad": "PWM pini (~)",
+    "teknik": {
+      "5": "Yanında ~ işareti olan pinler, LED'i yarım parlaklıkta yakmak gibi ara değerler üretebilir. Bunu ışığı çok hızlı yakıp söndürerek yapar.",
+      "6": "UNO'da ~ işaretli altı pin vardır: 3, 5, 6, 9, 10 ve 11. Bu pinler dijital pin gibi kullanılabilir; ayrıca <code>analogWrite</code> ile ara değer de üretebilir.",
+      "7": "Pin aslında yalnız açılıp kapanır, ama bunu saniyede yüzlerce kez yapar. Gözümüz bu hızlı değişimi ayırt edemediği için LED'i, açık kaldığı süreye göre daha sönük ya da daha parlak görürüz.",
+      "8": "<code>analogWrite</code> 0-255 arası değer alır, yani 8 bitliktir. Sinyal çoğu ~ pinde yaklaşık 490 Hz, 5 ve 6. pinlerde yaklaşık 980 Hz frekanslıdır. 5 ve 6. pinler <code>millis()</code> ve <code>delay()</code> ile aynı iç sayacı paylaştığından çok küçük değerlerde tam kapanmayabilir."
+    },
+    "sosyal": {
+      "5": "Çizgi filmler, art arda hızla gösterilen resimlerden oluşur ve gözümüz bunları hareket gibi görür. PWM de çok hızlı açıp kapamayla gözü ara bir parlaklığa inandırır.",
+      "6": "Kısılmış bazı LED lambalara telefon kamerasıyla bakınca ekranda çizgiler ya da titreme görülebilir; bunun bir nedeni ışığın çok hızlı açılıp kapanmasıdır.",
+      "7": "Model uçaklarda ve robot kollarda kullanılan servo motorlar, gelen sinyaldeki darbelerin uzunluğuna bakarak hangi açıya döneceklerini anlar.",
+      "8": "Bazı ütü ve fırınlar sıcaklığı, ısıtıcıyı belirli aralıklarla açıp kapatarak ayarlar; açık kalma süresi uzadıkça ortalama güç artar. Bu, PWM fikrinin çok daha yavaş bir örneğidir."
+    }
+  },
+  "pin-rx-tx": {
+    "ad": "RX ve TX pinleri",
+    "teknik": {
+      "5": "0 numaralı pin (RX) veri alır, 1 numaralı pin (TX) veri gönderir. Kart başka cihazlarla bu pinlerden konuşabilir.",
+      "6": "RX alıcı, TX verici demektir. Bu pinler kartın seri haberleşme pinleridir ve USB çipine de bağlıdır; kod yüklerken ve <code>Serial</code> kullanılırken iş görürler.",
+      "7": "0 ve 1. pinler USB ile kod yüklerken de kullanıldığından bunlara bir parça bağlamak yüklemeyi bozabilir. Bu yüzden derslerdeki devrelerde bu iki pin boş bırakılır.",
+      "8": "İki cihaz seri haberleşirken birinin TX'i ötekinin RX'ine bağlanır ve GND'ler ortak olmalıdır; ortak toprak olmadan HIGH ve LOW doğru anlaşılamaz. İki taraf aynı hızda (baud) konuşmalıdır; örneklerde sık kullanılan değerler 9600 ve 115200'dür."
+    },
+    "sosyal": {
+      "5": "Mektuplaşan iki arkadaştan biri yazıp gönderir, öteki alıp okur. TX gönderen, RX alan taraftır.",
+      "6": "Bluetooth ya da GPS gibi birçok hazır modül karta bu tür seri haberleşmeyle bağlanabilir.",
+      "7": "Anlaşmak için aynı dili ve aynı hızı kullanmak gerekir: biri çok hızlı, öteki çok yavaş konuşursa mesaj karışır. Cihazlar da aynı haberleşme hızına ayarlanmalıdır.",
+      "8": "Seri haberleşme, elektronikte en çok kullanılan haberleşme yöntemlerinden biridir; birçok sensör, modül ve sanayi cihazı bu yöntemle konuşur. Az kablo istemesi ve basit olması onu yaygın kılar."
+    }
+  },
+  "pin-13": {
+    "ad": "13. pin",
+    "teknik": {
+      "5": "13. pin karttaki L ışığına bağlıdır. Bu pine HIGH verilince L ışığı da yanar.",
+      "6": "13. pine kodda <code>LED_BUILTIN</code> adıyla da ulaşılır. LED yakma dersinde dış LED de bu pine bağlanır; böylece L ile dış LED aynı anda yanıp söner.",
+      "7": "13. pinin L ışığına bağlı olması, devre kurmadan kodu denemeyi sağlar. Dış LED yanmıyor ama L yanıp sönüyorsa kod çalışıyordur; sorun büyük olasılıkla devrededir.",
+      "8": "13. pin aynı zamanda SPI haberleşmesinin saat hattıdır (SCK) ve ICSP başlığının 3. pinine bağlıdır. Bu yüzden SPI ya da ICSP kullanılırken L ışığı kendiliğinden yanıp sönebilir."
+    },
+    "sosyal": {
+      "5": "Yeni bir oyuncağa pil takınca yanan küçük ışık, onun çalıştığını gösterir. L ışığı da kodun çalıştığını gösterir.",
+      "6": "Büyük bir işe en basit adımla başlamak akıllıcadır: önce bir ışığı yakıp söndürmek, sonra devreyi büyütmek. Böylece bir hata çıkarsa nerede aranacağı bellidir.",
+      "7": "Arıza ararken çalıştığından emin olduğumuz bir parçayla karşılaştırma yapmak sorunun yerini daraltır. L ışığı bu yüzden güvenilir bir karşılaştırma noktasıdır.",
+      "8": "Bir pinin birden çok görevi olması tasarımda bir uzlaşmadır: kart küçük kalır, ama aynı pini aynı anda iki iş için kullanmak çakışma yaratabilir. Mühendislik, bu tür artı ve eksileri tartarak karar vermektir."
+    }
+  },
+  "pin-gnd": {
+    "ad": "GND pini",
+    "teknik": {
+      "5": "GND pini, elektriğin karta geri döndüğü yerdir. Her devrede GND'ye giden bir yol mutlaka olmalıdır.",
+      "6": "UNO'da üç GND pini vardır: ikisi güç pinlerinin arasında, biri 13. pinin yanındadır. Hepsi kartın içinde birbirine bağlıdır.",
+      "7": "GND, devrenin 0 V kabul edilen ortak noktasıdır ve gerilimler bu noktaya göre ölçülür. Başka bir kart ya da modül bağlarken GND'leri birleştirmek gerekir; yoksa iki taraf aynı sinyali farklı anlayabilir.",
+      "8": "Gerilim iki nokta arasındaki farktır; bir pinde 5 V var demek, GND'ye göre 5 V var demektir. Karttaki bütün GND pinleri aynı iletken ağa bağlı olduğundan hangisinin kullanıldığı fark etmez."
+    },
+    "sosyal": {
+      "5": "Bir yarışta herkes aynı başlangıç çizgisinden koşar. GND de devredeki bütün ölçümlerin başladığı ortak çizgidir.",
+      "6": "Binalarda katlar zemin kattan başlayarak sayılır. Devrede de gerilimler GND'den, yani sıfır noktasından başlayarak ölçülür.",
+      "7": "GND adı, İngilizcede toprak anlamına gelen ground sözcüğünden gelir. Evlerdeki topraklı prizler, bir arıza olduğunda elektriği güvenli biçimde toprağa iletir.",
+      "8": "Kartın GND'si ile evdeki toprak hattı aynı şey değildir: kartta GND, devrenin kendi sıfır noktasıdır. Aynı sözcüğün farklı yerlerde farklı anlam taşıyabildiğini bilmek, teknik belgeleri doğru okumayı sağlar."
+    }
+  },
+  "pin-5v": {
+    "ad": "5V pini",
+    "teknik": {
+      "5": "5V pini, devredeki parçalara 5 volt elektrik verir. Breadboard'un artı (+) rayı genellikle buraya bağlanır.",
+      "6": "Kart USB'ye takılıyken 5V pini elektriği USB'den, adaptörle çalışırken regülatörden alır. LED, buton ve sensör gibi parçalar bu pinden beslenir.",
+      "7": "5V pini bir çıkıştır. Karta bu pinden dışarıdan elektrik vermek regülatörü atlar ve kartı bozabilir; Arduino bunu önermez. 5V pinini doğrudan GND'ye bağlamak ise kısa devredir.",
+      "8": "USB ile çalışırken çekilebilecek akım sınırlıdır: bilgisayarların USB girişleri genellikle 500 mA ile sınırlıdır ve UNO'daki sıfırlanabilir sigorta 500 mA'in üstünde bağlantıyı keser. Motor gibi çok akım çeken parçalar ayrı bir kaynakla beslenmelidir."
+    },
+    "sosyal": {
+      "5": "Bilgisayarın USB girişine takılan küçük fan ve lambalar da 5 voltluk elektrikle çalışır.",
+      "6": "Taşınabilir şarj cihazları (powerbank), içlerindeki bataryadan USB çıkışına genellikle 5 voltluk elektrik verir.",
+      "7": "Telefonu bilgisayarın USB girişinden şarj etmek çoğu zaman adaptörden şarj etmekten yavaştır; çünkü USB girişinin verebileceği akım sınırlıdır.",
+      "8": "Şarj aletlerinin etiketinde gerilimle birlikte verebilecekleri en yüksek akım da yazar. Bir kaynağın gücünü anlamak için ikisini birlikte düşünmek gerekir: güç, gerilim ile akımın çarpımıdır."
+    }
+  },
+  "pin-3v3": {
+    "ad": "3,3V pini",
+    "teknik": {
+      "5": "3,3V pini, 5 volttan daha düşük gerilimle çalışan parçalara 3,3 volt verir.",
+      "6": "Bazı sensörler ve modüller 5 V yerine 3,3 V ile çalışır. Bu parçaları 5V pinine bağlamak onları bozabilir; 3,3V pini bu parçalar içindir.",
+      "7": "3,3V pinindeki gerilimi kartın üstündeki ikinci, küçük bir regülatör üretir ve bu regülatör 5 V hattından beslenir. Küçük olduğu için verebileceği akım da azdır.",
+      "8": "UNO R3'ün resmî pin şemasına ve ürün belgesine göre 3,3V pininden en fazla 50 mA çekilebilir. 3,3 V ile çalışan bir modülün veri pinleri 5 V'luk sinyale dayanıklı değilse araya bir gerilim seviyesi dönüştürücüsü konur."
+    },
+    "sosyal": {
+      "5": "Bazı oyuncaklar tek pille, bazıları iki pille çalışır. Her cihaz kendine uygun gerilimle çalışır.",
+      "6": "Telefonların ve bilgisayarların içindeki çiplerin birçoğu düşük gerilimle çalışır. Düşük gerilim, çoğu zaman daha az enerji harcamak ve daha az ısınmak demektir.",
+      "7": "Ülkeler arasında prizlerdeki gerilim farklı olabilir; bu yüzden yolculukta cihazın o gerilime uygun olup olmadığına bakılır. Farklı gerilimle çalışan parçaları birbirine bağlarken de aynı dikkat gerekir.",
+      "8": "Pille çalışan cihazların uzun dayanması için tasarımcılar mümkün olan en düşük gerilimi seçmeye çalışır. Bu, enerjiyi verimli kullanmanın ve cihazları küçültmenin yollarından biridir."
+    }
+  },
+  "pin-vin": {
+    "ad": "VIN pini",
+    "teknik": {
+      "5": "VIN pini, güç girişine takılan pil ya da adaptörün elektriğine ulaşmayı sağlar. Karta bu pinden de elektrik verilebilir.",
+      "6": "Güç girişine adaptör takılıyken VIN pininde adaptörden gelen gerilim bulunur. İstenirse pil, VIN ve GND pinlerine bağlanarak da kart çalıştırılabilir.",
+      "7": "VIN pini doğrudan regülatörün girişine bağlıdır. Güç girişindeki ters bağlanma korumasından sonra geldiği için, bu pinden güç verirken artı ile eksiyi karıştırmak kartı bozabilir.",
+      "8": "VIN için önerilen aralık 7-12 V, sınır 6-20 V'tur; 7 V'un altında 5V pini 5 V'tan az verebilir ve kart kararsızlaşabilir. VIN pininde ters bağlanma koruması yoktur, bu yüzden pil bağlarken kutuplar iki kez kontrol edilmelidir."
+    },
+    "sosyal": {
+      "5": "Kumandaya pil takarken artı (+) ve eksi (-) işaretlerine bakarız. VIN pinine güç verirken de artı ve eksi doğru yere gelmelidir.",
+      "6": "Pille çalışan bir proje, bilgisayardan uzakta, örneğin bahçede ya da bir robotun içinde çalışabilir.",
+      "7": "Pil taktığımız her cihazda yön önemlidir; bazı cihazlar ters takılan pile karşı korumalıdır, ama hepsi değil. Takmadan önce işaretlere bakmak cihazı korumanın en kolay yoludur.",
+      "8": "Bir projede güç kaynağı seçmek bir mühendislik kararıdır: pil taşınabilirlik sağlar ama biter, adaptör süreklidir ama prize bağlı kalır. Doğru seçim, cihazın nerede ve ne kadar süre çalışacağına göre yapılır."
+    }
+  },
+  "pin-aref": {
+    "ad": "AREF pini",
+    "teknik": {
+      "5": "AREF, analog ölçümün cetveli gibidir: ölçülebilecek en yüksek gerilimi belirler. Çoğu projede boş bırakılır.",
+      "6": "Analog pinler normalde 0 ile 5 V arasını ölçer. Kodla ayarlanıp AREF pinine daha düşük bir gerilim verilirse ölçüm bu yeni üst sınıra göre yapılır.",
+      "7": "Ölçülecek gerilim küçükse üst sınırı düşürmek ölçümü inceltir: 1024 adım daha dar bir aralığa yayıldığı için her adım daha küçük bir gerilim farkını gösterir.",
+      "8": "Üst sınır <code>analogReference</code> ile seçilir: DEFAULT 5 V, INTERNAL ATmega328P'de 1,1 V, EXTERNAL ise AREF'e verilen 0-5 V arası gerilimdir. AREF'e gerilim verilecekse <code>analogRead</code> çağrılmadan önce EXTERNAL seçilmelidir; yoksa mikrodenetleyici zarar görebilir."
+    },
+    "sosyal": {
+      "5": "Termometreyle havanın, ateş ölçerle vücudun sıcaklığını ölçeriz; her biri kendi aralığı için yapılmıştır.",
+      "6": "Birçok ölçü aletinde farklı ölçüm aralıkları arasında seçim yapılan bir ayar bulunur; küçük değerler için küçük aralık seçilir.",
+      "7": "Her ölçüm bir başvuru değerine göre yapılır: yükseklik deniz seviyesine göre, sıcaklık Celsius ölçeğinde suyun donma noktasına göre verilir. Başvuru değeri yanlışsa bütün ölçümler yanlış olur.",
+      "8": "Ölçü aletleri zamanla şaşabilir; bu yüzden laboratuvarlarda ve fabrikalarda düzenli olarak bilinen bir değerle karşılaştırılıp ayarlanır. Buna kalibrasyon denir."
+    }
+  },
+  "pin-ioref": {
+    "ad": "IOREF pini",
+    "teknik": {
+      "5": "IOREF pini, kartın üstüne takılan ek kartlara bu kartın kaç voltla çalıştığını söyler.",
+      "6": "IOREF, kartın pinlerinin çalıştığı gerilimi gösterir; UNO'da bu 5 V'tur. Ek kartlar (shield) bu pine bakarak kendilerini ayarlayabilir.",
+      "7": "Bazı Arduino kartları 5 V, bazıları 3,3 V ile çalışır. Aynı ek kart ikisine de takılabileceği için IOREF sayesinde hangi gerilimle konuşacağını öğrenir ve kartı bozmaz.",
+      "8": "Uygun tasarlanmış bir ek kart IOREF gerilimini okuyup doğru güç kaynağını seçer ya da çıkışlarındaki gerilim dönüştürücülerini buna göre çalıştırır. IOREF, UNO'nun R3 sürümünde eklenmiştir; yanındaki NC pini ileride kullanılmak üzere boş bırakılmıştır."
+    },
+    "sosyal": {
+      "5": "Yeni tanıştığımız biriyle önce hangi dili konuşacağımızı anlaşırız. IOREF de ek karta hangi gerilimle konuşacağını söyler.",
+      "6": "Bazı şarj aletleri ile telefonlar, bağlandıklarında hangi gerilimle şarj edeceklerine kendi aralarında karar verir.",
+      "7": "Yeni bir ürün çıkarken eski ürünlerle uyumu korumak önemlidir. IOREF gibi küçük eklemeler, farklı kartların aynı ek kartlarla güvenle çalışabilmesine yardım eder.",
+      "8": "Bir tasarımda ileride gerekebilecek şeyler için yer bırakmak, yanındaki NC pininde olduğu gibi, ileri görüşlü bir yaklaşımdır. İyi standartlar bugünü ve yarını birlikte düşünerek yazılır."
+    }
+  },
+  "pin-reset": {
+    "ad": "RESET pini",
+    "teknik": {
+      "5": "RESET pini GND'ye bağlanınca kart, reset düğmesine basılmış gibi kodu baştan başlatır.",
+      "6": "RESET pini reset düğmesiyle aynı hatta bağlıdır. Üste takılan bir ek kart düğmeyi kapatırsa, reset bu pine bağlanan başka bir düğmeyle yapılabilir.",
+      "7": "Hat normalde 10 kΩ'luk bir dirençle 5 V'ta (HIGH) tutulur; LOW yapılınca mikrodenetleyici yeniden başlar. Kod yüklenirken USB çipi de bu hattı kısa süre LOW yaparak kartı kendiliğinden yeniden başlatır.",
+      "8": "Otomatik yeniden başlatma, USB çipinin DTR hattının 100 nF'lık bir kondansatörle RESET'e bağlanmasıyla olur; böylece önyükleyici yeni kodu almaya hazır olur. Kart üzerindeki bir lehim köprüsü kesilerek bu özellik kapatılabilir."
+    },
+    "sosyal": {
+      "5": "Bir cihazı uzaktan kumandayla kapatıp açabildiğimiz gibi, kart da düğmesine dokunmadan bu pin üzerinden yeniden başlatılabilir.",
+      "6": "Merdiven lambası hem alttaki hem üstteki anahtarla yakılabilir. Kart da hem reset düğmesiyle hem RESET piniyle yeniden başlatılabilir.",
+      "7": "Bir direğin tepesindeki ölçüm cihazı gibi ulaşılması zor yerlerdeki cihazlar, takıldıklarında kendiliğinden ya da uzaktan yeniden başlatılabilecek şekilde tasarlanır.",
+      "8": "İyi bir tasarımda cihaz yeniden başladığında güvenli bir duruma döner: motorlar durur, ısıtıcılar kapanır. Bu yüzden <code>setup()</code> içinde pinlerin ilk durumunu açıkça yazmak iyi bir alışkanlıktır."
+    }
+  },
+  "pin-sda-scl": {
+    "ad": "SDA ve SCL pinleri",
+    "teknik": {
+      "5": "SDA ve SCL, kartın sensörler ve küçük ekranlarla yalnız iki haberleşme kablosuyla konuşmasını sağlayan pinlerdir.",
+      "6": "Bu pinler I2C haberleşmesi içindir: SDA veriyi, SCL saat sinyalini taşır. UNO'da A4 (SDA) ve A5 (SCL) pinleriyle aynı hatlara bağlıdır.",
+      "7": "I2C'de her cihazın kendine ait bir adresi vardır. Bu sayede aynı iki kabloya birçok cihaz bağlanabilir; kart hangi cihazla konuşacağını adresle seçer.",
+      "8": "I2C adresleri 7 bitliktir (0-127); <code>Wire</code> kütüphanesinde 0-7 ayrılmıştır, kullanılabilen ilk adres 8'dir. Hatlara pull-up direnci gerekir. Bir denetleyici (controller) konuşmayı başlatır, çevre birimleri (peripheral) sırası gelince yanıt verir."
+    },
+    "sosyal": {
+      "5": "Öğretmen sınıfta adını söylediği öğrenciyle konuşur, diğerleri sırasını bekler. I2C'de de her cihazın bir adı, yani adresi vardır.",
+      "6": "Küçük ekranlar, saat modülleri ve birçok sensör I2C ile bağlanır; böylece az kabloyla çok parça kullanılabilir.",
+      "7": "Kablo sayısını azaltmak cihazları küçültür, kurulumu kolaylaştırır ve yanlış bağlantı olasılığını düşürür. Ortak bir hatta adresle konuşmak bu yüzden çok kullanışlıdır.",
+      "8": "Mektuplar adres sayesinde aynı yollardan geçip doğru kapıya ulaşır. Bilgisayar ağları ve internet de her cihaza bir adres vererek aynı fikirle çalışır."
+    }
+  },
+  "pin-analog": {
+    "ad": "Analog giriş pini",
+    "teknik": {
+      "5": "Analog pin, gerilimin ne kadar olduğunu ölçer ve bunu 0 ile 1023 arasında bir sayıya çevirir.",
+      "6": "<code>analogRead</code> ile okunan değer 0 ile 1023 arasındadır: 0 V için 0, 5 V'a yakın gerilimler için 1023 gelir. Aradaki gerilimler aradaki sayılara karşılık gelir.",
+      "7": "Analog pin, ölçtüğü gerilimi 1024 basamaklı bir merdivenin basamaklarından birine yerleştirir gibi sayıya çevirir. Böylece ışık gibi sürekli değişen büyüklükler kodda karşılaştırılabilir; örneğin değer 500'ün altına inince LED yakılabilir.",
+      "8": "10 bitlik dönüştürücü 0-5 V aralığını 1024 adıma böler; her adım yaklaşık 4,9 mV'a karşılık gelir. A0-A5 gerektiğinde dijital pin olarak da kullanılabilir; A0, D14 olarak da numaralanır."
+    },
+    "sosyal": {
+      "5": "Dijital mutfak tartısı ağırlığı ölçüp ekrana sayı olarak yazar. Analog pin de ölçtüğü gerilimi sayıya çevirir.",
+      "6": "Telefonlar pilin ne kadar kaldığını, pil gerilimi gibi ölçümlerden yola çıkarak tahmin eder.",
+      "7": "Ölçüm cihazları bir değeri sayıya çevirirken küçük bir yuvarlama yapar. Basamak sayısı arttıkça ölçüm daha ayrıntılı olur; dijital terazilerin hassasiyeti de buna bağlıdır.",
+      "8": "Gerçek ölçümler küçük dalgalanmalar içerir. Birkaç ölçümün ortalamasını almak sonucu daha güvenilir yapar; bilim insanları da deneylerini bu yüzden birden çok kez tekrarlar."
+    }
+  },
+  "serit": {
+    "ad": "Şerit (5'li delik grubu)",
+    "teknik": {
+      "5": "Aynı sütundaki beş delik içeriden bir metal şeritle bağlıdır. Bu deliklere takılan bacaklar birbirine bağlanmış olur.",
+      "6": "Her numaralı sütunda iki ayrı şerit vardır: a-e ve f-j. Aynı şeritteki delikler bağlıdır; farklı şeritler birbirine bağlı değildir.",
+      "7": "Bir LED'in iki bacağı aynı şeride takılırsa bacaklar birbirine bağlanır; akım LED'e uğramadan şeritten geçer ve LED yanmaz. Bu yüzden her bacak ayrı bir şeride takılır.",
+      "8": "Şeridin içinde bacağı sıkıca tutan yaylı metal kıskaçlar vardır; aynı şeride takılan her şey elektriksel olarak tek bir düğüm oluşturur. Bu breadboard'da 30 sütun × 2 = 60 şerit vardır."
+    },
+    "sosyal": {
+      "5": "El ele tutuşan beş arkadaştan birine dokunan, hepsine dokunmuş gibi olur. Şeritteki beş delik de böyle birbirine bağlıdır.",
+      "6": "Terziler kumaşı kalıcı olarak dikmeden önce teyelleyip dener. Breadboard da devreyi lehimlemeden denemeyi sağlar; beğenilmezse kolayca sökülür.",
+      "7": "Elektrik tesisatında kabloları birleştirmek için kullanılan klemensler de içlerindeki metal parçayla birden çok kabloyu aynı noktada buluşturur.",
+      "8": "Gevşemiş bir kıskaç bazen temas eder, bazen etmez; bu da bir çalışıp bir duran ve bulunması zor arızalara yol açar. Arıza ararken bağlantıların sağlamlığını kontrol etmek ilk adımlardandır."
+    }
+  },
+  "arti-ray": {
+    "ad": "Artı (+) rayı",
+    "teknik": {
+      "5": "Kırmızı çizgili ve + işaretli bu uzun sıra baştan sona bağlıdır. Genellikle 5V pini buraya bağlanır.",
+      "6": "Artı (+) rayı, breadboard'un kenarında boydan boya uzanan bir besleme hattıdır. 5V pinine bağlanınca rayın her deliğinden 5 V alınabilir.",
+      "7": "Ray sayesinde her parça için karta ayrı kablo çekmek gerekmez: 5V bir kez raya bağlanır, parçalar en yakın delikten beslenir. Bu breadboard'da iki kenarda birer + rayı vardır ve bunlar birbirine bağlı değildir.",
+      "8": "Bu breadboard'da her ray, beşerli gruplar hâlinde dizilmiş 25 delikten oluşur ve hepsi tek bir iletkene bağlıdır. + rayı en dıştaki sıradır; kırmızı renk yalnız bir alışkanlıktır, asıl bilgiyi + işareti verir."
+    },
+    "sosyal": {
+      "5": "Evdeki elektrik, duvarların içindeki kablolarla bütün odalara taşınır. Artı (+) rayı da elektriği breadboard boyunca taşır.",
+      "6": "Bir otobüs hattında her duraktan binilebilir. Artı (+) rayında da hat boyunca her delikten 5 V alınabilir.",
+      "7": "Pillerin ve akülerin artı ucu çoğu zaman kırmızı renkle ve + işaretiyle birlikte gösterilir. Renk ile işaretin birlikte kullanılması karışıklığı azaltır.",
+      "8": "Renkleri ayırt etmekte zorlanan kişiler kırmızıyı başka renklerle karıştırabilir. Bu yüzden önemli bir bilgiyi yalnız renkle vermemek, + ve - gibi işaretlerle ya da yazıyla desteklemek gerekir."
+    }
+  },
+  "eksi-ray": {
+    "ad": "Eksi (-) rayı",
+    "teknik": {
+      "5": "Mavi çizgili ve - işaretli bu uzun sıra da baştan sona bağlıdır. Genellikle GND buraya bağlanır.",
+      "6": "Eksi (-) rayı, devredeki parçaların GND'ye döndüğü ortak hattır. Bir kez GND'ye bağlanınca her parça en yakın delikten GND'ye ulaşabilir.",
+      "7": "Trafik ışığı devresinde üç LED'in dirençleri aynı - rayına bağlanır; böylece üçü de tek bir GND kablosunu paylaşır. Ortak dönüş yolu devreyi sade ve okunaklı tutar.",
+      "8": "Bu breadboard'da - rayı, + rayının hemen iç tarafındadır ve 25 delikten oluşur. + rayı ile - rayı arasına doğrudan kablo takmak, 5V pinini GND'ye bağlamak, yani kısa devre yapmak demektir."
+    },
+    "sosyal": {
+      "5": "Mavi çizgiye ve - işaretine birlikte bakınca karışıklık olmaz. Yalnız renge değil, işarete de bakmak iyi bir alışkanlıktır.",
+      "6": "Bir okulda bütün sınıflar aynı koridora açılır ve herkes çıkışa oradan ulaşır. Eksi (-) rayı da parçaların ortak dönüş yoludur.",
+      "7": "Elektrik tesisatında kabloların görevine göre renkleri vardır; ama tesisatta çalışan uzmanlar renge güvenmeden önce ölçüm yaparak kontrol eder.",
+      "8": "Düzenli bir devrede besleme ve dönüş hatları ayrı ve belirgindir. Bu düzen hata bulmayı kolaylaştırır ve devreyi başkalarının da anlamasını sağlar; iyi bir devre, başkası da okuyabilsin diye kurulur."
+    }
+  },
+  "orta-kanal": {
+    "ad": "Orta kanal",
+    "teknik": {
+      "5": "Orta kanal, breadboard'u iki yarıya ayıran oluktur. İki yarıdaki delikler birbirine bağlı değildir.",
+      "6": "Kanal, e ve f satırlarının arasındadır. Bir sütunun a-e tarafı ile f-j tarafı, kanal yüzünden iki ayrı şerittir.",
+      "7": "Buton ve çip gibi parçalar kanalın üstüne takılır; böylece her bacak ayrı bir şeride düşer. Kanal olmasaydı bir çipin karşılıklı bacakları aynı şeritte birleşir ve çip doğru çalışmazdı.",
+      "8": "Bu breadboard'da e ve f satırları arasında 7,62 mm, yani üç delik aralığı vardır. Kanal, iki sıra bacaklı çiplerin bacaklarını iki yana ayırarak her bacağın kendi şeridine bağlanmasını sağlar."
+    },
+    "sosyal": {
+      "5": "Yolun ortasındaki refüj iki yönü birbirinden ayırır. Orta kanal da breadboard'un iki yarısını ayırır.",
+      "6": "Elektrikli cihazlarda iletken parçaların arasında boşluk ya da yalıtkan bırakılır ki elektrik istenmeyen yere geçmesin.",
+      "7": "Breadboard'un ve çiplerin birbirine uyması, ölçülerin ortak kurallara göre yapılmasıyla mümkündür. Standartlar, farklı yerlerde üretilen parçaların birlikte kullanılmasını sağlar.",
+      "8": "Ayrılması gereken yerleri bilinçli olarak ayırmak tasarımın parçasıdır; evlerde de farklı hatlar ayrı sigortalarla korunur. Ayırmak, bir yerdeki sorunun her yere yayılmasını önler."
+    }
+  },
+  "koordinat": {
+    "ad": "Koordinatlar",
+    "teknik": {
+      "5": "Breadboard'daki her deliğin bir adı vardır: bir harf ve bir sayı. Örneğin a15, a satırındaki 15. delik demektir.",
+      "6": "Harfler satırları (a-j), sayılar sütunları (1-30) gösterir. Derslerdeki e1 ya da f1 gibi adresler, parçanın hangi deliğe takılacağını tam olarak söyler.",
+      "7": "Koordinat, hangi deliklerin bağlı olduğunu da gösterir: aynı sayının a-e harfleri bir şerittir, f-j harfleri başka bir şerittir. Örneğin a15 ile e15 bağlıdır, e15 ile f15 bağlı değildir.",
+      "8": "Bu breadboard'da 10 satır ve 30 sütun, yani 300 delikli bir çalışma alanı vardır; komşu delikler arası 2,54 mm'dir (0,1 inç). Devreyi koordinatlarla yazmak, onu başka birinin aynen kurabilmesini sağlar."
+    },
+    "sosyal": {
+      "5": "Sinemada koltuk numaraları da harf ve sayıdan oluşur, örneğin F7. Böylece herkes yerini kolayca bulur.",
+      "6": "Satranç tahtasında ve bazı haritalarda da yerler harf ve sayıyla adlandırılır. Ortak bir adlandırma, herkesin aynı yeri anlamasını sağlar.",
+      "7": "Matematikteki koordinat düzleminde de bir nokta iki sayıyla tam olarak belirtilir. Breadboard koordinatları bunun günlük bir örneğidir.",
+      "8": "Tarifler, montaj kılavuzları ve deney föyleri, başkalarının aynı sonuca ulaşabilmesi için adımları açıkça yazar. Bilimde bir deneyin tekrarlanabilmesi, sonucunun güvenilir sayılmasının temel şartıdır."
+    }
+  },
+  "renk-bantlari": {
+    "ad": "Renk bantları",
+    "teknik": {
+      "5": "Direncin üstündeki renkli çizgiler, değerini gösteren bir şifre gibidir: her renk bir rakamı anlatır.",
+      "6": "Her renk bir rakama karşılık gelir: siyah 0, kahverengi 1, kırmızı 2, turuncu 3, sarı 4, yeşil 5, mavi 6, mor 7, gri 8, beyaz 9. Dört bantlı bir dirençte ilk iki bant rakamları verir.",
+      "7": "Üçüncü bant çarpandır, yani ilk iki rakamın arkasına kaç sıfır ekleneceğini söyler; dördüncü bant hata payıdır. Kırmızı-kırmızı-kahverengi, 22 ve bir sıfır, yani 220 Ω demektir.",
+      "8": "Altın bant %5 hata payı demektir: 220 Ω'luk bir direnç gerçekte 209-231 Ω arasında olabilir. 10 kΩ'luk direnç kahverengi-siyah-turuncu-altındır: 10 ve üç sıfır, yani on bin ohm."
+    },
+    "sosyal": {
+      "5": "Haritalarda mavi suyu, yeşil ovaları gösterir; renkler bir anlam taşır. Direncin üstündeki renkler de değerini anlatan bir koddur.",
+      "6": "Renklerin sırasını hatırlamak için baş harflerden bir söz kurulabilir. MEB'in bir ders modülünde önerilen <strong>Sokakta sayamam gibi</strong> sözünün ünsüzleri sırasıyla siyah, kahverengi, kırmızı, turuncu, sarı, yeşil, mavi, mor, gri ve beyazı hatırlatır.",
+      "7": "Direnç renk kodu birçok ülkede aynı biçimde okunur. Ortak bir kod, farklı dilleri konuşan insanların aynı parçayı aynı biçimde anlamasını sağlar.",
+      "8": "Renkleri ayırt etmekte zorlanan biri için renk kodunu okumak güç olabilir. Bu durumda direncin değeri ölçü aletiyle ölçülür ya da paketindeki etiketten okunur; bilgiyi yalnız renge bağlamamak herkesin işini kolaylaştırır."
+    }
+  },
+  "kablo": {
+    "ad": "Atlama kablosu",
+    "teknik": {
+      "5": "Atlama kablosu, uçlarındaki iğnelerle kartın pinlerini breadboard'daki deliklere bağlar. Elektrik kablonun içinden geçer.",
+      "6": "Kablonun içinde elektriği ileten metal bir tel, dışında yalıtkan plastik bir kılıf vardır. Kılıf, telin başka yerlere değmesini önler.",
+      "7": "Kablo, bağladığı iki noktayı elektriksel olarak aynı nokta yapar. Bu yüzden 5V pinini doğrudan GND'ye bağlayan bir kablo, araya hiçbir parça girmeden kısa devre oluşturur.",
+      "8": "Kablonun rengi elektriği değiştirmez, ama renkleri bir düzene göre seçmek devreyi okunaklı yapar. Arduino'nun buton örneğinde 5 V (+) için kırmızı, GND (-) için siyah kablo kullanılır; yine de renge değil, kablonun hangi pine gittiğine bakmak gerekir."
+    },
+    "sosyal": {
+      "5": "Evdeki bir kablonun kılıfı yırtılmışsa ona dokunulmaz, hemen bir büyüğe haber verilir.",
+      "6": "Kulaklık, şarj ve bilgisayar kabloları da içte metal tel, dışta yalıtkan kılıftan oluşur.",
+      "7": "Kabloları düzenli ve kısa tutmak devreyi okumayı kolaylaştırır ve yanlışlıkla çekilip çıkmalarını önler. Düzenli bir çalışma masası, hatayı bulmayı da hızlandırır.",
+      "8": "Eski kabloların içindeki bakır geri kazanılarak yeniden kullanılabilir. Elektronik atıkları ayrı toplamak, değerli metallerin boşa gitmesini önler."
+    }
+  }
+}
