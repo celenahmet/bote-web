@@ -69,7 +69,9 @@ html[data-js][data-panel-yan=sol] .panel-kenar{order:2}
 html[data-js][data-panel-yan=sol] .sahne-alani{order:3}
 html[data-suruklenen] .ders,html[data-suruklenen] .kart-alani{transition:none!important}
 @media (prefers-reduced-motion:reduce){html[data-js] .ders{transition:none}}
-html[data-js][data-panel=kapali] .kart-alani{visibility:hidden;transition:visibility 0s .24s}
+/* Kapalı panel 0 genişlikli sütunda durur; 1 px kenar çizgisi sütuna sığmayıp sayfayı 1-2 px yana taşıyordu (896 px ve üstünde, panel kapalıyken).
+   Çizgi, kapanma animasyonu (.24s) bitince kalkar; açılırken hemen geri gelir. */
+html[data-js][data-panel=kapali] .kart-alani{visibility:hidden;border-width:0;transition:visibility 0s .24s,border-width 0s .24s}
 .panel-kenar{display:none}
 html[data-js] .panel-kenar{display:block;position:relative;z-index:6;width:0;outline:none}
 html[data-js] .panel-kenar::before{content:"";position:absolute;top:0;bottom:0;left:-8px;width:16px;cursor:col-resize;touch-action:none}
