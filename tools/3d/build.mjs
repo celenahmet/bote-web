@@ -199,3 +199,23 @@ fs.writeFileSync(path.join(CIKTI, 'index.html'), merkezSayfasi());
 for (const d of dersler) { const f = path.join(CIKTI, `${d.slug}.html`); if (d.taslak && !process.argv.includes('--taslak')) { if (fs.existsSync(f)) fs.unlinkSync(f); } else fs.writeFileSync(f, dersSayfasi(d)); }
 const boy = (f) => Math.round(fs.statSync(f).size / 1024);
 console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).length} içeriksiz, yazılmadı), paket ${jsAd} ${Math.round(kod.length / 1024)} KB, sayfalar: ${['index', ...dersler.map((d) => d.slug)].filter((s) => fs.existsSync(path.join(CIKTI, `${s}.html`))).map((s) => `${s} ${boy(path.join(CIKTI, `${s}.html`))} KB`).join(', ')}`);
+
+// ------------------------------------------------------------------ ÖZGÜR MOD (işaretli blok BAŞLA)
+// /3d/ozgur-mod: devreyi öğretmen ya da öğrenci kendisi kurar (Ahmet 01.11: "hocanın özgür modu ... ayrı bir sayfa").
+// Ayrı paket (src/ozgur.js), ayrı sayfa (ozgur-sayfa.mjs), ayrı stil (ozgur.css, stil.css'in üstüne). Ders sayfalarına dokunmaz.
+{
+  const { ozgurSayfasi } = await import(pathToFileURL(path.join(BU, 'ozgur-sayfa.mjs')).href);
+  const ozgurPaket = await esbuild.build({
+    entryPoints: [path.join(BU, 'src/ozgur.js')], bundle: true, format: 'esm', minify: true, write: false, legalComments: 'none',
+    target: ['firefox115', 'chrome109', 'safari15.4'], nodePaths: [path.join(KOK, 'tools/node_modules')], logLevel: 'warning',
+  });
+  const ozgurKod = ozgurPaket.outputFiles[0].contents;
+  const ozgurJs = `ozgur-${crypto.createHash('sha1').update(ozgurKod).digest('hex').slice(0, 10)}.js`;
+  for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^ozgur-.*\.js$/.test(f) && f !== ozgurJs) fs.unlinkSync(path.join(CIKTI, 'assets', f));
+  fs.writeFileSync(path.join(CIKTI, 'assets', ozgurJs), ozgurKod);
+  const ozgurCss = css + fs.readFileSync(path.join(BU, 'ozgur.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
+  const ozgurHtml = path.join(CIKTI, 'ozgur-mod.html');
+  fs.writeFileSync(ozgurHtml, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs }));
+  console.log(`3d: özgür mod, paket ${ozgurJs} ${Math.round(ozgurKod.length / 1024)} KB, sayfa ozgur-mod ${boy(ozgurHtml)} KB`);
+}
+// ------------------------------------------------------------------ ÖZGÜR MOD (işaretli blok BİTTİ)
