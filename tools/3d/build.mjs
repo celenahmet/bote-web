@@ -69,6 +69,7 @@ const kesifListe = Array.isArray(kesifHam) ? Object.fromEntries(kesifHam.filter(
 const kesifIcerik = Object.fromEntries(Object.entries(kesifListe).filter(([id]) => !kavramlar[id]).map(([id, x]) => [id, kesifNormal(id, x)]).filter(([, v]) => v));
 // keşif kartlarının kullandığı kavramlar (kimliğin kendisi ya da eşleştiği kavram)
 const KESIF_KAVRAM = [...new Set(Object.entries(KESIF).flatMap(([id, k]) => [id, k.kavram]).filter((k) => k && kavramlar[k]))];
+const BASLIK_KISA = { 'arduino-ve-breadboard': 'Arduino ve Breadboard 3D Simülasyonu | bote.web.tr' };
 const YEDEK_AD = { 'arduino-ve-breadboard': "Arduino ve Breadboard'u Tanıyalım", 'arduino-led-yakma': 'LED Yakalım', 'arduino-buton-led': 'Butonla LED Yakalım', 'arduino-trafik-isigi': 'Trafik Işığı Yapalım' };
 function taslakDers(slug, cfg) { // içerik gelmeden motoru denemek için yer tutucu (yayına çıkmaz)
   return {
@@ -105,7 +106,7 @@ function bas({ baslik, aciklama, yol, jsonld, sinif = '' }) {
   return `<!doctype html><html lang="tr" data-sinif="6"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(baslik)}</title><meta name="description" content="${esc(aciklama)}"><link rel="canonical" href="${SITE}${yol}">
 ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name="theme-color" content="#5a2bc4"><link rel="icon" type="image/png" href="/assets/img/educator-fabicon-300x300.png">
-<meta property="og:type" content="website"><meta property="og:locale" content="tr_TR"><meta property="og:site_name" content="bote.web.tr"><meta property="og:title" content="${esc(baslik)}"><meta property="og:description" content="${esc(aciklama)}"><meta property="og:url" content="${SITE}${yol}">
+<meta property="og:type" content="website"><meta property="og:locale" content="tr_TR"><meta property="og:site_name" content="bote.web.tr"><meta property="og:title" content="${esc(baslik)}"><meta property="og:description" content="${esc(aciklama)}"><meta property="og:url" content="${SITE}${yol}"><meta property="og:image" content="${SITE}/blog/assets/covers/_blog.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="${esc(baslik)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(baslik)}"><meta name="twitter:description" content="${esc(aciklama)}"><meta name="twitter:image" content="${SITE}/blog/assets/covers/_blog.jpg"><meta name="twitter:image:alt" content="${esc(baslik)}">
 <script>${BAS_BETIK}</script><style>${css}</style>
 <link rel="modulepreload" href="/3d/assets/${jsAd}">
 <script type="application/ld+json">${jsonGom(jsonld)}</script></head><body class="${sinif}">`;
@@ -174,7 +175,9 @@ ${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2
 }
 function dersSayfasi(d) {
   const yol = `/3d/${d.slug}`;
-  const baslik = `${d.baslik}: 3D Arduino Simülasyonu | bote.web.tr`;
+  // arama sonucunda 60 karakteri aşan başlık kesilir: aşarsa kısa biçim (anahtar sözcükler korunur)
+  const tamBaslik = `${d.baslik}: 3D Arduino Simülasyonu | bote.web.tr`;
+  const baslik = tamBaslik.length <= 60 ? tamBaslik : (BASLIK_KISA[d.slug] || `${d.baslik} | bote.web.tr`);
   const jsonld = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'LearningResource', name: d.baslik, description: d.kisa, url: SITE + yol, inLanguage: 'tr', isAccessibleForFree: true, learningResourceType: 'Simülasyon',
       educationalLevel: 'Ortaokul (5-8. sınıf)', timeRequired: `PT${d.sure || 20}M`, teaches: (d.hedefler?.['6'] || []).map((x) => x.replace(/<[^>]+>/g, '')),
@@ -218,12 +221,14 @@ function merkezSayfasi() {
   const baslik = '3D Simülasyon Merkezi: Arduino ve Breadboard | bote.web.tr';
   const aciklama = 'Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard dersleri: üç boyutlu sahne, sınıfa göre anlatım ve mini sınav.';
   const jsonld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: '3D Simülasyon Merkezi', description: aciklama, url: SITE + yol, inLanguage: 'tr',
-    hasPart: dersler.map((d) => ({ '@type': 'LearningResource', name: d.baslik, url: `${SITE}/3d/${d.slug}` })) };
+    hasPart: [...dersler.map((d) => ({ '@type': 'LearningResource', name: d.baslik, url: `${SITE}/3d/${d.slug}` })), { '@type': 'LearningResource', name: 'Özgür Mod: Devreni Kendin Kur', url: `${SITE}/3d/ozgur-mod` }] };
   return `${bas({ baslik, aciklama, yol, jsonld })}${ustCubuk(null)}<main class="merkez"><section class="giris"><h1>3D Simülasyon Merkezi</h1>
 <p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard'u üç boyutlu inceleyin, devreyi adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
 <section class="akis secim-kutusu" aria-labelledby="sinif-sec-baslik"><h2 id="sinif-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">1</span>Sınıfı seç</h2><p class="akis-aciklama">Anlatım, tanımlar ve mini sınav seçilen sınıfa göre hazırlanır.</p>${sinifIzgara()}</section>
 <section class="akis dersler-akis" id="dersler" aria-labelledby="ders-sec-baslik"><h2 id="ders-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">2</span>Dersi seç</h2>
 <ol class="ders-listesi">${dersler.map((d) => (d.taslak ? `<li><div class="hazirlaniyor"><span class="no">${d.cfg.no}</span><h3>${esc(YEDEK_AD[d.slug])}</h3><p>Hazırlanıyor.</p></div></li>` : `<li><a data-ders-baglanti href="/3d/${d.slug}"><span class="no">${d.cfg.no}</span><h3>${esc(d.baslik)}</h3><p>${esc(d.kisa)}</p><span class="meta">${Object.keys(d.cfg.adimlar).length} adım · yaklaşık ${esc(d.sure || 20)} dk</span><span class="ders-sinif">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></span></a></li>`)).join('')}</ol></section>
+<section class="akis ozgur-akis" id="ozgur" aria-labelledby="ozgur-sec-baslik"><h2 id="ozgur-sec-baslik" class="akis-baslik">Özgür mod</h2><p class="akis-aciklama">Hazır bir ders izlemeden kendi devrenizi kurun ve deneyin.</p>
+<ol class="ders-listesi"><li><a data-ders-baglanti href="/3d/ozgur-mod"><h3>Özgür Mod: Devreni Kendin Kur</h3><p>LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.</p><span class="meta">Serbest deneme · ders akışı yok</span><span class="ders-sinif">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></span></a></li></ol></section>
 <div class="notlar"><section><h2>Akıllı tahtada</h2><p>Ders sayfasında Tahta modu ve Tam ekran düğmeleri yazıyı ve düğmeleri büyütür. Adımlar ok tuşları ya da sunum kumandasıyla geçilir.</p></section>
 <section><h2>Sınıfa göre anlatım</h2><p>5, 6, 7 ve 8. sınıf için ayrı tanımlar, açıklamalar ve sorular vardır. Her kavramın teknik tanımı ve günlük hayattaki yeri birlikte verilir.</p></section>
 <section><h2>Tahmin et, sonra gör</h2><p>Öğrenciler önce tahmin eder, sonra sahnede sonucu görür: LED ters takılırsa ne olur, direnç çıkarılırsa ne değişir?</p></section></div></main>
