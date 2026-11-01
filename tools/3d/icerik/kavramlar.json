@@ -1,0 +1,347 @@
+{
+  "arduino": {
+    "ad": "Arduino",
+    "teknik": {
+      "5": "Arduino, üstünde küçük bir bilgisayar çipi olan bir karttır. Ona yüklediğimiz kodla ışık yakar, düğme okur.",
+      "6": "Arduino UNO, bir mikrodenetleyiciyi ve onu kullanmayı kolaylaştıran USB girişi, güç girişi ve pinleri taşıyan bir geliştirme kartıdır.",
+      "7": "Arduino UNO, ATmega328P mikrodenetleyicisini taşıyan bir geliştirme kartıdır; pinleriyle dışarıdan bilgi okur ve LED gibi parçaları kodla yönetir.",
+      "8": "Arduino UNO; ATmega328P mikrodenetleyicisi, 14 dijital giriş/çıkış pini (6'sı PWM), 6 analog girişi, USB bağlantısı, güç girişi ve sıfırlama düğmesi olan bir geliştirme kartıdır."
+    },
+    "sosyal": {
+      "5": "Okullarda robot ve bilim projeleri yapmak için kullanılır. Bir fikri çalışan küçük bir modele dönüştürmemize yardım eder.",
+      "6": "Öğrenciler ve mucitler, akıllı ev ya da robot gibi fikirlerini önce Arduino ile küçük bir model olarak dener.",
+      "7": "Bir ürünü yapmadan önce fikri denemek için kullanılır; bu ilk denemeye prototip denir. Üreticisinin belgesine göre eğitimde ve bilim projelerinde yaygın olarak kullanılır.",
+      "8": "Eğitimde, bilim projelerinde ve prototip geliştirmede kullanılır; üreticisinin belgesine göre bazı şirketler UNO'yu sanayi denetleyicilerinin beyni olarak da kullanır. Burada öğrenilenler, cihazların içindeki gömülü sistemlerin temelidir."
+    }
+  },
+  "mikrodenetleyici": {
+    "ad": "Mikrodenetleyici",
+    "teknik": {
+      "5": "Kartın beynidir. Yazdığımız kod onun içinde saklanır ve orada çalışır.",
+      "6": "Tek bir çipe sığdırılmış küçük bir bilgisayardır; içinde kodu saklayan bellek ve komutları işleyen bir işlemci bulunur.",
+      "7": "İşlemciyi, belleği ve giriş/çıkış bağlantılarını tek çipte toplayan bir bilgisayardır; pinlerden bilgi okuyup pinlere komut göndererek dış dünyayı yönetir.",
+      "8": "İşlemci, program belleği (Flash), çalışma belleği (SRAM) ve giriş/çıkış birimlerini tek çipte birleştirir. UNO'daki ATmega328P 16 MHz'de çalışır; 32 kB Flash, 2 kB SRAM ve 1 kB EEPROM içerir."
+    },
+    "sosyal": {
+      "5": "Çamaşır makinesi, oyuncak ya da uzaktan kumanda gibi birçok cihazın içinde böyle küçük bir beyin olabilir.",
+      "6": "Evdeki birçok cihaz, düğmelere basınca ne yapacağını içindeki küçük bir denetleyiciden öğrenir; birçok çamaşır makinesinde programlar da böyle seçilir.",
+      "7": "Otomatik kapılardan akıllı saatlere kadar birçok cihaz, çevresini algılayıp karar veren küçük bir denetleyiciyle çalışır.",
+      "8": "Bilgisayardan çok daha küçük ve az enerji harcayan bu çipler, cihazların içine gömülü olarak çalışır; bu yüzden onlara gömülü sistem denir. Ev aletleri, araçlar ve tıbbi cihazlar bu tür sistemler kullanabilir."
+    }
+  },
+  "pin": {
+    "ad": "Pin",
+    "teknik": {
+      "5": "Pin, kartın kenarındaki küçük bağlantı ucudur. Kabloları buraya takarız.",
+      "6": "Pin, kartın dış dünyayla bağlantı kurduğu uçtur; her pinin bir numarası ya da adı vardır (13, A0, GND gibi).",
+      "7": "Pin, mikrodenetleyiciye giden bir bağlantı noktasıdır; dijital pinler kodla giriş (okuma) ya da çıkış (yazma) olarak ayarlanabilir.",
+      "8": "Pin, sinyal ya da besleme bağlantı noktasıdır. Dijital pinler <code>pinMode</code> ile INPUT, OUTPUT ya da INPUT_PULLUP yapılır; 5V, 3,3V ve GND gibi güç pinleri ise sabit gerilim sağlar."
+    },
+    "sosyal": {
+      "5": "Bir evin kapıları gibi düşünebiliriz: kart dışarıyla pinlerinden haberleşir.",
+      "6": "Bilgisayardaki USB girişleri ya da kulaklık girişi gibi, kartın pinleri de başka parçaları bağlamak içindir.",
+      "7": "Telefonun şarj girişindeki küçük metal temas noktaları da pin gibidir: bazıları güç, bazıları bilgi taşır.",
+      "8": "Her elektronik cihazda bağlantı uçları vardır: şarj soketleri, kart okuyucular, çiplerin bacakları. Doğru pine doğru bağlantıyı yapmak, cihazın güvenli çalışmasının ilk şartıdır."
+    }
+  },
+  "dijital": {
+    "ad": "Dijital",
+    "teknik": {
+      "5": "Dijital, yalnız iki durum demektir: açık ya da kapalı. Bir ışık anahtarı gibi.",
+      "6": "Dijital sinyal yalnız iki değer alır: var (HIGH, 1) ya da yok (LOW, 0).",
+      "7": "Dijital sinyal iki seviyeli bir sinyaldir: Arduino UNO'da HIGH yaklaşık 5 V, LOW 0 V'tur. Bilgisayarlar bütün bilgiyi bu iki değerle, yani 1 ve 0'larla tutar.",
+      "8": "Dijital sinyal, belli bir eşiğin üstünde HIGH (1), altında LOW (0) sayılan iki seviyeli bir sinyaldir. UNO'da çıkış HIGH iken yaklaşık 5 V, LOW iken 0 V'tur; bit, bu iki değerden birini tutan en küçük bilgi birimidir."
+    },
+    "sosyal": {
+      "5": "Telefon, bilgisayar ve tablet bütün bilgiyi açık ve kapalı gibi iki işaretle saklar.",
+      "6": "Fotoğraflar, müzikler ve yazılar bilgisayarda 1 ve 0'lardan oluşan dijital bilgi olarak saklanır.",
+      "7": "Dijital bilgi bozulmadan kopyalanabilir; bu yüzden fotoğraf, müzik ve kitaplar kolayca paylaşılabilir. Bu kolaylık, başkasının eserini izinsiz kopyalamama sorumluluğunu da getirir.",
+      "8": "Dijitalleşme, bilginin 1 ve 0'lara çevrilip saklanması ve iletilmesidir; okul kayıtlarından kütüphane kataloglarına kadar birçok iş bugün dijital yürür. Bu kolaylık, verinin korunması sorumluluğunu da getirir."
+    }
+  },
+  "analog": {
+    "ad": "Analog",
+    "teknik": {
+      "5": "Analog, yalnız açık ve kapalı değil, aradaki bütün değerler demektir. Ses ayarı gibi az da olabilir, çok da.",
+      "6": "Analog sinyal belli bir aralıkta her değeri alabilir; Arduino'nun A0-A5 pinleri bu değerleri okuyabilir.",
+      "7": "Analog sinyal sürekli değişebilen bir büyüklüktür. Arduino UNO, analog pinlere gelen 0-5 V arasındaki gerilimi 0 ile 1023 arasında bir sayıya çevirir.",
+      "8": "Analog sinyal sürekli bir aralıkta değer alır. UNO'nun 10 bitlik analog-dijital çeviricisi 0-5 V'u 1024 basamağa böler (her basamak yaklaşık 4,9 mV); <code>analogRead</code> 0-1023 arası bir değer döndürür."
+    },
+    "sosyal": {
+      "5": "İbreli bir saat ya da terazinin ibresi, analog göstergeye örnektir.",
+      "6": "Sıcaklık, ışık ve ses doğada analog olarak değişir; algılayıcılar bu değerleri ölçer.",
+      "7": "Akıllı bir sera, toprağın nemini analog bir algılayıcıyla ölçüp sulamayı ne zaman açacağına karar verebilir.",
+      "8": "Hava istasyonları ve ölçüm cihazları doğadaki analog büyüklükleri sayılara çevirerek kaydeder. Çevirinin bit sayısı, ölçümün ne kadar ince olacağını belirler."
+    }
+  },
+  "usb": {
+    "ad": "USB",
+    "teknik": {
+      "5": "USB, kartı bilgisayara bağlayan giriştir. Hem elektrik verir hem kodu taşır.",
+      "6": "USB bağlantısı karta bilgisayardan elektrik sağlar ve yazdığımız kodu kartın belleğine yükler.",
+      "7": "USB, cihazlar arasında hem güç hem veri taşıyan bir bağlantı standardıdır; Arduino UNO'da B tipi USB girişi bulunur.",
+      "8": "USB (Evrensel Seri Veri Yolu), güç ve verinin aynı kablodan taşındığı bir standarttır. UNO'nun USB-B girişi kartı 5 V ile besler; kılavuza göre USB'den gelen gerilim en çok 5,5 V olmalıdır."
+    },
+    "sosyal": {
+      "5": "Telefonu şarj etmek ya da bilgisayara fare bağlamak için de USB kullanırız.",
+      "6": "Klavye, fare, yazıcı ve USB bellek gibi birçok cihaz bilgisayara USB ile bağlanır.",
+      "7": "Ortak bir bağlantı standardı, farklı firmaların ürettiği cihazların birbirine bağlanabilmesini sağlar.",
+      "8": "Standartlar sayesinde aynı kablo birçok cihazda kullanılabilir; bu hem kolaylık sağlar hem de gereksiz kablo üretimini ve elektronik atığı azaltmaya yardım edebilir."
+    }
+  },
+  "gnd": {
+    "ad": "GND (toprak)",
+    "teknik": {
+      "5": "GND, elektriğin geri döndüğü yerdir. Devre burada tamamlanır.",
+      "6": "GND (toprak), devrenin ortak dönüş noktasıdır; gerilimi 0 volt kabul edilir.",
+      "7": "GND, devredeki bütün gerilimlerin karşılaştırıldığı 0 V noktasıdır. Akım bir besleme noktasından çıkar, parçalardan geçer ve GND'ye dönerek devreyi tamamlar.",
+      "8": "GND, devrenin 0 V başvuru noktasıdır; bir noktanın gerilimi denince o nokta ile GND arasındaki potansiyel farkı kastedilir. Birlikte çalışan devrelerin aynı GND'yi paylaşması, sinyallerin doğru okunması için gereklidir."
+    },
+    "sosyal": {
+      "5": "Su borusu benzetmesinde suyun geri döndüğü boru gibidir: dönüş yolu yoksa su akmaz.",
+      "6": "Cihazların kılavuzlarında ve kartların üstünde GND ya da eksi (-) işareti olarak karşımıza çıkar.",
+      "7": "Pille çalışan oyuncaklarda pilin eksi ucu, devrenin GND'si gibi görev yapar.",
+      "8": "Pilli cihazlarda pilin eksi ucu, araçlarda ise genellikle aracın metal gövdesi ortak dönüş noktası olarak kullanılır."
+    }
+  },
+  "gerilim": {
+    "ad": "Gerilim (volt)",
+    "teknik": {
+      "5": "Gerilim, elektriği iten etkidir. Birimi volttur (V); Arduino 5 volt kullanır.",
+      "6": "Gerilim, elektriği devrede iten etkidir ve volt (V) ile ölçülür. Arduino'nun 5V pini 5 volt verir; bu, prizdeki elektriğe göre çok düşüktür.",
+      "7": "Gerilim, iki nokta arasındaki elektriksel itme farkıdır ve volt ile ölçülür. Su benzetmesinde su basıncına benzer: basınç farkı yoksa su akmaz, gerilim yoksa akım oluşmaz.",
+      "8": "Gerilim (potansiyel farkı), iki nokta arasındaki elektriksel itme farkıdır; voltmetre devre elemanına paralel bağlanarak ölçülür, birimi volttur. Ohm yasasına göre V = I × R; UNO'da HIGH çıkış yaklaşık 5 V, LOW 0 V'tur."
+    },
+    "sosyal": {
+      "5": "Bir kalem pil yaklaşık 1,5 volttur. Prizdeki elektriğin gerilimi ise çok yüksektir ve tehlikelidir; prize asla bir şey sokmayız.",
+      "6": "Kalem piller yaklaşık 1,5 V, telefon şarj aletleri genellikle 5 V verir; evlerdeki prizlerin gerilimi ise bunlardan kat kat yüksektir ve hayati tehlike taşır.",
+      "7": "Cihazların etiketlerinde hangi gerilimle çalıştıkları yazar; yanlış gerilimli adaptör cihazı bozabilir. Bu yüzden adaptör seçerken etikete bakarız.",
+      "8": "Elektrik, santrallerden evlere taşınırken farklı gerilim seviyelerine dönüştürülür; adaptörler de şebeke gerilimini düşük ve güvenli bir gerilime çevirir. Arduino gibi kartlar yalnız bu düşük gerilimle çalışır."
+    }
+  },
+  "akim": {
+    "ad": "Akım",
+    "teknik": {
+      "5": "Akım, elektriğin kablolardan akmasıdır. Borudaki su akışı gibi düşünebiliriz.",
+      "6": "Akım, elektriğin devrede bir yerden öbür yere hareket etmesidir; yalnız kapalı bir devrede oluşur.",
+      "7": "Elektrik akımı, elektrik yüklerinin bir iletken boyunca hareket etmesidir. Akım yalnız kesintisiz, kapalı bir yolda oluşur; tek yollu bir devrede her noktada aynıdır.",
+      "8": "Akım, bir iletkenin kesitinden birim zamanda geçen yük miktarıdır; ampermetre devreye seri bağlanarak ölçülür, birimi amperdir (A). LED devremizde akım yaklaşık 14 mA, yani 0,014 A'dır."
+    },
+    "sosyal": {
+      "5": "Prize takılı bir cihaz çalışırken içinden akım geçer. Islak elle elektrikli cihazlara dokunmayız.",
+      "6": "Gereksiz yanan bir lamba boşuna akım çeker ve enerji harcar; kullanmadığımız cihazları kapatmak tasarruf sağlar.",
+      "7": "İnsan vücudundan geçen küçük bir akım bile tehlikeli olabilir; bu yüzden prizlere ve açık kablolara dokunmayız. Arduino'nun 5 voltu bu tehlikeyi taşımaz ama kurallara yine uyarız.",
+      "8": "Elektrik enerjisini bilinçli kullanmak, gereksiz akım çeken cihazları kapatmakla başlar; LED'ler aynı ışık için eski tip ampullerden daha az enerji harcadığı için aydınlatmada yaygınlaşmıştır."
+    }
+  },
+  "direnc": {
+    "ad": "Direnç",
+    "teknik": {
+      "5": "Direnç, elektriğin akışını azaltan küçük bir parçadır. Musluğu biraz kısmak gibi.",
+      "6": "Direnç, maddelerin elektriğin geçişine karşı gösterdiği zorluktur; birimi ohm'dur (Ω). Devredeki direnç parçası akımı sınırlayarak diğer parçaları korur.",
+      "7": "Direnç, bir maddenin akıma karşı gösterdiği zorluktur ve ohm (Ω) ile ölçülür. Aynı gerilimde direnç büyüdükçe akım küçülür; renk bantları direncin değerini gösterir.",
+      "8": "Direnç R = V / I bağıntısıyla tanımlanır ve ohm (Ω) ile ölçülür. 220 Ω'luk direnç (kırmızı-kırmızı-kahverengi-altın) LED akımını yaklaşık 14 mA'de tutar; 10 kΩ'luk direnç (kahverengi-siyah-turuncu-altın) pull-down olarak çok küçük bir akım geçirir."
+    },
+    "sosyal": {
+      "5": "Ses düzeyini ayarladığımız bazı çevirmeli düğmelerin içinde ayarlanabilir bir direnç bulunur.",
+      "6": "Saç kurutma makinesi ve elektrikli ısıtıcı gibi cihazlar, direnci olan tellerin ısınmasıyla çalışır.",
+      "7": "Elektrik kabloları genellikle bakırdan yapılır, çünkü bakırın direnci düşüktür; böylece elektrik yolda daha az boşa harcanır.",
+      "8": "Uzun ve ince teller daha büyük direnç gösterir; bu yüzden ev tesisatında kablo kalınlığı taşınacak akıma göre seçilir. Yanlış seçilen ince kablo ısınabilir ve yangın riski oluşturur."
+    }
+  },
+  "led": {
+    "ad": "LED",
+    "teknik": {
+      "5": "LED, elektrik geçince ışık veren küçük bir lambadır. Uzun bacağı artı, kısa bacağı eksi tarafıdır.",
+      "6": "LED (ışık yayan diyot), elektriği yalnız bir yönde, anottan katoda geçirir ve bu sırada ışık verir.",
+      "7": "LED, akımı tek yönde geçiren bir diyottur; akım anottan katoda geçtiğinde ışık yayar. Ters bağlanırsa akım geçmez ve yanmaz; doğru yönde ise akımı mutlaka bir dirençle sınırlanmalıdır.",
+      "8": "LED bir yarı iletken diyottur: doğru yönde bağlandığında üzerinde rengine göre değişen bir gerilim kalır (kırmızı için yaklaşık 1,8-2,2 V) ve ışık yayar. Akımı seri bir dirençle sınırlanır; ters yönde iletmez."
+    },
+    "sosyal": {
+      "5": "Trafik ışıklarında, ekranlarda ve cihazların açık-kapalı ışıklarında LED'leri görürüz.",
+      "6": "LED ampuller, eski tip ampullere göre aynı ışığı daha az elektrikle verir.",
+      "7": "Az enerji harcadıkları için sokak lambalarında, araç farlarında ve ekranlarda LED kullanımı yaygınlaşmıştır; bu da enerji tasarrufuna katkı sağlar.",
+      "8": "Caddelerdeki ve stadyumlardaki büyük LED ekranlarda görüntü, binlerce küçük LED'in parlaklığı ayarlanarak oluşur. LED aydınlatma, enerji verimliliği sayesinde elektrik tüketimini azaltmaya yardım eder."
+    }
+  },
+  "anot": {
+    "ad": "Anot",
+    "teknik": {
+      "5": "Anot, LED'in uzun bacağıdır. Artı (+) taraftır.",
+      "6": "Anot, LED'de akımın girdiği bacaktır; uzun olan bacaktır ve artı tarafa bağlanır.",
+      "7": "Anot, diyotta akımın girdiği uçtur. LED'de uzun bacaktır; devrede pine ya da artı tarafa bakacak şekilde bağlanır.",
+      "8": "Anot, diyodun pozitif ucudur; LED'in iletmesi için anodun katoda göre yeterince pozitif olması gerekir. LED'de uzun bacaktır."
+    },
+    "sosyal": {
+      "5": "Pillerin de artı ve eksi ucu vardır; pil ters takılınca oyuncak çalışmaz.",
+      "6": "Pil yuvalarındaki + ve - işaretleri, parçaların doğru yönde takılması gerektiğini hatırlatır.",
+      "7": "Yönü olan (kutuplu) parçalar ters takılırsa cihaz çalışmaz; bu yüzden elektronik üretiminde parça yönü dikkatle kontrol edilir.",
+      "8": "Elektrolitik kondansatör gibi başka kutuplu parçalarda da uçlar işaretlidir; ters bağlantı bazı parçalara kalıcı zarar verebilir, bu yüzden işaretleri okumak bir güvenlik alışkanlığıdır."
+    }
+  },
+  "katot": {
+    "ad": "Katot",
+    "teknik": {
+      "5": "Katot, LED'in kısa bacağıdır. Eksi (-) taraftır ve bu tarafta LED'in kenarı düzdür.",
+      "6": "Katot, LED'de akımın çıktığı bacaktır; kısa bacaktır ve eksi tarafa, yani GND'ye doğru bağlanır.",
+      "7": "Katot, diyotta akımın çıktığı uçtur. LED'de kısa bacak ve gövdenin düz kenarlı tarafıdır; devrede GND yönüne bağlanır.",
+      "8": "Katot, diyodun negatif ucudur. Bacaklar kesilmişse katodu gövdedeki düz kenardan tanırız; devre şemasındaki diyot simgesinde çizgili uç katodu gösterir."
+    },
+    "sosyal": {
+      "5": "Bir şeyi doğru takmak için işaretlere bakarız; LED'in düz kenarı da böyle bir işarettir.",
+      "6": "Elektronik parçalardaki küçük işaretler (çizgi, düz kenar, + işareti) yanlış takmayı önlemek için konur.",
+      "7": "Devre şemalarında kullanılan ortak simgeler, farklı yerlerdeki insanların aynı devreyi aynı biçimde anlamasını sağlar.",
+      "8": "Teknik çizimlerde standart simgeler kullanmak, bir mühendisin çizdiği devrenin başka biri tarafından da aynı biçimde kurulabilmesini sağlar."
+    }
+  },
+  "breadboard": {
+    "ad": "Breadboard",
+    "teknik": {
+      "5": "Breadboard, parçaları yapıştırmadan takıp çıkarabildiğimiz delikli bir devre tahtasıdır.",
+      "6": "Breadboard (lehimsiz devre tahtası), içindeki metal şeritlerle bazı delikleri birbirine bağlar; aynı sütundaki beşli delikler bağlıdır.",
+      "7": "Breadboard'da her numaralı sütunun a-e ve f-j delikleri ayrı beşli şeritlerdir; ortadaki kanal iki yarıyı ayırır, kenardaki + ve - rayları boydan boya bağlıdır.",
+      "8": "Breadboard, yaylı metal şeritlerden oluşan lehimsiz bir bağlantı tahtasıdır: her sütunda a-e ve f-j iki ayrı iletken grup, kenarlarda boydan boya besleme rayları vardır. Kanal, buton ve çip gibi parçaların bacaklarını ayrı şeritlere ayırır."
+    },
+    "sosyal": {
+      "5": "Mucitler bir fikri önce breadboard'da dener, çalışınca kalıcı hâle getirir.",
+      "6": "Bir tasarımı denemek, yanlışı bulup düzeltmek ve yeniden denemek; breadboard bu deneme-yanılma sürecini kolaylaştırır.",
+      "7": "Mühendisler yeni bir cihazı önce deneme devrelerinde sınar; hatayı erken bulmak hem zamandan hem malzemeden tasarruf sağlar.",
+      "8": "Prototip, bir ürünün ilk deneme sürümüdür; breadboard gibi araçlar fikirleri hızlıca test etmeyi ve hataları üretimden önce bulmayı sağlar."
+    }
+  },
+  "devre": {
+    "ad": "Devre (açık ve kapalı)",
+    "teknik": {
+      "5": "Devre, elektriğin dolaştığı yoldur. Yol tamamsa kapalı devredir ve ışık yanar; bir yerden kopuksa açık devredir ve ışık yanmaz.",
+      "6": "Elektrik devresi; güç kaynağı, kablolar ve devre elemanlarından oluşan bir yoldur. Yol kesintisizse kapalı devre, bir yerinden kesikse açık devredir.",
+      "7": "Kapalı devrede akım kaynaktan çıkar, devre elemanlarından geçer ve GND'ye döner. Yolun herhangi bir yerinde kopukluk varsa devre açıktır ve akım oluşmaz.",
+      "8": "Devre, akımın kaynaktan çıkıp yüklerden geçerek GND'ye döndüğü kapalı yoldur. Tek yollu bağlamaya seri, birden çok kola ayrılan bağlamaya paralel bağlama denir; açık devrede akım sıfırdır."
+    },
+    "sosyal": {
+      "5": "Odanın ışığını açtığımızda anahtar devreyi kapatır ve lamba yanar. Işığı kapattığımızda anahtar devreyi açar.",
+      "6": "Evlerdeki sigortalar, tehlikeli bir durumda devreyi açarak elektriği keser ve yangın riskini azaltır.",
+      "7": "Trafik ışıkları, asansörler ve ev aletleri, devreleri doğru anda açıp kapatarak çalışır; birçoğunda bunu bir program yönetir.",
+      "8": "Evlerdeki lambalar ve prizler genellikle paralel bağlanır; böylece biri arızalansa da diğerleri çalışmaya devam eder."
+    }
+  },
+  "buton": {
+    "ad": "Buton",
+    "teknik": {
+      "5": "Buton, basınca iki tarafı birleştiren bir düğmedir. Bırakınca bağlantı kopar.",
+      "6": "Buton, basılı tutulduğu sürece devrenin iki noktasını birleştiren bir anahtardır; Arduino butonun durumunu bir giriş pininden okur.",
+      "7": "Anlık buton yalnız basılıyken iletir; Arduino'da durumu <code>digitalRead</code> ile HIGH ya da LOW olarak okunur. Basılı değilken girişin belirsiz kalmaması için pull-down ya da pull-up direnci gerekir.",
+      "8": "Buton mekanik bir anahtardır: basılıyken kontakları arasındaki direnç neredeyse sıfır, açıkken çok büyüktür. Pull-down direnciyle giriş LOW'a çekilir, basınca 5 V'a bağlanır ve HIGH okunur; Arduino'nun iç pull-up direnci için <code>INPUT_PULLUP</code> da kullanılabilir."
+    },
+    "sosyal": {
+      "5": "Kapı zili, asansör düğmesi ve klavye tuşları birer buton gibi çalışır.",
+      "6": "Bazı yaya geçitlerinde yayaların bastığı bir buton bulunur; bu buton, karşıya geçmek isteyen biri olduğunu ışık sistemine bildirir.",
+      "7": "Asansör çağrı düğmesine bir kez basmak yeter, çünkü isteği içerideki program hatırlar; buton yalnız bilgi verir, kararı program verir.",
+      "8": "Büyük ve kolay basılan butonlar gibi, bir butonun yeri ve boyutu da tasarımın parçasıdır; iyi tasarım, engelli bireyler dahil herkesin kullanabileceği bir arayüz demektir."
+    }
+  },
+  "giris-cikis": {
+    "ad": "Giriş ve çıkış",
+    "teknik": {
+      "5": "Giriş, karta bilgi gelen yoldur (buton gibi). Çıkış, kartın bir iş yaptırdığı yoldur (LED gibi).",
+      "6": "Giriş pini dışarıdan bilgi okur, çıkış pini dışarıya elektrik vererek iş yaptırır; Arduino'da bunu <code>pinMode</code> ile seçeriz.",
+      "7": "Bir sistem giriş (algılama), işlem (karar) ve çıkış (eylem) adımlarıyla çalışır. Arduino'da <code>pinMode(pin, INPUT)</code> pini okumaya, <code>pinMode(pin, OUTPUT)</code> yazmaya hazırlar.",
+      "8": "INPUT olarak ayarlanan pin dışarıdaki gerilimi okur ve neredeyse akım çekmez; OUTPUT olarak ayarlanan pin HIGH'ta yaklaşık 5 V, LOW'da 0 V vererek bir yükü sürer. Giriş, işlem, çıkış modeli bilgisayar sistemlerinin temel yapısıdır."
+    },
+    "sosyal": {
+      "5": "Bilgisayarda klavye ve fare giriş, ekran ve hoparlör çıkış birimidir.",
+      "6": "Otomatik kapıda algılayıcı giriştir, kapıyı açan motor çıkıştır; arada kararı bir program verir.",
+      "7": "Dokunmatik ekran hem giriş hem çıkış birimidir: dokunuşumuzu algılar ve görüntü gösterir.",
+      "8": "Bir sistemi tasarlarken önce girişleri (hangi bilgiyi toplayacağız) ve çıkışları (ne yapacağız) belirleriz; gereğinden fazla bilgi toplamamak da iyi tasarımın bir parçasıdır."
+    }
+  },
+  "kod": {
+    "ad": "Kod (program)",
+    "teknik": {
+      "5": "Kod, karta ne yapacağını adım adım söyleyen komutlar listesidir.",
+      "6": "Program (kod), bilgisayarın ya da kartın anlayacağı bir dille yazılmış komutlar dizisidir; Arduino kodları <code>setup</code> ve <code>loop</code> bölümlerinden oluşur.",
+      "7": "Kod, bir algoritmanın programlama diliyle yazılmış hâlidir. Arduino kodu bilgisayarda yazılır, derlenir ve USB üzerinden kartın belleğine yüklenir; kart komutları yukarıdan aşağı sırayla çalıştırır.",
+      "8": "Arduino programları C++ tabanlı bir dille yazılır. Kod, derleyici tarafından mikrodenetleyicinin anlayacağı makine diline çevrilir ve Flash belleğe yüklenir; <code>setup()</code> bir kez, <code>loop()</code> sürekli çalışır."
+    },
+    "sosyal": {
+      "5": "Telefondaki oyunlar ve uygulamalar da kodla yazılır.",
+      "6": "Birçok çamaşır makinesinin programı, trafik ışıkları ve oyunlar kodla çalışır; bu kodları insanlar yazar.",
+      "7": "Kodu yazan kişi cihazın nasıl davranacağına karar verir; bu yüzden kod yazarken güvenliği ve kullanıcıları düşünmek bir sorumluluktur.",
+      "8": "Yazılımlar bugün ulaşımdan sağlığa kadar birçok alanda kararları etkiler ve hatalı bir kod gerçek dünyada sorun çıkarabilir. Bu yüzden kod test edilir, hataları ayıklanır."
+    }
+  },
+  "dongu": {
+    "ad": "Döngü (loop)",
+    "teknik": {
+      "5": "Döngü, aynı adımları tekrar tekrar yapmaktır. Arduino'da <code>loop</code> bölümü durmadan tekrar eder.",
+      "6": "Döngü, bir grup komutun tekrar tekrar çalışmasıdır; Arduino'nun <code>loop</code> bölümü bittiğinde en başa döner.",
+      "7": "Döngü, belli komutları tekrar eden bir programlama yapısıdır. <code>loop()</code> bir sonsuz döngüdür: kart çalıştığı sürece içindeki komutlar sırayla ve yeniden çalışır.",
+      "8": "Döngüler, bir koşul sağlanana kadar ya da sonsuza kadar tekrar eden yapılardır (<code>for</code>, <code>while</code>, <code>loop()</code>). Gömülü sistemlerde ana döngü; girişleri okuma, karar verme ve çıkışları güncelleme adımlarını sürekli tekrarlar."
+    },
+    "sosyal": {
+      "5": "Her sabah aynı sırayla yaptığımız işler ve gece ile gündüzün birbirini izlemesi de birer döngüdür.",
+      "6": "Trafik ışıklarının sırası, saat ibresinin dönüşü ve okul zili programı tekrar eden döngülere örnektir.",
+      "7": "Fabrikalardaki üretim bantları, aynı işlemi her ürün için tekrar ederek çalışır.",
+      "8": "Doğadaki su döngüsü ile programlardaki döngüler aynı fikre dayanır: belli adımlar sırayla tekrar eder. Bir döngünün ne zaman duracağını doğru tasarlamak, bitmeyen hataları önler."
+    }
+  },
+  "algoritma": {
+    "ad": "Algoritma",
+    "teknik": {
+      "5": "Algoritma, bir işi yapmak için sırayla izlenen adımlardır.",
+      "6": "Algoritma, bir problemi çözmek için sırası belli adımların yazılmasıdır; akış şemasıyla da gösterilebilir.",
+      "7": "Algoritma; açık, sırası belli ve sonlu adımlardan oluşan bir çözüm yoludur. Kod, algoritmanın bir programlama diliyle yazılmış hâlidir.",
+      "8": "Algoritma, bir girdiden istenen çıktıyı elde etmek için tanımlanmış, açık ve sonlu adımlar dizisidir. Aynı algoritma farklı programlama dilleriyle yazılabilir; iyi bir algoritma doğru, verimli ve test edilmiş olmalıdır."
+    },
+    "sosyal": {
+      "5": "Yemek tarifi, diş fırçalama ya da okula gidiş yolu da sırayla izlenen adımlardır, yani birer algoritmadır.",
+      "6": "Navigasyon uygulamaları en uygun yolu bulmak için algoritmalar kullanır.",
+      "7": "Trafik düzenleme, yemek tarifi ve bulaşık makinesi yerleştirme gibi günlük işler de algoritmayla planlanabilir; adımları sıralamak işi kolaylaştırır.",
+      "8": "Algoritmalar arama sonuçlarından navigasyona kadar hayatımızı etkileyen kararlar verir; bu yüzden algoritmaların adil, doğru ve denetlenebilir olması toplumsal bir konudur."
+    }
+  },
+  "degisken": {
+    "ad": "Değişken",
+    "teknik": {
+      "5": "Değişken, programda bir bilgiyi saklayan, adı olan bir kutudur.",
+      "6": "Değişken, bir değeri adıyla saklayan program parçasıdır. <code>const</code> ile tanımlanırsa değeri değişmez; buna sabit denir.",
+      "7": "Değişken, bellekte bir değer için ayrılmış, adı olan bir yerdir. <code>const int led = 13;</code> satırı, değeri 13 olan ve değişmeyen <code>led</code> adlı bir tam sayı tanımlar.",
+      "8": "Değişkenin bir türü (<code>int</code>: tam sayı), bir adı ve bir değeri vardır. <code>const</code> değeri sabitler; pin numaralarına ad vermek kodu okunur kılar ve bir pini değiştirmek gerektiğinde tek satırı düzeltmek yeter."
+    },
+    "sosyal": {
+      "5": "Bir oyundaki puan ya da kalan can sayısı değişkenlerde saklanır.",
+      "6": "Termometrenin gösterdiği sıcaklık zamanla değişir; programlar bu tür değerleri değişkenlerde tutar.",
+      "7": "Fen deneylerindeki bağımlı ve bağımsız değişkenler gibi, programlardaki değişkenler de değişebilen bir bilgiyi temsil eder; hangisinden söz edildiğini bağlamdan anlarız.",
+      "8": "Bilimsel deneylerde değişkenleri kontrol etmek ne kadar önemliyse, programlarda da değişkenlere anlamlı adlar vermek ve değerlerini kontrol etmek hataları önler."
+    }
+  },
+  "pwm": {
+    "ad": "PWM",
+    "teknik": {
+      "5": "PWM, LED'i çok hızlı yakıp söndürerek onu daha sönük göstermektir. ~ işaretli pinler bunu yapabilir.",
+      "6": "PWM, pini çok hızlı açıp kapatma yöntemidir; açık kalma süresi kısalırsa LED daha sönük görünür. UNO'da ~ işaretli 3, 5, 6, 9, 10, 11 pinleri PWM yapabilir.",
+      "7": "PWM (darbe genişlik modülasyonu), dijital bir pini saniyede yüzlerce kez açıp kapatarak ortalama gücü ayarlar. <code>analogWrite</code> ile 0 tamamen kapalı, 255 tamamen açık demektir.",
+      "8": "PWM'de sinyal yalnız HIGH ve LOW'dur; değişen, bir periyot içindeki HIGH süresinin oranıdır (doluluk oranı). UNO'da <code>analogWrite</code> çoğu ~ pinde yaklaşık 490 Hz, 5 ve 6. pinlerde 980 Hz üretir; 127 değeri yaklaşık %50 doluluk demektir."
+    },
+    "sosyal": {
+      "5": "Bazı lambaların ışığını kısmak bu fikre benzer bir yolla yapılır.",
+      "6": "Bir fanın hızını ya da bir LED lambanın parlaklığını ayarlamak için benzer yöntemler kullanılabilir.",
+      "7": "Elektrikli oyuncak arabaların ve fanların motor hızı, LED lambaların parlaklığı PWM benzeri yöntemlerle ayarlanabilir.",
+      "8": "Enerjiyi açıp kapatarak ayarlamak, fazlasını ısı olarak boşa harcamaktan daha verimlidir; bu yüzden PWM motor sürücülerinde ve LED aydınlatmada sık kullanılır."
+    }
+  },
+  "kosul": {
+    "ad": "Koşul (if ve else)",
+    "teknik": {
+      "5": "Koşul, bir karar vermektir: eğer butona basılıysa LED'i yak, değilse söndür.",
+      "6": "Koşul yapısı, bir durumun doğru ya da yanlış olmasına göre farklı komutları çalıştırır; Arduino'da <code>if</code> (eğer) ve <code>else</code> (değilse) kullanılır.",
+      "7": "<code>if</code> bloğu, parantez içindeki koşul doğruysa çalışır; yanlışsa <code>else</code> bloğu çalışır. Her turda bu iki bloktan yalnız biri çalışır.",
+      "8": "Koşul, doğru ya da yanlış sonuç veren bir ifadedir (ör. <code>digitalRead(buton) == HIGH</code>). Karşılaştırmada <code>==</code>, atamada <code>=</code> kullanılır; mantıksal işleçlerle (ve, veya) birden çok koşul birleştirilebilir."
+    },
+    "sosyal": {
+      "5": "Otomatik kapı da karar verir: biri yaklaşırsa açıl, yoksa kapalı kal.",
+      "6": "Akıllı bir sokak lambası hava kararınca yanar, aydınlanınca söner; bu, bir koşula göre karar vermektir.",
+      "7": "Günlük kararlarımız da koşulludur: yağmur yağıyorsa şemsiye al, yağmıyorsa alma. Programlar bu düşünme biçimini adım adım yazar.",
+      "8": "Bir sistemin hangi koşulda ne yapacağını önceden açıkça yazmak güvenli tasarımın temelidir; örneğin bir asansör, kapısı açıkken hareket etmemelidir."
+    }
+  }
+}

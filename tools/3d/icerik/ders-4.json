@@ -1,0 +1,306 @@
+{
+  "slug": "arduino-trafik-isigi",
+  "baslik": "Trafik Işığı Yapalım",
+  "kisa": "Arduino UNO ve üç LED ile trafik ışığı modeli: ışıkların sırası, algoritma, döngü ve bekleme süreleri. Ortaokul 5-8. sınıflara özel 3D simülasyon.",
+  "sure": 30,
+  "trafikSirasi": [
+    {"isiklar": ["kirmizi"], "sure": 3000},
+    {"isiklar": ["kirmizi", "sari"], "sure": 1000},
+    {"isiklar": ["yesil"], "sure": 3000},
+    {"isiklar": ["sari"], "sure": 1000}
+  ],
+  "hedefler": {
+    "5": [
+      "Trafik ışığındaki renklerin anlamını söyleyeceğiz.",
+      "Üç LED'i ayrı pinlere bağlayan devreyi kuracağız.",
+      "Adımları sırayla yazmanın bir algoritma olduğunu göreceğiz."
+    ],
+    "6": [
+      "Işıkların sırasını adım adım bir algoritma olarak yazacağız.",
+      "Her LED'e neden ayrı direnç taktığımızı açıklayacağız.",
+      "loop ve delay komutlarının bu sıradaki görevini göstereceğiz."
+    ],
+    "7": [
+      "Trafik ışığı algoritmasını dört adımlık bir tablo ve akış şeması olarak düşüneceğiz.",
+      "Pinlerin yeni komut gelene kadar durumunu koruduğunu kodda göstereceğiz.",
+      "delay satırları olmadan ne olacağını gerekçesiyle tahmin edeceğiz."
+    ],
+    "8": [
+      "Yönetmelikteki ışık anlamlarından dört aşamalı bir döngü kuracağız.",
+      "Bir turun süresini hesaplayıp sürelerin algoritmayı nasıl etkilediğini açıklayacağız.",
+      "delay'in buton okumayı nasıl engellediğini ve PWM ile ilişkisini tartışacağız."
+    ]
+  },
+  "adimlar": [
+    {
+      "id": "merak",
+      "baslik": "Kavşakta kim karar veriyor?",
+      "metin": {
+        "5": "Kavşaktaki trafik ışıkları belli bir sırayla, belli sürelerle yanar. Her ışığın bir anlamı var: kırmızı dur, yeşil geç. Peki ışık ne zaman değişeceğini nereden biliyor? Bugün üç LED'le kendi trafik ışığımızı yapıp sırayı kodla söyleyelim.",
+        "6": "Trafik ışıkları, araçların ve yayaların yolu sırayla kullanmasını sağlar; bu yüzden sıra ve süre çok önemlidir. Işıkları belli bir sırayla yakan bir düzenek, aslında adım adım bir talimat listesini uygular. Bugün üç LED, üç direnç ve bir kodla küçük bir trafik ışığı modeli yapalım.",
+        "7": "Yönetmeliğe göre trafik ışıkları, araçların ve yayaların yolu sırayla kullanmasını düzenlemek için kurulur. Bir kavşağın güvenli olması, ışıkların doğru sırayla ve yeterli sürede yanmasına bağlıdır. Bu sırayı adım adım yazarsak bir <strong>algoritma</strong> elde ederiz. Bugün bu algoritmayı Arduino'ya kod olarak verelim.",
+        "8": "Trafik İşaretleri Hakkında Yönetmelik, ışıklı işaretlerin amacını araçların ve yayaların yolu sırayla kullanmasını düzenlemek olarak tanımlar. Bir trafik ışığını, her aşamada hangi ışıkların yanacağının ve ne kadar kalacağının belli olduğu bir aşamalar dizisi olarak düşünebiliriz. Bugün bu aşamaları sırayla yazıp üç çıkış pinini zamanlayarak bir trafik ışığı modeli kuracağız."
+      }
+    },
+    {
+      "id": "malzemeler",
+      "baslik": "Malzemelerimiz",
+      "metin": {
+        "5": "Bu derste üç LED kullanacağız: bir <strong>kırmızı</strong>, bir <strong>sarı</strong>, bir <strong>yeşil</strong>. Her LED'in kendi koruyucu direnci olacak: 3 adet 220 Ω direnç. Bir de kablolar, breadboard ve Arduino.",
+        "6": "Malzemeler: 1 kırmızı, 1 sarı, 1 yeşil LED; 3 adet 220 Ω direnç; 4 bağlantı kablosu (üç pin için birer tane, bir de GND için); Arduino UNO ve breadboard. Her LED'e ayrı direnç koyacağız, çünkü her biri ayrı bir yoldan elektrik alacak.",
+        "7": "Malzemeler: kırmızı, sarı ve yeşil birer LED, 3 adet 220 Ω direnç, bağlantı kabloları, breadboard ve Arduino UNO. Neden tek bir direnç yetmez? Her LED ayrı bir pinden beslenir ve ayrı bir yol oluşturur; her yolun akımını kendi direnci sınırlamalıdır. Üç LED'in eksi tarafları aynı - rayında, yani aynı GND'de buluşur.",
+        "8": "Malzemeler: kırmızı, sarı ve yeşil birer LED, 3 adet 220 Ω direnç, bağlantı kabloları. Her LED kendi pininden ve kendi direnciyle beslenir; böylece her dalın akımı ayrı sınırlanır. LED'in üzerindeki gerilim rengine göre değişebildiği için aynı dirençle parlaklıklar biraz farklı görünebilir. Tek ortak direnç kullansaydık, aynı anda yanan iki LED akımı paylaşır ve parlaklıklar birbirini etkilerdi."
+      }
+    },
+    {
+      "id": "sira",
+      "baslik": "Işıkların sırası",
+      "metin": {
+        "5": "Trafik kurallarına göre <strong>kırmızı</strong> dur demektir. Kırmızıyla birlikte <strong>sarı</strong> yanarsa yeşil gelmek üzeredir: hazırlan ama henüz geçme. <strong>Yeşil</strong> geç demektir. Yeşilden sonra yalnız sarı yanarsa kırmızı gelmek üzeredir. Bizim sıramız: kırmızı, kırmızı ve sarı, yeşil, sarı.",
+        "6": "Trafik yönetmeliği ışıkların anlamını şöyle yazar: <strong>kırmızı</strong> dur; kırmızıyla birlikte <strong>sarı</strong>, yol açılmak üzere, hazırlan; <strong>yeşil</strong> geç; yeşilden sonra sarı, yol kapanmak üzere. Modelimiz bu sırayı izler: kırmızı, kırmızı ve sarı, yeşil, sarı. Süreleri sınıfta izleyebilmek için kısa seçtik.",
+        "7": "Trafik İşaretleri Hakkında Yönetmelik'e göre <strong>sarı ışığın anlamı sırasına bağlıdır</strong>: kırmızıyla birlikte yanarsa yol açılmak üzeredir ve bekleyen sürücüler hazırlanır; yeşilden sonra yanarsa yol kapanmak üzeredir. Kırmızı mutlak duruş, yeşil geçiş demektir. Modelimizin dört aşaması: kırmızı (3 sn), kırmızı ve sarı (1 sn), yeşil (3 sn), sarı (1 sn). Süreler sınıfta izlenebilsin diye kısa.",
+        "8": "Yönetmeliğe göre kırmızı, yolun kapalı olduğunu ve mutlak duruşu; kırmızıyla birlikte yanan sarı, yolun açılmak üzere olduğunu; yeşil, yolun açık olduğunu; yeşilden sonra yanan sarı ise yolun kapanmak üzere olduğunu bildirir. Bu anlamlardan döngüsel bir sıra çıkar: kırmızı, kırmızı ve sarı, yeşil, sarı, sonra yine kırmızı. Modelde süreleri 3000, 1000, 3000 ve 1000 ms seçtik; bir tam tur 8 saniye sürer. Süreler sınıfta izlenebilsin diye kısa tutuldu."
+      }
+    },
+    {
+      "id": "kurulum",
+      "baslik": "Devreyi kuralım",
+      "metin": {
+        "5": "USB takılı değilken kuralım. Her LED'in uzun bacağı kendi pinine gider: kırmızı <strong>pin 10</strong>, sarı <strong>pin 9</strong>, yeşil <strong>pin 8</strong>. Kısa bacaklar birer 220 Ω dirençle - rayına bağlanır. GND de - rayına gider.",
+        "6": "USB takılı değilken kuralım. Üç LED'i ayrı sütunlara takalım. Anotlar kablolarla pinlere gider: kırmızı pin 10'a, sarı pin 9'a, yeşil pin 8'e. Her LED'in katodu kendi 220 Ω direnciyle - rayına bağlanır. Siyah kablo GND'yi - rayına bağlar. Böylece üç ayrı yol oluşur ama hepsi aynı GND'ye döner.",
+        "7": "Bağlantıları USB takılı değilken yapalım. Kırmızı LED'in anodu pin 10'a, sarınınki pin 9'a, yeşilinki pin 8'e bağlanır. Her katot ayrı bir 220 Ω ile - rayına iner; GND kablosu da - rayına takılır. Böylece kart üç ayrı çıkış devresini ayrı ayrı yönetir: hangi pin HIGH olursa yalnız onun LED'i yanar.",
+        "8": "USB takılı değilken üç dal kuralım: D10, kırmızı LED, 220 Ω, - rayı; D9, sarı LED, 220 Ω, - rayı; D8, yeşil LED, 220 Ω, - rayı. Siyah kablo GND'yi - rayına bağlar. Üç dal ayrı pinlerden beslenir, yalnız dönüş yolu (GND) ortaktır; her dalın akımı kendi direnciyle sınırlanır. Bir dalın açık kalması diğer ikisini etkilemez; örneğin sarı LED ters takılırsa yalnız o yanmaz."
+      }
+    },
+    {
+      "id": "kod",
+      "baslik": "Kodu okuyalım",
+      "metin": {
+        "5": "Kodun başında her renge bir pin adı veriyoruz. <code>setup</code> üç pini de çıkış yapar. <code>loop</code> içinde dört adım var: kırmızıyı yak ve bekle, sarıyı da yak ve bekle, ikisini söndürüp yeşili yak ve bekle, yeşili söndürüp sarıyı yak ve bekle.",
+        "6": "Kodun ilk üç satırı renklere pin numarası verir: <code>kirmizi</code> 10, <code>sari</code> 9, <code>yesil</code> 8. <code>setup</code> üç pini de çıkış yapar. <code>loop</code> dört aşamadan oluşur ve her aşama <code>delay</code> ile biter. Bir LED'i söndürmedikçe yanık kalır; bu yüzden ikinci aşamada kırmızı hâlâ yanarken sarıyı ekleriz.",
+        "7": "Üç <code>const int</code> satırı renkleri pin numaralarına bağlar. <code>setup</code> içinde üç pin çıkış yapılır. <code>loop</code> dört aşamalıdır; her aşama önce ışıkları ayarlar, sonra <code>delay</code> ile bekler. Pinler yeni bir komut gelene kadar son durumlarını korur. Bu yüzden ilk satır, önceki turdan yanık kalan sarıyı söndürür. Kod yukarıdan aşağı çalışır, en alta gelince başa döner.",
+        "8": "Kod, trafik ışığının dört aşamasını sırayla kurar. Her aşama iki parçadan oluşur: çıkışları ayarlayan <code>digitalWrite</code> satırları ve aşamayı koruyan <code>delay</code>. <code>digitalWrite</code> yalnız yazdığı pini değiştirir; diğer pinler önceki değerini korur. Bu yüzden 2. aşamada yalnız sarıyı yakmak yeter, kırmızı zaten HIGH'tır. Döngünün başındaki <code>digitalWrite(sari, LOW)</code>, 4. aşamadan kalan sarıyı söndürür. Bir tur: 3000 + 1000 + 3000 + 1000 = 8000 ms."
+      }
+    },
+    {
+      "id": "calistir",
+      "baslik": "Çalıştıralım",
+      "metin": {
+        "5": "USB'yi takalım ve ışıkları izleyelim: kırmızı, kırmızıyla sarı, yeşil, sarı ve yeniden kırmızı. Kodda o an çalışan satır parlıyor. Işık yanarken hangi satır parlıyor? \"Süre\" düğmeleriyle normal ve hızlı arasında geçip farkı görelim.",
+        "6": "Kodu çalıştıralım. Işıklar sırayla değişiyor ve sıra bitince en baştan başlıyor; bu tekrar <code>loop</code> sayesinde. Her ışık yanarken vurgulanan satır bir <code>delay</code>: kart o sırada bekliyor. \"Süre\" düğmeleriyle hızlıya geçelim; sıra aynı kalıyor mu, yalnız süreler mi kısalıyor?",
+        "7": "Kod çalışınca dört aşama sırayla gelir ve sonra başa döner. Vurgulanan satırı izleyelim: zamanın neredeyse tamamı <code>delay</code> satırlarında geçer, ışıkları değiştiren satırlar ise göz açıp kapayıncaya kadar çalışır. \"Süre\" düğmeleriyle hızlıya geçince sıra değişmez, yalnız bekleme süreleri kısalır. Sıra yanlış olsaydı kavşakta ne olurdu?",
+        "8": "Çalışan kodu izleyelim: aşamalar 3000, 1000, 3000 ve 1000 ms sürer ve <code>loop</code> sonunda başa döner. Zamanın neredeyse tamamı <code>delay</code> satırlarında geçer; bu sırada kart başka hiçbir satırı çalıştırmaz. \"Süre\" düğmesiyle hızlıya geçmek algoritmanın adımlarını değiştirmez, yalnız bekleme değerlerini küçültür. Not: Bu kod bir yaya butonunu ancak <code>delay</code> bitince okuyabilirdi; buna ileride döneceğiz."
+      }
+    },
+    {
+      "id": "algoritma",
+      "baslik": "Bu bir algoritma",
+      "metin": {
+        "5": "Bir işi yapmak için adımları sırayla yazmaya <strong>algoritma</strong> denir. Diş fırçalarken de belli adımları sırayla yaparız. Trafik ışığımızın algoritması: kırmızıyı yak, bekle, sarıyı ekle, bekle, yeşile geç, bekle, sarıya geç, bekle. Sonra <strong>döngü</strong> bunu baştan tekrarlar.",
+        "6": "Sırası belli adımlar dizisine <strong>algoritma</strong> denir. Kodumuz da bir algoritma: 1) Kırmızıyı yak, 3 sn bekle. 2) Sarıyı da yak, 1 sn bekle. 3) Yeşile geç, 3 sn bekle. 4) Sarıya geç, 1 sn bekle. <strong>Döngü</strong> bu dört adımı durmadan tekrarlar. Adımların yeri değişirse ışık yanlış çalışır.",
+        "7": "Sırası belli, açık ve sonlu adımlardan oluşan çözüm yoluna <strong>algoritma</strong> denir. Trafik ışığı algoritmamızın dört adımı var; her adımda hangi ışıkların yanacağı ve ne kadar bekleneceği bellidir. Bu adımları kâğıda yazıp bir akış şeması olarak da çizebiliriz. <code>loop</code> ise bir <strong>döngüdür</strong>: dördüncü adım bitince algoritma birinci adıma döner.",
+        "8": "Algoritma, bir problemi çözen, sırası belli, açık ve sonlu adımlar dizisidir. Trafik ışığımızda her adım bir <strong>durum</strong> (hangi ışıklar yanık) ve bir <strong>süre</strong> içerir; bu yapı bir tablo olarak da yazılabilir: kırmızı 3000 ms; kırmızı ve sarı 1000 ms; yeşil 3000 ms; sarı 1000 ms. <code>loop</code>, tablonun sonuna gelince başa dönen bir <strong>sonsuz döngüdür</strong>. Adımlar eksiksiz olmalıdır: kırmızıyı söndüren satırı unutursak yeşil ve kırmızı birlikte yanar."
+      }
+    },
+    {
+      "id": "tahmin",
+      "baslik": "Beklemeleri silersek?",
+      "metin": {
+        "5": "Önce tahmin edelim: Koddaki bütün <code>delay</code> satırlarını, yani bekle komutlarını silersek ne olur? Işıklar yine sırayla yanar mı? Tahminimizi söyleyelim, sonra cevaba bakalım.",
+        "6": "Tahmin et, sonra tartış. Koddaki dört <code>delay</code> satırını silersek kart ışıkları yine aynı sırayla değiştirir mi? Değiştirirse biz bunu görebilir miyiz? Önce sınıfça tahmin edelim, sonra cevabı okuyalım.",
+        "7": "Bir satırın görevini anlamanın yolu, o satır olmasaydı ne olacağını düşünmektir. Bütün <code>delay</code> satırlarını silersek kod yine aynı sırayla çalışır mı? Her aşama ne kadar sürer? Gözümüz bu değişimi yakalayabilir mi? Önce gerekçeli tahminlerimizi yazalım, sonra cevaba bakalım.",
+        "8": "Düşünce deneyi: dört <code>delay</code> satırı silinirse algoritmanın sırası korunur ama her aşamanın süresi, birkaç <code>digitalWrite</code> satırının çalışma süresine iner. Bu süre, insan gözünün ayırt edebileceği süreyle karşılaştırıldığında nasıldır? Işıkları nasıl görürüz? İpucu: Ders 2'de bekleme 0,2 saniyeye indiğinde LED'in yanıp söndüğünü hâlâ görüyorduk; peki süre bunun binde birinden de kısa olursa? Tahminimizi gerekçesiyle yazalım; PWM ile bağlantısını da düşünelim."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: Bütün <code>delay</code> satırlarını silersek ışıklar ne yapar?",
+          "6": "Tahmin et: Bekleme komutları olmadan ışıkların değiştiğini görebilir miyiz?",
+          "7": "Tahmin et: <code>delay</code> satırları silinince kod sırayı bozar mı? Biz ışıkları nasıl görürüz?",
+          "8": "Tahmin et: Her aşama yalnız birkaç mikrosaniye sürerse LED'leri nasıl algılarız?"
+        },
+        "cevap": {
+          "5": "Kart yine sırayla çalışır ama çok çok hızlı. Işıklar gözümüzün yakalayamayacağı kadar hızlı değişir; üç ışık birden sönükçe yanıyor gibi görünebilir. Bekleme komutu, her ışığın görebileceğimiz kadar yanmasını sağlar.",
+          "6": "Kart sırayı bozmaz ama her aşama saniyenin milyonda birkaçı kadar sürer. Göz bu kadar hızlı değişimi ayırt edemez: ışıklar göremeyeceğimiz hızda değişir, üçü birden sönükçe yanıyor gibi görünebilir. <code>delay</code>, her aşamanın insanların görebileceği kadar sürmesini sağlar.",
+          "7": "Sıra bozulmaz; kod yine yukarıdan aşağı çalışır. Ama her aşama yalnız birkaç <code>digitalWrite</code> satırı kadar, yani mikrosaniyeler sürer. Göz bu kadar hızlı değişimi ayrı ayrı göremez; ışıklar göremeyeceğimiz hızda değişir ve üçü birden sönükçe yanıyor gibi görünebilir. Demek ki <code>delay</code> algoritmanın bir parçasıdır: süre de bir adımdır.",
+          "8": "Sıra korunur ama bir tur birkaç on mikrosaniyeye iner; LED'ler saniyede binlerce kez yanıp söner. Göz bu hızlı değişimi ortalar: her LED, açık kaldığı zamanın oranına göre sönük ve sürekli yanıyor gibi görünür. Bu, <strong>PWM</strong>'in temel fikridir: <code>analogWrite</code>, ~ pinlerde saniyede yaklaşık 490 kez (5 ve 6. pinlerde 980 kez) açıp kapatarak parlaklığı ayarlar. Trafik ışığı için ise anlamlı süreler gerekir; bu yüzden <code>delay</code> şarttır."
+        }
+      }
+    },
+    {
+      "id": "ileri",
+      "baslik": "Yaya butonu ekleyelim mi?",
+      "metin": {
+        "5": "Bazı yaya geçitlerinde bir buton vardır; yaya basınca ışık sistemi yayaların geçmek istediğini öğrenir. Ders 3'teki butonu bu devreye ekleyebiliriz. Butona basılınca kodun hangi adımı değişmeli? Sınıfça düşünelim.",
+        "6": "Ders 3'te butonu okumayı öğrendik, bu derste ışıkları sıraladık. İkisini birleştirelim: yaya butona basınca araçlar için ışık sarıya, sonra kırmızıya dönsün. Bunun için kodda bir <code>if</code> gerekir: eğer butona basıldıysa sırayı başlat. Butonu boştaki bir pine, örneğin pin 2'ye bağlayabiliriz.",
+        "7": "Yaya butonu fikri: Ders 3'teki buton devresini pin 2'ye kuralım. Işık yeşilken yaya butona basarsa sıra sarıya, sonra kırmızıya geçsin; kırmızıda yayalar geçsin. Kodda <code>if (digitalRead(2) == HIGH)</code> ile bir karar ekleriz. Ama dikkat: kart <code>delay</code> içindeyken butonu okumaz. Bu sorunu nasıl çözebiliriz?",
+        "8": "Yaya butonu, Ders 3 ile Ders 4'ü birleştirir: D2'ye pull-down dirençli bir buton ekleyip yeşil aşamasında okuyalım. Sorun: <code>delay(3000)</code> çalışırken kart girişi okumaz, kısa bir basış kaçabilir. Çözüm fikri: uzun bekleme yerine kısa beklemelerden oluşan bir döngü kurup her turda butonu okumak (ör. 100 kez <code>delay(30)</code>). Daha ileri bir yol, <code>millis()</code> ile zamanı ölçüp hiç durmadan butonu okumaktır."
+      }
+    },
+    {
+      "id": "ozet",
+      "baslik": "Özet",
+      "metin": {
+        "5": "Bugün üç LED ile bir trafik ışığı modeli yaptık. Her LED'in kendi pini ve direnci var. Kod, ışıkları sırayla yakan bir <strong>algoritma</strong>. <code>loop</code> bu sırayı hep tekrarlar. Bekleme olmasaydı ışıkların değiştiğini göremezdik.",
+        "6": "Özet: Kırmızı pin 10'da, sarı pin 9'da, yeşil pin 8'de; her LED'in kendi 220 Ω direnci var. Sıra: kırmızı, kırmızı ve sarı, yeşil, sarı. Sırası belli adımlar bir algoritmadır; <code>loop</code> bu algoritmayı tekrarlayan döngüdür. <code>delay</code> her adımın görülebilecek kadar sürmesini sağlar.",
+        "7": "Trafik ışığı algoritması dört adımdan oluşur ve her adımda hangi ışıkların yanacağı ile süresi bellidir. Pinler yeni bir komut gelene kadar durumunu korur; bu yüzden söndürme komutlarını unutmamak gerekir. <code>loop</code> adımları sonsuza kadar tekrarlar, <code>delay</code> ise süreyi belirler. Ders 3'teki butonla bu sisteme yaya isteği eklenebilir.",
+        "8": "Model, yönetmelikteki ışık anlamlarına uygun dört aşamalı bir döngüdür: 3000, 1000, 3000, 1000 ms; bir tur 8 s. <code>digitalWrite</code> yalnız yazdığı pini değiştirir, diğerleri durumunu korur. <code>delay</code> sırasında kart başka satır çalıştırmaz; bu, butonlu bir sistemde kısa basışların kaçmasına yol açabilir. Beklemesiz hızlı açıp kapama ise gözde sönük ve sürekli ışık etkisi yaratır: PWM'in temeli."
+      }
+    }
+  ],
+  "kod": {
+    "satirlar": [
+      {"k": "const int kirmizi = 10;", "t": "Kırmızı LED pin 10'da. Kodda Türkçe harf kullanmadığımız için adı kirmizi."},
+      {"k": "const int sari = 9;", "t": "Sarı LED pin 9'da."},
+      {"k": "const int yesil = 8;", "t": "Yeşil LED pin 8'de."},
+      {"k": "", "t": ""},
+      {"k": "void setup() {", "t": "Hazırlık bölümü: kart açılınca bir kez çalışır."},
+      {"k": "pinMode(kirmizi, OUTPUT);", "t": "Kırmızı LED'in pinini çıkış yap."},
+      {"k": "pinMode(sari, OUTPUT);", "t": "Sarı LED'in pinini çıkış yap."},
+      {"k": "pinMode(yesil, OUTPUT);", "t": "Yeşil LED'in pinini çıkış yap."},
+      {"k": "}", "t": "Hazırlık bölümü bitti."},
+      {"k": "", "t": ""},
+      {"k": "void loop() {", "t": "Tekrar bölümü: dört adım sırayla çalışır, sonra başa döner."},
+      {"k": "digitalWrite(sari, LOW);", "t": "1. adım: Önceki turdan yanık kalan sarıyı söndür."},
+      {"k": "digitalWrite(kirmizi, HIGH);", "t": "Kırmızıyı yak: dur."},
+      {"k": "delay(3000);", "t": "3 saniye bekle."},
+      {"k": "", "t": ""},
+      {"k": "digitalWrite(sari, HIGH);", "t": "2. adım: Kırmızı yanarken sarıyı da yak: hazırlan."},
+      {"k": "delay(1000);", "t": "1 saniye bekle."},
+      {"k": "", "t": ""},
+      {"k": "digitalWrite(kirmizi, LOW);", "t": "3. adım: Kırmızıyı söndür."},
+      {"k": "digitalWrite(sari, LOW);", "t": "Sarıyı söndür."},
+      {"k": "digitalWrite(yesil, HIGH);", "t": "Yeşili yak: geç."},
+      {"k": "delay(3000);", "t": "3 saniye bekle."},
+      {"k": "", "t": ""},
+      {"k": "digitalWrite(yesil, LOW);", "t": "4. adım: Yeşili söndür."},
+      {"k": "digitalWrite(sari, HIGH);", "t": "Sarıyı yak: kırmızı geliyor."},
+      {"k": "delay(1000);", "t": "1 saniye bekle."},
+      {"k": "}", "t": "Tekrar bölümü bitti; 1. adıma dön."}
+    ]
+  },
+  "sinav": {
+    "5": [
+      {
+        "soru": "Kırmızıyla birlikte sarı yanınca ne anlama gelir?",
+        "secenekler": ["Hemen geç", "Yeşil gelmek üzere, hazırlan", "Işık bozuldu"],
+        "dogru": 1,
+        "aciklama": "Yönetmeliğe göre bu, yolun açılmak üzere olduğunu bildirir; bekleyenler hazırlanır ama henüz geçmez."
+      },
+      {
+        "soru": "Adımları sırayla yazmaya ne denir?",
+        "secenekler": ["Algoritma", "Direnç", "Breadboard"],
+        "dogru": 0,
+        "aciklama": "Sırası belli adımlar dizisine algoritma denir; kodumuz da bir algoritmadır."
+      },
+      {
+        "soru": "Bütün <code>delay</code> satırlarını silersek ne olur?",
+        "secenekler": ["Işıklar hiç yanmaz", "Işıklar daha yavaş değişir", "Işıklar göremeyeceğimiz kadar hızlı değişir"],
+        "dogru": 2,
+        "aciklama": "Bekleme olmayınca her aşama çok kısa sürer; göz bu değişimi yakalayamaz."
+      }
+    ],
+    "6": [
+      {
+        "soru": "Bu devrede sarı LED hangi pine bağlı?",
+        "secenekler": ["Pin 10", "Pin 9", "Pin 8"],
+        "dogru": 1,
+        "aciklama": "Kodda const int sari = 9; yazıyor: sarı LED pin 9'da."
+      },
+      {
+        "soru": "Kodda kırmızı LED'i söndüren satır hangisi?",
+        "secenekler": ["digitalWrite(kirmizi, HIGH);", "delay(3000);", "digitalWrite(kirmizi, LOW);"],
+        "dogru": 2,
+        "aciklama": "LOW, pine giden elektriği keser ve LED söner."
+      },
+      {
+        "soru": "Neden her LED'e ayrı bir 220 Ω direnç takıyoruz?",
+        "secenekler": ["Her LED ayrı bir yoldan elektrik alır; her yolun akımı sınırlanmalıdır", "Dirençler LED'in rengini belirler", "Direnç olmadan kod çalışmaz"],
+        "dogru": 0,
+        "aciklama": "Her LED kendi pininden beslenir; her yolun akımını kendi direnci sınırlar."
+      }
+    ],
+    "7": [
+      {
+        "soru": "Yeşilden sonra yalnız sarı yanınca bu ne anlama gelir?",
+        "secenekler": ["Yol trafiğe kapanmak üzere", "Yol trafiğe açılmak üzere", "Yayalar geçebilir"],
+        "dogru": 0,
+        "aciklama": "Yönetmeliğe göre yeşilden sonra yanan sarı, yolun trafiğe kapanmak üzere olduğunu bildirir."
+      },
+      {
+        "soru": "Kırmızıyı söndüren satırı unutursak yeşil aşamasında ne görürüz?",
+        "secenekler": ["Yalnız yeşil yanar", "Hiçbir ışık yanmaz", "Kırmızı ve yeşil birlikte yanar"],
+        "dogru": 2,
+        "aciklama": "Pin yeni bir komut gelene kadar durumunu korur; kırmızı söndürülmezse yanık kalır."
+      },
+      {
+        "soru": "İkinci aşamada neden yalnız sarıyı yakmak yeterlidir?",
+        "secenekler": ["Kırmızı kendiliğinden yanar", "Kırmızı zaten yanık; pin yeni komut gelene kadar durumunu korur", "delay kırmızıyı yakar"],
+        "dogru": 1,
+        "aciklama": "digitalWrite yalnız yazdığı pini değiştirir; kırmızı 1. aşamadan beri HIGH'tır."
+      }
+    ],
+    "8": [
+      {
+        "soru": "Modelde bir tam tur kaç saniye sürer?",
+        "secenekler": ["6 saniye", "10 saniye", "8 saniye"],
+        "dogru": 2,
+        "aciklama": "3000 + 1000 + 3000 + 1000 = 8000 ms = 8 s."
+      },
+      {
+        "soru": "<code>delay(3000)</code> çalışırken bir yaya butonuna kısa basılırsa ne olur?",
+        "secenekler": ["Kart beklemeyi bırakıp butonu okur", "Kart basışı kaçırabilir; delay boyunca kodun başka satırı çalışmaz", "Buton LED'i doğrudan söndürür"],
+        "dogru": 1,
+        "aciklama": "delay programı durdurur; buton ancak bekleme bitince okunabilir."
+      },
+      {
+        "soru": "UNO'da <code>analogWrite</code> ile PWM üretilebilen pinler hangileridir?",
+        "secenekler": ["3, 5, 6, 9, 10, 11", "8, 9, 10", "A0-A5"],
+        "dogru": 0,
+        "aciklama": "~ işaretli bu altı pin PWM üretir; devremizdeki 9 ve 10 bunlardandır, 8 değildir."
+      }
+    ]
+  },
+  "ogretmen": {
+    "hazirlik": "Ders 2'yi tamamlamış sınıflarla işleyin. Derse başlamadan öğrencilere kavşaktaki ışıkların sırasını sorup tahtaya yazın. Sıra, Trafik İşaretleri Hakkında Yönetmelik'in 9. maddesindeki ışık anlamlarına dayanır: kırmızıyla birlikte yanan sarı yolun açılmak üzere olduğunu, yeşilden sonra yanan sarı kapanmak üzere olduğunu bildirir. Süreler sınıfta izlenebilsin diye kısadır; gerçek kavşak süreleri için ölçü değildir. Müfredat bağı: 5. sınıf BTY 6. temasında algoritma, döngü ve akış şeması (BTY.5.6.1); program, algoritma mantığını anlatmak için günlük hayattan örnekler arasında trafik düzenlemeyi de sayar. 6. sınıf BTY 6. temasında döngüler anahtar kavramdır.",
+    "malzemeler": [
+      "1 adet Arduino UNO",
+      "1 adet breadboard",
+      "1 kırmızı, 1 sarı, 1 yeşil LED",
+      "3 adet 220 Ω direnç (kırmızı-kırmızı-kahverengi-altın)",
+      "4 adet erkek-erkek atlama kablosu (3 sinyal, 1 GND)",
+      "1 adet USB A-B kablosu",
+      "İsteğe bağlı (yaya butonu görevi için): 1 adet 4 bacaklı buton, 1 adet 10 kΩ direnç, 3 adet kablo"
+    ],
+    "guvenlik": [
+      "Devreyi USB takılı değilken kurun.",
+      "Her LED'in kendi direnci olsun; LED'i dirençsiz olarak pine bağlamayın.",
+      "Kablo uçlarının + ve - rayları arasında köprü kurmadığını kontrol edin.",
+      "Modelin bir benzetme olduğunu hatırlatın: gerçek kavşakta her zaman gerçek ışıklara ve trafik görevlisine uyulur; kırmızıyla birlikte sarı yanarken henüz geçilmez."
+    ],
+    "yanilgilar": [
+      "Yanlış: Kırmızıyla birlikte yanan sarı geç demektir. Düzeltme: Yönetmeliğe göre bu hazırlan demektir; geçiş yeşille başlar.",
+      "Yanlış: Bir LED, sıradaki <code>digitalWrite</code> gelmeden kendiliğinden söner. Düzeltme: Kırmızıyı söndüren satır olmasaydı yeşil aşamasında kırmızı ile yeşilin birlikte yanacağını düşündürün; pinlerin durumunu koruduğunu vurgulayın.",
+      "Yanlış: <code>delay</code> sırasında kart başka işleri de yapar. Düzeltme: Vurgulanan satırın <code>delay</code>'de beklediğini gösterin; yaya butonu sorusuyla bağlayın.",
+      "Yanlış: Üç LED'e tek bir direnç yeter. Düzeltme: Her LED'in ayrı bir yol olduğunu, akımın her yolda ayrı sınırlanması gerektiğini tahtaya çizin.",
+      "Yanlış: Algoritma yalnız bilgisayarlarla ilgilidir. Düzeltme: Diş fırçalama, yemek tarifi gibi günlük örneklerde adımların sırasını tartıştırın."
+    ],
+    "tartisma": [
+      "Kavşaktaki ışıkların sırası karışsaydı ne olurdu? Algoritmada sıra neden önemli?",
+      "Sarı ışık neden var? Kırmızıdan doğrudan yeşile geçilseydi sürücüler için ne değişirdi?",
+      "Trafik yoğunluğuna göre süresini değiştiren akıllı bir ışık hangi girişlere (algılayıcılara) ihtiyaç duyardı?"
+    ],
+    "ileri": [
+      "Süreleri değiştirerek kendi sıranızı tasarlayın (ör. yeşil 5 sn); önce algoritmayı tablo olarak yazın, sonra koda geçirin.",
+      "Ders 3'teki buton devresini pin 2'ye ekleyin: butona basılınca yeşil aşaması kısalsın. <code>delay</code> sorununu nasıl çözdüğünüzü açıklayın."
+    ]
+  },
+  "kavramlar": ["algoritma", "dongu", "kod", "degisken", "led", "direnc", "pin", "dijital", "giris-cikis", "gnd", "devre", "pwm", "kosul", "buton"],
+  "kaynaklar": [
+    {"ad": "Trafik İşaretleri Hakkında Yönetmelik, Madde 9 (ışıklı işaretlerin anlamları)", "adres": "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4699&MevzuatTur=7&MevzuatTertip=5"},
+    {"ad": "Arduino başvuru: digitalWrite()", "adres": "https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/"},
+    {"ad": "Arduino başvuru: delay()", "adres": "https://docs.arduino.cc/language-reference/en/functions/time/delay/"},
+    {"ad": "Arduino başvuru: loop()", "adres": "https://docs.arduino.cc/language-reference/en/structure/sketch/loop/"},
+    {"ad": "Arduino başvuru: analogWrite() ve PWM frekansları", "adres": "https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/"},
+    {"ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. sınıflar, 2025)", "adres": "https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf"}
+  ]
+}

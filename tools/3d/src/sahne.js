@@ -129,12 +129,29 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {} } = {})
     simdikiOlcek = 0;
     olcekUygula(tamOlcek * KADEME[kademe]);
     camera.aspect = w / h;
-    camera.updateProjectionMatrix();
+    goruntuKaydir();
     if (!kullaniciOynatti && sonHedef) kameraGit(sonHedef, true);
     iste();
   }
-  const ro = new ResizeObserver(boyutla);
+  // Boyut değişimi (panel açılıp kapanırken, kenar sürüklenirken) her karede değil, durunca bir kez
+  // uygulanır: çizim tamponunu her karede yeniden ayırmak zayıf ekran kartında takılma yapar.
+  let boyutZaman = 0;
+  const ro = new ResizeObserver(() => { clearTimeout(boyutZaman); boyutZaman = setTimeout(boyutla, 110); });
   ro.observe(canvas);
+
+  // Telefonda kart sayfası sahnenin altını örter: görünür bölgenin ortası hedeflenir (görüş kaydırma),
+  // sığdırma görünür yüksekliğe göre yapılır. Yalnız izdüşüm değişir, tuval boyutu değişmez (ucuz).
+  let altBosluk = 0;
+  function goruntuKaydir() {
+    const w = canvas.clientWidth || 1, h = canvas.clientHeight || 1;
+    if (altBosluk > 0) camera.setViewOffset(w, h, 0, Math.min(altBosluk, h * 0.9) / 2, w, h); else camera.clearViewOffset();
+    camera.updateProjectionMatrix();
+  }
+  function gorunurAlan(alt, anlik = false) {
+    altBosluk = Math.max(0, alt || 0);
+    goruntuKaydir();
+    if (!kullaniciOynatti && sonHedef) kameraGit(sonHedef, anlik); else iste();
+  }
 
   controls.addEventListener('change', iste);
   controls.addEventListener('start', () => { kullaniciOynatti = true; olay('kamera-elle'); });
@@ -143,14 +160,16 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {} } = {})
   // hedef: { merkez, yon, yaricap } ; küre ekrana sığacak uzaklık, dikey ve yatay görüş
   // açısının küçüğüne göre hesaplanır (dikey telefon ekranında da sığar).
   let sonHedef = null;
-  function kameraGit(h, anlik = false) {
-    sonHedef = h;
+  function kameraGit(hd, anlik = false) {
+    sonHedef = hd;
     kullaniciOynatti = false;
-    const merkez = new Vector3(...h.merkez);
-    const yon = new Vector3(...h.yon).normalize();
+    const merkez = new Vector3(...hd.merkez);
+    const yon = new Vector3(...hd.yon).normalize();
+    const w = canvas.clientWidth || 1, h = canvas.clientHeight || 1, gh = Math.max(1, h - Math.min(altBosluk, h * 0.9));
     const v = (camera.fov * Math.PI) / 180;
-    const yatay = 2 * Math.atan(Math.tan(v / 2) * camera.aspect);
-    const uzaklik = (h.yaricap / Math.sin(Math.min(v, yatay) / 2)) * 1.04;
+    const dikeyGorunen = 2 * Math.atan((Math.tan(v / 2) * gh) / h);
+    const yatay = 2 * Math.atan(Math.tan(v / 2) * (w / h));
+    const uzaklik = (hd.yaricap / Math.sin(Math.min(dikeyGorunen, yatay) / 2)) * 1.04;
     const hedefKonum = merkez.clone().addScaledVector(yon, uzaklik);
     if (anlik || azHareket()) {
       camera.position.copy(hedefKonum); controls.target.copy(merkez); controls.update(); iste(); return Promise.resolve();
@@ -223,7 +242,7 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {} } = {})
 
   return {
     renderer, scene, camera, controls, hedefler,
-    iste, kameraGit, tween, etiketKoy,
+    iste, kameraGit, tween, etiketKoy, gorunurAlan,
     golgeYenile: () => { golgeKirli = true; iste(); },
     kareGuncelleyici: (g) => { kareGuncelleyiciler.add(g); iste(); return () => kareGuncelleyiciler.delete(g); },
     yavasGuncelleyici: (g) => { yavasGuncelleyiciler.add(g); iste(); return () => yavasGuncelleyiciler.delete(g); },

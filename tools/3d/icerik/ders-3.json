@@ -1,0 +1,411 @@
+{
+ "slug": "arduino-buton-led",
+ "baslik": "Butonla LED Yakalım",
+ "kisa": "Butona basınca yanan LED: Arduino UNO ile giriş ve çıkış, 10 kΩ pull-down direnci ve if-else kodu. Ortaokul 5-8. sınıflara özel 3D simülasyon.",
+ "sure": 30,
+ "hedefler": {
+  "5": [
+   "Butonun basınca iki tarafı birleştirdiğini göreceğiz.",
+   "Kartın bilgi okuduğu pin ile ışık verdiği pini ayırt edeceğiz.",
+   "Butona basınca LED'i yakan devreyi ve kodu deneyeceğiz."
+  ],
+  "6": [
+   "Giriş ve çıkış pinlerinin farkını örnekle açıklayacağız.",
+   "10 kΩ direncin devrede neden durduğunu anlatacağız.",
+   "Eğer-değilse (if-else) yapısıyla çalışan bir kodu okuyacağız."
+  ],
+  "7": [
+   "Butonun durumunu HIGH ve LOW olarak okuyan bir giriş devresi kuracağız.",
+   "Pull-down direnci olmadan girişin neden kararsız kaldığını açıklayacağız.",
+   "if-else yapısının loop içinde nasıl sürekli karar verdiğini izleyeceğiz."
+  ],
+  "8": [
+   "Pull-down direncinin girişi 0 V'a nasıl çektiğini açıklayacağız.",
+   "Buton basılıyken 10 kΩ üzerinden geçen akımı hesaplayacağız.",
+   "digitalRead, karşılaştırma (==) ve if-else ile bir karar yapısı kuracağız."
+  ]
+ },
+ "adimlar": [
+  {
+   "id": "merak",
+   "baslik": "Düğmeye basınca ne olur?",
+   "metin": {
+    "5": "Kapı ziline basınca zil çalar, asansör düğmesine basınca düğmenin ışığı yanar. Peki cihaz düğmeye bastığımızı nasıl anlıyor? Bugün Arduino'ya bir buton bağlayıp ona ilk kez <strong>bilgi okutacağız</strong>.",
+    "6": "Asansör düğmesine bastığınızda düğmenin ışığı yanar, asansör katınıza gelir. Kapı ziline basınca zil çalar. Bu cihazlar önce bizden bir bilgi alır, sonra bir iş yapar. Bugün Arduino'ya bir butonu okutacağız ve butona basılınca LED'i yakacağız.",
+    "7": "Asansör, düğmeye basıldığını algılar, kararını verir ve sonra katınıza gelir. Bu da bir <strong>giriş</strong> ve <strong>çıkış</strong> örneği: düğme bilgi verir, motor ve ışık iş yapar. Önceki derste Arduino yalnız çıkış verdi. Bugün ilk kez dışarıdan bilgi okuyacak ve bu bilgiye göre karar verecek.",
+    "8": "Asansör düğmesi, kapı zili ya da yaya geçidindeki bekleme butonu: hepsi bir insan hareketini elektrik sinyaline çevirir. Cihaz bu sinyali okur ve kodundaki koşula göre karar verir. Bugün Arduino'nun D2 pinini <strong>giriş</strong> olarak kullanıp butonun durumunu okuyacağız; buton basılıysa D13'teki LED'i yakan bir karar yapısı yazacağız."
+   }
+  },
+  {
+   "id": "malzemeler",
+   "baslik": "Malzemelerimiz",
+   "metin": {
+    "5": "Bu derste Ders 2'deki LED devresine bir <strong>buton</strong> ekliyoruz. Gerekenler: 1 buton, 1 adet 10 kΩ direnç, 1 adet 220 Ω direnç, 1 LED ve birkaç kablo. İki direnç birbirine benzer; renk çizgilerinden ayırt ederiz.",
+    "6": "Gerekenler: 1 buton, 1 adet 10 kΩ direnç (kahverengi, siyah, turuncu, altın), 1 adet 220 Ω direnç (kırmızı, kırmızı, kahverengi, altın), 1 LED ve kablolar. 10 kΩ, 10.000 ohm demektir; k harfi bin anlamına gelir. İki direnci karıştırmamak için renk bantlarına bakalım.",
+    "7": "Malzemeler: 1 buton, 1 adet 10 kΩ ve 1 adet 220 Ω direnç, 1 LED ve bağlantı kabloları. İki direncin görevi farklıdır: 220 Ω LED'in akımını sınırlar; 10 kΩ ise buton basılı değilken giriş pinini sabit bir değerde tutar. Bu ikinci görevi birazdan ayrıntılı göreceğiz.",
+    "8": "Malzemeler: 1 buton (4 bacaklı), 1 adet 10 kΩ direnç (kahverengi-siyah-turuncu-altın: 10 × 1000 Ω), 1 adet 220 Ω direnç, 1 LED ve bağlantı kabloları. 220 Ω, çıkış devresinde LED akımını sınırlar; 10 kΩ ise giriş devresinde <strong>pull-down</strong> direnci olarak çalışır. Değerleri karıştırmak devrenin davranışını değiştirir; renk bantlarını takmadan önce kontrol edelim."
+   }
+  },
+  {
+   "id": "buton",
+   "baslik": "Butonu tanıyalım",
+   "metin": {
+    "5": "<strong>Buton</strong> bir köprü gibidir. Basmadığımızda iki taraf ayrıdır, elektrik geçemez. Bastığımızda köprü kurulur ve iki taraf birleşir. Dört bacağı var: bacaklar içeride ikişer ikişer bağlıdır, basınca bu iki çift birbirine bağlanır.",
+    "6": "<strong>Buton</strong>, basılınca devrenin iki noktasını birleştiren bir anahtardır. Basılı değilken o iki nokta ayrıdır (açık devre), basılıyken bağlanır (kapalı devre). Dört bacağı vardır: bacaklar içeride ikişer ikişer bağlıdır ve butona basınca bu iki çift birbirine bağlanır. Bıraktığımızda içindeki yay butonu geri iter.",
+    "7": "Buton, basıldığı sürece iki noktayı birleştiren bir <strong>anahtardır</strong>; bırakınca bağlantı kopar. Ev ışık anahtarından farkı, konumunu korumamasıdır. Dört bacak içeride ikişer ikişer bağlıdır; basınca iki çift birleşir. Butonu kanalın üstüne takarız; böylece bacaklar ayrı şeritlere girer ve buton, basılmadan bağlı kalmaz.",
+    "8": "Bu bir <strong>anlık buton</strong>dur: yalnız basılı olduğu sürece iki kontağı birleştirir; bırakınca yay onu açık konuma döndürür. Dört bacak iki çift hâlinde içeriden bağlıdır; basılınca iki çift arasında iletken bir yol oluşur. Kanalın üstüne takılan butonun bacakları dört ayrı şeride girer; böylece bağlantıyı breadboard değil, buton kurar."
+   }
+  },
+  {
+   "id": "giris-cikis",
+   "baslik": "Giriş ve çıkış",
+   "metin": {
+    "5": "Bu devrede iki pin var. <strong>Pin 2</strong> kulak gibidir: butonu dinler, yani <strong>giriş</strong>tir. <strong>Pin 13</strong> ağız gibidir: LED'e ne yapacağını söyler, yani <strong>çıkış</strong>tır. Kart, duyduğuna göre karar verir.",
+    "6": "<strong>Giriş</strong>, karta dışarıdan bilgi gelen yoldur; <strong>çıkış</strong>, kartın dışarıya iş yaptırdığı yoldur. Bu devrede pin 2 giriştir: butona basılıp basılmadığını okur. Pin 13 çıkıştır: LED'i yakar ya da söndürür. Bilgisayardaki klavye giriş, ekran çıkış birimidir; burada da aynı fikir var.",
+    "7": "Her pin kodla bir göreve ayarlanır. <code>pinMode(buton, INPUT)</code> pin 2'yi <strong>giriş</strong> yapar: pin, üzerindeki gerilimi okur. <code>pinMode(led, OUTPUT)</code> pin 13'ü <strong>çıkış</strong> yapar: pin gerilim verir. Program giriş bilgisini okur, bir karar verir ve sonucu çıkışa yazar: <strong>giriş, işlem, çıkış</strong>.",
+    "8": "<code>INPUT</code> olarak ayarlanan pin bir ölçüm ucu gibi davranır: neredeyse akım çekmeden üzerindeki gerilimi okur ve HIGH ya da LOW olarak yorumlar. <code>OUTPUT</code> olarak ayarlanan pin ise 5 V ya da 0 V vererek LED gibi bir yükü sürer. Bu devrede D2 giriş, D13 çıkıştır. Sistem modeli: giriş (D2), işlem (<code>if</code> ve <code>else</code>), çıkış (D13)."
+   }
+  },
+  {
+   "id": "kurulum",
+   "baslik": "Devreyi kuralım",
+   "metin": {
+    "5": "USB takılı değilken kuralım. <strong>Kırmızı kablo</strong> 5V'tan alttaki + rayına (en dıştaki kırmızı çizgili sıra), <strong>siyah kablo</strong> GND'den alttaki - rayına. Buton kanalın üstüne: bir yanı + rayına, öbür yanı pin 2'ye. 10 kΩ direnç pin 2 tarafından - rayına. LED, Ders 2'deki gibi.",
+    "6": "USB takılı değilken kuralım. <strong>Kırmızı kablo</strong> 5V'u alttaki + rayına (en dıştaki kırmızı çizgili sıra), <strong>siyah kablo</strong> GND'yi alttaki - rayına bağlar. Buton kanalın üstüne takılır; bir yanı + rayına, öbür yanı pin 2'ye gider. 10 kΩ direnç, pin 2 tarafından - rayına iner. LED ve 220 Ω, Ders 2'deki gibi pin 13'te.",
+    "7": "Devreyi USB takılı değilken kuralım. <strong>Kırmızı kablo</strong> 5V'u alttaki + rayına (en dıştaki kırmızı çizgili sıra), <strong>siyah kablo</strong> GND'yi alttaki - rayına taşır. Buton kanalın üstüne takılır: bir yanı 5 V'a, öbür yanı pin 2'ye bağlanır. 10 kΩ direnç pin 2 tarafını - rayına bağlar. Çıkış tarafı Ders 2'deki gibi: pin 13, LED, 220 Ω, - rayı. İki devre aynı GND'yi paylaşır.",
+    "8": "Bağlantılar USB takılı değilken yapılır. <strong>Kırmızı kablo</strong> 5V'u alt kenardaki + rayına (en dıştaki kırmızı çizgili sıra), <strong>siyah kablo</strong> GND'yi hemen yanındaki - rayına bağlar. Giriş devresi: + rayı, buton, D2 bağlantı noktası; bu noktadan 10 kΩ ile - rayı. Çıkış devresi Ders 2'deki gibidir: D13, LED, 220 Ω, - rayı. İki devrenin ortak noktası GND'dir; bütün gerilimler bu ortak 0 V'a göre ölçülür."
+   }
+  },
+  {
+   "id": "pull-down",
+   "baslik": "10 kΩ direnç ne işe yarar?",
+   "metin": {
+    "5": "Butona basmadığımızda pin 2 neyi okuyor? <strong>10 kΩ direnç</strong>, kapıyı kendiliğinden kapatan bir yay gibidir: pin 2'yi GND'ye çeker ve basılı değilken kart <strong>LOW</strong> (kapalı) okur. Basınca 5V pin 2'ye ulaşır, kart <strong>HIGH</strong> (açık) okur.",
+    "6": "<strong>10 kΩ direnç</strong> pin 2'yi GND'ye bağlar; buna <strong>pull-down</strong> (aşağı çeken) direnç denir. Basılı değilken pin 0 V'a çekilir ve kart LOW okur. Butona basınca pin 5V'a bağlanır ve kart HIGH okur. Direncin büyük olması, basınca 5V'tan GND'ye çok az elektrik akmasını sağlar.",
+    "7": "Pin 2 giriş olarak ayarlıdır ve kendi başına bir gerilim vermez; yalnız bağlı olduğu yerin gerilimini okur. Butona basılı değilken <strong>10 kΩ</strong> direnç pin 2'yi GND'ye bağlar, kart LOW okur. Basınca pin doğrudan 5V'a bağlanır ve HIGH okur. Neden düz bir kablo kullanmıyoruz? Kablo olsaydı butona basınca 5V ile GND kısa devre olurdu. Bu dirence <strong>pull-down</strong> denir.",
+    "8": "<strong>Pull-down</strong> direnci, giriş pinini bilinen bir duruma çeker. Buton basılı değilken D2, 10 kΩ üzerinden GND'ye bağlıdır; giriş neredeyse akım çekmediği için direnç üzerinde neredeyse hiç gerilim düşmez ve D2 yaklaşık 0 V (LOW) olur. Buton basılınca D2 doğrudan 5 V'a bağlanır (HIGH). Bu sırada 10 kΩ üzerinden I = V / R = 5 V / 10.000 Ω = 0,5 mA akar; düz kablo kullansaydık R ≈ 0 olur, kısa devre oluşurdu."
+   }
+  },
+  {
+   "id": "kod",
+   "baslik": "Kodu okuyalım",
+   "metin": {
+    "5": "Kodun başında pinlere ad veriyoruz: buton 2'de, LED 13'te. <code>loop</code> içinde kart sürekli soruyor: <strong>Butona basılı mı?</strong> Evetse LED'i yakar, değilse söndürür. Bu soru durmadan, çok hızlı tekrarlanır.",
+    "6": "Kodun ilk iki satırı pinlere ad verir: <code>buton</code> 2, <code>led</code> 13. <code>const</code>, bu değerlerin <strong>sabit</strong> olduğunu, değişmeyeceğini söyler. <code>setup</code> içinde pin 2 giriş, pin 13 çıkış yapılır. <code>loop</code> içinde bir <strong>koşul</strong> var: <code>if</code> (eğer) butona basılıysa LED'i yak, <code>else</code> (değilse) söndür.",
+    "7": "<code>const int buton = 2;</code> satırı 2 sayısına bir ad verir; artık kodda <code>buton</code> yazınca program 2'yi anlar. <code>const</code>, değerin program boyunca değişmeyeceğini belirtir. <code>loop</code> içindeki <code>if</code> yapısı bir karardır: <code>digitalRead(buton)</code> HIGH ise LED yanar, değilse <code>else</code> bölümü çalışır ve LED söner. Döngü bu kararı sürekli yeniden verir.",
+    "8": "<code>const int</code>, adı olan ama değeri değişmeyen bir tam sayı tanımlar; pin numaralarına ad vermek kodu okunur yapar ve değişikliği tek satıra indirir. <code>digitalRead(buton)</code> D2'nin durumunu HIGH ya da LOW olarak döndürür; <code>==</code> karşılaştırma işlecidir (tek <code>=</code> atama yapar, karıştırmayalım). Koşul doğruysa <code>if</code> bloğu, yanlışsa <code>else</code> bloğu çalışır. <code>loop</code> bu okuma, karar ve yazma döngüsünü sürekli tekrarlar."
+   }
+  },
+  {
+   "id": "dene",
+   "baslik": "Butona basalım",
+   "metin": {
+    "5": "USB'yi takalım. Şimdi \"Butona bas\" düğmesine ya da ekrandaki butona dokunalım. Basılı tuttuğumuz sürece LED yanar, bırakınca söner. Kodda hangi satırın parladığına bakalım: basınca <code>if</code> bölümü, bırakınca <code>else</code> bölümü.",
+    "6": "\"Butona bas\" düğmesine ya da 3D butona basıp bırakalım. Basılıyken LED yanıyor, bırakınca sönüyor. Vurgulanan satırı izleyelim: basılıyken <code>digitalWrite(led, HIGH)</code>, bırakınca <code>digitalWrite(led, LOW)</code> çalışıyor. Butona kısa kısa basarak LED'in ne kadar hızlı tepki verdiğine de bakalım.",
+    "7": "\"Butona bas\" düğmesiyle ya da 3D butona dokunarak deneyelim. Basılıyken pin 2 HIGH okunur, <code>if</code> koşulu doğru olur ve LED yanar. Bırakınca pin 2 LOW olur, <code>else</code> bölümü çalışır ve LED söner. Vurgulanan satırlara bakalım: döngü her turda butonu yeniden okuyor; bu yüzden LED, butona neredeyse anında tepki veriyor.",
+    "8": "\"Butona bas\" ile D2'nin durumunu değiştirip vurgulanan satırları izleyelim. Döngünün her turunda <code>digitalRead</code> yeniden çağrılır ve koşul baştan değerlendirilir. LED'in anında tepki vermesinin nedeni döngünün çok kısa sürmesidir; bu kodda <code>delay</code> yok. Düşünelim: <code>loop</code> sonuna <code>delay(1000)</code> eklenseydi kısa bir basış neden fark edilmeyebilirdi? Ders 4'te bu soruya yeniden döneceğiz."
+   }
+  },
+  {
+   "id": "tahmin",
+   "baslik": "Direnci çıkarırsak?",
+   "metin": {
+    "5": "Önce tahmin edelim. Sonra \"10 kΩ direnci çıkar\" düğmesine basalım ve butona hiç dokunmadan LED'e bakalım. Kod aynı, buton aynı; yalnız pin 2'yi GND'ye bağlayan direnç gitti.",
+    "6": "Tahmin et, sonra gör. \"10 kΩ direnci çıkar\" düğmesine basınca pin 2, butona basmadıkça hiçbir yere bağlı olmayacak. Önce sınıfça tahminimizi söyleyelim, sonra butona dokunmadan bir süre LED'i izleyelim.",
+    "7": "Tek bir şeyi değiştiriyoruz: pull-down direncini çıkaracağız. Buton basılı değilken pin 2 hiçbir yere bağlı olmayacak. Önce gerekçeli bir tahmin yapalım: kart bu durumda ne okur? Sonra \"10 kΩ direnci çıkar\" düğmesine basalım, butona dokunmadan LED'i ve vurgulanan kod satırlarını izleyelim.",
+    "8": "Değiştirdiğimiz tek şey pull-down direnci. \"10 kΩ direnci çıkar\" düğmesine basınca D2, buton basılı değilken hiçbir gerilim kaynağına bağlı olmaz. Önce şu soruyu yanıtlayalım: giriş pini neredeyse akım çekmiyorsa, bağlı olmadığında gerilimini ne belirler? Tahminimizi yazdıktan sonra butona dokunmadan LED'i ve <code>if</code>, <code>else</code> satırlarının vurgusunu gözleyelim."
+   },
+   "tahmin": {
+    "soru": {
+     "5": "Tahmin et: 10 kΩ direnci çıkarırsak, butona dokunmadığımızda LED ne yapar?",
+     "6": "Tahmin et: Pull-down direnci yokken butona basmazsak kart pin 2'yi nasıl okur? LED ne yapar?",
+     "7": "Tahmin et: Pin 2 hiçbir yere bağlı değilken <code>digitalRead</code> HIGH mı okur, LOW mu? LED'e ne olur?",
+     "8": "Tahmin et: Bağlantısız (boşta) bir giriş pini hangi değeri okur? Bu, LED'in davranışına nasıl yansır?"
+    },
+    "cevap": {
+     "5": "LED <strong>kararsız</strong> davranabilir: kendi kendine yanıp sönebilir. Pin 2 boşta kalınca kart ne okuyacağını bilemez, bazen açık bazen kapalı sanır. Direnç, pini GND'ye bağlayarak bu karışıklığı önler.",
+     "6": "Pin 2 <strong>boşta</strong> kalır. Boştaki bir pin bazen HIGH, bazen LOW okunabilir ve bu rastgele değişebilir. Bu yüzden LED, butona dokunmasak da kendi kendine yanıp sönebilir. Pull-down direnci pini LOW'da tutarak bunu engeller.",
+     "7": "Pin boşta kalınca okunan değer belirsizleşir: <code>digitalRead</code> bazen HIGH bazen LOW döndürebilir ve bu rastgele değişebilir. Buna <strong>boşta (floating) giriş</strong> denir. LED bu yüzden butona basılmadan da kararsız yanıp sönebilir. Pull-down direnci girişi LOW'a sabitler.",
+     "8": "Boşta kalan giriş <strong>floating</strong> olur: gerilimini belirleyen bir yol olmadığı için küçük elektriksel etkilerle kayabilir. <code>digitalRead</code> bu yüzden rastgele HIGH ya da LOW döndürebilir ve LED kararsız yanıp sönebilir. Çözüm, girişi bilinen bir gerilime bağlayan dirençtir: pull-down (GND'ye) ya da pull-up (5 V'a; o zaman mantık tersine döner). Arduino'nun iç pull-up direnci için <code>INPUT_PULLUP</code> da kullanılabilir."
+    }
+   }
+  },
+  {
+   "id": "ozet",
+   "baslik": "Özet",
+   "metin": {
+    "5": "Bugün karta ilk kez bilgi okuttuk. Pin 2 butonu dinler (giriş), pin 13 LED'i yakar (çıkış). Buton basınca iki tarafı birleştirir. 10 kΩ direnç, basılı değilken pini kapalıda tutar. Kod sürekli sorar: basılı mı? Evetse yak, değilse söndür.",
+    "6": "Özet: Giriş pini bilgi okur, çıkış pini iş yaptırır. Buton basılıyken iki noktayı birleştirir. 10 kΩ pull-down direnci, basılı değilken pin 2'yi GND'ye çekerek LOW okutur; basınca pin 5V'a bağlanır ve HIGH okunur. <code>if</code> ve <code>else</code> ile kart her turda karar verir.",
+    "7": "Bir sistem giriş, işlem ve çıkıştan oluşur: buton (D2) giriş, <code>if</code> ve <code>else</code> işlem, LED (D13) çıkış. Pull-down direnci, buton basılı değilken girişin boşta (floating) kalıp rastgele değer okumasını önler; düz kablo yerine direnç kullanmamızın nedeni basınca kısa devreyi önlemektir. <code>loop</code> butonu her turda yeniden okur.",
+    "8": "D2 INPUT olarak gerilimi okur; pull-down direnci buton açıkken onu 0 V'a çeker, buton kapanınca D2 5 V olur ve 10 kΩ üzerinden yalnız 0,5 mA akar. Boşta kalan giriş rastgele okunur. Koşul ifadesinde <code>==</code> karşılaştırır; <code>if</code> ya da <code>else</code> bloklarından her turda yalnız biri çalışır. <code>delay</code> olmayan döngü butona neredeyse anında tepki verir."
+   }
+  }
+ ],
+ "kod": {
+  "satirlar": [
+   {
+    "k": "const int buton = 2;",
+    "t": "Butonun bağlı olduğu pine ad verelim: buton = 2. const, bu değer değişmez demek."
+   },
+   {
+    "k": "const int led = 13;",
+    "t": "LED'in bağlı olduğu pine de ad verelim: led = 13."
+   },
+   {
+    "k": "",
+    "t": ""
+   },
+   {
+    "k": "void setup() {",
+    "t": "Hazırlık bölümü: kart açılınca bir kez çalışır."
+   },
+   {
+    "k": "pinMode(buton, INPUT);",
+    "t": "Buton pinini (2) giriş yap: bu pin bilgi okuyacak."
+   },
+   {
+    "k": "pinMode(led, OUTPUT);",
+    "t": "LED pinini (13) çıkış yap: bu pin elektrik verecek."
+   },
+   {
+    "k": "}",
+    "t": "Hazırlık bölümü bitti."
+   },
+   {
+    "k": "",
+    "t": ""
+   },
+   {
+    "k": "void loop() {",
+    "t": "Tekrar bölümü: durmadan döner."
+   },
+   {
+    "k": "if (digitalRead(buton) == HIGH) {",
+    "t": "Eğer buton pini HIGH okunuyorsa, yani butona basılıysa:"
+   },
+   {
+    "k": "digitalWrite(led, HIGH);",
+    "t": "LED'i yak."
+   },
+   {
+    "k": "} else {",
+    "t": "Değilse, yani butona basılı değilse:"
+   },
+   {
+    "k": "digitalWrite(led, LOW);",
+    "t": "LED'i söndür."
+   },
+   {
+    "k": "}",
+    "t": "Karar bölümü bitti."
+   },
+   {
+    "k": "}",
+    "t": "Tekrar bölümü bitti; başa dön ve butonu yeniden oku."
+   }
+  ]
+ },
+ "sinav": {
+  "5": [
+   {
+    "soru": "Bu devrede butonu okuyan pin hangisi?",
+    "secenekler": [
+     "Pin 13",
+     "Pin 2",
+     "GND"
+    ],
+    "dogru": 1,
+    "aciklama": "Pin 2 giriştir; butona basılıp basılmadığını okur. Pin 13 ise LED'i yakar."
+   },
+   {
+    "soru": "Butona basınca ne olur?",
+    "secenekler": [
+     "İki tarafı birbirine bağlanır",
+     "Kart kapanır",
+     "Direnç ısınıp söner"
+    ],
+    "dogru": 0,
+    "aciklama": "Buton bir köprü gibidir: basınca iki tarafı birleştirir, bırakınca ayırır."
+   },
+   {
+    "soru": "10 kΩ direnci çıkarırsak, butona dokunmasak bile LED ne yapabilir?",
+    "secenekler": [
+     "Hep daha parlak yanar",
+     "Hiç değişmez",
+     "Kendi kendine yanıp sönebilir"
+    ],
+    "dogru": 2,
+    "aciklama": "Pin 2 boşta kalınca kart ne okuyacağını bilemez; LED kararsız davranır."
+   }
+  ],
+  "6": [
+   {
+    "soru": "Kodda <code>else</code> bölümü ne zaman çalışır?",
+    "secenekler": [
+     "Butona basılıyken",
+     "Butona basılı değilken",
+     "Hiçbir zaman"
+    ],
+    "dogru": 1,
+    "aciklama": "else, if koşulu yanlış olduğunda, yani butona basılı değilken çalışır."
+   },
+   {
+    "soru": "Pull-down direnci, buton basılı değilken pin 2'yi nereye bağlar?",
+    "secenekler": [
+     "5V'a",
+     "Pin 13'e",
+     "GND'ye"
+    ],
+    "dogru": 2,
+    "aciklama": "Pull-down direnci pini GND'ye çeker; bu yüzden basılı değilken LOW okunur."
+   },
+   {
+    "soru": "Giriş pini için hangisi doğrudur?",
+    "secenekler": [
+     "Dışarıdan bilgi okur",
+     "LED'e elektrik verir",
+     "Kartı prize bağlar"
+    ],
+    "dogru": 0,
+    "aciklama": "Giriş pini bilgi okur; elektrik veren çıkış pinidir."
+   }
+  ],
+  "7": [
+   {
+    "soru": "<code>pinMode(buton, INPUT)</code> satırı ne yapar?",
+    "secenekler": [
+     "Pin 2'yi giriş yapar",
+     "LED'i yakar",
+     "Butonu siler"
+    ],
+    "dogru": 0,
+    "aciklama": "buton sabitinin değeri 2 olduğu için bu satır pin 2'yi okuma yapacak şekilde ayarlar."
+   },
+   {
+    "soru": "Pull-down direnci yerine pin 2'yi GND'ye düz bir kabloyla bağlasaydık butona basınca ne olurdu?",
+    "secenekler": [
+     "LED daha parlak yanardı",
+     "Hiçbir fark olmazdı",
+     "5V ile GND kısa devre olurdu"
+    ],
+    "dogru": 2,
+    "aciklama": "Butona basınca 5V, arada direnç olmadan doğrudan GND'ye bağlanırdı; bu kısa devredir."
+   },
+   {
+    "soru": "Boşta (floating) giriş ne demektir?",
+    "secenekler": [
+     "Hep HIGH okuyan pin",
+     "Hiçbir yere bağlı olmadığı için rastgele HIGH ya da LOW okunabilen pin",
+     "Hep LOW okuyan pin"
+    ],
+    "dogru": 1,
+    "aciklama": "Bağlantısız bir giriş pininin değeri belirsizdir; pull-down ya da pull-up direnci bunu önler."
+   }
+  ],
+  "8": [
+   {
+    "soru": "Buton basılıyken 10 kΩ pull-down direncinden geçen akım yaklaşık kaçtır?",
+    "secenekler": [
+     "5 mA",
+     "0,5 mA",
+     "50 mA"
+    ],
+    "dogru": 1,
+    "aciklama": "I = V / R = 5 V / 10.000 Ω = 0,0005 A = 0,5 mA."
+   },
+   {
+    "soru": "<code>if (digitalRead(buton) = HIGH)</code> yazılırsa sorun nedir?",
+    "secenekler": [
+     "Sorun yoktur",
+     "HIGH küçük harfle yazılmalıdır",
+     "Tek = atama işlecidir; karşılaştırma için == gerekir"
+    ],
+    "dogru": 2,
+    "aciklama": "= bir değer atar, == iki değeri karşılaştırır; bu satır derlenirken hata verir."
+   },
+   {
+    "soru": "Pull-up direnciyle (5 V'a) kurulan bir buton devresinde butona basılınca giriş ne okur?",
+    "secenekler": [
+     "LOW",
+     "HIGH",
+     "Rastgele bir değer"
+    ],
+    "dogru": 0,
+    "aciklama": "Pull-up girişi HIGH'ta tutar; butona basınca pin GND'ye bağlanır ve LOW okunur. Mantık pull-down'ın tersidir."
+   }
+  ]
+ },
+ "ogretmen": {
+  "hazirlik": "Ders 2'deki LED devresini bozmadan buton kısmını ekleyin. Gerçek sette 4 bacaklı butonun kanalın üstüne tam oturduğunu kontrol edin; 90 derece döndürülerek takılan buton hep basılıymış gibi davranabilir. Pull-down adımında direncin ne yaptığını anlatın ama direnç olmazsa ne olacağını söylemeyin; bunu tahmin adımına bırakın. Müfredat bağı: 5. sınıf BTY 6. temasında \"karar\", \"değişken\" ve \"sabit\" anahtar kavramları ile problemin girdi ve çıktılarını belirleme (BTY.5.6.1); 6. sınıf BTY 6. temasında \"koşul blokları\" anahtar kavramı ve mekanik/robotik ürün ortaya koyma becerisi. 6. sınıf programında öğretmenin robotik bir kartla LED yaktığı örnek etkinlik de yer alır.",
+  "malzemeler": [
+   "1 adet Arduino UNO",
+   "1 adet breadboard",
+   "1 adet 4 bacaklı anlık buton",
+   "1 adet 10 kΩ direnç (kahverengi-siyah-turuncu-altın)",
+   "1 adet 220 Ω direnç (kırmızı-kırmızı-kahverengi-altın)",
+   "1 adet LED",
+   "5 adet erkek-erkek atlama kablosu (en az 1 kırmızı, 1 siyah)",
+   "1 adet USB A-B kablosu"
+  ],
+  "guvenlik": [
+   "Devreyi USB takılı değilken kurun ve değiştirin.",
+   "Pin 2'yi GND'ye düz kabloyla bağlamayın; mutlaka 10 kΩ direnç kullanın, yoksa butona basınca 5V ile GND kısa devre olur.",
+   "Kırmızı (5V) ve siyah (GND) kabloların uçlarının birbirine ya da yanlış raya değmediğini kontrol edin.",
+   "Kart prize bağlanmaz; yalnız bilgisayarın USB girişiyle çalışın."
+  ],
+  "yanilgilar": [
+   "Yanlış: Buton elektrik üretir. Düzeltme: Butonun yalnız iki noktayı birleştirdiğini, elektriğin 5V pininden geldiğini tahtaya çizerek gösterin.",
+   "Yanlış: Basılmayan buton pine kendiliğinden LOW verir. Düzeltme: Direnci çıkarma deneyini yapın; LOW'u sağlayanın pull-down direnci olduğunu vurgulayın.",
+   "Yanlış: 10 kΩ direnç de LED'i korumak içindir. Düzeltme: Tahtaya giriş devresini (5V, buton, pin 2, 10 kΩ, GND) ve çıkış devresini (pin 13, LED, 220 Ω, GND) ayrı ayrı çizin.",
+   "Yanlış: Kod butonu yalnız bir kez okur. Düzeltme: Vurgulanan satırın her turda yeniden <code>digitalRead</code> satırına döndüğünü izletin.",
+   "Yanlış: if ve else aynı turda birlikte çalışır. Düzeltme: Her turda yalnız birinin vurgulandığını gösterin."
+  ],
+  "tartisma": [
+   "Evde ya da okulda bir düğmeye basınca çalışan hangi cihazlar var? Düğmeyi bırakınca ne oluyor?",
+   "Asansörün çağrı düğmesi bu devreden nasıl farklı? İpucu: basıp bıraksak da ışığı yanmaya devam ediyor.",
+   "Direnci çıkarınca LED neden rastgele davrandı? Kararsız çalışan bir cihaz günlük hayatta neden sorun olur?"
+  ],
+  "ileri": [
+   "Kodu, butona basınca LED sönecek, bırakınca yanacak şekilde değiştirin. Hangi satırları değiştirdiniz?",
+   "8. sınıflar için: <code>INPUT_PULLUP</code> kullanırsak devre ve kod nasıl değişir? Butonun öbür yanını GND'ye bağlayıp koşulu tersine çevirin; dıştaki 10 kΩ dirence gerek kalır mı?"
+  ]
+ },
+ "kavramlar": [
+  "buton",
+  "giris-cikis",
+  "pin",
+  "dijital",
+  "direnc",
+  "gnd",
+  "gerilim",
+  "akim",
+  "led",
+  "kod",
+  "dongu",
+  "degisken",
+  "kosul",
+  "devre"
+ ],
+ "kaynaklar": [
+  {
+   "ad": "Arduino örneği: Button (pull-down direnci, boşta giriş)",
+   "adres": "https://docs.arduino.cc/built-in-examples/digital/Button/"
+  },
+  {
+   "ad": "Arduino başvuru: digitalRead()",
+   "adres": "https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalread/"
+  },
+  {
+   "ad": "Arduino başvuru: pinMode() ve INPUT_PULLUP",
+   "adres": "https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/"
+  },
+  {
+   "ad": "Arduino başvuru: delay()",
+   "adres": "https://docs.arduino.cc/language-reference/en/functions/time/delay/"
+  },
+  {
+   "ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. sınıflar, 2025)",
+   "adres": "https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf"
+  }
+ ]
+}

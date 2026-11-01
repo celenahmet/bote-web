@@ -102,6 +102,9 @@ function dersSayfasi() {
     $('#ilerleme').style.width = `${((aktif + 1) / kartlar.length) * 100}%`;
     $('#geri').disabled = aktif === 0;
     $('#ileri').disabled = aktif === kartlar.length - 1;
+    const baslikMetni = $('h2', k).textContent;
+    for (const [sec, metin] of [['#mini-sayac', `${aktif + 1}/${kartlar.length}`], ['#mini-baslik', baslikMetni], ['#kisa-baslik', baslikMetni]]) { const el = $(sec); if (el) el.textContent = metin; }
+    for (const [sec, kapali] of [['#mini-geri', aktif === 0], ['#mini-ileri', aktif === kartlar.length - 1]]) { const el = $(sec); if (el) el.disabled = kapali; }
     const u = new URL(location.href); u.hash = k.id; history.replaceState(null, '', u);
     $('.kart-govde')?.scrollTo(0, 0);
     if (!sessiz) duyur(`Adım ${aktif + 1}: ${$('h2', k).textContent}`);
@@ -122,6 +125,107 @@ function dersSayfasi() {
     if (!kayBas) return; const t = e.changedTouches[0]; const dx = t.clientX - kayBas.x, dy = t.clientY - kayBas.y; kayBas = null;
     if (Math.abs(dx) > 70 && Math.abs(dy) < 40) adimaGit(aktif + (dx < 0 ? 1 : -1));
   }, { passive: true });
+  // ---------------------------------------------------------- panel (Ahmet 01.11: "açılır kapanır, ergonomik")
+  // Yatay ekranda yan panel: aç/kapa, kenardan sürükleyerek genişlik, sola/sağa alma; dikey ekranda
+  // aşağıdan çekilen kart sayfası: kısa, yarım, tam. Tercihler bu cihazda hatırlanır.
+  const dersEl = $('.ders'), kartAlani = $('.kart-alani'), kenar = $('.panel-kenar'), panelDugme = $('#panel-dugme');
+  const dikey = window.matchMedia('(orientation: portrait), (max-width: 820px)');
+  function panelAyarla(acik, kaydet = true) {
+    html.dataset.panel = acik ? 'acik' : 'kapali';
+    panelDugme?.setAttribute('aria-expanded', String(acik));
+    panelDugme?.setAttribute('aria-label', acik ? 'Anlatım panelini kapat' : 'Anlatım panelini aç');
+    kartAlani.inert = !acik && !dikey.matches;
+    if (kaydet) { sakla('bote-3d-panel', acik ? 'acik' : 'kapali'); duyur(acik ? 'Anlatım paneli açıldı' : 'Anlatım paneli kapandı; adımlar alttaki çubuktan geçilir'); }
+  }
+  panelAyarla(oku('bote-3d-panel') !== 'kapali', false);
+  panelDugme?.addEventListener('click', () => panelAyarla(html.dataset.panel !== 'acik'));
+  $('#mini-ac')?.addEventListener('click', () => panelAyarla(true));
+  $('#mini-geri')?.addEventListener('click', () => adimaGit(aktif - 1));
+  $('#mini-ileri')?.addEventListener('click', () => adimaGit(aktif + 1));
+  const genislik = (px) => { if (px) dersEl.style.setProperty('--panel-w', `${Math.round(px)}px`); else dersEl.style.removeProperty('--panel-w'); };
+  const genislikSinir = (px) => Math.max(300, Math.min(dersEl.clientWidth * 0.62, px));
+  genislik(Number(oku('bote-3d-panel-w')) || 0);
+  const genislikKaydet = () => sakla('bote-3d-panel-w', String(parseInt(dersEl.style.getPropertyValue('--panel-w'), 10) || ''));
+  let surukle = null;
+  kenar?.addEventListener('pointerdown', (e) => {
+    if (e.target.closest('#panel-dugme') || html.dataset.panel !== 'acik' || dikey.matches) return;
+    kenar.setPointerCapture(e.pointerId); surukle = { x: e.clientX, w: kartAlani.getBoundingClientRect().width }; html.dataset.suruklenen = '1';
+  });
+  kenar?.addEventListener('pointermove', (e) => {
+    if (!surukle) return;
+    const dx = e.clientX - surukle.x;
+    genislik(genislikSinir(surukle.w + (html.dataset.panelYan === 'sol' ? dx : -dx)));
+  });
+  const birak = () => { if (!surukle) return; surukle = null; delete html.dataset.suruklenen; genislikKaydet(); };
+  kenar?.addEventListener('pointerup', birak); kenar?.addEventListener('pointercancel', birak);
+  kenar?.addEventListener('dblclick', (e) => { if (!e.target.closest('#panel-dugme')) { genislik(0); sakla('bote-3d-panel-w', ''); } });
+  kenar?.addEventListener('keydown', (e) => {
+    if (e.target !== kenar || !['ArrowLeft', 'ArrowRight'].includes(e.key)) return;
+    e.preventDefault(); e.stopPropagation();
+    const buyut = (e.key === 'ArrowLeft') === (html.dataset.panelYan !== 'sol');
+    genislik(genislikSinir(kartAlani.getBoundingClientRect().width + (buyut ? 40 : -40))); genislikKaydet();
+  });
+  function yanAyarla(yan, kaydet) {
+    html.dataset.panelYan = yan;
+    $('#panel-yan')?.setAttribute('aria-label', yan === 'sol' ? 'Paneli sağa al' : 'Paneli sola al');
+    if (kaydet) sakla('bote-3d-panel-yan', yan);
+  }
+  yanAyarla(oku('bote-3d-panel-yan') === 'sol' ? 'sol' : 'sag', false);
+  $('#panel-yan')?.addEventListener('click', () => yanAyarla(html.dataset.panelYan === 'sol' ? 'sag' : 'sol', true));
+  // dikey ekran: kart sayfası
+  const SAYFA = {
+    kisa: () => ($('.tutamac')?.offsetHeight || 0) + ($('.kart-ust')?.offsetHeight || 0) + ($('.kart-alt')?.offsetHeight || 0) + 2,
+    yarim: () => dersEl.clientHeight * 0.5,
+    tam: () => dersEl.clientHeight * 0.92,
+  };
+  let sayfaDurum = ['kisa', 'yarim', 'tam'].includes(oku('bote-3d-sayfa')) ? oku('bote-3d-sayfa') : 'yarim';
+  function sayfaUygula(d, kaydet = true, anlik = false) {
+    if (!dikey.matches) { delete html.dataset.sayfa; dersEl.style.removeProperty('--sayfa-h'); S?.gorunurAlan(0, true); panelAyarla(html.dataset.panel !== 'kapali', false); return; }
+    sayfaDurum = d; html.dataset.sayfa = d;
+    kartAlani.inert = false;
+    const yuk = Math.round(SAYFA[d]());
+    if (anlik) html.dataset.suruklenen = '1';
+    dersEl.style.setProperty('--sayfa-h', `${yuk}px`);
+    if (anlik) requestAnimationFrame(() => delete html.dataset.suruklenen);
+    S?.gorunurAlan(yuk, anlik);
+    if (kaydet) sakla('bote-3d-sayfa', d);
+  }
+  let cek = null;
+  for (const el of [$('.tutamac'), $('.kart-ust')].filter(Boolean)) {
+    el.addEventListener('pointerdown', (e) => {
+      if (!dikey.matches || e.target.closest('button')) return;
+      el.setPointerCapture(e.pointerId);
+      const t = performance.now();
+      cek = { y: e.clientY, h: kartAlani.getBoundingClientRect().height, sonY: e.clientY, sonT: t, hiz: 0 };
+      html.dataset.suruklenen = '1';
+    });
+    el.addEventListener('pointermove', (e) => {
+      if (!cek) return;
+      const t = performance.now();
+      const yuk = Math.max(SAYFA.kisa(), Math.min(SAYFA.tam(), cek.h + (cek.y - e.clientY)));
+      dersEl.style.setProperty('--sayfa-h', `${Math.round(yuk)}px`);
+      cek.hiz = (cek.sonY - e.clientY) / Math.max(1, t - cek.sonT); cek.sonY = e.clientY; cek.sonT = t;
+    });
+    const bitir = (e) => {
+      if (!cek) return;
+      const c = cek; cek = null; delete html.dataset.suruklenen;
+      const yuk = kartAlani.getBoundingClientRect().height, oynadi = Math.abs(e.clientY - c.y) > 6;
+      let hedef;
+      if (!oynadi) hedef = sayfaDurum === 'kisa' ? 'yarim' : 'kisa'; // dokunma: kısa <-> yarım
+      else if (c.hiz > 0.45) hedef = yuk < SAYFA.yarim() ? 'yarim' : 'tam'; // hızlı yukarı
+      else if (c.hiz < -0.45) hedef = yuk > SAYFA.yarim() ? 'yarim' : 'kisa'; // hızlı aşağı
+      else hedef = ['kisa', 'yarim', 'tam'].sort((a, b) => Math.abs(SAYFA[a]() - yuk) - Math.abs(SAYFA[b]() - yuk))[0];
+      sayfaUygula(hedef);
+      duyur({ kisa: 'Kartlar küçüldü', yarim: 'Kartlar yarım ekran', tam: 'Kartlar tam ekran' }[hedef]);
+    };
+    el.addEventListener('pointerup', bitir); el.addEventListener('pointercancel', bitir);
+  }
+  const dikeyDegisti = () => sayfaUygula(sayfaDurum, false, true);
+  dikey.addEventListener?.('change', dikeyDegisti);
+  let boyutZ = 0;
+  window.addEventListener('resize', () => { clearTimeout(boyutZ); boyutZ = setTimeout(() => { if (dikey.matches) sayfaUygula(sayfaDurum, false, true); }, 120); });
+  sayfaUygula(sayfaDurum, false, true);
+
   window.addEventListener('hashchange', () => { const i = kartlar.findIndex((k) => `#${k.id}` === location.hash); if (i >= 0 && i !== aktif) adimaGit(i); });
   const hashAdim = kartlar.findIndex((k) => `#${k.id}` === location.hash);
   adimaGit(hashAdim > 0 ? hashAdim : 0, true);
@@ -164,6 +268,7 @@ function dersSayfasi() {
     parcalar = ders.devre ? devreKur(ders.devre, S.hedefler) : {};
     for (const p of Object.values(parcalar)) { p.nesne.visible = false; S.scene.add(p.nesne); }
     S.dokunmaDinle(dokunuldu);
+    if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[sayfaDurum]()), true);
     adimUygula(kartlar[aktif].dataset.id, true);
     requestAnimationFrame(() => sahneAlani.classList.add('hazir'));
     if (new URLSearchParams(location.search).has('olcum')) olcumPaneli();
