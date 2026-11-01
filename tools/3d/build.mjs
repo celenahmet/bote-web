@@ -8,6 +8,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
+import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
 
 const BU = path.dirname(fileURLToPath(import.meta.url));
 const KOK = path.resolve(BU, '../..');
@@ -111,7 +112,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <link rel="modulepreload" href="/3d/assets/${jsAd}">
 <script type="application/ld+json">${jsonGom(jsonld)}</script></head><body class="${sinif}">`;
 }
-const ustCubuk = (ders) => `<header class="ust"><a class="marka" href="/blog" aria-label="bote.web.tr blog">bote<b>.web.tr</b></a><span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag" href="/3d">3D Simülasyon Merkezi</a>${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
+const ustCubuk = (ders) => `<header class="ust"><a class="marka" href="/blog"${YENI_SEKME_OZNITELIK}>bote<b>.web.tr</b><span class="sr-only"> blog</span>${YENI_SEKME_NOTU}</a><span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag" href="/3d">3D Simülasyon Merkezi</a>${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
 <div class="ust-sag">${ders ? `<span id="gorunum-yuva"></span><button type="button" class="cip" id="sinif-dugme" aria-haspopup="dialog" aria-label="Sınıf düzeyini değiştir">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></button>
 <button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen" aria-expanded="false" aria-label="Öğretmen notu" title="Öğretmen notu">${ico('book-open')}</button>
 <button type="button" class="dugme" id="tahta-dugme" aria-pressed="false" aria-label="Tahta modu" title="Akıllı tahta için büyük düğme ve yazı">${ico('presentation')}<span class="yazi">Tahta modu</span></button>
@@ -171,7 +172,7 @@ function ogretmenHtml(d) {
 ${SINIF.map((s) => (d.hedefler?.[s]?.length ? `<div data-s="${s}"><h3>Öğrenme hedefleri (${s}. sınıf)</h3><ul>${d.hedefler[s].map((x) => `<li>${guvenli(x)}</li>`).join('')}</ul></div>` : '')).join('')}
 ${o.hazirlik ? `<h3>Hazırlık</h3>${paragraf(o.hazirlik)}` : ''}${liste('Gerçek set için malzemeler', o.malzemeler)}${liste('Güvenlik', o.guvenlik)}${liste('Sık görülen yanlış düşünceler', o.yanilgilar)}${liste('Sınıf tartışması', o.tartisma)}${liste('Hızlı bitirenlere', o.ileri)}
 <h3>Kullanım</h3><ul><li>Akıllı tahtada üstteki <strong>Tahta modu</strong> yazıyı ve düğmeleri büyütür; <strong>Tam ekran</strong> tarayıcı çubuklarını gizler.</li><li>Adımlar arasında ok tuşları ya da sunum kumandasıyla geçilir.</li><li>Sahneyi bir parmakla döndürün, iki parmakla yakınlaştırın ve kaydırın; <strong>Eğik, Üstten, Önden, Yandan</strong> düğmeleri hazır bakış açılarıdır ve sahneyi ekrana sığdırır.</li><li>Parçalara dokununca adı, teknik tanımı ve günlük hayattaki yeri seçili sınıfa göre görünür. Pinler yaklaştırınca tek tek seçilir.</li><li><strong>Keşif</strong> açıkken her parçanın üstünde renkli, numaralı bir işaret çıkar; renk ve simge parçanın grubunu gösterir (Güç, İşlem, Pinler, Işıklar, Breadboard, Parçalar, Kontrol). Öğrenciler önce tahmin eder, sonra cevabı görür; bu adım ayarlardan kapatılabilir.</li><li>Anlatım panelinin genişliği kenarından sürüklenerek ya da ayarlardaki sürgüyle değişir.</li></ul>
-${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2><ul>${d.kaynaklar.map((k) => `<li><a href="${esc(k.adres)}" rel="noopener">${esc(k.ad)}</a></li>`).join('')}</ul>` : ''}</section>`;
+${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2><ul>${d.kaynaklar.map((k) => `<li><a href="${esc(k.adres)}"${YENI_SEKME_OZNITELIK}>${esc(k.ad)}${YENI_SEKME_NOTU}</a></li>`).join('')}</ul>` : ''}</section>`;
 }
 function dersSayfasi(d) {
   const yol = `/3d/${d.slug}`;
@@ -211,7 +212,7 @@ function dersSayfasi(d) {
 <label class="ayar-satir"><input type="checkbox" id="tahmin-ayar" checked> Keşifte önce tahmin ettir</label></div>
 <div class="kart-govde"><h1 class="sr-only">${esc(d.baslik)}: 3D Arduino simülasyonu</h1><ol class="adimlar">${adimlar.map((a, i) => adimHtml(d, a, i)).join('')}</ol></div>
 <nav class="kart-alt" aria-label="Adımlar"><button type="button" class="dugme" id="geri">${ico('chevron-left')}Geri</button><button type="button" class="dugme birincil" id="ileri">İleri${ico('chevron-right')}</button></nav></section></main>
-${ogretmenHtml(d)}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog">bote.web.tr blog</a></footer>
+${ogretmenHtml(d)}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
 <script type="application/json" id="ders-veri">${jsonGom(veri)}</script><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
 }
@@ -232,7 +233,7 @@ function merkezSayfasi() {
 <div class="notlar"><section><h2>Akıllı tahtada</h2><p>Ders sayfasında Tahta modu ve Tam ekran düğmeleri yazıyı ve düğmeleri büyütür. Adımlar ok tuşları ya da sunum kumandasıyla geçilir.</p></section>
 <section><h2>Sınıfa göre anlatım</h2><p>5, 6, 7 ve 8. sınıf için ayrı tanımlar, açıklamalar ve sorular vardır. Her kavramın teknik tanımı ve günlük hayattaki yeri birlikte verilir.</p></section>
 <section><h2>Tahmin et, sonra gör</h2><p>Öğrenciler önce tahmin eder, sonra sahnede sonucu görür: LED ters takılırsa ne olur, direnç çıkarılırsa ne değişir?</p></section></div></main>
-<footer class="alt"><a href="/blog">bote.web.tr blog</a></footer><div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
+<footer class="alt"><a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer><div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
 }
 
 // ------------------------------------------------------------------ yaz

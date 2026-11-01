@@ -2,6 +2,7 @@
 // build.mjs işaretli bölümden çağrılır; ortak yardımcılar (kaçış, ikon, üst çubuk, sınıf penceresi) oradan gelir.
 // Üst çubuk ve yerleşim ders sayfalarıyla aynı: yatay ekranda yan panel, dikey ekranda aşağıdan çekilen sayfa.
 import { KABLO_RENKLERI, PROGRAM_PINLERI } from './src/devreCoz.js';
+import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
 import { ledIkon, direncIkon, butonIkon, kabloIkon, KABLO_HEX } from './src/ozgurIkon.js';
 
 export const OZGUR_YOL = '/3d/ozgur-mod';
@@ -29,7 +30,7 @@ export function ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basB
     ['direnc', '220', direncIkon(220), '220 Ω direnç'], ['direnc', '10000', direncIkon(10000), '10 kΩ direnç'], ['buton', '', butonIkon(), 'Buton'], ['kablo', '', kabloIkon(), 'Kablo'],
   ].map(([tur, deger, svg, ad]) => `<button type="button" class="palet-dugme" data-arac="${tur}"${deger ? ` data-deger="${deger}"` : ''} aria-pressed="false">${svg}<span>${esc(ad)}</span></button>`).join('');
   const renkler = Object.entries(KABLO_RENKLERI).map(([k, ad]) => `<label class="renk"><input type="radio" name="kablo-renk" value="${k}"${k === 'turuncu' ? ' checked' : ''}><span><i style="background:${KABLO_HEX[k]}"></i>${esc(ad)}${ico('check')}</span></label>`).join('');
-  const kaynak = (adres, ad) => `<li><a href="${adres}" rel="noopener">${esc(ad)}</a></li>`;
+  const kaynak = (adres, ad) => `<li><a href="${adres}"${YENI_SEKME_OZNITELIK}>${esc(ad)}${YENI_SEKME_NOTU}</a></li>`;
   const ogretmen = `<section id="ogretmen" class="ek" tabindex="-1" aria-labelledby="ogretmen-baslik"><button type="button" class="dugme ek-kapat" id="ogretmen-kapat">${ico('x')}Kapat</button>
 <h2 id="ogretmen-baslik">Öğretmen notu</h2>
 <p>Özgür Mod'da devreyi öğrenciler kendileri kurar: LED, direnç, buton ve kabloyu breadboard'a takar, programı ve pini seçer, Çalıştır'a basar. Simülasyon devreyi her değişiklikte yeniden hesaplar; bir sorun varsa nedenini ve nasıl düzeltileceğini Türkçe yazar. Derslerdeki devreler hazır olarak yüklenebilir ve değiştirilebilir.</p>
@@ -104,7 +105,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <h2>Pinler</h2><table class="pin-tablo" id="pin-tablo"><thead><tr><th scope="col">Pin</th><th scope="col">Görev</th><th scope="col">Durum</th></tr></thead><tbody></tbody></table>
 <h2>LED'ler</h2><ul class="led-liste" id="led-liste"></ul></section></div>
 <div class="kart-alt ozgur-js"><button type="button" class="dugme" id="geri-al" disabled>${ico('undo-2')}Geri al</button><button type="button" class="dugme" id="sifirla" title="Breadboard'daki bütün parçaları kaldırır; Geri al ile dönülür">${ico('eraser')}Sıfırla</button><button type="button" class="dugme birincil" id="calistir">${IKON.oynat}<span>Çalıştır</span></button></div></section></main>
-${ogretmen}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog">bote.web.tr blog</a></footer>
+${ogretmen}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
 <script type="application/json" id="ozgur-ikon">${jsonGom(IKON)}</script><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
 }
