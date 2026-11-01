@@ -130,6 +130,7 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {} } = {})
     olcekUygula(tamOlcek * KADEME[kademe]);
     camera.aspect = w / h;
     goruntuKaydir();
+    for (const e of etiketler) e.w = 0;
     if (!kullaniciOynatti && sonHedef) kameraGit(sonHedef, true);
     iste();
   }
@@ -189,30 +190,67 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {} } = {})
     return new Promise((bitti) => { tweenler.add({ sure, adim, bitti, golge }); iste(); });
   }
 
-  // ---------------------------------------------------------------- etiketler
+  // ---------------------------------------------------------------- ekran etiketleri ve keşif işaretleri
+  // Etiketler çakışmasın diye kademelenir; her etiket ince bir çizgiyle işaret ettiği noktaya bağlanır
+  // (Ahmet 01.11: "GND gibi yan yana olanlar okunmuyor, ferah olsun").
   const etiketKatmani = canvas.parentElement.querySelector('.etiketler');
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  const cizgiler = document.createElementNS(SVGNS, 'svg');
+  cizgiler.setAttribute('class', 'cizgiler'); cizgiler.setAttribute('aria-hidden', 'true');
+  etiketKatmani.appendChild(cizgiler);
+  const isaretler = [];
   const gecici = new Vector3();
   function etiketKoy(liste) {
-    for (const e of etiketler) e.el.remove();
+    for (const e of etiketler) { e.el.remove(); e.cizgi.remove(); e.nokt.remove(); }
     etiketler.length = 0;
     for (const { nokta, metin, tur } of liste) {
       const el = document.createElement('div');
       el.className = 'etiket' + (tur ? ` etiket-${tur}` : '');
       el.textContent = metin;
       etiketKatmani.appendChild(el);
-      etiketler.push({ el, nokta });
+      const cizgi = document.createElementNS(SVGNS, 'line'), nokt = document.createElementNS(SVGNS, 'circle');
+      nokt.setAttribute('r', '4.5'); cizgiler.append(cizgi, nokt);
+      etiketler.push({ el, nokta, cizgi, nokt, w: 0, h: 0 });
     }
     iste();
   }
+  function isaretKoy(liste) {
+    for (const i of isaretler) i.el.remove();
+    isaretler.length = 0;
+    for (const { nokta, el } of liste) { etiketKatmani.appendChild(el); isaretler.push({ el, nokta }); }
+    iste();
+  }
+  const ekranda = (v, w, h) => {
+    gecici.copy(v).project(camera);
+    return { x: ((gecici.x + 1) / 2) * w, y: ((1 - gecici.y) / 2) * h, gor: gecici.z < 1 && Math.abs(gecici.x) < 1.05 && Math.abs(gecici.y) < 1.05 };
+  };
   function etiketleriYerlestir() {
-    if (!etiketler.length) return;
     const w = canvas.clientWidth, h = canvas.clientHeight;
-    for (const e of etiketler) {
-      gecici.copy(e.nokta).project(camera);
-      const gorunur = gecici.z < 1 && Math.abs(gecici.x) < 1.15 && Math.abs(gecici.y) < 1.15;
-      e.el.style.opacity = gorunur ? '1' : '0';
-      const x = Math.round(((gecici.x + 1) / 2) * w), y = Math.round(((1 - gecici.y) / 2) * h);
-      e.el.style.transform = `translate3d(${x}px,${y}px,0)`;
+    for (const i of isaretler) {
+      const p = ekranda(i.nokta, w, h);
+      i.el.style.opacity = p.gor ? '1' : '0'; i.el.style.pointerEvents = p.gor ? 'auto' : 'none';
+      i.el.style.transform = `translate3d(${Math.round(p.x)}px,${Math.round(p.y)}px,0)`;
+    }
+    if (!etiketler.length) return;
+    cizgiler.setAttribute('width', w); cizgiler.setAttribute('height', h);
+    const kutular = [], ARA = 8, YUKARI = 30;
+    const sirali = etiketler.map((e) => ({ e, p: ekranda(e.nokta, w, h) })).sort((a, b) => b.p.y - a.p.y);
+    for (const { e, p } of sirali) {
+      if (!e.w) { e.w = e.el.offsetWidth; e.h = e.el.offsetHeight; }
+      let x = Math.min(Math.max(p.x - e.w / 2, 6), w - e.w - 6), y = p.y - YUKARI - e.h, alt = false;
+      for (let d = 0; d < 6; d++) { // çakışma varsa yukarı kademele; tepeye çarparsa noktanın altına al
+        const c = kutular.find((k) => x < k.x + k.w + ARA && x + e.w + ARA > k.x && y < k.y + k.h + ARA && y + e.h + ARA > k.y);
+        if (!c) break;
+        y = c.y - e.h - ARA;
+        if (y < 4) { y = p.y + YUKARI; alt = true; x = Math.min(Math.max(c.x + c.w + ARA, 6), w - e.w - 6); break; }
+      }
+      kutular.push({ x, y, w: e.w, h: e.h });
+      const o = p.gor ? '1' : '0';
+      e.el.style.opacity = o; e.cizgi.style.opacity = o; e.nokt.style.opacity = o;
+      e.el.style.transform = `translate3d(${Math.round(x)}px,${Math.round(y)}px,0)`;
+      e.cizgi.setAttribute('x1', p.x.toFixed(1)); e.cizgi.setAttribute('y1', p.y.toFixed(1));
+      e.cizgi.setAttribute('x2', (x + e.w / 2).toFixed(1)); e.cizgi.setAttribute('y2', (alt ? y : y + e.h).toFixed(1));
+      e.nokt.setAttribute('cx', p.x.toFixed(1)); e.nokt.setAttribute('cy', p.y.toFixed(1));
     }
   }
 
@@ -242,7 +280,7 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {} } = {})
 
   return {
     renderer, scene, camera, controls, hedefler,
-    iste, kameraGit, tween, etiketKoy, gorunurAlan,
+    iste, kameraGit, tween, etiketKoy, isaretKoy, gorunurAlan,
     golgeYenile: () => { golgeKirli = true; iste(); },
     kareGuncelleyici: (g) => { kareGuncelleyiciler.add(g); iste(); return () => kareGuncelleyiciler.delete(g); },
     yavasGuncelleyici: (g) => { yavasGuncelleyiciler.add(g); iste(); return () => yavasGuncelleyiciler.delete(g); },

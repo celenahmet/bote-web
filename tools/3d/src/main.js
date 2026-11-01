@@ -2,7 +2,7 @@
 // bu dosya sınıf seçimini, cihaz kipini, adım geçişini, 3D sahneyi ve benzetimi yönetir.
 import { Vector3 } from 'three';
 import { sahneKur } from './sahne.js';
-import { kartYap, breadboardYap, vurguYap, akimYap, pinNokta, delikNokta, rayNokta, anizotropiAyarla } from './modeller.js';
+import { kartYap, breadboardYap, vurguYap, akimYap, pinNokta, delikNokta, rayNokta, anizotropiAyarla, BB } from './modeller.js';
 import { devreKur, ledYolu } from './devre.js';
 import { DERSLER, KAMERA } from './adimlar.js';
 
@@ -25,7 +25,7 @@ function sinifAyarla(s, kaydet = true) {
   for (const d of $$('[data-sinif-yaz]')) d.textContent = `${s}. sınıf`;
   for (const a of $$('a[data-ders-baglanti]')) { const h = new URL(a.href, location.href); h.searchParams.set('sinif', s); a.href = h.pathname + h.search; }
   for (const b of $$('[data-sinif-sec]')) b.setAttribute('aria-pressed', String(b.dataset.sinifSec === s));
-  if (bilgiAcik) bilgiGoster(bilgiAcik);
+  if (bilgiAcik) bilgiYenile?.();
 }
 const pencere = $('#sinif-penceresi');
 const urlSinif = new URLSearchParams(location.search).get('sinif');
@@ -84,7 +84,7 @@ document.addEventListener('click', (e) => {
 if (!veri) { /* merkez sayfası: sahne yok */ } else dersSayfasi();
 
 // ================================================================== ders sayfası
-let S = null, kart = null, bb = null, parcalar = {}, bilgiAcik = null;
+let S = null, kart = null, bb = null, parcalar = {}, bilgiAcik = null, bilgiYenile = null;
 function dersSayfasi() {
   const ders = DERSLER[veri.slug];
   const kartlar = $$('.adim');
@@ -167,11 +167,40 @@ function dersSayfasi() {
   });
   function yanAyarla(yan, kaydet) {
     html.dataset.panelYan = yan;
-    $('#panel-yan')?.setAttribute('aria-label', yan === 'sol' ? 'Paneli sağa al' : 'Paneli sola al');
+    for (const b of $$('[data-yan]')) b.setAttribute('aria-pressed', String(b.dataset.yan === yan));
     if (kaydet) sakla('bote-3d-panel-yan', yan);
   }
   yanAyarla(oku('bote-3d-panel-yan') === 'sol' ? 'sol' : 'sag', false);
-  $('#panel-yan')?.addEventListener('click', () => yanAyarla(html.dataset.panelYan === 'sol' ? 'sag' : 'sol', true));
+  // ayar penceresi (Ahmet 01.11: "kartların boyutu sitede ayarlanabilir olmalı")
+  const ayarlar = $('#ayarlar'), ayarDugme = $('#ayar-dugme');
+  const ayarAc = (acik) => { ayarlar.hidden = !acik; ayarDugme.setAttribute('aria-expanded', String(acik)); if (acik) ayarlar.querySelector('button')?.focus(); };
+  ayarDugme?.addEventListener('click', (e) => { e.stopPropagation(); ayarAc(ayarlar.hidden); });
+  document.addEventListener('click', (e) => { if (ayarlar && !ayarlar.hidden && !e.target.closest('#ayarlar, #ayar-dugme')) ayarAc(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && ayarlar && !ayarlar.hidden) { ayarAc(false); ayarDugme.focus(); } });
+  function boyutAyarla(b, kaydet) {
+    html.dataset.panelBoyut = b;
+    for (const x of $$('[data-panel-boyut]')) x.setAttribute('aria-pressed', String(x.dataset.panelBoyut === b));
+    if (kaydet) { genislik(0); sakla('bote-3d-panel-w', ''); sakla('bote-3d-panel-boyut', b); }
+  }
+  boyutAyarla(['dar', 'orta', 'genis'].includes(oku('bote-3d-panel-boyut')) ? oku('bote-3d-panel-boyut') : 'orta', false);
+  const YAZI = [0.9, 1, 1.15, 1.3, 1.5];
+  let yaziSira = Math.max(0, YAZI.indexOf(Number(oku('bote-3d-yazi')) || 1));
+  function yaziAyarla(i, kaydet) {
+    yaziSira = Math.max(0, Math.min(YAZI.length - 1, i));
+    html.style.setProperty('--yazi', String(YAZI[yaziSira]));
+    const d = $('#yazi-deger'); if (d) d.textContent = `%${Math.round(YAZI[yaziSira] * 100)}`;
+    if (kaydet) sakla('bote-3d-yazi', String(YAZI[yaziSira]));
+  }
+  yaziAyarla(yaziSira, false);
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-panel-boyut], [data-yazi], [data-yan]');
+    if (!b) return;
+    if (b.dataset.panelBoyut) boyutAyarla(b.dataset.panelBoyut, true);
+    if (b.dataset.yazi) yaziAyarla(yaziSira + Number(b.dataset.yazi), true);
+    if (b.dataset.yan) yanAyarla(b.dataset.yan, true);
+  });
+  const tahminAyar = $('#tahmin-ayar');
+  if (tahminAyar) { tahminAyar.checked = oku('bote-3d-tahmin') !== 'hayir'; tahminAyar.addEventListener('change', () => sakla('bote-3d-tahmin', tahminAyar.checked ? 'evet' : 'hayir')); }
   // dikey ekran: kart sayfası
   const SAYFA = {
     kisa: () => ($('.tutamac')?.offsetHeight || 0) + ($('.kart-ust')?.offsetHeight || 0) + ($('.kart-alt')?.offsetHeight || 0) + 2,
@@ -336,11 +365,12 @@ function dersSayfasi() {
     // vurgu ve etiketler
     for (const v of vurgular) S.scene.remove(v);
     vurgular = (a.vurgu || []).map((ad) => vurguYap(S.scene, kart.alanlar[ad] || bb.alanlar[ad]));
-    S.etiketKoy((a.etiket || []).map(([n, metin]) => ({ nokta: noktaBul(n), metin })));
+    S.etiketKoy((a.etiket || []).map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })));
     sahneAlani.dataset.ipucu = (a.kontrol || []).includes('delik') ? 'delik' : (a.dokun ? 'dokun' : '');
     S.kameraGit(kameraBul(a.kamera || 'genel'), ilk);
     program = null;
     if (a.program) programBaslat(a.program);
+    if (html.dataset.kesif === 'acik') kesifIsaretleri();
     S.iste();
   }
 
@@ -423,11 +453,43 @@ function dersSayfasi() {
   }
 
   // ---------------------------------------------------------- dokunma: bilgi ve delik grupları
-  const KAVRAM = { kart: 'arduino', usb: 'usb', mikrodenetleyici: 'mikrodenetleyici', 'dijital-pinler': 'dijital', 'analog-pinler': 'analog', 'guc-pinleri': 'gnd', 'breadboard-yuzey': 'breadboard' };
+  const KAVRAM = { kart: 'arduino', usb: 'usb', mikrodenetleyici: 'mikrodenetleyici', 'dijital-pinler': 'dijital', 'analog-pinler': 'analog', 'guc-pinleri': 'gerilim', 'breadboard-yuzey': 'breadboard', breadboard: 'breadboard' };
   const SABIT = {
-    'guc-girisi': ['Güç girişi', 'Kartı bilgisayar olmadan çalıştırmak için pil ya da adaptör buraya takılır.'],
-    reset: ['Reset düğmesi', 'Basınca kart yüklü kodu baştan çalıştırmaya başlar.'],
+    'guc-girisi': ['Güç girişi', 'Kartı bilgisayar olmadan çalıştırmak için pil ya da adaptör buraya takılır. Adaptör, prizdeki tehlikeli elektriği karta uygun küçük bir elektriğe çevirir.'],
+    reset: ['Reset düğmesi', 'Basınca kart yüklü kodu en baştan çalıştırmaya başlar. Kod silinmez.'],
+    'bb-yakin-raylar': ['Güç rayları', 'Kenardaki uzun sıralar boydan boya bağlıdır. Kırmızı çizgili + rayına 5V, mavi çizgili − rayına GND bağlanır; böylece birçok parça aynı güce kolayca ulaşır.'],
+    'bb-kanal': ['Orta kanal', 'Breadboard\'u iki yarıya ayırır: iki yarıdaki delikler birbirine bağlı değildir. Buton gibi parçalar bu kanalın üstüne takılır.'],
   };
+  // Keşif modu (Ahmet 01.11): dokunulabilecek her parçanın üstünde "?" işareti; dokununca önce tahmin, sonra cevap.
+  function kesifIsaretleri() {
+    if (!S) return;
+    const a = ders.adimlar[kartlar[aktif].dataset.id] || {};
+    const liste = [];
+    const ekle = (nokta, id) => {
+      const el = document.createElement('button');
+      el.type = 'button'; el.className = 'kesif-isaret'; el.textContent = '?';
+      el.setAttribute('aria-label', `Keşif noktası ${liste.length + 1}`);
+      el.addEventListener('click', (e) => { e.stopPropagation(); for (const x of $$('.kesif-isaret[aria-current]')) x.removeAttribute('aria-current'); el.setAttribute('aria-current', 'true'); bilgiGoster(id, tahminAyar ? tahminAyar.checked : true); });
+      liste.push({ nokta, el });
+    };
+    for (const ad of ['usb', 'guc-girisi', 'mikrodenetleyici', 'reset', 'dijital-pinler', 'analog-pinler', 'guc-pinleri']) { const al = kart.alanlar[ad]; ekle(new Vector3(al[0], al[1] + al[4] / 2 + 1.5, al[2]), KAVRAM[ad] || ad); }
+    ekle(new Vector3(BB.x - 30, BB.h + 1, BB.z - 8.9), 'breadboard');
+    ekle(new Vector3(BB.x + 33, BB.h + 1, BB.z), 'bb-kanal');
+    ekle(new Vector3(BB.x + 33, BB.h + 1, BB.z + 20.3), 'bb-yakin-raylar');
+    for (const [ad, p] of Object.entries(parcalar)) {
+      if (p.tur === 'kablo' || !p.nesne.visible) continue;
+      const poz = (a.poz || {})[ad] || 'takili';
+      ekle(p.pozlar[poz].clone().add(p.nesne.userData.tepe || new Vector3(0, 6, 0)).add(new Vector3(0, 3, 0)), p.kavram);
+    }
+    S.isaretKoy(liste);
+  }
+  const kesifDugme = $('#kesif-dugme');
+  kesifDugme?.addEventListener('click', () => {
+    const acik = html.dataset.kesif !== 'acik';
+    html.dataset.kesif = acik ? 'acik' : '';
+    kesifDugme.setAttribute('aria-pressed', String(acik));
+    if (acik) { kesifIsaretleri(); duyur('Keşif modu açık: soru işaretli parçalara dokun'); } else { S?.isaretKoy([]); bilgiKapat(); duyur('Keşif modu kapandı'); }
+  });
   function dokunuldu(veriler, nokta) {
     if (!veriler) { bilgiKapat(); return; }
     const a = ders.adimlar[kartlar[aktif].dataset.id] || {};
@@ -440,17 +502,24 @@ function dersSayfasi() {
       S.iste(); return;
     }
     if (veriler.parca === 'buton' && program === 'buton') { durum.basili = true; butonGuncelle(); setTimeout(() => { durum.basili = false; butonGuncelle(); }, 700); return; }
-    bilgiGoster(veriler.kavram || KAVRAM[veriler.parca] || veriler.parca);
+    bilgiGoster(veriler.kavram || KAVRAM[veriler.parca] || veriler.parca, html.dataset.kesif === 'acik' && (tahminAyar ? tahminAyar.checked : true));
   }
-  function bilgiGoster(id) {
+  let tahminBekliyor = false;
+  function bilgiGoster(id, tahmin = false) {
     const k = veri.kavramlar?.[id], s = html.dataset.sinif || '6';
     const kutu = $('#bilgi');
     if (!kutu) return;
+    if (tahmin !== 'koru') { tahminBekliyor = Boolean(tahmin); }
+    const soru = $('#kesif-soru'), cevap = $('#bilgi-cevap');
+    if (soru) soru.hidden = !tahminBekliyor;
+    if (cevap) cevap.hidden = tahminBekliyor;
     if (k) { $('#bilgi-baslik').textContent = k.ad; $('#bilgi-teknik').innerHTML = k.teknik[s] || ''; $('#bilgi-sosyal').innerHTML = k.sosyal[s] || ''; kutu.classList.remove('yalin'); }
     else if (SABIT[id]) { $('#bilgi-baslik').textContent = SABIT[id][0]; $('#bilgi-teknik').textContent = SABIT[id][1]; $('#bilgi-sosyal').textContent = ''; kutu.classList.add('yalin'); }
     else return;
-    bilgiAcik = id; kutu.hidden = false; duyur($('#bilgi-baslik').textContent);
+    bilgiAcik = id; kutu.hidden = false; duyur(tahminBekliyor ? 'Sence bu nedir? Cevabı gör düğmesine bas' : $('#bilgi-baslik').textContent);
   }
+  bilgiYenile = () => bilgiGoster(bilgiAcik, 'koru');
+  $('#kesif-gor')?.addEventListener('click', () => { tahminBekliyor = false; bilgiGoster(bilgiAcik, 'koru'); $('#bilgi-baslik')?.focus?.(); });
   function bilgiKapat() { const k = $('#bilgi'); if (k) k.hidden = true; bilgiAcik = null; }
   $('#bilgi-kapat')?.addEventListener('click', bilgiKapat);
 
