@@ -30,9 +30,9 @@ html[data-sinif="5"] [data-s="5"],html[data-sinif="6"] [data-s="6"],html[data-si
 /* ------------------------------------------------ üst çubuk */
 /* Yatayda kırpılır: sığmayan bir düğme sayfayı genişletmesin (telefonda sayfa uzaklaşır, dokunuşlar kayar). */
 .ust{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:12px;height:var(--ust);padding:0 var(--pad);background:var(--surface);border-bottom:1px solid var(--line);overflow-x:clip}
-.marka{font:800 1.12em var(--font);letter-spacing:-.02em;color:var(--ink);text-decoration:none;white-space:nowrap}
+.marka{font:800 1.12em var(--font);letter-spacing:-.02em;color:var(--ink);text-decoration:none;white-space:nowrap;padding-block:max(0px,calc((var(--hedef) - 1.1em) / 2))}
 .marka b{color:var(--violet);font-weight:800}
-.merkez-bag{color:var(--muted);text-decoration:none;white-space:nowrap;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.merkez-bag{color:var(--muted);text-decoration:none;white-space:nowrap;font-weight:600;min-width:0;overflow:hidden;text-overflow:ellipsis;padding-block:max(0px,calc((var(--hedef) - 1.1em) / 2))}
 .ders-adi{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .ust .ayrac{color:var(--line)}
 .ust-sag{margin-left:auto;display:flex;align-items:center;gap:8px}
