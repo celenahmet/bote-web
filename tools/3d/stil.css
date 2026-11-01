@@ -207,6 +207,12 @@ html[data-kesif=acik] .sahne-alani .ipucu-dokun{display:none}
 .yakinlik button{font-size:1.25em;line-height:1}
 @container (max-width:640px){.gorunum .uzun{display:none}.gorunum .kisa{display:inline}.gorunum button{padding:0 8px}.kesif-dugme{padding:0 12px}}
 @container (max-width:380px){.sol-arac{gap:6px}.kesif-dugme{gap:6px;padding:0 10px}}
+/* Tahta modunda düğmeler büyük. Yan panelli yatay ekranda (yatay telefon: panel en az 440 px) sahne 450-500 px kalır, şerit sığmaz;
+   yakınlaştırma düğmeleri sahne kenarından taşıp panelin sürükleme alanının altında kalıyordu. Sığmayan düğmeler alt satıra geçer.
+   Normal mod, kapalı panel (mini gezinti) ve sığan şerit değişmez. Özgür modda sığmayı ozgur.js aracSigdir ölçer; orada satır kırma ozgur.css'te. */
+@media (orientation:landscape) and (min-width:821px){
+html[data-mod=tahta]:not([data-panel=kapali]) body.ders-sayfasi:not(.ozgur-sayfasi) .sahne-arac{flex-wrap:wrap}
+}
 
 /* ------------------------------------------------ bilgi kartı */
 .bilgi{position:absolute;left:12px;top:12px;max-width:min(28em,calc(100% - 24px));max-height:calc(100% - 100px);overflow:auto;padding:14px 16px;border-radius:var(--r);background:var(--surface);box-shadow:0 8px 30px #1b142633;font-size:.95em}

@@ -187,6 +187,11 @@ html[data-mod=tahta] .secici-izgara button{min-height:var(--btn)}
 .sahne-alani.dar .gorunum .kisa{display:inline}
 .sahne-alani.dar .arac-dugme .arac-yazi{display:none}
 .sahne-alani.dar .arac-dugme{padding:0 12px}
+/* Tahta modunda (büyük düğmeler) kısaltılmış şerit de yan panelli yatay ekranda sığmayabilir: Röntgen ve yakınlaştırma düğmeleri
+   üst üste biniyor, yakınlaştırma sahneden taşıyordu. Satır kırma yalnız .dar iken açılır; böylece aracSigdir taşmayı satır kırmadan ölçmeye devam eder. */
+@media (orientation:landscape) and (min-width:821px){
+html[data-mod=tahta] .sahne-alani.dar .sahne-arac{flex-wrap:wrap}
+}
 
 /* Yatay telefon ve kısa ekran (Ahmet: "telefonda 13a ucu"): dikey telefonda çalışan akış yatayda tıkanıyordu; yönerge, durum hapı ve
    seçici tahtanın üstünü kapatıp dokunmayı yutuyor, alttaki sayfa da seçiciyi ve seçim kartını örtüyordu.
