@@ -13,7 +13,7 @@ html:not([data-js]) .ozgur-js{display:none!important}
 .ozgur-sayfasi .kisa-baslik{display:none!important}
 .ozgur-sayfasi .kart-ust{padding-top:10px;gap:8px}
 .sekmeler{display:flex;flex:1;min-width:0;gap:4px;padding:4px;border:1px solid var(--line);border-radius:14px}
-.sekmeler [role=tab]{flex:1;min-width:0;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:calc(var(--btn) - 6px);padding:0 8px;border:0;border-radius:10px;background:transparent;font-weight:700;cursor:pointer;touch-action:manipulation;white-space:nowrap}
+.sekmeler [role=tab]{flex:1;min-width:0;display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:max(var(--hedef),calc(var(--btn) - 6px));padding:0 8px;border:0;border-radius:10px;background:transparent;font-weight:700;cursor:pointer;touch-action:manipulation;white-space:nowrap}
 .sekmeler [role=tab]:hover{background:var(--raised)}
 .sekmeler [role=tab][aria-selected=true]{background:var(--violet);color:#fff}
 :root[data-theme=dark] .sekmeler [role=tab][aria-selected=true]{color:#120c1c}
@@ -94,7 +94,8 @@ html:not([data-js]) .ozgur-js{display:none!important}
 .uyarilar li .ico{margin-top:.15em}
 .uyarilar li.hata{border-left-color:var(--bad)}.uyarilar li.hata>.ico{color:var(--bad)}
 .uyarilar li.uyari{border-left-color:var(--warn)}.uyarilar li.uyari>.ico{color:var(--warn)}
-.uyarilar li.bilgi{border-left-color:var(--violet)}.uyarilar li.bilgi>.ico{color:var(--violet)}
+/* stil.css'teki .bilgi (sahnedeki bilgi kartı: position:absolute) bu listeye sızıyordu; "Uyarı yok" kartı sekmelerin üstüne biniyor, Kur sekmesi tıklanamıyordu */
+.uyarilar li.bilgi{border-left-color:var(--violet);position:static;max-width:none;max-height:none;overflow:visible;box-shadow:none;font-size:inherit}.uyarilar li.bilgi>.ico{color:var(--violet)}
 .seviye-ad{display:block;font-size:.76em;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
 .uyari-metin{margin:0;overflow-wrap:anywhere}
 .uyari-dugmeler{grid-column:2;display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
@@ -150,7 +151,7 @@ html:not([data-js]) .ozgur-js{display:none!important}
 :root[data-theme=dark] .imlec-etiket.ilk{color:#120c1c}
 
 /* sahne araç çubuğu ekleri */
-.arac-dugme{display:inline-flex;align-items:center;gap:8px;min-height:var(--btn);padding:0 14px;border:0;border-radius:14px;background:color-mix(in srgb,var(--surface) 90%,transparent);box-shadow:0 2px 12px #1b14261a;font-weight:700;cursor:pointer;touch-action:manipulation;white-space:nowrap}
+.arac-dugme{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:var(--hedef);min-height:var(--btn);padding:0 14px;border:0;border-radius:14px;background:color-mix(in srgb,var(--surface) 90%,transparent);box-shadow:0 2px 12px #1b14261a;font-weight:700;cursor:pointer;touch-action:manipulation;white-space:nowrap}
 .arac-dugme[aria-pressed=true]{background:var(--violet);color:#fff}
 :root[data-theme=dark] .arac-dugme[aria-pressed=true]{color:#120c1c}
 .buton-bas{background:var(--violet);color:#fff;padding:0 20px;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
