@@ -105,8 +105,10 @@ function kontrolHtml(liste) {
 }
 function kodHtml(k) {
   if (!k?.satirlar?.length) return '';
+  let derinlik = 0; // süslü parantez içindeki satırlar iki boşluk girintilenir
+  const girintili = k.satirlar.map((s) => { const t = s.k.trim(); if (t.startsWith('}')) derinlik = Math.max(0, derinlik - 1); const g = '  '.repeat(derinlik) + t; if (t.endsWith('{')) derinlik++; return g; });
   return `<div class="kod"><div class="kod-baslik"><span>Arduino kodu</span><span>Altında Türkçesi</span></div><ol>${k.satirlar.map((s, i) =>
-    `<li class="kod-satir${s.k.trim() ? '' : ' bos'}" data-no="${i + 1}"><code>${esc(s.k)}</code><span class="tr">${guvenli(s.t || '')}</span></li>`).join('')}</ol></div>`;
+    `<li class="kod-satir${s.k.trim() ? '' : ' bos'}" data-no="${i + 1}"><code>${esc(girintili[i])}</code><span class="tr">${guvenli(s.t || '')}</span></li>`).join('')}</ol></div>`;
 }
 function sinavHtml(sinav) {
   if (!sinav) return '';

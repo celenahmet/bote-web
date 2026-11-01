@@ -1,0 +1,299 @@
+{
+  "slug": "arduino-led-yakma",
+  "baslik": "LED Yakalım",
+  "kisa": "Arduino UNO ile ilk devre: LED, 220 ohm direnç ve kısa bir kodla yanıp sönen ışık. Ortaokul 5-8. sınıflara özel anlatımlı 3D simülasyon.",
+  "sure": 25,
+  "hedefler": {
+    "5": [
+      "LED'in uzun ve kısa bacağını ayırt edeceğiz.",
+      "Breadboard'da LED, direnç ve kablolarla bir devre kuracağız.",
+      "Kısa bir kodla LED'i yakıp söndüreceğiz."
+    ],
+    "6": [
+      "LED'in anot ve katot bacaklarını tanıyıp doğru yönde takacağız.",
+      "Direncin devrede neden gerektiğini açıklayacağız.",
+      "Kodda LED'i yakan ve söndüren satırları göstereceğiz."
+    ],
+    "7": [
+      "Elektriğin pin 13'ten GND'ye kadar izlediği kapalı yolu göstereceğiz.",
+      "setup ve loop bölümlerinin görevini açıklayacağız.",
+      "Bekleme süresini değiştirince ne olacağını önceden tahmin edeceğiz."
+    ],
+    "8": [
+      "220 Ω dirençle LED'den geçen akımı yaklaşık olarak hesaplayacağız.",
+      "HIGH ve LOW komutlarının pindeki gerilimi nasıl değiştirdiğini açıklayacağız.",
+      "LED'in tek yönlü çalışmasını diyot özelliğiyle ilişkilendireceğiz."
+    ]
+  },
+  "adimlar": [
+    {
+      "id": "merak",
+      "baslik": "Küçük ışıklar her yerde",
+      "metin": {
+        "5": "Televizyonun kapalıyken yanan küçük ışığını, şarj aletindeki ışığı gördünüz mü? Bu küçük ışıklar genellikle birer <strong>LED</strong>'dir. Bugün biz de bir LED'i Arduino ile yakıp söndüreceğiz. Sizce bunun için neye ihtiyacımız var?",
+        "6": "Birçok trafik ışığında, ekranlarda ve cihazların açık olduğunu gösteren küçük ışıklarda LED kullanılır. Bir LED'i yakmak kolay görünür ama onu doğru yönde takmak ve korumak gerekir. Bugün Arduino ile bir LED'i yakıp söndüren ilk devremizi kuralım ve ilk kodumuzu yazalım.",
+        "7": "Bir cihazın açık olduğunu gösteren küçük ışık, cihazın bize verdiği bir <strong>çıkıştır</strong>: bize bir bilgi iletir. Bugün Arduino'ya ilk kez bir çıkış yaptıracağız ve bir LED'i belli aralıklarla yakıp söndüreceğiz. Bunun için hem doğru bir devre hem de doğru bir kod gerekir. Sizce devre doğru ama kod yanlışsa ne olur?",
+        "8": "LED'ler trafik ışıklarında, ekranlarda ve cihaz durum ışıklarında karşımıza çıkar; aynı ışığı eski tip ampullerden daha az enerjiyle verirler. Bugün bir LED'i Arduino'nun 13 numaralı pininden yöneteceğiz. Bunun için üç şeyi birlikte düşüneceğiz: LED'in yönü, akımı sınırlayan direnç ve pindeki gerilimi zamanla değiştiren kod. Sizce hangisi eksik olursa LED yanmaz?"
+      }
+    },
+    {
+      "id": "malzemeler",
+      "baslik": "Malzemelerimiz",
+      "metin": {
+        "5": "Masamızda neler var? Bir <strong>Arduino UNO</strong>, bir breadboard, bir <strong>LED</strong>, bir <strong>direnç</strong> (220 ohm), iki kablo ve bir USB kablosu. Ekranda her parçayı bulalım ve adını söyleyelim.",
+        "6": "Bu devre için gerekenler: 1 Arduino UNO, 1 breadboard, 1 LED, 1 adet 220 Ω direnç, 2 bağlantı kablosu (turuncu ve siyah) ve 1 USB kablosu. Ω işareti, direncin birimi olan <strong>ohm</strong>'u gösterir. Kablolardan biri elektriği götürecek, öteki geri getirecek.",
+        "7": "Malzemeler: Arduino UNO, breadboard, 1 LED, 1 adet 220 Ω direnç, 2 kablo ve USB kablosu. Her parçanın bir görevi var: Arduino kodu çalıştırıp pine gerilim verir, LED elektriği ışığa çevirir, direnç akımı sınırlar, kablolar ve breadboard yolu tamamlar. Bir parça eksik olursa ne olur? Kurarken düşünelim.",
+        "8": "Malzemeler: Arduino UNO, breadboard, 1 LED, 1 adet 220 Ω direnç (±%5), 2 atlama kablosu ve USB A-B kablosu. Devre basit bir seri devredir: kaynak (D13, 5 V), yük (LED), akım sınırlayıcı (direnç) ve dönüş yolu (GND). Kırmızı LED kullanıyorsak hesaplarda LED üzerindeki gerilimi yaklaşık 2 V alacağız; bu değer LED'den LED'e biraz değişir."
+      }
+    },
+    {
+      "id": "led",
+      "baslik": "LED'i tanıyalım",
+      "metin": {
+        "5": "<strong>LED</strong>, elektrik geçince ışık veren küçük bir lambadır. İki bacağı var: <strong>uzun bacak</strong> artı, <strong>kısa bacak</strong> eksi tarafıdır. Kısa bacak tarafında kenar düzdür. LED'i hangi yönde taktığımız önemli; nedenini birazdan deneyip göreceğiz.",
+        "6": "<strong>LED</strong> (ışık yayan diyot), içinden elektrik geçince ışık verir. Uzun bacağına <strong>anot</strong> (artı), kısa bacağına <strong>katot</strong> (eksi) denir. Katot tarafında LED'in kenarı düzdür; bacaklar eşit kesilmişse bu kenara bakarız. Anot ile katodu karıştırırsak ne olacağını dersin sonunda deneyeceğiz.",
+        "7": "LED, <strong>ışık yayan diyot</strong> demektir. Diyotlar, akımın yönüne duyarlı devre elemanlarıdır. LED'in uzun bacağı <strong>anot</strong> (artı), kısa bacağı <strong>katot</strong> (eksi) tarafıdır; katot tarafında gövdenin kenarı düzdür. Akım anottan girip katottan çıktığında LED ışık verir. Ters yönde ne olacağını birazdan tahmin edip deneyeceğiz.",
+        "8": "LED (ışık yayan diyot) bir yarı iletken diyottur. Anot (uzun bacak) katoda göre yeterince pozitif olduğunda akım geçer ve LED ışık yayar. Bu sırada LED'in üzerinde yaklaşık 2 V'luk bir gerilim kalır; bu değer LED'in rengine ve akıma göre biraz değişir (kırmızı LED için tipik olarak 1,8-2,2 V). Katot, kısa bacak ve gövdedeki düz kenar tarafıdır."
+      }
+    },
+    {
+      "id": "direnc",
+      "baslik": "Direnç neden gerekli?",
+      "metin": {
+        "5": "Bu çizgili küçük parça bir <strong>direnç</strong>. Bir musluğu biraz kısmak gibi, elektriğin akışını azaltır. Direnç olmazsa LED'e fazla elektrik gider; LED de kart da zarar görebilir. Direnç LED'i söndürmez, onu korur. Renkli çizgiler değerini söyler.",
+        "6": "<strong>Direnç</strong>, elektriğin geçişini zorlaştıran bir devre elemanıdır. Birimi <strong>ohm</strong>'dur (Ω). Bizim direncimiz 220 Ω; renk bantları <strong>kırmızı, kırmızı, kahverengi, altın</strong>. Direnç LED'i söndürmez, ondan geçen elektriği sınırlar. Böylece hem LED hem de Arduino'nun pini korunur.",
+        "7": "LED'i doğrudan 5 V'a bağlarsak akımı sınırlayan bir şey kalmaz; LED aşırı ısınıp bozulabilir, Arduino'nun pini de zarar görebilir. <strong>Direnç</strong>, akımı güvenli bir değerde tutar. Direnç LED'i söndürmez, yalnız akımı sınırlar; LED yine yanar. 220 Ω'luk direncin renk bantları kırmızı (2), kırmızı (2), kahverengi (×10) ve altındır (%5 tolerans).",
+        "8": "Ohm yasası: <strong>V = I × R</strong>. Pin 5 V verir; LED'in üzerinde yaklaşık 2 V kalır, geriye dirence yaklaşık 3 V düşer. Akım I = V / R = 3 V / 220 Ω ≈ 0,014 A, yani yaklaşık <strong>14 mA</strong>. Bu değer hem LED hem de pin için güvenlidir. Direnç olmasaydı akımı sınırlayan bir parça kalmaz, LED ve pin zarar görebilirdi. Renk bantları: kırmızı (2), kırmızı (2), kahverengi (×10), altın (%5)."
+      }
+    },
+    {
+      "id": "kurulum-led",
+      "baslik": "LED'i takalım",
+      "metin": {
+        "5": "LED'i breadboard'a takalım. <strong>Uzun bacak 15.</strong> sütuna, <strong>kısa bacak 16.</strong> sütuna gidiyor. İki bacak farklı sütunlarda olmalı; aynı sütuna takarsak bacaklar şerit üzerinden birleşir ve elektrik LED'in içinden geçmez.",
+        "6": "LED'i yan yana iki sütuna takalım: <strong>anot (uzun bacak) 15.</strong> sütuna, <strong>katot (kısa bacak) 16.</strong> sütuna. Böylece iki bacak ayrı şeritlere bağlanır. Aynı sütuna takılsaydı bacaklar şerit üzerinden birleşir, elektrik LED'e uğramadan geçip giderdi.",
+        "7": "LED'in anodunu (uzun bacak) <strong>15.</strong>, katodunu (kısa bacak) <strong>16.</strong> sütuna takalım. Her bacak ayrı bir beşli şeride girer; böylece 15. sütuna gelen elektrik, 16. sütuna geçmek için LED'in içinden geçmek zorunda kalır. Bacakları aynı sütuna takmak LED'i devreden çıkarır, çünkü akımın neredeyse tamamı dirençsiz metal şeritten geçer.",
+        "8": "Anot (uzun bacak) <strong>15.</strong>, katot (kısa bacak) <strong>16.</strong> sütuna takılır. İki bacak ayrı iletken şeritlerde olduğu için 15. sütundaki noktayla 16. sütundaki nokta arasındaki tek yol LED'in kendisidir; LED devreye seri bağlanmış olur. Bacaklar aynı şeride takılsaydı LED, direnci neredeyse sıfır olan şerit tarafından kısa devre edilir, üzerinden neredeyse hiç akım geçmezdi."
+      }
+    },
+    {
+      "id": "kurulum-direnc",
+      "baslik": "Direnci takalım",
+      "metin": {
+        "5": "Şimdi direnci takalım. Bir ucu LED'in kısa bacağıyla aynı sütuna, yani <strong>16.</strong> sütuna girer. Öteki ucu alttaki <strong>-</strong> rayına gider. Direncin yönü yoktur, iki ucu da aynıdır; istediğimiz gibi takabiliriz.",
+        "6": "Direncin bir bacağını <strong>16.</strong> sütuna, yani LED'in katoduyla aynı şeride takalım. Diğer bacağı alttaki <strong>-</strong> rayına (mavi çizgi) gidiyor. Böylece LED'den çıkan elektrik direnç üzerinden - rayına ulaşır. Direncin artısı eksisi yoktur; iki yönde de aynı çalışır.",
+        "7": "Direncin bir ucu <strong>16.</strong> sütuna (LED'in katoduyla aynı şerit), öteki ucu alttaki <strong>-</strong> rayına takılır. Direnci LED'in önüne değil arkasına koyduk; bu bir sorun mu? Hayır. Tek yollu (seri) bir devrede akım her yerde aynıdır, direnç yolun neresinde olursa olsun akımı sınırlar. Direncin yönü de yoktur.",
+        "8": "Direnç, 16. sütundan alttaki <strong>-</strong> rayına bağlanır; yani LED'in katodu ile GND arasına girer. Seri devrede akım her noktada aynı olduğundan direncin LED'den önce ya da sonra olması akımı değiştirmez: I = (5 V - yaklaşık 2 V) / 220 Ω her iki durumda da geçerlidir. Direncin kutbu yoktur; LED'den farklı olarak iki yönde de aynı davranır."
+      }
+    },
+    {
+      "id": "kurulum-kablo",
+      "baslik": "Kabloları bağlayalım",
+      "metin": {
+        "5": "Önce USB kablosunun takılı olmadığından emin olalım. <strong>Turuncu kablo</strong> pin 13'ten 15. sütuna, yani LED'in uzun bacağına gider. <strong>Siyah kablo</strong> GND'den alttaki - rayına gider. Böylece elektriğin gidip döneceği yol tamamlanır.",
+        "6": "Kabloları takarken USB kablosu takılı olmamalı. <strong>Turuncu kablo</strong> Arduino'nun 13 numaralı pininden 15. sütuna (LED'in anoduna) gider. <strong>Siyah kablo</strong> GND pininden alttaki - rayına gider. Artık yol kesintisiz bir halka: pin 13, LED, direnç, - rayı ve GND. Buna <strong>kapalı devre</strong> denir.",
+        "7": "Devreyi USB kablosu takılı değilken kuralım; yanlış bir bağlantı çalışırken kısa devre yapabilir. <strong>Turuncu kablo</strong> pin 13'ü 15. sütuna (anot), <strong>siyah kablo</strong> GND'yi alttaki - rayına bağlar. Şimdi akımın yolu kapalı bir devredir: pin 13, LED, direnç, - rayı, GND. Yolun herhangi bir yeri açık kalırsa LED yanmaz.",
+        "8": "Bağlantılar USB takılı değilken yapılır; böylece yanlış bir kablo, kısa devre oluşturmadan düzeltilebilir. <strong>Turuncu kablo</strong> D13 çıkışını 15. sütuna (anot), <strong>siyah kablo</strong> GND'yi - rayına bağlar. Devrenin yolu: D13, LED, 220 Ω, GND. Tek bir yol olduğundan bu bir <strong>seri devredir</strong>; yolun bir yerinde kopukluk olursa devre açık olur ve akım sıfıra iner."
+      }
+    },
+    {
+      "id": "kod",
+      "baslik": "Kodu okuyalım",
+      "metin": {
+        "5": "Şimdi karta ne yapacağını söyleyelim. Kodun iki bölümü var. <code>setup</code> bir kez çalışır: 13. pini <strong>çıkış</strong> yapar, yani elektrik verebilir hâle getirir. <code>loop</code> durmadan tekrar eder: LED'i yak, 1 saniye bekle, söndür, 1 saniye bekle.",
+        "6": "Kod iki bölümden oluşur. <code>setup</code> kart açılınca bir kez çalışır; <code>pinMode(13, OUTPUT)</code> ile 13. pini <strong>çıkış</strong> yapar. <code>loop</code> ise sonsuza kadar tekrar eder: <code>digitalWrite(13, HIGH)</code> LED'i yakar, <code>delay(1000)</code> 1000 milisaniye (1 saniye) bekletir, <code>LOW</code> söndürür.",
+        "7": "Kod yukarıdan aşağıya, satır satır çalışır. <code>setup</code> bölümü kart açıldığında ya da sıfırlandığında yalnız bir kez çalışır ve 13. pini çıkış olarak ayarlar. <code>loop</code> bölümü bitince başa döner, yani bir <strong>döngüdür</strong>. İçindeki dört satır sırayla: yak, 1 saniye bekle, söndür, 1 saniye bekle. Her satırın Türkçe karşılığına da bakalım.",
+        "8": "<code>setup()</code>, kart enerjilendiğinde ya da sıfırlandığında bir kez çalışır; <code>pinMode(13, OUTPUT)</code> D13'ü çıkış yapar. <code>loop()</code> sürekli tekrar eder. <code>digitalWrite(13, HIGH)</code> pine 5 V, <code>LOW</code> 0 V verir. <code>delay(1000)</code> programı 1000 ms durdurur; bu sürede kodun başka hiçbir satırı çalışmaz. Bir tur 2000 ms sürer, yani LED dakikada 30 kez yanıp söner."
+      }
+    },
+    {
+      "id": "calistir",
+      "baslik": "Çalıştıralım ve gözleyelim",
+      "metin": {
+        "5": "Şimdi USB'yi takalım ve LED'i izleyelim: 1 saniye yanıyor, 1 saniye sönüyor. Kodda o an çalışan satır parlıyor. \"Akımı göster\" düğmesine basalım: noktalar elektriğin yolunu gösterir. \"Bekleme\" düğmelerinden 0,5 sn'yi seçip ne değiştiğine bakalım.",
+        "6": "Kodu karta yükleyelim. LED 1 saniye yanıyor, 1 saniye sönüyor; kodda çalışan satır vurgulanıyor. LED yanarken hangi satırın vurgulandığına dikkat edelim. \"Akımı göster\" ile elektriğin pin 13'ten çıkıp GND'ye döndüğünü görelim. Sonra \"Bekleme\" düğmelerinden 0,5 sn ve 0,2 sn'yi deneyelim.",
+        "7": "Kod çalışınca LED 1 saniye yanar, 1 saniye söner. Vurgulanan satıra bakalım: LED'in yandığı sürenin neredeyse tamamında kart <code>delay(1000)</code> satırında bekliyor. Pin, yeni bir komut gelene kadar son durumunda kalır. \"Akımı göster\" ile akımın yolunu izleyelim; \"Bekleme\" düğmeleriyle süreyi 0,5 sn ve 0,2 sn yapıp yanıp sönme hızını karşılaştıralım.",
+        "8": "Kart kodu çalıştırırken vurgulanan satırı izleyelim: LED'in açık kaldığı yaklaşık 1000 ms boyunca program <code>delay(1000)</code> satırındadır; D13 ise son yazılan HIGH değerini korur. \"Akımı göster\" düğmesi akımın D13'ten çıkıp LED ve direnç üzerinden GND'ye dönen kapalı yolunu gösterir. \"Bekleme\" düğmeleriyle 500 ms ve 200 ms deneyelim. Süre birkaç milisaniyeye inseydi göz yanıp sönmeyi ayırt edemez, LED sürekli yanıyor gibi görünürdü; <strong>PWM</strong> bu fikre dayanır."
+      }
+    },
+    {
+      "id": "tahmin-ters",
+      "baslik": "LED'i ters takarsak?",
+      "metin": {
+        "5": "Önce tahmin edelim, sonra deneyelim. \"LED'i ters çevir\" düğmesine basınca uzun bacak 16. sütuna, kısa bacak 15. sütuna geçer. Kod aynı, kablolar aynı; yalnız LED'in yönü değişti.",
+        "6": "Tahmin et, sonra gör. Kodu ve kabloları değiştirmeden yalnız LED'i ters çevireceğiz: anot 16. sütuna, katot 15. sütuna geçecek. Önce sınıfça tahminimizi söyleyelim, sonra \"LED'i ters çevir\" düğmesine basıp \"Akımı göster\" ile akımın yoluna bakalım.",
+        "7": "Tek bir şeyi değiştirip sonucu gözleyelim: yalnız LED'in yönünü değiştireceğiz, kod ve kablolar aynı kalacak. Pin 13 yine HIGH olacak, yani gerilim yine verilecek. Önce tahminimizi gerekçesiyle söyleyelim. Sonra \"LED'i ters çevir\" düğmesine basalım ve \"Akımı göster\" ile akımın devrede dolaşıp dolaşmadığına bakalım.",
+        "8": "Deney düzeni: bağımsız değişken LED'in yönü; kod, kablolar ve direnç sabit (kontrol değişkenleri); bağımlı değişken LED'in ışığı ve akım. Önce LED'in diyot özelliğini kullanarak bir tahmin yazalım: katot 15. sütuna, anot 16. sütuna geçince D13 HIGH olduğunda ne olur? Sonra \"LED'i ters çevir\" ve \"Akımı göster\" düğmeleriyle tahminimizi sınayalım."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: LED'i ters takarsak ne olur? Yanar mı, yanmaz mı, bozulur mu?",
+          "6": "Tahmin et: Anot ile katodun yeri değişirse LED yanar mı? Neden?",
+          "7": "Tahmin et: LED ters takılınca pin 13 yine HIGH olursa LED yanar mı? Akım devrede dolaşır mı?",
+          "8": "Tahmin et: LED ters yönde bağlanınca devreden akım geçer mi? LED ışık verir mi, zarar görür mü?"
+        },
+        "cevap": {
+          "5": "LED <strong>yanmaz</strong>. LED, yalnız bir yönden geçilen bir turnike gibidir: elektrik yalnız uzun bacaktan kısa bacağa doğru geçebilir. Ters takınca geçemez. LED bozulmaz; doğru çevirince yeniden yanar.",
+          "6": "LED <strong>yanmaz</strong> ama bozulmaz. LED, elektriği yalnız anottan katoda geçirir. Ters takılınca yol tıkanır ve devre açık devre gibi davranır. LED'i doğru yöne çevirince yeniden yanar.",
+          "7": "LED <strong>yanmaz</strong>. Diyot olduğu için akımı yalnız anottan katoda geçirir; ters bağlanınca akım geçmez ve devre açık devre gibi olur. Pin yine 5 V verir ama akım oluşmaz. Bu devrede LED zarar görmez; doğru yöne çevirince yeniden yanar.",
+          "8": "Akım neredeyse <strong>sıfır</strong> olur, LED yanmaz. Diyot ters yönde iletmez; devre açık devre gibi davranır ve pinin 5 V'u LED'in uçları arasında ters yönde kalır. Bu devrede LED zarar görmez. Tek yönlü iletim LED'in temel özelliğidir; doğru yöne çevirince akım yine yaklaşık 14 mA olur."
+        }
+      }
+    },
+    {
+      "id": "ozet",
+      "baslik": "Özet",
+      "metin": {
+        "5": "Bugün ilk devremizi kurduk. LED'in uzun bacağı artı, kısa bacağı eksidir; LED tek yönde çalışır. Direnç LED'i söndürmez, korur. Elektrik pin 13'ten çıkar, GND'ye döner. Kod LED'i yakar, bekler, söndürür, bekler ve bunu tekrarlar.",
+        "6": "Özet: LED'in anodu (uzun bacak) pin tarafına, katodu (kısa bacak) GND tarafına bakar; ters takılırsa yanmaz ama bozulmaz. 220 Ω direnç akımı sınırlayarak LED'i ve pini korur. Kapalı devre: pin 13, LED, direnç, GND. <code>setup</code> bir kez, <code>loop</code> sürekli çalışır; <code>delay(1000)</code> 1 saniye bekletir.",
+        "7": "LED bir diyottur, akımı yalnız anottan katoda geçirir. Direnç akımı sınırlar ve seri devrede nerede durduğu önemli değildir. Akım ancak kapalı bir yol varsa oluşur: pin 13, LED, direnç, GND. Kod yukarıdan aşağı çalışır; <code>loop</code> bir döngüdür ve <code>delay</code> sırasında kart bekler. Bekleme süresini değiştirmek yanıp sönme hızını değiştirir.",
+        "8": "HIGH, D13'e yaklaşık 5 V verir; LED'de yaklaşık 2 V kalır, 220 Ω'a yaklaşık 3 V düşer ve I = V / R ≈ 14 mA akar. LED ters yönde iletmez. Seri devrede akım her noktada aynıdır, direncin yeri fark etmez. <code>delay</code> programı durdurur; bir turun süresi iki <code>delay</code> değerinin toplamıdır. Bekleme milisaniyeler düzeyine inerse göz yanıp sönmeyi göremez: PWM'in temeli budur."
+      }
+    }
+  ],
+  "kod": {
+    "satirlar": [
+      {"k": "void setup() {", "t": "Hazırlık bölümü başlıyor. Buradaki komutlar kart açılınca yalnız bir kez çalışır."},
+      {"k": "pinMode(13, OUTPUT);", "t": "13 numaralı pini çıkış yap: bu pin artık elektrik verebilir."},
+      {"k": "}", "t": "Hazırlık bölümü bitti."},
+      {"k": "", "t": ""},
+      {"k": "void loop() {", "t": "Tekrar bölümü başlıyor. Buradaki komutlar sırayla çalışır, bitince en başa döner."},
+      {"k": "digitalWrite(13, HIGH);", "t": "13. pine elektrik ver (5 volt): LED yanar."},
+      {"k": "delay(1000);", "t": "1000 milisaniye, yani 1 saniye bekle."},
+      {"k": "digitalWrite(13, LOW);", "t": "13. pinin elektriğini kes (0 volt): LED söner."},
+      {"k": "delay(1000);", "t": "1 saniye daha bekle."},
+      {"k": "}", "t": "Tekrar bölümü bitti; en başa dön ve yeniden başla."}
+    ]
+  },
+  "sinav": {
+    "5": [
+      {
+        "soru": "LED'in uzun bacağı hangi taraftır?",
+        "secenekler": ["Artı taraf (anot)", "Eksi taraf (katot)", "İkisi de aynıdır"],
+        "dogru": 0,
+        "aciklama": "Uzun bacak artı taraftır (anot); pin tarafına bağlanır."
+      },
+      {
+        "soru": "Direnç bu devrede ne işe yarar?",
+        "secenekler": ["LED'i söndürür", "Elektriğin akışını azaltıp LED'i korur", "LED'in rengini değiştirir"],
+        "dogru": 1,
+        "aciklama": "Direnç LED'i söndürmez; elektriği sınırlayarak LED'i ve kartı korur."
+      },
+      {
+        "soru": "Koddaki <code>delay(1000)</code> satırı ne yapar?",
+        "secenekler": ["LED'i 1000 kez yakar", "1000 tane LED yakar", "1 saniye bekletir"],
+        "dogru": 2,
+        "aciklama": "1000 milisaniye 1 saniyedir; kart bu sürede bekler."
+      }
+    ],
+    "6": [
+      {
+        "soru": "LED'in kısa bacağına ne denir?",
+        "secenekler": ["Anot", "Katot", "Direnç"],
+        "dogru": 1,
+        "aciklama": "Kısa bacak katottur ve GND tarafına bağlanır; katot tarafında LED'in kenarı düzdür."
+      },
+      {
+        "soru": "220 Ω'luk direncin renk bantları hangisidir?",
+        "secenekler": ["Kırmızı, kırmızı, kahverengi, altın", "Kahverengi, siyah, kırmızı, altın", "Turuncu, turuncu, kahverengi, altın"],
+        "dogru": 0,
+        "aciklama": "Kırmızı 2, kırmızı 2, kahverengi ×10: 22 × 10 = 220 Ω. Altın bant %5 toleransı gösterir."
+      },
+      {
+        "soru": "LED ters takılırsa ne olur?",
+        "secenekler": ["Daha parlak yanar", "Yanar ama rengi değişir", "Yanmaz; doğru çevirince yeniden yanar"],
+        "dogru": 2,
+        "aciklama": "LED elektriği yalnız anottan katoda geçirir; ters takılınca akım geçmez ama LED bozulmaz."
+      }
+    ],
+    "7": [
+      {
+        "soru": "<code>setup</code> bölümü ne zaman çalışır?",
+        "secenekler": ["Kart açıldığında ya da sıfırlandığında, bir kez", "Her saniye bir kez", "Hiç çalışmaz"],
+        "dogru": 0,
+        "aciklama": "setup yalnız başlangıçta bir kez çalışır; sürekli tekrar eden bölüm loop'tur."
+      },
+      {
+        "soru": "Direnç LED'in anot tarafına değil katot tarafına takıldı. Ne olur?",
+        "secenekler": ["LED yanmaz", "Direnç LED'i söndürür", "LED aynı şekilde yanar; seri devrede akım her yerde aynıdır"],
+        "dogru": 2,
+        "aciklama": "Tek yollu devrede direncin yeri akımı değiştirmez; önemli olan yolun üzerinde olmasıdır."
+      },
+      {
+        "soru": "İki bekleme süresini de 0,5 saniye yaparsak LED nasıl yanıp söner?",
+        "secenekler": ["Daha yavaş", "İki kat hızlı", "Hiç değişmez"],
+        "dogru": 1,
+        "aciklama": "Bir tur 2 saniyeden 1 saniyeye iner; LED iki kat sık yanıp söner."
+      }
+    ],
+    "8": [
+      {
+        "soru": "LED'in üzerinde yaklaşık 2 V kalıyorsa 220 Ω'luk dirençten geçen akım yaklaşık kaçtır?",
+        "secenekler": ["23 mA", "14 mA", "1,4 A"],
+        "dogru": 1,
+        "aciklama": "Dirence yaklaşık 3 V düşer: I = V / R = 3 / 220 ≈ 0,014 A = 14 mA. 23 mA, LED üzerindeki gerilim unutulursa bulunur."
+      },
+      {
+        "soru": "<code>digitalWrite(13, LOW)</code> çalışınca D13'teki gerilim kaç olur?",
+        "secenekler": ["0 V", "5 V", "2,5 V"],
+        "dogru": 0,
+        "aciklama": "LOW, çıkış pinini 0 V'a, yani GND seviyesine indirir."
+      },
+      {
+        "soru": "<code>delay(1000)</code> çalışırken kart ne yapar?",
+        "secenekler": ["Sonraki satırı da aynı anda çalıştırır", "LED'i kendiliğinden söndürür", "Bekler; bu sürede kodun başka satırı çalışmaz"],
+        "dogru": 2,
+        "aciklama": "delay programı durdurur; pin ise son yazılan değerini korur."
+      }
+    ]
+  },
+  "ogretmen": {
+    "hazirlik": "Önce simülasyonda kurulumu birlikte yapın, sonra gerçek sete geçin; kodu Arduino IDE ile yükleyin. UNO'da kartın üstündeki küçük yerleşik LED de pin 13'e bağlıdır ve kodla birlikte yanıp söner: yerleşik LED yanıp sönüyor ama dış LED yanmıyorsa sorun kodda değil devrededir. Müfredat bağı: Fen Bilimleri 5. sınıf \"Yaşamımızdaki Elektrik\" (devre şeması, ampul parlaklığını etkileyen değişkenler) ve 6. sınıf \"Elektriğin İletimi ve Direnç\" (elektriksel direnç, reosta). 2026-2027'de Maarif Modeli programları ortaokulda 5, 6 ve 7. sınıflarda uygulanıyor; 8. sınıflar önceki programla okuyor ve bu programda akım, gerilim ve Ohm yasası 7. sınıfta hesap yapılmadan işlenir. 8. sınıf hesabını bu yüzden kısa bir uygulama olarak sunun.",
+    "malzemeler": [
+      "1 adet Arduino UNO",
+      "1 adet breadboard",
+      "1 adet LED (kırmızı önerilir; 8. sınıf hesabı kırmızı LED'e göredir)",
+      "1 adet 220 Ω direnç (kırmızı-kırmızı-kahverengi-altın)",
+      "2 adet erkek-erkek atlama kablosu (mümkünse turuncu ve siyah)",
+      "1 adet USB A-B kablosu",
+      "Arduino IDE kurulu 1 bilgisayar"
+    ],
+    "guvenlik": [
+      "Devreyi USB kablosu takılı değilken kurun; bağlantıları kontrol ettikten sonra USB'yi takın.",
+      "LED'i dirençsiz olarak pine ya da 5V'a bağlamayın; LED ve pin zarar görebilir.",
+      "5V ile GND'yi doğrudan birleştirmeyin; boştaki kablo uçlarının raylara değmediğini kontrol edin.",
+      "Kart ve kablolar prize asla bağlanmaz; yalnız bilgisayarın USB girişi ya da uygun adaptör kullanılır.",
+      "LED bacakları ve kablo uçları sivridir; yüze ve göze yaklaştırmayın."
+    ],
+    "yanilgilar": [
+      "Yanlış: Direnç LED'i söndürür ya da ışığını boşa harcar. Düzeltme: 220 Ω ile LED'in rahatça yandığını gösterin; direncin işi akımı güvenli bir değerde tutmaktır.",
+      "Yanlış: Direnç mutlaka LED'den önce, pin tarafında olmalıdır. Düzeltme: Seri devrede akımın her noktada aynı olduğunu anlatın, \"Akımı göster\" ile yolun tek olduğunu gösterin.",
+      "Yanlış: LED iki yönde de yanar. Düzeltme: \"LED'i ters çevir\" deneyini önce tahminle başlatın; LED'in bozulmadığını da gösterin.",
+      "Yanlış: GND kablosu gereksizdir, elektrik LED'de harcanıp biter. Düzeltme: Gerçek sette USB'yi çıkarıp siyah kabloyu sökün, sonra USB'yi takın: LED yanmaz, çünkü yol kapanmadan akım olmaz.",
+      "Yanlış: Kodun bütün satırları aynı anda çalışır. Düzeltme: Vurgulanan satırı izletin ve satırları sırayla sesli okutun."
+    ],
+    "tartisma": [
+      "LED'leri günlük hayatta nerelerde görüyoruz? Neden bu kadar sık kullanılıyor olabilir?",
+      "Direnç olmasaydı ne olurdu? Musluk benzetmesi bunu ne kadar iyi anlatıyor, nerede eksik kalıyor?",
+      "Kodda yalnız bir sayıyı değiştirerek LED'in davranışını nasıl değiştirebiliriz?"
+    ],
+    "ileri": [
+      "Kodu, LED 0,2 saniye yanıp 1 saniye sönecek şekilde değiştirin; önce iki <code>delay</code> değerini kâğıda yazın.",
+      "8. sınıflar için: 330 Ω'luk direnç kullanılsaydı akım yaklaşık kaç mA olurdu? (Yaklaşık 3 V / 330 Ω ≈ 9 mA; LED biraz daha sönük yanar.)"
+    ]
+  },
+  "kavramlar": ["led", "anot", "katot", "direnc", "akim", "gerilim", "devre", "gnd", "pin", "dijital", "kod", "dongu", "breadboard", "pwm"],
+  "kaynaklar": [
+    {"ad": "Arduino örneği: Blink (220 ohm direnç, LED bağlantısı)", "adres": "https://docs.arduino.cc/built-in-examples/basics/Blink/"},
+    {"ad": "Arduino başvuru: pinMode()", "adres": "https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/"},
+    {"ad": "Arduino başvuru: digitalWrite()", "adres": "https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalwrite/"},
+    {"ad": "Arduino başvuru: delay()", "adres": "https://docs.arduino.cc/language-reference/en/functions/time/delay/"},
+    {"ad": "Arduino başvuru: setup()", "adres": "https://docs.arduino.cc/language-reference/en/structure/sketch/setup/"},
+    {"ad": "Arduino başvuru: loop()", "adres": "https://docs.arduino.cc/language-reference/en/structure/sketch/loop/"},
+    {"ad": "Arduino başvuru: analogWrite() ve PWM", "adres": "https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/"},
+    {"ad": "MEB TYMM, Fen Bilimleri 5. sınıf: Yaşamımızdaki Elektrik", "adres": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/407"},
+    {"ad": "MEB TYMM, Fen Bilimleri 6. sınıf: Elektriğin İletimi ve Direnç", "adres": "https://tymm.meb.gov.tr/fen-bilimleri-dersi/unite/414"},
+    {"ad": "MEB TEGM, 2026-2027 taslak çerçeve planlar duyurusu", "adres": "https://tegm.meb.gov.tr/www/2026-2027-egitim-ogretim-yili-taslak-cerceve-planlar-yayinlandi/icerik/1316/tr"},
+    {"ad": "MEB TEGM, Fen Bilimleri kritik konu ve kazanımlar (2023)", "adres": "https://tegm.meb.gov.tr/meb_iys_dosyalar/2023_09/07174130_FEN_BYLYMLERY_5-6-7-8_SINIFLARA_GECENLER_2023_31-08-2023_22-29-44.pdf"}
+  ]
+}
