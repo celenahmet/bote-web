@@ -197,6 +197,17 @@ const sayfaGeri = () => { if (oncekiSayfa && dikey.matches) sayfaUygula(oncekiSa
 
 // ================================================================== sekmeler: Kur, Program, Durum
 const SEKMELER = ['kur', 'program', 'durum'];
+// Sekmeye dokununca sayfa, sekmenin içeriğini gösterecek kadar açılır. "Yarım" sayfada içeriğe kalan yer = sayfa yüksekliği eksi sabit
+// parçalar (tutamaç, sekme şeridi, alt çubuk; SAYFA.kisa bunların toplamı + 2). Yatay telefonda yarım sayfada yalnız ~28 px kalır
+// (ölçüm 568x320 ile 812x375 arası), sekmeye dokunmak içeriği göstermezdi. İki dokunma satırından (2 x 44 px) az kalırsa sayfa "tam"a
+// açılır; bu geçici açılıştır, tercih olarak saklanmaz. Dikey telefonda yarım sayfada en az 103 px kalır (320x568), 360x640 ve üstünde
+// 139 px üstü: davranış aynı kalır (kısa -> yarım). Tam sayfada ve aynı sekmeye tekrar dokunmada bir şey değişmez.
+const GOVDE_EN_AZ = 88;
+function sekmeSayfasi() {
+  if (!dikey.matches) return;
+  const hedef = SAYFA.yarim() - SAYFA.kisa() + 2 >= GOVDE_EN_AZ ? 'yarim' : 'tam';
+  if (sayfaDurum === 'kisa' || (sayfaDurum === 'yarim' && hedef === 'tam')) sayfaUygula(hedef, hedef === 'yarim');
+}
 function sekmeAc(ad, odak = false) {
   for (const s of SEKMELER) {
     const t = $(`#sekme-${s}`), p = $(`#bolum-${s}`), acik = s === ad;
@@ -204,7 +215,7 @@ function sekmeAc(ad, odak = false) {
   }
   if (odak) $(`#sekme-${ad}`).focus();
   $('.kart-govde')?.scrollTo(0, 0);
-  if (dikey.matches && sayfaDurum === 'kisa') sayfaUygula('yarim');
+  sekmeSayfasi();
 }
 $('.sekmeler').addEventListener('click', (e) => { const t = e.target.closest('[role=tab]'); if (t) sekmeAc(t.id.slice(6)); });
 $('.sekmeler').addEventListener('keydown', (e) => {
