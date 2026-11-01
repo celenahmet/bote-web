@@ -6302,5 +6302,165 @@
         "bytes": 141126
       }
     ]
+  },
+  {
+    "slug": "4-4-4-egitim-sistemi",
+    "title": "4+4+4 Eğitim Sistemi Nedir? Kademeler ve Zorunlu Eğitim",
+    "alt": "4+4+4 Eğitim Sistemi Nedir? Kademeler ve Zorunlu Eğitim",
+    "updated": "2026-11-01",
+    "primary": {
+      "file": "4-4-4-egitim-sistemi.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 244374
+    },
+    "variants": [
+      {
+        "file": "4-4-4-egitim-sistemi-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 52146
+      },
+      {
+        "file": "4-4-4-egitim-sistemi-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 95446
+      },
+      {
+        "file": "4-4-4-egitim-sistemi.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 183086
+      }
+    ]
+  },
+  {
+    "slug": "1739-sayili-kanun",
+    "title": "1739 Sayılı Kanun: Millî Eğitimin Temel İlkeleri ve Amaçları",
+    "alt": "1739 Sayılı Kanun: Millî Eğitimin Temel İlkeleri ve Amaçları",
+    "updated": "2026-11-01",
+    "primary": {
+      "file": "1739-sayili-kanun.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 238756
+    },
+    "variants": [
+      {
+        "file": "1739-sayili-kanun-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 54322
+      },
+      {
+        "file": "1739-sayili-kanun-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 96674
+      },
+      {
+        "file": "1739-sayili-kanun.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 186770
+      }
+    ]
+  },
+  {
+    "slug": "egitim-felsefeleri",
+    "title": "Eğitim Felsefeleri Nelerdir? Akımlar, Temsilciler, Sınıf",
+    "alt": "Eğitim Felsefeleri Nelerdir? Akımlar, Temsilciler, Sınıf",
+    "updated": "2026-11-01",
+    "primary": {
+      "file": "egitim-felsefeleri.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 193377
+    },
+    "variants": [
+      {
+        "file": "egitim-felsefeleri-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 43266
+      },
+      {
+        "file": "egitim-felsefeleri-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 75042
+      },
+      {
+        "file": "egitim-felsefeleri.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 139710
+      }
+    ]
+  },
+  {
+    "slug": "harezmi-egitim-modeli-nedir",
+    "title": "Harezmi Eğitim Modeli Nedir? Aşamaları ve Örnekler",
+    "alt": "Harezmi Eğitim Modeli Nedir? Aşamaları ve Örnekler",
+    "updated": "2026-11-01",
+    "primary": {
+      "file": "harezmi-egitim-modeli-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 271853
+    },
+    "variants": [
+      {
+        "file": "harezmi-egitim-modeli-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 62692
+      },
+      {
+        "file": "harezmi-egitim-modeli-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 113414
+      },
+      {
+        "file": "harezmi-egitim-modeli-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 222514
+      }
+    ]
+  },
+  {
+    "slug": "montessori-nedir",
+    "title": "Montessori Nedir? İlkeleri, Materyalleri ve Araştırmalar",
+    "alt": "Montessori Nedir? İlkeleri, Materyalleri ve Araştırmalar",
+    "updated": "2026-11-01",
+    "primary": {
+      "file": "montessori-nedir.jpg",
+      "width": 1600,
+      "height": 900,
+      "bytes": 224139
+    },
+    "variants": [
+      {
+        "file": "montessori-nedir-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 48524
+      },
+      {
+        "file": "montessori-nedir-960.webp",
+        "width": 960,
+        "height": 540,
+        "bytes": 87454
+      },
+      {
+        "file": "montessori-nedir.webp",
+        "width": 1600,
+        "height": 900,
+        "bytes": 168922
+      }
+    ]
   }
 ]

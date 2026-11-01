@@ -35,6 +35,7 @@
 
 ## Eğitim Fakültesi
 
+- [1739 Sayılı Kanun: Millî Eğitimin Temel İlkeleri ve Amaçları](https://bote.web.tr/blog/1739-sayili-kanun.md): 1739 sayılı Millî Eğitim Temel Kanunu: genel amaçlar (madde 2), 14 temel ilke (madde 4-17), sonraki değişiklikler ve AGS mevzuat testindeki yeri. (2026-11-01)
 - [Aday Öğretmenlik Kalktı mı? 7528 ile Ne Değişti?](https://bote.web.tr/blog/aday-ogretmenlik-kalkti-mi.md): Aday öğretmenlik kalktı mı? 7528 sayılı Kanunla adaylığın yerini Akademi hazırlık eğitimi aldı. 1 Eylül 2025 öncesi atananlar, AÖYP ve kadroya geçiş kuralları. (2026-10-31)
 - [AGS Kaç Soru, Kaç Dakika? AGS ve ÖABT Süreleri](https://bote.web.tr/blog/ags-kac-soru-kac-dakika.md): AGS kaç soru ve kaç dakika? AGS 80 soru 110 dakika, ÖABT 50 soru 90 ya da 70 dakika. Alt testlere göre soru sayısı, soru başına süre, ek süre ve 2027 takvimi. (2026-10-31)
 - [AGS Kontenjanları ve Taban Puan: 64 Alan, 10 Bin Aday](https://bote.web.tr/blog/ags-kontenjanlari-ve-taban-puan.md): AGS kontenjanları alan alan: 2026 duyurusunda 64 alanda 10.000 aday, tüm alanlarda taban puan 50. Sınıf, özel eğitim, İngilizce ve diğer alanların sayıları. (2026-10-31)
@@ -177,6 +178,10 @@
 
 ## Eğitim Bilimleri ve Kuramlar
 
+- [4+4+4 Eğitim Sistemi Nedir? Kademeler ve Zorunlu Eğitim](https://bote.web.tr/blog/4-4-4-egitim-sistemi.md): 4+4+4 eğitim sistemi nedir, ne zaman geldi, değişiyor mu? 6287 sayılı Kanun madde madde, 8 yıllık kesintisiz eğitimle fark ve yıllara göre okullaşma. (2026-11-01)
+- [Eğitim Felsefeleri Nelerdir? Akımlar, Temsilciler, Sınıf](https://bote.web.tr/blog/egitim-felsefeleri.md): Eğitim felsefeleri: daimicilik, esasicilik, ilerlemecilik, yeniden kurmacılık, varoluşçuluk; temsilciler, kanıt, Türkiye çalışmaları ve AGS bağlantısı. (2026-11-01)
+- [Harezmi Eğitim Modeli Nedir? Aşamaları ve Örnekler](https://bote.web.tr/blog/harezmi-egitim-modeli-nedir.md): Harezmi Eğitim Modeli nedir? MEB belgelerine göre başlangıcı, 11 adımlı süreci, uygulama örnekleri, alanyazın bulguları ve eleştirel sınırlılıkları. (2026-11-01)
+- [Montessori Nedir? İlkeleri, Materyalleri ve Araştırmalar](https://bote.web.tr/blog/montessori-nedir.md): Montessori nedir? Hazırlanmış çevre, materyaller, meta-analiz sayıları, yayımlanmış eleştiriler ve Türkiye'deki hakemli araştırmalar. (2026-11-01)
 - [Akademisyen Nasıl Olunur? Lisansüstü, ALES ve Doçentlik](https://bote.web.tr/blog/akademisyen-nasil-olunur.md): Akademisyen nasıl olunur? Yüksek lisans ve doktora için ALES şartı, araştırma görevliliği, doktor öğretim üyeliği, doçentlik ve profesörlük; 2547 sayılı Kanun. (2026-10-31)
 - [BEP Nedir? Bireyselleştirilmiş Eğitim Programı Rehberi](https://bote.web.tr/blog/bep-nedir.md): BEP (bireyselleştirilmiş eğitim programı) nedir, kim hazırlar, içinde neler olur? Özel Eğitim Hizmetleri Yönetmeliği'ne göre BEP geliştirme birimi ve süreç. (2026-10-31)
 - [Biçimlendirici Değerlendirme Nedir? Örnekler ve Kanıtlar](https://bote.web.tr/blog/bicimlendirici-degerlendirme-nedir.md): Biçimlendirici (formatif) değerlendirme nedir, düzey belirleyici değerlendirmeden farkı, sınıf örnekleri, geri bildirim, meta-analiz bulguları ve Maarif Modeli. (2026-10-31)
