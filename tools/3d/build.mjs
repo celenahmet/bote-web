@@ -20,6 +20,7 @@ const SITE = 'https://bote.web.tr';
 const ONIZLEME = false;
 const { DERSLER, KONTROL_YAZI } = await import(pathToFileURL(path.join(BU, 'src/adimlar.js')).href);
 const { KESIF, KATEGORI, KATEGORI_SIRA } = await import(pathToFileURL(path.join(BU, 'src/kesif-veri.js')).href);
+const { TELEFON_SORGU } = await import(pathToFileURL(path.join(BU, 'src/telefon.js')).href);
 
 // ------------------------------------------------------------------ yardımcılar
 const esc = (s = '') => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -108,8 +109,10 @@ for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^erisim-.*\.js$
 fs.writeFileSync(path.join(CIKTI, 'assets', erisimJs), erisimKod);
 // keşif gruplarının renkleri tek kaynaktan (src/kesif-veri.js); açık zeminde koyu simge
 const katCss = KATEGORI_SIRA.map((k) => `[data-kat=${k}]{--k:${KATEGORI[k].renk};--ki:${KATEGORI[k].koyu ? '#1b1426' : '#fff'}}`).join('\n');
-const css = (fs.readFileSync(path.join(BU, 'stil.css'), 'utf8') + '\n' + katCss + '\n' + fs.readFileSync(path.join(BU, 'erisilebilirlik.css'), 'utf8')).replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
-const BAS_BETIK = `(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');var m=localStorage.getItem('bote-3d-mod');if(m)d.setAttribute('data-mod',m)}catch(e){}if('noModule' in HTMLScriptElement.prototype)d.setAttribute('data-js','1');var s=new URLSearchParams(location.search).get('sinif');if(/^[5-8]$/.test(s))d.setAttribute('data-sinif',s);else try{var k=localStorage.getItem('bote-3d-sinif');if(/^[5-8]$/.test(k))d.setAttribute('data-sinif',k)}catch(e){}})();` + ';' + erisimErken;
+// telefonda Tahta modu düğmesi yok: telefon tanımı tek kaynaktan (src/telefon.js); dar pencere (<=560 px) kuralı stil.css'te de var, çakışmaz
+const telefonCss = `@media ${TELEFON_SORGU}{#tahta-dugme{display:none}}`;
+const css = (fs.readFileSync(path.join(BU, 'stil.css'), 'utf8') + '\n' + katCss + '\n' + telefonCss + '\n' + fs.readFileSync(path.join(BU, 'erisilebilirlik.css'), 'utf8')).replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
+const BAS_BETIK = `(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');var m=localStorage.getItem('bote-3d-mod');if(m&&!(m==='tahta'&&matchMedia('${TELEFON_SORGU}').matches))d.setAttribute('data-mod',m)}catch(e){}if('noModule' in HTMLScriptElement.prototype)d.setAttribute('data-js','1');var s=new URLSearchParams(location.search).get('sinif');if(/^[5-8]$/.test(s))d.setAttribute('data-sinif',s);else try{var k=localStorage.getItem('bote-3d-sinif');if(/^[5-8]$/.test(k))d.setAttribute('data-sinif',k)}catch(e){}})();` + ';' + erisimErken;
 
 // ------------------------------------------------------------------ ortak parçalar
 function bas({ baslik, aciklama, yol, jsonld, sinif = '' }) {

@@ -16,6 +16,7 @@ import {
   parcaAciklama, parcaUclari, doluNoktalar, kabloluPinler, pinAdi,
 } from './devreCoz.js';
 import { kodUret, girintile } from './ozgurKod.js';
+import { TELEFON_SORGU } from './telefon.js';
 
 const html = document.documentElement;
 const $ = (s, k = document) => k.querySelector(s);
@@ -59,8 +60,13 @@ document.addEventListener('click', (e) => {
 $('#sinif-dugme')?.addEventListener('click', () => pencere?.showModal?.());
 const ilkMod = new URLSearchParams(location.search).get('mod') || oku('bote-3d-mod') ||
   (Math.max(screen.width, screen.height) >= 1600 && navigator.maxTouchPoints > 0 ? 'tahta' : 'normal');
-function modAyarla(m, kaydet) { html.dataset.mod = m; $('#tahta-dugme')?.setAttribute('aria-pressed', String(m === 'tahta')); if (kaydet) sakla('bote-3d-mod', m); aracSigdir(); }
+// Telefonda (src/telefon.js) Tahta modu uygulanmaz: düğme gizli, kayıtlı tercih ya da ?mod=tahta adresi telefon düzenini bozmasın.
+// İstenen mod saklanır, telefon tanımından çıkılınca (pencere boyutu, cihaz değişimi) uygulanır; data-mod hep uygulanan modu gösterir.
+const telefon = window.matchMedia(TELEFON_SORGU);
+let istenenMod = ilkMod;
+function modAyarla(m, kaydet) { istenenMod = m; html.dataset.mod = m === 'tahta' && telefon.matches ? 'normal' : m; $('#tahta-dugme')?.setAttribute('aria-pressed', String(html.dataset.mod === 'tahta')); if (kaydet) sakla('bote-3d-mod', m); aracSigdir(); }
 modAyarla(ilkMod, false);
+telefon.addEventListener?.('change', () => modAyarla(istenenMod, false));
 $('#tahta-dugme')?.addEventListener('click', () => modAyarla(html.dataset.mod === 'tahta' ? 'normal' : 'tahta', true));
 const temaRengi = () => (html.dataset.theme === 'dark' ? '#17121f' : '#e9e5f1');
 $('#tema-dugme')?.addEventListener('click', () => {
