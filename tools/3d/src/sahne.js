@@ -16,7 +16,8 @@ import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment
 
 const HEDEF_PIKSEL = 4.2e6; // ~2560x1600: Full HD'nin üstü; 4K tahtada 0,7 ölçek
 const KADEME = [1, 0.8, 0.65, 0.5]; // yavaşlıkta inilen çözünürlük kademeleri
-const azHareket = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+// Azaltılmış hareket: tarayıcı tercihi ya da erişilebilirlik ayarındaki "Hareketi durdur" (src/erisilebilirlik.js, <html data-e-hareketsiz>)
+const azHareket = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.hasAttribute('data-e-hareketsiz');
 const yumusak = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
 // guvenliAlan: () => ({ ust, alt, sol, sag }) tuval kenarlarından px; sahnedeki düğme şeritleri, ipucu ve telefonda
@@ -58,7 +59,7 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {}, guvenl
   scene.add(zemin);
 
   const controls = new OrbitControls(camera, canvas);
-  controls.enableDamping = true;
+  controls.enableDamping = !document.documentElement.hasAttribute('data-e-hareketsiz'); // süzülme de harekettir
   controls.dampingFactor = 0.14;
   controls.rotateSpeed = 0.75;
   controls.zoomSpeed = 0.9;
@@ -153,6 +154,13 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {}, guvenl
   let boyutZaman = 0;
   const ro = new ResizeObserver(() => { clearTimeout(boyutZaman); boyutZaman = setTimeout(boyutla, 110); });
   ro.observe(canvas);
+  // Erişilebilirlik ayarı değişti (src/erisilebilirlik.js bildirir): süzülme açılır ya da kapanır; yazı boyutu, aralık ve
+  // yazı tipi etiketleri büyütüp küçültür, bu yüzden genişlikleri yeniden ölçülür. Sahne bir kez çizilir, sürekli döngü açılmaz.
+  window.addEventListener('bote-erisim', () => {
+    controls.enableDamping = !document.documentElement.hasAttribute('data-e-hareketsiz');
+    for (const e of etiketler) e.w = 0;
+    iste();
+  });
 
   // Telefonda kart sayfası sahnenin altını örter: görünür bölgenin ortası hedeflenir (görüş kaydırma),
   // sığdırma görünür yüksekliğe göre yapılır. Yalnız izdüşüm değişir, tuval boyutu değişmez (ucuz).

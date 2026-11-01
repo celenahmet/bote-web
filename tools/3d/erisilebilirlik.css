@@ -1,0 +1,129 @@
+/* Erişilebilirlik (ders ve Özgür Mod sayfaları; merkez sayfasında yalnız kayıtlı ayarlar uygulanır, değiştirme arayüzü yoktur).
+   Ayarlar <html> üzerinde data-e-* öznitelikleri olarak durur (src/erisim-cekirdek.js; ilk boyamadan önce yazılır).
+   Derleyici (build.mjs) satır sonlarını boşluksuz birleştirir: bir seçici ya da değer satır ortasında bölünmez.
+   KAPSAM: metin ve renk ayarları arayüze (panel, kartlar, bilgi kartı, öğretmen notu, renk açıklaması, sahne etiketleri ve
+   düğmeleri) uygulanır. 3D sahnenin kendisi (canvas, işaretler, etiket renkleri) ders içeriğidir ve renkleri anlam taşır
+   (LED kırmızısı, kablo renkleri, keşif grupları): ters renk ve renk canlılığı oraya UYGULANMAZ, canvas hiçbir süzgeçten geçmez. */
+
+/* ------------------------------------------------ üst çubuktaki giriş düğmesi */
+html:not([data-js]) #erisim-dugme{display:none}
+#erisim-dugme{position:relative;padding:0}
+#erisim-dugme[aria-expanded=true],#erisim-dugme[data-okuyor]{background:var(--violet-soft);border-color:var(--violet);color:var(--violet)}
+/* Çok dar telefon (320-350 px): giriş düğmesiyle üst çubuk taşardı ve koyu tema düğmesi kırpılırdı. Mevcut taşma yönteminde olduğu gibi
+   önemsiz bir parça gizlenir: markanın ".web.tr" uzantısı (bağlantı yine "bote" ve "blog" olarak okunur). 360 px ve üstünde değişen bir şey yok. */
+@media (max-width:350px){.ust .marka b{display:none}}
+/* Tahta modu ile dar pencere (ör. yatayda açılıp dikeye çevrilen telefon ya da küçük tablet): tahta ölçüleri büyük olduğundan giriş düğmesiyle
+   üst çubuk taşardı. Mevcut taşma yöntemi (etiketleri gizle, ders adını ve tahta, tam ekran düğmelerini gizle) biraz daha geniş eşiklerle
+   tahta modunda da uygulanır; telefon genişliğinde (560 px ve altı) üst çubuk normal ölçüsüne döner. */
+@media (max-width:760px){html[data-mod=tahta] .ust-sag .dugme .yazi{display:none}}
+@media (max-width:640px){html[data-mod=tahta] :is(.ders-adi,#tahta-dugme,#tam-ekran){display:none}}
+@media (max-width:560px){html[data-mod=tahta] .ust{--btn:44px;font-size:16px}}
+html[data-e-var] #erisim-dugme::after{content:"";position:absolute;top:calc(var(--btn) * .16);right:calc(var(--btn) * .16);width:max(8px,calc(var(--btn) * .2));height:max(8px,calc(var(--btn) * .2));border-radius:50%;background:var(--violet);box-shadow:0 0 0 2px var(--surface)}
+
+/* ------------------------------------------------ ayar katmanı ("Panel ayarları" ile aynı kalıp: .ayarlar, .ayar-perde) */
+.erisim-panel{gap:6px}
+.erisim-panel .ayar-ad{margin:8px 0 0}
+.e-not{margin:0;color:var(--muted);font-size:.85em;line-height:1.35}
+.e-not[hidden]{display:none}
+.e-izgara{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,9.5em),1fr));gap:8px}
+.e-karo{position:relative;display:flex;align-items:center;gap:8px;min-width:0;min-height:max(var(--hedef),var(--btn));padding:6px 10px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font-weight:600;font-size:.9em;line-height:1.2;text-align:left;overflow-wrap:break-word;cursor:pointer;touch-action:manipulation;user-select:none}
+.e-karo[hidden]{display:none}
+/* Alttan açılan sayfada (telefon, dikey tablet) parmak için biraz daha yüksek; yatay kartta 1080p yükseklikte kaydırma gerekmesin diye düz ölçü */
+@media (orientation:portrait),(max-width:820px){.e-karo{min-height:max(var(--hedef),calc(var(--btn) * 1.15))}}
+.e-karo>.ico,.e-konus>span>.ico{flex:none;width:1.4em;height:1.4em;color:var(--muted)}
+.e-karo>span{min-width:0;flex:1}
+.e-karo .e-onay{display:none;order:-1;flex:none;width:1.4em;height:1.4em;color:inherit;stroke-width:3}
+.e-karo[aria-pressed=true],.e-konus[data-okuyor]{background:var(--violet-soft);border-color:var(--violet);color:var(--violet)}
+.e-karo[aria-pressed=true]>.ico,.e-konus[data-okuyor]>span>.ico{color:inherit}
+.e-karo[aria-pressed=true]>.ico:not(.e-onay){display:none}
+.e-karo[aria-pressed=true] .e-onay{display:block}
+.e-konus>span{display:flex;align-items:center;gap:8px;min-width:0}
+.e-konus>span>span{min-width:0;flex:1}
+.e-konus .e-konus-dur,.e-konus[data-okuyor] .e-konus-oku{display:none}
+.e-konus[data-okuyor] .e-konus-dur{display:flex}
+.e-kademe .dugme{min-width:0;padding:0 4px;font-size:.88em;line-height:1.15;white-space:normal;text-align:center}
+.e-kademe .dugme[aria-pressed=true]{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+.erisim-panel .dugme[aria-disabled=true]{opacity:.4}
+.erisim-panel .yazi-deger{flex:none}
+.e-sifirla{margin-top:6px;width:100%}
+
+/* ------------------------------------------------ yazı boyutu: Panel ayarlarındaki ayar (--yazi) kart gövdesinden başka okuma
+   alanlarına da uygulanır (bilgi kartı, öğretmen notu, renk açıklaması, sahne etiketleri). Düğme ve gezinme çubukları sabit boyutta
+   kalır: sığmama ve dokunma hedefi riski. Üst çubuk da sabittir. */
+.bilgi{font-size:calc(.95em * var(--yazi,1))}
+.lejant{font-size:calc(.88em * var(--yazi,1))}
+.etiket{font-size:calc(.95em * var(--yazi,1))}
+.ek{font-size:calc(1em * var(--yazi,1))}
+
+/* ------------------------------------------------ satır aralığı (paragraf taşıyan alanlar; kod blokları ve tek satırlık etiketler değil) */
+html[data-e-satir="1"]{--e-satir:1.85}
+html[data-e-satir="2"]{--e-satir:2.2}
+html[data-e-satir] :is(.kart-govde,.ek,.bilgi,dialog,.merkez,.lejant) :not(.kod,.kod *,svg,svg *){line-height:var(--e-satir)!important}
+
+/* ------------------------------------------------ harf ve kelime aralığı (üst çubuk hariç: düğmeler sığsın; kod ve işaretler hariç) */
+html[data-e-harf="1"]{--e-harf:.05em;--e-kelime:.12em}
+html[data-e-harf="2"]{--e-harf:.1em;--e-kelime:.24em}
+html[data-e-harf] :is(.kart-alani,.ek,.bilgi,.lejant,.etiket,.sahne-arac,.mini-gezinti,.ust-bant,dialog,.merkez,.alt):not(.kod,.kod *),html[data-e-harf] :is(.kart-alani,.ek,.bilgi,.lejant,.etiket,.sahne-arac,.mini-gezinti,.ust-bant,dialog,.merkez,.alt) :not(.kod,.kod *,svg,svg *){letter-spacing:var(--e-harf)!important;word-spacing:var(--e-kelime)!important}
+
+/* ------------------------------------------------ sığdırma: yazı büyüyünce, harf aralığı açılınca ya da okunaklı yazı tipi (Verdana daha geniştir)
+   seçilince sabit genişlikli yerler taşmasın. Düğmeler ve sekmeler alt satıra iner, uzun sözcük en son çare olarak bölünür. Yalnız ilgili ayar
+   açıkken devreye girer; varsayılan görünüme dokunulmaz. Palet em ile ölçülür: yazı büyüdükçe sütun sayısı kendiliğinden azalır. */
+html[data-e-var] .tahmin summary{flex-wrap:wrap;overflow-wrap:anywhere}
+html[data-e-var] .ozgur-sayfasi .palet{grid-template-columns:repeat(auto-fill,minmax(min(100%,9em),1fr))}
+html[data-e-var] .ozgur-sayfasi .palet-dugme>span{min-width:0;overflow-wrap:anywhere}
+html:is([data-e-harf],[data-e-okunakli]) .ozgur-sayfasi .sekmeler{flex-wrap:wrap}
+html:is([data-e-harf],[data-e-okunakli]) .ozgur-sayfasi .sekmeler [role=tab]{flex:1 1 auto;white-space:normal;overflow-wrap:anywhere;text-align:center}
+html:is([data-e-harf],[data-e-okunakli]) .ozgur-sayfasi .kart-alt{display:flex;flex-wrap:wrap}
+html:is([data-e-harf],[data-e-okunakli]) .ozgur-sayfasi .kart-alt .dugme{flex:1 1 auto;max-width:100%;white-space:normal;overflow-wrap:anywhere;line-height:1.15}
+
+/* ------------------------------------------------ okunaklı yazı tipi: gövde yazısı değişir, kod yazı tipi (--mono) değişmez. Üst çubuk dar telefonda
+   sıfır payla sığdığı için varsayılan yazı tipinde kalır (Verdana yaklaşık %12 geniştir ve koyu tema düğmesini kırpardı). */
+html[data-e-okunakli] body{font-family:Verdana,"Segoe UI",Tahoma,"DejaVu Sans","Noto Sans",sans-serif}
+html[data-e-okunakli] .ust{font-family:var(--font)}
+
+/* ------------------------------------------------ başlık ve bağlantı vurgusu */
+html[data-e-baslik] :is(.kart-govde,.ek,.bilgi,dialog,.merkez) :is(h1,h2,h3){outline:2px dashed var(--violet);outline-offset:3px;background:var(--violet-soft);border-radius:4px}
+html[data-e-baglanti] :is(.kart-govde,.ek,.bilgi,.alt,dialog,.merkez .giris,.notlar) a:not(.ders-listesi a){background:#fef08a;color:#1e1b4b;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px;border-radius:3px}
+
+/* ------------------------------------------------ yüksek kontrast: renk belirteçleri (süzgeç değil, canvas'a dokunmaz).
+   Açık tema açık, koyu tema koyu kalır; yalnız yazı ile zemin arasındaki fark artar. --sahne değişmez. */
+html[data-e-kontrast]:not([data-theme=dark]){--bg:#fff;--surface:#fff;--raised:#ececec;--ink:#000;--ink-2:#000;--muted:#222;--line:#000;--violet:#3a169c;--violet-soft:#e8defd;--ok:#0a5a24;--ok-soft:#d4f5df;--bad:#8c1006;--bad-soft:#ffdad5;--kod:#f0f0f0}
+html[data-e-kontrast][data-theme=dark]{--bg:#000;--surface:#000;--raised:#16111f;--ink:#fff;--ink-2:#fff;--muted:#e6e0f3;--line:#fff;--violet:#d2c0ff;--violet-soft:#2b1c55;--ok:#6ef0a0;--ok-soft:#0b3a1c;--bad:#ff9f93;--bad-soft:#4a1410;--kod:#0f0b17}
+html[data-e-kontrast][data-theme=dark] .etiket-yesil{color:#000}
+html[data-e-kontrast] :is(.dugme,.cip,.e-karo,.soru button,.tahmin){border-width:2px}
+html[data-e-kontrast] a{text-decoration:underline}
+
+/* ------------------------------------------------ ters renk ve renk canlılığı: yalnız arayüz kabuğuna süzgeç.
+   Sahne alanı (canvas, etiketler, işaretler, renk açıklaması, bakış açısı düğmeleri, bilgi kartı) süzülmez. Süzgeç .kart-alani'nin
+   kendisine değil iç kısımlarına verilir (telefonda alttan açılan ayar sayfaları position:fixed'dir; süzgeçli bir üst öğe onları
+   kendi kutusuna hapseder). Panelin arka planı süzgece girsin diye iç kısımlara yüzey rengi verilir. */
+html[data-e-ters]{--e-f1:invert(1) hue-rotate(180deg)}
+html[data-e-renk="1"]{--e-f2:saturate(.45)}
+html[data-e-renk="2"]{--e-f2:grayscale(1)}
+html:is([data-e-ters],[data-e-renk]):not([data-e-hub]) :is(.ust,.panel-kenar,.tutamac,.kart-ust,.kart-govde,.kart-alt,.ayarlar,.ek,dialog,.alt){filter:var(--e-f1,) var(--e-f2,)}
+html:is([data-e-ters],[data-e-renk]):not([data-e-hub]) :is(.tutamac,.kart-ust,.kart-govde){background:var(--surface)}
+html[data-e-ters]:not([data-e-hub]) :is(.ayarlar,.ek,dialog,.panel-dugme){box-shadow:none}
+html[data-e-ters]:not([data-e-hub]) .kenar-tutamac::before{box-shadow:none}
+html[data-e-hub]:is([data-e-ters],[data-e-renk]){filter:var(--e-f1,) var(--e-f2,)}
+
+/* ------------------------------------------------ büyük imleç (44 piksellik ok, uç noktası sol üstte) */
+html[data-e-imlec],html[data-e-imlec] *{cursor:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cpath d='M6 3v32l8.5-7.5 6 13.5 6-2.6-6-13.4H33z' fill='black' stroke='white' stroke-width='2.5' stroke-linejoin='round'/%3E%3C/svg%3E") 6 3,auto!important}
+
+/* ------------------------------------------------ belirgin odak: iki tonlu halka (içte yazı rengi, dışta sarı), her zeminde görünür */
+html[data-e-odak] :focus-visible{outline:3px solid var(--ink)!important;outline-offset:2px!important;box-shadow:0 0 0 7px #f59e0b!important}
+
+/* ------------------------------------------------ hareketi durdur: geçişler ve animasyonlar anında biter (kamera uçuşlarını
+   sahne.js, süzülmeyi ve kaydırmayı ayrıca durdurur). prefers-reduced-motion desteğiyle birlikte çalışır. */
+html[data-e-hareketsiz] *,html[data-e-hareketsiz] *::before,html[data-e-hareketsiz] *::after{animation-duration:.001ms!important;animation-delay:0s!important;animation-iteration-count:1!important;transition-duration:.001ms!important;transition-delay:0s!important;scroll-behavior:auto!important}
+
+/* ------------------------------------------------ okuma kılavuzu ve maskesi (pointer-events:none: sahneyi döndürmeyi,
+   dokunmayı ve kaydırmayı engellemez). Konum yalnız işaretçi olayında yazılır. */
+.e-kilavuz{position:fixed;left:0;top:0;width:100%;height:max(14px,.9em);z-index:75;pointer-events:none;border-block:2px solid #4338ca;background:rgba(245,158,11,.4);will-change:transform}
+.e-maske{position:fixed;inset:0;z-index:60;pointer-events:none}
+.e-maske span{position:absolute;left:0;right:0;background:rgba(2,6,23,.62)}
+.e-maske span:first-child{top:0;height:0}
+.e-maske span:last-child{bottom:0;top:50%}
+/* ayar katmanı maskenin üstünde kalır, yoksa ayarlar karartılır */
+html[data-e-maske] .erisim-panel{z-index:70}
+@media (orientation:portrait),(max-width:820px){html[data-e-maske][data-js] .kart-alani:has(.erisim-panel:not([hidden])){z-index:66}}
+@media print{.e-kilavuz,.e-maske{display:none}}
