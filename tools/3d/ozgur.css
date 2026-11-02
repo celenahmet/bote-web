@@ -188,6 +188,29 @@ html[data-mod=tahta] .secici-izgara button{min-height:var(--btn)}
   .ozgur-sayfasi .ust-sag .dugme .yazi{display:inline;position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
   .ozgur-sayfasi .ust-sag{gap:6px}
 }
+/* Sanal | Fiziksel geçişi (03.11) dar ekranda üst çubuğa sığsın: ortak çubuk geçişle 700 px altında yana taşıyor ya da sayfa
+   adını eziyor (ders sayfalarında da öyle, orada değiştirilmedi). 690 px altında sayfa adı gizlenir; 620 px altında aralıklar
+   daralır ve geçiş tahta modundaki gibi tek düğme olur (yalnız o anki görünüm, dokununca diğerine geçer; gorunum.js gizli düğmeyi
+   görüp tek düğme gibi davranır); 440 px altında marka kısalır; 350 px altında kenar boşluğu ve sınıf düğmesi daralır.
+   Dokunma hedefleri 44 px kalır. */
+@media (max-width:689px){.ozgur-sayfasi .ders-adi{display:none}}
+@media (max-width:619px){
+  .ozgur-sayfasi .ust{gap:6px}
+  .ozgur-sayfasi .ust-sag{gap:4px}
+  .ozgur-sayfasi .gorunum-gecis button[aria-pressed=false]{display:none}
+  .ozgur-sayfasi .gorunum-gecis button{border-left:0}
+  .ozgur-sayfasi .gorunum-gecis.gg-mesgul button{cursor:progress;opacity:.75}
+}
+@media (max-width:439px){
+  .ozgur-sayfasi .ust .marka b{display:none}
+  .ozgur-sayfasi .ust .marka{padding-inline:5px;margin-inline:-5px}
+}
+@media (max-width:350px){
+  .ozgur-sayfasi .ust{padding-inline:8px;gap:4px}
+  .ozgur-sayfasi .ust-sag{gap:2px}
+  .ozgur-sayfasi #sinif-dugme{padding-inline:8px}
+  .ozgur-sayfasi #tema-dugme{padding-inline:0}
+}
 /* Sahne dar (yatay telefon, yan panel açık) ve araç çubuğu sığmıyor: bakış düğmeleri kısa adla, Röntgen yalnız ikonla (ozgur.js aracSigdir) */
 .sahne-alani.dar .gorunum .uzun{display:none}
 .sahne-alani.dar .gorunum .kisa{display:inline}

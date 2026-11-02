@@ -339,5 +339,20 @@ export function saglayiciKur(duzey, aniz) {
     // 2 çizim çağrısı, yaklaşık 3 bin üçgen)
     ek: (ad) => (duzey === 'sade' ? { smd: true } : { smd: true, soket: duzey !== 'dusuk', ledIc: duzey !== 'dusuk' })[ad] ?? false,
     dispose() { for (const m of onbellek.values()) m.dispose(); for (const m of ozelMat) m.dispose(); for (const t of dokular) t.dispose(); },
+    // Özgür Mod: kaldırılan parçanın derisini boşaltır. Paylaşılan malzemelere (mat) ve onların dokularına dokunulmaz;
+    // parçaya özel malzeme ve doku kayıt listelerinden de çıkar (sağlayıcı kapanırken ikinci kez boşaltılmaz, liste büyümez).
+    birak(kok) {
+      const ortak = new Set(onbellek.values()), ortakDoku = new Set();
+      for (const m of ortak) for (const v of Object.values(m)) if (v?.isTexture) ortakDoku.add(v);
+      const cikar = (liste, x) => { const i = liste.indexOf(x); if (i >= 0) liste.splice(i, 1); };
+      kok.traverse((o) => {
+        o.geometry?.dispose();
+        for (const m of [].concat(o.material || [])) {
+          if (ortak.has(m)) continue;
+          for (const v of Object.values(m)) if (v?.isTexture && !ortakDoku.has(v)) { v.dispose(); cikar(dokular, v); }
+          m.dispose(); cikar(ozelMat, m);
+        }
+      });
+    },
   };
 }

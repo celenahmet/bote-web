@@ -18,6 +18,7 @@ import {
 import { kodUret, girintile } from './ozgurKod.js';
 import { TELEFON_SORGU } from './telefon.js';
 import { panelSiniflari, seritYedegi, tamEkranKur } from './uyum.js'; // eski tarayıcı yedekleri
+import { gercekciBagla } from './gercekci.js'; // Fiziksel görünüm: ders sayfalarıyla aynı geçiş ve deriler
 
 const html = document.documentElement;
 const $ = (s, k = document) => k.querySelector(s);
@@ -33,6 +34,7 @@ const IKON = (() => { try { return JSON.parse($('#ozgur-ikon')?.textContent || '
 const SEVIYE_AD = { hata: 'Hata', uyari: 'Uyarı', bilgi: 'Bilgi' };
 html.dataset.js = '1';
 let S = null, kart = null, bb = null; // sahne (WebGL yoksa null kalır); panel kodu da kullandığı için en üstte
+let gercekci = null; // Fiziksel görünüm denetimi (gercekci.js); sahne kurulunca
 
 // ================================================================== ortak: sınıf, kip, tema, tam ekran, öğretmen (ders sayfalarıyla aynı)
 const SINIFLAR = ['5', '6', '7', '8'];
@@ -348,6 +350,13 @@ function sahneBaslat() {
   isaretleriKur();
   parcalariKur();
   isinma();
+  // Fiziksel görünüm (Ahmet 03.11: "Fiziksel görünüm Özgür Mod'da da olsun"): üst çubuktaki Sanal | Fiziksel geçişi ve
+  // deriler ders sayfalarıyla aynı (gorunum.js, gercekci.js). Kart, breadboard ve şu an takılı parçalar burada verilir;
+  // sonradan takılan ve kaldırılan parçaları parcalariKur bildirir. Deriler ilk Fiziksel geçişte kurulur (Sanal'da hiç).
+  // ?gorunum=fiziksel ya da kayıtlı tercihle açılışta ilk kare Sanal çizilmeden Fiziksel kurulur.
+  const ilk = {};
+  for (const [id, v] of nesneler) ilk[id] = { tur: v.tur, nesne: v.nesne };
+  gercekci = gercekciBagla({ S, kart, bb, parcalar: ilk, ornekler: fizOrnekleri });
   // gorunen: alçak yatay ekranda kayıtlı "yarım" kısa görünür; kadraj ekrandaki sayfaya göre (yarıma göre küçük kalıyordu)
   if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[gorunen(sayfaDurum)]()), true);
   S.kameraGit(KAMERA.genel, true);
@@ -378,6 +387,13 @@ function isinma() {
   S.scene.remove(led); parcaAt(led);
   [imlec.visible, ilkIsaret.visible] = gorunen;
 }
+// Fiziksel deriler kurulurken her parça türünün gölgelendiricisi de derlensin (gercekci.js ornekler): breadboard boşken
+// Fiziksel'e geçilip sonra takılan ilk LED ya da direnç sahneyi takmasın. Örnekler sahneye eklenmez, hemen boşaltılır.
+function fizOrnekleri() {
+  const a = new Vector3(-150, BB_UST, 60), b = new Vector3(-142.38, BB_UST, 60);
+  return [ozgurLedYap('kirmizi', a, b), ozgurDirencYap(220, a, b), ozgurButonYap(a), ozgurKabloYap(a, b, 'turuncu')]
+    .map((nesne, i) => ({ tur: ['led', 'direnc', 'buton', 'kablo'][i], nesne, at: () => parcaAt(nesne) }));
+}
 
 const parcaAnahtar = (p) => JSON.stringify([p.tur, p.renk, p.deger, p.anot, p.katot, p.a, p.b, p.sutun, p.bas, p.son]);
 function parcaNesnesi(p) {
@@ -395,15 +411,17 @@ function parcalariKur() {
     gorulen.add(p.id);
     const a = parcaAnahtar(p), v = nesneler.get(p.id);
     if (v && v.anahtar === a) continue;
-    if (v) { S.scene.remove(v.nesne); parcaAt(v.nesne); }
+    // Fiziksel derisi önce ayrılıp boşaltılır (parcaAt deriye ve paylaşılan malzemelerine dokunmasın)
+    if (v) { gercekci?.parcaCikar(p.id); S.scene.remove(v.nesne); parcaAt(v.nesne); }
     const nesne = parcaNesnesi(p);
     nesne.userData.parcaId = p.id;
     nesne.updateMatrixWorld(true);
     S.scene.add(nesne);
-    nesneler.set(p.id, { nesne, anahtar: a });
+    nesneler.set(p.id, { nesne, anahtar: a, tur: p.tur });
+    gercekci?.parcaEkle(p.id, { tur: p.tur, nesne }); // Fiziksel açıksa derisi hemen kurulur
     degisen = true;
   }
-  for (const [id, v] of nesneler) if (!gorulen.has(id)) { S.scene.remove(v.nesne); parcaAt(v.nesne); nesneler.delete(id); degisen = true; }
+  for (const [id, v] of nesneler) if (!gorulen.has(id)) { gercekci?.parcaCikar(id); S.scene.remove(v.nesne); parcaAt(v.nesne); nesneler.delete(id); degisen = true; }
   for (const id of basili) nesneler.get(id)?.nesne.userData.bas?.(true);
   if (degisen) S.golgeYenile();
 }
@@ -1177,5 +1195,6 @@ if (TEST) window.ozgurTest = {
     return v ? ekranKonum(v) : null;
   },
   adimPiksel: (id) => (S ? adimPiksel(noktaV(id)) : null),
-  durum: () => JSON.parse(JSON.stringify({ parcalar: devre.parcalar, program: devre.program, calisiyor, sonuc, arac: arac && { tur: arac.tur, ilk: arac.ilk }, secici: !$('#secici').hidden, secili: seciliId, imlec: imlecId, kare: kareSayac, kalite: S?.kalite() })),
+  durum: () => JSON.parse(JSON.stringify({ parcalar: devre.parcalar, program: devre.program, calisiyor, sonuc, arac: arac && { tur: arac.tur, ilk: arac.ilk }, secici: !$('#secici').hidden, secili: seciliId, imlec: imlecId, kare: kareSayac, kalite: S?.kalite(), gercekci: gercekci?.durum() })),
+  gorunum: (ad) => gercekci?.gorunum(ad), // Sanal | Fiziksel (düğmeyle aynı yol)
 };

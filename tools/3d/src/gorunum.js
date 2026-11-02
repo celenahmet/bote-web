@@ -32,7 +32,7 @@ const CSS = [
   ':root[data-mod=tahta] .gorunum-gecis button{border-left:0}',
   '.gorunum-gecis .gg-degis{display:none;width:.95em;height:.95em;opacity:.7}',
   ':root[data-mod=tahta] .gorunum-gecis .gg-degis{display:inline-block}',
-  ':root[data-mod=tahta] .gorunum-gecis:has([aria-busy=true]) button{cursor:progress;opacity:.75}',
+  ':root[data-mod=tahta] .gorunum-gecis.gg-mesgul button{cursor:progress;opacity:.75}', // sınıfı ayarla() koyar (:has() eski tarayıcıda yok)
 ].join('\n');
 
 const SVG = '<svg class="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">';
@@ -68,6 +68,7 @@ export function gorunumKur(uygula) {
     if (ad === simdiki) { durumYaz(); return; }
     const f = dugmeler.find((b) => b.dataset.gorunumSec === ad);
     f?.setAttribute('aria-busy', 'true');
+    gecis.classList.add('gg-mesgul'); // :has() yerine sınıf: Firefox 115 ve eski tahta tarayıcıları için
     if (ad === 'fiziksel' && !sessiz) duyur('Fiziksel görünüm hazırlanıyor');
     let tamam = true;
     try { await uygula(ad); } catch (e) {
@@ -75,6 +76,7 @@ export function gorunumKur(uygula) {
       console.warn('Fiziksel görünüm açılamadı', e);
     }
     f?.removeAttribute('aria-busy');
+    gecis.classList.toggle('gg-mesgul', !!gecis.querySelector('[aria-busy=true]'));
     if (istenen !== ad) return; // bu arada başka görünüm seçildi
     if (!tamam) { simdiki = 'sanal'; sakla(ANAHTAR, 'sanal'); durumYaz(); duyur('Fiziksel görünüm açılamadı, Sanal görünümde devam ediliyor'); return; }
     simdiki = ad;
@@ -91,8 +93,10 @@ export function gorunumKur(uygula) {
   }
   gecis.addEventListener('click', (e) => {
     const b = e.target.closest('[data-gorunum-sec]'); if (!b) return;
-    // tahta modunda tek düğme görünür: dokunuş diğer görünüme geçirir (yüklenirken ikinci dokunuş yok sayılır)
-    if (html.dataset.mod === 'tahta') { if (!gecis.querySelector('[aria-busy=true]')) ayarla(simdiki === 'sanal' ? 'fiziksel' : 'sanal'); return; }
+    // tahta modunda (ya da sayfanın CSS'i dar ekranda seçili olmayanı gizlediğinde, ozgur.css) tek düğme görünür: dokunuş
+    // diğer görünüme geçirir (yüklenirken ikinci dokunuş yok sayılır). Gizli düğme yoksa davranış iki düğmeli geçiştir.
+    const tek = html.dataset.mod === 'tahta' || dugmeler.some((d) => !d.getClientRects().length);
+    if (tek) { if (!gecis.querySelector('[aria-busy=true]')) ayarla(simdiki === 'sanal' ? 'fiziksel' : 'sanal'); return; }
     ayarla(b.dataset.gorunumSec);
   });
   html.dataset.gorunumKip = 'sanal';

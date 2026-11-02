@@ -58,21 +58,38 @@ function duzeyAlgila(renderer, S) {
   return { duzey: SIRA[tavan], neden, cizici };
 }
 
-export function gercekciBagla({ S, kart, bb, parcalar }) {
+// Özgür Mod (03.11, Ahmet: "Fiziksel görünüm Özgür Mod'da da olsun"): parçalar sonradan takılır ve kaldırılır.
+// parcaEkle / parcaCikar yalnız oradan çağrılır; ders sayfalarında parcalar baştan bellidir ve bu yol hiç işlemez.
+// ornekler (isteğe bağlı): sahnede henüz olmayan parça türleri, deriler kurulurken gölgelendiricileri ısıtılsın diye.
+export function gercekciBagla({ S, kart, bb, parcalar, ornekler = null }) {
   const son = { kart: {}, bb: {}, parca: {} };
   const durum = { duzey: null, neden: [], gorunum: 'sanal', hazir: false, istatistik: {} };
   let deri = null, ozgunIsik = null, isik = null;
   const parkli = [];
+  const parcaPark = new Map(); // parça adı -> o parçanın park edilen Sanal mesh'leri (parça kaldırılınca listeden çıkar)
+  const bekleyen = new Set();  // deriler kurulduktan sonra Sanal'dayken takılan parçalar: sonraki Fiziksel geçişte kurulur
   const ac = (yer, ad, deger) => { const f = yer?.kanca?.[ad]; if (f) f(deger); };
 
   // ---------------------------------------------------------- kancalar (Sanal'da yalnız durum saklanır)
   sar(kart, 'ledL', (v) => { son.kart.ledL = v; if (deri) ac(deri.kart, 'ledL', v); });
   sar(kart, 'ledOn', (v) => { son.kart.ledOn = v; if (deri) ac(deri.kart, 'ledOn', v); });
   sar(bb, 'rontgen', (v) => { son.bb.rontgen = v; if (deri) ac(deri.bb, 'rontgen', v); });
-  for (const [ad, p] of Object.entries(parcalar)) {
-    son.parca[ad] = {};
-    for (const k of ['ac', 'bacak', 'bas', 'buyut']) sar(p.nesne.userData, k, (v) => { son.parca[ad][k] = v; if (deri) ac(deri.parca[ad], k, v); });
+  // kaldırılmış bir parçanın eski nesnesi çağrılırsa (aynı adla yenisi takılmış olabilir) yeni parçanın derisine gitmez
+  function kancaBagla(ad, p) {
+    const s = son.parca[ad] = {};
+    for (const k of ['ac', 'bacak', 'bas', 'buyut']) sar(p.nesne.userData, k, (v) => { s[k] = v; if (deri && parcalar[ad] === p) ac(deri.parca[ad], k, v); });
   }
+  for (const [ad, p] of Object.entries(parcalar)) kancaBagla(ad, p);
+  // park edilecek Sanal mesh'ler: deri eklenmeden ÖNCE toplanır. Toplamalı ışımalar, örnekli seçim kareleri ve
+  // görünmez vekiller ortak katmandır, yerinde kalır. Sanal kartın örnekli SMD'leri (userData.park) park edilir.
+  const topla = (kok, liste) => kok.traverse((o) => {
+    if (!o.isMesh || (o.isInstancedMesh && !o.userData.park)) return;
+    const m = o.material;
+    if (!Array.isArray(m) && (m.visible === false || m.blending === AdditiveBlending)) return;
+    liste.push({ o, mask: o.layers.mask });
+  });
+  // dokular ekran kartına önceden yüklenir (görüş alanına ilk giren parça dönüş sırasında takılmasın)
+  const dokuIsit = (g) => g.traverse((o) => { if (o.isMesh) for (const m of [].concat(o.material)) for (const v of Object.values(m || {})) if (v?.isTexture) S.renderer.initTexture(v); });
 
   // ---------------------------------------------------------- kurma (tembel: ilk Fiziksel isteğinde, bir kez)
   function kur() {
@@ -88,16 +105,11 @@ export function gercekciBagla({ S, kart, bb, parcalar }) {
       d = { sag, kart: gizli(kartDerisiYap(sag, { logo: ARDUINO_LOGO })), bb: gizli(bbDerisiYap(sag)), parca: {}, gruplar: [] };
       for (const [ad, p] of Object.entries(parcalar)) { const pd = gizli(parcaDerisiYap(sag, p.tur, p.nesne)); if (pd) d.parca[ad] = pd; }
     } catch (e) { try { sag.dispose(); } catch (e2) { /* yok */ } throw e; }
-    // park edilecek Sanal mesh'ler: deriler eklenmeden ÖNCE toplanır. Toplamalı ışımalar, örnekli seçim kareleri ve
-    // görünmez vekiller ortak katmandır, yerinde kalır. Sanal kartın örnekli SMD'leri (userData.park) park edilir.
+    // park edilecek Sanal mesh'ler (topla): deriler eklenmeden ÖNCE toplanır; parçalarınki ayrıca adıyla saklanır
     const liste = [];
-    const topla = (kok) => kok.traverse((o) => {
-      if (!o.isMesh || (o.isInstancedMesh && !o.userData.park)) return;
-      const m = o.material;
-      if (!Array.isArray(m) && (m.visible === false || m.blending === AdditiveBlending)) return;
-      liste.push({ o, mask: o.layers.mask });
-    });
-    topla(kart.grup); topla(bb.grup); for (const p of Object.values(parcalar)) topla(p.nesne);
+    topla(kart.grup, liste); topla(bb.grup, liste);
+    for (const [ad, p] of Object.entries(parcalar)) { const pk = []; topla(p.nesne, pk); parcaPark.set(ad, pk); liste.push(...pk); }
+    bekleyen.clear();
     kart.grup.add(d.kart.grup); bb.grup.add(d.bb.grup); d.gruplar.push(d.kart.grup, d.bb.grup);
     for (const [ad, pd] of Object.entries(d.parca)) { parcalar[ad].nesne.add(pd.grup); d.gruplar.push(pd.grup); }
     parkli.push(...liste);
@@ -118,11 +130,67 @@ export function gercekciBagla({ S, kart, bb, parcalar }) {
     // dönüş sırasında bir kare takılır (ölçüm: tahta boyutunda bir kez 367 ms)
     try {
       S.renderer.compile(S.scene, S.camera);
-      for (const g of d.gruplar) g.traverse((o) => { if (o.isMesh) for (const m of [].concat(o.material)) for (const v of Object.values(m || {})) if (v?.isTexture) S.renderer.initTexture(v); });
+      for (const g of d.gruplar) dokuIsit(g);
     } catch (e) { console.warn('Fiziksel ısınma atlandı', e); }
+    // Özgür Mod: sahnede olmayan parça türlerinin derileri de bir kez kurulup derlenir; ilk takılan LED ya da direnç
+    // sırasında yeni gölgelendirici derlenip sahne takılmasın. Örneklerin malzemeleri BOŞALTILMAZ (sağlayıcının kaydında
+    // kalır, sağlayıcıyla gider): boşaltılan malzemenin gölgelendiricisini three.js siler; ölçüm 03.11: açılışta 3 program
+    // silindi, Sıfırla sonrası ilk LED yeniden derledi. Geometri sahneye hiç girmediği için hemen boşaltılır.
+    if (ornekler) {
+      try {
+        for (const o of ornekler()) {
+          try { const pd = parcaDerisiYap(sag, o.tur, o.nesne); if (pd) { S.renderer.compile(pd.grup, S.camera, S.scene); dokuIsit(pd.grup); pd.grup.traverse((x) => x.geometry?.dispose()); } } finally { o.at?.(); }
+        }
+      } catch (e) { console.warn('Fiziksel parça ısınması atlandı', e); }
+    }
     durum.hazir = true;
     if (new URLSearchParams(location.search).has('olcum')) console.info('Fiziksel görünüm', durum);
     return d;
+  }
+
+  // ---------------------------------------------------------- Özgür Mod: sonradan takılan ve kaldırılan parçalar
+  // Deri yalnız Fiziksel açıkken kurulur; kurulamazsa o parça Sanal görünüşüyle kalır (park edilmez), ötekiler etkilenmez.
+  function parcaDeriKur(ad) {
+    bekleyen.delete(ad);
+    const p = parcalar[ad];
+    if (!p || !deri || deri.parca[ad]) return;
+    let pd = null;
+    try { pd = parcaDerisiYap(deri.sag, p.tur, p.nesne); } catch (e) { console.warn('Fiziksel parça kurulamadı', ad, e); return; }
+    if (!pd) return;
+    const f = durum.gorunum === 'fiziksel', pk = [];
+    topla(p.nesne, pk);
+    parcaPark.set(ad, pk); parkli.push(...pk);
+    if (f) for (const { o } of pk) o.layers.set(PARK);
+    pd.grup.visible = f;
+    p.nesne.add(pd.grup); deri.gruplar.push(pd.grup); deri.parca[ad] = pd;
+    for (const [k, v] of Object.entries(son.parca[ad] || {})) ac(pd, k, v);
+    try { S.renderer.compile(pd.grup, S.camera, S.scene); dokuIsit(pd.grup); } catch (e) { /* ilk çizimde derlenir */ }
+  }
+  function parcaEkle(ad, p) {
+    if (parcalar[ad]) parcaCikar(ad);
+    parcalar[ad] = p;
+    kancaBagla(ad, p);
+    if (!deri) return; // deriler hiç kurulmadı: ilk Fiziksel geçişte hepsiyle birlikte kurulur
+    if (durum.gorunum === 'fiziksel') { parcaDeriKur(ad); S.iste(); } else bekleyen.add(ad);
+  }
+  // Parçayı kaldırmadan ÖNCE çağrılır: deri Sanal nesneden ayrılır ve boşaltılır (paylaşılan malzemeler kalır);
+  // böylece çağıranın Sanal nesneyi boşaltması deriye ve ortak malzemelere dokunmaz.
+  function parcaCikar(ad) {
+    if (!parcalar[ad]) return;
+    delete parcalar[ad]; delete son.parca[ad]; bekleyen.delete(ad);
+    const pk = parcaPark.get(ad);
+    if (pk) {
+      parcaPark.delete(ad);
+      const s = new Set(pk);
+      for (const { o, mask } of pk) o.layers.mask = mask;
+      for (let i = parkli.length - 1; i >= 0; i--) if (s.has(parkli[i])) parkli.splice(i, 1);
+    }
+    const pd = deri?.parca[ad];
+    if (!pd) return;
+    delete deri.parca[ad];
+    pd.grup.removeFromParent();
+    const i = deri.gruplar.indexOf(pd.grup); if (i >= 0) deri.gruplar.splice(i, 1);
+    deri.sag.birak(pd.grup);
   }
 
   function isikUygula(f) {
@@ -137,7 +205,7 @@ export function gercekciBagla({ S, kart, bb, parcalar }) {
 
   function kipUygula(ad) {
     const f = ad === 'fiziksel';
-    if (f) kur();
+    if (f) { kur(); for (const x of [...bekleyen]) parcaDeriKur(x); }
     if (!deri) return;
     for (const { o, mask } of parkli) { if (f) o.layers.set(PARK); else o.layers.mask = mask; }
     for (const g of deri.gruplar) g.visible = f;
@@ -160,8 +228,9 @@ export function gercekciBagla({ S, kart, bb, parcalar }) {
   }
 
   return {
-    durum: () => ({ ...durum }),
+    // deriParca ve park: deneme betikleri için (parça kaldırılınca derisi ve park kaydı da gitmeli)
+    durum: () => ({ ...durum, deriParca: deri ? Object.keys(deri.parca).length : 0, park: parkli.length }),
     gorunum: (ad) => G.ayarla(ad),
-    kipUygula,
+    kipUygula, parcaEkle, parcaCikar,
   };
 }
