@@ -1,4 +1,5 @@
 // Fiziksel görünüm: Arduino Uno R3 kartının derisi. Sanal kartın (modeller.js kartYap) çocuk grubu olarak eklenir;
+// Sanal kartın kendisi de aynı işlevle 'sade' düzeyde kurulur (Ahmet 02.11: Sanal'a Fiziksel'in parçaları aynen gelir).
 // bütün konumlar Sanal'ın tablolarından okunur (pin, delik, etiket, vekil ve kamera kutuları Sanal'a bağlı).
 // Dünya koordinatı: x = bx - 34,29, z = bz + 5,33 (ardNokta). PCB üstü 4,0; başlık üstü 12,5.
 import {
@@ -39,7 +40,7 @@ const daire = (cx, cz, r, seg = 24) => { const p = new Path(); p.absarc(cx, cz, 
 export function kartDerisiYap(sag, { logo = true } = {}) {
   const g = new Group(); g.name = 'kart-fiziksel';
   const duzey = sag.duzey, ince = duzey !== 'dusuk';
-  const seg = { dusuk: 16, orta: 24, yuksek: 32 }[duzey];
+  const seg = { sade: 16, dusuk: 16, orta: 24, yuksek: 32 }[duzey];
   const smd = sag.ek('smd') ? smdYerlesim(duzey === 'yuksek' ? 1.45 : 1) : [];
   const D = kartDokulari(duzey, { smd, logo });
   for (const t of Object.values(D)) sag.kayit(t);

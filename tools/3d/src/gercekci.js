@@ -89,10 +89,10 @@ export function gercekciBagla({ S, kart, bb, parcalar }) {
       for (const [ad, p] of Object.entries(parcalar)) { const pd = gizli(parcaDerisiYap(sag, p.tur, p.nesne)); if (pd) d.parca[ad] = pd; }
     } catch (e) { try { sag.dispose(); } catch (e2) { /* yok */ } throw e; }
     // park edilecek Sanal mesh'ler: deriler eklenmeden ÖNCE toplanır. Toplamalı ışımalar, örnekli seçim kareleri ve
-    // görünmez vekiller ortak katmandır, yerinde kalır.
+    // görünmez vekiller ortak katmandır, yerinde kalır. Sanal kartın örnekli SMD'leri (userData.park) park edilir.
     const liste = [];
     const topla = (kok) => kok.traverse((o) => {
-      if (!o.isMesh || o.isInstancedMesh) return;
+      if (!o.isMesh || (o.isInstancedMesh && !o.userData.park)) return;
       const m = o.material;
       if (!Array.isArray(m) && (m.visible === false || m.blending === AdditiveBlending)) return;
       liste.push({ o, mask: o.layers.mask });
