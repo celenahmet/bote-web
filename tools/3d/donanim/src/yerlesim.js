@@ -10,6 +10,7 @@ export const FARE = { x: 58, z: 22 };
 export const YAZICI = { x: 88, z: -43 };
 export const MIKROFON = { x: -55, z: 34 };
 export const KULAKLIK = { x: 90, z: 34 };
+export const USB_BELLEK = { x: -33, z: 47, don: 0.5 };
 export const KAMERA_PARCA = { x: 4, y: 66.6, z: -46 };
 
 // Kasa içi (kasa yerel koordinatı: x -20..20, y 0..90, z -43..43)

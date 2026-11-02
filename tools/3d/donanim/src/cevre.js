@@ -45,7 +45,7 @@ export function monitorYap() {
     grup: g, ekran: ek, led,
     kesif: [kes(g, 'monitor', 30, 56, 3), kes(g, 'ekran', -8, 44, 2.4)],
     ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; },
-    arka: new Vector3(MON.x - 14, 14.5, MON.z - 5.4),
+    arka: new Vector3(MON.x - 14, 14.5, MON.z - 4.9),
   };
 }
 
@@ -57,8 +57,8 @@ export function kameraYap() {
   const lens = new Mesh(silindir(0.95, 0.5, 0, 2.9, 2.2, { eksen: 'z', seg: 20 }), M.lensCam); g.add(lens);
   const halka = new Mesh(new TorusGeometry(1.05, 0.14, 8, 24), M.alumin); halka.position.set(0, 2.9, 2.18); g.add(halka);
   const led = new Mesh(new BoxGeometry(0.5, 0.3, 0.15), M.ledKapali); led.position.set(2.6, 3.7, 2.15); g.add(led);
-  g.add(vekil({ kesif: 'kamera', parca: 'kamera' }, 9, 5, 5, 0, 2.4, 0.3));
-  return { grup: g, led, kesif: [kes(g, 'kamera', 0, 5.2, 1)], ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; }, ucu: new Vector3(KAMERA_PARCA.x, KAMERA_PARCA.y + 1, KAMERA_PARCA.z - 1.6) };
+  g.add(vekil({ kesif: 'web-kamerasi', parca: 'kamera' }, 9, 5, 5, 0, 2.4, 0.3));
+  return { grup: g, led, kesif: [kes(g, 'web-kamerasi', 0, 5.2, 1)], ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; }, ucu: new Vector3(KAMERA_PARCA.x, KAMERA_PARCA.y + 1, KAMERA_PARCA.z - 1.6) };
 }
 
 // ------------------------------------------------------------------ klavye (104 tuş: bir InstancedMesh + tek legend atlası)
@@ -95,7 +95,8 @@ function dizilim() {
   e('0', 18.5, 5.5, 2, 1, 'rakam'); e('.', 20.5, 5.5, 1, 1, 'rakam');
   return k;
 }
-const OZEL_KESIF = { Esc: 'tus-esc', Tab: 'tus-tab', Caps: 'tus-caps', Shift: 'tus-shift', Ctrl: 'tus-ctrl', Alt: 'tus-alt', Enter: 'tus-enter', Geri: 'tus-geri', yukari: 'tus-ok', asagi: 'tus-ok', sol: 'tus-ok', sag: 'tus-ok', Del: 'tus-del' };
+const OZEL_KESIF = { Esc: 'tus-esc', Shift: 'tus-shift', Ctrl: 'tus-ctrl', Enter: 'tus-enter', ' ': 'tus-bosluk' };
+const tusKesif = (t) => OZEL_KESIF[t.ad] || (t.tur === 'harf' || t.tur === 'rakam' ? 'tus-harf' : 'tus-ozel');
 
 export function klavyeYap() {
   malzemeler();
@@ -140,7 +141,7 @@ export function klavyeYap() {
   // vekiller: her tuş (en küçük hacim kazanır) + klavyenin tamamı
   const v = [];
   tuslar.forEach((t, i) => {
-    const o = vekil({ kesif: OZEL_KESIF[t.ad] || 'tus-harf', parca: 'klavye', tus: t.ad, tusNo: i, tusTur: t.tur }, t.w * U - 0.3, 2.4, t.h * U - 0.3, X0 + (t.x + t.w / 2) * U, TABAN_UST + 1.1, Z0 + (t.y + t.h / 2) * U);
+    const o = vekil({ kesif: tusKesif(t), parca: 'klavye', tus: t.ad, tusNo: i, tusTur: t.tur }, t.w * U - 0.3, 2.4, t.h * U - 0.3, X0 + (t.x + t.w / 2) * U, TABAN_UST + 1.1, Z0 + (t.y + t.h / 2) * U);
     g.add(o); v.push(o);
   });
   g.add(vekil({ kesif: 'klavye', parca: 'klavye' }, GEN + 3, 5, YUK + 3, 0, 2, 0));
@@ -157,7 +158,7 @@ export function klavyeYap() {
   return {
     grup: g, tuslar, tusBas, ara, nokta, noktaI,
     kesif: [kes(g, 'klavye', 0, 7, 12.5), kes(g, 'tus-esc', ...nokta('Esc').toArray()), kes(g, 'tus-shift', ...nokta('Shift').toArray()), kes(g, 'tus-ctrl', ...nokta('Ctrl').toArray()), kes(g, 'tus-enter', X0 + 13.9 * U, 6, nokta('Enter').z), kes(g, 'tus-bosluk', 0, 6, nokta(' ').z)],
-    arka: new Vector3(KLAVYE.x - 8, 2.4, KLAVYE.z - YUK / 2 - 1.6),
+    arka: new Vector3(KLAVYE.x - 8, 1.1, KLAVYE.z - YUK / 2 - 0.2),
   };
 }
 
@@ -198,7 +199,7 @@ export function fareYap() {
     kesif: [kes(g, 'fare', 0, 5.4, 4), kes(g, 'fare-tekerlek', 0, 4.8, -4.4)],
     tikla: (sol_) => { (sol_ ? dSol : dSag).position.y = 0.3; },
     birak: () => { dSol.position.y = 0.55; dSag.position.y = 0.55; },
-    arka: new Vector3(FARE.x, 1.2, FARE.z - 10.2),
+    arka: new Vector3(FARE.x, 1.2, FARE.z - 7.4),
   };
 }
 
@@ -223,7 +224,7 @@ export function hoparlorYap() {
     for (let k = 0; k < 3; k++) { const m = new Mesh(dalgaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide })); m.visible = false; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
     halkalar.push(hl);
   });
-  return { grup, tek, halkalar, kesif: HOPARLOR.map((p, i) => kes(tek[i], 'hoparlor', 0, 28.4, 0)), arka: HOPARLOR.map((p) => new Vector3(p.x, 3, p.z - 8)) };
+  return { grup, tek, halkalar, kesif: HOPARLOR.map((p, i) => kes(tek[i], 'hoparlor', 0, 28.4, 0)), arka: HOPARLOR.map((p) => new Vector3(p.x, 3, p.z - 7.2)) };
 }
 
 // ------------------------------------------------------------------ masaüstü mikrofon
@@ -240,7 +241,7 @@ export function mikrofonYap() {
   g.add(kafa);
   const led = new Mesh(new BoxGeometry(0.8, 0.3, 0.3), M.ledKapali); led.position.set(0, 0.9, 4.3); g.add(led);
   g.add(vekil({ kesif: 'mikrofon', parca: 'mikrofon' }, 10, 20, 10, 0, 10, 0));
-  return { grup: g, led, kesif: [kes(g, 'mikrofon', 0, 21.5, 0)], ledAyarla: (a) => { led.material = a ? M.ledKirmizi : M.ledKapali; }, ucu: new Vector3(MIKROFON.x, 2.4, MIKROFON.z - 4.5), kafa: new Vector3(MIKROFON.x, 15.6, MIKROFON.z + 1) };
+  return { grup: g, led, kesif: [kes(g, 'mikrofon', 0, 21.5, 0)], ledAyarla: (a) => { led.material = a ? M.ledKirmizi : M.ledKapali; }, ucu: new Vector3(MIKROFON.x, 0.5, MIKROFON.z - 3.8), kafa: new Vector3(MIKROFON.x, 15.6, MIKROFON.z + 1) };
 }
 
 // ------------------------------------------------------------------ kulaklık (mikrofonlu)
@@ -296,7 +297,7 @@ export function yaziciYap() {
   return {
     grup: g, kagit, led, kesif: [kes(g, 'yazici', 0, 13.5, 2)],
     ledAyarla: (a) => { led.material = a ? M.ledYesil : M.ledKapali; },
-    arka: new Vector3(YAZICI.x - 10, 4, YAZICI.z - 13.6),
+    arka: new Vector3(YAZICI.x - 10, 4, YAZICI.z - 13.0),
   };
 }
 
