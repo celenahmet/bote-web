@@ -9,6 +9,7 @@ import { KESIF, KATEGORI, kategoriBul } from './kesif-veri.js';
 import { TELEFON_SORGU } from './telefon.js';
 import { gercekciBagla } from './gercekci.js'; // Fiziksel görünüm: aynı sahneye ikinci kaplama
 import { panelSiniflari, seritYedegi, tamEkranKur } from './uyum.js'; // eski tarayıcı yedekleri
+import './podyum.js'; // Keşif kartında parçanın podyum görseli (görselleri tools/3d/podyum.mjs üretir)
 
 const html = document.documentElement;
 const $ = (s, k = document) => k.querySelector(s);

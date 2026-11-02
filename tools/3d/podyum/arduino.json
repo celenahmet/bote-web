@@ -1,0 +1,272 @@
+{
+ "aile": "arduino",
+ "boy": 256,
+ "yol": "/3d/assets/podyum/arduino/",
+ "gorseller": {
+  "analog-pinler": {
+   "": {
+    "dosya": "analog-pinler",
+    "ayri": false,
+    "surum": "50bed7ba"
+   }
+  },
+  "anot": {
+   "": {
+    "dosya": "anot",
+    "ayri": true,
+    "surum": "8c4c9c6a"
+   }
+  },
+  "arti-ray": {
+   "": {
+    "dosya": "arti-ray",
+    "ayri": false,
+    "surum": "bfdc46ab"
+   }
+  },
+  "breadboard": {
+   "": {
+    "dosya": "breadboard",
+    "ayri": true,
+    "surum": "1645280b"
+   }
+  },
+  "buton": {
+   "": {
+    "dosya": "buton",
+    "ayri": true,
+    "surum": "600891bd"
+   }
+  },
+  "dijital-pinler": {
+   "": {
+    "dosya": "dijital-pinler",
+    "ayri": false,
+    "surum": "e271f789"
+   }
+  },
+  "direnc": {
+   "10 kΩ direnç": {
+    "dosya": "direnc-10-k",
+    "ayri": true,
+    "surum": "aef06e5e"
+   },
+   "220 Ω direnç": {
+    "dosya": "direnc-220",
+    "ayri": true,
+    "surum": "27fa1c43"
+   }
+  },
+  "eksi-ray": {
+   "": {
+    "dosya": "eksi-ray",
+    "ayri": false,
+    "surum": "e18ab85f"
+   }
+  },
+  "guc-girisi": {
+   "": {
+    "dosya": "guc-girisi",
+    "ayri": false,
+    "surum": "644e0200"
+   }
+  },
+  "guc-pinleri": {
+   "": {
+    "dosya": "guc-pinleri",
+    "ayri": false,
+    "surum": "54b40568"
+   }
+  },
+  "icsp": {
+   "": {
+    "dosya": "icsp",
+    "ayri": false,
+    "surum": "64fcd395"
+   }
+  },
+  "kablo": {
+   "Kırmızı kablo, 10. pin ile 8a deliği arasında": {
+    "dosya": "kablo-kirmizi-10-pin",
+    "ayri": true,
+    "surum": "3f32a3ff"
+   },
+   "Kırmızı kablo, 5V pini ile artı (+) rayı arasında": {
+    "dosya": "kablo-kirmizi-5v-pini",
+    "ayri": true,
+    "surum": "71ec601b"
+   },
+   "Kırmızı kablo, artı (+) rayı ile 20a deliği arasında": {
+    "dosya": "kablo-kirmizi-arti-rayi",
+    "ayri": true,
+    "surum": "80554df3"
+   },
+   "Sarı kablo, 2. pin ile 22d deliği arasında": {
+    "dosya": "kablo-sari-2-pin",
+    "ayri": true,
+    "surum": "19cfd7c7"
+   },
+   "Sarı kablo, 9. pin ile 15a deliği arasında": {
+    "dosya": "kablo-sari-9-pin",
+    "ayri": true,
+    "surum": "555684ba"
+   },
+   "Siyah kablo, GND pini ile eksi (−) rayı arasında": {
+    "dosya": "kablo-siyah-gnd-pini",
+    "ayri": true,
+    "surum": "1e11412c"
+   },
+   "Turuncu kablo, 13. pin ile 15a deliği arasında": {
+    "dosya": "kablo-turuncu-13-pin",
+    "ayri": true,
+    "surum": "e40f746f"
+   },
+   "Yeşil kablo, 8. pin ile 22a deliği arasında": {
+    "dosya": "kablo-yesil-8-pin",
+    "ayri": true,
+    "surum": "f6569957"
+   }
+  },
+  "kart": {
+   "": {
+    "dosya": "kart",
+    "ayri": false,
+    "surum": "1ecf23f8"
+   }
+  },
+  "katot": {
+   "": {
+    "dosya": "katot",
+    "ayri": true,
+    "surum": "62df2921"
+   }
+  },
+  "kondansator": {
+   "": {
+    "dosya": "kondansator",
+    "ayri": false,
+    "surum": "392f720a"
+   }
+  },
+  "koordinat": {
+   "": {
+    "dosya": "koordinat",
+    "ayri": false,
+    "surum": "27dd65a6"
+   }
+  },
+  "kristal": {
+   "": {
+    "dosya": "kristal",
+    "ayri": false,
+    "surum": "3cbd4a77"
+   }
+  },
+  "led": {
+   "Kırmızı LED": {
+    "dosya": "led-kirmizi",
+    "ayri": true,
+    "surum": "ef05a92d"
+   },
+   "Sarı LED": {
+    "dosya": "led-sari",
+    "ayri": true,
+    "surum": "bff09c87"
+   },
+   "Yeşil LED": {
+    "dosya": "led-yesil",
+    "ayri": true,
+    "surum": "71905fce"
+   }
+  },
+  "led-l": {
+   "": {
+    "dosya": "led-l",
+    "ayri": false,
+    "surum": "a23b70e4"
+   }
+  },
+  "led-on": {
+   "": {
+    "dosya": "led-on",
+    "ayri": false,
+    "surum": "ea5f8515"
+   }
+  },
+  "led-txrx": {
+   "": {
+    "dosya": "led-txrx",
+    "ayri": false,
+    "surum": "0b3fef8e"
+   }
+  },
+  "mikrodenetleyici": {
+   "": {
+    "dosya": "mikrodenetleyici",
+    "ayri": false,
+    "surum": "4a1523ab"
+   }
+  },
+  "montaj-deligi": {
+   "": {
+    "dosya": "montaj-deligi",
+    "ayri": true,
+    "surum": "a7a3f4df"
+   }
+  },
+  "orta-kanal": {
+   "": {
+    "dosya": "orta-kanal",
+    "ayri": true,
+    "surum": "d4d43dec"
+   }
+  },
+  "regulator": {
+   "": {
+    "dosya": "regulator",
+    "ayri": false,
+    "surum": "de9d2ed2"
+   }
+  },
+  "renk-bantlari": {
+   "kahverengi, siyah, turuncu, altın: 10 kΩ": {
+    "dosya": "renk-bantlari-kahverengi-siyah-turuncu",
+    "ayri": true,
+    "surum": "8857f994"
+   },
+   "kırmızı, kırmızı, kahverengi, altın: 220 Ω": {
+    "dosya": "renk-bantlari-kirmizi-kahverengi-altin",
+    "ayri": true,
+    "surum": "f94876ec"
+   }
+  },
+  "reset": {
+   "": {
+    "dosya": "reset",
+    "ayri": false,
+    "surum": "ecb8e149"
+   }
+  },
+  "serit": {
+   "": {
+    "dosya": "serit",
+    "ayri": true,
+    "surum": "c3e7d7c2"
+   }
+  },
+  "usb": {
+   "": {
+    "dosya": "usb",
+    "ayri": false,
+    "surum": "51e7e61c"
+   }
+  },
+  "usb-cipi": {
+   "": {
+    "dosya": "usb-cipi",
+    "ayri": false,
+    "surum": "ee01161b"
+   }
+  }
+ }
+}
