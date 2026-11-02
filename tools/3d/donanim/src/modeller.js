@@ -1,6 +1,7 @@
 // Sahnedeki tüm modeller. Ders 1: masa üstü birimler, kablolar ve kapalı kasa (kasa içi modeller ders 2'de eklenir).
 import { Group, malzemeler, golgeAyarla } from './yardimci.js';
-import { masaYap, monitorYap, kameraYap, klavyeYap, fareYap, hoparlorYap, mikrofonYap, kulaklikYap, yaziciYap, usbBellekYap } from './cevre.js';
+import { masaYap, monitorYap, kameraYap, klavyeYap, fareYap, hoparlorYap, mikrofonYap, kulaklikYap, usbBellekYap } from './cevre.js';
+import { yaziciYap } from './yazici.js';
 import { MASA, KASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, USB_BELLEK } from './yerlesim.js';
 import { dokuKur } from './doku.js';
 import { kasaYap } from './kasa.js';

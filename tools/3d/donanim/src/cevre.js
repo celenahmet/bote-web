@@ -6,7 +6,7 @@ import {
   M, malzemeler, kutu, yuvarlak, silindir, don, yer, birlestir, tuval, doku, YAZI, vekil, ornek, kabloGeo, kesifNok,
 } from './yardimci.js';
 import { CapsuleGeometry, PlaneGeometry, RingGeometry, Color, Quaternion } from 'three';
-import { MASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
+import { MASA, MON, HOPARLOR, KLAVYE, FARE, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
 import { ekranDokusu } from './ekran.js';
 import { dokular } from './doku.js';
 
@@ -258,42 +258,6 @@ export function kulaklikYap() {
   g.add(vekil({ kesif: 'kulaklik', parca: 'kulaklik' }, 22, 14, 7, 0, 7, 0));
   g.add(vekil({ kesif: 'kulaklik-mikrofon', parca: 'kulaklik' }, 4, 2.4, 3, -4.7, 1.7, 8.6));
   return { grup: g, kupMal, ucMal, kesif: [kes(g, 'kulaklik', 0, 15, 0), kes(g, 'kulaklik-mikrofon', -4.7, 4, 8.6)], ucu: new Vector3(KULAKLIK.x + 9.7, 4.2, KULAKLIK.z) };
-}
-
-// ------------------------------------------------------------------ yazıcı
-export function yaziciYap() {
-  malzemeler();
-  const g = new Group(); g.name = 'yazici'; g.position.set(YAZICI.x, 0, YAZICI.z);
-  const govde = new MeshStandardMaterial({ color: 0xdfe2e7, roughness: 0.5 });
-  const ust = new MeshStandardMaterial({ color: 0xf1f3f6, roughness: 0.45 });
-  g.add(new Mesh(yuvarlak(36, 8.4, 27, 1.5, 0, 4.2, 0, 3), govde));
-  g.add(new Mesh(yuvarlak(35.4, 3.2, 26, 1.2, 0, 10.0, -0.6, 3), ust));
-  g.add(birlestir([kutu(28, 1.5, 2.2, 0, 3.0, 13.2), kutu(24, 0.3, 11, 0, 14.5, -10.5)], M.cip));
-  // çıkış tepsisi ve arka giriş desteği
-  g.add(new Mesh(yuvarlak(27, 0.5, 11, 0.2, 0, 1.7, 18.4), M.plastikBeyaz));
-  const giris = new Mesh(yuvarlak(24, 0.5, 14, 0.2, 0, 17.0, -15.5), M.plastikBeyaz); giris.rotation.x = -0.9; giris.position.set(0, 16.2, -17); g.add(giris);
-  // kontrol paneli
-  const panel = new Group(); panel.position.set(8.5, 11.9, 8.4); panel.rotation.x = -0.18;
-  panel.add(new Mesh(yuvarlak(13, 0.6, 6.2, 0.3), M.plastik));
-  const ekr = new Mesh(new BoxGeometry(6.2, 0.12, 3), new MeshBasicMaterial({ color: 0x1f3a6e })); ekr.position.set(-2.4, 0.34, 0); panel.add(ekr);
-  const led = new Mesh(new BoxGeometry(0.6, 0.12, 0.6), M.ledKapali); led.position.set(4.2, 0.34, -1.2); panel.add(led);
-  for (let i = 0; i < 2; i++) { const d = new Mesh(silindir(0.6, 0.14, 3.2 + i * 1.6, 0.34, 1.2, { seg: 14 }), M.alumin); panel.add(d); }
-  g.add(panel);
-  // kâğıt
-  const [c, x] = tuval(512, 700);
-  x.fillStyle = '#ffffff'; x.fillRect(0, 0, 512, 700);
-  x.fillStyle = '#7c4dff'; x.fillRect(50, 56, 412, 10);
-  x.fillStyle = '#20242c'; x.font = `700 58px ${YAZI}`; x.textAlign = 'left'; x.textBaseline = 'alphabetic'; x.fillText('Merhaba!', 50, 148);
-  x.fillStyle = '#6b7384'; for (let i = 0; i < 6; i++) x.fillRect(50, 200 + i * 38, i === 5 ? 220 : 412, 12);
-  x.fillStyle = '#a2c8f3'; x.fillRect(50, 450, 412, 190); x.fillStyle = '#6ea4e8'; x.beginPath(); x.moveTo(50, 640); x.lineTo(200, 540); x.lineTo(320, 600); x.lineTo(400, 530); x.lineTo(462, 580); x.lineTo(462, 640); x.closePath(); x.fill();
-  const kagit = new Mesh(new PlaneGeometry(25, 34.5), new MeshStandardMaterial({ map: doku(c), roughness: 0.9, side: DoubleSide }));
-  kagit.rotation.x = -Math.PI / 2; kagit.position.set(0, 2.45, 13.5 - 17.25 - 2); kagit.visible = false; g.add(kagit);
-  g.add(vekil({ kesif: 'yazici', parca: 'yazici' }, 36.4, 13, 27.4, 0, 6.5, 0));
-  return {
-    grup: g, kagit, led, kesif: [kes(g, 'yazici', 0, 13.5, 2)],
-    ledAyarla: (a) => { led.material = a ? M.ledYesil : M.ledKapali; },
-    arka: new Vector3(YAZICI.x - 10, 4, YAZICI.z - 13.0),
-  };
 }
 
 // ------------------------------------------------------------------ USB bellek (bağlantı ucu z=0, gövde +z'ye doğru)
