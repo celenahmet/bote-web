@@ -30,6 +30,26 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   genel merkez, arduino/index.html aile sayfası, arduino/<ders>.html, assets/sim-<özet>.js).
   Derleme: `node tools/3d/build.mjs`. 3d/ elle düzenlenmez. three.js tools
   devDependency olarak sabit sürümdedir; dış model, görsel ve yazı tipi dosyası yok (her şey kodla).
+- Ders motoru / aile sözleşmesi (02.11, motor bölündü): `src/sayfa.js` (+ `ortak.js`) sayfa kabuğu: sınıf,
+  kip, tema, tam ekran, mini sınav; `src/ders.js` aileden bağımsız GENEL motor: `dersMotoru(AİLE, kabuk)`;
+  aile sahne işini ADAPTÖR yapar (Arduino: `src/arduinoSahne.js`). Genel motorda aileye özgü içe aktarım
+  YOK. Sözleşmenin tek kaynağı `ders.js` başındaki "AİLE TANIMI / ADAPTÖR" yorumu: aile tanımı
+  `{ id, DERSLER, KAMERA, KESIF, KATEGORI, kategoriBul, GORUNUM, vurguYap?, sahneyiKur }`;
+  `sahneyiKur(S, { olay, ders, veri })` -> `{ kesifNoktalari, alanlar, noktaBul, kutuBul, adimUygula,
+  eylem, durdur, dokunuldu }` + isteğe bağlı kancalar (`kesifEk`, `kameraBul`, `ipucu`, `olcumEk`; kanca yoksa
+  ilgili arayüz çizilmez). Adım verisi `DERSLER[ders].adimlar[adim] = { kamera, vurgu, etiket, kontrol, dokun,
+  mod, yazi }`. Derleme tarafı `tools/3d/aileler.mjs` YAPI[aile]: `giris` (paket girişi), `onek` (paket
+  adı öneki), `adimlar`, `kesif`, `icerik` (ders-N.json, kavramlar.json, kesif.json), `gorunum`, `ipuclari`,
+  `kontrolHtml` (genel çizici `genelKontrol`), `ozgur`, sayfa metinleri. Merkez ve aile sayfaları three.js
+  içermeyen küçük `merkez-<özet>.js` paketini, ders sayfaları ailenin paketini (Arduino `sim-`) yükler.
+- Yeni aile ekleme: (1) aile klasörü: adımlar.js (DERSLER, KAMERA, KONTROL, KONTROL_YAZI), kesif-veri.js,
+  sahne adaptörü, `icerik/` (2) aile giriş dosyası: `kabukKur()` + `dersMotoru(AİLE, K)` (src/main.js kalıbı)
+  (3) `aileler.mjs` YAPI'ya aile tanımı (4) `yollar.mjs` AILELER + DERS_YOLU (ders kimliği = kalıcı anahtar,
+  sonradan değişmez) (5) `build.mjs` kendiliğinden paket, ders ve aile sayfasını üretir; merkezdeki önizleme
+  kartı (DONANIM_ONIZLEME) kalkar (6) `node tools/3d/build.mjs`, uyum duman testi (chrome, Chromium 109,
+  Firefox 115), dokunmatik, `cd tools && npm run build && npm test`. Ortak dosya (ders.js, sayfa.js,
+  stil.css) değişikliği gerekiyorsa sözleşmede eksik var demektir: önce sözleşmeyi genişlet, Arduino
+  derslerinin çıktısının aynı kaldığını ölç.
 - Performans ilkeleri korunur: istek üzerine çizim (boşta kare yok), gölge haritası yalnız parça
   hareketinde, uyarlanır çözünürlük ve hareket bitince tam çözünürlükte keskin kare. `?olcum=1`
   kare/sn panelini açar; `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
