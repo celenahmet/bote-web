@@ -153,6 +153,11 @@ function baslat() {
     if (v.kesif) bilgiGoster(v.kesif);
   });
   // seçiciler
+  const dersSec = $('#pv-ders');
+  if (dersSec) {
+    for (const ad of Object.keys(DERSLER)) { const o = document.createElement('option'); o.value = ad; o.textContent = `${DERSLER[ad].no}. ${ad}`; if (ad === dersAd) o.selected = true; dersSec.appendChild(o); }
+    dersSec.addEventListener('change', () => { const u = new URL(location.href); u.searchParams.set('ders', dersSec.value); u.searchParams.delete('adim'); location.href = u.toString(); });
+  }
   const sec = $('#pv-adim');
   for (const id of adimKimlikleri) { const o = document.createElement('option'); o.value = id; o.textContent = id; sec.appendChild(o); }
   sec.addEventListener('change', () => adimaGit(sec.value));
@@ -175,7 +180,7 @@ function baslat() {
     window.__hazir = true;
   }));
   window.__donanim = { S, sahne, adimaGit, gorunumSec, kesifDegistir, adim: () => adimKimlikleri[aktif], adimlar: adimKimlikleri, hatalar, kameraBul,
-    olcum: () => ({ kurulumMs, ilkKareMs, sahneKurMs: Math.round(t1 - t0), dokuSure }) };
+    olcum: () => ({ kurulumMs, ilkKareMs, sahneKurMs: Math.round(t1 - t0), dokuSure, birlesme: sahne.birlesme }) };
   if (olcumModu) {
     const p = document.createElement('div'); p.className = 'olcum'; sahneAlani.appendChild(p);
     setInterval(() => {

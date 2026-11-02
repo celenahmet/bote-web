@@ -109,7 +109,7 @@ export function kablolariYap({ klavye, fare, kamera, kulaklik, yazici, mikrofon,
     for (const p of k.fis) { const q = p.index ? p.toNonIndexed() : p; geolar.push(q); n += q.attributes.position.count; }
   }
   const mesh = new Mesh(mergeGeometries(geolar, false), M.renkli);
-  mesh.name = 'kablolar'; mesh.matrixAutoUpdate = false;
+  mesh.name = 'kablolar'; mesh.matrixAutoUpdate = false; mesh.userData.dinamik = true;
   const renk = mesh.geometry.attributes.color;
   const _c = new Color();
   const boyaAralik = (id, hex) => {

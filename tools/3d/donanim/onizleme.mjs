@@ -49,7 +49,7 @@ const sayfa = `<!doctype html>
 <title>Donanım önizleme</title>
 <style>${stil}${ek}</style></head>
 <body>
-<div id="pv-ust"><select id="pv-ders" aria-label="Ders" disabled><option>girdi-cikti-birimleri</option></select>
+<div id="pv-ust"><select id="pv-ders" aria-label="Ders"></select>
 <button id="pv-geri" type="button" aria-label="Önceki adım">‹</button><select id="pv-adim" aria-label="Adım"></select><button id="pv-ileri" type="button" aria-label="Sonraki adım">›</button>
 <span id="pv-sira"></span><button id="pv-kesif" type="button" aria-pressed="false">Keşif</button></div>
 <div class="sahne-alani" id="sahne-alani"><canvas id="sahne" tabindex="0"></canvas><div class="etiketler" aria-hidden="true"></div><div class="isaretler"></div><div class="yukleniyor">Yükleniyor</div></div>

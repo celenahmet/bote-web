@@ -1,6 +1,6 @@
 // Önizlemeden ekran görüntüsü alır (geliştirme aracı; görüntüler repoya girmez, scratchpad'e yazılır).
 //   node tools/3d/donanim/test/ekran.mjs --cikti=<klasor> [--adim=a,b | tum] [--en=1280 --boy=720] [--telefon] [--gorunum=ustten]
-//        [--kesif] [--eylem=ad:bekleme_ms,...] [--ek=ad] [--port=4197] [--dpr=1] [--bekle=900]
+//        [--ders=girdi-cikti-birimleri|kasanin-ici] [--kesif] [--eylem=ad:bekleme_ms,...] [--ek=ad] [--port=4197] [--dpr=1] [--bekle=900]
 //        [--kutu=x0,y0,z0,x1,y1,z1 --yon=x,y,z]   serbest kadraj (adımın kamerasını ezer; --ek ile dosya adı verilir)
 // Önkoşul: tools/3d/donanim/onizleme.mjs derlenmiş ve `cd tools && PORT=4197 node serve.mjs` çalışıyor.
 import fs from 'node:fs';
@@ -23,7 +23,7 @@ const konsol = [];
 sayfa.on('console', (m) => { if (['error', 'warning'].includes(m.type())) konsol.push(`${m.type()}: ${m.text()}`); });
 sayfa.on('pageerror', (e) => konsol.push(`sayfa hatası: ${e.message}`));
 sayfa.on('requestfailed', (r) => konsol.push(`istek başarısız: ${r.url()}`));
-const url = `http://localhost:${port}/3d/donanim-onizleme/?olcum${arg.kesif ? '&kesif' : ''}${arg.adim && arg.adim !== 'tum' ? '&adim=' + String(arg.adim).split(',')[0] : ''}`;
+const url = `http://localhost:${port}/3d/donanim-onizleme/?olcum${arg.ders ? '&ders=' + arg.ders : ''}${arg.kesif ? '&kesif' : ''}${arg.adim && arg.adim !== 'tum' ? '&adim=' + String(arg.adim).split(',')[0] : ''}`;
 await sayfa.goto(url, { waitUntil: 'load' });
 try { await sayfa.waitForFunction('window.__hazir === true', { timeout: 60000 }); } catch (e) {
   konsol.push('hazır olmadı: ' + e.message);
@@ -52,7 +52,9 @@ for (const id of kimlikler) {
   const dosya = path.join(klasor, `${arg.ek ? arg.ek + '-' : ''}${id}${arg.gorunum ? '-' + arg.gorunum : ''}${arg.telefon ? '-tel' : ''}.png`);
   await sayfa.screenshot({ path: dosya });
   const bilgi = await sayfa.evaluate('(() => { const i = window.__donanim.S.renderer.info; return { calls: i.render.calls, tri: i.render.triangles }; })()');
-  console.log(`${id}: ${dosya} (çağrı ${bilgi.calls}, üçgen ${bilgi.tri})`);
+  // gölge yenilenmeyen sıradan kare: bir kare daha çizdirip ölç (golgeYenile yalnız bir kareliktir)
+  const normal = await sayfa.evaluate('(async () => { const S = window.__donanim.S; S.iste(); await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))); const i = S.renderer.info; return { calls: i.render.calls, tri: i.render.triangles }; })()');
+  console.log(`${id}: ${dosya} (çağrı ${bilgi.calls}, gölgesiz kare ${normal.calls}, üçgen ${bilgi.tri})`);
 }
 const hatalar = await sayfa.evaluate('window.__donanim ? window.__donanim.hatalar : ["__donanim yok"]');
 const olcum = await sayfa.evaluate('window.__donanim ? window.__donanim.olcum() : null');

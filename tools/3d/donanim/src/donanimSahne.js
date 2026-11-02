@@ -29,8 +29,8 @@ const KABLO_YAZI = {
 const PARCA_KABLO = { klavye: 'klavye', fare: 'fare', mikrofon: 'mikrofon', kulaklik: 'kulaklik', hoparlor: 'hoparlor', monitor: 'monitor', kamera: 'kamera', yazici: 'yazici' };
 
 export function sahneyiKur(S, { olay = () => {} } = {}) {
-  const { kok, p } = modelleriKur(S.scene, { aniz: S.renderer.capabilities.getMaxAnisotropy() });
-  const ek = p.monitor.ekran, d = ek.durum, kl = p.klavye, fr = p.fare, hp = p.hoparlor, mk = p.mikrofon, kk = p.kulaklik, yz = p.yazici, kam = p.kamera, kb = p.kablo;
+  const { kok, p, birlesme } = modelleriKur(S.scene, { aniz: S.renderer.capabilities.getMaxAnisotropy() });
+  const ic = p.ic, ek = p.monitor.ekran, d = ek.durum, kl = p.klavye, fr = p.fare, hp = p.hoparlor, mk = p.mikrofon, kk = p.kulaklik, yz = p.yazici, kam = p.kamera, kb = p.kablo;
   const duyur = (m) => { try { olay('duyur', m); } catch (e) { /* olay yok */ } };
 
   // ---------------------------------------------------------------- kayıtlar: vekiller, sahne ayarı
@@ -39,7 +39,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
 
   // ---------------------------------------------------------------- tablolar: keşif, alan, nokta
   const kesifNoktalari = [], gorulen = new Set();
-  for (const k of [p.monitor, p.kamera, p.klavye, p.fare, p.hoparlor, p.mikrofon, p.kulaklik, p.yazici, p.usb, p.kasa]) {
+  for (const k of [p.monitor, p.kamera, p.klavye, p.fare, p.hoparlor, p.mikrofon, p.kulaklik, p.yazici, p.usb, p.kasa, ic]) {
     for (const e of k.kesif) if (!gorulen.has(e.id)) { gorulen.add(e.id); kesifNoktalari.push(e); }
   }
   const kesifTablo = new Map(kesifNoktalari.map((e) => [e.id, e]));
@@ -61,6 +61,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     'kasa-arka-paneli': [KASA.x + 2.9, 74.55, ARKA_Z - 0.5, 31, 9.4, 2],
     'guc-kaynagi': [KASA.x - 3.5, 10.4, ARKA_Z - 0.5, 30, 17.2, 2],
   };
+  Object.assign(alanlar, ic.alanlar);
   const kutuBul = (ad) => { const a = alanlar[ad]; return a ? new Box3(V(a[0] - a[3] / 2, a[1] - a[4] / 2, a[2] - a[5] / 2), V(a[0] + a[3] / 2, a[1] + a[4] / 2, a[2] + a[5] / 2)) : null; };
   const PARCA = {
     monitor: () => V(MON.x, 68.8, MON.z), ekran: () => V(MON.x + 20, 41, MON.z + 1.9),
@@ -73,6 +74,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     'fare-tekerlek': () => V(fr.grup.position.x, 5, fr.grup.position.z - 4.4),
     'kulaklik-mikrofon': () => V(KULAKLIK.x - 4.7, 3.8, KULAKLIK.z + 8.6), 'kulaklik-kup': () => V(KULAKLIK.x - 8.4, 8.8, KULAKLIK.z),
   };
+  Object.assign(PARCA, ic.parca); // kasa içi parçalar (ic.js): ic-anakart, ic-ram, ic-hava ...
   // ad: 'alan:<ad>' | 'parca:<ad>' | 'tus:<ad>' (klavye tuşu; Bosluk = boşluk) | 'kesif:<id>' (keşif noktası konumu)
   function noktaBul(ad) {
     const i = ad.indexOf(':'), tur = ad.slice(0, i), a = ad.slice(i + 1);
@@ -90,7 +92,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   kok.traverse((o) => { if (o.userData && o.userData.yon) yonlu.push(o); });
   S.kareGuncelleyici(() => {
     const c = S.camera.position;
-    for (const o of yonlu) { _a.setFromMatrixPosition(o.matrixWorld); _b.copy(c).sub(_a).normalize(); o.visible = _b.dot(o.userData.yon) > 0.12; }
+    for (const o of yonlu) { if (!o.userData.yon) continue; _a.setFromMatrixPosition(o.matrixWorld); _b.copy(c).sub(_a).normalize(); o.visible = _b.dot(o.userData.yon) > 0.12; }
     return false;
   });
 
@@ -127,7 +129,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   const halkaGeo = new RingGeometry(0.92, 1, 48);
   const gelen = [0, 1, 2].map(() => {
     const m = new Mesh(halkaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide }));
-    m.visible = false; m.renderOrder = 3; m.raycast = () => {}; kok.add(m); return m;
+    m.visible = false; m.renderOrder = 3; m.raycast = () => {}; m.userData.dinamik = true; kok.add(m); return m;
   });
   const gelenGizle = () => { for (const m of gelen) m.visible = false; };
   // merkez (x, y, z): halkalar bu noktaya doğru yürür (dışarıdan içe); faz: 0..1 döngü
@@ -299,6 +301,95 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   }
   function kabloSonraki() { kablo = (kablo + 1) % KABLO_SIRA.length; kabloGoster(KABLO_SIRA[kablo]); }
 
+  // ---------------------------------------------------------------- kasa içi (ders 2)
+  // mod: null (ders 1) | 'ic-kapali' (kapak kapalı) | 'ic' (açık, hava soğutma) | 'ic-sivi' (açık, sıvı soğutma)
+  let icMod = null, kapakAcik = false, kaldirik = false, ramCikik = false, calisiyor = false, sivi = false, adimEtiket = [];
+  const gucAnc = kesifTablo.get('guc-kaynagi') ? kesifTablo.get('guc-kaynagi').nesne : null;
+  const gucYon0 = gucAnc ? gucAnc.userData.yon : null, gucKonum0 = gucAnc ? gucAnc.position.clone() : null;
+  // dış güç kaynağı çapası (arka yüz) kasa açıkken iç güç kaynağına taşınır: aynı keşif kimliği, iki yer
+  function gucCapasi(ac) {
+    if (!gucAnc) return;
+    if (ac) { gucAnc.position.set(-3.5, 19.1, -28); gucAnc.userData.yon = null; gucAnc.visible = true; } else { gucAnc.position.copy(gucKonum0); gucAnc.userData.yon = gucYon0; }
+    gucAnc.updateMatrixWorld(true);
+  }
+  // kasa açıkken masadaki çevre birimlerinin (klavye, fare, mikrofon ...) keşif çapaları gizlenir: kasanın arkasında kalıp açık kasanın üstünde asılı görünürlerdi
+  const icKimlik = new Set(ic.kesif.map((e) => e.id));
+  const cevreCapa = kesifNoktalari.filter((e) => e.nesne && !icKimlik.has(e.id) && !e.nesne.userData.yon).map((e) => e.nesne);
+  const cevreCapalari = (gizle) => { for (const o of cevreCapa) o.visible = !gizle; };
+  function etiketYenile() { sabit = adimEtiket.map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta); etiketle(); }
+  function kapakKur(k) {
+    const once = ic.durum.acik;
+    ic.kapakAyarla(k);
+    if (ic.durum.acik !== once) { gucCapasi(ic.durum.acik); cevreCapalari(ic.durum.acik); S.golgeYenile(); }
+  }
+  function hareket(ad, sure, k0, k1, uygula, bitti) {
+    calistir(ad, sureli(sure, (k) => uygula(k0 + (k1 - k0) * k), () => { uygula(k1); S.golgeYenile(); etiketYenile(); bitti && bitti(); }));
+  }
+  function kapakDegistir() {
+    kapakAcik = !kapakAcik; if (!kapakAcik) calismaDur();
+    hareket('kapak', 1100, ic.durum.kapak, kapakAcik ? 1 : 0, kapakKur, () => {
+      // adım etiketi kasanın durumunu söyler: açılınca "Açık kasa", kapanınca "Kapalı kasa" (yapılandırma dizisi değişmez, kopya)
+      adimEtiket = adimEtiket.map((e) => (e[0] === 'parca:kasa' && /kasa$/.test(e[1]) ? [e[0], kapakAcik ? 'Açık kasa' : 'Kapalı kasa', e[2]] : e));
+      etiketYenile();
+    });
+    duyur(kapakAcik ? 'Yan kapak açıldı, kasanın içi görünüyor' : 'Yan kapak kapandı');
+    return kapakAcik;
+  }
+  function kaldirDegistir() {
+    if (ic.durum.tur !== 'hava' || !ic.durum.acik) return false;
+    kaldirik = !kaldirik; calismaDur();
+    hareket('kaldir', 1300, ic.durum.kaldir, kaldirik ? 1 : 0, (k) => ic.kaldirAyarla(k), () => dinamikKoy(kaldirik ? [{ nokta: noktaBul('parca:ic-macun'), metin: 'Termal macun', tur: 'yesil' }] : []));
+    duyur(kaldirik ? 'Soğutucu kaldırıldı, işlemcinin üstündeki termal macun görünüyor' : 'Soğutucu işlemcinin üstüne geri takıldı');
+    return kaldirik;
+  }
+  function ramDegistir() {
+    if (!ic.durum.acik) return false;
+    ramCikik = !ramCikik; calismaDur();
+    hareket('ram', 900, ic.durum.ram, ramCikik ? 1 : 0, (k) => ic.ramAyarla(k));
+    duyur(ramCikik ? "RAM çubukları yuvalarından çıkarıldı" : "RAM çubukları yuvalara geri takıldı");
+    return ramCikik;
+  }
+  function calismaDur() {
+    if (!calisiyor) return;
+    calisiyor = false; anim.delete('ic-calis'); ic.calisiyorAyarla(false); dinamikKoy([]); S.iste();
+  }
+  function bilgisayarCalistir() {
+    if (!ic.durum.acik) return false;
+    if (calisiyor) { calismaDur(); duyur('Bilgisayar durdu, fanlar yavaşladı ve durdu'); return false; }
+    calisiyor = true; ic.calisiyorAyarla(true);
+    if (kaldirik) { kaldirik = false; ic.kaldirAyarla(0); }
+    if (ramCikik) { ramCikik = false; ic.ramAyarla(0); }
+    let son = null;
+    if (hareketsiz()) { ic.duragan(); S.iste(); } else {
+      calistir('ic-calis', (t) => { const dt = son == null ? 0 : Math.min(0.1, (t - son) / 1000); son = t; return ic.kare(dt, t / 1000); });
+    }
+    const L = (a, m, t) => ({ nokta: noktaBul(a), metin: m, tur: t });
+    dinamikKoy(ic.durum.tur === 'sivi'
+      ? [L('parca:ic-pompa', 'Pompa sıvıyı döndürür', 'yesil'), L('parca:ic-sivi-sicak', 'Sıcak sıvı radyatöre gider', 'arti'), L('parca:ic-sivi-soguk', 'Soğuyan sıvı geri döner', 'eksi'),
+        L('parca:ic-akis-giris', 'Soğuk hava girer', 'eksi'), L('parca:ic-akis-cikis', 'Sıcak hava çıkar', 'arti')]
+      : [L('parca:ic-akis-giris', 'Soğuk hava girer', 'eksi'), L('parca:ic-akis-cikis', 'Sıcak hava çıkar', 'arti')]);
+    duyur(ic.durum.tur === 'sivi' ? 'Fanlar dönüyor, pompa sıvıyı döndürüyor; sıcak sıvı radyatöre, soğuyan sıvı işlemciye gidiyor' : 'Fanlar dönüyor; soğuk hava önden girer, sıcak hava yukarıdan çıkar');
+    S.iste();
+    return true;
+  }
+  function turDegistir() {
+    if (!ic.durum.acik) return false;
+    sivi = !sivi; kaldirik = false; ic.kaldirAyarla(0);
+    ic.turAyarla(sivi ? 'sivi' : 'hava');
+    if (calisiyor) { ic.calisiyorAyarla(true); if (hareketsiz()) ic.duragan(); }
+    S.golgeYenile(); etiketYenile(); S.iste();
+    duyur(sivi ? 'Sıvı soğutmaya geçildi: işlemcinin üstünde pompa bloğu, tavanda radyatör var' : 'Hava soğutmaya geçildi: işlemcinin üstünde fanlı soğutucu var');
+    return sivi;
+  }
+  function icDurumKur(m) {
+    icMod = m && m.indexOf('ic') === 0 ? m : null;
+    ic.sifirla(); calisiyor = false; kaldirik = false; ramCikik = false;
+    sivi = icMod === 'ic-sivi';
+    ic.turAyarla(sivi ? 'sivi' : 'hava');
+    kapakAcik = icMod === 'ic' || icMod === 'ic-sivi';
+    kapakKur(kapakAcik ? 1 : 0);
+  }
+
   // ---------------------------------------------------------------- dokunma
   function dokunuldu(v, nokta) {
     if (!v) return false;
@@ -329,6 +420,11 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
       case 'kulak-dinle': kulakDinle(); return;
       case 'kulak-konus': kulakKonus(); return;
       case 'kablo-sonraki': kabloSonraki(); return;
+      case 'kapak': return kapakDegistir();
+      case 'sogutucu-kaldir': return kaldirDegistir();
+      case 'ram-cikar': return ramDegistir();
+      case 'calistir': return bilgisayarCalistir();
+      case 'sogutma-turu': return turDegistir();
       default:
     }
   }
@@ -338,7 +434,9 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     sifirla();
     mod = cfg.mod || null;
     d.yazi = cfg.yazi != null ? cfg.yazi : 'Merhaba!';
-    sabit = (cfg.etiket || []).map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta);
+    icDurumKur(mod);
+    adimEtiket = cfg.etiket || [];
+    sabit = adimEtiket.map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta);
     dinamik = [];
     etiketle(); ekranSimdi(); S.golgeYenile();
   }
@@ -346,9 +444,10 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     anim.clear(); for (const z of zamanlar) clearTimeout(z); zamanlar.clear();
     try { if (ac && ac.state !== 'closed') ac.close(); } catch (e) { /* kapalı */ }
     ac = null;
+    calisiyor = false; ic.calisiyorAyarla(false);
   }
 
   adimUygula('merak', {});
   S.golgeYenile(); S.iste();
-  return { kesifNoktalari, alanlar, noktaBul, kutuBul, adimUygula, eylem, durdur, dokunuldu, parcalar: p, durum: d };
+  return { kesifNoktalari, alanlar, noktaBul, kutuBul, adimUygula, eylem, durdur, dokunuldu, parcalar: p, durum: d, birlesme };
 }
