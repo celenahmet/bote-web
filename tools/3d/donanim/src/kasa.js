@@ -1,11 +1,11 @@
 // Kasa (ATX orta kule) dış görünüşü. Ders 1'de kapalı: yalnız dış yüzler, ön panel girişleri ve arka yüz.
 // Yerel eksen: x -20..20 (anakart tarafı +x, yan kapak -x), y 0..90, z -43..43 (ön yüz +z). 1 birim = 5 mm.
 // Arka yüzden bakınca ekranın solu +x'tir (anakart ve G/Ç paneli solda).
-import { Group, Mesh, Vector3, M, malzemeler, kutu, yuvarlak, silindir, birlestir, boya, tuval, doku, YAZI, vekil } from './yardimci.js';
+import { Group, Mesh, Vector3, M, malzemeler, kutu, yuvarlak, silindir, birlestir, boya, tuval, doku, YAZI, vekil, kesifNok } from './yardimci.js';
 import { PlaneGeometry, MeshBasicMaterial, MeshStandardMaterial, TorusGeometry } from 'three';
 import { KASA } from './yerlesim.js';
 
-const kes = (g, id, x, y, z) => ({ id, nesne: g, yerel: new Vector3(x, y, z) });
+const kes = kesifNok;
 const ON = KASA.d / 2, ARKA_Z = -KASA.d / 2;
 
 // Arka yüzdeki girişlerin kasa-yerel konumları (kablolar ve etiketler aynı sayıları kullanır).
@@ -143,10 +143,10 @@ export function kasaYap() {
   return {
     grup: g, halka,
     kesif: [
-      kes(g, 'kasa', 0, 62, ON + 1), kes(g, 'guc-dugmesi', ON_GIRIS.guc, ONY, ON + 1),
-      kes(g, 'usb-girisi', (ON_GIRIS.usb1 + ON_GIRIS.usb2) / 2, ONY, ON + 1), kes(g, 'ses-jaklari', (ON_GIRIS.kulaklik + ON_GIRIS.mikrofon) / 2, ONY, ON + 1),
-      kes(g, 'hdmi-girisi', ARKA.hdmi.x, ARKA.hdmi.y, az - 1), kes(g, 'ag-girisi', ARKA.ag.x, ARKA.ag.y, az - 1),
-      kes(g, 'guc-girisi', ARKA.guc.x, ARKA.guc.y, az - 1.1), kes(g, 'guc-kaynagi', -10.5, 5, az - 1),
+      kes(g, 'kasa', 0, 62, ON + 1, [0, 0.2, 1]), kes(g, 'guc-dugmesi', ON_GIRIS.guc, ONY, ON + 1, [0, 0.15, 1]),
+      kes(g, 'usb-girisi', (ON_GIRIS.usb1 + ON_GIRIS.usb2) / 2, ONY, ON + 1, [0, 0.15, 1]), kes(g, 'ses-jaklari', (ON_GIRIS.kulaklik + ON_GIRIS.mikrofon) / 2, ONY, ON + 1, [0, 0.15, 1]),
+      kes(g, 'hdmi-girisi', ARKA.hdmi.x, ARKA.hdmi.y, az - 1, [0, 0.15, -1]), kes(g, 'ag-girisi', ARKA.ag.x, ARKA.ag.y, az - 1, [0, 0.15, -1]),
+      kes(g, 'guc-girisi', ARKA.guc.x, ARKA.guc.y, az - 1.1, [0, 0.15, -1]), kes(g, 'guc-kaynagi', -10.5, 5, az - 1, [0, 0.15, -1]),
     ],
   };
 }

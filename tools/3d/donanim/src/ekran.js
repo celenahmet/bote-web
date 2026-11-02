@@ -3,8 +3,11 @@
 import { tuval, doku, YAZI } from './yardimci.js';
 
 export const EW = 1024, EH = 576;
-// Çözünürlük kademeleri (yatay x dikey piksel): ekran ne kadar çok pikselden oluşuyorsa görüntü o kadar keskin.
-export const COZUNURLUK = [[40, 22], [96, 54], [256, 144], [EW, EH]];
+// Çözünürlük kademeleri: ekran ne kadar çok pikselden oluşuyorsa görüntü o kadar keskin.
+// COZUNURLUK tuvalde çizilen küçük boyut; ETIKET_COZ gerçek bir 1920 x 1080 ekranda aynı iriliği veren piksel sayısı
+// (tuval 1024 geniş, 1920 geniş ekranın ölçekli resmi: 1920 / 75 = 1024 / 40 oranı korunur). Öğrenciye ETIKET_COZ gösterilir.
+export const COZUNURLUK = [[43, 24], [85, 48], [256, 144], [EW, EH]];
+export const ETIKET_COZ = [[80, 45], [160, 90], [480, 270], [1920, 1080]];
 
 function dikdortgen(x, a, b, w, h, r, dolgu, cizgi) {
   x.beginPath(); x.moveTo(a + r, b); x.arcTo(a + w, b, a + w, b + h, r); x.arcTo(a + w, b + h, a, b + h, r); x.arcTo(a, b + h, a, b, r); x.arcTo(a, b, a + w, b, r); x.closePath();
@@ -29,7 +32,7 @@ function simge(x, a, b, tur, ad) {
   yazi(x, ad, a + 28, b + 62, 15, '#1d2433', { kalin: true, hiza: 'center' });
 }
 
-// d: { mod: 'kapali' | 'acilis' | 'masaustu', yazi, imlec: {x, y}, tik, kamera, ses, yazdir }
+// d: { mod: 'kapali' | 'acilis' | 'masaustu', yazi, imlec: {x, y}, tik, menu, kamera, ses, cal, yazdir }
 export function ekranCiz(x, d) {
   if (d.mod === 'kapali') { x.fillStyle = '#0a0b0e'; x.fillRect(0, 0, EW, EH); return; }
   if (d.mod === 'acilis') {
@@ -73,6 +76,15 @@ export function ekranCiz(x, d) {
     }
     yazi(x, 'Dinleniyor', 668, 492, 15, '#5b6579', { kalin: true });
   }
+  // müzik çalar (hoparlör dersi): çubuklar sesin gücünü gösterir
+  if (d.cal != null) {
+    pencere(x, 650, 360, 330, 150, 'Müzik');
+    for (let i = 0; i < 30; i++) {
+      const h = 8 + Math.abs(Math.sin(i * 0.9 + d.cal * 7) * Math.cos(i * 0.4 + d.cal * 3)) * 66;
+      x.fillStyle = '#7c4dff'; x.fillRect(668 + i * 10, 450 - h / 2 - 8, 6, h);
+    }
+    yazi(x, 'Çalıyor', 668, 492, 15, '#5b6579', { kalin: true });
+  }
   // yazdırma penceresi
   if (d.yazdir != null) {
     pencere(x, 250, 200, 380, 160, 'Yazdır');
@@ -102,7 +114,7 @@ export function ekranCiz(x, d) {
 export function ekranDokusu() {
   const [tam, tx] = tuval(EW, EH), [gor, gx] = tuval(EW, EH), [kck, kx] = tuval(EW, EH);
   const tex = doku(gor, { aniso: false });
-  const durum = { mod: 'masaustu', yazi: '', imlec: { x: 760, y: 230 }, tik: 0, menu: false, kamera: false, ses: null, yazdir: null, kademe: 3 };
+  const durum = { mod: 'masaustu', yazi: '', imlec: { x: 760, y: 230 }, tik: 0, menu: false, kamera: false, ses: null, cal: null, yazdir: null, kademe: 3 };
   function guncelle() {
     ekranCiz(tx, durum);
     const [w, h] = COZUNURLUK[durum.kademe];

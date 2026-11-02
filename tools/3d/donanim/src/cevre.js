@@ -3,13 +3,13 @@
 // Kesif noktaları { id, nesne, yerel } biçimindedir: işaret parçayla birlikte hareket eder, parça gizliyken görünmez.
 import {
   Group, Mesh, Vector3, Matrix4, MeshStandardMaterial, MeshBasicMaterial, InstancedMesh, BoxGeometry, CylinderGeometry, SphereGeometry, TorusGeometry, ExtrudeGeometry, Shape, DoubleSide,
-  M, malzemeler, kutu, yuvarlak, silindir, don, yer, birlestir, tuval, doku, YAZI, vekil, ornek, kabloGeo,
+  M, malzemeler, kutu, yuvarlak, silindir, don, yer, birlestir, tuval, doku, YAZI, vekil, ornek, kabloGeo, kesifNok,
 } from './yardimci.js';
 import { CapsuleGeometry, PlaneGeometry, RingGeometry, Color, Quaternion } from 'three';
 import { MASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
 import { ekranDokusu } from './ekran.js';
 
-const kes = (g, id, x, y, z) => ({ id, nesne: g, yerel: new Vector3(x, y, z) });
+const kes = kesifNok;
 const rastgele = (tohum) => { let s = tohum; return () => (s = (s * 16807) % 2147483647) / 2147483647; };
 
 // ------------------------------------------------------------------ masa
@@ -43,7 +43,7 @@ export function monitorYap() {
   g.add(v1, v2);
   return {
     grup: g, ekran: ek, led,
-    kesif: [kes(g, 'monitor', 30, 56, 3), kes(g, 'ekran', -8, 44, 2.4)],
+    kesif: [kes(g, 'monitor', 30, 56, 3, [0, 0.3, 1]), kes(g, 'ekran', -8, 44, 2.4, [0, 0, 1])],
     ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; },
     arka: new Vector3(MON.x - 14, 14.5, MON.z - 4.9),
   };
@@ -58,7 +58,7 @@ export function kameraYap() {
   const halka = new Mesh(new TorusGeometry(1.05, 0.14, 8, 24), M.alumin); halka.position.set(0, 2.9, 2.18); g.add(halka);
   const led = new Mesh(new BoxGeometry(0.5, 0.3, 0.15), M.ledKapali); led.position.set(2.6, 3.7, 2.15); g.add(led);
   g.add(vekil({ kesif: 'web-kamerasi', parca: 'kamera' }, 9, 5, 5, 0, 2.4, 0.3));
-  return { grup: g, led, kesif: [kes(g, 'web-kamerasi', 0, 5.2, 1)], ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; }, ucu: new Vector3(KAMERA_PARCA.x, KAMERA_PARCA.y + 1, KAMERA_PARCA.z - 1.6) };
+  return { grup: g, led, kesif: [kes(g, 'web-kamerasi', 0, 5.2, 1, [0, 0.3, 1])], ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; }, ucu: new Vector3(KAMERA_PARCA.x, KAMERA_PARCA.y + 1, KAMERA_PARCA.z - 1.6) };
 }
 
 // ------------------------------------------------------------------ klavye (104 tuş: bir InstancedMesh + tek legend atlası)
@@ -221,7 +221,7 @@ export function hoparlorYap() {
     grup.add(g); tek.push(g);
     // ses dalgası halkaları (yalnız çalarken görünür)
     const hl = [];
-    for (let k = 0; k < 3; k++) { const m = new Mesh(dalgaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide })); m.visible = false; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
+    for (let k = 0; k < 3; k++) { const m = new Mesh(dalgaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide })); m.visible = false; m.raycast = () => {}; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
     halkalar.push(hl);
   });
   return { grup, tek, halkalar, kesif: HOPARLOR.map((p, i) => kes(tek[i], 'hoparlor', 0, 28.4, 0)), arka: HOPARLOR.map((p) => new Vector3(p.x, 3, p.z - 7.2)) };

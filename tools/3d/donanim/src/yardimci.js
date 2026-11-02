@@ -118,6 +118,13 @@ export function vekil(veri, w, h, d, x = 0, y = 0, z = 0) {
   o.updateMatrixWorld();
   return o;
 }
+// Keşif noktası: parçanın altında boş bir çapa. Sahne motoru çapa gizliyken işareti göstermez; donanimSahne.js
+// kameranın baktığı yüze göre çapaları açıp kapatır (yon: yüzeyin dışa bakan yönü; yoksa hep açık).
+export function kesifNok(g, id, x, y, z, yon = null) {
+  const a = new Object3D(); a.position.set(x, y, z); a.name = 'kesif-' + id;
+  if (yon) a.userData.yon = new Vector3(...yon).normalize();
+  g.add(a); return { id, nesne: a, yerel: new Vector3() };
+}
 export function vurguYap(sahne, alan) {
   malzemeler();
   const [x, y, z, w, h, d] = alan;
