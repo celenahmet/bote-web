@@ -10,6 +10,9 @@ import {
 } from 'three';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
+// Döngülü içe aktarım güvenli: iki modül de bu dosyanın değerlerini yalnız işlev çağrısında okur.
+import { kartDerisiYap } from './gercekciKart.js';
+import { saglayiciKur } from './gercekciDoku.js';
 
 // ------------------------------------------------------------------ yerleşim
 export const ARD = { x: 0, z: 32, w: 68.58, d: 53.34 };      // kart merkezi; dijital başlık uzak (−z) kenarda
@@ -127,118 +130,34 @@ function malzemeler() {
   return M;
 }
 
-// ------------------------------------------------------------------ Arduino kartı dokusu
-function kartDokusu() {
-  const W = 2048, H = Math.round((2048 * ARD.d) / ARD.w), s = W / ARD.w;
-  const [c, x] = tuval(W, H);
-  x.fillStyle = '#0d7783'; x.fillRect(0, 0, W, H);
-  // ince yollar (iz)
-  x.strokeStyle = 'rgba(160,235,235,0.16)'; x.lineWidth = 0.32 * s; x.lineCap = 'round';
-  const yol = (pts) => { x.beginPath(); pts.forEach(([a, b], i) => (i ? x.lineTo(a * s, b * s) : x.moveTo(a * s, b * s))); x.stroke(); };
-  for (let i = 0; i < 14; i++) { const px = 31.5 + i * 2.54 > 46 ? 33 + i * 2.54 : 31.5 + i * 2.54; yol([[px, 4.5], [px, 9 + (i % 4)], [30 + i * 2.2, 30], [30 + i * 2.2, 33]]); }
-  for (let i = 0; i < 6; i++) yol([[49.3 + i * 2.54, 48.5], [49.3 + i * 2.54, 44], [46 + i * 2.6, 40.6]]);
-  yol([[12, 15], [18, 15], [20, 17]]); yol([[12, 18], [17, 22], [21, 24]]); yol([[8, 44], [14, 44], [16, 47]]);
-  yol([[36.5, 48.5], [36.5, 44], [24, 40], [14, 40]]); yol([[39, 48.5], [39, 45], [28, 45]]);
-  // ipek baskı
-  const ipek = '#f2f7f7';
-  x.strokeStyle = ipek; x.fillStyle = ipek; x.lineWidth = 0.22 * s;
-  const kutuCiz = (x1, z1, x2, z2) => x.strokeRect(x1 * s, z1 * s, (x2 - x1) * s, (z2 - z1) * s);
-  kutuCiz(20.0, 1.2, 45.5, 3.9); kutuCiz(47.0, 1.2, 67.3, 3.9); kutuCiz(25.1, 49.5, 45.5, 52.1); kutuCiz(48.0, 49.5, 63.3, 52.1);
-  const yaz = (t, bx, bz, boy, { don = 0, hiza = 'center', kalin = true } = {}) => {
-    x.save(); x.translate(bx * s, bz * s); x.rotate(don);
-    x.font = `${kalin ? 700 : 500} ${boy * s}px "DejaVu Sans", Arial, sans-serif`;
-    x.textAlign = hiza; x.textBaseline = 'middle'; x.fillText(t, 0, 0); x.restore();
-  };
-  const dikey = -Math.PI / 2;
-  const dij = { SCL: 'SCL', SDA: 'SDA', AREF: 'AREF', 'GND-D': 'GND', 13: '13', 12: '12', 11: '~11', 10: '~10', 9: '~9', 8: '8', 7: '7', 6: '~6', 5: '~5', 4: '4', 3: '~3', 2: '2', 1: 'TX 1', 0: 'RX 0' };
-  for (const [k, t] of Object.entries(dij)) yaz(t, DIJITAL[k], 4.4, 1.25, { don: dikey, hiza: 'right' });
-  yaz('DIGITAL (PWM~)', 46, 10.6, 1.5);
-  const gucE = { IOREF: 'IOREF', RESET: 'RESET', '3.3V': '3.3V', '5V': '5V', GND1: 'GND', GND2: 'GND', VIN: 'Vin' };
-  for (const [k, t] of Object.entries(gucE)) yaz(t, GUC[k], 48.3, 1.2, { don: dikey, hiza: 'left' });
-  for (const [k, v] of Object.entries(ANALOG)) yaz(k, v, 48.3, 1.25, { don: dikey, hiza: 'left' });
-  yaz('POWER', 35.3, 42.0, 1.5); yaz('ANALOG IN', 55.6, 42.0, 1.5);
-  yaz('L', 26.6, 10.6, 1.2); yaz('TX', 25.9, 13.3, 1.0); yaz('RX', 25.9, 15.4, 1.0); yaz('ON', 64.4, 10.6, 1.2);
-  yaz('RESET', 7.4, 10.3, 1.1); yaz('ICSP', 64.9, 21.9, 1.1);
-  // montaj delikleri
-  for (const [hx, hz] of [[13.97, 50.8], [15.24, 2.54], [66.04, 45.72], [66.04, 17.78]]) {
-    x.fillStyle = '#d9b75f'; x.beginPath(); x.arc(hx * s, hz * s, 1.75 * s, 0, Math.PI * 2); x.fill();
-    x.fillStyle = '#16191b'; x.beginPath(); x.arc(hx * s, hz * s, 1.15 * s, 0, Math.PI * 2); x.fill();
-  }
-  return doku(c);
-}
-
-function cipDokusu() {
-  const [c, x] = tuval(512, 108);
-  x.fillStyle = '#1c1c21'; x.fillRect(0, 0, 512, 108);
-  x.fillStyle = '#9da2aa'; x.font = '600 34px "DejaVu Sans", Arial, sans-serif'; x.textAlign = 'center'; x.textBaseline = 'middle';
-  x.fillText('ATMEGA328P', 270, 56);
-  x.beginPath(); x.arc(22, 54, 12, -Math.PI / 2, Math.PI / 2); x.fillStyle = '#0e0e11'; x.fill();
-  return doku(c);
-}
-
 // ------------------------------------------------------------------ Arduino kartı
+// Sanal takviye (Ahmet 02.11 01.25, "evet aynen gelsin"): Sanal kart, Fiziksel kartın geometrisini (gercekciKart.js)
+// 'sade' düzeyle kullanır: aynı parçalar (SMD'ler, 16.000 yazılı kristal, kondansatör işaretleri, altın montaj
+// halkaları, PCB kenarı, ATMEGA328P-PU yazısı, ipek baskı, logo), düz renkli malzemeler, normal ve pürüz haritası
+// ve cila yok. Logo iki görünümde de var; talep gelirse gercekci.js ARDUINO_LOGO ile birlikte burası da kapatılır.
+// Fiziksel açılınca bu deri de park edilir (örnekli SMD'ler userData.park ile, gercekci.js).
 export function kartYap(hedefler) {
   malzemeler();
   const g = new Group(); g.name = 'kart';
-  const pcbUst = new MeshStandardMaterial({ map: kartDokusu(), roughness: 0.4 });
-  const pcb = new Mesh(new RoundedBoxGeometry(ARD.w, 1.6, ARD.d, 2, 0.5), [M.pcbKenar, M.pcbKenar, pcbUst, M.pcbKenar, M.pcbKenar, M.pcbKenar]);
-  pcb.position.set(ARD.x, PCB_UST - 0.8, ARD.z);
-  g.add(pcb);
+  const deri = kartDerisiYap(saglayiciKur('sade', ANISO), { logo: true });
+  deri.grup.traverse((o) => { if (o.isInstancedMesh) o.userData.park = true; });
+  g.add(deri.grup);
+  // dişi başlıkların uçları: vurgu kutuları ve dokunma vekilleri için
+  const aralik = (adlar, tablo) => { const xs = adlar.map((a) => tablo[a]); return { x1: Math.min(...xs) - 1.27, x2: Math.max(...xs) + 1.27 }; };
+  const dijA = aralik(['SCL', 'SDA', 'AREF', 'GND-D', '13', '12', '11', '10', '9', '8'], DIJITAL);
+  const dijB = aralik(['7', '6', '5', '4', '3', '2', '1', '0'], DIJITAL);
+  const guc = aralik(['NC', 'IOREF', 'RESET', '3.3V', '5V', 'GND1', 'GND2', 'VIN'], GUC);
+  const ana = aralik(['A0', 'A1', 'A2', 'A3', 'A4', 'A5'], ANALOG);
 
-  const siyah = [], koyu = [], metal = [], altin = [], ayak = [];
-  for (const [hx, hz] of [[13.97, 50.8], [15.24, 2.54], [66.04, 45.72], [66.04, 17.78]]) { const p = ardNokta(hx, hz, 1.2); ayak.push(silindir(1.6, 2.4, p.x, p.y, p.z, 10)); }
-  // dişi pin başlıkları: gövde + üstte delik kareleri
-  const baslik = (adlar, tablo, bz) => {
-    const xs = adlar.map((a) => tablo[a]);
-    const x1 = Math.min(...xs) - 1.27, x2 = Math.max(...xs) + 1.27;
-    const p = ardNokta((x1 + x2) / 2, bz, PCB_UST + 4.25);
-    siyah.push(yuvarlak(x2 - x1, 8.5, 2.54, 0.35, p.x, p.y, p.z));
-    for (const v of xs) { const d = ardNokta(v, bz, BASLIK_UST + 0.02); koyu.push(kutu(1.0, 0.04, 1.0, d.x, d.y, d.z)); }
-    return { x1, x2, bz };
-  };
-  const dijA = baslik(['SCL', 'SDA', 'AREF', 'GND-D', '13', '12', '11', '10', '9', '8'], DIJITAL, DIJ_Z);
-  const dijB = baslik(['7', '6', '5', '4', '3', '2', '1', '0'], DIJITAL, DIJ_Z);
-  const guc = baslik(['NC', 'IOREF', 'RESET', '3.3V', '5V', 'GND1', 'GND2', 'VIN'], GUC, ALT_Z);
-  const ana = baslik(['A0', 'A1', 'A2', 'A3', 'A4', 'A5'], ANALOG, ALT_Z);
-
-  // USB-B girişi (sol kenardan taşar) ve güç girişi
-  let p = ardNokta(1.65, 15.24, PCB_UST + 5.45); metal.push(yuvarlak(16, 10.9, 12, 0.6, p.x, p.y, p.z));
-  p = ardNokta(-6.37, 15.24, PCB_UST + 5.3); koyu.push(kutu(0.04, 7.2, 8.2, p.x, p.y, p.z));
-  p = ardNokta(5.2, 44.9, PCB_UST + 5.5); siyah.push(yuvarlak(14, 11, 9, 1, p.x, p.y, p.z));
-  const jakDelik = new CircleGeometry(3.1, 20); jakDelik.rotateY(-Math.PI / 2); p = ardNokta(-1.83, 44.9, PCB_UST + 5.8); jakDelik.translate(p.x, p.y, p.z); koyu.push(jakDelik.toNonIndexed ? jakDelik : jakDelik);
-  // mikrodenetleyici (DIP-28) yuvası, gövde ve bacaklar
-  p = ardNokta(44.5, 36.8, PCB_UST + 1.3); siyah.push(yuvarlak(37.5, 2.6, 9.2, 0.4, p.x, p.y, p.z));
-  for (let i = 0; i < 14; i++) for (const yan of [-1, 1]) { const q = ardNokta(44.5 - 16.51 + i * 2.54, 36.8 + yan * 3.85, PCB_UST + 3.2); metal.push(kutu(0.55, 1.6, 0.35, q.x, q.y, q.z)); }
-  const cipGovde = new Mesh(new RoundedBoxGeometry(35.56, 3.3, 7.4, 2, 0.4), [M.cip, M.cip, new MeshStandardMaterial({ map: cipDokusu(), roughness: 0.72 }), M.cip, M.cip, M.cip]);
-  cipGovde.position.copy(ardNokta(44.5, 36.8, PCB_UST + 2.6 + 1.65));
-  g.add(cipGovde);
-  // USB çipi, kristal, regülatör, kondansatörler, reset düğmesi, ICSP
-  p = ardNokta(20, 17.5, PCB_UST + 0.45); siyah.push(kutu(5, 0.9, 5, p.x, p.y, p.z));
-  p = ardNokta(21, 27, PCB_UST + 1.8); metal.push(kutu(10.5, 3.5, 4.4, p.x, p.y, p.z));
-  p = ardNokta(15, 47.5, PCB_UST + 0.8); siyah.push(kutu(6.5, 1.6, 3.5, p.x, p.y, p.z));
-  p = ardNokta(15, 44.6, PCB_UST + 0.2); metal.push(kutu(3.2, 0.3, 3, p.x, p.y, p.z));
-  for (const [cx, cz] of [[13, 31.5], [19.5, 37.5]]) { const q = ardNokta(cx, cz, PCB_UST + 2.75); siyah.push(silindir(3.15, 5.5, q.x, q.y, q.z, 18)); metal.push(silindir(3.0, 0.2, q.x, PCB_UST + 5.55, q.z, 18)); }
-  p = ardNokta(7.4, 5.2, PCB_UST + 1.6); siyah.push(yuvarlak(6, 3.2, 6, 0.5, p.x, p.y, p.z));
-  metal.push(kutu(6.1, 0.3, 6.1, p.x, PCB_UST + 3.35, p.z));
-  const resetBas = silindir(1.7, 1.3, p.x, PCB_UST + 4.1, p.z, 18);
-  p = ardNokta(64.87, 26.67, PCB_UST + 1.25); siyah.push(kutu(5.08, 2.5, 7.62, p.x, p.y, p.z));
-  for (const ix of [63.6, 66.14]) for (const iz of [24.13, 26.67, 29.21]) { const q = ardNokta(ix, iz, PCB_UST + 5.5); altin.push(kutu(0.64, 6, 0.64, q.x, q.y, q.z)); }
-
-  g.add(birlestir(ayak, M.ayak), birlestir(siyah, M.siyah), birlestir(koyu, M.koyu), birlestir(metal, M.metal), birlestir(altin, M.altin));
-  const resetM = new Mesh(resetBas, new MeshStandardMaterial({ color: 0xd8c9a0, roughness: 0.5 })); g.add(resetM);
-
-  // kart üstü LED'ler (L, TX, RX, ON): L, 13. pinle birlikte yanar
-  const kucukLed = (bx, bz, renk) => {
-    const m = new MeshStandardMaterial({ color: new Color(renk).multiplyScalar(0.45), emissive: renk, emissiveIntensity: 0, roughness: 0.3 });
-    const mesh = new Mesh(new BoxGeometry(1.6, 0.6, 0.85), m); mesh.position.copy(ardNokta(bx, bz, PCB_UST + 0.3)); g.add(mesh);
+  // kart üstü LED'ler: L 13. pinle birlikte yanar, ON güç ışığı. Derinin LED'i yanar, üstünde ışıma (toplamalı,
+  // iki görünümde de ortak katmanda kalır).
+  const isima = (bx, bz, renk, kanca) => {
     const isik = new Sprite(new SpriteMaterial({ map: parlamaDokusu(), color: renk, blending: AdditiveBlending, depthWrite: false, transparent: true }));
-    isik.scale.set(6, 6, 1); isik.position.copy(mesh.position).add(new Vector3(0, 0.8, 0)); isik.visible = false; g.add(isik);
-    return (acik) => { m.emissiveIntensity = acik ? 1 : 0; m.color.set(acik ? renk : new Color(renk).multiplyScalar(0.45)); isik.visible = acik; };
+    isik.scale.set(6, 6, 1); isik.position.copy(ardNokta(bx, bz, PCB_UST + 1.1)); isik.visible = false; g.add(isik);
+    return (acik) => { kanca(acik); isik.visible = acik; };
   };
-  const ledL = kucukLed(28.5, 10.6, 0xffa726), ledOn = kucukLed(61.5, 10.6, 0x43e07a);
-  kucukLed(28.5, 13.3, 0xffd54f); kucukLed(28.5, 15.4, 0xffd54f);
+  const ledL = isima(28.5, 10.6, 0xffa726, deri.kanca.ledL), ledOn = isima(61.5, 10.6, 0x43e07a, deri.kanca.ledOn);
 
-  golgeAyarla(g);
   // vurgu kutuları (adımlarda mor çerçeve) ve etiket noktaları
   const alan = (bx, bz, y, w, h, d) => { const q = ardNokta(bx, bz, y); return [q.x, q.y, q.z, w, h, d]; };
   const alanlar = {

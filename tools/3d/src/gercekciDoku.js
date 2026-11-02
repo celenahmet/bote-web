@@ -16,7 +16,10 @@ export function mulberry32(a) {
 function tuval(w, h) { const c = document.createElement('canvas'); c.width = w; c.height = h; return [c, c.getContext('2d', { willReadFrequently: false })]; }
 
 // Düzeye göre doku boyutu (genişlik px). Tahta (asıl hedef) için en önemli ayar noktası burası.
+// 'sade': Sanal görünümün kartı (Ahmet 02.11 "evet aynen gelsin"): Fiziksel'in geometrisi, düz renkli malzemeler,
+// normal ve pürüz haritası yok, PCB dokusunda benek yok; SMD parçalar ve parça numaraları var.
 export const DOKU_BOYUT = {
+  sade: { pcb: 2048, pcbN: 0, bb: 1536, bbN: 0, aniz: 8 },
   dusuk: { pcb: 1536, pcbN: 0, bb: 1536, bbN: 0, aniz: 4 },
   orta: { pcb: 2048, pcbN: 1024, bb: 2048, bbN: 1024, aniz: 8 },
   yuksek: { pcb: 4096, pcbN: 2048, bb: 3072, bbN: 1536, aniz: 16 },
@@ -127,7 +130,7 @@ function kartCiz(x, W, H, P, { smd, logo, sus }) {
     x.fillStyle = P.altin; x.beginPath(); x.arc(hx * s, hz * s, 2.8 * s, 0, Math.PI * 2); x.fill();
     x.fillStyle = P.delik; x.beginPath(); x.arc(hx * s, hz * s, 1.6 * s, 0, Math.PI * 2); x.fill();
   }
-  // ipek baskı: Sanal'daki bütün yazılar aynı konumda (modeller.js kartDokusu), daraltılmış yazı tipi
+  // ipek baskı: ilk Sanal kartın (eski modeller.js kartDokusu) bütün yazıları aynı konumda, daraltılmış yazı tipi
   const ipek = P.ipek;
   x.strokeStyle = ipek; x.fillStyle = ipek; x.lineWidth = 0.2 * s;
   const kutuCiz = (x1, z1, x2, z2) => x.strokeRect(x1 * s, z1 * s, (x2 - x1) * s, (z2 - z1) * s);
@@ -165,9 +168,9 @@ export function kartDokulari(duzey, { smd, logo }) {
   const B = DOKU_BOYUT[duzey];
   const W = B.pcb, H = Math.round((W * ARD.d) / ARD.w);
   const [c, x] = tuval(W, H);
-  kartCiz(x, W, H, KART_PALET.albedo, { smd, logo, sus: duzey !== 'dusuk' });
-  // hafif benek (lehim maskesinin dokusu): iki oktav, parlaklıkta yaklaşık ±%2,5
-  gurultuKat(x, W, H, 0xB0A7, W / 110, 0.05); gurultuKat(x, W, H, 0xB0A8, W / 420, 0.04);
+  kartCiz(x, W, H, KART_PALET.albedo, { smd, logo, sus: true }); // parça numaraları her düzeyde (Sanal ile aynı kart)
+  // hafif benek (lehim maskesinin dokusu): iki oktav, parlaklıkta yaklaşık ±%2,5. Sade düzeyde yok (düz renk).
+  if (duzey !== 'sade') { gurultuKat(x, W, H, 0xB0A7, W / 110, 0.05); gurultuKat(x, W, H, 0xB0A8, W / 420, 0.04); }
   const sonuc = { albedo: dokuYap(c, true, B.aniz) };
   if (B.pcbN) {
     const NW = B.pcbN, NH = Math.round((NW * ARD.d) / ARD.w);
@@ -285,6 +288,7 @@ export function fircaNormal() {
 export function saglayiciKur(duzey, aniz) {
   const B = DOKU_BOYUT[duzey];
   const an = Math.min(B.aniz, aniz || 1);
+  const hafif = duzey === 'dusuk' || duzey === 'sade'; // normal haritası, saydam LED kubbesi ve cila yok
   const onbellek = new Map(), dokular = [];
   const kayit = (t) => { if (t) dokular.push(t); return t; };
   const std = (o) => new MeshStandardMaterial(o);
@@ -292,7 +296,7 @@ export function saglayiciKur(duzey, aniz) {
     baslikPlastik: () => std({ color: 0x1e1e22, roughness: 0.55 }),
     baslikIc: () => std({ color: 0x08080a, roughness: 0.9 }),
     metalCelik: () => std({ color: 0xcfd2d8, metalness: 1, roughness: 0.32 }),
-    metalFirca: () => std({ color: 0xc7cad0, metalness: 1, roughness: 0.38, normalMap: duzey === 'dusuk' ? null : kayit(fircaNormal()), normalScale: new Vector2(0.35, 0.35) }),
+    metalFirca: () => std({ color: 0xc7cad0, metalness: 1, roughness: 0.38, normalMap: hafif ? null : kayit(fircaNormal()), normalScale: new Vector2(0.35, 0.35) }),
     kalay: () => std({ color: 0xc4c8ce, metalness: 1, roughness: 0.3 }),
     altin: () => std({ color: 0xd9b04f, metalness: 1, roughness: 0.28 }),
     kapAlu: () => std({ map: kayit(kapBandi(an)), metalness: 0.55, roughness: 0.42 }),
@@ -324,14 +328,16 @@ export function saglayiciKur(duzey, aniz) {
   }
   // LED kubbesi: boyalı yarı saydam epoksi; yüksek düzeyde cila katmanı
   function ledKubbe(renk) {
-    const o = { color: new Color(renk).lerp(new Color(0xffffff), 0.35), emissive: new Color(renk), emissiveIntensity: 0, roughness: 0.16, metalness: 0, transparent: duzey !== 'dusuk', opacity: duzey === 'dusuk' ? 1 : 0.8, depthWrite: true };
+    const o = { color: new Color(renk).lerp(new Color(0xffffff), 0.35), emissive: new Color(renk), emissiveIntensity: 0, roughness: 0.16, metalness: 0, transparent: !hafif, opacity: hafif ? 1 : 0.8, depthWrite: true };
     return kayitMat(duzey === 'yuksek' ? new MeshPhysicalMaterial({ ...o, clearcoat: 1, clearcoatRoughness: 0.08 }) : std(o));
   }
   const ozelMat = [];
   const kayitMat = (m) => { ozelMat.push(m); return m; };
   return {
     duzey, aniz: an, mat, ledKubbe, kayit, kayitMat,
-    ek: (ad) => ({ smd: duzey !== 'dusuk', soket: duzey !== 'dusuk', ledIc: duzey !== 'dusuk' }[ad] ?? false),
+    // SMD'ler her düzeyde (02.11: Sanal kart onları gösterdiği için Fiziksel'in düşük düzeyi de gösterir; örnekli,
+    // 2 çizim çağrısı, yaklaşık 3 bin üçgen)
+    ek: (ad) => (duzey === 'sade' ? { smd: true } : { smd: true, soket: duzey !== 'dusuk', ledIc: duzey !== 'dusuk' })[ad] ?? false,
     dispose() { for (const m of onbellek.values()) m.dispose(); for (const m of ozelMat) m.dispose(); for (const t of dokular) t.dispose(); },
   };
 }
