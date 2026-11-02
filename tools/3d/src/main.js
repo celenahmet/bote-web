@@ -8,6 +8,7 @@ import { DERSLER, KAMERA } from './adimlar.js';
 import { KESIF, KATEGORI, kategoriBul } from './kesif-veri.js';
 import { TELEFON_SORGU } from './telefon.js';
 import { gercekciBagla } from './gercekci.js'; // Fiziksel görünüm: aynı sahneye ikinci kaplama
+import { panelSiniflari, seritYedegi, tamEkranKur } from './uyum.js'; // eski tarayıcı yedekleri
 
 const html = document.documentElement;
 const $ = (s, k = document) => k.querySelector(s);
@@ -81,9 +82,7 @@ $('#tema-dugme')?.addEventListener('click', () => {
   sakla('bote-theme', koyu ? 'dark' : 'light');
   S?.arkaPlan(temaRengi());
 });
-const tamEkran = $('#tam-ekran');
-if (tamEkran && !document.fullscreenEnabled) tamEkran.hidden = true;
-tamEkran?.addEventListener('click', () => (document.fullscreenElement ? document.exitFullscreen() : html.requestFullscreen?.().catch(() => {})));
+tamEkranKur($('#tam-ekran'), html); // eski iPad'de webkit önekli yol (uyum.js)
 const ogretmenDugme = $('#ogretmen-dugme');
 function ogretmenAc(acik) { html.dataset.ek = acik ? 'acik' : ''; ogretmenDugme?.setAttribute('aria-expanded', String(acik)); if (acik) $('#ogretmen')?.focus(); }
 ogretmenDugme?.addEventListener('click', () => ogretmenAc(html.dataset.ek !== 'acik'));
@@ -144,9 +143,15 @@ function dersSayfasi() {
     if (['ArrowRight', 'PageDown'].includes(e.key)) { e.preventDefault(); adimaGit(aktif + 1); }
     if (['ArrowLeft', 'PageUp'].includes(e.key)) { e.preventDefault(); adimaGit(aktif - 1); }
   });
-  // kart alanında yatay kaydırma ile adım değiştir (telefon, tablet)
+  // kart alanında yatay kaydırma ile adım değiştir (telefon, tablet). Kaydırıcıda ya da başka form öğesinde, ayar ve
+  // erişim panelinde, kendi içinde yatay kayan bir öğede başlayan ya da birden çok parmakla yapılan hareket adım
+  // değiştirmez (02.11 ölçüm: yatay tablette panel genişliği kaydırıcısını sürüklemek adımı ilerletiyordu).
   let kayBas = null;
-  $('.kart-alani').addEventListener('touchstart', (e) => { const t = e.touches[0]; kayBas = { x: t.clientX, y: t.clientY }; }, { passive: true });
+  const yatayKayar = (x, kok) => { for (; x && x !== kok; x = x.parentElement) if (x.scrollWidth > x.clientWidth + 1 && /auto|scroll/.test(getComputedStyle(x).overflowX)) return true; return false; };
+  $('.kart-alani').addEventListener('touchstart', (e) => {
+    const t = e.touches[0];
+    kayBas = e.touches.length === 1 && !e.target.closest?.('input, select, textarea, .ayarlar, .erisim-panel') && !yatayKayar(e.target, e.currentTarget) ? { x: t.clientX, y: t.clientY } : null;
+  }, { passive: true });
   $('.kart-alani').addEventListener('touchend', (e) => {
     if (!kayBas) return; const t = e.changedTouches[0]; const dx = t.clientX - kayBas.x, dy = t.clientY - kayBas.y; kayBas = null;
     if (Math.abs(dx) > 70 && Math.abs(dy) < 40) adimaGit(aktif + (dx < 0 ? 1 : -1));
@@ -155,6 +160,7 @@ function dersSayfasi() {
   // Yatay ekranda yan panel: aç/kapa, kenardan sürükleyerek genişlik, sola/sağa alma; dikey ekranda
   // aşağıdan çekilen kart sayfası: kısa, yarım, tam. Tercihler bu cihazda hatırlanır.
   const dersEl = $('.ders'), kartAlani = $('.kart-alani'), kenar = $('.panel-kenar'), panelDugme = $('#panel-dugme');
+  panelSiniflari(kartAlani); seritYedegi($('.sahne-arac'));
   const dikey = window.matchMedia('(orientation: portrait), (max-width: 820px)');
   function panelAyarla(acik, kaydet = true) {
     html.dataset.panel = acik ? 'acik' : 'kapali';
@@ -285,16 +291,28 @@ function dersSayfasi() {
   if (tahminAyar) { tahminAyar.checked = oku('bote-3d-tahmin') !== 'hayir'; tahminAyar.addEventListener('change', () => sakla('bote-3d-tahmin', tahminAyar.checked ? 'evet' : 'hayir')); }
   // dikey ekran: kart sayfası
   const SAYFA = {
-    kisa: () => ($('.tutamac')?.offsetHeight || 0) + ($('.kart-ust')?.offsetHeight || 0) + ($('.kart-alt')?.offsetHeight || 0) + 2,
+    // alçak yatay ekranda Geri/İleri başlıkla aynı satırda (stil.css): o zaman satırın yüksekliği bir kez sayılır
+    kisa: () => {
+      const tut = $('.tutamac'), ust = $('.kart-ust'), alt = $('.kart-alt');
+      const yan = !!(alt && ust && alt.offsetTop < ust.offsetTop + ust.offsetHeight);
+      return (tut?.offsetHeight || 0) + Math.max(ust?.offsetHeight || 0, yan ? alt.offsetHeight : 0) + (yan ? 0 : alt?.offsetHeight || 0) + 2;
+    },
     yarim: () => dersEl.clientHeight * 0.5,
     tam: () => dersEl.clientHeight * 0.92,
   };
+  // Yatay telefonda yarım sayfa metne yer bırakmıyordu (568x320 ile 812x375 arası gövde 0 px; yarım, kısadan bile alçaktı):
+  // tutamaca dokunmak bir şey açmıyordu. Yarım konum metne en az GOVDE_EN_AZ (iki dokunma satırı) bırakmıyorsa yok sayılır:
+  // dokunma kısa ile tam arasında gider, kayıtlı "yarım" tercihi bu ekranda kısa görünür (sahne görünsün), dikeye dönünce yine yarım.
+  // Özgür moddaki ölçüyle aynı (ozgur.js GOVDE_EN_AZ).
+  const GOVDE_EN_AZ = 88;
+  const yarimVar = () => SAYFA.yarim() - SAYFA.kisa() + 2 >= GOVDE_EN_AZ;
+  const gorunen = (d) => (d === 'yarim' && !yarimVar() ? 'kisa' : d);
   let sayfaDurum = ['kisa', 'yarim', 'tam'].includes(oku('bote-3d-sayfa')) ? oku('bote-3d-sayfa') : 'yarim';
   function sayfaUygula(d, kaydet = true, anlik = false) {
     if (!dikey.matches) { delete html.dataset.sayfa; dersEl.style.removeProperty('--sayfa-h'); S?.gorunurAlan(0, true); panelAyarla(html.dataset.panel !== 'kapali', false); return; }
-    sayfaDurum = d; html.dataset.sayfa = d;
+    sayfaDurum = d; const g = gorunen(d); html.dataset.sayfa = g;
     kartAlani.inert = false;
-    const yuk = Math.round(SAYFA[d]());
+    const yuk = Math.round(SAYFA[g]());
     if (anlik) html.dataset.suruklenen = '1';
     dersEl.style.setProperty('--sayfa-h', `${yuk}px`);
     if (anlik) requestAnimationFrame(() => delete html.dataset.suruklenen);
@@ -321,11 +339,12 @@ function dersSayfasi() {
       if (!cek) return;
       const c = cek; cek = null; delete html.dataset.suruklenen;
       const yuk = kartAlani.getBoundingClientRect().height, oynadi = Math.abs(e.clientY - c.y) > 6;
+      const yv = yarimVar(), acik = yv ? 'yarim' : 'tam';
       let hedef;
-      if (!oynadi) hedef = sayfaDurum === 'kisa' ? 'yarim' : 'kisa'; // dokunma: kısa <-> yarım
-      else if (c.hiz > 0.45) hedef = yuk < SAYFA.yarim() ? 'yarim' : 'tam'; // hızlı yukarı
-      else if (c.hiz < -0.45) hedef = yuk > SAYFA.yarim() ? 'yarim' : 'kisa'; // hızlı aşağı
-      else hedef = ['kisa', 'yarim', 'tam'].sort((a, b) => Math.abs(SAYFA[a]() - yuk) - Math.abs(SAYFA[b]() - yuk))[0];
+      if (!oynadi) hedef = html.dataset.sayfa === 'kisa' ? acik : 'kisa'; // dokunma: kısa <-> yarım (alçak ekranda tam)
+      else if (c.hiz > 0.45) hedef = yuk < SAYFA.yarim() ? acik : 'tam'; // hızlı yukarı
+      else if (c.hiz < -0.45) hedef = yv && yuk > SAYFA.yarim() ? 'yarim' : 'kisa'; // hızlı aşağı
+      else hedef = (yv ? ['kisa', 'yarim', 'tam'] : ['kisa', 'tam']).sort((a, b) => Math.abs(SAYFA[a]() - yuk) - Math.abs(SAYFA[b]() - yuk))[0];
       sayfaUygula(hedef);
       duyur({ kisa: 'Kartlar küçüldü', yarim: 'Kartlar yarım ekran', tam: 'Kartlar tam ekran' }[hedef]);
     };

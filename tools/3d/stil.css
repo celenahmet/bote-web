@@ -13,14 +13,15 @@ html[data-mod=tahta]{--fs:clamp(21px,1.42vw,58px);--btn:clamp(60px,3.5vw,140px);
 @media (min-width:2400px){html[data-mod=tahta]{--hedef:84px;--isaret:84px}}
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs)/1.55 var(--font);-webkit-tap-highlight-color:transparent;overflow-x:clip}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 var(--fs)/1.55 var(--font);-webkit-tap-highlight-color:transparent;overflow-x:hidden;overflow-x:clip}
 .gorunum .kisa{display:none}
 a{color:var(--violet)}
 button{font:inherit;color:inherit}
 :focus-visible{outline:3px solid var(--violet);outline-offset:2px}
 .sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-.atla{position:absolute;left:8px;top:-60px;background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:10px;z-index:50}
-.atla:focus{top:8px}
+/* Gizliyken kendi boyu kadar yukarıda: tahta modunda yazı büyüyünce sabit -60 px yetmiyor, bağlantı üstten sızıyordu (4K'da 45 px). */
+.atla{position:absolute;left:8px;top:8px;translate:0 calc(-100% - 16px);background:var(--ink);color:var(--bg);padding:10px 14px;border-radius:10px;z-index:50}
+.atla:focus{translate:none}
 .ico{width:1.15em;height:1.15em;flex:none}
 
 /* sınıfa özel metin: yalnız seçili sınıfınki görünür (JavaScript'siz 6. sınıf) */
@@ -76,6 +77,10 @@ html[data-js][data-panel=kapali] .kart-alani{visibility:hidden;border-width:0;tr
 html[data-js] .panel-kenar{display:block;position:relative;z-index:6;width:0;outline:none}
 html[data-js] .panel-kenar::before{content:"";position:absolute;top:0;bottom:0;left:-8px;width:16px;cursor:col-resize;touch-action:none}
 html[data-js] .panel-kenar:focus-visible::before{background:color-mix(in srgb,var(--violet) 30%,transparent)}
+/* color-mix yedeği (Chrome 111 ve Safari 16.2 öncesi yok): var() içeren bildirim ayrıştırmada geçer, hesaplamada geçersiz kalıp
+   şeffafa döner; aynı kuralın içine yazılan yedek bu yüzden ezilir. Her color-mix kuralının hemen ardından @supports not ile düz
+   renk gelir; kural sırası korunduğu için sonraki durum kuralları (basılı, tahta, dikey) eski tarayıcıda da aynı kazanır. */
+@supports not (color:color-mix(in srgb,red 50%,blue)){html[data-js] .panel-kenar:focus-visible::before{background:var(--violet);opacity:.3}}
 html[data-panel=kapali] .panel-kenar::before{display:none}
 /* görünür sürükleme tutamacı: panel düğmesinin üstünde, dokunma hedefi en az --hedef */
 .kenar-tutamac{position:absolute;left:0;top:calc(50% - var(--btn) * .85 - 10px);translate:-50% -100%;display:grid;place-items:center;width:var(--hedef);height:calc(var(--hedef) * 1.3);color:var(--muted);cursor:col-resize;touch-action:none;z-index:7}
@@ -89,6 +94,7 @@ html[data-panel-yan=sol][data-panel=kapali] .panel-dugme .ico{transform:none}
 html[data-panel=kapali] .panel-dugme{translate:calc(-100% - 8px) -50%}
 html[data-panel-yan=sol][data-panel=kapali] .panel-dugme{translate:8px -50%}
 .mini-gezinti{display:none;align-items:center;gap:2px;padding:3px;border-radius:14px;background:color-mix(in srgb,var(--surface) 92%,transparent);box-shadow:0 2px 12px #1b14261a;flex:1 1 auto;min-width:0;max-width:min(620px,44vw)}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.mini-gezinti{background:var(--surface)}}
 html[data-panel=kapali] .mini-gezinti{display:flex}
 .mini-gezinti button{min-height:max(var(--hedef),calc(var(--btn) - 8px));min-width:max(var(--hedef),calc(var(--btn) - 8px));display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:10px;background:transparent;cursor:pointer;font-weight:600;touch-action:manipulation}
 .mini-baslik{padding:0 12px!important;min-width:0!important;overflow:hidden;flex:1}
@@ -106,13 +112,14 @@ html[data-js] .kart-alani{position:absolute;left:0;right:0;bottom:0;height:var(-
 html[data-js] .panel-kenar,.mini-gezinti,.yatay-ayar{display:none!important}
 .tutamac{display:flex;justify-content:center;padding:10px 0 2px;cursor:grab;touch-action:none}
 .tutamac span{width:46px;height:5px;border-radius:99px;background:color-mix(in srgb,var(--muted) 50%,transparent)}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.tutamac span{background:var(--muted);opacity:.5}}
 .kart-ust{touch-action:none}
 html[data-sayfa=kisa] .kart-govde{visibility:hidden}
 html[data-sayfa=kisa] .kisa-baslik{display:block;flex:1;min-width:0;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 html[data-sayfa=kisa] .ilerleme{display:none}
 html[data-js] .sahne-arac{bottom:calc(var(--sayfa-h,50%) + 10px)}
 html[data-sayfa=tam] .sahne-arac{opacity:0;pointer-events:none}}
-.sahne-alani{position:relative;min-height:0;overflow:hidden;background:var(--sahne);user-select:none}
+.sahne-alani{position:relative;min-height:0;overflow:hidden;background:var(--sahne);-webkit-user-select:none;user-select:none}
 html:not([data-js]) .sahne-alani{display:none}
 #sahne{display:block;width:100%;height:100%;touch-action:none;outline:none}
 .yukleniyor{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-weight:600;transition:opacity .3s}
@@ -121,6 +128,7 @@ html:not([data-js]) .sahne-alani{display:none}
 html[data-webgl=yok] .webgl-yok{display:grid}
 html[data-webgl=yok] .yukleniyor{display:none}
 .baglam-kaybi .baglam-mesaj{display:grid;gap:12px;justify-items:center;background:color-mix(in srgb,var(--sahne) 92%,transparent)}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.baglam-kaybi .baglam-mesaj{background:var(--sahne)}}
 .etiketler{position:absolute;inset:0;pointer-events:none;overflow:hidden}
 .etiket{position:absolute;left:0;top:0;padding:7px 13px;border-radius:12px;background:var(--ink);color:var(--bg);font-weight:700;font-size:.95em;line-height:1.25;white-space:nowrap;box-shadow:0 4px 16px #1b142640;transition:opacity .15s}
 .etiket-yesil{background:var(--ok);color:#fff}
@@ -144,6 +152,7 @@ html[data-webgl=yok] .yukleniyor{display:none}
 .kesif-isaret[aria-current=true] .ki-daire{box-shadow:0 0 0 3px #fff,0 0 0 6px var(--ink),0 3px 10px #1b142670;transform:scale(1.08)}
 html[data-mod=tahta] .ki-no{min-width:26px;height:26px;padding:0 7px;font-size:15px}
 .lejant{position:absolute;right:12px;top:12px;max-width:calc(100% - 24px);border-radius:14px;background:color-mix(in srgb,var(--surface) 94%,transparent);box-shadow:0 2px 12px #1b14261f;font-size:.88em}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.lejant{background:var(--surface)}}
 html:not([data-kesif=acik]) .lejant{display:none}
 .lejant summary{display:flex;align-items:center;gap:8px;min-height:var(--hedef);padding:0 12px 0 14px;border-radius:14px;font-weight:700;cursor:pointer;list-style:none;touch-action:manipulation}
 .lejant summary::-webkit-details-marker{display:none}
@@ -157,6 +166,7 @@ html:not([data-kesif=acik]) .lejant{display:none}
 @media (max-width:700px){.sahne-alani[data-ipucu=delik] .lejant{top:62px}}
 .sol-arac{display:flex;align-items:flex-end;gap:8px;flex:none;min-width:0}
 .kesif-dugme{display:inline-flex;align-items:center;gap:8px;min-height:var(--arac-h);padding:0 16px;border:0;border-radius:14px;background:color-mix(in srgb,var(--surface) 90%,transparent);box-shadow:0 2px 12px #1b14261a;font-weight:700;white-space:nowrap;cursor:pointer;touch-action:manipulation}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.kesif-dugme{background:var(--surface)}}
 .kesif-dugme[aria-pressed=true]{background:var(--violet);color:#fff}
 :root[data-theme=dark] .kesif-dugme[aria-pressed=true]{color:#120c1c}
 .kesif-soru{display:grid;gap:10px;justify-items:start}
@@ -201,12 +211,21 @@ html[data-kesif=acik] .sahne-alani .ipucu-dokun{display:none}
 .sahne-arac{position:absolute;left:12px;right:12px;bottom:12px;display:flex;align-items:flex-end;justify-content:space-between;gap:8px;pointer-events:none;container-type:inline-size}
 .sahne-arac>*{pointer-events:auto}
 .gorunum,.yakinlik{display:flex;flex:none;gap:2px;padding:3px;border-radius:14px;background:color-mix(in srgb,var(--surface) 88%,transparent);box-shadow:0 2px 12px #1b14261a}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.gorunum,.yakinlik{background:var(--surface)}}
 .gorunum button,.yakinlik button{min-height:max(var(--hedef),calc(var(--btn) - 8px));min-width:max(var(--hedef),calc(var(--btn) - 8px));padding:0 12px;border:0;border-radius:10px;background:transparent;cursor:pointer;font-weight:600;white-space:nowrap;touch-action:manipulation}
 .gorunum button[aria-pressed=true]{background:var(--violet);color:#fff}
 :root[data-theme=dark] .gorunum button[aria-pressed=true]{color:#120c1c}
 .yakinlik button{font-size:1.25em;line-height:1}
 @container (max-width:640px){.gorunum .uzun{display:none}.gorunum .kisa{display:inline}.gorunum button{padding:0 8px}.kesif-dugme{padding:0 12px}}
 @container (max-width:380px){.sol-arac{gap:6px}.kesif-dugme{gap:6px;padding:0 10px}}
+/* Kapsayıcı sorgusu yedeği (Safari 16 öncesi): uyum.js şerit genişliğine göre dar-640 / dar-380 yazar. :where() ağırlığı
+   sıfırlar; yedek kurallar @container içindekilerle aynı ağırlıkta ve aynı sırada kalır. */
+:where(.sahne-arac.dar-640) .gorunum .uzun{display:none}
+:where(.sahne-arac.dar-640) .gorunum .kisa{display:inline}
+:where(.sahne-arac.dar-640) .gorunum button{padding:0 8px}
+:where(.sahne-arac.dar-640) .kesif-dugme{padding:0 12px}
+:where(.sahne-arac.dar-380) .sol-arac{gap:6px}
+:where(.sahne-arac.dar-380) .kesif-dugme{gap:6px;padding:0 10px}
 /* Tahta modunda düğmeler büyük. Yan panelli yatay ekranda (yatay telefon: panel en az 440 px) sahne 450-500 px kalır, şerit sığmaz;
    yakınlaştırma düğmeleri sahne kenarından taşıp panelin sürükleme alanının altında kalıyordu. Sığmayan düğmeler alt satıra geçer.
    Normal mod, kapalı panel (mini gezinti) ve sığan şerit değişmez. Özgür modda sığmayı ozgur.js aracSigdir ölçer; orada satır kırma ozgur.css'te. */
@@ -223,6 +242,7 @@ html[data-mod=tahta]:not([data-panel=kapali]) body.ders-sayfasi:not(.ozgur-sayfa
 .bilgi.yalin .sosyal{display:none}
 .bilgi .kapat{position:absolute;right:4px;top:4px;display:grid;place-items:center;width:var(--hedef);height:var(--hedef);padding:0;border:0;border-radius:12px;background:transparent;color:var(--muted);cursor:pointer;touch-action:manipulation}
 .bilgi-kat{display:inline-flex;align-items:center;gap:8px;margin:0 calc(var(--hedef) - 4px) 8px 0!important;padding:3px 12px 3px 3px;border-radius:999px;background:color-mix(in srgb,var(--k) 14%,var(--surface));color:var(--ink);font-weight:700;font-size:.82em}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.bilgi-kat{background:var(--raised)}}
 .bilgi-kat[hidden]{display:none}
 .bilgi-kat .ki-daire{width:26px;height:26px}
 .bilgi-kat .ki-daire .ico{width:15px;height:15px}
@@ -232,7 +252,9 @@ html[data-mod=tahta]:not([data-panel=kapali]) body.ders-sayfasi:not(.ozgur-sayfa
 .olcum{position:absolute;right:12px;top:12px;padding:6px 10px;border-radius:10px;background:#000c;color:#fff;font:600 13px var(--mono)}
 
 /* kartlar */
-.kart-alani{display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;min-height:0;min-width:0;overflow:hidden;background:var(--surface);border-left:1px solid var(--line)}
+/* overflow:clip: kart alanı kaydırılamaz (yalnız gövde kayar). Kısa sayfada gizli gövdenin dolgusu alttan taşınca tarayıcı alanı kendiliğinden
+   kaydırıyor, tutamaç görünür alanın 18 px üstünde kalıp dokunuşu Keşif şeridine bırakıyordu (yatay telefon). clip tanımayan eski Safari hidden kullanır. */
+.kart-alani{display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;min-height:0;min-width:0;overflow:hidden;overflow:clip;background:var(--surface);border-left:1px solid var(--line)}
 .tutamac{grid-row:1}.kart-ust{grid-row:2}.kart-govde{grid-row:3}.kart-alt{grid-row:4}
 html:not([data-js]) .kart-alani{border:0}
 .kart-ust{display:flex;align-items:center;gap:12px;padding:12px var(--pad) 0}
@@ -269,10 +291,11 @@ code{font-family:var(--mono);font-size:.92em;background:var(--kod);padding:.08em
 .kod ol{list-style:none;margin:0;padding:6px 0;counter-reset:s}
 .kod-satir{display:grid;grid-template-columns:2.2em minmax(0,1fr);column-gap:8px;padding:3px 12px 3px 0;border-left:4px solid transparent;counter-increment:s}
 .kod-satir::before{content:counter(s);text-align:right;color:var(--muted);font:500 .8em/1.9 var(--mono)}
-.kod-satir code{background:none;padding:0;white-space:pre;font-size:.9em;overflow-x:auto}
+.kod-satir code{background:none;padding:0 0 0 2ch;text-indent:-2ch;white-space:pre-wrap;overflow-wrap:anywhere;font-size:.9em;overflow-x:auto}
 .kod-satir .tr{grid-column:2;color:var(--muted);font-size:.82em;line-height:1.35}
 .kod-satir.bos .tr{display:none}
 .kod-satir.calisiyor{background:color-mix(in srgb,var(--violet) 14%,transparent);border-left-color:var(--violet)}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.kod-satir.calisiyor{background:var(--violet-soft)}}
 .kod-satir.calisiyor code{font-weight:700}
 .hedefler{margin:10px 0 0;padding-left:1.2em}
 .sinav{margin:18px 0 0;padding:14px;border-radius:var(--r);background:var(--raised)}
@@ -369,7 +392,20 @@ html[data-mod=tahta] .ipucu{font-size:.8em}
 /* ayarlar kart sayfasının içinde kırpılmasın: aşağıdan açılan ayrı sayfa, arkası karartılır */
 .ayarlar{position:fixed;left:0;right:0;bottom:0;top:auto;width:auto;max-height:min(85vh,calc(100vh - var(--ust) - 16px));max-height:min(85dvh,calc(100dvh - var(--ust) - 16px));padding:16px var(--pad) calc(18px + env(safe-area-inset-bottom));border:0;border-radius:22px 22px 0 0;box-shadow:0 -10px 40px #1b142640;z-index:41}
 .ayar-perde:not([hidden]){display:block;position:fixed;inset:0;z-index:40;background:#130d1c73}
-html[data-js] .kart-alani:has(.ayarlar:not([hidden])){z-index:25}}
+html[data-js] .kart-alani.ayar-acik{z-index:25}}
+/* Yatay telefon (alçak ekranda alttan sayfa): sayfa başlığıyla Geri/İleri tek satırda, boşluklar dar. Yığılı hâlde başlık ve gezinme
+   264 px'lik alanın 146 px'ini yiyor, yarım sayfada metne 0 px kalıyordu (568x320 ile 812x375 arası ölçüm). Konumları main.js SAYFA ölçer. */
+@media (orientation:landscape) and (max-height:500px) and (max-width:820px){
+.tutamac{padding:5px 0 0}
+.kart-ust{padding-top:4px}
+body.ders-sayfasi:not(.ozgur-sayfasi) .kart-alani{grid-template-columns:minmax(0,1fr) auto}
+body.ders-sayfasi:not(.ozgur-sayfasi) .tutamac,body.ders-sayfasi:not(.ozgur-sayfasi) .kart-govde{grid-column:1/-1}
+body.ders-sayfasi:not(.ozgur-sayfasi) .kart-ust{grid-column:1}
+body.ders-sayfasi:not(.ozgur-sayfasi) .kart-alt{grid-row:2;grid-column:2;grid-template-columns:auto auto;gap:6px;padding:4px var(--pad) 0 0;border-top:0;background:transparent}
+body.ders-sayfasi:not(.ozgur-sayfasi) .kart-alt .dugme{min-height:var(--kd);padding:0 12px;font-size:1em}
+body.ders-sayfasi:not(.ozgur-sayfasi) .kart-govde{padding-bottom:calc(12px + env(safe-area-inset-bottom))}
+.ozgur-sayfasi .kart-alt{padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
+.ozgur-sayfasi .kart-alt .dugme{min-height:var(--kd)}}
 
 /* Üzerine gelme yalnız fare gibi ince işaretçide: dokunmatik tahtada ve telefonda dokunulan düğme
    "seçili" gibi takılı kalmaz. Hiçbir işlev üzerine gelmeye bağlı değil. */

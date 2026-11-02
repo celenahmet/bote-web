@@ -126,13 +126,19 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {}, guvenl
 
   // Uyarlanır kalite: hareket sırasında 24 karelik ortalama aralık 26 ms'yi (~38 kare/sn) aşarsa bir kademe
   // inilir; üç pencere boyunca 19 ms'nin altındaysa bir kademe çıkılır. 120 Hz ekranda 60 kare/sn yeterli sayılır.
+  // Çok yavaş cihazda 24 kare saniyeler sürer (02.11 ölçüm, 4K tahta yazılım çizici: ilk iniş 2,8 sn, en alt
+  // kademe 6,3 sn). En az 6 aralık 450 ms'yi doldurmuş ve ortanca aralık 50 ms'yi aşmışsa pencere erken kapanır;
+  // ortanca bakıldığı için tek seferlik bir takılma erken inişi tetiklemez.
   function olc(t) {
     if (sonKare) araliklar.push(t - sonKare);
     sonKare = t;
-    if (araliklar.length < 24) return;
-    const ort = araliklar.reduce((x, y) => x + y, 0) / araliklar.length;
+    const n = araliklar.length;
+    const toplam = araliklar.reduce((x, y) => x + y, 0);
+    const erken = n >= 6 && n < 24 && toplam >= 450 && [...araliklar].sort((x, y) => x - y)[n >> 1] > 50;
+    if (n < 24 && !erken) return;
+    const ort = toplam / n;
     araliklar = [];
-    if (t - sonAyar < 500) return;
+    if (t - sonAyar < (erken ? 300 : 500)) return;
     if (ort > 26 && kademe < KADEME.length - 1) { kademe++; hizliSayac = 0; sonAyar = t; olay('kalite', kademe); }
     else if (ort < 19 && kademe > 0 && ++hizliSayac >= 3) { kademe--; hizliSayac = 0; sonAyar = t; }
   }

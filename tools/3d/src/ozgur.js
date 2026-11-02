@@ -17,6 +17,7 @@ import {
 } from './devreCoz.js';
 import { kodUret, girintile } from './ozgurKod.js';
 import { TELEFON_SORGU } from './telefon.js';
+import { panelSiniflari, seritYedegi, tamEkranKur } from './uyum.js'; // eski tarayıcı yedekleri
 
 const html = document.documentElement;
 const $ = (s, k = document) => k.querySelector(s);
@@ -75,14 +76,17 @@ $('#tema-dugme')?.addEventListener('click', () => {
   sakla('bote-theme', koyu ? 'dark' : 'light');
   S?.arkaPlan(temaRengi());
 });
-const tamEkran = $('#tam-ekran');
-if (tamEkran && !document.fullscreenEnabled) tamEkran.hidden = true;
-tamEkran?.addEventListener('click', () => (document.fullscreenElement ? document.exitFullscreen() : html.requestFullscreen?.().catch(() => {})));
-$('#ogretmen-dugme')?.addEventListener('click', () => { html.dataset.ek = html.dataset.ek === 'acik' ? '' : 'acik'; if (html.dataset.ek) $('#ogretmen')?.focus(); });
-$('#ogretmen-kapat')?.addEventListener('click', () => { html.dataset.ek = ''; $('#ogretmen-dugme')?.focus(); });
+tamEkranKur($('#tam-ekran'), html); // eski iPad'de webkit önekli yol (uyum.js)
+// Öğretmen notu: ders sayfasıyla aynı (main.js ogretmenAc). Düğmenin aria-expanded'ı panelle birlikte değişir,
+// ekran okuyucu açık mı kapalı mı duyar; Esc de kapatır (aşağıdaki keydown).
+const ogretmenDugme = $('#ogretmen-dugme');
+function ogretmenAc(acik) { html.dataset.ek = acik ? 'acik' : ''; ogretmenDugme?.setAttribute('aria-expanded', String(acik)); if (acik) $('#ogretmen')?.focus(); }
+ogretmenDugme?.addEventListener('click', () => ogretmenAc(html.dataset.ek !== 'acik'));
+$('#ogretmen-kapat')?.addEventListener('click', () => { ogretmenAc(false); ogretmenDugme?.focus(); });
 
 // ================================================================== panel ve dikey ekranda aşağıdan çekilen sayfa (main.js ile aynı davranış)
 const dersEl = $('.ders'), kartAlani = $('.kart-alani'), kenar = $('.panel-kenar'), panelDugme = $('#panel-dugme');
+panelSiniflari(kartAlani); seritYedegi($('.sahne-arac'));
 const dikey = window.matchMedia('(orientation: portrait), (max-width: 820px)');
 function panelAyarla(acik, kaydet = true) {
   html.dataset.panel = acik ? 'acik' : 'kapali';
@@ -165,12 +169,17 @@ const SAYFA = {
   yarim: () => dersEl.clientHeight * 0.5,
   tam: () => dersEl.clientHeight * 0.92,
 };
+// Yatay telefonda yarım sayfa metne yer bırakmıyor (aşağıdaki GOVDE_EN_AZ notu): o ekranda yarım konum yok sayılır, kayıtlı "yarım"
+// tercihi kısa görünür, tutamaca dokunma kısa ile tam arasında gider (main.js ile aynı). Sayfa ilk kez aşağıda uygulandığı için ölçü burada.
+const GOVDE_EN_AZ = 88;
+const yarimVar = () => SAYFA.yarim() - SAYFA.kisa() + 2 >= GOVDE_EN_AZ;
+const gorunen = (d) => (d === 'yarim' && !yarimVar() ? 'kisa' : d);
 let sayfaDurum = ['kisa', 'yarim', 'tam'].includes(oku('bote-3d-sayfa')) ? oku('bote-3d-sayfa') : 'yarim';
 function sayfaUygula(d, kaydet = true, anlik = false) {
   if (!dikey.matches) { delete html.dataset.sayfa; dersEl.style.removeProperty('--sayfa-h'); S?.gorunurAlan(0, true); panelAyarla(html.dataset.panel !== 'kapali', false); return; }
-  sayfaDurum = d; html.dataset.sayfa = d;
+  sayfaDurum = d; const g = gorunen(d); html.dataset.sayfa = g;
   kartAlani.inert = false;
-  const yuk = Math.round(SAYFA[d]());
+  const yuk = Math.round(SAYFA[g]());
   if (anlik) html.dataset.suruklenen = '1';
   dersEl.style.setProperty('--sayfa-h', `${yuk}px`);
   if (anlik) requestAnimationFrame(() => delete html.dataset.suruklenen);
@@ -196,11 +205,12 @@ for (const el of [$('.tutamac'), $('.kart-ust')].filter(Boolean)) {
     if (!cek) return;
     const c = cek; cek = null; delete html.dataset.suruklenen;
     const yuk = kartAlani.getBoundingClientRect().height, oynadi = Math.abs(e.clientY - c.y) > 6;
+    const yv = yarimVar(), acik = yv ? 'yarim' : 'tam';
     let hedef;
-    if (!oynadi) hedef = sayfaDurum === 'kisa' ? 'yarim' : 'kisa';
-    else if (c.hiz > 0.45) hedef = yuk < SAYFA.yarim() ? 'yarim' : 'tam';
-    else if (c.hiz < -0.45) hedef = yuk > SAYFA.yarim() ? 'yarim' : 'kisa';
-    else hedef = ['kisa', 'yarim', 'tam'].sort((a, b) => Math.abs(SAYFA[a]() - yuk) - Math.abs(SAYFA[b]() - yuk))[0];
+    if (!oynadi) hedef = html.dataset.sayfa === 'kisa' ? acik : 'kisa';
+    else if (c.hiz > 0.45) hedef = yuk < SAYFA.yarim() ? acik : 'tam';
+    else if (c.hiz < -0.45) hedef = yv && yuk > SAYFA.yarim() ? 'yarim' : 'kisa';
+    else hedef = (yv ? ['kisa', 'yarim', 'tam'] : ['kisa', 'tam']).sort((a, b) => Math.abs(SAYFA[a]() - yuk) - Math.abs(SAYFA[b]() - yuk))[0];
     sayfaUygula(hedef);
     duyur({ kisa: 'Panel küçüldü', yarim: 'Panel yarım ekran', tam: 'Panel tam ekran' }[hedef]);
   };
@@ -221,8 +231,7 @@ const SEKMELER = ['kur', 'program', 'durum'];
 // parçalar (tutamaç, sekme şeridi, alt çubuk; SAYFA.kisa bunların toplamı + 2). Yatay telefonda yarım sayfada yalnız ~28 px kalır
 // (ölçüm 568x320 ile 812x375 arası), sekmeye dokunmak içeriği göstermezdi. İki dokunma satırından (2 x 44 px) az kalırsa sayfa "tam"a
 // açılır; bu geçici açılıştır, tercih olarak saklanmaz. Dikey telefonda yarım sayfada en az 103 px kalır (320x568), 360x640 ve üstünde
-// 139 px üstü: davranış aynı kalır (kısa -> yarım). Tam sayfada ve aynı sekmeye tekrar dokunmada bir şey değişmez.
-const GOVDE_EN_AZ = 88;
+// 139 px üstü: davranış aynı kalır (kısa -> yarım). Tam sayfada ve aynı sekmeye tekrar dokunmada bir şey değişmez. GOVDE_EN_AZ yukarıda.
 function sekmeSayfasi() {
   if (!dikey.matches) return;
   const hedef = SAYFA.yarim() - SAYFA.kisa() + 2 >= GOVDE_EN_AZ ? 'yarim' : 'tam';
@@ -549,6 +558,7 @@ document.addEventListener('keydown', (e) => {
   if (e.target.closest?.('input[type=text], textarea') || pencere?.open) return;
   if ((e.ctrlKey || e.metaKey) && !e.shiftKey && !e.altKey && (e.key === 'z' || e.key === 'Z')) { e.preventDefault(); geriAl(); return; }
   if (e.key === 'Escape') {
+    if (html.dataset.ek === 'acik') { ogretmenAc(false); ogretmenDugme?.focus(); return; }
     if (!$('#secici').hidden) { seciciKapat(); canvas.focus({ preventScroll: true }); return; }
     if (arac) { aracBitir(true); return; }
     if (seciliId) secimKaldir();

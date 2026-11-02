@@ -30,7 +30,10 @@ html:not([data-js]) .ozgur-js{display:none!important}
 .hazir-izgara{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .hazir-izgara .dugme{display:grid;justify-items:start;align-content:center;gap:0;min-height:calc(var(--btn) + 12px);padding:6px 12px;text-align:left;white-space:normal;line-height:1.2}
 .hazir-izgara .dugme span{font-weight:500;font-size:.82em;color:var(--muted)}
-.palet{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:8px}
+/* Sütun eni yazı boyuyla büyür (düğme payı 64 px + en uzun sözcük): tahtada 4K'da yazı 54 px iken 148 px'lik sütunlar yazıyı taşırıyordu.
+   Normal boyda en az 148 px (eskisiyle aynı); A+ ve tahta modunda sütun sayısı azalır. */
+.palet{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,max(148px,calc(64px + 3.3em))),1fr));gap:8px}
+.palet-dugme>span{min-width:0;overflow-wrap:break-word}
 .palet-dugme{display:flex;align-items:center;gap:10px;min-height:calc(var(--btn) + 4px);padding:6px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-weight:600;text-align:left;cursor:pointer;touch-action:manipulation;line-height:1.2}
 .palet-dugme:hover{border-color:var(--violet)}
 .palet-dugme[aria-pressed=true]{border-color:var(--violet);background:var(--violet-soft);color:var(--violet);box-shadow:inset 0 0 0 1px var(--violet)}
@@ -123,7 +126,7 @@ html:not([data-js]) .ozgur-js{display:none!important}
 .yonerge p{margin:0;flex:1;min-width:0}
 .yonerge .ico{flex:none}
 .yonerge.gecersiz{background:var(--isaret-hata);color:#fff}
-.yonerge .dugme{background:transparent;color:inherit;border-color:color-mix(in srgb,currentColor 45%,transparent);flex:none}
+.yonerge .dugme{background:transparent;color:inherit;border-color:currentColor;border-color:color-mix(in srgb,currentColor 45%,transparent);flex:none}
 .secim-kart{padding:12px 14px;border-radius:var(--r);background:var(--surface);box-shadow:0 8px 30px #1b142633}
 .secim-kart .secim-ad{margin:0;font-weight:800}
 .secim-kart .secim-acik{margin:.15em 0 0;color:var(--muted);font-size:.9em}
@@ -152,6 +155,7 @@ html:not([data-js]) .ozgur-js{display:none!important}
 
 /* sahne araç çubuğu ekleri */
 .arac-dugme{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:var(--hedef);min-height:var(--btn);padding:0 14px;border:0;border-radius:14px;background:color-mix(in srgb,var(--surface) 90%,transparent);box-shadow:0 2px 12px #1b14261a;font-weight:700;cursor:pointer;touch-action:manipulation;white-space:nowrap}
+@supports not (color:color-mix(in srgb,red 50%,blue)){.arac-dugme{background:var(--surface)}}
 .arac-dugme[aria-pressed=true]{background:var(--violet);color:#fff}
 :root[data-theme=dark] .arac-dugme[aria-pressed=true]{color:#120c1c}
 .buton-bas{background:var(--violet);color:#fff;padding:0 20px;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
