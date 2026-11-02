@@ -3,7 +3,7 @@
 import {
   Group, Mesh, BoxGeometry, CylinderGeometry, SphereGeometry, TorusGeometry, ExtrudeGeometry, Shape, Path, TubeGeometry, CatmullRomCurve3,
   Vector3, Matrix4, Color, CanvasTexture, SRGBColorSpace, RepeatWrapping, MeshStandardMaterial, MeshBasicMaterial,
-  InstancedMesh, EdgesGeometry, LineSegments, LineBasicMaterial, Object3D, DoubleSide,
+  InstancedMesh, EdgesGeometry, LineSegments, LineBasicMaterial, Object3D, DoubleSide, BufferAttribute,
 } from 'three';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
@@ -28,6 +28,12 @@ export const yer = (g, x = 0, y = 0, z = 0) => { g.translate(x, y, z); return g;
 export function birlestir(liste, malzeme) {
   const m = new Mesh(mergeGeometries(liste.map((g) => (g.index ? g.toNonIndexed() : g)), false), malzeme);
   m.matrixAutoUpdate = false; return m;
+}
+// Köşe rengi: farklı renkli küçük parçalar (port, vida) tek malzemeyle tek çizim çağrısında birleşsin diye.
+export function boya(g, hex) {
+  const c = new Color(hex), n = g.attributes.position.count, a = new Float32Array(n * 3);
+  for (let i = 0; i < n; i++) { a[i * 3] = c.r; a[i * 3 + 1] = c.g; a[i * 3 + 2] = c.b; }
+  g.setAttribute('color', new BufferAttribute(a, 3)); return g;
 }
 // Kablo: noktalardan geçen yumuşak boru
 export function kabloGeo(noktalar, r = 0.22, parca = 10, radyal = 6) {
@@ -71,6 +77,7 @@ export function malzemeler() {
     bakir: std(0xc9773a, 0.32, 1),
     altin: std(0xe0b64e, 0.3, 1),
     cip: std(0x14151a, 0.6),                  // yonga
+    renkli: std(0xffffff, 0.5, 0.3, { vertexColors: true }), // köşe renkli küçük parçalar (boya)
     kablo: std(0x17181c, 0.65),
     kabloKirmizi: std(0xc4352b, 0.6),
     kabloSari: std(0xd9a21b, 0.6),

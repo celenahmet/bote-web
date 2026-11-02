@@ -4,7 +4,7 @@ export const MASA = { x0: -108, x1: 108, z0: -76, z1: 56, ust: -0.2, kalin: 5 };
 // Kasa: ATX orta kule. Ön yüz +z, açılan yan kapak -x tarafında (anakart tepsisi +x duvarında). Merkez taban noktası.
 export const KASA = { x: -86, z: -23, w: 40, h: 90, d: 86 };
 export const MON = { x: 4, z: -46 };
-export const HOPARLOR = [{ x: -55, z: -46 }, { x: 61, z: -46 }];
+export const HOPARLOR = [{ x: -53, z: -46 }, { x: 61, z: -46 }];
 export const KLAVYE = { x: 0, z: 22 };
 export const FARE = { x: 58, z: 22 };
 export const YAZICI = { x: 88, z: -43 };
