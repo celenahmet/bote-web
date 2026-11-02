@@ -253,5 +253,200 @@
       "7": "3,5 milimetrelik fiş yaygın bir standart olduğu için aynı kulaklık birçok cihazda kullanılabilir. Kablosuz kulaklıklar ise jaka ihtiyaç duymaz.",
       "8": "Jaklar zamanla gevşeyebilir; fişi çekerken kablodan değil fişin gövdesinden tutmak jakın ve kablonun ömrünü uzatır."
     }
+  },
+  "ic-donanim": {
+    "ad": "İç donanım",
+    "teknik": {
+      "5": "İç donanım, kasanın içinde duran parçalardır: anakart, işlemci, RAM ve depolama birimi gibi. Dışarıdan göremeyiz.",
+      "6": "İç donanım, bilgisayar kasasının içindeki parçalardır (anakart, işlemci, RAM, ekran kartı, depolama birimi, güç kaynağı). Dış donanım ise kasaya kabloyla ya da kablosuz bağlanan parçalardır (klavye, fare, monitör, yazıcı).",
+      "7": "İç donanım parçaları birbirine anakart üzerinden bağlanır. Her parça elektriğini güç kaynağından, verisini anakarttan alır. Bir parçanın iç ya da dış donanım olması, bilgisayarın türüne göre değişebilir: dizüstü bilgisayarda ekran ve klavye kasanın parçasıdır.",
+      "8": "Bilgisayar, parçaların birlikte çalıştığı bir sistemdir: işlemci hesaplar, RAM hızlı geçici bellek olur, depolama kalıcı saklar, güç kaynağı elektrik sağlar, soğutma ısıyı atar. Bir parçanın zayıf kalması, bütün sistemin hızını sınırlayabilir."
+    },
+    "sosyal": {
+      "5": "Telefonun içinde de pil, işlemci ve bellek gibi iç parçalar vardır.",
+      "6": "Bilgisayar yavaşlayınca ya da bozulunca hangi iç parçanın sorunlu olduğunu bulmak için servis çalışanları parçaları tek tek denetler.",
+      "7": "Masaüstü bilgisayarın parçaları değiştirilip yükseltilebilir; dizüstü ve tablette bu çoğu zaman daha zordur.",
+      "8": "Parçaların değiştirilebilir olması, bilgisayarın ömrünü uzatır ve atılan elektronik atığı azaltır."
+    }
+  },
+  "depolama-birimi": {
+    "ad": "Depolama birimi",
+    "teknik": {
+      "5": "Depolama birimi, dosyalarımızı kalıcı olarak sakladığımız yerdir. Bilgisayar kapansa da dosyalar silinmez.",
+      "6": "Depolama birimleri (sabit disk, SSD, USB bellek, bulut) verileri kalıcı saklar. Hız, kapasite ve taşınabilirlik bakımından birbirinden ayrılırlar: SSD hızlıdır, sabit disk ucuz ve büyüktür, USB bellek taşınır, bulut internet üzerinden uzak bir bilgisayarda tutulur.",
+      "7": "Sabit disk verileri dönen manyetik plakalarda, SSD ve USB bellek flash bellek yongalarında saklar. Flash bellekte hareketli parça olmadığı için SSD daha hızlı, sessiz ve darbeye dayanıklıdır. Bulutta dosya, internetteki bir sunucu bilgisayarın depolama birimindedir.",
+      "8": "Depolama birimleri hız, kapasite, fiyat, dayanıklılık ve taşınabilirlik arasındaki dengeye göre seçilir. Bir dosyanın aktarım süresi, dosya boyutunun aktarım hızına bölünmesiyle bulunur: 1 GB'lık dosya 100 MB/s hızla yaklaşık 10 saniyede, 500 MB/s hızla yaklaşık 2 saniyede aktarılır."
+    },
+    "sosyal": {
+      "5": "Telefonundaki fotoğraflar, telefonun depolama alanında durur.",
+      "6": "Önemli ödevlerin yedeğini ayrı bir depolama birimine ya da buluta almak, kaybı önler.",
+      "7": "Bulut kullanırken verin başka bir yerdedir; bu yüzden hesabın şifresini güçlü tutmak ve onu başkasıyla paylaşmamak gerekir.",
+      "8": "Önemli dosyalar için bir kural: aynı dosyanın en az iki ayrı yerde olması. Tek bir depolama birimi bozulursa veri kaybolabilir."
+    }
+  },
+  "ucucu-bellek": {
+    "ad": "Uçucu bellek (RAM)",
+    "teknik": {
+      "5": "RAM elektrik varken bilgileri tutar. Elektrik giderse bilgiler uçar gider. Bu yüzden ona uçucu bellek denir.",
+      "6": "Uçucu bellek, elektrik kesilince içindeki bilgileri kaybeden bellektir. RAM bu türdendir. Çalışmakta olan programlar ve açık belgeler RAM'de durur. Kalıcı saklama için kaydetmek, yani depolama birimine yazmak gerekir.",
+      "7": "RAM, depolama birimlerinden çok daha hızlıdır; bu yüzden işlemci o anda gereken veriyi RAM'de bekletir. Hızlı olmasının bedeli, elektrik kesilince içeriği kaybetmesidir. Depolama birimleri ise yavaştır ama kalıcıdır.",
+      "8": "Bellek türleri bir denge sunar: hız arttıkça birim kapasitenin fiyatı artar ve çoğunlukla kalıcılık azalır. Bu yüzden bilgisayarda küçük ama çok hızlı bellekler (işlemci içindeki önbellek), orta hızlı RAM ve büyük ama yavaş depolama birimi birlikte kullanılır."
+    },
+    "sosyal": {
+      "5": "Kaydetmeden kapattığın bir belge kaybolabilir.",
+      "6": "Bir oyun oynarken elektrik giderse oyun ilerlemen, en son kaydettiğin yere döner.",
+      "7": "Bilgisayarlarda otomatik kaydetme özelliği, uçucu belleğin bu riskini azaltır.",
+      "8": "Önemli işlerde dizüstü bilgisayarın pilinin dolu olması ve düzenli kaydetmek, uçucu bellekten doğan kayıpları önler."
+    }
+  },
+  "veri-boyutu-merdiveni": {
+    "ad": "Veri boyutu birimleri",
+    "teknik": {
+      "5": "Bilgisayar bilgiyi küçük parçalarla ölçer. En küçüğü bit'tir. Sonra byte, KB, MB, GB ve TB gelir. Her basamak bir öncekinden çok daha büyüktür.",
+      "6": "Veri boyutu bit, byte (bayt), KB, MB, GB, TB sırasıyla büyür. 8 bit bir byte eder. Byte'tan sonra her basamak bir öncekinin yaklaşık bin katıdır; bilgisayar bu çarpanı çoğu zaman 1024 alır. Bir fotoğraf birkaç MB, bir film birkaç GB yer kaplar.",
+      "7": "1 byte = 8 bit; 1 KB = 1024 byte; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB. Bir harf yaklaşık bir byte yer kaplar, düz yazıyla dolu bir sayfa birkaç KB eder. Diskler satılırken 1000'lik hesap da kullanıldığı için bilgisayar, diskin kapasitesini biraz daha küçük gösterebilir.",
+      "8": "Bir basamaktan diğerine geçmek 1024 ile çarpmak ya da bölmektir. Örneğin 3 GB = 3 x 1024 MB = 3072 MB. Ağ hızı bit cinsinden, dosya boyutu byte cinsinden söylenir: 8 Mbit/s yaklaşık 1 MB/s eder. Bu yüzden 100 Mbit/s'lik bağlantıda 100 MB'lık bir dosya, en iyi durumda yaklaşık 8 saniyede iner."
+    },
+    "sosyal": {
+      "5": "Telefon fotoğrafları, bir yazı dosyasından çok daha büyüktür.",
+      "6": "Telefonun deposu dolunca fotoğraf ve video gibi büyük dosyaları silmek ya da buluta taşımak yer açar.",
+      "7": "Bir internet paketinde 10 GB kota varsa, bir video izlemek bu kotadan hızla yer kaplar. Videoların kalitesi arttıkça boyutu da artar.",
+      "8": "İnternet hızı 100 Mbit/s yazsa bile gerçek indirme hızı, ağın yoğunluğuna ve kablosuz sinyale bağlı olarak daha düşük olabilir."
+    }
+  },
+  "islem-hizi": {
+    "ad": "İşlemci hızı (GHz) ve çekirdek",
+    "teknik": {
+      "5": "İşlemcinin hızı GHz ile anlatılır. Sayı büyüdükçe işlemci bir saniyede daha çok adım atar. Çekirdek ise işlemcinin içindeki bir hesap ünitesidir.",
+      "6": "GHz, işlemcinin saniyede kaç milyar adım attığını gösterir. 3 GHz, saniyede 3 milyar adım demektir. Çekirdek sayısı arttıkça işlemci aynı anda daha çok işle uğraşabilir.",
+      "7": "İşlemcinin hızı yalnız GHz'e bağlı değildir. Çekirdek sayısı, işlemcinin tasarımı ve belleğin hızı da önemlidir. Çok çekirdekli işlemci aynı anda birçok işi yürütür; parçalara bölünemeyen bir iş ise tek çekirdekte çalışır.",
+      "8": "1 GHz = 1 000 000 000 Hz; yani 3 GHz saniyede 3 x 10^9 saat darbesi demektir. Bir darbenin süresi 1 / (3 x 10^9) saniye, yaklaşık 0,33 nanosaniyedir. İşlemci her darbede küçük bir adım atar; karmaşık bir komut birkaç darbe sürebilir."
+    },
+    "sosyal": {
+      "5": "Yeni telefon, eskisinden çoğu zaman daha hızlıdır; çünkü işlemcisi daha gelişmiştir.",
+      "6": "Bilgisayar alırken yalnız GHz'e bakmak yanıltıcı olabilir. RAM ve depolama birimi de bilgisayarın hızını etkiler.",
+      "7": "Ders çalışırken müzik dinleyip internette araştırma yapmak çok çekirdekli işlemcide rahat gerçekleşir.",
+      "8": "Reklamlarda yalnız GHz'in öne çıkarılması yanıltıcı olabilir; iki işlemciyi karşılaştırırken çekirdek sayısı, nesil ve gerçek test sonuçları birlikte değerlendirilir."
+    }
+  },
+  "isi-ve-sogutma": {
+    "ad": "Isı ve soğutma",
+    "teknik": {
+      "5": "Çalışan elektronik parçalar ısınır. Isı sıcak yerden soğuk yere gider. Soğutma bu ısıyı parçadan uzaklaştırır.",
+      "6": "Bilgisayar parçaları çalışırken elektrik enerjisini ısıya çevirir. Isı, sıcak yerden soğuk yere doğru akar. Soğutucu ve fan, bu ısıyı işlemciden alıp havaya verir. Aşırı ısınan parça yavaşlar ya da kendini kapatır.",
+      "7": "Isı üç yolla yayılır: iletimle (metalden metale), taşınımla (hava ya da sıvının hareketiyle) ve ışımayla. Bilgisayarda ısı önce işlemciden metal soğutucuya iletimle geçer, sonra fan havası ya da sıvı ile taşınımla uzaklaşır.",
+      "8": "Isı yalnız sıcaktan soğuğa kendiliğinden akar; bu yüzden soğutucunun sıcaklığı, ısıtan parçanın sıcaklığından düşük olmalıdır. Bilgisayara giren elektrik gücünün neredeyse tamamı ısıya dönüşür; çıkan ısı gücü, soğutmanın atabileceği güçten fazlaysa sıcaklık yükselir. Bu yüzden tasarımcı, ısı üretimi ile atma gücünü dengeler."
+    },
+    "sosyal": {
+      "5": "Telefon uzun süre oyun oynayınca ısınır. Bu normaldir.",
+      "6": "Dizüstü bilgisayarı yatağın üstünde kullanmak havalandırma deliklerini kapatır ve bilgisayarı ısıtır. Sert ve düz bir yüzey daha iyidir.",
+      "7": "Yaz günü güneşe bırakılmış telefon ya da bilgisayar, kendi ürettiği ısıyı atamaz ve aşırı ısınabilir. Cihazları direkt güneşten uzak tutmak gerekir.",
+      "8": "Veri merkezleri çok sayıda bilgisayar barındırdığı için büyük bir ısı oluşturur. Bu ısının atılması önemli bir elektrik gideridir ve soğutma tasarımı bu yüzden önem taşır."
+    }
+  },
+  "alternatif-dogru-akim": {
+    "ad": "Alternatif ve doğru akım",
+    "teknik": {
+      "5": "Prizdeki elektrik bir tür, pilin elektriği başka bir türdür. Bilgisayarın parçaları pilin türüne benzeyen elektrikle çalışır. Güç kaynağı bu çeviriyi yapar.",
+      "6": "Prizdeki elektriğe alternatif akım (AC), pilin verdiğine doğru akım (DC) denir. Alternatif akımda yön sürekli değişir; doğru akımda yön hep aynıdır. Güç kaynağı prizdeki alternatif akımı doğru akıma çevirir.",
+      "7": "Bilgisayar parçaları doğru akımla ve düşük gerilimle çalışır. Güç kaynağı önce gerilimi düşürür, sonra akımı doğru akıma çevirir. Prizdeki gerilim yaklaşık 220 V iken parçalar için 3,3 V, 5 V ve 12 V yeterlidir.",
+      "8": "Şebekede alternatif akımın yönü saniyede 100 kez değişir (frekans 50 Hz). Doğru akımda yön sabittir. Güç kaynağı, gerilimi düşürüp akımı doğrulttuktan sonra dalgalanmayı yumuşatır ve parçalara kararlı bir doğru gerilim verir."
+    },
+    "sosyal": {
+      "5": "Telefon şarj aleti de prizdeki elektriği telefona uygun hâle getirir.",
+      "6": "Dizüstü bilgisayarın şarj adaptörü de alternatif akımı doğru akıma çevirir.",
+      "7": "Yalnızca cihazın kendi şarj aletini ya da uyumlu ve güvenilir bir şarj aletini kullanmak gerekir. Kalitesiz şarj aletleri hem cihaza hem kişiye zarar verebilir.",
+      "8": "Elektrik şebekesi neden alternatif akımla çalışır? Çünkü alternatif akımın gerilimi, santrallerden evlere uzun yolda taşınırken az kayıp verecek biçimde kolayca değiştirilebilir."
+    }
+  },
+  "guc-watt": {
+    "ad": "Güç (watt) ve verim",
+    "teknik": {
+      "5": "Watt (W), bir cihazın ne kadar elektrik kullandığını anlatır. Watt sayısı büyük olan cihaz daha çok elektrik kullanır.",
+      "6": "Güç, bir cihazın bir saniyede ne kadar enerji kullandığıdır ve watt (W) ile ölçülür. Güç kaynağının watt değeri, parçalara en çok ne kadar güç verebileceğini gösterir.",
+      "7": "1 watt, saniyede 1 joule enerji demektir. Cihazın gücü ne kadar büyükse aynı sürede o kadar çok enerji harcar. Elektrik faturası kilowatt saat (kWh) ile hesaplanır: 1000 W'lık bir cihaz 1 saat çalışırsa 1 kWh harcar.",
+      "8": "Verim, işe yarayan enerjinin harcanan enerjiye oranıdır. Güç kaynağı %90 verimliyse parçalara 360 W vermek için prizden 360 / 0,9 = 400 W çeker; kalan 40 W ısıya dönüşür. Verim ne kadar yüksekse ısınma o kadar azdır."
+    },
+    "sosyal": {
+      "5": "Ampul ve cihazların üzerinde watt değeri yazar.",
+      "6": "Güçlü bir ekran kartı olan bilgisayar, daha güçlü bir güç kaynağı ister.",
+      "7": "Bir cihazı kullanmadığında fişten çekmek ya da kapatmak elektrik tasarrufu sağlar. Bekleme modunda da küçük bir güç harcanır.",
+      "8": "Gereğinden çok büyük bir güç kaynağı pahalıdır ve düşük yükte verimsiz çalışabilir. Gereğinden küçük olanı ise parçaları yeterince besleyemez. Bu yüzden ihtiyaca uygun değer seçilir."
+    }
+  },
+  "kapali-devre": {
+    "ad": "Kapalı devre",
+    "teknik": {
+      "5": "Kapalı devre, bir yolun başlayıp aynı yere geri dönmesidir. Sıvı soğutmada sıvı kapalı bir yolda döner. Dışarı çıkmaz.",
+      "6": "Kapalı devrede sıvı, pompa bloğundan radyatöre, radyatörden tekrar pompa bloğuna dolaşır. Sıvı dışarıya akmaz, sistem fabrikada kapatılır. Sıvı harcanmaz; yalnız ısıyı taşır.",
+      "7": "Kapalı devrede sıvı hep aynı yolu izler: blok, hortum, radyatör, hortum, blok. Sıvının işi ısıyı işlemciden radyatöre taşımaktır; radyatörde fanlar ısıyı havaya verir. Devre kapalı olduğu için kullanıcı sıvı eklemez ya da boşaltmaz.",
+      "8": "Kapalı devrede sıvının kütlesi sabittir; değişen şey sıcaklığıdır. Sıvı işlemcide ısınır, radyatörde soğur. Kapalı devre fikri elektrikte de vardır: elektrik akımı için de yol kapalı olmalıdır."
+    },
+    "sosyal": {
+      "5": "Akvaryum pompası suyu döndürür ama su dışarı akmaz.",
+      "6": "Bazı bilgisayarlarda hazır kapalı devre sıvı soğutucu satılır. Kullanıcı kendisi sıvıyla uğraşmaz.",
+      "7": "Kapalı devrede sızıntı çok ender olsa da hortumlara zarar vermemek gerekir. Gerçek bir bilgisayarda bu parçalar sarsılmaz.",
+      "8": "Arabanın motor soğutması da kapalı devreli bir sıvı sistemidir: sıvı motorda ısınır, radyatörde soğur."
+    }
+  },
+  "basinc-farki": {
+    "ad": "Basınç farkı ve hava akışı",
+    "teknik": {
+      "5": "Fan havayı iter. Havanın hareket etmesi, rüzgâr gibidir. Hava sıkışık yerden rahat yere doğru gider.",
+      "6": "Fan, kanatlarıyla havayı iter. Fanın önünde hava seyrekleşir, arkasında sıkışır. Hava yüksek basınçtan düşük basınca doğru akar. Kasadaki fanlar bu farkı kullanarak havayı içeri alır ve dışarı atar.",
+      "7": "Basınç, havanın yüzeye uyguladığı itmedir (birim yüzeye düşen kuvvet). Hava, basıncın yüksek olduğu yerden düşük olduğu yere akar. Fan girişte basıncı düşürür, çıkışta yükseltir; böylece hava hareket eder. Sıcak hava hafif olduğu için yükselir.",
+      "8": "Basınç, birim yüzeye etki eden kuvvettir. Kasa fanlarının oluşturduğu basınç farkı çok küçüktür (atmosfer basıncının binde birinden bile az) ama hava akıtmaya yeter. Giren hava çıkandan çoksa kasa içi basınç dışarıdan biraz yüksek olur (pozitif basınç); çıkan çoksa düşük olur (negatif basınç)."
+    },
+    "sosyal": {
+      "5": "Elini çalışan bir vantilatörün önüne tuttuğunda havayı hissedersin.",
+      "6": "Evde pencereyi karşılıklı açınca hava akımı oluşur. Basınç farkı bu akımı doğurur.",
+      "7": "Bir pipetle içecek içmek de basınç farkıyla olur: ağzında basıncı düşürürsün, dışarıdaki hava içeceği yukarı iter.",
+      "8": "Yüksek binalarda ve tünellerde hava akımları da basınç farkından doğar. Havalandırma tasarımları bu farktan yararlanır."
+    }
+  },
+  "kablolu-kablosuz": {
+    "ad": "Kablolu ve kablosuz bağlantı",
+    "teknik": {
+      "5": "Bilgisayar internete kabloyla ya da kablosuz bağlanabilir. Kablosuz bağlantıya Wi-Fi denir.",
+      "6": "Kablolu bağlantıda bilgisayar ağ kablosuyla modeme bağlanır. Kablosuz bağlantıda (Wi-Fi) veri radyo dalgalarıyla gider. Kablolu bağlantı çoğu zaman daha kararlıdır; kablosuz bağlantı ise taşınabilirlik sağlar.",
+      "7": "Kablolu bağlantıda veri kabloda elektrik sinyali olarak taşınır; engellerden etkilenmez. Kablosuzda sinyal havada yayılır, duvar ve uzaklıkla zayıflar, başkalarının cihazlarından da etkilenebilir. Bu yüzden kablosuz ağlarda şifre kullanmak önemlidir.",
+      "8": "İki bağlantı da veriyi paketler halinde taşır. Kablosuz ortak bir ortam olduğu için aynı kanalı kullanan cihazlar birbirini yavaşlatabilir. Şifrelenmemiş kablosuz ağda veri dinlenebilir; bu yüzden güvenli ağlar ve şifreli bağlantılar tercih edilir."
+    },
+    "sosyal": {
+      "5": "Okul laboratuvarındaki bilgisayarlar genellikle kabloyla, telefonlar Wi-Fi ile bağlanır.",
+      "6": "Halka açık ve şifresiz Wi-Fi ağlarında kişisel bilgi, şifre ve ödeme bilgisi paylaşmamak gerekir.",
+      "7": "Evdeki Wi-Fi ağının şifresini yabancılarla paylaşmamak, ağı daha güvenli yapar.",
+      "8": "Online sınav, görüntülü görüşme ya da oyun gibi kesinti kaldırmayan işlerde kablolu bağlantı genellikle daha güvenilirdir."
+    }
+  },
+  "statik-elektrik": {
+    "ad": "Statik elektrik",
+    "teknik": {
+      "5": "Bazı şeylere sürtününce elektrik yükü birikir. Bir balonu saçına sürtünce saçların havalanır. Buna statik elektrik denir.",
+      "6": "Sürtünme ile bazı maddelerde elektrik yükü birikir. Bu yük bir metale dokununca bir anda boşalır ve ufak bir kıvılcım ya da çarpma hissedilir. Bilgisayar parçalarına zarar verebilir.",
+      "7": "İnsan vücudu yün kazak, halı ve plastik zemin gibi şeylerle sürtünerek yük biriktirebilir. Bu yük, bir elektronik parçaya dokunulduğunda boşalır. Bizim hissedemeyeceğimiz kadar küçük bir boşalma bile elektronik yongaları bozabilir.",
+      "8": "İnsanın hissettiği statik boşalma yaklaşık 3000 V civarındadır; elektronik yongalar bundan çok daha düşük gerilimde de zarar görebilir. Zararı önlemek için çalışmaya başlamadan önce fişi çekip metal kasaya dokunarak yük boşaltılır; antistatik bileklik ya da zemin de kullanılabilir. Parçalar yongalarından değil kenarlarından tutulur."
+    },
+    "sosyal": {
+      "5": "Kapı koluna dokununca bazen çıt diye hissettiğin şey statik elektriktir.",
+      "6": "Kış aylarında hava kuru olduğu için statik elektrik daha sık oluşur.",
+      "7": "Bilgisayar tamir edenler antistatik poşet kullanır. Yeni ya da çıkarılmış parçalar bu poşette saklanır.",
+      "8": "Fabrikalarda elektronik üretilen yerlerde zemin, giysi ve çalışma masaları statik elektriği önlemek için özel olarak tasarlanır."
+    }
+  },
+  "ag-karti": {
+    "ad": "Ağ kartı",
+    "teknik": {
+      "5": "Ağ kartı, bilgisayarın internete ve diğer bilgisayarlara bağlanmasını sağlayan parçadır.",
+      "6": "Ağ kartı, bilgisayarı ağa bağlayan karttır. Kabloyla bağlanan türüne ethernet kartı, kablosuz türüne Wi-Fi kartı denir. Bazı anakartlarda ağ kartı hazır gelir.",
+      "7": "Ağ kartı, bilgisayardaki veriyi ağa gidecek biçime çevirir ve gelen veriyi bilgisayara iletir. Ethernet kartının girişine ağ kablosu takılır; Wi-Fi kartının ise antenleri vardır.",
+      "8": "Ağ kartlarının genellikle üreticinin verdiği benzersiz bir fiziksel adresi (MAC adresi) bulunur. Ağdaki cihazlar bu adresle birbirini tanır. Telefonlarda bu adres, izlenmeyi azaltmak için bazen rastgele değiştirilir."
+    },
+    "sosyal": {
+      "5": "Telefonunun Wi-Fi bağlantısı da bir ağ kartı gibi bir parçayla yapılır.",
+      "6": "Bilgisayarın internete bağlanamaması, ağ kartı ya da kablo sorunundan olabilir. Önce kablonun takılı olup olmadığı kontrol edilir.",
+      "7": "Okul ağında bilgisayarlar birbirini ve yazıcıyı ağ kartı sayesinde görür.",
+      "8": "Ağ kartlarının hızı farklı olabilir; 1 Gbit/s'lik bir kart saniyede en fazla yaklaşık 125 MB veri taşıyabilir (1000 / 8 = 125)."
+    }
   }
 }

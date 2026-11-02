@@ -403,5 +403,365 @@
       "7": "Kalitesiz bir güç kaynağı bilgisayardaki diğer parçalara zarar verebilir. Parçalara giden elektriğin kararlı olması bilgisayarın ömrünü uzatır.",
       "8": "Güç kaynağının verimliliği, harcanan elektriğin ne kadarının işe yaradığını gösterir. Verimli kaynak daha az ısınır ve daha az elektrik tüketir."
     }
+  },
+  "yan-kapak": {
+    "ad": "Yan kapak",
+    "teknik": {
+      "5": "Yan kapak, kasanın içini kapatan metal ya da camdan bir levhadır. Açılınca iç donanım görünür.",
+      "6": "Yan kapak, kasanın içindeki parçaları toz ve darbeden korur. Açılınca iç donanım görünür; kapalıyken yalnız dış donanım ve girişler görünür.",
+      "7": "Yan kapak toz ve darbeden korur, ayrıca kasanın içindeki hava yolunu tamamlar. Kapak açıkken fanların oluşturduğu hava yolu bozulur ve toz girişi artar.",
+      "8": "Yan kapak çoğu kasada vidayla, mandalla ya da menteşeyle tutturulur; cam olanlar da vardır. Kasa açılmadan önce fiş çekilir ve statik elektrik boşaltılır; çünkü elektronik parçalar çok düşük gerilimdeki bir boşalmadan bile zarar görebilir."
+    },
+    "sosyal": {
+      "5": "Gerçek bir kasanın kapağını yalnız öğretmen ya da büyükler açar. Önce fişi çekilir.",
+      "6": "Okul bilgisayarlarının kasa kapakları vidalı ya da kilitli olabilir; kapağı yetkili kişiler açar. Bu hem sana hem bilgisayara zarar gelmesini önler.",
+      "7": "Kapağı açıp parça takan ya da temizleyen kişi fişi çeker ve parçaları kenarlarından tutar. Kapağın uzun süre açık bırakılması içeriye toz ve evcil hayvan tüyü girmesine yol açar.",
+      "8": "Kapak açıkken çalışan bir bilgisayar, hem toz hem hava akışı bakımından uygun değildir; ayrıca açıktaki parçalara dokunmak elektrik çarpması ya da parçaların zarar görmesi riski taşır."
+    }
+  },
+  "anakart": {
+    "ad": "Anakart",
+    "teknik": {
+      "5": "Anakart, bilgisayarın bütün parçalarını birbirine bağlayan büyük karttır.",
+      "6": "Anakart; işlemci, RAM, ekran kartı ve depolama birimlerini birbirine bağlayan ana devre kartıdır. Parçalar yuvalarına takılır, bilgi anakartın bakır yollarından taşınır.",
+      "7": "Anakart, parçalara elektrik ve veri yolu sağlar. Üzerinde işlemci yuvası, bellek yuvaları, PCIe yuvaları, M.2 ve SATA bağlantıları ile arka panel girişleri bulunur. Parçaların anakartla uyumlu olması gerekir.",
+      "8": "Anakartın üzerindeki devreler güç kaynağının 12 V'unu işlemci ve bellek için gereken yaklaşık 1 V ile 1,5 V arasındaki gerilimlere indirir. Veri, bakır yollardan elektrik sinyali olarak gider. Anakartın boyutu (ATX, mikro ATX gibi) kasaya uyması gereken bir ölçüdür."
+    },
+    "sosyal": {
+      "5": "Telefonun içinde de küçük bir anakart vardır; bütün parçalar ona bağlıdır.",
+      "6": "Dizüstü bilgisayarda ve tablette de anakart vardır, ama çok daha küçüktür. Anakart bozulursa diğer parçalar sağlam olsa bile bilgisayar çalışmaz.",
+      "7": "Bilgisayarını yükseltmek isteyen biri önce anakartın hangi işlemci ve bellek türünü desteklediğine bakar. Uyumsuz parça takılamaz ya da çalışmaz.",
+      "8": "Anakart bütün parçaların bağlandığı tek noktadır; bu yüzden onarımı en pahalı işlerden biridir. Eski anakartlar geri dönüştürülebilir metaller içerir ve elektronik atık merkezlerine verilmelidir."
+    }
+  },
+  "islemci": {
+    "ad": "İşlemci",
+    "teknik": {
+      "5": "İşlemci, bilgisayarın beynidir. Hesapları yapar ve programları çalıştırır.",
+      "6": "İşlemci (CPU), komutları yürüten ve işlemleri yapan parçadır. Hızı GHz, çekirdek sayısıyla anlatılır. Çalışırken ısındığı için üstünde bir soğutucu bulunur.",
+      "7": "İşlemci RAM'den aldığı komutları sırayla yürütür. Çekirdek sayısı aynı anda yürütülebilecek iş sayısını, saat hızı (GHz) bir çekirdeğin adım hızını belirler. Yüzeyi metal kapakla örtülüdür; ısı bu kapaktan soğutucuya geçer.",
+      "8": "İşlemci milyarlarca küçük anahtardan (transistör) oluşur. 3 GHz, saniyede 3 milyar saat darbesi demektir. Harcadığı elektrik gücünün hemen hepsini ısıya çevirir; bu yüzden soğutma işlemci tasarımının bir parçasıdır."
+    },
+    "sosyal": {
+      "5": "Telefonun, tabletin ve akıllı tahtanın da bir işlemcisi vardır.",
+      "6": "Bir oyunun ya da programın yavaş çalışması işlemcinin yetersiz kalmasından olabilir ama tek sebep bu değildir. RAM ve depolama da hızı etkiler.",
+      "7": "İşlemcinin çok çekirdekli olması, aynı anda birçok programın (ör. müzik, tarayıcı, belge) akıcı çalışmasına yardım eder.",
+      "8": "Telefon işlemcileri pil ömrü ve ısı yüzünden hız ile enerji tüketimi arasında denge kurar; çok ısınınca kendiliğinden yavaşlayabilirler."
+    }
+  },
+  "termal-macun": {
+    "ad": "Termal macun",
+    "teknik": {
+      "5": "Termal macun, işlemci ile soğutucu arasına sürülen çok ince bir tabakadır. Isının soğutucuya geçmesine yardım eder.",
+      "6": "Termal macun, işlemcinin metal kapağı ile soğutucunun tabanı arasındaki küçük boşlukları doldurur. Boşlukta hava kalırsa ısı soğutucuya zor geçer.",
+      "7": "İki metal yüzey gözle düz görünse bile mikroskopta pürüzlüdür; aralarında hava kalır ve hava ısıyı kötü iletir. Termal macun bu boşlukları doldurarak ısı geçişini kolaylaştırır. Macun çok ince sürülür; kalın sürmek ısı geçişini kötüleştirir.",
+      "8": "Termal macun metal kadar iyi bir ısı iletkeni değildir ama havadan çok daha iyidir. Asıl işi, iki yüzey arasındaki ince boşluğu doldurmaktır. Yıllar içinde macun kuruyabilir ve ısı geçişi zayıflayabilir; bu durumda yenilenir."
+    },
+    "sosyal": {
+      "5": "Bilgisayarı tamir edenler soğutucuyu söküp taktıklarında yeni macun sürer.",
+      "6": "Bilgisayar yıllar içinde daha çok ısınmaya başlarsa kurumuş macun nedenlerden biri olabilir. Servis macunu yeniler.",
+      "7": "Isınan bir bilgisayarda macun, bakılacak yerlerden biridir ama tek neden değildir; toz birikmesi de ısınmanın yaygın nedenidir.",
+      "8": "Aynı fikir başka yerlerde de kullanılır: ekran kartlarında ve bazı SSD soğutucularında ısı ileten ped ve macun bulunur."
+    }
+  },
+  "hava-sogutucu": {
+    "ad": "Hava soğutucu",
+    "teknik": {
+      "5": "Hava soğutucu, işlemcinin üstüne takılan metal soğutucudur. Üstündeki fan havayı üfler ve işlemcinin ısısını uzaklaştırır.",
+      "6": "Hava soğutucu bir taban, ısı boruları, metal kanatlar ve fandan oluşur. Isı işlemciden tabana, borulara ve kanatlara geçer; fan kanatların arasından hava geçirerek ısıyı alıp götürür.",
+      "7": "Hava soğutucuda ısı şu yolu izler: işlemci, termal macun, bakır taban, ısı boruları, alüminyum kanatlar, hava. Kanatlar yüzey alanını artırır; yüzey büyüdükçe havaya verilen ısı artar. Fan, kanatların çevresindeki ısınmış havayı sürekli yenisiyle değiştirir.",
+      "8": "Hava soğutucunun gücü ısı yolundaki en zayıf halkaya bağlıdır: taban, boru, kanat ve fan zincirin halkalarıdır. Isı sıcaktan soğuğa aktığı için hava ile soğutucu arasındaki sıcaklık farkı küçüldükçe ısı atmak zorlaşır. Bu yüzden kasadaki hava ne kadar serinse soğutucu o kadar iyi çalışır."
+    },
+    "sosyal": {
+      "5": "Arabanın radyatörü ve bazı buzdolaplarının arkasındaki ızgara da ısıyı havaya verir.",
+      "6": "Dizüstü bilgisayarlarda da küçük bir hava soğutucu bulunur. Yatak ya da battaniye üstünde kullanmak hava girişlerini kapatır ve bilgisayarı ısıtır.",
+      "7": "Fan sesi, bilgisayarın ne kadar çalıştığının ipucudur: işlemci çok ısınınca fan hızlanır ve ses artar. Fan tozla kaplanırsa daha gürültülü çalışır.",
+      "8": "Yüksek performanslı hava soğutucular büyük ve ağırdır; taşınırken anakarta yük bindirebilir. Soğutucu ile kasanın iç ölçülerinin uyumlu olması gerekir."
+    }
+  },
+  "isi-borusu": {
+    "ad": "Isı borusu",
+    "teknik": {
+      "5": "Isı borusu, ısıyı işlemciden kanatlara taşıyan kapalı bakır borudur.",
+      "6": "Isı borusu, soğutucunun tabanındaki ısıyı kanatlara taşıyan kapalı bakır borudur. İçinde az miktarda sıvı bulunur.",
+      "7": "Isı borusunun içinde az miktarda sıvı vardır. Sıvı sıcak uçta ısıyı alıp buharlaşır, buhar soğuk uca gider ve orada ısıyı verip yoğuşur. Sıvı yeniden sıcak uca döner ve döngü sürer.",
+      "8": "Buharlaşırken sıvı çok ısı alır, yoğuşurken aynı ısıyı geri verir; bu yüzden ısı borusu, ısıyı aynı kalınlıktaki dolu bir bakır çubuktan çok daha iyi taşır. Boru kapalıdır; içindeki sıvı dışarı çıkmaz ve dışarıdan sıvı eklenmez."
+    },
+    "sosyal": {
+      "5": "Dizüstü bilgisayarlarda da ince ısı boruları kullanılır.",
+      "6": "Isı borusunda hareketli parça yoktur; bu yüzden sessizdir ve uzun süre bakım istemeden çalışır.",
+      "7": "Isı borusu çalışmak için elektrik harcamaz; yalnız iki uç arasındaki sıcaklık farkıyla çalışır.",
+      "8": "Isı borusu, fan gibi hareketli parçası olmayan pasif bir ısı taşıma yöntemidir. Uzay araçlarında da ısıyı taşımak için kullanılır."
+    }
+  },
+  "sivi-sogutma": {
+    "ad": "Sıvı soğutma",
+    "teknik": {
+      "5": "Sıvı soğutmada ısıyı bir sıvı taşır. Sıvı işlemciden ısıyı alır, radyatöre götürür ve orada ısıyı bırakır.",
+      "6": "Sıvı soğutma sistemi pompa bloğu, iki hortum, radyatör ve fanlardan oluşur. Sıvı kapalı bir devrede dolaşır: işlemciden ısıyı alır, radyatörde bırakır.",
+      "7": "Kapalı devre sıvı soğutmada pompa sıvıyı döndürür. Sıvı işlemcinin üstündeki blokta ısınır, hortumla radyatöre gider, radyatörde fanların yardımıyla soğur ve bloğa geri döner. Isıyı sonunda yine hava dışarı verir.",
+      "8": "Su, aynı hacimde havadan binlerce kat daha fazla ısı taşıyabilir; bu yüzden az sıvı çok ısı taşır. Devre kapalı olduğu için sıvı eklemek gerekmez ama pompa hareketli bir parçadır ve zamanla yıpranabilir. İyi bir hava soğutucu ile orta boy bir sıvı soğutucu benzer sonuç verebilir."
+    },
+    "sosyal": {
+      "5": "Arabanın motorunu da dolaşan bir sıvı ve bir radyatör soğutur.",
+      "6": "Sıvı soğutma güçlü ve çok ısınan bilgisayarlarda, ayrıca işlemcinin üstünde büyük bir soğutucuya yer olmayan kasalarda kullanılır. Görünümü nedeniyle de seçilir.",
+      "7": "Kapalı devre sistemler fabrikada doldurulur ve çoğu zaman bakım gerektirmez. Sızıntı çok ender görülür ama olursa elektronik parçalara zarar verebilir; bu yüzden hortumlara çekmemek ve kasayı sarsmamak gerekir.",
+      "8": "Sıvı soğutmanın sesi modele göre değişir: pompa sesi ekleyebilir, büyük radyatör fanları ise daha yavaş dönebilir. Satın almadan önce radyatörün kasaya sığıp sığmadığı kontrol edilir."
+    }
+  },
+  "pompa-blogu": {
+    "ad": "Pompa bloğu",
+    "teknik": {
+      "5": "Pompa bloğu işlemcinin üstüne oturur. Isıyı alıp sıvıya verir ve sıvıyı döndürür.",
+      "6": "Pompa bloğunun alt yüzü bakırdır ve işlemcinin üstüne termal macunla oturur. Blok, işlemcinin ısısını içindeki sıvıya verir; içindeki pompa sıvıyı hortumlardan geçirerek dolaştırır.",
+      "7": "Pompa bloğu iki iş yapar: bakır plaka işlemcinin ısısını sıvıya geçirir, pompa da sıvıyı devrede döndürür. Pompa durursa sıvı dolaşmaz ve işlemci çok hızlı ısınır.",
+      "8": "Pompa, sıvıyı kapalı devrede dolaştırmak için elektrik kullanır; bu elektriği anakarttan ya da güç kaynağından alır. Pompanın hızı sabit ya da sıcaklığa göre değişken olabilir. Bloğun taban plakası ile işlemci arasında da termal macun bulunur."
+    },
+    "sosyal": {
+      "5": "Akvaryum pompası suyu nasıl döndürüyorsa pompa bloğu da sıvıyı öyle döndürür.",
+      "6": "Pompa bloğunun hafif sesi normal olabilir; ama aniden artan bir ses ya da bilgisayarın çok ısınması pompanın sorunlu olduğunu gösterebilir.",
+      "7": "Pompa hareketli bir parçadır ve zamanla yıpranır; bu yüzden arıza ihtimali hava soğutucudan yüksektir.",
+      "8": "Pompa arızalanırsa işlemci sıcaklığı hızla yükselir; işlemcinin sıcaklık koruması devreye girer ve bilgisayarı yavaşlatır ya da kapatır."
+    }
+  },
+  "radyator": {
+    "ad": "Radyatör",
+    "teknik": {
+      "5": "Radyatör, sıcak sıvıdaki ısıyı havaya veren, ince kanallı bir metal levhadır.",
+      "6": "Radyatörün içinden ince kanallar geçer. Sıcak sıvı bu kanallardan akarken ısıyı metal kanatlara verir; radyatör fanları da bu ısıyı havaya atar.",
+      "7": "Radyatör, yüzey alanı çok büyük bir ısı değiştiricidir. Sıvı kanallarda akarken ısısını ince metal kanatlara bırakır, fanlar kanatlardan hava geçirir. Radyatör ne kadar büyük (ör. 120, 240, 360 mm) olursa o kadar çok ısı atabilir.",
+      "8": "Radyatörün atabildiği ısı gücü yüzey alanına, fan hızına ve hava ile sıvı arasındaki sıcaklık farkına bağlıdır. 360 mm'lik bir radyatör, 120 mm'liğin yaklaşık üç katı fan alanına sahiptir; genellikle daha çok ısı atar."
+    },
+    "sosyal": {
+      "5": "Arabanın önündeki radyatör de aynı işi yapar.",
+      "6": "Evlerdeki kalorifer radyatörü de sıcak suyla gelen ısıyı odaya verir.",
+      "7": "Radyatörü kasaya yerleştirmek hava akışını etkiler ve yer ister. Bu yüzden kasa seçerken radyatör desteği kontrol edilir.",
+      "8": "Radyatörde toz birikmesi hava geçişini azaltır. Bu yüzden radyatör ve toz filtreleri düzenli temizlenir."
+    }
+  },
+  "sogutma-hortumu": {
+    "ad": "Soğutma hortumu",
+    "teknik": {
+      "5": "Hortumlar sıvıyı işlemciden radyatöre, radyatörden işlemciye taşır.",
+      "6": "İki hortum bloğu radyatöre bağlar: birinden sıcak sıvı radyatöre gider, diğerinden soğumuş sıvı geri gelir. Hortumlar esnektir ve sıvıyı dışarı sızdırmaz.",
+      "7": "Hortumlar kapalı devrenin yoludur. Esnektir ama sert bükülürse sıvı akışı daralır. İçinden geçen sıvı dışarı sızmaz; devre fabrikada doldurulup kapatılır.",
+      "8": "Hortumun malzemesi ve kalınlığı, sıvının akışını ve devrenin dayanıklılığını etkiler. Kapalı devre sistemler bakım istemese de ömürleri sınırlıdır; pompa ve sıvı zamanla yıpranabilir."
+    },
+    "sosyal": {
+      "5": "Hortumlar çekilmez, bükülmez; çünkü içinde sıvı vardır.",
+      "6": "Gerçek bilgisayarda hortumlara dokunulmaz. Hortum zarar görürse içindeki sıvı elektronik parçalara zarar verebilir.",
+      "7": "Hortumların kasada düzgün yönlendirilmesi hem hava akışını hem görünümü iyileştirir; sert kıvrılan hortum sıvı akışını bozar.",
+      "8": "Soğutma sıvısı genellikle suya katkılar eklenerek hazırlanır. Sızıntı elektronik parçalara zarar verebileceği için devre fabrikada kapatılır ve kullanıcı açmaz."
+    }
+  },
+  "kasa-fani": {
+    "ad": "Kasa fanı",
+    "teknik": {
+      "5": "Kasa fanı, kasanın içine serin hava alır ya da içindeki sıcak havayı dışarı atar.",
+      "6": "Kasa fanları hava akışını sağlar. Genellikle önde ve altta olanlar serin havayı içeri alır; arkada ve üstte olanlar sıcak havayı dışarı atar.",
+      "7": "Fan, kanatlarıyla havayı iterek basınç farkı yaratır; hava yüksek basınçtan alçak basınca akar. Kasada genellikle ön fanlar hava alır (giriş), arka ve üst fanlar hava atar (çıkış). Sıcak hava yükseldiği için çıkış fanları çoğu zaman üstte ve arkadadır.",
+      "8": "Fanın hava debisi, birim sürede ne kadar hava taşıdığını gösterir (CFM ya da saatte metreküp). Büyük fan aynı debiyi daha yavaş dönerek sağlar ve daha sessizdir. Fan hızı çoğu zaman anakart tarafından sıcaklığa göre ayarlanır."
+    },
+    "sosyal": {
+      "5": "Evdeki aspiratör ve vantilatör de havayı hareket ettirir.",
+      "6": "Bilgisayarı duvara ya da perdeye çok yakın koymak hava giriş ve çıkışını kapatır ve bilgisayarı daha çok ısıtır. Havalandırma deliklerini kapatmayın.",
+      "7": "Fan sesi, bilgisayarın ne kadar çalıştığının ipucudur. Fan sesi aniden çok artarsa toz birikmiş olabilir ya da bilgisayar ağır bir iş yapıyordur.",
+      "8": "Fan sayısı arttıkça gürültü ve elektrik tüketimi de artar. Tasarımcı hava akışı, gürültü ve elektrik tüketimi arasında denge arar."
+    }
+  },
+  "hava-akisi": {
+    "ad": "Hava akışı",
+    "teknik": {
+      "5": "Serin hava kasanın önünden girer, parçaların yanından geçer ve ısınmış olarak arkadan ve üstten çıkar.",
+      "6": "Hava akışı, kasanın içinden serin havanın geçip sıcak havayı dışarı taşımasıdır. Fanlar bu akışı sağlar; sıcak hava hafif olduğu için doğal olarak yükselir.",
+      "7": "Kasanın içindeki hava yolu bir tasarımdır: ön fanlar serin havayı alır, hava işlemci ve ekran kartının üstünden geçerek ısınır, arka ve üst fanlar bu havayı dışarı atar. Sıcak hava yükselir; çıkış fanlarının üstte olması bu yüzdendir.",
+      "8": "Giren hava çıkan havadan çoksa kasa içi basınç dışarıdan hafifçe yüksek olur (pozitif basınç) ve hava kasanın aralıklarından dışarı sızar. Çıkan hava çoksa kasa içi basınç düşer (negatif basınç) ve toz aralıklardan içeri çekilebilir. Bu yüzden hava girişlerine filtre konur."
+    },
+    "sosyal": {
+      "5": "Pencereyi ve kapıyı açınca oda havalanır. Kasada da hava bir yerden girer, bir yerden çıkar.",
+      "6": "Kasayı duvara dayamak ya da dar bir dolabın içine koymak hava girişini zorlaştırır. Bilgisayarın çevresinde birkaç santimetre boşluk bırakmak iyidir.",
+      "7": "Bilgisayarı kapalı ve havasız bir dolapta çalıştırmak çevredeki havayı da ısıtır ve soğutmayı zorlaştırır. Serin bir oda daha iyi soğutur.",
+      "8": "Hava akışını iyileştirmek için kablolar düzenlenir, hava yolunu kapatan engeller kaldırılır ve filtreler temizlenir. Aynı soğutucu, serin bir odada daha düşük fan hızıyla da işini yapar."
+    }
+  },
+  "ram": {
+    "ad": "RAM (bellek)",
+    "teknik": {
+      "5": "RAM, bilgisayarın çalışma masasıdır. Açık olan programlar ve belgeler burada durur. Elektrik gidince RAM boşalır.",
+      "6": "RAM, işlemcinin o anda kullandığı programları ve verileri tuttuğu hızlı geçici bellektir. Kapasitesi GB ile anlatılır. Bilgisayar kapanınca RAM'deki bilgiler silinir; kalıcı saklama için depolama birimi gerekir.",
+      "7": "RAM, depolama birimlerinden çok daha hızlıdır ama elektrik kesilince içindekini kaybeder (uçucu bellek). İşlemci işini RAM üzerinden yapar. RAM yetmezse bilgisayar depolamayı geçici bellek gibi kullanır ve belirgin biçimde yavaşlar.",
+      "8": "RAM çubukları anakartın bellek yuvalarına takılır ve yuvanın türüne uygun olmalıdır (ör. DDR4 ile DDR5 birbirinin yerine takılmaz). DDR4-3200 bellek saniyede 3200 milyon aktarım yapar; her aktarımda 8 byte taşıdığı için bir kanalın kuramsal hızı saniyede yaklaşık 25 GB eder."
+    },
+    "sosyal": {
+      "5": "Masan ne kadar genişse aynı anda o kadar çok defter açabilirsin. RAM de ne kadar büyükse o kadar çok program açık kalır.",
+      "6": "Bir belgeyi kaydetmeden bilgisayar kapanırsa çalışma kaybolur; çünkü belge o ana kadar yalnız RAM'dedir. Bu yüzden sık sık kaydetmek gerekir.",
+      "7": "Çok sekme ve program açıkken bilgisayar yavaşlıyorsa nedenlerden biri RAM'in dolmasıdır. Kullanmadığın programları kapatmak bilgisayarı rahatlatır.",
+      "8": "RAM eklemek eski bir bilgisayarı hızlandırabilir ama yalnız RAM yetersizse. Yavaşlığın nedeni işlemci ya da yavaş bir depolama birimi ise RAM eklemek fark yaratmaz."
+    }
+  },
+  "ekran-karti": {
+    "ad": "Ekran kartı",
+    "teknik": {
+      "5": "Ekran kartı, ekranda gördüğün görüntüyü hazırlayan karttır. Oyunlar ve videolar için önemlidir.",
+      "6": "Ekran kartı (GPU), görüntüyü hesaplayıp monitöre gönderir. Ayrı ekran kartlarının kendi belleği ve fanı vardır. Oyun, video ve 3D çizim gibi işlerde çok çalışır. Bazı bilgisayarlarda ayrı ekran kartı yoktur; görüntüyü işlemcinin içindeki grafik birimi üretir.",
+      "7": "Ekran kartı anakartın PCIe yuvasına takılır; güçlü olanlar güç kaynağından ayrı bir kablo da alır. Çok sayıda küçük çekirdeği aynı anda çalıştırarak görüntüyü hızla hazırlar. Çalışırken çok ısındığı için kendi soğutucusu ve fanları vardır.",
+      "8": "1920 x 1080 çözünürlükte ve saniyede 60 görüntüde ekranda her saniye 1920 x 1080 x 60 = 124 416 000 nokta (piksel) güncellenir. Ekran kartı her nokta için renk hesaplar. Bu iş küçük hesapların çok sayıda tekrarı olduğu için çok çekirdekli yapıya çok uygundur."
+    },
+    "sosyal": {
+      "5": "Oyun oynayan bilgisayarlarda ekran kartı büyüktür ve çok fan taşır.",
+      "6": "Ders yazmak ve internette gezmek için güçlü bir ekran kartına gerek yoktur. Ayrı ekran kartı daha çok oyun, video düzenleme ve 3D tasarım yapanlar için seçilir.",
+      "7": "Güçlü bir ekran kartı çok elektrik harcar ve çok ısınır. Bu yüzden güç kaynağının ve kasadaki hava akışının buna yetecek kadar güçlü olması gerekir.",
+      "8": "Ekran kartı yalnız oyun için değil, yapay zekâ ve bilimsel hesaplar için de kullanılır; çünkü çok sayıda hesabı aynı anda yapabilir."
+    }
+  },
+  "pcie-yuvasi": {
+    "ad": "PCIe yuvası",
+    "teknik": {
+      "5": "PCIe yuvası, anakartın üzerinde ekran kartı gibi kartların takıldığı uzun yuvadır.",
+      "6": "PCIe yuvası, ekran kartı gibi ek kartların anakarta takıldığı yuvadır. Uzun yuvalar daha çok veri yolu taşır; ekran kartı genellikle en uzun yuvaya takılır.",
+      "7": "PCIe yuvasının uzunluğu, kaç veri hattı (lane) taşıdığını gösterir: x1, x4, x16 gibi. Hat sayısı arttıkça aynı anda taşınan veri artar. Yuvadaki mandal kartı yerinde tutar.",
+      "8": "PCIe'nin yeni nesillerinde her hattın hızı yaklaşık iki katına çıkar. Bir yuvanın hızı hat sayısıyla orantılı artar; nesil değiştikçe de katlanır. Bu yüzden yeni nesil bir yuvadaki x4 bağlantı, eski nesil bir yuvadaki x16 bağlantı kadar hızlı olabilir."
+    },
+    "sosyal": {
+      "5": "Kart, yuvaya ancak doğru yönde oturur. Zorlamak gerekmez.",
+      "6": "Ses kartı, ağ kartı ve ekran kartı gibi kartlar PCIe yuvasına takılarak bilgisayara yeni özellik kazandırabilir.",
+      "7": "Kartı yuvaya sert bastırmak ya da eğik takmak anakarta zarar verir. Takma işi dikkatli ve fişi çekilmiş bilgisayarda yapılır.",
+      "8": "Yuvaların çoğu hem eski hem yeni nesil kartlarla çalışır, ama kartın hızı yuvanın ve kartın desteklediği en yavaş değerle sınırlıdır."
+    }
+  },
+  "guc-kablolari": {
+    "ad": "Güç kabloları",
+    "teknik": {
+      "5": "Güç kabloları, güç kaynağından anakarta, ekran kartına ve disklere elektrik götürür.",
+      "6": "Güç kaynağından çıkan kablo demetleri parçalara elektrik taşır. Anakart için geniş bir ana kablo, işlemci için ayrı bir kablo, ekran kartı ve diskler için de ayrı kablolar vardır. Fişlerdeki çıkıntılar çoğunlukla yanlış takılmayı önler.",
+      "7": "Kabloların içinde farklı gerilimler taşınır (3,3 V, 5 V ve 12 V). İşlemci ve ekran kartı gibi çok güç harcayan parçalar, daha çok akım çekebilmek için ayrı ve daha kalın kablolar kullanır. Fişlerdeki çıkıntılar yanlış takılmayı önler.",
+      "8": "Elektrik gücü gerilim ile akımın çarpımıdır: P = V x I. 12 V'ta 120 W harcayan bir parça yaklaşık 10 A akım çeker. Akım arttıkça kablo ısınır; bu yüzden çok güç çeken parçalar kalın ya da birden fazla kablo kullanır."
+    },
+    "sosyal": {
+      "5": "Kabloları elinle çekme. Fişi tutup çek.",
+      "6": "Kablolar kasada düzgün toplanırsa hava rahat geçer. Dağınık kablo havayı engeller.",
+      "7": "Gevşek takılmış bir güç kablosu, bilgisayarın rastgele kapanmasına ya da açılmamasına yol açabilir. Gerçek bir bilgisayarda kabloları takma ve çıkarma işi fiş çekiliyken yapılır.",
+      "8": "Güç kablosu yanlış ya da zorla takılmamalıdır. Fişler tek yöne uyacak biçimde tasarlandığı için doğru takıldığında kolayca yerine oturur."
+    }
+  },
+  "m2-ssd": {
+    "ad": "M.2 SSD",
+    "teknik": {
+      "5": "M.2 SSD, ince ve uzun bir depolama kartıdır; boyu bir sakız paketi kadardır. Anakarta doğrudan takılır, kablo istemez.",
+      "6": "M.2 SSD, anakartın üzerindeki özel yuvaya yatay takılan, vidayla tutturulan ince bir depolama kartıdır. Hareketli parçası yoktur. Sabit diske göre çok daha hızlı açılır ve çalışır.",
+      "7": "M.2 SSD'ler flash bellek denen yongalarla veri saklar; elektrik kesilince bilgi silinmez. Birçok M.2 SSD, anakartın PCIe hatlarını kullanır; bu yüzden SATA bağlantısına göre çok daha hızlı olabilir. Hızlı çalışırken ısındığı için üstüne soğutucu konabilir.",
+      "8": "Yaygın bir M.2 SSD'nin boyu 80 mm, eni 22 mm'dir (2280). Hızı modele göre değişir; bazıları saniyede binlerce MB okuyabilir. 1 GB'lık bir dosya saniyede 3000 MB hızla yaklaşık üçte bir saniyede okunur."
+    },
+    "sosyal": {
+      "5": "Telefonundaki depolama alanı da buna benzer bir flash bellektir.",
+      "6": "Bilgisayarın hızla açılmasının en büyük nedenlerinden biri SSD kullanmasıdır.",
+      "7": "SSD'ler darbeye sabit diskten daha dayanıklıdır; çünkü hareketli parçaları yoktur. Yine de verileri yedeklemek gerekir.",
+      "8": "SSD'nin ömrü sınırsız değildir: flash bellek çok sayıda yazma işleminden sonra yıpranır. Normal kullanımda bu süre yıllarca sürer ama önemli verilerin yedeği alınmalıdır."
+    }
+  },
+  "sata-ssd": {
+    "ad": "SATA SSD",
+    "teknik": {
+      "5": "SATA SSD, kutu şeklinde bir depolama birimidir. Kabloyla anakarta bağlanır. Verileri kalıcı saklar.",
+      "6": "SATA SSD, 2,5 inç boyunda küçük bir kutudur ve iki kabloyla bağlanır: biri veri, biri elektrik taşır. Sabit diskin aksine içinde dönen parça yoktur; bu yüzden sessizdir ve daha hızlıdır.",
+      "7": "SATA SSD de flash bellek kullanır ama SATA bağlantısının hızı sınırlıdır. Bu yüzden M.2 SSD'lerden yavaştır, yine de sabit diskten belirgin biçimde hızlıdır.",
+      "8": "SATA III bağlantısı saniyede 6 gigabit sinyal taşır. Veri kodlaması payı düşülünce kullanılabilir hız yaklaşık 600 MB/s olur; pratikte yaklaşık 550 MB/s görülür. Hız, SSD'nin kendisinden çok bağlantının sınırıdır."
+    },
+    "sosyal": {
+      "5": "Eski bir bilgisayarda sabit diski SSD ile değiştirmek bilgisayarı çok hızlandırabilir.",
+      "6": "Bir bilgisayarın sabit diski SSD ile değiştirilerek ömrü uzatılabilir.",
+      "7": "SATA SSD, yeni M.2 SSD kadar hızlı olmasa da fiyatı uygun olduğu için hâlâ yaygın kullanılır.",
+      "8": "Bir bilgisayarda hem SSD hem sabit disk bulunabilir: sık kullanılan programlar SSD'de, büyük arşivler sabit diskte durur."
+    }
+  },
+  "hdd": {
+    "ad": "Sabit disk (HDD)",
+    "teknik": {
+      "5": "Sabit disk, içinde dönen plakaları olan bir depolama birimidir. Verileri kalıcı saklar. Çalışırken hafif ses çıkarabilir.",
+      "6": "Sabit disk (HDD) içinde manyetik bir yüzeyle kaplı dönen plakalar ve okuma yapan bir kol taşır. Verileri plakaların üstüne manyetik olarak yazar. Büyük ve ucuzdur ama SSD'den yavaştır.",
+      "7": "Sabit diskte plakalar dakikada 5400 ya da 7200 kez döner; okuma kolu veriye ulaşmak için plakanın üstünde gezer. Bu mekanik hareket zaman aldığı için sabit disk SSD'den yavaştır. Çalışırken darbe alırsa zarar görebilir.",
+      "8": "7200 devir/dakika, saniyede 120 devir eder; yani bir tam devir yaklaşık 8,3 milisaniye sürer. Okuma kolunun gideceği yer ile plakanın dönmesi gereken kısım zaman kaybettirir. Sabit disk ardışık okumalarda yaklaşık 100 ile 200 MB/s verebilir ama dağınık küçük dosyalarda yavaşlar."
+    },
+    "sosyal": {
+      "5": "Sabit diskin çalışırken yere düşmesi ya da sarsılması zarar verir.",
+      "6": "Fotoğraf, film ve yedek gibi çok yer kaplayan veriler için sabit disk ucuz bir çözümdür. Terabaytlarca kapasite düşük fiyata bulunur.",
+      "7": "Taşınabilir sabit diskler çantada taşınırken sarsıldığında bozulabilir. Önemli bir dosyayı yalnız tek bir diskte tutmak risklidir; bir yedek daha olmalıdır.",
+      "8": "Sabit disk kapasitesi TB ile anlatılır. 1 TB, yaklaşık 1000 GB eder (bazı sistemlerde 1024 GB). Disk satan firmalar genellikle 1000'lik hesabı kullanır, bu yüzden bilgisayar bu değeri biraz daha küçük gösterebilir."
+    }
+  },
+  "veri-kablosu": {
+    "ad": "Veri kablosu",
+    "teknik": {
+      "5": "Veri kablosu, depolama biriminin bilgilerini anakarta taşır.",
+      "6": "Veri kablosu (SATA kablosu), sabit disk ya da SATA SSD ile anakart arasında veri taşıyan ince kablodur. Elektrik taşımaz; elektrik için ayrı bir güç kablosu vardır.",
+      "7": "SATA veri kablosunun uçları L şeklinde bir çentikle yapılmıştır, bu yüzden yalnız doğru yönde takılır. Bir depolama birimi çalışmak için iki kablo ister: biri veri, biri elektrik.",
+      "8": "Veri kablosundaki sinyal çok hızlı değişen elektrik gerilimleridir; bilgi 0 ve 1 olarak iletilir. Kablonun kalitesi ve uzunluğu sinyalin bozulmadan gelmesini etkiler. SATA III, saniyede 6 gigabit sinyal taşır."
+    },
+    "sosyal": {
+      "5": "Kabloyu çekip sallamak gevşemesine yol açar. Fişi tutup çıkar.",
+      "6": "Disk bir anda görünmez olduysa kablonun gevşemesi nedenlerden biri olabilir. Bunu kontrol etmek bir servis çalışanının ilk işlerindendir.",
+      "7": "M.2 SSD'lerde veri kablosu yoktur; bu yüzden kasanın içi daha düzenli olur.",
+      "8": "Kablo sayısı azaldıkça hava akışı iyileşir. Bu yüzden yeni bilgisayarlarda kablo istemeyen, doğrudan anakarta takılan parçalar tercih edilir."
+    }
+  },
+  "bios-pili": {
+    "ad": "BIOS pili",
+    "teknik": {
+      "5": "BIOS pili, anakart üzerindeki küçük yuvarlak pildir. Bilgisayar kapalıyken saati çalışır tutar.",
+      "6": "BIOS pili, anakartın ayarlarını ve saatini bilgisayar kapalıyken de hafızada tutan küçük bir pildir. Bilgisayar prizden çekili olsa bile saatin doğru kalmasını bu pil sağlar.",
+      "7": "BIOS (yeni bilgisayarlarda UEFI), bilgisayar açılırken ilk çalışan küçük programdır. Ayarları anakartta, pil sayesinde silinmeden saklanır. Düğme pil genellikle CR2032 türüdür ve yaklaşık 3 V verir. Pil biterse tarih ve saat sıfırlanır.",
+      "8": "Pil yalnız saat ve ayarlar gibi çok az elektrik çeken bir devreyi besler, bu yüzden yıllarca dayanabilir. Bilgisayarın kendisini çalıştırmaz; bunu güç kaynağı yapar."
+    },
+    "sosyal": {
+      "5": "Duvar saatinin pili nasıl saati yürütüyorsa BIOS pili de bilgisayarın saatini yürütür.",
+      "6": "Bilgisayarın tarih ve saati sık sık yanlışsa BIOS pili bitmiş olabilir. Bunu bir uzman değiştirir.",
+      "7": "Düğme piller küçük çocuklar için tehlikelidir; yutulursa hemen bir doktora gidilmelidir. Biten piller, çöpe değil, atık pil kutusuna atılır.",
+      "8": "Pil değişimi için bilgisayarın fişi çekilir ve kasa açılırken statik elektriğe dikkat edilir. Pilin artı ve eksi yönü doğru takılmalıdır."
+    }
+  },
+  "arka-panel": {
+    "ad": "Arka panel",
+    "teknik": {
+      "5": "Arka panel, kasanın arkasındaki bağlantı noktalarının bulunduğu bölümdür. Monitör, klavye, fare ve internet kablosu buraya takılır.",
+      "6": "Arka panelde USB, HDMI, ağ ve ses girişleri ile güç kablosunun girişi bulunur. Bu girişler anakartın ve ekran kartının dışarıya açılan kapılarıdır.",
+      "7": "Anakartın arka panel girişleri ile ekran kartının çıkışları farklı yerlerdedir. Ayrı bir ekran kartı varsa monitör kablosu genellikle ekran kartına takılır. Doğru yere takılmazsa ekranda görüntü gelmeyebilir.",
+      "8": "Her giriş farklı bir veri biçimi ve hız için tasarlanmıştır: USB genel amaçlı veri, HDMI görüntü ve ses, ethernet ise ağ verisi taşır. Girişlerin şekli yanlış takılmayı önler."
+    },
+    "sosyal": {
+      "5": "Okuldaki bir bilgisayarın arkasında kabloların takıldığı yerleri görebilirsin.",
+      "6": "Monitörde görüntü yoksa kabloların doğru girişte ve sıkı takılı olduğunu kontrol etmek, ilk bakılacak şeylerdendir.",
+      "7": "Bilgisayarı duvara çok yaslamak hem kabloları sıkıştırır hem havalandırmayı kapatır.",
+      "8": "Dizüstü bilgisayarlarda bu girişler yan taraflara dağılmıştır ve sayıları daha azdır."
+    }
+  },
+  "wifi-karti": {
+    "ad": "Wi-Fi kartı",
+    "teknik": {
+      "5": "Wi-Fi kartı, bilgisayarın kablosuz internete bağlanmasını sağlar. Antenle çalışır.",
+      "6": "Wi-Fi kartı (kablosuz ağ kartı), bilgisayarın kablo olmadan modeme bağlanmasını sağlar. Veriyi radyo dalgalarıyla gönderir ve alır. Üzerindeki antenler bu dalgaları yakalar.",
+      "7": "Wi-Fi kartı anakarta PCIe ya da M.2 kartı olarak takılabilir; bazı anakartlarda hazır bulunur. Genellikle 2,4 GHz ve 5 GHz bantlarında çalışır. Engeller (duvar gibi) ve uzaklık sinyali zayıflatır.",
+      "8": "Dalga boyu, ışık hızının frekansa bölünmesiyle bulunur. 2,4 GHz için 300 000 000 / 2 400 000 000 = 0,125 m yani yaklaşık 12,5 cm eder. Antenlerin boyu bu dalga boyuna bağlıdır ve santimetre düzeyindedir."
+    },
+    "sosyal": {
+      "5": "Kablosuz bağlantıda internet kablosu takmak gerekmez.",
+      "6": "Wi-Fi bağlantısı kolaydır ama halka açık ve şifresiz ağlarda kişisel bilgi paylaşmamak gerekir.",
+      "7": "Modem ile bilgisayar arasındaki duvarlar sinyali zayıflatır. Online ders ve oyun için kablolu bağlantı daha kararlı olabilir.",
+      "8": "Bir Wi-Fi ağına bağlanırken ağın adı ve şifresi güvenilir bir kaynaktan öğrenilir. Adı benzeyen sahte ağlara bağlanmak veri güvenliğini tehlikeye atar."
+    }
+  },
+  "toz-filtresi": {
+    "ad": "Toz filtresi",
+    "teknik": {
+      "5": "Toz filtresi, kasaya giren havadaki tozu tutan ince bir ağdır.",
+      "6": "Toz filtresi, fanların içeri çektiği havadaki tozu tutar. Böylece toz parçaların üstüne ve fanlara birikmez. Zamanla tıkanır, bu yüzden temizlenir.",
+      "7": "Toz ısıyı iyi dışarı vermez, parçaların üstünde ince bir örtü gibi ısıyı hapseder; ayrıca soğutucu kanatlarının arasını tıkar. Bu yüzden toz birikmesi bilgisayarın ısınmasına ve fanların daha çok çalışmasına yol açar. Filtre hava giriş yerlerine konur.",
+      "8": "Filtre havanın geçişini biraz zorlaştırır; bu yüzden fan, aynı havayı geçirmek için daha çok çalışır. Hava akışı bakımından tıkalı bir filtre, hiç filtre olmamasından daha kötü olabilir. Düzenli temizlik hem toz tutmayı hem hava akışını korur."
+    },
+    "sosyal": {
+      "5": "Evdeki klima ve süpürge filtreleri de tozu tutar ve temizlenir.",
+      "6": "Gerçek bilgisayarın filtresi, fiş çekilmiş ve kasa kapalıyken, bir büyüğün yardımıyla temizlenir. Yıkanabilen filtreler tamamen kuruduktan sonra takılır.",
+      "7": "Tozlu ortamlarda (ör. atölye, toprak yol kenarı) filtre daha çabuk tıkanır. Bilgisayarı yerden biraz yüksekte tutmak daha az toz çekmesine yardım edebilir.",
+      "8": "Hava akışının bir yönü vardır ve toz bu akışla içeri girer. Tasarımcı, hava girişine filtre koyarak tozu daha içeri girmeden keser."
+    }
   }
 }

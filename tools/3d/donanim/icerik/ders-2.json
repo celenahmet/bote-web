@@ -1,0 +1,434 @@
+{
+  "slug": "kasanin-ici",
+  "baslik": "Kasanın İçi",
+  "kisa": "Kasanın kapağını aç: anakart, işlemci, RAM, SSD, ekran kartı, güç kaynağı, hava ve sıvı soğutmayı 3D keşfet. Ortaokul 5-8. sınıflar için simülasyon.",
+  "sure": 30,
+  "hedefler": {
+    "5": [
+      "Kasanın kapağı açılınca içinde hangi parçaların olduğunu söyleyeceğiz.",
+      "İşlemciyi bilgisayarın beyni, RAM'i çalışma masası olarak tanıyacağız.",
+      "Bilgilerin SSD ya da sabit diskte kalıcı saklandığını, RAM'in ise elektrik gidince boşaldığını bulacağız.",
+      "Güç kaynağının elektriği dağıttığını, fanların ve sıvı soğutmanın ısıyı dışarı attığını göstereceğiz."
+    ],
+    "6": [
+      "İç donanım ve dış donanım ayrımını yapıp kasanın içindeki parçaları adlarıyla tanıyacağız.",
+      "Anakart, işlemci, RAM ve ekran kartının görevlerini ve aralarındaki ilişkiyi açıklayacağız.",
+      "Depolama birimlerini (sabit disk, SSD, USB bellek, bulut) veri erişim hızı, kapasite ve kullanım amacına göre karşılaştıracağız.",
+      "Hava soğutma ile kapalı devre sıvı soğutmanın ısıyı nasıl uzaklaştırdığını anlatacağız; ağ girişi ile Wi-Fi'ı ayıracağız."
+    ],
+    "7": [
+      "Kasanın içindeki elektrik, veri ve ısı akışlarını parçalarla ilişkilendireceğiz.",
+      "RAM ile SSD ve sabit diski hız, kalıcılık ve çalışma biçimi bakımından karşılaştıracağız.",
+      "Hava soğutucudaki ısı borusunun, sıvı soğutmadaki pompa, hortum ve radyatörün ısıyı nasıl taşıdığını açıklayacağız.",
+      "Kasa fanlarının hava akışını ve sıcak havanın yükselmesini kasanın tasarımıyla ilişkilendireceğiz."
+    ],
+    "8": [
+      "GHz ve çekirdek sayısını yorumlayıp saat darbesinin süresini hesaplayacağız.",
+      "Veri boyutu merdivenini (bit, byte, KB, MB, GB, TB) kullanarak kapasite ve aktarım süresi hesaplayacağız.",
+      "Güç kaynağının alternatif akımı doğru akıma çevirdiğini açıklayıp gücü watt ve verimle hesaplayacağız.",
+      "Isı dengesini ve kasa içindeki basınç farkını açıklayıp hava ve sıvı soğutmanın ısıyı nasıl taşıdığını karşılaştıracağız."
+    ]
+  },
+  "adimlar": [
+    {
+      "id": "merak",
+      "baslik": "Kasanın içinde ne var?",
+      "metin": {
+        "5": "Kasa kapalı. Dışarıdan içindeki parçaları göremiyoruz. Bilgisayarın beyni ve belleği bu kutunun içindedir. Sence kutunun içinde neler var? Bugün kapağı açıp parçaları tek tek tanıyacağız.",
+        "6": "Klavye, fare ve ekran dışarıda durur; bilgisayarın asıl işini yapan parçalar ise kasanın içindedir. Günlük yaşamda kullandığımız bilgisayarların içinde hangi parçalar olduğunu hiç merak ettiniz mi? Bu parçalar birbirine nasıl bağlanır, çalışırken ne olur? Bugün kasanın kapağını açıp bunu birlikte bulacağız.",
+        "7": "Bir bilgisayarda üç şey birlikte dolaşır: elektrik, veri ve ısı. Elektrik parçaları çalıştırır, veri parçalar arasında gider, çalışan parçalar ısınır. Hepsi kasanın içinde olur. Bugün her parçayı üç soruyla tanıyacağız: Ne yapar? Neyle konuşur? Isınır mı? Sizce kasada en çok hangi parça ısınır?",
+        "8": "Kasanın içi üç akışın kesiştiği yerdir: elektrik güç kaynağından parçalara, veri parçalar arasında, ısı da parçalardan dışarıya doğru akar. Bu derste her parçayı bu akışlardaki yeriyle ve sayılarıyla tanıyacağız: GHz, çekirdek, GB ve TB, watt. Sizce 100 W elektrik harcayan bir işlemci bu enerjinin ne kadarını ısıya çevirir?"
+      }
+    },
+    {
+      "id": "kapak",
+      "baslik": "Kapağı açalım",
+      "metin": {
+        "5": "Kasa bir kutudur. Yan kapağı açılınca içi görünür. \"Kapağı aç\" düğmesine bas. Kasanın içindeki parçalara <strong>iç donanım</strong> denir. Ekran, yazıcı ve hoparlör kasanın dışındadır; onlara <strong>dış donanım</strong> denir. Gerçek bir kasayı yalnız öğretmen açar ve önce fişini çeker.",
+        "6": "Kasanın yan kapağı açılınca iç donanım görünür. <strong>İç donanım</strong>, kasanın içindeki parçalardır (ör. işlemci, anakart, RAM bellek). <strong>Dış donanım</strong> ise kasanın dışında durur (ör. yazıcı, hoparlör, ekran). \"Kapağı aç\" düğmesine bas ve kasanın içindeki parçaları say. Kapak, parçaları toz ve darbeden korur. Gerçek bir kasayı öğretmen açar ve açmadan önce fişi çeker.",
+        "7": "Yan kapak kasanın içini toz, darbe ve merak eden ellerden korur. Bir görevi daha var: kasa, içinden geçen havanın izleyeceği yolu belirler. Kapak açıkken bu yol bozulur ve toz içeri girer; bu yüzden bilgisayar normalde kapalı kasayla çalışır. \"Kapağı aç\" düğmesine bas ve parçaların yerleşimini incele: her parça anakarta, güç kaynağına ya da ikisine birden bağlıdır.",
+        "8": "Gerçek kasalarda yan kapak çoğunlukla vidayla, mandalla ya da menteşeyle tutturulur; bazı kasalarda cam bir paneldir. Kasa açılmadan önce fiş çekilir. Parçalara dokunmadan önce topraklanmış bir metal yüzeye dokunarak statik elektrik boşaltılır. İnsan, statik boşalmayı yaklaşık 3000 V'tan sonra hisseder; elektronik parçalar ise bundan çok daha düşük gerilimde zarar görebilir. \"Kapağı aç\" düğmesine bas ve içeride kaç ana parça sayabildiğini söyle."
+      }
+    },
+    {
+      "id": "anakart",
+      "baslik": "Anakart: her şeyin bağlandığı kart",
+      "metin": {
+        "5": "En büyük kart <strong>anakarttır</strong>. Bilgisayarın bütün parçaları ona takılır ya da kabloyla bağlanır. Anakart, parçaları birbirine bağlayan yollar gibidir. Anakart olmasa parçalar birbirleriyle konuşamaz. Parçalara dokunarak adlarını öğrenebilirsin.",
+        "6": "<strong>Anakart</strong>, bilgisayarın parçalarını birbirine bağlayan ana devre kartıdır. İşlemci, RAM ve ekran kartı anakartın yuvalarına takılır. Güç kaynağı kablolarla anakarta bağlanır. Sabit disk ve SATA SSD veri kablosuyla, M.2 SSD ise doğrudan yuvasına bağlanır. Bilgi, anakartın üzerindeki ince bakır yollardan taşınır; parçalar arasındaki ilişkiyi anakart kurar. Üzerinde küçük, yuvarlak bir pil de vardır: <strong>BIOS pili</strong>. Pil, bilgisayar kapalıyken saati çalışır tutar.",
+        "7": "Anakartın üzerinde her parçaya özel yuvalar vardır: işlemci için işlemci yuvası, RAM için bellek yuvaları, ekran kartı için PCIe yuvası, depolama için M.2 yuvası ve SATA bağlantıları. Yuvaların biçimi farklı olduğu için bir parça çoğunlukla yanlış yuvaya oturmaz. Parçaların anakartla uyumlu olması da gerekir: örneğin her anakart her işlemciyi kabul etmez. BIOS pili, bilgisayar kapalıyken saat ve tarihi tutar; pil biterse saat sıfırlanabilir.",
+        "8": "Anakart elektrik, veri ve kontrol hatlarının merkezidir. Güç kaynağından gelen 12 V, anakart üzerindeki küçük devrelerle işlemci ve bellek için gereken yaklaşık 1 V ile 1,5 V arasındaki gerilimlere indirilir. Veri, bakır yollardan elektrik sinyali olarak gider; işlemci ile RAM arasındaki yol en hızlı olanlardandır. BIOS pili yaklaşık 3 V'luk bir düğme pildir ve bilgisayar kapalıyken saati çalışır tutar. Pil bitince saat ve tarih sıfırlanabilir."
+      }
+    },
+    {
+      "id": "islemci",
+      "baslik": "İşlemci: bilgisayarın beyni",
+      "metin": {
+        "5": "<strong>İşlemci</strong> bilgisayarın beynidir. Hesapları o yapar ve programları o çalıştırır. İşlemci küçük bir karedir ama çok çalışır ve ısınır. Bu yüzden üstüne bir soğutucu takılır. \"Soğutucuyu kaldır\" düğmesine bas: soğutucu kalkar ve işlemci görünür.",
+        "6": "<strong>İşlemci</strong> (CPU), komutları yürüten ve işlemleri yapan iç donanım parçasıdır. Hızı <strong>GHz</strong> ile anlatılır. İşlemcinin içindeki bağımsız işlem birimlerine <strong>çekirdek</strong> denir; çekirdek sayısı arttıkça aynı anda daha çok iş yapılabilir. Çalışan işlemci ısınır, bu yüzden üstünde bir soğutucu bulunur. \"Soğutucuyu kaldır\" düğmesine bas: soğutucu kalkar ve işlemci görünür.",
+        "7": "İşlemci, RAM'deki komutları sırayla alıp yürütür. İki sayı onu anlatır: <strong>çekirdek</strong> sayısı aynı anda kaç işin yürütülebileceğini, <strong>saat hızı</strong> (GHz) bir çekirdeğin saniyede kaç adım atabildiğini gösterir. İşlemcinin üstü metal bir kapakla örtülüdür. Kapakla soğutucu arasında ince bir <strong>termal macun</strong> tabakası bulunur; macun, iki metal yüzey arasındaki görünmez boşlukları doldurur ve ısının soğutucuya geçmesini kolaylaştırır. \"Soğutucuyu kaldır\" düğmesine bas ve işlemcinin üstünü incele.",
+        "8": "İşlemcinin saat hızı, saniyedeki saat darbesi sayısıdır: 3 GHz = 3.000.000.000 darbe/s. Bir darbe 1 / 3.000.000.000 saniye, yani yaklaşık 0,33 nanosaniye sürer. Her darbede çekirdek küçük bir adım atar, ama bir komutun kaç darbe sürdüğü tasarıma göre değişir; bu yüzden GHz tek başına başarı ölçüsü değildir. 4 çekirdek aynı anda 4 ayrı işi yürütebilir; bir program işini bölemiyorsa fazla çekirdekler boşta kalır. İşlemci harcadığı elektrik gücünün hemen hepsini ısıya çevirir. \"Soğutucuyu kaldır\" düğmesine bas ve soğutucunun neden gerekli olduğunu tartış."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: İşlemcinin üstündeki soğutucu olmasa ne olur?",
+          "6": "Tahmin et: Soğutucu olmasa işlemciye ne olur? Neden?",
+          "7": "Tahmin et: Soğutucu olmasa işlemcinin sıcaklığı nasıl değişir ve bilgisayar ne yapar?",
+          "8": "Tahmin et: Bir işlemci 100 W harcıyor ve soğutucu yok. Saniyede kaç joule ısı üretir, bu ısı gidecek yer bulamazsa ne olur?"
+        },
+        "cevap": {
+          "5": "<strong>İşlemci çok ısınır.</strong> Çok ısınan işlemci kendini korumak için yavaşlar; ısı yine de artarsa bilgisayar kendiliğinden kapanır. Soğutucu, işlemcinin ısısını alıp havaya verir.",
+          "6": "<strong>İşlemci çok ısınır.</strong> Çalışan işlemcide elektriğin büyük kısmı ısıya dönüşür. Isı uzaklaşmazsa sıcaklık hızla yükselir. İşlemci önce hızını düşürür, sıcaklık yine de artarsa bilgisayar kapanır. Soğutucu bu ısıyı işlemciden alır.",
+          "7": "<strong>Isı işlemcide birikir, sıcaklık yükselir.</strong> Önce işlemci kendini korumak için hızını düşürür, sıcaklık yine de sınıra yaklaşırsa bilgisayar kapanır. Bu koruma parçaların zarar görmemesi için tasarlanmıştır. Soğutucunun işi, ısıyı işlemciden uzaklaştırmaktır.",
+          "8": "<strong>Saniyede yaklaşık 100 joule.</strong> İşlemci, harcadığı gücün hemen hepsini ısıya çevirir: 100 W = 100 J/s. Isı gitmezse sıcaklık sürekli artar; işlemci önce hızını düşürür, sonra bilgisayar kapanır. Soğutucu ısıyı aynı hızla uzaklaştırabilirse sıcaklık bir değerde sabitlenir."
+        }
+      }
+    },
+    {
+      "id": "ram",
+      "baslik": "RAM: çalışma masası",
+      "metin": {
+        "5": "<strong>RAM</strong> bilgisayarın çalışma masası gibidir. Şu an kullandığımız program ve dosyalar bu masaya serilir; işlemci onlara hemen ulaşır. Ama RAM <strong>geçicidir</strong>: elektrik gidince masa boşalır. \"RAM'i çıkar\" düğmesine bas: RAM çubuğu yuvasından çıkar.",
+        "6": "<strong>RAM</strong> (rastgele erişimli bellek), işlemcinin o an kullandığı program ve verileri tutan geçici bellektir. İşlemci RAM'e depolama birimlerinden çok daha hızlı ulaşır. Elektrik kesilince RAM'deki bilgiler silinir; kalıcı saklama için depolama birimleri kullanılır. RAM'in kapasitesi GB ile anlatılır (ör. 8 GB, 16 GB). \"RAM'i çıkar\" düğmesine bas: RAM çubuğu yuvasından çıkar.",
+        "7": "RAM, işlemci ile depolama arasındaki hızlı ara depodur. Depolama (SSD, sabit disk) büyük ama yavaştır; RAM küçük ama çok hızlıdır. Program açılınca depolamadan RAM'e kopyalanır, işlemci de oradan okur. RAM <strong>uçucu</strong> bellektir: elektrik gidince içi silinir. RAM yetmezse bilgisayar yavaşlar, çünkü bazı veriler yavaş depolamaya taşınmak zorunda kalır. \"RAM'i çıkar\" düğmesine bas ve çubuğun yuvadan nasıl ayrıldığını incele.",
+        "8": "RAM'in kapasitesi byte ile ölçülür. Veri boyutu merdiveni: 1 byte = 8 bit; 1 KB = 1024 byte; 1 MB = 1024 KB; 1 GB = 1024 MB; 1 TB = 1024 GB. 8 GB RAM = 8 x 1024 = 8192 MB eder. Bir fotoğraf yaklaşık 4 MB ise kabaca 8192 / 4 = 2048 fotoğraf sığar (işletim sistemi de RAM kullandığı için gerçekte daha azı sığar). Çubuk, yuvanın iki yanındaki mandallarla tutulur; çentik, çubuğun yalnız doğru yönde takılmasını sağlar. \"RAM'i çıkar\" düğmesine bas."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: Bilgisayarın elektriği birden kesilirse RAM'deki bilgilere ne olur?",
+          "6": "Tahmin et: Elektrik kesilirse RAM'deki ve SSD'deki bilgilere ne olur? Neden?",
+          "7": "Tahmin et: Elektrik kesilince RAM'deki ve SSD'deki bilgilere ne olur? Bu fark bilgisayarın çalışmasını nasıl etkiler?",
+          "8": "Tahmin et: Elektrik kesilince RAM'deki bilgi neden silinir, SSD'dekiler neden silinmez?"
+        },
+        "cevap": {
+          "5": "<strong>Silinir.</strong> RAM yalnız elektrik varken bilgi tutar. Kaydettiğimiz dosyalar ise SSD ya da sabit diskte durur; onlar silinmez. Bu yüzden çalışırken dosyamızı sık sık kaydederiz.",
+          "6": "<strong>RAM'deki silinir, SSD'deki korunur.</strong> RAM geçici bellektir; elektrik gidince içi boşalır. SSD bir depolama birimidir; bilgiyi elektrik olmadan da saklar.",
+          "7": "<strong>RAM'deki silinir, SSD'deki korunur.</strong> Bu yüzden bilgisayar işleyeceği bilgiyi kalıcı depolamadan hızlı ama geçici RAM'e alır, iş bitince sonucu tekrar depolamaya yazar. Kaydedilmemiş çalışma elektrik kesilince kaybolabilir.",
+          "8": "RAM bilgiyi çok küçük elektrik yükleri olarak tutar ve bu yükler sürekli yenilenmezse kısa sürede kaybolur. Elektrik gidince yenileme durur ve bilgi silinir. SSD ise bilgiyi elektrik olmadan da uzun süre koruyan hücrelerde tutar. Bu fark, RAM'i hızlı ama geçici, SSD'yi daha yavaş ama kalıcı yapar."
+        }
+      }
+    },
+    {
+      "id": "depolama",
+      "baslik": "Depolama: bilgilerin kalıcı yeri",
+      "metin": {
+        "5": "Dosyalarımız, resimlerimiz ve oyunlarımız <strong>depolama birimlerinde</strong> saklanır. Elektrik gitse de silinmezler. Kasanın içinde üç tür depolama var: küçük bir kart gibi duran <strong>M.2 SSD</strong>, ince kutu gibi duran <strong>SATA SSD</strong> ve içinde dönen disk olan <strong>sabit disk</strong>. SSD'ler hızlıdır. Sabit disk daha yavaştır ama çok yer verir. USB bellek ve bulut da birer depolama yeridir.",
+        "6": "<strong>Depolama birimi</strong>, bilgilerin saklandığı donanımdır (ör. sabit disk, USB bellek). Depolama birimleri üç özelliğe göre karşılaştırılır: veri erişim hızı, kapasite ve kullanım amacı. <strong>Sabit disk</strong> (HDD) dönen plakalara bilgi yazar; kapasitesi büyük ve ucuzdur ama yavaştır. <strong>SSD</strong>'de hareketli parça yoktur ve çok hızlıdır. SATA SSD kabloyla, M.2 SSD doğrudan anakarta takılır. USB bellek taşınabilirdir; <strong>bulut</strong> ise bilgiyi internet üzerinden uzaktaki bilgisayarlarda saklar.",
+        "7": "Depolamayı hız, kapasite ve fiyatla karşılaştırırız. Sabit diskte bilgi, dönen manyetik plakalara bir kolun ucundaki kafayla yazılır; kafa doğru yere gelene kadar beklenir, bu yüzden sabit disk yavaştır, sarsıntıdan etkilenir ve ses çıkarır. SSD'de bilgi elektronik flash bellek yongalarında tutulur; hareketli parça olmadığı için hızlı, sessiz ve darbeye dayanıklıdır. SATA SSD bir veri kablosu ve bir güç kablosu ister. M.2 SSD'de kablo yoktur; kart anakartın yuvasına takılır ve bir vidayla sabitlenir. Çoğu M.2 SSD, SATA SSD'den belirgin biçimde hızlıdır.",
+        "8": "Depolamada hız MB/s ile ölçülür. Tipik değerler (modele göre değişir): sabit disk yaklaşık 100 ile 200 MB/s, SATA SSD en çok yaklaşık 550 MB/s, hızlı M.2 SSD birkaç GB/s. Kapasite hesabı: 512 GB'lık bir SSD'ye 128 GB'lık bir oyundan en fazla 512 / 128 = 4 tane sığar. 1 TB = 1024 GB olduğundan 2 TB'lık disk 2048 GB eder. Üreticiler çoğu zaman 1 TB'ı 1000 GB sayar; bu yüzden 1 TB'lık bir disk bilgisayarda biraz daha az görünür. M.2 yalnız biçimdir: içindeki SSD SATA ya da NVMe arayüzlü olabilir."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: SSD mi sabit disk mi daha hızlıdır?",
+          "6": "Tahmin et: SSD mi sabit disk mi daha hızlıdır? Neden?",
+          "7": "Tahmin et: Bir bilgisayarda hem SSD hem sabit disk varsa işletim sistemini hangisine, 4 TB'lık film arşivini hangisine koyarsın? Neden?",
+          "8": "Tahmin et: 1 GB'lık bir dosyayı 100 MB/s hızlı sabit diskten ve 500 MB/s hızlı SATA SSD'den okumak yaklaşık kaç saniye sürer?"
+        },
+        "cevap": {
+          "5": "<strong>SSD.</strong> Sabit diskin içinde dönen bir disk ve hareket eden bir kol vardır; bilgiyi bulmak zaman alır. SSD'de hareket eden parça yoktur, bu yüzden çok daha hızlıdır.",
+          "6": "<strong>SSD.</strong> Sabit disk dönen plakalardan okur ve yazar; kafa istenen yere gelene kadar bekler. SSD'de hareketli parça yoktur. Buna karşılık sabit disk genellikle daha ucuz ve daha büyüktür.",
+          "7": "<strong>İşletim sistemi SSD'ye, büyük arşiv sabit diske.</strong> İşletim sistemi ve programlar hız ister; SSD bunu verir. Arşivde hızdan çok kapasite ve düşük fiyat önemlidir; sabit disk TB başına genellikle daha ucuzdur.",
+          "8": "<strong>Yaklaşık 10 saniye ve yaklaşık 2 saniye.</strong> Süre = boyut / hız: 1000 MB / 100 MB/s = 10 s; 1000 MB / 500 MB/s = 2 s. Burada 1 GB yaklaşık 1000 MB alındı; 1024 MB alınırsa 10,24 s ve 2,05 s çıkar."
+        }
+      }
+    },
+    {
+      "id": "ekran-karti",
+      "baslik": "Ekran kartı: görüntüyü üretir",
+      "metin": {
+        "5": "<strong>Ekran kartı</strong> ekrandaki görüntüyü hazırlar. Oyunlardaki resimleri ve filmleri o çizer. Anakartta uzun bir yuvaya takılıdır, kendi fanı vardır ve çok ısınır. Hazırladığı görüntüyü kabloyla ekrana yollar. Parçalara dokunarak adlarını öğrenebilirsin.",
+        "6": "<strong>Ekran kartı</strong>, görüntüyü üreten ve monitöre gönderen parçadır. Anakartın uzun <strong>PCIe yuvasına</strong> takılır. Üzerinde kendi işlemcisi (GPU) ve kendi belleği vardır; bu yüzden oyun ve video gibi görüntü ağırlıklı işlerde önemlidir. Çok ısındığı için soğutucusu ve fanları vardır. Ayrı bir ekran kartı takılıysa monitör kablosu onun çıkışına takılır. Ekran kartı olmayan bazı bilgisayarlarda görüntüyü işlemcinin içindeki bir bölüm üretir.",
+        "7": "Ekran kartındaki GPU, ekrandaki her pikselin rengini hesaplar. 1920 x 1080 ekranda iki milyondan fazla pikselin rengi saniyede onlarca kez yeniden hesaplanır. İşlemci de bu işi yapabilir, ama GPU çok sayıda küçük çekirdeği aynı anda çalıştırdığı için görüntü işinde çok daha hızlıdır. PCIe yuvası, ekran kartı ile anakart arasındaki hızlı veri yoludur; kart yuvaya oturur ve mandalla tutulur. Güçlü ekran kartları güç kaynağından ayrı bir kablo da alır.",
+        "8": "Ekran kartı her kare için tüm pikselleri hesaplar: 1920 x 1080 = 2.073.600 piksel. Saniyede 60 kare için 2.073.600 x 60 = 124.416.000 piksel/s eder. GPU bu işi binlerce küçük çekirdekle paralel yapar. Güçlü ekran kartları, bilgisayardaki en çok elektrik harcayan ve en çok ısınan parçalardandır; bu yüzden güç kaynağından ayrı PCIe güç kablosu alır ve büyük bir soğutucu taşır. Yapay zekâ ve bilimsel hesaplamalar gibi işlerde de kullanılır."
+      }
+    },
+    {
+      "id": "guc-kaynagi",
+      "baslik": "Güç kaynağı: elektriği dağıtır",
+      "metin": {
+        "5": "Bilgisayar çalışmak için elektriğe ihtiyaç duyar. Elektrik prizden gelir. Ama prizdeki elektrik parçalar için fazla güçlüdür. <strong>Güç kaynağı</strong> onu parçaların kullanabileceği hâle getirir ve kablolarla her parçaya dağıtır. Güç kaynağını yalnız yetkili kişiler açar. Parçalara dokunarak adlarını öğrenebilirsin.",
+        "6": "<strong>Güç kaynağı</strong>, prizden gelen elektriği bilgisayar parçalarının kullanabileceği düşük gerilime çeviren parçadır ve kablolarla bütün parçalara elektrik dağıtır. Anakarta giden kablo en geniş fişli olandır; işlemci, ekran kartı ve depolama birimleri için ayrı kablolar vardır. Güç kaynağı çalışırken ısındığı için kendi fanı bulunur. Gücü watt (W) ile anlatılır; parçaların toplam gücü bu değeri aşmamalıdır.",
+        "7": "Güç kaynağı, ev elektriğinin yüksek gerilimini bilgisayar parçalarının kullandığı düşük gerilimlere çevirir; bunların en büyüğü 12 V'tur. Parçaların güç ihtiyacı farklı olduğu için kablolar da farklıdır: anakart kablosu en geniş olanıdır, işlemciye ayrı bir kablo gider, güçlü ekran kartı kendi kablosunu ister, SSD ve sabit diskler ince SATA güç kablosu alır. Fişlerin biçimi, kabloyu çoğunlukla yalnız doğru yuvaya takılabilir yapar. Güç kaynağı tüm parçaların toplam güç ihtiyacını karşılamalıdır; yetmezse bilgisayar kapanabilir ya da hiç açılmayabilir.",
+        "8": "Prizdeki elektrik yaklaşık 220 V'luk alternatif akımdır (AC); frekansı 50 Hz olduğundan yönü her saniye 100 kez değişir. Parçalar ise doğru akım (DC) ister: 12 V, 5 V ve 3,3 V. Güç kaynağı gerilimi düşürür ve akımı doğru akıma çevirir. Güç gerilim ile akımın çarpımıdır: 12 V x 10 A = 120 W. Güç kaynağının verimi %90 ise parçalar 360 W istediğinde prizden 360 / 0,9 = 400 W çekilir; aradaki 40 W ısıya dönüşür ve güç kaynağının fanı bunu atar."
+      }
+    },
+    {
+      "id": "sogutma",
+      "baslik": "Soğutma: ısıyı dışarı atalım",
+      "metin": {
+        "5": "Çalışan parçalar ısınır. Isı dışarı atılmazsa bilgisayar yavaşlar ya da kapanır. İşlemcinin üstündeki soğutucu ısıyı alır, fan da havayı üfleyerek ısıyı uzaklaştırır. Kasanın fanları serin havayı içeri alır, ısınan havayı dışarı atar. Fanların önünde tozu tutan ince bir toz filtresi vardır. \"Bilgisayarı çalıştır\" düğmesine bas: fanlar döner ve hava akışı gösterilir. Sonra \"Sıvı soğutmaya geç\" düğmesine bas: işlemciyi başka bir yolla serinletelim.",
+        "6": "Parçalara giren elektriğin büyük kısmı ısıya dönüşür. <strong>Hava soğutmada</strong> işlemcinin üstüne metal kanatlı bir soğutucu ve fan takılır: soğutucu ısıyı işlemciden alır, kanatlar ısıyı havaya verir, fan havayı kanatların arasından geçirir. <strong>Kasa fanları</strong> serin havayı önden içeri alır, sıcak havayı arkadan ve üstten dışarı atar. Fanların önündeki <strong>toz filtresi</strong> tozu tutar. \"Bilgisayarı çalıştır\" düğmesiyle fanları döndür ve hava akışını izle. \"Sıvı soğutmaya geç\" düğmesiyle işlemciyi sıvı soğutmaya çevir.",
+        "7": "Isı, sıcak yerden soğuk yere akar. Hava soğutucuda yol şöyledir: işlemci, termal macun, bakır taban, <strong>ısı boruları</strong>, metal kanatlar, hava. Isı borusunun içinde az miktarda sıvı vardır: sıcak uçta ısıyı alıp buharlaşır, soğuk uçta ısıyı verip yoğuşur ve geri döner. Kanatlar yüzey alanını artırır; yüzey büyüdükçe havaya daha çok ısı verilir. Fanlar ısınan havayı sürekli yenisiyle değiştirir. Sıcak hava yükseldiği için çıkış fanları genellikle arkada ve üsttedir. Toz filtresi temizlenmezse hava akışı azalır. \"Bilgisayarı çalıştır\" ve \"Sıvı soğutmaya geç\" düğmelerini dene.",
+        "8": "Fan kanatları havayı iterek giriş tarafında basıncı düşürür, çıkış tarafında yükseltir; hava yüksek basınçtan alçak basınca akar. Kasadan geçen hava parçaların ısısını taşır. Parçaların harcadığı gücün hemen hepsi ısıya dönüşür; 300 W harcayan parçalar kasaya saniyede yaklaşık 300 J ısı verir ve soğutma bunu atabilmelidir. Üretilen ısı atılan ısıya eşit olunca sıcaklık sabitlenir; fan hızı artınca atılan ısı artar ve denge daha düşük sıcaklıkta kurulur. Giren hava çıkandan çoksa kasada hafif pozitif basınç oluşur ve hava aralıklardan dışarı sızar; toz yalnız filtreli girişlerden girer. \"Bilgisayarı çalıştır\" ve \"Sıvı soğutmaya geç\" düğmeleriyle iki yöntemi karşılaştır."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: Kasanın önündeki fan havayı içeri mi alır, dışarı mı atar? Arkadaki fan ne yapar?",
+          "6": "Tahmin et: Kasa fanları havayı hangi yöne taşır? Sıcak hava nereye gider?",
+          "7": "Tahmin et: Kasadaki bütün fanlar içeri hava üflese ve hiçbiri havayı dışarı atmasa ne olur?",
+          "8": "Tahmin et: Kasaya giren hava çıkan havadan fazlaysa içerideki basınç dışarıya göre nasıl olur? Toz için bu ne anlama gelir?"
+        },
+        "cevap": {
+          "5": "<strong>Önde fan genellikle serin havayı içeri alır, arkadaki fan sıcak havayı dışarı atar.</strong> Sıcak hava hafiftir ve yukarı çıkar; bu yüzden üstte de bir çıkış fanı bulunabilir.",
+          "6": "<strong>Önden içeri, arkadan ve üstten dışarı.</strong> Serin hava önden girer, parçaların yanından geçip ısınır, arkadan ve üstten çıkar. Sıcak hava yükselir; çıkış fanlarının üstte olması bu yüzdendir.",
+          "7": "<strong>Isınan hava yeterince hızlı çıkamayabilir.</strong> Kasada hava birikir ve iç basınç biraz yükselir; hava ancak aralıklardan ve deliklerden sızar. Çıkış yolu dar kalırsa ısınan hava kasada kalır ve parçalar daha çok ısınır. İyi tasarımda giren ve çıkan hava birbirine yakındır ve ısınan hava sürekli dışarı atılır.",
+          "8": "<strong>İçerideki basınç dışarıdan hafifçe yüksek olur</strong> (pozitif basınç). Hava, kasanın aralıklarından dışarı sızar; toz yalnız filtreli girişlerden girer. Çıkan hava giren havadan fazla olsaydı iç basınç düşerdi ve toz aralıklardan içeri çekilebilirdi."
+        }
+      }
+    },
+    {
+      "id": "sivi-sogutma",
+      "baslik": "Sıvı soğutma: ısıyı sıvı taşır",
+      "metin": {
+        "5": "Sıvı soğutmada ısıyı bir sıvı taşır. İşlemcinin üstünde bir <strong>pompa bloğu</strong> vardır; ısıyı sıvıya verir. İki <strong>hortum</strong> sıvıyı <strong>radyatöre</strong> götürür. Radyatördeki fanlar ısıyı havaya atar, soğuyan sıvı geri döner. Sıvı kapalı bir devrede döner; dışarı çıkmaz. \"Bilgisayarı çalıştır\" düğmesine bas ve sıvının döndüğünü izle.",
+        "6": "<strong>Sıvı soğutma</strong> sistemi dört parçadan oluşur: işlemcinin üstündeki <strong>pompa bloğu</strong> (ısıyı sıvıya verir ve sıvıyı döndürür), iki <strong>soğutma hortumu</strong>, <strong>radyatör</strong> ve radyatör fanları. Sıvı <strong>kapalı devrede</strong> dolaşır: fabrikada doldurulur, kullanıcı sıvı eklemez. Isıyı sonunda yine havaya fanlar verir. \"Bilgisayarı çalıştır\" düğmesine basıp sıvının dolaşımını izle.",
+        "7": "Kapalı devrede sıvı bir döngü yapar: pompa sıvıyı döndürür, sıvı işlemcinin üstündeki blokta ısınır, sıcak sıvı hortumla radyatöre gider, radyatörde ısı metal kanatlara geçer ve fanlar bu ısıyı havaya atar, soğuyan sıvı bloğa döner. Sıvı yalnız ısıyı taşıyan bir araçtır; ısıyı sonunda yine hava dışarı verir. Sıvı soğutma ısıyı işlemciden uzaktaki bir radyatöre taşıyabilir; ama pompa hareketli bir parçadır ve arızalanabilir. \"Bilgisayarı çalıştır\" düğmesiyle döngüyü izle.",
+        "8": "Su aynı hacimde havadan binlerce kat daha fazla ısı taşıyabilir; bu yüzden ince bir hortumdan geçen az sıvı çok ısı taşır. Kararlı durumda işlemcinin ürettiği ısı, radyatörün havaya verdiği ısıya eşittir: 120 W ısı üreten işlemci için radyatör saniyede 120 J ısı vermelidir. Radyatör ne kadar büyük (120, 240, 360 mm) ve fan hızı ne kadar yüksekse atılan ısı o kadar artar. Devre kapalı olduğu için sıvı eklenmez; pompa ve hortumlar zamanla yıpranabilir. \"Bilgisayarı çalıştır\" düğmesiyle döngüyü izle ve sıvının ısıyı hangi parçada aldığını, hangisinde bıraktığını söyle."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: Sıvı soğutmada ısıyı sonunda dışarı kim atar, sıvı mı fan mı?",
+          "6": "Tahmin et: Sıvı soğutmada ısıyı işlemciden alıp dışarı atan zincir nasıl? Hava hiç işe karışıyor mu?",
+          "7": "Tahmin et: Sıvı soğutmada pompa durursa ne olur?",
+          "8": "Tahmin et: Su, ısı taşımak için neden havadan çok daha uygundur?"
+        },
+        "cevap": {
+          "5": "<strong>Fan, yani hava.</strong> Sıvı yalnız ısıyı işlemciden radyatöre taşır. Radyatördeki fanlar da ısıyı havaya verir. Sıvı soğuyunca yeniden işlemciye döner.",
+          "6": "<strong>Karışıyor.</strong> Sıvı ısıyı işlemciden alır ve hortumla radyatöre taşır; radyatörde ısı metale, fanlar sayesinde de havaya geçer. Soğuyan sıvı geri döner. Sıvı yalnız taşıyıcıdır.",
+          "7": "<strong>Sıvı dolaşmaz.</strong> Bloktaki sıvı ısınır ama ısıyı radyatöre götüremez; işlemci hızla ısınır. İşlemci önce yavaşlar, ısı yine de artarsa bilgisayar kapanır. Hava soğutucudaki ısı borusu ise pompa gerektirmez.",
+          "8": "<strong>Isı taşıma kapasitesi çok büyüktür.</strong> Su, aynı hacimde havadan binlerce kat daha fazla ısı taşıyabilir: yoğunluğu havadan yaklaşık 800 kat büyüktür ve bir kilogramını ısıtmak için gereken ısı havanın yaklaşık 4 katıdır. Bu yüzden az sıvı, çok havanın işini görür."
+        }
+      }
+    },
+    {
+      "id": "baglantilar",
+      "baslik": "Dışarıyla bağlantılar",
+      "metin": {
+        "5": "Kasanın arkasında kablo girişleri vardır: USB, ses, görüntü ve internet için. Bilgisayarı internete iki yolla bağlarız. <strong>Ağ kablosu</strong> ağ girişine takılır; buna <strong>kablolu</strong> bağlantı denir. <strong>Wi-Fi</strong> ise kablosuzdur: bilgisayardaki küçük bir kart havadan bilgi alır ve verir. Parçalara dokunarak adlarını öğrenebilirsin.",
+        "6": "Kasanın arkasındaki <strong>arka panel</strong>, anakarta bağlı bağlantı noktalarını bir arada gösterir: USB girişleri, ses jakları, görüntü çıkışları ve ağ girişi. <strong>Ağ girişi</strong> (ethernet girişi) ağ kablosunu alır; kablo modem ya da yönlendiriciye gider. Kablosuz bağlantıda (<strong>Wi-Fi</strong>) kablo gerekmez; bunun yerine bir <strong>Wi-Fi kartı</strong> radyo dalgalarıyla bilgi alır ve verir. Wi-Fi kartının anteni kasanın arkasından dışarı uzanır. Ağ kartı (ethernet kartı), bilgisayar ağı için gereken bileşenlerden biridir.",
+        "7": "Kablolu bağlantıda veri kablodan elektrik sinyali olarak gider; kablosuzda radyo dalgasıyla havadan. Kablo çoğu zaman daha kararlıdır; Wi-Fi ise duvar, uzaklık ve diğer cihazlardan etkilenir. Metal kasa radyo dalgalarını zayıflattığı için Wi-Fi kartının antenleri kasanın dışına çıkarılır. Ayrı bir ekran kartı varsa monitör kablosu onun çıkışına takılır. Parçalara dokunarak hangi girişin ne işe yaradığını bul.",
+        "8": "Wi-Fi, 2,4 GHz ve 5 GHz gibi bantlarda radyo dalgası kullanır; 5 GHz daha hızlı olabilir ama duvarları daha zor geçer. Buradaki GHz, işlemcinin saat hızından farklı bir şeydir: radyo dalgasının saniyedeki titreşimini anlatır. Kablolu bir gigabit ağın hızı 1 Gbit/s = 1000 / 8 = 125 MB/s eder; bit ile byte arasında 8 kat fark olduğundan bu hızla 1 GB'lık dosya en iyi durumda yaklaşık 8 saniyede iner. Parçalara dokunarak girişleri bul."
+      }
+    },
+    {
+      "id": "ozet",
+      "baslik": "Özet ve mini sınav",
+      "metin": {
+        "5": "Bugün kasanın içini gezdik. <strong>Anakart</strong> bütün parçaları birbirine bağlar. <strong>İşlemci</strong> beyindir. <strong>RAM</strong> çalışma masasıdır ve elektrik gidince boşalır. <strong>SSD ve sabit disk</strong> bilgileri kalıcı saklar. <strong>Ekran kartı</strong> görüntüyü hazırlar, <strong>güç kaynağı</strong> elektriği dağıtır. <strong>Fanlar</strong> ya da <strong>sıvı soğutma</strong> ısıyı dışarı atar. Şimdi üç soruyla kendimizi deneyelim.",
+        "6": "Özet: Kasanın içindeki parçalar iç donanımdır. Anakart parçaları birbirine bağlar. İşlemci işlemleri yapar. RAM geçici bellektir; depolama birimleri (SSD, sabit disk) bilgiyi kalıcı saklar. Ekran kartı görüntüyü üretir. Güç kaynağı elektriği düşük gerilime çevirip dağıtır. Çalışan parçalar ısınır: hava soğutucu ve fanlar ya da kapalı devre sıvı soğutma ısıyı dışarı atar. Ağ girişi bilgisayarı kabloyla, Wi-Fi kartı kablosuz bağlar.",
+        "7": "Özet: Kasanın içinde üç akış vardır. Elektrik güç kaynağından parçalara gider; veri anakart üzerinden işlemci, RAM, depolama ve ekran kartı arasında dolaşır; ısı parçalardan soğutucu ve fanlarla dışarı atılır. RAM hızlıdır ama geçicidir; SSD ve sabit disk daha yavaştır ama kalıcıdır, SSD sabit diskten hızlıdır. Hava soğutmada ısı borusu ve kanatlar, sıvı soğutmada pompa, hortum ve radyatör ısıyı taşır; ikisinde de ısıyı sonunda hava dışarı verir.",
+        "8": "Özet: Sayılarla: 3 GHz = saniyede 3 milyar saat darbesi (bir darbe yaklaşık 0,33 ns); 8 GB RAM = 8 x 1024 = 8192 MB; 1 TB = 1024 GB; 12 V x 10 A = 120 W; 100 W ısı = saniyede 100 J. Kasanın içi elektrik, veri ve ısı akışlarının buluştuğu yerdir. İyi bir tasarım üçünü dengeler: parçalar yeterli elektrik alır, veriyi hızlı taşır ve ürettikleri ısıyı atabilir."
+      }
+    }
+  ],
+  "sinav": {
+    "5": [
+      {
+        "soru": "Bilgisayarın beyni hangi parçadır?",
+        "secenekler": [
+          "Güç kaynağı",
+          "İşlemci",
+          "Toz filtresi"
+        ],
+        "dogru": 1,
+        "aciklama": "İşlemci hesapları yapar ve programları çalıştırır, bu yüzden bilgisayarın beyni denir. Güç kaynağı elektriği dağıtır; toz filtresi tozu tutar."
+      },
+      {
+        "soru": "Elektrik gidince içindeki bilgiler silinen parça hangisidir?",
+        "secenekler": [
+          "Sabit disk",
+          "SSD",
+          "RAM"
+        ],
+        "dogru": 2,
+        "aciklama": "RAM geçici bellektir; yalnız elektrik varken bilgi tutar. Sabit disk ve SSD bilgileri kalıcı saklar."
+      },
+      {
+        "soru": "Kasanın içinde ısıyı dışarı atmaya yardım eden parça hangisidir?",
+        "secenekler": [
+          "Fan",
+          "RAM",
+          "Anakart"
+        ],
+        "dogru": 0,
+        "aciklama": "Fan havayı hareket ettirir ve ısınan havayı kasanın dışına atar. RAM geçici bellektir; anakart parçaları birbirine bağlar."
+      }
+    ],
+    "6": [
+      {
+        "soru": "Depolama birimi nedir?",
+        "secenekler": [
+          "Bilgisayarın işlediği bilgiyi kullanıcıya aktaran donanım",
+          "Prizdeki elektriği düşük gerilime çeviren donanım",
+          "Bilgilerin saklandığı donanım"
+        ],
+        "dogru": 2,
+        "aciklama": "Depolama birimi bilgilerin saklandığı donanımdır (ör. sabit disk, USB bellek). İlk seçenek çıkış birimini, ikinci seçenek güç kaynağını anlatır."
+      },
+      {
+        "soru": "Hangi eşleştirme doğrudur?",
+        "secenekler": [
+          "Güç kaynağı: elektriği parçaların kullanabileceği düşük gerilime çevirir",
+          "RAM: bilgiyi kalıcı saklar",
+          "Ekran kartı: elektriği parçalara dağıtır"
+        ],
+        "dogru": 0,
+        "aciklama": "Güç kaynağı prizdeki elektriği düşük gerilime çevirip dağıtır. RAM geçici bellektir; ekran kartı ise görüntüyü üretir."
+      },
+      {
+        "soru": "Kapalı devre sıvı soğutmada ısıyı işlemciden radyatöre ne taşır?",
+        "secenekler": [
+          "Toz filtresi",
+          "Soğutma sıvısı",
+          "Ağ kablosu"
+        ],
+        "dogru": 1,
+        "aciklama": "Pompa bloğundan geçen soğutma sıvısı ısıyı hortumlarla radyatöre taşır. Radyatörde ısıyı havaya veren fanlardır."
+      }
+    ],
+    "7": [
+      {
+        "soru": "RAM ile SSD arasındaki fark hangisidir?",
+        "secenekler": [
+          "RAM hızlı ve geçicidir, SSD daha yavaş ve kalıcıdır",
+          "RAM kalıcıdır, SSD geçicidir",
+          "İkisi de elektrik gidince bilgiyi siler"
+        ],
+        "dogru": 0,
+        "aciklama": "RAM işlemciye çok hızlı bilgi verir ama elektrik gidince silinir. SSD daha yavaştır ama bilgiyi elektrik olmadan da korur."
+      },
+      {
+        "soru": "Isı borusunun içindeki sıvı ısıyı nasıl taşır?",
+        "secenekler": [
+          "Soğuk uçta buharlaşıp sıcak uçta yoğuşarak",
+          "Sıcak uçta buharlaşıp soğuk uçta yoğuşarak",
+          "Pompayla radyatöre giderek"
+        ],
+        "dogru": 1,
+        "aciklama": "Sıvı sıcak uçta ısıyı alıp buharlaşır, soğuk uçta ısıyı verip yoğuşur ve geri döner. Pompa ve radyatör sıvı soğutmanın parçalarıdır, ısı borusunun değil."
+      },
+      {
+        "soru": "Termal macun ne işe yarar?",
+        "secenekler": [
+          "Soğutucuyu işlemciye yapıştırır",
+          "İşlemcinin hızını artırır",
+          "İki yüzey arasındaki boşlukları doldurup ısı geçişini kolaylaştırır"
+        ],
+        "dogru": 2,
+        "aciklama": "Metal yüzeyler arasında hava kalırsa ısı zor geçer. Macun bu boşlukları doldurur. Macun yapıştırıcı değildir ve işlemciyi hızlandırmaz."
+      }
+    ],
+    "8": [
+      {
+        "soru": "3 GHz hızındaki bir işlemcinin saniyedeki saat darbesi sayısı kaçtır?",
+        "secenekler": [
+          "3.000.000",
+          "300.000.000.000",
+          "3.000.000.000"
+        ],
+        "dogru": 2,
+        "aciklama": "Giga milyar demektir: 3 GHz = 3 x 1.000.000.000 = 3.000.000.000 darbe/s. 3.000.000 yalnız 3 MHz eder; 300.000.000.000 ise iki sıfır fazladır."
+      },
+      {
+        "soru": "8 GB RAM kaç MB'tır? (1 GB = 1024 MB alın.)",
+        "secenekler": [
+          "8.192 MB",
+          "1.032 MB",
+          "128 MB"
+        ],
+        "dogru": 0,
+        "aciklama": "8 x 1024 = 8192 MB. 1032 toplama (8 + 1024), 128 ise bölme (1024 / 8) hatasıdır."
+      },
+      {
+        "soru": "İşlemci 120 W ısı üretiyor ve sıcaklığı sabit kalıyorsa soğutma sistemi saniyede yaklaşık kaç joule ısı atıyordur?",
+        "secenekler": [
+          "12 J",
+          "120 J",
+          "1.200 J"
+        ],
+        "dogru": 1,
+        "aciklama": "Sıcaklık sabitse üretilen ısı atılan ısıya eşittir. 1 W = 1 J/s olduğundan 120 W, saniyede 120 J demektir."
+      }
+    ]
+  },
+  "ogretmen": {
+    "hazirlik": "Önce simülasyonda kasanın içini birlikte gezin; sonra imkân varsa kullanılmayan ya da hurdaya ayrılmış bir masaüstü kasayı yalnız öğretmen gözetiminde, fişi çekilmiş hâlde açıp parçaları sahnedekilerle eşleştirin. Müfredat bağı: Bilişim Teknolojileri ve Yazılım dersi 5. sınıf BTY.5.1.5 (a: bilgisayar sistemlerinin temel bileşenlerini belirler, b: bileşenler arasındaki ilişkileri belirler). 5. sınıf öğretmen kılavuz kitabı iç donanımı (işlemci, anakart, RAM bellek vb.) ve dış donanımı (yazıcı, hoparlör, ekran vb.) ayırır; depolama birimlerini (sabit disk, SSD, USB bellek, bulut) veri erişim hızı, kapasite ve kullanım amacı bakımından karşılaştırtır; Veri Boyutu Merdiveni'ni (bit, byte, kilobyte, megabyte, gigabyte, terabyte) kullanır. Ağ girişi ile Wi-Fi ayrımı BTY.5.3.1 (ethernet kartı bir ağ bileşeni olarak) ve BTY.5.3.2 (kablolu ve kablosuz bağlanma yöntemleri) ile ilişkilidir. Resmî programda adı geçmeyen genişletmeler: ekran kartı, güç kaynağı, fan ve soğutma (hava ve sıvı), termal macun, toz filtresi, BIOS pili, M.2 ile SATA ayrımı, arka panel girişleri ve Wi-Fi kartı. Bu konuların 5. sınıf öğrenci ders kitabındaki yeri yayın öncesi kontrol edilmelidir; kitabın adresi bulunamadığı için doğrulanamadı. 6. sınıf için bu ders tekrar ve derinleştirmedir. 7. ve 8. sınıf için donanım kazanımı içeren güncel bir program bulunamadı; bu sınıfların metinleri kazanım kodu atfedilmeden sarmal tekrar ve derinleştirme olarak yazılmıştır. Isı, buharlaşma, yoğuşma, basınç ve elektrik gibi fen olguları bu dersin kendi anlatımıdır; Fen Bilimleri programı kazanımı atfedilmemiştir. Veri Boyutu Merdiveni'nin çarpanı (1000 ya da 1024) resmî kılavuzda yazmaz; bu ders 1024 kullanır ve üreticilerin çoğu zaman 1000 kullandığını belirtir. Sahne sadeleştirilmiştir: gerçek kasada kablo ve parça sayısı çok daha fazladır; fan dönüşü, hava akışı ve sıvı dolaşımı anlatım amaçlı gösterimdir, gerçek hız ve sıcaklıklar ölçekli değildir. Sahnedeki sıvı soğutma, kullanıcının sıvı eklemediği kapalı devre (hepsi bir arada) türündedir; sıvıyı kullanıcının doldurduğu özel devreler bu dersin dışındadır. 2026-2027 taslak çerçeve yıllık planında 5. sınıf konusu 6. ve 7. haftalara yerleştirilmiştir; plan taslak olduğundan değişebilir.",
+    "malzemeler": [
+      "Simülasyonu gösterecek bir bilgisayar ve projeksiyon ya da akıllı tahta",
+      "Varsa kullanılmayan ya da hurdaya ayrılmış bir masaüstü kasa (fişi çekilmiş, öğretmen tarafından açılmış; güç kaynağının içi açılmamış)",
+      "Varsa kasadan çıkarılmış tek tek parçalar: bir RAM çubuğu, bir sabit disk, bir SSD, bir fan, bir soğutucu (keskin kenarı olmayan, öğrencilerin gözetim altında tutabileceği parçalar)",
+      "Kâğıt etiketler: \"İç donanım\" ve \"Dış donanım\"; parça adı kartları (anakart, işlemci, RAM, ekran kartı, güç kaynağı, depolama, fan, radyatör)",
+      "Çalışma kâğıdı: kasanın içini gösteren bir çizim üzerinde parçaları adlandırma ve her parçanın görevini yazma",
+      "Hava akışını göstermek için ince kâğıt şeritler (fanın önüne tutulduğunda kıpırdar)"
+    ],
+    "guvenlik": [
+      "Gerçek bir kasayı yalnız öğretmen açar. Önce bilgisayar kapatılır, güç kablosu prizden çekilir ve güç düğmesine bir kez basılarak kalan elektrik boşaltılır; öğrenciler kapağı kendileri açmaz.",
+      "Güç kaynağının içi hiçbir koşulda açılmaz. Fiş çekilmiş olsa bile içinde bir süre yük tutan parçalar bulunabilir.",
+      "Parçalara dokunmadan önce statik elektriği boşaltın: topraklanmış bir metal yüzeye dokunun, parçaları kenarlarından tutun, yonga ve altın renkli temas yüzeylerine dokunmayın. Halı ve yünlü giysi statik elektriği artırır.",
+      "Sıvı soğutma kapalı devredir: hortumlar ve radyatör sökülmez. Sızıntı olursa bilgisayar hemen kapatılıp fişi çekilir; sızan sıvı elektronik parçalara zarar verir ve çıplak elle dokunulmaz. Sızıntıyı öğrenciler temizlemez.",
+      "Çalışan bilgisayarın fanlarına, soğutucusuna ve radyatörüne parmak, kalem ya da başka bir şey sokulmaz; dönen fan yaralayabilir. Çalışırken ve yeni kapatılmışken soğutucu, ekran kartı ve güç kaynağı sıcak olabilir.",
+      "Basınçlı havayla temizlik yapılacaksa fanın kanatları parmakla tutulur (fan aşırı hızla dönüp zarar görebilir); temizlik havadar bir yerde ve öğrenciler uzaktayken yapılır, toz solunmaz.",
+      "BIOS pili gibi düğme piller küçük çocuklar için yutma riski taşır; çıkarılmış pilleri ortada bırakmayın, pil toplama kutusuna verin.",
+      "Sınıfa getirilen eski diskler ve USB bellekler kişisel veri içerebilir; veriden arındırılmış olmalıdır. Kaynağını bilmediğiniz bir diski ya da USB belleği sınıf bilgisayarına takmayın."
+    ],
+    "yanilgilar": [
+      "Yanlış: RAM ile depolama (SSD, sabit disk) aynı şeydir. Düzeltme: RAM geçicidir ve yalnız elektrik varken bilgi tutar; çalışma masası gibidir. Depolama birimi kalıcıdır; dolap gibidir. Çalışırken dosyayı kaydetmek, bilgiyi RAM'den depolamaya yazmaktır.",
+      "Yanlış: Bilgisayarın hızını yalnız işlemci (ya da yalnız GHz) belirler. Düzeltme: İşlemcinin çekirdek sayısı, RAM, depolama türü ve soğutma birlikte etkiler. Aynı GHz değerine sahip iki işlemcinin başarısı farklı olabilir.",
+      "Yanlış: Ekran kartı ile ekran (monitör) aynı şeydir. Düzeltme: Ekran kartı görüntüyü üreten iç donanımdır; monitör onu gösteren dış donanımdır (çıkış birimi).",
+      "Yanlış: Fan ısıyı yok eder. Düzeltme: Fan ısıyı yok etmez, taşır. Isı soğutucuya geçer, fan havayı kanatların arasından geçirir ve ısıyı kasanın dışına atar.",
+      "Yanlış: Sıvı soğutmada ısıyı sıvı dışarı atar, hava gerekmez. Düzeltme: Sıvı yalnız ısıyı taşır. Radyatörde ısıyı havaya veren yine fanlardır; sıvı soğutmada da hava akışı gerekir.",
+      "Yanlış: Sıvı soğutma her zaman hava soğutmadan daha iyidir. Düzeltme: Sıvı soğutma ısıyı işlemciden uzağa taşımayı kolaylaştırır ama pompa gibi hareketli bir parça ekler. İyi bir hava soğutucu ile orta boy bir sıvı soğutucu benzer sonuç verebilir.",
+      "Yanlış: Kasa kapağını açık bırakmak bilgisayarı her zaman soğutur. Düzeltme: Fanların oluşturduğu hava yolu kapalı kasaya göre tasarlanmıştır. Kapak açılınca bu yol bozulur, parçaların üstünden geçen hava azalabilir ve toz girer; açıktaki parçalara dokunma riski de doğar.",
+      "Yanlış: Güç kaynağı elektrik üretir. Düzeltme: Güç kaynağı elektrik üretmez; prizdeki elektriği parçaların kullanabileceği düşük gerilime çevirir ve dağıtır.",
+      "Yanlış: Wi-Fi kablosuz olduğu için bilgisayarın içinde bunun için bir parça gerekmez. Düzeltme: Kablosuz bağlantı için de bilgisayarın içinde bir Wi-Fi kartı ve anten bulunur."
+    ],
+    "tartisma": [
+      "Kasanın içinde en çok yer kaplayan ve en çok elektrik harcayan parçalar hangileri? Sizce hangisi en çok ısınır ve neden?",
+      "Bir bilgisayarın RAM'i çok ama depolaması az olsa, ya da tersi olsa hangi işlerde zorlanırdı? Bir fotoğraf arşivi ile bir oyun için ihtiyaçlar aynı mı?",
+      "Hava soğutma ile sıvı soğutmanın ortak yönü nedir? İkisinde de ısı sonunda nereye gidiyor?",
+      "Kasanın fanları dursa bilgisayar ne olurdu? Bilgisayarın kendini koruma önlemleri (yavaşlamak, kapanmak) neden önemli?",
+      "Eski bir bilgisayarı atmak yerine yükseltmek (RAM eklemek, sabit diski SSD ile değiştirmek) çevre için neden daha iyi olabilir? Elektronik atıklar nereye verilmeli?"
+    ],
+    "ileri": [
+      "Evdeki ya da okuldaki bir cihazın (oyun konsolu, dizüstü bilgisayar, buzdolabı) ısıyı nasıl dışarı attığını araştırıp çizin.",
+      "Bir film 4 GB, bir şarkı 4 MB ise bir film kaç şarkıya eşittir? (4 GB = 4 x 1024 = 4096 MB; 4096 / 4 = 1024 şarkı.)",
+      "8. sınıflar için: 65 W'lık bir işlemcinin bir saatte ürettiği ısıyı joule ve kWh olarak hesaplayın. (65 W x 3600 s = 234.000 J; 65 W x 1 saat = 0,065 kWh.)",
+      "7 ve 8. sınıflar için: Evdeki Wi-Fi sinyalinin evin farklı odalarında nasıl değiştiğini ölçüp kaydedin; duvarların sinyali nasıl etkilediğini yorumlayın.",
+      "Telefonunuzun depolama ekranındaki uygulama, fotoğraf ve sistem boyutlarını veri boyutu merdivenine göre küçükten büyüğe sıralayın."
+    ]
+  },
+  "kavramlar": [
+    "donanim",
+    "ic-donanim",
+    "depolama-birimi",
+    "ucucu-bellek",
+    "veri-boyutu-merdiveni",
+    "islem-hizi",
+    "isi-ve-sogutma",
+    "alternatif-dogru-akim",
+    "guc-watt",
+    "kapali-devre",
+    "basinc-farki",
+    "kablolu-kablosuz",
+    "statik-elektrik",
+    "ag-karti"
+  ],
+  "kaynaklar": [
+    {
+      "ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli",
+      "adres": "https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf"
+    },
+    {
+      "ad": "MEB TYMM, Bilişim Teknolojileri ve Yazılım Dersi 5. Sınıf Öğretmen Kılavuz Kitabı (Bilgisayar Sistemlerinin Kullanımı, Veri Boyutu Merdiveni, Sözlük)",
+      "adres": "https://tymm.meb.gov.tr/kitap/432/bilisim-teknolojileri-ve-yazilim-dersi-5sinif-ogretmen-kilavuz-kitabi"
+    },
+    {
+      "ad": "MEB TYMM, Taslak çerçeve yıllık planlar (2026-2027)",
+      "adres": "https://tymm.meb.gov.tr/taslak-cerceve-planlari"
+    },
+    {
+      "ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (7 ve 8. Sınıflar, 2018)",
+      "adres": "https://mufredat.meb.gov.tr/Dosyalar/2018813171426130-2-2018-81Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%20Dersi%20(7%20ve%208.%20S%C4%B1n%C4%B1flar).pdf"
+    }
+  ]
+}
