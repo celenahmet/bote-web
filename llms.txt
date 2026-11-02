@@ -242,6 +242,7 @@ Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino UNO ve bread
 - [Butonla LED Yakalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/buton-led): Butona basınca yanan LED: Arduino UNO ile giriş ve çıkış, 10 kΩ pull-down direnci ve if-else kodu. Ortaokul 5-8. sınıflara özel 3D simülasyon.
 - [Trafik Işığı Yapalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/trafik-isigi): Arduino UNO ve üç LED ile trafik ışığı modeli: ışıkların sırası, algoritma, döngü ve bekleme süreleri. Ortaokul 5-8. sınıflara özel 3D simülasyon.
 - [Özgür Mod: Devreni Kendin Kur](https://bote.web.tr/3d/arduino/ozgur-mod): Arduino ve breadboard ile devreni kendin kur: LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.
+- [Bilgisayar Donanımı 3D: Girdi ve Çıktı Birimleri](https://bote.web.tr/3d/donanim): Bilgisayar donanımını 3D masada keşfedin: kasa, monitör, klavye, fare, mikrofon, hoparlör ve yazıcı. Girdi ve çıktı birimleri adım adım, ortaokul için.
 
 ## English pages
 
