@@ -4,7 +4,7 @@ description: "Bilişim Teknolojileri ve Yazılım dersi hangi sınıflarda zorun
 imageAlt: "Bilişim Teknolojileri ve Yazılım Dersi Nedir, Kim Okutur?"
 date: 2026-09-25
 category: bolum-rehberi
-simulasyon: merkez
+simulasyon: arduino
 type: politika
 tags: [Bilişim Teknolojileri ve Yazılım, BTY dersi, bilişim öğretmeni, ortaokul, kodlama]
 summary:

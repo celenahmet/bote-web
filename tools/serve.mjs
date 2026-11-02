@@ -106,7 +106,8 @@ export function createServer(opts = {}) {
     if (p.length > 1 && p.endsWith('/') && cfg.trailingSlash === false) return redirect(p.slice(0, -1) + url.search, 308);
     for (const r of redirects) {
       const m = p.match(r.regex);
-      if (m) return redirect(fill(r.destination, r.names, m), r.permanent ? 308 : 307);
+      // Vercel yönlendirmesi sorgu dizgesini hedefe taşır (canlıda ölçüldü 02.11.2026: /bte422?sinif=7 -> /bte422/sunum.pdf?sinif=7)
+      if (m) { const h = fill(r.destination, r.names, m); return redirect(url.search ? h + (h.includes('?') ? `&${url.search.slice(1)}` : url.search) : h, r.permanent ? 308 : 307); }
     }
     if (cfg.cleanUrls && /\.html$/.test(p) && files.has(p.slice(1))) {
       const clean = p.replace(/(\/index)?\.html$/, '') || '/';

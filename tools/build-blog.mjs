@@ -173,14 +173,15 @@ ${urls.map((u) => `  <url><loc>${xmlEsc(u.loc)}</loc>${u.lastmod ? `<lastmod>${u
 `);
 
 const live = posts.filter((p) => !p.draft);
-// 3D Simulasyon Merkezi (/3d, 01.11.2026 yayinda): sayfalari tools/3d/build.mjs uretir (3d/index.html ve
-// 3d/<ders>.html). Yukaridaki kok sayfa taramasi bunlari da okur; noindex olan (ONIZLEME=true) alinmaz.
+// 3D Simulasyon Merkezi (/3d, 01.11.2026 yayinda): sayfalari tools/3d/build.mjs uretir (3d/index.html genel
+// merkez, 3d/<aile>/index.html aile sayfasi, 3d/<aile>/<ders>.html; adresler tools/3d/yollar.mjs, 02.11.2026).
+// Yukaridaki kok sayfa taramasi bunlari da okur; noindex olan (ONIZLEME=true) alinmaz.
 // sitemap.xml'e oteki kok sayfalar gibi girer; llms.txt ve HTML site haritalarinda kendi bolumunde,
-// merkez basta, dersler merkez sayfasindaki sirayla.
+// merkez basta, aile ve dersler merkez sayfasindaki sirayla.
 const is3d = (l) => l.served === '/3d' || l.served.startsWith('/3d/');
 const simSira = (() => {
   const f = path.join(ROOT, '3d/index.html');
-  return fs.existsSync(f) ? [...fs.readFileSync(f, 'utf8').matchAll(/href="(\/3d\/[a-z0-9-]+)"/g)].map((m) => m[1]) : [];
+  return fs.existsSync(f) ? [...new Set([...fs.readFileSync(f, 'utf8').matchAll(/href="(\/3d\/[a-z0-9/-]+)"/g)].map((m) => m[1]))] : [];
 })();
 const simRank = (l) => (l.served === '/3d' ? -1 : simSira.includes(l.served) ? simSira.indexOf(l.served) : simSira.length);
 const simPages = legacy.filter(is3d).sort((a, b) => simRank(a) - simRank(b) || a.served.localeCompare(b.served));

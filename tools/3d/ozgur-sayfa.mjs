@@ -1,23 +1,24 @@
-// Özgür Mod sayfası: /3d/ozgur-mod (Ahmet 01.11: "hocanın özgür modu olsa ... o da ayrı bir sayfa olabilir").
+// Özgür Mod sayfası: /3d/arduino/ozgur-mod, 02.11 öncesi /3d/ozgur-mod (Ahmet 01.11: "hocanın özgür modu olsa ... o da ayrı bir sayfa olabilir").
 // build.mjs işaretli bölümden çağrılır; ortak yardımcılar (kaçış, ikon, üst çubuk, sınıf penceresi) oradan gelir.
 // Üst çubuk ve yerleşim ders sayfalarıyla aynı: yatay ekranda yan panel, dikey ekranda aşağıdan çekilen sayfa.
 import { KABLO_RENKLERI, PROGRAM_PINLERI } from './src/devreCoz.js';
 import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
 import { ledIkon, direncIkon, butonIkon, kabloIkon, KABLO_HEX } from './src/ozgurIkon.js';
 import { erisimPaneliHtml } from './erisim-sablon.mjs';
+import { OZGUR_YOL } from './yollar.mjs';
 
-export const OZGUR_YOL = '/3d/ozgur-mod';
 export const OZGUR_BASLIK = 'Özgür Mod: Devreni Kendin Kur';
 
-export function ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik, css, SITE, ONIZLEME, jsAd, erisimJs }) {
+// aile, isPartOf, kirintiLd, altBilgi: build.mjs'ten (Arduino ailesi; yapısal veri ve alt bilgi ders sayfalarıyla aynı kalıp)
+export function ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik, css, SITE, ONIZLEME, jsAd, erisimJs, aile, isPartOf, kirintiLd, altBilgi }) {
   const yol = OZGUR_YOL;
   const baslik = `${OZGUR_BASLIK} | bote.web.tr`;
   const aciklama = 'Arduino ve breadboard ile devreni kendin kur: LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.';
   const jsonld = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'LearningResource', name: OZGUR_BASLIK, description: aciklama, url: SITE + yol, inLanguage: 'tr', isAccessibleForFree: true, learningResourceType: 'Simülasyon',
       educationalLevel: 'Ortaokul (5-8. sınıf)', audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
-      isPartOf: { '@type': 'CollectionPage', name: '3D Simülasyon Merkezi', url: `${SITE}/3d` }, publisher: { '@type': 'Organization', name: 'bote.web.tr', url: SITE } },
-    { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'bote.web.tr', item: `${SITE}/` }, { '@type': 'ListItem', position: 2, name: '3D Simülasyon Merkezi', item: `${SITE}/3d` }, { '@type': 'ListItem', position: 3, name: 'Özgür Mod', item: SITE + yol }] },
+      isPartOf, publisher: { '@type': 'Organization', name: 'bote.web.tr', url: SITE } },
+    kirintiLd(['Özgür Mod', yol]),
   ] };
   const IKON = {
     hata: ico('octagon-alert'), uyari: ico('triangle-alert'), bilgi: ico('info'), tamam: ico('circle-check'), bekliyor: ico('circle-stop'),
@@ -83,7 +84,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <p class="ayar-ad">Yazı boyutu</p><div class="grup" role="group" aria-label="Yazı boyutu"><button type="button" class="dugme" data-yazi="-1" aria-label="Yazıyı küçült">A−</button><span class="yazi-deger" id="yazi-deger">%100</span><button type="button" class="dugme" data-yazi="1" aria-label="Yazıyı büyüt">A+</button></div>
 <p class="ayar-ad yatay-ayar">Panel tarafı</p><div class="grup yatay-ayar" role="group" aria-label="Panel tarafı"><button type="button" class="dugme" data-yan="sol" aria-pressed="false">Sol</button><button type="button" class="dugme" data-yan="sag" aria-pressed="true">Sağ</button></div></div>${erisimPaneliHtml(ico)}
 <div class="kart-govde"><h1 class="sr-only">${esc(OZGUR_BASLIK)}</h1>
-<div class="js-gerek"><p>Özgür Mod'da devreyi kendin kurarsın: LED, direnç, buton ve kabloyu istediğin deliğe takar, programı seçer ve çalıştırırsın. Bu sayfa JavaScript ile çalışır; tarayıcıda JavaScript kapalı görünüyor. Adım adım anlatım için <a href="/3d">3D Simülasyon Merkezi</a> derslerine bakabilirsin.</p></div>
+<div class="js-gerek"><p>Özgür Mod'da devreyi kendin kurarsın: LED, direnç, buton ve kabloyu istediğin deliğe takar, programı seçer ve çalıştırırsın. Bu sayfa JavaScript ile çalışır; tarayıcıda JavaScript kapalı görünüyor. Adım adım anlatım için <a href="${aile.yol}">${esc(aile.ad)}</a> derslerine bakabilirsin.</p></div>
 <section class="bolum ozgur-js" id="bolum-kur" role="tabpanel" aria-labelledby="sekme-kur">
 <h2>Hazır devre</h2><p class="ipucu-metin">Derslerdeki devreyi yükle, sonra istediğin gibi değiştir.</p>
 <div class="hazir-izgara"><button type="button" class="dugme" data-hazir="ders-2">Ders 2<span>LED Yakalım</span></button><button type="button" class="dugme" data-hazir="ders-3">Ders 3<span>Butonla LED</span></button><button type="button" class="dugme" data-hazir="ders-4">Ders 4<span>Trafik Işığı</span></button></div>
@@ -106,7 +107,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <h2>Pinler</h2><table class="pin-tablo" id="pin-tablo"><thead><tr><th scope="col">Pin</th><th scope="col">Görev</th><th scope="col">Durum</th></tr></thead><tbody></tbody></table>
 <h2>LED'ler</h2><ul class="led-liste" id="led-liste"></ul></section></div>
 <div class="kart-alt ozgur-js"><button type="button" class="dugme" id="geri-al" disabled>${ico('undo-2')}<span class="alt-yazi">Geri al</span></button><button type="button" class="dugme" id="sifirla" title="Breadboard'daki bütün parçaları kaldırır; Geri al ile dönülür">${ico('eraser')}<span class="alt-yazi">Sıfırla</span></button><button type="button" class="dugme birincil" id="calistir">${IKON.oynat}<span>Çalıştır</span></button></div></section></main>
-${ogretmen}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
+${ogretmen}${altBilgi}
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
 <script type="application/json" id="ozgur-ikon">${jsonGom(IKON)}</script><script type="module" src="/3d/assets/${jsAd}"></script><script type="module" src="/3d/assets/${erisimJs}"></script></body></html>`;
 }

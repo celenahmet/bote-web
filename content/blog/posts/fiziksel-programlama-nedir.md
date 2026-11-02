@@ -5,7 +5,7 @@ description: "Fiziksel programlama nedir? BÖTE'deki Fiziksel Programlama dersin
 imageAlt: "Fiziksel Programlama Nedir? BÖTE Dersi Rehberi"
 date: 2026-10-04
 category: bolum-rehberi
-simulasyon: merkez
+simulasyon: arduino
 type: rehber
 tags: [fiziksel programlama, fiziksel programlama nedir, BTE401, BÖTE dersleri, robotik, eğitsel robotlar, arduino, sensör, motor, robot programlama, tinkercad, physical computing]
 summary:

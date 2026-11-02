@@ -18,21 +18,31 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   birlikte istenir. Eğitsel kurgu: merak sorusu, keşif, "tahmin et, sonra gör", "değiştir ve gözle",
   mini sınav. Öğretmen başlamadan sınıf seçer; anlatım, tanım ve sorular sınıfa göre (5/6/7/8),
   her kavramın teknik ve günlük hayattaki (sosyal) tanımı birlikte verilir.
-- Kaynak tools/3d (src/*.js, stil.css, icerik/*.json, build.mjs); çıktı 3d/ (index, ders sayfaları,
-  assets/sim-<özet>.js). Derleme: `node tools/3d/build.mjs`. 3d/ elle düzenlenmez. three.js tools
+- Adres yapısı (Ahmet 02.11: "/3d genel simülasyon merkezi olsun, Arduino sistemini /3d/arduino
+  altına taşıyalım, sonraki simülasyonlar /3d/<aile> altında"): /3d genel merkez (aileler ve
+  dersleri), /3d/<aile> aile sayfası (sınıf seçimi, dersler, Özgür Mod), /3d/<aile>/<ders> ders.
+  Tek kaynak tools/3d/yollar.mjs (aileler, ders kimliği -> adres, eski adres -> yeni adres).
+  Ders kimliği (slug) adres değişse de değişmez: tarayıcıdaki ilerleme, içerik dosyaları ve blog
+  kartı değeri ona bağlı. 02.11 öncesi adresler (/3d/arduino-led-yakma, /3d/ozgur-mod ...)
+  vercel.json'da kalıcı yönlendirme; Vercel sorgu dizgesini (?sinif=7) hedefe taşır, serve.mjs de.
+  Yayındaki bir 3D adresi değişirse eski adres ESKI_YOL'a ve vercel.json'a eklenir, silinmez.
+- Kaynak tools/3d (src/*.js, stil.css, icerik/*.json, build.mjs, yollar.mjs); çıktı 3d/ (index.html
+  genel merkez, arduino/index.html aile sayfası, arduino/<ders>.html, assets/sim-<özet>.js).
+  Derleme: `node tools/3d/build.mjs`. 3d/ elle düzenlenmez. three.js tools
   devDependency olarak sabit sürümdedir; dış model, görsel ve yazı tipi dosyası yok (her şey kodla).
 - Performans ilkeleri korunur: istek üzerine çizim (boşta kare yok), gölge haritası yalnız parça
   hareketinde, uyarlanır çözünürlük ve hareket bitince tam çözünürlükte keskin kare. `?olcum=1`
   kare/sn panelini açar; `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
 - Yayında (Ahmet 01.11: "arama motorlarına da çıkabilir, sorun yok"): build.mjs içinde
-  ONIZLEME=false, sayfalar dizine açık, robots.txt'te /3d yasağı yok. build-blog.mjs 3d/*.html'i
-  tarar; /3d ve ders sayfaları sitemap.xml, llms.txt ("3D Simülasyon Merkezi" bölümü) ve HTML site
+  ONIZLEME=false, sayfalar dizine açık, robots.txt'te /3d yasağı yok. build-blog.mjs 3d/ altındaki
+  sayfaları tarar; merkez, aile ve ders sayfaları sitemap.xml, llms.txt ("3D Simülasyon Merkezi" bölümü) ve HTML site
   haritalarına girer, noindex olan atlanır. Siteden bağlantı: blog üst menüsünde "Simülasyon"
   (1100 px ve üstü; 1000-1099 px'te sığmadığı için yalnız Menü'de), Menü'de "3D Simülasyon Merkezi",
   alt bilgide Keşfet sütunu. Önizlemeye dönülürse (ONIZLEME=true) sitemap ve llms 3D sayfalarını
   kendiliğinden atlar; robots satırı ve bu bağlantılar elle geri alınır. İçeriği gelmemiş ders
   sayfası üretilmez.
-- Blog kartı: yazı ön bilgisindeki `simulasyon: <ders adı | merkez>` alanı, "AI ile Özetle"nin
+- Blog kartı: yazı ön bilgisindeki `simulasyon: <ders kimliği | arduino>` alanı (02.11 öncesi
+  "merkez" değeri Arduino kartıydı, "arduino" oldu), "AI ile Özetle"nin
   altına 3D Simülasyon kartını koyar (SimulasyonKarti.astro; izinli değerler ve kart metinleri
   tools/blog/simulasyon.mjs). Doğrulayıcı tanımsız değeri ve 3d/ altında sayfası olmayan dersi hata
   sayar; yeni ders önce 3D derlemesine, sonra bu listeye girer. Kart ve metin içi bağlantı yalnız

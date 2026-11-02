@@ -177,6 +177,6 @@ Programlama öğreniminin genel etkisine bakan meta-analiz, programlama öğrene
 - **Önce kâğıt.** Program tasarımın önce kâğıt üzerinde çizilmesini ve teknolojik altyapı yoksa etkinliklerin kâğıt üzerinde yapılmasını öneriyor.[@bty-program]
 - **Hata, sürecin parçası.** Test etme ve hata ayıklama ayrı bir öğrenme çıktısı; çalışmayan bir program öğrenmenin kendisi.[@bty-program]
 
-Bloklardan metin tabanlı koda geçişe bir örnek olarak [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino-led-yakma) kısa bir Arduino kodu, her satırın altındaki Türkçe açıklamasıyla okunur ve devrede çalıştırılır.
+Bloklardan metin tabanlı koda geçişe bir örnek olarak [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino/led-yakma) kısa bir Arduino kodu, her satırın altındaki Türkçe açıklamasıyla okunur ve devrede çalıştırılır.
 
 Temaya göre içerikler programın resmî sayfasında yayımlanıyor.[@tymm-bty] 6. sınıfın tamamı için [BTY 6. sınıf konuları](/blog/bty-6-sinif-konulari).

@@ -136,7 +136,8 @@ export function loadBlog({ drafts: withDrafts = process.env.BLOG_DRAFTS === '1',
       }).sort((a, b) => b.date.localeCompare(a.date));
 
       // 01.11.2026: `simulasyon: <ders>` yazi sayfasinda "AI ile Ozetle"nin altina 3D Simulasyon kartini
-      // koyar (SimulasyonKarti). Deger: 3d/ altindaki bir ders (or. arduino-led-yakma) ya da merkez (/3d).
+      // koyar (SimulasyonKarti). Deger: bir ders kimligi (or. arduino-led-yakma) ya da aile (arduino);
+      // adresler tools/3d/yollar.mjs (02.11.2026'dan beri /3d/arduino/<ders>).
       const sim = simulasyonDenetle(ROOT, fm.simulasyon);
       if (sim.hata) e(sim.hata);
 

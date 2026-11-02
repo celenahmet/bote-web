@@ -363,7 +363,13 @@ html[data-js]:not([data-sinif-secili]) .dersler-akis .akis-no{background:transpa
 .ders-listesi .hazirlaniyor{border:1px dashed var(--line);color:var(--muted)}
 .hazirlaniyor .no{opacity:.6}
 .ders-listesi .no{display:inline-grid;place-items:center;width:2.2em;height:2.2em;border-radius:12px;background:var(--violet-soft);color:var(--violet);font-weight:800}
-.ders-listesi h3{margin:0;font-size:1.18em;line-height:1.25}
+.ders-listesi :is(h3,h4){margin:0;font-size:1.18em;line-height:1.25}
+/* genel merkezde aile başlığı (aile sayfasına bağlantı); kartlar onun altında h4 */
+.aile+.aile{margin-top:clamp(18px,3vw,28px)}
+.aile-baslik{margin:8px 0 0;font-size:1.08em;line-height:1.2}
+.aile-baslik a{display:inline-flex;align-items:center;gap:6px;min-height:var(--hedef);color:var(--ink);text-decoration:none}
+.aile-baslik a:hover{color:var(--violet)}
+.aile-baslik .ico{width:1.1em;height:1.1em}
 .ders-listesi p{margin:0;color:var(--ink-2);font-size:.95em}
 .ders-listesi .meta{margin-top:auto;color:var(--muted);font-size:.85em;font-weight:600}
 .ders-sinif{display:none}
@@ -375,6 +381,10 @@ html[data-sinif-secili] .ders-sinif{display:inline-flex;align-items:center;gap:6
 
 /* küçük ekran: üst çubuk sadeleşir */
 @media (max-width:960px){.merkez-bag,.ust .ayrac{display:none}}
+/* ders ve Özgür sayfasında kırıntı önceliği (02.11 adres taşıması, ust2.mjs): önce merkez (.kok), sonra aile kırıntısı gizlenir, ders adı tam kalır */
+@media (max-width:1439px){.ders-sayfasi .merkez-bag.kok,.ders-sayfasi .merkez-bag.kok+.ayrac{display:none}}
+@media (max-width:1279px){.ders-sayfasi .merkez-bag,.ders-sayfasi .merkez-bag+.ayrac{display:none}}
+@media (max-width:2200px){html[data-mod=tahta] .ders-sayfasi .merkez-bag.kok,html[data-mod=tahta] .ders-sayfasi .merkez-bag.kok+.ayrac{display:none}}
 /* tahta modunda yazı ve düğmeler büyür: üst çubuk daha geniş pencerede sadeleşir (Ahmet 02.11: "metinler sığmıyor") */
 @media (max-width:1800px){html[data-mod=tahta] .merkez-bag,html[data-mod=tahta] .merkez-bag+.ayrac{display:none}html[data-mod=tahta] #tahta-dugme .yazi{display:none}}
 /* daha dar tahta penceresinde görünüm düğmesindeki değiştir işareti de gizlenir (en uzun ders adı sığsın) */

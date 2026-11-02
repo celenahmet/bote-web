@@ -5,7 +5,7 @@ description: "Kodlama eğitimi nedir, ne işe yarar? Bilgisayarsız, blok tabanl
 imageAlt: "Kodlama Eğitimi Nedir? Ne İşe Yarar, Nasıl Öğretilir?"
 date: 2026-09-27
 category: egitim-teknolojileri
-simulasyon: merkez
+simulasyon: arduino
 type: kavram
 tags: [kodlama eğitimi nedir, kodlama eğitimi, robotik kodlama, bilgisayarsız kodlama, Scratch, programlama öğretimi, bilgi işlemsel düşünme, Bilişim Teknolojileri ve Yazılım, meta-analiz, aktarım]
 summary:
@@ -241,7 +241,7 @@ Kanıtlar ve eleştiriler birlikte okunduğunda kodlama eğitimi için birkaç i
 
 Derslerde oyun öğelerinin kullanımı için [oyunlaştırma nedir?](/blog/oyunlastirma-nedir) yazısına bakabilirsiniz.
 
-Kodlamayı fiziksel bir devreyle somutlaştırmak isteyen öğretmenler, ilk Arduino devresini [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino-led-yakma) sınıfla birlikte üç boyutlu kurabilir; anlatım 5-8. sınıf düzeyine göre değişir.
+Kodlamayı fiziksel bir devreyle somutlaştırmak isteyen öğretmenler, ilk Arduino devresini [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino/led-yakma) sınıfla birlikte üç boyutlu kurabilir; anlatım 5-8. sınıf düzeyine göre değişir.
 
 ## Sonuç
 

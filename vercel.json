@@ -367,6 +367,31 @@
       "source": "/bte422",
       "destination": "/bte422/sunum.pdf",
       "permanent": false
+    },
+    {
+      "source": "/3d/arduino-ve-breadboard",
+      "destination": "/3d/arduino/tanitim",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino-led-yakma",
+      "destination": "/3d/arduino/led-yakma",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino-buton-led",
+      "destination": "/3d/arduino/buton-led",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino-trafik-isigi",
+      "destination": "/3d/arduino/trafik-isigi",
+      "permanent": true
+    },
+    {
+      "source": "/3d/ozgur-mod",
+      "destination": "/3d/arduino/ozgur-mod",
+      "permanent": true
     }
   ],
   "headers": [

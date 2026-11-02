@@ -10,6 +10,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
 import { erisimDugmeHtml, erisimPaneliHtml } from './erisim-sablon.mjs';
+import { MERKEZ_YOL, MERKEZ_AD, aile as aileBul, DERS_YOLU, OZGUR_YOL, yolDosyasi } from './yollar.mjs';
 
 const BU = path.dirname(fileURLToPath(import.meta.url));
 const KOK = path.resolve(BU, '../..');
@@ -81,11 +82,14 @@ function taslakDers(slug, cfg) { // içerik gelmeden motoru denemek için yer tu
     kod: cfg.no === 2 ? { satirlar: ['void setup() {', '  pinMode(13, OUTPUT);', '}', '', 'void loop() {', '  digitalWrite(13, HIGH);', '  delay(1000);', '  digitalWrite(13, LOW);', '  delay(1000);', '}'].map((k) => ({ k, t: k ? 'açıklama' : '' })) } : null,
   };
 }
+// src/adimlar.js'teki dersler Arduino ailesinin dersleri (aile adresi ve adı yollar.mjs'te)
+const ARDUINO = aileBul('arduino');
 const dersler = Object.entries(DERSLER).map(([slug, cfg]) => {
   const d = okuJson(`ders-${cfg.no}.json`) || taslakDers(slug, cfg);
   const eksik = Object.keys(cfg.adimlar).filter((id) => !d.adimlar.some((a) => a.id === id));
   if (eksik.length) console.warn(`uyari: ${slug} içeriğinde eksik adım: ${eksik.join(', ')}`);
-  return { ...d, slug, cfg };
+  if (!DERS_YOLU[slug]) throw new Error(`${slug}: yollar.mjs DERS_YOLU'nda adres yok`);
+  return { ...d, slug, cfg, aile: ARDUINO };
 });
 
 // ------------------------------------------------------------------ paket
@@ -115,8 +119,8 @@ const css = (fs.readFileSync(path.join(BU, 'stil.css'), 'utf8') + '\n' + katCss 
 const BAS_BETIK = `(function(){var d=document.documentElement;try{if(localStorage.getItem('bote-theme')==='dark')d.setAttribute('data-theme','dark');var m=localStorage.getItem('bote-3d-mod');if(m&&!(m==='tahta'&&matchMedia('${TELEFON_SORGU}').matches))d.setAttribute('data-mod',m)}catch(e){}if('noModule' in HTMLScriptElement.prototype)d.setAttribute('data-js','1');var s=new URLSearchParams(location.search).get('sinif');if(/^[5-8]$/.test(s))d.setAttribute('data-sinif',s);else try{var k=localStorage.getItem('bote-3d-sinif');if(/^[5-8]$/.test(k))d.setAttribute('data-sinif',k)}catch(e){}})();` + ';' + erisimErken;
 
 // ------------------------------------------------------------------ ortak parçalar
-function bas({ baslik, aciklama, yol, jsonld, sinif = '' }) {
-  return `<!doctype html><html lang="tr" data-sinif="6"${yol === '/3d' ? ' data-e-hub' : ''}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+function bas({ baslik, aciklama, yol, jsonld, sinif = '', hub = false }) {
+  return `<!doctype html><html lang="tr" data-sinif="6"${hub ? ' data-e-hub' : ''}><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(baslik)}</title><meta name="description" content="${esc(aciklama)}"><link rel="canonical" href="${SITE}${yol}">
 ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name="theme-color" content="#5a2bc4"><link rel="icon" type="image/png" href="/assets/img/educator-fabicon-300x300.png">
 <meta property="og:type" content="website"><meta property="og:locale" content="tr_TR"><meta property="og:site_name" content="bote.web.tr"><meta property="og:title" content="${esc(baslik)}"><meta property="og:description" content="${esc(aciklama)}"><meta property="og:url" content="${SITE}${yol}"><meta property="og:image" content="${SITE}/blog/assets/covers/_blog.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="${esc(baslik)}"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${esc(baslik)}"><meta name="twitter:description" content="${esc(aciklama)}"><meta name="twitter:image" content="${SITE}/blog/assets/covers/_blog.jpg"><meta name="twitter:image:alt" content="${esc(baslik)}">
@@ -124,12 +128,21 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <link rel="modulepreload" href="/3d/assets/${jsAd}">
 <script type="application/ld+json">${jsonGom(jsonld)}</script></head><body class="${sinif}">`;
 }
-const ustCubuk = (ders) => `<header class="ust"><a class="marka" href="/blog"${YENI_SEKME_OZNITELIK}>bote<b>.web.tr</b><span class="sr-only"> blog</span>${YENI_SEKME_NOTU}</a><span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag" href="/3d">3D Simülasyon Merkezi</a>${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
+// Kırıntı: marka / merkez / aile / ders. Merkez ve aile bağlantısı .merkez-bag: dar ekranda ve tahta modunda gizlenir (stil.css);
+// ders sayfasında yer daralınca önce merkez (.kok), sonra aile kırıntısı gizlenir, ders adı tam kalır (02.11 ölçümü: ust2.mjs).
+const kirinti = (yol, ad, bu, sinif = '') => `<span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag${sinif}" href="${yol}"${yol === bu ? ' aria-current="page"' : ''}>${esc(ad)}</a>`;
+const ustCubuk = (ders, aile = null, bu = '') => `<header class="ust"><a class="marka" href="/blog"${YENI_SEKME_OZNITELIK}>bote<b>.web.tr</b><span class="sr-only"> blog</span>${YENI_SEKME_NOTU}</a>${kirinti(MERKEZ_YOL, MERKEZ_AD, bu, ' kok')}${aile ? kirinti(aile.yol, aile.kirinti, bu) : ''}${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
 <div class="ust-sag">${ders ? `<span id="gorunum-yuva"></span><button type="button" class="cip" id="sinif-dugme" aria-haspopup="dialog" aria-label="Sınıf düzeyini değiştir">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></button>
 <button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen" aria-expanded="false" aria-label="Öğretmen notu" title="Öğretmen notu">${ico('book-open')}</button>${erisimDugmeHtml()}
 <button type="button" class="dugme" id="tahta-dugme" aria-pressed="false" aria-label="Tahta modu" title="Akıllı tahta için büyük düğme ve yazı">${ico('presentation')}<span class="yazi">Tahta modu</span></button>
 <button type="button" class="dugme" id="tam-ekran" aria-label="Tam ekran">${ico('maximize')}</button>` : ''}
 <button type="button" class="dugme" id="tema-dugme" aria-label="Açık ya da koyu tema">${ico('moon')}</button></div></header>`;
+// Yapısal veri ve alt bilgi: ders ve Özgür Mod aile sayfasının, aile sayfası merkezin parçası.
+const aileParcasi = (A) => ({ '@type': 'CollectionPage', name: A.ad, url: SITE + A.yol, isPartOf: { '@type': 'CollectionPage', name: MERKEZ_AD, url: SITE + MERKEZ_YOL } });
+const kirintiLd = (A, son = null) => ({ '@type': 'BreadcrumbList', itemListElement: [['bote.web.tr', '/'], [MERKEZ_AD, MERKEZ_YOL], ...(A ? [[A.ad, A.yol]] : []), ...(son ? [son] : [])]
+  .map(([name, y], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + y })) });
+const BLOG_BAG = `<a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a>`;
+const altBilgi = (A) => `<footer class="alt">${A ? `<a href="${A.yol}">${esc(A.ad)}</a> · ` : ''}<a href="${MERKEZ_YOL}">${MERKEZ_AD}</a> · ${BLOG_BAG}</footer>`;
 const sinifPenceresi = `<dialog id="sinif-penceresi" aria-labelledby="sinif-baslik"><h2 id="sinif-baslik">Kaçıncı sınıfla çalışıyoruz?</h2>
 <p>Anlatımlar, tanımlar ve mini sınav seçtiğiniz sınıfa göre hazırlanır. Ders sırasında üst çubuktan değiştirebilirsiniz.</p>${sinifIzgara()}</dialog>`;
 function sinifIzgara() {
@@ -187,22 +200,22 @@ ${o.hazirlik ? `<h3>Hazırlık</h3>${paragraf(o.hazirlik)}` : ''}${liste('Gerçe
 ${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2><ul>${d.kaynaklar.map((k) => `<li><a href="${esc(k.adres)}"${YENI_SEKME_OZNITELIK}>${esc(k.ad)}${YENI_SEKME_NOTU}</a></li>`).join('')}</ul>` : ''}</section>`;
 }
 function dersSayfasi(d) {
-  const yol = `/3d/${d.slug}`;
+  const yol = DERS_YOLU[d.slug], A = d.aile;
   // arama sonucunda 60 karakteri aşan başlık kesilir: aşarsa kısa biçim (anahtar sözcükler korunur)
   const tamBaslik = `${d.baslik}: 3D Arduino Simülasyonu | bote.web.tr`;
   const baslik = tamBaslik.length <= 60 ? tamBaslik : (BASLIK_KISA[d.slug] || `${d.baslik} | bote.web.tr`);
   const jsonld = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'LearningResource', name: d.baslik, description: d.kisa, url: SITE + yol, inLanguage: 'tr', isAccessibleForFree: true, learningResourceType: 'Simülasyon',
       educationalLevel: 'Ortaokul (5-8. sınıf)', timeRequired: `PT${d.sure || 20}M`, teaches: (d.hedefler?.['6'] || []).map((x) => x.replace(/<[^>]+>/g, '')),
-      audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, isPartOf: { '@type': 'CollectionPage', name: '3D Simülasyon Merkezi', url: `${SITE}/3d` },
+      audience: { '@type': 'EducationalAudience', educationalRole: 'student' }, isPartOf: aileParcasi(A),
       publisher: { '@type': 'Organization', name: 'bote.web.tr', url: SITE } },
-    { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'bote.web.tr', item: `${SITE}/` }, { '@type': 'ListItem', position: 2, name: '3D Simülasyon Merkezi', item: `${SITE}/3d` }, { '@type': 'ListItem', position: 3, name: d.baslik, item: SITE + yol }] },
+    kirintiLd(A, [d.baslik, yol]),
   ] };
   const kv = Object.fromEntries((d.kavramlar?.length ? d.kavramlar : Object.keys(kavramlar)).concat(KESIF_KAVRAM).filter((k, i, a) => kavramlar[k] && a.indexOf(k) === i)
     .map((k) => [k, { ad: kavramlar[k].ad, teknik: Object.fromEntries(SINIF.map((s) => [s, guvenli(kavramlar[k].teknik?.[s])])), sosyal: Object.fromEntries(SINIF.map((s) => [s, guvenli(kavramlar[k].sosyal?.[s])])) }]));
   const veri = { slug: d.slug, kod: (d.kod?.satirlar || []).map((s) => s.k), trafikSirasi: d.trafikSirasi || null, kavramlar: kv, kesifIcerik };
   const adimlar = d.cfg.adimlar ? Object.keys(d.cfg.adimlar).map((id) => d.adimlar.find((a) => a.id === id)).filter(Boolean) : d.adimlar;
-  return `${bas({ baslik, aciklama: d.kisa, yol, jsonld, sinif: 'ders-sayfasi' })}<a class="atla" href="#kartlar">Anlatıma geç</a>${ustCubuk(d)}
+  return `${bas({ baslik, aciklama: d.kisa, yol, jsonld, sinif: 'ders-sayfasi' })}<a class="atla" href="#kartlar">Anlatıma geç</a>${ustCubuk(d, A)}
 <main class="ders"><section class="sahne-alani" aria-label="3D sahne">
 <canvas id="sahne" role="img" aria-label="Arduino UNO kartı ve breadboard'un üç boyutlu görünümü. Parmakla döndürülebilir, iki parmakla yakınlaştırılabilir." tabindex="-1"></canvas>
 <div class="etiketler" aria-hidden="true"></div><div class="isaretler" role="group" aria-label="Keşif noktaları"></div><div class="yukleniyor" aria-hidden="true">3D sahne hazırlanıyor</div>
@@ -224,38 +237,73 @@ function dersSayfasi(d) {
 <label class="ayar-satir"><input type="checkbox" id="tahmin-ayar" checked> Keşifte önce tahmin ettir</label></div>${erisimPaneliHtml(ico)}
 <div class="kart-govde"><h1 class="sr-only">${esc(d.baslik)}: 3D Arduino simülasyonu</h1><ol class="adimlar">${adimlar.map((a, i) => adimHtml(d, a, i)).join('')}</ol></div>
 <nav class="kart-alt" aria-label="Adımlar"><button type="button" class="dugme" id="geri">${ico('chevron-left')}Geri</button><button type="button" class="dugme birincil" id="ileri">İleri${ico('chevron-right')}</button></nav></section></main>
-${ogretmenHtml(d)}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
+${ogretmenHtml(d)}${altBilgi(A)}
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
 <script type="application/json" id="ders-veri">${jsonGom(veri)}</script><script type="module" src="/3d/assets/${jsAd}"></script><script type="module" src="/3d/assets/${erisimJs}"></script></body></html>`;
 }
 
+// ------------------------------------------------------------------ merkez ve aile sayfaları
+// /3d genel merkez (Ahmet 02.11: "3d sayfasını genel simülasyon merkezi sayfası yapalım"): önce sınıf, sonra aile
+// başlığı altında dersler. /3d/arduino aile sayfası: 02.11 öncesi /3d'nin içeriği (sınıf, dersler, Özgür Mod, notlar).
+const kartSinif = `<span class="ders-sinif">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></span>`;
+const dersKarti = (d, h = 'h3') => (d.taslak ? `<li><div class="hazirlaniyor"><span class="no">${d.cfg.no}</span><${h}>${esc(YEDEK_AD[d.slug])}</${h}><p>Hazırlanıyor.</p></div></li>`
+  : `<li><a data-ders-baglanti href="${DERS_YOLU[d.slug]}"><span class="no">${d.cfg.no}</span><${h}>${esc(d.baslik)}</${h}><p>${esc(d.kisa)}</p><span class="meta">${Object.keys(d.cfg.adimlar).length} adım · yaklaşık ${esc(d.sure || 20)} dk</span>${kartSinif}</a></li>`);
+const OZGUR_AD = 'Özgür Mod: Devreni Kendin Kur';
+const ozgurKarti = (h = 'h3') => `<li><a data-ders-baglanti href="${OZGUR_YOL}"><${h}>${OZGUR_AD}</${h}><p>LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.</p><span class="meta">Serbest deneme · ders akışı yok</span>${kartSinif}</a></li>`;
+const sinifAkisi = `<section class="akis secim-kutusu" aria-labelledby="sinif-sec-baslik"><h2 id="sinif-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">1</span>Sınıfı seç</h2><p class="akis-aciklama">Anlatım, tanımlar ve mini sınav seçilen sınıfa göre hazırlanır.</p>${sinifIzgara()}</section>`;
+const dersAkisiBas = `<section class="akis dersler-akis" id="dersler" aria-labelledby="ders-sec-baslik"><h2 id="ders-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">2</span>Dersi seç</h2>`;
+const NOT_TAHTA = '<section><h2>Akıllı tahtada</h2><p>Ders sayfasında Tahta modu ve Tam ekran düğmeleri yazıyı ve düğmeleri büyütür. Adımlar ok tuşları ya da sunum kumandasıyla geçilir.</p></section>';
+const NOT_SINIF = '<section><h2>Sınıfa göre anlatım</h2><p>5, 6, 7 ve 8. sınıf için ayrı tanımlar, açıklamalar ve sorular vardır. Her kavramın teknik tanımı ve günlük hayattaki yeri birlikte verilir.</p></section>';
+const NOT_TAHMIN = '<section><h2>Tahmin et, sonra gör</h2><p>Öğrenciler önce tahmin eder, sonra sahnede sonucu görür: LED ters takılırsa ne olur, direnç çıkarılırsa ne değişir?</p></section>';
+const hubSonu = `<div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
+const aileDersleri = (A) => dersler.filter((d) => d.aile === A);
+const AILE_LISTE = [ARDUINO]; // yayındaki aileler (merkezde bu sırayla)
+
 function merkezSayfasi() {
-  const yol = '/3d';
-  const baslik = '3D Simülasyon Merkezi: Arduino ve Breadboard | bote.web.tr';
-  const aciklama = 'Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard dersleri: üç boyutlu sahne, sınıfa göre anlatım ve mini sınav.';
-  const jsonld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: '3D Simülasyon Merkezi', description: aciklama, url: SITE + yol, inLanguage: 'tr',
-    hasPart: [...dersler.map((d) => ({ '@type': 'LearningResource', name: d.baslik, url: `${SITE}/3d/${d.slug}` })), { '@type': 'LearningResource', name: 'Özgür Mod: Devreni Kendin Kur', url: `${SITE}/3d/ozgur-mod` }] };
-  return `${bas({ baslik, aciklama, yol, jsonld })}${ustCubuk(null)}<main class="merkez"><section class="giris"><h1>3D Simülasyon Merkezi</h1>
-<p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard'u üç boyutlu inceleyin, devreyi adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
-<section class="akis secim-kutusu" aria-labelledby="sinif-sec-baslik"><h2 id="sinif-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">1</span>Sınıfı seç</h2><p class="akis-aciklama">Anlatım, tanımlar ve mini sınav seçilen sınıfa göre hazırlanır.</p>${sinifIzgara()}</section>
-<section class="akis dersler-akis" id="dersler" aria-labelledby="ders-sec-baslik"><h2 id="ders-sec-baslik" class="akis-baslik"><span class="akis-no" aria-hidden="true">2</span>Dersi seç</h2>
-<ol class="ders-listesi">${dersler.map((d) => (d.taslak ? `<li><div class="hazirlaniyor"><span class="no">${d.cfg.no}</span><h3>${esc(YEDEK_AD[d.slug])}</h3><p>Hazırlanıyor.</p></div></li>` : `<li><a data-ders-baglanti href="/3d/${d.slug}"><span class="no">${d.cfg.no}</span><h3>${esc(d.baslik)}</h3><p>${esc(d.kisa)}</p><span class="meta">${Object.keys(d.cfg.adimlar).length} adım · yaklaşık ${esc(d.sure || 20)} dk</span><span class="ders-sinif">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></span></a></li>`)).join('')}</ol></section>
-<section class="akis ozgur-akis" id="ozgur" aria-labelledby="ozgur-sec-baslik"><h2 id="ozgur-sec-baslik" class="akis-baslik">Özgür mod</h2><p class="akis-aciklama">Hazır bir ders izlemeden kendi devrenizi kurun ve deneyin.</p>
-<ol class="ders-listesi"><li><a data-ders-baglanti href="/3d/ozgur-mod"><h3>Özgür Mod: Devreni Kendin Kur</h3><p>LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.</p><span class="meta">Serbest deneme · ders akışı yok</span><span class="ders-sinif">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></span></a></li></ol></section>
-<div class="notlar"><section><h2>Akıllı tahtada</h2><p>Ders sayfasında Tahta modu ve Tam ekran düğmeleri yazıyı ve düğmeleri büyütür. Adımlar ok tuşları ya da sunum kumandasıyla geçilir.</p></section>
-<section><h2>Sınıfa göre anlatım</h2><p>5, 6, 7 ve 8. sınıf için ayrı tanımlar, açıklamalar ve sorular vardır. Her kavramın teknik tanımı ve günlük hayattaki yeri birlikte verilir.</p></section>
-<section><h2>Tahmin et, sonra gör</h2><p>Öğrenciler önce tahmin eder, sonra sahnede sonucu görür: LED ters takılırsa ne olur, direnç çıkarılırsa ne değişir?</p></section></div></main>
-<footer class="alt"><a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer><div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
+  const yol = MERKEZ_YOL;
+  const baslik = `${MERKEZ_AD} | bote.web.tr`;
+  const aciklama = 'Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: sınıfa göre anlatım ve mini sınav. Akıllı tahta, tablet ve telefonda çalışır.';
+  const jsonld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: MERKEZ_AD, description: aciklama, url: SITE + yol, inLanguage: 'tr',
+    hasPart: AILE_LISTE.map((A) => ({ '@type': 'CollectionPage', name: A.ad, url: SITE + A.yol })) };
+  return `${bas({ baslik, aciklama, yol, jsonld, hub: true })}${ustCubuk(null, null, yol)}<main class="merkez"><section class="giris"><h1>${MERKEZ_AD}</h1>
+<p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: parçaları yakından inceleyin, adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
+${sinifAkisi}
+${dersAkisiBas}${AILE_LISTE.map((A) => `<section class="aile" aria-labelledby="aile-${A.id}"><h3 class="aile-baslik" id="aile-${A.id}"><a href="${A.yol}">${esc(A.ad)}${ico('chevron-right')}</a></h3>
+<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${A === ARDUINO ? ozgurKarti('h4') : ''}</ol></section>`).join('')}</section>
+<div class="notlar">${NOT_TAHTA}${NOT_SINIF}</div></main>
+<footer class="alt">${BLOG_BAG}</footer>${hubSonu}`;
 }
 
-// ------------------------------------------------------------------ yaz
-fs.writeFileSync(path.join(CIKTI, 'index.html'), merkezSayfasi());
-for (const d of dersler) { const f = path.join(CIKTI, `${d.slug}.html`); if (d.taslak && !process.argv.includes('--taslak')) { if (fs.existsSync(f)) fs.unlinkSync(f); } else fs.writeFileSync(f, dersSayfasi(d)); }
+function aileSayfasi(A) {
+  const yol = A.yol;
+  const baslik = 'Arduino Simülasyonu: 3D Dersler ve Özgür Mod | bote.web.tr';
+  const aciklama = 'Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard dersleri: üç boyutlu sahne, sınıfa göre anlatım ve mini sınav.';
+  const jsonld = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'CollectionPage', name: A.ad, description: aciklama, url: SITE + yol, inLanguage: 'tr', isPartOf: { '@type': 'CollectionPage', name: MERKEZ_AD, url: SITE + MERKEZ_YOL },
+      hasPart: [...aileDersleri(A).filter((d) => !d.taslak).map((d) => ({ '@type': 'LearningResource', name: d.baslik, url: SITE + DERS_YOLU[d.slug] })), { '@type': 'LearningResource', name: OZGUR_AD, url: SITE + OZGUR_YOL }] },
+    kirintiLd(A),
+  ] };
+  return `${bas({ baslik, aciklama, yol, jsonld, hub: true })}${ustCubuk(null, A, yol)}<main class="merkez"><section class="giris"><h1>${esc(A.ad)}</h1>
+<p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard'u üç boyutlu inceleyin, devreyi adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
+${sinifAkisi}
+${dersAkisiBas}<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d)).join('')}</ol></section>
+<section class="akis ozgur-akis" id="ozgur" aria-labelledby="ozgur-sec-baslik"><h2 id="ozgur-sec-baslik" class="akis-baslik">Özgür mod</h2><p class="akis-aciklama">Hazır bir ders izlemeden kendi devrenizi kurun ve deneyin.</p>
+<ol class="ders-listesi">${ozgurKarti()}</ol></section>
+<div class="notlar">${NOT_TAHTA}${NOT_SINIF}${NOT_TAHMIN}</div></main>
+${altBilgi(null)}${hubSonu}`;
+}
+
+// ------------------------------------------------------------------ yaz (adres -> dosya: yollar.mjs yolDosyasi)
+const dosya = (yol) => path.join(KOK, yolDosyasi(yol));
+const yaz = (yol, html) => { const f = dosya(yol); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
+yaz(MERKEZ_YOL, merkezSayfasi());
+for (const A of AILE_LISTE) yaz(A.yol, aileSayfasi(A));
+for (const d of dersler) { const y = DERS_YOLU[d.slug]; if (d.taslak && !process.argv.includes('--taslak')) { if (fs.existsSync(dosya(y))) fs.unlinkSync(dosya(y)); } else yaz(y, dersSayfasi(d)); }
 const boy = (f) => Math.round(fs.statSync(f).size / 1024);
-console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).length} içeriksiz, yazılmadı), paket ${jsAd} ${Math.round(kod.length / 1024)} KB, sayfalar: ${['index', ...dersler.map((d) => d.slug)].filter((s) => fs.existsSync(path.join(CIKTI, `${s}.html`))).map((s) => `${s} ${boy(path.join(CIKTI, `${s}.html`))} KB`).join(', ')}`);
+console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).length} içeriksiz, yazılmadı), paket ${jsAd} ${Math.round(kod.length / 1024)} KB, sayfalar: ${[MERKEZ_YOL, ...AILE_LISTE.map((A) => A.yol), ...dersler.map((d) => DERS_YOLU[d.slug])].filter((y) => fs.existsSync(dosya(y))).map((y) => `${y} ${boy(dosya(y))} KB`).join(', ')}`);
 
 // ------------------------------------------------------------------ ÖZGÜR MOD (işaretli blok BAŞLA)
-// /3d/ozgur-mod: devreyi öğretmen ya da öğrenci kendisi kurar (Ahmet 01.11: "hocanın özgür modu ... ayrı bir sayfa").
+// Özgür Mod (adresi yollar.mjs OZGUR_YOL): devreyi öğretmen ya da öğrenci kendisi kurar (Ahmet 01.11: "hocanın özgür modu ... ayrı bir sayfa").
 // Ayrı paket (src/ozgur.js), ayrı sayfa (ozgur-sayfa.mjs), ayrı stil (ozgur.css, stil.css'in üstüne). Ders sayfalarına dokunmaz.
 {
   const { ozgurSayfasi } = await import(pathToFileURL(path.join(BU, 'ozgur-sayfa.mjs')).href);
@@ -268,8 +316,8 @@ console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).lengt
   for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^ozgur-.*\.js$/.test(f) && f !== ozgurJs) fs.unlinkSync(path.join(CIKTI, 'assets', f));
   fs.writeFileSync(path.join(CIKTI, 'assets', ozgurJs), ozgurKod);
   const ozgurCss = css + fs.readFileSync(path.join(BU, 'ozgur.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
-  const ozgurHtml = path.join(CIKTI, 'ozgur-mod.html');
-  fs.writeFileSync(ozgurHtml, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs, erisimJs }));
-  console.log(`3d: özgür mod, paket ${ozgurJs} ${Math.round(ozgurKod.length / 1024)} KB, sayfa ozgur-mod ${boy(ozgurHtml)} KB`);
+  yaz(OZGUR_YOL, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk: (x) => ustCubuk(x, ARDUINO), sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs, erisimJs,
+    aile: ARDUINO, isPartOf: aileParcasi(ARDUINO), kirintiLd: (son) => kirintiLd(ARDUINO, son), altBilgi: altBilgi(ARDUINO) }));
+  console.log(`3d: özgür mod, paket ${ozgurJs} ${Math.round(ozgurKod.length / 1024)} KB, sayfa ${OZGUR_YOL} ${boy(dosya(OZGUR_YOL))} KB`);
 }
 // ------------------------------------------------------------------ ÖZGÜR MOD (işaretli blok BİTTİ)
