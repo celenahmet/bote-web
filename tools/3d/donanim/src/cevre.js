@@ -3,9 +3,9 @@
 // Kesif noktaları { id, nesne, yerel } biçimindedir: işaret parçayla birlikte hareket eder, parça gizliyken görünmez.
 import {
   Group, Mesh, Vector3, Matrix4, MeshStandardMaterial, MeshBasicMaterial, InstancedMesh, BoxGeometry, CylinderGeometry, SphereGeometry, TorusGeometry, ExtrudeGeometry, Shape, DoubleSide,
-  M, malzemeler, kutu, yuvarlak, silindir, don, yer, birlestir, tuval, doku, YAZI, vekil, ornek,
+  M, malzemeler, kutu, yuvarlak, silindir, don, yer, birlestir, tuval, doku, YAZI, vekil, ornek, kabloGeo,
 } from './yardimci.js';
-import { CapsuleGeometry, PlaneGeometry, Color, Euler, Quaternion } from 'three';
+import { CapsuleGeometry, PlaneGeometry, RingGeometry, Color, Quaternion } from 'three';
 import { MASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
 import { ekranDokusu } from './ekran.js';
 
@@ -206,21 +206,21 @@ export function fareYap() {
 export function hoparlorYap() {
   malzemeler();
   const grup = new Group(); grup.name = 'hoparlorler';
-  const tek = [], halkalar = [];
+  const tek = [], halkalar = [], dalgaGeo = new RingGeometry(0.92, 1, 48);
   const koni = new MeshStandardMaterial({ color: 0x2b2f36, roughness: 0.7 });
   const mal = new MeshStandardMaterial({ color: 0x353a42, roughness: 0.55 });
   HOPARLOR.forEach((p, i) => {
     const g = new Group(); g.position.set(p.x, 0, p.z); g.name = 'hoparlor' + (i + 1);
     g.add(new Mesh(yuvarlak(13, 26, 15, 1.2, 0, 13.4, 0, 3), mal));
     g.add(birlestir([silindir(4.4, 0.7, 0, 8.5, 7.5, { eksen: 'z', seg: 28, rUst: 3.4 }), silindir(1.7, 0.6, 0, 19.5, 7.5, { eksen: 'z', seg: 20, rUst: 1.5 }), silindir(1.4, 0.8, 0, 8.5, 7.9, { eksen: 'z', seg: 14, rUst: 0.9 })], koni));
-    g.add(new Mesh(new TorusGeometry(4.6, 0.22, 8, 32), M.alumin)); g.children[g.children.length - 1].position.set(0, 8.5, 7.5);
-    g.add(new Mesh(new TorusGeometry(1.95, 0.16, 8, 24), M.alumin)); g.children[g.children.length - 1].position.set(0, 19.5, 7.5);
+    const halka = (r, t, y) => { const m = new Mesh(new TorusGeometry(r, t, 8, 32), M.alumin); m.position.set(0, y, 7.5); return m; };
+    g.add(halka(4.6, 0.22, 8.5), halka(1.95, 0.16, 19.5));
     if (i === 0) { const led = new Mesh(new BoxGeometry(0.7, 0.35, 0.2), M.ledYesil); led.position.set(4, 2.2, 7.55); g.add(led); g.add(new Mesh(silindir(0.9, 0.7, -4, 2.2, 7.7, { eksen: 'z', seg: 14 }), M.alumin)); }
     g.add(vekil({ kesif: 'hoparlor', parca: 'hoparlor' }, 13.2, 26.4, 15.4, 0, 13.4, 0));
     grup.add(g); tek.push(g);
     // ses dalgası halkaları (yalnız çalarken görünür)
     const hl = [];
-    for (let k = 0; k < 3; k++) { const m = new Mesh(new TorusGeometry(1, 0.1, 6, 40), new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false })); m.visible = false; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
+    for (let k = 0; k < 3; k++) { const m = new Mesh(dalgaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide })); m.visible = false; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
     halkalar.push(hl);
   });
   return { grup, tek, halkalar, kesif: HOPARLOR.map((p, i) => kes(tek[i], 'hoparlor', 0, 28.4, 0)), arka: HOPARLOR.map((p) => new Vector3(p.x, 3, p.z - 8)) };
@@ -249,19 +249,20 @@ export function kulaklikYap() {
   const g = new Group(); g.name = 'kulaklik'; g.position.set(KULAKLIK.x, 0, KULAKLIK.z);
   const yay = new Mesh(new TorusGeometry(7.6, 0.85, 10, 32, Math.PI), M.plastik); yay.position.y = 4.2; g.add(yay);
   const ped = new Mesh(new BoxGeometry(6, 0.5, 1.6), M.plastikAcik); ped.position.y = 11.5; ped.scale.set(1, 1, 1); g.add(ped);
+  const kupMal = new MeshStandardMaterial({ color: 0x22252b, roughness: 0.55, emissive: 0x7c4dff, emissiveIntensity: 0 });
+  const ucMal = new MeshStandardMaterial({ color: 0x2b2e36, roughness: 0.9, emissive: 0xf57c00, emissiveIntensity: 0 });
   for (const s of [-1, 1]) {
-    g.add(new Mesh(silindir(3.9, 2.8, s * 8.2, 4.2, 0, { eksen: 'x', seg: 28 }), M.plastik));
+    g.add(new Mesh(silindir(3.9, 2.8, s * 8.2, 4.2, 0, { eksen: 'x', seg: 28 }), kupMal));
     const mm = new Mesh(new TorusGeometry(3.3, 0.95, 8, 28), new MeshStandardMaterial({ color: 0x3a3e47, roughness: 0.9 })); mm.rotation.y = Math.PI / 2; mm.position.set(s * 6.6, 4.2, 0); g.add(mm);
     g.add(new Mesh(silindir(1.9, 0.4, s * 9.7, 4.2, 0, { eksen: 'x', seg: 20 }), M.alumin));
   }
   // mikrofon kolu
-  const kol = new Mesh(kabloGeo2([[-9.7, 3.4, 0.4], [-10.6, 2.2, 2.6], [-9.0, 1.2, 6.2], [-5.6, 1.5, 8.4]], 0.28), M.kablo); g.add(kol);
-  const uc = new Mesh(new CapsuleGeometry(0.85, 1.4, 4, 12), new MeshStandardMaterial({ color: 0x2b2e36, roughness: 0.9 })); uc.rotation.z = Math.PI / 2; uc.rotation.y = 0.4; uc.position.set(-4.7, 1.6, 8.6); g.add(uc);
+  const kol = new Mesh(kabloGeo([[-9.7, 3.4, 0.4], [-10.6, 2.2, 2.6], [-9.0, 1.2, 6.2], [-5.6, 1.5, 8.4]], 0.28), M.kablo); g.add(kol);
+  const uc = new Mesh(new CapsuleGeometry(0.85, 1.4, 4, 12), ucMal); uc.rotation.z = Math.PI / 2; uc.rotation.y = 0.4; uc.position.set(-4.7, 1.6, 8.6); g.add(uc);
   g.add(vekil({ kesif: 'kulaklik', parca: 'kulaklik' }, 22, 14, 7, 0, 7, 0));
   g.add(vekil({ kesif: 'kulaklik-mikrofon', parca: 'kulaklik' }, 4, 2.4, 3, -4.7, 1.7, 8.6));
-  return { grup: g, kesif: [kes(g, 'kulaklik', 0, 15, 0), kes(g, 'kulaklik-mikrofon', -4.7, 4, 8.6)], ucu: new Vector3(KULAKLIK.x + 9.7, 4.2, KULAKLIK.z) };
+  return { grup: g, kupMal, ucMal, kesif: [kes(g, 'kulaklik', 0, 15, 0), kes(g, 'kulaklik-mikrofon', -4.7, 4, 8.6)], ucu: new Vector3(KULAKLIK.x + 9.7, 4.2, KULAKLIK.z) };
 }
-import { kabloGeo as kabloGeo2 } from './yardimci.js';
 
 // ------------------------------------------------------------------ yazıcı
 export function yaziciYap() {
@@ -306,9 +307,7 @@ export function usbBellekYap() {
   const govde = new MeshStandardMaterial({ color: 0x2f6bf0, roughness: 0.4 });
   g.add(new Mesh(yuvarlak(3.7, 1.7, 9, 0.6, 0, 0, 3.4 + 4.5, 2), govde));
   g.add(new Mesh(kutu(2.6, 0.8, 3.6, 0, 0, 1.8), M.celik));
-  g.add(new Mesh(kutu(0.9, 0.2, 0.9, 0, 0.8, 1.8), M.cip)); g.children[2].visible = false;
   const led = new Mesh(new BoxGeometry(0.7, 0.18, 0.7), M.ledKapali); led.position.set(0, 0.88, 10.2); g.add(led);
-  g.add(new Mesh(silindir(0.5, 1.8, 0, 0, 11.6, { eksen: 'y', seg: 12 }), M.alumin)); g.children[g.children.length - 1].rotation.x = Math.PI / 2; g.children[g.children.length - 1].visible = false;
   g.add(vekil({ kesif: 'usb-bellek', parca: 'usb-bellek', minAdim: 4, minPx: 14 }, 5.4, 3.6, 13, 0, 0, 6.6));
   return { grup: g, led, kesif: [kes(g, 'usb-bellek', 0, 3.4, 8)], ledAyarla: (a) => { led.material = a ? M.ledYesil : M.ledKapali; } };
 }

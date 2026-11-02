@@ -47,7 +47,7 @@ export function ekranCiz(x, d) {
   x.fillStyle = '#2b3342'; x.font = `500 26px ${YAZI}`; x.textAlign = 'left'; x.textBaseline = 'alphabetic';
   const metin = d.yazi || '';
   const satirlar = []; let satir = '';
-  for (const ch of metin) { if (x.measureText(satir + ch).width > 420) { satirlar.push(satir); satir = ''; } satir += ch; }
+  for (const ch of metin) { if (ch === '\n') { satirlar.push(satir); satir = ''; continue; } if (x.measureText(satir + ch).width > 420) { satirlar.push(satir); satir = ''; } satir += ch; }
   satirlar.push(satir);
   const son = satirlar.slice(-7);
   son.forEach((s, i) => x.fillText(s, 174, 130 + i * 40));
@@ -85,6 +85,12 @@ export function ekranCiz(x, d) {
   dikdortgen(x, 12, EH - 38, 32, 32, 7, '#7c4dff');
   for (let i = 0; i < 3; i++) dikdortgen(x, 62 + i * 46, EH - 36, 36, 28, 6, i === 0 ? '#3a4560' : '#2d3548');
   yazi(x, '10:24', EW - 22, EH - 22, 19, '#dfe5f1', { kalin: true, hiza: 'right' });
+  // sağ tuş menüsü
+  if (d.menu) {
+    const mx = Math.min(d.imlec.x + 6, EW - 170), my = Math.min(d.imlec.y + 26, EH - 150);
+    x.save(); x.shadowColor = 'rgba(20,24,40,.3)'; x.shadowBlur = 16; x.shadowOffsetY = 4; dikdortgen(x, mx, my, 160, 104, 8, '#ffffff'); x.restore();
+    ['Kes', 'Kopyala', 'Yapıştır'].forEach((t, i) => yazi(x, t, mx + 16, my + 22 + i * 30, 19, '#2b3342', { kalin: i === 1 }));
+  }
   // fare imleci
   const im = d.imlec || { x: 760, y: 220 };
   if (d.tik) { x.strokeStyle = '#7c4dff'; x.lineWidth = 4; x.beginPath(); x.arc(im.x, im.y, 18 + (d.tik - 1) * 20, 0, Math.PI * 2); x.stroke(); }
@@ -96,7 +102,7 @@ export function ekranCiz(x, d) {
 export function ekranDokusu() {
   const [tam, tx] = tuval(EW, EH), [gor, gx] = tuval(EW, EH), [kck, kx] = tuval(EW, EH);
   const tex = doku(gor, { aniso: false });
-  const durum = { mod: 'masaustu', yazi: '', imlec: { x: 760, y: 230 }, tik: 0, kamera: false, ses: null, yazdir: null, kademe: 3 };
+  const durum = { mod: 'masaustu', yazi: '', imlec: { x: 760, y: 230 }, tik: 0, menu: false, kamera: false, ses: null, yazdir: null, kademe: 3 };
   function guncelle() {
     ekranCiz(tx, durum);
     const [w, h] = COZUNURLUK[durum.kademe];
