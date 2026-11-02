@@ -1,0 +1,313 @@
+{
+  "slug": "girdi-cikti-birimleri",
+  "baslik": "Girdi ve Çıktı Birimleri",
+  "kisa": "Klavye, fare, mikrofon, ekran, hoparlör ve yazıcı: girdi ve çıktı birimlerini 3D masada keşfet. Ortaokul 5-8. sınıflara özel simülasyon.",
+  "sure": 25,
+  "hedefler": {
+    "5": [
+      "Masadaki parçalardan hangilerine dokunabildiğimizi, hangilerinin yalnız ekranda göründüğünü ayıracağız.",
+      "Klavye, fare, mikrofon ve kamerayı bilgisayara bilgi taşıyan parçalar olarak tanıyacağız.",
+      "Ekran, hoparlör ve yazıcıyı bilgisayarın bize cevap veren parçaları olarak tanıyacağız.",
+      "Mikrofonlu kulaklığın hem bilgi aldığını hem bilgi verdiğini bulacağız."
+    ],
+    "6": [
+      "Donanım, yazılım ve bilgisayar sistemi kavramlarını açıklayacağız.",
+      "Giriş ve çıkış birimini tanımlayıp masadaki parçaları bu iki gruba ayıracağız.",
+      "Mikrofon ve web kamerasının ne amaçla kullanıldığını söyleyeceğiz.",
+      "Cihazların kasaya USB, HDMI ve ses jakıyla bağlandığını göstereceğiz."
+    ],
+    "7": [
+      "Cihazları adlarına göre değil, bilginin akış yönüne göre sınıflandıracağız.",
+      "Giriş birimlerinin ses, ışık ve hareketi, çıkış birimlerinin de sinyali ışığa, sese ve kâğıda nasıl çevirdiğini açıklayacağız.",
+      "Çözünürlük arttıkça görüntünün neden netleştiğini piksel sayısıyla açıklayacağız.",
+      "Hem giriş hem çıkış olan cihazları görevlerine göre iki parçaya ayıracağız."
+    ],
+    "8": [
+      "Bir ekranın piksel sayısını, yatay ve dikey piksel sayısını çarparak hesaplayacağız.",
+      "Ses kaydında ve görüntüde ölçüm sayılarını basit çarpmalarla bulacağız.",
+      "Giriş birimlerini \"fiziksel olay, sinyal, sayı\", çıkış birimlerini bunun tersi olarak anlatacağız.",
+      "USB, HDMI ve ses jakının taşıdığı bilgi türlerini karşılaştıracağız."
+    ]
+  },
+  "adimlar": [
+    {
+      "id": "merak",
+      "baslik": "Bilgisayarla nasıl konuşuruz?",
+      "metin": {
+        "5": "Masaya bakalım: klavye, fare, mikrofon, kamera, ekran, hoparlör, yazıcı. Bilgisayara bir şey söylemek için hangisini kullanırız? Bilgisayar bize nasıl cevap verir? Bugün masadaki her parçanın bu konuşmada ne işe yaradığını keşfedeceğiz.",
+        "6": "Bilgisayarın başına geçince önce ona bir şey söyleriz: bir tuşa basarız, fareyi oynatırız. Bilgisayar da cevabını ekranda gösterir, sesle verir ya da kâğıda yazar. Masadaki hangi parçanın bilgisayara bilgi verdiğini, hangisinin bilgisayardan bilgi aldığını bulacağız. Sizce klavye hangisi, monitör hangisi?",
+        "7": "Bir bilgisayar kasası tek başına dış dünyayı göremez, duyamaz ve bize bir şey gösteremez. Bu işi masadaki parçalar yapar: bazıları bilgiyi bilgisayara taşır, bazıları bilgisayardan alıp bize verir. Bilginin hangi yöne aktığını parça parça bulacağız. Sizce her parçanın yönü tek midir, yoksa bazıları iki yöne birden çalışır mı?",
+        "8": "Bilgisayar kullanırken sürekli iki yönlü bir konuşma yürür: biz tuş vuruşumuzla, fare hareketimizle ve sesimizle bilgisayara bilgi veririz; bilgisayar da ekranda, hoparlörde ve kâğıtta cevap verir. Bu derste her parçayı bu iki yönden birine yerleştirecek ve sayılarla ölçeceğiz: bir ekranda kaç nokta var, bir saniyelik sesten kaç ölçüm alınır? Sizce hangi parçaların yönü tek değildir?"
+      }
+    },
+    {
+      "id": "donanim",
+      "baslik": "Dokunabildiklerimiz ve dokunamadıklarımız",
+      "metin": {
+        "5": "Masadaki klavyeye, fareye, hoparlöre elimizle dokunabiliriz. Dokunabildiğimiz bu parçalara <strong>donanım</strong> denir. Monitörün ekranında gördüğümüz pencereler ve programlar ise elle tutulmaz; onlara <strong>yazılım</strong> denir. Masadaki klavyeye dokun, sonra ekrandaki yazı penceresine bak: hangisi donanım, hangisi yazılım?",
+        "6": "<strong>Donanım</strong>, bilgisayarın fiziksel parçalarıdır (ör. klavye, ekran, işlemci). Programlara <strong>yazılım</strong> denir; yazılım donanıma ne yapacağını söyler. Donanım ve yazılımın birlikte çalıştığı yapıya <strong>bilgisayar sistemi</strong> denir. Masadaki klavyeye dokunalım, sonra monitörün ekranındaki yazı penceresine bakalım: klavye donanım, pencere yazılımdır.",
+        "7": "Donanım dokunabildiğimiz parçalardır, yazılım ise bu parçalara ne yapacaklarını söyleyen programlardır. İkisi birbirsiz işe yaramaz: yazılımsız donanım ne yapacağını bilmez, donanımsız yazılım çalışacak yer bulamaz. Masadaki klavye donanımdır; monitörün ekranındaki yazı penceresi ise yazılımın çizdiği bir görüntüdür. Peki ekranın kendisi hangisidir? Ekran donanımdır, üstünde görünen pencere yazılımdır.",
+        "8": "Bir bilgisayar sistemi donanım ve yazılımdan oluşur. Donanım fiziksel nesnedir; kütlesi ve hacmi vardır, elektrik harcar. Yazılım ise komut ve veri dizisidir: bir depolama biriminde saklanır ama elle tutulamaz ve aynı yazılım binlerce bilgisayara kopyalanabilir. Masadaki klavye, fare, monitör, hoparlör, yazıcı ve kasa donanımdır; ekranda görünen yazı penceresi yazılımdır. Bir parçanın donanım olup olmadığını anlamak için \"Elimle tutabilir miyim?\" diye sorabiliriz."
+      }
+    },
+    {
+      "id": "giris",
+      "baslik": "Giriş birimleri: bilgisayarın kulağı ve gözü",
+      "metin": {
+        "5": "Bilgisayara bir şey söylemek ya da göstermek için <strong>giriş birimlerini</strong> kullanırız. Klavye, fare, mikrofon ve kamera birer giriş birimidir. Bunlar bilgisayarın kulağı ve gözü gibidir: bilgiyi içeri taşırlar. Giriş, içeri demektir. Masadaki dört giriş birimini bulalım ve adlarını söyleyelim.",
+        "6": "<strong>Giriş birimi</strong> (girdi birimi), kullanıcıdan bilgisayara veri aktaran donanımdır (ör. klavye, fare). Mikrofon sesi, web kamerası görüntüyü bilgisayara aktarır; onlar da giriş birimidir. Masada dört giriş birimi var: klavye, fare, mikrofon ve web kamerası. Her biri bilgisayara farklı türde bir bilgi verir: yazı, hareket, ses ve görüntü.",
+        "7": "Giriş birimi, insandan ya da çevreden aldığı bilgiyi bilgisayara taşıyan cihazdır. Klavye tuşa basışı, fare hareketi, mikrofon sesi, web kamerası ışığı elektrik sinyaline çevirir. Bilgisayar sesi ya da ışığı olduğu gibi anlayamaz; elektrik sinyaline çevrilmiş hâlini işler. Bütün giriş birimlerinin ortak işi bu çeviridir. Masadaki dört giriş birimini bulup her birinin neyi çevirdiğini söyleyelim.",
+        "8": "Giriş birimleri dış dünyadaki fiziksel bir olayı (tuşa basma, hareket, ses basıncı, ışık) elektrik sinyaline çevirir; bilgisayar da bu sinyali sayılara dönüştürür, çünkü yalnız sayılarla çalışır. Masadaki dört giriş biriminden ikisi bilgiyi bizim bilinçli hareketimizden (klavye, fare), ikisi ortamdan (mikrofon, web kamerası) alır. Bu yüzden mikrofon ve kamera, yakınımızdaki başkalarının sesini ve görüntüsünü de alabilir."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: Mikrofon girdi mi, çıktı mı? Yani bilgiyi bilgisayara mı taşır, bilgisayardan mı getirir?",
+          "6": "Tahmin et: Mikrofon girdi mi çıktı mı? Neden?",
+          "7": "Tahmin et: Mikrofon girdi mi çıktı mı? Sesin yönü bilgisayara doğru mu, bilgisayardan dışarıya doğru mu?",
+          "8": "Tahmin et: Mikrofon girdi mi çıktı mı? Sesin mikrofonda hangi biçimlere dönüştüğünü sıralayabilir misin?"
+        },
+        "cevap": {
+          "5": "<strong>Girdi.</strong> Mikrofon senin sesini bilgisayara taşır, yani bilgisayar mikrofondan duyar. Ses içeri girdiği için mikrofon bir giriş birimidir. Hoparlör ise tersini yapar: sesi dışarı verir.",
+          "6": "<strong>Girdi</strong> (giriş birimi). Mikrofon, kullanıcının sesini bilgisayara aktarır; bilgi kullanıcıdan bilgisayara doğru gider. Bilgiyi bilgisayardan kullanıcıya aktaran parçalar ise çıkış birimidir.",
+          "7": "<strong>Girdi.</strong> Ses dalgası mikrofona girer, mikrofon onu elektrik sinyaline çevirip bilgisayara yollar: bilgi bilgisayara doğru akar. Yön, bir cihazı sınıflandırmanın en güvenilir yoludur. Bilgi bilgisayara doğruysa giriş, bilgisayardan dışarıya doğruysa çıkış birimidir.",
+          "8": "<strong>Girdi.</strong> Sıra şöyledir: ses dalgası, mikrofon zarında titreşim, elektrik sinyali, bilgisayarda sayılar. Bilgi bilgisayara doğru aktığı için mikrofon giriş birimidir. Aynı sıranın tersi hoparlörde olur: sayılar, elektrik sinyali, zarda titreşim, ses dalgası."
+        }
+      }
+    },
+    {
+      "id": "klavye",
+      "baslik": "Klavye: yazı nasıl girer?",
+      "metin": {
+        "5": "Masadaki klavyeye dokun: bir tuşa dokununca monitörün ekranındaki yazı penceresinde harf belirir. \"Tuşa bas\" düğmesi de aynı işi yapar. Bazı tuşlar özeldir ve üzerlerinde adları yazılıdır: <strong>Esc</strong> işten vazgeçer, <strong>Shift</strong> büyük harf yazdırır, <strong>Ctrl</strong> başka bir tuşla birlikte kısayol komutu verir, <strong>Enter</strong> alt satıra geçirir. En uzun tuş olan <strong>Boşluk</strong> tuşu kelimeler arasına boşluk koyar.",
+        "6": "Klavye, yazı yazmak ve komut vermek için kullanılan bir giriş birimidir. Masadaki klavyeye dokunduğunda ya da \"Tuşa bas\" düğmesine bastığında tuş aşağı iner ve monitörün ekranındaki yazı penceresinde harf belirir. Özel tuşların üzerinde adları yazılıdır: <strong>Ctrl</strong> başka tuşlarla birlikte kısayol oluşturur (Ctrl + C kopyalar, Ctrl + V yapıştırır), <strong>Esc</strong> açık bir işlemden vazgeçmeye, <strong>Shift</strong> büyük harf yazmaya yarar. <strong>Enter</strong> satır sonunu ya da onayı bildirir.",
+        "7": "Klavyenin her tuşunun altında, basılınca devreyi kapatan bir anahtar vardır. Klavyenin denetim devresi hangi anahtarın kapandığını anlayıp bilgisayara bildirir; bilgisayar bu bilgiyi yazılıma verir, yazılım da harf mi yazılacağına yoksa kısayol mu çalışacağına karar verir. Bu yüzden aynı tuş farklı durumlarda farklı iş yapar. <strong>Ctrl</strong>, <strong>Shift</strong> ve <strong>Esc</strong> gibi özel tuşlar çoğunlukla başka tuşların anlamını değiştirir: Shift ile harf büyür, Ctrl ile C tuşu kopyalama komutuna dönüşür. \"Tuşa bas\" düğmesiyle tuşların sırayla basılışını izle.",
+        "8": "Klavye bilgisayara harfin kendisini değil tuşun kodunu gönderir; kodu harfe çeviren, bilgisayardaki yazılım ve seçili klavye düzenidir (Türkçe Q, Türkçe F gibi). Aynı fiziksel tuş, düzene göre farklı harf yazdırabilir. Dakikada 300 tuşa vuran bir yazar saniyede 300 / 60 = 5 tuşa basar; tuşlar arası 1 / 5 = 0,2 saniye eder. Bilgisayarın işlemcisi bu 0,2 saniyede milyonlarca işlem yapabilir; yani klavyeyi beklemek onun için çok uzun bir süredir. \"Tuşa bas\" düğmesiyle tuşların sırayla basılışını izle."
+      }
+    },
+    {
+      "id": "fare",
+      "baslik": "Fare: imleci götürür",
+      "metin": {
+        "5": "Masadaki fareye dokun: monitörün ekranında küçük bir ok hareket eder. Bu oka <strong>imleç</strong> denir. Fare hareket edince imleç de aynı yöne gider. Düğmesine basmaya <strong>tıklamak</strong> denir; tıklayınca imlecin çevresinde bir halka belirir. Ortadaki tekerlek sayfayı yukarı aşağı kaydırır. Fare, bilgisayara \"şuraya bak, şunu seç\" demenin kolay yoludur. \"Fareyi oynat\" ve \"Sol tıkla\" düğmeleri de aynı işi yapar.",
+        "6": "Fare, ekrandaki <strong>imleci</strong> hareket ettiren ve seçim yaptıran bir giriş birimidir. Masadaki fareye dokunduğunda monitörde imleç yer değiştirir. Sol düğmeyle tıklayarak bir şeyi seçer ya da açarız; sağ düğme genellikle bir menü açar; tekerlek sayfayı kaydırır. Fare, klavyeden farklı bir bilgi verir: yazı yerine konum ve tıklama. \"Fareyi oynat\", \"Sol tıkla\" ve \"Sağ tıkla\" düğmeleri bu üç işi tek tek gösterir.",
+        "7": "Fare, hareketini yüzeye göre ölçen bir algılayıcıyla izler ve bunu sayılara çevirir; bilgisayar bu sayılara bakarak imleci ekranda aynı yönde, orantılı miktarda götürür. Fare ile imleç aynı şey değildir: fare bir donanımdır, imleç ise yazılımın ekrana çizdiği küçük bir şekildir. Düğmeye basış da bir sinyaldir; bilgisayar, imlecin o an hangi simgenin üstünde olduğuna bakarak tıklamaya anlam verir. \"Fareyi oynat\", \"Sol tıkla\" ve \"Sağ tıkla\" düğmeleriyle hareketi ve düğme sinyallerini ayrı ayrı izleyebilirsin.",
+        "8": "Optik farenin altında bir ışık kaynağı ve küçük bir görüntü algılayıcı bulunur; algılayıcı yüzeyin görüntüsünü saniyede binlerce kez alıp bir öncekiyle karşılaştırarak kaymayı hesaplar. Farenin duyarlılığı DPI ile söylenir: 800 DPI'lık bir fare 1 inç (2,54 cm) kayınca imleç yaklaşık 800 piksel, yani ekrandaki 800 nokta yol alır (pikseli birazdan tanıyacağız). 1920 piksel genişliğindeki bir ekranı baştan sona geçmek için fareyi yaklaşık 1920 / 800 = 2,4 inç, yani 6 cm kaydırmak yeter. Sistem ayarları bu sonucu değiştirebilir. \"Fareyi oynat\", \"Sol tıkla\" ve \"Sağ tıkla\" düğmeleriyle hareketi ve tıklamayı ayrı ayrı gözle."
+      }
+    },
+    {
+      "id": "mikrofon-kamera",
+      "baslik": "Mikrofon ve kamera: ses ve görüntü içeri girer",
+      "metin": {
+        "5": "Masadaki mikrofonun yanına gel. \"Konuş\" düğmesine basınca mikrofonun ışığı yanar ve monitörde bir ses kaydı penceresi çubuklarla hareket eder: bilgisayar sesini duyuyor! \"Kamerayı aç\" düğmesine basınca monitörün üstündeki kameranın ışığı yanar ve ekranda kamera penceresi açılır: bilgisayar görüntüyü alıyor! Kural şu: Başkası izin vermeden onun sesini ya da görüntüsünü kaydetmeyiz ve paylaşmayız.",
+        "6": "Mikrofon sesi, web kamerası görüntüyü bilgisayara aktaran giriş birimleridir. Sesli mesaj kaydederken, video çekerken ya da görüntülü konuşurken bu donanımları kullanırız; telefondaki mikrofon ve kamera da aynı işi yapar. \"Konuş\" ile mikrofonun ışığı yanar ve ekranda ses kaydı penceresi çalışır; \"Kamerayı aç\" ile kameranın ışığı yanar ve kamera penceresi açılır. <strong>Güvenlik notu:</strong> İzin almadan kimsenin sesini ya da görüntüsünü kaydetmeyiz, paylaşmayız.",
+        "7": "Mikrofon ses titreşimlerini, kamera ışığı küçük noktalardan oluşan elektrik sinyaline çevirir; bilgisayar bu sinyalleri sayılara dönüştürüp kaydeder. \"Konuş\" ve \"Kamerayı aç\" düğmelerine basınca ışıkların yandığını ve ekrandaki pencerelerin canlandığını izle. Işık, cihazın o an çalıştığını gösteren bir uyarıdır. <strong>Güvenlik notu:</strong> Mikrofon ve kamera çevredeki herkesin sesini ve görüntüsünü alabilir; izin vermeden kimsenin sesini ya da görüntüsünü kaydetme, paylaşma.",
+        "8": "Mikrofondan gelen elektrik sinyali saniyede on binlerce kez ölçülüp sayıya çevrilir. Saniyede 44.100 ölçüm alınıyorsa 1 dakikalık kayıt 60 x 44.100 = 2.646.000 ölçümdür. Kamera ise görüntüyü piksel adı verilen küçük noktalar olarak yakalar; 1920 x 1080 çözünürlükte bir kare yaklaşık 2,1 milyon pikseldir. Bu yüzden ses ve görüntü kaydı büyük veri üretir. <strong>Güvenlik notu:</strong> Bu veriler kişisel veridir; izin almadan kimsenin sesini ya da görüntüsünü kaydetme, paylaşma. \"Konuş\" ve \"Kamerayı aç\" düğmeleriyle iki girişi de çalıştır."
+      }
+    },
+    {
+      "id": "cikis",
+      "baslik": "Çıkış birimleri: bilgisayar cevap verir",
+      "metin": {
+        "5": "Bilgisayar bize cevap vermek için <strong>çıkış birimlerini</strong> kullanır. Ekran gösterir, hoparlör konuşur, yazıcı kâğıda yazar. Bunlar bilgisayarın ağzı ve eli gibidir: bilgi dışarı çıkar. Çıkış, dışarı demektir. Masada monitörü, iki hoparlörü ve yazıcıyı bulalım.",
+        "6": "<strong>Çıkış birimi</strong> (çıktı birimi), bilgisayarın işlediği bilgiyi kullanıcıya aktaran donanımdır (ör. yazıcı, ekran). Monitör görüntü, hoparlör ses verir; yazıcı bilgiyi kâğıda basar. Giriş birimiyle karşılaştır: giriş birimi bilgiyi bilgisayara götürür, çıkış birimi bilgisayardan getirir.",
+        "7": "Çıkış birimi, bilgisayarın içindeki sayıları bizim algılayabileceğimiz bir biçime çevirir: ekran sayıları ışığa, hoparlör sesin titreşimine, yazıcı kâğıt üstündeki izlere. Bu, giriş birimlerinin tersi bir çeviridir: mikrofon sesi sayıya, hoparlör sayıyı sese çevirir. Yazıcıdan çıkan kâğıda <strong>çıktı</strong> denir ve çıktı kalıcıdır; ekrandaki görüntü ise ekran kapanınca kaybolur.",
+        "8": "Çıkış birimleri sayısal bilgiyi fiziksel bir etkiye çevirir: ekran ışık yayar (görüntü), hoparlör havayı titreştirir (ses), yazıcı kâğıtta iz bırakır (çıktı). Giriş ve çıkış bir hat gibi bağlanır: klavye tuş kodunu gönderir, ekran harfi çizer. Ekrandaki görüntü elektrik kesilince kaybolur; kâğıda basılan çıktı ise elektrik olmasa da durur."
+      }
+    },
+    {
+      "id": "ekran",
+      "baslik": "Ekran: milyonlarca küçük nokta",
+      "metin": {
+        "5": "Monitörün ekranına çok yakından bakarsak küçük küçük karelerden oluştuğunu görürüz. Bu karelere <strong>piksel</strong> denir. Resim ne kadar çok pikselden oluşursa o kadar net görünür. \"Çözünürlüğü değiştir\" düğmesine bas ve ekranın nasıl netleştiğini izle: az piksel kaba resim, çok piksel net resim demektir.",
+        "6": "Ekran, görüntüyü <strong>piksel</strong> denilen çok küçük noktalarla oluşturur. Yatay ve dikey piksel sayısına <strong>çözünürlük</strong> denir. \"Çözünürlüğü değiştir\" düğmesi ekranı dört kademede gösterir; kademe yükseldikçe görüntü netleşir. Ekran bir çıkış birimidir: bilgisayarın işlediği bilgiyi bize görüntü olarak gösterir.",
+        "7": "Piksel, ekranın ayrı ayrı yanabilen en küçük noktasıdır; her piksel genellikle kırmızı, yeşil ve mavi üç küçük ışıktan oluşur, renkler bunların karışımıdır. Çözünürlük arttıkça aynı alana daha çok piksel sığar ve ayrıntı artar. \"Çözünürlüğü değiştir\" düğmesiyle kademeleri değiştirirken yazıların önce okunamadığını, sonra keskinleştiğini gör. Neden? Bir harfin eğrilerini çizmek için birkaç piksel yetmez, çok sayıda piksel gerekir.",
+        "8": "Çözünürlük, yatay piksel sayısı x dikey piksel sayısıdır. 1920 x 1080 çözünürlükte toplam piksel sayısı 1920 x 1080 = 2.073.600'dür (yaklaşık 2,1 milyon). 1280 x 720 ise 921.600 pikseldir; 2.073.600 / 921.600 = 2,25, yani ilk ekranda 2,25 kat daha çok piksel vardır. Her piksel üç renk için birer bayt tutarsa tek bir kare 2.073.600 x 3 = 6.220.800 bayt, yaklaşık 6 MB eder. \"Çözünürlüğü değiştir\" düğmesiyle dört kademede keskinleşmeyi izle."
+      }
+    },
+    {
+      "id": "hoparlor-yazici",
+      "baslik": "Hoparlör ve yazıcı: ses ve kâğıt",
+      "metin": {
+        "5": "\"Ses ver\" düğmesine bas: iki hoparlörden halkalar yayılır. Bu halkalar sesin havada yayılışını gösterir. Ses, havada titreşim olarak yol alır ve kulağımıza ulaşır. Şimdi \"Yazdır\" düğmesine bas: monitörde bir yazdırma penceresi ilerler ve yazıcıdan kâğıt çıkar. Bilgisayarın hazırladığını kâğıt olarak elimize alırız!",
+        "6": "<strong>Hoparlör</strong> sesi veren, <strong>yazıcı</strong> da bilgiyi kâğıda basan çıkış birimidir. \"Ses ver\" ile hoparlörlerden ses dalgaları halkalar hâlinde yayılır; \"Yazdır\" ile monitörde yazdırma penceresi ilerler ve yazıcıdan sayfa çıkar. Yazıcıdan çıkan kâğıda <strong>çıktı</strong> denir. Ses kartı (kasanın içindedir), mikrofon, hoparlör ve kulaklık, bilgisayarda sesi kaydetmek ve işitmek için kullanılan donanımlardır.",
+        "7": "Hoparlörün içinde bir mıknatıs ve ileri geri titreşen bir zar (koni) vardır. Bilgisayardan gelen elektrik sinyali zarı hareket ettirir, zar havayı titreştirir ve ses oluşur; halkalar bu yayılmayı simgeler. Yazıcı ise sayfanın görüntüsünü bilgisayardan sayılar olarak alır ve kâğıda noktalar hâlinde basar. Ses geçicidir, söner; kâğıt çıktı ise kalıcıdır. \"Ses ver\" ve \"Yazdır\" düğmeleriyle iki çıkışı da çalıştır; ses geçicidir, kâğıt kalıcıdır.",
+        "8": "Hoparlör zarı saniyede kaç kez titreşirse sesin frekansı o kadar hertz (Hz) olur; insan kulağı yaklaşık 20 Hz ile 20.000 Hz arasındaki sesleri duyar. Müzikteki la notası 440 Hz'dir: zar saniyede 440 kez ileri geri gider ve tek bir titreşim 1 / 440, yaklaşık 0,0023 saniye (2,3 milisaniye) sürer. Yazıcı ise sayfayı çok küçük noktalarla basar: 600 x 600 DPI'da 1 inç karenin içinde 600 x 600 = 360.000 nokta bulunur. \"Ses ver\" ve \"Yazdır\" düğmeleriyle iki çıkışı da çalıştır."
+      }
+    },
+    {
+      "id": "ikisi-de",
+      "baslik": "Hem girdi hem çıktı",
+      "metin": {
+        "5": "Bazı cihazlar iki işi birden yapar. Masadaki mikrofonlu kulaklığa bak: kulaklık kısmı sesi bize verir, uzun koldaki mikrofon sesimizi alır. Yani hem giriş hem çıkış birimi! Telefonun dokunmatik ekranı da böyledir: hem görüntüyü gösterir hem parmağımızı anlar. \"Sesi dinle\" düğmesine bas: kulaklık kısmı parlar. \"Mikrofona konuş\" düğmesine bas: uzun koldaki mikrofon parlar ve ses ona doğru gelir.",
+        "6": "Bazı donanımlar hem giriş hem çıkış birimi olarak çalışır; yani her iki görev için kullanılabilir. Mikrofonlu kulaklığın kulaklık kısmı çıkış, mikrofon kısmı giriş birimidir. Dokunmatik ekran da hem görüntü gösterir (çıkış) hem parmağın dokunduğu yeri bilgisayara bildirir (giriş). Bu yüzden bir cihazı adına göre değil, yaptığı göreve göre sınıflandırırız. \"Sesi dinle\" ile kulaklık kısmının (çıkış), \"Mikrofona konuş\" ile mikrofon kısmının (giriş) çalıştığını ayrı ayrı gör.",
+        "7": "Bir cihazın içinde iki ayrı parça varsa iki yönde de çalışabilir. Mikrofonlu kulaklıkta hoparlör (çıkış) ve mikrofon (giriş) aynı gövdeye yerleştirilmiştir; masadaki kulaklık tek bir USB kablosuyla hem ses alır hem ses gönderir. Dokunmatik ekranda aynı yüzey hem görüntüyü çizer hem de dokunulan yeri algılar. Sınıflandırırken \"Bu cihaz ne?\" diye değil, \"Bu görev bilgiyi bilgisayara mı götürüyor, bilgisayardan mı getiriyor?\" diye sor. \"Sesi dinle\" düğmesi çıkış yönünü, \"Mikrofona konuş\" düğmesi giriş yönünü gösterir: aynı gövdede iki ayrı görev çalışır.",
+        "8": "Bilgi akışı iki yönlü olan bir cihazı, iki ayrı görevin toplamı olarak düşünürüz. Masadaki mikrofonlu kulaklıkta iki hoparlör zarı (çıkış) ve bir mikrofon zarı (giriş) vardır: 2 çıkış parçası + 1 giriş parçası. Dokunmatik ekranda dokunma, ekranın piksellerinden birinin konumu olarak alınır: 1920 x 1080 ekranın tam orta noktası (1920 / 2, 1080 / 2) = (960, 540) konumundadır. Mikrofonsuz kulaklıkta ise yalnız çıkış kalır. \"Sesi dinle\" çıkış parçasını, \"Mikrofona konuş\" giriş parçasını çalıştırır; ikisini ayrı ayrı deneyerek görevleri ayır."
+      },
+      "tahmin": {
+        "soru": {
+          "5": "Tahmin et: Kulaklık için ne dersin? Mikrofonlu kulaklık girdi mi, çıktı mı, yoksa ikisi birden mi?",
+          "6": "Tahmin et: Kulaklık için ne dersin? Mikrofonlu kulaklık giriş birimi mi, çıkış birimi mi? Neden?",
+          "7": "Tahmin et: Kulaklık için ne dersin? Bilgi hem bilgisayara hem bilgisayardan akıyorsa bu cihazı nasıl sınıflandırırız?",
+          "8": "Tahmin et: Kulaklık için ne dersin? Mikrofonlu kulaklığın kaç parçası giriş, kaç parçası çıkış görevi yapar?"
+        },
+        "cevap": {
+          "5": "<strong>İkisi de!</strong> Kulaklığın hoparlörleri sesi bize verir (çıkış). Uzun koldaki mikrofon sesimizi bilgisayara taşır (giriş). Mikrofonu olmayan sade bir kulaklık ise yalnız çıkış birimidir.",
+          "6": "<strong>Hem giriş hem çıkış birimidir.</strong> Kulaklık kısmı sesi kullanıcıya aktarır (çıkış), mikrofon kısmı kullanıcının sesini bilgisayara aktarır (giriş). Mikrofonsuz kulaklık yalnız çıkış birimidir.",
+          "7": "<strong>İkisi de.</strong> Cihazı bütün olarak değil, görevlerine göre sınıflandırırız: hoparlör bilgisayardan kullanıcıya (çıkış), mikrofon kullanıcıdan bilgisayara (giriş). Mikrofonsuz kulaklığın yalnız çıkış görevi olduğu için o, yalnız çıkış birimidir.",
+          "8": "İki hoparlör zarı çıkış, bir mikrofon zarı giriş görevi yapar: <strong>2 çıkış + 1 giriş</strong>, yani cihaz iki yönlüdür. Mikrofonsuz kulaklıkta yalnız çıkış kalır. Dokunmatik ekran da aynı mantıkla hem çıkış (görüntü) hem giriş (dokunuş) birimidir."
+        }
+      }
+    },
+    {
+      "id": "kablolar",
+      "baslik": "Hepsi kasaya bağlanır",
+      "metin": {
+        "5": "Masadaki bütün parçalar kablolarla kasaya bağlanır; kasa bilgisayarın merkezidir. Kasanın arkasına bakalım: klavye, fare, kamera, yazıcı ve kulaklık <strong>USB</strong> girişine takılır. Mikrofon pembe, hoparlör yeşil <strong>ses jakına</strong> girer. Monitörün kablosu <strong>HDMI</strong> girişine, kalın güç kablosu ise prize gider. \"Sıradaki kablo\" düğmesine basınca her kablo sırayla parlar ve adı yazılır. Bir fişe dokunursan o kablo da parlar.",
+        "6": "Her cihaz kasadaki bir <strong>bağlantı noktasına</strong> takılır. Klavye, fare, web kamerası, yazıcı ve kulaklık <strong>USB</strong> ile, monitör <strong>HDMI</strong> ile bağlanır. Mikrofon ve hoparlör renkli <strong>ses jaklarına</strong> girer (pembe jak mikrofon, yeşil jak hoparlör içindir). Güç kablosu kasayı prize bağlar. Dikkat: \"USB girişi\" bir bağlantı noktasıdır; \"giriş birimi\" ise bilgisayara bilgi gönderen cihazdır. İkisi farklı şeylerdir. \"Sıradaki kablo\" düğmesi kabloları tek tek gösterir ve hangi girişe takıldığını yazar. Bir fişe dokunarak da seçebilirsin.",
+        "7": "Bu bağlantıların her biri ortak bir standarda dayanır. <strong>USB</strong> hem veri hem az miktarda elektrik taşır; bu yüzden klavye ve fare gibi küçük cihazlar ayrı bir güç kablosu istemez. <strong>HDMI</strong> görüntüyü ve sesi sayısal olarak monitöre taşır. <strong>Ses jakları</strong> renkle ayrılır: pembe mikrofon, yeşil hoparlör ya da kulaklık çıkışı içindir. Güç kablosu prizdeki elektriği getirir; kasanın içindeki güç kaynağı bunu parçaların kullanabileceği düzeye çevirir. \"Sıradaki kablo\" düğmesiyle kabloları tek tek izle; her kablonun hangi girişe, hangi standartla takıldığını söyle. Fişlere dokunarak da seçebilirsin.",
+        "8": "USB ve HDMI sayısal veri, geleneksel ses jakı ise analog ses sinyali taşır. Güç kablosu prizdeki 220 V civarındaki alternatif akımı kasaya getirir; güç kaynağı bunu parçaların kullandığı düşük gerilimlere (örneğin 3,3 V, 5 V ve 12 V) çevirir. USB girişi 5 V verir. Sahnedeki kabloları sayalım: USB ile 5 cihaz (klavye, fare, kamera, yazıcı, kulaklık), HDMI ile 1 (monitör), ses jakıyla 2 (mikrofon, hoparlör), güç için 1: toplam 5 + 1 + 2 + 1 = 9 kablo. İki hoparlörü birbirine bağlayan kısa kablo bu sayıya dahil değildir. \"Sıradaki kablo\" düğmesiyle kabloları tek tek izle ve her birini kullandığı standarda göre (USB, HDMI, ses jakı, güç) say. Fişlere dokunarak da seçebilirsin."
+      }
+    },
+    {
+      "id": "ozet",
+      "baslik": "Özet ve sınıflandırma",
+      "metin": {
+        "5": "Bugün masadaki parçaları ikiye ayırdık. <strong>Giriş</strong> (içeri): klavye, fare, mikrofon, kamera. <strong>Çıkış</strong> (dışarı): ekran, hoparlör, yazıcı. Mikrofonlu kulaklık ikisi birden. Elle tutabildiklerimiz donanım, ekrandaki programlar yazılım. Hepsi kablolarla kasaya bağlı. Şimdi üç soruyla kendimizi deneyelim.",
+        "6": "Özet: Donanım bilgisayarın fiziksel parçalarıdır; yazılımla birlikte bilgisayar sistemini oluşturur. Giriş birimi kullanıcıdan bilgisayara veri aktarır (klavye, fare, mikrofon, web kamerası). Çıkış birimi bilgisayarın işlediği bilgiyi kullanıcıya aktarır (ekran, hoparlör, yazıcı). Mikrofonlu kulaklık gibi bazı donanımlar iki görev yapar. Cihazlar USB, HDMI ve ses jaklarıyla kasaya bağlanır.",
+        "7": "Özet: Cihazı değil görevi sınıflandırırız. Bilgi bilgisayara doğru akıyorsa giriş, bilgisayardan dışarıya akıyorsa çıkış birimidir; iki yönde akıyorsa cihaz iki görev yapıyordur. Giriş birimleri ses, ışık ve hareketi sinyale çevirir; çıkış birimleri sinyali ışığa, sese ve kâğıda çevirir. Piksel sayısı arttıkça ekran netleşir. USB, HDMI ve ses jakı ortak standartlardır; bu sayede farklı cihazlar aynı kasaya takılabilir.",
+        "8": "Özet: Giriş birimi \"fiziksel olay, sinyal, sayı\" yolunu izler; çıkış birimi bunun tersini yapar. Sayılarla: 1920 x 1080 = 2.073.600 piksel; saniyede 44.100 ölçümle 60 saniyelik ses 60 x 44.100 = 2.646.000 ölçüm. Mikrofonlu kulaklık ve dokunmatik ekran iki yönlü cihazlardır, görevlerine göre iki parçaya ayrılır. Masadaki 9 kablo: 5 USB, 1 HDMI, 2 ses jakı, 1 güç."
+      }
+    }
+  ],
+  "sinav": {
+    "5": [
+      {
+        "soru": "Hangisi bir giriş birimidir?",
+        "secenekler": ["Hoparlör", "Klavye", "Yazıcı"],
+        "dogru": 1,
+        "aciklama": "Klavye bilgisayara bilgi gönderir, bu yüzden giriş birimidir. Hoparlör ve yazıcı bilgisayarın bize verdiği cevabı gösterir."
+      },
+      {
+        "soru": "Ekranı oluşturan çok küçük noktalara ne denir?",
+        "secenekler": ["Piksel", "Kablo", "Tuş"],
+        "dogru": 0,
+        "aciklama": "Pikseller ekrandaki en küçük noktalardır; ekran ne kadar çok pikselden oluşursa görüntü o kadar net olur."
+      },
+      {
+        "soru": "Mikrofonlu kulaklık için hangisi doğrudur?",
+        "secenekler": ["Yalnız giriş birimidir", "Yalnız çıkış birimidir", "Hem giriş hem çıkış birimidir"],
+        "dogru": 2,
+        "aciklama": "Kulaklık kısmı sesi bize verir (çıkış), mikrofon kısmı sesimizi bilgisayara taşır (giriş)."
+      }
+    ],
+    "6": [
+      {
+        "soru": "Çıkış birimi nedir?",
+        "secenekler": ["Kullanıcıdan bilgisayara veri aktaran donanım", "Donanım ve yazılımın birlikte çalıştığı yapı", "Bilgisayarın işlediği bilgiyi kullanıcıya aktaran donanım"],
+        "dogru": 2,
+        "aciklama": "Çıkış birimi (ör. yazıcı, ekran) bilgiyi bilgisayardan kullanıcıya aktarır. İlk seçenek giriş birimini, ikinci seçenek bilgisayar sistemini anlatır."
+      },
+      {
+        "soru": "Hangi eşleştirme doğrudur?",
+        "secenekler": ["Web kamerası: çıkış birimi", "Mikrofon: giriş birimi", "Yazıcı: giriş birimi"],
+        "dogru": 1,
+        "aciklama": "Mikrofon sesi bilgisayara aktarır, giriş birimidir. Web kamerası da giriş birimidir; yazıcı ise çıkış birimidir."
+      },
+      {
+        "soru": "Ctrl, Esc ve Shift gibi tuşlara ne ad verilir?",
+        "secenekler": ["Özel tuşlar", "Ses jakları", "Çıktılar"],
+        "dogru": 0,
+        "aciklama": "Ctrl, Esc ve Shift özel tuşlardır; harf yazdırmaktan çok başka tuşların işini değiştirir ya da bir işlemi yönetir."
+      }
+    ],
+    "7": [
+      {
+        "soru": "Fare ile imleç arasındaki fark hangisidir?",
+        "secenekler": ["Fare bir donanımdır, imleç yazılımın ekrana çizdiği şekildir", "Fare ile imleç aynı şeydir", "İmleç bir donanımdır, fare yazılımdır"],
+        "dogru": 0,
+        "aciklama": "Fare elle tutulan bir cihazdır (donanım). İmleç ise ekranda yazılımın çizdiği oktur; fare hareket edince yazılım imleci yeni yerinde çizer."
+      },
+      {
+        "soru": "Mikrofon ile hoparlörün yaptığı çeviri nasıl karşılaştırılır?",
+        "secenekler": ["İkisi de sesi elektrik sinyaline çevirir", "Mikrofon elektrik sinyalini sese, hoparlör sesi elektrik sinyaline çevirir", "Mikrofon sesi elektrik sinyaline, hoparlör elektrik sinyalini sese çevirir"],
+        "dogru": 2,
+        "aciklama": "Mikrofon giriş birimidir: sesi sinyale çevirir. Hoparlör çıkış birimidir: sinyali sese çevirir. İki çeviri birbirinin tersidir."
+      },
+      {
+        "soru": "Ekranın çözünürlüğü artınca ne olur?",
+        "secenekler": ["Ekranın fiziksel boyu büyür", "Aynı alana daha çok piksel sığar ve ayrıntı artar", "Piksel sayısı azalır ve görüntü bulanıklaşır"],
+        "dogru": 1,
+        "aciklama": "Çözünürlük piksel sayısını anlatır. Piksel sayısı artınca görüntü daha ayrıntılı olur; ekranın fiziksel boyu değişmez."
+      }
+    ],
+    "8": [
+      {
+        "soru": "1920 x 1080 çözünürlüklü bir ekranda toplam kaç piksel vardır?",
+        "secenekler": ["3.000", "2.073.600", "20.736.000"],
+        "dogru": 1,
+        "aciklama": "Piksel sayısı yatay ve dikey sayının çarpımıdır: 1920 x 1080 = 2.073.600. 3.000 toplama işleminin, 20.736.000 ise ondalık kaydırma hatasının sonucudur."
+      },
+      {
+        "soru": "Bir sesten saniyede 44.100 ölçüm alınıyorsa 2 saniyelik kayıt kaç ölçümdür?",
+        "secenekler": ["44.100", "22.050", "88.200"],
+        "dogru": 2,
+        "aciklama": "2 x 44.100 = 88.200 ölçüm. 22.050 bölme hatasıyla, 44.100 ise yalnız 1 saniye hesaplanınca bulunur."
+      },
+      {
+        "soru": "Mikrofonun yaptığı dönüşümün sırası hangisidir?",
+        "secenekler": ["Ses dalgası, elektrik sinyali, sayı", "Sayı, elektrik sinyali, ses dalgası", "Sayı, ışık, kâğıt"],
+        "dogru": 0,
+        "aciklama": "Giriş birimi fiziksel olayı (ses) elektrik sinyaline, bilgisayar da sinyali sayıya çevirir. İkinci seçenek hoparlörün sırasıdır."
+      }
+    ]
+  },
+  "ogretmen": {
+    "hazirlik": "Önce simülasyonda masayı birlikte gezin, sonra sınıftaki gerçek cihazlarla aynı sınıflandırmayı yapın: her cihazın yanına \"GİRİŞ\", \"ÇIKIŞ\" ya da \"İKİSİ DE\" etiketi koydurun. Sahne sadeleştirilmiştir: gerçek bilgisayarda monitörün, hoparlörlerin ve yazıcının çoğunlukla kendi güç bağlantısı da bulunur; sahnede yalnız kasanın güç kablosu gösterilir. Müfredat bağı: Bilişim Teknolojileri ve Yazılım dersi 5. sınıf BTY.5.1.5 (a: bilgisayar sistemlerinin temel bileşenlerini belirler, b: bileşenler arasındaki ilişkileri belirler). Donanım, giriş birimi ve çıkış birimi tanımları 5. sınıf öğretmen kılavuz kitabının sözlüğünden alınmıştır; yazılım tanımı ise bu dersin kendi cümlesidir. 6. sınıfta BTY.6.2.5 (ses düzenleme) ve BTY.6.2.8 (video düzenleme) etkinlikleri mikrofon, hoparlör, kulaklık, kamera ve web kamerasını hatırlatır; bu ders 6. sınıf için tekrar ve derinleştirmedir. 7. ve 8. sınıf için donanım kazanımı içeren güncel bir program bulunamadı; bu sınıfların metinleri kazanım kodu atfedilmeden sarmal tekrar ve derinleştirme olarak yazılmıştır. Resmî programda adı geçmeyen genişletmeler: mikrofonlu kulaklık ve dokunmatik ekranın iki yönlü örnek olarak ele alınması, USB, HDMI ve ses jakı bağlantıları, güç kaynağı. 2026-2027 taslak çerçeve yıllık planında 5. sınıf konusu 6. ve 7. haftalara yerleştirilmiştir; plan taslak olduğundan değişebilir.",
+    "malzemeler": [
+      "Monitör, klavye ve fare bağlı bir sınıf bilgisayarı ve projeksiyon ya da akıllı tahta",
+      "Birer örnek: mikrofon (ya da mikrofonlu kulaklık), hoparlör, web kamerası ve varsa bir yazıcı ile örnek çıktı sayfaları",
+      "Varsa bir tarayıcı ya da dokunmatik ekranlı bir cihaz (tablet, akıllı tahta)",
+      "Üç ayrı renkte kâğıt etiket: \"GİRİŞ\", \"ÇIKIŞ\", \"İKİSİ DE\"",
+      "Büyüteç (monitördeki pikselleri ekrana dokunmadan incelemek için)",
+      "Çalışma kâğıdı: cihazları giriş, çıkış ve ikisi de sütunlarına yazacakları bir tablo"
+    ],
+    "guvenlik": [
+      "Güç kablosunu, prizi ve uzatma kablosunu öğrenciler yalnız öğretmen gözetiminde ve kuru elle tutsun; kabloyu çekerken fişin gövdesinden tutun.",
+      "Kasanın kapağını ve monitörün arkasını açmayın; içeride yüksek gerilimli parçalar bulunabilir.",
+      "Ekran yüzeyine parmakla bastırmayın, sivri uçla dokunmayın; temizlik için yumuşak ve kuru bez kullanın. Pikselleri büyüteçle, ekrana dokunmadan inceleyin.",
+      "Kamera ve mikrofon etkinliklerinde öğrencinin (ve gerekiyorsa velisinin) izni olmadan görüntü ya da ses kaydı yapmayın; kayıt yapıldıysa paylaşmayın ve etkinlik bitince silin. Öğrencilerin ses ve görüntüleri kişisel veridir.",
+      "Kulaklıkla etkinlik yapılacaksa ses seviyesini düşük tutun; ortak kulaklıkları kullanım sonrasında silin.",
+      "Yazıcının içi sıcak olabilir; kâğıt sıkışırsa öğrenciler müdahale etmesin.",
+      "Kaynağını bilmediğiniz bir USB belleği sınıf bilgisayarına takmayın."
+    ],
+    "yanilgilar": [
+      "Yanlış: Monitör bilgisayarın kendisidir. Düzeltme: Monitör bir çıkış birimidir; işlemlerin yapıldığı parçalar kasanın içindedir. Kasanın İçi dersinde kapağı açıp bakın.",
+      "Yanlış: USB girişi bir giriş birimidir. Düzeltme: USB girişi bir bağlantı noktasıdır, kapı gibi; giriş birimi ise bilgisayara bilgi gönderen cihazdır (klavye gibi). Türkçede \"giriş\" sözcüğü iki ayrı şey için kullanılır, bunu açıkça söyleyin.",
+      "Yanlış: Mikrofon bir çıkış birimidir, çünkü ses ondan çıkar. Düzeltme: Yön her zaman bilgisayara göre düşünülür. Ses mikrofondan bilgisayara girer; \"bilgi bilgisayara mı gidiyor, bilgisayardan mı geliyor?\" sorusunu sordurun.",
+      "Yanlış: Yazıcı bir giriş birimidir, çünkü kâğıt içeri girer. Düzeltme: Kâğıt değil bilgi önemlidir. Yazıcı bilgisayardan aldığı bilgiyi kâğıda dökerek çıkış birimi olarak çalışır. Tarama cihazı (tarayıcı) ise tersini yapar: kâğıttaki görüntüyü bilgisayara aktarır, giriş birimidir.",
+      "Yanlış: Bir cihaz ya giriş ya da çıkış birimidir. Düzeltme: Mikrofonlu kulaklık ve dokunmatik ekran gibi cihazlar iki görevi birlikte yapar. Cihazı değil görevi sınıflandırmalarını isteyin.",
+      "Yanlış: Çözünürlük ekranın inç cinsinden boyudur. Düzeltme: Boy ekranın fiziksel büyüklüğüdür, çözünürlük ise piksel sayısıdır. Aynı boyutta farklı çözünürlükte iki ekran bulunabilir.",
+      "Yanlış: Ekranda görünen her şey donanımdır. Düzeltme: Ekran donanımdır; üstünde gördüğümüz pencere ve imleç ise yazılımın çizdiği görüntüdür."
+    ],
+    "tartisma": [
+      "Sınıfta kullandığımız hangi cihazlar giriş, hangileri çıkış birimi? İki görevi birden yapan başka hangi cihazları görüyoruz (telefon, akıllı tahta, titreşimli oyun kolu)?",
+      "Bir bilgisayarda yalnız klavye olsa ama ekran olmasa, ya da yalnız ekran olsa ama klavye ve fare olmasa onu kullanabilir miydik? Bu bize giriş ve çıkış hakkında ne söyler?",
+      "Kamera ve mikrofon neden başkalarının izniyle kullanılmalı? Bir fotoğrafı ya da ses kaydını paylaşmadan önce kime ve neyi sormalıyız?",
+      "Ekran çözünürlüğü yükselince neler kazanırız, neler kaybederiz? (Daha çok ayrıntı; daha çok işlem, bellek ve enerji.)"
+    ],
+    "ileri": [
+      "Büyüteçle monitörde ya da telefon ekranında pikselleri bulun; ekrana dokunmayın. Çıplak gözle bakınca pikseller neden ayırt edilemiyor, tartışın.",
+      "Evdeki bir cihazı (çamaşır makinesi, akıllı saat, oyun konsolu) seçip giriş ve çıkış parçalarını iki sütunlu bir tabloya yazın.",
+      "5. sınıf öğretmen kılavuz kitabındaki Deve (giriş) ve Cüce (çıkış) oyununa benzer bir etkinlik yapın: cihaz adı söylenir; öğrenciler giriş için ayağa kalkar (deve), çıkış için çömelir (cüce), iki yönlü cihazlar için kollarını yana açar.",
+      "8. sınıflar için: 1366 x 768 çözünürlüklü bir ekranın piksel sayısını hesaplayıp 1920 x 1080 ile karşılaştırın. (1366 x 768 = 1.049.088; 2.073.600 / 1.049.088 yaklaşık 1,98, yani yaklaşık 2 kat.)",
+      "7 ve 8. sınıflar için: Ses kaydı programında yüksek sesle fısıltının dalga biçimini karşılaştırın."
+    ]
+  },
+  "kavramlar": ["bilgisayar-sistemi", "donanim", "yazilim", "veri", "girdi-birimi", "cikti-birimi", "hem-girdi-hem-cikti", "dokunmatik-ekran", "ozel-tuslar", "imlec", "ses-dalgasi", "piksel", "cozunurluk", "baglanti-noktasi", "usb-baglantisi", "hdmi", "ses-jaki"],
+  "kaynaklar": [
+    {"ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (5 ve 6. Sınıflar), Türkiye Yüzyılı Maarif Modeli", "adres": "https://mufredat.meb.gov.tr/Dosyalar/202591115327350-bili%C5%9Fim%20d%C3%B6p.pdf"},
+    {"ad": "MEB TYMM, Bilişim Teknolojileri ve Yazılım Dersi 5. Sınıf Öğretmen Kılavuz Kitabı (Bilgisayar Sistemlerinin Kullanımı, Sözlük)", "adres": "https://tymm.meb.gov.tr/kitap/432/bilisim-teknolojileri-ve-yazilim-dersi-5sinif-ogretmen-kilavuz-kitabi"},
+    {"ad": "MEB TYMM, Taslak çerçeve yıllık planlar (2026-2027)", "adres": "https://tymm.meb.gov.tr/taslak-cerceve-planlari"},
+    {"ad": "MEB, Bilişim Teknolojileri ve Yazılım Dersi Öğretim Programı (7 ve 8. Sınıflar, 2018)", "adres": "https://mufredat.meb.gov.tr/Dosyalar/2018813171426130-2-2018-81Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%20Dersi%20(7%20ve%208.%20S%C4%B1n%C4%B1flar).pdf"}
+  ]
+}

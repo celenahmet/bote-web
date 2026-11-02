@@ -1,0 +1,407 @@
+{
+  "klavye": {
+    "ad": "Klavye",
+    "teknik": {
+      "5": "Klavye, harf ve rakam yazmak için kullanılır. Her tuşa basınca bilgisayara bir haber gider.",
+      "6": "Klavye, yazı yazmak ve komut vermek için kullanılan bir giriş birimidir.",
+      "7": "Klavyenin her tuşu, basılınca devreyi kapatan bir anahtardır. Klavye hangi tuşa basıldığını bilgisayara bildirir; harfe çevirmeyi yazılım yapar.",
+      "8": "Klavye tuşun kodunu gönderir; harfi seçili klavye düzeni belirler (Türkçe Q, Türkçe F). Aynı fiziksel tuş, düzene göre farklı harf yazdırabilir."
+    },
+    "sosyal": {
+      "5": "Ödevimizi, mesajlarımızı ve arama sorularımızı klavyeyle yazarız.",
+      "6": "On parmak yazmayı öğrenmek yazmayı hızlandırır ve gözü klavyeden ekrana çevirmeden yazmayı sağlar.",
+      "7": "Şifre yazarken kimsenin klavyene bakmadığından emin ol; şifreni kimseyle paylaşma.",
+      "8": "Ortak kullanılan klavyelerde şifre yazdıktan sonra oturumu kapatmak, bir sonraki kullanıcının hesabına girmesini önler."
+    }
+  },
+  "tus-harf": {
+    "ad": "Harf ve rakam tuşları",
+    "teknik": {
+      "5": "Bu tuşa basınca ekranda o harf ya da rakam yazılır.",
+      "6": "Harf ve rakam tuşları yazı için kullanılır. Shift ile birlikte basılınca büyük harf ya da tuşun üstündeki simge yazılır.",
+      "7": "Tuşa basınca klavye tuş kodunu gönderir; yazılım bu kodu seçili klavye düzenine göre harfe çevirir. Shift basılıysa büyük harf seçilir.",
+      "8": "Q düzeni adını ilk sıradaki Q, W, E, R, T, Y harflerinden alır. Aynı tuş kodu başka bir klavye düzeninde başka bir harfe dönüşebilir."
+    },
+    "sosyal": {
+      "5": "Adını, mesajını ya da ödevini bu tuşlarla yazarsın.",
+      "6": "Türkçeye özgü harfler (ç, ğ, ı, ö, ş, ü) Türkçe klavyede kendi tuşlarına sahiptir.",
+      "7": "Yanlış yazılan bir e-posta adresi ya da şifre işe yaramaz; yazdıklarını göndermeden önce kontrol etmek iyi bir alışkanlıktır.",
+      "8": "Yazım denetimi yazılım tarafından yapılır, klavye tarafından değil; klavye yalnız hangi tuşa basıldığını bildirir."
+    }
+  },
+  "tus-ozel": {
+    "ad": "Özel tuşlar",
+    "teknik": {
+      "5": "Bu tuşlar harf yazdırmaz, başka bir iş yapar. Tab, Alt, Caps Lock, Delete, ok tuşları ve F tuşları bunlardandır.",
+      "6": "Özel tuşlar harf yazdırmak yerine bir işlemi yönetir: Tab girinti bırakır ya da bir sonraki alana geçirir, Delete siler, ok tuşları imleci taşır, F tuşları programlara özel komutlar verir.",
+      "7": "Özel tuşların işi, açık olan programa göre değişir. Delete bir metinde karakteri, bir klasörde dosyayı siler; ok tuşları bir yazıda imleci, bir oyunda karakteri hareket ettirir. Anlamı klavye değil yazılım verir.",
+      "8": "Klavye her tuş için yalnız bir kod gönderir. Bu kodu hangi işe çevireceğine açık olan program karar verir. Bu yüzden F1 tuşu bir programda yardım penceresi açarken başka bir programda başka bir iş yapabilir."
+    },
+    "sosyal": {
+      "5": "Oyun oynarken ok tuşlarıyla karakteri yürütürüz, yazı yazarken Delete ile yanlış harfi sileriz.",
+      "6": "Çoğu sunum programında F5 tuşu sunumu başlatır, Esc tuşu sunumdan çıkarır.",
+      "7": "Ok tuşları ve Tab, fare kullanamayan kişiler için bilgisayarı kullanmanın temel yoludur. Bu yüzden iyi tasarlanmış programlar klavyeyle de gezilebilir.",
+      "8": "Delete ile silinen bir dosya çoğu zaman önce geri dönüşüm kutusuna gider. Kutu boşaltılınca dosya kolayca geri getirilemez; silmeden önce düşünmek gerekir."
+    }
+  },
+  "tus-esc": {
+    "ad": "Esc tuşu",
+    "teknik": {
+      "5": "Esc, \"vazgeç\" tuşudur. Yarım bıraktığın bir işten çıkmana yardım eder.",
+      "6": "Esc (Escape) tuşu, çoğu programda açık bir işlemden vazgeçmeye ya da bir pencereyi kapatmaya yarayan özel tuştur.",
+      "7": "Esc tuşu genellikle bir pencereyi, menüyü ya da işlemi iptal eder. Tam olarak ne yapacağını açık olan program belirler.",
+      "8": "Esc, bilgisayara bir tuş kodu olarak gider; kodu yorumlayan açık program onun ne yapacağına karar verir. Bu yüzden her programda tam aynı sonucu vermeyebilir."
+    },
+    "sosyal": {
+      "5": "Yanlış bir pencere açtıysan Esc'ye basıp çıkabilirsin.",
+      "6": "Tam ekran videodan çıkmak ya da açılan bir pencereyi kapatmak için sık kullanılır.",
+      "7": "Esc kısa bir \"dur\" işaretidir: bir şeyi yanlışlıkla açtığında hemen vazgeçmeni sağlar.",
+      "8": "Bilmediğin bir iletişim kutusuyla karşılaşınca içindeki düğmelere basmadan önce ne dediğini okumak, gerekirse Esc ile çıkmak güvenli bir alışkanlıktır."
+    }
+  },
+  "tus-shift": {
+    "ad": "Shift tuşu",
+    "teknik": {
+      "5": "Shift tuşuna basılı tutarsak harfler büyük çıkar. Rakam tuşlarının üstündeki işaretleri de Shift ile yazarız.",
+      "6": "Shift, basılı tutulurken başka bir tuşun anlamını değiştiren özel tuştur: harfler büyük yazılır, rakam tuşlarının üstündeki simgeler çıkar. Shift tek başına bir şey yazdırmaz.",
+      "7": "Shift tek başına işlem yapmaz; başka tuşla birlikte basılınca onun anlamını değiştirir. Bu yüzden \"değiştirici tuş\" denir. Ctrl ve Alt da değiştirici tuştur. Shift ile bir dosya listesinde ilk ve son dosyaya tıklayınca aradaki hepsi seçilir.",
+      "8": "Klavye Shift için de bir tuş kodu gönderir; yazılım Shift basılıyken gelen harf kodunu büyük harfe çevirir. Türkçede bu çeviri özeldir: i harfi Shift ile İ, ı harfi ise I olur."
+    },
+    "sosyal": {
+      "5": "Adımızı büyük harfle başlatmak için baştaki harfi Shift ile yazarız.",
+      "6": "Bir cümlenin ilk harfini, özel isimleri ve kısaltmaları Shift ile büyük yazarız.",
+      "7": "Her yeri büyük harfle yazmak (CAPS LOCK) mesajlarda bağırmak gibi anlaşılır. Büyük harfi gerektiği yerde kullanmak daha nazik bir iletişim sağlar.",
+      "8": "Şifrelerde büyük ve küçük harf farklı sayılır. Şifreyi yazarken Shift ve Caps Lock durumuna dikkat etmek, giriş hatalarının önemli bir nedenini ortadan kaldırır."
+    }
+  },
+  "tus-ctrl": {
+    "ad": "Ctrl tuşu",
+    "teknik": {
+      "5": "Ctrl tuşu tek başına bir şey yapmaz. Başka bir tuşla birlikte basınca kısayol olur: Ctrl ile C seçileni kopyalar.",
+      "6": "Ctrl (Control) tuşu, başka bir tuşla birlikte basılınca kısayol komutu veren özel tuştur. Ctrl ile C kopyalar, Ctrl ile V yapıştırır, Ctrl ile Z son işlemi geri alır.",
+      "7": "Ctrl, Shift gibi bir değiştirici tuştur: yanındaki tuşun anlamını harften komuta çevirir. Kısayollar menüde gezinmeden komut vermeyi sağlar. Ctrl ile S dosyayı kaydeder, Ctrl ile A hepsini seçer.",
+      "8": "Klavye Ctrl ve C tuşlarının kodlarını aynı anda gönderir. Yazılım Ctrl basılıyken C kodunu görünce harf yazmaz, kopyalama komutunu çalıştırır. Bir kısayolu menüden 3 adımda, kısayolla 1 adımda yapıyorsak her seferinde 2 adım kazanırız."
+    },
+    "sosyal": {
+      "5": "Bir yazıyı seçip Ctrl ile C yapınca kopyalanır, başka yere Ctrl ile V yapınca yapışır.",
+      "6": "Ödevde bir kaynaktan metin kopyalamak kolaydır ama kopyalanan metni kendi yazımız gibi sunmak doğru değildir; kaynağı yazmak gerekir.",
+      "7": "Kısayol bilmek hız kazandırır. Yanlışlıkla yapılan bir silmeyi Ctrl ile Z geri alır; bu yüzden çok kullanılan en faydalı kısayollardan biridir.",
+      "8": "Kısayollar çoğu programda ortaktır. Bu, bir programı öğrenen kişinin diğerlerinde de rahat etmesini sağlar; ortak alışkanlıklar yeni yazılımların öğrenilmesini kolaylaştırır."
+    }
+  },
+  "tus-enter": {
+    "ad": "Enter tuşu",
+    "teknik": {
+      "5": "Enter tuşu yazdığımızı onaylar ya da yazıyı alt satıra geçirir.",
+      "6": "Enter tuşu, bir komutu ya da yazdığımız bilgiyi onaylamak, yazı yazarken de imleci yeni satıra geçirmek için kullanılır.",
+      "7": "Enter tuşunun işi, açık olan programa göre değişir. Bir metin belgesinde yeni satır açar, bir arama kutusunda aramayı başlatır, bir formda bilgiyi gönderir.",
+      "8": "Enter tuşu eski daktilolardaki \"satır başına dön\" hareketinden gelir ve Return adıyla da bilinir. Klavye yalnız tuş kodunu gönderir; \"yeni satır\" mı yoksa \"onayla\" mı yapılacağına açık pencere karar verir."
+    },
+    "sosyal": {
+      "5": "Arama kutusuna bir şey yazıp Enter'a basınca arama başlar.",
+      "6": "Mesajlaşma programlarında Enter'a basmak çoğu zaman mesajı gönderir; göndermeden önce yazdığımızı bir kez okumak iyi bir alışkanlıktır.",
+      "7": "Bir formda Enter'a basınca bilgilerin hemen gönderilmesi mümkündür. Bu yüzden kişisel bilgileri doldururken göndermeden önce kontrol etmek gerekir.",
+      "8": "Enter ile gönderilen bir mesaj ya da form geri alınamayabilir. İnternette gönderilen bilgi kalıcı olabilir; bu yüzden basmadan önce bir kez daha okumak gerekir."
+    }
+  },
+  "tus-bosluk": {
+    "ad": "Boşluk tuşu",
+    "teknik": {
+      "5": "Boşluk tuşu kelimeler arasına boşluk bırakır. Klavyenin en uzun tuşudur.",
+      "6": "Boşluk tuşu, kelimeler arasına boşluk koyar. Klavyenin en uzun tuşu olduğu için gözü klavyede gezdirmeden bulunur ve baş parmakla basılır.",
+      "7": "Boşluk da bir karakterdir. Bilgisayar boşluğu \"hiçbir şey\" diye değil, metne eklenen gerçek bir işaret olarak saklar. Bu yüzden bir dosya adındaki fazladan boşluk, adı başka bir ad yapabilir.",
+      "8": "Boşluk tuşu da bir tuş kodu gönderir. ASCII karakter tablosunda boşluğun kodu 32'dir. Bir metin kaç karakterden oluşuyorsa boşluklar da sayıya dahildir: \"Merhaba dünya\" 13 karakterdir."
+    },
+    "sosyal": {
+      "5": "Her kelimenin arasına boşluk koyarak yazarız; böylece yazı okunaklı olur.",
+      "6": "Ödevlerde karakter sınırı varsa boşluklar da sayılır. \"Bir kelimede kaç harf var?\" ile \"kaç karakter var?\" aynı soru değildir.",
+      "7": "Şifre yazarken başa ya da sona yanlışlıkla konan bir boşluk şifreyi değiştirir. Giriş yapılamıyorsa boşluk olup olmadığına bakmak gerekir.",
+      "8": "Programlar kelimeleri ve verileri çoğu zaman boşluğa bakarak ayırır. Küçücük bir boşluk bile bilgisayar için bir sayıdır ve yazılımın verdiği kararı değiştirebilir."
+    }
+  },
+  "fare": {
+    "ad": "Fare",
+    "teknik": {
+      "5": "Fare, ekrandaki oku hareket ettirir. Düğmesine basınca bir şeyi seçer ya da açarız. Fare bir giriş birimidir.",
+      "6": "Fare, imleci hareket ettiren ve sol ya da sağ düğmeyle seçim, açma gibi komutlar veren giriş birimidir. Ortadaki tekerlek sayfayı kaydırır.",
+      "7": "Fare, hareketini yüzeye göre ölçen bir algılayıcıyla izler ve bunu sayılara çevirir. Bilgisayar bu sayılara bakarak imleci ekranda aynı yöne götürür. Düğmeye basış da bir sinyaldir; tıklamaya anlamı, imlecin o an üstünde olduğu şey verir.",
+      "8": "Optik fare, yüzeyin görüntüsünü saniyede binlerce kez alıp bir öncekiyle karşılaştırarak kaymayı bulur. Duyarlılığı DPI ile söylenir: 800 DPI'lık fare 1 inç kayınca imleci yaklaşık 800 piksel götürür."
+    },
+    "sosyal": {
+      "5": "Oyun oynarken, resim çizerken ve internette gezerken fareyi sürekli kullanırız.",
+      "6": "Dizüstü bilgisayarlardaki dokunmatik yüzey de fare görevi görür; parmak hareketi imleci götürür.",
+      "7": "Fareyi doğru tutmak bileği korur. Bilek masaya dayalı, kol rahat ve ekran göz hizasında olmalı; uzun çalışırken ara vermek gerekir.",
+      "8": "Farklı ihtiyaçlar için farklı fareler vardır. Sol elini kullananlar ya da bileği zorlananlar için tasarlanmış fareler, aynı işi herkes için rahat hâle getirir."
+    }
+  },
+  "fare-tekerlek": {
+    "ad": "Fare tekerleği",
+    "teknik": {
+      "5": "Fare tekerleği sayfayı yukarı aşağı kaydırır. Üstüne basarsak üçüncü bir düğme gibi de çalışabilir.",
+      "6": "Tekerlek, bir sayfayı ya da listeyi yukarı aşağı kaydırır. Çoğu programda tekerleğe basmak orta düğme işi görür; örneğin bağlantıyı yeni sekmede açar.",
+      "7": "Tekerlek çevrilince fare, dönme miktarını sayı olarak bilgisayara gönderir. Yazılım bu sayıya göre sayfayı kaydırır. Ctrl tuşuyla birlikte çevrilirse çoğu programda yakınlaştırma ya da uzaklaştırma yapar.",
+      "8": "Tekerlekteki küçük bir kodlayıcı, her tıkırtıyı bir adım olarak sayar ve bilgisayara iletir. Kaç adım kaydırılacağı yazılımın ayarıdır; ayarlardan tek adımda kaç satır gideceği değiştirilebilir."
+    },
+    "sosyal": {
+      "5": "Uzun bir internet sayfasını okurken tekerlekle aşağı kaydırırız.",
+      "6": "Büyük bir tabloda ya da uzun bir belgede tekerlek yerine kaydırma çubuğunu da kullanabiliriz; tekerlek hızlı gezmeyi sağlar.",
+      "7": "Çok uzun sayfalarda tekerlek yerine Home ve End tuşları sayfanın başına ve sonuna hızlıca götürür. Hangi aracın daha hızlı olduğunu denemek verimli çalışma alışkanlığıdır.",
+      "8": "Kaydırma hızını ayarlamak, bazı kullanıcılar için okumayı kolaylaştırır. Erişilebilirlik ayarları bilgisayarı herkes için kullanışlı yapmak üzere vardır."
+    }
+  },
+  "mikrofon": {
+    "ad": "Mikrofon",
+    "teknik": {
+      "5": "Mikrofon sesimizi bilgisayara taşır. Bilgisayar mikrofonla duyar. Mikrofon bir giriş birimidir.",
+      "6": "Mikrofon, sesi elektrik sinyaline çevirerek bilgisayara aktaran giriş birimidir. Sesli mesaj kaydederken ve görüntülü konuşurken kullanılır.",
+      "7": "Mikrofonun içinde ince bir zar bulunur. Ses dalgası zarı titreştirir, mikrofon bu titreşimi elektrik sinyaline çevirir. Bilgisayar sinyali ölçüp sayılara dönüştürür. Hoparlör bu çevirinin tersini yapar.",
+      "8": "Bilgisayar mikrofon sinyalini saniyede on binlerce kez ölçüp sayıya çevirir. Saniyede 44.100 ölçüm alınıyorsa 1 saniyelik kayıt 44.100 sayıdır, 1 dakikalık kayıt 60 x 44.100 = 2.646.000 sayıdır."
+    },
+    "sosyal": {
+      "5": "Sesli mesaj gönderirken, şarkı söylerken ya da görüntülü konuşurken mikrofonu kullanırız.",
+      "6": "Mikrofon, çevredeki herkesin sesini alabilir. Başkalarının sesini izinsiz kaydetmeyiz ve paylaşmayız; kaydın durduğundan emin oluruz.",
+      "7": "Mikrofon açıkken söylenenler kayda girer. Gerekmiyorsa toplantıda ya da oyunda mikrofonu kapalı tutmak hem gürültüyü hem gizlilik riskini azaltır.",
+      "8": "Ses kaydı kişisel veridir. Bir kaydı paylaşmadan önce içinde konuşan herkesin izni olup olmadığını düşünmek, hem etik hem hukuki bir sorumluluktur."
+    }
+  },
+  "web-kamerasi": {
+    "ad": "Web kamerası",
+    "teknik": {
+      "5": "Web kamerası bilgisayarın gözüdür. Önündekileri görüntü olarak bilgisayara aktarır.",
+      "6": "Web kamerası, görüntüyü bilgisayara aktaran bir giriş birimidir. Görüntülü konuşmada ve video kaydında kullanılır.",
+      "7": "Web kamerasının içindeki algılayıcı ışığı küçük noktalar halinde elektrik sinyaline çevirir; bilgisayar bu sinyalleri görüntüye dönüştürür. Çalışırken genellikle bir ışık yanar.",
+      "8": "Web kamerası ışığı piksellere böler: 1920 x 1080 çözünürlükte bir kare yaklaşık 2,1 milyon pikseldir. Saniyede 30 kare çekilirse bir saniyede 2.073.600 x 30 = 62.208.000 piksel işlenir."
+    },
+    "sosyal": {
+      "5": "Görüntülü konuşmada bizi karşıdakine gösteren kameradır. Kamerayı yalnız izinle açarız.",
+      "6": "Görüntülü görüşmede kamerayı açmadan önce arkada başkaları olup olmadığına bak; izin almadan kimsenin görüntüsünü kaydetme ya da paylaşma.",
+      "7": "Kullanmadığın zaman kamerayı kapalı tutmak ve kapağı varsa kapatmak gizliliği korur.",
+      "8": "Görüntü kişisel veridir; kaydedilen bir video başkalarına geçerse geri alınamaz. Kamerayı yalnız gerektiğinde ve izinle kullanmak, kayıtları güvenli yerde saklamak gerekir."
+    }
+  },
+  "monitor": {
+    "ad": "Monitör",
+    "teknik": {
+      "5": "Monitör, bilgisayarın görüntü gösteren parçasıdır. Resimleri, yazıları ve videoları burada görürüz.",
+      "6": "Monitör, bilgisayarın görüntü çıkışını gösteren çıkış birimidir. Kasaya HDMI kablosuyla bağlıdır.",
+      "7": "Monitör, bilgisayardan gelen görüntü bilgisini piksellerin ışığına çevirir. Kasaya bağlanan ayrı bir çıkış birimidir; bilgisayarın kendisi değildir.",
+      "8": "Monitör, HDMI kablosundan gelen sayısal görüntü verisini her piksel için bir ışık değerine çevirir. 1920 x 1080 bir monitör 2.073.600 pikseli birlikte ışıklandırır."
+    },
+    "sosyal": {
+      "5": "Televizyon da bir ekrandır; filmleri ve oyunları büyük ekranda izleriz.",
+      "6": "Okulda akıllı tahta, projeksiyon ve bilgisayar monitörleri bilgiyi sınıfa gösterir.",
+      "7": "Uzun süre ekrana bakmak gözü yorar. Arada uzağa bakıp gözü dinlendirmek iyi bir alışkanlıktır.",
+      "8": "Ekran parlaklığını ortama göre ayarlamak göz yorgunluğunu ve enerji tüketimini azaltır."
+    }
+  },
+  "ekran": {
+    "ad": "Ekran ve pikseller",
+    "teknik": {
+      "5": "Ekran, çok küçük noktalardan (piksellerden) oluşur. Noktalar çoksa resim net görünür.",
+      "6": "Ekran, görüntüyü piksel denilen küçük noktalarla oluşturur. Yatay ve dikey piksel sayısına çözünürlük denir.",
+      "7": "Ekrandaki her piksel genellikle kırmızı, yeşil ve mavi ışığın karışımından oluşan renkte yanar. Piksel sayısı arttıkça ayrıntı artar.",
+      "8": "Ekran, çözünürlüğü kadar pikselden oluşur: 1920 x 1080 ekranda 2.073.600 piksel vardır. Bir pikselin gerçek boyu, ekranın boyuna ve çözünürlüğüne göre değişir."
+    },
+    "sosyal": {
+      "5": "Telefon ve televizyon ekranları da piksellerden oluşur.",
+      "6": "Telefonun ekranı küçüktür ama pikseli çoktur; bu yüzden görüntü net görünür.",
+      "7": "Çoğu ekran ve video 16:9 oranındadır; bu yüzden ekranlar yatay ve geniş görünür.",
+      "8": "Çok yüksek çözünürlüklü bir ekran aynı boyutta daha ince ayrıntı gösterir ama bilgisayardan daha çok işlem gücü ister."
+    }
+  },
+  "hoparlor": {
+    "ad": "Hoparlör",
+    "teknik": {
+      "5": "Hoparlör bilgisayardaki sesi bize duyurur. Hoparlör bir çıkış birimidir.",
+      "6": "Hoparlör, bilgisayardaki ses bilgisini duyulabilir hâle getiren çıkış birimidir. Müzik, video sesi ve uyarı sesleri hoparlörden gelir.",
+      "7": "Hoparlörün içinde bir mıknatıs ve ileri geri titreşen bir zar vardır. Bilgisayardan gelen elektrik sinyali zarı oynatır, zar havayı titreştirir ve ses oluşur. İki hoparlör sol ve sağ kulağa farklı ses vererek sesin yönünü hissettirir.",
+      "8": "Hoparlör zarı saniyede kaç kez titreşirse sesin frekansı o kadar hertz olur. Müzikteki la notası 440 Hz'dir: zar saniyede 440 kez gidip gelir. İnsan kulağı yaklaşık 20 Hz ile 20.000 Hz arasını duyar."
+    },
+    "sosyal": {
+      "5": "Müziği ve filmleri hoparlörden dinleriz. Yüksek sesli müzik komşuyu rahatsız edebilir.",
+      "6": "Sınıfta ya da kütüphanede hoparlör yerine kulaklık kullanmak, diğer kişileri rahatsız etmemenin kibar yoludur.",
+      "7": "Ses seviyesi dB ile ölçülür. Çok yüksek sesle uzun süre dinlemek işitmeye zarar verir; ses seviyesini düşük tutmak kulağı korur.",
+      "8": "Uzun süre yüksek sese maruz kalmak işitme kaybına yol açabilir. Hoparlör ya da kulaklıkta güvenli ses düzeyini bilmek, sağlıklı dijital alışkanlığın parçasıdır."
+    }
+  },
+  "yazici": {
+    "ad": "Yazıcı",
+    "teknik": {
+      "5": "Yazıcı, bilgisayardaki yazıyı ve resmi kâğıda basar. Yazıcı bir çıkış birimidir.",
+      "6": "Yazıcı, bilgisayardaki yazı ve resmi kâğıda basan çıkış birimidir. Kâğıda basılan sayfaya çıktı denir. Yazıcı kasaya çoğunlukla USB ile bağlanır.",
+      "7": "Yazıcı, sayfanın görüntüsünü bilgisayardan sayılar olarak alır ve kâğıda küçük noktalar hâlinde basar. Mürekkep püskürtmeli yazıcı mürekkep damlatır, lazer yazıcı toner denen tozu kâğıda ısıyla yapıştırır.",
+      "8": "Yazıcının çözünürlüğü DPI ile söylenir. 600 x 600 DPI'da 1 inç karenin içinde 600 x 600 = 360.000 nokta bulunur. Nokta sayısı arttıkça çıktı ayrıntılı olur ama mürekkep ve zaman daha çok harcanır."
+    },
+    "sosyal": {
+      "5": "Okulda ödevlerimizi ve belgelerimizi yazıcıdan çıktı olarak alırız.",
+      "6": "Çıktı almadan önce gerçekten gerekli olup olmadığını düşünmek kâğıt tasarrufu sağlar. İki yüzlü yazdırmak kâğıdı yarıya indirir.",
+      "7": "Ortak yazıcıda kişisel belgeleri unutmamak gerekir. Çıktıyı hemen alıp başkalarının görebileceği yerde bırakmamak gizliliği korur.",
+      "8": "Mürekkep kartuşları ve tonerler doğaya zarar verebilir. Boşalan kartuşların geri dönüşüm kutusuna ya da toplama noktalarına verilmesi gerekir."
+    }
+  },
+  "kulaklik": {
+    "ad": "Mikrofonlu kulaklık",
+    "teknik": {
+      "5": "Kulaklık sesi kulağımıza verir, kolundaki mikrofon sesimizi bilgisayara taşır. Yani hem çıkış hem giriş birimidir.",
+      "6": "Mikrofonlu kulaklık hem çıkış hem giriş birimidir. Kulaklık kısmı sesi kullanıcıya aktarır (çıkış), mikrofon kısmı kullanıcının sesini bilgisayara aktarır (giriş).",
+      "7": "Mikrofonlu kulaklık, tek gövdede iki ayrı görev taşır. Hoparlör bilgisayardan kullanıcıya, mikrofon kullanıcıdan bilgisayara bilgi taşır. Cihazı bütün olarak değil, görevlerine göre sınıflandırırız. Mikrofonsuz kulaklık yalnız çıkış birimidir.",
+      "8": "Mikrofonlu kulaklıkta iki hoparlör zarı çıkış, bir mikrofon zarı giriş görevi yapar. Masadaki kulaklık kasaya tek bir USB kablosuyla bağlanır; bu kablo hem ses alır hem ses gönderir."
+    },
+    "sosyal": {
+      "5": "Görüntülü derse katılırken kulaklıkla hem öğretmeni duyar hem de konuşabiliriz.",
+      "6": "Kulaklık, başkalarını rahatsız etmeden ders dinlemeyi ve oyun oynamayı sağlar.",
+      "7": "Kulaklıkta sesi düşük tutmak ve düzenli ara vermek kulağı korur. Ortak kullanılan kulaklıkları temizlemek hijyen için önemlidir.",
+      "8": "Bilgisayarda birden fazla ses cihazı olabilir: hoparlör, kulaklık, mikrofon. Ayarlardan doğru cihazın seçili olduğuna bakmak gerekir; yanlış seçilirse ses gelmez ya da mikrofon çalışmaz."
+    }
+  },
+  "kulaklik-mikrofon": {
+    "ad": "Kulaklığın mikrofonu",
+    "teknik": {
+      "5": "Kulaklığın ucundaki küçük mikrofon sesimizi bilgisayara taşır. Bu yüzden kulaklığın bu parçası bir giriş birimidir.",
+      "6": "Kulaklığın mikrofonu, kullanıcının sesini bilgisayara aktaran giriş parçasıdır. Kulaklığın hoparlör kısmı ise çıkış parçasıdır.",
+      "7": "Kulaklığın mikrofonu, ses dalgasını elektrik sinyaline çevirir. Bilginin yönü bilgisayara doğrudur; bu yüzden aynı gövdenin içinde olmasına rağmen giriş görevi yapar.",
+      "8": "Kulaklığın mikrofonu tek zar taşır ve sesi sinyale çevirir. Bilgisayar bu sinyali saniyede on binlerce kez ölçüp sayıya çevirir, sonra kaydeder ya da karşı tarafa gönderir."
+    },
+    "sosyal": {
+      "5": "Görüntülü konuşurken arkadaşımız bizi kulaklığın mikrofonu sayesinde duyar.",
+      "6": "Mikrofonu ağzımıza yakın tutarsak sesimiz daha net duyulur. Yakında konuşmak çevredeki gürültünün karışmasını da azaltır.",
+      "7": "Kulaklığın mikrofonunu kapatma düğmesi ya da ayarı vardır. Konuşmadığımız zaman kapatmak hem gürültüyü hem de çevredeki konuşmaların istemeden paylaşılmasını önler.",
+      "8": "Mikrofon açıkken söylenen her şey karşı tarafa iletilir. Toplantıda mikrofonun açık olup olmadığını kontrol etmek, kişisel bilgilerin istemeden paylaşılmasını önleyen iyi bir alışkanlıktır."
+    }
+  },
+  "usb-bellek": {
+    "ad": "USB bellek",
+    "teknik": {
+      "5": "USB bellek, dosyalarımızı saklayan küçük bir depodur. Bilgisayara takıp çıkarabiliriz.",
+      "6": "USB bellek, dosyaları saklayan, takılıp çıkarılabilen küçük bir depolama birimidir. Bilgisayarın USB girişine takılır ve dosyalar bir bilgisayardan diğerine taşınır.",
+      "7": "USB bellek bir depolama birimidir: bilgiyi elektrik kesilse de saklar. İçinde hareketli parça yoktur, bu yüzden darbeye dayanıklıdır. Çıkarmadan önce \"güvenle kaldır\" yapmak, yazma işleminin bittiğinden emin olmayı sağlar.",
+      "8": "Kapasite GB ile söylenir. Bir GB yaklaşık 1000 MB olduğundan 32 GB'lık bellek yaklaşık 32.000 MB tutar. Bir fotoğraf ortalama 4 MB ise 32.000 / 4 = 8.000 fotoğraf sığar."
+    },
+    "sosyal": {
+      "5": "Okuldaki ödevimizi USB belleğe kaydedip eve götürebiliriz.",
+      "6": "Önemli dosyaların bir kopyasını başka bir yerde de saklamak (yedek almak) iyi bir alışkanlıktır; USB bellek kaybolabilir ya da bozulabilir.",
+      "7": "Tanımadığımız bir USB belleği bilgisayara takmak zararlı yazılım riski taşır. Kimin olduğunu bilmediğimiz belleği takmamalıyız.",
+      "8": "Bellekte kişisel veriler varsa kayıp durumunda başkalarına geçebilir. Önemli dosyaları parolayla korumak ya da bulutta saklamak bu riski azaltır."
+    }
+  },
+  "kasa": {
+    "ad": "Kasa",
+    "teknik": {
+      "5": "Kasa, bilgisayarın ana parçalarını içinde taşıyan kutudur. Bu derste kapalı kalır.",
+      "6": "Kasa, bilgisayarın ana parçalarını içinde taşıyan ve koruyan kutudur. Klavye, fare, monitör gibi dış parçalar kasaya kablolarla bağlanır.",
+      "7": "Kasa, işlemci, anakart, bellek ve depolama gibi parçaları bir arada tutar ve toza, darbeye karşı korur. Bilgisayarın asıl işlemleri kasanın içinde yapılır; monitör bilgisayarın kendisi değil, bir çıkış birimidir.",
+      "8": "Kasanın içindeki parçalar çalışırken ısınır. Bu yüzden kasada hava girişi ve çıkışı bulunur, fanlar havayı dolaştırır. Kasanın havalandırma deliklerini kapatmak ısınmaya yol açar."
+    },
+    "sosyal": {
+      "5": "Bilgisayar masasının altında ya da üstünde duran büyük kutu kasadır.",
+      "6": "Dizüstü bilgisayarlarda kasa ekranla ve klavyeyle tek parçada birleşmiştir.",
+      "7": "Kasayı açmak tehlikelidir. İçinde elektrik ve keskin kenarlar bulunabilir; kasa yalnız yetkili bir kişi tarafından, fişi çekilmiş hâlde açılmalıdır.",
+      "8": "Kasanın içindeki parçalar zamanla toz tutar. Düzenli temizlik bilgisayarın daha uzun ömürlü ve sessiz çalışmasını sağlar."
+    }
+  },
+  "guc-dugmesi": {
+    "ad": "Güç düğmesi",
+    "teknik": {
+      "5": "Güç düğmesi bilgisayarı açar ve kapatır.",
+      "6": "Güç düğmesi, bilgisayarı açan ve kapatan düğmedir. Kasanın ön yüzünde bulunur.",
+      "7": "Güç düğmesi bilgisayara \"çalış\" ya da \"kapan\" bilgisi gönderir. Çalışan bir bilgisayarı düğmeye uzun süre basarak kapatmak, açık dosyaların kaydedilmesini engelleyebilir. Normalde kapat komutu kullanılır.",
+      "8": "Güç düğmesi, anakarta \"aç\" ya da \"kapan\" sinyali gönderen basit bir anahtardır. Kapatırken işletim sistemi önce açık programları kapatır ve verileri kaydeder; düğmeyle zorla kapatmada bu işlem atlanır."
+    },
+    "sosyal": {
+      "5": "Bilgisayarı sabah açmak ve işimiz bitince kapatmak için güç düğmesini kullanırız.",
+      "6": "Bilgisayar donduğunda düğmeye basılı tutmak son çare olarak kullanılır; çünkü kaydedilmemiş çalışma kaybolabilir.",
+      "7": "Kullanılmayan bilgisayarı kapatmak elektrik tasarrufu sağlar. Cihazlar uykuda da az miktarda elektrik harcar.",
+      "8": "Bilgisayarlar çalışırken ve uykuda elektrik tüketir. Kullanılmayan cihazları kapatmak hem faturayı hem de enerji tüketimini azaltır."
+    }
+  },
+  "usb-girisi": {
+    "ad": "USB girişi",
+    "teknik": {
+      "5": "USB girişi, klavye, fare, yazıcı ve USB bellek gibi cihazların takıldığı yerdir.",
+      "6": "USB girişi, cihazları kasaya bağlayan ortak bir bağlantı noktasıdır. Klavye, fare, web kamerası, yazıcı ve USB bellek buraya takılır. Bu giriş, bilgi gönderen \"giriş birimi\" ile aynı şey değildir.",
+      "7": "USB girişi hem veri hem az miktarda elektrik taşır; bu yüzden klavye ve fare gibi küçük cihazlar ayrı bir güç kablosuna ihtiyaç duymaz. USB-A fiş yalnız tek yönde takılır; yanlış yönde zorlamak girişe zarar verir.",
+      "8": "USB girişi 5 V verir. USB 2.0 saniyede yaklaşık 480 Mbit, USB 3.0 yaklaşık 5 Gbit veri taşıyabilir; yani USB 3.0 kabaca on kat daha hızlıdır. Girişin içindeki renk (mavi gibi) çoğu zaman sürümü gösterir ama kesin kural değildir."
+    },
+    "sosyal": {
+      "5": "Telefonu şarj ederken ve bilgisayara fare bağlarken USB kullanırız.",
+      "6": "Bir giriş doluysa USB çoğaltıcı kullanabiliriz; bu, tek girişe birden fazla cihaz takmayı sağlar.",
+      "7": "USB girişlerine tanımadığımız cihaz takmak risklidir. Bilmediğimiz bir bellek ya da şarj kablosu bilgisayara zarar verebilir.",
+      "8": "Ortak bir standart olduğu için aynı kabloyu birçok cihazda kullanabiliriz. Bu, gereksiz kablo üretimini ve elektronik atığı azaltmaya yardım eder."
+    }
+  },
+  "ses-jaklari": {
+    "ad": "Ses girişleri",
+    "teknik": {
+      "5": "Ses girişleri kulaklık, mikrofon ve hoparlör kablolarının takıldığı yuvalardır. Renkleri hangisinin nereye takılacağını söyler.",
+      "6": "Ses jakları, ses cihazlarının kasaya bağlandığı yuvalardır. Pembe jak mikrofon, yeşil jak hoparlör ya da kulaklık içindir. Yanlarındaki simge de hangisinin ne olduğunu gösterir.",
+      "7": "Ses jaklarında renk kodu vardır: pembe mikrofon girişi, yeşil ses çıkışı (hoparlör ya da kulaklık), mavi ise ses girişidir. Mikrofon yeşil jaka takılırsa ses kaydedilmez, hoparlör pembe jaka takılırsa ses çıkmaz.",
+      "8": "Geleneksel ses jakı analog ses sinyali taşır. Bilgisayarın ses devresi (ses kartı) çıkışta sayıyı sinyale, girişte sinyali sayıya çevirir. Jaklar genellikle 3,5 milimetrelik fişlere uyar."
+    },
+    "sosyal": {
+      "5": "Birçok telefonda, tablette ve bilgisayarda kulaklık takılan yuva bir ses jakıdır.",
+      "6": "Kulaklık ya da hoparlör çalışmıyorsa önce doğru jaka takılı olup olmadığına bakarız; renkler bunu kolaylaştırır.",
+      "7": "3,5 milimetrelik fiş yaygın bir standart olduğu için aynı kulaklık birçok cihazda kullanılabilir. Kablosuz kulaklıklar ise jaka ihtiyaç duymaz.",
+      "8": "Fişi çekerken kablodan değil fişin gövdesinden tutmak jakın ve kablonun ömrünü uzatır. Gevşeyen jaklar ses kesilmesine yol açabilir."
+    }
+  },
+  "hdmi-girisi": {
+    "ad": "HDMI girişi",
+    "teknik": {
+      "5": "HDMI girişi, görüntüyü monitöre taşıyan kablonun takıldığı yerdir.",
+      "6": "HDMI girişi, bilgisayarın görüntüsünü ve sesini monitöre taşıyan HDMI kablosunun takıldığı bağlantı noktasıdır. Masadaki monitör buraya bağlanır.",
+      "7": "HDMI girişi görüntü ve ses bilgisini tek kabloda sayısal olarak taşır. Bu yüzden monitöre ayrıca bir ses kablosu çekmek gerekmeyebilir. HDMI fişi yalnız doğru yönde yuvaya girer.",
+      "8": "HDMI sayısal bir bağlantıdır: piksellerin ve sesin sayıları kablodan akar. Çözünürlük ve görüntü yenileme hızı arttıkça kablodan geçmesi gereken veri de artar. 1920 x 1080 bir ekranda tek karede yaklaşık 2,1 milyon pikselin bilgisi taşınır."
+    },
+    "sosyal": {
+      "5": "Bilgisayarı televizyona bağlarken de HDMI girişini kullanırız.",
+      "6": "Projeksiyon cihazları ve televizyonlar da HDMI girişiyle bilgisayara bağlanır.",
+      "7": "HDMI kablosunu takarken ve çıkarırken fişi düz tutmak, girişin ve kablonun zarar görmesini önler.",
+      "8": "Ortak bir standart olduğu için bilgisayar, oyun konsolu ve projeksiyon gibi farklı cihazlar aynı girişe bağlanabilir; bu uyumluluk gereksiz kablo alımını azaltır."
+    }
+  },
+  "ag-girisi": {
+    "ad": "Ağ girişi",
+    "teknik": {
+      "5": "Ağ girişi, internet kablosunun takıldığı yerdir.",
+      "6": "Ağ girişi (ethernet girişi), bilgisayarı kabloyla ağa ve internete bağlayan kablonun takıldığı bağlantı noktasıdır. Kablosuz bağlantıda (Wi-Fi) bu kabloya gerek yoktur.",
+      "7": "Ağ girişine takılan kablo, bilgisayarı modeme ya da yönlendiriciye bağlar. Kablolu bağlantı çoğu zaman kablosuzdan daha kararlıdır; çünkü sinyal havada değil kabloda taşınır ve duvar gibi engellerden etkilenmez.",
+      "8": "Ağ kablosunun ucundaki fiş, telefon fişine benzer ama daha büyüktür. Bilgisayar ağdaki diğer cihazlarla veri paketleri yollayarak konuşur; bu paketler kablodan sayısal sinyal olarak akar."
+    },
+    "sosyal": {
+      "5": "Evdeki modeme kabloyla bağlanan bir bilgisayarın internet hızı çoğu zaman daha kararlıdır.",
+      "6": "Okulun bilgisayar laboratuvarındaki bilgisayarlar genellikle ağ kablosuyla bağlıdır.",
+      "7": "Halka açık ve şifresiz Wi-Fi ağlarında kişisel bilgilerimizi paylaşmak risklidir. Kablolu ağ, bu bakımdan daha kontrollü bir bağlantı sağlar.",
+      "8": "Kablolu bağlantı genellikle daha az kesinti yaşatır; bu yüzden masaüstü bilgisayarlarda ve okul laboratuvarlarında sabit bağlantı için çoğu zaman tercih edilir."
+    }
+  },
+  "guc-girisi": {
+    "ad": "Güç kablosu girişi",
+    "teknik": {
+      "5": "Güç kablosu girişi, prizden gelen elektriğin kasaya girdiği yerdir.",
+      "6": "Güç kablosu girişi, kasayı prize bağlayan kalın kablonun takıldığı yerdir. Kablo, prizdeki elektriği kasanın güç kaynağına getirir.",
+      "7": "Güç kablosu prizdeki elektriği kasaya getirir. Bu elektrik yüksek gerilimlidir; kasanın içindeki güç kaynağı onu parçaların kullanabileceği düşük gerilime çevirir. Bilgi taşıyan USB ya da HDMI gibi kabloların aksine bu kablo yalnız elektrik taşır.",
+      "8": "Prizdeki elektrik yaklaşık 220 V alternatif akımdır. Güç girişinden giren bu elektrik güç kaynağında 3,3 V, 5 V ve 12 V gibi düşük gerilimlere çevrilir; bilgisayar parçaları bu değerlerle çalışır."
+    },
+    "sosyal": {
+      "5": "Bilgisayarı çalıştırmak için güç kablosunu prize takmak gerekir.",
+      "6": "Dizüstü bilgisayarın şarj aleti de kasaya elektrik getiren bir güç kablosudur.",
+      "7": "Güç kablosunu ve prizi ıslak elle tutmayız. Kabloyu çekerken kablodan değil fişin gövdesinden tutarız; zedelenmiş kablo kullanılmamalıdır.",
+      "8": "Kullanılmayan cihazın fişini çekmek ya da düğmeli prizle kapatmak boşa giden elektriği azaltır."
+    }
+  },
+  "guc-kaynagi": {
+    "ad": "Güç kaynağı",
+    "teknik": {
+      "5": "Güç kaynağı, prizdeki elektriği bilgisayar parçalarının kullanabileceği hale getirir. Kasanın içindedir.",
+      "6": "Güç kaynağı, prizden gelen elektriği bilgisayar parçalarının kullanabileceği düşük gerilime çeviren parçadır. Kasanın içinde bulunur ve parçalara kablolarla elektrik dağıtır.",
+      "7": "Güç kaynağı yüksek gerilimli şebeke elektriğini bilgisayarın ihtiyacı olan düşük gerilimlere çevirir. Üzerinde bir fan bulunur, çünkü çalışırken ısınır. Bilgisayarın tüm parçaları elektriğini buradan alır.",
+      "8": "Güç kaynağı yaklaşık 220 V alternatif akımı 3,3 V, 5 V ve 12 V doğru akıma çevirir. Gücü watt (W) ile söylenir: örneğin 500 W'lık bir güç kaynağı en fazla 500 watt güç verebilir."
+    },
+    "sosyal": {
+      "5": "Telefon şarj aleti de prizdeki elektriği telefonun kullanabileceği hâle getirir; güç kaynağı buna benzer bir iş yapar.",
+      "6": "Güç kaynağını yalnızca yetkili kişiler açar. Fiş çekilmiş olsa bile içinde bir süre elektrik tutan parçalar bulunur.",
+      "7": "Kalitesiz bir güç kaynağı bilgisayardaki diğer parçalara zarar verebilir. Parçalara giden elektriğin kararlı olması bilgisayarın ömrünü uzatır.",
+      "8": "Güç kaynağının verimliliği, harcanan elektriğin ne kadarının işe yaradığını gösterir. Verimli kaynak daha az ısınır ve daha az elektrik tüketir."
+    }
+  }
+}

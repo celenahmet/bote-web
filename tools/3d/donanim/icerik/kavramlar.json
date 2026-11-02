@@ -1,0 +1,257 @@
+{
+  "bilgisayar-sistemi": {
+    "ad": "Bilgisayar sistemi",
+    "teknik": {
+      "5": "Bilgisayar sistemi, bilgisayarın dokunabildiğimiz parçalarıyla ekrandaki programlarının birlikte çalışmasıdır.",
+      "6": "Bilgisayar sistemi, donanım ve yazılım bileşenlerinin birlikte çalıştığı yapıdır.",
+      "7": "Bilgisayar sistemi, donanımın yazılımsız, yazılımın da donanımsız çalışamadığı bir bütündür: giriş birimleri, işlem yapan parçalar, çıkış birimleri ve programlar birlikte çalışır.",
+      "8": "Bilgisayar sistemi, bilginin girdi, işlem ve çıktı aşamalarından geçtiği bir bütündür: giriş birimleri bilgiyi alır, işlemci yazılımın yönergesiyle işler, çıkış birimleri sonucu verir."
+    },
+    "sosyal": {
+      "5": "Okuldaki ve evdeki bilgisayarlar, tabletler ve telefonlar birer bilgisayar sistemidir.",
+      "6": "Akıllı tahta, kütüphane bilgisayarı ve cep telefonu gibi pek çok cihaz birer bilgisayar sistemidir.",
+      "7": "Okul kayıtlarından market kasalarına kadar birçok işte bilgisayar sistemleri çalışır; bir parçası bozulursa tüm sistem aksayabilir.",
+      "8": "Bilgisayar sistemleri yalnız masaüstünde değil, telefonda, otomobilde ve ev aletlerinde de vardır; hepsinde aynı giriş, işlem, çıkış düzeni bulunur."
+    }
+  },
+  "donanim": {
+    "ad": "Donanım",
+    "teknik": {
+      "5": "Donanım, bilgisayarın elle dokunabildiğimiz parçalarıdır: klavye, fare, ekran gibi.",
+      "6": "Donanım, bilgisayarın fiziksel parçalarıdır (ör. klavye, ekran, işlemci).",
+      "7": "Donanım, bilgisayarın maddesel parçalarıdır; yazılımın çalışması için gereken yeri ve gücü sağlar. Donanım olmadan yazılım çalışamaz.",
+      "8": "Donanım fiziksel nesnelerden oluşur; kütlesi, hacmi ve enerji tüketimi vardır. Bir parçanın donanım olup olmadığını \"Elle tutulabilir mi?\" diye sınayabiliriz."
+    },
+    "sosyal": {
+      "5": "Telefonun ekranı, hoparlörü ve kamerası donanımdır.",
+      "6": "Okulda klavye, fare, yazıcı ve akıllı tahta donanımın örnekleridir; bozulunca tamir edilir.",
+      "7": "Donanım zamanla yıpranır ve eskir; bozulan donanımı atmadan önce onarılabilir mi diye düşünmek hem para hem doğa için iyidir.",
+      "8": "Eski donanım elektronik atığa dönüşür; bu atıkların çöpe atılmayıp elektronik atık toplama noktalarına verilmesi gerekir."
+    }
+  },
+  "yazilim": {
+    "ad": "Yazılım",
+    "teknik": {
+      "5": "Yazılım, bilgisayara ne yapacağını söyleyen programlardır. Ekranda gördüğümüz pencereler yazılımın işidir.",
+      "6": "Yazılım, donanıma ne yapacağını söyleyen programlardır. Yazılım olmadan donanım ne yapacağını bilemez.",
+      "7": "Yazılım, donanımın ne zaman ne yapacağını belirleyen komut dizisidir. Aynı donanım farklı yazılımla farklı işler yapar: aynı ekran bir oyunu da bir belgeyi de gösterebilir.",
+      "8": "Yazılım komutlardan ve verilerden oluşur; depolama biriminde saklanır, çalışırken bellekte yer tutar. Fiziksel bir nesne olmadığı için kolayca kopyalanabilir."
+    },
+    "sosyal": {
+      "5": "Oyunlar, çizim programları ve film oynatıcılar birer yazılımdır.",
+      "6": "Telefondaki uygulamalar da yazılımdır; yeni bir uygulama yüklemek telefona yeni bir yazılım eklemektir.",
+      "7": "Yazılımı yazan insanlara yazılımcı denir; programlama bu mesleğin temelidir. Lisanslı bir yazılımı izinsiz çoğaltmak, onu yazanların emeğine saygısızlıktır.",
+      "8": "Yazılımlar güncellenir: aynı donanım yeni bir yazılımla yeni işler yapabilir. Güncellemeleri zamanında yapmak güvenliği de artırır."
+    }
+  },
+  "veri": {
+    "ad": "Veri",
+    "teknik": {
+      "5": "Veri, bilgisayarın işleyebileceği bilgidir: bir harf, bir ses ya da bir resim gibi.",
+      "6": "Veri, bilgisayarın işlediği ve sakladığı bilgilerdir (yazı, ses, görüntü, sayı).",
+      "7": "Veri, bilgisayarın içinde sayılar olarak tutulur. Yazı, ses ve görüntü ayrı görünse de bilgisayar için hepsi sayı dizisidir.",
+      "8": "Bilgisayarda her veri en sonunda 0 ve 1'lerden, yani bitlerden oluşan sayılarla gösterilir. Bir harf, bir ses ölçümü ya da bir pikselin rengi sayıya çevrildikten sonra işlenir."
+    },
+    "sosyal": {
+      "5": "Fotoğraflarımız, şarkılarımız ve yazdığımız mesajlar birer veridir.",
+      "6": "Ödevlerin, fotoğrafların ve oyun puanların bilgisayarda veri olarak saklanır.",
+      "7": "Kişisel veriler (adın, adresin, fotoğrafın) seni tanıtır; bunları tanımadığın kişilerle paylaşmamak gerekir.",
+      "8": "Kişisel veri, bir kişiyi tanıtan her türlü bilgidir; ses ve görüntü kaydı da bunlara girer. Başkasının verisini izinsiz kaydetmek ya da paylaşmak hem etik hem hukuki sorun doğurabilir."
+    }
+  },
+  "girdi-birimi": {
+    "ad": "Giriş birimi (girdi birimi)",
+    "teknik": {
+      "5": "Giriş birimi, bilgisayara bilgi taşıyan parçadır. Klavye, fare, mikrofon ve kamera birer giriş birimidir.",
+      "6": "Giriş birimi, kullanıcıdan bilgisayara veri aktaran donanımdır (ör. klavye, fare).",
+      "7": "Giriş birimi, insandan ya da çevreden aldığı bilgiyi (tuşa basma, hareket, ses, ışık) elektrik sinyaline çevirip bilgisayara gönderen cihazdır.",
+      "8": "Giriş birimi fiziksel bir olayı elektrik sinyaline çevirir; bilgisayar bu sinyali sayıya dönüştürerek işler. Bilginin yönü bilgisayara doğrudur."
+    },
+    "sosyal": {
+      "5": "Telefonda ekrana dokunmak, sesimizle komut vermek ve fotoğraf çekmek giriş birimlerini kullanmaktır.",
+      "6": "Oyun kolu, çizim tableti ve barkod okuyucu da giriş birimidir; marketlerde kasadaki okuyucu ürünün bilgisini bilgisayara böyle aktarır.",
+      "7": "Sesli komutlar mikrofonla, görüntülü konuşmalar kameralarla yapılır. Bu giriş birimleri çevredeki başkalarının sesini ve görüntüsünü de alabildiği için nerede ve kimin yanında kullanıldıkları önemlidir.",
+      "8": "Kamera ve mikrofon, kullanıcının bilinçli hareketinden çok ortamı kaydeder. İzinsiz kayıt kişisel veri sorunu yaratır; bu yüzden cihazlar çoğu zaman çalıştığını ışıkla ya da uyarıyla belli eder."
+    }
+  },
+  "cikti-birimi": {
+    "ad": "Çıkış birimi (çıktı birimi)",
+    "teknik": {
+      "5": "Çıkış birimi, bilgisayarın bize cevap verdiği parçadır. Ekran gösterir, hoparlör konuşur, yazıcı kâğıda yazar.",
+      "6": "Çıkış birimi, bilgisayarın işlediği bilgiyi kullanıcıya aktaran donanımdır (ör. yazıcı, ekran).",
+      "7": "Çıkış birimi, bilgisayardaki sayıları bizim algılayabileceğimiz bir biçime çevirir: ışığa, sese ya da kâğıt üstündeki izlere. Bilginin yönü bilgisayardan dışarıya doğrudur.",
+      "8": "Çıkış birimi sayısal bilgiyi fiziksel bir etkiye çevirir: ekran ışık yayar, hoparlör havayı titreştirir, yazıcı kâğıtta iz bırakır. Giriş birimiyle çeviri yönü terstir."
+    },
+    "sosyal": {
+      "5": "Televizyon ve telefon ekranı, kulaklık ve yazıcı çıkış birimidir.",
+      "6": "Okulda akıllı tahta, projeksiyon ve yazıcı çıkış birimidir; ödevlerin çıktısı yazıcıdan alınır.",
+      "7": "Kâğıda çıktı almak kaynak harcar. Gereksiz çıktı almamak ve ekrandan okumak hem kâğıttan hem paradan tasarruf sağlar.",
+      "8": "Yazıcılar kâğıt, mürekkep ya da toner tüketir. Çıktı almadan önce gerçekten gerekip gerekmediğini düşünmek ve iki yüzlü basmak kaynak tasarrufu sağlar."
+    }
+  },
+  "hem-girdi-hem-cikti": {
+    "ad": "Hem giriş hem çıkış birimi",
+    "teknik": {
+      "5": "Bazı cihazlar hem bilgi alır hem bilgi verir. Mikrofonlu kulaklık böyledir: kulaklık sesi verir, mikrofonu sesimizi alır.",
+      "6": "Bazı donanımlar hem giriş hem çıkış birimidir (ör. mikrofonlu kulaklık, dokunmatik ekran). Bu cihazlarda iki görev ayrı parçalarla ya da aynı yüzeyle yapılır.",
+      "7": "Bir cihaz iki yönde bilgi taşıyorsa görevlerine göre sınıflandırırız: mikrofonlu kulaklığın hoparlörü çıkış, mikrofonu giriştir. Cihaz bir bütün olsa da görevler ayrıdır.",
+      "8": "İki yönlü cihazlar iki ayrı dönüşüm yapar: biri fiziksel olayı sinyale (giriş), biri sinyali fiziksel etkiye (çıkış) çevirir. Dokunmatik ekranda bu iki görev aynı yüzeyde birleşir."
+    },
+    "sosyal": {
+      "5": "Telefonla konuşurken hem dinleriz hem konuşuruz; telefonun hoparlörü ve mikrofonu birlikte çalışır.",
+      "6": "Tabletler ve akıllı tahtalar dokunmatik ekranla hem görüntü gösterir hem dokunuşumuzu alır.",
+      "7": "Görüntülü konuşma hem kameraya hem ekrana hem mikrofona hem hoparlöre ihtiyaç duyar: dört görevin hepsi aynı anda çalışır.",
+      "8": "İki yönlü cihazlarda giriş tarafı açıkken konuşulan her şey bilgisayara iletilir. Bu yüzden toplantı ya da oyun sırasında mikrofonu gerekmiyorsa kapalı tutmak iyi bir alışkanlıktır."
+    }
+  },
+  "dokunmatik-ekran": {
+    "ad": "Dokunmatik ekran",
+    "teknik": {
+      "5": "Dokunmatik ekran hem resmi gösterir hem de parmağımızın nereye dokunduğunu anlar.",
+      "6": "Dokunmatik ekran, görüntü gösteren bir çıkış birimi ve dokunulan yeri algılayan bir giriş birimidir; ikisi aynı yüzeydedir.",
+      "7": "Dokunmatik ekranın yüzeyi parmağın konumunu algılar; bilgisayar bu konumu ekrandaki bir simgeyle eşleştirip dokunuşa anlam verir.",
+      "8": "Dokunmatik ekran, dokunulan noktayı (x, y) koordinatı olarak bildirir. 1920 x 1080 bir ekranın orta noktası (960, 540) koordinatındadır; yazılım bu konuma bakarak hangi düğmeye basıldığını bulur."
+    },
+    "sosyal": {
+      "5": "Telefon, tablet ve bazı akıllı tahtalar dokunmatik ekranlıdır.",
+      "6": "Tabletlerde ve akıllı tahtalarda yazı yazmak, çizmek ve kaydırmak için parmak yeterlidir.",
+      "7": "Dokunmatik ekran fare ve klavye gerektirmediği için küçük çocuklar ve ilk kez bilgisayar kullananlar için kolaylık sağlar.",
+      "8": "Parmak izi ve kir dokunmatik ekranın algısını bozabilir; ekranı yumuşak bir bezle silmek hem doğruluğu hem ömrü korur."
+    }
+  },
+  "ozel-tuslar": {
+    "ad": "Özel tuşlar",
+    "teknik": {
+      "5": "Özel tuşlar harf yazdırmaz, başka işler yapar: Esc vazgeçer, Shift büyük harf yazdırır, Enter alt satıra geçirir.",
+      "6": "Özel tuşlar (Ctrl, Esc, Shift gibi) harf yazdırmak yerine bir işlemi yönetir ya da başka tuşların anlamını değiştirir.",
+      "7": "Ctrl, Shift ve Alt gibi tuşlar tek başına bir şey yapmaz; başka bir tuşla birlikte basılınca onun anlamını değiştirir. Çoğu bilgisayarda Ctrl + C kopyalar, Ctrl + V yapıştırır, Ctrl + Z son işlemi geri alır.",
+      "8": "Klavye özel tuşlar için de tuş kodu gönderir; yazılım aynı anda basılı kodlara bakıp kısayolu çalıştırır. Örneğin Ctrl + C, iki tuşun kodlarının birlikte gelmesiyle kopyalama komutuna dönüşür."
+    },
+    "sosyal": {
+      "5": "Shift ile büyük harf yazmak, Esc ile yarım bıraktığımız bir işten vazgeçmek günlük hayatta en çok kullandığımız özel tuş işleridir.",
+      "6": "Ctrl + C ve Ctrl + V ile metin kopyalayıp yapıştırabilirsin; başkasının yazdığını kaynak göstermeden ödevine yapıştırmak ise doğru değildir.",
+      "7": "Kısayollar zaman kazandırır: menülerde gezinmek yerine tek hamlede komut verilir. Bu yüzden çok yazı yazanlar kısayolları ezbere bilir.",
+      "8": "Bir işi menüden 3 adımda, kısayolla 1 adımda yapıyorsak ve bunu günde 100 kez tekrarlıyorsak 100 x (3 - 1) = 200 adım kazanırız."
+    }
+  },
+  "imlec": {
+    "ad": "İmleç",
+    "teknik": {
+      "5": "İmleç, ekranda fareyle birlikte hareket eden küçük oktur.",
+      "6": "İmleç, farenin ekrandaki konumunu gösteren işarettir (çoğunlukla bir ok).",
+      "7": "İmleç fiziksel bir parça değil, yazılımın ekrana çizdiği bir şekildir. Fare hareket edince bilgisayar imleci yeni yerinde yeniden çizer.",
+      "8": "İmleç, ekranda (x, y) piksel koordinatıyla belirtilen bir konumdur. Fare hareket ettikçe yazılım bu koordinatı günceller ve imleci yeni konumda çizer."
+    },
+    "sosyal": {
+      "5": "Yazı yazarken yanıp sönen çizgi de bir imleçtir; yazının nerede devam edeceğini gösterir.",
+      "6": "İmleç bazen el, bazen çizgi şeklini alır; şekli, tıklayabileceğimiz ya da yazı yazabileceğimiz yerleri bize haber verir.",
+      "7": "Görme güçlüğü olanlar için imleç büyütülebilir ya da renklendirilebilir. Bu ayarlar bilgisayarı herkes için kullanılabilir yapar.",
+      "8": "İmlecin hızı ve boyutu ayarlardan değiştirilebilir. Uzun süre fareyle çalışmak bileğe yük bindirir; rahat bir duruş ve düzenli ara vermek bu yükü azaltır."
+    }
+  },
+  "ses-dalgasi": {
+    "ad": "Ses dalgası",
+    "teknik": {
+      "5": "Ses, havanın titremesiyle yayılır. Titreşim kulağımıza ulaşınca sesi duyarız.",
+      "6": "Ses dalgası, bir cismin titreşiminin havada yayılmasıdır. Mikrofon bu titreşimi yakalar, hoparlör üretir.",
+      "7": "Ses dalgası havanın sıkışıp gevşemesiyle yayılır. Mikrofon bu titreşimi elektrik sinyaline, hoparlör elektrik sinyalini yeniden titreşime çevirir.",
+      "8": "Sesin frekansı, saniyedeki titreşim sayısıdır ve hertzle (Hz) ölçülür. İnsan kulağı yaklaşık 20 Hz ile 20.000 Hz arasını duyar; bilgisayar sesi saniyede on binlerce kez ölçerek sayıya çevirir."
+    },
+    "sosyal": {
+      "5": "Hoparlör ses verirken yüzeyine hafifçe dokunursan titreşimi hissedebilirsin.",
+      "6": "Ses, boşlukta yayılmaz; hava, su ya da katı gibi bir ortama ihtiyaç duyar. Bu yüzden uzayda ses duyulmaz.",
+      "7": "Çok yüksek sesli müzik kulağa zarar verebilir. Kulaklıkta sesi düşük tutmak işitmeyi korur.",
+      "8": "Kulaklıkta ses seviyesi, dinleme süresi ve ara vermek işitmeyi korumak için önemlidir. Uzun süre yüksek sesle dinlemek işitmeyi kalıcı olarak etkileyebilir."
+    }
+  },
+  "piksel": {
+    "ad": "Piksel",
+    "teknik": {
+      "5": "Piksel, ekranı oluşturan çok küçük karelerden her biridir. Çok piksel, net resim demektir.",
+      "6": "Piksel, ekranın ve dijital görüntünün en küçük noktasıdır. Görüntü, yan yana dizilmiş binlerce pikselden oluşur.",
+      "7": "Piksel, ekranda tek başına yanabilen en küçük noktadır; her piksel genellikle kırmızı, yeşil ve mavi üç küçük ışıktan oluşur. Renkler bu üç ışığın karışımıyla elde edilir.",
+      "8": "Bir görüntüdeki piksel sayısı, yatay piksel sayısı ile dikey piksel sayısının çarpımıdır: 1920 x 1080 = 2.073.600 piksel. Her pikselin rengi üç renk için birer bayt ile tutulursa tek bir kare 6.220.800 bayt eder."
+    },
+    "sosyal": {
+      "5": "Telefonla çektiğin fotoğrafı çok büyütürsen küçük kareleri, yani pikselleri görebilirsin.",
+      "6": "Fotoğraf ne kadar çok piksel içerirse dosyası o kadar çok yer kaplar.",
+      "7": "Dijital bir fotoğrafı çok büyütünce pikseller belirginleşir ve resim bozulmuş gibi görünür. Bu yüzden afiş gibi büyük baskılar için çok pikselli fotoğraflar gerekir.",
+      "8": "Megapiksel, bir milyon pikseldir. 1920 x 1080 çözünürlükteki bir görüntü yaklaşık 2,1 megapiksel eder; bir kameranın megapiksel değeri fotoğrafın en çok kaç pikselden oluşabileceğini gösterir."
+    }
+  },
+  "cozunurluk": {
+    "ad": "Çözünürlük",
+    "teknik": {
+      "5": "Çözünürlük, ekranda kaç piksel olduğunu anlatır. Çözünürlük arttıkça resim netleşir.",
+      "6": "Çözünürlük, bir ekranın ya da görüntünün yatay ve dikey piksel sayısıdır; örneğin 1920 x 1080.",
+      "7": "Çözünürlük arttıkça aynı alana daha çok piksel sığar ve görüntünün ayrıntısı artar. Çözünürlük ile ekranın fiziksel boyu farklı şeylerdir.",
+      "8": "Çözünürlük yatay x dikey piksel olarak yazılır. 1920 x 1080 ekran 2.073.600, 1280 x 720 ekran 921.600 pikseldir; ilki 2,25 kat daha çok piksel taşır. İkisi de 16:9 orandadır."
+    },
+    "sosyal": {
+      "5": "Küçük bir telefon ekranı da çok pikselli olabilir; bu yüzden resim net görünür.",
+      "6": "Video ve oyun ayarlarında çözünürlük seçilir; yüksek çözünürlük daha net görüntü verir ama bilgisayarı daha çok yorar.",
+      "7": "İnternette video izlerken görülen 480, 720, 1080 gibi sayılar dikey piksel sayısını gösterir; yüksek seçilince görüntü netleşir ama daha çok veri indirilir.",
+      "8": "Çözünürlüğü her yönde iki katına çıkarmak piksel sayısını dört katına çıkarır: 960 x 540 = 518.400 iken 1920 x 1080 = 2.073.600'dür. Bu yüzden yüksek çözünürlük daha çok bellek ve işlem gücü ister."
+    }
+  },
+  "baglanti-noktasi": {
+    "ad": "Bağlantı noktası (giriş)",
+    "teknik": {
+      "5": "Bağlantı noktası, kasadaki kabloların takıldığı yerdir. Bu yerlere de \"giriş\" denir.",
+      "6": "Bağlantı noktası (port), cihazların kasaya kabloyla bağlandığı girişlerdir (USB girişi, HDMI girişi, ses jakı gibi). Bilgi gönderen cihaz olan giriş biriminden farklıdır.",
+      "7": "Bağlantı noktası, cihaz ile bilgisayar arasındaki kablonun takıldığı yuvadır. Çoğu bağlantı noktasının şekli farklıdır; bu yüzden yanlış fiş yuvaya kolayca girmez.",
+      "8": "Bağlantı noktaları taşıdıkları bilgiye göre ayrılır: USB ve HDMI sayısal veri, geleneksel ses jakı analog ses sinyali taşır. Güç girişi ise bilgi değil elektrik taşır."
+    },
+    "sosyal": {
+      "5": "Telefonun şarj girişi de bir bağlantı noktasıdır.",
+      "6": "Dizüstü bilgisayarların kenarında USB, HDMI ve kulaklık girişleri bulunur.",
+      "7": "Şarj kablosu ya da kulaklık takarken zorlamak girişe zarar verir; fişin doğru yönde olduğundan emin olmak gerekir.",
+      "8": "Ortak bağlantı standartları farklı üreticilerin cihazlarının birbirine takılmasını sağlar ve gereksiz kablo üretimini azaltır."
+    }
+  },
+  "usb-baglantisi": {
+    "ad": "USB",
+    "teknik": {
+      "5": "USB, klavye, fare, yazıcı gibi cihazları bilgisayara bağlayan bağlantıdır. Hem bilgiyi hem biraz elektriği taşır.",
+      "6": "USB (Evrensel Seri Veri Yolu), birçok cihazı kasaya bağlayan ortak bir bağlantı standardıdır. Klavye, fare, web kamerası, yazıcı ve kulaklık USB ile bağlanabilir.",
+      "7": "USB hem veri hem az miktarda elektrik taşır; bu yüzden fare ve klavye gibi küçük cihazlar ayrı bir güç kablosuna ihtiyaç duymaz.",
+      "8": "USB sayısal veri taşır ve USB girişi 5 V gerilim sağlar. Güç ihtiyacı büyük olan cihazlar (yazıcılar gibi) çoğunlukla ayrı bir güç bağlantısı kullanır."
+    },
+    "sosyal": {
+      "5": "Telefonu şarj etmek ya da bilgisayara bağlamak için de USB kablosu kullanırız.",
+      "6": "USB bellek de aynı girişe takılır; bu yüzden çok farklı cihazlar aynı girişi paylaşabilir.",
+      "7": "Ortak bir standart, farklı firmaların ürettiği cihazların aynı girişe takılabilmesini sağlar. Tanımadığın bir USB belleği bilgisayara takmak ise zararlı yazılım riski taşır.",
+      "8": "USB standardı sayesinde aynı kablo birçok cihazda kullanılabilir; bu hem kolaylık sağlar hem de elektronik atığı azaltmaya yardım edebilir."
+    }
+  },
+  "hdmi": {
+    "ad": "HDMI",
+    "teknik": {
+      "5": "HDMI, bilgisayarın görüntüsünü ve sesini monitöre taşıyan kablodur.",
+      "6": "HDMI, görüntüyü ve sesi sayısal olarak bir ekrana taşıyan bağlantı standardıdır. Masadaki monitör kasaya HDMI ile bağlanır.",
+      "7": "HDMI, görüntü ve ses bilgisini tek kabloda sayısal olarak taşır. Bu yüzden monitöre ayrıca bir ses kablosu çekmek gerekmeyebilir.",
+      "8": "HDMI sayısal bir bağlantıdır: pikselleri ve sesi temsil eden sayılar kablodan akar. Çözünürlük ve görüntü yenileme hızı arttıkça kablodan geçmesi gereken veri miktarı da artar."
+    },
+    "sosyal": {
+      "5": "Bilgisayarı televizyona bağlarken de HDMI kablosu kullanılır.",
+      "6": "Projeksiyon cihazları ve televizyonlar da HDMI girişiyle bilgisayara bağlanır.",
+      "7": "HDMI kablosu hem görüntüyü hem sesi taşıdığı için bilgisayarı televizyona tek kabloyla bağlayıp film izleyebiliriz.",
+      "8": "Aynı HDMI girişine bilgisayar, oyun konsolu ya da projeksiyon gibi farklı cihazlar bağlanabilir; ortak standart cihazlar arası uyumu sağlar."
+    }
+  },
+  "ses-jaki": {
+    "ad": "Ses jakı",
+    "teknik": {
+      "5": "Ses jakı, kulaklık, mikrofon ve hoparlör kablolarının takıldığı yuvadır. Renkleri vardır: pembe mikrofon, yeşil hoparlör içindir.",
+      "6": "Ses jakı, ses cihazlarının kasaya bağlandığı yuvadır. Çoğu bilgisayarda pembe jak mikrofon, yeşil jak hoparlör ya da kulaklık içindir.",
+      "7": "Çoğu bilgisayarda ses jakları renk koduyla ayrılır: pembe mikrofon girişi, yeşil ses çıkışı (hoparlör ya da kulaklık), mavi ses girişidir. Kasanın ön yüzünde de kulaklık ve mikrofon jakları bulunur.",
+      "8": "Geleneksel ses jakı analog ses sinyali taşır; bilgisayardaki ses devresi sayıyı sinyale (çıkış) ya da sinyali sayıya (giriş) çevirir. Bu jaklar genellikle 3,5 milimetrelik fişlere uyar."
+    },
+    "sosyal": {
+      "5": "Birçok telefonda, tablette ve bilgisayarda kulaklık takılan yuva bir ses jakıdır.",
+      "6": "Kulaklığın fişi yanlış jaka takılırsa ses gelmeyebilir ya da mikrofon çalışmayabilir; renkler doğru yuvayı bulmamıza yardım eder.",
+      "7": "3,5 milimetrelik fiş yaygın bir standart olduğu için aynı kulaklık birçok cihazda kullanılabilir. Kablosuz kulaklıklar ise jaka ihtiyaç duymaz.",
+      "8": "Jaklar zamanla gevşeyebilir; fişi çekerken kablodan değil fişin gövdesinden tutmak jakın ve kablonun ömrünü uzatır."
+    }
+  }
+}
