@@ -199,7 +199,7 @@ void loop() {
 
 Devreyi kablolamadan önce Autodesk'in Tinkercad Circuits ortamında kurmak mümkündür: etkileşimli devre düzenleyicide sanal devre kurulur, bağlanır ve Arduino kodu yazılır; simülasyon başlatıldığında bileşenlerin nasıl tepki verdiği izlenir.[9] LED'in ters takılması ya da direncin unutulması gibi hatalar böylece gerçek bileşen bozulmadan görülebilir.
 
-Butona basınca yanan LED devresini 10 kΩ indirme direnciyle birlikte üç boyutlu ve adım adım kurmak için [3D Simülasyon Merkezi'ndeki Butonla LED Yakalım dersine](https://bote.web.tr/3d/arduino-buton-led) bakabilirsiniz; ders ortaokul düzeyinde anlatılır.
+Butona basınca yanan LED devresini 10 kΩ indirme direnciyle birlikte üç boyutlu ve adım adım kurmak için [3D Simülasyon Merkezi'ndeki Butonla LED Yakalım dersine](https://bote.web.tr/3d/arduino/buton-led) bakabilirsiniz; ders ortaokul düzeyinde anlatılır.
 
 ## Öğrencilerin sık yaptığı hatalar
 
