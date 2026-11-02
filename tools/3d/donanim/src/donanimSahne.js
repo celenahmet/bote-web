@@ -312,11 +312,15 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     if (ac) { gucAnc.position.set(-3.5, 19.1, -28); gucAnc.userData.yon = null; gucAnc.visible = true; } else { gucAnc.position.copy(gucKonum0); gucAnc.userData.yon = gucYon0; }
     gucAnc.updateMatrixWorld(true);
   }
+  // kasa açıkken masadaki çevre birimlerinin (klavye, fare, mikrofon ...) keşif çapaları gizlenir: kasanın arkasında kalıp açık kasanın üstünde asılı görünürlerdi
+  const icKimlik = new Set(ic.kesif.map((e) => e.id));
+  const cevreCapa = kesifNoktalari.filter((e) => e.nesne && !icKimlik.has(e.id) && !e.nesne.userData.yon).map((e) => e.nesne);
+  const cevreCapalari = (gizle) => { for (const o of cevreCapa) o.visible = !gizle; };
   function etiketYenile() { sabit = adimEtiket.map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta); etiketle(); }
   function kapakKur(k) {
     const once = ic.durum.acik;
     ic.kapakAyarla(k);
-    if (ic.durum.acik !== once) { gucCapasi(ic.durum.acik); S.golgeYenile(); }
+    if (ic.durum.acik !== once) { gucCapasi(ic.durum.acik); cevreCapalari(ic.durum.acik); S.golgeYenile(); }
   }
   function hareket(ad, sure, k0, k1, uygula, bitti) {
     calistir(ad, sureli(sure, (k) => uygula(k0 + (k1 - k0) * k), () => { uygula(k1); S.golgeYenile(); etiketYenile(); bitti && bitti(); }));

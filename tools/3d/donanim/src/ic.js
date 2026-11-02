@@ -159,6 +159,7 @@ export function icKur(kasa, { aniz = 4 } = {}) {
     D.hazir = true;
     icDokuSure.hazirla = Math.round((performance.now() - t0) * 10) / 10;
     Object.assign(icDokuSure, olc);
+    Object.assign(D.ms, icDokuSure);
     goruntuGuncelle();
     fanMatrisleri();
   }
