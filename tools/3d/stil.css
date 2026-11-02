@@ -352,6 +352,12 @@ html[data-sinif-secili] .ders-sinif{display:inline-flex;align-items:center;gap:6
 
 /* küçük ekran: üst çubuk sadeleşir */
 @media (max-width:960px){.merkez-bag,.ust .ayrac{display:none}}
+/* tahta modunda yazı ve düğmeler büyür: üst çubuk daha geniş pencerede sadeleşir (Ahmet 02.11: "metinler sığmıyor") */
+@media (max-width:1800px){html[data-mod=tahta] .merkez-bag,html[data-mod=tahta] .merkez-bag+.ayrac{display:none}html[data-mod=tahta] #tahta-dugme .yazi{display:none}}
+/* daha dar tahta penceresinde görünüm düğmesindeki değiştir işareti de gizlenir (en uzun ders adı sığsın) */
+@media (max-width:1240px){:root[data-mod=tahta] .ust .gorunum-gecis .gg-degis{display:none}}
+/* kenar en dar sınırın ötesine çekildi: bırakınca panel kapanacak */
+html[data-kapanacak] .kart-alani{opacity:.4}
 @media (max-width:720px){.ust-sag .dugme .yazi{display:none}}
 @media (max-width:560px){.ders-adi{display:none}#tahta-dugme,#tam-ekran,.yakinlik{display:none}.ust{gap:8px}.ust-sag{gap:6px}.cip .ico{display:none}.marka{font-size:1.02em}.gorunum .uzun{display:none}.gorunum .kisa{display:inline}.gorunum button{padding:0 8px}.sahne-arac{left:8px;right:8px}}
 html[data-mod=tahta] .adim h2{font-size:1.5em}

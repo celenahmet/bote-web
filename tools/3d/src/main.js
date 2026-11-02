@@ -173,16 +173,31 @@ function dersSayfasi() {
   genislik(Number(oku('bote-3d-panel-w')) || 0);
   const genislikKaydet = () => sakla('bote-3d-panel-w', String(parseInt(dersEl.style.getPropertyValue('--panel-w'), 10) || ''));
   let surukle = null;
+  // en dar sınırın bu kadar ötesine çekilen panel bırakınca kapanır (Ahmet 02.11: "sağ tarafa komple taşırken")
+  const KAPATMA_PAYI = 110;
   kenar?.addEventListener('pointerdown', (e) => {
     if (e.target.closest('#panel-dugme') || html.dataset.panel !== 'acik' || dikey.matches) return;
-    kenar.setPointerCapture(e.pointerId); surukle = { x: e.clientX, w: kartAlani.getBoundingClientRect().width }; html.dataset.suruklenen = '1';
+    kenar.setPointerCapture(e.pointerId);
+    surukle = { x: e.clientX, w: kartAlani.getBoundingClientRect().width, once: dersEl.style.getPropertyValue('--panel-w') };
+    html.dataset.suruklenen = '1';
   });
   kenar?.addEventListener('pointermove', (e) => {
     if (!surukle) return;
-    const dx = e.clientX - surukle.x;
-    genislik(genislikSinir(surukle.w + (html.dataset.panelYan === 'sol' ? dx : -dx)));
+    const dx = e.clientX - surukle.x, ham = surukle.w + (html.dataset.panelYan === 'sol' ? dx : -dx);
+    if (ham < genislikSinir(0) - KAPATMA_PAYI) html.dataset.kapanacak = '1'; else delete html.dataset.kapanacak;
+    genislik(genislikSinir(ham));
   });
-  const birak = () => { if (!surukle) return; surukle = null; delete html.dataset.suruklenen; genislikKaydet(); };
+  const birak = (e) => {
+    if (!surukle) return;
+    const s = surukle; surukle = null; delete html.dataset.suruklenen;
+    if (html.dataset.kapanacak) {
+      delete html.dataset.kapanacak;
+      // genişlik sürüklemeden önceki hâline döner: panel yeniden açılınca aynı boyda gelir
+      if (s.once) dersEl.style.setProperty('--panel-w', s.once); else dersEl.style.removeProperty('--panel-w');
+      if (e?.type === 'pointerup') { panelAyarla(false); return; }
+    }
+    genislikKaydet();
+  };
   kenar?.addEventListener('pointerup', birak); kenar?.addEventListener('pointercancel', birak);
   kenar?.addEventListener('dblclick', (e) => { if (!e.target.closest('#panel-dugme')) { genislik(0); sakla('bote-3d-panel-w', ''); } });
   kenar?.addEventListener('keydown', (e) => {
@@ -234,7 +249,7 @@ function dersSayfasi() {
     if (reostaDeger) reostaDeger.textContent = yakin ? `${BOYUT_AD[yakin]} · %${yuzde}` : `%${yuzde}`;
     reosta.setAttribute('aria-valuetext', `${yakin ? `${BOYUT_AD[yakin]}, ` : ''}ekranın yüzde ${yuzde} kadarı`);
     reosta.style.setProperty('--dolu', `${v}%`);
-    for (const b of $$('[data-panel-boyut]')) b.setAttribute('aria-pressed', String(b.dataset.panelBoyut === yakin));
+    for (const b of $$('[data-panel-boyut]:not(html)')) b.setAttribute('aria-pressed', String(b.dataset.panelBoyut === yakin));
   }
   function reostaYenile() { if (reosta) { reosta.value = String(Math.round(pxSurgu(kartAlani.getBoundingClientRect().width || onAyarlar().orta))); reostaYaz(); } }
   const surguBitti = () => { if (html.dataset.suruklenen && !surukle && !cek) delete html.dataset.suruklenen; };
@@ -257,8 +272,10 @@ function dersSayfasi() {
     if (kaydet) sakla('bote-3d-yazi', String(YAZI[yaziSira]));
   }
   yaziAyarla(yaziSira, false);
+  // kök öğe (html) de data-panel-boyut taşır: dışarıda bırakılmazsa her tıklama onu Dar/Orta/Geniş düğmesi sanıp
+  // özel genişliği sıfırlıyordu; sürüklenen panel ve reosta bırakınca geri kayıyordu (Ahmet 02.11)
   document.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-panel-boyut], [data-yazi], [data-yan]');
+    const b = e.target.closest('[data-panel-boyut]:not(html), [data-yazi], [data-yan]');
     if (!b) return;
     if (b.dataset.panelBoyut) boyutAyarla(b.dataset.panelBoyut, true);
     if (b.dataset.yazi) yaziAyarla(yaziSira + Number(b.dataset.yazi), true);

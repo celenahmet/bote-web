@@ -114,6 +114,12 @@ export function gercekciBagla({ S, kart, bb, parcalar }) {
     let ucgen = 0;
     for (const g of d.gruplar) g.traverse((o) => { if (o.isMesh && o.geometry) ucgen += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3 * (o.isInstancedMesh ? o.count : 1); });
     durum.istatistik = { kurmaMs: Math.round(performance.now() - t0), ucgen: Math.round(ucgen), park: parkli.length };
+    // ısınma (02.11): gölgelendiriciler ve dokular kurulurken hazırlanır; yoksa görüş alanına ilk kez giren parça
+    // dönüş sırasında bir kare takılır (ölçüm: tahta boyutunda bir kez 367 ms)
+    try {
+      S.renderer.compile(S.scene, S.camera);
+      for (const g of d.gruplar) g.traverse((o) => { if (o.isMesh) for (const m of [].concat(o.material)) for (const v of Object.values(m || {})) if (v?.isTexture) S.renderer.initTexture(v); });
+    } catch (e) { console.warn('Fiziksel ısınma atlandı', e); }
     durum.hazir = true;
     if (new URLSearchParams(location.search).has('olcum')) console.info('Fiziksel görünüm', durum);
     return d;

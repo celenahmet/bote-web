@@ -151,8 +151,15 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {}, guvenl
   }
   // Boyut değişimi (panel açılıp kapanırken, kenar sürüklenirken) her karede değil, durunca bir kez
   // uygulanır: çizim tamponunu her karede yeniden ayırmak zayıf ekran kartında takılma yapar.
-  let boyutZaman = 0;
-  const ro = new ResizeObserver(() => { clearTimeout(boyutZaman); boyutZaman = setTimeout(boyutla, 110); });
+  // Sürüklerken (kenar, reosta) en çok 125 ms'de bir de uygulanır: durmayı beklemek sahneyi uzun süre esnetiyordu
+  // (Ahmet 02.11: "Arduino genişleyip eski haline dönüyor"); saniyede 8 tampon ayırma zayıf kartta da taşınır.
+  let boyutZaman = 0, sonBoyut = 0;
+  const ro = new ResizeObserver(() => {
+    clearTimeout(boyutZaman);
+    const t = performance.now();
+    if (document.documentElement.dataset.suruklenen && t - sonBoyut > 125) { sonBoyut = t; boyutla(); return; }
+    boyutZaman = setTimeout(() => { sonBoyut = performance.now(); boyutla(); }, 110);
+  });
   ro.observe(canvas);
   // Erişilebilirlik ayarı değişti (src/erisilebilirlik.js bildirir): süzülme açılır ya da kapanır; yazı boyutu, aralık ve
   // yazı tipi etiketleri büyütüp küçültür, bu yüzden genişlikleri yeniden ölçülür. Sahne bir kez çizilir, sürekli döngü açılmaz.

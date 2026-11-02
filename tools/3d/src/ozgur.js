@@ -100,10 +100,28 @@ const genislikKaydet = () => sakla('bote-3d-panel-w', String(parseInt(dersEl.sty
 let surukle = null;
 kenar?.addEventListener('pointerdown', (e) => {
   if (e.target.closest('#panel-dugme') || html.dataset.panel !== 'acik' || dikey.matches) return;
-  kenar.setPointerCapture(e.pointerId); surukle = { x: e.clientX, w: kartAlani.getBoundingClientRect().width }; html.dataset.suruklenen = '1';
+  kenar.setPointerCapture(e.pointerId);
+  surukle = { x: e.clientX, w: kartAlani.getBoundingClientRect().width, once: dersEl.style.getPropertyValue('--panel-w') };
+  html.dataset.suruklenen = '1';
 });
-kenar?.addEventListener('pointermove', (e) => { if (surukle) genislik(genislikSinir(surukle.w + (html.dataset.panelYan === 'sol' ? 1 : -1) * (e.clientX - surukle.x))); });
-const birak = () => { if (!surukle) return; surukle = null; delete html.dataset.suruklenen; genislikKaydet(); };
+// en dar sınırın bu kadar ötesine çekilen panel bırakınca kapanır (derslerdeki main.js ile aynı)
+const KAPATMA_PAYI = 110;
+kenar?.addEventListener('pointermove', (e) => {
+  if (!surukle) return;
+  const ham = surukle.w + (html.dataset.panelYan === 'sol' ? 1 : -1) * (e.clientX - surukle.x);
+  if (ham < genislikSinir(0) - KAPATMA_PAYI) html.dataset.kapanacak = '1'; else delete html.dataset.kapanacak;
+  genislik(genislikSinir(ham));
+});
+const birak = (e) => {
+  if (!surukle) return;
+  const s = surukle; surukle = null; delete html.dataset.suruklenen;
+  if (html.dataset.kapanacak) {
+    delete html.dataset.kapanacak;
+    if (s.once) dersEl.style.setProperty('--panel-w', s.once); else dersEl.style.removeProperty('--panel-w');
+    if (e?.type === 'pointerup') { panelAyarla(false); return; }
+  }
+  genislikKaydet();
+};
 kenar?.addEventListener('pointerup', birak); kenar?.addEventListener('pointercancel', birak);
 kenar?.addEventListener('dblclick', (e) => { if (!e.target.closest('#panel-dugme')) { genislik(0); sakla('bote-3d-panel-w', ''); } });
 kenar?.addEventListener('keydown', (e) => {
@@ -120,7 +138,7 @@ ayarDugme?.addEventListener('click', (e) => { e.stopPropagation(); ayarAc(ayarla
 document.addEventListener('click', (e) => { if (ayarlar && !ayarlar.hidden && !e.target.closest('#ayarlar, #ayar-dugme')) ayarAc(false); });
 function boyutAyarla(b, kaydet) {
   html.dataset.panelBoyut = b;
-  for (const x of $$('[data-panel-boyut]')) x.setAttribute('aria-pressed', String(x.dataset.panelBoyut === b));
+  for (const x of $$('[data-panel-boyut]:not(html)')) x.setAttribute('aria-pressed', String(x.dataset.panelBoyut === b));
   if (kaydet) { genislik(0); sakla('bote-3d-panel-w', ''); sakla('bote-3d-panel-boyut', b); }
 }
 boyutAyarla(['dar', 'orta', 'genis'].includes(oku('bote-3d-panel-boyut')) ? oku('bote-3d-panel-boyut') : 'orta', false);
@@ -133,8 +151,10 @@ function yaziAyarla(i, kaydet) {
   if (kaydet) sakla('bote-3d-yazi', String(YAZI[yaziSira]));
 }
 yaziAyarla(yaziSira, false);
+// kök öğe (html) de data-panel-boyut taşır: dışarıda bırakılmazsa her tıklama onu Dar/Orta/Geniş düğmesi sanıp
+// özel genişliği sıfırlıyordu; sürüklenen panel ve reosta bırakınca geri kayıyordu (Ahmet 02.11)
 document.addEventListener('click', (e) => {
-  const b = e.target.closest('[data-panel-boyut], [data-yazi], [data-yan]');
+  const b = e.target.closest('[data-panel-boyut]:not(html), [data-yazi], [data-yan]');
   if (!b) return;
   if (b.dataset.panelBoyut) boyutAyarla(b.dataset.panelBoyut, true);
   if (b.dataset.yazi) yaziAyarla(yaziSira + Number(b.dataset.yazi), true);
