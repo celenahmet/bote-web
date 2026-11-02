@@ -258,6 +258,10 @@ const NOT_TAHMIN = '<section><h2>Tahmin et, sonra gör</h2><p>Öğrenciler önce
 const hubSonu = `<div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${jsAd}"></script></body></html>`;
 const aileDersleri = (A) => dersler.filter((d) => d.aile === A);
 const AILE_LISTE = [ARDUINO]; // yayındaki aileler (merkezde bu sırayla)
+// Bilgisayar Donanımı önizlemesi (Ahmet 02.11.2026: "bu haliyle al da bakalım, sonra geliştiririz"): ders motoruna
+// takılana dek /3d/donanim'de sahne önizlemesi durur (tools/3d/donanim-yayin.mjs). Ders gelince aile AILELER'e girer, bu kart kalkar.
+const DONANIM_ONIZLEME = `<section class="aile" aria-labelledby="aile-donanim"><h3 class="aile-baslik" id="aile-donanim"><a href="/3d/donanim">Bilgisayar Donanımı${ico('chevron-right')}</a></h3>
+<ol class="ders-listesi"><li><a href="/3d/donanim"><span class="no">1</span><h4>Girdi ve Çıktı Birimleri</h4><p>Klavye, fare, mikrofon, ekran, hoparlör ve yazıcıyı 3D masada keşfet: hangisi bilgi alır, hangisi verir?</p><span class="meta">Önizleme · anlatım ve mini sınav ekleniyor</span></a></li></ol></section>`;
 
 function merkezSayfasi() {
   const yol = MERKEZ_YOL;
@@ -269,7 +273,7 @@ function merkezSayfasi() {
 <p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: parçaları yakından inceleyin, adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
 ${sinifAkisi}
 ${dersAkisiBas}${AILE_LISTE.map((A) => `<section class="aile" aria-labelledby="aile-${A.id}"><h3 class="aile-baslik" id="aile-${A.id}"><a href="${A.yol}">${esc(A.ad)}${ico('chevron-right')}</a></h3>
-<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${A === ARDUINO ? ozgurKarti('h4') : ''}</ol></section>`).join('')}</section>
+<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${A === ARDUINO ? ozgurKarti('h4') : ''}</ol></section>`).join('')}${DONANIM_ONIZLEME}</section>
 <div class="notlar">${NOT_TAHTA}${NOT_SINIF}</div></main>
 <footer class="alt">${BLOG_BAG}</footer>${hubSonu}`;
 }
