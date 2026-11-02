@@ -78,6 +78,7 @@ export function malzemeler() {
     altin: std(0xe0b64e, 0.3, 1),
     cip: std(0x14151a, 0.6),                  // yonga
     kagit: std(0xf6f6f2, 0.92),               // beyaz kâğıt yığını
+    klavyeGovde: std(0x454952, 0.55),         // klavye gövdesi (tuş araları koyu görünür)
     renkli: std(0xffffff, 0.5, 0.3, { vertexColors: true }), // köşe renkli küçük parçalar (boya)
     kablo: std(0x17181c, 0.65),
     kabloKirmizi: std(0xc4352b, 0.6),
