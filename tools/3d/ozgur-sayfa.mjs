@@ -105,7 +105,7 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 <h2>Uyarılar</h2><ul class="uyarilar" id="uyarilar"></ul>
 <h2>Pinler</h2><table class="pin-tablo" id="pin-tablo"><thead><tr><th scope="col">Pin</th><th scope="col">Görev</th><th scope="col">Durum</th></tr></thead><tbody></tbody></table>
 <h2>LED'ler</h2><ul class="led-liste" id="led-liste"></ul></section></div>
-<div class="kart-alt ozgur-js"><button type="button" class="dugme" id="geri-al" disabled>${ico('undo-2')}Geri al</button><button type="button" class="dugme" id="sifirla" title="Breadboard'daki bütün parçaları kaldırır; Geri al ile dönülür">${ico('eraser')}Sıfırla</button><button type="button" class="dugme birincil" id="calistir">${IKON.oynat}<span>Çalıştır</span></button></div></section></main>
+<div class="kart-alt ozgur-js"><button type="button" class="dugme" id="geri-al" disabled>${ico('undo-2')}<span class="alt-yazi">Geri al</span></button><button type="button" class="dugme" id="sifirla" title="Breadboard'daki bütün parçaları kaldırır; Geri al ile dönülür">${ico('eraser')}<span class="alt-yazi">Sıfırla</span></button><button type="button" class="dugme birincil" id="calistir">${IKON.oynat}<span>Çalıştır</span></button></div></section></main>
 ${ogretmen}<footer class="alt"><a href="/3d">3D Simülasyon Merkezi</a> · <a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a></footer>
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
 <script type="application/json" id="ozgur-ikon">${jsonGom(IKON)}</script><script type="module" src="/3d/assets/${jsAd}"></script><script type="module" src="/3d/assets/${erisimJs}"></script></body></html>`;

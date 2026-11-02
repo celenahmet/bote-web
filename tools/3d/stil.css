@@ -404,8 +404,18 @@ body.ders-sayfasi:not(.ozgur-sayfasi) .kart-ust{grid-column:1}
 body.ders-sayfasi:not(.ozgur-sayfasi) .kart-alt{grid-row:2;grid-column:2;grid-template-columns:auto auto;gap:6px;padding:4px var(--pad) 0 0;border-top:0;background:transparent}
 body.ders-sayfasi:not(.ozgur-sayfasi) .kart-alt .dugme{min-height:var(--kd);padding:0 12px;font-size:1em}
 body.ders-sayfasi:not(.ozgur-sayfasi) .kart-govde{padding-bottom:calc(12px + env(safe-area-inset-bottom))}
-.ozgur-sayfasi .kart-alt{padding-top:6px;padding-bottom:calc(6px + env(safe-area-inset-bottom))}
-.ozgur-sayfasi .kart-alt .dugme{min-height:var(--kd)}}
+/* Özgür: sekmeler ile Geri al, Sıfırla, Çalıştır aynı satırda (ders sayfasındaki gibi). Yığılı hâlde kısa sayfa 568x320'de 133 px
+   tutuyor, tahta 1,7 px delik aralığına sığıyordu. Konumu ozgur.js SAYFA ölçer. ozgur.css sonra yüklendiği için body ile. */
+body.ozgur-sayfasi .kart-alani{grid-template-columns:minmax(0,1fr) auto}
+body.ozgur-sayfasi .tutamac,body.ozgur-sayfasi .kart-govde{grid-column:1/-1}
+body.ozgur-sayfasi .kart-ust{grid-column:1}
+body.ozgur-sayfasi .kart-alt{grid-row:2;grid-column:2;grid-template-columns:auto auto auto;gap:6px;padding:4px var(--pad) 0 0;border-top:0;background:transparent}
+body.ozgur-sayfasi .kart-alt .dugme{min-height:var(--kd);padding:0 10px}
+body.ozgur-sayfasi .kart-govde{padding-bottom:calc(12px + env(safe-area-inset-bottom))}}
+/* Daha dar yatayda Geri al ve Sıfırla yalnız ikon; adı ekran okuyucuda kalır (sr-only ile aynı gizleme). */
+@media (orientation:landscape) and (max-height:500px) and (max-width:700px){
+body.ozgur-sayfasi .kart-alt .alt-yazi{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+body.ozgur-sayfasi .kart-alt .dugme:not(.birincil){min-width:var(--kd);padding:0}}
 
 /* Üzerine gelme yalnız fare gibi ince işaretçide: dokunmatik tahtada ve telefonda dokunulan düğme
    "seçili" gibi takılı kalmaz. Hiçbir işlev üzerine gelmeye bağlı değil. */

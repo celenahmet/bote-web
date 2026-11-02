@@ -141,6 +141,8 @@ html:not([data-js]) .ozgur-js{display:none!important}
 .secici-izgara button.yakin-hedef{border:2px solid var(--violet)}
 .secici-izgara button:disabled{opacity:.42;cursor:not-allowed;background:var(--raised)}
 .secici-izgara .bosluk{min-height:46px}
+/* 320 px genişlikte delik düğmeleri 41 px kalıyordu: satır adı sütunu ("üst +") ve kenar boşluğu daralır, düğmeler en az 44 px */
+@media (max-width:360px){.secici{padding:10px 8px}.secici-izgara{--secici-bas:40px}}
 
 /* sahnedeki işaretler (parça uyarıları, imleç etiketi) */
 .rozet-isaret{position:absolute;left:0;top:0;translate:-50% -100%;display:grid;place-items:center;width:44px;height:44px;padding:0;border:0;background:transparent;cursor:pointer;touch-action:manipulation}

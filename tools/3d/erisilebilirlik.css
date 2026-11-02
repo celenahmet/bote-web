@@ -11,7 +11,8 @@ html:not([data-js]) #erisim-dugme{display:none}
 #erisim-dugme[aria-expanded=true],#erisim-dugme[data-okuyor]{background:var(--violet-soft);border-color:var(--violet);color:var(--violet)}
 /* Çok dar telefon (320-350 px): giriş düğmesiyle üst çubuk taşardı ve koyu tema düğmesi kırpılırdı. Mevcut taşma yönteminde olduğu gibi
    önemsiz bir parça gizlenir: markanın ".web.tr" uzantısı (bağlantı yine "bote" ve "blog" olarak okunur). 360 px ve üstünde değişen bir şey yok. */
-@media (max-width:350px){.ust .marka b{display:none}}
+/* Kalan "bote" 35 px: dokunma alanı iç boşlukla 45 px olur, eksi kenar boşluğu düzeni korur (genişlik verilince düğmeler taşıyordu). */
+@media (max-width:350px){.ust .marka b{display:none}.ust .marka{padding-inline:5px;margin-inline:-5px}}
 /* Tahta modu ile dar pencere (ör. yatayda açılıp dikeye çevrilen telefon ya da küçük tablet): tahta ölçüleri büyük olduğundan giriş düğmesiyle
    üst çubuk taşardı. Mevcut taşma yöntemi (etiketleri gizle, ders adını ve tahta, tam ekran düğmelerini gizle) biraz daha geniş eşiklerle
    tahta modunda da uygulanır; telefon genişliğinde (560 px ve altı) üst çubuk normal ölçüsüne döner. */

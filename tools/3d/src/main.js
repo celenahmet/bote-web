@@ -399,7 +399,8 @@ function dersSayfasi() {
     for (const p of Object.values(parcalar)) { p.nesne.visible = false; S.scene.add(p.nesne); p.kutular = yerelKutular(p); }
     S.dokunmaDinle(dokunuldu);
     const G = gercekciBagla({ S, kart, bb, parcalar, html });
-    if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[sayfaDurum]()), true);
+    // gorunen: alçak yatay ekranda kayıtlı "yarım" kısa görünür; kadraj ekrandaki sayfaya göre (yarıma göre küçük kalıyordu)
+    if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[gorunen(sayfaDurum)]()), true);
     adimUygula(kartlar[aktif].dataset.id, true);
     requestAnimationFrame(() => sahneAlani.classList.add('hazir'));
     if (new URLSearchParams(location.search).has('olcum')) {

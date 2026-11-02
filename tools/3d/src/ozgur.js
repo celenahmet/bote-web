@@ -165,7 +165,12 @@ document.addEventListener('click', (e) => {
   if (b.dataset.yan) yanAyarla(b.dataset.yan, true);
 });
 const SAYFA = {
-  kisa: () => ($('.tutamac')?.offsetHeight || 0) + ($('.kart-ust')?.offsetHeight || 0) + ($('.kart-alt')?.offsetHeight || 0) + 2,
+  // alçak yatay ekranda Geri al, Sıfırla, Çalıştır sekmelerle aynı satırda (stil.css): satırın yüksekliği bir kez sayılır (main.js ile aynı)
+  kisa: () => {
+    const tut = $('.tutamac'), ust = $('.kart-ust'), alt = $('.kart-alt');
+    const yan = !!(alt && ust && alt.offsetTop < ust.offsetTop + ust.offsetHeight);
+    return (tut?.offsetHeight || 0) + Math.max(ust?.offsetHeight || 0, yan ? alt.offsetHeight : 0) + (yan ? 0 : alt?.offsetHeight || 0) + 2;
+  },
   yarim: () => dersEl.clientHeight * 0.5,
   tam: () => dersEl.clientHeight * 0.92,
 };
@@ -224,6 +229,9 @@ sayfaUygula(sayfaDurum, false, true);
 let oncekiSayfa = null;
 const sayfaKisalt = () => { if (dikey.matches && sayfaDurum !== 'kisa') { oncekiSayfa = sayfaDurum; sayfaUygula('kisa', false); } };
 const sayfaGeri = () => { if (oncekiSayfa && dikey.matches) sayfaUygula(oncekiSayfa, false); oncekiSayfa = null; };
+// Parça takılınca sonuç görünsün: tam sayfaya dönülmez, yarıma (yarım yoksa kısaya). 568x320'de tam sayfa sahneden 21 px
+// bırakıyordu, takılan LED görünmüyordu. İptalde eski yerine döner (paletten başka parça seçilsin).
+const sayfaGeriTakinca = () => { if (oncekiSayfa === 'tam') oncekiSayfa = yarimVar() ? 'yarim' : 'kisa'; sayfaGeri(); };
 
 // ================================================================== sekmeler: Kur, Program, Durum
 const SEKMELER = ['kur', 'program', 'durum'];
@@ -340,7 +348,8 @@ function sahneBaslat() {
   isaretleriKur();
   parcalariKur();
   isinma();
-  if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[sayfaDurum]()), true);
+  // gorunen: alçak yatay ekranda kayıtlı "yarım" kısa görünür; kadraj ekrandaki sayfaya göre (yarıma göre küçük kalıyordu)
+  if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[gorunen(sayfaDurum)]()), true);
   S.kameraGit(KAMERA.genel, true);
   tuvalDinle();
   uygula();
@@ -701,7 +710,7 @@ function parcaEkle(p) {
   const parca = { id: t ? t.parca.id : yeniId(p.tur), ...p };
   if (t) devre.parcalar.splice(Math.min(t.indeks, devre.parcalar.length), 0, parca); else devre.parcalar.push(parca);
   gecmiseEkle(onceki);
-  arac = null; seciciKapat(); paletGuncelle(); yonergeYaz(); sayfaGeri();
+  arac = null; seciciKapat(); paletGuncelle(); yonergeYaz(); sayfaGeriTakinca();
   imlecAyarla(imlecKaynak === 'dokunma' ? null : imlecId, imlecKaynak, true);
   degisti();
   const u = sonuc.uyarilar.find((x) => x.seviye !== 'bilgi' && x.parcalar.includes(parca.id));
@@ -726,7 +735,7 @@ function seciciAc(merkez) {
   } else {
     const ci = BB_CIZGI.findIndex((x) => x.includes(merkez)), c0 = Math.max(0, Math.min(BB_CIZGI.length - 3, ci - 1));
     const s0 = Math.max(1, Math.min(SUTUN_SAYISI - 4, n.sutun - 2));
-    izgara.style.gridTemplateColumns = '52px repeat(5,minmax(0,1fr))';
+    izgara.style.gridTemplateColumns = 'var(--secici-bas,52px) repeat(5,minmax(0,1fr))';
     h = '<span class="bas"></span>' + [0, 1, 2, 3, 4].map((k) => `<span class="bas">${s0 + k}</span>`).join('');
     for (const c of BB_CIZGI.slice(c0, c0 + 3)) {
       h += `<span class="bas">${cizgiAdi(c)}</span>`;
@@ -1161,9 +1170,9 @@ listeCiz(true);
 butonBasDugme.hidden = !devre.parcalar.some((p) => p.tur === 'buton');
 requestAnimationFrame(() => setTimeout(sahneBaslat, 20));
 if (TEST) window.ozgurTest = {
-  ekran(id) {
+  ekran(id, asagi = 3.5) { // parça için tepeden bu kadar aşağısı (test görünen bir noktaya dokunabilsin)
     if (!S) return null;
-    if (id.startsWith('parca:')) { const v = parcaTepe(id.slice(6)); return v ? ekranKonum(v.sub(new Vector3(0, 3.5, 0))) : null; }
+    if (id.startsWith('parca:')) { const v = parcaTepe(id.slice(6)); return v ? ekranKonum(v.sub(new Vector3(0, asagi, 0))) : null; }
     const v = noktaV(id, id.startsWith('p:') ? BASLIK_UST : BB_UST);
     return v ? ekranKonum(v) : null;
   },
