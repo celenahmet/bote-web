@@ -1,12 +1,13 @@
-// Masa ve çevre birimleri: masa, monitör, web kamerası, klavye, fare, hoparlör, mikrofon, kulaklık, yazıcı, USB bellek.
+// Masa ve çevre birimleri: masa, monitör, web kamerası, fare, hoparlör, mikrofon, kulaklık, USB bellek (klavye klavye.js'te,
+// yazıcı yazici.js'te).
 // Her yapıcı { grup, ... } döndürür; vekiller (dokunma kutuları) parçanın grubuna çocuk olarak eklenir (parça oynayınca birlikte gider).
 // Kesif noktaları { id, nesne, yerel } biçimindedir: işaret parçayla birlikte hareket eder, parça gizliyken görünmez.
 import {
-  Group, Mesh, Vector3, Matrix4, MeshStandardMaterial, MeshBasicMaterial, InstancedMesh, BoxGeometry, CylinderGeometry, SphereGeometry, TorusGeometry, ExtrudeGeometry, Shape, DoubleSide,
-  M, malzemeler, kutu, yuvarlak, silindir, don, yer, birlestir, tuval, doku, YAZI, vekil, ornek, kabloGeo, kesifNok,
+  Group, Mesh, Vector3, MeshStandardMaterial, MeshBasicMaterial, BoxGeometry, TorusGeometry, ExtrudeGeometry, Shape, DoubleSide,
+  M, malzemeler, kutu, yuvarlak, silindir, birlestir, tuval, doku, vekil, kabloGeo, kesifNok,
 } from './yardimci.js';
-import { CapsuleGeometry, PlaneGeometry, RingGeometry, Color, Quaternion } from 'three';
-import { MASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
+import { CapsuleGeometry, PlaneGeometry, RingGeometry } from 'three';
+import { MASA, MON, HOPARLOR, FARE, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
 import { ekranDokusu } from './ekran.js';
 import { dokular } from './doku.js';
 
@@ -54,107 +55,6 @@ export function kameraYap() {
   const led = new Mesh(new BoxGeometry(0.5, 0.3, 0.15), M.ledKapali); led.position.set(2.6, 3.7, 2.15); g.add(led);
   g.add(vekil({ kesif: 'web-kamerasi', parca: 'kamera' }, 9, 5, 5, 0, 2.4, 0.3));
   return { grup: g, led, kesif: [kes(g, 'web-kamerasi', 0, 5.2, 1, [0, 0.3, 1])], ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; }, ucu: new Vector3(KAMERA_PARCA.x, KAMERA_PARCA.y + 1, KAMERA_PARCA.z - 1.6) };
-}
-
-// ------------------------------------------------------------------ klavye (104 tuş: bir InstancedMesh + tek legend atlası)
-const U = 3.81, TUS_Y = 1.9, TABAN_UST = 2.2;
-function dizilim() {
-  const k = [];
-  const e = (ad, x, y, w = 1, h = 1, tur = 'harf') => k.push({ ad, x, y, w, h, tur });
-  e('Esc', 0, 0, 1, 1, 'ozel');
-  [2, 3, 4, 5].forEach((x, i) => e('F' + (i + 1), x, 0, 1, 1, 'islev'));
-  [6.5, 7.5, 8.5, 9.5].forEach((x, i) => e('F' + (i + 5), x, 0, 1, 1, 'islev'));
-  [11, 12, 13, 14].forEach((x, i) => e('F' + (i + 9), x, 0, 1, 1, 'islev'));
-  ['PrtSc', 'ScrLk', 'Pause'].forEach((a, i) => e(a, 15.25 + i, 0, 1, 1, 'islev'));
-  ['"', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '*', '-'].forEach((a, i) => e(a, i, 1.5, 1, 1, i === 0 || i > 10 ? 'harf' : 'rakam'));
-  e('Geri', 13, 1.5, 2, 1, 'ozel');
-  e('Tab', 0, 2.5, 1.5, 1, 'ozel');
-  'QWERTYUIOPĞÜ'.split('').forEach((a, i) => e(a, 1.5 + i, 2.5));
-  e(',', 13.5, 2.5, 1.5, 1);
-  e('Caps', 0, 3.5, 1.75, 1, 'ozel');
-  'ASDFGHJKLŞİ'.split('').forEach((a, i) => e(a, 1.75 + i, 3.5));
-  e('Enter', 12.75, 3.5, 2.25, 1, 'ozel');
-  e('Shift', 0, 4.5, 2.25, 1, 'ozel');
-  'ZXCVBNMÖÇ.'.split('').forEach((a, i) => e(a, 2.25 + i, 4.5));
-  e('Shift', 12.25, 4.5, 2.75, 1, 'ozel');
-  e('Ctrl', 0, 5.5, 1.25, 1, 'ozel'); e('', 1.25, 5.5, 1.25, 1, 'ozel'); e('Alt', 2.5, 5.5, 1.25, 1, 'ozel');
-  e(' ', 3.75, 5.5, 6.25, 1, 'bosluk');
-  e('Alt', 10, 5.5, 1.25, 1, 'ozel'); e('', 11.25, 5.5, 1.25, 1, 'ozel'); e('Menü', 12.5, 5.5, 1.25, 1, 'ozel'); e('Ctrl', 13.75, 5.5, 1.25, 1, 'ozel');
-  ['Ins', 'Home', 'PgUp'].forEach((a, i) => e(a, 15.25 + i, 1.5, 1, 1, 'ozel'));
-  ['Del', 'End', 'PgDn'].forEach((a, i) => e(a, 15.25 + i, 2.5, 1, 1, 'ozel'));
-  e('yukari', 16.25, 4.5, 1, 1, 'ok'); e('sol', 15.25, 5.5, 1, 1, 'ok'); e('asagi', 16.25, 5.5, 1, 1, 'ok'); e('sag', 17.25, 5.5, 1, 1, 'ok');
-  ['Num', '/', '*', '-'].forEach((a, i) => e(a, 18.5 + i, 1.5, 1, 1, i ? 'rakam' : 'ozel'));
-  ['7', '8', '9'].forEach((a, i) => e(a, 18.5 + i, 2.5, 1, 1, 'rakam')); e('+', 21.5, 2.5, 1, 2, 'rakam');
-  ['4', '5', '6'].forEach((a, i) => e(a, 18.5 + i, 3.5, 1, 1, 'rakam'));
-  ['1', '2', '3'].forEach((a, i) => e(a, 18.5 + i, 4.5, 1, 1, 'rakam')); e('Enter', 21.5, 4.5, 1, 2, 'ozel');
-  e('0', 18.5, 5.5, 2, 1, 'rakam'); e('.', 20.5, 5.5, 1, 1, 'rakam');
-  return k;
-}
-const OZEL_KESIF = { Esc: 'tus-esc', Shift: 'tus-shift', Ctrl: 'tus-ctrl', Enter: 'tus-enter', ' ': 'tus-bosluk' };
-const tusKesif = (t) => OZEL_KESIF[t.ad] || (t.tur === 'harf' || t.tur === 'rakam' ? 'tus-harf' : 'tus-ozel');
-
-export function klavyeYap() {
-  malzemeler();
-  const g = new Group(); g.name = 'klavye'; g.position.set(KLAVYE.x, 0, KLAVYE.z); g.rotation.x = 0.07;
-  const GEN = 22.5 * U, YUK = 6.5 * U, X0 = -GEN / 2, Z0 = -YUK / 2;
-  const taban = new Mesh(yuvarlak(GEN + 3.0, TABAN_UST, YUK + 3.0, 0.9, 0, TABAN_UST / 2, 0, 3), M.plastikAcik); g.add(taban);
-  const tuslar = dizilim();
-  // tuş kapağı: kesik piramit (üst daha dar); birim boyutta, örnek matrisi ölçekler
-  const kap = new CylinderGeometry(1.98, 2.5, TUS_Y, 4, 1); kap.rotateY(Math.PI / 4);
-  const kapMal = new MeshStandardMaterial({ color: 0xffffff, roughness: 0.5 });
-  const matr = [], renk = [], taban0 = [];
-  const acik = new Color(0xe9ecf0), koyu = new Color(0xc2c8d1);
-  for (const t of tuslar) {
-    const w = t.w * U - 0.34, d = t.h * U - 0.34;
-    const m = new Matrix4().compose(new Vector3(X0 + (t.x + t.w / 2) * U, TABAN_UST + 0.15 + TUS_Y / 2, Z0 + (t.y + t.h / 2) * U), new Quaternion(), new Vector3(w / 3.5, 1, d / 3.5));
-    matr.push(m); taban0.push(m.clone()); renk.push(t.tur === 'harf' || t.tur === 'rakam' || t.tur === 'bosluk' ? acik : koyu);
-  }
-  const kaps = ornek(kap, kapMal, matr, renk);
-  kaps.name = 'tuslar'; g.add(kaps);
-  // legend atlası (tek tuval; tuşların üstüne 0,03 birim yukarıda şeffaf düzlem)
-  const PW = 2048, PH = Math.round(PW * (YUK + 0) / GEN);
-  const [c, x] = tuval(PW, PH), s = PW / GEN;
-  x.textAlign = 'center'; x.textBaseline = 'middle';
-  tuslar.forEach((t) => {
-    const cx = (t.x + t.w / 2) * U * s, cy = (t.y + t.h / 2) * U * s;
-    x.fillStyle = '#20242c'; x.strokeStyle = '#20242c';
-    if (t.tur === 'ok') {
-      const r = 0.95 * s; x.beginPath();
-      const yon = { yukari: [0, -1], asagi: [0, 1], sol: [-1, 0], sag: [1, 0] }[t.ad];
-      const px = -yon[1], py = yon[0];
-      x.moveTo(cx + yon[0] * r, cy + yon[1] * r); x.lineTo(cx - yon[0] * r * 0.7 + px * r, cy - yon[1] * r * 0.7 + py * r); x.lineTo(cx - yon[0] * r * 0.7 - px * r, cy - yon[1] * r * 0.7 - py * r); x.closePath(); x.fill();
-      return;
-    }
-    if (t.ad === 'Geri') { x.lineWidth = 0.32 * s; x.lineCap = 'round'; x.beginPath(); x.moveTo(cx + 1.6 * s, cy); x.lineTo(cx - 1.6 * s, cy); x.moveTo(cx - 1.6 * s, cy); x.lineTo(cx - 0.6 * s, cy - 0.9 * s); x.moveTo(cx - 1.6 * s, cy); x.lineTo(cx - 0.6 * s, cy + 0.9 * s); x.stroke(); return; }
-    if (!t.ad.trim()) return;
-    const uzun = t.ad.length > 2;
-    x.font = `${t.tur === 'harf' || t.tur === 'rakam' ? 700 : 600} ${(uzun ? 1.05 : 1.55) * s}px ${YAZI}`;
-    x.fillText(t.ad === 'Num' ? 'Num' : t.ad, cx, cy + 0.05 * s);
-  });
-  const legend = new Mesh(new PlaneGeometry(GEN, YUK), new MeshBasicMaterial({ map: doku(c), transparent: true, depthWrite: false, toneMapped: false }));
-  legend.rotation.x = -Math.PI / 2; legend.position.set(0, TABAN_UST + 0.15 + TUS_Y + 0.04, 0); legend.renderOrder = 1; g.add(legend);
-  // vekiller: her tuş (en küçük hacim kazanır) + klavyenin tamamı
-  const v = [];
-  tuslar.forEach((t, i) => {
-    const o = vekil({ kesif: tusKesif(t), parca: 'klavye', tus: t.ad, tusNo: i, tusTur: t.tur }, t.w * U - 0.3, 2.4, t.h * U - 0.3, X0 + (t.x + t.w / 2) * U, TABAN_UST + 1.1, Z0 + (t.y + t.h / 2) * U);
-    g.add(o); v.push(o);
-  });
-  g.add(vekil({ kesif: 'klavye', parca: 'klavye' }, GEN + 3, 5, YUK + 3, 0, 2, 0));
-  const tusBas = (i, bas) => {
-    const m = taban0[i].clone(); if (bas) m.elements[13] -= 0.6;
-    kaps.setMatrixAt(i, m);
-    kaps.setColorAt(i, bas ? new Color(0x7c4dff) : (tuslar[i].tur === 'harf' || tuslar[i].tur === 'rakam' || tuslar[i].tur === 'bosluk' ? acik : koyu));
-    kaps.instanceMatrix.needsUpdate = true; kaps.instanceColor.needsUpdate = true;
-  };
-  const ara = (ad) => tuslar.findIndex((t) => t.ad === ad);
-  // yerel nokta (ad -> klavye yerel)
-  const nokta = (ad) => { const t = tuslar[ara(ad)]; return t ? new Vector3(X0 + (t.x + t.w / 2) * U, TABAN_UST + TUS_Y + 1.2, Z0 + (t.y + t.h / 2) * U) : new Vector3(); };
-  const noktaI = (i) => { const t = tuslar[i]; return new Vector3(X0 + (t.x + t.w / 2) * U, TABAN_UST + TUS_Y + 1.2, Z0 + (t.y + t.h / 2) * U); };
-  return {
-    grup: g, tuslar, tusBas, ara, nokta, noktaI,
-    kesif: [kes(g, 'klavye', 0, 7, 12.5), kes(g, 'tus-esc', ...nokta('Esc').toArray()), kes(g, 'tus-shift', ...nokta('Shift').toArray()), kes(g, 'tus-ctrl', ...nokta('Ctrl').toArray()), kes(g, 'tus-enter', X0 + 13.9 * U, 6, nokta('Enter').z), kes(g, 'tus-bosluk', 0, 6, nokta(' ').z)],
-    arka: new Vector3(KLAVYE.x - 8, 1.1, KLAVYE.z - YUK / 2 - 0.2),
-  };
 }
 
 // ------------------------------------------------------------------ fare
@@ -258,42 +158,6 @@ export function kulaklikYap() {
   g.add(vekil({ kesif: 'kulaklik', parca: 'kulaklik' }, 22, 14, 7, 0, 7, 0));
   g.add(vekil({ kesif: 'kulaklik-mikrofon', parca: 'kulaklik' }, 4, 2.4, 3, -4.7, 1.7, 8.6));
   return { grup: g, kupMal, ucMal, kesif: [kes(g, 'kulaklik', 0, 15, 0), kes(g, 'kulaklik-mikrofon', -4.7, 4, 8.6)], ucu: new Vector3(KULAKLIK.x + 9.7, 4.2, KULAKLIK.z) };
-}
-
-// ------------------------------------------------------------------ yazıcı
-export function yaziciYap() {
-  malzemeler();
-  const g = new Group(); g.name = 'yazici'; g.position.set(YAZICI.x, 0, YAZICI.z);
-  const govde = new MeshStandardMaterial({ color: 0xdfe2e7, roughness: 0.5 });
-  const ust = new MeshStandardMaterial({ color: 0xf1f3f6, roughness: 0.45 });
-  g.add(new Mesh(yuvarlak(36, 8.4, 27, 1.5, 0, 4.2, 0, 3), govde));
-  g.add(new Mesh(yuvarlak(35.4, 3.2, 26, 1.2, 0, 10.0, -0.6, 3), ust));
-  g.add(birlestir([kutu(28, 1.5, 2.2, 0, 3.0, 13.2), kutu(24, 0.3, 11, 0, 14.5, -10.5)], M.cip));
-  // çıkış tepsisi ve arka giriş desteği
-  g.add(new Mesh(yuvarlak(27, 0.5, 11, 0.2, 0, 1.7, 18.4), M.plastikBeyaz));
-  const giris = new Mesh(yuvarlak(24, 0.5, 14, 0.2, 0, 17.0, -15.5), M.plastikBeyaz); giris.rotation.x = -0.9; giris.position.set(0, 16.2, -17); g.add(giris);
-  // kontrol paneli
-  const panel = new Group(); panel.position.set(8.5, 11.9, 8.4); panel.rotation.x = -0.18;
-  panel.add(new Mesh(yuvarlak(13, 0.6, 6.2, 0.3), M.plastik));
-  const ekr = new Mesh(new BoxGeometry(6.2, 0.12, 3), new MeshBasicMaterial({ color: 0x1f3a6e })); ekr.position.set(-2.4, 0.34, 0); panel.add(ekr);
-  const led = new Mesh(new BoxGeometry(0.6, 0.12, 0.6), M.ledKapali); led.position.set(4.2, 0.34, -1.2); panel.add(led);
-  for (let i = 0; i < 2; i++) { const d = new Mesh(silindir(0.6, 0.14, 3.2 + i * 1.6, 0.34, 1.2, { seg: 14 }), M.alumin); panel.add(d); }
-  g.add(panel);
-  // kâğıt
-  const [c, x] = tuval(512, 700);
-  x.fillStyle = '#ffffff'; x.fillRect(0, 0, 512, 700);
-  x.fillStyle = '#7c4dff'; x.fillRect(50, 56, 412, 10);
-  x.fillStyle = '#20242c'; x.font = `700 58px ${YAZI}`; x.textAlign = 'left'; x.textBaseline = 'alphabetic'; x.fillText('Merhaba!', 50, 148);
-  x.fillStyle = '#6b7384'; for (let i = 0; i < 6; i++) x.fillRect(50, 200 + i * 38, i === 5 ? 220 : 412, 12);
-  x.fillStyle = '#a2c8f3'; x.fillRect(50, 450, 412, 190); x.fillStyle = '#6ea4e8'; x.beginPath(); x.moveTo(50, 640); x.lineTo(200, 540); x.lineTo(320, 600); x.lineTo(400, 530); x.lineTo(462, 580); x.lineTo(462, 640); x.closePath(); x.fill();
-  const kagit = new Mesh(new PlaneGeometry(25, 34.5), new MeshStandardMaterial({ map: doku(c), roughness: 0.9, side: DoubleSide }));
-  kagit.rotation.x = -Math.PI / 2; kagit.position.set(0, 2.45, 13.5 - 17.25 - 2); kagit.visible = false; g.add(kagit);
-  g.add(vekil({ kesif: 'yazici', parca: 'yazici' }, 36.4, 13, 27.4, 0, 6.5, 0));
-  return {
-    grup: g, kagit, led, kesif: [kes(g, 'yazici', 0, 13.5, 2)],
-    ledAyarla: (a) => { led.material = a ? M.ledYesil : M.ledKapali; },
-    arka: new Vector3(YAZICI.x - 10, 4, YAZICI.z - 13.0),
-  };
 }
 
 // ------------------------------------------------------------------ USB bellek (bağlantı ucu z=0, gövde +z'ye doğru)
