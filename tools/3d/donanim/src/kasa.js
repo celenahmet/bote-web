@@ -63,7 +63,9 @@ export function kasaYap() {
   const W = KASA.w, H = KASA.h, D = KASA.d, Y0 = 1.6;
   const g = new Group(); g.name = 'kasa'; g.position.set(KASA.x, 0, KASA.z);
   const govdeMal = new MeshStandardMaterial({ color: 0x2d3037, roughness: 0.46, metalness: 0.4 });
-  g.add(new Mesh(yuvarlak(W, H - Y0, D, 1.1, 0, Y0 + (H - Y0) / 2, 0, 3), govdeMal));
+  const govde = new Mesh(yuvarlak(W, H - Y0, D, 1.1, 0, Y0 + (H - Y0) / 2, 0, 3), govdeMal);
+  govde.userData.statik = false; govde.name = 'kasa-govde'; // ders 2: kapak açılınca gizlenir (icKur); tek mesh olduğundan birleştirmede zaten tek başınaydı
+  g.add(govde);
   // ayaklar
   g.add(birlestir([[-15.5, -35.5], [15.5, -35.5], [-15.5, 35.5], [15.5, 35.5]].map(([x, z]) => silindir(2.3, Y0 + 0.2, x, (Y0 + 0.2) / 2, z, { seg: 14 })), M.plastik));
 
@@ -141,7 +143,7 @@ export function kasaYap() {
   g.add(vekil({ kesif: 'guc-girisi', parca: 'kasa', ...kucuk }, 4.6, 3.4, 2.6, ARKA.guc.x, ARKA.guc.y, az - 1.0));
   g.add(vekil({ kesif: 'guc-kaynagi', parca: 'kasa' }, 30, 17.2, 2.6, -3.5, 10.4, az - 0.5));
   return {
-    grup: g, halka,
+    grup: g, halka, govde,
     kesif: [
       kes(g, 'kasa', 0, 62, ON + 1, [0, 0.2, 1]), kes(g, 'guc-dugmesi', ON_GIRIS.guc, ONY, ON + 1, [0, 0.15, 1]),
       kes(g, 'usb-girisi', (ON_GIRIS.usb1 + ON_GIRIS.usb2) / 2, ONY, ON + 1, [0, 0.15, 1]), kes(g, 'ses-jaklari', (ON_GIRIS.kulaklik + ON_GIRIS.mikrofon) / 2, ONY, ON + 1, [0, 0.15, 1]),

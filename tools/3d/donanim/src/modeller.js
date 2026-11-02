@@ -8,6 +8,7 @@ import { dokuKur } from './doku.js';
 import { statikBirlestir } from './statik.js';
 import { kasaYap } from './kasa.js';
 import { kablolariYap } from './kablolar.js';
+import { icKur } from './ic.js';
 
 // Masa yüzeyine pişirilen temas gölgeleri (dünya birimi): eşyaların altı biraz koyulaşır, havada asılı görünmezler.
 const IZLER = [
@@ -48,5 +49,7 @@ export function modelleriKur(sahne, { aniz = 4 } = {}) {
   sahne.add(kok);
   kok.updateMatrixWorld(true);
   const birlesme = statikBirlestir(kok);                   // çizim çağrısı bütçesi: aynı malzemeli statik meshler tek geometri
+  p.ic = icKur(p.kasa, { aniz });                          // ders 2: kasa içi (kapak kapalıyken gizli, geometri kapak ilk açılınca kurulur)
+  kok.updateMatrixWorld(true);
   return { kok, p, birlesme };
 }

@@ -6,7 +6,7 @@
 // Kart içeriği sırası: kavramlar.json[id], sonra kesif.json[id], sonra `kavram`, en sonda `ad` + `kisa`.
 // oncelik: ekranda çakışan işaretlerden önceliği düşük olan gizlenir, yaklaştıkça açılır.
 
-export const KATEGORI_SIRA = ['girdi', 'cikti', 'ikisi', 'depolama', 'kasa'];
+export const KATEGORI_SIRA = ['girdi', 'cikti', 'ikisi', 'depolama', 'kasa', 'ic', 'sogutma'];
 export const KATEGORI = {
   girdi: { ad: 'Girdi birimleri', renk: '#1e6fd9', ikon: 'keyboard' },
   // açık zeminde beyaz simge okunmuyor: turuncuda koyu simge
@@ -14,6 +14,8 @@ export const KATEGORI = {
   ikisi: { ad: 'Hem girdi hem çıktı', renk: '#7c4dff', ikon: 'headphones' },
   depolama: { ad: 'Depolama', renk: '#00897b', ikon: 'hard-drive' },
   kasa: { ad: 'Kasa ve bağlantılar', renk: '#6b7280', ikon: 'plug' },
+  ic: { ad: 'Kasanın içi', renk: '#b0245e', ikon: 'cpu' },
+  sogutma: { ad: 'Soğutma', renk: '#2e7d32', ikon: 'fan' },
 };
 
 const A = 3, B = 2, C = 1; // öncelik: ana, ikincil, ayrıntı
@@ -42,7 +44,7 @@ export const KESIF = {
   // ---------------------------------------------------------------- depolama
   'usb-bellek': { kat: 'depolama', ad: 'USB bellek', oncelik: B, kisa: 'Dosyaları saklayan, takılıp çıkarılabilen küçük depolama birimidir.' },
   // ---------------------------------------------------------------- kasa ve bağlantılar
-  kasa: { kat: 'kasa', ad: 'Kasa', oncelik: A, kisa: 'Bilgisayarın ana parçalarını içinde taşıyan ve koruyan kutudur. Bu derste kapalı kalır.' },
+  kasa: { kat: 'kasa', ad: 'Kasa', oncelik: A, kisa: 'Bilgisayarın ana parçalarını içinde taşıyan ve koruyan kutudur. Birinci derste kapalı kalır; ikinci derste kapağı açıp içini geziyoruz.' },
   'guc-dugmesi': { kat: 'kasa', ad: 'Güç düğmesi', oncelik: B, kisa: 'Bilgisayarı açar ve kapatır.' },
   'usb-girisi': { kat: 'kasa', ad: 'USB girişi', oncelik: B, kisa: 'Klavye, fare, yazıcı ve USB bellek gibi cihazların takıldığı giriştir.' },
   'ses-jaklari': { kat: 'kasa', ad: 'Ses girişleri', oncelik: B, kisa: 'Kulaklık, mikrofon ve hoparlör kablolarının takıldığı yuvalar. Yanlarındaki simge ve renk hangisinin nereye takılacağını gösterir.' },
@@ -50,4 +52,30 @@ export const KESIF = {
   'ag-girisi': { kat: 'kasa', ad: 'Ağ girişi', oncelik: C, kisa: 'İnternet kablosunun takıldığı giriştir.' },
   'guc-girisi': { kat: 'kasa', ad: 'Güç kablosu girişi', oncelik: B, kisa: 'Prizden gelen elektriğin kasaya girdiği yerdir.' },
   'guc-kaynagi': { kat: 'kasa', ad: 'Güç kaynağı', oncelik: B, kisa: 'Prizdeki elektriği bilgisayar parçalarının kullanabileceği düşük gerilime çevirir.' },
+  // ---------------------------------------------------------------- kasanın içi (ders 2)
+  'yan-kapak': { kat: 'kasa', ad: 'Yan kapak', oncelik: B, kisa: 'Kasanın yan yüzündeki kapaktır. Açılınca içindeki parçalar görünür; kapalıyken parçaları toz ve dokunmaktan korur.' },
+  anakart: { kat: 'ic', ad: 'Anakart', oncelik: A, kisa: 'Bilgisayarın bütün parçalarının takıldığı ya da kabloyla bağlandığı ana karttır. Parçalar onun üzerinden birbiriyle konuşur.' },
+  islemci: { kat: 'ic', ad: 'İşlemci', oncelik: A, kisa: 'Bilgisayarın beynidir. Hesapları yapar ve programları çalıştırır. Çalışırken ısınır, bu yüzden üstüne soğutucu takılır.' },
+  'termal-macun': { kat: 'ic', ad: 'Termal macun', oncelik: B, kisa: 'İşlemci ile soğutucu arasına sürülen ince macundur. Aradaki boşlukları doldurarak ısının soğutucuya geçmesini kolaylaştırır.' },
+  ram: { kat: 'ic', ad: 'RAM (bellek)', oncelik: A, kisa: 'Bilgisayarın çalışma masasıdır. Açık program ve dosyalar geçici olarak burada durur. Elektrik gidince içindekiler silinir.' },
+  'ekran-karti': { kat: 'ic', ad: 'Ekran kartı', oncelik: A, kisa: 'Ekranda gördüğümüz görüntüyü hazırlar. Kendi fanları vardır ve çalışırken çok ısınır.' },
+  'pcie-yuvasi': { kat: 'ic', ad: 'PCIe yuvası', oncelik: C, kisa: 'Ekran kartı gibi ek kartların anakarta takıldığı uzun yuvadır.' },
+  'guc-kablolari': { kat: 'ic', ad: 'Güç kabloları', oncelik: B, kisa: 'Güç kaynağından anakarta ve ekran kartına elektrik taşıyan kalın kablolardır.' },
+  'bios-pili': { kat: 'ic', ad: 'BIOS pili', oncelik: C, kisa: 'Anakartın üzerindeki küçük pildir. Bilgisayar kapalıyken saati ve temel ayarları korur.' },
+  'arka-panel': { kat: 'kasa', ad: 'Arka panel', oncelik: C, kisa: 'Anakartın kasanın arkasına açılan giriş paneli. USB, ses, görüntü ve ağ girişleri burada toplanır.' },
+  'wifi-karti': { kat: 'ic', ad: 'Wi-Fi kartı', oncelik: C, kisa: 'Bilgisayarın kablosuz ağa bağlanmasını sağlayan karttır. Antenleri kasanın arkasına çıkar.' },
+  'veri-kablosu': { kat: 'ic', ad: 'Veri kablosu', oncelik: C, kisa: 'Depolama birimi ile anakart arasında bilgiyi taşıyan kablodur.' },
+  'm2-ssd': { kat: 'depolama', ad: 'M.2 SSD', oncelik: B, kisa: 'Küçük bir kart gibi doğrudan anakarta takılan hızlı depolama birimidir. Kablo gerektirmez.' },
+  'sata-ssd': { kat: 'depolama', ad: 'SATA SSD', oncelik: B, kisa: 'İnce bir kutu biçimindeki SSD. Veriyi SATA kablosuyla anakarta iletir; hareketli parçası yoktur.' },
+  hdd: { kat: 'depolama', ad: 'Sabit disk (HDD)', oncelik: B, kisa: 'Dönen disklerin üzerine bilgi yazan depolama birimidir. Büyük ve ucuzdur ama SSD kadar hızlı değildir.' },
+  // ---------------------------------------------------------------- soğutma
+  'hava-sogutucu': { kat: 'sogutma', ad: 'Hava soğutucu', oncelik: A, kisa: 'İşlemcinin ısısını alan metal kanatlı soğutucudur. Üzerindeki fan havayı kanatların arasından üfleyerek ısıyı uzaklaştırır.' },
+  'isi-borusu': { kat: 'sogutma', ad: 'Isı borusu', oncelik: C, kisa: 'Soğutucudaki bakır borulardır. Isıyı işlemcinin üstünden kanatlara hızla taşır.' },
+  'sivi-sogutma': { kat: 'sogutma', ad: 'Sıvı soğutma', oncelik: A, kisa: 'Isıyı hava yerine sıvıyla taşıyan sistemdir: pompa bloğu, iki hortum ve radyatör birlikte çalışır.' },
+  'pompa-blogu': { kat: 'sogutma', ad: 'Pompa bloğu', oncelik: B, kisa: 'İşlemcinin üstüne oturur ve ısıyı sıvıya verir. İçindeki pompa sıvıyı hortumlardan radyatöre doğru döndürür.' },
+  radyator: { kat: 'sogutma', ad: 'Radyatör', oncelik: B, kisa: 'Sıcak sıvının ince borulardan geçerek soğuduğu kanatlı metal bölümdür. Üzerindeki fanlar ısıyı havaya atar.' },
+  'sogutma-hortumu': { kat: 'sogutma', ad: 'Soğutma hortumu', oncelik: C, kisa: 'Sıvıyı pompadan radyatöre ve geri taşıyan iki esnek borudur. Biri sıcak, biri soğumuş sıvıyı taşır.' },
+  'kasa-fani': { kat: 'sogutma', ad: 'Kasa fanı', oncelik: B, kisa: 'Kasanın içine serin hava alan ya da ısınan havayı dışarı atan fandır. Önde hava girer, üstte hava çıkar.' },
+  'hava-akisi': { kat: 'sogutma', ad: 'Hava akışı', oncelik: C, kisa: 'Kasanın içindeki havanın yoludur: serin hava önden girer, parçaları geçerken ısınır ve yukarıdan çıkar.' },
+  'toz-filtresi': { kat: 'sogutma', ad: 'Toz filtresi', oncelik: C, kisa: 'Kasaya giren havadaki tozu tutan ince ağdır. Parçaların toz içinde kalmasını önler.' },
 };
