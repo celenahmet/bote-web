@@ -29,7 +29,7 @@ const KABLO_YAZI = {
 const PARCA_KABLO = { klavye: 'klavye', fare: 'fare', mikrofon: 'mikrofon', kulaklik: 'kulaklik', hoparlor: 'hoparlor', monitor: 'monitor', kamera: 'kamera', yazici: 'yazici' };
 
 export function sahneyiKur(S, { olay = () => {} } = {}) {
-  const { kok, p } = modelleriKur(S.scene);
+  const { kok, p } = modelleriKur(S.scene, { aniz: S.renderer.capabilities.getMaxAnisotropy() });
   const ek = p.monitor.ekran, d = ek.durum, kl = p.klavye, fr = p.fare, hp = p.hoparlor, mk = p.mikrofon, kk = p.kulaklik, yz = p.yazici, kam = p.kamera, kb = p.kablo;
   const duyur = (m) => { try { olay('duyur', m); } catch (e) { /* olay yok */ } };
 

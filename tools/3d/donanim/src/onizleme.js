@@ -8,6 +8,7 @@ import { sahneyiKur } from './donanimSahne.js';
 import { vurguYap } from './yardimci.js';
 import { DERSLER, KAMERA, KONTROL, GORUNUM, GORUNUM_LISTE } from './adimlar.js';
 import { KESIF, KATEGORI } from './kesif-veri.js';
+import { dokuSure } from './doku.js';
 
 const $ = (s, k = document) => k.querySelector(s);
 const q = new URLSearchParams(location.search);
@@ -174,7 +175,7 @@ function baslat() {
     window.__hazir = true;
   }));
   window.__donanim = { S, sahne, adimaGit, gorunumSec, kesifDegistir, adim: () => adimKimlikleri[aktif], adimlar: adimKimlikleri, hatalar, kameraBul,
-    olcum: () => ({ kurulumMs, ilkKareMs, sahneKurMs: Math.round(t1 - t0) }) };
+    olcum: () => ({ kurulumMs, ilkKareMs, sahneKurMs: Math.round(t1 - t0), dokuSure }) };
   if (olcumModu) {
     const p = document.createElement('div'); p.className = 'olcum'; sahneAlani.appendChild(p);
     setInterval(() => {

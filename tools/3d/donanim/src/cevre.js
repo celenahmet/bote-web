@@ -8,20 +8,15 @@ import {
 import { CapsuleGeometry, PlaneGeometry, RingGeometry, Color, Quaternion } from 'three';
 import { MASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, KAMERA_PARCA } from './yerlesim.js';
 import { ekranDokusu } from './ekran.js';
+import { dokular } from './doku.js';
 
 const kes = kesifNok;
-const rastgele = (tohum) => { let s = tohum; return () => (s = (s * 16807) % 2147483647) / 2147483647; };
 
 // ------------------------------------------------------------------ masa
 export function masaYap() {
   malzemeler();
-  const [c, x] = tuval(512, 256), r = rastgele(11);
-  x.fillStyle = '#d9c5a3'; x.fillRect(0, 0, 512, 256);
-  for (let i = 0; i < 80; i++) {
-    const y = r() * 256; x.strokeStyle = `rgba(150,108,58,${0.07 + r() * 0.13})`; x.lineWidth = 0.6 + r() * 2.2;
-    x.beginPath(); x.moveTo(0, y); for (let px = 0; px <= 512; px += 64) x.lineTo(px, y + (r() - 0.5) * 6); x.stroke();
-  }
-  const mal = new MeshStandardMaterial({ map: doku(c), roughness: 0.72 });
+  const D = dokular().masa;
+  const mal = new MeshStandardMaterial({ map: D.map, normalMap: D.normalMap, normalScale: D.normalScale, roughness: 0.62 });
   const m = new Mesh(yuvarlak(MASA.x1 - MASA.x0, MASA.kalin, MASA.z1 - MASA.z0, 1.0, 0, MASA.ust - MASA.kalin / 2, (MASA.z0 + MASA.z1) / 2, 3), mal);
   m.name = 'masa'; m.receiveShadow = false; m.castShadow = false;
   return m;

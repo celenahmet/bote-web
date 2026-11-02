@@ -1,11 +1,26 @@
 // Sahnedeki tüm modeller. Ders 1: masa üstü birimler, kablolar ve kapalı kasa (kasa içi modeller ders 2'de eklenir).
 import { Group, malzemeler, golgeAyarla } from './yardimci.js';
 import { masaYap, monitorYap, kameraYap, klavyeYap, fareYap, hoparlorYap, mikrofonYap, kulaklikYap, yaziciYap, usbBellekYap } from './cevre.js';
-import { USB_BELLEK } from './yerlesim.js';
+import { MASA, KASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, USB_BELLEK } from './yerlesim.js';
+import { dokuKur } from './doku.js';
 import { kasaYap } from './kasa.js';
 import { kablolariYap } from './kablolar.js';
 
-export function modelleriKur(sahne) {
+// Masa yüzeyine pişirilen temas gölgeleri (dünya birimi): eşyaların altı biraz koyulaşır, havada asılı görünmezler.
+const IZLER = [
+  { x: KASA.x, z: KASA.z, w: KASA.w + 4, d: KASA.d + 4, bulanik: 18, alfa: 0.55 },
+  { x: MON.x, z: MON.z + 3, w: 36, d: 24, bulanik: 10, alfa: 0.5 },
+  ...HOPARLOR.map((h) => ({ x: h.x, z: h.z, w: 15, d: 17, bulanik: 9, alfa: 0.5 })),
+  { x: KLAVYE.x, z: KLAVYE.z, w: 88, d: 27, bulanik: 16, alfa: 0.32 },
+  { x: FARE.x, z: FARE.z, w: 12.5, d: 21, bulanik: 8, alfa: 0.4 },
+  { x: YAZICI.x, z: YAZICI.z, w: 38, d: 29, bulanik: 14, alfa: 0.45 },
+  { x: MIKROFON.x, z: MIKROFON.z, w: 10.5, d: 10.5, bulanik: 6, alfa: 0.5 },
+  { x: KULAKLIK.x, z: KULAKLIK.z, w: 22, d: 14, bulanik: 8, alfa: 0.28 },
+  { x: USB_BELLEK.x, z: USB_BELLEK.z, w: 6, d: 15, bulanik: 4, alfa: 0.35 },
+];
+
+export function modelleriKur(sahne, { aniz = 4 } = {}) {
+  dokuKur({ aniz, izler: IZLER, masa: MASA });
   malzemeler();
   const p = {};
   p.masa = masaYap();
