@@ -309,7 +309,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   // dış güç kaynağı çapası (arka yüz) kasa açıkken iç güç kaynağına taşınır: aynı keşif kimliği, iki yer
   function gucCapasi(ac) {
     if (!gucAnc) return;
-    if (ac) { gucAnc.position.set(-19.2, 10.4, -28); gucAnc.userData.yon = null; gucAnc.visible = true; } else { gucAnc.position.copy(gucKonum0); gucAnc.userData.yon = gucYon0; }
+    if (ac) { gucAnc.position.set(-3.5, 19.1, -28); gucAnc.userData.yon = null; gucAnc.visible = true; } else { gucAnc.position.copy(gucKonum0); gucAnc.userData.yon = gucYon0; }
     gucAnc.updateMatrixWorld(true);
   }
   function etiketYenile() { sabit = adimEtiket.map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta); etiketle(); }
@@ -323,7 +323,11 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   }
   function kapakDegistir() {
     kapakAcik = !kapakAcik; if (!kapakAcik) calismaDur();
-    hareket('kapak', 1100, ic.durum.kapak, kapakAcik ? 1 : 0, kapakKur);
+    hareket('kapak', 1100, ic.durum.kapak, kapakAcik ? 1 : 0, kapakKur, () => {
+      // adım etiketi kasanın durumunu söyler: açılınca "Açık kasa", kapanınca "Kapalı kasa" (yapılandırma dizisi değişmez, kopya)
+      adimEtiket = adimEtiket.map((e) => (e[0] === 'parca:kasa' && /kasa$/.test(e[1]) ? [e[0], kapakAcik ? 'Açık kasa' : 'Kapalı kasa', e[2]] : e));
+      etiketYenile();
+    });
     duyur(kapakAcik ? 'Yan kapak açıldı, kasanın içi görünüyor' : 'Yan kapak kapandı');
     return kapakAcik;
   }

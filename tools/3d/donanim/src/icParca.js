@@ -115,8 +115,8 @@ export function anakartYap(K) {
     }
   };
   vrm(-34.5, -28.0, 56.5, 71.5, 17.9, 6, 'z'); vrm(-27.0, -12.0, 72.5, 76.0, 17.9, 7, 'z');
-  K.m(kutu(2.6, 7.6, 7.6, 16.7, 37.0, 4.5), vr);                              // çip kümesi soğutucusu
-  for (let i = 0; i < 5; i++) K.m(kutu(0.5, 7.4, 0.4, 15.5, 37.0, 1.7 + i * 1.5), nerv);
+  K.m(kutu(1.4, 7.6, 7.6, 17.3, 37.0, 4.5), vr);                              // çip kümesi soğutucusu (ekran kartının altından geçer)
+  for (let i = 0; i < 5; i++) K.m(kutu(0.4, 7.4, 0.4, 16.5, 37.0, 1.7 + i * 1.5), nerv);
   // çip kümesi: yazı için baskı devresinde; G/Ç zırhı (arka-üst köşe)
   K.p(yuvarlak(6.0, 9.2, 7.6, 0.4, 14.9, 73.9, -37.8, 2), 0x1f2127);
   K.m(kutu(0.3, 9.0, 7.2, 11.8, 73.9, -37.8), 0x9aa0aa);
@@ -137,7 +137,7 @@ export function anakartYap(K) {
     K.m(kutu(0.1, 0.36, z1 - z0 - 0.8, 15.98, y, (z0 + z1) / 2), altin);
     K.p(kutu(0.5, 0.9, 0.6, 16.6, y, z1 + 0.4), 0xdfe3e8);                        // mandal
   };
-  zYuva(-40.6, -22.8, pcieY(4)); zYuva(-40.6, -22.8, pcieY(3)); zYuva(-40.6, -35.6, pcieY(2));
+  zYuva(-40.6, -22.8, pcieY(5)); zYuva(-40.6, -22.8, pcieY(3)); zYuva(-40.6, -35.6, pcieY(2));
   for (let k = 0; k < 4; k++) {
     const z = RAM.z0 + RAM.adim * k, yo = (RAM.y0 + RAM.y1) / 2, uz = RAM.y1 - RAM.y0;
     K.p(kutu(1.6, uz, 1.4, 17.2, yo, z), kyuva);
@@ -200,13 +200,14 @@ export function fanGovde(K, m, eksen, boy, kalin, rD, hex = 0x1d2025) {
 
 // ------------------------------------------------------------------ sıvı soğutma: pompa bloğu (orijin sıfır), radyatör, bağlantılar
 export function pompaYap(K) {
-  const sy = CPU.y, sz = CPU.z, cx = (SIVI.pompaX0 + SIVI.pompaX1) / 2;
-  K.p(silindir(SIVI.pompaR, SIVI.pompaX1 - SIVI.pompaX0, cx, sy, sz, { eksen: 'x', seg: 36 }), 0x1c1e23);
+  const sy = CPU.y, sz = CPU.z, R = SIVI.pompaR, cx = (SIVI.pompaX0 + SIVI.pompaX1) / 2;
+  K.p(silindir(R, SIVI.pompaX1 - SIVI.pompaX0, cx, sy, sz, { eksen: 'x', seg: 40 }), 0x1c1e23);
+  K.m(silindir(R + 0.05, 0.3, SIVI.pompaX0 + 0.15, sy, sz, { eksen: 'x', seg: 40 }), 0x9aa1ad);                // gümüş çerçeve halkası (kapak içinde kalır)
   K.m(silindir(3.3, 0.3, 15.95, sy, sz, { eksen: 'x', seg: 28 }), 0xc9773a);                                // bakır soğuk plaka (IHS 16.3'e dayanır)
   for (const dy of [-4.4, 4.4]) for (const dz of [-4.4, 4.4]) K.m(silindir(0.5, 0.9, 15.6, sy + dy, sz + dz, { eksen: 'x', seg: 10 }), 0xcfd3da);
   for (const dz of [-1.7, 1.7]) {                                                                          // dirsek bağlantıları (yukarı)
-    K.m(silindir(1.0, 2.2, cx, sy + 3.9, sz + dz, { seg: 14 }), 0xc5cad2);
-    K.p(silindir(1.3, 0.7, cx, sy + 4.7, sz + dz, { seg: 14 }), 0x111215);
+    K.m(silindir(1.0, 2.2, cx, sy + R + 0.3, sz + dz, { seg: 14 }), 0xc5cad2);
+    K.p(silindir(1.3, 0.7, cx, sy + R + 1.1, sz + dz, { seg: 14 }), 0x111215);
   }
 }
 export const POMPA_KAPAK = () => silindir(SIVI.pompaR - 0.55, 0.12, SIVI.pompaX0 - 0.05, CPU.y, CPU.z, { eksen: 'x', seg: 36 });
@@ -222,10 +223,11 @@ export function radyatorYap(K) {
 }
 // hortum yolları (kasa-yerel): sıcak sıvı pompadan radyatöre (A), soğuyan sıvı radyatörden pompaya (B)
 export const HORTUM_R = 1.05;
-const PX = (SIVI.pompaX0 + SIVI.pompaX1) / 2, PZ1 = CPU.z + 1.7, PZ0 = CPU.z - 1.7, PYU = CPU.y + 5.4;
+const PX = (SIVI.pompaX0 + SIVI.pompaX1) / 2, PZ1 = CPU.z + 1.7, PZ0 = CPU.z - 1.7, PYU = CPU.y + SIVI.pompaR + 1.8;
 export const HORTUM = {
-  A: [[PX, PYU, PZ1], [PX - 0.1, PYU + 3.2, PZ1], [13.5, 77.4, -17.2], [13.4, 80.6, -9], [13.4, 81.0, 4], [13.6, 82.2, 13.5], [12.0, 85.5, 19.8], [8.0, 87.0, 18.6], [8.0, 86.9, 15.6]],
-  B: [[4.0, 86.9, 15.6], [4.0, 87.0, 18.6], [10.5, 85.6, 22.2], [15.2, 82.0, 15], [15.2, 80.0, 3], [15.0, 79.2, -8], [14.0, 78.2, -14.5], [13.3, 75.5, -21.2], [PX - 0.1, PYU + 3.0, PZ0], [PX, PYU, PZ0]],
+  // radyatör fan çerçevesinin altından (y 76.6 .. 79.5) geçer: açık yan taraftan görünür; VRM soğutucusunun (x >= 14.4) dışında kalır
+  A: [[PX, PYU, PZ1], [PX - 0.1, PYU + 3.0, PZ1], [13.0, 77.9, -17.6], [13.0, 78.4, -9], [13.0, 78.5, 4], [13.4, 79.6, 13], [12.0, 84.8, 19.6], [8.0, 87.0, 18.6], [8.0, 86.9, 15.6]],
+  B: [[4.0, 86.9, 15.6], [4.0, 87.0, 18.6], [10.5, 85.6, 22.2], [15.3, 81.5, 16], [15.3, 77.6, 6], [15.3, 77.0, -6], [13.4, 77.6, -13.5], [12.9, 76.5, -20.5], [PX - 0.1, PYU + 2.8, PZ0], [PX, PYU, PZ0]],
 };
 
 // ------------------------------------------------------------------ ekran kartı
@@ -235,7 +237,7 @@ export function ekranKartiYap(K) {
   K.m(kutu(1.0, 0.34, 17.8, 17.1, gy, -31.9), 0xe0b64e);                                          // altın parmaklar
   // arka plaka (üstte): üçüncü fan için delikli, hat hatlı
   { const s = new Shape(); s.moveTo(GPU.x0 + 0.2, -39.5); s.lineTo(GPU.x1 - 0.5, -39.5); s.lineTo(GPU.x1 - 0.5, 12.5); s.lineTo(GPU.x0 + 0.2, 12.5); s.closePath();
-    const d = new Path(); d.absarc(6.5, -5, 6.8, 0, Math.PI * 2, true); s.holes.push(d);
+    const d = new Path(); d.absarc(gx, -5, 6.8, 0, Math.PI * 2, true); s.holes.push(d);
     const g = new ExtrudeGeometry(s, { depth: 0.45, bevelEnabled: false, curveSegments: 24 }); uvNorm(g); g.rotateX(Math.PI / 2); g.translate(0, gy + 0.2 + 0.45, 0); K.m(g, 0xffffff, 'gpuArka'); }
   // gövde: dış duvarlar + alt plaka (iki fan deliği)
   const wy0 = GPU.alt, wy1 = gy - 0.16, wh = wy1 - wy0, wyc = (wy0 + wy1) / 2, kr = 0x1f2227;
@@ -243,17 +245,17 @@ export function ekranKartiYap(K) {
   K.p(kutu(0.5, wh, 52, GPU.x1 - 0.25, wyc, -13.5), kr);
   K.p(kutu(GPU.x1 - GPU.x0, wh, 0.5, gx, wyc, -39.25), kr); K.p(kutu(GPU.x1 - GPU.x0, wh, 0.5, gx, wyc, 12.25), kr);
   { const s = new Shape(); s.moveTo(GPU.x0, -39.5); s.lineTo(GPU.x1, -39.5); s.lineTo(GPU.x1, 12.5); s.lineTo(GPU.x0, 12.5); s.closePath();
-    for (const z of [-26, -5]) { const d = new Path(); d.absarc(6.5, z, 8.6, 0, Math.PI * 2, true); s.holes.push(d); }
+    for (const z of [-26, -5]) { const d = new Path(); d.absarc(gx, z, 8.6, 0, Math.PI * 2, true); s.holes.push(d); }
     const g = new ExtrudeGeometry(s, { depth: 0.6, bevelEnabled: false, curveSegments: 28 }); uvNorm(g); g.rotateX(Math.PI / 2); g.translate(0, wy0 + 0.6, 0); K.p(g, 0x181a1e); }
   K.p(yanEtiket(52, wh - 0.8, GPU.x0 - 0.02, wyc, -13.5), 0xffffff, 'gpuYan');
   // fan motor göbekleri (kanatlar örnekli)
-  for (const z of [-26, -5]) { K.p(silindir(2.2, 0.8, GPU.x0 + 10.5, 43.0, z, { seg: 16 }), 0x2a2d33); for (let i = 0; i < 3; i++) { const s = kutu(6.4, 0.3, 0.5, 6.5 + 4.5, 43.0, z); s.translate(-6.5, 0, -z); s.rotateY(i * 2.094 + 0.4); s.translate(6.5, 0, z); K.p(s, 0x181a1e); } }
+  for (const z of [-26, -5]) { const fy = GPU.alt + 2.2; K.p(silindir(2.2, 0.8, gx, fy, z, { seg: 16 }), 0x2a2d33); for (let i = 0; i < 3; i++) { const s = kutu(6.4, 0.3, 0.5, gx + 4.5, fy, z); s.translate(-gx, 0, -z); s.rotateY(i * 2.094 + 0.4); s.translate(gx, 0, z); K.p(s, 0x181a1e); } }
   // braket (arka duvara dayalı) ve bağlantı noktaları
-  K.m(kutu(GPU.x1 - GPU.x0 + 0.4, 11.4, 0.2, gx, 46.6, -42.3), 0xc6cbd3);
-  for (const x of [11, 7.4, 3.8]) K.m(kutu(2.4, 1.0, 2.6, x, 47.2, -40.9), 0x4a4f58);
-  K.m(kutu(2.8, 1.1, 2.6, -0.4, 47.2, -40.9), 0x4a4f58);
+  K.m(kutu(GPU.x1 - GPU.x0 + 0.4, 12.2, 0.2, gx, gy - 0.1, -42.3), 0xc6cbd3);
+  for (const x of [11, 7.4, 3.8]) K.m(kutu(2.4, 1.0, 2.6, x, gy + 0.6, -40.9), 0x4a4f58);
+  K.m(kutu(2.8, 1.1, 2.6, -0.4, gy + 0.6, -40.9), 0x4a4f58);
   // güç soketi (serbest kenar, ön uç) ve fişi
-  K.p(kutu(3.4, 2.4, 3.6, -2.9, 50.0, 10.0), 0x15161a);
+  K.p(kutu(3.4, 2.4, 3.6, -2.9, gy - 1.6, 10.0), 0x15161a);
 }
 
 // ------------------------------------------------------------------ Wi-Fi kartı (PCIe x1): orijin sıfır
@@ -338,8 +340,8 @@ export function kabloYap(K) {
   K.p(kutu(3.4, 2.4, 4.6, 12.6, 77.5, -28.2), siyah);
   bag(K, eps, 0.5, 0.85);
   // ekran kartı PCIe: serbest kenardaki soketten tepsi geçişine
-  const pc = kablo(K, [[-7.8, 50.0, 10.0], [-9, 52.5, 12.4], [-6, 57, 17.5], [2, 58, 21.5], [12, 52, 23.2], [19.45, 46.5, 23.5]], 0.95, kilif, { radyal: 10, parca: 60 });
-  K.p(kutu(3.6, 2.4, 3.8, -6.4, 50.0, 10.0), siyah);
+  const pc = kablo(K, [[-7.8, GPU.y - 1.6, 10.0], [-9, GPU.y + 1.0, 12.4], [-6, GPU.y + 5.5, 17.5], [2, GPU.y + 6.5, 21.5], [12, GPU.y + 1.5, 23.2], [19.45, 46.5, 23.5]], 0.95, kilif, { radyal: 10, parca: 60 });
+  K.p(kutu(3.6, 2.4, 3.8, -6.4, GPU.y - 1.6, 10.0), siyah);
   bag(K, pc, 0.55, 0.95); bag(K, pc, 0.78, 0.95);
   // PSU'dan tepsi geçişine inen iki demet (8 pin işlemci ve PCIe: arkadan dolaşır)
   const gk = kablo(K, [[0, 9.5, PSU.z1 + 0.5], [1, 9.8, -9], [8, 11, -2], [14, 12.5, 1], [19.45, 13, 3]], 1.0, kilif, { radyal: 10, parca: 36 });

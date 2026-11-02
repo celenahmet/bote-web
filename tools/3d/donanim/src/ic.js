@@ -3,9 +3,9 @@
 // Konumlar kasa-yerel birim (icYer.js); dünya = KASA.x + x, y, KASA.z + z. Hareket yöneticisi donanimSahne.js'te kalır; burada yalnız durum ayarlayıcılar var.
 import {
   Group, Mesh, InstancedMesh, Object3D, Vector3, Quaternion, Color, BoxGeometry, ConeGeometry, PlaneGeometry, MeshStandardMaterial, MeshBasicMaterial,
-  CatmullRomCurve3, TubeGeometry, DoubleSide,
+  CatmullRomCurve3, DoubleSide,
 } from 'three';
-import { yuvarlak, vekil, kesifNok, silindir } from './yardimci.js';
+import { yuvarlak, vekil, kesifNok } from './yardimci.js';
 import { atlasDokusu, filtreDokusu, hortumDokusu, icDokuSure } from './icDoku.js';
 import {
   kume, kumeBitir, kabukYap, kabukMetal, anakartYap, macunYap, ramYap, havaYap, pompaYap, radyatorYap, ekranKartiYap, wifiYap, guc, depoYap, arkaYap,
@@ -13,7 +13,7 @@ import {
 } from './icParca.js';
 import { ARKA } from './kasa.js';
 import { KASA } from './yerlesim.js';
-import { CPU, RAM, GPU, WIFI, PSU, M2, HDD, SSD, BIOS, ON_FAN, FANLAR, AKIS, SIVI, HAVA, pcieY } from './icYer.js';
+import { CPU, RAM, GPU, WIFI, M2, BIOS, ON_FAN, FANLAR, AKIS, SIVI, pcieY } from './icYer.js';
 
 const V = (x, y, z) => new Vector3(x, y, z);
 const ease = (k) => k * k * (3 - 2 * k);
@@ -46,10 +46,11 @@ export function icKur(kasa, { aniz = 4 } = {}) {
   vk(gSabit, 'anakart', 1.2, 48.8, 61, 17.9, 54.4, -11); cp(gSabit, 'anakart', 17.2, 70.6, 12.5);
   vk(gSabit, 'islemci', 2.2, 10.4, 10, 16.8, CPU.y, CPU.z); cp(gSabit, 'islemci', 16.0, CPU.y + 7.4, CPU.z + 5.0);
   vk(gSabit, 'pcie-yuvasi', 3, 2.4, 19, 16.9, pcieY(3), -31.7); cp(gSabit, 'pcie-yuvasi', 16.0, pcieY(3), -26);
-  vk(gSabit, 'ekran-karti', 22, 12.2, 55.6, 6.4, 46.5, -14.4); cp(gSabit, 'ekran-karti', -4.6, 46.2, 6);
+  const gYc = (GPU.alt + GPU.y) / 2 + 0.25, gH = GPU.y - GPU.alt + 1.3;
+  vk(gSabit, 'ekran-karti', GPU.x1 - GPU.x0 + 0.8, gH, 55.6, (GPU.x0 + GPU.x1) / 2, gYc, -14.4); cp(gSabit, 'ekran-karti', GPU.x0 - 0.6, GPU.y - 1.4, 6);
   vk(gSabit, 'guc-kablolari', 7, 39, 8.8, 14.5, 43.5, 15.2); cp(gSabit, 'guc-kablolari', 13.2, 44, 16.5);
-  vk(gSabit, 'guc-kaynagi', 31, 17.7, 29.5, -3.5, 10.65, -27.75); cp(gSabit, 'guc-kaynagi', -19.2, 10.4, -28);
-  vk(gSabit, 'm2-ssd', 2, 5.6, 17, 17.4, 36, -18.5); cp(gSabit, 'm2-ssd', 16.4, 36, -18.5);
+  vk(gSabit, 'guc-kaynagi', 31, 17.7, 29.5, -3.5, 10.65, -27.75); cp(gSabit, 'guc-kaynagi', -3.5, 19.1, -28);
+  vk(gSabit, 'm2-ssd', 2, 5.6, 17, 17.4, (M2.y0 + M2.y1) / 2, -18.5); cp(gSabit, 'm2-ssd', 16.4, (M2.y0 + M2.y1) / 2, -18.5);
   vk(gSabit, 'sata-ssd', 2.6, 15, 21, 17.9, 33.5, 31); cp(gSabit, 'sata-ssd', 16.4, 36.8, 31);
   vk(gSabit, 'hdd', 6.4, 21.5, 30.5, 16, 12.75, 22.25); cp(gSabit, 'hdd', 12.6, 12.8, 22);
   vk(gSabit, 'veri-kablosu', 3.5, 18.5, 7.5, 14.75, 20.75, 8.75); cp(gSabit, 'veri-kablosu', 13.0, 20.5, 8.5);
@@ -66,12 +67,13 @@ export function icKur(kasa, { aniz = 4 } = {}) {
   // termal macun (soğutucu kalkınca)
   vk(gMacun, 'termal-macun', 1.4, 7, 7, 16.2, CPU.y, CPU.z, KUCUK); cp(gMacun, 'termal-macun', 15.5, CPU.y - 4.2, CPU.z - 1.0);
   // RAM (çıkarılabilir) ve yuva bölgesi
-  vk(gSabit, 'ram', 9.4, 27.2, 7, 13.4, 61.4, -6.9);
-  vk(gRam, 'ram', 9, 27.4, 3.2, 12.8, 61.4, RAM.z0 + RAM.adim * 1); vk(gRam, 'ram', 9, 27.4, 3.2, 12.8, 61.4, RAM.z0 + RAM.adim * 3); cp(gRam, 'ram', 8.3, 70, -6.1);
+  const rYc = (RAM.y0 + RAM.y1) / 2;
+  vk(gSabit, 'ram', 9.4, 27.4, 7, 13.4, rYc, -6.9);
+  vk(gRam, 'ram', 9, 27.4, 3.2, 12.8, rYc, RAM.z0 + RAM.adim * 1); vk(gRam, 'ram', 9, 27.4, 3.2, 12.8, rYc, RAM.z0 + RAM.adim * 3); cp(gRam, 'ram', 8.3, 70, -6.1);
   // sıvı soğutma
-  vk(gSivi, 'pompa-blogu', 4.4, 9.6, 7.6, 14.0, CPU.y + 1, CPU.z); cp(gSivi, 'pompa-blogu', 12.0, CPU.y - 2.0, CPU.z + 1.5);
+  vk(gSivi, 'pompa-blogu', SIVI.pompaX1 - SIVI.pompaX0 + 0.4, 2 * SIVI.pompaR + 3.6, 2 * SIVI.pompaR + 0.8, (SIVI.pompaX0 + SIVI.pompaX1) / 2, CPU.y + 1.3, CPU.z); cp(gSivi, 'pompa-blogu', SIVI.pompaX0 - 0.15, CPU.y - 2.0, CPU.z + 1.5);
   vk(gSivi, 'radyator', 25.2, 6, 55, 0, 87, -14); cp(gSivi, 'radyator', -12.6, 87, -26);
-  vk(gSivi, 'sogutma-hortumu', 4, 5.5, 32, 14.4, 80.25, -1); vk(gSivi, 'sogutma-hortumu', 3, 8, 6, 14, 73.4, -20); cp(gSivi, 'sogutma-hortumu', 14.4, 81.8, 8);
+  vk(gSivi, 'sogutma-hortumu', 4.6, 4.2, 31, 14.2, 77.7, -2); vk(gSivi, 'sogutma-hortumu', 3, 9, 6, 13.1, 73.6, -20.5); cp(gSivi, 'sogutma-hortumu', 13.0, 78.5, 4);
   vk(gSivi, 'sivi-sogutma', 25.2, 6, 5.8, 0, 87, 12.7); cp(gSivi, 'sivi-sogutma', -12.6, 87, 12.5);
   vk(gSivi, 'kasa-fani', 24.4, 5.4, 24.4, 0, 81.7, -26); vk(gSivi, 'kasa-fani', 24.4, 5.4, 24.4, 0, 81.7, -2);
 
@@ -82,22 +84,22 @@ export function icKur(kasa, { aniz = 4 } = {}) {
   const parca = {
     'ic-kapak': nk(gKapak, -1.0, 56, 58), 'ic-anakart': nk(gSabit, 17.0, 70.6, 12.5), 'ic-islemci': nk(gSabit, 15.8, CPU.y + 5.6, CPU.z),
     'ic-macun': nk(gMacun, 15.5, CPU.y - 3.8, CPU.z - 1.0), 'ic-hava': nk(gHava, -9.6, CPU.y + 7.6, -14.9), 'ic-isi-borusu': nk(gHava, -10.0, CPU.y - 1.4, -22.4),
-    'ic-ram': nk(gRam, 8.3, 72, -6.1), 'ic-m2': nk(gSabit, 16.4, 36, -18.5), 'ic-sata-ssd': nk(gSabit, 16.4, 37.6, 31), 'ic-hdd': nk(gSabit, 12.6, 14.4, 22),
-    'ic-gpu': nk(gSabit, -4.6, 46.2, 4), 'ic-psu': nk(gSabit, -19.2, 10.4, -28), 'ic-pompa': nk(gSivi, 12.0, CPU.y - 2.0, CPU.z + 1.5),
-    'ic-radyator': nk(gSivi, -12.6, 87, -26), 'ic-hortum': nk(gSivi, 14.4, 81.8, 8), 'ic-fan-on': nk(gSabit, -12.5, ON_FAN[1], 39.7),
+    'ic-ram': nk(gRam, 8.3, 72, -6.1), 'ic-m2': nk(gSabit, 16.4, M2.y1 + 1.2, -18.5), 'ic-sata-ssd': nk(gSabit, 16.4, 37.6, 31), 'ic-hdd': nk(gSabit, 12.6, 14.4, 22),
+    'ic-gpu': nk(gSabit, GPU.x0 - 0.6, GPU.y - 3.0, 4), 'ic-psu': nk(gSabit, -3.5, 19.1, -28), 'ic-pompa': nk(gSivi, SIVI.pompaX0 - 0.15, CPU.y - 2.0, CPU.z + 1.5),
+    'ic-radyator': nk(gSivi, -12.6, 87, -26), 'ic-hortum': nk(gSivi, 13.0, 78.5, 4), 'ic-fan-on': nk(gSabit, -12.5, ON_FAN[1], 39.7),
     'ic-fan-egzoz': nk(gEgzoz, -12.6, 87.1, -24), 'ic-fan-kule': nk(gHava, -2.0, CPU.y, -12.6), 'ic-wifi': nk(gSabit, 6.6, WIFI.y + 1.4, -38.1), 'ic-arka-panel': nk(gSabit, 2.9, 74.55, -42.3),
     'ic-pil': nk(gSabit, 15.4, BIOS.y, BIOS.z), 'ic-kablo24': nk(gSabit, 13.2, 44, 16.5), 'ic-sata-kablo': nk(gSabit, 13.0, 20.5, 8.5),
     'ic-akis-giris': nk(gSabit, -11, 66, 46), 'ic-akis-cikis': nk(gSabit, -11, 94, -26), 'ic-wifi-arka': nk(gSabit, 6.8, WIFI.y, -44.6),
     'ic-arka-hdmi': nk(kasa.grup, ARKA.hdmi.x, ARKA.hdmi.y + 1.4, -44.8), 'ic-arka-usb': nk(kasa.grup, 7.4, 76.6, -44.8), 'ic-arka-ag': nk(kasa.grup, ARKA.ag.x, ARKA.ag.y + 1.8, -44.8),
     'ic-arka-ses': nk(kasa.grup, -7.6, 76.3, -44.8),
-    'ic-sivi-sicak': nk(gSivi, 13.4, 81.8, 6), 'ic-sivi-soguk': nk(gSivi, 15.2, 80.4, -2),
+    'ic-sivi-sicak': nk(gSivi, 13.0, 78.5, 1), 'ic-sivi-soguk': nk(gSivi, 15.3, 77.0, -5),
   };
   // keşif kutuları (dünya koordinatı [x, y, z, w, h, d]); vurgu ve kamera için
   const al = (x0, y0, z0, x1, y1, z1) => [KASA.x + (x0 + x1) / 2, (y0 + y1) / 2, KASA.z + (z0 + z1) / 2, x1 - x0, y1 - y0, z1 - z0];
   const alanlar = {
-    'ic-anakart': al(17.3, 30, -41.5, 18.5, 78.8, 19.5), 'ic-islemci': al(15.6, CPU.y - 5.2, CPU.z - 5, 18, CPU.y + 5.2, CPU.z + 5), 'ic-ram': al(8.5, 48, -10.5, 17.5, 75, -3.5),
-    'ic-m2': al(16.8, 33.6, -26.8, 18, 38.4, -10.2), 'ic-sata-ssd': al(16.6, 26, 20.5, 19, 41, 41.5), 'ic-hdd': al(12.8, 2, 7, 19, 23.5, 37.5),
-    'ic-gpu': al(-4.5, 40.4, -42, 17.4, 52.6, 13.4), 'ic-psu': al(-18.6, 1.8, -42.3, 11.6, 19.1, -13.6), 'ic-pompa': al(12, CPU.y - 3.8, CPU.z - 3.8, 16, CPU.y + 3.8, CPU.z + 3.8),
+    'ic-anakart': al(17.3, 30, -41.5, 18.5, 78.8, 19.5), 'ic-islemci': al(15.6, CPU.y - 5.2, CPU.z - 5, 18, CPU.y + 5.2, CPU.z + 5), 'ic-ram': al(8.5, RAM.y0 - 0.5, -10.5, 17.5, RAM.y1 + 0.2, -3.5),
+    'ic-m2': al(16.8, M2.y0 - 0.2, -26.8, 18, M2.y1 + 0.2, -10.2), 'ic-sata-ssd': al(16.6, 26, 20.5, 19, 41, 41.5), 'ic-hdd': al(12.8, 2, 7, 19, 23.5, 37.5),
+    'ic-gpu': al(GPU.x0 - 0.5, GPU.alt - 0.4, -42, GPU.x1 + 0.4, GPU.y + 0.9, 13.4), 'ic-psu': al(-18.6, 1.8, -42.3, 11.6, 19.1, -13.6), 'ic-pompa': al(SIVI.pompaX0 - 0.2, CPU.y - SIVI.pompaR - 0.2, CPU.z - SIVI.pompaR - 0.2, SIVI.pompaX1 + 0.2, CPU.y + SIVI.pompaR + 1.6, CPU.z + SIVI.pompaR + 0.2),
     'ic-radyator': al(-12.4, 84, -41.5, 12.4, 89.8, 13.5), 'ic-wifi': al(3, WIFI.y - 1.2, -41.4, 17.4, WIFI.y + 1.2, -34.8), 'ic-arka-panel': al(-12.6, 69.9, -43, 18.4, 79.2, -42),
   };
 
@@ -141,7 +143,7 @@ export function icKur(kasa, { aniz = 4 } = {}) {
       for (const [ad, nok, renk] of [['A', HORTUM.A, '#ff8a3d'], ['B', HORTUM.B, '#58b0ff']]) {
         const { geo, egri } = boruGeo(nok, HORTUM_R, 80, 10, 0.4);
         const tex = hortumDokusu(renk, aniz); tex.repeat.set(Math.max(2, Math.round(egri.getLength() / 6)), 1);
-        const mm = new MeshStandardMaterial({ color: 0x15161a, roughness: 0.62, metalness: 0.05, emissive: 0xffffff, emissiveMap: tex, emissiveIntensity: 0 });
+        const mm = new MeshStandardMaterial({ color: 0x2c2f36, roughness: 0.55, metalness: 0.05, emissive: 0xffffff, emissiveMap: tex, emissiveIntensity: 0 });
         const me = new Mesh(geo, mm); me.castShadow = true; me.receiveShadow = true; me.name = 'hortum-' + ad; gSivi.add(me);
         hortumMal.push({ tex, mal: mm, ad });
       }
