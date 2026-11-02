@@ -52,7 +52,9 @@ for (const id of kimlikler) {
   const dosya = path.join(klasor, `${arg.ek ? arg.ek + '-' : ''}${id}${arg.gorunum ? '-' + arg.gorunum : ''}${arg.telefon ? '-tel' : ''}.png`);
   await sayfa.screenshot({ path: dosya });
   const bilgi = await sayfa.evaluate('(() => { const i = window.__donanim.S.renderer.info; return { calls: i.render.calls, tri: i.render.triangles }; })()');
-  console.log(`${id}: ${dosya} (çağrı ${bilgi.calls}, üçgen ${bilgi.tri})`);
+  // gölge yenilenmeyen sıradan kare: bir kare daha çizdirip ölç (golgeYenile yalnız bir kareliktir)
+  const normal = await sayfa.evaluate('(async () => { const S = window.__donanim.S; S.iste(); await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))); const i = S.renderer.info; return { calls: i.render.calls, tri: i.render.triangles }; })()');
+  console.log(`${id}: ${dosya} (çağrı ${bilgi.calls}, gölgesiz kare ${normal.calls}, üçgen ${bilgi.tri})`);
 }
 const hatalar = await sayfa.evaluate('window.__donanim ? window.__donanim.hatalar : ["__donanim yok"]');
 const olcum = await sayfa.evaluate('window.__donanim ? window.__donanim.olcum() : null');

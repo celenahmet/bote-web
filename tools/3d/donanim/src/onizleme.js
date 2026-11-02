@@ -175,7 +175,7 @@ function baslat() {
     window.__hazir = true;
   }));
   window.__donanim = { S, sahne, adimaGit, gorunumSec, kesifDegistir, adim: () => adimKimlikleri[aktif], adimlar: adimKimlikleri, hatalar, kameraBul,
-    olcum: () => ({ kurulumMs, ilkKareMs, sahneKurMs: Math.round(t1 - t0), dokuSure }) };
+    olcum: () => ({ kurulumMs, ilkKareMs, sahneKurMs: Math.round(t1 - t0), dokuSure, birlesme: sahne.birlesme }) };
   if (olcumModu) {
     const p = document.createElement('div'); p.className = 'olcum'; sahneAlani.appendChild(p);
     setInterval(() => {

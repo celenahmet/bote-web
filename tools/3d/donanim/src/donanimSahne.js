@@ -29,7 +29,7 @@ const KABLO_YAZI = {
 const PARCA_KABLO = { klavye: 'klavye', fare: 'fare', mikrofon: 'mikrofon', kulaklik: 'kulaklik', hoparlor: 'hoparlor', monitor: 'monitor', kamera: 'kamera', yazici: 'yazici' };
 
 export function sahneyiKur(S, { olay = () => {} } = {}) {
-  const { kok, p } = modelleriKur(S.scene, { aniz: S.renderer.capabilities.getMaxAnisotropy() });
+  const { kok, p, birlesme } = modelleriKur(S.scene, { aniz: S.renderer.capabilities.getMaxAnisotropy() });
   const ek = p.monitor.ekran, d = ek.durum, kl = p.klavye, fr = p.fare, hp = p.hoparlor, mk = p.mikrofon, kk = p.kulaklik, yz = p.yazici, kam = p.kamera, kb = p.kablo;
   const duyur = (m) => { try { olay('duyur', m); } catch (e) { /* olay yok */ } };
 
@@ -127,7 +127,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   const halkaGeo = new RingGeometry(0.92, 1, 48);
   const gelen = [0, 1, 2].map(() => {
     const m = new Mesh(halkaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide }));
-    m.visible = false; m.renderOrder = 3; m.raycast = () => {}; kok.add(m); return m;
+    m.visible = false; m.renderOrder = 3; m.raycast = () => {}; m.userData.dinamik = true; kok.add(m); return m;
   });
   const gelenGizle = () => { for (const m of gelen) m.visible = false; };
   // merkez (x, y, z): halkalar bu noktaya doğru yürür (dışarıdan içe); faz: 0..1 döngü
@@ -350,5 +350,5 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
 
   adimUygula('merak', {});
   S.golgeYenile(); S.iste();
-  return { kesifNoktalari, alanlar, noktaBul, kutuBul, adimUygula, eylem, durdur, dokunuldu, parcalar: p, durum: d };
+  return { kesifNoktalari, alanlar, noktaBul, kutuBul, adimUygula, eylem, durdur, dokunuldu, parcalar: p, durum: d, birlesme };
 }

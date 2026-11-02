@@ -5,6 +5,7 @@ import { klavyeYap } from './klavye.js';
 import { yaziciYap } from './yazici.js';
 import { MASA, KASA, MON, HOPARLOR, KLAVYE, FARE, YAZICI, MIKROFON, KULAKLIK, USB_BELLEK } from './yerlesim.js';
 import { dokuKur } from './doku.js';
+import { statikBirlestir } from './statik.js';
 import { kasaYap } from './kasa.js';
 import { kablolariYap } from './kablolar.js';
 
@@ -42,7 +43,10 @@ export function modelleriKur(sahne, { aniz = 4 } = {}) {
   kok.add(p.masa, p.kasa.grup, p.monitor.grup, p.kamera.grup, p.klavye.grup, p.fare.grup, p.hoparlor.grup, p.mikrofon.grup, p.kulaklik.grup, p.yazici.grup, p.usb.grup, p.kablo.mesh);
   golgeAyarla(kok);
   p.masa.castShadow = false; p.masa.receiveShadow = false; // gölgeyi zemin düzlemi alır (çift koyulaşma olmasın)
+  p.masa.userData.statik = false;                          // tek mesh zaten; temas gölgeli doku
+  p.fare.grup.userData.dinamik = true;                     // fare masada gezer (donanimSahne)
   sahne.add(kok);
   kok.updateMatrixWorld(true);
-  return { kok, p };
+  const birlesme = statikBirlestir(kok);                   // çizim çağrısı bütçesi: aynı malzemeli statik meshler tek geometri
+  return { kok, p, birlesme };
 }

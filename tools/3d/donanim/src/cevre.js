@@ -33,7 +33,7 @@ export function monitorYap() {
   const ek = ekranDokusu();
   const ekran = new Mesh(new PlaneGeometry(92, 51.8), new MeshBasicMaterial({ map: ek.tex, toneMapped: false }));
   ekran.position.set(0, 39.4, 1.62); g.add(ekran);
-  const led = new Mesh(new BoxGeometry(0.9, 0.35, 0.2), M.ledYesil); led.position.set(40.5, 12.8, 1.66); g.add(led);
+  const led = new Mesh(new BoxGeometry(0.9, 0.35, 0.2), M.ledYesil); led.position.set(40.5, 12.8, 1.66); led.userData.dinamik = true; g.add(led);
   const v1 = vekil({ kesif: 'monitor', parca: 'monitor' }, 95, 66, 24, 0, 33, 1);
   const v2 = vekil({ kesif: 'ekran', parca: 'monitor' }, 92, 51.8, 1.2, 0, 39.4, 1.7, 0);
   g.add(v1, v2);
@@ -52,7 +52,7 @@ export function kameraYap() {
   g.add(birlestir([yuvarlak(4.2, 1.2, 3.2, 0.4, 0, 0.6, -0.4), yuvarlak(8.4, 3.4, 3.4, 1.3, 0, 2.9, 0.4, 3)], M.plastik));
   const lens = new Mesh(silindir(0.95, 0.5, 0, 2.9, 2.2, { eksen: 'z', seg: 20 }), M.lensCam); g.add(lens);
   const halka = new Mesh(new TorusGeometry(1.05, 0.14, 8, 24), M.alumin); halka.position.set(0, 2.9, 2.18); g.add(halka);
-  const led = new Mesh(new BoxGeometry(0.5, 0.3, 0.15), M.ledKapali); led.position.set(2.6, 3.7, 2.15); g.add(led);
+  const led = new Mesh(new BoxGeometry(0.5, 0.3, 0.15), M.ledKapali); led.position.set(2.6, 3.7, 2.15); led.userData.dinamik = true; g.add(led);
   g.add(vekil({ kesif: 'web-kamerasi', parca: 'kamera' }, 9, 5, 5, 0, 2.4, 0.3));
   return { grup: g, led, kesif: [kes(g, 'web-kamerasi', 0, 5.2, 1, [0, 0.3, 1])], ledAyarla: (acik) => { led.material = acik ? M.ledYesil : M.ledKapali; }, ucu: new Vector3(KAMERA_PARCA.x, KAMERA_PARCA.y + 1, KAMERA_PARCA.z - 1.6) };
 }
@@ -116,7 +116,7 @@ export function hoparlorYap() {
     grup.add(g); tek.push(g);
     // ses dalgası halkaları (yalnız çalarken görünür)
     const hl = [];
-    for (let k = 0; k < 3; k++) { const m = new Mesh(dalgaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide })); m.visible = false; m.raycast = () => {}; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
+    for (let k = 0; k < 3; k++) { const m = new Mesh(dalgaGeo, new MeshBasicMaterial({ color: 0x7c4dff, transparent: true, opacity: 0, depthWrite: false, side: DoubleSide })); m.visible = false; m.raycast = () => {}; m.userData.dinamik = true; m.position.set(p.x, 8.5, p.z + 8); grup.add(m); hl.push(m); }
     halkalar.push(hl);
   });
   return { grup, tek, halkalar, kesif: HOPARLOR.map((p, i) => kes(tek[i], 'hoparlor', 0, 28.4, 0)), arka: HOPARLOR.map((p) => new Vector3(p.x, 3, p.z - 7.2)) };
@@ -134,7 +134,7 @@ export function mikrofonYap() {
   kafa.add(new Mesh(new CapsuleGeometry(2.3, 5.4, 6, 20), new MeshStandardMaterial({ map: t, roughness: 0.45, metalness: 0.5 })));
   const band = new Mesh(new TorusGeometry(2.36, 0.26, 8, 28), M.alumin); band.rotation.x = Math.PI / 2; kafa.add(band);
   g.add(kafa);
-  const led = new Mesh(new BoxGeometry(0.8, 0.3, 0.3), M.ledKapali); led.position.set(0, 0.9, 4.3); g.add(led);
+  const led = new Mesh(new BoxGeometry(0.8, 0.3, 0.3), M.ledKapali); led.position.set(0, 0.9, 4.3); led.userData.dinamik = true; g.add(led);
   g.add(vekil({ kesif: 'mikrofon', parca: 'mikrofon' }, 10, 20, 10, 0, 10, 0));
   return { grup: g, led, kesif: [kes(g, 'mikrofon', 0, 21.5, 0)], ledAyarla: (a) => { led.material = a ? M.ledKirmizi : M.ledKapali; }, ucu: new Vector3(MIKROFON.x, 0.5, MIKROFON.z - 3.8), kafa: new Vector3(MIKROFON.x, 15.6, MIKROFON.z + 1) };
 }
@@ -167,7 +167,7 @@ export function usbBellekYap() {
   const govde = new MeshStandardMaterial({ color: 0x2f6bf0, roughness: 0.4 });
   g.add(new Mesh(yuvarlak(3.7, 1.7, 9, 0.6, 0, 0, 3.4 + 4.5, 2), govde));
   g.add(new Mesh(kutu(2.6, 0.8, 3.6, 0, 0, 1.8), M.celik));
-  const led = new Mesh(new BoxGeometry(0.7, 0.18, 0.7), M.ledKapali); led.position.set(0, 0.88, 10.2); g.add(led);
+  const led = new Mesh(new BoxGeometry(0.7, 0.18, 0.7), M.ledKapali); led.position.set(0, 0.88, 10.2); led.userData.dinamik = true; g.add(led);
   g.add(vekil({ kesif: 'usb-bellek', parca: 'usb-bellek', minAdim: 4, minPx: 14 }, 5.4, 3.6, 13, 0, 0, 6.6));
   return { grup: g, led, kesif: [kes(g, 'usb-bellek', 0, 3.4, 8)], ledAyarla: (a) => { led.material = a ? M.ledYesil : M.ledKapali; } };
 }
