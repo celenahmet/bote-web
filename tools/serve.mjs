@@ -85,6 +85,7 @@ export function createServer(opts = {}) {
   const { createHandler, memoryStore } = require(path.join(root, 'api/_lib/views-core.js'));
   let slugs = [];
   try { slugs = JSON.parse(fs.readFileSync(path.join(root, 'api/_lib/posts.json'), 'utf8')); } catch {}
+  try { slugs = slugs.concat(JSON.parse(fs.readFileSync(path.join(root, 'api/_lib/3d-sayac.json'), 'utf8'))); } catch {}
   const views = createHandler({ store: store === undefined ? memoryStore() : store, slugs });
 
   function resolveFile(p) {

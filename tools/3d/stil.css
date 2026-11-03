@@ -330,6 +330,10 @@ html[data-js][data-ek=acik] body.ders-sayfasi .ek{translate:0 0;visibility:visib
 html[data-js] .ek-kapat{display:inline-flex;position:sticky;top:0;float:right;margin-left:8px}
 html[data-js] body.ders-sayfasi .alt{display:none}
 .alt{padding:20px var(--pad);border-top:1px solid var(--line);color:var(--muted);font-size:.9em}
+.alt .sayac{margin:6px 0 0;font-variant-numeric:tabular-nums}
+.alt .sayac[hidden]{display:none}
+.ek .sayac{margin:1.6em 0 0;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:.9em;font-variant-numeric:tabular-nums}
+.ek .sayac[hidden]{display:none}
 
 /* sınıf penceresi */
 dialog{border:0;border-radius:22px;padding:clamp(18px,3vw,32px);width:min(760px,calc(100% - 24px));max-height:calc(100vh - 24px);max-height:calc(100dvh - 24px);overflow:auto;background:var(--surface);color:var(--ink);box-shadow:0 24px 80px #0006}

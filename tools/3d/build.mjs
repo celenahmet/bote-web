@@ -11,7 +11,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
 import { YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU } from './yeni-sekme.mjs';
 import { erisimDugmeHtml, erisimPaneliHtml } from './erisim-sablon.mjs';
-import { MERKEZ_YOL, MERKEZ_AD, AILELER, DERS_YOLU, OZGUR_YOL, yolDosyasi } from './yollar.mjs';
+import { MERKEZ_YOL, MERKEZ_AD, AILELER, DERS_YOLU, OZGUR_YOL, yolDosyasi, sayacAnahtari, SAYAC_ANAHTARLARI } from './yollar.mjs';
 import { YAPI, genelKontrol } from './aileler.mjs';
 
 const BU = path.dirname(fileURLToPath(import.meta.url));
@@ -98,6 +98,10 @@ const erisimKod = (await esbuild.build({ ...erisimSecenek, entryPoints: [path.jo
 const erisimJs = `erisim-${crypto.createHash('sha1').update(erisimKod).digest('hex').slice(0, 10)}.js`;
 for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^erisim-.*\.js$/.test(f) && f !== erisimJs) fs.unlinkSync(path.join(CIKTI, 'assets', f));
 fs.writeFileSync(path.join(CIKTI, 'assets', erisimJs), erisimKod);
+// Görüntülenme sayacı (src/sayac.js): tüm 3D sayfalarında alt bilgiden yüklenir. Sunucu izin listesi yollar.mjs'ten üretilir (default deny).
+const sayacPaket = await paketle('src/sayac.js', 'sayac');
+const sayacJs = sayacPaket.ad;
+fs.writeFileSync(path.join(KOK, 'api/_lib/3d-sayac.json'), `${JSON.stringify([...SAYAC_ANAHTARLARI].sort())}\n`);
 // keşif gruplarının renkleri tek kaynaktan (ailenin kesif-veri.js'i); açık zeminde koyu simge
 const katCssYap = (KATEGORI, KATEGORI_SIRA) => KATEGORI_SIRA.map((k) => `[data-kat=${k}]{--k:${KATEGORI[k].renk};--ki:${KATEGORI[k].koyu ? '#1b1426' : '#fff'}}`).join('\n');
 // telefonda Tahta modu düğmesi yok: telefon tanımı tek kaynaktan (src/telefon.js); dar pencere (<=560 px) kuralı stil.css'te de var, çakışmaz
@@ -180,7 +184,10 @@ const aileParcasi = (A) => ({ '@type': 'CollectionPage', name: A.ad, url: SITE +
 const kirintiLd = (A, son = null) => ({ '@type': 'BreadcrumbList', itemListElement: [['bote.web.tr', '/'], [MERKEZ_AD, MERKEZ_YOL], ...(A ? [[A.ad, A.yol]] : []), ...(son ? [son] : [])]
   .map(([name, y], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + y })) });
 const BLOG_BAG = `<a href="/blog"${YENI_SEKME_OZNITELIK}>bote.web.tr blog${YENI_SEKME_NOTU}</a>`;
-const altBilgi = (A) => `<footer class="alt">${A ? `<a href="${A.yol}">${esc(A.ad)}</a> · ` : ''}<a href="${MERKEZ_YOL}">${MERKEZ_AD}</a> · ${BLOG_BAG}</footer>`;
+// Sayaç alanı gizli başlar, sayı gelirse görünür (sayac.js); yer tutucu yazı yok.
+const SAYAC_BETIK = `<script type="module" src="/3d/assets/${sayacJs}"></script>`;
+const sayacAlani = (yol) => `<p class="sayac" data-sayac="${sayacAnahtari(yol)}" hidden></p>`;
+const altBilgi = (A, yol) => `<footer class="alt">${A ? `<a href="${A.yol}">${esc(A.ad)}</a> · ` : ''}<a href="${MERKEZ_YOL}">${MERKEZ_AD}</a> · ${BLOG_BAG}${sayacAlani(yol)}</footer>${SAYAC_BETIK}`;
 const sinifPenceresi = `<dialog id="sinif-penceresi" aria-labelledby="sinif-baslik"><h2 id="sinif-baslik">Kaçıncı sınıfla çalışıyoruz?</h2>
 <p>Anlatımlar, tanımlar ve mini sınav seçtiğiniz sınıfa göre hazırlanır. Ders sırasında üst çubuktan değiştirebilirsiniz.</p>${sinifIzgara()}</dialog>`;
 function sinifIzgara() {
@@ -266,7 +273,7 @@ ${y.ipuclari.map(([ad, metin]) => `<p class="ipucu ipucu-${ad}">${esc(metin)}</p
 <label class="ayar-satir"><input type="checkbox" id="tahmin-ayar" checked> Keşifte önce tahmin ettir</label></div>${erisimPaneliHtml(ico)}
 <div class="kart-govde"><h1 class="sr-only">${esc(d.baslik)}: ${esc(y.h1Sonek)}</h1><ol class="adimlar">${adimlar.map((a, i) => adimHtml(d, a, i)).join('')}</ol></div>
 <nav class="kart-alt" aria-label="Adımlar"><button type="button" class="dugme" id="geri">${ico('chevron-left')}Geri</button><button type="button" class="dugme birincil" id="ileri">İleri${ico('chevron-right')}</button></nav></section></main>
-${ogretmenHtml(d)}${altBilgi(A)}
+${ogretmenHtml(d)}${altBilgi(A, yol)}
 <div id="duyuru" class="sr-only" aria-live="polite"></div>${sinifPenceresi}
 <script type="application/json" id="ders-veri">${jsonGom(veri)}</script><script type="module" src="/3d/assets/${y.jsAd}"></script><script type="module" src="/3d/assets/${erisimJs}"></script></body></html>`;
 }
@@ -298,7 +305,7 @@ ${sinifAkisi}
 ${dersAkisiBas}${AILE_LISTE.map((A) => `<section class="aile" aria-labelledby="aile-${A.id}"><h3 class="aile-baslik" id="aile-${A.id}"><a href="${A.yol}">${esc(A.ad)}${ico('chevron-right')}</a></h3>
 <ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${YAPI[A.id].ozgur ? ozgurKarti('h4') : ''}</ol></section>`).join('')}</section>
 <div class="notlar">${NOT_TAHTA}${NOT_SINIF}</div></main>
-<footer class="alt">${BLOG_BAG}</footer>${hubSonu}`;
+<footer class="alt">${BLOG_BAG}${sayacAlani(yol)}</footer>${SAYAC_BETIK}${hubSonu}`;
 }
 
 function aileSayfasi(A) {
@@ -316,7 +323,7 @@ ${dersAkisiBas}<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d
 ${Y.ozgur ? `<section class="akis ozgur-akis" id="ozgur" aria-labelledby="ozgur-sec-baslik"><h2 id="ozgur-sec-baslik" class="akis-baslik">Özgür mod</h2><p class="akis-aciklama">Hazır bir ders izlemeden kendi devrenizi kurun ve deneyin.</p>
 <ol class="ders-listesi">${ozgurKarti()}</ol></section>` : ''}
 <div class="notlar">${NOT_TAHTA}${NOT_SINIF}${Y.notTahmin}</div></main>
-${altBilgi(null)}${hubSonu}`;
+${altBilgi(null, yol)}${hubSonu}`;
 }
 
 // ------------------------------------------------------------------ yaz (adres -> dosya: yollar.mjs yolDosyasi)
@@ -343,7 +350,7 @@ console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).lengt
   fs.writeFileSync(path.join(CIKTI, 'assets', ozgurJs), ozgurKod);
   const ozgurCss = AILE_Y[ARDUINO.id].css + fs.readFileSync(path.join(BU, 'ozgur.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
   yaz(OZGUR_YOL, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk: (x) => ustCubuk({ ...x, ozgur: true }, ARDUINO), sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs, erisimJs,
-    aile: ARDUINO, isPartOf: aileParcasi(ARDUINO), kirintiLd: (son) => kirintiLd(ARDUINO, son), altBilgi: altBilgi(ARDUINO) }));
+    aile: ARDUINO, isPartOf: aileParcasi(ARDUINO), kirintiLd: (son) => kirintiLd(ARDUINO, son), altBilgi: altBilgi(ARDUINO, OZGUR_YOL) }));
   console.log(`3d: özgür mod, paket ${ozgurJs} ${Math.round(ozgurKod.length / 1024)} KB, sayfa ${OZGUR_YOL} ${boy(dosya(OZGUR_YOL))} KB`);
 }
 // ------------------------------------------------------------------ ÖZGÜR MOD (işaretli blok BİTTİ)

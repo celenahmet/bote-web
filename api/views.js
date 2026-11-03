@@ -5,6 +5,9 @@
 'use strict';
 
 const { createHandler, upstashStore } = require('./_lib/views-core.js');
-const slugs = require('./_lib/posts.json');
+const posts = require('./_lib/posts.json');
+// 3D sayfa anahtarlari: tools/3d/build.mjs yollar.mjs'ten uretir (izin listesi, bilinmeyen anahtar red).
+const sayfalar3d = require('./_lib/3d-sayac.json');
+const slugs = [...posts, ...sayfalar3d];
 
 module.exports = createHandler({ store: upstashStore(), slugs });
