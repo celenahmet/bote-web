@@ -497,6 +497,8 @@ body.ozgur-sayfasi .kart-alt .dugme:not(.birincil){min-width:var(--kd);padding:0
   .ust .ders-menu>summary{padding:0 2px 0 6px;justify-content:flex-start}
 }
 @media (max-width:350px){.ust .ders-menu>summary{min-width:36px;padding:0 2px}}
+/* 561-820 px ders sayfasında marka alt yazısı gizlenir: 620 px'te Arduino ders adıyla tema düğmesi 19 px taşıyordu (ust.mjs 03.11) */
+@media (max-width:820px){.ders-sayfasi .ust .marka-alt{display:none}}
 .ust .ders-menu:not([open])>.ders-panel{display:none}
 /* Adım altı boşluk kartları (Akılda kalsın, Günlük hayatta): yalnız panelde yer olan geniş ekranlarda */
 .adim-kart{display:grid;gap:10px;margin-top:22px}
