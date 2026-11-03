@@ -393,6 +393,29 @@ html[data-sinif-secili] .ders-sinif{display:inline-flex;align-items:center;gap:6
 html[data-kapanacak] .kart-alani{opacity:.4}
 @media (max-width:720px){.ust-sag .dugme .yazi{display:none}}
 @media (max-width:560px){.ders-adi{display:none}#tahta-dugme,#tam-ekran,.yakinlik{display:none}.ust{gap:8px}.ust-sag{gap:6px}.cip .ico{display:none}.marka{font-size:1.02em}.gorunum .uzun{display:none}.gorunum .kisa{display:inline}.gorunum button{padding:0 8px}.sahne-arac{left:8px;right:8px}}
+/* Telefonda üst çubuk (03.11, canlı hata): Sanal | Fiziksel geçişi 320-430 px'te tema düğmesini ekran dışına itiyordu (ust.mjs).
+   619 px altında geçiş tahta modundaki gibi tek düğme olur: yalnız o anki görünüm ve değiştir işareti görünür, dokununca diğerine
+   geçer (gorunum.js gizli düğmeyi görüp tek düğme gibi davranır). 440 px altında marka kısalır, 350 px altında kenarlar daralır.
+   .ust öneki gorunum.js'in çalışma anında eklediği stilin önüne geçmek için. Dokunma hedefleri 44 px kalır. */
+@media (max-width:619px){
+  .ust{gap:6px}
+  .ust-sag{gap:4px}
+  .ust .gorunum-gecis button[aria-pressed=false]{display:none}
+  .ust .gorunum-gecis button+button{border-left:0}
+  .ust .gorunum-gecis .gg-degis{display:inline-block}
+  .ust .gorunum-gecis button{gap:4px;padding:0 9px}
+  .ust .gorunum-gecis.gg-mesgul button{cursor:progress;opacity:.75}
+}
+@media (max-width:439px){
+  .ust .marka b{display:none}
+  .ust .marka{padding-inline:5px;margin-inline:-5px}
+}
+@media (max-width:350px){
+  .ust{padding-inline:8px;gap:4px}
+  .ust-sag{gap:2px}
+  #sinif-dugme{padding-inline:8px}
+  #tema-dugme{padding-inline:0}
+}
 html[data-mod=tahta] .adim h2{font-size:1.5em}
 html[data-mod=tahta] .ipucu{font-size:.8em}
 /* Dikey ekran, ikinci blok: taban kurallardan sonra gelmeli (aynı seçici ağırlığında sonraki kazanır). */
