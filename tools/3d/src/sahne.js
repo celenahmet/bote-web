@@ -9,7 +9,7 @@
 //   çözünürlük kademe kademe düşer. Hareket bitince tam çözünürlükte keskin bir kare çizilir.
 import {
   WebGLRenderer, Scene, PerspectiveCamera, DirectionalLight, HemisphereLight, Color, Mesh, PlaneGeometry, ShadowMaterial,
-  Vector3, Vector2, Raycaster, SRGBColorSpace, NeutralToneMapping, PCFSoftShadowMap, PMREMGenerator, Box3, AdditiveBlending,
+  Vector3, Vector2, Raycaster, SRGBColorSpace, NeutralToneMapping, PCFShadowMap, PMREMGenerator, Box3, AdditiveBlending,
 } from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
@@ -34,7 +34,10 @@ export function sahneKur(canvas, { arkaPlan = '#e9e5f1', olay = () => {}, guvenl
   renderer.toneMapping = NeutralToneMapping;
   renderer.toneMappingExposure = 1.0;
   renderer.shadowMap.enabled = true;
-  renderer.shadowMap.type = PCFSoftShadowMap;
+  // PCFShadowMap (03.11): three r186'da PCFSoftShadowMap kaldırıldı; tür ancak ilk gölge çiziminde PCF'ye çevriliyor ve
+  // o ana dek derlenen her program (renderer.compile ile yapılan ısınmalar dahil) SHADOWMAP_TYPE_BASIC alıp boşa gidiyordu,
+  // çevrimde sahnedeki bütün malzemeler yeniden derleniyordu. Görüntü aynı (r186 zaten PCF çiziyordu).
+  renderer.shadowMap.type = PCFShadowMap;
   renderer.shadowMap.autoUpdate = false;
   renderer.setClearColor(new Color(arkaPlan), 1);
 

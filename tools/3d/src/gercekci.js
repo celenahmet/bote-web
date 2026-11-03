@@ -136,6 +136,9 @@ export function gercekciBagla({ S, kart, bb, parcalar, ornekler = null }) {
     // sırasında yeni gölgelendirici derlenip sahne takılmasın. Örneklerin malzemeleri BOŞALTILMAZ (sağlayıcının kaydında
     // kalır, sağlayıcıyla gider): boşaltılan malzemenin gölgelendiricisini three.js siler; ölçüm 03.11: açılışta 3 program
     // silindi, Sıfırla sonrası ilk LED yeniden derledi. Geometri sahneye hiç girmediği için hemen boşaltılır.
+    // Bu ısınma ilk kareden önce de çalışır (adresle ya da kayıtlı tercihle Fiziksel açılış); doğru programı üretmesi
+    // sahne.js'teki gölge türüne bağlı (PCFShadowMap; PCFSoft iken bu yolda programlar BASIC derleniyor, Sıfırla/Geri al
+    // döngüsü başına 1 program yeniden bağlanıyordu).
     if (ornekler) {
       try {
         for (const o of ornekler()) {
@@ -216,7 +219,11 @@ export function gercekciBagla({ S, kart, bb, parcalar, ornekler = null }) {
   }
 
   const G = gorunumKur(async (ad) => {
-    if (ad === 'fiziksel' && !deri) await new Promise((r) => setTimeout(r, 30)); // düğmenin meşgul hâli boyansın
+    if (ad === 'fiziksel' && !deri) {
+      await new Promise((r) => setTimeout(r, 30)); // düğmenin meşgul hâli boyansın
+      // bu 30 ms içinde Sanal'a basıldıysa (denetim 03.11: sahne Fiziksel kalıyor, düğme Sanal gösteriyordu) kurulmaz
+      if (G.istenen() !== ad) return;
+    }
     kipUygula(ad);
   });
   // adresle ya da kayıtlı tercihle Fiziksel açılış: ilk kare Sanal çizilmeden, aynı görevde kurulur
