@@ -400,7 +400,7 @@ html[data-kapanacak] .kart-alani{opacity:.4}
 @media (max-width:619px){
   .ust{gap:6px}
   .ust-sag{gap:4px}
-  .ust .gorunum-gecis button[aria-pressed=false]{display:none}
+  .ust .gorunum-gecis button[data-secili=false]{display:none}
   .ust .gorunum-gecis button+button{border-left:0}
   .ust .gorunum-gecis .gg-degis{display:inline-block}
   .ust .gorunum-gecis button{gap:4px;padding:0 9px}
