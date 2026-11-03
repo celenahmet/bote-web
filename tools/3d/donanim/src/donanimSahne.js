@@ -34,7 +34,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   const duyur = (m) => { try { olay('duyur', m); } catch (e) { /* olay yok */ } };
 
   // ---------------------------------------------------------------- kayıtlar: vekiller, sahne ayarı
-  kok.traverse((o) => { if (o.userData && o.userData.yari) S.hedefler.push(o); });
+  kok.traverse((o) => { if (o.userData && (o.userData.yari || o.userData.ince)) S.hedefler.push(o); }); // ince: kutusuz, ışınla yoklanan vekil (hortum tüpü)
   S.controls.cursor.set(0, 20, -10); S.controls.maxTargetRadius = 170; // masa 216 birim geniş; dönme merkezi içinde kalsın
 
   // ---------------------------------------------------------------- tablolar: keşif, alan, nokta

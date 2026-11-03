@@ -24,17 +24,22 @@ export const KAMERA = {
   kulaklik: { kutu: [68, 0, 22, 112, 18, 46], yon: [-0.1, 0.52, 0.85] },
   kablolar: { kutu: [-108, 0, -78, 26, 92, 12], yon: [0.12, 0.46, -0.88] },
   // ders 2: kasa içi (kutular kasa-yerel birimden dünyaya çevrilir: kasa x -86, z -23)
-  'ic-kasa': { kutu: ik(-24, 0, -44, 21, 102, 44), yon: [-0.8, 0.32, 0.5] },
+  // Her kutu adımın etiketli parçalarını ve etiket noktalarını içerir: genel motor dar ekranda yalnız kutuyu sığdırır, kutu dışı
+  // kırpılır. yon'un y bileşeni (birim vektörde) en az 0.25 olmalı: kamera yörüngesi yataydan en az ~14° yukarıda tutulur
+  // (sahne.js maxPolarAngle 1.32); daha yatay bir yön sığdırma hesabından başka yere oturur ve kutu kenardan taşar.
+  'ic-kasa': { kutu: ik(-24, 0, -44, 21, 110, 44), yon: [-0.8, 0.32, 0.5] },
   'ic-anakart': { kutu: ik(6, 28, -43, 21, 80, 21), yon: [-0.9, 0.28, 0.32] },
-  'ic-islemci': { kutu: ik(-24, 48, -37, 19, 106, -6), yon: [-0.86, 0.3, 0.4] },
-  'ic-ram': { kutu: ik(-14, 44, -14, 19, 79, 3), yon: [-0.62, 0.22, 0.75] },
-  'ic-depolama': { kutu: ik(6, 0, -28, 20, 44, 44), yon: [-0.86, 0.42, 0.3] },
-  'ic-gpu': { kutu: ik(-6, 36, -44, 19, 60, 15), yon: [-0.78, -0.15, 0.6] },
-  'ic-psu': { kutu: ik(-20, 0, -44, 13, 28, -8), yon: [-0.8, 0.5, 0.35] },
-  'ic-sogutma': { kutu: ik(-24, 0, -44, 21, 108, 50), yon: [-0.74, 0.4, 0.54] },
-  'ic-sivi': { kutu: ik(-16, 54, -43, 19, 98, 24), yon: [-0.95, 0.02, 0.3] },
-  // arka giriş paneli kasanın üst ucunda: üstte etiket payı (92 iken 'Ağ girişi' ve 'Ses girişleri' ipucu satırının altında kalıyordu)
-  'ic-arka': { kutu: ik(-20, 0, -60, 20, 104, -40), yon: [0.5, 0.3, -0.82] },
+  // soğutucu kaldırılınca açık yandan dışarı alınır (ic.js kaldirAyarla): kutu son konumunu da içerir
+  'ic-islemci': { kutu: ik(-48, 48, -37, 19, 98, -6), yon: [-0.86, 0.3, 0.4] },
+  'ic-ram': { kutu: ik(-14, 44, -14, 19, 79, 3), yon: [-0.62, 0.27, 0.74] },
+  'ic-depolama': { kutu: ik(6, 0, -28, 20, 64, 44), yon: [-0.86, 0.42, 0.3] },
+  'ic-gpu': { kutu: ik(-6, 36, -44, 19, 60, 15), yon: [-0.76, 0.27, 0.59] },
+  'ic-psu': { kutu: ik(-20, 0, -44, 13, 28, 1), yon: [-0.8, 0.5, 0.35] },
+  'ic-sogutma': { kutu: ik(-20, 4, -44, 20, 104, 48), yon: [-0.74, 0.4, 0.54] },
+  // özet: kasanın tamamı, açık yandan daha dik bakış (ön panel iç parçaları daha az örter; sabit disk ve RAM telefonda dokunulacak boyda)
+  'ic-ozet': { kutu: ik(-20, 0, -44, 20, 100, 44), yon: [-0.88, 0.3, 0.37] },
+  'ic-sivi': { kutu: ik(-16, 54, -43, 19, 98, 24), yon: [-0.92, 0.27, 0.29] },
+  'ic-arka': { kutu: ik(-20, 52, -60, 20, 120, -40), yon: [0.5, 0.3, -0.82] },
 };
 
 // Bakış açısı düğmeleri: yön = hedeften kameraya doğru birim vektör (ham sayılar yeterli, motor normalleştirir).
@@ -159,7 +164,7 @@ export const DERSLER = {
         etiket: [['parca:ic-arka-hdmi', 'HDMI'], ['parca:ic-arka-usb', 'USB'], ['parca:ic-arka-ag', 'Ağ girişi (kablolu)'], ['parca:ic-wifi-arka', 'Wi-Fi anteni (kablosuz)'], ['parca:ic-arka-ses', 'Ses girişleri']],
       },
       ozet: {
-        kamera: 'ic-kasa', mod: 'ic',
+        kamera: 'ic-ozet', mod: 'ic',
         etiket: [['parca:ic-anakart', 'Anakart', 'yesil'], ['parca:ic-hava', 'Soğutucu'], ['parca:ic-ram', 'RAM'], ['parca:ic-hdd', 'Depolama'], ['parca:ic-gpu', 'Ekran kartı'], ['parca:ic-psu', 'Güç kaynağı']],
       },
     },
