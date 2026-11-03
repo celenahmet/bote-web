@@ -63,6 +63,7 @@ export function ozgurLedYap(renkAdi, anot, katot) {
       havuz.material.opacity = 0.6 * k;
     },
     renk, lambaY: GY + 6, tepe: new Vector3(0, GY + 8.2, 0),
+    renkAdi, bacakYari: yari, // Fiziksel görünüm (gercekciParca.js) okur: renk adı ve bacak kıvrımı
   });
   ikiNoktayaKoy(g, anot, katot);
   return g;
@@ -73,6 +74,7 @@ export function ozgurDirencYap(deger, a, b) {
   const bantlar = DIRENC_BANT[deger] || DIRENC_BANT[220];
   const d = yatayMesafe(a, b);
   const g = d >= 7 ? direncYap(bantlar, d) : dikDirenc(bantlar, d);
+  g.userData.bantlar = bantlar; // Fiziksel görünüm (gercekciParca.js) okur
   const H = g.userData.H;
   dokunmaHacmi(g, Math.max(7.5, d + 2), H + 3, 4.5, 0, H / 2 + 0.5, 0);
   ikiNoktayaKoy(g, a, b);
@@ -96,7 +98,7 @@ function dikDirenc(bantlar, d) {
   tel(d + 0.5, 0.5, 0, UST);                            // üstten öbür tarafa
   tel(0.5, UST + 5, -X, (UST - 5) / 2);                 // öbür deliğe iniş
   golgeAyarla(g);
-  g.userData = { tepe: new Vector3(0, UST + 1.4, 0), H: UST };
+  g.userData = { tepe: new Vector3(0, UST + 1.4, 0), H: UST, dik: true, aralik: d }; // dik, aralik: Fiziksel görünüm okur
   return g;
 }
 

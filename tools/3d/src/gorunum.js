@@ -18,21 +18,22 @@ export function ilkGorunum() {
 
 // Geçiş düğmelerinin biçimi çalışma anında eklenir (build.mjs ve stil.css değişmez). Seçili olan yalnız renkle
 // değil alt çizgiyle de belli. Dar ekranda yazı gizlenir, simge kalır.
+// Biçim data-secili'ye bağlıdır, aria-pressed'e değil: tek düğmede aria-pressed kaldırılır (durumYaz), görünüş aynı kalır.
 const CSS = [
   '.gorunum-gecis{display:inline-flex;flex:none;align-items:stretch;border:1px solid var(--line);border-radius:12px;background:var(--surface);overflow:hidden}',
   '.gorunum-gecis button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:var(--btn);min-width:var(--btn);padding:0 13px;border:0;border-radius:0;background:transparent;color:var(--muted);font-weight:700;white-space:nowrap;cursor:pointer;touch-action:manipulation;user-select:none}',
   '.gorunum-gecis button+button{border-left:1px solid var(--line)}',
-  '.gorunum-gecis button[aria-pressed=true]{background:var(--violet-soft);color:var(--violet);box-shadow:inset 0 -3px 0 var(--violet)}',
+  '.gorunum-gecis button[data-secili=true]{background:var(--violet-soft);color:var(--violet);box-shadow:inset 0 -3px 0 var(--violet)}',
   '.gorunum-gecis button[aria-busy=true]{cursor:progress}',
   '.gorunum-gecis button:focus-visible{outline-offset:-4px}',
-  '@media (hover:hover) and (pointer:fine){.gorunum-gecis button:not([aria-pressed=true]):hover{background:var(--raised);color:var(--ink)}}',
+  '@media (hover:hover) and (pointer:fine){.gorunum-gecis button:not([data-secili=true]):hover{background:var(--raised);color:var(--ink)}}',
   '@media (max-width:900px){.gorunum-gecis .gg-yazi{display:none}.gorunum-gecis button{padding:0}}',
   // Ahmet 02.11: tahta modunda üst çubuk sıkışıyordu; orada yalnız o anki görünüm görünür, dokununca diğerine geçilir
-  ':root[data-mod=tahta] .gorunum-gecis button[aria-pressed=false]{display:none}',
+  ':root[data-mod=tahta] .gorunum-gecis button[data-secili=false]{display:none}',
   ':root[data-mod=tahta] .gorunum-gecis button{border-left:0}',
   '.gorunum-gecis .gg-degis{display:none;width:.95em;height:.95em;opacity:.7}',
   ':root[data-mod=tahta] .gorunum-gecis .gg-degis{display:inline-block}',
-  ':root[data-mod=tahta] .gorunum-gecis:has([aria-busy=true]) button{cursor:progress;opacity:.75}',
+  ':root[data-mod=tahta] .gorunum-gecis.gg-mesgul button{cursor:progress;opacity:.75}', // sınıfı ayarla() koyar (:has() eski tarayıcıda yok)
 ].join('\n');
 
 const SVG = '<svg class="ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">';
@@ -50,17 +51,43 @@ export function gorunumKur(uygula) {
   const stil = document.createElement('style'); stil.textContent = CSS; document.head.appendChild(stil);
   const gecis = document.createElement('div');
   gecis.className = 'gorunum-gecis'; gecis.setAttribute('role', 'group'); gecis.setAttribute('aria-label', 'Görünüm');
-  for (const [ad, yazi, aciklama] of [['sanal', 'Sanal', 'Sanal görünüm: sade 3D çizim'], ['fiziksel', 'Fiziksel', 'Fiziksel görünüm: gerçek kart ve set gibi']]) {
+  const YAZI = { sanal: 'Sanal', fiziksel: 'Fiziksel' };
+  const ACIKLAMA = { sanal: 'Sanal görünüm: sade 3D çizim', fiziksel: 'Fiziksel görünüm: gerçek kart ve set gibi' };
+  for (const ad of GECERLI) {
     const b = document.createElement('button');
-    b.type = 'button'; b.dataset.gorunumSec = ad; b.title = aciklama; b.setAttribute('aria-label', `${yazi} görünüm`);
-    b.setAttribute('aria-pressed', String(ad === 'sanal'));
-    b.innerHTML = `${SVG}${IKON[ad]}</svg><span class="gg-yazi">${yazi}</span>${DEGIS}`;
+    b.type = 'button'; b.dataset.gorunumSec = ad;
+    b.innerHTML = `${SVG}${IKON[ad]}</svg><span class="gg-yazi">${YAZI[ad]}</span>${DEGIS}`;
     gecis.append(b);
   }
   const yuva = document.querySelector('#gorunum-yuva');
   if (yuva) yuva.append(gecis); else document.querySelector('.ust-sag')?.prepend(gecis);
   const dugmeler = [...gecis.querySelectorAll('button')];
-  const durumYaz = () => { for (const b of dugmeler) b.setAttribute('aria-pressed', String(b.dataset.gorunumSec === simdiki)); };
+  // tek düğme: tahta modunda ya da sayfanın CSS'i dar ekranda seçili olmayanı gizlediğinde (ozgur.css) yalnız o anki görünüm görünür
+  const tekMi = () => html.dataset.mod === 'tahta' || dugmeler.some((d) => !d.getClientRects().length);
+  let tekDugme = false; // tekYenile tutar; durumYaz yerleşim hesaplatmasın diye burada saklanır
+  // İki düğmede her düğme bir aç/kapa düğmesidir (aria-pressed). Tek düğmede görünen düğme o anki görünümü gösterir ama
+  // dokununca diğerine geçirir; "basılı" denirse ekran okuyucu durumu ters duyar, bu yüzden aria-pressed kalkar ve ad
+  // ne olacağını söyler (denetim 03.11).
+  const durumYaz = () => {
+    for (const b of dugmeler) {
+      const ad = b.dataset.gorunumSec, diger = ad === 'sanal' ? 'fiziksel' : 'sanal', secili = String(ad === simdiki);
+      if (b.dataset.secili !== secili) b.dataset.secili = secili;
+      if (tekDugme) {
+        b.removeAttribute('aria-pressed');
+        b.setAttribute('aria-label', `Görünüm: ${YAZI[ad]}. ${YAZI[diger]} görünüme geç`);
+        b.title = `${YAZI[diger]} görünüme geç`;
+      } else {
+        b.setAttribute('aria-pressed', secili);
+        b.setAttribute('aria-label', `${YAZI[ad]} görünüm`);
+        b.title = ACIKLAMA[ad];
+      }
+    }
+  };
+  durumYaz();
+  // tek ve iki düğme arasındaki geçiş (pencere genişliği, tahta modu) geçişin boyunu değiştirir: o zaman yeniden bakılır.
+  // ResizeObserver yerleşimden sonra çağrılır, ek yerleşim hesaplatmaz (Chromium 64+, Firefox 69+).
+  const tekYenile = () => { tekDugme = tekMi(); durumYaz(); };
+  if (window.ResizeObserver) new ResizeObserver(tekYenile).observe(gecis); else { window.addEventListener('resize', tekYenile); setTimeout(tekYenile); }
 
   async function ayarla(ad, { kaydet = true, sessiz = false } = {}) {
     if (!GECERLI.includes(ad)) return;
@@ -68,6 +95,7 @@ export function gorunumKur(uygula) {
     if (ad === simdiki) { durumYaz(); return; }
     const f = dugmeler.find((b) => b.dataset.gorunumSec === ad);
     f?.setAttribute('aria-busy', 'true');
+    gecis.classList.add('gg-mesgul'); // :has() yerine sınıf: Firefox 115 ve eski tahta tarayıcıları için
     if (ad === 'fiziksel' && !sessiz) duyur('Fiziksel görünüm hazırlanıyor');
     let tamam = true;
     try { await uygula(ad); } catch (e) {
@@ -75,11 +103,15 @@ export function gorunumKur(uygula) {
       console.warn('Fiziksel görünüm açılamadı', e);
     }
     f?.removeAttribute('aria-busy');
+    gecis.classList.toggle('gg-mesgul', !!gecis.querySelector('[aria-busy=true]'));
     if (istenen !== ad) return; // bu arada başka görünüm seçildi
     if (!tamam) { simdiki = 'sanal'; sakla(ANAHTAR, 'sanal'); durumYaz(); duyur('Fiziksel görünüm açılamadı, Sanal görünümde devam ediliyor'); return; }
+    const odakta = dugmeler.includes(document.activeElement);
     simdiki = ad;
     html.dataset.gorunumKip = ad;
     durumYaz();
+    // tek düğmede basılan düğme gizlenir: klavye ve ekran okuyucu odağı kaybetmesin, görünen düğmeye geçer
+    if (odakta && tekDugme) dugmeler.find((x) => x.dataset.secili === 'true')?.focus({ preventScroll: true });
     if (!sessiz) duyur(ad === 'fiziksel' ? 'Fiziksel görünüm: gerçek kart ve set gibi' : 'Sanal görünüm');
     document.dispatchEvent(new CustomEvent('3d:gorunum', { detail: { ad } }));
     if (kaydet) {
@@ -91,10 +123,13 @@ export function gorunumKur(uygula) {
   }
   gecis.addEventListener('click', (e) => {
     const b = e.target.closest('[data-gorunum-sec]'); if (!b) return;
-    // tahta modunda tek düğme görünür: dokunuş diğer görünüme geçirir (yüklenirken ikinci dokunuş yok sayılır)
-    if (html.dataset.mod === 'tahta') { if (!gecis.querySelector('[aria-busy=true]')) ayarla(simdiki === 'sanal' ? 'fiziksel' : 'sanal'); return; }
+    // tahta modunda (ya da sayfanın CSS'i dar ekranda seçili olmayanı gizlediğinde, ozgur.css) tek düğme görünür: dokunuş
+    // diğer görünüme geçirir (yüklenirken ikinci dokunuş yok sayılır). Gizli düğme yoksa davranış iki düğmeli geçiştir.
+    const tek = tekMi();
+    if (tek) { if (!gecis.querySelector('[aria-busy=true]')) ayarla(simdiki === 'sanal' ? 'fiziksel' : 'sanal'); return; }
     ayarla(b.dataset.gorunumSec);
   });
   html.dataset.gorunumKip = 'sanal';
-  return { ayarla, simdiki: () => simdiki, gecis, onIsit: (f) => { for (const t of ['pointerenter', 'focusin']) dugmeler[1].addEventListener(t, f, { once: true }); } };
+  // istenen: en son istenen görünüm (uygula beklerken başka görünüm seçildiyse çağıran işi bırakır, gercekci.js)
+  return { ayarla, simdiki: () => simdiki, istenen: () => istenen, gecis, onIsit: (f) => { for (const t of ['pointerenter', 'focusin']) dugmeler[1].addEventListener(t, f, { once: true }); } };
 }

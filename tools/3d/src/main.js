@@ -4,6 +4,7 @@
 import { kabukKur } from './sayfa.js';
 import { dersMotoru } from './ders.js';
 import { ARDUINO } from './arduinoSahne.js';
+import './podyum.js'; // Keşif kartında parçanın podyum görseli (görselleri tools/3d/podyum.mjs üretir)
 
 const K = kabukKur();
 if (K.veri) dersMotoru(ARDUINO, K); // merkez ve aile sayfasında sahne yok
