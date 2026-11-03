@@ -1,0 +1,19 @@
+{
+ "aile": "arduino",
+ "iz": "b8bd5436b550",
+ "dosyalar": [
+  "podyum.mjs",
+  "src/devre.js",
+  "src/gercekci.js",
+  "src/gercekciBB.js",
+  "src/gercekciDoku.js",
+  "src/gercekciKart.js",
+  "src/gercekciLogo.js",
+  "src/gercekciParca.js",
+  "src/gorunum.js",
+  "src/modeller.js"
+ ],
+ "uretilmez": {
+  "pin-*": "tek tek pinler: görsel karttaki dişi başlığın bir deliği ve yanındaki yazı olur; 80 px'te parça ayırt edilmez, başlığın kendisi \"Dijital/Analog/Güç pinleri\" kartında var"
+ }
+}

@@ -9,17 +9,25 @@
 //   bölge (kırpma düzlemleri; kesik yüzler kapakla örtülür, "yalın" bölgelerde PCB alınmaz, parça tek başına kalır).
 //   Nötr renkli küçük bir silindir kaidenin üstüne konur; 3/4 açı, sabit ışık (sahne.js ve gercekci.js değerleri),
 //   saydam zemin. Önce küçük çizimle saydam olmayan alan ölçülür, son çizim o alana kırpılır.
-// - Sanal ve Fiziksel ayrı çizilir, fark ölçülür: belirgin farklıysa iki dosya (<id>-sanal, <id>-fiziksel), değilse
-//   tek dosya (Sanal). Çıktı 3d/assets/podyum/<aile>/*.webp (256 px, kartta ~80 css px, 2x+ yoğunluk) ve
-//   tools/3d/podyum/<aile>.json (liste: kimlik -> kartın özel adı -> dosya; src/podyum.js derlemede gömer).
+// - Yarı saydam malzemeler (Fiziksel LED başı, breadboard gövdesi) sahnenin açık zemin rengi üstünde önceden
+//   birleştirilip opak yazılır: görsel kartın temasına (açık/koyu) göre renk değiştirmez. Bilerek soluk bırakılanlar
+//   (anot/katot kartında öbür bacak) saydam kalır.
+// - Sanal ve Fiziksel ayrı çizilir, kartta görünen boyda (96 px) fark ölçülür: belirgin farklıysa iki dosya
+//   (<id>-sanal, <id>-fiziksel), değilse tek dosya (Sanal). Çıktı 3d/assets/podyum/<aile>/*.webp (256 px, kartta
+//   ~80 css px, 2x+ yoğunluk) ve tools/3d/podyum/<aile>.json (liste: kimlik -> kartın özel adı -> dosya;
+//   src/podyum.js derlemede gömer).
 // - Belirleyici: yazılım çizici (SwiftShader), sabit boy, tohumlu dokular, sabit WebP ayarı. Değişmeyen dosya yeniden
 //   yazılmaz; listede olmayan eski dosya silinir.
 // Parçası yalıtılamayan kimlik (ör. genel işaretler) için görsel üretilmez; çıktının sonunda gerekçesiyle listelenir.
+// Ne zaman yeniden çalışır: sahneye giren modüller (modeller.js, devre.js, gercekci*.js) ya da bu dosya değişince,
+// yeni keşif kimliği eklenince. node --test 'tools/3d/test/*.test.mjs' eskimiş ya da eksik görseli yakalar (kaynak izi
+// tools/3d/podyum/<aile>.kaynak.json). Sistem Chrome'u gerekir (PODYUM_CHROME ile değiştirilir).
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createRequire } from 'node:module';
+import { kaynakIzi } from './podyum-iz.mjs';
 
 const BU = path.dirname(fileURLToPath(import.meta.url));
 const KOK = path.resolve(BU, '../..');
@@ -38,37 +46,48 @@ const CIZIM = 512; // son çizim; çıktıya küçültülür (kenar yumuşatma)
 const HEDEF_KB = 20;
 const WEBP = [82, 74, 66, 58]; // dosya HEDEF_KB'yi aşarsa sıradaki kalite
 // Sanal ile Fiziksel ayrı dosya mı: ortalama renk farkı (0-255) ya da belirgin farklı piksel oranı eşiği geçerse
-const FARK = { ortalama: 10, oran: 0.1, piksel: 48 };
+const FARK = { boy: 96, ortalama: 10, oran: 0.1, piksel: 48 };
 
 // ------------------------------------------------------------------ aileler
 // kaynak: 'kart' | 'bb' | 'parca:<tur>' (devre parçası; aynı kimliğin özel adı farklı parçaları, ör. renkli LED'ler,
 // ayrı görsel alır). bolge: kart koordinatı [bx0, bz0, bx1, bz1, üst y] (modeller.js ardNokta), dunya: dünya kutusu
 // [x0, y0, z0, x1, y1, z1], yerel: parçanın kendi ekseninde kutu. yalin: PCB alınmaz (parça tek başına).
 // yon: kameranın hedefe göre yönü (x sağ, y yukarı, z izleyici); 'yan': parçanın uzun ekseninin yanından.
+// kip: yalnız o görünümden tek dosya (fark ölçülmez). gizle: bölgeye giren komşu parça (kart noktası merkezli).
+// oluk: breadboard'a kanal oyar [z0, z1, taban y]. rontgen: breadboard gövdesi yarı saydam (sayıysa o saydamlık).
+// soluk: o x'teki bacak soluk. ornek: devredeki uzunluk yerine aynı kısa örnek kablo, yalnız renk değişir.
 const ARDUINO = {
   modul: 'arduino',
   kimlikler: {
     kart: { kaynak: 'kart', yon: [0.32, 0.72, 0.62] },
     usb: { kaynak: 'kart', bolge: [-7.2, 8.6, 10.4, 21.9, 15.6], yalin: true, yon: [-0.72, 0.5, 0.48] },
     'guc-girisi': { kaynak: 'kart', bolge: [-2.6, 40, 12.6, 49.8, 15.6], yalin: true, yon: [-0.7, 0.5, 0.52] },
-    regulator: { kaynak: 'kart', bolge: [12.7, 42.6, 19.2, 50.4, 6.4], yon: [0.3, 0.75, 0.6] },
-    kondansator: { kaynak: 'kart', bolge: [9.5, 28, 16.5, 35, 10.4], yalin: true, yon: [0.4, 0.6, 0.7] },
+    regulator: { kaynak: 'kart', bolge: [12.7, 42.6, 18.7, 50.4, 6.4], yon: [0.3, 0.75, 0.6] }, // sağdaki SMD dilimleri dışarıda
+    // kristalin ucu bölgeye giriyor (x 15,75-16,5): kristal gizlenir (gizle: [kart noktası] -> o merkezli tek parça)
+    kondansator: { kaynak: 'kart', bolge: [9.5, 28, 16.5, 35, 10.4], yalin: true, gizle: [[21, 27]], yon: [0.4, 0.6, 0.7] },
     mikrodenetleyici: { kaynak: 'kart', bolge: [23.2, 29.4, 65.8, 44.2, 8.4], yon: [0.16, 0.86, 0.48] },
     'usb-cipi': { kaynak: 'kart', bolge: [16.2, 13.7, 23.8, 21.3, 5.4], yon: [0.3, 0.75, 0.6] },
     kristal: { kaynak: 'kart', bolge: [15.4, 24.4, 26.6, 29.6, 8.2], yalin: true, yon: [0.3, 0.68, 0.67] },
-    'dijital-pinler': { kaynak: 'kart', bolge: [19.7, 0.9, 67.7, 4.2, 13.2], yalin: true, yon: [0.18, 0.62, 0.76] },
-    'analog-pinler': { kaynak: 'kart', bolge: [47.6, 49.2, 63.6, 52.4, 13.2], yalin: true, yon: [0.3, 0.62, 0.72] },
-    'guc-pinleri': { kaynak: 'kart', bolge: [24.8, 49.2, 45.8, 52.4, 13.2], yalin: true, yon: [0.3, 0.62, 0.72] },
+    // pin başlıkları: kart şeridi ve baskı yazılarıyla (A0-A5, IOREF/RESET/5V/GND/Vin, 0-13); üçü aynı açıdan
+    // (yazılar dijitalde başlığın +z, güç ve analogda -z yanında: kamera yazı tarafından, aynı açıyla bakar)
+    'dijital-pinler': { kaynak: 'kart', bolge: [19.7, 0.9, 67.7, 7.6, 13.2], yon: [0.5, 0.68, 0.54] },
+    'analog-pinler': { kaynak: 'kart', bolge: [47.6, 44, 63.6, 52.4, 13.2], yon: [0.5, 0.68, -0.54] },
+    'guc-pinleri': { kaynak: 'kart', bolge: [24.8, 44, 45.8, 52.4, 13.2], yon: [0.5, 0.68, -0.54] },
     icsp: { kaynak: 'kart', bolge: [62, 22.4, 67.7, 30.9, 13.2], yalin: true, yon: [0.45, 0.62, 0.64] },
     reset: { kaynak: 'kart', bolge: [3.6, 1.9, 11.2, 8.5, 9.4], yalin: true, yon: [0.4, 0.62, 0.68] },
-    'led-l': { kaynak: 'kart', bolge: [24.6, 7.8, 32.4, 12.1, 5.2], yon: [0.2, 0.82, 0.54] },
+    'led-l': { kaynak: 'kart', bolge: [24.4, 8.4, 31.4, 12.1, 5.2], yon: [0.2, 0.82, 0.54] }, // sağ arkadaki komşu SMD dışarıda
     'led-txrx': { kaynak: 'kart', bolge: [24.6, 12.3, 32.4, 16.6, 5.2], yon: [0.2, 0.82, 0.54] },
     'led-on': { kaynak: 'kart', bolge: [57.6, 8.2, 65.4, 13, 5.2], yon: [0.2, 0.82, 0.54] },
-    'montaj-deligi': { kaynak: 'kart', bolge: [62.4, 14.2, 68.58, 21.4, 5.2], yon: [0.35, 0.78, 0.52] },
+    // kartın kenarı (68,58) bölgenin içinde kalır: kırpma düzlemi kenar yüzüyle çakışınca yüz benekli çıkıyordu
+    'montaj-deligi': { kaynak: 'kart', bolge: [62.4, 14.2, 69.4, 21.4, 5.2], yon: [0.35, 0.78, 0.52] },
     // breadboard (merkez z -38, sütun x = -36,83 + (c - 1) * 2,54); köşe bölgelerinde kesik yüzler kameraya bakmaz
     breadboard: { kaynak: 'bb', yon: [0.3, 0.72, 0.63] },
-    serit: { kaynak: 'bb', dunya: [7.3, 0, -53.6, 15.6, 9.5, -40.4], rontgen: true, yon: [0.42, 0.66, 0.62] },
-    'orta-kanal': { kaynak: 'bb', dunya: [21.5, 0, -46, 34.5, 9.5, -30], yon: [0.3, 0.72, 0.63] },
+    // şerit: röntgen; tek dosya Fiziksel çizimden (Sanal'da şerit gövdeyle aynı açık gri, seçilmiyordu). Uzak kenardaki
+    // sütun numarası bölge dışında (-52,85): yarısı kesilince ters yazı gibi görünüyordu
+    serit: { kaynak: 'bb', dunya: [7.3, 0, -52.85, 15.6, 9.5, -40.4], rontgen: 0.5, kip: 'fiziksel', yon: [0.42, 0.66, 0.62] },
+    // orta kanal: modelde kanal yalnız boyalı şerit (z -39,5..-36,5); görselde 2,4 mm derin oluk olarak oyulur, yan yüz
+    // kesitte U biçimi görünür (oluk: [z0, z1, taban y])
+    'orta-kanal': { kaynak: 'bb', dunya: [21.5, 0, -46, 34.5, 9.5, -30], oluk: [-39.5, -36.5, 6.1], yon: [0.62, 0.58, 0.53] },
     koordinat: { kaynak: 'bb', dunya: [-41.3, 0, -39.2, -25, 9.5, -21.6], yon: [-0.42, 0.7, 0.58] },
     'arti-ray': { kaynak: 'bb', dunya: [17.8, 0, -17.6, 41.3, 9.5, -10.7], yon: [0.4, 0.68, 0.62] },
     'eksi-ray': { kaynak: 'bb', dunya: [17.8, 0, -22.2, 41.3, 9.5, -17.6], yon: [0.4, 0.68, 0.62] },
@@ -78,9 +97,13 @@ const ARDUINO = {
     anot: { kaynak: 'parca:led', renk: 'kirmizi', soluk: 1.27, yon: [0.3, 0.32, 0.9] },
     katot: { kaynak: 'parca:led', renk: 'kirmizi', soluk: -1.27, yon: [0.3, 0.32, 0.9] },
     direnc: { kaynak: 'parca:direnc', yon: 'yan' },
-    'renk-bantlari': { kaynak: 'parca:direnc', yerel: [-3.6, 1.75, -1.7, 3.6, 5.05, 1.7], yon: 'yan' },
+    // renk bantları: Sanal ile Fiziksel gözle aynı (denetim 02.11; ölçülen fark eşiğin hemen üstünde, ince kenar
+    // farkı), tek dosya Sanal çizimden
+    'renk-bantlari': { kaynak: 'parca:direnc', yerel: [-3.6, 1.75, -1.7, 3.6, 5.05, 1.7], kip: 'sanal', yon: 'yan' },
     buton: { kaynak: 'parca:buton', yon: [0.42, 0.62, 0.66] },
-    kablo: { kaynak: 'parca:kablo', yon: 'yan' },
+    // kablo: devredeki uzunluğu ne olursa olsun aynı kısa örnek köprü (10c-18c), yalnız rengi değişir (ölçek tutarlı);
+    // renk bantları gibi Sanal ile Fiziksel gözle aynı, tek dosya
+    kablo: { kaynak: 'parca:kablo', ornek: true, kip: 'sanal', yon: 'yan' },
   },
   // görsel üretilmeyenler ve gerekçesi (çıktıda listelenir)
   uretilmez: {
@@ -95,7 +118,7 @@ const SAHNE = `
 import { WebGLRenderer, Scene, PerspectiveCamera, DirectionalLight, HemisphereLight, Mesh, CylinderGeometry, PlaneGeometry,
   MeshStandardMaterial, Plane, Vector3, Box3, SRGBColorSpace, NeutralToneMapping, PCFSoftShadowMap, PMREMGenerator, AdditiveBlending } from 'three';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
-import { kartYap, breadboardYap, anizotropiAyarla, ardNokta, ARD, BB, PCB_UST } from './modeller.js';
+import { kartYap, breadboardYap, kabloYap, anizotropiAyarla, ardNokta, delikNokta, ARD, BB, PCB_UST, KABLO_RENK } from './modeller.js';
 import { devreKur } from './devre.js';
 import { saglayiciKur } from './gercekciDoku.js';
 import { kartDerisiYap } from './gercekciKart.js';
@@ -104,6 +127,8 @@ import { parcaDerisiYap } from './gercekciParca.js';
 import { ARDUINO_LOGO } from './gercekci.js';
 
 const N = ${CIZIM}, ON = 256, FOV = 22, PAY = 0.05;
+// yarı saydam gövde ve epoksi bu sabit açık zeminle birleştirilir (açık temanın sahne rengi); görsel temaya göre değişmez
+const ZEMIN = 0xe9e5f1;
 const canvas = document.createElement('canvas'); document.body.append(canvas);
 const R = new WebGLRenderer({ canvas, antialias: true, alpha: true, preserveDrawingBuffer: true, stencil: false });
 R.setPixelRatio(1); R.setSize(N, N, false);
@@ -132,22 +157,42 @@ const sag = saglayiciKur('yuksek', R.capabilities.getMaxAnisotropy());
 const kart = kartYap(hedefler), bb = breadboardYap(hedefler);
 const kartF = kartDerisiYap(sag, { logo: ARDUINO_LOGO }), bbF = bbDerisiYap(sag);
 const parcalar = { sanal: [], fiziksel: [] };
+// gercekci.js ile aynı: Sanal mesh'ler gizlenir (toplamalı ışımalar ve görünmez vekiller zaten çizilmez), deri eklenir
+function deriGiydir(kayit) {
+  const gizle = [];
+  kayit.nesne.traverse((o) => { if (o.isMesh && !o.isInstancedMesh && o.material.visible !== false && o.material.blending !== AdditiveBlending) gizle.push(o); });
+  const d = parcaDerisiYap(sag, kayit.p.tur, kayit.nesne);
+  if (!d) return false;
+  for (const o of gizle) o.visible = false;
+  kayit.nesne.add(d.grup); kayit.deri = d;
+  return true;
+}
 for (const gorunum of ['sanal', 'fiziksel']) {
   for (const devre of ['buton', 'trafik']) {
     for (const [ad, p] of Object.entries(devreKur(devre, hedefler))) {
       const kayit = { ad: devre + ':' + ad, p, nesne: p.nesne, deri: null };
-      if (gorunum === 'fiziksel') {
-        // gercekci.js ile aynı: Sanal mesh'ler gizlenir (toplamalı ışımalar ve görünmez vekiller zaten çizilmez), deri eklenir
-        const gizle = [];
-        p.nesne.traverse((o) => { if (o.isMesh && !o.isInstancedMesh && o.material.visible !== false && o.material.blending !== AdditiveBlending) gizle.push(o); });
-        const d = parcaDerisiYap(sag, p.tur, p.nesne);
-        if (!d) continue;
-        for (const o of gizle) o.visible = false;
-        p.nesne.add(d.grup); kayit.deri = d;
-      }
+      if (gorunum === 'fiziksel' && !deriGiydir(kayit)) continue;
       parcalar[gorunum].push(kayit);
     }
   }
+}
+// kablonun rengi (Sanal tüpün malzemesinden; devre.js renk adını nesneye yazmıyor)
+function kabloRengi(nesne) {
+  const t = nesne.children.find((c) => c.isMesh && c.geometry?.type === 'TubeGeometry' && c.material.visible !== false);
+  const h = t ? t.material.color.getHex() : -1;
+  return Object.keys(KABLO_RENK).find((k) => KABLO_RENK[k] === h) || '';
+}
+// örnek kablo: her renk için aynı kısa köprü (10c-18c, 20,3 mm); ilk istekte kurulur
+const ornekler = {};
+function kabloOrnegi(renk, gorunum) {
+  const k = renk + ':' + gorunum;
+  if (!ornekler[k]) {
+    const kayit = { ad: 'ornek:' + k, p: { tur: 'kablo' }, nesne: kabloYap(delikNokta(10, 'c'), delikNokta(18, 'c'), renk), deri: null };
+    if (gorunum === 'fiziksel') deriGiydir(kayit);
+    kayit.nesne.visible = false; sahne.add(kayit.nesne);
+    ornekler[k] = kayit;
+  }
+  return ornekler[k];
 }
 for (const k of [kart.grup, bb.grup, kartF.grup, bbF.grup, ...parcalar.sanal.map((x) => x.nesne), ...parcalar.fiziksel.map((x) => x.nesne)]) { k.visible = false; sahne.add(k); }
 
@@ -201,7 +246,7 @@ window.podyum = {
   // pin ve parça listesi (üreteç kimlik -> özel ad eşleşmesini buradan okur)
   liste() {
     return {
-      parcalar: parcalar.sanal.map((x) => ({ ad: x.ad, tur: x.p.tur, ozel: x.p.ozel || {}, renk: x.nesne.userData.renk || '' })),
+      parcalar: parcalar.sanal.map((x) => ({ ad: x.ad, tur: x.p.tur, ozel: x.p.ozel || {}, renk: x.nesne.userData.renk || (x.p.tur === 'kablo' ? kabloRengi(x.nesne) : '') })),
     };
   },
   ciz(t, gorunum) {
@@ -212,21 +257,41 @@ window.podyum = {
     let kok, parca = null, tur = t.kaynak;
     if (t.kaynak === 'kart') kok = f ? kartF.grup : kart.grup;
     else if (t.kaynak === 'bb') kok = f ? bbF.grup : bb.grup;
-    else { parca = parcalar[gorunum].find((x) => x.ad === t.parca); if (!parca) return { hata: 'parca yok ' + t.parca }; kok = parca.nesne; tur = 'parca'; }
+    else {
+      parca = t.ornekRenk ? kabloOrnegi(t.ornekRenk, gorunum) : parcalar[gorunum].find((x) => x.ad === t.parca);
+      if (!parca) return { hata: 'parca yok ' + (t.ornekRenk || t.parca) };
+      kok = parca.nesne; tur = 'parca';
+    }
     kok.visible = true;
     const geri = [];
-    if (t.rontgen) { if (f) bbF.kanca.rontgen(true); else bb.rontgen(true); geri.push(() => { if (f) bbF.kanca.rontgen(false); else bb.rontgen(false); }); }
+    if (t.rontgen) {
+      if (f) bbF.kanca.rontgen(true); else bb.rontgen(true);
+      geri.push(() => { if (f) bbF.kanca.rontgen(false); else bb.rontgen(false); });
+      // sayı verilirse gövde saydamlığı (sahnede 0,3): görselde gövdenin dış hattı açık kartta da seçilsin
+      if (typeof t.rontgen === 'number') for (const o of gorunurler(kok)) for (const m of [].concat(o.material)) if (m.transparent && m.opacity === 0.3) m.opacity = t.rontgen;
+    }
+    // gizle: bölgeye giren komşu parça (merkezi verilen kart noktasında, ayak izi 15 mm'den küçük tek mesh)
+    for (const [bx, bz] of t.gizle || []) {
+      const n = ardNokta(bx, bz);
+      for (const o of gorunurler(kok)) {
+        o.updateWorldMatrix(true, false);
+        if (!o.geometry.boundingBox) o.geometry.computeBoundingBox();
+        const k = o.geometry.boundingBox.clone().applyMatrix4(o.matrixWorld), m = k.getCenter(new Vector3()), b = k.getSize(new Vector3());
+        if (Math.hypot(m.x - n.x, m.z - n.z) < 0.8 && Math.max(b.x, b.z) < 15) { o.visible = false; geri.push(() => { o.visible = true; }); }
+      }
+    }
     if (parca) {
       // havada pozu: bacaklar tam boy (Sanal ve deri birlikte)
       parca.nesne.userData.bacak?.(0); parca.deri?.kanca?.bacak?.(0);
       geri.push(() => { parca.nesne.userData.bacak?.(1); parca.deri?.kanca?.bacak?.(1); });
     }
+    const soluklar = new Set(); // bilerek saydam kalanlar (opak birleştirmede de saydam)
     if (t.soluk != null) {
       // anot/katot: diğer bacak soluk (hangisinin anlatıldığı belli olsun; LED tanınır kalsın)
       for (const o of gorunurler(kok)) {
         if (Math.abs(o.position.x - t.soluk) > 0.01 || o.scale.y < 3) continue;
         const m = o.material, s = m.clone(); s.transparent = true; s.opacity = 0.2; s.depthWrite = false;
-        o.material = s; o.castShadow = false; geri.push(() => { o.material = m; o.castShadow = true; s.dispose(); });
+        o.material = s; o.castShadow = false; soluklar.add(s); geri.push(() => { o.material = m; o.castShadow = true; s.dispose(); });
       }
     }
     kok.updateWorldMatrix(true, true);
@@ -236,11 +301,29 @@ window.podyum = {
       const [bx0, bz0, bx1, bz1, ust] = t.bolge, a = ardNokta(bx0, bz0), b = ardNokta(bx1, bz1);
       kutu = new Box3(new Vector3(a.x, t.yalin ? PCB_UST + 0.02 : PCB_UST - 1.62, a.z), new Vector3(b.x, ust, b.z));
     } else if (t.dunya) kutu = new Box3(new Vector3(t.dunya[0], t.dunya[1], t.dunya[2]), new Vector3(t.dunya[3], t.dunya[4], t.dunya[5]));
-    if (kutu) {
-      const { min: n, max: x } = kutu;
-      duzlem = [new Plane(new Vector3(1, 0, 0), -n.x), new Plane(new Vector3(-1, 0, 0), x.x), new Plane(new Vector3(0, 1, 0), -n.y),
-        new Plane(new Vector3(0, -1, 0), x.y), new Plane(new Vector3(0, 0, 1), -n.z), new Plane(new Vector3(0, 0, -1), x.z)];
-    } else if (t.yerel) {
+    const kutuDuzlemi = ({ min: n, max: x }) => [new Plane(new Vector3(1, 0, 0), -n.x), new Plane(new Vector3(-1, 0, 0), x.x), new Plane(new Vector3(0, 1, 0), -n.y),
+      new Plane(new Vector3(0, -1, 0), x.y), new Plane(new Vector3(0, 0, 1), -n.z), new Plane(new Vector3(0, 0, -1), x.z)];
+    // oluk: bölge üç kutuya bölünür (kanalın iki yanı tam boy, kanalın altı tabana dek); ana nesne ilk kutuyla, iki kopyası
+    // (kendi malzeme kopyalarıyla) diğerleriyle kırpılır. Kapaklar her kutunun kesik yüzüne konur: kanal duvarı ve tabanı.
+    let kutular = kutu ? [kutu] : [];
+    if (kutu) duzlem = kutuDuzlemi(kutu);
+    if (kutu && t.oluk) {
+      const [oz0, oz1, taban] = t.oluk;
+      const A = kutu.clone(), B = kutu.clone(), C = kutu.clone();
+      A.max.z = oz0; B.min.z = oz1; C.min.z = oz0; C.max.z = oz1; C.max.y = taban;
+      kutular = [A, B, C]; duzlem = kutuDuzlemi(A);
+      for (const k of [B, C]) {
+        const kopya = kok.clone(true), kopyaMat = [];
+        kopya.traverse((o) => {
+          if (!o.isMesh) return;
+          o.material = Array.isArray(o.material) ? o.material.map((m) => m.clone()) : o.material.clone();
+          for (const m of [].concat(o.material)) { m.clippingPlanes = kutuDuzlemi(k); m.clipShadows = true; kopyaMat.push(m); }
+        });
+        sahne.add(kopya);
+        geri.push(() => { sahne.remove(kopya); for (const m of kopyaMat) m.dispose(); });
+      }
+    }
+    if (!kutu && t.yerel) {
       const [x0, y0, z0, x1, y1, z1] = t.yerel, m = kok.matrixWorld;
       duzlem = [new Plane(new Vector3(1, 0, 0), -x0), new Plane(new Vector3(-1, 0, 0), x1), new Plane(new Vector3(0, 1, 0), -y0),
         new Plane(new Vector3(0, -1, 0), y1), new Plane(new Vector3(0, 0, 1), -z0), new Plane(new Vector3(0, 0, -1), z1)].map((p) => p.applyMatrix4(m));
@@ -258,14 +341,25 @@ window.podyum = {
     const yanMat = govde ? yanMalzeme(kok, tur) : null;
     const kapakMat = yanMat ? yanMat.clone() : null;
     if (kapakMat) { kapakMat.clippingPlanes = null; kapakMat.clipShadows = false; geri.push(() => kapakMat.dispose()); }
-    if (govde && kapakMat) {
-      const { min: n, max: x } = kutu, h = govde.y1 - govde.y0, yc = (govde.y0 + govde.y1) / 2;
+    // oluk tabanı biraz koyu (kanalın içi gölgede kalır gibi; boyalı kanal rengine yakın)
+    const tabanMat = kapakMat && t.oluk ? kapakMat.clone() : null;
+    if (tabanMat) { tabanMat.color.multiplyScalar(0.86); geri.push(() => tabanMat.dispose()); }
+    // Kapaklar gölge de düşürür: kırpılan gövdenin kesik yüzü açık kaldığı için o yandan gölgesi eksik çıkıyordu (oluk
+    // duvarının kanala düşen gölgesi de buradan gelir). Tek yüzlü düzlem; ışığa arkası dönük olanlar gölge haritasına girer.
+    if (govde && kapakMat) for (const k of kutular) {
+      const { min: n, max: x } = k;
+      const ya = Math.max(n.y, govde.y0), yb = Math.min(x.y, govde.y1);
+      if (yb <= ya) continue;
+      const h = yb - ya, yc = (ya + yb) / 2;
       const xa = Math.max(n.x, govde.x0), xb = Math.min(x.x, govde.x1), za = Math.max(n.z, govde.z0), zb = Math.min(x.z, govde.z1);
-      const ekle = (w, ry, px, pz) => { const m = new Mesh(new PlaneGeometry(w, h), kapakMat); m.rotation.y = ry; m.position.set(px, yc, pz); m.receiveShadow = true; kapaklar.push(m); sahne.add(m); };
+      const koy = (geo, mat, fn) => { const m = new Mesh(geo, mat); fn(m); m.receiveShadow = true; m.castShadow = true; kapaklar.push(m); sahne.add(m); };
+      const ekle = (w, ry, px, pz) => koy(new PlaneGeometry(w, h), kapakMat, (m) => { m.rotation.y = ry; m.position.set(px, yc, pz); });
       if (n.x > govde.x0 + 0.01) ekle(zb - za, -Math.PI / 2, n.x, (za + zb) / 2);
       if (x.x < govde.x1 - 0.01) ekle(zb - za, Math.PI / 2, x.x, (za + zb) / 2);
       if (n.z > govde.z0 + 0.01) ekle(xb - xa, Math.PI, (xa + xb) / 2, n.z);
       if (x.z < govde.z1 - 0.01) ekle(xb - xa, 0, (xa + xb) / 2, x.z);
+      // yatay kesim (yalnız oluk tabanı): üste bakan kapak
+      if (x.y < govde.y1 - 0.01) koy(new PlaneGeometry(xb - xa, zb - za), tabanMat || kapakMat, (m) => { m.rotation.x = -Math.PI / 2; m.position.set((xa + xb) / 2, x.y, (za + zb) / 2); });
     }
     geri.push(() => { for (const m of kapaklar) { sahne.remove(m); m.geometry.dispose(); } });
     // içerik kutusu: kırpma kutusu ile nesnenin kesişimi
@@ -300,8 +394,17 @@ window.podyum = {
         // 2) kare kırpma, kenar payı; son çizim
         const s = Math.max(a.x1 - a.x0, a.y1 - a.y0) * (1 + 2 * PAY), cx = (a.x0 + a.x1) / 2, cy = (a.y0 + a.y1) / 2;
         kamera.setViewOffset(ON, ON, cx - s / 2, cy - s / 2, s, s); kamera.updateProjectionMatrix();
-        R.setSize(N, N, false); R.shadowMap.needsUpdate = true; R.render(sahne, kamera);
-        sonuc = { png: canvas.toDataURL('image/png'), kaideR: Math.round(r * 10) / 10, icerik: [boy.x, boy.y, boy.z].map((v) => Math.round(v * 10) / 10) };
+        R.setSize(N, N, false);
+        // 2a) kaplama: yarı saydam malzemeler (röntgen gövdesi, LED epoksisi) geçici olarak opak; yalnız saydamlık (alfa) alınır
+        const saydam = [];
+        for (const m of mats) if (m.transparent && !soluklar.has(m)) { saydam.push([m, m.opacity, m.depthWrite]); m.transparent = false; m.opacity = 1; m.depthWrite = true; m.needsUpdate = true; }
+        R.shadowMap.needsUpdate = true; R.render(sahne, kamera);
+        const alfa = canvas.toDataURL('image/png');
+        for (const [m, o, d] of saydam) { m.transparent = true; m.opacity = o; m.depthWrite = d; m.needsUpdate = true; }
+        // 2b) renk: sabit açık zemin üstünde; yarı saydam yerler bu zeminle birleşir, sonuç opak yazılır (kart koyu temada
+        // da aynı görünür). Kenar yumuşatma pikselleri de zeminle karışır: koyu kartta koyu parçaya ince açık kenar verir.
+        R.setClearColor(ZEMIN, 1); R.shadowMap.needsUpdate = true; R.render(sahne, kamera); R.setClearColor(0x000000, 0);
+        sonuc = { png: canvas.toDataURL('image/png'), alfa, kaideR: Math.round(r * 10) / 10, icerik: [boy.x, boy.y, boy.z].map((v) => Math.round(v * 10) / 10) };
       }
     }
     kaide.visible = false;
@@ -326,8 +429,8 @@ async function webp(png) {
   }
   return null;
 }
-async function ham(png) {
-  return sharp(png).resize(BOY, BOY, { kernel: 'lanczos3' }).ensureAlpha().raw().toBuffer();
+async function ham(png, boy = FARK.boy) {
+  return sharp(png).resize(boy, boy, { kernel: 'lanczos3' }).ensureAlpha().raw().toBuffer();
 }
 // Sanal - Fiziksel farkı: en az birinde saydam olmayan piksellerde ortalama kanal farkı ve belirgin farklı piksel oranı
 function fark(a, b) {
@@ -348,8 +451,14 @@ const paket = await esbuild.build({
   stdin: { contents: SAHNE, resolveDir: path.join(BU, 'src'), sourcefile: 'podyum-sahne.js', loader: 'js' },
   bundle: true, format: 'esm', write: false, minify: true, legalComments: 'none', logLevel: 'warning',
   nodePaths: [path.join(KOK, 'tools/node_modules')],
+  metafile: true, absWorkingDir: KOK,
 });
 const kod = paket.outputFiles[0].text;
+// kaynak izi: sahneye giren kendi modüllerimiz (modeller.js, devre.js, gercekci*.js ...) ve bu üreteç. Değişirse
+// görseller eskimiş olabilir; tools/3d/test/podyum.test.mjs izi yeniden hesaplar ve uyarır.
+// (sahne kodunun kendisi bu dosyada; esbuild onu src/podyum-sahne.js diye anar, diskte yok)
+const kaynakDosyalar = [...Object.keys(paket.metafile.inputs).map((f) => path.relative(BU, path.join(KOK, f)))
+  .filter((f) => f.startsWith('src/') && f !== 'src/podyum-sahne.js'), 'podyum.mjs'].sort();
 const tarayici = await puppeteer.launch({ executablePath: CHROME, headless: 'new', args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--force-color-profile=srgb', '--font-render-hinting=none'] });
 const sayfa = await tarayici.newPage();
 const hatalar = [];
@@ -370,7 +479,9 @@ for (const [id, t] of Object.entries(AILE_TANIM.kimlikler)) {
     const ozel = t.renk ? '' : p.ozel[id] || '';
     if (gorulen.has(ozel)) continue;
     gorulen.add(ozel);
-    isler.push({ id, ozel, t: { ...t, parca: p.ad } });
+    // örnekli kablo: dosya rengin adını taşır; aynı renkteki kablolar (ör. iki kırmızı) tek görseli paylaşır
+    if (t.ornek) isler.push({ id, ozel, kok: `${id}-${p.renk}`, t: { ...t, ornekRenk: p.renk } });
+    else isler.push({ id, ozel, t: { ...t, parca: p.ad } });
   }
 }
 
@@ -387,17 +498,29 @@ const yaz = (ad, b) => {
   if (fs.existsSync(p) && fs.readFileSync(p).equals(b)) return 'ayni';
   fs.writeFileSync(p, b); return 'yeni';
 };
+// renk (opak zemin üstünde) + saydamlık (yarı saydamlar opak çizilerek) -> tek PNG
+const birlestir = async (c) => {
+  const veri = (u) => Buffer.from(u.split(',')[1], 'base64');
+  const rgb = await sharp(veri(c.png)).removeAlpha().raw().toBuffer({ resolveWithObject: true });
+  const a = await sharp(veri(c.alfa)).extractChannel(3).raw().toBuffer();
+  return sharp(rgb.data, { raw: { width: rgb.info.width, height: rgb.info.height, channels: 3 } }).joinChannel(a, { raw: { width: rgb.info.width, height: rgb.info.height, channels: 1 } }).png().toBuffer();
+};
+const yapilan = new Map(); // dosya kökü -> liste kaydı (örnekli kablolarda aynı renk bir kez çizilir)
 for (const is of isler) {
   const { id, ozel, t } = is;
-  const kok = ozel ? `${id}-${parcalaAd(id, ozel)}` : id;
+  const kok = is.kok || (ozel ? `${id}-${parcalaAd(id, ozel)}` : id);
+  if (yapilan.has(kok)) { (liste[id] ||= {})[ozel] = yapilan.get(kok); continue; }
+  const kipler = t.kip ? [t.kip] : ['sanal', 'fiziksel'];
   const cizim = {};
-  for (const g of ['sanal', 'fiziksel']) cizim[g] = await sayfa.evaluate((tt, gg) => window.podyum.ciz(tt, gg), t, g);
-  const sorun = ['sanal', 'fiziksel'].map((g) => cizim[g].hata && `${g}: ${cizim[g].hata}`).filter(Boolean);
+  for (const g of kipler) cizim[g] = await sayfa.evaluate((tt, gg) => window.podyum.ciz(tt, gg), t, g);
+  const sorun = kipler.map((g) => cizim[g].hata && `${g}: ${cizim[g].hata}`).filter(Boolean);
   if (sorun.length) { uretilmeyen.push([id + (ozel ? ` (${ozel})` : ''), `çizilemedi (${sorun.join(', ')})`]); continue; }
-  const png = { sanal: Buffer.from(cizim.sanal.png.split(',')[1], 'base64'), fiziksel: Buffer.from(cizim.fiziksel.png.split(',')[1], 'base64') };
-  const f = fark(await ham(png.sanal), await ham(png.fiziksel));
+  const png = {};
+  for (const g of kipler) png[g] = await birlestir(cizim[g]);
+  // tek kipli (kip: 'sanal' ya da 'fiziksel') kimlik iki görünümde aynı dosyayı kullanır
+  const f = t.kip ? { ortalama: 0, oran: 0 } : fark(await ham(png.sanal), await ham(png.fiziksel));
   const ayri = f.ortalama > FARK.ortalama || f.oran > FARK.oran;
-  const dosyalar = ayri ? [[`${kok}-sanal.webp`, png.sanal], [`${kok}-fiziksel.webp`, png.fiziksel]] : [[`${kok}.webp`, png.sanal]];
+  const dosyalar = ayri ? [[`${kok}-sanal.webp`, png.sanal], [`${kok}-fiziksel.webp`, png.fiziksel]] : [[`${kok}.webp`, png[kipler[0]]]];
   const bilgi = [];
   const icerik = [];
   for (const [ad, p] of dosyalar) {
@@ -408,7 +531,8 @@ for (const is of isler) {
     pafta.push({ ad, b });
   }
   (liste[id] ||= {})[ozel] = { dosya: kok, ayri, surum: ozet(Buffer.concat(icerik)) };
-  rapor.push(`${id}${ozel ? ` [${ozel}]` : ''}: fark ort ${f.ortalama.toFixed(1)} oran ${(f.oran * 100).toFixed(1)}% -> ${ayri ? 'AYRI' : 'tek'} | kaide r ${cizim.sanal.kaideR} | ${bilgi.join(', ')}`);
+  yapilan.set(kok, liste[id][ozel]);
+  rapor.push(`${id}${ozel ? ` [${ozel}]` : ''}: fark ort ${f.ortalama.toFixed(1)} oran ${(f.oran * 100).toFixed(1)}% -> ${ayri ? 'AYRI' : 'tek'}${t.kip ? ` (yalnız ${t.kip})` : ''} | kaide r ${cizim[kipler[0]].kaideR} | ${bilgi.join(', ')}`);
   console.log(rapor[rapor.length - 1]);
 }
 await tarayici.close();
@@ -419,6 +543,13 @@ if (!SADECE) for (const f of fs.readdirSync(CIKTI)) if (f.endsWith('.webp') && !
 const sirali = Object.fromEntries(Object.keys(liste).sort().map((id) => [id, Object.fromEntries(Object.keys(liste[id]).sort().map((o) => [o, liste[id][o]]))]));
 const yeniListe = JSON.stringify({ aile: AILE, boy: BOY, yol: `/3d/assets/podyum/${AILE}/`, gorseller: sirali }, null, 1) + '\n';
 if (!fs.existsSync(LISTE) || fs.readFileSync(LISTE, 'utf8') !== yeniListe) fs.writeFileSync(LISTE, yeniListe);
+// kaynak izi ve üretilmeyenler (test için; çalışma anı listesine girmez). Kısmi çalışmada yazılmaz: iz yalnız bütün
+// görseller aynı kaynaktan üretildiyse doğrudur.
+if (!SADECE) {
+  const IZ = path.join(BU, 'podyum', `${AILE}.kaynak.json`);
+  const yeniIz = JSON.stringify({ aile: AILE, iz: kaynakIzi(BU, kaynakDosyalar), dosyalar: kaynakDosyalar, uretilmez: AILE_TANIM.uretilmez }, null, 1) + '\n';
+  if (!fs.existsSync(IZ) || fs.readFileSync(IZ, 'utf8') !== yeniIz) fs.writeFileSync(IZ, yeniIz);
+}
 
 // kapsam: katalogdaki kimliklerden görseli olmayanlar
 const { KESIF } = await import(pathToFileURL(path.join(BU, 'src/kesif-veri.js')).href);
