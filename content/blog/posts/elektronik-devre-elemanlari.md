@@ -214,7 +214,7 @@ Elektronik Devre Elemanları kendi başına bitmeyen bir derstir; programın son
 
 Bu bağ, bilişim teknolojileri öğretmeni için doğrudan meslek bilgisidir. Okullarda bilişim ve yazılım derslerini veren öğretmen, öğrencilerine bilgisayarın ve robotik kitlerin nasıl çalıştığını anlatırken bu dersteki kavramları kullanır. Dersin öğretmenlik açısından okulda nereye oturduğu için [Bilişim Teknolojileri ve Yazılım dersi](/blog/bilisim-teknolojileri-ve-yazilim-dersi) yazısına bakabilirsiniz.
 
-Direnç ve LED'in ortaokulda nasıl anlatılabileceğine bir örnek [3D Simülasyon Merkezi'ndeki LED Yakalım dersidir](/3d/arduino/led-yakma): devre breadboard üzerinde üç boyutlu kurulur, 8. sınıf anlatımında LED'in akımı Ohm yasasıyla hesaplanır.
+Direnç ve LED'in ortaokulda nasıl anlatılabileceğine bir örnek [3D Simülasyon Merkezi'ndeki LED Yakalım dersidir](/3d/arduino/led-blink): devre breadboard üzerinde üç boyutlu kurulur, 8. sınıf anlatımında LED'in akımı Ohm yasasıyla hesaplanır.
 
 ## Haftalık konu sırası
 

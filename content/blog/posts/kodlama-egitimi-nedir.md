@@ -241,7 +241,7 @@ Kanıtlar ve eleştiriler birlikte okunduğunda kodlama eğitimi için birkaç i
 
 Derslerde oyun öğelerinin kullanımı için [oyunlaştırma nedir?](/blog/oyunlastirma-nedir) yazısına bakabilirsiniz.
 
-Kodlamayı fiziksel bir devreyle somutlaştırmak isteyen öğretmenler, ilk Arduino devresini [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino/led-yakma) sınıfla birlikte üç boyutlu kurabilir; anlatım 5-8. sınıf düzeyine göre değişir.
+Kodlamayı fiziksel bir devreyle somutlaştırmak isteyen öğretmenler, ilk Arduino devresini [3D Simülasyon Merkezi'ndeki LED Yakalım dersinde](/3d/arduino/led-blink) sınıfla birlikte üç boyutlu kurabilir; anlatım 5-8. sınıf düzeyine göre değişir.
 
 ## Sonuç
 

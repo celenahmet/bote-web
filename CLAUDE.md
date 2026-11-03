@@ -25,12 +25,17 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   Ders kimliği (slug) adres değişse de değişmez: tarayıcıdaki ilerleme, içerik dosyaları ve blog
   kartı değeri ona bağlı. 02.11 öncesi adresler (/3d/arduino-led-yakma, /3d/ozgur-mod ...)
   vercel.json'da kalıcı yönlendirme; Vercel sorgu dizgesini (?sinif=7) hedefe taşır, serve.mjs de.
-  Yayındaki bir 3D adresi değişirse eski adres ESKI_YOL'a ve vercel.json'a eklenir, silinmez.
+  Yayındaki bir 3D adresi değişirse eski adres ESKI_YOL'a ve vercel.json'a eklenir, silinmez; eski
+  yönlendirmelerin hedefi de son adrese çekilir (zincir yok).
+- /3d/ altındaki adresler İngilizce ve kısa, aramadaki kelimelere yakın (Ahmet 03.11: "3d/ den sonraki
+  her url ingilizce olsun bide çok uzatmayalım", "aramaya uysa güzel olur"): /3d/arduino/basics,
+  led-blink, button-led, traffic-light, simulator (Özgür Mod); /3d/hardware/io-devices, pc-parts.
+  02.11-03.11 Türkçe adresleri (/3d/arduino/tanitim, led-yakma ...) ESKI_YOL'da.
   npm test (check-site.mjs) her ESKI_YOL adresinin 301/308 ile hedefe gittiğini, ?sinif'i koruduğunu
   ve hedefin açıldığını denetler.
 - Aileler (yollar.mjs AILELER): Arduino ve Breadboard `/3d/arduino` (4 ders + Özgür Mod), Bilgisayar
   Donanımı `/3d/hardware` (Ahmet 02.11 adres kararı; aile kimliği `donanim` kalır): girdi-cikti-birimleri
-  `/3d/hardware/input-output-devices`, kasanin-ici `/3d/hardware/inside-the-case`. 02.11 önizlemesi
+  `/3d/hardware/io-devices`, kasanin-ici `/3d/hardware/pc-parts`. 02.11 önizlemesi
   (/3d/donanim, donanim-yayin.mjs, merkezdeki DONANIM_ONIZLEME kartı) kaldırıldı; /3d/donanim ve alt
   adresleri /3d/hardware'e kalıcı yönlendirilir. Ders 3-4 içeriği gelmeden yer tutucu, boş kart, "yakında" yok.
 - Kaynak tools/3d (src/*.js, stil.css, icerik/*.json, build.mjs, yollar.mjs); çıktı 3d/ (index.html

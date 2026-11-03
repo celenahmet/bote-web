@@ -1,4 +1,4 @@
-// Özgür Mod sayfası: /3d/arduino/ozgur-mod, 02.11 öncesi /3d/ozgur-mod (Ahmet 01.11: "hocanın özgür modu olsa ... o da ayrı bir sayfa olabilir").
+// Özgür Mod sayfası: /3d/arduino/simulator (03.11 öncesi /3d/arduino/ozgur-mod, 02.11 öncesi /3d/ozgur-mod) (Ahmet 01.11: "hocanın özgür modu olsa ... o da ayrı bir sayfa olabilir").
 // build.mjs işaretli bölümden çağrılır; ortak yardımcılar (kaçış, ikon, üst çubuk, sınıf penceresi) oradan gelir.
 // Üst çubuk ve yerleşim ders sayfalarıyla aynı: yatay ekranda yan panel, dikey ekranda aşağıdan çekilen sayfa.
 import { KABLO_RENKLERI, PROGRAM_PINLERI } from './src/devreCoz.js';

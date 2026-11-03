@@ -370,27 +370,27 @@
     },
     {
       "source": "/3d/arduino-ve-breadboard",
-      "destination": "/3d/arduino/tanitim",
+      "destination": "/3d/arduino/basics",
       "permanent": true
     },
     {
       "source": "/3d/arduino-led-yakma",
-      "destination": "/3d/arduino/led-yakma",
+      "destination": "/3d/arduino/led-blink",
       "permanent": true
     },
     {
       "source": "/3d/arduino-buton-led",
-      "destination": "/3d/arduino/buton-led",
+      "destination": "/3d/arduino/button-led",
       "permanent": true
     },
     {
       "source": "/3d/arduino-trafik-isigi",
-      "destination": "/3d/arduino/trafik-isigi",
+      "destination": "/3d/arduino/traffic-light",
       "permanent": true
     },
     {
       "source": "/3d/ozgur-mod",
-      "destination": "/3d/arduino/ozgur-mod",
+      "destination": "/3d/arduino/simulator",
       "permanent": true
     },
     {
@@ -401,6 +401,31 @@
     {
       "source": "/3d/donanim/:yol*",
       "destination": "/3d/hardware",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino/tanitim",
+      "destination": "/3d/arduino/basics",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino/led-yakma",
+      "destination": "/3d/arduino/led-blink",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino/buton-led",
+      "destination": "/3d/arduino/button-led",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino/trafik-isigi",
+      "destination": "/3d/arduino/traffic-light",
+      "permanent": true
+    },
+    {
+      "source": "/3d/arduino/ozgur-mod",
+      "destination": "/3d/arduino/simulator",
       "permanent": true
     }
   ],
