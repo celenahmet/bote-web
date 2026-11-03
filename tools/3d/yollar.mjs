@@ -49,3 +49,9 @@ export const ESKI_YOL = {
 // Adres -> bote-web köküne göre çıktı dosyası: merkez ve aile sayfası klasörün index.html'i, ders ve Özgür Mod tek dosya
 // (Vercel cleanUrls: /3d/arduino/led-blink -> 3d/arduino/led-blink.html).
 export const yolDosyasi = (yol) => (yol === MERKEZ_YOL || AILELER.some((a) => a.yol === yol) ? `${yol.slice(1)}/index.html` : `${yol.slice(1)}.html`);
+
+// Görüntülenme sayacı anahtarları (api/_lib/3d-sayac.json, derleme yazar): izin listesi default deny, yalnız burada sayılan adresler.
+// "3d:" öneki blog yazı adlarıyla çakışmayı ve blog "çok okunanlar" listesine karışmayı önler (blog adlarında iki nokta yok).
+export const SAYAC_ONEK = '3d:';
+export const sayacAnahtari = (yol) => `${SAYAC_ONEK}${yol}`;
+export const SAYAC_ANAHTARLARI = [MERKEZ_YOL, ...AILELER.map((a) => a.yol), ...Object.values(DERS_YOLU), OZGUR_YOL].map(sayacAnahtari);

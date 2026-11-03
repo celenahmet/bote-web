@@ -115,7 +115,8 @@ function createHandler({ store, slugs }) {
         const cache = 'public, max-age=0, s-maxage=60, stale-while-revalidate=300';
         const top = Number(url.searchParams.get('top'));
         if (top) {
-          const list = (await store.top(Math.min(Math.max(top, 1), 20) + 5)).filter((x) => known.has(x.slug));
+          // 3D sayfa anahtarlari ("3d:" oneki) ayni depoda durur; blog listesine karismaz.
+          const list = (await store.top(Math.min(Math.max(top, 1), 20) + 25)).filter((x) => known.has(x.slug) && !x.slug.startsWith('3d:'));
           return send(res, 200, { top: list.slice(0, Math.min(top, 20)) }, cache);
         }
         const wanted = String(url.searchParams.get('slugs') || '')
