@@ -4,6 +4,7 @@
 import { Group, Mesh, Vector3, M, malzemeler, kutu, yuvarlak, silindir, birlestir, boya, tuval, doku, YAZI, vekil, kesifNok } from './yardimci.js';
 import { PlaneGeometry, MeshBasicMaterial, MeshStandardMaterial, TorusGeometry } from 'three';
 import { KASA } from './yerlesim.js';
+import { kasaLogoYap } from './kasaLogo.js';
 
 const kes = kesifNok;
 const ON = KASA.d / 2, ARKA_Z = -KASA.d / 2;
@@ -66,6 +67,7 @@ export function kasaYap() {
   const govde = new Mesh(yuvarlak(W, H - Y0, D, 1.1, 0, Y0 + (H - Y0) / 2, 0, 3), govdeMal);
   govde.userData.statik = false; govde.name = 'kasa-govde'; // ders 2: kapak açılınca gizlenir (icKur); tek mesh olduğundan birleştirmede zaten tek başınaydı
   g.add(govde);
+  govde.userData.logoAcik = kasaLogoYap(govde).acik; // yan kapak baskısı (kasaLogo.js); ders 2'de ic.js kapak grubuna alır
   // ayaklar
   g.add(birlestir([[-15.5, -35.5], [15.5, -35.5], [-15.5, 35.5], [15.5, 35.5]].map(([x, z]) => silindir(2.3, Y0 + 0.2, x, (Y0 + 0.2) / 2, z, { seg: 14 })), M.plastik));
 
