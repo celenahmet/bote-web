@@ -1,7 +1,7 @@
 // Kasa yan kapağındaki üretici baskısı: bote logosu (kep + küre, sitenin favicon'uyla aynı çizim) ve "bote.web.tr".
 // Bir kez çizilen tuval dokusu; kapaktan azıcık önde, gölge atmayan, ışına kapalı tek düzlem. Kapalıyken gövdeye (ders 1),
 // açıkken kapak grubuna (ders 2) bağlanır: her an yalnız biri görünür, yani en fazla 1 ek çizim çağrısı.
-import { Mesh, PlaneGeometry, MeshBasicMaterial } from 'three';
+import { Mesh, PlaneGeometry, MeshBasicMaterial, BufferGeometry, BufferAttribute } from 'three';
 import { tuval, doku, YAZI } from './yardimci.js';
 
 const GEN = 30, YUK = 15;      // düzlem boyutu (1 birim = 5 mm): 150 x 75 mm
@@ -48,6 +48,28 @@ export function kasaLogoYap(govde, kapakZ = 43) {
     return m;
   };
   const kapali = yap(LOGO_X, LOGO_Y, 0); govde.add(kapali);
-  const acik = yap(-0.28, LOGO_Y, kapakZ); // kapak dış yüzü: grup x = -19.75, kapak yarım kalınlık 0.25
+  // Açık kapak: dış yüz (x = -0.28) ve iç yüz (x = +0.28) aynı geometride, tek çizim çağrısı.
+  // Kapak açılınca iç yüzde de baskı görünür (Ahmet 03.11: "kapaklarda önlü arkalı olsun").
+  const acik = new Mesh(ikiYuz(kapakZ), mal);
+  acik.castShadow = false; acik.receiveShadow = false; acik.raycast = () => {}; acik.name = 'kasa-logo';
   return { kapali, acik };
+}
+
+// İki düzlemi tek BufferGeometry'de birleştirir: her yüz kendi tarafına bakar, yazı iki taraftan da düz okunur.
+function ikiYuz(z) {
+  const dis = new PlaneGeometry(GEN, YUK).rotateY(-Math.PI / 2).translate(-0.28, LOGO_Y, z);
+  const ic = new PlaneGeometry(GEN, YUK).rotateY(Math.PI / 2).translate(0.28, LOGO_Y, z);
+  const geo = new BufferGeometry();
+  for (const ad of ['position', 'normal', 'uv']) {
+    const a = dis.attributes[ad], b = ic.attributes[ad];
+    const v = new Float32Array(a.array.length + b.array.length);
+    v.set(a.array); v.set(b.array, a.array.length);
+    geo.setAttribute(ad, new BufferAttribute(v, a.itemSize));
+  }
+  const n = dis.attributes.position.count, ia = dis.index.array, ib = ic.index.array;
+  const idx = new Uint16Array(ia.length + ib.length);
+  idx.set(ia); for (let i = 0; i < ib.length; i++) idx[ia.length + i] = ib[i] + n;
+  geo.setIndex(new BufferAttribute(idx, 1));
+  dis.dispose(); ic.dispose();
+  return geo;
 }
