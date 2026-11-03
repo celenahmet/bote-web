@@ -32,14 +32,18 @@ export const KAMERA = {
   // soğutucu kaldırılınca açık yandan dışarı alınır (ic.js kaldirAyarla): kutu son konumunu da içerir
   'ic-islemci': { kutu: ik(-48, 48, -37, 19, 98, -6), yon: [-0.86, 0.3, 0.4] },
   'ic-ram': { kutu: ik(-14, 44, -14, 19, 79, 3), yon: [-0.62, 0.27, 0.74] },
-  'ic-depolama': { kutu: ik(6, 0, -28, 20, 64, 44), yon: [-0.86, 0.42, 0.3] },
+  // yon'un z bileşeni sıfıra yakın: ön duvar (z 42,8) kenardan görünür; önceki 0,3 değeri ön duvarı SATA SSD'nin (z 21-41) önüne koyup sağ kenarda kesiyordu
+  'ic-depolama': { kutu: ik(6, 0, -4, 20, 58, 47), yon: [-0.9, 0.42, 0.03] },
   'ic-gpu': { kutu: ik(-6, 36, -44, 19, 60, 15), yon: [-0.76, 0.27, 0.59] },
   'ic-psu': { kutu: ik(-20, 0, -44, 13, 28, 1), yon: [-0.8, 0.5, 0.35] },
-  'ic-sogutma': { kutu: ik(-20, 4, -44, 20, 104, 48), yon: [-0.74, 0.4, 0.54] },
+  // sogutma: kule soğutucu ve üst fan odakta (320 px'te soğutucunun dokunma karesi 44 px, 390 px'te daha büyük); ön fanlar kutu dışında kalır, geniş ekranda yine görünür.
+  // Üst sınır 120: çalışırken tavanın üstünde dizilen "Sıcak hava çıkar" etiketi 320 px'te araç çubuğunun altına girmesin diye pay bırakır
+  'ic-sogutma': { kutu: ik(-20, 20, -44, 20, 120, 32), yon: [-0.74, 0.4, 0.54] },
   // özet: kasanın tamamı, açık yandan daha dik bakış (ön panel iç parçaları daha az örter; sabit disk ve RAM telefonda dokunulacak boyda)
   'ic-ozet': { kutu: ik(-20, 0, -44, 20, 100, 44), yon: [-0.88, 0.3, 0.37] },
   'ic-sivi': { kutu: ik(-16, 54, -43, 19, 98, 24), yon: [-0.92, 0.27, 0.29] },
-  'ic-arka': { kutu: ik(-20, 52, -60, 20, 120, -40), yon: [0.5, 0.3, -0.82] },
+  // arka yüz: G/Ç paneli (y 70-79), Wi-Fi anteni (y 58-68) ve ekran kartı çıkışları (y 41-54); üstte beş etiketin yığılacağı boşluk (110'a dek)
+  'ic-arka': { kutu: ik(-20, 38, -60, 20, 110, -40), yon: [0.5, 0.3, -0.82] },
 };
 
 // Bakış açısı düğmeleri: yön = hedeften kameraya doğru birim vektör (ham sayılar yeterli, motor normalleştirir).
@@ -124,6 +128,8 @@ export const DERSLER = {
   },
   'kasanin-ici': {
     no: 2, devre: null,
+    // Bu derste "Yandan" kasanın açık yanından (-x) bakar: ders 1'in +x yönü kapak açıkken tepsinin dış duvarını gösterir. Kabuk: gorunum[ad] || GORUNUM[ad]
+    gorunum: { yandan: [-0.96, 0.3, 0.06] },
     adimlar: {
       merak: { kamera: 'ic-kasa', mod: 'ic-kapali', dokun: true },
       kapak: { kamera: 'ic-kasa', mod: 'ic-kapali', kontrol: ['kapak'], dokun: true, etiket: [['parca:kasa', 'Kapalı kasa', 'yesil']] },
@@ -154,6 +160,7 @@ export const DERSLER = {
       sogutma: {
         kamera: 'ic-sogutma', mod: 'ic', kontrol: ['calistir', 'sogutma-turu'], dokun: true,
         etiket: [['parca:ic-hava', 'Hava soğutucu'], ['parca:ic-fan-egzoz', 'Üst fan']],
+        etiketSivi: [['parca:ic-pompa', 'Pompa bloğu'], ['parca:ic-radyator', 'Radyatör']], // sıvıya geçilince hava soğutucu ve üst fan yok
       },
       'sivi-sogutma': {
         kamera: 'ic-sivi', mod: 'ic-sivi', kontrol: ['calistir'], dokun: true,
@@ -161,7 +168,7 @@ export const DERSLER = {
       },
       baglantilar: {
         kamera: 'ic-arka', mod: 'ic', dokun: true,
-        etiket: [['parca:ic-arka-hdmi', 'HDMI'], ['parca:ic-arka-usb', 'USB'], ['parca:ic-arka-ag', 'Ağ girişi (kablolu)'], ['parca:ic-wifi-arka', 'Wi-Fi anteni (kablosuz)'], ['parca:ic-arka-ses', 'Ses girişleri']],
+        etiket: [['parca:ic-arka-gpu', 'HDMI (ekran kartı)'], ['parca:ic-arka-usb', 'USB'], ['parca:ic-arka-ag', 'Ağ girişi (kablolu)'], ['parca:ic-wifi-arka', 'Wi-Fi anteni (kablosuz)'], ['parca:ic-arka-ses', 'Ses girişleri']],
       },
       ozet: {
         kamera: 'ic-ozet', mod: 'ic',

@@ -114,7 +114,8 @@ function gorunumSec(ad) {
   gorunumAd = ad;
   const a = ders.adimlar[adimKimlikleri[aktif]] || {};
   const h = kameraBul(a.kamera || 'genel');
-  S.kameraGit(GORUNUM[ad] ? { ...h, yon: GORUNUM[ad] } : h);
+  const yon = (ders.gorunum && ders.gorunum[ad]) || GORUNUM[ad]; // ders kendi yönünü verebilir (kasanın içi: Yandan açık yandan)
+  S.kameraGit(yon ? { ...h, yon } : h);
   for (const b of document.querySelectorAll('#pv-gorunum button')) b.setAttribute('aria-pressed', String(b.dataset.gorunum === ad));
 }
 function adimUygula(id, ilk = false) {

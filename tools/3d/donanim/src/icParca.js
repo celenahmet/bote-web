@@ -2,7 +2,7 @@
 // toplanır: p (plastik), m (metal), b (boyalı sac). Her küme sonunda aile başına TEK geometride birleşir (çizim çağrısı bütçesi).
 // Konumlar kasa-yerel birim (icYer.js). Düzlemler: -x'e bakan etiket düzlemi = PlaneGeometry.rotateY(-PI/2) (u +z, v +y).
 import {
-  PlaneGeometry, CylinderGeometry, TorusGeometry, ExtrudeGeometry, Shape, Path, CatmullRomCurve3, TubeGeometry, Vector3,
+  PlaneGeometry, CylinderGeometry, TorusGeometry, BoxGeometry, ExtrudeGeometry, Shape, Path, CatmullRomCurve3, TubeGeometry, Vector3,
 } from 'three';
 import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { kutu, yuvarlak, silindir, birlestir, boya, cerceveGeo } from './yardimci.js';
@@ -55,11 +55,17 @@ function kablo(K, noktalar, r, hex, { radyal = 8, parca = 40, gerginlik = 0.4 } 
   const { geo, egri } = boruGeo(noktalar, r, parca, radyal, gerginlik);
   K.p(geo, hex); return egri;
 }
-function bag(K, egri, t, r, hex = 0xe8eaee) { // kablo bağı: eğri üzerinde ince halka
+function bag(K, egri, t, r, hex = 0xe8eaee) { // kablo bağı: eğri üzerinde, kabloyu saran şerit + küçük kafa
   const p = egri.getPointAt(t), tg = egri.getTangentAt(t);
-  const g = new TorusGeometry(r + 0.12, 0.17, 5, 12);
-  g.lookAt(tg); g.translate(p.x, p.y, p.z); // halka düzlemi (xy) -> teğete dik
+  // halka kablonun yüzüne oturur (iç kenarı kablonun içine biner: kablo ile şerit arasında boşluk görünmez); şerit kablo yarıçapının
+  // beşte biri kalınlığında, kablonun boyuna göre yassı (genişlik eksen yönünde 0,7 birim)
+  const e = Math.max(0.3, r * 0.2), g = new TorusGeometry(r + e * 0.45, e, 6, 18);
+  g.scale(1, 1, 1.9); g.lookAt(tg); g.translate(p.x, p.y, p.z); // halka düzlemi (xy) -> teğete dik
   K.p(g, hex);
+  const kf = new BoxGeometry(e * 2.6, e * 2.2, e * 2.6); // sıkma kafası: eğrinin normali yönünde dışa bakar
+  const n = new Vector3(0, 1, 0).cross(tg); if (n.lengthSq() < 1e-4) n.set(1, 0, 0); n.normalize();
+  kf.lookAt(tg); kf.translate(p.x + n.x * (r + e * 1.1), p.y + n.y * (r + e * 1.1), p.z + n.z * (r + e * 1.1));
+  K.p(kf, hex);
 }
 
 // ------------------------------------------------------------------ kabuk (boyalı sac)
@@ -356,7 +362,11 @@ export function kabloYap(K) {
   kablo(K, [[15.8, SATA_PORT.y(1) + 0.5, SATA_PORT.z1 + 0.2], [15.6, 33.4, 17.4], [16.8, 33.6, SSD.z0 - 1.4]], 0.34, 0xc4352b, { radyal: 6, parca: 20 });
   K.p(kutu(1.7, 1.1, 1.8, 16.9, SATA_PORT.y(1) + 0.5, SATA_PORT.z1 + 0.9), 0x111215);
   // kasa ön paneli ve fan kabloları: üç ince kablo ön fanlardan anakart ön kenarına
-  ON_FAN.forEach((y, i) => kablo(K, [[8, y + 6, 37.5], [11, y + 8.5, 33], [15.5, 31 + i * 1.4 + 22, 22]], 0.18, siyah, { radyal: 5, parca: 14 }));
+  // Düz bir doğru çizmesinler: fandan çıkıp tepsi duvarına yaklaşır, duvara yakın (x 17,4) sarkarak ilerler, kenarda anakarta döner.
+  ON_FAN.forEach((y, i) => {
+    const yb = 31 + i * 1.4 + 22, a = y + 6, ort = (a + yb) / 2;
+    kablo(K, [[8, a, 37.5], [12.4, a + 1.2, 35.0], [16.6, ort + 1.0, 31.5], [17.5, ort - 1.4, 27.5], [17.0, yb + 0.8, 24.0], [15.5, yb, 22]], 0.18, siyah, { radyal: 5, parca: 28 });
+  });
 }
 
 // ------------------------------------------------------------------ fan çerçeveleri (sabit: ön 3, GPU ve güç kaynağı kendi gövdesinde)

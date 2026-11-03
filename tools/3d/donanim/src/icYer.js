@@ -10,12 +10,22 @@ export const RAM = { z0: -9.5, adim: 1.7, y0: 49.0, y1: 75.3, xAlt: 16.6, xUst: 
 export const pcieY = (k) => 67.9 - 4.064 * k;
 export const GPU = { y: pcieY(5), x0: -4.0, x1: 16.0, z0: -41.8, z1: 13.0, alt: pcieY(5) - 10.8 };
 export const WIFI = { y: pcieY(2), x0: 3.2, x1: 17.0, z0: -41.0, z1: -35.2 };
+// Arka yüz (dışarıdan görünen): genişleme yuvası braketleri. Kapak genişliği 23 birim (ders 1 yuva dokusu -5..19 ile aynı bant);
+// her yuva 4.064 birim. Ekran kartı 3 yuva tutar (4, 5, 6), Wi-Fi kartı 1 (2). Kablo fişleri YUZ düzlemine yaslanır (kablolar.js).
+export const ARKA_DIS = { x0: -4.5, x1: 18.5, levha: -43.78, yuz: -44.0, yuva: 4.064 };
+// Ekran kartı çıkışları: yuva 5 sırasında yatay dizi (iç konnektörlerle aynı x: gpu braketi iç yüzünde 11, 7.4, 3.8 DP ve -0.4 HDMI)
+export const GPU_ARKA = { dp: [11.0, 7.4, 3.8], hdmi: -0.4, y: GPU.y + 0.6, y0: pcieY(6) - 2.032, y1: pcieY(4) + 2.032 };
+// Wi-Fi kartı: iki SMA soket (anten girişi) ve iki kısa anten
+export const WIFI_ARKA = { sma: [5.2, 8.4], y: WIFI.y, y0: pcieY(2) - 2.032, y1: pcieY(2) + 2.032 };
 export const PSU = { x0: -18.5, x1: 11.5, y0: 1.8, y1: 19.0, z0: -42.2, z1: -13.7 };
-export const M2 = { z0: -26.5, z1: -10.5, y0: 50.0, y1: 54.4, x: 17.4 };
+// M.2 SSD: işlemci soğutucusunun ve ekran kartının dışında kalan boş kart yüzünde (z -1..15). Eski yer (z -26..-10) kule soğutucunun
+// kanatlarının hemen altındaydı: açık yandan bakınca (en az 14 derece yükseklik) hiçbir açıdan görünmüyordu.
+export const M2 = { z0: -1.0, z1: 15.0, y0: 50.0, y1: 54.4, x: 17.4 };
 export const HDD = { x0: 13.2, x1: 18.4, y0: 2.6, y1: 22.9, z0: 7.5, z1: 36.9 };
 export const SSD = { x0: 17.1, x1: 18.5, y0: 26.5, y1: 40.5, z0: 21.0, z1: 41.0 };
 export const SATA_PORT = { z0: 11.8, z1: 15.4, y: (i) => 31.0 + i * 1.2 };
-export const BIOS = { z: -2.0, y: 34.6 };
+// BIOS pili: eski yer (y 34.6) ekran kartı gövdesinin altında kalıyordu; kartın üstünde, RAM yuvalarıyla 24 pin arasındaki boş yüzde
+export const BIOS = { z: 8.0, y: 61.5 };
 export const ATX24 = { z0: 17.0, z1: 19.4, y0: 52.0, y1: 62.4, x0: 14.8 };
 export const EPS = { z0: -30.5, z1: -25.9, y0: 76.3, y1: 78.7, x0: 14.2 };
 // hava soğutucu (kule): taban, kanat paketi, fan
@@ -26,16 +36,19 @@ export const SIVI = { pompaR: 5.0, pompaX0: 10.4, pompaX1: 15.8, radX0: -12, rad
 export const ON_FAN = [17.2, 41.6, 66.0];
 
 // fan tablosu: eksen (dönme ekseni), yaricap (kanat ucu), gizli ise sahnede yok sayılır. grup: sabit | hava | egzoz | sivi
+// hiz: açısal hız (rad/sn); işaret itme yönünü belirler. Kanat eğimi (ic.js rotorKur) pozitif dönüşte yerel -z'ye iter:
+// eksen z fanları (ön 3, kule) arkaya iter (doğru). Eksen y fanları yerel z'yi dünya +y'ye taşır; pozitif hız onları AŞAĞI iter.
+// Egzoz, radyatör ve ekran kartı fanları yukarı üflemeli (hava akışı okları yukarı), bu yüzden hızları eksidir; güç kaynağı aşağı iter (doğru).
 export const FANLAR = [
   { ad: 'on-alt', grup: 'sabit', m: [0, ON_FAN[0], 39.7], eksen: 'z', r: 10.6, hiz: 9, renk: 0x8a909c },
   { ad: 'on-orta', grup: 'sabit', m: [0, ON_FAN[1], 39.7], eksen: 'z', r: 10.6, hiz: 9, renk: 0x8a909c },
   { ad: 'on-ust', grup: 'sabit', m: [0, ON_FAN[2], 39.7], eksen: 'z', r: 10.6, hiz: 9, renk: 0x8a909c },
   { ad: 'kule', grup: 'hava', m: [(HAVA.x0 + HAVA.x1) / 2, CPU.y, HAVA.fanZ], eksen: 'z', r: 8.2, hiz: 11, renk: 0x6f7581 },
-  { ad: 'egzoz', grup: 'egzoz', m: [0, 87.1, -24], eksen: 'y', r: 10.6, hiz: 10, renk: 0x8a909c },
-  { ad: 'rad1', grup: 'sivi', m: [0, 81.7, -26], eksen: 'y', r: 10.6, hiz: 10, renk: 0x8a909c },
-  { ad: 'rad2', grup: 'sivi', m: [0, 81.7, -2], eksen: 'y', r: 10.6, hiz: 10, renk: 0x8a909c },
-  { ad: 'gpu1', grup: 'sabit', m: [6.0, GPU.alt + 2.6, -26], eksen: 'y', r: 8.2, hiz: 8, renk: 0x555b66 },
-  { ad: 'gpu2', grup: 'sabit', m: [6.0, GPU.alt + 2.6, -5], eksen: 'y', r: 8.2, hiz: 8, renk: 0x555b66 },
+  { ad: 'egzoz', grup: 'egzoz', m: [0, 87.1, -24], eksen: 'y', r: 10.6, hiz: -10, renk: 0x8a909c },
+  { ad: 'rad1', grup: 'sivi', m: [0, 81.7, -26], eksen: 'y', r: 10.6, hiz: -10, renk: 0x8a909c },
+  { ad: 'rad2', grup: 'sivi', m: [0, 81.7, -2], eksen: 'y', r: 10.6, hiz: -10, renk: 0x8a909c },
+  { ad: 'gpu1', grup: 'sabit', m: [6.0, GPU.alt + 2.6, -26], eksen: 'y', r: 8.2, hiz: -8, renk: 0x555b66 },
+  { ad: 'gpu2', grup: 'sabit', m: [6.0, GPU.alt + 2.6, -5], eksen: 'y', r: 8.2, hiz: -8, renk: 0x555b66 },
   { ad: 'psu', grup: 'sabit', m: [-3.5, 18.5, -28], eksen: 'y', r: 9.4, hiz: 7, renk: 0x555b66 },
 ];
 

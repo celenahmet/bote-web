@@ -97,9 +97,37 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   });
 
   // ---------------------------------------------------------------- etiketler (adım etiketleri + dinamik)
-  let sabit = [], dinamik = [];
-  const etiketle = () => S.etiketKoy([...sabit, ...dinamik]);
+  let sabit = [], dinamik = [], sonMaske = '';
+  // Kasa açıkken duvarın ardında kalan parçanın etiketi duvarın üstünde asılı kalmasın (önden ve arkadan bakış): etiket noktasından
+  // kameraya çizilen doğru kasa kutusunu (yerel x -20..20, y 0..90, z -43..43) katı bir yüzden (ön, arka, tepsi, taban) geçiyorsa
+  // etiket konmaz. Açık yan (-x) ve tavan (+y, tozluk delikli) görüşe açıktır. Yalnız kasa içi dersinde ve kapak açıkken çalışır.
+  const KUTU0 = [KASA.x - KASA.w / 2, 0, KASA.z - KASA.d / 2], KUTU1 = [KASA.x + KASA.w / 2, KASA.h, KASA.z + KASA.d / 2];
+  const _p = [0, 0, 0], _d = [0, 0, 0];
+  const katiYuz = (eksen, ust) => !((eksen === 0 && !ust) || (eksen === 1 && ust));
+  function duvarArdinda(P) {
+    const C = S.camera.position;
+    _p[0] = P.x; _p[1] = P.y; _p[2] = P.z; _d[0] = C.x - P.x; _d[1] = C.y - P.y; _d[2] = C.z - P.z;
+    let t0 = -Infinity, t1 = Infinity, a0 = 0, a1 = 0, u0 = false, u1 = false;
+    for (let i = 0; i < 3; i++) {
+      if (Math.abs(_d[i]) < 1e-9) { if (_p[i] < KUTU0[i] || _p[i] > KUTU1[i]) return false; continue; }
+      const ta = (KUTU0[i] - _p[i]) / _d[i], tb = (KUTU1[i] - _p[i]) / _d[i], gir = Math.min(ta, tb), cik = Math.max(ta, tb);
+      if (gir > t0) { t0 = gir; a0 = i; u0 = _d[i] < 0; }
+      if (cik < t1) { t1 = cik; a1 = i; u1 = _d[i] > 0; }
+    }
+    if (Math.max(t0, 1e-6) >= Math.min(t1, 1)) return false; // doğru kutuyu kesmiyor
+    return (t0 > 1e-6 && katiYuz(a0, u0)) || (t1 < 1 && katiYuz(a1, u1));
+  }
+  const etiketMaske = (tum) => { const ac = icMod != null && ic.durum.acik; return tum.map((e) => (ac && duvarArdinda(e.nokta) ? '0' : '1')).join(''); };
+  function etiketle() {
+    const tum = [...sabit, ...dinamik], m = etiketMaske(tum);
+    sonMaske = m; S.etiketKoy(tum.filter((e, i) => m[i] === '1'));
+  }
   const dinamikKoy = (liste) => { dinamik = liste.filter((e) => e.nokta); etiketle(); };
+  // kamera döndükçe (yalnız kasa içi dersinde) maske değişirse etiketler yeniden konur; kare isteği doğurmaz
+  S.kareGuncelleyici(() => {
+    if (icMod != null || sonMaske.indexOf('0') >= 0) { if (etiketMaske([...sabit, ...dinamik]) !== sonMaske) etiketle(); }
+    return false;
+  });
 
   // ---------------------------------------------------------------- hareket yöneticisi (tek yavaş güncelleyici)
   const anim = new Map(), zamanlar = new Set();
@@ -303,7 +331,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
 
   // ---------------------------------------------------------------- kasa içi (ders 2)
   // mod: null (ders 1) | 'ic-kapali' (kapak kapalı) | 'ic' (açık, hava soğutma) | 'ic-sivi' (açık, sıvı soğutma)
-  let icMod = null, kapakAcik = false, kaldirik = false, ramCikik = false, calisiyor = false, sivi = false, adimEtiket = [];
+  let icMod = null, kapakAcik = false, kaldirik = false, ramCikik = false, calisiyor = false, sivi = false, adimEtiket = [], adimEtiketSivi = null;
   const gucAnc = kesifTablo.get('guc-kaynagi') ? kesifTablo.get('guc-kaynagi').nesne : null;
   const gucYon0 = gucAnc ? gucAnc.userData.yon : null, gucKonum0 = gucAnc ? gucAnc.position.clone() : null;
   // dış güç kaynağı çapası (arka yüz) kasa açıkken iç güç kaynağına taşınır: aynı keşif kimliği, iki yer
@@ -316,7 +344,10 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   const icKimlik = new Set(ic.kesif.map((e) => e.id));
   const cevreCapa = kesifNoktalari.filter((e) => e.nesne && !icKimlik.has(e.id) && !e.nesne.userData.yon).map((e) => e.nesne);
   const cevreCapalari = (gizle) => { for (const o of cevreCapa) o.visible = !gizle; };
-  function etiketYenile() { sabit = adimEtiket.map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta); etiketle(); }
+  // etiketSivi: sıvı soğutmaya geçilince hava soğutucu parçaları gizlenir; o adımın etiketleri de sıvıdaki karşılıklarına döner.
+  // Bilgisayar çalışırken pompa ve radyatörü zaten çalışma etiketleri anlatır (calisirEtiket): üst üste binmesin diye o sırada yalnız onlar kalır
+  const adimEtiketleri = () => (sivi && adimEtiketSivi ? (calisiyor ? [] : adimEtiketSivi) : adimEtiket);
+  function etiketYenile() { sabit = adimEtiketleri().map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta); etiketle(); }
   function kapakKur(k) {
     const once = ic.durum.acik;
     ic.kapakAyarla(k);
@@ -325,8 +356,16 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   function hareket(ad, sure, k0, k1, uygula, bitti) {
     calistir(ad, sureli(sure, (k) => uygula(k0 + (k1 - k0) * k), () => { uygula(k1); S.golgeYenile(); etiketYenile(); bitti && bitti(); }));
   }
+  // Süren soğutucu kaldırma ya da RAM çıkarma hareketini son durumuna sabitler: hareket kaydı silinmezse sonraki bir eylemin
+  // (çalıştır, tür değiştir, kapağı kapat) ayarladığı konumu hızlı tıkta eski hareket ezer
+  function hareketleriSabitle() {
+    if (anim.delete('kaldir')) ic.kaldirAyarla(kaldirik ? 1 : 0);
+    if (anim.delete('ram')) ic.ramAyarla(ramCikik ? 1 : 0);
+  }
+  const macunEtiket = () => (kaldirik ? [{ nokta: noktaBul('parca:ic-macun'), metin: 'Termal macun', tur: 'yesil' }] : []);
   function kapakDegistir() {
     kapakAcik = !kapakAcik; if (!kapakAcik) calismaDur();
+    hareketleriSabitle();
     hareket('kapak', 1100, ic.durum.kapak, kapakAcik ? 1 : 0, kapakKur, () => {
       // adım etiketi kasanın durumunu söyler: açılınca "Açık kasa", kapanınca "Kapalı kasa" (yapılandırma dizisi değişmez, kopya)
       adimEtiket = adimEtiket.map((e) => (e[0] === 'parca:kasa' && /kasa$/.test(e[1]) ? [e[0], kapakAcik ? 'Açık kasa' : 'Kapalı kasa', e[2]] : e));
@@ -338,7 +377,7 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   function kaldirDegistir() {
     if (ic.durum.tur !== 'hava' || !ic.durum.acik) return false;
     kaldirik = !kaldirik; calismaDur();
-    hareket('kaldir', 1300, ic.durum.kaldir, kaldirik ? 1 : 0, (k) => ic.kaldirAyarla(k), () => dinamikKoy(kaldirik ? [{ nokta: noktaBul('parca:ic-macun'), metin: 'Termal macun', tur: 'yesil' }] : []));
+    hareket('kaldir', 1300, ic.durum.kaldir, kaldirik ? 1 : 0, (k) => ic.kaldirAyarla(k), () => dinamikKoy(macunEtiket()));
     duyur(kaldirik ? 'Soğutucu kaldırıldı, işlemcinin üstündeki termal macun görünüyor' : 'Soğutucu işlemcinin üstüne geri takıldı');
     return kaldirik;
   }
@@ -351,38 +390,46 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
   }
   function calismaDur() {
     if (!calisiyor) return;
-    calisiyor = false; anim.delete('ic-calis'); ic.calisiyorAyarla(false); dinamikKoy([]); S.iste();
+    calisiyor = false; anim.delete('ic-calis'); ic.calisiyorAyarla(false); dinamik = []; etiketYenile(); S.iste();
+  }
+  // çalışırken çıkan etiketler soğutma türüne bağlıdır (türü değiştirmek bunları yeniden kurar)
+  function calisirEtiket() {
+    const L = (a, m, t) => ({ nokta: noktaBul(a), metin: m, tur: t });
+    return ic.durum.tur === 'sivi'
+      ? [L('parca:ic-pompa', 'Pompa sıvıyı döndürür', 'yesil'), L('parca:ic-sivi-sicak', 'Sıcak sıvı radyatöre gider', 'arti'), L('parca:ic-sivi-soguk', 'Soğuyan sıvı geri döner', 'eksi'),
+        L('parca:ic-akis-giris', 'Soğuk hava girer', 'eksi'), L('parca:ic-akis-cikis', 'Sıcak hava çıkar', 'arti')]
+      : [L('parca:ic-akis-giris', 'Soğuk hava girer', 'eksi'), L('parca:ic-akis-cikis', 'Sıcak hava çıkar', 'arti')];
   }
   function bilgisayarCalistir() {
     if (!ic.durum.acik) return false;
     if (calisiyor) { calismaDur(); duyur('Bilgisayar durdu, fanlar yavaşladı ve durdu'); return false; }
     calisiyor = true; ic.calisiyorAyarla(true);
+    hareketleriSabitle(); // çalışırken soğutucu yerinde, RAM takılı: süren hareket bunu bozmasın (önce sabitle, sonra sıfırla)
     if (kaldirik) { kaldirik = false; ic.kaldirAyarla(0); }
     if (ramCikik) { ramCikik = false; ic.ramAyarla(0); }
     let son = null;
     if (hareketsiz()) { ic.duragan(); S.iste(); } else {
       calistir('ic-calis', (t) => { const dt = son == null ? 0 : Math.min(0.1, (t - son) / 1000); son = t; return ic.kare(dt, t / 1000); });
     }
-    const L = (a, m, t) => ({ nokta: noktaBul(a), metin: m, tur: t });
-    dinamikKoy(ic.durum.tur === 'sivi'
-      ? [L('parca:ic-pompa', 'Pompa sıvıyı döndürür', 'yesil'), L('parca:ic-sivi-sicak', 'Sıcak sıvı radyatöre gider', 'arti'), L('parca:ic-sivi-soguk', 'Soğuyan sıvı geri döner', 'eksi'),
-        L('parca:ic-akis-giris', 'Soğuk hava girer', 'eksi'), L('parca:ic-akis-cikis', 'Sıcak hava çıkar', 'arti')]
-      : [L('parca:ic-akis-giris', 'Soğuk hava girer', 'eksi'), L('parca:ic-akis-cikis', 'Sıcak hava çıkar', 'arti')]);
+    dinamik = calisirEtiket().filter((e) => e.nokta); etiketYenile();
     duyur(ic.durum.tur === 'sivi' ? 'Fanlar dönüyor, pompa sıvıyı döndürüyor; sıcak sıvı radyatöre, soğuyan sıvı işlemciye gidiyor' : 'Fanlar dönüyor; soğuk hava önden girer, sıcak hava yukarıdan çıkar');
     S.iste();
     return true;
   }
   function turDegistir() {
     if (!ic.durum.acik) return false;
-    sivi = !sivi; kaldirik = false; ic.kaldirAyarla(0);
+    sivi = !sivi; anim.delete('kaldir'); kaldirik = false; ic.kaldirAyarla(0);
     ic.turAyarla(sivi ? 'sivi' : 'hava');
     if (calisiyor) { ic.calisiyorAyarla(true); if (hareketsiz()) ic.duragan(); }
+    // çalışırken türün kendi etiketleri (pompa, radyatör, akış) kurulur; çalışmıyorsa eski türün etiketi (termal macun gibi) kalmaz
+    dinamik = (calisiyor ? calisirEtiket() : []).filter((e) => e.nokta);
     S.golgeYenile(); etiketYenile(); S.iste();
     duyur(sivi ? 'Sıvı soğutmaya geçildi: işlemcinin üstünde pompa bloğu, tavanda radyatör var' : 'Hava soğutmaya geçildi: işlemcinin üstünde fanlı soğutucu var');
     return sivi;
   }
   function icDurumKur(m) {
     icMod = m && m.indexOf('ic') === 0 ? m : null;
+    kb.dersAyarla(icMod != null ? 2 : 1); // ders 2: arka yüzde ekran kartı ve Wi-Fi braketleri, monitör kablosu ekran kartına
     ic.sifirla(); calisiyor = false; kaldirik = false; ramCikik = false;
     sivi = icMod === 'ic-sivi';
     ic.turAyarla(sivi ? 'sivi' : 'hava');
@@ -435,8 +482,8 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     mod = cfg.mod || null;
     d.yazi = cfg.yazi != null ? cfg.yazi : 'Merhaba!';
     icDurumKur(mod);
-    adimEtiket = cfg.etiket || [];
-    sabit = adimEtiket.map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta);
+    adimEtiket = cfg.etiket || []; adimEtiketSivi = cfg.etiketSivi || null;
+    sabit = adimEtiketleri().map(([n, metin, tur]) => ({ nokta: noktaBul(n), metin, tur })).filter((e) => e.nokta);
     dinamik = [];
     etiketle(); ekranSimdi(); S.golgeYenile();
   }
