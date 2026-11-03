@@ -507,6 +507,10 @@ body.ozgur-sayfasi .kart-alt .dugme:not(.birincil){min-width:var(--kd);padding:0
 /* ders sayfasında görüntülenme sayısı anlatım panelinin en altında (Ahmet 03.11: her sayfada aşağıda yazsın) */
 .kart-govde .sayac{margin:20px 0 0;padding-top:10px;border-top:1px solid var(--line);color:var(--muted);font-size:.85em;font-variant-numeric:tabular-nums}
 .kart-govde .sayac[hidden]{display:none}
+.sayac:not([hidden]){display:flex;align-items:center;gap:6px}
+.sayac .ico{width:1.1em;height:1.1em;flex:none}
+/* yakınlaştırma grubunda göz ikonlu rozet: tıklanmaz, düğmelerden ince çizgiyle ayrılır */
+.yakinlik .sayac{margin:0 2px 0 0;padding:0 12px 0 10px;border-right:1px solid var(--line);color:var(--muted);font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
 .ust .ders-menu:not([open])>.ders-panel{display:none}
 /* Adım altı boşluk kartları (Akılda kalsın, Günlük hayatta): yalnız panelde yer olan geniş ekranlarda */
 .adim-kart{display:grid;gap:10px;margin-top:22px}
