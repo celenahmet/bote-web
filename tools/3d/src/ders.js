@@ -6,10 +6,16 @@
 // ---------------------------------------------------------------- AİLE TANIMI (dersMotoru'na verilen nesne)
 //   DERSLER   { ders-kimligi: { no, adimlar: { adim-kimligi: { kamera, parca, poz, vurgu, etiket, kontrol, dokun, ... } } } }
 //   KAMERA    { ad: { kutu: [x0,y0,z0,x1,y1,z1], yon: [x,y,z] } }  ("genel" zorunlu)
-//   KESIF, KATEGORI, kategoriBul   keşif kataloğu (kesif-veri.js biçimi)
+//   KESIF, KATEGORI, kategoriBul   keşif kataloğu (kesif-veri.js biçimi); kategoriBul(id) -> KATEGORI anahtarı | null
 //   sahneyiKur(S, { olay, ders, veri }) -> ADAPTÖR   (aşağıda)
-//   vurguYap(sahne, alan) -> Object3D   isteğe bağlı: adımdaki vurgu kutuları; yoksa vurgu çizilmez
+//   vurguYap(sahne, alan) -> Object3D   isteğe bağlı: adımdaki vurgu kutuları; yoksa vurgu çizilmez. Her çağrıda yeni
+//             geometri kurar: motor kutuyu kaldırırken geometrisini bırakır (dispose), malzemeye dokunmaz (ortak olabilir).
 //   GORUNUM   isteğe bağlı: { ustten: [x,y,z], ... } bakış yönleri (eğik = adımın kendi kadrajı)
+// Zorunlu alanlar (DERSLER ve içinde sayfanın dersi, KAMERA.genel, KESIF, KATEGORI, kategoriBul, sahneyiKur) kurulumda
+// denetlenir: eksikse konsola açık hata yazılır, sahne açılmaz, yedek arayüz görünür (kartlar ve sınav çalışır).
+// sahneyiKur hata atarsa da aynı yedek: yarım kurulan sahne boşaltılır (02.11 motor incelemesi).
+// Kart düğmelerinin ilk basılı durumu HTML'dedir (aileler.mjs kontrol tanımında varsayilan: true -> aria-pressed="true");
+// motor her adımda düğmeleri bu ilk duruma döndürür, sonra adaptörün adimUygula'sı çalışır.
 //
 // ---------------------------------------------------------------- ADAPTÖR (sahneyiKur'un döndürdüğü; Donanım ile ortak sözleşme)
 //   kesifNoktalari  [{ id, nokta } | { id, nesne, yerel }, ozel?, rozet?, adim?]  adımdan bağımsız keşif noktaları
@@ -24,16 +30,29 @@
 //   kameraBul(kam, cfg) -> { kutu, yon }  aile kendi kadrajını hesaplar (nesne biçimli kamera, havadaki parça vb.)
 //   ipucu(cfg) -> 'dokun' | 'delik' | ''  sahne üstündeki ipucu satırı (.ipucu-<ad>); varsayılan: cfg.dokun ? 'dokun' : ''
 //   olcumEk -> {}  ?olcum ile window.__3d'ye eklenir (ölçüm ve otomatik deneme betikleri için)
+// ?olcum açıkken adım etiketlerinden noktaBul'u boş dönenler (etiket çizilmez) konsola uyarı olarak yazılır.
 import { Vector3, Box3 } from 'three';
 import { sahneKur } from './sahne.js';
 import { $, $$, sakla, oku, duyur, html } from './ortak.js';
 import { panelSiniflari, seritYedegi } from './uyum.js'; // eski tarayıcı yedekleri
 
 export function dersMotoru(aile, K) {
-  const { DERSLER, KAMERA, KESIF, KATEGORI, kategoriBul } = aile;
+  const { DERSLER, KAMERA } = aile;
   const veri = K.veri, pencere = K.pencere, temaRengi = K.temaRengi;
-  const ders = DERSLER[veri.slug];
+  // zorunlu alan denetimi (sessiz düşüş yerine kurulumda açık hata; yoksa hata ancak Keşif'te ya da sonsuz özyinelemede çıkıyordu)
+  const eksik = [['DERSLER', 'object'], ['KAMERA', 'object'], ['KESIF', 'object'], ['KATEGORI', 'object'], ['kategoriBul', 'function'], ['sahneyiKur', 'function']]
+    .filter(([ad, tur]) => !aile[ad] || typeof aile[ad] !== tur).map(([ad]) => ad);
+  if (DERSLER && !DERSLER[veri.slug]) eksik.push(`DERSLER['${veri.slug}']`);
+  if (KAMERA && !KAMERA.genel) eksik.push('KAMERA.genel');
+  if (eksik.length) console.error(`dersMotoru(${aile.id || '?'}): aile tanımında eksik zorunlu alan: ${eksik.join(', ')}. Sahne açılmadı.`);
+  // eksik alanda kartlar ve dışarıdan açılan bilgi kartı (3d:kesif-ac) yine çalışsın diye boş yedekler
+  const ders = DERSLER?.[veri.slug] || { adimlar: {} };
+  const KESIF = aile.KESIF || {}, KATEGORI = aile.KATEGORI || {};
+  const kategoriBul = typeof aile.kategoriBul === 'function' ? aile.kategoriBul : () => null;
+  const olcum = new URLSearchParams(location.search).has('olcum');
   const kartlar = $$('.adim');
+  // kart düğmelerinin HTML'deki ilk basılı durumu (varsayılan basılı düğme adım değişince bu duruma döner)
+  const ilkBasili = new Map($$('[data-eylem][aria-pressed]').map((b) => [b, b.getAttribute('aria-pressed')]));
   let aktif = 0;
   let S = null, A = null, vurgular = [], bilgiAcik = null, bilgiYenile = null;
   K.sinifDegisince = () => { if (bilgiAcik) bilgiYenile?.(); };
@@ -300,16 +319,27 @@ export function dersMotoru(aile, K) {
   const sahneAlani = $('.sahne-alani');
   requestAnimationFrame(() => setTimeout(sahneBaslat, 20));
   function sahneBaslat() {
+    if (eksik.length) { html.dataset.webgl = 'yok'; return; }
     S = sahneKur($('#sahne'), { arkaPlan: temaRengi(), olay: sahneOlayi, guvenliAlan });
     if (!S) { html.dataset.webgl = 'yok'; return; }
     K.S = S;
-    A = aile.sahneyiKur(S, { olay: adaptorOlayi, ders, veri });
+    try {
+      A = aile.sahneyiKur(S, { olay: adaptorOlayi, ders, veri });
+      if (typeof A?.adimUygula !== 'function') throw new Error('adaptör adimUygula vermedi');
+    } catch (e) {
+      // Aile sahnesi kurulamadı: yarım sahne boşaltılıp gizlenir, yedek arayüz açılır. S boş kaldığı için adım
+      // geçişleri sahneye dokunmaz (önceden her geçiş TypeError veriyordu).
+      console.error(`dersMotoru(${aile.id || '?'}): sahne kurulamadı, yedek arayüz açıldı.`, e);
+      S.scene.clear(); $('#sahne').style.visibility = 'hidden';
+      S = K.S = A = null; html.dataset.webgl = 'yok';
+      return;
+    }
     S.dokunmaDinle(dokunuldu);
     // gorunen: alçak yatay ekranda kayıtlı "yarım" kısa görünür; kadraj ekrandaki sayfaya göre (yarıma göre küçük kalıyordu)
     if (dikey.matches) S.gorunurAlan(Math.round(SAYFA[gorunen(sayfaDurum)]()), true);
     adimUygula(kartlar[aktif].dataset.id, true);
     requestAnimationFrame(() => sahneAlani.classList.add('hazir'));
-    if (new URLSearchParams(location.search).has('olcum')) {
+    if (olcum) {
       olcumPaneli();
       // ölçüm ve otomatik deneme betikleri için (yalnız ?olcum ile)
       window.__3d = { S, adaptor: A, adimaGit, kameraBul, gorunumSec, adim: () => kartlar[aktif].dataset.id, ...A.olcumEk };
@@ -344,13 +374,14 @@ export function dersMotoru(aile, K) {
     const k = KAMERA[kam];
     if (k) return { kutu: new Box3(new Vector3(k.kutu[0], k.kutu[1], k.kutu[2]), new Vector3(k.kutu[3], k.kutu[4], k.kutu[5])), yon: k.yon };
     const kutu = A?.kutuBul?.(kam);
-    if (kutu) return { kutu, yon: KAMERA.genel.yon };
-    return kameraBul('genel', a);
+    if (kutu && KAMERA.genel) return { kutu, yon: KAMERA.genel.yon };
+    // "genel" de yoksa sonsuz özyineleme yerine null: kamera yerinde kalır (kurulum denetimi bunu zaten hata sayar)
+    return kam === 'genel' ? null : kameraBul('genel', a);
   }
   function gorunumSec(ad) {
-    const h = kameraBul(aktifCfg().kamera || 'genel', aktifCfg());
+    const h = S && kameraBul(aktifCfg().kamera || 'genel', aktifCfg());
     const yon = aile.GORUNUM?.[ad];
-    S.kameraGit(yon ? { ...h, yon } : h);
+    if (h) S.kameraGit(yon ? { ...h, yon } : h);
     for (const b of $$('.gorunum button')) b.setAttribute('aria-pressed', String(b.dataset.gorunum === ad));
   }
 
@@ -359,15 +390,28 @@ export function dersMotoru(aile, K) {
   // ipucu satırı ve kamera ayarlanır, açıksa keşif işaretleri adıma göre yenilenir.
   function adimUygula(id, ilk = false) {
     const a = ders.adimlar[id] || {};
-    for (const b of $$('[data-eylem][aria-pressed="true"]')) b.setAttribute('aria-pressed', 'false');
+    for (const b of $$('[data-eylem][aria-pressed]')) b.setAttribute('aria-pressed', ilkBasili.get(b) || 'false');
     for (const b of $$('.gorunum button')) b.setAttribute('aria-pressed', String(b.dataset.gorunum === 'egik'));
     A.adimUygula(id, a, ilk);
-    for (const v of vurgular) S.scene.remove(v);
+    // eski vurgu kutuları: sahneden çıkar ve geometrisini bırak (her geçişte yenisi kuruluyor; malzeme ortak, kalır)
+    for (const v of vurgular) { S.scene.remove(v); v.traverse((o) => o.geometry?.dispose()); }
     vurgular = aile.vurguYap ? (a.vurgu || []).map((ad) => (A.alanlar?.[ad] ? aile.vurguYap(S.scene, A.alanlar[ad]) : null)).filter(Boolean) : [];
     sahneAlani.dataset.ipucu = A.ipucu ? A.ipucu(a) : (a.dokun ? 'dokun' : '');
-    S.kameraGit(kameraBul(a.kamera || 'genel', a), ilk);
+    const kadraj = kameraBul(a.kamera || 'genel', a);
+    if (kadraj) S.kameraGit(kadraj, ilk);
     if (html.dataset.kesif === 'acik') kesifIsaretleri();
     S.iste();
+    if (olcum) etiketDenetle(id, a);
+  }
+  // ?olcum: adım etiketlerinden noktası bulunamayan (sessizce düşen) varsa konsola uyarı. Açılış hareketi bitince
+  // görünür olan noktalar (kasa içi) yanlış uyarı vermesin diye 2,5 sn sonra, adım hâlâ aynıysa bakılır.
+  function etiketDenetle(id, a) {
+    if (!a.etiket?.length || !A.noktaBul) return;
+    setTimeout(() => {
+      if (!A || kartlar[aktif].dataset.id !== id) return;
+      const bos = a.etiket.map((e) => e[0]).filter((n) => { try { return !A.noktaBul(n); } catch (e) { return true; } });
+      if (bos.length) console.warn(`[olcum] ${aile.id}/${veri.slug} adım "${id}": noktaBul boş döndü, etiket çizilmedi: ${bos.join(', ')}`);
+    }, 2500);
   }
 
   // ---------------------------------------------------------- keşif ve bilgi kartı

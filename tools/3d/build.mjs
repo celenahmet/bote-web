@@ -74,7 +74,7 @@ function taslakDers(slug, cfg) { // içerik gelmeden motoru denemek için yer tu
   };
 }
 const AILE_LISTE = AILELER; // yayındaki aileler (yollar.mjs; merkezde bu sırayla)
-const ARDUINO = AILE_LISTE.find((a) => a.id === 'arduino');
+const ARDUINO = AILE_LISTE.find((a) => a.id === 'arduino'); // Özgür Mod yalnız Arduino ailesinin (aşağıda)
 fs.mkdirSync(path.join(CIKTI, 'assets'), { recursive: true });
 const PAKET_HEDEF = ['firefox115', 'chrome109', 'safari15.4'];
 // Paket: giriş dosyasından tek dosyaya (esbuild, ağaç sallama, küçültme) -> 3d/assets/<onek>-<özet>.js; aynı önekli eskiler silinir.
@@ -138,7 +138,7 @@ for (const A of AILE_LISTE) {
 // Merkez ve aile sayfaları: sınıf seçimi, kip, tema, mini sınav; three.js yok (src/merkez.js), ders paketinden çok küçük.
 const merkezPaket = await paketle('src/merkez.js', 'merkez');
 const merkezJs = merkezPaket.ad;
-const HUB_CSS = AILE_Y[ARDUINO.id].css; // merkezde keşif renkleri kullanılmaz; ilk ailenin stil paketi (ortak kısım aynı)
+const HUB_CSS = AILE_Y[AILE_LISTE[0].id].css; // merkezde keşif renkleri kullanılmaz; ilk ailenin stil paketi (ortak kısım aynı)
 
 // ------------------------------------------------------------------ ortak parçalar
 function bas({ baslik, aciklama, yol, jsonld, paket, css, sinif = '', hub = false }) {
@@ -196,6 +196,7 @@ function adimHtml(d, a, i) {
   if (a.id === 'ozet') h += sinavHtml(d.sinav);
   return h + '</li>';
 }
+// "Kullanım" listesindeki bakış düğmeleri, keşif grupları ve dokunma cümlesi ailenin kendi verisinden (aileler.mjs YAPI)
 function ogretmenHtml(d) {
   const o = d.ogretmen || {};
   const liste = (ad, x) => (x?.length ? `<h3>${ad}</h3><ul>${x.map((y) => `<li>${guvenli(y)}</li>`).join('')}</ul>` : '');
@@ -208,7 +209,7 @@ function ogretmenHtml(d) {
 <h2 id="ogretmen-baslik">Öğretmen notu</h2><p><strong>Süre:</strong> yaklaşık ${esc(d.sure)} dakika. <strong>Düzey:</strong> ortaokul; anlatım seçilen sınıfa (5-8) göre değişir.</p>
 ${SINIF.map((s) => (d.hedefler?.[s]?.length ? `<div data-s="${s}"><h3>Öğrenme hedefleri (${s}. sınıf)</h3><ul>${d.hedefler[s].map((x) => `<li>${guvenli(x)}</li>`).join('')}</ul></div>` : '')).join('')}
 ${o.hazirlik ? `<h3>Hazırlık</h3>${paragraf(o.hazirlik)}` : ''}${liste('Gerçek set için malzemeler', o.malzemeler)}${liste('Güvenlik', o.guvenlik)}${liste('Sık görülen yanlış düşünceler', o.yanilgilar)}${liste('Sınıf tartışması', o.tartisma)}${liste('Hızlı bitirenlere', o.ileri)}
-<h3>Kullanım</h3><ul><li>Akıllı tahtada üstteki <strong>Tahta modu</strong> yazıyı ve düğmeleri büyütür; <strong>Tam ekran</strong> tarayıcı çubuklarını gizler.</li><li>Adımlar arasında ok tuşları ya da sunum kumandasıyla geçilir.</li><li>Sahneyi bir parmakla döndürün, iki parmakla yakınlaştırın ve kaydırın; <strong>Eğik, Üstten, Önden, Yandan</strong> düğmeleri hazır bakış açılarıdır ve sahneyi ekrana sığdırır.</li><li>Parçalara dokununca adı, teknik tanımı ve günlük hayattaki yeri seçili sınıfa göre görünür. Pinler yaklaştırınca tek tek seçilir.</li><li><strong>Keşif</strong> açıkken her parçanın üstünde renkli, numaralı bir işaret çıkar; renk ve simge parçanın grubunu gösterir (Güç, İşlem, Pinler, Işıklar, Breadboard, Parçalar, Kontrol). Öğrenciler önce tahmin eder, sonra cevabı görür; bu adım ayarlardan kapatılabilir.</li><li>Anlatım panelinin genişliği kenarından sürüklenerek ya da ayarlardaki sürgüyle değişir.</li></ul>
+<h3>Kullanım</h3><ul><li>Akıllı tahtada üstteki <strong>Tahta modu</strong> yazıyı ve düğmeleri büyütür; <strong>Tam ekran</strong> tarayıcı çubuklarını gizler.</li><li>Adımlar arasında ok tuşları ya da sunum kumandasıyla geçilir.</li><li>Sahneyi bir parmakla döndürün, iki parmakla yakınlaştırın ve kaydırın; <strong>${esc(d.y.gorunum.map(([, uzun]) => uzun).join(', '))}</strong> düğmeleri hazır bakış açılarıdır ve sahneyi ekrana sığdırır.</li><li>Parçalara dokununca adı, teknik tanımı ve günlük hayattaki yeri seçili sınıfa göre görünür.${esc(d.y.kullanimDokun || '')}</li><li><strong>Keşif</strong> açıkken her parçanın üstünde renkli, numaralı bir işaret çıkar; renk ve simge parçanın grubunu gösterir (${esc(d.y.KATEGORI_SIRA.map((k) => d.y.KATEGORI[k].ad).join(', '))}). Öğrenciler önce tahmin eder, sonra cevabı görür; bu adım ayarlardan kapatılabilir.</li><li>Anlatım panelinin genişliği kenarından sürüklenerek ya da ayarlardaki sürgüyle değişir.</li></ul>
 ${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2><ul>${d.kaynaklar.map((k) => `<li><a href="${esc(k.adres)}"${YENI_SEKME_OZNITELIK}>${esc(k.ad)}${YENI_SEKME_NOTU}</a></li>`).join('')}</ul>` : ''}</section>`;
 }
 function dersSayfasi(d) {
@@ -268,10 +269,6 @@ const NOT_TAHTA = '<section><h2>Akıllı tahtada</h2><p>Ders sayfasında Tahta m
 const NOT_SINIF = '<section><h2>Sınıfa göre anlatım</h2><p>5, 6, 7 ve 8. sınıf için ayrı tanımlar, açıklamalar ve sorular vardır. Her kavramın teknik tanımı ve günlük hayattaki yeri birlikte verilir.</p></section>';
 const hubSonu = `<div id="duyuru" class="sr-only" aria-live="polite"></div><script type="module" src="/3d/assets/${merkezJs}"></script></body></html>`;
 const aileDersleri = (A) => dersler.filter((d) => d.aile === A);
-// Bilgisayar Donanımı önizlemesi (Ahmet 02.11.2026: "bu haliyle al da bakalım, sonra geliştiririz"): ders motoruna
-// takılana dek /3d/donanim'de sahne önizlemesi durur (tools/3d/donanim-yayin.mjs). Ders gelince aile AILELER'e girer, bu kart kalkar.
-const DONANIM_ONIZLEME = `<section class="aile" aria-labelledby="aile-donanim"><h3 class="aile-baslik" id="aile-donanim"><a href="/3d/donanim">Bilgisayar Donanımı${ico('chevron-right')}</a></h3>
-<ol class="ders-listesi"><li><a href="/3d/donanim"><span class="no">1</span><h4>Girdi ve Çıktı Birimleri</h4><p>Klavye, fare, mikrofon, ekran, hoparlör ve yazıcıyı 3D masada keşfet: hangisi bilgi alır, hangisi verir?</p><span class="meta">Önizleme · anlatım ve mini sınav ekleniyor</span></a></li></ol></section>`;
 
 function merkezSayfasi() {
   const yol = MERKEZ_YOL;
@@ -283,7 +280,7 @@ function merkezSayfasi() {
 <p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: parçaları yakından inceleyin, adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
 ${sinifAkisi}
 ${dersAkisiBas}${AILE_LISTE.map((A) => `<section class="aile" aria-labelledby="aile-${A.id}"><h3 class="aile-baslik" id="aile-${A.id}"><a href="${A.yol}">${esc(A.ad)}${ico('chevron-right')}</a></h3>
-<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${YAPI[A.id].ozgur ? ozgurKarti('h4') : ''}</ol></section>`).join('')}${DONANIM_ONIZLEME}</section>
+<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${YAPI[A.id].ozgur ? ozgurKarti('h4') : ''}</ol></section>`).join('')}</section>
 <div class="notlar">${NOT_TAHTA}${NOT_SINIF}</div></main>
 <footer class="alt">${BLOG_BAG}</footer>${hubSonu}`;
 }

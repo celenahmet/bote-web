@@ -392,6 +392,16 @@
       "source": "/3d/ozgur-mod",
       "destination": "/3d/arduino/ozgur-mod",
       "permanent": true
+    },
+    {
+      "source": "/3d/donanim",
+      "destination": "/3d/hardware",
+      "permanent": true
+    },
+    {
+      "source": "/3d/donanim/:yol*",
+      "destination": "/3d/hardware",
+      "permanent": true
     }
   ],
   "headers": [

@@ -144,7 +144,8 @@ export function icKur(kasa, { aniz = 4 } = {}) {
         const { geo, egri } = boruGeo(nok, HORTUM_R, 80, 10, 0.4);
         const tex = hortumDokusu(renk, aniz); tex.repeat.set(Math.max(2, Math.round(egri.getLength() / 6)), 1);
         const mm = new MeshStandardMaterial({ color: 0x2c2f36, roughness: 0.55, metalness: 0.05, emissive: 0xffffff, emissiveMap: tex, emissiveIntensity: 0 });
-        const me = new Mesh(geo, mm); me.castShadow = true; me.receiveShadow = true; me.name = 'hortum-' + ad; gSivi.add(me);
+        // ince hortum gölge haritasına girmez: soğutma adımında sıvıya geçince gölgeli kare 91'e çıkıyordu (bütçe 90)
+        const me = new Mesh(geo, mm); me.castShadow = false; me.receiveShadow = true; me.name = 'hortum-' + ad; gSivi.add(me);
         hortumMal.push({ tex, mal: mm, ad });
       }
     });

@@ -33,7 +33,8 @@ export const KAMERA = {
   'ic-psu': { kutu: ik(-20, 0, -44, 13, 28, -8), yon: [-0.8, 0.5, 0.35] },
   'ic-sogutma': { kutu: ik(-24, 0, -44, 21, 108, 50), yon: [-0.74, 0.4, 0.54] },
   'ic-sivi': { kutu: ik(-16, 54, -43, 19, 98, 24), yon: [-0.95, 0.02, 0.3] },
-  'ic-arka': { kutu: ik(-20, 0, -60, 20, 92, -40), yon: [0.5, 0.3, -0.82] },
+  // arka giriş paneli kasanın üst ucunda: üstte etiket payı (92 iken 'Ağ girişi' ve 'Ses girişleri' ipucu satırının altında kalıyordu)
+  'ic-arka': { kutu: ik(-20, 0, -60, 20, 104, -40), yon: [0.5, 0.3, -0.82] },
 };
 
 // Bakış açısı düğmeleri: yön = hedeften kameraya doğru birim vektör (ham sayılar yeterli, motor normalleştirir).

@@ -233,7 +233,7 @@
 
 ## 3D Simülasyon Merkezi
 
-Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino UNO ve breadboard'u üç boyutlu anlatan etkileşimli dersler. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
+Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu etkileşimli dersler: Arduino UNO ve breadboard, bilgisayar donanımı. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
 
 - [3D Simülasyon Merkezi](https://bote.web.tr/3d): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: sınıfa göre anlatım ve mini sınav. Akıllı tahta, tablet ve telefonda çalışır.
 - [Arduino Simülasyonu: 3D Dersler ve Özgür Mod](https://bote.web.tr/3d/arduino): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard dersleri: üç boyutlu sahne, sınıfa göre anlatım ve mini sınav.
@@ -242,7 +242,9 @@ Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino UNO ve bread
 - [Butonla LED Yakalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/buton-led): Butona basınca yanan LED: Arduino UNO ile giriş ve çıkış, 10 kΩ pull-down direnci ve if-else kodu. Ortaokul 5-8. sınıflara özel 3D simülasyon.
 - [Trafik Işığı Yapalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/trafik-isigi): Arduino UNO ve üç LED ile trafik ışığı modeli: ışıkların sırası, algoritma, döngü ve bekleme süreleri. Ortaokul 5-8. sınıflara özel 3D simülasyon.
 - [Özgür Mod: Devreni Kendin Kur](https://bote.web.tr/3d/arduino/ozgur-mod): Arduino ve breadboard ile devreni kendin kur: LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.
-- [Bilgisayar Donanımı 3D: Girdi ve Çıktı Birimleri](https://bote.web.tr/3d/donanim): Bilgisayar donanımını 3D masada keşfedin: kasa, monitör, klavye, fare, mikrofon, hoparlör ve yazıcı. Girdi ve çıktı birimleri adım adım, ortaokul için.
+- [Bilgisayar Donanımı Simülasyonu: 3D Dersler](https://bote.web.tr/3d/hardware): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için bilgisayar donanımı: girdi ve çıktı birimleri, kasanın içi. 3D sahne, sınıfa göre anlatım ve mini sınav.
+- [Girdi ve Çıktı Birimleri: 3D Simülasyon](https://bote.web.tr/3d/hardware/input-output-devices): Klavye, fare, mikrofon, ekran, hoparlör ve yazıcı: girdi ve çıktı birimlerini 3D masada keşfet. Ortaokul 5-8. sınıflara özel simülasyon.
+- [Kasanın İçi: 3D Donanım Simülasyonu](https://bote.web.tr/3d/hardware/inside-the-case): Kasanın kapağını aç: anakart, işlemci, RAM, SSD, ekran kartı, güç kaynağı, hava ve sıvı soğutmayı 3D keşfet. Ortaokul 5-8. sınıflar için simülasyon.
 
 ## English pages
 

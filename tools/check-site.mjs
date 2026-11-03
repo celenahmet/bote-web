@@ -230,6 +230,23 @@ for (const p of ['/egt303', '/bte311', '/bte304', '/ebit/ai', '/en/ebit/online',
   if (r.status !== 404) err('yayin disi', `${p} HTTP ${r.status} (404 olmali)`);
 }
 
+// ------------------------------------------------------------------ 3D eski adresler (tools/3d/yollar.mjs ESKI_YOL)
+// Yayindan kalkan 3D adresi kalici yonlendirmeyle (301/308) yeni adrese gider, sinif secimi (?sinif) korunur, hedef acilir.
+{
+  const { ESKI_YOL } = await import('./3d/yollar.mjs');
+  const denenecek = Object.entries(ESKI_YOL);
+  // 02.11 onizlemesinin alt adresleri (vercel.json /3d/donanim/:yol*) de aile sayfasina gider
+  if (ESKI_YOL['/3d/donanim']) denenecek.push(['/3d/donanim/girdi-cikti-birimleri', ESKI_YOL['/3d/donanim']]);
+  for (const [eski, yeni] of denenecek) {
+    const r = await get(`${eski}?sinif=7`);
+    const hedef = r.location ? new URL(r.location, origin) : null;
+    if (![301, 308].includes(r.status)) err('3d eski adres', `${eski} HTTP ${r.status} (kalici yonlendirme olmali)`);
+    else if (hedef?.pathname !== yeni) err('3d eski adres', `${eski} -> ${r.location} (${yeni} olmali)`);
+    else if (hedef.searchParams.get('sinif') !== '7') err('3d eski adres', `${eski} ?sinif=7 korunmuyor: ${r.location}`);
+    else if ((await get(yeni)).status !== 200) err('3d eski adres', `${eski} hedefi ${yeni} acilmiyor`);
+  }
+}
+
 // ------------------------------------------------------------------ sayac API
 {
   const bad = await get('/api/views', { method: 'POST', body: JSON.stringify({ slug: 'olmayan-yazi' }) });

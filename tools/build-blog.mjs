@@ -209,7 +209,7 @@ ${trPages.map(line).join('\n')}
 ${simPages.length ? `
 ## 3D Simülasyon Merkezi
 
-Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino UNO ve breadboard'u üç boyutlu anlatan etkileşimli dersler. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
+Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu etkileşimli dersler: Arduino UNO ve breadboard, bilgisayar donanımı. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
 
 ${simPages.map((l) => line({ ...l, title: simAd(l.title) })).join('\n')}
 ` : ''}

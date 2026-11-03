@@ -26,33 +26,47 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   kartı değeri ona bağlı. 02.11 öncesi adresler (/3d/arduino-led-yakma, /3d/ozgur-mod ...)
   vercel.json'da kalıcı yönlendirme; Vercel sorgu dizgesini (?sinif=7) hedefe taşır, serve.mjs de.
   Yayındaki bir 3D adresi değişirse eski adres ESKI_YOL'a ve vercel.json'a eklenir, silinmez.
+  npm test (check-site.mjs) her ESKI_YOL adresinin 301/308 ile hedefe gittiğini, ?sinif'i koruduğunu
+  ve hedefin açıldığını denetler.
+- Aileler (yollar.mjs AILELER): Arduino ve Breadboard `/3d/arduino` (4 ders + Özgür Mod), Bilgisayar
+  Donanımı `/3d/hardware` (Ahmet 02.11 adres kararı; aile kimliği `donanim` kalır): girdi-cikti-birimleri
+  `/3d/hardware/input-output-devices`, kasanin-ici `/3d/hardware/inside-the-case`. 02.11 önizlemesi
+  (/3d/donanim, donanim-yayin.mjs, merkezdeki DONANIM_ONIZLEME kartı) kaldırıldı; /3d/donanim ve alt
+  adresleri /3d/hardware'e kalıcı yönlendirilir. Ders 3-4 içeriği gelmeden yer tutucu, boş kart, "yakında" yok.
 - Kaynak tools/3d (src/*.js, stil.css, icerik/*.json, build.mjs, yollar.mjs); çıktı 3d/ (index.html
-  genel merkez, arduino/index.html aile sayfası, arduino/<ders>.html, assets/sim-<özet>.js).
+  genel merkez, <aile>/index.html aile sayfası, <aile>/<ders>.html; paketler assets/sim-<özet>.js Arduino,
+  assets/donanim-<özet>.js Donanım, assets/merkez-<özet>.js merkez ve aile sayfaları).
   Derleme: `node tools/3d/build.mjs`. 3d/ elle düzenlenmez. three.js tools
   devDependency olarak sabit sürümdedir; dış model, görsel ve yazı tipi dosyası yok (her şey kodla).
 - Ders motoru / aile sözleşmesi (02.11, motor bölündü): `src/sayfa.js` (+ `ortak.js`) sayfa kabuğu: sınıf,
   kip, tema, tam ekran, mini sınav; `src/ders.js` aileden bağımsız GENEL motor: `dersMotoru(AİLE, kabuk)`;
   aile sahne işini ADAPTÖR yapar (Arduino: `src/arduinoSahne.js`). Genel motorda aileye özgü içe aktarım
   YOK. Sözleşmenin tek kaynağı `ders.js` başındaki "AİLE TANIMI / ADAPTÖR" yorumu: aile tanımı
-  `{ id, DERSLER, KAMERA, KESIF, KATEGORI, kategoriBul, GORUNUM, vurguYap?, sahneyiKur }`;
+  `{ id, DERSLER, KAMERA, KESIF, KATEGORI, kategoriBul, GORUNUM, vurguYap?, sahneyiKur }` (Donanım:
+  `donanim/src/aileTanim.js`, giriş `donanim/src/giris.js`). Zorunlu alan eksikse motor kurulumda konsola
+  açık hata yazar ve sahneyi açmaz; sahneyiKur hata atarsa yarım sahne boşaltılır; ikisinde de yedek arayüz
+  (data-webgl=yok) görünür, kartlar ve sınav çalışır;
   `sahneyiKur(S, { olay, ders, veri })` -> `{ kesifNoktalari, alanlar, noktaBul, kutuBul, adimUygula,
   eylem, durdur, dokunuldu }` + isteğe bağlı kancalar (`kesifEk`, `kameraBul`, `ipucu`, `olcumEk`; kanca yoksa
   ilgili arayüz çizilmez). Adım verisi `DERSLER[ders].adimlar[adim] = { kamera, vurgu, etiket, kontrol, dokun,
   mod, yazi }`. Derleme tarafı `tools/3d/aileler.mjs` YAPI[aile]: `giris` (paket girişi), `onek` (paket
   adı öneki), `adimlar`, `kesif`, `icerik` (ders-N.json, kavramlar.json, kesif.json), `gorunum`, `ipuclari`,
-  `kontrolHtml` (genel çizici `genelKontrol`), `ozgur`, sayfa metinleri. Merkez ve aile sayfaları three.js
+  `kontrolHtml` (genel çizici `genelKontrol`; KONTROL'de `varsayilan: true` düğmeyi ilk basılı çizer, motor her
+  adımda bu ilk duruma döndürür), `ozgur`, `kullanimDokun` (öğretmen notu kullanım satırı), sayfa metinleri.
+  Öğretmen notundaki görünüm ve grup listeleri ailenin `gorunum` ve KATEGORI verisinden üretilir. Merkez ve aile sayfaları three.js
   içermeyen küçük `merkez-<özet>.js` paketini, ders sayfaları ailenin paketini (Arduino `sim-`) yükler.
 - Yeni aile ekleme: (1) aile klasörü: adımlar.js (DERSLER, KAMERA, KONTROL, KONTROL_YAZI), kesif-veri.js,
   sahne adaptörü, `icerik/` (2) aile giriş dosyası: `kabukKur()` + `dersMotoru(AİLE, K)` (src/main.js kalıbı)
   (3) `aileler.mjs` YAPI'ya aile tanımı (4) `yollar.mjs` AILELER + DERS_YOLU (ders kimliği = kalıcı anahtar,
-  sonradan değişmez) (5) `build.mjs` kendiliğinden paket, ders ve aile sayfasını üretir; merkezdeki önizleme
-  kartı (DONANIM_ONIZLEME) kalkar (6) `node tools/3d/build.mjs`, uyum duman testi (chrome, Chromium 109,
+  sonradan değişmez) (5) `build.mjs` kendiliğinden paket, ders ve aile sayfasını üretir (merkezde aile kartı
+  ve dersleri) (6) `node tools/3d/build.mjs`, uyum duman testi (chrome, Chromium 109,
   Firefox 115), dokunmatik, `cd tools && npm run build && npm test`. Ortak dosya (ders.js, sayfa.js,
   stil.css) değişikliği gerekiyorsa sözleşmede eksik var demektir: önce sözleşmeyi genişlet, Arduino
   derslerinin çıktısının aynı kaldığını ölç.
 - Performans ilkeleri korunur: istek üzerine çizim (boşta kare yok), gölge haritası yalnız parça
   hareketinde, uyarlanır çözünürlük ve hareket bitince tam çözünürlükte keskin kare. `?olcum=1`
-  kare/sn panelini açar; `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
+  kare/sn panelini açar (ve noktası bulunamadığı için çizilmeyen adım etiketini konsola uyarı olarak yazar);
+  `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
 - Yayında (Ahmet 01.11: "arama motorlarına da çıkabilir, sorun yok"): build.mjs içinde
   ONIZLEME=false, sayfalar dizine açık, robots.txt'te /3d yasağı yok. build-blog.mjs 3d/ altındaki
   sayfaları tarar; merkez, aile ve ders sayfaları sitemap.xml, llms.txt ("3D Simülasyon Merkezi" bölümü) ve HTML site

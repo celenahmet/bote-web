@@ -75,6 +75,8 @@ export function sahneyiKur(S, { olay = () => {} } = {}) {
     'kulaklik-mikrofon': () => V(KULAKLIK.x - 4.7, 3.8, KULAKLIK.z + 8.6), 'kulaklik-kup': () => V(KULAKLIK.x - 8.4, 8.8, KULAKLIK.z),
   };
   Object.assign(PARCA, ic.parca); // kasa içi parçalar (ic.js): ic-anakart, ic-ram, ic-hava ...
+  // ders 1 'kablolar' adımının arka giriş etiketleri: ders 2'nin kasa gövdesine bağlı ic-arka-* noktaları, güç keşif çapasında
+  Object.assign(PARCA, { 'arka-hdmi': ic.parca['ic-arka-hdmi'], 'arka-usb': ic.parca['ic-arka-usb'], 'arka-ses': ic.parca['ic-arka-ses'], 'arka-ag': ic.parca['ic-arka-ag'], 'arka-guc': () => noktaBul('kesif:guc-girisi') });
   // ad: 'alan:<ad>' | 'parca:<ad>' | 'tus:<ad>' (klavye tuşu; Bosluk = boşluk) | 'kesif:<id>' (keşif noktası konumu)
   function noktaBul(ad) {
     const i = ad.indexOf(':'), tur = ad.slice(0, i), a = ad.slice(i + 1);
