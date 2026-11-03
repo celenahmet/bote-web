@@ -9,9 +9,9 @@ function calis() {
   if (!el) return;
   const anahtar = el.getAttribute('data-sayac');
   if (!anahtar) return;
-  // Ders ve Özgür Mod sayfaları tam ekran uygulamadır (alt bilgi gizli, sayfa kaymaz): sayaç, kaydırılan en alt alan olan
-  // öğretmen notu panelinin sonuna taşınır.
-  const ek = document.body.classList.contains('ders-sayfasi') && document.getElementById('ogretmen');
+  // Ders ve Özgür Mod sayfaları tam ekran uygulamadır (alt bilgi gizli): sayaç anlatım panelinin en altına taşınır
+  // (Ahmet 03.11: her sayfada aşağıda görünsün); panel yoksa öğretmen notu panelinin sonuna.
+  const ek = document.body.classList.contains('ders-sayfasi') && (document.querySelector('.kart-govde') || document.getElementById('ogretmen'));
   if (ek) ek.appendChild(el);
   const oturum = `bote:seen:${anahtar}`;
   let gorulmus = false;

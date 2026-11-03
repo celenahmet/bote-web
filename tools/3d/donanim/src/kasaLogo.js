@@ -4,16 +4,16 @@
 import { Mesh, PlaneGeometry, MeshBasicMaterial, BufferGeometry, BufferAttribute } from 'three';
 import { tuval, doku, YAZI } from './yardimci.js';
 
-const GEN = 30, YUK = 15;      // düzlem boyutu (1 birim = 5 mm): 150 x 75 mm
+const GEN = 38, YUK = 19;      // düzlem boyutu (1 birim = 5 mm): 190 x 95 mm
 export const LOGO_X = -20.03;  // kasa-yerel: yan kapağın dış yüzü x = -20, baskı 0.03 önde
-export const LOGO_Y = 24;      // orta-alt bölge
+export const LOGO_Y = 45.5;    // kapağın ortası (Ahmet 03.11: ortaya alınsın)
 
 function cizim() {
   const [c, x] = tuval(512, 256);
   const mat = 'rgba(176,182,194,0.78)';
   x.fillStyle = mat; x.strokeStyle = mat; x.lineCap = 'round'; x.lineJoin = 'round';
   // logo (300x300 favicon'un ölçeklenmiş hâli): sol blok, merkez (cx, cy), yükseklik ~110 px
-  const s = 0.38, ox = 62, oy = 70;
+  const s = 0.38, ox = 52, oy = 64;
   const P = (px, py) => [ox + px * s, oy + py * s];
   // kep: elmas tepe + alt gövde + püskül
   x.beginPath(); x.moveTo(...P(150, 10)); x.lineTo(...P(270, 42)); x.lineTo(...P(150, 76)); x.lineTo(...P(30, 42)); x.closePath(); x.fill();
@@ -29,10 +29,13 @@ function cizim() {
   // yazı: "bote" ince, ".web.tr" daha silik
   x.textBaseline = 'middle'; x.textAlign = 'left';
   x.font = `600 56px ${YAZI}`; x.fillStyle = mat;
-  const yy = gy - 4, xx = 162;
+  const yy = gy - 22, xx = 152;
   x.fillText('bote', xx, yy);
   const w = x.measureText('bote').width;
   x.fillStyle = 'rgba(176,182,194,0.55)'; x.fillText('.web.tr', xx + w, yy);
+  // alt satır: bölümün adı
+  x.font = `600 33px ${YAZI}`; x.fillStyle = 'rgba(176,182,194,0.66)';
+  x.fillText('Simülasyonlu Eğitim', xx + 2, yy + 50);
   return c;
 }
 
