@@ -1,7 +1,7 @@
 {
   "slug": "arduino-ve-breadboard",
   "baslik": "Arduino ve Breadboard'u Tanıyalım",
-  "kisa": "Arduino UNO kartının parçalarını ve breadboard'un gizli bağlantılarını 3D simülasyonla keşfedin. Ortaokul 5-8. sınıflara özel anlatım.",
+  "kisa": "Arduino UNO kartının parçalarını ve breadboard'un gizli bağlantılarını 3D simülasyonla keşfedin. BTY dersi için simülasyonlu eğitim, 5-8. sınıf.",
   "sure": 20,
   "hedefler": {
     "5": [

@@ -12,8 +12,8 @@ export const OZGUR_BASLIK = 'Özgür Mod: Devreni Kendin Kur';
 // aile, isPartOf, kirintiLd, altBilgi: build.mjs'ten (Arduino ailesi; yapısal veri ve alt bilgi ders sayfalarıyla aynı kalıp)
 export function ozgurSayfasi({ esc, ico, jsonGom, ustCubuk, sinifPenceresi, basBetik, css, SITE, ONIZLEME, jsAd, erisimJs, aile, isPartOf, kirintiLd, altBilgi }) {
   const yol = OZGUR_YOL;
-  const baslik = `${OZGUR_BASLIK} | bote.web.tr`;
-  const aciklama = 'Arduino ve breadboard ile devreni kendin kur: LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.';
+  const baslik = 'Özgür Mod: Arduino Simülasyonlu Eğitim | bote.web.tr';
+  const aciklama = 'Arduino ve breadboard 3D simülasyonlu eğitiminde devreni kendin kur: LED, direnç, buton ve kabloyu tak, programı seç; hatalar Türkçe açıklanır.';
   const jsonld = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'LearningResource', name: OZGUR_BASLIK, description: aciklama, url: SITE + yol, inLanguage: 'tr', isAccessibleForFree: true, learningResourceType: 'Simülasyon',
       educationalLevel: 'Ortaokul (5-8. sınıf)', audience: { '@type': 'EducationalAudience', educationalRole: 'student' },

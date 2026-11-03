@@ -12,7 +12,8 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
 - Siteden bağlantı verilmeyen (menü/sayfalardan ulaşılamayan) kısımlar yayından
   kaldırılır ama dosyalar silinmez: `.vercelignore`'a eklenir.
 
-## 3D Simülasyon Merkezi (/3d, 01.11.2026)
+## Simülasyonlu Eğitim, eski adı 3D Simülasyon Merkezi (/3d, 01.11.2026)
+- Görünen ad "Simülasyonlu Eğitim" (Ahmet 03.11: BTY dersleriyle uyumlu; adresler /3d kalır). Tek kaynak yollar.mjs MERKEZ_AD. Ders ve Özgür Mod üst çubuğunda ders adının yanında ders geçiş oku (details/summary, build.mjs dersMenusu), "bote.web.tr" altında rotate-3d ikonlu alt yazı; telefonda (≤560) ders sayfasında "bote" bağlantısı yer açmak için gizlenir. Sitenin üst menü yazısı kısa "Simülasyon" kaldı (1100 px düzeni ölçülmeden uzatılmaz).
 - Ahmet 01.11: ortaokul (5-8) BTY dersleri için Arduino ve breadboard 3D simülasyonu; akıllı tahta
   (Pardus, Firefox), tablet ve telefon ayrı düşünülür. Akıcılık ("kasmamalı") ve HD, gerçekçi görüntü
   birlikte istenir. Eğitsel kurgu: merak sorusu, keşif, "tahmin et, sonra gör", "değiştir ve gözle",
@@ -74,9 +75,9 @@ statik yayın; build adımı yok, depo kökü yayın klasörüdür.
   `?mod=tahta` tahta düzenini, `?sinif=6` sınıfı seçili açar.
 - Yayında (Ahmet 01.11: "arama motorlarına da çıkabilir, sorun yok"): build.mjs içinde
   ONIZLEME=false, sayfalar dizine açık, robots.txt'te /3d yasağı yok. build-blog.mjs 3d/ altındaki
-  sayfaları tarar; merkez, aile ve ders sayfaları sitemap.xml, llms.txt ("3D Simülasyon Merkezi" bölümü) ve HTML site
+  sayfaları tarar; merkez, aile ve ders sayfaları sitemap.xml, llms.txt ("Simülasyonlu Eğitim (3D)" bölümü) ve HTML site
   haritalarına girer, noindex olan atlanır. Siteden bağlantı: blog üst menüsünde "Simülasyon"
-  (1100 px ve üstü; 1000-1099 px'te sığmadığı için yalnız Menü'de), Menü'de "3D Simülasyon Merkezi",
+  (1100 px ve üstü; 1000-1099 px'te sığmadığı için yalnız Menü'de), Menü'de "Simülasyonlu Eğitim",
   alt bilgide Keşfet sütunu. Önizlemeye dönülürse (ONIZLEME=true) sitemap ve llms 3D sayfalarını
   kendiliğinden atlar; robots satırı ve bu bağlantılar elle geri alınır. İçeriği gelmemiş ders
   sayfası üretilmez.

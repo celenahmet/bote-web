@@ -1,4 +1,4 @@
-// 3D Simülasyon Merkezi derlemesi: node tools/3d/build.mjs  (bote-web kökünden ya da tools içinden)
+// Simülasyonlu Eğitim (3D) derlemesi: node tools/3d/build.mjs  (bote-web kökünden ya da tools içinden)
 // - Her aile kendi paketini alır: aileler.mjs YAPI[aile].giris ve three.js tek dosyada paketlenir (esbuild, ağaç sallama,
 //   küçültme) -> 3d/assets/<onek>-<özet>.js (Arduino: sim-). Merkez ve aile sayfaları three.js içermeyen küçük merkez-<özet>.js yükler.
 // - İçerik (icerik/ders-N.json, kavramlar.json) HTML'e yazılır: kartlar JavaScript'siz de okunur.
@@ -153,7 +153,23 @@ ${ONIZLEME ? '<meta name="robots" content="noindex, nofollow">' : ''}<meta name=
 // Kırıntı: marka / merkez / aile / ders. Merkez ve aile bağlantısı .merkez-bag: dar ekranda ve tahta modunda gizlenir (stil.css);
 // ders sayfasında yer daralınca önce merkez (.kok), sonra aile kırıntısı gizlenir, ders adı tam kalır (02.11 ölçümü: ust2.mjs).
 const kirinti = (yol, ad, bu, sinif = '') => `<span class="ayrac" aria-hidden="true">/</span><a class="merkez-bag${sinif}" href="${yol}"${yol === bu ? ' aria-current="page"' : ''}>${esc(ad)}</a>`;
-const ustCubuk = (ders, aile = null, bu = '') => `<header class="ust"><a class="marka" href="/blog"${YENI_SEKME_OZNITELIK}>bote<b>.web.tr</b><span class="sr-only"> blog</span>${YENI_SEKME_NOTU}</a>${kirinti(MERKEZ_YOL, MERKEZ_AD, bu, ' kok')}${aile ? kirinti(aile.yol, aile.kirinti, bu) : ''}${ders ? `<span class="ayrac" aria-hidden="true">/</span><span class="ders-adi">${esc(ders.baslik)}</span>` : ''}
+// Ders geçiş menüsü (Ahmet 03.11: "sayfalarda yukarıdan kasanın içini dışını da etkinlik olarak değiştirebilmeliyiz",
+// "buraya bi alt ok atarız"): ders ve Özgür Mod sayfasında ders adının yanında ok; details/summary olduğu için JavaScript'siz
+// de açılır. Liste derleme anında ailenin ders verisinden gelir. Bağlantıların sorgu dizgesi (sinif, mod, gorunum) açılırken
+// DERS_MENU_BETIK ile bugünkü adresten alınır; dışarı dokunma ve Esc menüyü kapatır.
+function dersMenusu(ders, aile) {
+  const liste = dersler.filter((d) => d.aile === aile && !d.taslak);
+  const oge = (yol, ad, bu) => `<li><a href="${yol}"${bu ? ' aria-current="page"' : ''}>${esc(ad)}</a></li>`;
+  const ozgurVar = YAPI[aile.id].ozgur;
+  return `<details class="ders-menu" id="ders-menu"><summary aria-label="Dersler: ${esc(ders.baslik)}"><span class="ders-adi">${esc(ders.baslik)}</span>${ico('chevron-down')}</summary>
+<nav class="ders-panel" aria-label="${esc(aile.ad)} dersleri"><p class="ders-panel-ad">${esc(aile.ad)}</p><ul>${liste.map((d) => oge(DERS_YOLU[d.slug], d.baslik, d.slug === ders.slug)).join('')}${ozgurVar ? oge(OZGUR_YOL, 'Özgür Mod', !!ders.ozgur) : ''}</ul>
+<a class="ders-panel-aile" href="${aile.yol}">${esc(aile.ad)} sayfası${ico('arrow-right')}</a></nav></details>
+<script>${DERS_MENU_BETIK}</script>`;
+}
+const DERS_MENU_BETIK = `(function(){var m=document.getElementById('ders-menu');if(!m)return;var s=m.querySelector('summary'),p=m.querySelector('.ders-panel');function yaz(){s.setAttribute('aria-expanded',m.open?'true':'false');if(!m.open)return;var q=new URLSearchParams(location.search),k=['sinif','mod','gorunum'];p.querySelectorAll('a').forEach(function(a){var u=new URL(a.getAttribute('href'),location.href);k.forEach(function(n){if(q.get(n))u.searchParams.set(n,q.get(n))});a.setAttribute('href',u.pathname+u.search)});var r=s.getBoundingClientRect(),w=p.offsetWidth||300;p.style.left=Math.max(8,Math.min(r.left,innerWidth-w-8))+'px'}
+m.addEventListener('toggle',yaz);yaz();document.addEventListener('pointerdown',function(e){if(m.open&&!m.contains(e.target))m.open=false});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&m.open){m.open=false;s.focus()}});p.addEventListener('click',function(e){if(e.target.closest('a'))m.open=false})})();`;
+const MARKA_ALT = `<span class="marka-alt" aria-hidden="true">${ico('rotate-3d')}${esc(MERKEZ_AD)}</span>`;
+const ustCubuk = (ders, aile = null, bu = '') => `<header class="ust"><a class="marka" href="/blog"${YENI_SEKME_OZNITELIK}><span class="marka-ad">bote<b>.web.tr</b><span class="sr-only"> blog</span></span>${MARKA_ALT}${YENI_SEKME_NOTU}</a>${kirinti(MERKEZ_YOL, MERKEZ_AD, bu, ' kok')}${aile ? kirinti(aile.yol, aile.kirinti, bu) : ''}${ders ? `<span class="ayrac" aria-hidden="true">/</span>${aile ? dersMenusu(ders, aile) : `<span class="ders-adi">${esc(ders.baslik)}</span>`}` : ''}
 <div class="ust-sag">${ders ? `<span id="gorunum-yuva"></span><button type="button" class="cip" id="sinif-dugme" aria-haspopup="dialog" aria-label="Sınıf düzeyini değiştir">${ico('graduation-cap')}<span data-sinif-yaz>6. sınıf</span></button>
 <button type="button" class="dugme" id="ogretmen-dugme" aria-controls="ogretmen" aria-expanded="false" aria-label="Öğretmen notu" title="Öğretmen notu">${ico('book-open')}</button>${erisimDugmeHtml()}
 <button type="button" class="dugme" id="tahta-dugme" aria-pressed="false" aria-label="Tahta modu" title="Akıllı tahta için büyük düğme ve yazı">${ico('presentation')}<span class="yazi">Tahta modu</span></button>
@@ -215,8 +231,8 @@ ${kv ? `<h2>Kavramlar</h2>${kv}` : ''}${d.kaynaklar?.length ? `<h2>Kaynaklar</h2
 function dersSayfasi(d) {
   const yol = DERS_YOLU[d.slug], A = d.aile, y = d.y, { kavramlar, KESIF_KAVRAM, kesifIcerik, KATEGORI, KATEGORI_SIRA } = y;
   // arama sonucunda 60 karakteri aşan başlık kesilir: aşarsa kısa biçim (anahtar sözcükler korunur)
-  const tamBaslik = `${d.baslik}: ${y.baslikSonek} | bote.web.tr`;
-  const baslik = tamBaslik.length <= 60 ? tamBaslik : (y.baslikKisa?.[d.slug] || `${d.baslik} | bote.web.tr`);
+  const tamBaslik = `${d.baslik}: ${y.baslikSonek} | bote.web.tr`, ortaBaslik = `${d.baslik}: ${MERKEZ_AD} | bote.web.tr`;
+  const baslik = tamBaslik.length <= 60 ? tamBaslik : ortaBaslik.length <= 60 ? ortaBaslik : (y.baslikKisa?.[d.slug] || `${d.baslik} | bote.web.tr`);
   const jsonld = { '@context': 'https://schema.org', '@graph': [
     { '@type': 'LearningResource', name: d.baslik, description: d.kisa, url: SITE + yol, inLanguage: 'tr', isAccessibleForFree: true, learningResourceType: 'Simülasyon',
       educationalLevel: 'Ortaokul (5-8. sınıf)', timeRequired: `PT${d.sure || 20}M`, teaches: (d.hedefler?.['6'] || []).map((x) => x.replace(/<[^>]+>/g, '')),
@@ -272,12 +288,12 @@ const aileDersleri = (A) => dersler.filter((d) => d.aile === A);
 
 function merkezSayfasi() {
   const yol = MERKEZ_YOL;
-  const baslik = `${MERKEZ_AD} | bote.web.tr`;
-  const aciklama = 'Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: sınıfa göre anlatım ve mini sınav. Akıllı tahta, tablet ve telefonda çalışır.';
+  const baslik = `${MERKEZ_AD}: 3D BTY Dersleri | bote.web.tr`;
+  const aciklama = 'Bilişim Teknolojileri ve Yazılım (BTY) dersi için 3D simülasyonlu eğitim: Arduino, donanım, girdi çıktı birimleri, kasanın içi. 5-8. sınıf, tahta uyumlu.';
   const jsonld = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: MERKEZ_AD, description: aciklama, url: SITE + yol, inLanguage: 'tr',
     hasPart: AILE_LISTE.map((A) => ({ '@type': 'CollectionPage', name: A.ad, url: SITE + A.yol })) };
   return `${bas({ baslik, aciklama, yol, jsonld, paket: merkezJs, css: HUB_CSS, hub: true })}${ustCubuk(null, null, yol)}<main class="merkez"><section class="giris"><h1>${MERKEZ_AD}</h1>
-<p>Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: parçaları yakından inceleyin, adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
+<p>Ortaokul Bilişim Teknolojileri ve Yazılım (BTY) dersi için, 5-8. sınıf düzeyinde simülasyonlu eğitim: üç boyutlu simülasyonlarla parçaları yakından inceleyin, adım adım kurun ve çalıştırın. Akıllı tahtada, tablette ve telefonda çalışır; kurulum ve üyelik gerekmez.</p></section>
 ${sinifAkisi}
 ${dersAkisiBas}${AILE_LISTE.map((A) => `<section class="aile" aria-labelledby="aile-${A.id}"><h3 class="aile-baslik" id="aile-${A.id}"><a href="${A.yol}">${esc(A.ad)}${ico('chevron-right')}</a></h3>
 <ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d, 'h4')).join('')}${YAPI[A.id].ozgur ? ozgurKarti('h4') : ''}</ol></section>`).join('')}</section>
@@ -293,7 +309,7 @@ function aileSayfasi(A) {
       hasPart: [...aileDersleri(A).filter((d) => !d.taslak).map((d) => ({ '@type': 'LearningResource', name: d.baslik, url: SITE + DERS_YOLU[d.slug] })), ...(Y.ozgur ? [{ '@type': 'LearningResource', name: OZGUR_AD, url: SITE + OZGUR_YOL }] : [])] },
     kirintiLd(A),
   ] };
-  return `${bas({ baslik, aciklama, yol, jsonld, paket: merkezJs, css: HUB_CSS, hub: true })}${ustCubuk(null, A, yol)}<main class="merkez"><section class="giris"><h1>${esc(A.ad)}</h1>
+  return `${bas({ baslik, aciklama, yol, jsonld, paket: merkezJs, css: HUB_CSS, hub: true })}${ustCubuk(null, A, yol)}<main class="merkez"><section class="giris"><h1>${esc(A.ad)}: ${MERKEZ_AD}</h1>
 <p>${Y.aileGiris}</p></section>
 ${sinifAkisi}
 ${dersAkisiBas}<ol class="ders-listesi">${aileDersleri(A).map((d) => dersKarti(d)).join('')}</ol></section>
@@ -326,7 +342,7 @@ console.log(`3d: ${dersler.length} ders (${dersler.filter((d) => d.taslak).lengt
   for (const f of fs.readdirSync(path.join(CIKTI, 'assets'))) if (/^ozgur-.*\.js$/.test(f) && f !== ozgurJs) fs.unlinkSync(path.join(CIKTI, 'assets', f));
   fs.writeFileSync(path.join(CIKTI, 'assets', ozgurJs), ozgurKod);
   const ozgurCss = AILE_Y[ARDUINO.id].css + fs.readFileSync(path.join(BU, 'ozgur.css'), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '').replace(/\s*([{};,>])\s*/g, '$1').replace(/;}/g, '}');
-  yaz(OZGUR_YOL, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk: (x) => ustCubuk(x, ARDUINO), sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs, erisimJs,
+  yaz(OZGUR_YOL, ozgurSayfasi({ esc, ico, jsonGom, ustCubuk: (x) => ustCubuk({ ...x, ozgur: true }, ARDUINO), sinifPenceresi, basBetik: BAS_BETIK, css: ozgurCss, SITE, ONIZLEME, jsAd: ozgurJs, erisimJs,
     aile: ARDUINO, isPartOf: aileParcasi(ARDUINO), kirintiLd: (son) => kirintiLd(ARDUINO, son), altBilgi: altBilgi(ARDUINO) }));
   console.log(`3d: özgür mod, paket ${ozgurJs} ${Math.round(ozgurKod.length / 1024)} KB, sayfa ${OZGUR_YOL} ${boy(dosya(OZGUR_YOL))} KB`);
 }
