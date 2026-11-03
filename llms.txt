@@ -231,20 +231,20 @@
 - [PDF Merkezi: BÖTE Blog Yazılarının PDF'leri](https://bote.web.tr/pdf): BÖTE blog yazılarının ücretsiz PDF'leri. Konuya veya belge koduna göre arayın; indirme ve görüntülenme sayılarını görün, güncel sürümü ücretsiz indirin.
 - [BÖTE - Site Haritası](https://bote.web.tr/site-map): bote.web.tr site haritası: bölüm tanıtımı, müfredat, meslek unvanları, staj, akreditasyon, üniversiteler, blog ve İngilizce sayfalara tek yerden ulaşın.
 
-## 3D Simülasyon Merkezi
+## Simülasyonlu Eğitim (3D)
 
-Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu etkileşimli dersler: Arduino UNO ve breadboard, bilgisayar donanımı. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
+Ortaokul Bilişim Teknolojileri ve Yazılım (BTY) dersi için üç boyutlu, simülasyonlu etkileşimli eğitim: Arduino UNO ve breadboard, bilgisayar donanımı. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
 
-- [3D Simülasyon Merkezi](https://bote.web.tr/3d): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu simülasyonlar: sınıfa göre anlatım ve mini sınav. Akıllı tahta, tablet ve telefonda çalışır.
-- [Arduino Simülasyonu: 3D Dersler ve Özgür Mod](https://bote.web.tr/3d/arduino): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için Arduino ve breadboard dersleri: üç boyutlu sahne, sınıfa göre anlatım ve mini sınav.
-- [Arduino ve Breadboard 3D Simülasyonu](https://bote.web.tr/3d/arduino/basics): Arduino UNO kartının parçalarını ve breadboard'un gizli bağlantılarını 3D simülasyonla keşfedin. Ortaokul 5-8. sınıflara özel anlatım.
-- [LED Yakalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/led-blink): Arduino UNO ile ilk devre: LED, 220 ohm direnç ve kısa bir kodla yanıp sönen ışık. Ortaokul 5-8. sınıflara özel anlatımlı 3D simülasyon.
-- [Butonla LED Yakalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/button-led): Butona basınca yanan LED: Arduino UNO ile giriş ve çıkış, 10 kΩ pull-down direnci ve if-else kodu. Ortaokul 5-8. sınıflara özel 3D simülasyon.
-- [Trafik Işığı Yapalım: 3D Arduino Simülasyonu](https://bote.web.tr/3d/arduino/traffic-light): Arduino UNO ve üç LED ile trafik ışığı modeli: ışıkların sırası, algoritma, döngü ve bekleme süreleri. Ortaokul 5-8. sınıflara özel 3D simülasyon.
-- [Özgür Mod: Devreni Kendin Kur](https://bote.web.tr/3d/arduino/simulator): Arduino ve breadboard ile devreni kendin kur: LED, direnç, buton ve kabloyu istediğin deliğe tak, pini ve programı seç; hatalar Türkçe açıklanır.
-- [Bilgisayar Donanımı Simülasyonu: 3D Dersler](https://bote.web.tr/3d/hardware): Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için bilgisayar donanımı: girdi ve çıktı birimleri, kasanın içi. 3D sahne, sınıfa göre anlatım ve mini sınav.
-- [Girdi ve Çıktı Birimleri: 3D Simülasyon](https://bote.web.tr/3d/hardware/io-devices): Klavye, fare, mikrofon, ekran, hoparlör ve yazıcı: girdi ve çıktı birimlerini 3D masada keşfet. Ortaokul 5-8. sınıflara özel simülasyon.
-- [Kasanın İçi: 3D Donanım Simülasyonu](https://bote.web.tr/3d/hardware/pc-parts): Kasanın kapağını aç: anakart, işlemci, RAM, SSD, ekran kartı, güç kaynağı, hava ve sıvı soğutmayı 3D keşfet. Ortaokul 5-8. sınıflar için simülasyon.
+- [Simülasyonlu Eğitim: 3D BTY Dersleri](https://bote.web.tr/3d): Bilişim Teknolojileri ve Yazılım (BTY) dersi için 3D simülasyonlu eğitim: Arduino, donanım, girdi çıktı birimleri, kasanın içi. 5-8. sınıf, tahta uyumlu.
+- [Arduino Simülasyonlu Eğitim: 3D Dersler](https://bote.web.tr/3d/arduino): Bilişim Teknolojileri ve Yazılım (BTY) dersi için Arduino ve breadboard 3D simülasyonlu eğitim: 5-8. sınıf düzeyi, Özgür Mod, mini sınav.
+- [Arduino ve Breadboard: Simülasyonlu Eğitim](https://bote.web.tr/3d/arduino/basics): Arduino UNO kartının parçalarını ve breadboard'un gizli bağlantılarını 3D simülasyonla keşfedin. BTY dersi için simülasyonlu eğitim, 5-8. sınıf.
+- [LED Yakalım: Arduino Simülasyonlu Eğitim](https://bote.web.tr/3d/arduino/led-blink): Arduino UNO ile ilk devre: LED, 220 ohm direnç ve kısa bir kodla yanıp sönen ışık. BTY dersi için 3D simülasyonlu eğitim, 5-8. sınıf.
+- [Butonla LED Yakalım: Simülasyonlu Eğitim](https://bote.web.tr/3d/arduino/button-led): Butona basınca yanan LED: Arduino UNO ile giriş ve çıkış, 10 kΩ pull-down direnci ve if-else kodu. BTY dersi için 3D simülasyonlu eğitim, 5-8. sınıf.
+- [Trafik Işığı Yapalım: Simülasyonlu Eğitim](https://bote.web.tr/3d/arduino/traffic-light): Arduino UNO ve üç LED ile trafik ışığı modeli: ışıkların sırası, algoritma, döngü ve bekleme süreleri. BTY dersi için 3D simülasyonlu eğitim, 5-8. sınıf.
+- [Özgür Mod: Arduino Simülasyonlu Eğitim](https://bote.web.tr/3d/arduino/simulator): Arduino ve breadboard 3D simülasyonlu eğitiminde devreni kendin kur: LED, direnç, buton ve kabloyu tak, programı seç; hatalar Türkçe açıklanır.
+- [Donanım Simülasyonlu Eğitim: 3D Dersler](https://bote.web.tr/3d/hardware): Bilişim Teknolojileri ve Yazılım (BTY) dersi için bilgisayar donanımı 3D simülasyonlu eğitim: girdi ve çıktı birimleri, kasanın içi, 5-8. sınıf.
+- [Girdi ve Çıktı Birimleri: Simülasyonlu Eğitim](https://bote.web.tr/3d/hardware/io-devices): Klavye, fare, mikrofon, ekran, hoparlör ve yazıcı: girdi ve çıktı birimlerini 3D masada keşfet. BTY dersi için 3D simülasyonlu eğitim, 5-8. sınıf.
+- [Kasanın İçi: Donanım Simülasyonlu Eğitim](https://bote.web.tr/3d/hardware/pc-parts): Kasanın kapağını aç: anakart, işlemci, RAM, SSD, ekran kartı, güç kaynağı, hava ve sıvı soğutmayı 3D keşfet. BTY dersi için 3D simülasyonlu eğitim, 5-8. sınıf.
 
 ## English pages
 

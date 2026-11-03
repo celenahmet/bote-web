@@ -216,6 +216,9 @@ function adimHtml(d, a, i) {
   if (a.tahmin) for (const s of SINIF) h += `<details class="tahmin" data-s="${s}"><summary>${guvenli(a.tahmin.soru[s] || a.tahmin.soru['6'])}</summary><div class="cevap">${paragraf(a.tahmin.cevap[s] || a.tahmin.cevap['6'])}</div></details>`;
   if (cfg.kontrol) h += d.y.kontrolHtml ? d.y.kontrolHtml(cfg.kontrol, { ico, esc, KONTROL: d.y.KONTROL, KONTROL_YAZI: d.y.KONTROL_YAZI }) : genelKontrol(cfg.kontrol, { ico, esc, KONTROL: d.y.KONTROL, KONTROL_YAZI: d.y.KONTROL_YAZI });
   if (cfg.kod) h += kodHtml(d.kod, d.y.kodAd);
+  // Boşluk kartları: "Akılda kalsın" ve "Günlük hayatta" (yalnız veride varsa; telefonda CSS ile gizli)
+  const kartlar = [['lightbulb', 'Akılda kalsın', a.akilda, ''], ['house', 'Günlük hayatta', a.gunluk, ' gunluk']].filter((k) => k[2]);
+  if (kartlar.length) h += `<div class="adim-kart">${kartlar.map(([i, b, m, c]) => `<div class="akart${c}">${ico(i)}<div><p class="akart-b">${b}</p><p>${guvenli(m)}</p></div></div>`).join('')}</div>`;
   if (a.id === 'ozet') h += sinavHtml(d.sinav);
   return h + '</li>';
 }

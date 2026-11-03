@@ -498,3 +498,11 @@ body.ozgur-sayfasi .kart-alt .dugme:not(.birincil){min-width:var(--kd);padding:0
 }
 @media (max-width:350px){.ust .ders-menu>summary{min-width:36px;padding:0 2px}}
 .ust .ders-menu:not([open])>.ders-panel{display:none}
+/* Adım altı boşluk kartları (Akılda kalsın, Günlük hayatta): yalnız panelde yer olan geniş ekranlarda */
+.adim-kart{display:grid;gap:10px;margin-top:22px}
+.akart{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.akart>.ico{flex:none;width:20px;height:20px;padding:9px;box-sizing:content-box;border-radius:11px;color:var(--violet);background:var(--violet-soft)}
+.akart.gunluk>.ico{color:var(--ok);background:var(--ok-soft)}
+.akart p{margin:0;line-height:1.5}
+.akart .akart-b{margin-bottom:2px;font-size:.78em;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:619px),(max-height:560px){.adim-kart{display:none}}
