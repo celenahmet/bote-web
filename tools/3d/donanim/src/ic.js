@@ -42,6 +42,7 @@ export function icKur(kasa, { aniz = 4 } = {}) {
   const kapakMal = govde.material;
   const kapakMesh = new Mesh(yuvarlak(0.5, 87, 85.8, 0.2, 0, 45.5, 43, 2), kapakMal);
   kapakMesh.castShadow = false; kapakMesh.receiveShadow = true; gKapak.add(kapakMesh);
+  if (govde.userData.logoAcik) gKapak.add(govde.userData.logoAcik); // yan kapak baskısı kapakla birlikte hareket eder
 
   // ---------------------------------------------------------------- vekiller ve keşif çapaları (hafif; hepsi gizli grupların altında)
   const kesif = [], vekiller = [];
