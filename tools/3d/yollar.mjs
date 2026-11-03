@@ -3,7 +3,8 @@
 // sonraki simülasyonlar /3d/<aile> altında". Ders kimliği (slug) DEĞİŞMEDİ: tarayıcıdaki ilerleme, sınıf ve
 // içerik dosyaları ona bağlı; yalnız adres aile altına taşındı. Eski adresler vercel.json'da kalıcı yönlendirme.
 export const MERKEZ_YOL = '/3d';
-export const MERKEZ_AD = '3D Simülasyon Merkezi';
+// Bölümün görünen adı (Ahmet 03.11.2026: "Simülasyonlu Eğitim şeklinde olsun"); adresler (/3d) değişmedi.
+export const MERKEZ_AD = 'Simülasyonlu Eğitim';
 
 // Aileler merkez sayfasında bu sırayla listelenir; yalnız yayında olanlar burada durur (yer tutucu yok).
 // Bilgisayar Donanımı (Ahmet 02.11.2026: "https://bote.web.tr/3d/hardware olarak yapsak daha iyi olurdu ingilizce olsun

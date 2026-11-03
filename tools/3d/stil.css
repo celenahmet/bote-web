@@ -464,3 +464,33 @@ body.ozgur-sayfasi .kart-alt .dugme:not(.birincil){min-width:var(--kd);padding:0
 .lejant summary:hover,.reosta-isaret:hover{color:var(--violet)}
 .sinif-izgara button:hover{border-color:var(--violet)}
 .ders-listesi a:hover{border-color:var(--violet);transform:translateY(-2px)}}
+/* Marka alt yazısı ve ders geçiş menüsü (03.11, Ahmet): "bote.web.tr" altında 3D ikonu + bölümün adı; ders adının yanında ok.
+   Üst çubuk kuralları .ust önekiyle (gorunum.js çalışma anında stil ekler). Panel position:fixed: header.ust yatayda kırpar. */
+.ust .marka{display:flex;flex-direction:column;justify-content:center;min-height:var(--hedef);padding-block:0;line-height:1.15}
+.ust .marka-alt{display:flex;align-items:center;gap:4px;font:600 calc(var(--fs) * .66)/1.2 var(--font);letter-spacing:0;color:var(--muted)}
+.ust .marka-alt .ico{width:1.2em;height:1.2em}
+.ust .ders-menu{min-width:0;display:flex;flex:0 1 auto}
+.ust .ders-menu>summary{list-style:none;display:flex;align-items:center;justify-content:center;gap:4px;min-width:var(--hedef);min-height:var(--hedef);padding:0 4px;border-radius:10px;cursor:pointer;max-width:100%;color:var(--ink)}
+.ust .ders-menu>summary::-webkit-details-marker{display:none}
+.ust .ders-menu>summary::marker{content:''}
+.ust .ders-menu>summary:hover{background:var(--raised)}
+.ust .ders-menu>summary .ico{width:1.25em;height:1.25em;min-width:1.25em;color:var(--muted);transition:transform .18s}
+.ust .ders-menu[open]>summary .ico{transform:rotate(180deg)}
+.ust .ders-menu>summary .ders-adi{min-width:0}
+.ust .ders-panel{position:fixed;top:var(--ust);left:8px;z-index:40;width:min(calc(var(--fs) * 21),calc(100vw - 16px));max-height:calc(100vh - var(--ust) - 12px);max-height:calc(100dvh - var(--ust) - 12px);overflow:auto;overscroll-behavior:contain;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 12px 36px #1b142633}
+.ust .ders-panel-ad{margin:0;padding:6px 12px 4px;font-size:.78em;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.ust .ders-panel ul{list-style:none;margin:0;padding:0}
+.ust .ders-panel a{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:var(--hedef);padding:4px 12px;border-radius:10px;color:var(--ink);text-decoration:none;font-weight:600}
+.ust .ders-panel a:hover{background:var(--raised)}
+.ust .ders-panel a[aria-current=page]{background:var(--violet-soft);color:var(--violet);font-weight:800}
+.ust .ders-panel-aile{margin-top:4px;border-top:1px solid var(--line);border-radius:0 0 10px 10px!important;color:var(--muted)!important;font-size:.92em}
+.ust .ders-panel-aile .ico{width:1.1em;height:1.1em}
+/* Telefon (≤560): "bote" bağlantısı ders sayfasında yer açar, ders adı ve ok onun yerine geçer (390 px'te sağ grup 291 px, geriye 83 px kalır;
+   ölçüm: ust.mjs). Marka alt yazısı ve bağlantı merkez/aile sayfalarında durur; ders menüsünün altındaki aile bağlantısı merkeze gider. */
+@media (max-width:560px){
+  .ders-sayfasi .ust .marka{display:none}
+  .ust .ders-menu .ders-adi{display:block}
+  .ust .ders-menu>summary{padding:0 2px 0 6px;justify-content:flex-start}
+}
+@media (max-width:350px){.ust .ders-menu>summary{min-width:36px;padding:0 2px}}
+.ust .ders-menu:not([open])>.ders-panel{display:none}

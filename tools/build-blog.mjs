@@ -207,9 +207,9 @@ ${live.map((p) => `- [${p.title}](${abs(p.url)}.md): ${p.description} (${p.categ
 
 ${trPages.map(line).join('\n')}
 ${simPages.length ? `
-## 3D Simülasyon Merkezi
+## Simülasyonlu Eğitim (3D)
 
-Ortaokul Bilişim Teknolojileri ve Yazılım dersleri için üç boyutlu etkileşimli dersler: Arduino UNO ve breadboard, bilgisayar donanımı. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
+Ortaokul Bilişim Teknolojileri ve Yazılım (BTY) dersi için üç boyutlu, simülasyonlu etkileşimli eğitim: Arduino UNO ve breadboard, bilgisayar donanımı. Anlatım, tanımlar ve sorular 5-8. sınıf düzeyine göre değişir; ders metni JavaScript olmadan da okunur.
 
 ${simPages.map((l) => line({ ...l, title: simAd(l.title) })).join('\n')}
 ` : ''}
@@ -239,7 +239,7 @@ ${live.map((p) => postMarkdown(blog, p, false)).join('\n---\n\n') || 'Henüz yay
     group('Blog', [li('/blog', 'BÖTE Blog'), ...categories.filter((c) => c.count).map((c) => li(c.url, `Kategori: ${c.name}`)),
       ...live.map((p) => li(p.url, p.title)), li(author.url, `${author.name} ve Yayın İlkeleri`)]),
     // 3D Simülasyon Merkezi yeni sekmede açılır (Ahmet 01.11), ekran okuyucuya görünmez not (simulasyon.mjs).
-    group('3D Simülasyon Merkezi', simPages.map((l) => li(l.served, simAd(l.title), YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU_HTML))),
+    group('Simülasyonlu Eğitim', simPages.map((l) => li(l.served, simAd(l.title), YENI_SEKME_OZNITELIK, YENI_SEKME_NOTU_HTML))),
     group('Üniversitelerin BÖTE bölümleri', UNIVERSITIES.map(([n, h]) => li(h, n, ' target="_blank" rel="noopener"'))),
     group('English pages', enPages.map((l) => li(l.served, clean(l.title), ' hreflang="en" lang="en"'))),
   ].join('\n');

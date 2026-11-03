@@ -1,7 +1,7 @@
 {
   "slug": "arduino-led-yakma",
   "baslik": "LED Yakalım",
-  "kisa": "Arduino UNO ile ilk devre: LED, 220 ohm direnç ve kısa bir kodla yanıp sönen ışık. Ortaokul 5-8. sınıflara özel anlatımlı 3D simülasyon.",
+  "kisa": "Arduino UNO ile ilk devre: LED, 220 ohm direnç ve kısa bir kodla yanıp sönen ışık. BTY dersi için 3D simülasyonlu eğitim, 5-8. sınıf.",
   "sure": 25,
   "hedefler": {
     "5": [
