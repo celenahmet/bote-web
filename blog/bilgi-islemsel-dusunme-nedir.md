@@ -67,7 +67,7 @@ Bilgi işlemsel düşünmeyi öğretmek için her zaman bilgisayar gerekmez. Sı
 
 Etkinlik sonrasında öğrenciler adımlarını yeniden yazar. Bu sırada farkında olmadan beş beceriyi birlikte kullanırlar. Görevi alt adımlara ayırırlar (ayrıştırma), gereksiz ayrıntıyı atarlar (soyutlama), tekrar eden işleri fark ederler (örüntü tanıma), adımları sıralarlar (algoritma) ve hataları düzeltirler (hata ayıklama). Aynı mantık daha sonra blok tabanlı programlama araçlarına taşınabilir; Scratch gibi araçlar öğrencilerin kendi fikirlerini proje hâline getirmesine olanak tanır.[9]
 
-Adımları bir devreye taşımak isteyenler için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersinde](https://bote.web.tr/3d/arduino/trafik-isigi) öğrenciler ışıkların sırasını bir algoritma olarak yazar ve Arduino devresinde üç boyutlu olarak çalıştırır.
+Adımları bir devreye taşımak isteyenler için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersinde](https://bote.web.tr/3d/arduino/traffic-light) öğrenciler ışıkların sırasını bir algoritma olarak yazar ve Arduino devresinde üç boyutlu olarak çalıştırır.
 
 ## Nasıl değerlendirilir?
 

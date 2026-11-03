@@ -3,14 +3,14 @@
   <url><loc>https://bote.web.tr/</loc><xhtml:link rel="alternate" hreflang="tr" href="https://bote.web.tr/"/><xhtml:link rel="alternate" hreflang="en" href="https://bote.web.tr/en"/><xhtml:link rel="alternate" hreflang="x-default" href="https://bote.web.tr/"/></url>
   <url><loc>https://bote.web.tr/3d</loc></url>
   <url><loc>https://bote.web.tr/3d/arduino</loc></url>
-  <url><loc>https://bote.web.tr/3d/arduino/buton-led</loc></url>
-  <url><loc>https://bote.web.tr/3d/arduino/led-yakma</loc></url>
-  <url><loc>https://bote.web.tr/3d/arduino/ozgur-mod</loc></url>
-  <url><loc>https://bote.web.tr/3d/arduino/tanitim</loc></url>
-  <url><loc>https://bote.web.tr/3d/arduino/trafik-isigi</loc></url>
+  <url><loc>https://bote.web.tr/3d/arduino/basics</loc></url>
+  <url><loc>https://bote.web.tr/3d/arduino/button-led</loc></url>
+  <url><loc>https://bote.web.tr/3d/arduino/led-blink</loc></url>
+  <url><loc>https://bote.web.tr/3d/arduino/simulator</loc></url>
+  <url><loc>https://bote.web.tr/3d/arduino/traffic-light</loc></url>
   <url><loc>https://bote.web.tr/3d/hardware</loc></url>
-  <url><loc>https://bote.web.tr/3d/hardware/input-output-devices</loc></url>
-  <url><loc>https://bote.web.tr/3d/hardware/inside-the-case</loc></url>
+  <url><loc>https://bote.web.tr/3d/hardware/io-devices</loc></url>
+  <url><loc>https://bote.web.tr/3d/hardware/pc-parts</loc></url>
   <url><loc>https://bote.web.tr/about</loc><xhtml:link rel="alternate" hreflang="tr" href="https://bote.web.tr/about"/><xhtml:link rel="alternate" hreflang="en" href="https://bote.web.tr/en/about"/><xhtml:link rel="alternate" hreflang="x-default" href="https://bote.web.tr/about"/></url>
   <url><loc>https://bote.web.tr/accreditation</loc><xhtml:link rel="alternate" hreflang="tr" href="https://bote.web.tr/accreditation"/><xhtml:link rel="alternate" hreflang="en" href="https://bote.web.tr/en/accreditation"/><xhtml:link rel="alternate" hreflang="x-default" href="https://bote.web.tr/accreditation"/></url>
   <url><loc>https://bote.web.tr/blog</loc><lastmod>2026-11-01</lastmod></url>

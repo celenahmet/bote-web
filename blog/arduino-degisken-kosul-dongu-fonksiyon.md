@@ -344,7 +344,7 @@ void loop() {
 - Döngü sayacı i, dizinin indisi olarak kullanılır; i < ledSayisi koşulu i'yi 0 ile 3 arasında tutar ve ledler[4]'e hiç erişilmez.[20]
 - ledYak bir değer döndürmediği için void ile tanımlanmıştır.[4] Bir tur 4 × 200 = 800 ms sürer.
 
-Aynı sırayla yakma fikrini ortaokul düzeyinde, üç LED'li bir trafik ışığı modeliyle üç boyutlu kurup çalıştırmak için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersine](https://bote.web.tr/3d/arduino/trafik-isigi) bakabilirsiniz.
+Aynı sırayla yakma fikrini ortaokul düzeyinde, üç LED'li bir trafik ışığı modeliyle üç boyutlu kurup çalıştırmak için [3D Simülasyon Merkezi'ndeki Trafik Işığı Yapalım dersine](https://bote.web.tr/3d/arduino/traffic-light) bakabilirsiniz.
 
 ## Öğrencilerin sık yaptığı hatalar
 
