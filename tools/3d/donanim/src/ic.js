@@ -3,8 +3,9 @@
 // Konumlar kasa-yerel birim (icYer.js); dünya = KASA.x + x, y, KASA.z + z. Hareket yöneticisi donanimSahne.js'te kalır; burada yalnız durum ayarlayıcılar var.
 import {
   Group, Mesh, InstancedMesh, Object3D, Vector3, Quaternion, Color, BoxGeometry, ConeGeometry, PlaneGeometry, MeshStandardMaterial, MeshBasicMaterial,
-  CatmullRomCurve3, DoubleSide,
+  CatmullRomCurve3, DoubleSide, BufferGeometry, TubeGeometry,
 } from 'three';
+import { mergeGeometries } from 'three/examples/jsm/utils/BufferGeometryUtils.js';
 import { yuvarlak, vekil, kesifNok } from './yardimci.js';
 import { atlasDokusu, filtreDokusu, hortumDokusu, icDokuSure } from './icDoku.js';
 import {
@@ -19,6 +20,12 @@ const V = (x, y, z) => new Vector3(x, y, z);
 const ease = (k) => k * k * (3 - 2 * k);
 const KUCUK = { minAdim: 4, minPx: 14 };
 export const KAPAK_ACI = 1.75; // 100 derece
+// soğutucu kaldırma yolu (birim): cek işlemciden ayrılma, cik açık yandan dışarı (toplam 38: taban x 16.1 -> -21.9, kasa yanı -19.75),
+// yuk ve geri dışarıdayken yükselme ve geriye alma
+const KALDIR = { cek: 5, cik: 33, yuk: 10, geri: 6 };
+// hortum dokunma tüpü yarıçapı (birim): 390 px telefonda hortumun dokunma karesi 12 -> 36 px (3.8'de 40 px ama pompa ve RAM daralıyor)
+const HORTUM_VEKIL_R = 3.0;
+const gorunmezMal = new MeshBasicMaterial({ visible: false }); // çizilmez (çizim çağrısı yok), yalnız ışınla yoklanır
 
 export function icKur(kasa, { aniz = 4 } = {}) {
   const govde = kasa.govde;
@@ -49,6 +56,7 @@ export function icKur(kasa, { aniz = 4 } = {}) {
   const gYc = (GPU.alt + GPU.y) / 2 + 0.25, gH = GPU.y - GPU.alt + 1.3;
   vk(gSabit, 'ekran-karti', GPU.x1 - GPU.x0 + 0.8, gH, 55.6, (GPU.x0 + GPU.x1) / 2, gYc, -14.4); cp(gSabit, 'ekran-karti', GPU.x0 - 0.6, GPU.y - 1.4, 6);
   vk(gSabit, 'guc-kablolari', 7, 39, 8.8, 14.5, 43.5, 15.2); cp(gSabit, 'guc-kablolari', 13.2, 44, 16.5);
+  vk(gSabit, 'guc-kablolari', 10, 15, 19, 9.5, 20.5, -3.5); // 24 pin kablonun güç kaynağından çıkan alt kolu (güç kaynağı adımında görünen kısım)
   vk(gSabit, 'guc-kaynagi', 31, 17.7, 29.5, -3.5, 10.65, -27.75); cp(gSabit, 'guc-kaynagi', -3.5, 19.1, -28);
   vk(gSabit, 'm2-ssd', 2, 5.6, 17, 17.4, (M2.y0 + M2.y1) / 2, -18.5); cp(gSabit, 'm2-ssd', 16.4, (M2.y0 + M2.y1) / 2, -18.5);
   vk(gSabit, 'sata-ssd', 2.6, 15, 21, 17.9, 33.5, 31); cp(gSabit, 'sata-ssd', 16.4, 36.8, 31);
@@ -58,22 +66,37 @@ export function icKur(kasa, { aniz = 4 } = {}) {
   vk(gSabit, 'arka-panel', 31, 9.3, 1.6, 2.9, 74.55, -42.3); cp(gSabit, 'arka-panel', 2.9, 74.55, -42.3);
   vk(gSabit, 'wifi-karti', 14.6, 2.6, 6.6, 10.1, WIFI.y, -38.1); cp(gSabit, 'wifi-karti', 6.6, WIFI.y + 1.4, -38.1);
   vk(gSabit, 'toz-filtresi', 35.2, 1.5, 80, 0, 89.65, 0); cp(gSabit, 'toz-filtresi', -9, 90.4, 28);
-  ON_FAN.forEach((y) => vk(gSabit, 'kasa-fani', 24.4, 24.4, 5.4, 0, y, 39.7));
+  // ön fanlar: vekil delikli ön panelin yüzüne dek uzanır (fan panelin hemen arkasında; geniş açıdan dokunulan yüz panel)
+  ON_FAN.forEach((y) => vk(gSabit, 'kasa-fani', 38, 24.4, 6.6, 0, y, 40.3));
   cp(gSabit, 'kasa-fani', -12.5, ON_FAN[1], 39.7);
   // hava soğutucu (kule) ve ısı boruları
   vk(gHava, 'hava-sogutucu', 26, 19.4, 14.4, 3.5, CPU.y, -19.6); cp(gHava, 'hava-sogutucu', -9.6, CPU.y + 7.0, -14.9);
-  vk(gHava, 'isi-borusu', 2.2, 8, 9, -8.9, CPU.y, -22.1); vk(gHava, 'isi-borusu', 4, 8, 9, 14.1, CPU.y, -22.1); cp(gHava, 'isi-borusu', -10.0, CPU.y - 1.4, -22.4);
+  // ısı boruları yakınlaşınca ayrı seçilir; geniş açıda soğutucunun yüzünü bölmez (dokunuş bütün soğutucuya gider)
+  const BORU = { minAdim: 8, minPx: 14 };
+  vk(gHava, 'isi-borusu', 2.2, 8, 9, -8.9, CPU.y, -22.1, BORU); vk(gHava, 'isi-borusu', 4, 8, 9, 14.1, CPU.y, -22.1, BORU); cp(gHava, 'isi-borusu', -10.0, CPU.y - 1.4, -22.4);
   vk(gEgzoz, 'kasa-fani', 24.4, 5.4, 24.4, 0, 87.1, -24); cp(gEgzoz, 'kasa-fani', -12.6, 87.1, -24);
   // termal macun (soğutucu kalkınca)
   vk(gMacun, 'termal-macun', 1.4, 7, 7, 16.2, CPU.y, CPU.z, KUCUK); cp(gMacun, 'termal-macun', 15.5, CPU.y - 4.2, CPU.z - 1.0);
   // RAM (çıkarılabilir) ve yuva bölgesi
   const rYc = (RAM.y0 + RAM.y1) / 2;
-  vk(gSabit, 'ram', 9.4, 27.4, 7, 13.4, rYc, -6.9);
+  // yuva bölgesi: çubukların iki yanındaki kart yüzü de RAM'e dokunur (ince çubuklar geniş açıda dar kalır). 16 birim derin:
+  // 320 px telefonda özet adımında dokunma karesi 40 -> 44 px üstü; soğutucunun (z <= -12.4) üstüne yalnız 1 birim biner.
+  // hacim elle 3500: anakart vekilinin (3572) kesin altında (en küçük hacim kazanır; kutu hacmi 4121 olsa anakart kazanıp RAM karesi 24 px'e düşer),
+  // yuvadaki iki çubuk vekilinin (789) üstünde
+  vk(gSabit, 'ram', 9.4, 27.4, 16, 13.4, rYc, -5.4, { hacim: 3500 });
   vk(gRam, 'ram', 9, 27.4, 3.2, 12.8, rYc, RAM.z0 + RAM.adim * 1); vk(gRam, 'ram', 9, 27.4, 3.2, 12.8, rYc, RAM.z0 + RAM.adim * 3); cp(gRam, 'ram', 8.3, 70, -6.1);
   // sıvı soğutma
   vk(gSivi, 'pompa-blogu', SIVI.pompaX1 - SIVI.pompaX0 + 0.4, 2 * SIVI.pompaR + 3.6, 2 * SIVI.pompaR + 0.8, (SIVI.pompaX0 + SIVI.pompaX1) / 2, CPU.y + 1.3, CPU.z); cp(gSivi, 'pompa-blogu', SIVI.pompaX0 - 0.15, CPU.y - 2.0, CPU.z + 1.5);
-  vk(gSivi, 'radyator', 25.2, 6, 55, 0, 87, -14); cp(gSivi, 'radyator', -12.6, 87, -26);
-  vk(gSivi, 'sogutma-hortumu', 4.6, 4.2, 31, 14.2, 77.7, -2); vk(gSivi, 'sogutma-hortumu', 3, 9, 6, 13.1, 73.6, -20.5); cp(gSivi, 'sogutma-hortumu', 13.0, 78.5, 4);
+  // radyatör tavan filtresinin hemen altında: hacmi filtreden (ve altındaki fanlardan) küçük sayılır ki filtrenin üstünden ve yandan
+  // radyatöre gelen dokunuş radyatöre gitsin (filtre radyatörün dışında kalan tavanda seçilir)
+  vk(gSivi, 'radyator', 25.2, 6, 55, 0, 87, -14, { hacim: 3000 }); cp(gSivi, 'radyator', -12.6, 87, -26);
+  // hortum: iki hortumu saran kutu (yatay kol) + her hortumun çevresinde kalın, görünmez tüp (ince: ışın yanından geçse de seçilir;
+  // geometrisi tembel kurulumda dolar, kapalı kasada maliyet yok). Tüp pompa ve radyatör uçlarına girmez, onların dokunuşunu almaz.
+  vk(gSivi, 'sogutma-hortumu', 4.4, 6.6, 26, 6.5, 71.9, -1); cp(gSivi, 'sogutma-hortumu', 5.5, 72.9, 3);
+  const hortumVekil = ['A', 'B'].map(() => {
+    const m = new Mesh(new BufferGeometry(), gorunmezMal); m.name = 'hortum-vekili';
+    m.userData = { kesif: 'sogutma-hortumu', parca: 'ic', ince: true, hacim: 300 }; gSivi.add(m); vekiller.push(m); return m;
+  });
   vk(gSivi, 'sivi-sogutma', 25.2, 6, 5.8, 0, 87, 12.7); cp(gSivi, 'sivi-sogutma', -12.6, 87, 12.5);
   vk(gSivi, 'kasa-fani', 24.4, 5.4, 24.4, 0, 81.7, -26); vk(gSivi, 'kasa-fani', 24.4, 5.4, 24.4, 0, 81.7, -2);
 
@@ -86,13 +109,14 @@ export function icKur(kasa, { aniz = 4 } = {}) {
     'ic-macun': nk(gMacun, 15.5, CPU.y - 3.8, CPU.z - 1.0), 'ic-hava': nk(gHava, -9.6, CPU.y + 7.6, -14.9), 'ic-isi-borusu': nk(gHava, -10.0, CPU.y - 1.4, -22.4),
     'ic-ram': nk(gRam, 8.3, 72, -6.1), 'ic-m2': nk(gSabit, 16.4, M2.y1 + 1.2, -18.5), 'ic-sata-ssd': nk(gSabit, 16.4, 37.6, 31), 'ic-hdd': nk(gSabit, 12.6, 14.4, 22),
     'ic-gpu': nk(gSabit, GPU.x0 - 0.6, GPU.y - 3.0, 4), 'ic-psu': nk(gSabit, -3.5, 19.1, -28), 'ic-pompa': nk(gSivi, SIVI.pompaX0 - 0.15, CPU.y - 2.0, CPU.z + 1.5),
-    'ic-radyator': nk(gSivi, -12.6, 87, -26), 'ic-hortum': nk(gSivi, 13.0, 78.5, 4), 'ic-fan-on': nk(gSabit, -12.5, ON_FAN[1], 39.7),
+    'ic-radyator': nk(gSivi, -12.6, 87, -26), 'ic-hortum': nk(gSivi, 5.5, 72.9, 3), 'ic-fan-on': nk(gSabit, -12.5, ON_FAN[1], 39.7),
     'ic-fan-egzoz': nk(gEgzoz, -12.6, 87.1, -24), 'ic-fan-kule': nk(gHava, -2.0, CPU.y, -12.6), 'ic-wifi': nk(gSabit, 6.6, WIFI.y + 1.4, -38.1), 'ic-arka-panel': nk(gSabit, 2.9, 74.55, -42.3),
-    'ic-pil': nk(gSabit, 15.4, BIOS.y, BIOS.z), 'ic-kablo24': nk(gSabit, 13.2, 44, 16.5), 'ic-sata-kablo': nk(gSabit, 13.0, 20.5, 8.5),
+    // 24 pin kablo: güç kaynağından çıktığı kol (güç kaynağı adımının kutusunda kalır; kablo oradan anakarta yükselir)
+    'ic-pil': nk(gSabit, 15.4, BIOS.y, BIOS.z), 'ic-kablo24': nk(gSabit, 8.0, 19.2, -3.0), 'ic-sata-kablo': nk(gSabit, 13.0, 20.5, 8.5),
     'ic-akis-giris': nk(gSabit, -11, 66, 46), 'ic-akis-cikis': nk(gSabit, -11, 94, -26), 'ic-wifi-arka': nk(gSabit, 6.8, WIFI.y, -44.6),
     'ic-arka-hdmi': nk(kasa.grup, ARKA.hdmi.x, ARKA.hdmi.y + 1.4, -44.8), 'ic-arka-usb': nk(kasa.grup, 7.4, 76.6, -44.8), 'ic-arka-ag': nk(kasa.grup, ARKA.ag.x, ARKA.ag.y + 1.8, -44.8),
     'ic-arka-ses': nk(kasa.grup, -7.6, 76.3, -44.8),
-    'ic-sivi-sicak': nk(gSivi, 13.0, 78.5, 1), 'ic-sivi-soguk': nk(gSivi, 15.3, 77.0, -5),
+    'ic-sivi-sicak': nk(gSivi, 6.6, 78.0, 16.2), 'ic-sivi-soguk': nk(gSivi, 4.9, 70.5, -5),
   };
   // keşif kutuları (dünya koordinatı [x, y, z, w, h, d]); vurgu ve kamera için
   const al = (x0, y0, z0, x1, y1, z1) => [KASA.x + (x0 + x1) / 2, (y0 + y1) / 2, KASA.z + (z0 + z1) / 2, x1 - x0, y1 - y0, z1 - z0];
@@ -140,18 +164,30 @@ export function icKur(kasa, { aniz = 4 } = {}) {
       for (const a of ['p', 'm']) if (m[a]) { m[a].castShadow = true; m[a].receiveShadow = true; }
       pompaMal = new MeshStandardMaterial({ color: 0x12131a, roughness: 0.4, metalness: 0.2, emissive: 0x9b7bff, emissiveIntensity: 0 });
       pompaKapak = new Mesh(POMPA_KAPAK(), pompaMal); gSivi.add(pompaKapak);
-      for (const [ad, nok, renk] of [['A', HORTUM.A, '#ff8a3d'], ['B', HORTUM.B, '#58b0ff']]) {
+      // iki hortum tek mesh ve tek malzeme (çizim çağrısı ve gölge çağrısı birer): akış okları dokunun iki renk bandından gelir.
+      // Her hortumun uv'si kendi bandına (v) ve kendi uzunluğuna göre ok sayısına (u) çevrilir; ikisi aynı offset ile akar.
+      const tex = hortumDokusu(['#ff8a3d', '#58b0ff'], aniz);
+      const geolar = [HORTUM.A, HORTUM.B].map((nok, i) => {
         const { geo, egri } = boruGeo(nok, HORTUM_R, 80, 10, 0.4);
-        const tex = hortumDokusu(renk, aniz); tex.repeat.set(Math.max(2, Math.round(egri.getLength() / 6)), 1);
-        const mm = new MeshStandardMaterial({ color: 0x2c2f36, roughness: 0.55, metalness: 0.05, emissive: 0xffffff, emissiveMap: tex, emissiveIntensity: 0 });
-        const me = new Mesh(geo, mm); me.castShadow = true; me.receiveShadow = true; me.name = 'hortum-' + ad; gSivi.add(me);
-        hortumMal.push({ tex, mal: mm, ad });
-      }
+        const n = Math.max(2, Math.round(egri.getLength() / 6)), uv = geo.attributes.uv;
+        for (let j = 0; j < uv.count; j++) uv.setXY(j, uv.getX(j) * n, (i === 0 ? 0.5 : 0) + uv.getY(j) * 0.5);
+        // dokunma tüpü: eğrinin uçları (pompa ve radyatör bağlantısı) hariç orta kısmı
+        const orta = new CatmullRomCurve3(egri.getSpacedPoints(40).slice(6, 35));
+        hortumVekil[i].geometry.dispose(); hortumVekil[i].geometry = new TubeGeometry(orta, 30, HORTUM_VEKIL_R, 6, false);
+        return geo;
+      });
+      // örgü kılıflı hortum: koyu gri ve hafif parlak (anakartın siyahından ayrılan, gerçekçi bir kılıf; ışıma yalnız çalışırken)
+      const mm = new MeshStandardMaterial({ color: 0x4d525b, roughness: 0.42, metalness: 0.12, emissive: 0xffffff, emissiveMap: tex, emissiveIntensity: 0 });
+      const me = new Mesh(mergeGeometries(geolar, false), mm); me.castShadow = true; me.receiveShadow = true; me.name = 'hortumlar'; gSivi.add(me);
+      for (const g of geolar) g.dispose();
+      hortumMal.push({ tex, mal: mm, ad: 'AB' });
     });
     olcum('filtre', () => {
       const tex = filtreDokusu(aniz); tex.repeat.set(35.2 / 6, 80 / 6);
       const pl = new PlaneGeometry(35.2, 80); pl.rotateX(-Math.PI / 2);
-      filtre = new Mesh(pl, new MeshStandardMaterial({ map: tex, alphaTest: 0.5, side: DoubleSide, roughness: 0.6, metalness: 0.5, color: 0xc8ccd4 }));
+      // saydam karışım (alphaTest değil): deliklerden radyatör ve fanlar görünür; derinlik yazmaz, altındakini örtmez.
+      // forceSinglePass: çift yüzlü saydam malzeme three.js'te iki çağrıyla çizilir; ince düzlemde sıralama gerekmez, tek çağrı
+      filtre = new Mesh(pl, new MeshStandardMaterial({ map: tex, transparent: true, depthWrite: false, side: DoubleSide, forceSinglePass: true, roughness: 0.7, metalness: 0.3 }));
       filtre.position.set(0, 89.95, 0); filtre.name = 'toz-filtresi'; gSabit.add(filtre);
     });
     olcum('rotor', rotorKur);
@@ -248,11 +284,13 @@ export function icKur(kasa, { aniz = 4 } = {}) {
     gHava.position.set(0, 0, 0); gMacun.visible = false;
     if (D.hazir) { goruntuGuncelle(); fanMatrisleri(); } else goruntuGuncelle();
   }
-  // soğutucuyu kaldır: önce kapağa doğru çıkar, sonra yukarı kayar (macun görünür)
+  // soğutucuyu kaldır: anakart dikey durduğu için "yukarı" kapak yönüdür (-x). Önce işlemciden kısa çekilir (macun görünür),
+  // sonra aynı yönde açık yandan kasanın dışına kayar (tavana ve tavan fanına değmez), dışarıda biraz yükselip geriye alınır:
+  // işlemcinin önünden çekilir, kamera kutusu (adimlar.js ic-islemci) son konumu da içerir.
   function kaldirAyarla(k) {
     D.kaldir = k;
-    const a = Math.min(1, k / 0.45), b = ease(Math.max(0, (k - 0.45) / 0.55));
-    gHava.position.set(-ease(a) * 13, b * 24, 0); gHava.updateMatrixWorld(true);
+    const a = ease(Math.min(1, k / 0.2)), b = ease(Math.min(1, Math.max(0, (k - 0.2) / 0.5))), c = ease(Math.max(0, (k - 0.7) / 0.3));
+    gHava.position.set(-(a * KALDIR.cek + b * KALDIR.cik), c * KALDIR.yuk, -c * KALDIR.geri); gHava.updateMatrixWorld(true);
     gMacun.visible = D.tur === 'hava' && k > 0.35;
     if (D.hazir) fanMatrisleri();
   }

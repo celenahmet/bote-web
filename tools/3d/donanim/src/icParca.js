@@ -215,6 +215,7 @@ export function radyatorYap(K) {
   const yc = (SIVI.radY0 + SIVI.radY1) / 2, xc = (SIVI.radX0 + SIVI.radX1) / 2, hy = SIVI.radY1 - SIVI.radY0;
   K.m(kutu(SIVI.radX1 - SIVI.radX0, hy, 48, xc, yc, -14), 0xffffff);                       // petek (nervürlü doku)
   K.p(yanEtiket(48, hy, SIVI.radX0 - 0.03, yc, -14), 0xffffff, 'radFin');
+  { const g = new PlaneGeometry(48, SIVI.radX1 - SIVI.radX0); g.rotateX(-Math.PI / 2); g.rotateY(Math.PI / 2); g.translate(xc, SIVI.radY1 + 0.03, -14); K.p(g, 0xffffff, 'radFin'); } // üst yüz: tavan filtresinin altından petek görünür
   K.m(kutu(SIVI.radX1 - SIVI.radX0, hy, 3.4, xc, yc, -39.7), 0x24272d); K.m(kutu(SIVI.radX1 - SIVI.radX0, hy, 3.4, xc, yc, 11.7), 0x24272d);  // uç tanklar
   for (const x of [8.0, 4.0]) { K.m(silindir(0.95, 1.8, x, 86.9, 14.3, { eksen: 'z', seg: 14 }), 0xc5cad2); K.p(silindir(1.3, 0.6, x, 86.9, 15.4, { eksen: 'z', seg: 14 }), 0x111215); }
   K.m(kutu(0.2, hy + 0.1, 0.4, SIVI.radX0 - 0.05, yc, -37.2), 0x7a8190);
@@ -225,9 +226,11 @@ export function radyatorYap(K) {
 export const HORTUM_R = 1.05;
 const PX = (SIVI.pompaX0 + SIVI.pompaX1) / 2, PZ1 = CPU.z + 1.7, PZ0 = CPU.z - 1.7, PYU = CPU.y + SIVI.pompaR + 1.8;
 export const HORTUM = {
-  // radyatör fan çerçevesinin altından (y 76.6 .. 79.5) geçer: açık yan taraftan görünür; VRM soğutucusunun (x >= 14.4) dışında kalır
-  A: [[PX, PYU, PZ1], [PX - 0.1, PYU + 3.0, PZ1], [13.0, 77.9, -17.6], [13.0, 78.4, -9], [13.0, 78.5, 4], [13.4, 79.6, 13], [12.0, 84.8, 19.6], [8.0, 87.0, 18.6], [8.0, 86.9, 15.6]],
-  B: [[4.0, 86.9, 15.6], [4.0, 87.0, 18.6], [10.5, 85.6, 22.2], [15.3, 81.5, 16], [15.3, 77.6, 6], [15.3, 77.0, -6], [13.4, 77.6, -13.5], [12.9, 76.5, -20.5], [PX - 0.1, PYU + 2.8, PZ0], [PX, PYU, PZ0]],
+  // Pompadan çıkınca kapak yanına doğru eğilir, RAM'in önünden (x <= 8.3, RAM x >= 9) üst üste iki hortum olarak öne gider ve
+  // radyatörün ön tankına yükselir. Yatay kol radyatör fanlarının (alt kenar y 79.2) belirgin altında kalır: yandan ~16°
+  // yukarıdan bakan kamerada fan bloğunun arkasına girmez, koyu anakartın önünde silueti okunur.
+  A: [[PX, PYU, PZ1], [PX - 0.1, PYU + 2.4, PZ1], [10.4, 74.2, -16.4], [7.2, 73.2, -10], [6.6, 72.9, 0], [6.8, 73.3, 8.5], [7.6, 77.2, 15.6], [8.0, 83.6, 19.0], [8.0, 86.6, 18.4], [8.0, 86.9, 15.6]],
+  B: [[4.0, 86.9, 15.6], [4.0, 86.7, 18.8], [4.0, 82.2, 21.4], [5.0, 74.4, 17.6], [5.8, 70.8, 8.0], [6.0, 70.5, -2], [6.6, 70.7, -12], [9.2, 71.6, -19.4], [11.8, 72.4, -21.8], [PX - 0.1, PYU + 1.6, PZ0], [PX, PYU, PZ0]],
 };
 
 // ------------------------------------------------------------------ ekran kartı

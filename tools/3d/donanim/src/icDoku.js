@@ -207,17 +207,18 @@ export function atlasDokusu(aniz = 4) {
   return t;
 }
 
-// toz filtresi ve kasa üst ızgarası: altıgen delikli, delikleri saydam (alphaTest ile kesilir); döşenir
+// toz filtresi: ince koyu çubuklu altıgen ağ, delikler saydam (yüzeyin ~%65'i açık); döşenir. Malzeme saydam karışımla çizer:
+// uzaktan (küçük mip düzeyinde) ağ yarı saydam koyu bir tül gibi görünür, altındaki radyatör üstten okunur.
 export function filtreDokusu(aniz = 4) {
   const t0 = performance.now();
   const [c, x] = tuval(128, 128);
   x.clearRect(0, 0, 128, 128);
-  x.fillStyle = '#9ea4b0'; x.fillRect(0, 0, 128, 128);
+  x.fillStyle = '#5a606a'; x.fillRect(0, 0, 128, 128);
   x.globalCompositeOperation = 'destination-out';
   const adim = 16, h = adim * 0.866;
   for (let j = 0; j < 128 / h + 1; j++) for (let i = 0; i < 128 / adim + 1; i++) {
     x.beginPath(); const cx = (i + (j % 2 ? 0.5 : 0)) * adim, cy = j * h;
-    for (let k = 0; k < 6; k++) { const a = (Math.PI / 3) * k + Math.PI / 6; x.lineTo(cx + Math.cos(a) * 6.2, cy + Math.sin(a) * 6.2); }
+    for (let k = 0; k < 6; k++) { const a = (Math.PI / 3) * k + Math.PI / 6; x.lineTo(cx + Math.cos(a) * 7.45, cy + Math.sin(a) * 7.45); }
     x.closePath(); x.fill();
   }
   const t = new CanvasTexture(c);
@@ -227,11 +228,16 @@ export function filtreDokusu(aniz = 4) {
 }
 
 // sıvı soğutma hortumu: koyu örgü kılıf (taban) + akış okları (ışıma haritası). Ok ucu +u yönüne bakar; offset ile kaydırılır.
-export function hortumDokusu(renk, aniz = 4) {
-  const [c, x] = tuval(128, 64);
-  x.fillStyle = '#000'; x.fillRect(0, 0, 128, 64);
-  x.strokeStyle = renk; x.lineWidth = 7; x.lineJoin = 'miter'; x.lineCap = 'butt';
-  for (let i = 0; i < 2; i++) { const ox = i * 64; x.beginPath(); x.moveTo(ox + 14, 8); x.lineTo(ox + 40, 32); x.lineTo(ox + 14, 56); x.stroke(); }
+// renkler: her renk 64 piksellik bir bant (üstten alta); iki hortum tek malzemeyi paylaşır, her biri kendi bandını kullanır
+// (ic.js v'yi banda sıkıştırır; flipY ile ilk bant v 0.5..1, ikinci bant v 0..0.5).
+export function hortumDokusu(renkler, aniz = 4) {
+  const [c, x] = tuval(128, 64 * renkler.length);
+  x.fillStyle = '#000'; x.fillRect(0, 0, 128, 64 * renkler.length);
+  x.lineWidth = 7; x.lineJoin = 'miter'; x.lineCap = 'butt';
+  renkler.forEach((renk, b) => {
+    x.strokeStyle = renk; const oy = b * 64;
+    for (let i = 0; i < 2; i++) { const ox = i * 64; x.beginPath(); x.moveTo(ox + 14, oy + 8); x.lineTo(ox + 40, oy + 32); x.lineTo(ox + 14, oy + 56); x.stroke(); }
+  });
   const t = new CanvasTexture(c);
   t.colorSpace = SRGBColorSpace; t.wrapS = t.wrapT = RepeatWrapping; t.anisotropy = aniz;
   return t;
