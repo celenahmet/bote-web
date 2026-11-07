@@ -22,7 +22,9 @@ const cats = blog.categories.filter((c) => c.count);
     <nav class="topnav" aria-label="Blog kategorileri ve Simülasyonlu Eğitim">
       <a class="all-posts" href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} /><span>Tüm yazılar</span></a>
       {cats.map((c) => <a href={c.url} title={c.short ? c.name : undefined} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.short || c.name}</span></a>)}
-      <a class="nav-3d" href="/3d" {...YENI_SEKME} title="Simülasyonlu Eğitim"><Icon name="rotate-3d" size={18} /><span>Simülasyon</span><Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
+      {/* "Yeni" rozeti (Ahmet 07.11: "yeni diye belirtme yapacağız, onun tasarımı sende"): düz marka pembesi hap,
+          gölge ve parıltı yok; ana sitedeki menüde de aynı rozet (index.html .nav-yeni). */}
+      <a class="nav-3d" href="/3d" {...YENI_SEKME} title="Simülasyonlu Eğitim"><Icon name="rotate-3d" size={18} /><span>Simülasyon</span><span class="yeni-rozet">Yeni</span><Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
     </nav>
     <div class="top-actions">
       <SearchPalette client:idle />
@@ -34,7 +36,7 @@ const cats = blog.categories.filter((c) => c.count);
             <a href="/blog" aria-current={current === 'blog' ? 'page' : undefined}><Icon name="layout-grid" size={18} />Tüm yazılar</a>
             {cats.map((c) => <a href={c.url} aria-current={current === c.slug ? 'page' : undefined}><Icon name={c.icon} size={18} /><span>{c.name}</span></a>)}
           </div>
-          <a href="/3d" {...YENI_SEKME}><Icon name="rotate-3d" size={18} />Simülasyonlu Eğitim<Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
+          <a href="/3d" {...YENI_SEKME}><Icon name="rotate-3d" size={18} />Simülasyonlu Eğitim<span class="yeni-rozet yeni-rozet-satir">Yeni</span><Fragment set:html={YENI_SEKME_NOTU_HTML} /></a>
           <a href="/pdf" aria-current={current === 'pdf' ? 'page' : undefined}><Icon name="files" size={18} />PDF Merkezi</a>
           <a href="/"><Icon name="arrow-up-right" size={18} />Ana site</a>
         </nav>

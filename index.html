@@ -48,6 +48,19 @@
     <meta property="og:description" content="CEIT (Computer Education and Instructional Teaching), bölümü eğitim fakültelerinin yeniden yapılandırılma sürecinde 1998 yılında kurulmuştur. Bölüm...">
     <meta name="twitter:description" content="CEIT (Computer Education and Instructional Teaching), bölümü eğitim fakültelerinin yeniden yapılandırılma sürecinde 1998 yılında kurulmuştur. Bölüm...">
     <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://bote.web.tr/#org", "name": "BÖTE", "url": "https://bote.web.tr/", "logo": "https://bote.web.tr/assets/img/educator-logo1.png"}, {"@type": "WebSite", "@id": "https://bote.web.tr/#site", "url": "https://bote.web.tr/", "name": "BÖTE", "inLanguage": "tr-TR", "publisher": {"@id": "https://bote.web.tr/#org"}}]}</script>
+    <style>
+        /* "Yeni" rozeti (Ahmet 07.11): blog menüsündeki rozetin eşi, düz marka pembesi, gölge yok. */
+        /* Rozet yazının sağ üstünde, genişlik eklemez; 6 öğe tek satıra sığsın diye aralık 20 px yerine 15 px (1200 px altı 10 yerine 7). */
+        .nav-yeni{position:absolute;top:-6px;right:-22px;padding:2px 5px;border-radius:999px;background:#C8205F;color:#fff;font-size:9px;font-weight:700;line-height:1.2;letter-spacing:.03em}
+        .slicknav_nav .nav-yeni{position:static;margin-left:6px;vertical-align:middle}
+        .site-header .main-navigation #navigation > ul > li{padding:0 15px}
+        .site-header .main-navigation #navigation > ul > li.nav-simulasyon{padding-right:30px}
+        @media screen and (max-width:1199px){
+            .site-header .main-navigation #navigation > ul > li{padding:0 7px}
+            .site-header .main-navigation #navigation > ul > li.nav-simulasyon{padding-right:26px}
+            .site-header .main-navigation #navigation > ul > li > a{font-size:14px}
+        }
+    </style>
 </head>
 
 
@@ -226,6 +239,10 @@
                                               </ul>
                                     </li>
  
+                                    <li class="nav-simulasyon">
+                                        <a href="/3d" target="_blank" rel="noopener">SİMÜLASYON <span class="nav-yeni">YENİ</span></a>
+                                    </li>
+
                                     <li class="menu-item-has-children">
                                         <a href="#">İLETİŞİM</a>
                                         <ul>
