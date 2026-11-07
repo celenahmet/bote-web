@@ -142,6 +142,7 @@
 
 ## Eğitim Teknolojileri
 
+- [EVREN Nedir? Yerli Yapay Zeka Platformu](https://bote.web.tr/blog/evren-nedir.md): EVREN nedir? SSB'nin e-Devlet ile girilen yerli yapay zekâ platformu: veri etiketleme, H200 kümesinde model eğitimi, dil modeli API'si, kredi sistemi, veri etiği. (2026-11-07)
 - [Algoritma ve Akış Şeması: Örneklerle BTY Konu Anlatımı](https://bote.web.tr/blog/algoritma-ve-akis-semasi.md): Algoritma nedir, akış şeması nasıl çizilir? Akış şeması sembolleri, sıralı, karar ve döngü yapıları, günlük hayattan örnekler ve BTY 5. sınıf kazanımları. (2026-10-31)
 - [Bilgisayar Ağları Nedir? Kablolu ve Kablosuz Bağlantı](https://bote.web.tr/blog/bilgisayar-aglari-nedir.md): Bilgisayar ağı nedir, ağ bileşenleri nelerdir? Kablolu ve kablosuz bağlantı, Wi-Fi, Bluetooth, modem, internet adresi; BTY 5. sınıf ağlar teması. (2026-10-31)
 - [Bit ve Byte Nedir? Bellek Birimleri ve Donanım](https://bote.web.tr/blog/bit-byte-nedir.md): Bit ve byte nedir, 1 KB kaç byte? Bellek birimleri sıralaması (KB, MB, GB, TB), donanım ve yazılım, giriş-çıkış birimleri ve depolama; BTY 5. sınıf konusu. (2026-10-31)

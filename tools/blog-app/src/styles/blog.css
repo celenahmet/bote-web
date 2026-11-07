@@ -953,7 +953,8 @@ a.pill:hover{color:var(--c,var(--pink));filter:saturate(1.3)}
 .entry-promo .store{flex:0 1 140px;min-width:0}
 .entry-promo .store img{width:100%;height:auto;max-height:42px;object-fit:contain}
 .entry-promo .uc-btn{display:flex;justify-content:center;border-radius:12px;min-height:46px}
-@media(max-width:420px){.entry-promo{padding:20px;border-radius:20px}.entry-promo h2{font-size:22px}.entry-promo .promo-logo img{width:165px}.entry-promo .store{flex:1 1 0}.entry-promo-benefits li{padding:12px;gap:10px}}
+.entry-promo-actions{position:sticky;bottom:-28px;z-index:1;margin:0 -28px -28px;padding:16px 28px 28px;background:var(--surface);border-top:1px solid var(--line)}
+@media(max-width:420px){.entry-promo{padding:20px;border-radius:20px}.entry-promo-actions{bottom:-20px;margin:0 -20px -20px;padding:14px 20px 20px}.entry-promo h2{font-size:22px}.entry-promo .promo-logo img{width:165px}.entry-promo .store{flex:1 1 0}.entry-promo-benefits li{padding:12px;gap:10px}}
 
 /* PDF kutuphanesi: belirgin arama, konu filtreleri ve okunabilir belge bilgisi. */
 .pdf-library-head{padding-block:30px 0}

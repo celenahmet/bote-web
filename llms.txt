@@ -10,6 +10,7 @@
 ## Blog
 
 - [BÖTE Blog](https://bote.web.tr/blog): Bilgisayar ve Öğretim Teknolojileri Eğitimi (BÖTE) bölümü, eğitim fakülteleri, öğretmenliğe giden yol ve eğitim teknolojileri üzerine rehber yazılar.
+- [EVREN Nedir? Yerli Yapay Zeka Platformu](https://bote.web.tr/blog/evren-nedir.md): EVREN nedir? SSB'nin e-Devlet ile girilen yerli yapay zekâ platformu: veri etiketleme, H200 kümesinde model eğitimi, dil modeli API'si, kredi sistemi, veri etiği. (Eğitim Teknolojileri, 2026-11-07)
 - [1739 Sayılı Kanun: Millî Eğitimin Temel İlkeleri ve Amaçları](https://bote.web.tr/blog/1739-sayili-kanun.md): 1739 sayılı Millî Eğitim Temel Kanunu: genel amaçlar (madde 2), 14 temel ilke (madde 4-17), sonraki değişiklikler ve AGS mevzuat testindeki yeri. (Eğitim Fakültesi, 2026-11-01)
 - [4+4+4 Eğitim Sistemi Nedir? Kademeler ve Zorunlu Eğitim](https://bote.web.tr/blog/4-4-4-egitim-sistemi.md): 4+4+4 eğitim sistemi nedir, ne zaman geldi, değişiyor mu? 6287 sayılı Kanun madde madde, 8 yıllık kesintisiz eğitimle fark ve yıllara göre okullaşma. (Eğitim Bilimleri ve Kuramlar, 2026-11-01)
 - [Eğitim Felsefeleri Nelerdir? Akımlar, Temsilciler, Sınıf](https://bote.web.tr/blog/egitim-felsefeleri.md): Eğitim felsefeleri: daimicilik, esasicilik, ilerlemecilik, yeniden kurmacılık, varoluşçuluk; temsilciler, kanıt, Türkiye çalışmaları ve AGS bağlantısı. (Eğitim Bilimleri ve Kuramlar, 2026-11-01)
